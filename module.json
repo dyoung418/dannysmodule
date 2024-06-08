@@ -1,0 +1,136 @@
+{
+  "id": "dannysmodule",
+  "title": "Dannys_module",
+  "version": "1.0.0",
+  "compatibility": {
+    "minimum": "10",
+    "verified": "12"
+  },
+  "description": "holds my favorite scenes, journals, macros, etc.  Useful for moving between worlds",
+  "authors": [
+    {
+      "name": "Danny Young",
+      "email": "day@youngshome.com",
+      "discord": "dyoung418#0001",
+      "flags": {}
+    }
+  ],
+  "packs": [
+    {
+      "name": "actors-pf2e",
+      "label": "DAY Actors PF2e",
+      "path": "packs/actors-pf2e",
+      "type": "Actor",
+      "system": "pf2e",
+      "ownership": {
+        "PLAYER": "OBSERVER",
+        "ASSISTANT": "OWNER"
+      }
+    },
+    {
+      "name": "actors-dnd5e",
+      "label": "DAY Actors dnd5e",
+      "path": "packs/actors-dnd5e",
+      "type": "Actor",
+      "system": "dnd5e",
+      "ownership": {
+        "PLAYER": "OBSERVER",
+        "ASSISTANT": "OWNER"
+      }
+    },
+    {
+      "name": "day-scenes",
+      "label": "DAY Scenes",
+      "path": "packs/day-scenes",
+      "type": "Scene",
+      "ownership": {
+        "PLAYER": "OBSERVER",
+        "ASSISTANT": "OWNER"
+      }
+    },
+    {
+      "name": "day-macros",
+      "label": "DAY Macros",
+      "path": "packs/day-macros",
+      "type": "Macro",
+      "ownership": {
+        "PLAYER": "OBSERVER",
+        "ASSISTANT": "OWNER"
+      }
+    },
+    {
+      "name": "day-rolltables",
+      "label": "DAY Rolltables",
+      "path": "packs/day-rolltables",
+      "type": "RollTable",
+      "ownership": {
+        "PLAYER": "OBSERVER",
+        "ASSISTANT": "OWNER"
+      }
+    },
+    {
+      "name": "day-journals",
+      "label": "DAY Journals",
+      "path": "packs/day-journals",
+      "type": "JournalEntry",
+      "ownership": {
+        "PLAYER": "OBSERVER",
+        "ASSISTANT": "OWNER"
+      }
+    },
+    {
+      "name": "day-items",
+      "label": "DAY Items PF2e",
+      "path": "packs/day-items",
+      "type": "Item",
+      "system": "pf2e",
+      "ownership": {
+        "PLAYER": "OBSERVER",
+        "ASSISTANT": "OWNER"
+      }
+    },
+    {
+      "name": "day-playlists",
+      "label": "DAY Playlists",
+      "path": "packs/day-playlists",
+      "type": "Playlist",
+      "ownership": {
+        "PLAYER": "OBSERVER",
+        "ASSISTANT": "OWNER"
+      }
+    },
+    {
+      "name": "day-adventures-pf2e",
+      "label": "DAY Adventures PF2e",
+      "path": "packs/day-adventures-pf2e",
+      "type": "Adventure",
+      "system": "pf2e",
+      "ownership": {
+        "PLAYER": "OBSERVER",
+        "ASSISTANT": "OWNER"
+      }
+    },
+    {
+      "name": "day-items-dnd5e",
+      "label": "DAY Items dnd5e",
+      "path": "packs/day-items-dnd5e",
+      "type": "Item",
+      "system": "dnd5e",
+      "ownership": {
+        "PLAYER": "OBSERVER",
+        "ASSISTANT": "OWNER"
+      }
+    },
+    {
+      "name": "day-adventures-dnd5e",
+      "label": "DAY Adventures dnd5e",
+      "path": "packs/day-adventures-dnd5e",
+      "type": "Adventure",
+      "system": "dnd5e",
+      "ownership": {
+        "PLAYER": "OBSERVER",
+        "ASSISTANT": "OWNER"
+      }
+    }
+  ]
+}
