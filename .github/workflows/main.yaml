@@ -81,7 +81,7 @@ jobs:
       - name: Commit CHANGELOG.md
         uses: stefanzweifel/git-auto-commit-action@v5
         with:
-          branch: master
+          branch: main
           commit_message: 'docs: update CHANGELOG.md for ${{ github.ref_name }} [skip ci]'
           file_pattern: CHANGELOG.md
 
@@ -130,14 +130,9 @@ jobs:
             `# The files that will be included.` \
             module.json                          \
             README.md                            \
-            LICENSE                              \
-            templates/                           \
-            scripts/                             \
-            styles/                              \
+            CHANGELOG.md                         \
             packs/                               \
-            languages/                           \
-            mappings/                            \
-            lang/
+            assets/
           # Don't forget to add a backslash at the end of the line for any
           # additional files or directories!
 
