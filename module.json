@@ -67,7 +67,7 @@
       }
     },
     {
-      "name": "actors-pf2e",
+      "name": "day-actors-pf2e",
       "label": "DAY Actors PF2e",
       "path": "packs/day-actors-pf2e",
       "type": "Actor",
@@ -78,7 +78,7 @@
       }
     },
     {
-      "name": "actors-dnd5e",
+      "name": "day-actors-dnd5e",
       "label": "DAY Actors dnd5e",
       "path": "packs/day-actors-dnd5e",
       "type": "Actor",
@@ -89,7 +89,7 @@
       }
     },
     {
-      "name": "day-items",
+      "name": "day-items-pf2e",
       "label": "DAY Items PF2e",
       "path": "packs/day-items-pf2e",
       "type": "Item",
