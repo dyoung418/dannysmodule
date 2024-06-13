@@ -75,7 +75,7 @@
     {
       "name": "actors-pf2e",
       "label": "DAY Actors PF2e",
-      "path": "packs/actors-pf2e",
+      "path": "packs/day-actors-pf2e",
       "type": "Actor",
       "system": "pf2e",
       "ownership": {
@@ -86,7 +86,7 @@
     {
       "name": "day-items",
       "label": "DAY Items PF2e",
-      "path": "packs/day-items",
+      "path": "packs/day-items-pf2e",
       "type": "Item",
       "system": "pf2e",
       "ownership": {
@@ -96,7 +96,7 @@
     },
     {
       "name": "day-character-pf2e",
-      "label": "DAY Items PF2e",
+      "label": "DAY Character Options PF2e",
       "path": "packs/day-character-pf2e",
       "type": "Item",
       "system": "pf2e",
@@ -119,7 +119,7 @@
     {
       "name": "actors-dnd5e",
       "label": "DAY Actors dnd5e",
-      "path": "packs/actors-dnd5e",
+      "path": "packs/day-actors-dnd5e",
       "type": "Actor",
       "system": "dnd5e",
       "ownership": {
@@ -164,16 +164,16 @@
   "packFolders": [
       {
           "name": "Danny's Module",
-          "color": "#344358",
+          "color": "#344858",
           "sorting": "m",
           "packs": [
               "day-adventures-pf2e",
               "day-adventures-dnd5e",
               "day-character-dnd5e",
               "day-character-pf2e",
-              "actors-pf2e",
-              "actors-dnd5e",
-              "day-items",
+              "day-actors-pf2e",
+              "day-actors-dnd5e",
+              "day-items-pf2e",
               "day-items-dnd5e",
               "day-scenes",
               "day-macros",
