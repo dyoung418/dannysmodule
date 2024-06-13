@@ -18,29 +18,10 @@
   "url": "#{URL}#",
   "manifest": "#{MANIFEST}#",
   "download": "#{DOWNLOAD}#",
+  "esmodules": [
+      "scripts/hello.js"
+  ],
   "packs": [
-    {
-      "name": "actors-pf2e",
-      "label": "DAY Actors PF2e",
-      "path": "packs/actors-pf2e",
-      "type": "Actor",
-      "system": "pf2e",
-      "ownership": {
-        "PLAYER": "OBSERVER",
-        "ASSISTANT": "OWNER"
-      }
-    },
-    {
-      "name": "actors-dnd5e",
-      "label": "DAY Actors dnd5e",
-      "path": "packs/actors-dnd5e",
-      "type": "Actor",
-      "system": "dnd5e",
-      "ownership": {
-        "PLAYER": "OBSERVER",
-        "ASSISTANT": "OWNER"
-      }
-    },
     {
       "name": "day-scenes",
       "label": "DAY Scenes",
@@ -62,10 +43,10 @@
       }
     },
     {
-      "name": "day-rolltables",
-      "label": "DAY Rolltables",
-      "path": "packs/day-rolltables",
-      "type": "RollTable",
+      "name": "day-playlists",
+      "label": "DAY Playlists",
+      "path": "packs/day-playlists",
+      "type": "Playlist",
       "ownership": {
         "PLAYER": "OBSERVER",
         "ASSISTANT": "OWNER"
@@ -76,6 +57,27 @@
       "label": "DAY Journals",
       "path": "packs/day-journals",
       "type": "JournalEntry",
+      "ownership": {
+        "PLAYER": "OBSERVER",
+        "ASSISTANT": "OWNER"
+      }
+    },
+    {
+      "name": "day-rolltables",
+      "label": "DAY Rolltables",
+      "path": "packs/day-rolltables",
+      "type": "RollTable",
+      "ownership": {
+        "PLAYER": "OBSERVER",
+        "ASSISTANT": "OWNER"
+      }
+    },
+    {
+      "name": "actors-pf2e",
+      "label": "DAY Actors PF2e",
+      "path": "packs/actors-pf2e",
+      "type": "Actor",
+      "system": "pf2e",
       "ownership": {
         "PLAYER": "OBSERVER",
         "ASSISTANT": "OWNER"
@@ -93,10 +95,11 @@
       }
     },
     {
-      "name": "day-playlists",
-      "label": "DAY Playlists",
-      "path": "packs/day-playlists",
-      "type": "Playlist",
+      "name": "day-character-pf2e",
+      "label": "DAY Items PF2e",
+      "path": "packs/day-character-pf2e",
+      "type": "Item",
+      "system": "pf2e",
       "ownership": {
         "PLAYER": "OBSERVER",
         "ASSISTANT": "OWNER"
@@ -114,9 +117,31 @@
       }
     },
     {
+      "name": "actors-dnd5e",
+      "label": "DAY Actors dnd5e",
+      "path": "packs/actors-dnd5e",
+      "type": "Actor",
+      "system": "dnd5e",
+      "ownership": {
+        "PLAYER": "OBSERVER",
+        "ASSISTANT": "OWNER"
+      }
+    },
+    {
       "name": "day-items-dnd5e",
       "label": "DAY Items dnd5e",
       "path": "packs/day-items-dnd5e",
+      "type": "Item",
+      "system": "dnd5e",
+      "ownership": {
+        "PLAYER": "OBSERVER",
+        "ASSISTANT": "OWNER"
+      }
+    },
+    {
+      "name": "day-character-dnd5e",
+      "label": "DAY Character Options dnd5e",
+      "path": "packs/day-character-dnd5e",
       "type": "Item",
       "system": "dnd5e",
       "ownership": {
@@ -135,5 +160,27 @@
         "ASSISTANT": "OWNER"
       }
     }
+  ],
+  "packFolders": [
+      {
+          "name": "Danny's Module",
+          "color": "#344358",
+          "sorting": "m",
+          "packs": [
+              "day-adventures-pf2e",
+              "day-adventures-dnd5e",
+              "day-character-dnd5e",
+              "day-character-pf2e",
+              "actors-pf2e",
+              "actors-dnd5e",
+              "day-items",
+              "day-items-dnd5e",
+              "day-scenes",
+              "day-macros",
+              "day-rolltables",
+              "day-journals",
+              "day-playlists"
+          ]
+      }
   ]
 }

@@ -1,3 +1,8 @@
-2024/06/09-13:47:19.105 bdf4 Recovering log #142
-2024/06/09-13:47:19.108 bdf4 Delete type=0 #142
-2024/06/09-13:47:19.108 bdf4 Delete type=3 #141
+2024/06/13-05:39:04.725 54e8 Recovering log #144
+2024/06/13-05:39:04.728 54e8 Delete type=0 #144
+2024/06/13-05:39:04.728 54e8 Delete type=3 #143
+2024/06/13-05:52:52.286 2ae4 Level-0 table #148: started
+2024/06/13-05:52:52.286 2ae4 Level-0 table #148: 0 bytes OK
+2024/06/13-05:52:52.287 2ae4 Delete type=0 #146
+2024/06/13-05:52:52.291 2ae4 Manual compaction at level-0 from '!actors!01TxjJk1PolywTB9' @ 72057594037927935 : 1 .. '!folders!ypvEsRJxpD1bAvh8' @ 0 : 0; will stop at (end)
+2024/06/13-05:52:52.300 2ae4 Manual compaction at level-1 from '!actors!01TxjJk1PolywTB9' @ 72057594037927935 : 1 .. '!folders!ypvEsRJxpD1bAvh8' @ 0 : 0; will stop at (end)
