@@ -1,7 +1,7 @@
-2024/06/11-09:12:18.515 ace4 Recovering log #1112
-2024/06/11-09:12:18.521 ace4 Delete type=0 #1112
-2024/06/11-09:12:18.521 ace4 Delete type=3 #1110
-2024/06/11-13:00:43.568 7838 Level-0 table #1117: started
-2024/06/11-13:00:43.568 7838 Level-0 table #1117: 0 bytes OK
-2024/06/11-13:00:43.569 7838 Delete type=0 #1115
-2024/06/11-13:00:43.570 7838 Manual compaction at level-0 from '!folders!1XrfuqzpstOwCTFI' @ 72057594037927935 : 1 .. '!macros!skRtiOIPZgGAww7v' @ 0 : 0; will stop at (end)
+2024/06/11-21:20:47.207 bed0 Recovering log #1120
+2024/06/11-21:20:47.211 bed0 Delete type=0 #1120
+2024/06/11-21:20:47.211 bed0 Delete type=3 #1118
+2024/06/11-21:25:33.797 7838 Level-0 table #1126: started
+2024/06/11-21:25:33.797 7838 Level-0 table #1126: 0 bytes OK
+2024/06/11-21:25:33.798 7838 Delete type=0 #1124
+2024/06/11-21:25:33.800 7838 Manual compaction at level-0 from '!folders!1XrfuqzpstOwCTFI' @ 72057594037927935 : 1 .. '!macros!skRtiOIPZgGAww7v' @ 0 : 0; will stop at (end)
