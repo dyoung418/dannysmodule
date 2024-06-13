@@ -23,6 +23,94 @@
   ],
   "packs": [
     {
+      "name": "day-adventures-pf2e",
+      "label": "DAY Adventures PF2e",
+      "path": "packs/day-adventures-pf2e",
+      "type": "Adventure",
+      "system": "pf2e",
+      "ownership": {
+        "PLAYER": "OBSERVER",
+        "ASSISTANT": "OWNER"
+      }
+    },
+    {
+      "name": "day-adventures-dnd5e",
+      "label": "DAY Adventures dnd5e",
+      "path": "packs/day-adventures-dnd5e",
+      "type": "Adventure",
+      "system": "dnd5e",
+      "ownership": {
+        "PLAYER": "OBSERVER",
+        "ASSISTANT": "OWNER"
+      }
+    },
+    {
+      "name": "day-character-pf2e",
+      "label": "DAY Character Options PF2e",
+      "path": "packs/day-character-pf2e",
+      "type": "Item",
+      "system": "pf2e",
+      "ownership": {
+        "PLAYER": "OBSERVER",
+        "ASSISTANT": "OWNER"
+      }
+    },
+    {
+      "name": "day-character-dnd5e",
+      "label": "DAY Character Options dnd5e",
+      "path": "packs/day-character-dnd5e",
+      "type": "Item",
+      "system": "dnd5e",
+      "ownership": {
+        "PLAYER": "OBSERVER",
+        "ASSISTANT": "OWNER"
+      }
+    },
+    {
+      "name": "actors-pf2e",
+      "label": "DAY Actors PF2e",
+      "path": "packs/day-actors-pf2e",
+      "type": "Actor",
+      "system": "pf2e",
+      "ownership": {
+        "PLAYER": "OBSERVER",
+        "ASSISTANT": "OWNER"
+      }
+    },
+    {
+      "name": "actors-dnd5e",
+      "label": "DAY Actors dnd5e",
+      "path": "packs/day-actors-dnd5e",
+      "type": "Actor",
+      "system": "dnd5e",
+      "ownership": {
+        "PLAYER": "OBSERVER",
+        "ASSISTANT": "OWNER"
+      }
+    },
+    {
+      "name": "day-items",
+      "label": "DAY Items PF2e",
+      "path": "packs/day-items-pf2e",
+      "type": "Item",
+      "system": "pf2e",
+      "ownership": {
+        "PLAYER": "OBSERVER",
+        "ASSISTANT": "OWNER"
+      }
+    },
+    {
+      "name": "day-items-dnd5e",
+      "label": "DAY Items dnd5e",
+      "path": "packs/day-items-dnd5e",
+      "type": "Item",
+      "system": "dnd5e",
+      "ownership": {
+        "PLAYER": "OBSERVER",
+        "ASSISTANT": "OWNER"
+      }
+    },
+    {
       "name": "day-scenes",
       "label": "DAY Scenes",
       "path": "packs/day-scenes",
@@ -71,94 +159,6 @@
         "PLAYER": "OBSERVER",
         "ASSISTANT": "OWNER"
       }
-    },
-    {
-      "name": "actors-pf2e",
-      "label": "DAY Actors PF2e",
-      "path": "packs/day-actors-pf2e",
-      "type": "Actor",
-      "system": "pf2e",
-      "ownership": {
-        "PLAYER": "OBSERVER",
-        "ASSISTANT": "OWNER"
-      }
-    },
-    {
-      "name": "day-items",
-      "label": "DAY Items PF2e",
-      "path": "packs/day-items-pf2e",
-      "type": "Item",
-      "system": "pf2e",
-      "ownership": {
-        "PLAYER": "OBSERVER",
-        "ASSISTANT": "OWNER"
-      }
-    },
-    {
-      "name": "day-character-pf2e",
-      "label": "DAY Character Options PF2e",
-      "path": "packs/day-character-pf2e",
-      "type": "Item",
-      "system": "pf2e",
-      "ownership": {
-        "PLAYER": "OBSERVER",
-        "ASSISTANT": "OWNER"
-      }
-    },
-    {
-      "name": "day-adventures-pf2e",
-      "label": "DAY Adventures PF2e",
-      "path": "packs/day-adventures-pf2e",
-      "type": "Adventure",
-      "system": "pf2e",
-      "ownership": {
-        "PLAYER": "OBSERVER",
-        "ASSISTANT": "OWNER"
-      }
-    },
-    {
-      "name": "actors-dnd5e",
-      "label": "DAY Actors dnd5e",
-      "path": "packs/day-actors-dnd5e",
-      "type": "Actor",
-      "system": "dnd5e",
-      "ownership": {
-        "PLAYER": "OBSERVER",
-        "ASSISTANT": "OWNER"
-      }
-    },
-    {
-      "name": "day-items-dnd5e",
-      "label": "DAY Items dnd5e",
-      "path": "packs/day-items-dnd5e",
-      "type": "Item",
-      "system": "dnd5e",
-      "ownership": {
-        "PLAYER": "OBSERVER",
-        "ASSISTANT": "OWNER"
-      }
-    },
-    {
-      "name": "day-character-dnd5e",
-      "label": "DAY Character Options dnd5e",
-      "path": "packs/day-character-dnd5e",
-      "type": "Item",
-      "system": "dnd5e",
-      "ownership": {
-        "PLAYER": "OBSERVER",
-        "ASSISTANT": "OWNER"
-      }
-    },
-    {
-      "name": "day-adventures-dnd5e",
-      "label": "DAY Adventures dnd5e",
-      "path": "packs/day-adventures-dnd5e",
-      "type": "Adventure",
-      "system": "dnd5e",
-      "ownership": {
-        "PLAYER": "OBSERVER",
-        "ASSISTANT": "OWNER"
-      }
     }
   ],
   "packFolders": [
@@ -169,17 +169,17 @@
           "packs": [
               "day-adventures-pf2e",
               "day-adventures-dnd5e",
-              "day-character-dnd5e",
               "day-character-pf2e",
+              "day-character-dnd5e",
               "day-actors-pf2e",
               "day-actors-dnd5e",
               "day-items-pf2e",
               "day-items-dnd5e",
               "day-scenes",
               "day-macros",
-              "day-rolltables",
+              "day-playlists",
               "day-journals",
-              "day-playlists"
+              "day-rolltables"
           ]
       }
   ]
