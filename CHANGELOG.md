@@ -1,5 +1,12 @@
 
 
+## [v1.0.8] - 2024-06-18
+### :sparkles: New Features
+- [`2d5ae52`](https://github.com/dyoung418/dannysmodule/commit/2d5ae523beb226231b54005bfb22899593b9f6ed) - Added draft of kingdom turn automation macro *(commit by [@dyoung418](https://github.com/dyoung418))*
+- [`2e03611`](https://github.com/dyoung418/dannysmodule/commit/2e036113195539500875a45a57b235c10b20e42e) - added kingdom items and progress on kingdom turn automation macro *(commit by [@dyoung418](https://github.com/dyoung418))*
+- [`6d0cbfd`](https://github.com/dyoung418/dannysmodule/commit/6d0cbfdc61f24431d40c6d4b87ba25d1794f84b2) - kingdom turn macro now with grid of options *(commit by [@dyoung418](https://github.com/dyoung418))*
+
+
 ## [v1.0.7] - 2024-06-14
 ### :sparkles: New Features
 - [`d21b255`](https://github.com/dyoung418/dannysmodule/commit/d21b25524b29f711e4222474ec6f8153dcc6bfb0) - added Canon actor in pf2 *(commit by [@dyoung418](https://github.com/dyoung418))*
@@ -18,3 +25,4 @@
 [v1.0.3]: https://github.com/dyoung418/dannysmodule/compare/v1.0.2...v1.0.3
 [v1.0.5]: https://github.com/dyoung418/dannysmodule/compare/v1.0.4...v1.0.5
 [v1.0.7]: https://github.com/dyoung418/dannysmodule/compare/v1.0.6...v1.0.7
+[v1.0.8]: https://github.com/dyoung418/dannysmodule/compare/v1.0.7...v1.0.8
