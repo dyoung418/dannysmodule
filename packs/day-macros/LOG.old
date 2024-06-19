@@ -1,14 +1,14 @@
-2024/06/17-09:13:55.509 c16c Recovering log #1257
-2024/06/17-09:13:55.512 c16c Delete type=0 #1257
-2024/06/17-09:13:55.513 c16c Delete type=3 #1255
-2024/06/17-17:51:42.693 5f88 Level-0 table #1262: started
-2024/06/17-17:51:42.695 5f88 Level-0 table #1262: 18856 bytes OK
-2024/06/17-17:51:42.696 5f88 Delete type=0 #1260
-2024/06/17-17:51:42.699 5f88 Manual compaction at level-0 from '!folders!1XrfuqzpstOwCTFI' @ 72057594037927935 : 1 .. '!macros!skRtiOIPZgGAww7v' @ 0 : 0; will stop at '!macros!skRtiOIPZgGAww7v' @ 212 : 1
-2024/06/17-17:51:42.699 5f88 Compacting 1@0 + 1@1 files
-2024/06/17-17:51:42.701 5f88 Generated table #1263@0: 16 keys, 14213 bytes
-2024/06/17-17:51:42.701 5f88 Compacted 1@0 + 1@1 files => 14213 bytes
-2024/06/17-17:51:42.702 5f88 compacted to: files[ 0 1 0 0 0 0 0 ]
-2024/06/17-17:51:42.703 5f88 Delete type=2 #1254
-2024/06/17-17:51:42.703 5f88 Delete type=2 #1262
-2024/06/17-17:51:42.704 5f88 Manual compaction at level-0 from '!macros!skRtiOIPZgGAww7v' @ 212 : 1 .. '!macros!skRtiOIPZgGAww7v' @ 0 : 0; will stop at (end)
+2024/06/17-17:53:10.739 4164 Recovering log #1261
+2024/06/17-17:53:10.743 4164 Delete type=0 #1261
+2024/06/17-17:53:10.743 4164 Delete type=3 #1259
+2024/06/17-22:53:38.602 5f88 Level-0 table #1267: started
+2024/06/17-22:53:38.604 5f88 Level-0 table #1267: 37219 bytes OK
+2024/06/17-22:53:38.605 5f88 Delete type=0 #1265
+2024/06/17-22:53:38.608 5f88 Manual compaction at level-0 from '!folders!1XrfuqzpstOwCTFI' @ 72057594037927935 : 1 .. '!macros!skRtiOIPZgGAww7v' @ 0 : 0; will stop at '!macros!skRtiOIPZgGAww7v' @ 228 : 1
+2024/06/17-22:53:38.608 5f88 Compacting 1@0 + 1@1 files
+2024/06/17-22:53:38.610 5f88 Generated table #1268@0: 16 keys, 15093 bytes
+2024/06/17-22:53:38.610 5f88 Compacted 1@0 + 1@1 files => 15093 bytes
+2024/06/17-22:53:38.612 5f88 compacted to: files[ 0 1 0 0 0 0 0 ]
+2024/06/17-22:53:38.612 5f88 Delete type=2 #1263
+2024/06/17-22:53:38.612 5f88 Delete type=2 #1267
+2024/06/17-22:53:38.614 5f88 Manual compaction at level-0 from '!macros!skRtiOIPZgGAww7v' @ 228 : 1 .. '!macros!skRtiOIPZgGAww7v' @ 0 : 0; will stop at (end)
