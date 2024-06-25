@@ -1,5 +1,15 @@
 
 
+## [v1.0.9] - 2024-06-25
+### :sparkles: New Features
+- [`7b02981`](https://github.com/dyoung418/dannysmodule/commit/7b029816a8313561cae6c9e1e1e0948c6ead4b62) - added rolldata macro *(commit by [@dyoung418](https://github.com/dyoung418))*
+- [`86f33c5`](https://github.com/dyoung418/dannysmodule/commit/86f33c5b297bb3cc1a69ede4287d48d41973a9e3) - updated kingdom macro to show long summary at end.  Added Kingdom effect for collect taxes *(commit by [@dyoung418](https://github.com/dyoung418))*
+- [`59a16d7`](https://github.com/dyoung418/dannysmodule/commit/59a16d777697f846e5c06a9ae94d68c5ed46ed00) - added some kingdom actions to the macro and added kingdom effect items *(commit by [@dyoung418](https://github.com/dyoung418))*
+
+### :bug: Bug Fixes
+- [`cead846`](https://github.com/dyoung418/dannysmodule/commit/cead846721eee2b1ebbbbb1d3f24f9e42b771460) - added quell unrest to kingdom turn macro *(commit by [@dyoung418](https://github.com/dyoung418))*
+
+
 ## [v1.0.8] - 2024-06-18
 ### :sparkles: New Features
 - [`2d5ae52`](https://github.com/dyoung418/dannysmodule/commit/2d5ae523beb226231b54005bfb22899593b9f6ed) - Added draft of kingdom turn automation macro *(commit by [@dyoung418](https://github.com/dyoung418))*
@@ -26,3 +36,4 @@
 [v1.0.5]: https://github.com/dyoung418/dannysmodule/compare/v1.0.4...v1.0.5
 [v1.0.7]: https://github.com/dyoung418/dannysmodule/compare/v1.0.6...v1.0.7
 [v1.0.8]: https://github.com/dyoung418/dannysmodule/compare/v1.0.7...v1.0.8
+[v1.0.9]: https://github.com/dyoung418/dannysmodule/compare/v1.0.8...v1.0.9
