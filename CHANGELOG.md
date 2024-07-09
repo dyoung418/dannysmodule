@@ -1,5 +1,13 @@
 
 
+## [v1.0.11] - 2024-07-09
+### :sparkles: New Features
+- [`6f57ff8`](https://github.com/dyoung418/dannysmodule/commit/6f57ff8ed05a440df303e2b8e9b4eef63e17fd0d) - added toggle dice configuration *(commit by [@dyoung418](https://github.com/dyoung418))*
+- [`c3d6070`](https://github.com/dyoung418/dannysmodule/commit/c3d60705451794f9159b64a4a2e6daff04763db8) - added Toggle Effect on Selected Token macro *(commit by [@dyoung418](https://github.com/dyoung418))*
+- [`2d840f8`](https://github.com/dyoung418/dannysmodule/commit/2d840f811414d6ba401ff3a5761f347c16b4224b) - added supernatural solution to kingdom action macro *(commit by [@dyoung418](https://github.com/dyoung418))*
+- [`2bccde8`](https://github.com/dyoung418/dannysmodule/commit/2bccde84c0d15101e6a61f795961d40a855bfbc3) - added toggle for manual d20 rolls and toggle for effects on an active token *(commit by [@dyoung418](https://github.com/dyoung418))*
+
+
 ## [v1.0.9] - 2024-06-25
 ### :sparkles: New Features
 - [`7b02981`](https://github.com/dyoung418/dannysmodule/commit/7b029816a8313561cae6c9e1e1e0948c6ead4b62) - added rolldata macro *(commit by [@dyoung418](https://github.com/dyoung418))*
@@ -37,3 +45,4 @@
 [v1.0.7]: https://github.com/dyoung418/dannysmodule/compare/v1.0.6...v1.0.7
 [v1.0.8]: https://github.com/dyoung418/dannysmodule/compare/v1.0.7...v1.0.8
 [v1.0.9]: https://github.com/dyoung418/dannysmodule/compare/v1.0.8...v1.0.9
+[v1.0.11]: https://github.com/dyoung418/dannysmodule/compare/v1.0.10...v1.0.11
