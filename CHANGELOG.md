@@ -1,5 +1,11 @@
 
 
+## [v1.0.12] - 2024-07-15
+### :sparkles: New Features
+- [`93b23ec`](https://github.com/dyoung418/dannysmodule/commit/93b23ece6d60867eb06af220ce34bcc571b1b6aa) - added Secret Checks macro *(commit by [@dyoung418](https://github.com/dyoung418))*
+- [`99f0eec`](https://github.com/dyoung418/dannysmodule/commit/99f0eec734ab4e5a8b32e6ff05a4c60f075a1a8f) - added Send Skill/ST to Chat *(commit by [@dyoung418](https://github.com/dyoung418))*
+
+
 ## [v1.0.11] - 2024-07-09
 ### :sparkles: New Features
 - [`6f57ff8`](https://github.com/dyoung418/dannysmodule/commit/6f57ff8ed05a440df303e2b8e9b4eef63e17fd0d) - added toggle dice configuration *(commit by [@dyoung418](https://github.com/dyoung418))*
@@ -46,3 +52,4 @@
 [v1.0.8]: https://github.com/dyoung418/dannysmodule/compare/v1.0.7...v1.0.8
 [v1.0.9]: https://github.com/dyoung418/dannysmodule/compare/v1.0.8...v1.0.9
 [v1.0.11]: https://github.com/dyoung418/dannysmodule/compare/v1.0.10...v1.0.11
+[v1.0.12]: https://github.com/dyoung418/dannysmodule/compare/v1.0.11...v1.0.12
