@@ -1,5 +1,10 @@
 
 
+## [v1.0.13] - 2024-07-28
+### :sparkles: New Features
+- [`3a44c84`](https://github.com/dyoung418/dannysmodule/commit/3a44c8418ec3338d2f09cb01388754c664cb3d22) - added playlists and audio sources to assets; added small inn scene *(commit by [@dyoung418](https://github.com/dyoung418))*
+
+
 ## [v1.0.12] - 2024-07-15
 ### :sparkles: New Features
 - [`93b23ec`](https://github.com/dyoung418/dannysmodule/commit/93b23ece6d60867eb06af220ce34bcc571b1b6aa) - added Secret Checks macro *(commit by [@dyoung418](https://github.com/dyoung418))*
@@ -53,3 +58,4 @@
 [v1.0.9]: https://github.com/dyoung418/dannysmodule/compare/v1.0.8...v1.0.9
 [v1.0.11]: https://github.com/dyoung418/dannysmodule/compare/v1.0.10...v1.0.11
 [v1.0.12]: https://github.com/dyoung418/dannysmodule/compare/v1.0.11...v1.0.12
+[v1.0.13]: https://github.com/dyoung418/dannysmodule/compare/v1.0.12...v1.0.13
