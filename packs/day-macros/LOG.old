@@ -1,7 +1,7 @@
-2024/07/27-16:42:16.993 a2e8 Recovering log #1501
-2024/07/27-16:42:16.996 a2e8 Delete type=0 #1501
-2024/07/27-16:42:16.996 a2e8 Delete type=3 #1499
-2024/07/27-16:42:30.479 4fd4 Level-0 table #1506: started
-2024/07/27-16:42:30.479 4fd4 Level-0 table #1506: 0 bytes OK
-2024/07/27-16:42:30.480 4fd4 Delete type=0 #1504
-2024/07/27-16:42:30.483 4fd4 Manual compaction at level-0 from '!folders!1XrfuqzpstOwCTFI' @ 72057594037927935 : 1 .. '!macros!skRtiOIPZgGAww7v' @ 0 : 0; will stop at (end)
+2024/07/27-16:42:54.782 9c9c Recovering log #1505
+2024/07/27-16:42:54.785 9c9c Delete type=0 #1505
+2024/07/27-16:42:54.785 9c9c Delete type=3 #1503
+2024/07/27-23:50:09.948 4fd4 Level-0 table #1510: started
+2024/07/27-23:50:09.948 4fd4 Level-0 table #1510: 0 bytes OK
+2024/07/27-23:50:09.950 4fd4 Delete type=0 #1508
+2024/07/27-23:50:09.955 4fd4 Manual compaction at level-0 from '!folders!1XrfuqzpstOwCTFI' @ 72057594037927935 : 1 .. '!macros!skRtiOIPZgGAww7v' @ 0 : 0; will stop at (end)
