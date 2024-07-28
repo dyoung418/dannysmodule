@@ -1,14 +1,14 @@
-2024/07/27-16:42:54.790 1df0 Recovering log #1481
-2024/07/27-16:42:54.793 1df0 Delete type=0 #1481
-2024/07/27-16:42:54.793 1df0 Delete type=3 #1479
-2024/07/27-23:50:09.955 4fd4 Level-0 table #1486: started
-2024/07/27-23:50:09.957 4fd4 Level-0 table #1486: 6308 bytes OK
-2024/07/27-23:50:09.958 4fd4 Delete type=0 #1484
-2024/07/27-23:50:09.961 4fd4 Manual compaction at level-0 from '!folders!9knvgHfaGijd7P6o' @ 72057594037927935 : 1 .. '!playlists.sounds!zPttbaZnnS1C5gyp.xBIcfeMugR9Zkat2' @ 0 : 0; will stop at '!playlists!zPttbaZnnS1C5gyp' @ 3964 : 0
-2024/07/27-23:50:09.961 4fd4 Compacting 1@0 + 1@1 files
-2024/07/27-23:50:09.966 4fd4 Generated table #1487@0: 802 keys, 115854 bytes
-2024/07/27-23:50:09.966 4fd4 Compacted 1@0 + 1@1 files => 115854 bytes
-2024/07/27-23:50:09.967 4fd4 compacted to: files[ 0 1 0 0 0 0 0 ]
-2024/07/27-23:50:09.967 4fd4 Delete type=2 #1194
-2024/07/27-23:50:09.967 4fd4 Delete type=2 #1486
-2024/07/27-23:50:09.968 4fd4 Manual compaction at level-0 from '!playlists!zPttbaZnnS1C5gyp' @ 3964 : 0 .. '!playlists.sounds!zPttbaZnnS1C5gyp.xBIcfeMugR9Zkat2' @ 0 : 0; will stop at (end)
+2024/07/28-00:09:53.846 916c Recovering log #1485
+2024/07/28-00:09:53.850 916c Delete type=0 #1485
+2024/07/28-00:09:53.850 916c Delete type=3 #1483
+2024/07/28-00:31:53.861 6cc8 Level-0 table #1491: started
+2024/07/28-00:31:53.864 6cc8 Level-0 table #1491: 63648 bytes OK
+2024/07/28-00:31:53.866 6cc8 Delete type=0 #1489
+2024/07/28-00:31:53.867 6cc8 Manual compaction at level-0 from '!folders!9knvgHfaGijd7P6o' @ 72057594037927935 : 1 .. '!playlists.sounds!w3eiP6TYeZbJOcHA.zPXWwqxGF41pFZ9J' @ 0 : 0; will stop at '!playlists.sounds!zPttbaZnnS1C5gyp.xBIcfeMugR9Zkat2' @ 4906 : 0
+2024/07/28-00:31:53.868 6cc8 Compacting 1@0 + 1@1 files
+2024/07/28-00:31:53.871 6cc8 Generated table #1492@0: 336 keys, 37886 bytes
+2024/07/28-00:31:53.871 6cc8 Compacted 1@0 + 1@1 files => 37886 bytes
+2024/07/28-00:31:53.873 6cc8 compacted to: files[ 0 1 0 0 0 0 0 ]
+2024/07/28-00:31:53.873 6cc8 Delete type=2 #1487
+2024/07/28-00:31:53.873 6cc8 Delete type=2 #1491
+2024/07/28-00:31:53.876 6cc8 Manual compaction at level-0 from '!playlists.sounds!zPttbaZnnS1C5gyp.xBIcfeMugR9Zkat2' @ 4906 : 0 .. '!playlists.sounds!w3eiP6TYeZbJOcHA.zPXWwqxGF41pFZ9J' @ 0 : 0; will stop at (end)
