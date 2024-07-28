@@ -1,5 +1,10 @@
 
 
+## [v1.0.14] - 2024-07-28
+### :bug: Bug Fixes
+- [`649c885`](https://github.com/dyoung418/dannysmodule/commit/649c885a04a549bc799b2365dceebe5f2576a8d4) - Fixed playlists by exporting by sub-directory *(commit by [@dyoung418](https://github.com/dyoung418))*
+
+
 ## [v1.0.13] - 2024-07-28
 ### :sparkles: New Features
 - [`3a44c84`](https://github.com/dyoung418/dannysmodule/commit/3a44c8418ec3338d2f09cb01388754c664cb3d22) - added playlists and audio sources to assets; added small inn scene *(commit by [@dyoung418](https://github.com/dyoung418))*
@@ -59,3 +64,4 @@
 [v1.0.11]: https://github.com/dyoung418/dannysmodule/compare/v1.0.10...v1.0.11
 [v1.0.12]: https://github.com/dyoung418/dannysmodule/compare/v1.0.11...v1.0.12
 [v1.0.13]: https://github.com/dyoung418/dannysmodule/compare/v1.0.12...v1.0.13
+[v1.0.14]: https://github.com/dyoung418/dannysmodule/compare/v1.0.13...v1.0.14
