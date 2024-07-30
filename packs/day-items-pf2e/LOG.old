@@ -1,3 +1,7 @@
-2024/07/28-02:05:42.156 bfd8 Recovering log #321
-2024/07/28-02:05:42.159 bfd8 Delete type=0 #321
-2024/07/28-02:05:42.159 bfd8 Delete type=3 #319
+2024/07/29-14:17:47.533 4a24 Recovering log #347
+2024/07/29-14:17:47.537 4a24 Delete type=0 #347
+2024/07/29-14:17:47.537 4a24 Delete type=3 #345
+2024/07/29-15:50:04.989 b1ec Level-0 table #352: started
+2024/07/29-15:50:04.989 b1ec Level-0 table #352: 0 bytes OK
+2024/07/29-15:50:04.990 b1ec Delete type=0 #350
+2024/07/29-15:50:05.000 b1ec Manual compaction at level-0 from '!folders!0BxmixOCuUUNHkjf' @ 72057594037927935 : 1 .. '!items!y6HAWgQezqHokOis' @ 0 : 0; will stop at (end)
