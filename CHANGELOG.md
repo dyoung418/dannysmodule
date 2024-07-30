@@ -1,5 +1,10 @@
 
 
+## [v1.0.16] - 2024-07-30
+### :sparkles: New Features
+- [`792ac3f`](https://github.com/dyoung418/dannysmodule/commit/792ac3f83f5298eed514c714b8186f450f9db744) - added region macro for changing token elevation to match region *(commit by [@dyoung418](https://github.com/dyoung418))*
+
+
 ## [v1.0.15] - 2024-07-28
 ### :sparkles: New Features
 - [`3a8bb85`](https://github.com/dyoung418/dannysmodule/commit/3a8bb852dc94c8f6f5232578157825f402fe981d) - Added indications for loop playback for many of the sounds *(commit by [@dyoung418](https://github.com/dyoung418))*
@@ -74,3 +79,4 @@
 [v1.0.13]: https://github.com/dyoung418/dannysmodule/compare/v1.0.12...v1.0.13
 [v1.0.14]: https://github.com/dyoung418/dannysmodule/compare/v1.0.13...v1.0.14
 [v1.0.15]: https://github.com/dyoung418/dannysmodule/compare/v1.0.14...v1.0.15
+[v1.0.16]: https://github.com/dyoung418/dannysmodule/compare/v1.0.15...v1.0.16
