@@ -1,5 +1,13 @@
 
 
+## [v1.0.15] - 2024-07-28
+### :sparkles: New Features
+- [`3a8bb85`](https://github.com/dyoung418/dannysmodule/commit/3a8bb852dc94c8f6f5232578157825f402fe981d) - Added indications for loop playback for many of the sounds *(commit by [@dyoung418](https://github.com/dyoung418))*
+
+### :bug: Bug Fixes
+- [`8be3d38`](https://github.com/dyoung418/dannysmodule/commit/8be3d385e821c22c9c192bcc1135ea51cb168bab) - Adjusted lighting on Small Inn scene *(commit by [@dyoung418](https://github.com/dyoung418))*
+
+
 ## [v1.0.14] - 2024-07-28
 ### :bug: Bug Fixes
 - [`649c885`](https://github.com/dyoung418/dannysmodule/commit/649c885a04a549bc799b2365dceebe5f2576a8d4) - Fixed playlists by exporting by sub-directory *(commit by [@dyoung418](https://github.com/dyoung418))*
@@ -65,3 +73,4 @@
 [v1.0.12]: https://github.com/dyoung418/dannysmodule/compare/v1.0.11...v1.0.12
 [v1.0.13]: https://github.com/dyoung418/dannysmodule/compare/v1.0.12...v1.0.13
 [v1.0.14]: https://github.com/dyoung418/dannysmodule/compare/v1.0.13...v1.0.14
+[v1.0.15]: https://github.com/dyoung418/dannysmodule/compare/v1.0.14...v1.0.15
