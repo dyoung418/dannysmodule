@@ -1,5 +1,10 @@
 
 
+## [v1.0.17] - 2024-08-05
+### :sparkles: New Features
+- [`4afbf6b`](https://github.com/dyoung418/dannysmodule/commit/4afbf6b0114cd14c18fa5df0d149b9b5a72390f0) - Added Canon2 PC, crossblooded item, macro for updating status effect badges *(commit by [@dyoung418](https://github.com/dyoung418))*
+
+
 ## [v1.0.16] - 2024-07-30
 ### :sparkles: New Features
 - [`792ac3f`](https://github.com/dyoung418/dannysmodule/commit/792ac3f83f5298eed514c714b8186f450f9db744) - added region macro for changing token elevation to match region *(commit by [@dyoung418](https://github.com/dyoung418))*
@@ -80,3 +85,4 @@
 [v1.0.14]: https://github.com/dyoung418/dannysmodule/compare/v1.0.13...v1.0.14
 [v1.0.15]: https://github.com/dyoung418/dannysmodule/compare/v1.0.14...v1.0.15
 [v1.0.16]: https://github.com/dyoung418/dannysmodule/compare/v1.0.15...v1.0.16
+[v1.0.17]: https://github.com/dyoung418/dannysmodule/compare/v1.0.16...v1.0.17
