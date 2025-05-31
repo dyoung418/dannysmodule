@@ -1,5 +1,10 @@
 
 
+## [v1.0.19] - 2025-05-31
+### :bug: Bug Fixes
+- [`6ef281d`](https://github.com/dyoung418/dannysmodule/commit/6ef281dd9ff8618d78ddab9484a97101969342c5) - added new outdoor scenes *(commit by [@dyoung418](https://github.com/dyoung418))*
+
+
 ## [v1.0.17] - 2024-08-05
 ### :sparkles: New Features
 - [`4afbf6b`](https://github.com/dyoung418/dannysmodule/commit/4afbf6b0114cd14c18fa5df0d149b9b5a72390f0) - Added Canon2 PC, crossblooded item, macro for updating status effect badges *(commit by [@dyoung418](https://github.com/dyoung418))*
@@ -86,3 +91,4 @@
 [v1.0.15]: https://github.com/dyoung418/dannysmodule/compare/v1.0.14...v1.0.15
 [v1.0.16]: https://github.com/dyoung418/dannysmodule/compare/v1.0.15...v1.0.16
 [v1.0.17]: https://github.com/dyoung418/dannysmodule/compare/v1.0.16...v1.0.17
+[v1.0.19]: https://github.com/dyoung418/dannysmodule/compare/v1.0.18...v1.0.19
