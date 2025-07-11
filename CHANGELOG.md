@@ -1,5 +1,10 @@
 
 
+## [v1.0.20] - 2025-07-11
+### :sparkles: New Features
+- [`d0e250f`](https://github.com/dyoung418/dannysmodule/commit/d0e250f365789743c212b49e5cdd6f209a09ede2) - added scenes and a dnd PC fix: added canEdit flag to module.json *(commit by [@dyoung418](https://github.com/dyoung418))*
+
+
 ## [v1.0.19] - 2025-05-31
 ### :bug: Bug Fixes
 - [`6ef281d`](https://github.com/dyoung418/dannysmodule/commit/6ef281dd9ff8618d78ddab9484a97101969342c5) - added new outdoor scenes *(commit by [@dyoung418](https://github.com/dyoung418))*
@@ -92,3 +97,4 @@
 [v1.0.16]: https://github.com/dyoung418/dannysmodule/compare/v1.0.15...v1.0.16
 [v1.0.17]: https://github.com/dyoung418/dannysmodule/compare/v1.0.16...v1.0.17
 [v1.0.19]: https://github.com/dyoung418/dannysmodule/compare/v1.0.18...v1.0.19
+[v1.0.20]: https://github.com/dyoung418/dannysmodule/compare/v1.0.19...v1.0.20
