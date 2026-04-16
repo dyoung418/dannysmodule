@@ -12,7 +12,7 @@ https://github.com/dyoung418/dannysmodule/releases/latest/download/module.json
 
 ## Development Setup
 
-Requires [Node.js](https://nodejs.org/) (v16.7+) and npm.
+Requires [Node.js](https://nodejs.org/) (v16.7+) and npm. Then install dependencies (this includes `@foundryvtt/foundryvtt-cli`, which is used to convert between LevelDB packs and YAML source files):
 
 ```bash
 npm install
