@@ -1,0 +1,151 @@
+name: Arms of Hadar
+type: spell
+system:
+  source:
+    custom: ''
+    book: PHB
+    page: '215'
+    license: ''
+    revision: 1
+    rules: '2024'
+  description:
+    value: >-
+      <div class="rd__b  rd__b--3"><p>You invoke the power of Hadar, the Dark
+      Hunger. Tendrils of dark energy erupt from you and batter all creatures
+      within 10 feet of you. Each creature in that area must make a Strength
+      saving throw. On a failed save, a target takes [[/r 2d6]] necrotic damage
+      and can't take reactions until its next turn. On a successful save, the
+      creature takes half damage, but suffers no other effect.</p><div
+      class="rd__spc-inline-post"></div></div><div class="rd__b  rd__b--3"><div
+      class="rd__b  rd__b--3"><span class="rd__h rd__h--3" data-title-index="1">
+      <span class="entry-title-inner">At Higher Levels.</span></span> <p>When
+      you cast this spell using a spell slot of 2nd level or higher, the damage
+      increases by [[/r 1d6]] for each slot level above 1st.</p><div
+      class="rd__spc-inline-post"></div></div><div
+      class="rd__spc-inline-post"></div></div><div><span class="bold">Classes:
+      </span>Warlock</div>
+    chat: ''
+  level: 1
+  school: con
+  properties:
+    - vocal
+    - somatic
+  materials:
+    value: ''
+    consumed: false
+    cost: 0
+    supply: 0
+  target:
+    affects:
+      choice: false
+    template:
+      units: ft
+      type: radius
+      size: '10'
+      contiguous: false
+  range:
+    value: '0'
+    units: self
+  activation:
+    type: action
+    condition: ''
+    value: 1
+  duration:
+    value: ''
+    units: inst
+  uses:
+    max: ''
+    spent: 0
+    recovery: []
+  preparation:
+    mode: prepared
+    prepared: false
+  activities:
+    dnd5eactivity000:
+      _id: dnd5eactivity000
+      type: save
+      activation:
+        type: action
+        value: null
+        override: false
+      consumption:
+        targets: []
+        scaling:
+          allowed: false
+          max: ''
+        spellSlot: true
+      description:
+        chatFlavor: ''
+      duration:
+        units: inst
+        concentration: false
+        override: false
+      effects: []
+      range:
+        override: false
+        units: self
+      target:
+        prompt: true
+        template:
+          contiguous: false
+          units: ft
+        affects:
+          choice: false
+        override: false
+      uses:
+        spent: 0
+        max: ''
+        recovery: []
+      damage:
+        onSave: half
+        parts:
+          - number: 2
+            denomination: 6
+            bonus: ''
+            types:
+              - necrotic
+            custom:
+              enabled: false
+              formula: ''
+            scaling:
+              mode: whole
+              number: 1
+              formula: ''
+      save:
+        ability:
+          - str
+        dc:
+          calculation: spellcasting
+          formula: ''
+      sort: 0
+  identifier: arms-of-hadar
+img: icons/magic/unholy/hand-claw-fire-blue.webp
+ownership:
+  default: 0
+  38Gfe7fp1EmVmZNj: 3
+flags:
+  plutonium:
+    page: spells.html
+    source: PHB
+    hash: arms%20of%20hadar_phb
+    propDroppable: spell
+  dnd5e:
+    persistSourceMigration: true
+    riders:
+      activity: []
+      effect: []
+effects: []
+folder: 7LJJqiLuL1YQyknL
+_id: vOOCfaTGxErxYpwu
+sort: 0
+_stats:
+  systemId: dnd5e
+  systemVersion: 5.0.4
+  coreVersion: '13.346'
+  createdTime: 1708109344958
+  modifiedTime: 1752197371435
+  lastModifiedBy: 1pY4akW8WASxGBbA
+  compendiumSource: null
+  duplicateSource: null
+  exportSource: null
+_key: '!items!vOOCfaTGxErxYpwu'

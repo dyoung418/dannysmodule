@@ -1,0 +1,144 @@
+name: Animal Shapes
+type: spell
+system:
+  source:
+    custom: ''
+    book: PHB
+    page: '212'
+    license: ''
+    revision: 1
+    rules: '2024'
+  description:
+    value: >-
+      <div class="rd__b  rd__b--3"><p>Your magic turns others into beasts.
+      Choose any number of willing creatures that you can see within range. You
+      transform each target into the form of a <a
+      href="https://5etools-mirror-2.github.io/bestiary.html#blankhash,flstchallenge%20rating:min=&amp;0~max=&amp;4,flsttype:beast=1,flstsize:f=1~d=1~t=1~s=1~m=1~l=1,flstmiscellaneous:swarm=2">Large
+      or smaller beast with a challenge rating of 4 or lower</a>. On subsequent
+      turns, you can use your action to transform affected creatures into new
+      forms.</p><div class="rd__spc-inline-post"></div><p>The transformation
+      lasts for the duration for each target, or until the target drops to 0 hit
+      points or dies. You can choose a different form for each target. A
+      target's game statistics are replaced by the statistics of the chosen
+      beast, though the target retains its alignment and Intelligence, Wisdom,
+      and Charisma scores. The target assumes the hit points of its new form,
+      and when it reverts to its normal form, it returns to the number of hit
+      points it had before it transformed. If it reverts as a result of dropping
+      to 0 hit points, any excess damage carries over to its normal form. As
+      long as the excess damage doesn't reduce the creature's normal form to 0
+      hit points, it isn't knocked @condition[unconscious]. The creature is
+      limited in the actions it can perform by the nature of its new form, and
+      it can't speak or cast spells.</p><p>The target's gear melds into the new
+      form. The target can't activate, wield, or otherwise benefit from any of
+      its equipment.</p></div><div><span class="bold">Classes:
+      </span>Druid</div>
+    chat: ''
+  level: 8
+  school: trs
+  properties:
+    - vocal
+    - somatic
+    - concentration
+  materials:
+    value: ''
+    consumed: false
+    cost: 0
+    supply: 0
+  target:
+    affects:
+      type: creature
+      count: '0'
+      choice: false
+    template:
+      units: any
+      contiguous: false
+  range:
+    value: '30'
+    units: ft
+  activation:
+    type: action
+    condition: ''
+    value: 1
+  duration:
+    value: '24'
+    units: hour
+  uses:
+    max: ''
+    spent: 0
+    recovery: []
+  preparation:
+    mode: prepared
+    prepared: false
+  activities:
+    dnd5eactivity000:
+      _id: dnd5eactivity000
+      type: utility
+      activation:
+        type: action
+        value: null
+        override: false
+      consumption:
+        targets: []
+        scaling:
+          allowed: false
+          max: ''
+        spellSlot: true
+      description:
+        chatFlavor: ''
+      duration:
+        units: inst
+        concentration: false
+        override: false
+      effects: []
+      range:
+        override: false
+        units: self
+      target:
+        prompt: true
+        template:
+          contiguous: false
+          units: ft
+        affects:
+          choice: false
+        override: false
+      uses:
+        spent: 0
+        max: ''
+        recovery: []
+      roll:
+        formula: ''
+        name: ''
+        prompt: false
+        visible: false
+      sort: 0
+  identifier: animal-shapes
+img: icons/magic/life/heart-broken-red.webp
+ownership:
+  default: 0
+  38Gfe7fp1EmVmZNj: 3
+flags:
+  plutonium:
+    page: spells.html
+    source: PHB
+    hash: animal%20shapes_phb
+    propDroppable: spell
+  dnd5e:
+    persistSourceMigration: true
+    riders:
+      activity: []
+      effect: []
+effects: []
+folder: MPJYAqSTQHr6QzkQ
+_id: VZQhhXdq5sZkWPYW
+sort: 0
+_stats:
+  systemId: dnd5e
+  systemVersion: 5.0.4
+  coreVersion: '13.346'
+  createdTime: 1708227600935
+  modifiedTime: 1752197371435
+  lastModifiedBy: 1pY4akW8WASxGBbA
+  compendiumSource: null
+  duplicateSource: null
+  exportSource: null
+_key: '!items!VZQhhXdq5sZkWPYW'

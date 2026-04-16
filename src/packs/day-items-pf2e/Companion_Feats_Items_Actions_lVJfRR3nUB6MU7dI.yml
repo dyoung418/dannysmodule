@@ -1,0 +1,22 @@
+name: Companion Feats/Items/Actions
+sorting: a
+folder: ISFvhvQJpbdNXXsZ
+type: Item
+_id: lVJfRR3nUB6MU7dI
+sort: 200000
+color: '#c7c931'
+flags:
+  scene-packer:
+    hash: 68fa1cbf3be6a3848694ae1a364a5912a08ee132
+_stats:
+  compendiumSource: null
+  duplicateSource: null
+  coreVersion: '13.346'
+  systemId: pf2e
+  systemVersion: 6.0.2
+  createdTime: 1718606591225
+  modifiedTime: 1752208111600
+  lastModifiedBy: txZjek5EOiCBHPoz
+  exportSource: null
+description: ''
+_key: '!folders!lVJfRR3nUB6MU7dI'

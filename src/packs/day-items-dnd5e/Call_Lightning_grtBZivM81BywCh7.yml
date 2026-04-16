@@ -1,0 +1,161 @@
+name: Call Lightning
+type: spell
+system:
+  source:
+    custom: ''
+    book: PHB
+    page: '220'
+    license: ''
+    revision: 1
+    rules: '2024'
+  description:
+    value: >-
+      <div class="rd__b  rd__b--3"><p>A storm cloud appears in the shape of a
+      cylinder that is 10 feet tall with a 60-foot radius, centered on a point
+      you can see within range directly above you. The spell fails if you can't
+      see a point in the air where the storm cloud could appear (for example, if
+      you are in a room that can't accommodate the cloud).</p><div
+      class="rd__spc-inline-post"></div><p>When you cast the spell, choose a
+      point you can see under the cloud. A bolt of lightning flashes down from
+      the cloud to that point. Each creature within 5 feet of that point must
+      make a Dexterity saving throw. A creature takes [[/r 3d10]] lightning
+      damage on a failed save, or half as much damage on a successful one. On
+      each of your turns until the spell ends, you can use your action to call
+      down lightning in this way again, targeting the same point or a different
+      one.</p><p>If you are outdoors in stormy conditions when you cast this
+      spell, the spell gives you control over the existing storm instead of
+      creating a new one. Under such conditions, the spell's damage increases by
+      [[/r 1d10]].</p></div><div class="rd__b  rd__b--3"><div class="rd__b 
+      rd__b--3"><span class="rd__h rd__h--3" data-title-index="1"> <span
+      class="entry-title-inner">At Higher Levels.</span></span> <p>When you cast
+      this spell using a spell slot of 4th or higher level, the damage increases
+      by [[/r 1d10]] for each slot level above 3rd.</p><div
+      class="rd__spc-inline-post"></div></div><div
+      class="rd__spc-inline-post"></div></div><div><span class="bold">Classes:
+      </span>Druid</div>
+    chat: ''
+  level: 3
+  school: con
+  properties:
+    - vocal
+    - somatic
+    - concentration
+  materials:
+    value: ''
+    consumed: false
+    cost: 0
+    supply: 0
+  target:
+    affects:
+      choice: false
+    template:
+      units: ft
+      type: radius
+      size: '60'
+      contiguous: false
+  range:
+    value: '120'
+    units: ft
+  activation:
+    type: action
+    condition: ''
+    value: 1
+  duration:
+    value: '10'
+    units: minute
+  uses:
+    max: ''
+    spent: 0
+    recovery: []
+  preparation:
+    mode: prepared
+    prepared: false
+  activities:
+    dnd5eactivity000:
+      _id: dnd5eactivity000
+      type: save
+      activation:
+        type: action
+        value: null
+        override: false
+      consumption:
+        targets: []
+        scaling:
+          allowed: false
+          max: ''
+        spellSlot: true
+      description:
+        chatFlavor: ''
+      duration:
+        units: inst
+        concentration: false
+        override: false
+      effects: []
+      range:
+        override: false
+        units: self
+      target:
+        prompt: true
+        template:
+          contiguous: false
+          units: ft
+        affects:
+          choice: false
+        override: false
+      uses:
+        spent: 0
+        max: ''
+        recovery: []
+      damage:
+        onSave: half
+        parts:
+          - number: 3
+            denomination: 10
+            bonus: ''
+            types:
+              - lightning
+            custom:
+              enabled: false
+              formula: ''
+            scaling:
+              mode: whole
+              number: 1
+              formula: ''
+      save:
+        ability:
+          - dex
+        dc:
+          calculation: spellcasting
+          formula: ''
+      sort: 0
+  identifier: call-lightning
+img: icons/magic/lightning/bolts-salvo-clouds-sky.webp
+ownership:
+  default: 0
+  38Gfe7fp1EmVmZNj: 3
+flags:
+  plutonium:
+    page: spells.html
+    source: PHB
+    hash: call%20lightning_phb
+    propDroppable: spell
+  dnd5e:
+    persistSourceMigration: true
+    riders:
+      activity: []
+      effect: []
+effects: []
+folder: 460yTIg9sKBrbNPf
+_id: grtBZivM81BywCh7
+sort: 0
+_stats:
+  systemId: dnd5e
+  systemVersion: 5.0.4
+  coreVersion: '13.346'
+  createdTime: 1708227600998
+  modifiedTime: 1752197371435
+  lastModifiedBy: 1pY4akW8WASxGBbA
+  compendiumSource: null
+  duplicateSource: null
+  exportSource: null
+_key: '!items!grtBZivM81BywCh7'

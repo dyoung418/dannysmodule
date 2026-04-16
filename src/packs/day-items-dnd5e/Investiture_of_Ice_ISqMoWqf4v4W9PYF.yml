@@ -1,0 +1,116 @@
+name: Investiture of Ice
+type: spell
+system:
+  source:
+    custom: ''
+    book: XGE
+    page: '159'
+    license: ''
+  description:
+    value: >-
+      <div class="rd__b  rd__b--3"><p>Until the spell ends, ice rimes your body,
+      and you gain the following benefits:</p><div
+      class="rd__spc-inline-post"></div><ul class="rd__list"><li class="rd__li
+      ">You are immune to cold damage and have resistance to fire
+      damage.</li><li class="rd__li ">You can move across difficult terrain
+      created by ice or snow without spending extra movement.</li><li
+      class="rd__li ">The ground in a 10-foot radius around you is icy and is
+      difficult terrain for creatures other than you. The radius moves with
+      you.</li><li class="rd__li ">You can use your action to create a 15-foot
+      cone of freezing wind extending from your outstretched hand in a direction
+      you choose. Each creature in the cone must make a Constitution saving
+      throw. A creature takes [[/r 4d6]] cold damage on a failed save, or half
+      as much damage on a successful one. A creature that fails its save against
+      this effect has its speed halved until the start of your next
+      turn.</li></ul></div><div><span class="bold">Classes: </span>Druid,
+      Sorcerer, Warlock, Wizard</div>
+    chat: ''
+  actionType: save
+  level: 6
+  school: trs
+  properties:
+    - vocal
+    - somatic
+    - concentration
+  materials:
+    value: ''
+    consumed: false
+    cost: 0
+    supply: 0
+  target:
+    value: 0
+    units: self
+    type: self
+    prompt: true
+    width: null
+  range:
+    value: 0
+    units: self
+    long: null
+  activation:
+    type: action
+    cost: 1
+    condition: ''
+  duration:
+    value: '10'
+    units: minute
+  damage:
+    parts:
+      - - 4d6
+        - cold
+    versatile: ''
+  scaling:
+    mode: none
+    formula: ''
+  save:
+    ability: con
+    dc: null
+    scaling: spell
+  uses:
+    value: null
+    max: ''
+    per: null
+    recovery: ''
+    prompt: true
+  attackBonus: ''
+  chatFlavor: ''
+  critical:
+    threshold: null
+    damage: ''
+  formula: ''
+  preparation:
+    mode: prepared
+    prepared: false
+  consume:
+    type: ''
+    target: null
+    amount: null
+    scale: false
+  cover: null
+  crewed: false
+  ability: null
+img: icons/magic/water/elemental-water.webp
+ownership:
+  default: 0
+  38Gfe7fp1EmVmZNj: 3
+flags:
+  plutonium:
+    page: spells.html
+    source: XGE
+    hash: investiture%20of%20ice_xge
+    propDroppable: spell
+effects: []
+folder: yzfv3oHd3vNNsIdJ
+_id: ISqMoWqf4v4W9PYF
+sort: 0
+_stats:
+  systemId: dnd5e
+  systemVersion: 3.0.2
+  coreVersion: '13.345'
+  createdTime: 1708109345739
+  modifiedTime: 1708227413053
+  lastModifiedBy: 38Gfe7fp1EmVmZNj
+  compendiumSource: null
+  duplicateSource: null
+  exportSource: null
+_key: '!items!ISqMoWqf4v4W9PYF'

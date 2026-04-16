@@ -1,0 +1,189 @@
+name: Glyph of Warding
+type: spell
+system:
+  source:
+    custom: ''
+    book: PHB
+    page: '245'
+    license: ''
+    revision: 1
+    rules: '2024'
+  description:
+    value: >-
+      <div class="rd__b  rd__b--3"><p>When you cast this spell, you inscribe a
+      glyph that later unleashes a magical effect. You inscribe it either on a
+      surface (such as a table or a section of floor or wall) or within an
+      object that can be closed (such as a book, a scroll, or a treasure chest)
+      to conceal the glyph. The glyph can cover an area no larger than 10 feet
+      in diameter. If the surface or object is moved more than 10 feet from
+      where you cast this spell, the glyph is broken, and the spell ends without
+      being triggered.</p><div class="rd__spc-inline-post"></div><p>The glyph is
+      nearly invisible and requires a successful Intelligence
+      (@skill[Investigation]) check against your spell save DC to be
+      found.</p><p>You decide what triggers the glyph when you cast the spell.
+      For glyphs inscribed on a surface, the most typical triggers include
+      touching or standing on the glyph, removing another object covering the
+      glyph, approaching within a certain distance of the glyph, or manipulating
+      the object on which the glyph is inscribed. For glyphs inscribed within an
+      object, the most common triggers include opening that object, approaching
+      within a certain distance of the object, or seeing or reading the glyph.
+      Once a glyph is triggered, this spell ends.</p><p>You can further refine
+      the trigger so the spell activates only under certain circumstances or
+      according to physical characteristics (such as height or weight), creature
+      kind (for example, the ward could be set to affect aberrations or drow),
+      or alignment. You can also set conditions for creatures that don't trigger
+      the glyph, such as those who say a certain password.</p><p>When you
+      inscribe the glyph, choose explosive runes or a spell glyph.</p><div
+      class="rd__b  rd__b--3"><span class="rd__h rd__h--3" data-title-index="1">
+      <span class="entry-title-inner">Explosive Runes.</span></span> <p>When
+      triggered, the glyph erupts with magical energy in a 20-foot-radius sphere
+      centered on the glyph. The sphere spreads around corners. Each creature in
+      the area must make a Dexterity saving throw. A creature takes [[/r 5d8]]
+      acid, cold, fire, lightning, or thunder damage on a failed saving throw
+      (your choice when you create the glyph), or half as much damage on a
+      successful one.</p><div class="rd__spc-inline-post"></div></div><div
+      class="rd__b  rd__b--3"><span class="rd__h rd__h--3" data-title-index="2">
+      <span class="entry-title-inner">Spell Glyph.</span></span> <p>You can
+      store a prepared spell of 3rd level or lower in the glyph by casting it as
+      part of creating the glyph. The spell must target a single creature or an
+      area. The spell being stored has no immediate effect when cast in this
+      way. When the glyph is triggered, the stored spell is cast. If the spell
+      has a target, it targets the creature that triggered the glyph. If the
+      spell affects an area, the area is centered on that creature. If the spell
+      summons hostile creatures or creates harmful objects or traps, they appear
+      as close as possible to the intruder and attack it. If the spell requires
+      @status[concentration], it lasts until the end of its full
+      duration.</p><div class="rd__spc-inline-post"></div></div></div><div
+      class="rd__b  rd__b--3"><div class="rd__b  rd__b--3"><span class="rd__h
+      rd__h--3" data-title-index="1"> <span class="entry-title-inner">At Higher
+      Levels.</span></span> <p>When you cast this spell using a spell slot of
+      4th level or higher, the damage of an explosive runes glyph increases by
+      [[/r 1d8]] for each slot level above 3rd. If you create a spell glyph, you
+      can store any spell of up to the same level as the slot you use for the
+      glyph of warding.</p><div class="rd__spc-inline-post"></div></div><div
+      class="rd__spc-inline-post"></div></div><div><span class="bold">Classes:
+      </span>Artificer, Bard, Cleric, Wizard</div>
+    chat: ''
+  level: 3
+  school: abj
+  properties:
+    - vocal
+    - somatic
+    - material
+  materials:
+    value: >-
+      incense and powdered diamond worth at least 200 gp, which the spell
+      consumes
+    consumed: true
+    cost: 200
+    supply: 0
+  target:
+    affects:
+      choice: false
+    template:
+      units: touch
+      contiguous: false
+  range:
+    value: '0'
+    units: touch
+  activation:
+    type: hour
+    condition: ''
+    value: 1
+  duration:
+    value: ''
+    units: perm
+  uses:
+    max: ''
+    spent: 0
+    recovery: []
+  preparation:
+    mode: prepared
+    prepared: false
+  activities:
+    dnd5eactivity000:
+      _id: dnd5eactivity000
+      type: save
+      activation:
+        type: action
+        override: false
+      consumption:
+        targets: []
+        scaling:
+          allowed: false
+          max: ''
+        spellSlot: true
+      description:
+        chatFlavor: ''
+      duration:
+        units: inst
+        concentration: false
+        override: false
+      effects: []
+      range:
+        units: self
+        override: false
+      target:
+        prompt: true
+        template:
+          contiguous: false
+          units: ft
+        affects:
+          choice: false
+        override: false
+      uses:
+        spent: 0
+        max: ''
+        recovery: []
+      damage:
+        onSave: half
+        parts:
+          - number: 5
+            denomination: 8
+            bonus: ''
+            types: []
+            custom:
+              enabled: false
+              formula: ''
+            scaling:
+              mode: whole
+              number: 1
+              formula: ''
+      save:
+        ability:
+          - dex
+        dc:
+          calculation: spellcasting
+          formula: ''
+      sort: 0
+  identifier: glyph-of-warding
+img: icons/magic/symbols/rune-sigil-red-orange.webp
+ownership:
+  default: 0
+  38Gfe7fp1EmVmZNj: 3
+flags:
+  plutonium:
+    page: spells.html
+    source: PHB
+    hash: glyph%20of%20warding_phb
+    propDroppable: spell
+  dnd5e:
+    persistSourceMigration: true
+    riders:
+      activity: []
+      effect: []
+effects: []
+folder: 460yTIg9sKBrbNPf
+_id: JKQTEyJnNsOFc25U
+sort: 0
+_stats:
+  systemId: dnd5e
+  systemVersion: 5.0.4
+  coreVersion: '13.346'
+  createdTime: 1708228997675
+  modifiedTime: 1752197371435
+  lastModifiedBy: 1pY4akW8WASxGBbA
+  compendiumSource: null
+  duplicateSource: null
+  exportSource: null
+_key: '!items!JKQTEyJnNsOFc25U'

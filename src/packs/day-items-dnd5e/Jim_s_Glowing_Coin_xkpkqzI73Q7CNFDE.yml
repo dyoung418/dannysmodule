@@ -1,0 +1,134 @@
+name: Jim's Glowing Coin
+type: spell
+system:
+  source:
+    custom: ''
+    book: AI
+    page: '76'
+    license: ''
+    revision: 1
+    rules: '2024'
+  description:
+    value: >-
+      <div class="rd__b  rd__b--3"><p>Of the many tactics employed by master
+      magician and renowned adventurer Jim Darkmagic, the old glowing coin trick
+      is a time-honored classic. When you cast the spell, you hurl the coin that
+      is the spell's material component to any spot within range. The coin
+      lights up as if under the effect of a @spell[light] spell. Each creature
+      of your choice that you can see within 30 feet of the coin must succeed on
+      a Wisdom saving throw or be distracted for the duration. While distracted,
+      a creature has disadvantage on Wisdom (@skill[Perception]) checks and
+      initiative rolls.</p><div
+      class="rd__spc-inline-post"></div></div><div><span class="bold">Classes:
+      </span>Wizard</div>
+    chat: ''
+  level: 2
+  school: enc
+  properties:
+    - somatic
+    - material
+  materials:
+    value: a coin
+    consumed: false
+    cost: 0
+    supply: 0
+  target:
+    affects:
+      choice: false
+    template:
+      units: ''
+      contiguous: false
+  range:
+    value: '60'
+    units: ft
+  activation:
+    type: action
+    condition: ''
+    value: 1
+  duration:
+    value: '1'
+    units: minute
+  uses:
+    max: ''
+    spent: 0
+    recovery: []
+  preparation:
+    mode: prepared
+    prepared: false
+  activities:
+    dnd5eactivity000:
+      _id: dnd5eactivity000
+      type: save
+      activation:
+        type: action
+        value: null
+        override: false
+      consumption:
+        targets: []
+        scaling:
+          allowed: false
+          max: ''
+        spellSlot: true
+      description:
+        chatFlavor: ''
+      duration:
+        units: inst
+        concentration: false
+        override: false
+      effects: []
+      range:
+        override: false
+        units: self
+      target:
+        prompt: true
+        template:
+          contiguous: false
+          units: ft
+        affects:
+          choice: false
+        override: false
+      uses:
+        spent: 0
+        max: ''
+        recovery: []
+      damage:
+        onSave: half
+        parts: []
+      save:
+        ability:
+          - wis
+        dc:
+          calculation: spellcasting
+          formula: ''
+      sort: 0
+  identifier: jims-glowing-coin
+img: icons/commodities/currency/coin-inset-lightning-green.webp
+ownership:
+  default: 0
+  38Gfe7fp1EmVmZNj: 3
+flags:
+  plutonium:
+    page: spells.html
+    source: AI
+    hash: jim's%20glowing%20coin_ai
+    propDroppable: spell
+  dnd5e:
+    persistSourceMigration: true
+    riders:
+      activity: []
+      effect: []
+effects: []
+folder: 5RW3khzmlcXrGJ9s
+_id: xkpkqzI73Q7CNFDE
+sort: 0
+_stats:
+  systemId: dnd5e
+  systemVersion: 5.0.4
+  coreVersion: '13.346'
+  createdTime: 1709684304222
+  modifiedTime: 1752197371435
+  lastModifiedBy: 1pY4akW8WASxGBbA
+  compendiumSource: null
+  duplicateSource: null
+  exportSource: null
+_key: '!items!xkpkqzI73Q7CNFDE'

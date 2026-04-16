@@ -1,0 +1,127 @@
+name: True Strike
+type: spell
+system:
+  source:
+    custom: ''
+    book: PHB
+    page: '284'
+    license: ''
+    revision: 1
+    rules: '2024'
+  description:
+    value: >-
+      <div class="rd__b  rd__b--3"><p>You extend your hand and point a finger at
+      a target in range. Your magic grants you a brief insight into the target's
+      defenses. On your next turn, you gain advantage on your first attack roll
+      against the target, provided that this spell hasn't ended.</p><div
+      class="rd__spc-inline-post"></div></div><div><span class="bold">Classes:
+      </span>Bard, Sorcerer, Warlock, Wizard</div>
+    chat: ''
+  level: 0
+  school: div
+  properties:
+    - somatic
+    - concentration
+  materials:
+    value: ''
+    consumed: false
+    cost: 0
+    supply: 0
+  target:
+    affects:
+      type: creature
+      count: '1'
+      choice: false
+    template:
+      units: ''
+      contiguous: false
+  range:
+    value: '30'
+    units: ft
+  activation:
+    type: action
+    condition: ''
+    value: 1
+  duration:
+    value: '1'
+    units: round
+  uses:
+    max: ''
+    spent: 0
+    recovery: []
+  preparation:
+    mode: always
+    prepared: false
+  activities:
+    dnd5eactivity000:
+      _id: dnd5eactivity000
+      type: utility
+      activation:
+        type: action
+        value: null
+        override: false
+      consumption:
+        targets: []
+        scaling:
+          allowed: false
+          max: ''
+        spellSlot: true
+      description:
+        chatFlavor: ''
+      duration:
+        units: inst
+        concentration: false
+        override: false
+      effects: []
+      range:
+        override: false
+        units: self
+      target:
+        prompt: true
+        template:
+          contiguous: false
+          units: ft
+        affects:
+          choice: false
+        override: false
+      uses:
+        spent: 0
+        max: ''
+        recovery: []
+      roll:
+        formula: ''
+        name: ''
+        prompt: false
+        visible: false
+      sort: 0
+  identifier: true-strike
+img: icons/skills/ranged/target-bullseye-archer-orange.webp
+ownership:
+  default: 0
+  38Gfe7fp1EmVmZNj: 3
+flags:
+  plutonium:
+    page: spells.html
+    source: PHB
+    hash: true%20strike_phb
+    propDroppable: spell
+  dnd5e:
+    persistSourceMigration: true
+    riders:
+      activity: []
+      effect: []
+effects: []
+folder: LiW94aeo1pXMSCLr
+_id: 2i3nlt6N0ulfXPJa
+sort: 0
+_stats:
+  systemId: dnd5e
+  systemVersion: 5.0.4
+  coreVersion: '13.346'
+  createdTime: 1709684306338
+  modifiedTime: 1752197371435
+  lastModifiedBy: 1pY4akW8WASxGBbA
+  compendiumSource: null
+  duplicateSource: null
+  exportSource: null
+_key: '!items!2i3nlt6N0ulfXPJa'

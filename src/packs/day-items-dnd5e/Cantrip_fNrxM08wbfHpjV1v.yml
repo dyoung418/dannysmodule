@@ -1,0 +1,16 @@
+name: Cantrip
+color: null
+flags: {}
+sort: 0
+sorting: a
+folder: uxWQgVquQNZMedOK
+type: Item
+_id: fNrxM08wbfHpjV1v
+_stats:
+  systemId: dnd5e
+  systemVersion: 3.0.2
+  coreVersion: '11.315'
+  createdTime: 1708227601166
+  modifiedTime: 1708227676882
+  lastModifiedBy: 38Gfe7fp1EmVmZNj
+_key: '!folders!fNrxM08wbfHpjV1v'

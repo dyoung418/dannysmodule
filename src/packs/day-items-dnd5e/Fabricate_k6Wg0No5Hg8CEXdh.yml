@@ -1,0 +1,113 @@
+name: Fabricate
+type: spell
+system:
+  source:
+    custom: ''
+    book: PHB
+    page: '239'
+    license: ''
+  description:
+    value: >-
+      <div class="rd__b  rd__b--3"><p>You convert raw materials into products of
+      the same material. For example, you can fabricate a wooden bridge from a
+      clump of trees, a rope from a patch of hemp, and clothes from flax or
+      wool.</p><div class="rd__spc-inline-post"></div><p>Choose raw materials
+      that you can see within range. You can fabricate a Large or smaller object
+      (contained within a 10-foot cube, or eight connected 5-foot cubes), given
+      a sufficient quantity of raw material. If you are working with metal,
+      stone, or another mineral substance, however, the fabricated object can be
+      no larger than Medium (contained within a single 5-foot cube). The quality
+      of objects made by the spell is commensurate with the quality of the raw
+      materials.</p><p>Creatures or magic items can't be created or transmuted
+      by this spell. You also can't use it to create items that ordinarily
+      require a high degree of craftsmanship, such as jewelry, weapons, glass,
+      or armor, unless you have proficiency with the type of artisan's tools
+      used to craft such objects.</p></div><div><span class="bold">Classes:
+      </span>Artificer, Wizard</div>
+    chat: ''
+  actionType: util
+  level: 4
+  school: trs
+  properties:
+    - vocal
+    - somatic
+  materials:
+    value: ''
+    consumed: false
+    cost: 0
+    supply: 0
+  target:
+    value: 10
+    units: ft
+    type: cube
+    prompt: true
+    width: null
+  range:
+    value: 120
+    units: ft
+    long: null
+  activation:
+    type: minute
+    cost: 10
+    condition: ''
+  duration:
+    value: ''
+    units: inst
+  damage:
+    parts: []
+    versatile: ''
+  scaling:
+    mode: none
+    formula: ''
+  save:
+    dc: null
+    scaling: spell
+    ability: ''
+  uses:
+    value: null
+    max: ''
+    per: null
+    recovery: ''
+    prompt: true
+  attackBonus: ''
+  chatFlavor: ''
+  critical:
+    threshold: null
+    damage: ''
+  formula: ''
+  preparation:
+    mode: prepared
+    prepared: false
+  consume:
+    type: ''
+    target: null
+    amount: null
+    scale: false
+  cover: null
+  crewed: false
+  ability: null
+img: icons/skills/trades/smithing-anvil-silver-red.webp
+ownership:
+  default: 0
+  38Gfe7fp1EmVmZNj: 3
+flags:
+  plutonium:
+    page: spells.html
+    source: PHB
+    hash: fabricate_phb
+    propDroppable: spell
+effects: []
+folder: aaCYL9CjTfzO9OWL
+_id: k6Wg0No5Hg8CEXdh
+sort: 0
+_stats:
+  systemId: dnd5e
+  systemVersion: 3.0.2
+  coreVersion: '13.345'
+  createdTime: 1708228955652
+  modifiedTime: 1708229053839
+  lastModifiedBy: 38Gfe7fp1EmVmZNj
+  compendiumSource: null
+  duplicateSource: null
+  exportSource: null
+_key: '!items!k6Wg0No5Hg8CEXdh'

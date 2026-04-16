@@ -1,0 +1,133 @@
+name: Gate Seal
+type: spell
+system:
+  source:
+    custom: ''
+    book: SatO
+    page: '12'
+    license: ''
+    revision: 1
+    rules: '2024'
+  description:
+    value: >-
+      <div class="rd__b  rd__b--3"><p>You fortify the fabric of the planes in a
+      30-foot cube you can see within range. Within that area, portals close and
+      can't be opened for the duration. Spells and other effects that allow
+      planar travel or open portals, such as @spell[gate] or @spell[plane
+      shift], fail if used to enter or leave the area. The cube is
+      stationary.</p><div class="rd__spc-inline-post"></div></div><div
+      class="rd__b  rd__b--3"><div class="rd__b  rd__b--3"><span class="rd__h
+      rd__h--3" data-title-index="1"> <span class="entry-title-inner">At Higher
+      Levels.</span></span> <p>When you cast this spell using a spell slot of
+      6th level or higher, the spell lasts until dispelled.</p><div
+      class="rd__spc-inline-post"></div></div><div
+      class="rd__spc-inline-post"></div></div><div><span class="bold">Classes:
+      </span>Sorcerer, Warlock, Wizard</div>
+    chat: ''
+  level: 4
+  school: abj
+  properties:
+    - vocal
+    - somatic
+    - material
+  materials:
+    value: a broken portal key, which the spell consumes
+    consumed: true
+    cost: 0
+    supply: 0
+  target:
+    affects:
+      choice: false
+    template:
+      units: ''
+      contiguous: false
+  range:
+    value: '60'
+    units: ft
+  activation:
+    type: action
+    condition: ''
+    value: 1
+  duration:
+    value: '24'
+    units: hour
+  uses:
+    max: ''
+    spent: 0
+    recovery: []
+  preparation:
+    mode: prepared
+    prepared: false
+  activities:
+    dnd5eactivity000:
+      _id: dnd5eactivity000
+      type: utility
+      activation:
+        type: action
+        value: null
+        override: false
+      consumption:
+        targets: []
+        scaling:
+          allowed: false
+          max: ''
+        spellSlot: true
+      description:
+        chatFlavor: ''
+      duration:
+        units: inst
+        concentration: false
+        override: false
+      effects: []
+      range:
+        override: false
+        units: self
+      target:
+        prompt: true
+        template:
+          contiguous: false
+          units: ft
+        affects:
+          choice: false
+        override: false
+      uses:
+        spent: 0
+        max: ''
+        recovery: []
+      roll:
+        formula: ''
+        name: ''
+        prompt: false
+        visible: false
+      sort: 0
+  identifier: gate-seal
+img: icons/magic/defensive/shield-barrier-blue.webp
+ownership:
+  default: 0
+  38Gfe7fp1EmVmZNj: 3
+flags:
+  plutonium:
+    page: spells.html
+    source: SatO
+    hash: gate%20seal_sato
+    propDroppable: spell
+  dnd5e:
+    persistSourceMigration: true
+    riders:
+      activity: []
+      effect: []
+effects: []
+folder: 0DxlLTSvnP6Pzz2r
+_id: LXB8f9A7RmWJ2ZIC
+sort: 0
+_stats:
+  systemId: dnd5e
+  systemVersion: 5.0.4
+  coreVersion: '13.346'
+  createdTime: 1709684306435
+  modifiedTime: 1752197371435
+  lastModifiedBy: 1pY4akW8WASxGBbA
+  compendiumSource: null
+  duplicateSource: null
+  exportSource: null
+_key: '!items!LXB8f9A7RmWJ2ZIC'

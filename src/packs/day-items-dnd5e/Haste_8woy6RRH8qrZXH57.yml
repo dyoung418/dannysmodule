@@ -1,0 +1,199 @@
+name: Haste
+type: spell
+system:
+  source:
+    custom: ''
+    book: PHB
+    page: '250'
+    license: ''
+    revision: 1
+    rules: '2024'
+  description:
+    value: >-
+      <div class="rd__b  rd__b--3"><p>Choose a willing creature that you can see
+      within range. Until the spell ends, the target's speed is doubled, it
+      gains a +2 bonus to AC, it has advantage on Dexterity saving throws, and
+      it gains an additional action on each of its turns. That action can be
+      used only to take the @action[Attack] (one weapon attack only),
+      @action[Dash], @action[Disengage], @action[Hide], or @action[Use an
+      Object] action.</p><div class="rd__spc-inline-post"></div><p>When the
+      spell ends, the target can't move or take actions until after its next
+      turn, as a wave of lethargy sweeps over it.</p></div><div><span
+      class="bold">Classes: </span>Artificer, Sorcerer, Wizard</div>
+    chat: ''
+  level: 3
+  school: trs
+  properties:
+    - vocal
+    - somatic
+    - material
+    - concentration
+  materials:
+    value: a shaving of licorice root
+    consumed: false
+    cost: 0
+    supply: 0
+  target:
+    affects:
+      type: creature
+      count: '1'
+      choice: false
+    template:
+      units: ''
+      contiguous: false
+  range:
+    value: '30'
+    units: ft
+  activation:
+    type: action
+    condition: ''
+    value: 1
+  duration:
+    value: '1'
+    units: minute
+  uses:
+    max: ''
+    spent: 0
+    recovery: []
+  preparation:
+    mode: prepared
+    prepared: false
+  activities:
+    dnd5eactivity000:
+      _id: dnd5eactivity000
+      type: utility
+      activation:
+        type: action
+        override: false
+      consumption:
+        targets: []
+        scaling:
+          allowed: false
+          max: ''
+        spellSlot: true
+      description:
+        chatFlavor: ''
+      duration:
+        units: inst
+        concentration: false
+        override: false
+      effects:
+        - _id: DEPrzDiNHOqKj4Hj
+      range:
+        units: self
+        override: false
+      target:
+        prompt: true
+        template:
+          contiguous: false
+          units: ft
+        affects:
+          choice: false
+        override: false
+      uses:
+        spent: 0
+        max: ''
+        recovery: []
+      roll:
+        formula: ''
+        name: ''
+        prompt: false
+        visible: false
+      sort: 0
+  identifier: haste
+img: icons/skills/movement/feet-winged-boots-brown.webp
+ownership:
+  default: 0
+  38Gfe7fp1EmVmZNj: 3
+flags:
+  plutonium:
+    page: spells.html
+    source: PHB
+    hash: haste_phb
+    propDroppable: spell
+  dnd5e:
+    persistSourceMigration: true
+    riders:
+      activity: []
+      effect: []
+effects:
+  - name: Haste
+    origin: Compendium.dnd5e.spells.Item.Szvk5FEVQW3uhJi5
+    duration:
+      value: 60
+      units: seconds
+      expiry: turnStart
+      expired: false
+    disabled: false
+    _id: DEPrzDiNHOqKj4Hj
+    description: >-
+      <p>Until the spell ends, the target's speed is doubled, it gains a +2
+      bonus to AC, it has advantage on Dexterity Saving Throws, and it gains an
+      additional action on each of its turns. That action can be used only to
+      take the Attack (one weapon attack only), Dash, Disengage, Hide, or Use an
+      Object action.</p>
+    transfer: false
+    statuses: []
+    flags:
+      core: {}
+      plutonium:
+        dedupeId: haste
+    tint: '#ffffff'
+    _stats:
+      coreVersion: '14.359'
+      systemId: null
+      systemVersion: null
+      createdTime: null
+      modifiedTime: null
+      lastModifiedBy: null
+      compendiumSource: >-
+        Compendium.dnd5e.spells.Item.yqUDoxk4x0NWG5Bz.ActiveEffect.YtN8kTDQyxFaxpEx
+      duplicateSource: null
+      exportSource: null
+    img: icons/skills/movement/feet-winged-boots-brown.webp
+    type: base
+    system:
+      changes:
+        - key: system.attributes.ac.bonus
+          value: 2
+          priority: null
+          type: add
+        - key: system.attributes.movement.burrow
+          value: 2
+          priority: null
+          type: multiply
+        - key: system.attributes.movement.climb
+          value: 2
+          priority: null
+          type: multiply
+        - key: system.attributes.movement.fly
+          value: 2
+          priority: null
+          type: multiply
+        - key: system.attributes.movement.swim
+          value: 2
+          priority: null
+          type: multiply
+        - key: system.attributes.movement.walk
+          value: 2
+          priority: null
+          type: multiply
+    sort: 0
+    start: null
+    showIcon: 1
+    folder: null
+    _key: '!items.effects!8woy6RRH8qrZXH57.DEPrzDiNHOqKj4Hj'
+folder: 460yTIg9sKBrbNPf
+_id: 8woy6RRH8qrZXH57
+sort: 0
+_stats:
+  systemId: dnd5e
+  systemVersion: 5.0.4
+  coreVersion: '14.359'
+  createdTime: 1708228955722
+  modifiedTime: 1752197371435
+  lastModifiedBy: 1pY4akW8WASxGBbA
+  compendiumSource: null
+  duplicateSource: null
+  exportSource: null
+_key: '!items!8woy6RRH8qrZXH57'

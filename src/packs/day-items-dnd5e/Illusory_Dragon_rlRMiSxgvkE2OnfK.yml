@@ -1,0 +1,161 @@
+name: Illusory Dragon
+type: spell
+system:
+  source:
+    custom: ''
+    book: XGE
+    page: '157'
+    license: ''
+    revision: 1
+    rules: '2024'
+  description:
+    value: >-
+      <div class="rd__b  rd__b--3"><p>By gathering threads of shadow material
+      from the Shadowfell, you create a Huge shadowy dragon in an unoccupied
+      space that you can see within range. The illusion lasts for the spell's
+      duration and occupies its space, as if it were a creature.</p><div
+      class="rd__spc-inline-post"></div><p>When the illusion appears, any of
+      your enemies that can see it must succeed on a Wisdom saving throw or
+      become @condition[frightened] of it for 1 minute. If a
+      @condition[frightened] creature ends its turn in a location where it
+      doesn't have line of sight to the illusion, it can repeat the saving
+      throw, ending the effect on itself on a success.</p><p>As a bonus action
+      on your turn, you can move the illusion up to 60 feet. At any point during
+      its movement, you can cause it to exhale a blast of energy in a 60-foot
+      cone originating from its space. When you create the dragon, choose a
+      damage type: acid, cold, fire, lightning, necrotic, or poison. Each
+      creature in the cone must make an Intelligence saving throw, taking [[/r
+      7d6]] damage of the chosen damage type on a failed save, or half as much
+      damage on a successful one.</p><p>The illusion is tangible because of the
+      shadow stuff used to create it, but attacks miss it automatically, it
+      succeeds on all saving throws, and it is immune to all damage and
+      conditions. A creature that uses an action to examine the dragon can
+      determine that it is an illusion by succeeding on an Intelligence
+      (@skill[Investigation]) check against your spell save DC. If a creature
+      discerns the illusion for what it is, the creature can see through it and
+      has advantage on saving throws against its breath.</p></div><div><span
+      class="bold">Classes: </span>Wizard</div>
+    chat: ''
+  level: 8
+  school: ill
+  properties:
+    - somatic
+    - concentration
+  materials:
+    value: ''
+    consumed: false
+    cost: 0
+    supply: 0
+  target:
+    affects:
+      choice: false
+    template:
+      units: ft
+      type: cone
+      size: '60'
+      contiguous: false
+  range:
+    value: '120'
+    units: ft
+  activation:
+    type: action
+    condition: ''
+    value: 1
+  duration:
+    value: '1'
+    units: minute
+  uses:
+    max: ''
+    spent: 0
+    recovery: []
+  preparation:
+    mode: prepared
+    prepared: false
+  activities:
+    dnd5eactivity000:
+      _id: dnd5eactivity000
+      type: save
+      activation:
+        type: action
+        value: null
+        override: false
+      consumption:
+        targets: []
+        scaling:
+          allowed: false
+          max: ''
+        spellSlot: true
+      description:
+        chatFlavor: ''
+      duration:
+        units: inst
+        concentration: false
+        override: false
+      effects: []
+      range:
+        override: false
+        units: self
+      target:
+        prompt: true
+        template:
+          contiguous: false
+          units: ft
+        affects:
+          choice: false
+        override: false
+      uses:
+        spent: 0
+        max: ''
+        recovery: []
+      damage:
+        onSave: half
+        parts:
+          - number: 7
+            denomination: 6
+            bonus: ''
+            types: []
+            custom:
+              enabled: false
+              formula: ''
+            scaling:
+              mode: ''
+              number: null
+              formula: ''
+      save:
+        ability:
+          - wis
+        dc:
+          calculation: spellcasting
+          formula: ''
+      sort: 0
+  identifier: illusory-dragon
+img: icons/creatures/eyes/humanoid-single-purple-blue.webp
+ownership:
+  default: 0
+  38Gfe7fp1EmVmZNj: 3
+flags:
+  plutonium:
+    page: spells.html
+    source: XGE
+    hash: illusory%20dragon_xge
+    propDroppable: spell
+  dnd5e:
+    persistSourceMigration: true
+    riders:
+      activity: []
+      effect: []
+effects: []
+folder: MPJYAqSTQHr6QzkQ
+_id: rlRMiSxgvkE2OnfK
+sort: 0
+_stats:
+  systemId: dnd5e
+  systemVersion: 5.0.4
+  coreVersion: '13.346'
+  createdTime: 1709684306893
+  modifiedTime: 1752197371435
+  lastModifiedBy: 1pY4akW8WASxGBbA
+  compendiumSource: null
+  duplicateSource: null
+  exportSource: null
+_key: '!items!rlRMiSxgvkE2OnfK'

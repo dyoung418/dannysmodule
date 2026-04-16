@@ -1,0 +1,115 @@
+name: Commune with Nature
+type: spell
+system:
+  source:
+    custom: ''
+    book: PHB
+    page: '224'
+    license: ''
+  description:
+    value: >-
+      <div class="rd__b  rd__b--3"><p>You briefly become one with nature and
+      gain knowledge of the surrounding territory. In the outdoors, the spell
+      gives you knowledge of the land within 3 miles of you. In caves and other
+      natural underground settings, the radius is limited to 300 feet. The spell
+      doesn't function where nature has been replaced by construction, such as
+      in dungeons and towns.</p><div class="rd__spc-inline-post"></div><p>You
+      instantly gain knowledge of up to three facts of your choice about any of
+      the following subjects as they relate to the area:</p><ul
+      class="rd__list"><li class="rd__li ">terrain and bodies of water</li><li
+      class="rd__li ">prevalent plants, minerals, animals, or peoples</li><li
+      class="rd__li ">powerful celestials, fey, fiends, elementals, or
+      undead</li><li class="rd__li ">influence from other planes of
+      existence</li><li class="rd__li ">buildings</li></ul><p>For example, you
+      could determine the location of powerful undead in the area, the location
+      of major sources of safe drinking water, and the location of any nearby
+      towns.</p></div><div><span class="bold">Classes: </span>Druid,
+      Ranger</div>
+    chat: ''
+  actionType: util
+  level: 5
+  school: div
+  properties:
+    - vocal
+    - somatic
+    - ritual
+  materials:
+    value: ''
+    consumed: false
+    cost: 0
+    supply: 0
+  target:
+    value: 0
+    units: self
+    type: self
+    prompt: true
+    width: null
+  range:
+    value: 0
+    units: self
+    long: null
+  activation:
+    type: minute
+    cost: 1
+    condition: ''
+  duration:
+    value: ''
+    units: inst
+  damage:
+    parts: []
+    versatile: ''
+  scaling:
+    mode: none
+    formula: ''
+  save:
+    dc: null
+    scaling: spell
+    ability: ''
+  uses:
+    value: null
+    max: ''
+    per: null
+    recovery: ''
+    prompt: true
+  attackBonus: ''
+  chatFlavor: ''
+  critical:
+    threshold: null
+    damage: ''
+  formula: ''
+  preparation:
+    mode: prepared
+    prepared: false
+  consume:
+    type: ''
+    target: null
+    amount: null
+    scale: false
+  cover: null
+  crewed: false
+  ability: null
+img: icons/magic/nature/plant-sprout-hands-vines.webp
+ownership:
+  default: 0
+  38Gfe7fp1EmVmZNj: 3
+flags:
+  plutonium:
+    page: spells.html
+    source: PHB
+    hash: commune%20with%20nature_phb
+    propDroppable: spell
+effects: []
+folder: xgHrtKIAtE3kEzFX
+_id: ud1L1kA1rLTyg8zZ
+sort: 0
+_stats:
+  systemId: dnd5e
+  systemVersion: 3.0.2
+  coreVersion: '13.345'
+  createdTime: 1708227517223
+  modifiedTime: 1708227533976
+  lastModifiedBy: 38Gfe7fp1EmVmZNj
+  compendiumSource: null
+  duplicateSource: null
+  exportSource: null
+_key: '!items!ud1L1kA1rLTyg8zZ'

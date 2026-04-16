@@ -1,0 +1,24 @@
+{
+  "name": "dannysmodule",
+  "version": "1.0.0",
+  "description": "A private module for Foundry VTT",
+  "main": "index.js",
+  "scripts": {
+    "unpack": "node scripts/unpack-packs.mjs",
+    "build": "node scripts/build-packs.mjs"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/dyoung418/dannysmodule.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/dyoung418/dannysmodule/issues"
+  },
+  "homepage": "https://github.com/dyoung418/dannysmodule#readme",
+  "devDependencies": {
+    "@foundryvtt/foundryvtt-cli": "^3.0.3"
+  }
+}

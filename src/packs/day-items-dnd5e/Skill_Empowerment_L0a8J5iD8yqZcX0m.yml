@@ -1,0 +1,107 @@
+name: Skill Empowerment
+type: spell
+system:
+  source:
+    custom: ''
+    book: XGE
+    page: '165'
+    license: ''
+  description:
+    value: >-
+      <div class="rd__b  rd__b--3"><p>Your magic deepens a creature's
+      understanding of its own talent. You touch one willing creature and give
+      it expertise in one skill of your choice; until the spell ends, the
+      creature doubles its proficiency bonus for ability checks it makes that
+      use the chosen skill.</p><div class="rd__spc-inline-post"></div><p>You
+      must choose a skill in which the target is proficient and that isn't
+      already benefiting from an effect, such as Expertise, that doubles its
+      proficiency bonus.</p></div><div><span class="bold">Classes:
+      </span>Artificer, Bard, Sorcerer, Wizard</div>
+    chat: ''
+  actionType: util
+  level: 5
+  school: trs
+  properties:
+    - vocal
+    - somatic
+    - concentration
+  materials:
+    value: ''
+    consumed: false
+    cost: 0
+    supply: 0
+  target:
+    value: 0
+    units: touch
+    type: ''
+    prompt: true
+    width: null
+  range:
+    value: 0
+    units: touch
+    long: null
+  activation:
+    type: action
+    cost: 1
+    condition: ''
+  duration:
+    value: '1'
+    units: hour
+  damage:
+    parts: []
+    versatile: ''
+  scaling:
+    mode: none
+    formula: ''
+  save:
+    dc: null
+    scaling: spell
+    ability: ''
+  uses:
+    value: null
+    max: ''
+    per: null
+    recovery: ''
+    prompt: true
+  attackBonus: ''
+  chatFlavor: ''
+  critical:
+    threshold: null
+    damage: ''
+  formula: ''
+  preparation:
+    mode: prepared
+    prepared: false
+  consume:
+    type: ''
+    target: null
+    amount: null
+    scale: false
+  cover: null
+  crewed: false
+  ability: null
+img: icons/magic/control/buff-luck-fortune-green-gold.webp
+ownership:
+  default: 0
+  38Gfe7fp1EmVmZNj: 3
+flags:
+  plutonium:
+    page: spells.html
+    source: XGE
+    hash: skill%20empowerment_xge
+    propDroppable: spell
+effects: []
+folder: d7VsN9v6Y5S4qhLz
+_id: L0a8J5iD8yqZcX0m
+sort: 0
+_stats:
+  systemId: dnd5e
+  systemVersion: 3.0.2
+  coreVersion: '13.345'
+  createdTime: 1708228956175
+  modifiedTime: 1708229053839
+  lastModifiedBy: 38Gfe7fp1EmVmZNj
+  compendiumSource: null
+  duplicateSource: null
+  exportSource: null
+_key: '!items!L0a8J5iD8yqZcX0m'

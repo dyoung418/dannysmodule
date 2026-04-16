@@ -1,0 +1,133 @@
+name: Create Undead
+type: spell
+system:
+  source:
+    custom: ''
+    book: PHB
+    page: '229'
+    license: ''
+  description:
+    value: >-
+      <div class="rd__b  rd__b--3"><p>You can cast this spell only at night.
+      Choose up to three corpses of Medium or Small humanoids within range. Each
+      corpse becomes a @creature[ghoul] under your control. (The DM has game
+      statistics for these creatures.)</p><div
+      class="rd__spc-inline-post"></div><p>As a bonus action on each of your
+      turns, you can mentally command any creature you animated with this spell
+      if the creature is within 120 feet of you (if you control multiple
+      creatures, you can command any or all of them at the same time, issuing
+      the same command to each one). You decide what action the creature will
+      take and where it will move during its next turn, or you can issue a
+      general command, such as to guard a particular chamber or corridor. If you
+      issue no commands, the creature only defends itself against hostile
+      creatures. Once given an order, the creature continues to follow it until
+      its task is complete.</p><p>The creature is under your control for 24
+      hours, after which it stops obeying any command you have given it. To
+      maintain control of the creature for another 24 hours, you must cast this
+      spell on the creature before the current 24-hour period ends. This use of
+      the spell reasserts your control over up to three creatures you have
+      animated with this spell, rather than animating new ones.</p></div><div
+      class="rd__b  rd__b--3"><div class="rd__b  rd__b--3"><span class="rd__h
+      rd__h--3" data-title-index="1"> <span class="entry-title-inner">At Higher
+      Levels.</span></span> <p>When you cast this spell using a 7th-level spell
+      slot, you can animate or reassert control over four
+      @creature[ghoul||ghouls]. When you cast this spell using an 8th-level
+      spell slot, you can animate or reassert control over five
+      @creature[ghoul||ghouls] or two @creature[ghast||ghasts] or
+      @creature[wight||wights]. When you cast this spell using a 9th-level spell
+      slot, you can animate or reassert control over six
+      @creature[ghoul||ghouls], three @creature[ghast||ghasts] or
+      @creature[wight||wights], or two @creature[mummy||mummies].</p><div
+      class="rd__spc-inline-post"></div></div><div
+      class="rd__spc-inline-post"></div></div><div><span class="bold">Classes:
+      </span>Cleric, Warlock, Wizard</div>
+    chat: ''
+  actionType: util
+  level: 6
+  school: nec
+  properties:
+    - vocal
+    - somatic
+    - material
+  materials:
+    value: >-
+      one clay pot filled with grave dirt, one clay pot filled with brackish
+      water, and one 150 gp black onyx stone for each corpse
+    consumed: false
+    cost: 150
+    supply: 0
+  target:
+    value: 3
+    units: spec
+    type: creature
+    prompt: true
+    width: null
+  range:
+    value: 10
+    units: ft
+    long: null
+  activation:
+    type: minute
+    cost: 1
+    condition: ''
+  duration:
+    value: ''
+    units: inst
+  damage:
+    parts: []
+    versatile: ''
+  scaling:
+    mode: none
+    formula: ''
+  save:
+    dc: null
+    scaling: spell
+    ability: ''
+  uses:
+    value: null
+    max: ''
+    per: null
+    recovery: ''
+    prompt: true
+  attackBonus: ''
+  chatFlavor: ''
+  critical:
+    threshold: null
+    damage: ''
+  formula: ''
+  preparation:
+    mode: prepared
+    prepared: false
+  consume:
+    type: ''
+    target: null
+    amount: null
+    scale: false
+  cover: null
+  crewed: false
+  ability: null
+img: icons/magic/death/undead-skeleton-rags-fire-green.webp
+ownership:
+  default: 0
+  38Gfe7fp1EmVmZNj: 3
+flags:
+  plutonium:
+    page: spells.html
+    source: PHB
+    hash: create%20undead_phb
+    propDroppable: spell
+effects: []
+folder: YZc3v7XiNFawHEhx
+_id: zJ9jZLKAMd4uA1d7
+sort: 0
+_stats:
+  systemId: dnd5e
+  systemVersion: 3.0.3
+  coreVersion: '13.345'
+  createdTime: 1709684305057
+  modifiedTime: 1709684366197
+  lastModifiedBy: 38Gfe7fp1EmVmZNj
+  compendiumSource: null
+  duplicateSource: null
+  exportSource: null
+_key: '!items!zJ9jZLKAMd4uA1d7'

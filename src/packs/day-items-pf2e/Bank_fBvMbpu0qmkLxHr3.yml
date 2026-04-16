@@ -1,0 +1,62 @@
+folder: yTd2CNZ9biWYoOF6
+name: Bank
+type: campaignFeature
+effects: []
+system:
+  description:
+    gm: ''
+    value: "<p>A bank is a secure building for storing valuables, granting loans, and collecting and transferring deposits</p>\n<hr />\n<p><strong>Lots</strong>\_1;\_<strong>Cost</strong>\_28 RP, 4 Ore, 6 Stone</p>\n<p><strong>Construction</strong>\_Trade (trained) DC 20</p>\n<p><strong>Item Bonus</strong>\_+1 item bonus to\_<a class=\"content-link\" draggable=\"true\" data-uuid=\"Compendium.pf2e.kingmaker-features.Item.QtSFmMG3Yos0JFSD\" data-id=\"QtSFmMG3Yos0JFSD\" data-type=\"Item\" data-pack=\"pf2e.kingmaker-features\" data-tooltip=\"Campaign Feature Item\">Tap Treasury</a></p>\n<p><strong>Effects</strong>\_The\_<a class=\"content-link\" draggable=\"true\" data-uuid=\"Compendium.pf2e.kingmaker-features.Item.x2a7kuyipzczqsFc\" data-id=\"x2a7kuyipzczqsFc\" data-type=\"Item\" data-pack=\"pf2e.kingmaker-features\" data-tooltip=\"Campaign Feature Item\">Capital Investment</a> Leadership activity can be used only within the influence area of a settlement with a bank.</p>"
+  rules:
+    - hideIfDisabled: true
+      key: FlatModifier
+      label: Bank bonus to Tap Treasury
+      predicate:
+        - action:tap-treasury
+      selector: kingdom-check
+      type: item
+      value: 1
+  slug: null
+  _migration:
+    version: 0.94
+    previous:
+      schema: 0.939
+      foundry: '13.345'
+      system: 7.2.0
+  traits:
+    otherTags: []
+    value:
+      - kingdom
+  publication:
+    title: ''
+    authors: ''
+    license: OGL
+    remaster: false
+  campaign: kingmaker
+  category: kingdom-feat
+  actionType:
+    value: passive
+  actions:
+    value: null
+  prerequisites:
+    value: []
+  location: null
+  level:
+    value: 5
+_id: fBvMbpu0qmkLxHr3
+img: modules/pf2e-kingmaker/assets/maps-settlements/buildings/bank.webp
+sort: 0
+ownership:
+  default: 0
+  txZjek5EOiCBHPoz: 3
+flags: {}
+_stats:
+  compendiumSource: null
+  duplicateSource: null
+  coreVersion: '13.346'
+  systemId: pf2e
+  systemVersion: 7.2.3
+  createdTime: 1718606591261
+  modifiedTime: 1752208111692
+  lastModifiedBy: txZjek5EOiCBHPoz
+  exportSource: null
+_key: '!items!fBvMbpu0qmkLxHr3'

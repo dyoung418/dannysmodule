@@ -1,0 +1,154 @@
+name: Produce Flame
+type: spell
+system:
+  source:
+    custom: ''
+    book: PHB
+    page: '269'
+    license: ''
+    revision: 1
+    rules: '2024'
+  description:
+    value: >-
+      <div class="rd__b  rd__b--3"><p>A flickering flame appears in your hand.
+      The flame remains there for the duration and harms neither you nor your
+      equipment. The flame sheds bright light in a 10-foot radius and dim light
+      for an additional 10 feet. The spell ends if you dismiss it as an action
+      or if you cast it again.</p><div class="rd__spc-inline-post"></div><p>You
+      can also attack with the flame, although doing so ends the spell. When you
+      cast this spell, or as an action on a later turn, you can hurl the flame
+      at a creature within 30 feet of you. Make a ranged spell attack. On a hit,
+      the target takes [[/r 1d8]] fire damage.</p><p>This spell's damage
+      increases by [[/r 1d8]] when you reach 5th level ([[/r 2d8]]), 11th level
+      ([[/r 3d8]]), and 17th level ([[/r 4d8]]).</p></div><div><span
+      class="bold">Classes: </span>Druid</div>
+    chat: ''
+  level: 0
+  school: con
+  properties:
+    - vocal
+    - somatic
+  materials:
+    value: ''
+    consumed: false
+    cost: 0
+    supply: 0
+  target:
+    affects:
+      type: self
+      count: '0'
+      choice: false
+    template:
+      units: self
+      contiguous: false
+  range:
+    value: '0'
+    units: self
+  activation:
+    type: action
+    condition: ''
+    value: 1
+  duration:
+    value: '10'
+    units: minute
+  uses:
+    max: ''
+    spent: 0
+    recovery: []
+  preparation:
+    mode: always
+    prepared: false
+  activities:
+    dnd5eactivity000:
+      _id: dnd5eactivity000
+      type: attack
+      activation:
+        type: action
+        value: null
+        override: false
+      consumption:
+        targets: []
+        scaling:
+          allowed: false
+          max: ''
+        spellSlot: true
+      description:
+        chatFlavor: ''
+      duration:
+        units: inst
+        concentration: false
+        override: false
+      effects: []
+      range:
+        override: false
+        units: self
+      target:
+        prompt: true
+        template:
+          contiguous: false
+          units: ft
+        affects:
+          choice: false
+        override: false
+      uses:
+        spent: 0
+        max: ''
+        recovery: []
+      attack:
+        ability: ''
+        bonus: ''
+        critical:
+          threshold: null
+        flat: false
+        type:
+          value: ranged
+          classification: spell
+      damage:
+        critical:
+          bonus: ''
+        includeBase: true
+        parts:
+          - number: 1
+            denomination: 8
+            bonus: ''
+            types:
+              - fire
+            custom:
+              enabled: false
+              formula: ''
+            scaling:
+              mode: whole
+              number: 1
+              formula: ''
+      sort: 0
+  identifier: produce-flame
+img: icons/magic/fire/blast-jet-stream-splash.webp
+ownership:
+  default: 0
+  38Gfe7fp1EmVmZNj: 3
+flags:
+  plutonium:
+    page: spells.html
+    source: PHB
+    hash: produce%20flame_phb
+    propDroppable: spell
+  dnd5e:
+    persistSourceMigration: true
+    riders:
+      activity: []
+      effect: []
+effects: []
+folder: LiW94aeo1pXMSCLr
+_id: AJprV3XmEWudhrVa
+sort: 0
+_stats:
+  systemId: dnd5e
+  systemVersion: 5.0.4
+  coreVersion: '13.346'
+  createdTime: 1708227601529
+  modifiedTime: 1752197371435
+  lastModifiedBy: 1pY4akW8WASxGBbA
+  compendiumSource: null
+  duplicateSource: null
+  exportSource: null
+_key: '!items!AJprV3XmEWudhrVa'

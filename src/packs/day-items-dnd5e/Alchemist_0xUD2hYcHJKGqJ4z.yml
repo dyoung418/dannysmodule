@@ -1,0 +1,266 @@
+folder: J3Oz4tI57G8CYeP8
+name: Alchemist
+type: subclass
+_id: 0xUD2hYcHJKGqJ4z
+img: systems/dnd5e/icons/svg/items/subclass.svg
+system:
+  description:
+    value: >-
+      <p><span style="font-family:Roboto, Helvetica, sans-serif">An Alchemist is
+      an expert at combining reagents to produce mystical effects. Alchemists
+      use their creations to give life and to leech it away. Alchemy is the
+      oldest of artificer traditions, and its versatility has long been valued
+      during times of war and peace.</span></p>
+    chat: ''
+  source:
+    revision: 1
+    rules: '2024'
+  identifier: alchemist
+  classIdentifier: artificer
+  advancement:
+    - _id: rq3kqpRpzNv5QzpI
+      type: Trait
+      configuration:
+        mode: default
+        allowReplacements: true
+        grants:
+          - tool:art:alchemist
+        choices: []
+      level: 3
+      title: Tool Proficiency
+      icon: null
+      value:
+        chosen: []
+    - _id: 2vjxizLvVK0qDgZ4
+      type: ItemGrant
+      configuration:
+        items:
+          - uuid: Compendium.dannysmodule.day-items-dnd5e.Item.clEpR9slvcplSjtN
+            optional: false
+          - uuid: Compendium.dannysmodule.day-items-dnd5e.Item.89ZyY1jm9asxBYv9
+            optional: false
+        optional: false
+        spell:
+          ability:
+            - int
+          preparation: always
+          uses:
+            max: ''
+            per: ''
+            requireSlot: false
+      value: {}
+      level: 3
+      title: Alchemist Spells
+      icon: null
+    - type: ItemGrant
+      configuration:
+        items:
+          - uuid: Compendium.dannysmodule.day-items-dnd5e.Item.meGbQHJbT00kmwAR
+            optional: false
+          - uuid: Compendium.dannysmodule.day-items-dnd5e.Item.SQ15sAN2ir57iT2H
+            optional: false
+        optional: false
+        spell:
+          ability:
+            - int
+          preparation: always
+          uses:
+            max: ''
+            per: ''
+            requireSlot: false
+      value: {}
+      level: 5
+      title: Alchemist Spells
+      icon: null
+      _id: QlvPT4vLniecG0ev
+    - type: ItemGrant
+      configuration:
+        items:
+          - uuid: Compendium.dannysmodule.day-items-dnd5e.Item.JoloI3peGYQkKAuF
+            optional: false
+          - uuid: Compendium.dannysmodule.day-items-dnd5e.Item.CbXHKNkMd7bTHRRQ
+            optional: false
+        optional: false
+        spell:
+          ability:
+            - int
+          preparation: always
+          uses:
+            max: ''
+            per: ''
+            requireSlot: false
+      value: {}
+      level: 9
+      title: Alchemist Spells
+      icon: null
+      _id: ik9lUoQBFzDsl8D5
+    - type: ItemGrant
+      configuration:
+        items:
+          - uuid: Compendium.dannysmodule.day-items-dnd5e.Item.xUQGeQOGlxaP4kHU
+            optional: false
+          - uuid: Compendium.dannysmodule.day-items-dnd5e.Item.3p1hNQSYCsb8z0HI
+            optional: false
+        optional: false
+        spell:
+          ability:
+            - int
+          preparation: always
+          uses:
+            max: ''
+            per: ''
+            requireSlot: false
+      value: {}
+      level: 13
+      title: Alchemist Spells
+      icon: null
+      _id: lE5WH60Hf6AEfarc
+    - type: ItemGrant
+      configuration:
+        items:
+          - uuid: Compendium.dannysmodule.day-items-dnd5e.Item.6BYPGDTRkIrjXD6X
+            optional: false
+          - uuid: Compendium.dannysmodule.day-items-dnd5e.Item.TNvdXJ2criO9EALJ
+            optional: false
+        optional: false
+        spell:
+          ability:
+            - int
+          preparation: always
+          uses:
+            max: ''
+            per: ''
+            requireSlot: false
+      value: {}
+      level: 17
+      title: Alchemist Spells
+      icon: null
+      _id: hn2eW8eiK4Lwo8Iu
+    - _id: vrPuG1HnfU5nEMZ7
+      type: ItemGrant
+      configuration:
+        items:
+          - uuid: Compendium.dannysmodule.day-items-dnd5e.Item.87MCXwZYHPivyUPC
+            optional: false
+        optional: false
+        spell: null
+      value: {}
+      level: 3
+      title: Subclass Feature
+      icon: null
+    - _id: GCeD5WNxybGPRYmy
+      type: ItemGrant
+      configuration:
+        items:
+          - uuid: Compendium.dannysmodule.day-items-dnd5e.Item.bJbBJBLBJ8N7oCRD
+            optional: false
+        optional: false
+        spell: null
+      value: {}
+      level: 3
+      title: Subclass Feature
+      icon: null
+    - _id: hcoIYdH4KGByMzUK
+      type: ItemGrant
+      configuration:
+        items:
+          - uuid: Compendium.dannysmodule.day-items-dnd5e.Item.uGtBKKpQqJko9pWW
+            optional: false
+        optional: false
+        spell: null
+      value: {}
+      level: 5
+      title: Subclass Feature
+      icon: null
+    - _id: o6PrTcCC2ZOa1OO1
+      type: ItemGrant
+      configuration:
+        items:
+          - uuid: Compendium.dannysmodule.day-items-dnd5e.Item.40tXoBzS9Z5dwjBT
+            optional: false
+          - uuid: Compendium.dannysmodule.day-items-dnd5e.Item.NSXr8iQYTVSqTrYc
+            optional: false
+        optional: false
+        spell:
+          ability:
+            - int
+          preparation: atwill
+          uses:
+            max: max(1,@abilities.int.mod)
+            per: lr
+            requireSlot: false
+      value: {}
+      level: 9
+      title: Subclass Feature
+      icon: null
+    - _id: DL1AVC603k7GBAeG
+      type: ItemGrant
+      configuration:
+        items:
+          - uuid: Compendium.dannysmodule.day-items-dnd5e.Item.wp5K3mv4wHxUB33X
+            optional: false
+          - uuid: Compendium.dannysmodule.day-items-dnd5e.Item.m8rpaUbYDsSDwIY7
+            optional: false
+          - uuid: Compendium.dannysmodule.day-items-dnd5e.Item.ni8tDYWFxacEtEDR
+            optional: false
+        optional: false
+        spell:
+          ability:
+            - int
+          preparation: atwill
+          uses:
+            max: '1'
+            per: lr
+            requireSlot: false
+      value: {}
+      level: 15
+      title: Subclass Feature
+      icon: null
+    - _id: xy7ucbdy1fObMXVE
+      type: Trait
+      configuration:
+        mode: default
+        allowReplacements: false
+        grants:
+          - dr:acid
+          - dr:poison
+        choices: []
+      level: 15
+      title: ''
+      icon: null
+      value:
+        chosen: []
+    - _id: d1u3fkyCs4Np339L
+      type: Trait
+      configuration:
+        mode: default
+        allowReplacements: false
+        grants:
+          - ci:poisoned
+        choices: []
+      level: 15
+      title: ''
+      icon: null
+      value:
+        chosen: []
+  spellcasting:
+    progression: none
+    ability: ''
+    preparation: {}
+effects: []
+sort: 0
+ownership:
+  default: 0
+  38Gfe7fp1EmVmZNj: 3
+flags: {}
+_stats:
+  systemId: dnd5e
+  systemVersion: 5.0.4
+  coreVersion: '13.346'
+  createdTime: 1709704296099
+  modifiedTime: 1752197371435
+  lastModifiedBy: 1pY4akW8WASxGBbA
+  compendiumSource: null
+  duplicateSource: null
+  exportSource: null
+_key: '!items!0xUD2hYcHJKGqJ4z'

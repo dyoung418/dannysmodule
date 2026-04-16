@@ -1,0 +1,119 @@
+name: Mental Prison
+type: spell
+system:
+  source:
+    custom: ''
+    book: XGE
+    page: '161'
+    license: ''
+  description:
+    value: >-
+      <div class="rd__b  rd__b--3"><p>You attempt to bind a creature within an
+      illusory cell that only it perceives. One creature you can see within
+      range must make an Intelligence saving throw. The target succeeds
+      automatically if it is immune to being @condition[charmed]. On a
+      successful save, the target takes [[/r 5d10]] psychic damage, and the
+      spell ends. On a failed save, the target takes [[/r 5d10]] psychic damage,
+      and you make the area immediately around the target's space appear
+      dangerous to it in some way. You might cause the target to perceive itself
+      as being surrounded by fire, floating razors, or hideous maws filled with
+      dripping teeth. Whatever form the illusion takes, the target can't see or
+      hear anything beyond it and is @condition[restrained] for the spell's
+      duration. If the target is moved out of the illusion, makes a melee attack
+      through it, or reaches any part of its body through it, the target takes
+      [[/r 10d10]] psychic damage, and the spell ends.</p><div
+      class="rd__spc-inline-post"></div></div><div><span class="bold">Classes:
+      </span>Sorcerer, Warlock, Wizard</div>
+    chat: ''
+  actionType: save
+  level: 6
+  school: ill
+  properties:
+    - somatic
+    - concentration
+  materials:
+    value: ''
+    consumed: false
+    cost: 0
+    supply: 0
+  target:
+    value: 0
+    units: ''
+    type: ''
+    prompt: true
+    width: null
+  range:
+    value: 60
+    units: ft
+    long: null
+  activation:
+    type: action
+    cost: 1
+    condition: ''
+  duration:
+    value: '1'
+    units: minute
+  damage:
+    parts:
+      - - 5d10
+        - psychic
+      - - 5d10
+        - psychic
+      - - 10d10
+        - psychic
+    versatile: ''
+  scaling:
+    mode: none
+    formula: ''
+  save:
+    ability: int
+    dc: null
+    scaling: spell
+  uses:
+    value: null
+    max: ''
+    per: null
+    recovery: ''
+    prompt: true
+  attackBonus: ''
+  chatFlavor: ''
+  critical:
+    threshold: null
+    damage: ''
+  formula: ''
+  preparation:
+    mode: prepared
+    prepared: false
+  consume:
+    type: ''
+    target: null
+    amount: null
+    scale: false
+  cover: null
+  crewed: false
+  ability: null
+img: icons/magic/perception/eye-ringed-green.webp
+ownership:
+  default: 0
+  38Gfe7fp1EmVmZNj: 3
+flags:
+  plutonium:
+    page: spells.html
+    source: XGE
+    hash: mental%20prison_xge
+    propDroppable: spell
+effects: []
+folder: YZc3v7XiNFawHEhx
+_id: seAPA2u6CjpxTyCJ
+sort: 0
+_stats:
+  systemId: dnd5e
+  systemVersion: 3.0.3
+  coreVersion: '13.345'
+  createdTime: 1709684307040
+  modifiedTime: 1709684366197
+  lastModifiedBy: 38Gfe7fp1EmVmZNj
+  compendiumSource: null
+  duplicateSource: null
+  exportSource: null
+_key: '!items!seAPA2u6CjpxTyCJ'

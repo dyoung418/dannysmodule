@@ -1,0 +1,131 @@
+name: Planar Binding
+type: spell
+system:
+  source:
+    custom: ''
+    book: PHB
+    page: '265'
+    license: ''
+  description:
+    value: >-
+      <div class="rd__b  rd__b--3"><p>With this spell, you attempt to bind a <a
+      href="https://5etools-mirror-2.github.io/bestiary.html#blankhash,flsttype:celestial=1,flstmiscellaneous:swarm=2">celestial</a>,
+      an <a
+      href="https://5etools-mirror-2.github.io/bestiary.html#blankhash,flsttype:elemental=1,flstmiscellaneous:swarm=2">elemental</a>,
+      a <a
+      href="https://5etools-mirror-2.github.io/bestiary.html#blankhash,flsttype:fey=1,flstmiscellaneous:swarm=2">fey</a>,
+      or a <a
+      href="https://5etools-mirror-2.github.io/bestiary.html#blankhash,flsttype:fiend=1,flstmiscellaneous:swarm=2">fiend</a>
+      to your service. The creature must be within range for the entire casting
+      of the spell. (Typically, the creature is first summoned into the center
+      of an inverted @spell[magic circle] in order to keep it trapped while this
+      spell is cast.) At the completion of the casting, the target must make a
+      Charisma saving throw. On a failed save, it is bound to serve you for the
+      duration. If the creature was summoned or created by another spell, that
+      spell's duration is extended to match the duration of this spell.</p><div
+      class="rd__spc-inline-post"></div><p>A bound creature must follow your
+      instructions to the best of its ability. You might command the creature to
+      accompany you on an adventure, to guard a location, or to deliver a
+      message. The creature obeys the letter of your instructions, but if the
+      creature is hostile to you, it strives to twist your words to achieve its
+      own objectives. If the creature carries out your instructions completely
+      before the spell ends, it travels to you to report this fact if you are on
+      the same plane of existence. If you are on a different plane of existence,
+      it returns to the place where you bound it and remains there until the
+      spell ends.</p></div><div class="rd__b  rd__b--3"><div class="rd__b 
+      rd__b--3"><span class="rd__h rd__h--3" data-title-index="1"> <span
+      class="entry-title-inner">At Higher Levels.</span></span> <p>When you cast
+      this spell using a spell slot of a higher level, the duration increases to
+      10 days with a 6th-level slot, to 30 days with a 7th-level slot, to 180
+      days with an 8th-level slot, and to a year and a day with a 9th-level
+      spell slot.</p><div class="rd__spc-inline-post"></div></div><div
+      class="rd__spc-inline-post"></div></div><div><span class="bold">Classes:
+      </span>Bard, Cleric, Druid, Wizard</div>
+    chat: ''
+  actionType: save
+  level: 5
+  school: abj
+  properties:
+    - vocal
+    - somatic
+    - material
+  materials:
+    value: a jewel worth at least 1,000 gp, which the spell consumes
+    consumed: true
+    cost: 1000
+    supply: 0
+  target:
+    value: 1
+    units: ''
+    type: creature
+    prompt: true
+    width: null
+  range:
+    value: 60
+    units: ft
+    long: null
+  activation:
+    type: hour
+    cost: 1
+    condition: ''
+  duration:
+    value: '24'
+    units: hour
+  damage:
+    parts: []
+    versatile: ''
+  scaling:
+    mode: none
+    formula: ''
+  save:
+    ability: cha
+    dc: null
+    scaling: spell
+  uses:
+    value: null
+    max: ''
+    per: null
+    recovery: ''
+    prompt: true
+  attackBonus: ''
+  chatFlavor: ''
+  critical:
+    threshold: null
+    damage: ''
+  formula: ''
+  preparation:
+    mode: prepared
+    prepared: false
+  consume:
+    type: ''
+    target: null
+    amount: null
+    scale: false
+  cover: null
+  crewed: false
+  ability: null
+img: icons/sundries/survival/cuffs-shackles-tan.webp
+ownership:
+  default: 0
+  38Gfe7fp1EmVmZNj: 3
+flags:
+  plutonium:
+    page: spells.html
+    source: PHB
+    hash: planar%20binding_phb
+    propDroppable: spell
+effects: []
+folder: 6twhZgoHdiiTwIDl
+_id: IPylsGdQkejc4Nio
+sort: 0
+_stats:
+  systemId: dnd5e
+  systemVersion: 3.0.2
+  coreVersion: '13.345'
+  createdTime: 1708109345337
+  modifiedTime: 1708227413053
+  lastModifiedBy: 38Gfe7fp1EmVmZNj
+  compendiumSource: null
+  duplicateSource: null
+  exportSource: null
+_key: '!items!IPylsGdQkejc4Nio'

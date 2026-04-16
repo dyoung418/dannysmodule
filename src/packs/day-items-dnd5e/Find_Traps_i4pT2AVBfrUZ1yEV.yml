@@ -1,0 +1,110 @@
+name: Find Traps
+type: spell
+system:
+  source:
+    custom: ''
+    book: PHB
+    page: '241'
+    license: ''
+  description:
+    value: >-
+      <div class="rd__b  rd__b--3"><p>You sense the presence of any trap within
+      range that is within line of sight. A trap, for the purpose of this spell,
+      includes anything that would inflict a sudden or unexpected effect you
+      consider harmful or undesirable, which was specifically intended as such
+      by its creator. Thus, the spell would sense an area affected by the
+      @spell[alarm] spell, a @spell[glyph of warding], or a mechanical pit trap,
+      but it would not reveal a natural weakness in the floor, an unstable
+      ceiling, or a hidden sinkhole.</p><div
+      class="rd__spc-inline-post"></div><p>This spell merely reveals that a trap
+      is present. You don't learn the location of each trap, but you do learn
+      the general nature of the danger posed by a trap you
+      sense.</p></div><div><span class="bold">Classes: </span>Cleric, Druid,
+      Ranger</div>
+    chat: ''
+  actionType: util
+  level: 2
+  school: div
+  properties:
+    - vocal
+    - somatic
+  materials:
+    value: ''
+    consumed: false
+    cost: 0
+    supply: 0
+  target:
+    value: 0
+    units: ''
+    type: ''
+    prompt: true
+    width: null
+  range:
+    value: 120
+    units: ft
+    long: null
+  activation:
+    type: action
+    cost: 1
+    condition: ''
+  duration:
+    value: ''
+    units: inst
+  damage:
+    parts: []
+    versatile: ''
+  scaling:
+    mode: none
+    formula: ''
+  save:
+    dc: null
+    scaling: spell
+    ability: ''
+  uses:
+    value: null
+    max: ''
+    per: null
+    recovery: ''
+    prompt: true
+  attackBonus: ''
+  chatFlavor: ''
+  critical:
+    threshold: null
+    damage: ''
+  formula: ''
+  preparation:
+    mode: prepared
+    prepared: false
+  consume:
+    type: ''
+    target: null
+    amount: null
+    scale: false
+  cover: null
+  crewed: false
+  ability: null
+img: icons/environment/traps/trap-jaw-tan.webp
+ownership:
+  default: 0
+  38Gfe7fp1EmVmZNj: 3
+flags:
+  plutonium:
+    page: spells.html
+    source: PHB
+    hash: find%20traps_phb
+    propDroppable: spell
+effects: []
+folder: 5RW3khzmlcXrGJ9s
+_id: i4pT2AVBfrUZ1yEV
+sort: 0
+_stats:
+  systemId: dnd5e
+  systemVersion: 3.0.2
+  coreVersion: '13.345'
+  createdTime: 1708227517363
+  modifiedTime: 1708227533976
+  lastModifiedBy: 38Gfe7fp1EmVmZNj
+  compendiumSource: null
+  duplicateSource: null
+  exportSource: null
+_key: '!items!i4pT2AVBfrUZ1yEV'

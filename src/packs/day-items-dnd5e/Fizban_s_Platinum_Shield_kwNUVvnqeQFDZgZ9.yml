@@ -1,0 +1,118 @@
+name: Fizban's Platinum Shield
+type: spell
+system:
+  source:
+    custom: ''
+    book: FTD
+    page: '20'
+    license: ''
+  description:
+    value: >-
+      <div class="rd__b  rd__b--3"><p>You create a field of silvery light that
+      surrounds a creature of your choice within range (you can choose
+      yourself). The field sheds dim light out to 5 feet. While surrounded by
+      the field, a creature gains the following benefits:</p><div
+      class="rd__spc-inline-post"></div><ul class="rd__list
+      rd__list-hang-notitle"><li class="rd__li "><p
+      class="rd__p-list-item"><span class="bold
+      rd__list-item-name">Cover.</span> The creature has half cover.</p></li><li
+      class="rd__li "><p class="rd__p-list-item"><span class="bold
+      rd__list-item-name">Damage Resistance.</span> The creature has resistance
+      to acid, cold, fire, lightning, and poison damage.</p></li><li
+      class="rd__li "><p class="rd__p-list-item"><span class="bold
+      rd__list-item-name">Evasion.</span> If the creature is subjected to an
+      effect that allows it to make a Dexterity saving throw to take only half
+      damage, the creature instead takes no damage if it succeeds on the saving
+      throw, and only half damage if it fails.</p></li></ul><p>As a bonus action
+      on subsequent turns, you can move the field to another creature within 60
+      feet of the field.</p></div><div><span class="bold">Classes:
+      </span>Sorcerer, Wizard</div>
+    chat: ''
+  actionType: util
+  level: 6
+  school: abj
+  properties:
+    - vocal
+    - somatic
+    - material
+    - concentration
+  materials:
+    value: a platinum-plated dragon scale, worth at least 500 gp
+    consumed: false
+    cost: 500
+    supply: 0
+  target:
+    value: 0
+    units: ''
+    type: ''
+    prompt: true
+    width: null
+  range:
+    value: 60
+    units: ft
+    long: null
+  activation:
+    type: bonus
+    cost: 1
+    condition: ''
+  duration:
+    value: '1'
+    units: minute
+  damage:
+    parts: []
+    versatile: ''
+  scaling:
+    mode: none
+    formula: ''
+  save:
+    dc: null
+    scaling: spell
+    ability: ''
+  uses:
+    value: null
+    max: ''
+    per: null
+    recovery: ''
+    prompt: true
+  attackBonus: ''
+  chatFlavor: ''
+  critical:
+    threshold: null
+    damage: ''
+  formula: ''
+  preparation:
+    mode: prepared
+    prepared: false
+  consume:
+    type: ''
+    target: null
+    amount: null
+    scale: false
+  cover: null
+  crewed: false
+  ability: null
+img: icons/magic/defensive/shield-barrier-flaming-pentagon-blue-yellow.webp
+ownership:
+  default: 0
+  38Gfe7fp1EmVmZNj: 3
+flags:
+  plutonium:
+    page: spells.html
+    source: FTD
+    hash: fizban's%20platinum%20shield_ftd
+    propDroppable: spell
+effects: []
+folder: l6s2S2ViuMdNCEzw
+_id: kwNUVvnqeQFDZgZ9
+sort: 0
+_stats:
+  systemId: dnd5e
+  systemVersion: 3.0.2
+  coreVersion: '13.345'
+  createdTime: 1708109196401
+  modifiedTime: 1708227409300
+  lastModifiedBy: 38Gfe7fp1EmVmZNj
+  compendiumSource: null
+  duplicateSource: null
+  exportSource: null
+_key: '!items!kwNUVvnqeQFDZgZ9'

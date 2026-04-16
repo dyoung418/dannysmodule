@@ -1,0 +1,425 @@
+name: Send Skill/ST Buttons
+type: script
+command: |-
+  const skills = [
+    {pl: "Akrobatyka", en: "acrobatics"},
+    {pl: "Arkana", en: "arcana"},
+    {pl: "Atletyka", en: "athletics"},
+    {pl: "Dyplomacja", en: "diplomacy"},
+    {pl: "Medycyna", en: "medicine"},
+    {pl: "Natura", en: "nature"},
+    {pl: "Okultyzm", en: "occultism"},
+    {pl: "Oszustwo", en: "deception"},
+    {pl: "Przetrwanie", en: "survival"},
+    {pl: "Religia", en: "religion"},
+    {pl: "Rzemiosło", en: "crafting"},
+    {pl: "Społeczeństwo", en: "society"},
+    {pl: "Ukrycie", en: "stealth"},
+    {pl: "Występy", en: "performance"},
+    {pl: "Zastraszanie", en: "intimidation"},
+    {pl: "Złodziejstwo", en: "thievery"},
+    {pl: "Percepcja", en: "perception"},
+    {pl: "Przywołanie Wiedzy", en: "recall-knowledge"}
+  ];
+
+  const savingThrows = [
+    {pl: "Wytrwałość", en: "fortitude", color: "green"},
+    {pl: "Refleks", en: "reflex", color: "darkblue"},
+    {pl: "Wola", en: "will", color: "purple"}
+  ];
+
+  const subcategories = {
+    acrobatics: [{pl: "Balansowanie", en: "balance"}, {pl: "Manewr w locie", en: "maneuver"}, {pl: "Przedzieranie się", en: "tumble-through"}, {pl: "Przeciskanie się", en: "squeeze"}],
+    athletics: [{pl: "Wspinaczka", en: "climb"}, {pl: "Rozbrojenie", en: "disarm"}, {pl: "Otwarcie siłą", en: "force-open"}, {pl: "Chwytanie", en: "grapple"}, {pl: "Skok wzwyż", en: "high-jump"}, {pl: "Skok w dal", en: "long-jump"}, {pl: "Przemieszczenie", en: "reposition"}, {pl: "Pchnięcie", en: "shove"}, {pl: "Pływanie", en: "swim"}, {pl: "Przewracanie", en: "trip"}],
+    perception: [{pl: "Wyczucie Motywu", en: "sense-motive"}, {pl: "Szukanie", en: "seek"}],
+    arcana: [{pl: "Rozszyfrowanie pisma", en: "decipher-writing:arcana"}, {pl: "Identyfikacja Magii", en: "identify-magic:arcana"}, {pl: "Nauka Zaklęcia", en: "learn-a-spell:arcana"}],
+    diplomacy: [{pl: "Zbieranie Informacji", en: "gather-information"}, {pl: "Wywarcie Wrażenia", en: "make-an-impression"}, {pl: "Prośba", en: "request"}],
+    medicine: [{pl: "Pierwsza pomoc", en: "administer-first-aid"}, {pl: "Leczenie choroby", en: "treat-disease"}, {pl: "Leczenie Trucizny", en: "treat-poison"}],
+    survival: [{pl: "Wyczucie Kierunku", en: "sense-direction"}, {pl: "Przeżycie", en: "subsist"}, {pl: "Zacieranie Śladów", en: "cover-tracks"}, {pl: "Tropienie", en: "track"}],
+    deception: [{pl: "Dywersja", en: "create-a-diversion"}, {pl: "Naśladowanie", en: "impersonate"}, {pl: "Kłamstwo", en: "lie"}, {pl: "Zmyłka", en: "feint"}],
+    crafting: [{pl: "Identyfikacja Alchemii", en: "identify-alchemy"}, {pl: "Naprawa", en: "repair"}, {pl: "Zarabianie", en: "earn-income"}],
+    religion: [{pl: "Rozszyfrowanie pisma", en: "decipher-writing:arcana"}, {pl: "Identyfikacja Magii", en: "identify-magic:arcana"}, {pl: "Nauka Zaklęcia", en: "learn-a-spell:arcana"}],
+    nature: [{pl: "Identyfikacja Zaklęcia", en: "identify-magic"}, {pl: "Nauka Zaklęcia", en: "learn-a-spell"}, {pl: "Rozkazuj Zwierzęciu", en: "command-an-animal"}],
+    occultism: [{pl: "Rozszyfrowanie pisma", en: "decipher-writing:arcana"}, {pl: "Identyfikacja Magii", en: "identify-magic:arcana"}, {pl: "Nauka Zaklęcia", en: "learn-a-spell:arcana"}],
+    society: [{pl: "Przeżycie", en: "subsist"}, {pl: "Fałszerstwo", en: "create-forgery"}, {pl: "Rozszyfrowanie Pisma", en: "decipher-writing"}],
+    stealth: [{pl: "Ukryj Przedmiot", en: "conceal-an-object"}, {pl: "Ukrywanie", en: "hide"}, {pl: "Skradanie się", en: "sneak"}],
+    thievery: [{pl: "Ukrycie w Dłoni", en: "palm-an-object"}, {pl: "Kradzież", en: "steal"}, {pl: "Unieszkodliwienie Urządzenia", en: "disable-a-device"}, {pl: "Otwieranie Zamków", en: "pick-a-lock"}],
+    performance: [{pl: "Występowanie", en: "perform"}],
+    intimidation: [{pl: "Przymuszenie", en: "coerce"}, {pl: "Demoralizacja", en: "demoralize"}]
+  };
+
+  const createButtonsGrid = (skills, savingThrows) => {
+    let buttonsHTML = '<table><tr>';
+
+    skills.forEach((skill, index) => {
+      if (index % 2 === 0 && index !== 0) {
+        buttonsHTML += '</tr><tr>';
+      }
+      buttonsHTML += `<td><button id="${skill.en}" class="${skill.en === 'perception' ? 'my-perception-button' : (skill.en === 'recall-knowledge' ? 'my-recall-button' : '')}">${skill.en}</button></td>`;
+    });
+
+    buttonsHTML += '</tr></table><br><h2>Saving Throws</h2><table><tr>';
+
+    savingThrows.forEach((save, index) => {
+      if (index % 2 === 0 && index !== 0) {
+        buttonsHTML += '</tr><tr>';
+      }
+      buttonsHTML += `<td><button id="${save.en}" class="my-save-button" style="background-color:${save.color};color:white;">${save.en}</button></td>`;
+    });
+
+    buttonsHTML += '</tr></table>';
+    return buttonsHTML;
+  };
+
+  const createVariantSelect = (variants) => {
+    return `
+      <p>Variant:
+        <select id="variant-select">
+          ${variants.map(variant => `<option value="${variant.value}">${variant.label}</option>`).join('')}
+        </select>
+      </p>`;
+  };
+
+  const showDCDialog = (subaction, defaultSkill, includeSkills = true) => {
+    let skillSelect = includeSkills ? 
+      `<p>Select a skill: 
+        <select id="skill-select">
+          ${skills.filter(skill => skill.en !== 'recall-knowledge').map(skill => `<option value="${skill.en}" ${skill.en === defaultSkill ? 'selected' : ''}>${skill.en}</option>`).join('')}
+        </select>
+      </p>` 
+      : '';
+
+    let difficultyOptions = `
+      <option value="0">Select a modifier</option>
+      <option value="-10">Incredibly Easy (-10)</option>
+      <option value="-5">Very Easy (-5)</option>
+      <option value="-2">Easy (-2)</option>
+      <option value="2">Hard (+2)</option>
+      <option value="5">Very Hard (+5)</option>
+      <option value="10">Extremely Hard (+10)</option>
+    `;
+
+    let levelOptions = `
+    <option value="0">Select a level</option>
+    <option value="1">1</option>
+    <option value="2">2</option>
+    <option value="3">3</option>
+    <option value="4">4</option>
+    <option value="5">5</option>
+    <option value="7">7</option>
+    <option value="8">8</option>
+    <option value="9">9</option>
+    <option value="10">10</option>
+    <option value="11">11</option>
+    <option value="12">12</option>
+    <option value="13">13</option>
+    <option value="14">14</option>
+    <option value="15">15</option>
+    <option value="16">16</option>
+    <option value="17">17</option>
+    <option value="18">18</option>
+    <option value="19">19</option>
+    <option value="20">20</option>
+    <option value="21">21</option>
+    <option value="22">22</option>
+    <option value="23">23</option>
+    <option value="24">24</option>
+    <option value="25">25</option>
+  `;
+
+    let content = `
+      <div>
+        <ul class="my-tabs">
+          <li class="my-tab-link current" data-tab="tab-1">Set DC</li>
+          <li class="my-tab-link" data-tab="tab-2">Simple DC</li>
+          <li class="my-tab-link" data-tab="tab-3">Level-based DC</li>
+        </ul>
+        <div id="tab-1" class="my-tab-content current">
+          <p>Enter the DC Value: <input type="number" id="dc-value" value="10"></p>
+          ${skillSelect}
+          <p>Difficulty Modifier:
+            <select id="difficulty-modifier">
+              ${difficultyOptions}
+            </select>
+          </p>
+        </div>
+        <div id="tab-2" class="my-tab-content">
+          <p>Select a DC Value:
+            <select id="simple-dc-value">
+              <option value="10">Untrained 10</option>
+              <option value="15">Trained 15</option>
+              <option value="20">Expert 20</option>
+              <option value="30">Master 30</option>
+              <option value="40">Legendary 40</option>
+            </select>
+          </p>
+          ${skillSelect}
+          <p>Difficulty Modifier:
+            <select id="difficulty-modifier-simple">
+              ${difficultyOptions}
+            </select>
+          </p>
+        </div>
+        <div id="tab-3" class="my-tab-content">
+          <p>Select a Level:
+            <select id="level-input">
+              ${levelOptions}
+            </select>
+            <!--
+            <input type="number" id="level-input" value="0" min="0" max="25">
+            -->
+          </p>
+          ${skillSelect}
+          <p>Difficulty Modifier:
+            <select id="difficulty-modifier-levels">
+              ${difficultyOptions}
+            </select>
+          </p>
+        </div>
+      </div>
+    `;
+
+    if (subaction === "create-a-diversion") {
+      content += createVariantSelect([
+        {value: "distracting-words", label: "Distracting Words"},
+        {value: "gesture", label: "Gesture"},
+        {value: "trick", label: "Trick"}
+      ]);
+    } else if (subaction === "administer-first-aid") {
+      content += createVariantSelect([
+        {value: "stabilize", label: "Stabilize"},
+        {value: "stop-bleeding", label: "Stop Bleeding"}
+      ]);
+    } else if (subaction === "perform") {
+      content += createVariantSelect([
+        {value: "acting", label: "Acting"},
+        {value: "comedy", label: "Comedy"},
+        {value: "dance", label: "Dance"},
+        {value: "singing", label: "Singing"},
+        {value: "keyboards", label: "Keyboard Instrument"},
+        {value: "oratory", label: "Oratory"},
+        {value: "percussion", label: "Percussion Instrument"},
+        {value: "strings", label: "String Instrument"},
+        {value: "winds", label: "Wind Instrument"}
+      ]);
+    }
+
+    new Dialog({
+      title: "Set DC",
+      content: content,
+      buttons: {
+        ok: {
+          label: "OK",
+          callback: (html) => {
+            let dcValue;
+            let difficultyModifier;
+            if (html.find('#tab-1').hasClass('current')) {
+              dcValue = parseInt(html.find("#dc-value").val());
+              difficultyModifier = parseInt(html.find("#difficulty-modifier").val());
+            } else if (html.find('#tab-2').hasClass('current')) {
+              dcValue = parseInt(html.find("#simple-dc-value").val());
+              difficultyModifier = parseInt(html.find("#difficulty-modifier-simple").val());
+            } else if (html.find('#tab-3').hasClass('current')) {
+              let level = parseInt(html.find("#level-input").val());
+              const levelToDC = {
+                0: 14, 1: 15, 2: 16, 3: 18, 4: 19, 5: 20,
+                6: 22, 7: 23, 8: 24, 9: 26, 10: 27, 11: 28,
+                12: 30, 13: 31, 14: 32, 15: 34, 16: 35, 17: 36,
+                18: 38, 19: 39, 20: 40, 21: 42, 22: 44, 23: 46,
+                24: 48, 25: 50
+              };
+              dcValue = levelToDC[level] || 10;  // Default to 10 if level is out of range
+              difficultyModifier = parseInt(html.find("#difficulty-modifier-levels").val());
+            }
+            dcValue += difficultyModifier;
+            
+            let chatMessageContent = `[[/act ${subaction} dc=${dcValue}`;
+
+            if (includeSkills) {
+              let selectedSkill = html.find("#skill-select").val();
+              if (selectedSkill) {
+                chatMessageContent += ` statistic=${selectedSkill}`;
+              }
+            }
+
+            if (subaction === "create-a-diversion" || subaction === "administer-first-aid" || subaction === "perform") {
+              let selectedVariant = html.find("#variant-select").val();
+              if (selectedVariant) {
+                chatMessageContent += ` variant=${selectedVariant}`;
+              }
+            }
+
+            chatMessageContent += ` show-dc=gm]]`;
+
+            ChatMessage.create({
+              user: game.user.id,
+              content: chatMessageContent
+            });
+          }
+        }
+      },
+      default: "ok",
+      render: (html) => {
+        html.find('.my-tab-link').click(function() {
+          var tab_id = $(this).attr('data-tab');
+
+          $('.my-tab-link').removeClass('current');
+          $('.my-tab-content').removeClass('current');
+
+          $(this).addClass('current');
+          $("#" + tab_id).addClass('current');
+        });
+      }
+    }).render(true);
+  };
+
+  const handleSubcategory = (category, subcategories) => {
+    let subcategoryDialog = new Dialog({
+      title: category.charAt(0).toUpperCase() + category.slice(1),
+      content: subcategories[category].map(sub => `<p><button id="${sub.en}">${sub.en}</button></p>`).join(''),
+      buttons: {},
+      render: (html) => {
+        html.find("button").click(event => {
+          let subaction = event.currentTarget.id;
+          subcategoryDialog.close();
+          
+          if (category === "crafting") {
+            if (subaction === "repair") {
+              ChatMessage.create({
+                user: game.user.id,
+                content: "@UUID[Compendium.pf2e.action-macros.Macro.BQTA7bL264189Xla]{Repair: Craftsmanship}"
+              });
+              return;
+            } else if (subaction === "earn-income") {
+              ChatMessage.create({
+                user: game.user.id,
+                content: "@UUID[Compendium.pf2e.pf2e-macros.Macro.mxHKWibjPrgfJTDg]{Earn Income}"
+              });
+              return;
+            }
+          }
+          
+          showDCDialog(subaction, category);
+        });
+      }
+    }).render(true);
+  };
+
+  const handleSavingThrow = (save) => {
+    let menuContent = `<p style="font-size:80%;text-align:center;">If the DC is invalid or left blank, then a Check with no listed DC will be posted.</p>
+          <form><div class="form-group">
+          <label><strong>DC:</strong></label>
+          <input type='number' id='thisinputhere' name='DCValue' autofocus></input>
+          </div></form>`;
+    new Dialog({
+      title: `Enter DC for ${save.en}`,
+      content: menuContent,
+      buttons: {
+        one: {
+          icon: '<i class="fas fa-dice-d20"></i>',
+          label: "Confirm and Post",
+          callback: (html) => {
+            let DCValue = parseInt(html.find('[name=DCValue]').val());
+            if (isNaN(DCValue) || DCValue <= 0) {
+              return ui.notifications.error("Please input a valid number greater than zero in the DC field.");
+            }
+            let DC = `dc:${DCValue}|`;
+            let checkText = `@Check[type:${save.en}|${DC}traits:action]`;
+
+            ChatMessage.create({
+              user: game.user.id,
+              speaker: ChatMessage.getSpeaker(),
+              content: checkText
+            });
+          }
+        },
+        two: {
+          icon: '<i class="fas fa-times"></i>',
+          label: "Cancel"
+        }
+      },
+      default: "one",
+      render: () => document.getElementById("thisinputhere").focus()
+    }, { width: 300 }).render(true);
+  };
+
+  let dialog1 = new Dialog({
+    title: "Select a Skill",
+    content: createButtonsGrid(skills, savingThrows),
+    buttons: {},
+    render: (html) => {
+      skills.forEach(skill => {
+        html.find(`#${skill.en}`).click(() => {
+          dialog1.close();
+          if (skill.en === "recall-knowledge") {
+            showDCDialog("recall-knowledge", "recall-knowledge");
+          } else {
+            handleSubcategory(skill.en, subcategories);
+          }
+        });
+      });
+
+      savingThrows.forEach(save => {
+        html.find(`#${save.en}`).click(() => {
+          dialog1.close();
+          handleSavingThrow(save);
+        });
+      });
+    }
+  }).render(true);
+
+  const style = document.createElement('style');
+  style.innerHTML = `
+    .my-perception-button {
+      background-color: blue;
+      color: white;
+    }
+    .my-recall-button {
+      background-color: pink;
+      color: black;
+    }
+    .my-save-button {
+      width: 100%;
+      margin: 1px auto;
+    }
+    .my-tabs {
+      display: flex;
+      cursor: pointer;
+    }
+    .my-tab-link {
+      padding: 10px;
+      background: #ddd;
+      margin-right: 5px;
+    }
+    .my-tab-link.current {
+      background: #bbb;
+    }
+    .my-tab-content {
+      display: none;
+    }
+    .my-tab-content.current {
+      display: block;
+    }
+  `;
+  document.head.appendChild(style);
+img: icons/svg/d4-grey.svg
+_id: dSrYgaRDsGhpNlly
+author: txZjek5EOiCBHPoz
+scope: global
+folder: 1XrfuqzpstOwCTFI
+flags: {}
+_stats:
+  compendiumSource: null
+  duplicateSource: null
+  coreVersion: '13.346'
+  systemId: pf2e
+  systemVersion: 6.0.4
+  createdTime: 1721068614579
+  modifiedTime: 1752208126881
+  lastModifiedBy: txZjek5EOiCBHPoz
+  exportSource: null
+sort: 0
+ownership:
+  default: 0
+  gcpIdQ3dGIHSmvov: 3
+_key: '!macros!dSrYgaRDsGhpNlly'

@@ -1,0 +1,44 @@
+folder: 1XrfuqzpstOwCTFI
+name: Token Name-All-Hover Owner
+type: script
+_id: mucc8Dht2gC2o67m
+author: txZjek5EOiCBHPoz
+img: icons/svg/sound-off.svg
+scope: global
+command: |-
+  // const activeSceneTokens = game.scenes.find(i=>i.active==true).tokens;
+  const activeSceneTokens = canvas.scene.tokens;
+
+  // Slower
+  // await activeSceneTokens.map(i=>
+  //    i.update({"displayName":CONST.TOKEN_DISPLAY_MODES.OWNER_HOVER}));
+
+  // Faster
+  let updates = activeSceneTokens.map(i=>
+    ({"_id":i._id, "displayName": CONST.TOKEN_DISPLAY_MODES.OWNER_HOVER}));
+  await canvas.scene.updateEmbeddedDocuments("Token", updates);
+
+  // CONST.TOKEN_DISPLAY_MODES reference:
+  // NONE (never display) (0)
+  // CONTROL (displayed when controlled) (10)
+  // OWNER_HOVER (on hover for owner) (20)
+  // HOVER (on hover for all) (30)
+  // OWNER (always for owner) (40)
+  // ALWAYS (always for all) (50)
+sort: 0
+ownership:
+  default: 0
+  txZjek5EOiCBHPoz: 3
+flags:
+  core: {}
+_stats:
+  systemId: pf2e
+  systemVersion: 5.10.3
+  coreVersion: '13.346'
+  createdTime: 1701590991762
+  modifiedTime: 1752208126881
+  lastModifiedBy: txZjek5EOiCBHPoz
+  compendiumSource: Macro.mucc8Dht2gC2o67m
+  duplicateSource: null
+  exportSource: null
+_key: '!macros!mucc8Dht2gC2o67m'

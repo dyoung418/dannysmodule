@@ -1,0 +1,105 @@
+name: Resistance
+type: spell
+system:
+  source:
+    custom: ''
+    book: PHB
+    page: '272'
+    license: ''
+  description:
+    value: >-
+      <div class="rd__b  rd__b--3"><p>You touch one willing creature. Once
+      before the spell ends, the target can roll a [[/r d4]] and add the number
+      rolled to one saving throw of its choice. It can roll the die before or
+      after making the saving throw. The spell then ends.</p><div
+      class="rd__spc-inline-post"></div></div><div><span class="bold">Classes:
+      </span>Artificer, Cleric, Druid</div>
+    chat: ''
+  actionType: util
+  level: 0
+  school: abj
+  properties:
+    - vocal
+    - somatic
+    - material
+    - concentration
+  materials:
+    value: a miniature cloak
+    consumed: false
+    cost: 0
+    supply: 0
+  target:
+    value: 1
+    units: touch
+    type: creature
+    prompt: true
+    width: null
+  range:
+    value: 0
+    units: touch
+    long: null
+  activation:
+    type: action
+    cost: 1
+    condition: ''
+  duration:
+    value: '1'
+    units: minute
+  damage:
+    parts: []
+    versatile: ''
+  scaling:
+    mode: none
+    formula: ''
+  save:
+    dc: null
+    scaling: spell
+    ability: ''
+  uses:
+    value: null
+    max: ''
+    per: null
+    recovery: ''
+    prompt: true
+  attackBonus: ''
+  chatFlavor: ''
+  critical:
+    threshold: null
+    damage: ''
+  formula: ''
+  preparation:
+    mode: always
+    prepared: false
+  consume:
+    type: ''
+    target: null
+    amount: null
+    scale: false
+  cover: null
+  crewed: false
+  ability: null
+img: icons/equipment/shield/buckler-wooden-boss-glowing-blue.webp
+ownership:
+  default: 0
+  38Gfe7fp1EmVmZNj: 3
+flags:
+  plutonium:
+    page: spells.html
+    source: PHB
+    hash: resistance_phb
+    propDroppable: spell
+effects: []
+folder: fNrxM08wbfHpjV1v
+_id: M4Vje2LjnGdaFm63
+sort: 0
+_stats:
+  systemId: dnd5e
+  systemVersion: 3.0.2
+  coreVersion: '13.345'
+  createdTime: 1708227601578
+  modifiedTime: 1708227676991
+  lastModifiedBy: 38Gfe7fp1EmVmZNj
+  compendiumSource: null
+  duplicateSource: null
+  exportSource: null
+_key: '!items!M4Vje2LjnGdaFm63'

@@ -1,0 +1,117 @@
+name: Web
+type: spell
+system:
+  source:
+    custom: ''
+    book: PHB
+    page: '287'
+    license: ''
+  description:
+    value: >-
+      <div class="rd__b  rd__b--3"><p>You conjure a mass of thick, sticky
+      webbing at a point of your choice within range. The webs fill a 20-foot
+      cube from that point for the duration. The webs are difficult terrain and
+      lightly obscure their area.</p><div
+      class="rd__spc-inline-post"></div><p>If the webs aren't anchored between
+      two solid masses (such as walls or trees) or layered across a floor, wall,
+      or ceiling, the conjured web collapses on itself, and the spell ends at
+      the start of your next turn. Webs layered over a flat surface have a depth
+      of 5 feet.</p><p>Each creature that starts its turn in the webs or that
+      enters them during its turn must make a Dexterity saving throw. On a
+      failed save, the creature is @condition[restrained] as long as it remains
+      in the webs or until it breaks free.</p><p>A creature
+      @condition[restrained] by the webs can use its action to make a Strength
+      check against your spell save DC. If it succeeds, it is no longer
+      @condition[restrained].</p><p>The webs are flammable. Any 5-foot cube of
+      webs exposed to fire burns away in 1 round, dealing [[/r 2d4]] fire damage
+      to any creature that starts its turn in the fire.</p></div><div><span
+      class="bold">Classes: </span>Artificer, Sorcerer, Wizard</div>
+    chat: ''
+  actionType: save
+  level: 2
+  school: con
+  properties:
+    - vocal
+    - somatic
+    - material
+    - concentration
+  materials:
+    value: a bit of spiderweb
+    consumed: false
+    cost: 0
+    supply: 0
+  target:
+    value: 20
+    units: ft
+    type: cube
+    prompt: true
+    width: null
+  range:
+    value: 60
+    units: ft
+    long: null
+  activation:
+    type: action
+    cost: 1
+    condition: ''
+  duration:
+    value: '1'
+    units: hour
+  damage:
+    parts: []
+    versatile: ''
+  scaling:
+    mode: none
+    formula: ''
+  save:
+    ability: dex
+    dc: null
+    scaling: spell
+  uses:
+    value: null
+    max: ''
+    per: null
+    recovery: ''
+    prompt: true
+  attackBonus: ''
+  chatFlavor: ''
+  critical:
+    threshold: null
+    damage: ''
+  formula: ''
+  preparation:
+    mode: prepared
+    prepared: false
+  consume:
+    type: ''
+    target: null
+    amount: null
+    scale: false
+  cover: null
+  crewed: false
+  ability: null
+img: icons/creatures/webs/web-spider-pink.webp
+ownership:
+  default: 0
+  38Gfe7fp1EmVmZNj: 3
+flags:
+  plutonium:
+    page: spells.html
+    source: PHB
+    hash: web_phb
+    propDroppable: spell
+effects: []
+folder: mjT6ZpZEhCFeSr4U
+_id: ZUHb2y5ctXJCzePs
+sort: 0
+_stats:
+  systemId: dnd5e
+  systemVersion: 3.0.2
+  coreVersion: '13.345'
+  createdTime: 1708109197451
+  modifiedTime: 1708227409300
+  lastModifiedBy: 38Gfe7fp1EmVmZNj
+  compendiumSource: null
+  duplicateSource: null
+  exportSource: null
+_key: '!items!ZUHb2y5ctXJCzePs'

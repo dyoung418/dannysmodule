@@ -1,0 +1,122 @@
+name: Dispel Evil and Good
+type: spell
+system:
+  source:
+    custom: ''
+    book: PHB
+    page: '233'
+    license: ''
+  description:
+    value: >-
+      <div class="rd__b  rd__b--3"><p>Shimmering energy surrounds and protects
+      you from fey, undead, and creatures originating from beyond the Material
+      Plane. For the duration, celestials, elementals, fey, fiends, and undead
+      have disadvantage on attack rolls against you.</p><div
+      class="rd__spc-inline-post"></div><p>You can end the spell early by using
+      either of the following special functions.</p><div class="rd__b 
+      rd__b--3"><span class="rd__h rd__h--3" data-title-index="1"> <span
+      class="entry-title-inner">Break Enchantment.</span></span> <p>As your
+      action, you touch a creature you can reach that is @condition[charmed],
+      @condition[frightened], or possessed by a celestial, an elemental, a fey,
+      a fiend, or an undead. The creature you touch is no longer
+      @condition[charmed], @condition[frightened], or possessed by such
+      creatures.</p><div class="rd__spc-inline-post"></div></div><div
+      class="rd__b  rd__b--3"><span class="rd__h rd__h--3" data-title-index="2">
+      <span class="entry-title-inner">Dismissal.</span></span> <p>As your
+      action, make a melee spell attack against a celestial, an elemental, a
+      fey, a fiend, or an undead you can reach. On a hit, you attempt to drive
+      the creature back to its home plane. The creature must succeed on a
+      Charisma saving throw or be sent back to its home plane (if it isn't there
+      already). If they aren't on their home plane, undead are sent to the
+      Shadowfell, and fey are sent to the Feywild.</p><div
+      class="rd__spc-inline-post"></div></div></div><div><span
+      class="bold">Classes: </span>Cleric, Paladin</div>
+    chat: ''
+  actionType: msak
+  level: 5
+  school: abj
+  properties:
+    - vocal
+    - somatic
+    - material
+    - concentration
+  materials:
+    value: holy water or powdered silver and iron
+    consumed: false
+    cost: 0
+    supply: 0
+  target:
+    value: 0
+    units: self
+    type: self
+    prompt: true
+    width: null
+  range:
+    value: 0
+    units: self
+    long: null
+  activation:
+    type: action
+    cost: 1
+    condition: ''
+  duration:
+    value: '1'
+    units: minute
+  damage:
+    parts: []
+    versatile: ''
+  scaling:
+    mode: none
+    formula: ''
+  save:
+    ability: cha
+    dc: null
+    scaling: spell
+  uses:
+    value: null
+    max: ''
+    per: null
+    recovery: ''
+    prompt: true
+  attackBonus: ''
+  chatFlavor: ''
+  critical:
+    threshold: null
+    damage: ''
+  formula: ''
+  preparation:
+    mode: prepared
+    prepared: false
+  consume:
+    type: ''
+    target: null
+    amount: null
+    scale: false
+  cover: null
+  crewed: false
+  ability: null
+img: icons/magic/air/wind-vortex-swirl-blue-purple.webp
+ownership:
+  default: 0
+  38Gfe7fp1EmVmZNj: 3
+flags:
+  plutonium:
+    page: spells.html
+    source: PHB
+    hash: dispel%20evil%20and%20good_phb
+    propDroppable: spell
+effects: []
+folder: i3oUZg2o4lUzPZxX
+_id: aTUCVhxXbOT7nrcT
+sort: 0
+_stats:
+  systemId: dnd5e
+  systemVersion: 3.0.2
+  coreVersion: '13.345'
+  createdTime: 1708227665515
+  modifiedTime: 1708227673035
+  lastModifiedBy: 38Gfe7fp1EmVmZNj
+  compendiumSource: null
+  duplicateSource: null
+  exportSource: null
+_key: '!items!aTUCVhxXbOT7nrcT'

@@ -1,0 +1,118 @@
+name: Insect Plague
+type: spell
+system:
+  source:
+    custom: ''
+    book: PHB
+    page: '254'
+    license: ''
+  description:
+    value: >-
+      <div class="rd__b  rd__b--3"><p>Swarming, biting locusts fill a
+      20-foot-radius sphere centered on a point you choose within range. The
+      sphere spreads around corners. The sphere remains for the duration, and
+      its area is lightly obscured. The sphere's area is difficult
+      terrain.</p><div class="rd__spc-inline-post"></div><p>When the area
+      appears, each creature in it must make a Constitution saving throw. A
+      creature takes [[/r 4d10]] piercing damage on a failed save, or half as
+      much damage on a successful one. A creature must also make this saving
+      throw when it enters the spell's area for the first time on a turn or ends
+      its turn there.</p></div><div class="rd__b  rd__b--3"><div class="rd__b 
+      rd__b--3"><span class="rd__h rd__h--3" data-title-index="1"> <span
+      class="entry-title-inner">At Higher Levels.</span></span> <p>When you cast
+      this spell using a spell slot of 6th level or higher, the damage increases
+      by [[/r 1d10]] for each slot level above 5th.</p><div
+      class="rd__spc-inline-post"></div></div><div
+      class="rd__spc-inline-post"></div></div><div><span class="bold">Classes:
+      </span>Cleric, Druid, Sorcerer</div>
+    chat: ''
+  actionType: save
+  level: 5
+  school: con
+  properties:
+    - vocal
+    - somatic
+    - material
+    - concentration
+  materials:
+    value: a few grains of sugar, some kernels of grain, and a smear of fat
+    consumed: false
+    cost: 0
+    supply: 0
+  target:
+    value: 20
+    units: ft
+    type: sphere
+    prompt: true
+    width: null
+  range:
+    value: 300
+    units: ft
+    long: null
+  activation:
+    type: action
+    cost: 1
+    condition: ''
+  duration:
+    value: '10'
+    units: minute
+  damage:
+    parts:
+      - - 4d10
+        - piercing
+    versatile: ''
+  scaling:
+    mode: level
+    formula: 1d10
+  save:
+    ability: con
+    dc: null
+    scaling: spell
+  uses:
+    value: null
+    max: ''
+    per: null
+    recovery: ''
+    prompt: true
+  attackBonus: ''
+  chatFlavor: ''
+  critical:
+    threshold: null
+    damage: ''
+  formula: ''
+  preparation:
+    mode: prepared
+    prepared: false
+  consume:
+    type: ''
+    target: null
+    amount: null
+    scale: false
+  cover: null
+  crewed: false
+  ability: null
+img: icons/creatures/invertebrates/wasp-swarm-tan.webp
+ownership:
+  default: 0
+  38Gfe7fp1EmVmZNj: 3
+flags:
+  plutonium:
+    page: spells.html
+    source: PHB
+    hash: insect%20plague_phb
+    propDroppable: spell
+effects: []
+folder: 8U2cnpUuL1cqC1TA
+_id: S7VAQceEYKUqfMPG
+sort: 0
+_stats:
+  systemId: dnd5e
+  systemVersion: 3.0.2
+  coreVersion: '13.345'
+  createdTime: 1708227601411
+  modifiedTime: 1708227676991
+  lastModifiedBy: 38Gfe7fp1EmVmZNj
+  compendiumSource: null
+  duplicateSource: null
+  exportSource: null
+_key: '!items!S7VAQceEYKUqfMPG'

@@ -1,0 +1,108 @@
+name: Message
+type: spell
+system:
+  source:
+    custom: ''
+    book: PHB
+    page: '259'
+    license: ''
+  description:
+    value: >-
+      <div class="rd__b  rd__b--3"><p>You point your finger toward a creature
+      within range and whisper a message. The target (and only the target) hears
+      the message and can reply in a whisper that only you can hear.</p><div
+      class="rd__spc-inline-post"></div><p>You can cast this spell through solid
+      objects if you are familiar with the target and know it is beyond the
+      barrier. Magical silence, 1 foot of stone, 1 inch of common metal, a thin
+      sheet of lead, or 3 feet of wood blocks the spell. The spell doesn't have
+      to follow a straight line and can travel freely around corners or through
+      openings.</p></div><div><span class="bold">Classes: </span>Artificer,
+      Bard, Sorcerer, Wizard</div>
+    chat: ''
+  actionType: util
+  level: 0
+  school: trs
+  properties:
+    - vocal
+    - somatic
+    - material
+  materials:
+    value: a short piece of copper wire
+    consumed: false
+    cost: 0
+    supply: 0
+  target:
+    value: 1
+    units: ''
+    type: creature
+    prompt: true
+    width: null
+  range:
+    value: 120
+    units: ft
+    long: null
+  activation:
+    type: action
+    cost: 1
+    condition: ''
+  duration:
+    value: '1'
+    units: round
+  damage:
+    parts: []
+    versatile: ''
+  scaling:
+    mode: none
+    formula: ''
+  save:
+    dc: null
+    scaling: spell
+    ability: ''
+  uses:
+    value: null
+    max: ''
+    per: null
+    recovery: ''
+    prompt: true
+  attackBonus: ''
+  chatFlavor: ''
+  critical:
+    threshold: null
+    damage: ''
+  formula: ''
+  preparation:
+    mode: always
+    prepared: false
+  consume:
+    type: ''
+    target: null
+    amount: null
+    scale: false
+  cover: null
+  crewed: false
+  ability: null
+img: icons/skills/social/diplomacy-writing-letter.webp
+ownership:
+  default: 0
+  38Gfe7fp1EmVmZNj: 3
+flags:
+  plutonium:
+    page: spells.html
+    source: PHB
+    hash: message_phb
+    propDroppable: spell
+effects: []
+folder: e2JThPwPxkakLAgS
+_id: KT0zpJgvSYmvRg90
+sort: 0
+_stats:
+  systemId: dnd5e
+  systemVersion: 3.0.2
+  coreVersion: '13.345'
+  createdTime: 1708228955817
+  modifiedTime: 1708229053839
+  lastModifiedBy: 38Gfe7fp1EmVmZNj
+  compendiumSource: null
+  duplicateSource: null
+  exportSource: null
+_key: '!items!KT0zpJgvSYmvRg90'

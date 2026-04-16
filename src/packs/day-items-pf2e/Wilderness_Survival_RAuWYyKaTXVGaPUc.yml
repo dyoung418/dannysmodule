@@ -1,0 +1,82 @@
+name: Wilderness Survival
+type: effect
+img: icons/environment/wilderness/tree-spruce.webp
+system:
+  description:
+    gm: ''
+    value: >-
+      <p data-pm-slice="1 1 []">Any attempts to Cook a Meal or Treat Disease
+      gain a +1 item bonus during this camping session. If the party level is 11
+      or higher, the bonus increases to +2</p>
+  rules:
+    - key: FlatModifier
+      selector: skill-check
+      value:
+        brackets:
+          - start: 1
+            end: 10
+            value: 1
+          - start: 11
+            end: 20
+            value: 2
+      type: item
+      predicate:
+        - or:
+            - action:cook-special-meal
+            - action:cook-basic-meal
+            - action:cook-meal
+            - action:treat-disease
+  slug: null
+  _migration:
+    version: 0.94
+    previous:
+      schema: 0.939
+      foundry: '13.345'
+      system: 7.2.0
+  traits:
+    otherTags: []
+    value: []
+  publication:
+    title: ''
+    authors: ''
+    license: OGL
+    remaster: false
+  level:
+    value: 1
+  duration:
+    value: -1
+    unit: unlimited
+    expiry: null
+    sustained: false
+  start:
+    value: 0
+    initiative: null
+  tokenIcon:
+    show: true
+  badge: null
+  context: null
+  unidentified: false
+  fromSpell: false
+effects: []
+ownership:
+  default: 0
+  txZjek5EOiCBHPoz: 3
+flags:
+  core: {}
+  scene-packer:
+    hash: 552eafda74e616071421de5bb6152c03121d0d1b
+_stats:
+  compendiumSource: >-
+    Compendium.pf2e-kingmaker-tools.kingmaker-tools-camping-effects.Item.v9i9W49PeJ9NkfXX
+  duplicateSource: null
+  coreVersion: '13.346'
+  systemId: pf2e
+  systemVersion: 7.2.3
+  createdTime: 1718606591261
+  modifiedTime: 1752208111692
+  lastModifiedBy: txZjek5EOiCBHPoz
+  exportSource: null
+folder: lVJfRR3nUB6MU7dI
+_id: RAuWYyKaTXVGaPUc
+sort: 138673
+_key: '!items!RAuWYyKaTXVGaPUc'

@@ -1,0 +1,64 @@
+folder: 1XrfuqzpstOwCTFI
+name: Token Name-Selected-Hover Owner
+type: script
+author: txZjek5EOiCBHPoz
+img: icons/svg/sound-off.svg
+scope: global
+command: >-
+  // game.canvas.tokens is actually the TokenLayer and not a collection of
+  tokens.  It has
+
+  //   a convenience method "controlled" which returns and array of the token
+  documents of the
+
+  //   selected token documents.
+
+  const selectedTokens = game.canvas.tokens.controlled;
+
+
+  // Slower
+
+  //await selectedTokens.map(i=>
+
+  // 
+  i.document.update({"displayName":CONST.TOKEN_DISPLAY_MODES.OWNER_HOVER})); 
+
+
+  // Faster
+
+  let updates = selectedTokens.map(i=> 
+    ({"_id": i._id, "displayName": CONST.TOKEN_DISPLAY_MODES.OWNER_HOVER }));
+  await Token.updateDocuments(updates); // faster
+
+
+  // CONST.TOKEN_DISPLAY_MODES reference:
+
+  // NONE (never display) (0)
+
+  // CONTROL (displayed when controlled) (10)
+
+  // OWNER_HOVER (on hover for owner) (20)
+
+  // HOVER (on hover for all) (30)
+
+  // OWNER (always for owner) (40)
+
+  // ALWAYS (always for all) (50)
+sort: 0
+ownership:
+  default: 0
+  txZjek5EOiCBHPoz: 3
+flags:
+  core: {}
+_stats:
+  systemId: pf2e
+  systemVersion: 5.10.3
+  coreVersion: '13.346'
+  createdTime: 1701590991762
+  modifiedTime: 1752208126881
+  lastModifiedBy: txZjek5EOiCBHPoz
+  compendiumSource: Macro.HudwGbfUnLX9e2h5
+  duplicateSource: null
+  exportSource: null
+_id: HudwGbfUnLX9e2h5
+_key: '!macros!HudwGbfUnLX9e2h5'

@@ -1,0 +1,112 @@
+name: Spray of Cards
+type: spell
+system:
+  source:
+    custom: ''
+    book: BMT
+    page: '50'
+    license: ''
+  description:
+    value: >-
+      <div class="rd__b  rd__b--3"><p>You spray a 15-foot cone of spectral
+      cards. Each creature in that area must make a Dexterity saving throw. On a
+      failed save, a creature takes [[/r 2d10]] force damage and has the
+      @condition[blinded] condition until the end of its next turn. On a
+      successful save, a creature takes half as much damage only.</p><div
+      class="rd__spc-inline-post"></div></div><div class="rd__b  rd__b--3"><div
+      class="rd__b  rd__b--3"><span class="rd__h rd__h--3" data-title-index="1">
+      <span class="entry-title-inner">At Higher Levels.</span></span> <p>When
+      you cast this spell using a spell slot of 3rd level or higher, the damage
+      increases by [[/r 1d10]] for each slot level above 2nd.</p><div
+      class="rd__spc-inline-post"></div></div><div
+      class="rd__spc-inline-post"></div></div>
+    chat: ''
+  actionType: save
+  level: 2
+  school: con
+  properties:
+    - vocal
+    - somatic
+    - material
+  materials:
+    value: a deck of cards
+    consumed: false
+    cost: 0
+    supply: 0
+  target:
+    value: 15
+    units: ft
+    type: cone
+    prompt: true
+    width: null
+  range:
+    value: 0
+    units: ''
+    long: null
+  activation:
+    type: action
+    cost: 1
+    condition: ''
+  duration:
+    value: ''
+    units: inst
+  damage:
+    parts:
+      - - 2d10
+        - force
+    versatile: ''
+  scaling:
+    mode: none
+    formula: ''
+  save:
+    ability: dex
+    dc: null
+    scaling: spell
+  uses:
+    value: null
+    max: ''
+    per: null
+    recovery: ''
+    prompt: true
+  attackBonus: ''
+  chatFlavor: ''
+  critical:
+    threshold: null
+    damage: ''
+  formula: ''
+  preparation:
+    mode: prepared
+    prepared: false
+  consume:
+    type: ''
+    target: null
+    amount: null
+    scale: false
+  cover: null
+  crewed: false
+  ability: null
+img: icons/magic/unholy/silhouette-evil-horned-giant.webp
+ownership:
+  default: 0
+  38Gfe7fp1EmVmZNj: 3
+flags:
+  plutonium:
+    page: spells.html
+    source: BMT
+    hash: spray%20of%20cards_bmt
+    propDroppable: spell
+effects: []
+folder: mjT6ZpZEhCFeSr4U
+_id: u0N3siaeEv1f3t2k
+sort: 0
+_stats:
+  systemId: dnd5e
+  systemVersion: 3.0.2
+  coreVersion: '13.345'
+  createdTime: 1708109196360
+  modifiedTime: 1708227409300
+  lastModifiedBy: 38Gfe7fp1EmVmZNj
+  compendiumSource: null
+  duplicateSource: null
+  exportSource: null
+_key: '!items!u0N3siaeEv1f3t2k'

@@ -1,0 +1,64 @@
+folder: yTd2CNZ9biWYoOF6
+name: Garrison
+type: campaignFeature
+effects: []
+system:
+  description:
+    gm: ''
+    value: "<p>A garrison is a complex of barracks, training yards, and weapons storage and repair for maintaining your military.</p>\n<hr />\n<p><strong>Lots</strong>\_2;\_<strong>Cost</strong>\_28 RP, 6 Lumber, 3 Stone</p>\n<p><strong>Construction</strong>\_Warfare (trained) DC 20</p>\n<p><strong>Upgrade From</strong>\_<a class=\"content-link\" draggable=\"true\" data-uuid=\"JournalEntry.BIu4C1T1RR17QNwl.JournalEntryPage.GABmAaImw3YBcN49\" data-id=\"GABmAaImw3YBcN49\" data-type=\"JournalEntryPage\" data-tooltip=\"Text Page\">barracks</a></p>\n<p><strong>Item Bonus</strong>\_+1 item bonus to\_<a class=\"content-link\" draggable=\"true\" data-uuid=\"Compendium.pf2e.kingmaker-features.Item.WuSEEEP2rEEz1d9t\" data-id=\"WuSEEEP2rEEz1d9t\" data-type=\"Item\" data-pack=\"pf2e.kingmaker-features\" data-tooltip=\"Campaign Feature Item\">Outfit Army</a>\_or\_<a class=\"content-link\" draggable=\"true\" data-uuid=\"Compendium.pf2e.kingmaker-features.Item.bc9JdbyJ8HWrpLLx\" data-id=\"bc9JdbyJ8HWrpLLx\" data-type=\"Item\" data-pack=\"pf2e.kingmaker-features\" data-tooltip=\"Campaign Feature Item\">Train Army</a>.</p>\n<p><strong>Effects</strong> A garrison helps outfit armies with new gear or trains them. When you build a garrison, reduce Unrest by 1.</p>"
+  rules:
+    - hideIfDisabled: true
+      key: FlatModifier
+      label: Garrison bonus to Outfit or Train Army
+      predicate:
+        - or:
+            - action:outfit-army
+            - action:train-army
+      selector: kingdom-check
+      type: item
+      value: 1
+  slug: null
+  _migration:
+    version: 0.94
+    previous:
+      schema: 0.939
+      foundry: '13.345'
+      system: 7.2.0
+  traits:
+    otherTags: []
+    value:
+      - kingdom
+  publication:
+    title: ''
+    authors: ''
+    license: OGL
+    remaster: false
+  campaign: kingmaker
+  category: kingdom-feat
+  actionType:
+    value: passive
+  actions:
+    value: null
+  prerequisites:
+    value: []
+  location: null
+  level:
+    value: 5
+_id: KV5D5qJQKqIyN0pq
+img: modules/pf2e-kingmaker/assets/maps-settlements/buildings/garrison.webp
+sort: 0
+ownership:
+  default: 0
+  txZjek5EOiCBHPoz: 3
+flags: {}
+_stats:
+  compendiumSource: null
+  duplicateSource: null
+  coreVersion: '13.346'
+  systemId: pf2e
+  systemVersion: 7.2.3
+  createdTime: 1718606591261
+  modifiedTime: 1752208111692
+  lastModifiedBy: txZjek5EOiCBHPoz
+  exportSource: null
+_key: '!items!KV5D5qJQKqIyN0pq'

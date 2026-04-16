@@ -1,0 +1,140 @@
+name: Life Transference
+type: spell
+system:
+  source:
+    custom: ''
+    book: XGE
+    page: '160'
+    license: ''
+    revision: 1
+    rules: '2024'
+  description:
+    value: >-
+      <div class="rd__b  rd__b--3"><p>You sacrifice some of your health to mend
+      another creature's injuries. You take [[/r 4d8]] necrotic damage, which
+      can't be reduced in any way, and one creature of your choice that you can
+      see within range regains a number of hit points equal to twice the
+      necrotic damage you take.</p><div
+      class="rd__spc-inline-post"></div></div><div class="rd__b  rd__b--3"><div
+      class="rd__b  rd__b--3"><span class="rd__h rd__h--3" data-title-index="1">
+      <span class="entry-title-inner">At Higher Levels.</span></span> <p>When
+      you cast this spell using a spell slot of 4th level or higher, the damage
+      increases by [[/r 1d8]] for each slot level above 3rd.</p><div
+      class="rd__spc-inline-post"></div></div><div
+      class="rd__spc-inline-post"></div></div><div><span class="bold">Classes:
+      </span>Cleric, Wizard</div>
+    chat: ''
+  level: 3
+  school: nec
+  properties:
+    - vocal
+    - somatic
+  materials:
+    value: ''
+    consumed: false
+    cost: 0
+    supply: 0
+  target:
+    affects:
+      choice: false
+    template:
+      units: ''
+      contiguous: false
+  range:
+    value: '30'
+    units: ft
+  activation:
+    type: action
+    condition: ''
+    value: 1
+  duration:
+    value: ''
+    units: inst
+  uses:
+    max: ''
+    spent: 0
+    recovery: []
+  preparation:
+    mode: prepared
+    prepared: false
+  activities:
+    dnd5eactivity000:
+      _id: dnd5eactivity000
+      type: heal
+      activation:
+        type: action
+        value: null
+        override: false
+      consumption:
+        targets: []
+        scaling:
+          allowed: false
+          max: ''
+        spellSlot: true
+      description:
+        chatFlavor: ''
+      duration:
+        units: inst
+        concentration: false
+        override: false
+      effects: []
+      range:
+        override: false
+        units: self
+      target:
+        prompt: true
+        template:
+          contiguous: false
+          units: ft
+        affects:
+          choice: false
+        override: false
+      uses:
+        spent: 0
+        max: ''
+        recovery: []
+      healing:
+        number: 4
+        denomination: 8
+        bonus: ''
+        types:
+          - necrotic
+        custom:
+          enabled: false
+          formula: ''
+        scaling:
+          mode: whole
+          number: 1
+          formula: ''
+      sort: 0
+  identifier: life-transference
+img: icons/magic/control/energy-stream-link-blue.webp
+ownership:
+  default: 0
+  38Gfe7fp1EmVmZNj: 3
+flags:
+  plutonium:
+    page: spells.html
+    source: XGE
+    hash: life%20transference_xge
+    propDroppable: spell
+  dnd5e:
+    persistSourceMigration: true
+    riders:
+      activity: []
+      effect: []
+effects: []
+folder: 460yTIg9sKBrbNPf
+_id: gEBnDWWo1GocQsc7
+sort: 0
+_stats:
+  systemId: dnd5e
+  systemVersion: 5.0.4
+  coreVersion: '13.346'
+  createdTime: 1709684307002
+  modifiedTime: 1752197371435
+  lastModifiedBy: 1pY4akW8WASxGBbA
+  compendiumSource: null
+  duplicateSource: null
+  exportSource: null
+_key: '!items!gEBnDWWo1GocQsc7'

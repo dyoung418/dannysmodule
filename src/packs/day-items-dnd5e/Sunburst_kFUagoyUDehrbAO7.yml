@@ -1,0 +1,112 @@
+name: Sunburst
+type: spell
+system:
+  source:
+    custom: ''
+    book: PHB
+    page: '279'
+    license: ''
+  description:
+    value: >-
+      <div class="rd__b  rd__b--3"><p>Brilliant sunlight flashes in a 60-foot
+      radius centered on a point you choose within range. Each creature in that
+      light must make a Constitution saving throw. On a failed save, a creature
+      takes [[/r 12d6]] radiant damage and is @condition[blinded] for 1 minute.
+      On a successful save, it takes half as much damage and isn't
+      @condition[blinded] by this spell. Undead and oozes have disadvantage on
+      this saving throw.</p><div class="rd__spc-inline-post"></div><p>A creature
+      @condition[blinded] by this spell makes another Constitution saving throw
+      at the end of each of its turns. On a successful save, it is no longer
+      @condition[blinded].</p><p>This spell dispels any darkness in its area
+      that was created by a spell.</p></div><div><span class="bold">Classes:
+      </span>Druid, Sorcerer, Wizard</div>
+    chat: ''
+  actionType: save
+  level: 8
+  school: evo
+  properties:
+    - vocal
+    - somatic
+    - material
+  materials:
+    value: fire and a piece of sunstone
+    consumed: false
+    cost: 0
+    supply: 0
+  target:
+    value: 60
+    units: ft
+    type: radius
+    prompt: true
+    width: null
+  range:
+    value: 150
+    units: ft
+    long: null
+  activation:
+    type: action
+    cost: 1
+    condition: ''
+  duration:
+    value: ''
+    units: inst
+  damage:
+    parts:
+      - - 12d6
+        - radiant
+    versatile: ''
+  scaling:
+    mode: none
+    formula: ''
+  save:
+    ability: con
+    dc: null
+    scaling: spell
+  uses:
+    value: null
+    max: ''
+    per: null
+    recovery: ''
+    prompt: true
+  attackBonus: ''
+  chatFlavor: ''
+  critical:
+    threshold: null
+    damage: ''
+  formula: ''
+  preparation:
+    mode: prepared
+    prepared: false
+  consume:
+    type: ''
+    target: null
+    amount: null
+    scale: false
+  cover: null
+  crewed: false
+  ability: null
+img: icons/magic/light/explosion-glow-spiral-yellow.webp
+ownership:
+  default: 0
+  38Gfe7fp1EmVmZNj: 3
+flags:
+  plutonium:
+    page: spells.html
+    source: PHB
+    hash: sunburst_phb
+    propDroppable: spell
+effects: []
+folder: iZwu0VifqZBR4EPt
+_id: kFUagoyUDehrbAO7
+sort: 0
+_stats:
+  systemId: dnd5e
+  systemVersion: 3.0.2
+  coreVersion: '13.345'
+  createdTime: 1708109197332
+  modifiedTime: 1708227409300
+  lastModifiedBy: 38Gfe7fp1EmVmZNj
+  compendiumSource: null
+  duplicateSource: null
+  exportSource: null
+_key: '!items!kFUagoyUDehrbAO7'

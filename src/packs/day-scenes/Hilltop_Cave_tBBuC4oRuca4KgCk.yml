@@ -1,0 +1,3475 @@
+folder: YHCvoQlsDcfwZeEt
+name: Hilltop Cave
+_id: tBBuC4oRuca4KgCk
+navigation: true
+navOrder: 0
+thumb: modules/dannysmodule/assets/scenes/tBBuC4oRuca4KgCk-thumb.webp
+width: 2048
+height: 2048
+padding: 0.25
+initial:
+  x: 1826
+  'y': 1688
+  scale: 0.419
+grid:
+  type: 1
+  size: 100
+  style: solidLines
+  thickness: 1
+  color: '#000000'
+  alpha: 0
+  distance: 5
+  units: ft
+tokenVision: true
+fog:
+  colors:
+    explored: null
+    unexplored: null
+  mode: 1
+environment:
+  darknessLevel: 0
+  darknessLock: false
+  globalLight:
+    enabled: false
+    alpha: 0.5
+    bright: false
+    color: null
+    coloration: 1
+    luminosity: 0
+    saturation: 0
+    contrast: 0
+    shadows: 0
+    darkness:
+      min: 0
+      max: 1
+  cycle: true
+  base:
+    hue: 0
+    intensity: 0
+    luminosity: 0
+    saturation: 0
+    shadows: 0
+  dark:
+    hue: 0.7138888888888889
+    intensity: 0
+    luminosity: -0.25
+    saturation: 0
+    shadows: 0
+drawings: []
+tokens:
+  - displayName: 20
+    displayBars: 20
+    flags:
+      pf2e:
+        linkToActorSize: true
+        autoscale: true
+    sight:
+      enabled: false
+      color: null
+      range: 0
+      angle: 360
+      visionMode: basic
+      attenuation: 0.1
+      brightness: 0
+      saturation: 0
+      contrast: 0
+    detectionModes: {}
+    disposition: 0
+    name: Oversized Chimera
+    actorLink: false
+    texture:
+      src: modules/pf2e-kingmaker/assets/actor-tokens/bestiaries/chimera.webp
+      scaleX: 1
+      scaleY: 1
+      anchorX: 0.5
+      anchorY: 0.5
+      fit: contain
+      tint: '#ffffff'
+      alphaThreshold: 0.75
+    width: 2
+    height: 2
+    lockRotation: false
+    rotation: 0
+    alpha: 1
+    bar1:
+      attribute: attributes.hp
+    bar2:
+      attribute: null
+    light:
+      alpha: 0.5
+      angle: 360
+      bright: 0
+      coloration: 1
+      dim: 0
+      attenuation: 0.5
+      luminosity: 0.5
+      saturation: 0
+      contrast: 0
+      shadows: 0
+      animation:
+        type: null
+        speed: 5
+        intensity: 5
+        reverse: false
+      darkness:
+        min: 0
+        max: 1
+      negative: false
+      priority: 0
+      color: null
+    occludable:
+      radius: 0
+    ring:
+      enabled: true
+      colors:
+        ring: null
+        background: null
+      effects: 3
+      subject:
+        scale: 1
+        texture: null
+    turnMarker:
+      mode: 1
+      animation: null
+      src: null
+      disposition: false
+    movementAction: null
+    actorId: y68kqNXmr1BnjZtc
+    hidden: true
+    sort: 0
+    shape: 4
+    _id: CRj7HmNnJ2ODGBhM
+    delta:
+      _id: Xaeuj81YmUa7yk0Y
+      system:
+        attributes:
+          hp:
+            value: 240
+          adjustment: elite
+        _migration:
+          previous:
+            schema: 0.94
+      items:
+        - system:
+            _migration:
+              previous:
+                schema: 0.939
+                foundry: '13.345'
+                system: 7.2.0
+              version: 0.94
+            description:
+              gm: ''
+              value: ''
+            rules: []
+            slug: null
+            traits:
+              otherTags: []
+              value: []
+            publication:
+              title: ''
+              authors: ''
+              license: OGL
+              remaster: false
+            damageRolls:
+              dac0cndr4wgpu6mjd2ff:
+                damage: 2d6+11
+                damageType: piercing
+                category: null
+              arc84499ycdq519e18zx:
+                damage: 3d6
+                damageType: fire
+                category: null
+            bonus:
+              value: 26
+            attackEffects:
+              value: []
+          _id: p4gHmixTKN3Gb87J
+          img: systems/pf2e/icons/default-icons/melee.svg
+          name: Dragon Jaws
+          sort: 100000
+          type: melee
+          effects: []
+          folder: null
+          flags: {}
+          _stats:
+            compendiumSource: null
+            duplicateSource: null
+            exportSource: null
+            coreVersion: '14.359'
+            systemId: pf2e
+            systemVersion: 7.2.3
+            lastModifiedBy: null
+            createdTime: null
+            modifiedTime: null
+          ownership:
+            default: 0
+          _key: >-
+            !scenes.tokens.delta.items!tBBuC4oRuca4KgCk.CRj7HmNnJ2ODGBhM.Xaeuj81YmUa7yk0Y.p4gHmixTKN3Gb87J
+        - system:
+            _migration:
+              previous:
+                schema: 0.939
+                foundry: '13.345'
+                system: 7.2.0
+              version: 0.94
+            description:
+              gm: ''
+              value: ''
+            rules: []
+            slug: null
+            traits:
+              otherTags: []
+              value: []
+            publication:
+              title: ''
+              authors: ''
+              license: OGL
+              remaster: false
+            damageRolls:
+              zjdn41fp3hbttedbxqgo:
+                damage: 3d10+11
+                damageType: piercing
+                category: null
+            bonus:
+              value: 26
+            attackEffects:
+              value: []
+          _id: XfQQjjOdt5sRiSb6
+          img: systems/pf2e/icons/default-icons/melee.svg
+          name: Lion Jaws
+          sort: 200000
+          type: melee
+          effects: []
+          folder: null
+          flags: {}
+          _stats:
+            compendiumSource: null
+            duplicateSource: null
+            exportSource: null
+            coreVersion: '14.359'
+            systemId: pf2e
+            systemVersion: 7.2.3
+            lastModifiedBy: null
+            createdTime: null
+            modifiedTime: null
+          ownership:
+            default: 0
+          _key: >-
+            !scenes.tokens.delta.items!tBBuC4oRuca4KgCk.CRj7HmNnJ2ODGBhM.Xaeuj81YmUa7yk0Y.XfQQjjOdt5sRiSb6
+        - system:
+            _migration:
+              previous:
+                schema: 0.939
+                foundry: '13.345'
+                system: 7.2.0
+              version: 0.94
+            description:
+              gm: ''
+              value: ''
+            rules: []
+            slug: null
+            traits:
+              otherTags: []
+              value: []
+            publication:
+              title: ''
+              authors: ''
+              license: OGL
+              remaster: false
+            damageRolls:
+              it9pipqnft8ysztguu7y:
+                damage: 3d10+11
+                damageType: piercing
+                category: null
+            bonus:
+              value: 26
+            attackEffects:
+              value: []
+          _id: rog22HpLDkUnfolA
+          img: systems/pf2e/icons/default-icons/melee.svg
+          name: Goat Horns
+          sort: 300000
+          type: melee
+          effects: []
+          folder: null
+          flags: {}
+          _stats:
+            compendiumSource: null
+            duplicateSource: null
+            exportSource: null
+            coreVersion: '14.359'
+            systemId: pf2e
+            systemVersion: 7.2.3
+            lastModifiedBy: null
+            createdTime: null
+            modifiedTime: null
+          ownership:
+            default: 0
+          _key: >-
+            !scenes.tokens.delta.items!tBBuC4oRuca4KgCk.CRj7HmNnJ2ODGBhM.Xaeuj81YmUa7yk0Y.rog22HpLDkUnfolA
+        - system:
+            _migration:
+              previous:
+                schema: 0.939
+                foundry: '13.345'
+                system: 7.2.0
+              version: 0.94
+            description:
+              gm: ''
+              value: ''
+            rules: []
+            slug: null
+            traits:
+              otherTags: []
+              value:
+                - agile
+            publication:
+              title: ''
+              authors: ''
+              license: OGL
+              remaster: false
+            damageRolls:
+              v7luy1ttfoi91850stm2:
+                damage: 3d8+11
+                damageType: slashing
+                category: null
+            bonus:
+              value: 26
+            attackEffects:
+              value: []
+          _id: sT4lUsg0seVtpUKQ
+          img: systems/pf2e/icons/default-icons/melee.svg
+          name: Claw
+          sort: 400000
+          type: melee
+          effects: []
+          folder: null
+          flags: {}
+          _stats:
+            compendiumSource: null
+            duplicateSource: null
+            exportSource: null
+            coreVersion: '14.359'
+            systemId: pf2e
+            systemVersion: 7.2.3
+            lastModifiedBy: null
+            createdTime: null
+            modifiedTime: null
+          ownership:
+            default: 0
+          _key: >-
+            !scenes.tokens.delta.items!tBBuC4oRuca4KgCk.CRj7HmNnJ2ODGBhM.Xaeuj81YmUa7yk0Y.sT4lUsg0seVtpUKQ
+        - system:
+            _migration:
+              previous:
+                schema: 0.939
+                foundry: '13.345'
+                system: 7.2.0
+              version: 0.94
+            description:
+              gm: ''
+              value: <p>@Localize[PF2E.NPC.Abilities.Glossary.Darkvision]</p>
+            rules: []
+            slug: darkvision
+            traits:
+              otherTags: []
+              value: []
+            publication:
+              title: Pathfinder Bestiary
+              authors: ''
+              license: OGL
+              remaster: false
+            actionType:
+              value: passive
+            category: interaction
+            actions:
+              value: null
+            deathNote: false
+          _id: YyxKJRRXl2GdUfTt
+          flags:
+            core: {}
+          img: systems/pf2e/icons/actions/Passive.webp
+          name: Darkvision
+          sort: 500000
+          type: action
+          effects: []
+          folder: null
+          _stats:
+            compendiumSource: null
+            duplicateSource: null
+            exportSource: null
+            coreVersion: '14.359'
+            systemId: pf2e
+            systemVersion: 7.2.3
+            lastModifiedBy: null
+            createdTime: null
+            modifiedTime: null
+          ownership:
+            default: 0
+          _key: >-
+            !scenes.tokens.delta.items!tBBuC4oRuca4KgCk.CRj7HmNnJ2ODGBhM.Xaeuj81YmUa7yk0Y.YyxKJRRXl2GdUfTt
+        - system:
+            _migration:
+              previous:
+                schema: 0.939
+                foundry: '13.345'
+                system: 7.2.0
+              version: 0.94
+            description:
+              gm: ''
+              value: <p>@Localize[PF2E.NPC.Abilities.Glossary.Scent]</p>
+            rules: []
+            slug: scent
+            traits:
+              otherTags: []
+              value: []
+            publication:
+              title: Pathfinder Bestiary
+              authors: ''
+              license: OGL
+              remaster: false
+            actionType:
+              value: passive
+            category: interaction
+            actions:
+              value: null
+            deathNote: false
+          _id: iu1YHlbvh64HBaor
+          flags:
+            core: {}
+          img: systems/pf2e/icons/actions/Passive.webp
+          name: Scent (Imprecise) 30 feet
+          sort: 600000
+          type: action
+          effects: []
+          folder: null
+          _stats:
+            compendiumSource: null
+            duplicateSource: null
+            exportSource: null
+            coreVersion: '14.359'
+            systemId: pf2e
+            systemVersion: 7.2.3
+            lastModifiedBy: null
+            createdTime: null
+            modifiedTime: null
+          ownership:
+            default: 0
+          _key: >-
+            !scenes.tokens.delta.items!tBBuC4oRuca4KgCk.CRj7HmNnJ2ODGBhM.Xaeuj81YmUa7yk0Y.iu1YHlbvh64HBaor
+        - system:
+            _migration:
+              previous:
+                schema: 0.939
+                foundry: '13.345'
+                system: 7.2.0
+              version: 0.94
+            description:
+              gm: ''
+              value: >-
+                <p>@Localize[PF2E.NPC.Abilities.Glossary.AttackOfOpportunity]</p>
+            rules: []
+            slug: attack-of-opportunity
+            traits:
+              otherTags: []
+              value: []
+            publication:
+              title: Pathfinder Bestiary
+              authors: ''
+              license: OGL
+              remaster: false
+            actionType:
+              value: reaction
+            category: defensive
+            actions:
+              value: null
+            deathNote: false
+          _id: 5ulvx0zqprJryzvq
+          flags:
+            core: {}
+          img: systems/pf2e/icons/actions/Reaction.webp
+          name: Attack of Opportunity
+          sort: 700000
+          type: action
+          effects: []
+          folder: null
+          _stats:
+            compendiumSource: null
+            duplicateSource: null
+            exportSource: null
+            coreVersion: '14.359'
+            systemId: pf2e
+            systemVersion: 7.2.3
+            lastModifiedBy: null
+            createdTime: null
+            modifiedTime: null
+          ownership:
+            default: 0
+          _key: >-
+            !scenes.tokens.delta.items!tBBuC4oRuca4KgCk.CRj7HmNnJ2ODGBhM.Xaeuj81YmUa7yk0Y.5ulvx0zqprJryzvq
+        - system:
+            _migration:
+              previous:
+                schema: 0.939
+                foundry: '13.345'
+                system: 7.2.0
+              version: 0.94
+            description:
+              gm: ''
+              value: >-
+                <p>Any ability that would sever a chimera's head (such as a
+                critical hit with a
+                <em>@UUID[Compendium.pf2e.equipment-srd.Item.6xaxxKfvXED6LfIY]{Vorpal
+                Weapon}</em>) severs one head at random. Losing a head doesn't
+                kill a chimera (as long as it has one head left), but it does
+                prevent it from making Strikes with the lost head or using the
+                head's Breath Weapon.</p>
+            rules: []
+            slug: null
+            traits:
+              otherTags: []
+              value: []
+            publication:
+              title: ''
+              authors: ''
+              license: OGL
+              remaster: false
+            actionType:
+              value: passive
+            category: defensive
+            actions:
+              value: null
+            deathNote: false
+          _id: 7CQGpLGBAg2Jbtjv
+          img: systems/pf2e/icons/actions/Passive.webp
+          name: Three Headed
+          sort: 800000
+          type: action
+          effects: []
+          folder: null
+          flags: {}
+          _stats:
+            compendiumSource: null
+            duplicateSource: null
+            exportSource: null
+            coreVersion: '14.359'
+            systemId: pf2e
+            systemVersion: 7.2.3
+            lastModifiedBy: null
+            createdTime: null
+            modifiedTime: null
+          ownership:
+            default: 0
+          _key: >-
+            !scenes.tokens.delta.items!tBBuC4oRuca4KgCk.CRj7HmNnJ2ODGBhM.Xaeuj81YmUa7yk0Y.7CQGpLGBAg2Jbtjv
+        - system:
+            _migration:
+              previous:
+                schema: 0.939
+                foundry: '13.345'
+                system: 7.2.0
+              version: 0.94
+            description:
+              gm: ''
+              value: >-
+                <p>A oversized chimera gains 2 extra reactions each round that
+                it can use only to make Attacks of Opportunity. It must use a
+                different head for each reaction, and it can't use more than one
+                on the same triggering action. If it loses one of its heads, it
+                also loses one of these extra reactions.</p>
+            rules: []
+            slug: triple-opportunity
+            traits:
+              otherTags: []
+              value: []
+            publication:
+              title: ''
+              authors: ''
+              license: OGL
+              remaster: false
+            actionType:
+              value: passive
+            category: defensive
+            actions:
+              value: null
+            deathNote: false
+          _id: PQMwXaG8Zqcd02Oe
+          img: systems/pf2e/icons/actions/Passive.webp
+          name: Triple Opportunity
+          sort: 900000
+          type: action
+          effects: []
+          folder: null
+          flags: {}
+          _stats:
+            compendiumSource: null
+            duplicateSource: null
+            exportSource: null
+            coreVersion: '14.359'
+            systemId: pf2e
+            systemVersion: 7.2.3
+            lastModifiedBy: null
+            createdTime: null
+            modifiedTime: null
+          ownership:
+            default: 0
+          _key: >-
+            !scenes.tokens.delta.items!tBBuC4oRuca4KgCk.CRj7HmNnJ2ODGBhM.Xaeuj81YmUa7yk0Y.PQMwXaG8Zqcd02Oe
+        - system:
+            _migration:
+              previous:
+                schema: 0.939
+                foundry: '13.345'
+                system: 7.2.0
+              version: 0.94
+            description:
+              gm: ''
+              value: >-
+                <p>The oversized chimera breathes a
+                @Template[type:cone|distance:30] of fire that deals
+                @Damage[13d6[fire]] damage to all creatures in the area
+                (@Check[type:reflex|dc:32|basic:true] save).</p>
+
+                <p>The chimera can't use Breath Weapon again for [[/br 1d4
+                #Recharge Breath Weapon]]{1d4 rounds}.</p>
+            rules: []
+            slug: null
+            traits:
+              otherTags: []
+              value:
+                - arcane
+            publication:
+              title: ''
+              authors: ''
+              license: OGL
+              remaster: false
+            actionType:
+              value: action
+            category: offensive
+            actions:
+              value: 2
+            deathNote: false
+          _id: 9RDkmFyfywWSOj2V
+          img: systems/pf2e/icons/actions/TwoActions.webp
+          name: Breath Weapon
+          sort: 1000000
+          type: action
+          effects: []
+          folder: null
+          flags: {}
+          _stats:
+            compendiumSource: null
+            duplicateSource: null
+            exportSource: null
+            coreVersion: '14.359'
+            systemId: pf2e
+            systemVersion: 7.2.3
+            lastModifiedBy: null
+            createdTime: null
+            modifiedTime: null
+          ownership:
+            default: 0
+          _key: >-
+            !scenes.tokens.delta.items!tBBuC4oRuca4KgCk.CRj7HmNnJ2ODGBhM.Xaeuj81YmUa7yk0Y.9RDkmFyfywWSOj2V
+        - system:
+            _migration:
+              previous:
+                schema: 0.939
+                foundry: '13.345'
+                system: 7.2.0
+              version: 0.94
+            description:
+              gm: ''
+              value: >-
+                <p>An oversized chimera's dragon head deals an extra
+                @Damage[3d6[fire]] damage <em>(already included)</em>.</p>
+            rules: []
+            slug: null
+            traits:
+              otherTags: []
+              value: []
+            publication:
+              title: ''
+              authors: ''
+              license: OGL
+              remaster: false
+            actionType:
+              value: passive
+            category: offensive
+            actions:
+              value: null
+            deathNote: false
+          _id: 8PkUYYXKF3YdJiBM
+          img: systems/pf2e/icons/actions/Passive.webp
+          name: Draconic Bite
+          sort: 1100000
+          type: action
+          effects: []
+          folder: null
+          flags: {}
+          _stats:
+            compendiumSource: null
+            duplicateSource: null
+            exportSource: null
+            coreVersion: '14.359'
+            systemId: pf2e
+            systemVersion: 7.2.3
+            lastModifiedBy: null
+            createdTime: null
+            modifiedTime: null
+          ownership:
+            default: 0
+          _key: >-
+            !scenes.tokens.delta.items!tBBuC4oRuca4KgCk.CRj7HmNnJ2ODGBhM.Xaeuj81YmUa7yk0Y.8PkUYYXKF3YdJiBM
+        - system:
+            _migration:
+              previous:
+                schema: 0.939
+                foundry: '13.345'
+                system: 7.2.0
+              version: 0.94
+            description:
+              gm: ''
+              value: >-
+                <p>The oversized chimera makes a Strike with its dragon jaws,
+                lion jaws, and goat horns, each at a -2 penalty and targeting a
+                different creature. These Strikes count as only one attack for
+                the chimera's multiple attack penalty, and the penalty doesn't
+                increase until after it has made all three attacks.</p>
+            rules:
+              - domain: attack-roll
+                key: RollOption
+                option: three-headed-strike
+                toggleable: true
+              - key: FlatModifier
+                predicate:
+                  - three-headed-strike
+                selector: dragon-jaws-attack
+                value: -2
+              - key: FlatModifier
+                predicate:
+                  - three-headed-strike
+                selector: lion-jaws-attack
+                value: -2
+              - key: FlatModifier
+                predicate:
+                  - three-headed-strike
+                selector: goat-horns-attack
+                value: -2
+            slug: null
+            traits:
+              otherTags: []
+              value: []
+            publication:
+              title: ''
+              authors: ''
+              license: OGL
+              remaster: false
+            actionType:
+              value: action
+            category: offensive
+            actions:
+              value: 2
+            deathNote: false
+          _id: pEpgPRttHusG3elF
+          img: systems/pf2e/icons/actions/TwoActions.webp
+          name: Three-Headed Strike
+          sort: 1200000
+          type: action
+          effects: []
+          folder: null
+          flags: {}
+          _stats:
+            compendiumSource: null
+            duplicateSource: null
+            exportSource: null
+            coreVersion: '14.359'
+            systemId: pf2e
+            systemVersion: 7.2.3
+            lastModifiedBy: null
+            createdTime: null
+            modifiedTime: null
+          ownership:
+            default: 0
+          _key: >-
+            !scenes.tokens.delta.items!tBBuC4oRuca4KgCk.CRj7HmNnJ2ODGBhM.Xaeuj81YmUa7yk0Y.pEpgPRttHusG3elF
+      effects: []
+      flags: {}
+      name: null
+      type: null
+      img: null
+      ownership: null
+      _key: '!scenes.tokens.delta!tBBuC4oRuca4KgCk.CRj7HmNnJ2ODGBhM.Xaeuj81YmUa7yk0Y'
+    x: 1000
+    'y': 1600
+    elevation: 20
+    locked: false
+    _movementHistory: []
+    _regions: []
+    depth: 2
+    level: defaultLevel0000
+    _key: '!scenes.tokens!tBBuC4oRuca4KgCk.CRj7HmNnJ2ODGBhM'
+  - displayName: 20
+    displayBars: 20
+    flags:
+      pf2e:
+        linkToActorSize: true
+        autoscale: true
+    sight:
+      enabled: false
+      color: null
+      range: 0
+      angle: 360
+      visionMode: basic
+      attenuation: 0.1
+      brightness: 0
+      saturation: 0
+      contrast: 0
+    detectionModes: {}
+    disposition: 0
+    name: Oversized Chimera
+    actorLink: false
+    texture:
+      src: modules/pf2e-kingmaker/assets/actor-tokens/bestiaries/chimera.webp
+      scaleX: 1
+      scaleY: 1
+      anchorX: 0.5
+      anchorY: 0.5
+      fit: contain
+      tint: '#ffffff'
+      alphaThreshold: 0.75
+    width: 2
+    height: 2
+    lockRotation: false
+    rotation: 0
+    alpha: 1
+    bar1:
+      attribute: attributes.hp
+    bar2:
+      attribute: null
+    light:
+      alpha: 0.5
+      angle: 360
+      bright: 0
+      coloration: 1
+      dim: 0
+      attenuation: 0.5
+      luminosity: 0.5
+      saturation: 0
+      contrast: 0
+      shadows: 0
+      animation:
+        type: null
+        speed: 5
+        intensity: 5
+        reverse: false
+      darkness:
+        min: 0
+        max: 1
+      negative: false
+      priority: 0
+      color: null
+    occludable:
+      radius: 0
+    ring:
+      enabled: true
+      colors:
+        ring: null
+        background: null
+      effects: 3
+      subject:
+        scale: 1
+        texture: null
+    turnMarker:
+      mode: 1
+      animation: null
+      src: null
+      disposition: false
+    movementAction: null
+    actorId: y68kqNXmr1BnjZtc
+    hidden: true
+    sort: 1
+    shape: 4
+    _id: zzBzWeePxV1MkKNI
+    delta:
+      _id: eCgTdfMlj5ecEQe6
+      system:
+        attributes:
+          hp:
+            value: 240
+          adjustment: elite
+        _migration:
+          previous:
+            schema: 0.94
+      items:
+        - system:
+            _migration:
+              previous:
+                schema: 0.939
+                foundry: '13.345'
+                system: 7.2.0
+              version: 0.94
+            description:
+              gm: ''
+              value: ''
+            rules: []
+            slug: null
+            traits:
+              otherTags: []
+              value: []
+            publication:
+              title: ''
+              authors: ''
+              license: OGL
+              remaster: false
+            damageRolls:
+              dac0cndr4wgpu6mjd2ff:
+                damage: 2d6+11
+                damageType: piercing
+                category: null
+              arc84499ycdq519e18zx:
+                damage: 3d6
+                damageType: fire
+                category: null
+            bonus:
+              value: 26
+            attackEffects:
+              value: []
+          _id: p4gHmixTKN3Gb87J
+          img: systems/pf2e/icons/default-icons/melee.svg
+          name: Dragon Jaws
+          sort: 100000
+          type: melee
+          effects: []
+          folder: null
+          flags: {}
+          _stats:
+            compendiumSource: null
+            duplicateSource: null
+            exportSource: null
+            coreVersion: '14.359'
+            systemId: pf2e
+            systemVersion: 7.2.3
+            lastModifiedBy: null
+            createdTime: null
+            modifiedTime: null
+          ownership:
+            default: 0
+          _key: >-
+            !scenes.tokens.delta.items!tBBuC4oRuca4KgCk.zzBzWeePxV1MkKNI.eCgTdfMlj5ecEQe6.p4gHmixTKN3Gb87J
+        - system:
+            _migration:
+              previous:
+                schema: 0.939
+                foundry: '13.345'
+                system: 7.2.0
+              version: 0.94
+            description:
+              gm: ''
+              value: ''
+            rules: []
+            slug: null
+            traits:
+              otherTags: []
+              value: []
+            publication:
+              title: ''
+              authors: ''
+              license: OGL
+              remaster: false
+            damageRolls:
+              zjdn41fp3hbttedbxqgo:
+                damage: 3d10+11
+                damageType: piercing
+                category: null
+            bonus:
+              value: 26
+            attackEffects:
+              value: []
+          _id: XfQQjjOdt5sRiSb6
+          img: systems/pf2e/icons/default-icons/melee.svg
+          name: Lion Jaws
+          sort: 200000
+          type: melee
+          effects: []
+          folder: null
+          flags: {}
+          _stats:
+            compendiumSource: null
+            duplicateSource: null
+            exportSource: null
+            coreVersion: '14.359'
+            systemId: pf2e
+            systemVersion: 7.2.3
+            lastModifiedBy: null
+            createdTime: null
+            modifiedTime: null
+          ownership:
+            default: 0
+          _key: >-
+            !scenes.tokens.delta.items!tBBuC4oRuca4KgCk.zzBzWeePxV1MkKNI.eCgTdfMlj5ecEQe6.XfQQjjOdt5sRiSb6
+        - system:
+            _migration:
+              previous:
+                schema: 0.939
+                foundry: '13.345'
+                system: 7.2.0
+              version: 0.94
+            description:
+              gm: ''
+              value: ''
+            rules: []
+            slug: null
+            traits:
+              otherTags: []
+              value: []
+            publication:
+              title: ''
+              authors: ''
+              license: OGL
+              remaster: false
+            damageRolls:
+              it9pipqnft8ysztguu7y:
+                damage: 3d10+11
+                damageType: piercing
+                category: null
+            bonus:
+              value: 26
+            attackEffects:
+              value: []
+          _id: rog22HpLDkUnfolA
+          img: systems/pf2e/icons/default-icons/melee.svg
+          name: Goat Horns
+          sort: 300000
+          type: melee
+          effects: []
+          folder: null
+          flags: {}
+          _stats:
+            compendiumSource: null
+            duplicateSource: null
+            exportSource: null
+            coreVersion: '14.359'
+            systemId: pf2e
+            systemVersion: 7.2.3
+            lastModifiedBy: null
+            createdTime: null
+            modifiedTime: null
+          ownership:
+            default: 0
+          _key: >-
+            !scenes.tokens.delta.items!tBBuC4oRuca4KgCk.zzBzWeePxV1MkKNI.eCgTdfMlj5ecEQe6.rog22HpLDkUnfolA
+        - system:
+            _migration:
+              previous:
+                schema: 0.939
+                foundry: '13.345'
+                system: 7.2.0
+              version: 0.94
+            description:
+              gm: ''
+              value: ''
+            rules: []
+            slug: null
+            traits:
+              otherTags: []
+              value:
+                - agile
+            publication:
+              title: ''
+              authors: ''
+              license: OGL
+              remaster: false
+            damageRolls:
+              v7luy1ttfoi91850stm2:
+                damage: 3d8+11
+                damageType: slashing
+                category: null
+            bonus:
+              value: 26
+            attackEffects:
+              value: []
+          _id: sT4lUsg0seVtpUKQ
+          img: systems/pf2e/icons/default-icons/melee.svg
+          name: Claw
+          sort: 400000
+          type: melee
+          effects: []
+          folder: null
+          flags: {}
+          _stats:
+            compendiumSource: null
+            duplicateSource: null
+            exportSource: null
+            coreVersion: '14.359'
+            systemId: pf2e
+            systemVersion: 7.2.3
+            lastModifiedBy: null
+            createdTime: null
+            modifiedTime: null
+          ownership:
+            default: 0
+          _key: >-
+            !scenes.tokens.delta.items!tBBuC4oRuca4KgCk.zzBzWeePxV1MkKNI.eCgTdfMlj5ecEQe6.sT4lUsg0seVtpUKQ
+        - system:
+            _migration:
+              previous:
+                schema: 0.939
+                foundry: '13.345'
+                system: 7.2.0
+              version: 0.94
+            description:
+              gm: ''
+              value: <p>@Localize[PF2E.NPC.Abilities.Glossary.Darkvision]</p>
+            rules: []
+            slug: darkvision
+            traits:
+              otherTags: []
+              value: []
+            publication:
+              title: Pathfinder Bestiary
+              authors: ''
+              license: OGL
+              remaster: false
+            actionType:
+              value: passive
+            category: interaction
+            actions:
+              value: null
+            deathNote: false
+          _id: YyxKJRRXl2GdUfTt
+          flags:
+            core: {}
+          img: systems/pf2e/icons/actions/Passive.webp
+          name: Darkvision
+          sort: 500000
+          type: action
+          effects: []
+          folder: null
+          _stats:
+            compendiumSource: null
+            duplicateSource: null
+            exportSource: null
+            coreVersion: '14.359'
+            systemId: pf2e
+            systemVersion: 7.2.3
+            lastModifiedBy: null
+            createdTime: null
+            modifiedTime: null
+          ownership:
+            default: 0
+          _key: >-
+            !scenes.tokens.delta.items!tBBuC4oRuca4KgCk.zzBzWeePxV1MkKNI.eCgTdfMlj5ecEQe6.YyxKJRRXl2GdUfTt
+        - system:
+            _migration:
+              previous:
+                schema: 0.939
+                foundry: '13.345'
+                system: 7.2.0
+              version: 0.94
+            description:
+              gm: ''
+              value: <p>@Localize[PF2E.NPC.Abilities.Glossary.Scent]</p>
+            rules: []
+            slug: scent
+            traits:
+              otherTags: []
+              value: []
+            publication:
+              title: Pathfinder Bestiary
+              authors: ''
+              license: OGL
+              remaster: false
+            actionType:
+              value: passive
+            category: interaction
+            actions:
+              value: null
+            deathNote: false
+          _id: iu1YHlbvh64HBaor
+          flags:
+            core: {}
+          img: systems/pf2e/icons/actions/Passive.webp
+          name: Scent (Imprecise) 30 feet
+          sort: 600000
+          type: action
+          effects: []
+          folder: null
+          _stats:
+            compendiumSource: null
+            duplicateSource: null
+            exportSource: null
+            coreVersion: '14.359'
+            systemId: pf2e
+            systemVersion: 7.2.3
+            lastModifiedBy: null
+            createdTime: null
+            modifiedTime: null
+          ownership:
+            default: 0
+          _key: >-
+            !scenes.tokens.delta.items!tBBuC4oRuca4KgCk.zzBzWeePxV1MkKNI.eCgTdfMlj5ecEQe6.iu1YHlbvh64HBaor
+        - system:
+            _migration:
+              previous:
+                schema: 0.939
+                foundry: '13.345'
+                system: 7.2.0
+              version: 0.94
+            description:
+              gm: ''
+              value: >-
+                <p>@Localize[PF2E.NPC.Abilities.Glossary.AttackOfOpportunity]</p>
+            rules: []
+            slug: attack-of-opportunity
+            traits:
+              otherTags: []
+              value: []
+            publication:
+              title: Pathfinder Bestiary
+              authors: ''
+              license: OGL
+              remaster: false
+            actionType:
+              value: reaction
+            category: defensive
+            actions:
+              value: null
+            deathNote: false
+          _id: 5ulvx0zqprJryzvq
+          flags:
+            core: {}
+          img: systems/pf2e/icons/actions/Reaction.webp
+          name: Attack of Opportunity
+          sort: 700000
+          type: action
+          effects: []
+          folder: null
+          _stats:
+            compendiumSource: null
+            duplicateSource: null
+            exportSource: null
+            coreVersion: '14.359'
+            systemId: pf2e
+            systemVersion: 7.2.3
+            lastModifiedBy: null
+            createdTime: null
+            modifiedTime: null
+          ownership:
+            default: 0
+          _key: >-
+            !scenes.tokens.delta.items!tBBuC4oRuca4KgCk.zzBzWeePxV1MkKNI.eCgTdfMlj5ecEQe6.5ulvx0zqprJryzvq
+        - system:
+            _migration:
+              previous:
+                schema: 0.939
+                foundry: '13.345'
+                system: 7.2.0
+              version: 0.94
+            description:
+              gm: ''
+              value: >-
+                <p>Any ability that would sever a chimera's head (such as a
+                critical hit with a
+                <em>@UUID[Compendium.pf2e.equipment-srd.Item.6xaxxKfvXED6LfIY]{Vorpal
+                Weapon}</em>) severs one head at random. Losing a head doesn't
+                kill a chimera (as long as it has one head left), but it does
+                prevent it from making Strikes with the lost head or using the
+                head's Breath Weapon.</p>
+            rules: []
+            slug: null
+            traits:
+              otherTags: []
+              value: []
+            publication:
+              title: ''
+              authors: ''
+              license: OGL
+              remaster: false
+            actionType:
+              value: passive
+            category: defensive
+            actions:
+              value: null
+            deathNote: false
+          _id: 7CQGpLGBAg2Jbtjv
+          img: systems/pf2e/icons/actions/Passive.webp
+          name: Three Headed
+          sort: 800000
+          type: action
+          effects: []
+          folder: null
+          flags: {}
+          _stats:
+            compendiumSource: null
+            duplicateSource: null
+            exportSource: null
+            coreVersion: '14.359'
+            systemId: pf2e
+            systemVersion: 7.2.3
+            lastModifiedBy: null
+            createdTime: null
+            modifiedTime: null
+          ownership:
+            default: 0
+          _key: >-
+            !scenes.tokens.delta.items!tBBuC4oRuca4KgCk.zzBzWeePxV1MkKNI.eCgTdfMlj5ecEQe6.7CQGpLGBAg2Jbtjv
+        - system:
+            _migration:
+              previous:
+                schema: 0.939
+                foundry: '13.345'
+                system: 7.2.0
+              version: 0.94
+            description:
+              gm: ''
+              value: >-
+                <p>A oversized chimera gains 2 extra reactions each round that
+                it can use only to make Attacks of Opportunity. It must use a
+                different head for each reaction, and it can't use more than one
+                on the same triggering action. If it loses one of its heads, it
+                also loses one of these extra reactions.</p>
+            rules: []
+            slug: triple-opportunity
+            traits:
+              otherTags: []
+              value: []
+            publication:
+              title: ''
+              authors: ''
+              license: OGL
+              remaster: false
+            actionType:
+              value: passive
+            category: defensive
+            actions:
+              value: null
+            deathNote: false
+          _id: PQMwXaG8Zqcd02Oe
+          img: systems/pf2e/icons/actions/Passive.webp
+          name: Triple Opportunity
+          sort: 900000
+          type: action
+          effects: []
+          folder: null
+          flags: {}
+          _stats:
+            compendiumSource: null
+            duplicateSource: null
+            exportSource: null
+            coreVersion: '14.359'
+            systemId: pf2e
+            systemVersion: 7.2.3
+            lastModifiedBy: null
+            createdTime: null
+            modifiedTime: null
+          ownership:
+            default: 0
+          _key: >-
+            !scenes.tokens.delta.items!tBBuC4oRuca4KgCk.zzBzWeePxV1MkKNI.eCgTdfMlj5ecEQe6.PQMwXaG8Zqcd02Oe
+        - system:
+            _migration:
+              previous:
+                schema: 0.939
+                foundry: '13.345'
+                system: 7.2.0
+              version: 0.94
+            description:
+              gm: ''
+              value: >-
+                <p>The oversized chimera breathes a
+                @Template[type:cone|distance:30] of fire that deals
+                @Damage[13d6[fire]] damage to all creatures in the area
+                (@Check[type:reflex|dc:32|basic:true] save).</p>
+
+                <p>The chimera can't use Breath Weapon again for [[/br 1d4
+                #Recharge Breath Weapon]]{1d4 rounds}.</p>
+            rules: []
+            slug: null
+            traits:
+              otherTags: []
+              value:
+                - arcane
+            publication:
+              title: ''
+              authors: ''
+              license: OGL
+              remaster: false
+            actionType:
+              value: action
+            category: offensive
+            actions:
+              value: 2
+            deathNote: false
+          _id: 9RDkmFyfywWSOj2V
+          img: systems/pf2e/icons/actions/TwoActions.webp
+          name: Breath Weapon
+          sort: 1000000
+          type: action
+          effects: []
+          folder: null
+          flags: {}
+          _stats:
+            compendiumSource: null
+            duplicateSource: null
+            exportSource: null
+            coreVersion: '14.359'
+            systemId: pf2e
+            systemVersion: 7.2.3
+            lastModifiedBy: null
+            createdTime: null
+            modifiedTime: null
+          ownership:
+            default: 0
+          _key: >-
+            !scenes.tokens.delta.items!tBBuC4oRuca4KgCk.zzBzWeePxV1MkKNI.eCgTdfMlj5ecEQe6.9RDkmFyfywWSOj2V
+        - system:
+            _migration:
+              previous:
+                schema: 0.939
+                foundry: '13.345'
+                system: 7.2.0
+              version: 0.94
+            description:
+              gm: ''
+              value: >-
+                <p>An oversized chimera's dragon head deals an extra
+                @Damage[3d6[fire]] damage <em>(already included)</em>.</p>
+            rules: []
+            slug: null
+            traits:
+              otherTags: []
+              value: []
+            publication:
+              title: ''
+              authors: ''
+              license: OGL
+              remaster: false
+            actionType:
+              value: passive
+            category: offensive
+            actions:
+              value: null
+            deathNote: false
+          _id: 8PkUYYXKF3YdJiBM
+          img: systems/pf2e/icons/actions/Passive.webp
+          name: Draconic Bite
+          sort: 1100000
+          type: action
+          effects: []
+          folder: null
+          flags: {}
+          _stats:
+            compendiumSource: null
+            duplicateSource: null
+            exportSource: null
+            coreVersion: '14.359'
+            systemId: pf2e
+            systemVersion: 7.2.3
+            lastModifiedBy: null
+            createdTime: null
+            modifiedTime: null
+          ownership:
+            default: 0
+          _key: >-
+            !scenes.tokens.delta.items!tBBuC4oRuca4KgCk.zzBzWeePxV1MkKNI.eCgTdfMlj5ecEQe6.8PkUYYXKF3YdJiBM
+        - system:
+            _migration:
+              previous:
+                schema: 0.939
+                foundry: '13.345'
+                system: 7.2.0
+              version: 0.94
+            description:
+              gm: ''
+              value: >-
+                <p>The oversized chimera makes a Strike with its dragon jaws,
+                lion jaws, and goat horns, each at a -2 penalty and targeting a
+                different creature. These Strikes count as only one attack for
+                the chimera's multiple attack penalty, and the penalty doesn't
+                increase until after it has made all three attacks.</p>
+            rules:
+              - domain: attack-roll
+                key: RollOption
+                option: three-headed-strike
+                toggleable: true
+                value: false
+              - key: FlatModifier
+                predicate:
+                  - three-headed-strike
+                selector: dragon-jaws-attack
+                value: -2
+              - key: FlatModifier
+                predicate:
+                  - three-headed-strike
+                selector: lion-jaws-attack
+                value: -2
+              - key: FlatModifier
+                predicate:
+                  - three-headed-strike
+                selector: goat-horns-attack
+                value: -2
+            slug: null
+            traits:
+              otherTags: []
+              value: []
+            publication:
+              title: ''
+              authors: ''
+              license: OGL
+              remaster: false
+            actionType:
+              value: action
+            category: offensive
+            actions:
+              value: 2
+            deathNote: false
+          _id: pEpgPRttHusG3elF
+          img: systems/pf2e/icons/actions/TwoActions.webp
+          name: Three-Headed Strike
+          sort: 1200000
+          type: action
+          effects: []
+          folder: null
+          flags: {}
+          _stats:
+            compendiumSource: null
+            duplicateSource: null
+            exportSource: null
+            coreVersion: '14.359'
+            systemId: pf2e
+            systemVersion: 7.2.3
+            lastModifiedBy: null
+            createdTime: null
+            modifiedTime: null
+          ownership:
+            default: 0
+          _key: >-
+            !scenes.tokens.delta.items!tBBuC4oRuca4KgCk.zzBzWeePxV1MkKNI.eCgTdfMlj5ecEQe6.pEpgPRttHusG3elF
+      effects: []
+      flags: {}
+      name: null
+      type: null
+      img: null
+      ownership: null
+      _key: '!scenes.tokens.delta!tBBuC4oRuca4KgCk.zzBzWeePxV1MkKNI.eCgTdfMlj5ecEQe6'
+    x: 1700
+    'y': 1300
+    elevation: 20
+    locked: false
+    _movementHistory: []
+    _regions: []
+    depth: 2
+    level: defaultLevel0000
+    _key: '!scenes.tokens!tBBuC4oRuca4KgCk.zzBzWeePxV1MkKNI'
+  - displayName: 20
+    displayBars: 40
+    flags:
+      pf2e:
+        linkToActorSize: true
+        autoscale: false
+      monks-combat-marker:
+        token-highlight-scale: 1.5
+        token-combat-animation: ''
+        token-highlight: ''
+      wall-height:
+        tokenHeight: 0
+      monks-bloodsplats:
+        bloodsplat-type: ''
+        bloodsplat-colour: ''
+      healthEstimate:
+        dontMarkDead: false
+        hideHealthEstimate: false
+        hideName: false
+    sight:
+      enabled: true
+      color: null
+      range: null
+      angle: 360
+      visionMode: darkvision
+      attenuation: 0
+      brightness: 0
+      saturation: -1
+      contrast: 0
+    detectionModes:
+      basicSight:
+        range: null
+        enabled: true
+    height: 1
+    width: 1
+    actorLink: true
+    name: Benedin Bronzeshield
+    texture:
+      src: worlds/kingmaker/PCs/Benedin%20-%20cutout.webp
+      anchorX: 0.5
+      anchorY: 0.5
+      fit: contain
+      scaleX: 1
+      scaleY: 1
+      tint: '#ffffff'
+      alphaThreshold: 0.75
+    lockRotation: false
+    rotation: 0
+    alpha: 1
+    disposition: -1
+    bar1:
+      attribute: attributes.hp
+    bar2:
+      attribute: null
+    light:
+      negative: false
+      priority: 0
+      alpha: 0.5
+      angle: 360
+      bright: 0
+      color: null
+      coloration: 1
+      dim: 0
+      attenuation: 0.5
+      luminosity: 0.5
+      saturation: 0
+      contrast: 0
+      shadows: 0
+      animation:
+        type: flame
+        speed: 5
+        intensity: 5
+        reverse: false
+      darkness:
+        min: 0
+        max: 1
+    occludable:
+      radius: 0
+    ring:
+      enabled: true
+      colors:
+        ring: null
+        background: null
+      effects: 1
+      subject:
+        scale: 1
+        texture: null
+    turnMarker:
+      mode: 1
+      animation: null
+      src: null
+      disposition: false
+    movementAction: null
+    actorId: KO3CVx7aihg4JABN
+    hidden: false
+    sort: 3
+    shape: 4
+    _id: 8iyfKPOsVnC1vJQd
+    delta:
+      _id: nLTAkZ6lzmWzihZU
+      system: {}
+      items: []
+      effects: []
+      flags: {}
+      name: null
+      type: null
+      img: null
+      ownership: null
+      _key: '!scenes.tokens.delta!tBBuC4oRuca4KgCk.8iyfKPOsVnC1vJQd.nLTAkZ6lzmWzihZU'
+    x: 800
+    'y': 1100
+    elevation: 0
+    locked: false
+    _movementHistory: []
+    _regions: []
+    depth: 1
+    level: defaultLevel0000
+    _key: '!scenes.tokens!tBBuC4oRuca4KgCk.8iyfKPOsVnC1vJQd'
+  - displayName: 30
+    displayBars: 20
+    flags:
+      monks-tokenbar:
+        include: default
+      healthEstimate:
+        dontMarkDead: false
+        hideHealthEstimate: false
+        hideName: false
+      pf2e:
+        linkToActorSize: true
+        autoscale: false
+      monks-combat-marker:
+        token-highlight-scale: 1.5
+        token-combat-animation: ''
+        token-highlight: ''
+      monks-bloodsplats:
+        bloodsplat-colour: ''
+        bloodsplat-type: ''
+      tagger:
+        tags:
+          - lee-swashbuckler
+      core: {}
+      wall-height:
+        tokenHeight: 0
+    height: 1
+    width: 1
+    actorLink: true
+    sight:
+      enabled: true
+      range: 0
+      angle: 360
+      visionMode: basic
+      color: null
+      attenuation: 0.1
+      brightness: 0
+      saturation: 0
+      contrast: 0
+    name: Lee
+    texture:
+      src: worlds/kingmaker/PCs/lee%20transparent.webp
+      scaleX: 1.2
+      scaleY: 1.2
+      tint: '#ffffff'
+      anchorX: 0.5
+      anchorY: 0.5
+      fit: contain
+      alphaThreshold: 0.75
+    lockRotation: false
+    rotation: 0
+    alpha: 1
+    disposition: -1
+    bar1:
+      attribute: attributes.hp
+    bar2:
+      attribute: null
+    light:
+      alpha: 0.5
+      angle: 360
+      bright: 0
+      color: null
+      coloration: 1
+      dim: 0
+      attenuation: 0.5
+      luminosity: 0.5
+      saturation: 0
+      contrast: 0
+      shadows: 0
+      animation:
+        type: null
+        speed: 5
+        intensity: 5
+        reverse: false
+      darkness:
+        min: 0
+        max: 1
+      negative: false
+      priority: 0
+    detectionModes:
+      lightPerception:
+        range: null
+        enabled: true
+    occludable:
+      radius: 0
+    ring:
+      enabled: true
+      colors:
+        ring: null
+        background: null
+      effects: 1
+      subject:
+        scale: 1.2
+        texture: null
+    turnMarker:
+      mode: 1
+      animation: null
+      src: null
+      disposition: false
+    movementAction: null
+    actorId: e5w3kUoIn16cJHW3
+    hidden: false
+    sort: 5
+    shape: 4
+    _id: tkdnYRmzLa8C4RMW
+    delta:
+      _id: CZxoRDjEbg6irZlv
+      system: {}
+      items: []
+      effects: []
+      flags: {}
+      name: null
+      type: null
+      img: null
+      ownership: null
+      _key: '!scenes.tokens.delta!tBBuC4oRuca4KgCk.tkdnYRmzLa8C4RMW.CZxoRDjEbg6irZlv'
+    x: 1100
+    'y': 1000
+    elevation: 0
+    locked: false
+    _movementHistory: []
+    _regions: []
+    depth: 1
+    level: defaultLevel0000
+    _key: '!scenes.tokens!tBBuC4oRuca4KgCk.tkdnYRmzLa8C4RMW'
+  - displayName: 30
+    displayBars: 30
+    flags:
+      monks-tokenbar:
+        include: default
+      healthEstimate:
+        dontMarkDead: false
+        hideHealthEstimate: false
+        hideName: false
+      pf2e:
+        linkToActorSize: true
+        autoscale: false
+      monks-combat-marker:
+        token-highlight-scale: 1.5
+        token-combat-animation: ''
+        token-highlight: ''
+      monks-bloodsplats:
+        bloodsplat-colour: ''
+        glyph: f
+        bloodsplat-type: ''
+      tagger:
+        tags:
+          - lucas-oracle
+      core: {}
+      wall-height:
+        tokenHeight: 0
+    height: 1
+    width: 1
+    actorLink: true
+    sight:
+      enabled: true
+      range: 0
+      angle: 360
+      visionMode: basic
+      color: null
+      attenuation: 0.1
+      brightness: 0
+      saturation: 0
+      contrast: 0
+    name: Lucas Sato_
+    texture:
+      src: worlds/kingmaker/PCs/Lucas%20Sato%20head.webp
+      scaleX: 1.1
+      scaleY: 1.1
+      tint: '#ffffff'
+      anchorX: 0.5
+      anchorY: 0.5
+      fit: contain
+      alphaThreshold: 0.75
+    lockRotation: false
+    rotation: 0
+    alpha: 1
+    disposition: -1
+    bar1:
+      attribute: attributes.hp
+    bar2:
+      attribute: null
+    light:
+      alpha: 0.5
+      angle: 360
+      bright: 0
+      color: null
+      coloration: 1
+      dim: 0
+      attenuation: 0.5
+      luminosity: 0.5
+      saturation: 0
+      contrast: 0
+      shadows: 0
+      animation:
+        type: null
+        speed: 5
+        intensity: 5
+        reverse: false
+      darkness:
+        min: 0
+        max: 1
+      negative: false
+      priority: 0
+    detectionModes:
+      lightPerception:
+        range: null
+        enabled: true
+    occludable:
+      radius: 0
+    ring:
+      enabled: true
+      colors:
+        ring: null
+        background: null
+      effects: 1
+      subject:
+        scale: 1.1
+        texture: null
+    turnMarker:
+      mode: 1
+      animation: null
+      src: null
+      disposition: false
+    movementAction: null
+    actorId: tcIYyvoSIEPinWBT
+    hidden: false
+    sort: 6
+    shape: 4
+    _id: zOxtC1RocUrKi4WB
+    delta:
+      _id: 2qczKrHipKzwECnY
+      system: {}
+      items: []
+      effects: []
+      flags: {}
+      name: null
+      type: null
+      img: null
+      ownership: null
+      _key: '!scenes.tokens.delta!tBBuC4oRuca4KgCk.zOxtC1RocUrKi4WB.2qczKrHipKzwECnY'
+    x: 1000
+    'y': 1100
+    elevation: 0
+    locked: false
+    _movementHistory: []
+    _regions: []
+    depth: 1
+    level: defaultLevel0000
+    _key: '!scenes.tokens!tBBuC4oRuca4KgCk.zOxtC1RocUrKi4WB'
+  - displayName: 30
+    displayBars: 40
+    flags:
+      monks-tokenbar:
+        include: default
+      healthEstimate:
+        dontMarkDead: false
+        hideHealthEstimate: false
+        hideName: false
+      pf2e:
+        linkToActorSize: true
+        autoscale: false
+      monks-combat-marker:
+        token-highlight-scale: 1.5
+        token-combat-animation: ''
+        token-highlight: ''
+      monks-bloodsplats:
+        bloodsplat-colour: ''
+        bloodsplat-type: ''
+      core: {}
+      wall-height:
+        tokenHeight: 0
+      tagger: {}
+    sight:
+      enabled: true
+      color: null
+      range: 0
+      angle: 360
+      visionMode: basic
+      attenuation: 0.1
+      brightness: 0
+      saturation: 0
+      contrast: 0
+    detectionModes: {}
+    bar2:
+      attribute: resources.heroPoints
+    height: 1
+    width: 1
+    actorLink: true
+    name: Milo Tinkerfoot
+    texture:
+      src: worlds/kingmaker/PCs/bramble-character-p.webp
+      scaleX: 1.1
+      scaleY: 1.1
+      tint: '#ffffff'
+      anchorX: 0.5
+      anchorY: 0.5
+      fit: contain
+      alphaThreshold: 0.75
+    lockRotation: false
+    rotation: 0
+    alpha: 1
+    disposition: -1
+    bar1:
+      attribute: attributes.hp
+    light:
+      alpha: 0.5
+      angle: 360
+      bright: 0
+      coloration: 1
+      dim: 0
+      attenuation: 0.5
+      luminosity: 0.5
+      saturation: 0
+      contrast: 0
+      shadows: 0
+      animation:
+        type: null
+        speed: 5
+        intensity: 5
+        reverse: false
+      darkness:
+        min: 0
+        max: 1
+      color: null
+      negative: false
+      priority: 0
+    occludable:
+      radius: 0
+    ring:
+      enabled: true
+      colors:
+        ring: null
+        background: null
+      effects: 1
+      subject:
+        scale: 1.1
+        texture: null
+    turnMarker:
+      mode: 1
+      animation: null
+      src: null
+      disposition: false
+    movementAction: null
+    actorId: gFxipV1xecFvG2ry
+    hidden: false
+    sort: 7
+    shape: 4
+    _id: RXJOmkCcgP0lVYrG
+    delta:
+      _id: KIiED21nVduBux6P
+      system: {}
+      items: []
+      effects: []
+      flags: {}
+      name: null
+      type: null
+      img: null
+      ownership: null
+      _key: '!scenes.tokens.delta!tBBuC4oRuca4KgCk.RXJOmkCcgP0lVYrG.KIiED21nVduBux6P'
+    x: 1300
+    'y': 1000
+    elevation: 0
+    locked: false
+    _movementHistory: []
+    _regions: []
+    depth: 1
+    level: defaultLevel0000
+    _key: '!scenes.tokens!tBBuC4oRuca4KgCk.RXJOmkCcgP0lVYrG'
+  - displayName: 30
+    displayBars: 40
+    flags:
+      monks-tokenbar:
+        include: default
+      healthEstimate:
+        dontMarkDead: false
+        hideHealthEstimate: false
+        hideName: false
+      pf2e:
+        linkToActorSize: true
+        autoscale: false
+      wall-height:
+        tokenHeight: 0
+      tagger: {}
+      core: {}
+      monks-combat-marker:
+        token-highlight-scale: 1.5
+        token-combat-animation: ''
+        token-highlight: ''
+      monks-bloodsplats:
+        bloodsplat-type: ''
+        bloodsplat-colour: ''
+        bloodsplat-index: 180
+    sight:
+      enabled: true
+      color: null
+      range: null
+      angle: 360
+      visionMode: darkvision
+      attenuation: 0
+      brightness: 0
+      saturation: -1
+      contrast: 0
+    detectionModes:
+      basicSight:
+        range: null
+        enabled: true
+    bar2:
+      attribute: null
+    height: 1
+    width: 1
+    actorLink: true
+    name: Pavel
+    texture:
+      src: worlds/kingmaker/PCs/Pavel_head.webp
+      scaleX: 1.05
+      scaleY: 1.05
+      tint: '#ffffff'
+      anchorX: 0.5
+      anchorY: 0.5
+      fit: contain
+      alphaThreshold: 0.75
+    lockRotation: false
+    rotation: 0
+    alpha: 1
+    disposition: -1
+    bar1:
+      attribute: attributes.hp
+    light:
+      alpha: 0.5
+      angle: 360
+      bright: 0
+      coloration: 1
+      dim: 0
+      attenuation: 0.5
+      luminosity: 0.5
+      saturation: 0
+      contrast: 0
+      shadows: 0
+      animation:
+        type: flame
+        speed: 5
+        intensity: 5
+        reverse: false
+      darkness:
+        min: 0
+        max: 1
+      color: null
+      negative: false
+      priority: 0
+    occludable:
+      radius: 0
+    ring:
+      enabled: true
+      colors:
+        ring: null
+        background: null
+      effects: 1
+      subject:
+        scale: 1.04
+        texture: null
+    turnMarker:
+      mode: 1
+      animation: null
+      src: null
+      disposition: false
+    movementAction: null
+    actorId: VMmyjUNJLXltJ5DV
+    hidden: false
+    sort: 8
+    shape: 4
+    _id: j1R6TyZTPpFhnpdj
+    delta:
+      _id: 7cIz0EbxYUgFXY1H
+      system: {}
+      items: []
+      effects: []
+      flags: {}
+      name: null
+      type: null
+      img: null
+      ownership: null
+      _key: '!scenes.tokens.delta!tBBuC4oRuca4KgCk.j1R6TyZTPpFhnpdj.7cIz0EbxYUgFXY1H'
+    x: 900
+    'y': 1000
+    elevation: 0
+    locked: false
+    _movementHistory: []
+    _regions: []
+    depth: 1
+    level: defaultLevel0000
+    _key: '!scenes.tokens!tBBuC4oRuca4KgCk.j1R6TyZTPpFhnpdj'
+  - displayName: 30
+    displayBars: 20
+    flags:
+      monks-tokenbar:
+        include: default
+      healthEstimate:
+        dontMarkDead: false
+        hideHealthEstimate: false
+        hideName: false
+      pf2e:
+        linkToActorSize: true
+        autoscale: false
+      monks-combat-marker:
+        token-highlight-scale: 1.5
+        token-combat-animation: ''
+        token-highlight: ''
+      monks-bloodsplats:
+        bloodsplat-colour: ''
+        bloodsplat-type: ''
+      tagger:
+        tags:
+          - riven-ranger
+      core: {}
+      wall-height:
+        tokenHeight: 0
+    height: 1
+    width: 1
+    actorLink: true
+    sight:
+      enabled: true
+      range: null
+      angle: 360
+      visionMode: basic
+      color: null
+      attenuation: 0.1
+      brightness: 0
+      saturation: 0
+      contrast: 0
+    name: Riven
+    texture:
+      src: worlds/kingmaker/PCs/riven-portrait-1-nobg.png
+      scaleX: 1.1
+      scaleY: 1.1
+      tint: '#ffffff'
+      anchorX: 0.5
+      anchorY: 0.5
+      fit: contain
+      alphaThreshold: 0.75
+    lockRotation: false
+    rotation: 0
+    alpha: 1
+    disposition: -1
+    bar1:
+      attribute: attributes.hp
+    bar2:
+      attribute: null
+    light:
+      alpha: 0.5
+      angle: 360
+      bright: 0
+      color: null
+      coloration: 1
+      dim: 0
+      attenuation: 0.5
+      luminosity: 0.5
+      saturation: 0
+      contrast: 0
+      shadows: 0
+      animation:
+        type: null
+        speed: 5
+        intensity: 5
+        reverse: false
+      darkness:
+        min: 0
+        max: 1
+      negative: false
+      priority: 0
+    detectionModes:
+      basicSight:
+        range: null
+        enabled: true
+    occludable:
+      radius: 0
+    ring:
+      enabled: true
+      colors:
+        ring: null
+        background: null
+      effects: 1
+      subject:
+        scale: 1.1
+        texture: null
+    turnMarker:
+      mode: 1
+      animation: null
+      src: null
+      disposition: false
+    movementAction: null
+    actorId: BXJA0aPg162BfOxh
+    hidden: false
+    sort: 9
+    shape: 4
+    _id: wd2Yc13WLfWRHL6r
+    delta:
+      _id: nX1D2xB9AkLGsnC1
+      system: {}
+      items: []
+      effects: []
+      flags: {}
+      name: null
+      type: null
+      img: null
+      ownership: null
+      _key: '!scenes.tokens.delta!tBBuC4oRuca4KgCk.wd2Yc13WLfWRHL6r.nX1D2xB9AkLGsnC1'
+    x: 700
+    'y': 1200
+    elevation: 0
+    locked: false
+    _movementHistory: []
+    _regions: []
+    depth: 1
+    level: defaultLevel0000
+    _key: '!scenes.tokens!tBBuC4oRuca4KgCk.wd2Yc13WLfWRHL6r'
+  - displayName: 50
+    displayBars: 40
+    flags:
+      monks-tokenbar:
+        include: default
+      healthEstimate:
+        dontMarkDead: false
+        hideHealthEstimate: false
+        hideName: false
+      pf2e:
+        linkToActorSize: true
+        autoscale: false
+      wall-height:
+        tokenHeight: 0
+      tagger: {}
+      core: {}
+      monks-combat-marker:
+        token-highlight-scale: 1.5
+        token-combat-animation: ''
+        token-highlight: ''
+      monks-bloodsplats:
+        bloodsplat-colour: ''
+        bloodsplat-type: ''
+    sight:
+      enabled: true
+      color: null
+      range: 0
+      angle: 360
+      visionMode: basic
+      attenuation: 0.1
+      brightness: 0
+      saturation: 0
+      contrast: 0
+    detectionModes:
+      senseAll:
+        range: 30
+        enabled: true
+    height: 1
+    width: 1
+    actorLink: true
+    name: Cat
+    texture:
+      src: worlds/kingmaker/PCs/Panther3.webp
+      scaleX: 0.9
+      scaleY: 0.9
+      tint: '#ffffff'
+      anchorX: 0.5
+      anchorY: 0.5
+      fit: contain
+      alphaThreshold: 0.75
+    lockRotation: false
+    rotation: 0
+    alpha: 1
+    disposition: -1
+    bar1:
+      attribute: attributes.hp
+    bar2:
+      attribute: resources.heroPoints
+    light:
+      alpha: 0.5
+      angle: 360
+      bright: 0
+      coloration: 1
+      dim: 0
+      attenuation: 0.5
+      luminosity: 0.5
+      saturation: 0
+      contrast: 0
+      shadows: 0
+      animation:
+        type: null
+        speed: 5
+        intensity: 5
+        reverse: false
+      darkness:
+        min: 0
+        max: 1
+      color: null
+      negative: false
+      priority: 0
+    occludable:
+      radius: 0
+    ring:
+      enabled: true
+      colors:
+        ring: null
+        background: null
+      effects: 1
+      subject:
+        scale: 0.9
+        texture: null
+    turnMarker:
+      mode: 1
+      animation: null
+      src: null
+      disposition: false
+    movementAction: null
+    actorId: LLqJy26e7s2eawzi
+    hidden: false
+    sort: 10
+    shape: 4
+    _id: ApB4flObgEEgMqCb
+    delta:
+      _id: 9Ecad92nQngoNcDU
+      system: {}
+      items: []
+      effects: []
+      flags: {}
+      name: null
+      type: null
+      img: null
+      ownership: null
+      _key: '!scenes.tokens.delta!tBBuC4oRuca4KgCk.ApB4flObgEEgMqCb.9Ecad92nQngoNcDU'
+    x: 1400
+    'y': 1000
+    elevation: 0
+    locked: false
+    _movementHistory: []
+    _regions: []
+    depth: 1
+    level: defaultLevel0000
+    _key: '!scenes.tokens!tBBuC4oRuca4KgCk.ApB4flObgEEgMqCb'
+  - displayName: 30
+    displayBars: 40
+    flags:
+      monks-tokenbar:
+        include: default
+      healthEstimate:
+        dontMarkDead: false
+        hideHealthEstimate: false
+        hideName: false
+      pf2e:
+        linkToActorSize: true
+        autoscale: false
+      core: {}
+      wall-height:
+        tokenHeight: 0
+      tagger: {}
+      monks-combat-marker:
+        token-highlight-scale: 1.5
+        token-combat-animation: ''
+        token-highlight: ''
+      monks-bloodsplats:
+        bloodsplat-colour: ''
+        bloodsplat-type: ''
+    sight:
+      enabled: true
+      color: null
+      range: 0
+      angle: 360
+      visionMode: basic
+      attenuation: 0.1
+      brightness: 0
+      saturation: 0
+      contrast: 0
+    detectionModes: {}
+    height: 1
+    width: 1
+    actorLink: true
+    name: Rindle 7.0
+    texture:
+      src: worlds/kingmaker/PCs/rindle.webp
+      scaleX: 1.1
+      scaleY: 1.1
+      tint: '#ffffff'
+      anchorX: 0.5
+      anchorY: 0.5
+      fit: contain
+      alphaThreshold: 0.75
+    lockRotation: false
+    rotation: 0
+    alpha: 1
+    disposition: -1
+    bar1:
+      attribute: attributes.hp
+    bar2:
+      attribute: null
+    light:
+      alpha: 0.5
+      angle: 360
+      bright: 0
+      coloration: 1
+      dim: 0
+      attenuation: 0.5
+      luminosity: 0.5
+      saturation: 0
+      contrast: 0
+      shadows: 0
+      animation:
+        type: null
+        speed: 5
+        intensity: 5
+        reverse: false
+      darkness:
+        min: 0
+        max: 1
+      color: null
+      negative: false
+      priority: 0
+    occludable:
+      radius: 0
+    ring:
+      enabled: true
+      colors:
+        ring: null
+        background: null
+      effects: 1
+      subject:
+        scale: 1.1
+        texture: null
+    turnMarker:
+      mode: 1
+      animation: null
+      src: null
+      disposition: false
+    movementAction: null
+    actorId: hdDU3CMTO5xZeumu
+    hidden: false
+    sort: 11
+    shape: 4
+    _id: vSfVFAzjP2UiNItM
+    delta:
+      _id: REYxlOMGpCEiYrHq
+      system: {}
+      items: []
+      effects: []
+      flags: {}
+      name: null
+      type: null
+      img: null
+      ownership: null
+      _key: '!scenes.tokens.delta!tBBuC4oRuca4KgCk.vSfVFAzjP2UiNItM.REYxlOMGpCEiYrHq'
+    x: 1200
+    'y': 1100
+    elevation: 0
+    locked: false
+    _movementHistory: []
+    _regions: []
+    depth: 1
+    level: defaultLevel0000
+    _key: '!scenes.tokens!tBBuC4oRuca4KgCk.vSfVFAzjP2UiNItM'
+  - displayName: 20
+    displayBars: 20
+    flags:
+      pf2e:
+        linkToActorSize: true
+        autoscale: true
+    sight:
+      enabled: false
+      color: null
+      range: 0
+      angle: 360
+      visionMode: basic
+      attenuation: 0.1
+      brightness: 0
+      saturation: 0
+      contrast: 0
+    detectionModes: {}
+    disposition: 0
+    name: Oversized Chimera
+    actorLink: false
+    texture:
+      src: modules/pf2e-kingmaker/assets/actor-tokens/bestiaries/chimera.webp
+      scaleX: 1
+      scaleY: 1
+      anchorX: 0.5
+      anchorY: 0.5
+      fit: contain
+      tint: '#ffffff'
+      alphaThreshold: 0.75
+    width: 2
+    height: 2
+    lockRotation: false
+    rotation: 0
+    alpha: 1
+    bar1:
+      attribute: attributes.hp
+    bar2:
+      attribute: null
+    light:
+      alpha: 0.5
+      angle: 360
+      bright: 0
+      coloration: 1
+      dim: 0
+      attenuation: 0.5
+      luminosity: 0.5
+      saturation: 0
+      contrast: 0
+      shadows: 0
+      animation:
+        type: null
+        speed: 5
+        intensity: 5
+        reverse: false
+      darkness:
+        min: 0
+        max: 1
+      negative: false
+      priority: 0
+      color: null
+    occludable:
+      radius: 0
+    ring:
+      enabled: true
+      colors:
+        ring: null
+        background: null
+      effects: 3
+      subject:
+        scale: 1
+        texture: null
+    turnMarker:
+      mode: 1
+      animation: null
+      src: null
+      disposition: false
+    movementAction: null
+    actorId: y68kqNXmr1BnjZtc
+    hidden: true
+    sort: 12
+    shape: 4
+    _id: 49b1S4PRzDy1sT4H
+    delta:
+      _id: r1WvJc4yM2ktGMnn
+      system: {}
+      items: []
+      effects: []
+      flags: {}
+      name: null
+      type: null
+      img: null
+      ownership: null
+      _key: '!scenes.tokens.delta!tBBuC4oRuca4KgCk.49b1S4PRzDy1sT4H.r1WvJc4yM2ktGMnn'
+    x: 2000
+    'y': 900
+    elevation: 30
+    locked: false
+    _movementHistory: []
+    _regions: []
+    depth: 2
+    level: defaultLevel0000
+    _key: '!scenes.tokens!tBBuC4oRuca4KgCk.49b1S4PRzDy1sT4H'
+  - displayName: 20
+    displayBars: 20
+    flags:
+      pf2e:
+        linkToActorSize: true
+        autoscale: true
+    sight:
+      enabled: false
+      color: null
+      range: 0
+      angle: 360
+      visionMode: basic
+      attenuation: 0.1
+      brightness: 0
+      saturation: 0
+      contrast: 0
+    detectionModes: {}
+    disposition: 0
+    name: Oversized Chimera
+    actorLink: false
+    texture:
+      src: modules/pf2e-kingmaker/assets/actor-tokens/bestiaries/chimera.webp
+      scaleX: 1
+      scaleY: 1
+      anchorX: 0.5
+      anchorY: 0.5
+      fit: contain
+      tint: '#ffffff'
+      alphaThreshold: 0.75
+    width: 2
+    height: 2
+    lockRotation: false
+    rotation: 0
+    alpha: 1
+    bar1:
+      attribute: attributes.hp
+    bar2:
+      attribute: null
+    light:
+      alpha: 0.5
+      angle: 360
+      bright: 0
+      coloration: 1
+      dim: 0
+      attenuation: 0.5
+      luminosity: 0.5
+      saturation: 0
+      contrast: 0
+      shadows: 0
+      animation:
+        type: null
+        speed: 5
+        intensity: 5
+        reverse: false
+      darkness:
+        min: 0
+        max: 1
+      negative: false
+      priority: 0
+      color: null
+    occludable:
+      radius: 0
+    ring:
+      enabled: true
+      colors:
+        ring: null
+        background: null
+      effects: 3
+      subject:
+        scale: 1
+        texture: null
+    turnMarker:
+      mode: 1
+      animation: null
+      src: null
+      disposition: false
+    movementAction: null
+    actorId: y68kqNXmr1BnjZtc
+    hidden: true
+    sort: 13
+    shape: 4
+    _id: tqzZbdKZizLMGjdL
+    delta:
+      _id: SfpLSK1OPOV1ErtH
+      system:
+        attributes:
+          hp:
+            value: 240
+          adjustment: elite
+        _migration:
+          previous:
+            schema: 0.94
+      items:
+        - system:
+            _migration:
+              previous:
+                schema: 0.94
+                foundry: '13.345'
+                system: 7.2.0
+              version: 0.94
+            description:
+              gm: ''
+              value: ''
+            rules: []
+            slug: null
+            traits:
+              otherTags: []
+              value: []
+            publication:
+              title: ''
+              authors: ''
+              license: OGL
+              remaster: false
+            damageRolls:
+              dac0cndr4wgpu6mjd2ff:
+                damage: 2d6+11
+                damageType: piercing
+                category: null
+              arc84499ycdq519e18zx:
+                damage: 3d6
+                damageType: fire
+                category: null
+            bonus:
+              value: 26
+            attackEffects:
+              value: []
+          _id: p4gHmixTKN3Gb87J
+          img: systems/pf2e/icons/default-icons/melee.svg
+          name: Dragon Jaws
+          sort: 100000
+          type: melee
+          effects: []
+          folder: null
+          flags: {}
+          _stats:
+            compendiumSource: null
+            duplicateSource: null
+            exportSource: null
+            coreVersion: '14.359'
+            systemId: pf2e
+            systemVersion: 7.2.3
+            lastModifiedBy: null
+            createdTime: null
+            modifiedTime: null
+          ownership:
+            default: 0
+          _key: >-
+            !scenes.tokens.delta.items!tBBuC4oRuca4KgCk.tqzZbdKZizLMGjdL.SfpLSK1OPOV1ErtH.p4gHmixTKN3Gb87J
+        - system:
+            _migration:
+              previous:
+                schema: 0.94
+                foundry: '13.345'
+                system: 7.2.0
+              version: 0.94
+            description:
+              gm: ''
+              value: ''
+            rules: []
+            slug: null
+            traits:
+              otherTags: []
+              value: []
+            publication:
+              title: ''
+              authors: ''
+              license: OGL
+              remaster: false
+            damageRolls:
+              zjdn41fp3hbttedbxqgo:
+                damage: 3d10+11
+                damageType: piercing
+                category: null
+            bonus:
+              value: 26
+            attackEffects:
+              value: []
+          _id: XfQQjjOdt5sRiSb6
+          img: systems/pf2e/icons/default-icons/melee.svg
+          name: Lion Jaws
+          sort: 200000
+          type: melee
+          effects: []
+          folder: null
+          flags: {}
+          _stats:
+            compendiumSource: null
+            duplicateSource: null
+            exportSource: null
+            coreVersion: '14.359'
+            systemId: pf2e
+            systemVersion: 7.2.3
+            lastModifiedBy: null
+            createdTime: null
+            modifiedTime: null
+          ownership:
+            default: 0
+          _key: >-
+            !scenes.tokens.delta.items!tBBuC4oRuca4KgCk.tqzZbdKZizLMGjdL.SfpLSK1OPOV1ErtH.XfQQjjOdt5sRiSb6
+        - system:
+            _migration:
+              previous:
+                schema: 0.94
+                foundry: '13.345'
+                system: 7.2.0
+              version: 0.94
+            description:
+              gm: ''
+              value: ''
+            rules: []
+            slug: null
+            traits:
+              otherTags: []
+              value: []
+            publication:
+              title: ''
+              authors: ''
+              license: OGL
+              remaster: false
+            damageRolls:
+              it9pipqnft8ysztguu7y:
+                damage: 3d10+11
+                damageType: piercing
+                category: null
+            bonus:
+              value: 26
+            attackEffects:
+              value: []
+          _id: rog22HpLDkUnfolA
+          img: systems/pf2e/icons/default-icons/melee.svg
+          name: Goat Horns
+          sort: 300000
+          type: melee
+          effects: []
+          folder: null
+          flags: {}
+          _stats:
+            compendiumSource: null
+            duplicateSource: null
+            exportSource: null
+            coreVersion: '14.359'
+            systemId: pf2e
+            systemVersion: 7.2.3
+            lastModifiedBy: null
+            createdTime: null
+            modifiedTime: null
+          ownership:
+            default: 0
+          _key: >-
+            !scenes.tokens.delta.items!tBBuC4oRuca4KgCk.tqzZbdKZizLMGjdL.SfpLSK1OPOV1ErtH.rog22HpLDkUnfolA
+        - system:
+            _migration:
+              previous:
+                schema: 0.94
+                foundry: '13.345'
+                system: 7.2.0
+              version: 0.94
+            description:
+              gm: ''
+              value: ''
+            rules: []
+            slug: null
+            traits:
+              otherTags: []
+              value:
+                - agile
+            publication:
+              title: ''
+              authors: ''
+              license: OGL
+              remaster: false
+            damageRolls:
+              v7luy1ttfoi91850stm2:
+                damage: 3d8+11
+                damageType: slashing
+                category: null
+            bonus:
+              value: 26
+            attackEffects:
+              value: []
+          _id: sT4lUsg0seVtpUKQ
+          img: systems/pf2e/icons/default-icons/melee.svg
+          name: Claw
+          sort: 400000
+          type: melee
+          effects: []
+          folder: null
+          flags: {}
+          _stats:
+            compendiumSource: null
+            duplicateSource: null
+            exportSource: null
+            coreVersion: '14.359'
+            systemId: pf2e
+            systemVersion: 7.2.3
+            lastModifiedBy: null
+            createdTime: null
+            modifiedTime: null
+          ownership:
+            default: 0
+          _key: >-
+            !scenes.tokens.delta.items!tBBuC4oRuca4KgCk.tqzZbdKZizLMGjdL.SfpLSK1OPOV1ErtH.sT4lUsg0seVtpUKQ
+        - system:
+            _migration:
+              previous:
+                schema: 0.94
+                foundry: '13.345'
+                system: 7.2.0
+              version: 0.94
+            description:
+              gm: ''
+              value: <p>@Localize[PF2E.NPC.Abilities.Glossary.Darkvision]</p>
+            rules: []
+            slug: darkvision
+            traits:
+              otherTags: []
+              value: []
+            publication:
+              title: Pathfinder Bestiary
+              authors: ''
+              license: OGL
+              remaster: false
+            actionType:
+              value: passive
+            category: interaction
+            actions:
+              value: null
+            deathNote: false
+          _id: YyxKJRRXl2GdUfTt
+          flags:
+            core: {}
+          img: systems/pf2e/icons/actions/Passive.webp
+          name: Darkvision
+          sort: 500000
+          type: action
+          effects: []
+          folder: null
+          _stats:
+            compendiumSource: null
+            duplicateSource: null
+            exportSource: null
+            coreVersion: '14.359'
+            systemId: pf2e
+            systemVersion: 7.2.3
+            lastModifiedBy: null
+            createdTime: null
+            modifiedTime: null
+          ownership:
+            default: 0
+          _key: >-
+            !scenes.tokens.delta.items!tBBuC4oRuca4KgCk.tqzZbdKZizLMGjdL.SfpLSK1OPOV1ErtH.YyxKJRRXl2GdUfTt
+        - system:
+            _migration:
+              previous:
+                schema: 0.94
+                foundry: '13.345'
+                system: 7.2.0
+              version: 0.94
+            description:
+              gm: ''
+              value: <p>@Localize[PF2E.NPC.Abilities.Glossary.Scent]</p>
+            rules: []
+            slug: scent
+            traits:
+              otherTags: []
+              value: []
+            publication:
+              title: Pathfinder Bestiary
+              authors: ''
+              license: OGL
+              remaster: false
+            actionType:
+              value: passive
+            category: interaction
+            actions:
+              value: null
+            deathNote: false
+          _id: iu1YHlbvh64HBaor
+          flags:
+            core: {}
+          img: systems/pf2e/icons/actions/Passive.webp
+          name: Scent (Imprecise) 30 feet
+          sort: 600000
+          type: action
+          effects: []
+          folder: null
+          _stats:
+            compendiumSource: null
+            duplicateSource: null
+            exportSource: null
+            coreVersion: '14.359'
+            systemId: pf2e
+            systemVersion: 7.2.3
+            lastModifiedBy: null
+            createdTime: null
+            modifiedTime: null
+          ownership:
+            default: 0
+          _key: >-
+            !scenes.tokens.delta.items!tBBuC4oRuca4KgCk.tqzZbdKZizLMGjdL.SfpLSK1OPOV1ErtH.iu1YHlbvh64HBaor
+        - system:
+            _migration:
+              previous:
+                schema: 0.94
+                foundry: '13.345'
+                system: 7.2.0
+              version: 0.94
+            description:
+              gm: ''
+              value: >-
+                <p>@Localize[PF2E.NPC.Abilities.Glossary.AttackOfOpportunity]</p>
+            rules: []
+            slug: attack-of-opportunity
+            traits:
+              otherTags: []
+              value: []
+            publication:
+              title: Pathfinder Bestiary
+              authors: ''
+              license: OGL
+              remaster: false
+            actionType:
+              value: reaction
+            category: defensive
+            actions:
+              value: null
+            deathNote: false
+          _id: 5ulvx0zqprJryzvq
+          flags:
+            core: {}
+          img: systems/pf2e/icons/actions/Reaction.webp
+          name: Attack of Opportunity
+          sort: 700000
+          type: action
+          effects: []
+          folder: null
+          _stats:
+            compendiumSource: null
+            duplicateSource: null
+            exportSource: null
+            coreVersion: '14.359'
+            systemId: pf2e
+            systemVersion: 7.2.3
+            lastModifiedBy: null
+            createdTime: null
+            modifiedTime: null
+          ownership:
+            default: 0
+          _key: >-
+            !scenes.tokens.delta.items!tBBuC4oRuca4KgCk.tqzZbdKZizLMGjdL.SfpLSK1OPOV1ErtH.5ulvx0zqprJryzvq
+        - system:
+            _migration:
+              previous:
+                schema: 0.94
+                foundry: '13.345'
+                system: 7.2.0
+              version: 0.94
+            description:
+              gm: ''
+              value: >-
+                <p>Any ability that would sever a chimera's head (such as a
+                critical hit with a
+                <em>@UUID[Compendium.pf2e.equipment-srd.Item.6xaxxKfvXED6LfIY]{Vorpal
+                Weapon}</em>) severs one head at random. Losing a head doesn't
+                kill a chimera (as long as it has one head left), but it does
+                prevent it from making Strikes with the lost head or using the
+                head's Breath Weapon.</p>
+            rules: []
+            slug: null
+            traits:
+              otherTags: []
+              value: []
+            publication:
+              title: ''
+              authors: ''
+              license: OGL
+              remaster: false
+            actionType:
+              value: passive
+            category: defensive
+            actions:
+              value: null
+            deathNote: false
+          _id: 7CQGpLGBAg2Jbtjv
+          img: systems/pf2e/icons/actions/Passive.webp
+          name: Three Headed
+          sort: 800000
+          type: action
+          effects: []
+          folder: null
+          flags: {}
+          _stats:
+            compendiumSource: null
+            duplicateSource: null
+            exportSource: null
+            coreVersion: '14.359'
+            systemId: pf2e
+            systemVersion: 7.2.3
+            lastModifiedBy: null
+            createdTime: null
+            modifiedTime: null
+          ownership:
+            default: 0
+          _key: >-
+            !scenes.tokens.delta.items!tBBuC4oRuca4KgCk.tqzZbdKZizLMGjdL.SfpLSK1OPOV1ErtH.7CQGpLGBAg2Jbtjv
+        - system:
+            _migration:
+              previous:
+                schema: 0.94
+                foundry: '13.345'
+                system: 7.2.0
+              version: 0.94
+            description:
+              gm: ''
+              value: >-
+                <p>A oversized chimera gains 2 extra reactions each round that
+                it can use only to make Attacks of Opportunity. It must use a
+                different head for each reaction, and it can't use more than one
+                on the same triggering action. If it loses one of its heads, it
+                also loses one of these extra reactions.</p>
+            rules: []
+            slug: triple-opportunity
+            traits:
+              otherTags: []
+              value: []
+            publication:
+              title: ''
+              authors: ''
+              license: OGL
+              remaster: false
+            actionType:
+              value: passive
+            category: defensive
+            actions:
+              value: null
+            deathNote: false
+          _id: PQMwXaG8Zqcd02Oe
+          img: systems/pf2e/icons/actions/Passive.webp
+          name: Triple Opportunity
+          sort: 900000
+          type: action
+          effects: []
+          folder: null
+          flags: {}
+          _stats:
+            compendiumSource: null
+            duplicateSource: null
+            exportSource: null
+            coreVersion: '14.359'
+            systemId: pf2e
+            systemVersion: 7.2.3
+            lastModifiedBy: null
+            createdTime: null
+            modifiedTime: null
+          ownership:
+            default: 0
+          _key: >-
+            !scenes.tokens.delta.items!tBBuC4oRuca4KgCk.tqzZbdKZizLMGjdL.SfpLSK1OPOV1ErtH.PQMwXaG8Zqcd02Oe
+        - system:
+            _migration:
+              previous:
+                schema: 0.94
+                foundry: '13.345'
+                system: 7.2.0
+              version: 0.94
+            description:
+              gm: ''
+              value: >-
+                <p>The oversized chimera breathes a
+                @Template[type:cone|distance:30] of fire that deals
+                @Damage[13d6[fire]] damage to all creatures in the area
+                (@Check[type:reflex|dc:32|basic:true] save).</p>
+
+                <p>The chimera can't use Breath Weapon again for [[/br 1d4
+                #Recharge Breath Weapon]]{1d4 rounds}.</p>
+            rules: []
+            slug: null
+            traits:
+              otherTags: []
+              value:
+                - arcane
+            publication:
+              title: ''
+              authors: ''
+              license: OGL
+              remaster: false
+            actionType:
+              value: action
+            category: offensive
+            actions:
+              value: 2
+            deathNote: false
+          _id: 9RDkmFyfywWSOj2V
+          img: systems/pf2e/icons/actions/TwoActions.webp
+          name: Breath Weapon
+          sort: 1000000
+          type: action
+          effects: []
+          folder: null
+          flags: {}
+          _stats:
+            compendiumSource: null
+            duplicateSource: null
+            exportSource: null
+            coreVersion: '14.359'
+            systemId: pf2e
+            systemVersion: 7.2.3
+            lastModifiedBy: null
+            createdTime: null
+            modifiedTime: null
+          ownership:
+            default: 0
+          _key: >-
+            !scenes.tokens.delta.items!tBBuC4oRuca4KgCk.tqzZbdKZizLMGjdL.SfpLSK1OPOV1ErtH.9RDkmFyfywWSOj2V
+        - system:
+            _migration:
+              previous:
+                schema: 0.94
+                foundry: '13.345'
+                system: 7.2.0
+              version: 0.94
+            description:
+              gm: ''
+              value: >-
+                <p>An oversized chimera's dragon head deals an extra
+                @Damage[3d6[fire]] damage <em>(already included)</em>.</p>
+            rules: []
+            slug: null
+            traits:
+              otherTags: []
+              value: []
+            publication:
+              title: ''
+              authors: ''
+              license: OGL
+              remaster: false
+            actionType:
+              value: passive
+            category: offensive
+            actions:
+              value: null
+            deathNote: false
+          _id: 8PkUYYXKF3YdJiBM
+          img: systems/pf2e/icons/actions/Passive.webp
+          name: Draconic Bite
+          sort: 1100000
+          type: action
+          effects: []
+          folder: null
+          flags: {}
+          _stats:
+            compendiumSource: null
+            duplicateSource: null
+            exportSource: null
+            coreVersion: '14.359'
+            systemId: pf2e
+            systemVersion: 7.2.3
+            lastModifiedBy: null
+            createdTime: null
+            modifiedTime: null
+          ownership:
+            default: 0
+          _key: >-
+            !scenes.tokens.delta.items!tBBuC4oRuca4KgCk.tqzZbdKZizLMGjdL.SfpLSK1OPOV1ErtH.8PkUYYXKF3YdJiBM
+        - system:
+            _migration:
+              previous:
+                schema: 0.94
+                foundry: '13.345'
+                system: 7.2.0
+              version: 0.94
+            description:
+              gm: ''
+              value: >-
+                <p>The oversized chimera makes a Strike with its dragon jaws,
+                lion jaws, and goat horns, each at a -2 penalty and targeting a
+                different creature. These Strikes count as only one attack for
+                the chimera's multiple attack penalty, and the penalty doesn't
+                increase until after it has made all three attacks.</p>
+            rules:
+              - domain: attack-roll
+                key: RollOption
+                option: three-headed-strike
+                toggleable: true
+              - key: FlatModifier
+                predicate:
+                  - three-headed-strike
+                selector: dragon-jaws-attack
+                value: -2
+              - key: FlatModifier
+                predicate:
+                  - three-headed-strike
+                selector: lion-jaws-attack
+                value: -2
+              - key: FlatModifier
+                predicate:
+                  - three-headed-strike
+                selector: goat-horns-attack
+                value: -2
+            slug: null
+            traits:
+              otherTags: []
+              value: []
+            publication:
+              title: ''
+              authors: ''
+              license: OGL
+              remaster: false
+            actionType:
+              value: action
+            category: offensive
+            actions:
+              value: 2
+            deathNote: false
+          _id: pEpgPRttHusG3elF
+          img: systems/pf2e/icons/actions/TwoActions.webp
+          name: Three-Headed Strike
+          sort: 1200000
+          type: action
+          effects: []
+          folder: null
+          flags: {}
+          _stats:
+            compendiumSource: null
+            duplicateSource: null
+            exportSource: null
+            coreVersion: '14.359'
+            systemId: pf2e
+            systemVersion: 7.2.3
+            lastModifiedBy: null
+            createdTime: null
+            modifiedTime: null
+          ownership:
+            default: 0
+          _key: >-
+            !scenes.tokens.delta.items!tBBuC4oRuca4KgCk.tqzZbdKZizLMGjdL.SfpLSK1OPOV1ErtH.pEpgPRttHusG3elF
+      effects: []
+      flags: {}
+      name: null
+      type: null
+      img: null
+      ownership: null
+      _key: '!scenes.tokens.delta!tBBuC4oRuca4KgCk.tqzZbdKZizLMGjdL.SfpLSK1OPOV1ErtH'
+    x: 700
+    'y': 1900
+    elevation: 20
+    locked: false
+    _movementHistory: []
+    _regions: []
+    depth: 2
+    level: defaultLevel0000
+    _key: '!scenes.tokens!tBBuC4oRuca4KgCk.tqzZbdKZizLMGjdL'
+lights: []
+notes: []
+sounds: []
+regions: []
+tiles: []
+walls: []
+playlist: 77s0UuKYIRduBvcU
+playlistSound: QnIXCJ5RLK1NQaNf
+journal: null
+journalEntryPage: null
+weather: ''
+flags:
+  world-explorer:
+    enabled: false
+    color: '#000000'
+    image: ''
+    persistExploredAreas: false
+    position: behindDrawings
+    revealRadius: '0'
+    gridRevealRadius: '0'
+    opacityGM: 0.7
+    opacityPlayer: 1
+  pf2e:
+    rulesBasedVision: null
+    hearingRange: null
+    environmentTypes: []
+_stats:
+  compendiumSource: null
+  duplicateSource: null
+  exportSource: null
+  coreVersion: '14.359'
+  systemId: pf2e
+  systemVersion: 7.2.3
+  createdTime: 1752203081242
+  modifiedTime: 1752203081242
+  lastModifiedBy: txZjek5EOiCBHPoz
+navName: ''
+active: false
+sort: 0
+ownership:
+  default: 0
+  txZjek5EOiCBHPoz: 3
+levels:
+  - _id: defaultLevel0000
+    name: Hilltop Cave
+    background:
+      color: '#999999'
+      src: modules/dannysmodule/assets/scenes/Hilltop-cave.jpg
+      tint: '#ffffff'
+      alphaThreshold: 0.75
+    elevation:
+      bottom: 0
+      top: 20
+    foreground:
+      src: null
+      tint: '#ffffff'
+      alphaThreshold: 0.75
+    fog:
+      src: null
+      tint: '#ffffff'
+    textures:
+      anchorX: 0.5
+      anchorY: 0.5
+      offsetX: 0
+      offsetY: 0
+      fit: fill
+      scaleX: 1
+      scaleY: 1
+      rotation: 0
+    visibility:
+      levels: []
+    sort: 0
+    flags: {}
+    _key: '!scenes.levels!tBBuC4oRuca4KgCk.defaultLevel0000'
+shiftX: 0
+shiftY: 0
+initialLevel: defaultLevel0000
+transition:
+  type: null
+  duration: 1500
+  activeOnly: false
+_key: '!scenes!tBBuC4oRuca4KgCk'
+templates: []

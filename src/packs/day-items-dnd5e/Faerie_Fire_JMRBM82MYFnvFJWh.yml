@@ -1,0 +1,134 @@
+name: Faerie Fire
+type: spell
+system:
+  source:
+    custom: ''
+    book: PHB
+    page: '239'
+    license: ''
+    revision: 1
+    rules: '2024'
+  description:
+    value: >-
+      <div class="rd__b  rd__b--3"><p>Each object in a 20-foot cube within range
+      is outlined in blue, green, or violet light (your choice). Any creature in
+      the area when the spell is cast is also outlined in light if it fails a
+      Dexterity saving throw. For the duration, objects and affected creatures
+      shed dim light in a 10-foot radius.</p><div
+      class="rd__spc-inline-post"></div><p>Any attack roll against an affected
+      creature or object has advantage if the attacker can see it, and the
+      affected creature or object can't benefit from being
+      @condition[invisible].</p></div><div><span class="bold">Classes:
+      </span>Artificer, Bard, Druid</div>
+    chat: ''
+  level: 1
+  school: evo
+  properties:
+    - vocal
+    - concentration
+  materials:
+    value: ''
+    consumed: false
+    cost: 0
+    supply: 0
+  target:
+    affects:
+      choice: false
+    template:
+      units: ft
+      type: cube
+      size: '20'
+      contiguous: false
+  range:
+    value: '60'
+    units: ft
+  activation:
+    type: action
+    condition: ''
+    value: 1
+  duration:
+    value: '1'
+    units: minute
+  uses:
+    max: ''
+    spent: 0
+    recovery: []
+  preparation:
+    mode: prepared
+    prepared: false
+  activities:
+    dnd5eactivity000:
+      _id: dnd5eactivity000
+      type: save
+      activation:
+        type: action
+        override: false
+      consumption:
+        targets: []
+        scaling:
+          allowed: false
+          max: ''
+        spellSlot: true
+      description:
+        chatFlavor: ''
+      duration:
+        units: inst
+        concentration: false
+        override: false
+      effects: []
+      range:
+        units: self
+        override: false
+      target:
+        prompt: true
+        template:
+          contiguous: false
+          units: ft
+        affects:
+          choice: false
+        override: false
+      uses:
+        spent: 0
+        max: ''
+        recovery: []
+      damage:
+        onSave: half
+        parts: []
+      save:
+        ability:
+          - dex
+        dc:
+          calculation: spellcasting
+          formula: ''
+      sort: 0
+  identifier: faerie-fire
+img: icons/magic/light/explosion-star-glow-silhouette.webp
+ownership:
+  default: 0
+  38Gfe7fp1EmVmZNj: 3
+flags:
+  plutonium:
+    page: spells.html
+    source: PHB
+    hash: faerie%20fire_phb
+    propDroppable: spell
+  dnd5e:
+    persistSourceMigration: true
+    riders:
+      activity: []
+      effect: []
+effects: []
+folder: 7LJJqiLuL1YQyknL
+_id: JMRBM82MYFnvFJWh
+sort: 0
+_stats:
+  systemId: dnd5e
+  systemVersion: 5.0.4
+  coreVersion: '13.346'
+  createdTime: 1708227601228
+  modifiedTime: 1752197371435
+  lastModifiedBy: 1pY4akW8WASxGBbA
+  compendiumSource: null
+  duplicateSource: null
+  exportSource: null
+_key: '!items!JMRBM82MYFnvFJWh'

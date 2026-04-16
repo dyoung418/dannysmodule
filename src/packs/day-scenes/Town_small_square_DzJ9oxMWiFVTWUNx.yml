@@ -1,0 +1,6472 @@
+folder: m9N7XXbcFwaw0IHx
+name: Town small square
+_id: DzJ9oxMWiFVTWUNx
+navigation: false
+navOrder: 0
+navName: ''
+thumb: modules/dannysmodule/assets/scenes/DzJ9oxMWiFVTWUNx-thumb.webp
+width: 2048
+height: 3072
+padding: 0.1
+initial:
+  x: 1753
+  'y': 1592
+  scale: 0.682
+grid:
+  type: 1
+  size: 100
+  style: solidLines
+  thickness: 1
+  color: '#000000'
+  alpha: 0.4
+  distance: 5
+  units: ft
+tokenVision: true
+fog:
+  colors:
+    explored: null
+    unexplored: null
+  mode: 1
+environment:
+  darknessLevel: 1
+  darknessLock: false
+  globalLight:
+    enabled: true
+    alpha: 0.5
+    bright: false
+    color: null
+    coloration: 1
+    luminosity: 0
+    saturation: 0
+    contrast: 0
+    shadows: 0
+    darkness:
+      min: 0
+      max: 1
+  cycle: true
+  base:
+    hue: 0
+    intensity: 0
+    luminosity: 0
+    saturation: 0
+    shadows: 0
+  dark:
+    hue: 0.7138888888888889
+    intensity: 0
+    luminosity: -0.25
+    saturation: 0
+    shadows: 0
+drawings: []
+tokens:
+  - displayName: 20
+    displayBars: 20
+    flags:
+      pf2e:
+        linkToActorSize: true
+        autoscale: true
+      monks-bloodsplats:
+        bloodsplat-index: 0
+        bloodsplat-type: ''
+        bloodsplat-colour: ''
+      monks-combat-marker:
+        token-highlight-scale: 1.5
+        token-combat-animation: ''
+        token-highlight: ''
+      healthEstimate:
+        dontMarkDead: false
+        hideHealthEstimate: false
+        hideName: false
+    sight:
+      enabled: true
+      color: null
+      range: null
+      angle: 360
+      visionMode: darkvision
+      attenuation: 0
+      brightness: 0
+      saturation: -1
+      contrast: 0
+    detectionModes:
+      basicSight:
+        range: null
+        enabled: true
+    name: Hill Giant Mercenary
+    actorLink: false
+    texture:
+      src: modules/pf2e-kingmaker/assets/actor-tokens/bestiaries/hill-giant.webp
+      scaleX: 1
+      scaleY: 1
+      tint: '#ffffff'
+      anchorX: 0.5
+      anchorY: 0.5
+      fit: contain
+      alphaThreshold: 0.75
+    width: 2
+    height: 2
+    lockRotation: false
+    rotation: 0
+    alpha: 1
+    disposition: -1
+    bar1:
+      attribute: attributes.hp
+    bar2:
+      attribute: null
+    light:
+      alpha: 0.5
+      angle: 360
+      bright: 0
+      coloration: 1
+      dim: 0
+      attenuation: 0.5
+      luminosity: 0.5
+      saturation: 0
+      contrast: 0
+      shadows: 0
+      animation:
+        type: null
+        speed: 5
+        intensity: 5
+        reverse: false
+      darkness:
+        min: 0
+        max: 1
+      color: null
+      negative: false
+      priority: 0
+    occludable:
+      radius: 0
+    ring:
+      enabled: false
+      colors:
+        ring: null
+        background: null
+      effects: 0
+      subject:
+        scale: 1
+        texture: null
+    actorId: 1kYEzFUoZRcRNfoS
+    hidden: false
+    sort: 0
+    _id: RlESmcoZ88RHzrJS
+    delta:
+      _id: 4kckmbUONFp4ZTRE
+      system:
+        attributes:
+          hp:
+            value: 0
+        perception:
+          senses:
+            - type: darkvision
+            - type: low-light-vision
+        _migration:
+          previous:
+            schema: 0.94
+      items:
+        - img: systems/pf2e/icons/conditions/enfeebled.webp
+          name: Enfeebled
+          system:
+            description:
+              gm: ''
+              value: >-
+                <p>You're physically weakened. Enfeebled always includes a
+                value. When you are enfeebled, you take a status penalty equal
+                to the condition value to Strength-based rolls and DCs,
+                including Strength-based melee attack rolls, Strength-based
+                damage rolls, and Athletics checks.</p>
+            rules:
+              - key: FlatModifier
+                selector:
+                  - str-based
+                  - str-damage
+                slug: enfeebled
+                type: status
+                value: '-@item.badge.value'
+            slug: enfeebled
+            _migration:
+              version: 0.94
+              previous:
+                schema: 0.939
+                foundry: '13.345'
+                system: 7.2.0
+            traits:
+              otherTags: []
+              value: []
+            publication:
+              title: Pathfinder Player Core
+              authors: ''
+              license: ORC
+              remaster: true
+            group: abilities
+            value:
+              isValued: true
+              value: 1
+            references:
+              children: []
+              overrides: []
+              overriddenBy: []
+              parent: null
+            overrides: []
+            fromSpell: false
+            persistent: null
+          type: condition
+          _stats:
+            compendiumSource: null
+            duplicateSource: null
+            exportSource: null
+            coreVersion: '14.359'
+            systemId: pf2e
+            systemVersion: 7.2.3
+            lastModifiedBy: null
+            createdTime: null
+            modifiedTime: null
+          effects: []
+          folder: null
+          sort: 0
+          flags: {}
+          _id: UlJKx3zIvy9ANY4l
+          ownership:
+            default: 0
+          _key: >-
+            !scenes.tokens.delta.items!DzJ9oxMWiFVTWUNx.RlESmcoZ88RHzrJS.4kckmbUONFp4ZTRE.UlJKx3zIvy9ANY4l
+        - img: icons/consumables/potions/bottle-round-corked-orante-red.webp
+          name: Healing Potion (Moderate)
+          system:
+            description:
+              gm: ''
+              value: >-
+                <p><strong>Activate</strong> <span class="action-glyph">A</span>
+                (manipulate)</p><hr /><p>A <em>healing potion</em> is a vial of
+                a ruby-red liquid that imparts a tingling sensation as the
+                drinker's wounds heal rapidly. When you drink a <em>healing
+                potion</em>, you regain @Damage[(3d8+10)[healing]] Hit
+                Points.</p>
+            rules: []
+            slug: healing-potion-moderate
+            _migration:
+              version: 0.94
+              lastMigration: null
+              previous:
+                schema: 0.939
+                foundry: '13.345'
+                system: 7.2.0
+            traits:
+              otherTags: []
+              value:
+                - consumable
+                - healing
+                - magical
+                - potion
+                - vitality
+              rarity: common
+            publication:
+              title: Pathfinder GM Core
+              authors: ''
+              license: ORC
+              remaster: true
+            level:
+              value: 6
+            quantity: 1
+            baseItem: null
+            bulk:
+              value: 0.1
+            hp:
+              value: 0
+              max: 0
+            hardness: 0
+            price:
+              value:
+                gp: 50
+            equipped:
+              carryType: worn
+            containerId: null
+            size: lg
+            material:
+              type: null
+              grade: null
+            identification:
+              status: identified
+              unidentified:
+                name: ''
+                img: ''
+                data:
+                  description:
+                    value: ''
+              misidentified: {}
+            category: potion
+            uses:
+              value: 1
+              max: 1
+              autoDestroy: true
+            damage:
+              formula: 3d8+10
+              kind: healing
+              type: vitality
+            usage:
+              value: held-in-one-hand
+            stackGroup: null
+            spell: null
+          type: consumable
+          _stats:
+            compendiumSource: null
+            duplicateSource: null
+            exportSource: null
+            coreVersion: '14.359'
+            systemId: pf2e
+            systemVersion: 7.2.3
+            lastModifiedBy: null
+            createdTime: null
+            modifiedTime: null
+          effects: []
+          folder: null
+          sort: 0
+          flags: {}
+          _id: OQJCPKh1whpnS8OJ
+          ownership:
+            default: 0
+          _key: >-
+            !scenes.tokens.delta.items!DzJ9oxMWiFVTWUNx.RlESmcoZ88RHzrJS.4kckmbUONFp4ZTRE.OQJCPKh1whpnS8OJ
+        - img: systems/pf2e/icons/conditions/persistent-damage.webp
+          name: Persistent Damage
+          system:
+            description:
+              gm: ''
+              value: >-
+                <p>You are taking damage from an ongoing effect, such as from
+                being lit on fire. This appears as "X persistent [type] damage,"
+                where "X" is the amount of damage dealt and "[type]" is the
+                damage type. Like normal damage, it can be doubled or halved
+                based on the results of an attack roll or saving throw. Instead
+                of taking persistent damage immediately, you take it at the end
+                of each of your turns as long as you have the condition, rolling
+                any damage dice anew each time. After you take persistent
+                damage, roll a @Check[flat|showDC:all|dc:15] to see if you
+                recover from the persistent damage. If you succeed, the
+                condition ends.</p>
+            rules: []
+            slug: persistent-damage
+            _migration:
+              version: 0.94
+              previous:
+                schema: 0.939
+                foundry: '13.345'
+                system: 7.2.0
+            traits:
+              otherTags: []
+              value:
+                - arcane
+                - magical
+                - morph
+            publication:
+              title: Pathfinder Player Core
+              authors: ''
+              license: ORC
+              remaster: true
+            group: null
+            value:
+              isValued: false
+              value: null
+            references:
+              children: []
+              overrides: []
+              overriddenBy: []
+              parent: null
+            overrides: []
+            persistent:
+              formula: '7'
+              damageType: bleed
+              dc: 15
+              criticalHit: false
+            fromSpell: false
+          type: condition
+          _stats:
+            compendiumSource: null
+            duplicateSource: null
+            exportSource: null
+            coreVersion: '14.359'
+            systemId: pf2e
+            systemVersion: 7.2.3
+            lastModifiedBy: null
+            createdTime: null
+            modifiedTime: null
+          effects: []
+          folder: null
+          sort: 0
+          flags: {}
+          _id: YqChJj3JWVVvERGI
+          ownership:
+            default: 0
+          _key: >-
+            !scenes.tokens.delta.items!DzJ9oxMWiFVTWUNx.RlESmcoZ88RHzrJS.4kckmbUONFp4ZTRE.YqChJj3JWVVvERGI
+        - system:
+            description:
+              gm: ''
+              value: >-
+                <p>While many greatclubs are intricately carved, others are
+                little more than a sturdy tree branch. These massive clubs are
+                too heavy to wield with only one hand.</p>
+            rules: []
+            slug: greatclub
+            _migration:
+              version: 0.94
+              lastMigration: null
+              previous:
+                schema: 0.939
+                foundry: '13.345'
+                system: 7.2.0
+            traits:
+              otherTags: []
+              value:
+                - backswing
+                - shove
+              rarity: common
+            publication:
+              title: Pathfinder Core Rulebook
+              authors: ''
+              license: OGL
+              remaster: false
+            level:
+              value: 0
+            quantity: 1
+            baseItem: greatclub
+            bulk:
+              value: 2
+            hp:
+              value: 0
+              max: 0
+            hardness: 0
+            price:
+              value:
+                gp: 1
+            equipped:
+              carryType: held
+              invested: null
+              handsHeld: 2
+            containerId: null
+            size: lg
+            material:
+              type: null
+              grade: null
+            identification:
+              status: identified
+              unidentified:
+                name: ''
+                img: ''
+                data:
+                  description:
+                    value: ''
+              misidentified: {}
+            usage:
+              value: held-in-two-hands
+            category: martial
+            group: club
+            bonus:
+              value: 0
+            damage:
+              dice: 1
+              die: d10
+              damageType: bludgeoning
+              persistent: null
+            splashDamage:
+              value: 0
+            range: null
+            expend: null
+            reload:
+              value: null
+            runes:
+              potency: 0
+              striking: 0
+              property: []
+            specific: null
+            subitems: []
+            bonusDamage:
+              value: 0
+            property1:
+              value: ''
+              dice: 0
+              die: ''
+              damageType: ''
+              critDice: 0
+              critDie: ''
+              critDamage: ''
+              critDamageType: ''
+          _id: YJR2VSzinZXYbwkd
+          flags:
+            core: {}
+          img: systems/pf2e/icons/equipment/weapons/greatclub.webp
+          name: Greatclub
+          sort: 100000
+          type: weapon
+          effects: []
+          folder: null
+          _stats:
+            compendiumSource: null
+            duplicateSource: null
+            exportSource: null
+            coreVersion: '14.359'
+            systemId: pf2e
+            systemVersion: 7.2.3
+            lastModifiedBy: null
+            createdTime: null
+            modifiedTime: null
+          ownership:
+            default: 0
+          _key: >-
+            !scenes.tokens.delta.items!DzJ9oxMWiFVTWUNx.RlESmcoZ88RHzrJS.4kckmbUONFp4ZTRE.YJR2VSzinZXYbwkd
+        - system:
+            description:
+              gm: ''
+              value: >-
+                <p>A mix of furs, sturdy hide, and sometimes molded boiled
+                leather, this armor provides protection due to its layers of
+                leather, though its bulkiness slows the wearer down and
+                decreases mobility.</p>
+            rules: []
+            slug: hide-armor
+            _migration:
+              version: 0.94
+              lastMigration: null
+              previous:
+                schema: 0.939
+                foundry: '13.345'
+                system: 7.2.0
+            traits:
+              otherTags: []
+              value: []
+              rarity: common
+            publication:
+              title: Pathfinder Core Rulebook
+              authors: ''
+              license: OGL
+              remaster: false
+            level:
+              value: 0
+            quantity: 1
+            baseItem: hide-armor
+            bulk:
+              value: 2
+            hp:
+              value: 0
+              max: 0
+            hardness: 0
+            price:
+              value:
+                gp: 2
+            equipped:
+              carryType: worn
+              invested: null
+              inSlot: true
+            containerId: null
+            size: lg
+            material:
+              type: null
+              grade: null
+            identification:
+              status: identified
+              unidentified:
+                name: ''
+                img: ''
+                data:
+                  description:
+                    value: ''
+              misidentified: {}
+            category: medium
+            group: leather
+            acBonus: 3
+            strength: 2
+            dexCap: 2
+            checkPenalty: -2
+            speedPenalty: -5
+            runes:
+              potency: 0
+              resilient: 0
+              property: []
+            subitems: []
+            specific: null
+          _id: R7WS5l7jScWRr53y
+          flags:
+            core: {}
+          img: systems/pf2e/icons/equipment/armor/hide.webp
+          name: Hide Armor
+          sort: 200000
+          type: armor
+          effects: []
+          folder: null
+          _stats:
+            compendiumSource: null
+            duplicateSource: null
+            exportSource: null
+            coreVersion: '14.359'
+            systemId: pf2e
+            systemVersion: 7.2.3
+            lastModifiedBy: null
+            createdTime: null
+            modifiedTime: null
+          ownership:
+            default: 0
+          _key: >-
+            !scenes.tokens.delta.items!DzJ9oxMWiFVTWUNx.RlESmcoZ88RHzrJS.4kckmbUONFp4ZTRE.R7WS5l7jScWRr53y
+        - system:
+            description:
+              gm: ''
+              value: ''
+            rules: []
+            slug: null
+            _migration:
+              version: 0.94
+              lastMigration: null
+              previous:
+                schema: 0.939
+                foundry: '13.345'
+                system: 7.2.0
+            traits:
+              otherTags: []
+              value: []
+              rarity: common
+            publication:
+              title: ''
+              authors: ''
+              license: OGL
+              remaster: false
+            level:
+              value: 0
+            quantity: 1
+            baseItem: null
+            bulk:
+              value: 0
+            hp:
+              value: 0
+              max: 0
+            hardness: 0
+            price:
+              value: {}
+            equipped:
+              carryType: held
+              invested: null
+              handsHeld: 1
+            containerId: null
+            size: med
+            material:
+              type: null
+              grade: null
+            identification:
+              status: identified
+              unidentified:
+                name: ''
+                img: ''
+                data:
+                  description:
+                    value: ''
+              misidentified: {}
+            usage:
+              value: held-in-one-hand
+            subitems: []
+          _id: XwujWRcPvBs2BAHX
+          img: systems/pf2e/icons/equipment/adventuring-gear/sack.webp
+          name: Sack for Holding Rocks
+          sort: 300000
+          type: equipment
+          effects: []
+          folder: null
+          flags: {}
+          _stats:
+            compendiumSource: null
+            duplicateSource: null
+            exportSource: null
+            coreVersion: '14.359'
+            systemId: pf2e
+            systemVersion: 7.2.3
+            lastModifiedBy: null
+            createdTime: null
+            modifiedTime: null
+          ownership:
+            default: 0
+          _key: >-
+            !scenes.tokens.delta.items!DzJ9oxMWiFVTWUNx.RlESmcoZ88RHzrJS.4kckmbUONFp4ZTRE.XwujWRcPvBs2BAHX
+        - system:
+            description:
+              gm: ''
+              value: ''
+            rules: []
+            slug: rock
+            _migration:
+              version: 0.94
+              lastMigration: null
+              previous:
+                schema: 0.939
+                foundry: '13.345'
+                system: 7.2.0
+            traits:
+              otherTags: []
+              value: []
+              rarity: common
+            publication:
+              title: ''
+              authors: ''
+              license: OGL
+              remaster: false
+            level:
+              value: 0
+            quantity: 5
+            baseItem: null
+            bulk:
+              value: 0
+            hp:
+              value: 0
+              max: 0
+            hardness: 0
+            price:
+              value: {}
+            equipped:
+              carryType: held
+              handsHeld: 1
+            containerId: null
+            size: med
+            material:
+              type: null
+              grade: null
+            identification:
+              status: identified
+              unidentified:
+                name: ''
+                img: ''
+                data:
+                  description:
+                    value: ''
+              misidentified: {}
+            category: ammo
+            uses:
+              value: 1
+              max: 1
+              autoDestroy: true
+            damage: null
+            usage:
+              value: held-in-one-hand
+            stackGroup: null
+            spell: null
+          _id: 4uhmqqCnN4EAqpVy
+          img: systems/pf2e/icons/spells/shape-stone.webp
+          name: Rock
+          sort: 400000
+          type: consumable
+          effects: []
+          folder: null
+          flags: {}
+          _stats:
+            compendiumSource: null
+            duplicateSource: null
+            exportSource: null
+            coreVersion: '14.359'
+            systemId: pf2e
+            systemVersion: 7.2.3
+            lastModifiedBy: null
+            createdTime: null
+            modifiedTime: null
+          ownership:
+            default: 0
+          _key: >-
+            !scenes.tokens.delta.items!DzJ9oxMWiFVTWUNx.RlESmcoZ88RHzrJS.4kckmbUONFp4ZTRE.4uhmqqCnN4EAqpVy
+        - system:
+            _migration:
+              previous:
+                schema: 0.939
+                foundry: '13.345'
+                system: 7.2.0
+              version: 0.94
+            description:
+              gm: ''
+              value: ''
+            rules: []
+            slug: null
+            traits:
+              otherTags: []
+              value:
+                - backswing
+                - reach-10
+                - shove
+            publication:
+              title: ''
+              authors: ''
+              license: OGL
+              remaster: false
+            damageRolls:
+              cauyldp7ucogum3lgy0i:
+                damage: 3d10+19
+                damageType: bludgeoning
+                category: null
+            bonus:
+              value: 25
+            attackEffects:
+              value: []
+          _id: kBr3AKRl4vlCwVK2
+          flags:
+            pf2e:
+              linkedWeapon: YJR2VSzinZXYbwkd
+          img: systems/pf2e/icons/default-icons/melee.svg
+          name: Greatclub
+          sort: 500000
+          type: melee
+          effects: []
+          folder: null
+          _stats:
+            compendiumSource: null
+            duplicateSource: null
+            exportSource: null
+            coreVersion: '14.359'
+            systemId: pf2e
+            systemVersion: 7.2.3
+            lastModifiedBy: null
+            createdTime: null
+            modifiedTime: null
+          ownership:
+            default: 0
+          _key: >-
+            !scenes.tokens.delta.items!DzJ9oxMWiFVTWUNx.RlESmcoZ88RHzrJS.4kckmbUONFp4ZTRE.kBr3AKRl4vlCwVK2
+        - system:
+            _migration:
+              previous:
+                schema: 0.939
+                foundry: '13.345'
+                system: 7.2.0
+              version: 0.94
+            description:
+              gm: ''
+              value: ''
+            rules: []
+            slug: null
+            traits:
+              otherTags: []
+              value:
+                - agile
+                - reach-10
+            publication:
+              title: ''
+              authors: ''
+              license: OGL
+              remaster: false
+            damageRolls:
+              fmlpw1mmhbg13dw7joaw:
+                damage: 1d6 + 6
+                damageType: bludgeoning
+                category: null
+            bonus:
+              value: 25
+            attackEffects:
+              value: []
+          _id: 3tyBaMgyINlZCj76
+          img: systems/pf2e/icons/default-icons/melee.svg
+          name: Fist
+          sort: 600000
+          type: melee
+          effects: []
+          folder: null
+          flags: {}
+          _stats:
+            compendiumSource: null
+            duplicateSource: null
+            exportSource: null
+            coreVersion: '14.359'
+            systemId: pf2e
+            systemVersion: 7.2.3
+            lastModifiedBy: null
+            createdTime: null
+            modifiedTime: null
+          ownership:
+            default: 0
+          _key: >-
+            !scenes.tokens.delta.items!DzJ9oxMWiFVTWUNx.RlESmcoZ88RHzrJS.4kckmbUONFp4ZTRE.3tyBaMgyINlZCj76
+        - system:
+            _migration:
+              previous:
+                schema: 0.939
+                foundry: '13.345'
+                system: 7.2.0
+              version: 0.94
+            description:
+              gm: ''
+              value: ''
+            rules: []
+            slug: null
+            traits:
+              otherTags: []
+              value:
+                - brutal
+                - range-increment-120
+            publication:
+              title: ''
+              authors: ''
+              license: OGL
+              remaster: false
+            damageRolls:
+              cvz39c34iy8sx920aleg:
+                damage: 3d10+19
+                damageType: bludgeoning
+                category: null
+            bonus:
+              value: 25
+            attackEffects:
+              value:
+                - rock
+          _id: 6SHvRrPDTa74t0cD
+          img: systems/pf2e/icons/default-icons/melee.svg
+          name: Rock
+          sort: 700000
+          type: melee
+          effects: []
+          folder: null
+          flags: {}
+          _stats:
+            compendiumSource: null
+            duplicateSource: null
+            exportSource: null
+            coreVersion: '14.359'
+            systemId: pf2e
+            systemVersion: 7.2.3
+            lastModifiedBy: null
+            createdTime: null
+            modifiedTime: null
+          ownership:
+            default: 0
+          _key: >-
+            !scenes.tokens.delta.items!DzJ9oxMWiFVTWUNx.RlESmcoZ88RHzrJS.4kckmbUONFp4ZTRE.6SHvRrPDTa74t0cD
+        - system:
+            _migration:
+              previous:
+                schema: 0.939
+                foundry: '13.345'
+                system: 7.2.0
+              version: 0.94
+            description:
+              gm: ''
+              value: <p>@Localize[PF2E.NPC.Abilities.Glossary.LowLightVision]</p>
+            rules: []
+            slug: low-light-vision
+            traits:
+              otherTags: []
+              value: []
+            publication:
+              title: Pathfinder Bestiary
+              authors: ''
+              license: OGL
+              remaster: false
+            actionType:
+              value: passive
+            category: interaction
+            actions:
+              value: null
+            deathNote: false
+          _id: NDm80a7dNC5LKMIS
+          flags:
+            core: {}
+          img: systems/pf2e/icons/actions/Passive.webp
+          name: Low-Light Vision
+          sort: 800000
+          type: action
+          effects: []
+          folder: null
+          _stats:
+            compendiumSource: null
+            duplicateSource: null
+            exportSource: null
+            coreVersion: '14.359'
+            systemId: pf2e
+            systemVersion: 7.2.3
+            lastModifiedBy: null
+            createdTime: null
+            modifiedTime: null
+          ownership:
+            default: 0
+          _key: >-
+            !scenes.tokens.delta.items!DzJ9oxMWiFVTWUNx.RlESmcoZ88RHzrJS.4kckmbUONFp4ZTRE.NDm80a7dNC5LKMIS
+        - system:
+            _migration:
+              previous:
+                schema: 0.939
+                foundry: '13.345'
+                system: 7.2.0
+              version: 0.94
+            description:
+              gm: ''
+              value: <p>@Localize[PF2E.NPC.Abilities.Glossary.CatchRock]</p>
+            rules: []
+            slug: catch-rock
+            traits:
+              otherTags: []
+              value: []
+            publication:
+              title: Pathfinder Bestiary
+              authors: ''
+              license: OGL
+              remaster: false
+            actionType:
+              value: reaction
+            category: defensive
+            actions:
+              value: null
+            deathNote: false
+          _id: T1WSPSyMbIh6gzFQ
+          flags:
+            core: {}
+          img: systems/pf2e/icons/actions/Reaction.webp
+          name: Catch Rock
+          sort: 900000
+          type: action
+          effects: []
+          folder: null
+          _stats:
+            compendiumSource: null
+            duplicateSource: null
+            exportSource: null
+            coreVersion: '14.359'
+            systemId: pf2e
+            systemVersion: 7.2.3
+            lastModifiedBy: null
+            createdTime: null
+            modifiedTime: null
+          ownership:
+            default: 0
+          _key: >-
+            !scenes.tokens.delta.items!DzJ9oxMWiFVTWUNx.RlESmcoZ88RHzrJS.4kckmbUONFp4ZTRE.T1WSPSyMbIh6gzFQ
+        - system:
+            _migration:
+              previous:
+                schema: 0.939
+                foundry: '13.345'
+                system: 7.2.0
+              version: 0.94
+            description:
+              gm: ''
+              value: <p>@Localize[PF2E.NPC.Abilities.Glossary.ThrowRock]</p>
+            rules: []
+            slug: throw-rock
+            traits:
+              otherTags: []
+              value: []
+            publication:
+              title: Pathfinder Bestiary
+              authors: ''
+              license: OGL
+              remaster: false
+            actionType:
+              value: action
+            category: offensive
+            actions:
+              value: 1
+            deathNote: false
+          _id: 093ZnioHRqaohRiq
+          flags:
+            core: {}
+          img: systems/pf2e/icons/actions/OneAction.webp
+          name: Throw Rock
+          sort: 1000000
+          type: action
+          effects: []
+          folder: null
+          _stats:
+            compendiumSource: null
+            duplicateSource: null
+            exportSource: null
+            coreVersion: '14.359'
+            systemId: pf2e
+            systemVersion: 7.2.3
+            lastModifiedBy: null
+            createdTime: null
+            modifiedTime: null
+          ownership:
+            default: 0
+          _key: >-
+            !scenes.tokens.delta.items!DzJ9oxMWiFVTWUNx.RlESmcoZ88RHzrJS.4kckmbUONFp4ZTRE.093ZnioHRqaohRiq
+        - system:
+            _migration:
+              previous:
+                schema: 0.939
+                foundry: '13.345'
+                system: 7.2.0
+              version: 0.94
+            description:
+              gm: ''
+              value: >-
+                <p>The hill giant makes a single greatclub Strike and compares
+                the attack roll result to the ACs of up to two foes within its
+                reach.</p>
+
+                <p>This counts as two attacks for the hill giant's multiple
+                attack penalty.</p>
+            rules: []
+            slug: null
+            traits:
+              otherTags: []
+              value: []
+            publication:
+              title: ''
+              authors: ''
+              license: OGL
+              remaster: false
+            actionType:
+              value: action
+            category: offensive
+            actions:
+              value: 1
+            deathNote: false
+          _id: xEHY10Oxi5BJJCmQ
+          img: systems/pf2e/icons/actions/OneAction.webp
+          name: Wide Swing
+          sort: 1100000
+          type: action
+          effects: []
+          folder: null
+          flags: {}
+          _stats:
+            compendiumSource: null
+            duplicateSource: null
+            exportSource: null
+            coreVersion: '14.359'
+            systemId: pf2e
+            systemVersion: 7.2.3
+            lastModifiedBy: null
+            createdTime: null
+            modifiedTime: null
+          ownership:
+            default: 0
+          _key: >-
+            !scenes.tokens.delta.items!DzJ9oxMWiFVTWUNx.RlESmcoZ88RHzrJS.4kckmbUONFp4ZTRE.xEHY10Oxi5BJJCmQ
+      effects: []
+      flags:
+        xdy-pf2e-workbench: {}
+      name: null
+      type: null
+      img: null
+      ownership: null
+      _key: '!scenes.tokens.delta!DzJ9oxMWiFVTWUNx.RlESmcoZ88RHzrJS.4kckmbUONFp4ZTRE'
+    x: 700
+    'y': 2000
+    elevation: 0
+    locked: false
+    _regions: []
+    shape: 4
+    turnMarker:
+      mode: 1
+      animation: null
+      src: null
+      disposition: false
+    movementAction: null
+    _movementHistory: []
+    depth: 2
+    level: defaultLevel0000
+    _key: '!scenes.tokens!DzJ9oxMWiFVTWUNx.RlESmcoZ88RHzrJS'
+  - displayName: 20
+    displayBars: 20
+    flags:
+      pf2e:
+        linkToActorSize: true
+        autoscale: false
+      monks-bloodsplats:
+        bloodsplat-index: 171
+        bloodsplat-type: ''
+        bloodsplat-colour: ''
+      monks-combat-marker:
+        token-highlight-scale: 1.5
+        token-combat-animation: ''
+        token-highlight: ''
+      healthEstimate:
+        dontMarkDead: false
+        hideHealthEstimate: false
+        hideName: false
+    sight:
+      enabled: true
+      color: null
+      range: null
+      angle: 360
+      visionMode: darkvision
+      attenuation: 0
+      brightness: 0
+      saturation: -1
+      contrast: 0
+    detectionModes: {}
+    disposition: -1
+    name: Drelev Guards
+    actorLink: false
+    texture:
+      src: modules/pf2e-kingmaker/assets/actor-tokens/kingmaker/drelev-guard.webp
+      scaleX: 2
+      scaleY: 2
+      tint: '#ffffff'
+      anchorX: 0.5
+      anchorY: 0.5
+      fit: contain
+      alphaThreshold: 0.75
+    width: 1
+    height: 1
+    lockRotation: false
+    rotation: 0
+    alpha: 1
+    bar1:
+      attribute: attributes.hp
+    bar2:
+      attribute: null
+    light:
+      alpha: 0.5
+      angle: 360
+      bright: 0
+      coloration: 1
+      dim: 0
+      attenuation: 0.5
+      luminosity: 0.5
+      saturation: 0
+      contrast: 0
+      shadows: 0
+      animation:
+        type: null
+        speed: 5
+        intensity: 5
+        reverse: false
+      darkness:
+        min: 0
+        max: 1
+      color: null
+      negative: false
+      priority: 0
+    occludable:
+      radius: 0
+    ring:
+      enabled: false
+      colors:
+        ring: null
+        background: null
+      effects: 0
+      subject:
+        scale: 1
+        texture: null
+    actorId: YJa5CAxIslk3xQTg
+    hidden: false
+    sort: 1
+    _id: YuJdORbiE3XYZ0fY
+    delta:
+      _id: eJeSdehtTLGWNkwm
+      system:
+        perception:
+          senses:
+            - type: darkvision
+        attributes:
+          hp:
+            value: 0
+        _migration:
+          previous:
+            schema: 0.94
+      items:
+        - _id: jga4jzrMzJRkNouq
+          img: systems/pf2e/icons/actions/Passive.webp
+          name: Formation Fighters
+          sort: 1200000
+          system:
+            description:
+              gm: ''
+              value: >-
+                <p>Drelev guard gains a +2 circumstance bonus on attack and
+                damage rolls as long as he is adjacent to at least two other
+                Drelev guards.</p>
+            rules:
+              - domain: all
+                key: RollOption
+                label: Adjacent to two other Drelev Guards
+                option: formation-fighters
+                toggleable: true
+                value: true
+              - key: FlatModifier
+                predicate:
+                  - formation-fighters
+                selector: attack
+                type: circumstance
+                value: 2
+              - key: FlatModifier
+                predicate:
+                  - formation-fighters
+                selector: damage
+                type: circumstance
+                value: 2
+            slug: null
+            _migration:
+              version: 0.94
+              previous:
+                schema: 0.939
+                foundry: '13.345'
+                system: 7.2.0
+            traits:
+              otherTags: []
+              value: []
+            publication:
+              title: ''
+              authors: ''
+              license: OGL
+              remaster: false
+            actionType:
+              value: passive
+            category: offensive
+            actions:
+              value: null
+            deathNote: false
+          type: action
+          effects: []
+          folder: null
+          flags: {}
+          _stats:
+            compendiumSource: null
+            duplicateSource: null
+            exportSource: null
+            coreVersion: '14.359'
+            systemId: pf2e
+            systemVersion: 7.2.3
+            lastModifiedBy: null
+            createdTime: null
+            modifiedTime: null
+          ownership:
+            default: 0
+          _key: >-
+            !scenes.tokens.delta.items!DzJ9oxMWiFVTWUNx.YuJdORbiE3XYZ0fY.eJeSdehtTLGWNkwm.jga4jzrMzJRkNouq
+        - system:
+            description:
+              gm: ''
+              value: >-
+                <p>This projectile weapon is made from horn, wood, and sinew
+                laminated together to increase the power of its pull and the
+                force of its projectile. Like all longbows, its great size also
+                increases the bow's range and power. You must use two hands to
+                fire it, and it cannot be used while mounted. Any time an
+                ability is specifically restricted to a longbow, such as
+                Erastil's favored weapon, it also applies to composite longbows
+                unless otherwise stated.</p>
+            rules: []
+            slug: composite-longbow
+            _migration:
+              version: 0.94
+              lastMigration: null
+              previous:
+                schema: 0.939
+                foundry: '13.345'
+                system: 7.2.0
+            traits:
+              otherTags: []
+              value:
+                - deadly-d10
+                - propulsive
+                - volley-30
+              rarity: common
+            publication:
+              title: Pathfinder Core Rulebook
+              authors: ''
+              license: OGL
+              remaster: false
+            level:
+              value: 0
+            quantity: 1
+            baseItem: composite-longbow
+            bulk:
+              value: 2
+            hp:
+              value: 0
+              max: 0
+            hardness: 0
+            price:
+              value:
+                gp: 20
+            equipped:
+              carryType: worn
+              invested: null
+              handsHeld: 0
+            containerId: null
+            size: med
+            material:
+              type: null
+              grade: null
+            identification:
+              status: identified
+              unidentified:
+                name: ''
+                img: ''
+                data:
+                  description:
+                    value: ''
+              misidentified: {}
+            usage:
+              value: held-in-one-plus-hands
+            category: martial
+            group: bow
+            bonus:
+              value: 0
+            damage:
+              dice: 1
+              die: d8
+              damageType: piercing
+              persistent: null
+            splashDamage:
+              value: 0
+            range: 100
+            expend: 1
+            reload:
+              value: '0'
+            runes:
+              potency: 0
+              striking: 0
+              property: []
+            specific: null
+            subitems: []
+            bonusDamage:
+              value: 0
+            property1:
+              value: ''
+              dice: 0
+              die: ''
+              damageType: ''
+              critDice: 0
+              critDie: ''
+              critDamage: ''
+              critDamageType: ''
+          _id: v9PhRWijgv7s7Ic1
+          flags:
+            core: {}
+          img: systems/pf2e/icons/equipment/weapons/composite-longbow.webp
+          name: Composite Longbow
+          sort: 100000
+          type: weapon
+          effects: []
+          folder: null
+          _stats:
+            compendiumSource: null
+            duplicateSource: null
+            exportSource: null
+            coreVersion: '14.359'
+            systemId: pf2e
+            systemVersion: 7.2.3
+            lastModifiedBy: null
+            createdTime: null
+            modifiedTime: null
+          ownership:
+            default: 0
+          _key: >-
+            !scenes.tokens.delta.items!DzJ9oxMWiFVTWUNx.YuJdORbiE3XYZ0fY.eJeSdehtTLGWNkwm.v9PhRWijgv7s7Ic1
+        - system:
+            description:
+              gm: ''
+              value: >-
+                <p>Longswords can be one-edged or two-edged swords. Their blades
+                are heavy and they're between 3 and 4 feet in length.</p>
+            rules: []
+            slug: longsword
+            _migration:
+              version: 0.94
+              lastMigration: null
+              previous:
+                schema: 0.939
+                foundry: '13.345'
+                system: 7.2.0
+            traits:
+              otherTags: []
+              value:
+                - magical
+                - versatile-p
+              rarity: common
+            publication:
+              title: Pathfinder Core Rulebook
+              authors: ''
+              license: OGL
+              remaster: false
+            level:
+              value: 0
+            quantity: 1
+            baseItem: longsword
+            bulk:
+              value: 1
+            hp:
+              value: 0
+              max: 0
+            hardness: 0
+            price:
+              value:
+                gp: 1
+            equipped:
+              carryType: worn
+              invested: null
+              handsHeld: 0
+            containerId: null
+            size: med
+            material:
+              type: null
+              grade: null
+            identification:
+              status: identified
+              unidentified:
+                name: ''
+                img: ''
+                data:
+                  description:
+                    value: ''
+              misidentified: {}
+            usage:
+              value: held-in-one-hand
+            category: martial
+            group: sword
+            bonus:
+              value: 0
+            damage:
+              dice: 1
+              die: d8
+              damageType: slashing
+              persistent: null
+            splashDamage:
+              value: 0
+            range: null
+            expend: null
+            reload:
+              value: null
+            runes:
+              potency: 1
+              striking: 1
+              property: []
+            specific: null
+            subitems: []
+            bonusDamage:
+              value: 0
+            property1:
+              value: ''
+              dice: 0
+              die: ''
+              damageType: ''
+              critDice: 0
+              critDie: ''
+              critDamage: ''
+              critDamageType: ''
+          _id: cIFXkQ4Qhht73I7F
+          flags:
+            core: {}
+          img: systems/pf2e/icons/equipment/weapons/longsword.webp
+          name: Longsword
+          sort: 200000
+          type: weapon
+          effects: []
+          folder: null
+          _stats:
+            compendiumSource: null
+            duplicateSource: null
+            exportSource: null
+            coreVersion: '14.359'
+            systemId: pf2e
+            systemVersion: 7.2.3
+            lastModifiedBy: null
+            createdTime: null
+            modifiedTime: null
+          ownership:
+            default: 0
+          _key: >-
+            !scenes.tokens.delta.items!DzJ9oxMWiFVTWUNx.YuJdORbiE3XYZ0fY.eJeSdehtTLGWNkwm.cIFXkQ4Qhht73I7F
+        - system:
+            description:
+              gm: ''
+              value: >-
+                <p>Like wooden shields, steel shields come in a variety of
+                shapes and sizes. Though more expensive than wooden shields,
+                they are much more durable.</p>
+
+                <table class="pf2e">
+
+                <thead>
+
+                <tr>
+
+                <th>Hardness</th>
+
+                <th>HP</th>
+
+                <th>BT</th>
+
+                </tr>
+
+                </thead>
+
+                <tbody>
+
+                <tr>
+
+                <td>5</td>
+
+                <td>20</td>
+
+                <td>10</td>
+
+                </tr>
+
+                </tbody>
+
+                </table>
+            rules: []
+            slug: steel-shield
+            _migration:
+              version: 0.94
+              lastMigration: null
+              previous:
+                schema: 0.939
+                foundry: '13.345'
+                system: 7.2.0
+            traits:
+              otherTags: []
+              value: []
+              rarity: common
+              integrated: null
+            publication:
+              title: Pathfinder Core Rulebook
+              authors: ''
+              license: OGL
+              remaster: false
+            level:
+              value: 0
+            quantity: 1
+            baseItem: steel-shield
+            bulk:
+              value: 1
+            hp:
+              value: 20
+              max: 20
+            hardness: 5
+            price:
+              value:
+                gp: 2
+            equipped:
+              carryType: held
+              handsHeld: 1
+              invested: null
+            containerId: null
+            size: med
+            material:
+              type: null
+              grade: null
+            identification:
+              status: identified
+              unidentified:
+                name: ''
+                img: ''
+                data:
+                  description:
+                    value: ''
+              misidentified: {}
+            acBonus: 2
+            runes:
+              reinforcing: 0
+            specific: null
+            speedPenalty: 0
+            subitems: []
+          _id: Eb3Tah2dDyG7K9Hl
+          flags:
+            core: {}
+          img: icons/equipment/shield/heater-steel-boss-red.webp
+          name: Steel Shield
+          sort: 300000
+          type: shield
+          effects: []
+          folder: null
+          _stats:
+            compendiumSource: null
+            duplicateSource: null
+            exportSource: null
+            coreVersion: '14.359'
+            systemId: pf2e
+            systemVersion: 7.2.3
+            lastModifiedBy: null
+            createdTime: null
+            modifiedTime: null
+          ownership:
+            default: 0
+          _key: >-
+            !scenes.tokens.delta.items!DzJ9oxMWiFVTWUNx.YuJdORbiE3XYZ0fY.eJeSdehtTLGWNkwm.Eb3Tah2dDyG7K9Hl
+        - system:
+            description:
+              gm: ''
+              value: >-
+                <p>Though referred to as a breastplate, this type of armor
+                consists of several pieces of plate or half-plate armor that
+                protect the torso, chest, neck, and sometimes the hips and lower
+                legs. It strategically grants some of the protection of plate
+                while allowing greater flexibility and speed.</p>
+            rules: []
+            slug: breastplate
+            _migration:
+              version: 0.94
+              lastMigration: null
+              previous:
+                schema: 0.939
+                foundry: '13.345'
+                system: 7.2.0
+            traits:
+              otherTags: []
+              value: []
+              rarity: common
+            publication:
+              title: Pathfinder Core Rulebook
+              authors: ''
+              license: OGL
+              remaster: false
+            level:
+              value: 0
+            quantity: 1
+            baseItem: breastplate
+            bulk:
+              value: 2
+            hp:
+              value: 0
+              max: 0
+            hardness: 0
+            price:
+              value:
+                gp: 8
+            equipped:
+              carryType: worn
+              invested: null
+              inSlot: false
+            containerId: null
+            size: med
+            material:
+              type: null
+              grade: null
+            identification:
+              status: identified
+              unidentified:
+                name: ''
+                img: ''
+                data:
+                  description:
+                    value: ''
+              misidentified: {}
+            category: medium
+            group: plate
+            acBonus: 4
+            strength: 3
+            dexCap: 1
+            checkPenalty: -2
+            speedPenalty: -5
+            runes:
+              potency: 0
+              resilient: 0
+              property: []
+            subitems: []
+          _id: NQvapaCXhEG1CuY3
+          flags:
+            core: {}
+          img: icons/equipment/chest/breastplate-collared-steel.webp
+          name: Breastplate
+          sort: 400000
+          type: armor
+          effects: []
+          folder: null
+          _stats:
+            compendiumSource: null
+            duplicateSource: null
+            exportSource: null
+            coreVersion: '14.359'
+            systemId: pf2e
+            systemVersion: 7.2.3
+            lastModifiedBy: null
+            createdTime: null
+            modifiedTime: null
+          ownership:
+            default: 0
+          _key: >-
+            !scenes.tokens.delta.items!DzJ9oxMWiFVTWUNx.YuJdORbiE3XYZ0fY.eJeSdehtTLGWNkwm.NQvapaCXhEG1CuY3
+        - system:
+            description:
+              gm: ''
+              value: >-
+                <p>These projectiles are the ammunition for bows. The shaft of
+                an arrow is made of wood. It is stabilized in flight by
+                fletching at one end and bears a metal head on the other.</p>
+            rules: []
+            slug: arrows
+            _migration:
+              version: 0.94
+              lastMigration: null
+              previous:
+                schema: 0.939
+                foundry: '13.345'
+                system: 7.2.0
+            traits:
+              otherTags: []
+              value: []
+              rarity: common
+            publication:
+              title: Pathfinder Core Rulebook
+              authors: ''
+              license: OGL
+              remaster: false
+            level:
+              value: 0
+            quantity: 20
+            baseItem: null
+            bulk:
+              value: 0.1
+            hp:
+              value: 0
+              max: 0
+            hardness: 0
+            price:
+              value:
+                sp: 1
+              per: 10
+            equipped:
+              carryType: worn
+              handsHeld: 0
+            containerId: null
+            size: med
+            material:
+              type: null
+              grade: null
+            identification:
+              status: identified
+              unidentified:
+                name: ''
+                img: ''
+                data:
+                  description:
+                    value: ''
+              misidentified: {}
+            category: ammo
+            uses:
+              value: 1
+              max: 1
+              autoDestroy: true
+            damage: null
+            usage:
+              value: held-in-one-hand
+            stackGroup: arrows
+            spell: null
+          _id: wCDlYwoa5nEJskWn
+          flags:
+            core: {}
+          img: systems/pf2e/icons/equipment/weapons/arrows.webp
+          name: Arrows
+          sort: 500000
+          type: consumable
+          effects: []
+          folder: null
+          _stats:
+            compendiumSource: null
+            duplicateSource: null
+            exportSource: null
+            coreVersion: '14.359'
+            systemId: pf2e
+            systemVersion: 7.2.3
+            lastModifiedBy: null
+            createdTime: null
+            modifiedTime: null
+          ownership:
+            default: 0
+          _key: >-
+            !scenes.tokens.delta.items!DzJ9oxMWiFVTWUNx.YuJdORbiE3XYZ0fY.eJeSdehtTLGWNkwm.wCDlYwoa5nEJskWn
+        - system:
+            description:
+              gm: ''
+              value: ''
+            rules: []
+            slug: gold-pieces
+            _migration:
+              version: 0.94
+              lastMigration: null
+              previous:
+                schema: 0.939
+                foundry: '13.345'
+                system: 7.2.0
+            traits:
+              otherTags: []
+              value: []
+              rarity: common
+            publication:
+              title: Pathfinder Core Rulebook
+              authors: ''
+              license: OGL
+              remaster: false
+            level:
+              value: 0
+            quantity: 10
+            baseItem: null
+            bulk:
+              value: 1
+            hp:
+              value: 0
+              max: 0
+            hardness: 0
+            price:
+              value:
+                gp: 1
+            equipped:
+              carryType: worn
+            containerId: null
+            size: med
+            material:
+              type: null
+              grade: null
+            identification:
+              status: identified
+              unidentified:
+                name: ''
+                img: ''
+                data:
+                  description:
+                    value: ''
+              misidentified: {}
+            stackGroup: coins
+          _id: z4EU1BVZnQWiqtBC
+          flags:
+            core: {}
+          img: systems/pf2e/icons/equipment/treasure/currency/gold-pieces.webp
+          name: Gold Pieces
+          sort: 600000
+          type: treasure
+          effects: []
+          folder: null
+          _stats:
+            compendiumSource: null
+            duplicateSource: null
+            exportSource: null
+            coreVersion: '14.359'
+            systemId: pf2e
+            systemVersion: 7.2.3
+            lastModifiedBy: null
+            createdTime: null
+            modifiedTime: null
+          ownership:
+            default: 0
+          _key: >-
+            !scenes.tokens.delta.items!DzJ9oxMWiFVTWUNx.YuJdORbiE3XYZ0fY.eJeSdehtTLGWNkwm.z4EU1BVZnQWiqtBC
+        - system:
+            _migration:
+              previous:
+                schema: 0.939
+                foundry: '13.345'
+                system: 7.2.0
+              version: 0.94
+            description:
+              gm: ''
+              value: ''
+            rules: []
+            slug: null
+            traits:
+              otherTags: []
+              value:
+                - magical
+                - versatile-p
+            publication:
+              title: ''
+              authors: ''
+              license: OGL
+              remaster: false
+            damageRolls:
+              Gu3nyQucbyFnYqfD:
+                damage: 2d10+11
+                damageType: slashing
+                category: null
+            bonus:
+              value: 23
+            attackEffects:
+              value: []
+          _id: QXyRODDmF4tozV5P
+          flags:
+            pf2e:
+              linkedWeapon: cIFXkQ4Qhht73I7F
+          img: systems/pf2e/icons/default-icons/melee.svg
+          name: Longsword
+          sort: 700000
+          type: melee
+          effects: []
+          folder: null
+          _stats:
+            compendiumSource: null
+            duplicateSource: null
+            exportSource: null
+            coreVersion: '14.359'
+            systemId: pf2e
+            systemVersion: 7.2.3
+            lastModifiedBy: null
+            createdTime: null
+            modifiedTime: null
+          ownership:
+            default: 0
+          _key: >-
+            !scenes.tokens.delta.items!DzJ9oxMWiFVTWUNx.YuJdORbiE3XYZ0fY.eJeSdehtTLGWNkwm.QXyRODDmF4tozV5P
+        - system:
+            _migration:
+              previous:
+                schema: 0.939
+                foundry: '13.345'
+                system: 7.2.0
+              version: 0.94
+            description:
+              gm: ''
+              value: ''
+            rules: []
+            slug: null
+            traits:
+              otherTags: []
+              value:
+                - deadly-d10
+                - propulsive
+                - range-increment-100
+                - reload-0
+                - volley-30
+            publication:
+              title: ''
+              authors: ''
+              license: OGL
+              remaster: false
+            damageRolls:
+              yzPIArwvpmVhA0UN:
+                damage: 2d8+10
+                damageType: piercing
+                category: null
+            bonus:
+              value: 21
+            attackEffects:
+              value: []
+          _id: owZSVQs8IkCQjNLE
+          flags:
+            pf2e:
+              linkedWeapon: v9PhRWijgv7s7Ic1
+          img: systems/pf2e/icons/default-icons/melee.svg
+          name: Composite Longbow
+          sort: 800000
+          type: melee
+          effects: []
+          folder: null
+          _stats:
+            compendiumSource: null
+            duplicateSource: null
+            exportSource: null
+            coreVersion: '14.359'
+            systemId: pf2e
+            systemVersion: 7.2.3
+            lastModifiedBy: null
+            createdTime: null
+            modifiedTime: null
+          ownership:
+            default: 0
+          _key: >-
+            !scenes.tokens.delta.items!DzJ9oxMWiFVTWUNx.YuJdORbiE3XYZ0fY.eJeSdehtTLGWNkwm.owZSVQs8IkCQjNLE
+        - system:
+            _migration:
+              previous:
+                schema: 0.939
+                foundry: '13.345'
+                system: 7.2.0
+              version: 0.94
+            description:
+              gm: ''
+              value: >-
+                <p>@Localize[PF2E.NPC.Abilities.Glossary.AttackOfOpportunity]</p>
+            rules: []
+            slug: attack-of-opportunity
+            traits:
+              otherTags: []
+              value: []
+            publication:
+              title: Pathfinder Bestiary
+              authors: ''
+              license: OGL
+              remaster: false
+            actionType:
+              value: reaction
+            category: defensive
+            actions:
+              value: null
+            deathNote: false
+          _id: 5z29EkkGtyaSoB1a
+          flags:
+            core: {}
+          img: systems/pf2e/icons/actions/Reaction.webp
+          name: Attack of Opportunity
+          sort: 900000
+          type: action
+          effects: []
+          folder: null
+          _stats:
+            compendiumSource: null
+            duplicateSource: null
+            exportSource: null
+            coreVersion: '14.359'
+            systemId: pf2e
+            systemVersion: 7.2.3
+            lastModifiedBy: null
+            createdTime: null
+            modifiedTime: null
+          ownership:
+            default: 0
+          _key: >-
+            !scenes.tokens.delta.items!DzJ9oxMWiFVTWUNx.YuJdORbiE3XYZ0fY.eJeSdehtTLGWNkwm.5z29EkkGtyaSoB1a
+        - system:
+            _migration:
+              previous:
+                schema: 0.939
+                foundry: '13.345'
+                system: 7.2.0
+              version: 0.94
+            description:
+              gm: ''
+              value: >-
+                <p><strong>Requirements</strong> You are wielding a shield</p>
+
+                <hr />
+
+                <p>You position your shield to protect yourself. When you have
+                Raised a Shield, you gain its listed circumstance bonus to AC.
+                Your shield remains raised until the start of your next
+                turn.</p>
+
+                <p>@UUID[Compendium.pf2e.equipment-effects.Item.2YgXoHvJfrDHucMr]{Effect:
+                Raise a Shield}</p>
+            rules: []
+            slug: raise-a-shield
+            traits:
+              otherTags: []
+              value:
+                - general
+            publication:
+              title: Pathfinder Core Rulebook
+              authors: ''
+              license: OGL
+              remaster: false
+            actionType:
+              value: action
+            category: defensive
+            actions:
+              value: 1
+            deathNote: false
+          _id: F4qi1llZbd9QZy4d
+          flags:
+            core: {}
+          img: systems/pf2e/icons/actions/OneAction.webp
+          name: Raise a Shield
+          sort: 1000000
+          type: action
+          effects: []
+          folder: null
+          _stats:
+            compendiumSource: null
+            duplicateSource: null
+            exportSource: null
+            coreVersion: '14.359'
+            systemId: pf2e
+            systemVersion: 7.2.3
+            lastModifiedBy: null
+            createdTime: null
+            modifiedTime: null
+          ownership:
+            default: 0
+          _key: >-
+            !scenes.tokens.delta.items!DzJ9oxMWiFVTWUNx.YuJdORbiE3XYZ0fY.eJeSdehtTLGWNkwm.F4qi1llZbd9QZy4d
+        - system:
+            _migration:
+              previous:
+                schema: 0.939
+                foundry: '13.345'
+                system: 7.2.0
+              version: 0.94
+            description:
+              gm: ''
+              value: <p>@Localize[PF2E.NPC.Abilities.Glossary.ShieldBlock]</p>
+            rules: []
+            slug: shield-block
+            traits:
+              otherTags: []
+              value: []
+            publication:
+              title: Pathfinder Bestiary
+              authors: ''
+              license: OGL
+              remaster: false
+            actionType:
+              value: reaction
+            category: defensive
+            actions:
+              value: null
+            deathNote: false
+          _id: Ez68XkpqwOnuPfr3
+          flags:
+            core: {}
+          img: systems/pf2e/icons/actions/Reaction.webp
+          name: Shield Block
+          sort: 1100000
+          type: action
+          effects: []
+          folder: null
+          _stats:
+            compendiumSource: null
+            duplicateSource: null
+            exportSource: null
+            coreVersion: '14.359'
+            systemId: pf2e
+            systemVersion: 7.2.3
+            lastModifiedBy: null
+            createdTime: null
+            modifiedTime: null
+          ownership:
+            default: 0
+          _key: >-
+            !scenes.tokens.delta.items!DzJ9oxMWiFVTWUNx.YuJdORbiE3XYZ0fY.eJeSdehtTLGWNkwm.Ez68XkpqwOnuPfr3
+        - system:
+            _migration:
+              previous:
+                schema: 0.939
+                foundry: '13.345'
+                system: 7.2.0
+              version: 0.94
+            description:
+              gm: ''
+              value: >-
+                <p>The Drelev guard makes a melee Strike. If he hits and deals
+                damage, the target is
+                @UUID[Compendium.pf2e.conditionitems.Item.TBSHQspnbcqxsmjL]{Frightened
+                1}, or
+                @UUID[Compendium.pf2e.conditionitems.Item.TBSHQspnbcqxsmjL]{Frightened
+                2} on a critical hit.</p>
+            rules: []
+            slug: null
+            traits:
+              otherTags: []
+              value:
+                - emotion
+                - fear
+                - mental
+            publication:
+              title: ''
+              authors: ''
+              license: OGL
+              remaster: false
+            actionType:
+              value: action
+            category: offensive
+            actions:
+              value: 2
+            deathNote: false
+          _id: 7omOmpvwPwKMmBfB
+          img: systems/pf2e/icons/actions/TwoActions.webp
+          name: Intimidating Strike
+          sort: 1300000
+          type: action
+          effects: []
+          folder: null
+          flags: {}
+          _stats:
+            compendiumSource: null
+            duplicateSource: null
+            exportSource: null
+            coreVersion: '14.359'
+            systemId: pf2e
+            systemVersion: 7.2.3
+            lastModifiedBy: null
+            createdTime: null
+            modifiedTime: null
+          ownership:
+            default: 0
+          _key: >-
+            !scenes.tokens.delta.items!DzJ9oxMWiFVTWUNx.YuJdORbiE3XYZ0fY.eJeSdehtTLGWNkwm.7omOmpvwPwKMmBfB
+      effects: []
+      flags:
+        xdy-pf2e-workbench: {}
+      name: null
+      type: null
+      img: null
+      ownership: null
+      _key: '!scenes.tokens.delta!DzJ9oxMWiFVTWUNx.YuJdORbiE3XYZ0fY.eJeSdehtTLGWNkwm'
+    x: 2000
+    'y': 1000
+    elevation: 0
+    locked: false
+    _regions: []
+    shape: 4
+    turnMarker:
+      mode: 1
+      animation: null
+      src: null
+      disposition: false
+    movementAction: null
+    _movementHistory: []
+    depth: 1
+    level: defaultLevel0000
+    _key: '!scenes.tokens!DzJ9oxMWiFVTWUNx.YuJdORbiE3XYZ0fY'
+  - displayName: 20
+    displayBars: 20
+    flags:
+      pf2e:
+        linkToActorSize: true
+        autoscale: false
+      monks-bloodsplats:
+        bloodsplat-index: 64
+        bloodsplat-type: ''
+        bloodsplat-colour: ''
+      monks-combat-marker:
+        token-highlight-scale: 1.5
+        token-combat-animation: ''
+        token-highlight: ''
+      healthEstimate:
+        dontMarkDead: false
+        hideHealthEstimate: false
+        hideName: false
+    sight:
+      enabled: true
+      color: null
+      range: null
+      angle: 360
+      visionMode: darkvision
+      attenuation: 0
+      brightness: 0
+      saturation: -1
+      contrast: 0
+    detectionModes: {}
+    disposition: -1
+    name: Drelev Guards
+    actorLink: false
+    texture:
+      src: modules/pf2e-kingmaker/assets/actor-tokens/kingmaker/drelev-guard.webp
+      scaleX: 2
+      scaleY: 2
+      tint: '#ffffff'
+      anchorX: 0.5
+      anchorY: 0.5
+      fit: contain
+      alphaThreshold: 0.75
+    width: 1
+    height: 1
+    lockRotation: false
+    rotation: 0
+    alpha: 1
+    bar1:
+      attribute: attributes.hp
+    bar2:
+      attribute: null
+    light:
+      alpha: 0.5
+      angle: 360
+      bright: 0
+      coloration: 1
+      dim: 0
+      attenuation: 0.5
+      luminosity: 0.5
+      saturation: 0
+      contrast: 0
+      shadows: 0
+      animation:
+        type: null
+        speed: 5
+        intensity: 5
+        reverse: false
+      darkness:
+        min: 0
+        max: 1
+      color: null
+      negative: false
+      priority: 0
+    occludable:
+      radius: 0
+    ring:
+      enabled: false
+      colors:
+        ring: null
+        background: null
+      effects: 0
+      subject:
+        scale: 1
+        texture: null
+    actorId: YJa5CAxIslk3xQTg
+    hidden: false
+    sort: 2
+    _id: g5f79YP65SkGmcYT
+    delta:
+      _id: qFS5OER4deFKZiJ9
+      system:
+        perception:
+          senses:
+            - type: darkvision
+        attributes:
+          hp:
+            value: 0
+        _migration:
+          previous:
+            schema: 0.94
+      items:
+        - _id: jga4jzrMzJRkNouq
+          img: systems/pf2e/icons/actions/Passive.webp
+          name: Formation Fighters
+          sort: 1200000
+          system:
+            description:
+              gm: ''
+              value: >-
+                <p>Drelev guard gains a +2 circumstance bonus on attack and
+                damage rolls as long as he is adjacent to at least two other
+                Drelev guards.</p>
+            rules:
+              - domain: all
+                key: RollOption
+                label: Adjacent to two other Drelev Guards
+                option: formation-fighters
+                toggleable: true
+                value: true
+              - key: FlatModifier
+                predicate:
+                  - formation-fighters
+                selector: attack
+                type: circumstance
+                value: 2
+              - key: FlatModifier
+                predicate:
+                  - formation-fighters
+                selector: damage
+                type: circumstance
+                value: 2
+            slug: null
+            _migration:
+              version: 0.94
+              previous:
+                schema: 0.939
+                foundry: '13.345'
+                system: 7.2.0
+            traits:
+              otherTags: []
+              value: []
+            publication:
+              title: ''
+              authors: ''
+              license: OGL
+              remaster: false
+            actionType:
+              value: passive
+            category: offensive
+            actions:
+              value: null
+            deathNote: false
+          type: action
+          effects: []
+          folder: null
+          flags: {}
+          _stats:
+            compendiumSource: null
+            duplicateSource: null
+            exportSource: null
+            coreVersion: '14.359'
+            systemId: pf2e
+            systemVersion: 7.2.3
+            lastModifiedBy: null
+            createdTime: null
+            modifiedTime: null
+          ownership:
+            default: 0
+          _key: >-
+            !scenes.tokens.delta.items!DzJ9oxMWiFVTWUNx.g5f79YP65SkGmcYT.qFS5OER4deFKZiJ9.jga4jzrMzJRkNouq
+        - img: systems/pf2e/icons/conditions/enfeebled.webp
+          name: Enfeebled
+          system:
+            description:
+              gm: ''
+              value: >-
+                <p>You're physically weakened. Enfeebled always includes a
+                value. When you are enfeebled, you take a status penalty equal
+                to the condition value to Strength-based rolls and DCs,
+                including Strength-based melee attack rolls, Strength-based
+                damage rolls, and Athletics checks.</p>
+            rules:
+              - key: FlatModifier
+                selector:
+                  - str-based
+                  - str-damage
+                slug: enfeebled
+                type: status
+                value: '-@item.badge.value'
+            slug: enfeebled
+            _migration:
+              version: 0.94
+              previous:
+                schema: 0.939
+                foundry: '13.345'
+                system: 7.2.0
+            traits:
+              otherTags: []
+              value: []
+            publication:
+              title: Pathfinder Player Core
+              authors: ''
+              license: ORC
+              remaster: true
+            group: abilities
+            value:
+              isValued: true
+              value: 1
+            references:
+              children: []
+              overrides: []
+              overriddenBy: []
+              parent: null
+            overrides: []
+            fromSpell: false
+            persistent: null
+          type: condition
+          _stats:
+            compendiumSource: null
+            duplicateSource: null
+            exportSource: null
+            coreVersion: '14.359'
+            systemId: pf2e
+            systemVersion: 7.2.3
+            lastModifiedBy: null
+            createdTime: null
+            modifiedTime: null
+          effects: []
+          folder: null
+          sort: 0
+          flags: {}
+          _id: FrTMyzXZUiQ05EJu
+          ownership:
+            default: 0
+          _key: >-
+            !scenes.tokens.delta.items!DzJ9oxMWiFVTWUNx.g5f79YP65SkGmcYT.qFS5OER4deFKZiJ9.FrTMyzXZUiQ05EJu
+        - img: systems/pf2e/icons/conditions/off-guard.webp
+          name: Off-Guard
+          system:
+            description:
+              gm: ''
+              value: >-
+                <p>You're distracted or otherwise unable to focus your full
+                attention on defense. You take a –2 circumstance penalty to AC.
+                Some effects give you the off-guard condition only to certain
+                creatures or against certain attacks. Others—especially
+                conditions—can make you off-guard against everything. If a rule
+                doesn't specify that the condition applies only to certain
+                circumstances, it applies to all of them, such as "The target is
+                off-guard."</p>
+            rules:
+              - key: FlatModifier
+                selector: ac
+                slug: off-guard
+                type: circumstance
+                value: -2
+            slug: off-guard
+            _migration:
+              version: 0.94
+              previous:
+                schema: 0.939
+                foundry: '13.345'
+                system: 7.2.0
+            traits:
+              otherTags: []
+              value: []
+            publication:
+              title: Pathfinder Player Core
+              authors: ''
+              license: ORC
+              remaster: true
+            group: null
+            value:
+              isValued: false
+              value: null
+            references:
+              children: []
+              overrides: []
+              overriddenBy: []
+              parent: null
+            overrides: []
+            fromSpell: false
+            persistent: null
+          type: condition
+          _stats:
+            compendiumSource: null
+            duplicateSource: null
+            exportSource: null
+            coreVersion: '14.359'
+            systemId: pf2e
+            systemVersion: 7.2.3
+            lastModifiedBy: null
+            createdTime: null
+            modifiedTime: null
+          effects: []
+          folder: null
+          sort: 0
+          flags: {}
+          _id: FF9AOrUEkzMwZSDI
+          ownership:
+            default: 0
+          _key: >-
+            !scenes.tokens.delta.items!DzJ9oxMWiFVTWUNx.g5f79YP65SkGmcYT.qFS5OER4deFKZiJ9.FF9AOrUEkzMwZSDI
+        - system:
+            description:
+              gm: ''
+              value: >-
+                <p>This projectile weapon is made from horn, wood, and sinew
+                laminated together to increase the power of its pull and the
+                force of its projectile. Like all longbows, its great size also
+                increases the bow's range and power. You must use two hands to
+                fire it, and it cannot be used while mounted. Any time an
+                ability is specifically restricted to a longbow, such as
+                Erastil's favored weapon, it also applies to composite longbows
+                unless otherwise stated.</p>
+            rules: []
+            slug: composite-longbow
+            _migration:
+              version: 0.94
+              lastMigration: null
+              previous:
+                schema: 0.939
+                foundry: '13.345'
+                system: 7.2.0
+            traits:
+              otherTags: []
+              value:
+                - deadly-d10
+                - propulsive
+                - volley-30
+              rarity: common
+            publication:
+              title: Pathfinder Core Rulebook
+              authors: ''
+              license: OGL
+              remaster: false
+            level:
+              value: 0
+            quantity: 1
+            baseItem: composite-longbow
+            bulk:
+              value: 2
+            hp:
+              value: 0
+              max: 0
+            hardness: 0
+            price:
+              value:
+                gp: 20
+            equipped:
+              carryType: worn
+              invested: null
+              handsHeld: 0
+            containerId: null
+            size: med
+            material:
+              type: null
+              grade: null
+            identification:
+              status: identified
+              unidentified:
+                name: ''
+                img: ''
+                data:
+                  description:
+                    value: ''
+              misidentified: {}
+            usage:
+              value: held-in-one-plus-hands
+            category: martial
+            group: bow
+            bonus:
+              value: 0
+            damage:
+              dice: 1
+              die: d8
+              damageType: piercing
+              persistent: null
+            splashDamage:
+              value: 0
+            range: 100
+            expend: 1
+            reload:
+              value: '0'
+            runes:
+              potency: 0
+              striking: 0
+              property: []
+            specific: null
+            subitems: []
+            bonusDamage:
+              value: 0
+            property1:
+              value: ''
+              dice: 0
+              die: ''
+              damageType: ''
+              critDice: 0
+              critDie: ''
+              critDamage: ''
+              critDamageType: ''
+          _id: v9PhRWijgv7s7Ic1
+          flags:
+            core: {}
+          img: systems/pf2e/icons/equipment/weapons/composite-longbow.webp
+          name: Composite Longbow
+          sort: 100000
+          type: weapon
+          effects: []
+          folder: null
+          _stats:
+            compendiumSource: null
+            duplicateSource: null
+            exportSource: null
+            coreVersion: '14.359'
+            systemId: pf2e
+            systemVersion: 7.2.3
+            lastModifiedBy: null
+            createdTime: null
+            modifiedTime: null
+          ownership:
+            default: 0
+          _key: >-
+            !scenes.tokens.delta.items!DzJ9oxMWiFVTWUNx.g5f79YP65SkGmcYT.qFS5OER4deFKZiJ9.v9PhRWijgv7s7Ic1
+        - system:
+            description:
+              gm: ''
+              value: >-
+                <p>Longswords can be one-edged or two-edged swords. Their blades
+                are heavy and they're between 3 and 4 feet in length.</p>
+            rules: []
+            slug: longsword
+            _migration:
+              version: 0.94
+              lastMigration: null
+              previous:
+                schema: 0.939
+                foundry: '13.345'
+                system: 7.2.0
+            traits:
+              otherTags: []
+              value:
+                - magical
+                - versatile-p
+              rarity: common
+            publication:
+              title: Pathfinder Core Rulebook
+              authors: ''
+              license: OGL
+              remaster: false
+            level:
+              value: 0
+            quantity: 1
+            baseItem: longsword
+            bulk:
+              value: 1
+            hp:
+              value: 0
+              max: 0
+            hardness: 0
+            price:
+              value:
+                gp: 1
+            equipped:
+              carryType: worn
+              invested: null
+              handsHeld: 0
+            containerId: null
+            size: med
+            material:
+              type: null
+              grade: null
+            identification:
+              status: identified
+              unidentified:
+                name: ''
+                img: ''
+                data:
+                  description:
+                    value: ''
+              misidentified: {}
+            usage:
+              value: held-in-one-hand
+            category: martial
+            group: sword
+            bonus:
+              value: 0
+            damage:
+              dice: 1
+              die: d8
+              damageType: slashing
+              persistent: null
+            splashDamage:
+              value: 0
+            range: null
+            expend: null
+            reload:
+              value: null
+            runes:
+              potency: 1
+              striking: 1
+              property: []
+            specific: null
+            subitems: []
+            bonusDamage:
+              value: 0
+            property1:
+              value: ''
+              dice: 0
+              die: ''
+              damageType: ''
+              critDice: 0
+              critDie: ''
+              critDamage: ''
+              critDamageType: ''
+          _id: cIFXkQ4Qhht73I7F
+          flags:
+            core: {}
+          img: systems/pf2e/icons/equipment/weapons/longsword.webp
+          name: Longsword
+          sort: 200000
+          type: weapon
+          effects: []
+          folder: null
+          _stats:
+            compendiumSource: null
+            duplicateSource: null
+            exportSource: null
+            coreVersion: '14.359'
+            systemId: pf2e
+            systemVersion: 7.2.3
+            lastModifiedBy: null
+            createdTime: null
+            modifiedTime: null
+          ownership:
+            default: 0
+          _key: >-
+            !scenes.tokens.delta.items!DzJ9oxMWiFVTWUNx.g5f79YP65SkGmcYT.qFS5OER4deFKZiJ9.cIFXkQ4Qhht73I7F
+        - system:
+            description:
+              gm: ''
+              value: >-
+                <p>Like wooden shields, steel shields come in a variety of
+                shapes and sizes. Though more expensive than wooden shields,
+                they are much more durable.</p>
+
+                <table class="pf2e">
+
+                <thead>
+
+                <tr>
+
+                <th>Hardness</th>
+
+                <th>HP</th>
+
+                <th>BT</th>
+
+                </tr>
+
+                </thead>
+
+                <tbody>
+
+                <tr>
+
+                <td>5</td>
+
+                <td>20</td>
+
+                <td>10</td>
+
+                </tr>
+
+                </tbody>
+
+                </table>
+            rules: []
+            slug: steel-shield
+            _migration:
+              version: 0.94
+              lastMigration: null
+              previous:
+                schema: 0.939
+                foundry: '13.345'
+                system: 7.2.0
+            traits:
+              otherTags: []
+              value: []
+              rarity: common
+              integrated: null
+            publication:
+              title: Pathfinder Core Rulebook
+              authors: ''
+              license: OGL
+              remaster: false
+            level:
+              value: 0
+            quantity: 1
+            baseItem: steel-shield
+            bulk:
+              value: 1
+            hp:
+              value: 20
+              max: 20
+            hardness: 5
+            price:
+              value:
+                gp: 2
+            equipped:
+              carryType: held
+              handsHeld: 1
+              invested: null
+            containerId: null
+            size: med
+            material:
+              type: null
+              grade: null
+            identification:
+              status: identified
+              unidentified:
+                name: ''
+                img: ''
+                data:
+                  description:
+                    value: ''
+              misidentified: {}
+            acBonus: 2
+            runes:
+              reinforcing: 0
+            specific: null
+            speedPenalty: 0
+            subitems: []
+          _id: Eb3Tah2dDyG7K9Hl
+          flags:
+            core: {}
+          img: icons/equipment/shield/heater-steel-boss-red.webp
+          name: Steel Shield
+          sort: 300000
+          type: shield
+          effects: []
+          folder: null
+          _stats:
+            compendiumSource: null
+            duplicateSource: null
+            exportSource: null
+            coreVersion: '14.359'
+            systemId: pf2e
+            systemVersion: 7.2.3
+            lastModifiedBy: null
+            createdTime: null
+            modifiedTime: null
+          ownership:
+            default: 0
+          _key: >-
+            !scenes.tokens.delta.items!DzJ9oxMWiFVTWUNx.g5f79YP65SkGmcYT.qFS5OER4deFKZiJ9.Eb3Tah2dDyG7K9Hl
+        - system:
+            description:
+              gm: ''
+              value: >-
+                <p>Though referred to as a breastplate, this type of armor
+                consists of several pieces of plate or half-plate armor that
+                protect the torso, chest, neck, and sometimes the hips and lower
+                legs. It strategically grants some of the protection of plate
+                while allowing greater flexibility and speed.</p>
+            rules: []
+            slug: breastplate
+            _migration:
+              version: 0.94
+              lastMigration: null
+              previous:
+                schema: 0.939
+                foundry: '13.345'
+                system: 7.2.0
+            traits:
+              otherTags: []
+              value: []
+              rarity: common
+            publication:
+              title: Pathfinder Core Rulebook
+              authors: ''
+              license: OGL
+              remaster: false
+            level:
+              value: 0
+            quantity: 1
+            baseItem: breastplate
+            bulk:
+              value: 2
+            hp:
+              value: 0
+              max: 0
+            hardness: 0
+            price:
+              value:
+                gp: 8
+            equipped:
+              carryType: worn
+              invested: null
+              inSlot: false
+            containerId: null
+            size: med
+            material:
+              type: null
+              grade: null
+            identification:
+              status: identified
+              unidentified:
+                name: ''
+                img: ''
+                data:
+                  description:
+                    value: ''
+              misidentified: {}
+            category: medium
+            group: plate
+            acBonus: 4
+            strength: 3
+            dexCap: 1
+            checkPenalty: -2
+            speedPenalty: -5
+            runes:
+              potency: 0
+              resilient: 0
+              property: []
+            subitems: []
+          _id: NQvapaCXhEG1CuY3
+          flags:
+            core: {}
+          img: icons/equipment/chest/breastplate-collared-steel.webp
+          name: Breastplate
+          sort: 400000
+          type: armor
+          effects: []
+          folder: null
+          _stats:
+            compendiumSource: null
+            duplicateSource: null
+            exportSource: null
+            coreVersion: '14.359'
+            systemId: pf2e
+            systemVersion: 7.2.3
+            lastModifiedBy: null
+            createdTime: null
+            modifiedTime: null
+          ownership:
+            default: 0
+          _key: >-
+            !scenes.tokens.delta.items!DzJ9oxMWiFVTWUNx.g5f79YP65SkGmcYT.qFS5OER4deFKZiJ9.NQvapaCXhEG1CuY3
+        - system:
+            description:
+              gm: ''
+              value: >-
+                <p>These projectiles are the ammunition for bows. The shaft of
+                an arrow is made of wood. It is stabilized in flight by
+                fletching at one end and bears a metal head on the other.</p>
+            rules: []
+            slug: arrows
+            _migration:
+              version: 0.94
+              lastMigration: null
+              previous:
+                schema: 0.939
+                foundry: '13.345'
+                system: 7.2.0
+            traits:
+              otherTags: []
+              value: []
+              rarity: common
+            publication:
+              title: Pathfinder Core Rulebook
+              authors: ''
+              license: OGL
+              remaster: false
+            level:
+              value: 0
+            quantity: 20
+            baseItem: null
+            bulk:
+              value: 0.1
+            hp:
+              value: 0
+              max: 0
+            hardness: 0
+            price:
+              value:
+                sp: 1
+              per: 10
+            equipped:
+              carryType: worn
+              handsHeld: 0
+            containerId: null
+            size: med
+            material:
+              type: null
+              grade: null
+            identification:
+              status: identified
+              unidentified:
+                name: ''
+                img: ''
+                data:
+                  description:
+                    value: ''
+              misidentified: {}
+            category: ammo
+            uses:
+              value: 1
+              max: 1
+              autoDestroy: true
+            damage: null
+            usage:
+              value: held-in-one-hand
+            stackGroup: arrows
+            spell: null
+          _id: wCDlYwoa5nEJskWn
+          flags:
+            core: {}
+          img: systems/pf2e/icons/equipment/weapons/arrows.webp
+          name: Arrows
+          sort: 500000
+          type: consumable
+          effects: []
+          folder: null
+          _stats:
+            compendiumSource: null
+            duplicateSource: null
+            exportSource: null
+            coreVersion: '14.359'
+            systemId: pf2e
+            systemVersion: 7.2.3
+            lastModifiedBy: null
+            createdTime: null
+            modifiedTime: null
+          ownership:
+            default: 0
+          _key: >-
+            !scenes.tokens.delta.items!DzJ9oxMWiFVTWUNx.g5f79YP65SkGmcYT.qFS5OER4deFKZiJ9.wCDlYwoa5nEJskWn
+        - system:
+            description:
+              gm: ''
+              value: ''
+            rules: []
+            slug: gold-pieces
+            _migration:
+              version: 0.94
+              lastMigration: null
+              previous:
+                schema: 0.939
+                foundry: '13.345'
+                system: 7.2.0
+            traits:
+              otherTags: []
+              value: []
+              rarity: common
+            publication:
+              title: Pathfinder Core Rulebook
+              authors: ''
+              license: OGL
+              remaster: false
+            level:
+              value: 0
+            quantity: 10
+            baseItem: null
+            bulk:
+              value: 1
+            hp:
+              value: 0
+              max: 0
+            hardness: 0
+            price:
+              value:
+                gp: 1
+            equipped:
+              carryType: worn
+            containerId: null
+            size: med
+            material:
+              type: null
+              grade: null
+            identification:
+              status: identified
+              unidentified:
+                name: ''
+                img: ''
+                data:
+                  description:
+                    value: ''
+              misidentified: {}
+            stackGroup: coins
+          _id: z4EU1BVZnQWiqtBC
+          flags:
+            core: {}
+          img: systems/pf2e/icons/equipment/treasure/currency/gold-pieces.webp
+          name: Gold Pieces
+          sort: 600000
+          type: treasure
+          effects: []
+          folder: null
+          _stats:
+            compendiumSource: null
+            duplicateSource: null
+            exportSource: null
+            coreVersion: '14.359'
+            systemId: pf2e
+            systemVersion: 7.2.3
+            lastModifiedBy: null
+            createdTime: null
+            modifiedTime: null
+          ownership:
+            default: 0
+          _key: >-
+            !scenes.tokens.delta.items!DzJ9oxMWiFVTWUNx.g5f79YP65SkGmcYT.qFS5OER4deFKZiJ9.z4EU1BVZnQWiqtBC
+        - system:
+            _migration:
+              previous:
+                schema: 0.939
+                foundry: '13.345'
+                system: 7.2.0
+              version: 0.94
+            description:
+              gm: ''
+              value: ''
+            rules: []
+            slug: null
+            traits:
+              otherTags: []
+              value:
+                - magical
+                - versatile-p
+            publication:
+              title: ''
+              authors: ''
+              license: OGL
+              remaster: false
+            damageRolls:
+              Gu3nyQucbyFnYqfD:
+                damage: 2d10+11
+                damageType: slashing
+                category: null
+            bonus:
+              value: 23
+            attackEffects:
+              value: []
+          _id: QXyRODDmF4tozV5P
+          flags:
+            pf2e:
+              linkedWeapon: cIFXkQ4Qhht73I7F
+          img: systems/pf2e/icons/default-icons/melee.svg
+          name: Longsword
+          sort: 700000
+          type: melee
+          effects: []
+          folder: null
+          _stats:
+            compendiumSource: null
+            duplicateSource: null
+            exportSource: null
+            coreVersion: '14.359'
+            systemId: pf2e
+            systemVersion: 7.2.3
+            lastModifiedBy: null
+            createdTime: null
+            modifiedTime: null
+          ownership:
+            default: 0
+          _key: >-
+            !scenes.tokens.delta.items!DzJ9oxMWiFVTWUNx.g5f79YP65SkGmcYT.qFS5OER4deFKZiJ9.QXyRODDmF4tozV5P
+        - system:
+            _migration:
+              previous:
+                schema: 0.939
+                foundry: '13.345'
+                system: 7.2.0
+              version: 0.94
+            description:
+              gm: ''
+              value: ''
+            rules: []
+            slug: null
+            traits:
+              otherTags: []
+              value:
+                - deadly-d10
+                - propulsive
+                - range-increment-100
+                - reload-0
+                - volley-30
+            publication:
+              title: ''
+              authors: ''
+              license: OGL
+              remaster: false
+            damageRolls:
+              yzPIArwvpmVhA0UN:
+                damage: 2d8+10
+                damageType: piercing
+                category: null
+            bonus:
+              value: 21
+            attackEffects:
+              value: []
+          _id: owZSVQs8IkCQjNLE
+          flags:
+            pf2e:
+              linkedWeapon: v9PhRWijgv7s7Ic1
+          img: systems/pf2e/icons/default-icons/melee.svg
+          name: Composite Longbow
+          sort: 800000
+          type: melee
+          effects: []
+          folder: null
+          _stats:
+            compendiumSource: null
+            duplicateSource: null
+            exportSource: null
+            coreVersion: '14.359'
+            systemId: pf2e
+            systemVersion: 7.2.3
+            lastModifiedBy: null
+            createdTime: null
+            modifiedTime: null
+          ownership:
+            default: 0
+          _key: >-
+            !scenes.tokens.delta.items!DzJ9oxMWiFVTWUNx.g5f79YP65SkGmcYT.qFS5OER4deFKZiJ9.owZSVQs8IkCQjNLE
+        - system:
+            _migration:
+              previous:
+                schema: 0.939
+                foundry: '13.345'
+                system: 7.2.0
+              version: 0.94
+            description:
+              gm: ''
+              value: >-
+                <p>@Localize[PF2E.NPC.Abilities.Glossary.AttackOfOpportunity]</p>
+            rules: []
+            slug: attack-of-opportunity
+            traits:
+              otherTags: []
+              value: []
+            publication:
+              title: Pathfinder Bestiary
+              authors: ''
+              license: OGL
+              remaster: false
+            actionType:
+              value: reaction
+            category: defensive
+            actions:
+              value: null
+            deathNote: false
+          _id: 5z29EkkGtyaSoB1a
+          flags:
+            core: {}
+          img: systems/pf2e/icons/actions/Reaction.webp
+          name: Attack of Opportunity
+          sort: 900000
+          type: action
+          effects: []
+          folder: null
+          _stats:
+            compendiumSource: null
+            duplicateSource: null
+            exportSource: null
+            coreVersion: '14.359'
+            systemId: pf2e
+            systemVersion: 7.2.3
+            lastModifiedBy: null
+            createdTime: null
+            modifiedTime: null
+          ownership:
+            default: 0
+          _key: >-
+            !scenes.tokens.delta.items!DzJ9oxMWiFVTWUNx.g5f79YP65SkGmcYT.qFS5OER4deFKZiJ9.5z29EkkGtyaSoB1a
+        - system:
+            _migration:
+              previous:
+                schema: 0.939
+                foundry: '13.345'
+                system: 7.2.0
+              version: 0.94
+            description:
+              gm: ''
+              value: >-
+                <p><strong>Requirements</strong> You are wielding a shield</p>
+
+                <hr />
+
+                <p>You position your shield to protect yourself. When you have
+                Raised a Shield, you gain its listed circumstance bonus to AC.
+                Your shield remains raised until the start of your next
+                turn.</p>
+
+                <p>@UUID[Compendium.pf2e.equipment-effects.Item.2YgXoHvJfrDHucMr]{Effect:
+                Raise a Shield}</p>
+            rules: []
+            slug: raise-a-shield
+            traits:
+              otherTags: []
+              value:
+                - general
+            publication:
+              title: Pathfinder Core Rulebook
+              authors: ''
+              license: OGL
+              remaster: false
+            actionType:
+              value: action
+            category: defensive
+            actions:
+              value: 1
+            deathNote: false
+          _id: F4qi1llZbd9QZy4d
+          flags:
+            core: {}
+          img: systems/pf2e/icons/actions/OneAction.webp
+          name: Raise a Shield
+          sort: 1000000
+          type: action
+          effects: []
+          folder: null
+          _stats:
+            compendiumSource: null
+            duplicateSource: null
+            exportSource: null
+            coreVersion: '14.359'
+            systemId: pf2e
+            systemVersion: 7.2.3
+            lastModifiedBy: null
+            createdTime: null
+            modifiedTime: null
+          ownership:
+            default: 0
+          _key: >-
+            !scenes.tokens.delta.items!DzJ9oxMWiFVTWUNx.g5f79YP65SkGmcYT.qFS5OER4deFKZiJ9.F4qi1llZbd9QZy4d
+        - system:
+            _migration:
+              previous:
+                schema: 0.939
+                foundry: '13.345'
+                system: 7.2.0
+              version: 0.94
+            description:
+              gm: ''
+              value: <p>@Localize[PF2E.NPC.Abilities.Glossary.ShieldBlock]</p>
+            rules: []
+            slug: shield-block
+            traits:
+              otherTags: []
+              value: []
+            publication:
+              title: Pathfinder Bestiary
+              authors: ''
+              license: OGL
+              remaster: false
+            actionType:
+              value: reaction
+            category: defensive
+            actions:
+              value: null
+            deathNote: false
+          _id: Ez68XkpqwOnuPfr3
+          flags:
+            core: {}
+          img: systems/pf2e/icons/actions/Reaction.webp
+          name: Shield Block
+          sort: 1100000
+          type: action
+          effects: []
+          folder: null
+          _stats:
+            compendiumSource: null
+            duplicateSource: null
+            exportSource: null
+            coreVersion: '14.359'
+            systemId: pf2e
+            systemVersion: 7.2.3
+            lastModifiedBy: null
+            createdTime: null
+            modifiedTime: null
+          ownership:
+            default: 0
+          _key: >-
+            !scenes.tokens.delta.items!DzJ9oxMWiFVTWUNx.g5f79YP65SkGmcYT.qFS5OER4deFKZiJ9.Ez68XkpqwOnuPfr3
+        - system:
+            _migration:
+              previous:
+                schema: 0.939
+                foundry: '13.345'
+                system: 7.2.0
+              version: 0.94
+            description:
+              gm: ''
+              value: >-
+                <p>The Drelev guard makes a melee Strike. If he hits and deals
+                damage, the target is
+                @UUID[Compendium.pf2e.conditionitems.Item.TBSHQspnbcqxsmjL]{Frightened
+                1}, or
+                @UUID[Compendium.pf2e.conditionitems.Item.TBSHQspnbcqxsmjL]{Frightened
+                2} on a critical hit.</p>
+            rules: []
+            slug: null
+            traits:
+              otherTags: []
+              value:
+                - emotion
+                - fear
+                - mental
+            publication:
+              title: ''
+              authors: ''
+              license: OGL
+              remaster: false
+            actionType:
+              value: action
+            category: offensive
+            actions:
+              value: 2
+            deathNote: false
+          _id: 7omOmpvwPwKMmBfB
+          img: systems/pf2e/icons/actions/TwoActions.webp
+          name: Intimidating Strike
+          sort: 1300000
+          type: action
+          effects: []
+          folder: null
+          flags: {}
+          _stats:
+            compendiumSource: null
+            duplicateSource: null
+            exportSource: null
+            coreVersion: '14.359'
+            systemId: pf2e
+            systemVersion: 7.2.3
+            lastModifiedBy: null
+            createdTime: null
+            modifiedTime: null
+          ownership:
+            default: 0
+          _key: >-
+            !scenes.tokens.delta.items!DzJ9oxMWiFVTWUNx.g5f79YP65SkGmcYT.qFS5OER4deFKZiJ9.7omOmpvwPwKMmBfB
+      effects: []
+      flags:
+        xdy-pf2e-workbench: {}
+      name: null
+      type: null
+      img: null
+      ownership: null
+      _key: '!scenes.tokens.delta!DzJ9oxMWiFVTWUNx.g5f79YP65SkGmcYT.qFS5OER4deFKZiJ9'
+    x: 2200
+    'y': 1900
+    elevation: 0
+    locked: false
+    _regions: []
+    shape: 4
+    turnMarker:
+      mode: 1
+      animation: null
+      src: null
+      disposition: false
+    movementAction: null
+    _movementHistory: []
+    depth: 1
+    level: defaultLevel0000
+    _key: '!scenes.tokens!DzJ9oxMWiFVTWUNx.g5f79YP65SkGmcYT'
+  - displayName: 20
+    displayBars: 20
+    flags:
+      pf2e:
+        linkToActorSize: true
+        autoscale: false
+      monks-bloodsplats:
+        bloodsplat-index: 189
+        bloodsplat-type: ''
+        bloodsplat-colour: ''
+      monks-combat-marker:
+        token-highlight-scale: 1.5
+        token-combat-animation: ''
+        token-highlight: ''
+      healthEstimate:
+        dontMarkDead: false
+        hideHealthEstimate: false
+        hideName: false
+    sight:
+      enabled: true
+      color: null
+      range: null
+      angle: 360
+      visionMode: darkvision
+      attenuation: 0
+      brightness: 0
+      saturation: -1
+      contrast: 0
+    detectionModes: {}
+    disposition: -1
+    name: Drelev Guards
+    actorLink: false
+    texture:
+      src: modules/pf2e-kingmaker/assets/actor-tokens/kingmaker/drelev-guard.webp
+      scaleX: 2
+      scaleY: 2
+      tint: '#ffffff'
+      anchorX: 0.5
+      anchorY: 0.5
+      fit: contain
+      alphaThreshold: 0.75
+    width: 1
+    height: 1
+    lockRotation: false
+    rotation: 0
+    alpha: 1
+    bar1:
+      attribute: attributes.hp
+    bar2:
+      attribute: null
+    light:
+      alpha: 0.5
+      angle: 360
+      bright: 0
+      coloration: 1
+      dim: 0
+      attenuation: 0.5
+      luminosity: 0.5
+      saturation: 0
+      contrast: 0
+      shadows: 0
+      animation:
+        type: null
+        speed: 5
+        intensity: 5
+        reverse: false
+      darkness:
+        min: 0
+        max: 1
+      color: null
+      negative: false
+      priority: 0
+    occludable:
+      radius: 0
+    ring:
+      enabled: false
+      colors:
+        ring: null
+        background: null
+      effects: 0
+      subject:
+        scale: 1
+        texture: null
+    actorId: YJa5CAxIslk3xQTg
+    hidden: false
+    sort: 3
+    _id: 68lCiuEE3vmbEHvW
+    delta:
+      _id: 2Hqgcc2qwuH9WyRl
+      system:
+        perception:
+          senses:
+            - type: darkvision
+        attributes:
+          hp:
+            value: 0
+        _migration:
+          previous:
+            schema: 0.94
+      items:
+        - _id: jga4jzrMzJRkNouq
+          img: systems/pf2e/icons/actions/Passive.webp
+          name: Formation Fighters
+          sort: 1200000
+          system:
+            description:
+              gm: ''
+              value: >-
+                <p>Drelev guard gains a +2 circumstance bonus on attack and
+                damage rolls as long as he is adjacent to at least two other
+                Drelev guards.</p>
+            rules:
+              - domain: all
+                key: RollOption
+                label: Adjacent to two other Drelev Guards
+                option: formation-fighters
+                toggleable: true
+                value: true
+              - key: FlatModifier
+                predicate:
+                  - formation-fighters
+                selector: attack
+                type: circumstance
+                value: 2
+              - key: FlatModifier
+                predicate:
+                  - formation-fighters
+                selector: damage
+                type: circumstance
+                value: 2
+            slug: null
+            _migration:
+              version: 0.94
+              previous:
+                schema: 0.939
+                foundry: '13.345'
+                system: 7.2.0
+            traits:
+              otherTags: []
+              value: []
+            publication:
+              title: ''
+              authors: ''
+              license: OGL
+              remaster: false
+            actionType:
+              value: passive
+            category: offensive
+            actions:
+              value: null
+            deathNote: false
+          type: action
+          effects: []
+          folder: null
+          flags: {}
+          _stats:
+            compendiumSource: null
+            duplicateSource: null
+            exportSource: null
+            coreVersion: '14.359'
+            systemId: pf2e
+            systemVersion: 7.2.3
+            lastModifiedBy: null
+            createdTime: null
+            modifiedTime: null
+          ownership:
+            default: 0
+          _key: >-
+            !scenes.tokens.delta.items!DzJ9oxMWiFVTWUNx.68lCiuEE3vmbEHvW.2Hqgcc2qwuH9WyRl.jga4jzrMzJRkNouq
+        - img: systems/pf2e/icons/conditions/off-guard.webp
+          name: Off-Guard
+          system:
+            description:
+              gm: ''
+              value: >-
+                <p>You're distracted or otherwise unable to focus your full
+                attention on defense. You take a –2 circumstance penalty to AC.
+                Some effects give you the off-guard condition only to certain
+                creatures or against certain attacks. Others—especially
+                conditions—can make you off-guard against everything. If a rule
+                doesn't specify that the condition applies only to certain
+                circumstances, it applies to all of them, such as "The target is
+                off-guard."</p>
+            rules:
+              - key: FlatModifier
+                selector: ac
+                slug: off-guard
+                type: circumstance
+                value: -2
+            slug: off-guard
+            _migration:
+              version: 0.94
+              previous:
+                schema: 0.939
+                foundry: '13.345'
+                system: 7.2.0
+            traits:
+              otherTags: []
+              value: []
+            publication:
+              title: Pathfinder Player Core
+              authors: ''
+              license: ORC
+              remaster: true
+            group: null
+            value:
+              isValued: false
+              value: null
+            references:
+              children: []
+              overrides: []
+              overriddenBy: []
+              parent: null
+            overrides: []
+            fromSpell: false
+            persistent: null
+          type: condition
+          _stats:
+            compendiumSource: null
+            duplicateSource: null
+            exportSource: null
+            coreVersion: '14.359'
+            systemId: pf2e
+            systemVersion: 7.2.3
+            lastModifiedBy: null
+            createdTime: null
+            modifiedTime: null
+          effects: []
+          folder: null
+          sort: 0
+          flags: {}
+          _id: 2R4njEl17JEN8VHM
+          ownership:
+            default: 0
+          _key: >-
+            !scenes.tokens.delta.items!DzJ9oxMWiFVTWUNx.68lCiuEE3vmbEHvW.2Hqgcc2qwuH9WyRl.2R4njEl17JEN8VHM
+        - img: systems/pf2e/icons/conditions/persistent-damage.webp
+          name: Persistent Damage
+          system:
+            description:
+              gm: ''
+              value: >-
+                <p>You are taking damage from an ongoing effect, such as from
+                being lit on fire. This appears as "X persistent [type] damage,"
+                where "X" is the amount of damage dealt and "[type]" is the
+                damage type. Like normal damage, it can be doubled or halved
+                based on the results of an attack roll or saving throw. Instead
+                of taking persistent damage immediately, you take it at the end
+                of each of your turns as long as you have the condition, rolling
+                any damage dice anew each time. After you take persistent
+                damage, roll a @Check[flat|showDC:all|dc:15] to see if you
+                recover from the persistent damage. If you succeed, the
+                condition ends.</p>
+            rules: []
+            slug: persistent-damage
+            _migration:
+              version: 0.94
+              previous:
+                schema: 0.939
+                foundry: '13.345'
+                system: 7.2.0
+            traits:
+              otherTags: []
+              value:
+                - magical
+            publication:
+              title: Pathfinder Player Core
+              authors: ''
+              license: ORC
+              remaster: true
+            group: null
+            value:
+              isValued: false
+              value: null
+            references:
+              children: []
+              overrides: []
+              overriddenBy: []
+              parent: null
+            overrides: []
+            persistent:
+              formula: 4d6
+              damageType: bleed
+              dc: 15
+              criticalHit: false
+            fromSpell: false
+          type: condition
+          _stats:
+            compendiumSource: null
+            duplicateSource: null
+            exportSource: null
+            coreVersion: '14.359'
+            systemId: pf2e
+            systemVersion: 7.2.3
+            lastModifiedBy: null
+            createdTime: null
+            modifiedTime: null
+          effects: []
+          folder: null
+          sort: 0
+          flags: {}
+          _id: N2yaPpTkLzUFjLwM
+          ownership:
+            default: 0
+          _key: >-
+            !scenes.tokens.delta.items!DzJ9oxMWiFVTWUNx.68lCiuEE3vmbEHvW.2Hqgcc2qwuH9WyRl.N2yaPpTkLzUFjLwM
+        - system:
+            description:
+              gm: ''
+              value: >-
+                <p>This projectile weapon is made from horn, wood, and sinew
+                laminated together to increase the power of its pull and the
+                force of its projectile. Like all longbows, its great size also
+                increases the bow's range and power. You must use two hands to
+                fire it, and it cannot be used while mounted. Any time an
+                ability is specifically restricted to a longbow, such as
+                Erastil's favored weapon, it also applies to composite longbows
+                unless otherwise stated.</p>
+            rules: []
+            slug: composite-longbow
+            _migration:
+              version: 0.94
+              lastMigration: null
+              previous:
+                schema: 0.939
+                foundry: '13.345'
+                system: 7.2.0
+            traits:
+              otherTags: []
+              value:
+                - deadly-d10
+                - propulsive
+                - volley-30
+              rarity: common
+            publication:
+              title: Pathfinder Core Rulebook
+              authors: ''
+              license: OGL
+              remaster: false
+            level:
+              value: 0
+            quantity: 1
+            baseItem: composite-longbow
+            bulk:
+              value: 2
+            hp:
+              value: 0
+              max: 0
+            hardness: 0
+            price:
+              value:
+                gp: 20
+            equipped:
+              carryType: worn
+              invested: null
+              handsHeld: 0
+            containerId: null
+            size: med
+            material:
+              type: null
+              grade: null
+            identification:
+              status: identified
+              unidentified:
+                name: ''
+                img: ''
+                data:
+                  description:
+                    value: ''
+              misidentified: {}
+            usage:
+              value: held-in-one-plus-hands
+            category: martial
+            group: bow
+            bonus:
+              value: 0
+            damage:
+              dice: 1
+              die: d8
+              damageType: piercing
+              persistent: null
+            splashDamage:
+              value: 0
+            range: 100
+            expend: 1
+            reload:
+              value: '0'
+            runes:
+              potency: 0
+              striking: 0
+              property: []
+            specific: null
+            subitems: []
+            bonusDamage:
+              value: 0
+            property1:
+              value: ''
+              dice: 0
+              die: ''
+              damageType: ''
+              critDice: 0
+              critDie: ''
+              critDamage: ''
+              critDamageType: ''
+          _id: v9PhRWijgv7s7Ic1
+          flags:
+            core: {}
+          img: systems/pf2e/icons/equipment/weapons/composite-longbow.webp
+          name: Composite Longbow
+          sort: 100000
+          type: weapon
+          effects: []
+          folder: null
+          _stats:
+            compendiumSource: null
+            duplicateSource: null
+            exportSource: null
+            coreVersion: '14.359'
+            systemId: pf2e
+            systemVersion: 7.2.3
+            lastModifiedBy: null
+            createdTime: null
+            modifiedTime: null
+          ownership:
+            default: 0
+          _key: >-
+            !scenes.tokens.delta.items!DzJ9oxMWiFVTWUNx.68lCiuEE3vmbEHvW.2Hqgcc2qwuH9WyRl.v9PhRWijgv7s7Ic1
+        - system:
+            description:
+              gm: ''
+              value: >-
+                <p>Longswords can be one-edged or two-edged swords. Their blades
+                are heavy and they're between 3 and 4 feet in length.</p>
+            rules: []
+            slug: longsword
+            _migration:
+              version: 0.94
+              lastMigration: null
+              previous:
+                schema: 0.939
+                foundry: '13.345'
+                system: 7.2.0
+            traits:
+              otherTags: []
+              value:
+                - magical
+                - versatile-p
+              rarity: common
+            publication:
+              title: Pathfinder Core Rulebook
+              authors: ''
+              license: OGL
+              remaster: false
+            level:
+              value: 0
+            quantity: 1
+            baseItem: longsword
+            bulk:
+              value: 1
+            hp:
+              value: 0
+              max: 0
+            hardness: 0
+            price:
+              value:
+                gp: 1
+            equipped:
+              carryType: worn
+              invested: null
+              handsHeld: 0
+            containerId: null
+            size: med
+            material:
+              type: null
+              grade: null
+            identification:
+              status: identified
+              unidentified:
+                name: ''
+                img: ''
+                data:
+                  description:
+                    value: ''
+              misidentified: {}
+            usage:
+              value: held-in-one-hand
+            category: martial
+            group: sword
+            bonus:
+              value: 0
+            damage:
+              dice: 1
+              die: d8
+              damageType: slashing
+              persistent: null
+            splashDamage:
+              value: 0
+            range: null
+            expend: null
+            reload:
+              value: null
+            runes:
+              potency: 1
+              striking: 1
+              property: []
+            specific: null
+            subitems: []
+            bonusDamage:
+              value: 0
+            property1:
+              value: ''
+              dice: 0
+              die: ''
+              damageType: ''
+              critDice: 0
+              critDie: ''
+              critDamage: ''
+              critDamageType: ''
+          _id: cIFXkQ4Qhht73I7F
+          flags:
+            core: {}
+          img: systems/pf2e/icons/equipment/weapons/longsword.webp
+          name: Longsword
+          sort: 200000
+          type: weapon
+          effects: []
+          folder: null
+          _stats:
+            compendiumSource: null
+            duplicateSource: null
+            exportSource: null
+            coreVersion: '14.359'
+            systemId: pf2e
+            systemVersion: 7.2.3
+            lastModifiedBy: null
+            createdTime: null
+            modifiedTime: null
+          ownership:
+            default: 0
+          _key: >-
+            !scenes.tokens.delta.items!DzJ9oxMWiFVTWUNx.68lCiuEE3vmbEHvW.2Hqgcc2qwuH9WyRl.cIFXkQ4Qhht73I7F
+        - system:
+            description:
+              gm: ''
+              value: >-
+                <p>Like wooden shields, steel shields come in a variety of
+                shapes and sizes. Though more expensive than wooden shields,
+                they are much more durable.</p>
+
+                <table class="pf2e">
+
+                <thead>
+
+                <tr>
+
+                <th>Hardness</th>
+
+                <th>HP</th>
+
+                <th>BT</th>
+
+                </tr>
+
+                </thead>
+
+                <tbody>
+
+                <tr>
+
+                <td>5</td>
+
+                <td>20</td>
+
+                <td>10</td>
+
+                </tr>
+
+                </tbody>
+
+                </table>
+            rules: []
+            slug: steel-shield
+            _migration:
+              version: 0.94
+              lastMigration: null
+              previous:
+                schema: 0.939
+                foundry: '13.345'
+                system: 7.2.0
+            traits:
+              otherTags: []
+              value: []
+              rarity: common
+              integrated: null
+            publication:
+              title: Pathfinder Core Rulebook
+              authors: ''
+              license: OGL
+              remaster: false
+            level:
+              value: 0
+            quantity: 1
+            baseItem: steel-shield
+            bulk:
+              value: 1
+            hp:
+              value: 20
+              max: 20
+            hardness: 5
+            price:
+              value:
+                gp: 2
+            equipped:
+              carryType: held
+              handsHeld: 1
+              invested: null
+            containerId: null
+            size: med
+            material:
+              type: null
+              grade: null
+            identification:
+              status: identified
+              unidentified:
+                name: ''
+                img: ''
+                data:
+                  description:
+                    value: ''
+              misidentified: {}
+            acBonus: 2
+            runes:
+              reinforcing: 0
+            specific: null
+            speedPenalty: 0
+            subitems: []
+          _id: Eb3Tah2dDyG7K9Hl
+          flags:
+            core: {}
+          img: icons/equipment/shield/heater-steel-boss-red.webp
+          name: Steel Shield
+          sort: 300000
+          type: shield
+          effects: []
+          folder: null
+          _stats:
+            compendiumSource: null
+            duplicateSource: null
+            exportSource: null
+            coreVersion: '14.359'
+            systemId: pf2e
+            systemVersion: 7.2.3
+            lastModifiedBy: null
+            createdTime: null
+            modifiedTime: null
+          ownership:
+            default: 0
+          _key: >-
+            !scenes.tokens.delta.items!DzJ9oxMWiFVTWUNx.68lCiuEE3vmbEHvW.2Hqgcc2qwuH9WyRl.Eb3Tah2dDyG7K9Hl
+        - system:
+            description:
+              gm: ''
+              value: >-
+                <p>Though referred to as a breastplate, this type of armor
+                consists of several pieces of plate or half-plate armor that
+                protect the torso, chest, neck, and sometimes the hips and lower
+                legs. It strategically grants some of the protection of plate
+                while allowing greater flexibility and speed.</p>
+            rules: []
+            slug: breastplate
+            _migration:
+              version: 0.94
+              lastMigration: null
+              previous:
+                schema: 0.939
+                foundry: '13.345'
+                system: 7.2.0
+            traits:
+              otherTags: []
+              value: []
+              rarity: common
+            publication:
+              title: Pathfinder Core Rulebook
+              authors: ''
+              license: OGL
+              remaster: false
+            level:
+              value: 0
+            quantity: 1
+            baseItem: breastplate
+            bulk:
+              value: 2
+            hp:
+              value: 0
+              max: 0
+            hardness: 0
+            price:
+              value:
+                gp: 8
+            equipped:
+              carryType: worn
+              invested: null
+              inSlot: false
+            containerId: null
+            size: med
+            material:
+              type: null
+              grade: null
+            identification:
+              status: identified
+              unidentified:
+                name: ''
+                img: ''
+                data:
+                  description:
+                    value: ''
+              misidentified: {}
+            category: medium
+            group: plate
+            acBonus: 4
+            strength: 3
+            dexCap: 1
+            checkPenalty: -2
+            speedPenalty: -5
+            runes:
+              potency: 0
+              resilient: 0
+              property: []
+            subitems: []
+          _id: NQvapaCXhEG1CuY3
+          flags:
+            core: {}
+          img: icons/equipment/chest/breastplate-collared-steel.webp
+          name: Breastplate
+          sort: 400000
+          type: armor
+          effects: []
+          folder: null
+          _stats:
+            compendiumSource: null
+            duplicateSource: null
+            exportSource: null
+            coreVersion: '14.359'
+            systemId: pf2e
+            systemVersion: 7.2.3
+            lastModifiedBy: null
+            createdTime: null
+            modifiedTime: null
+          ownership:
+            default: 0
+          _key: >-
+            !scenes.tokens.delta.items!DzJ9oxMWiFVTWUNx.68lCiuEE3vmbEHvW.2Hqgcc2qwuH9WyRl.NQvapaCXhEG1CuY3
+        - system:
+            description:
+              gm: ''
+              value: >-
+                <p>These projectiles are the ammunition for bows. The shaft of
+                an arrow is made of wood. It is stabilized in flight by
+                fletching at one end and bears a metal head on the other.</p>
+            rules: []
+            slug: arrows
+            _migration:
+              version: 0.94
+              lastMigration: null
+              previous:
+                schema: 0.939
+                foundry: '13.345'
+                system: 7.2.0
+            traits:
+              otherTags: []
+              value: []
+              rarity: common
+            publication:
+              title: Pathfinder Core Rulebook
+              authors: ''
+              license: OGL
+              remaster: false
+            level:
+              value: 0
+            quantity: 20
+            baseItem: null
+            bulk:
+              value: 0.1
+            hp:
+              value: 0
+              max: 0
+            hardness: 0
+            price:
+              value:
+                sp: 1
+              per: 10
+            equipped:
+              carryType: worn
+              handsHeld: 0
+            containerId: null
+            size: med
+            material:
+              type: null
+              grade: null
+            identification:
+              status: identified
+              unidentified:
+                name: ''
+                img: ''
+                data:
+                  description:
+                    value: ''
+              misidentified: {}
+            category: ammo
+            uses:
+              value: 1
+              max: 1
+              autoDestroy: true
+            damage: null
+            usage:
+              value: held-in-one-hand
+            stackGroup: arrows
+            spell: null
+          _id: wCDlYwoa5nEJskWn
+          flags:
+            core: {}
+          img: systems/pf2e/icons/equipment/weapons/arrows.webp
+          name: Arrows
+          sort: 500000
+          type: consumable
+          effects: []
+          folder: null
+          _stats:
+            compendiumSource: null
+            duplicateSource: null
+            exportSource: null
+            coreVersion: '14.359'
+            systemId: pf2e
+            systemVersion: 7.2.3
+            lastModifiedBy: null
+            createdTime: null
+            modifiedTime: null
+          ownership:
+            default: 0
+          _key: >-
+            !scenes.tokens.delta.items!DzJ9oxMWiFVTWUNx.68lCiuEE3vmbEHvW.2Hqgcc2qwuH9WyRl.wCDlYwoa5nEJskWn
+        - system:
+            description:
+              gm: ''
+              value: ''
+            rules: []
+            slug: gold-pieces
+            _migration:
+              version: 0.94
+              lastMigration: null
+              previous:
+                schema: 0.939
+                foundry: '13.345'
+                system: 7.2.0
+            traits:
+              otherTags: []
+              value: []
+              rarity: common
+            publication:
+              title: Pathfinder Core Rulebook
+              authors: ''
+              license: OGL
+              remaster: false
+            level:
+              value: 0
+            quantity: 10
+            baseItem: null
+            bulk:
+              value: 1
+            hp:
+              value: 0
+              max: 0
+            hardness: 0
+            price:
+              value:
+                gp: 1
+            equipped:
+              carryType: worn
+            containerId: null
+            size: med
+            material:
+              type: null
+              grade: null
+            identification:
+              status: identified
+              unidentified:
+                name: ''
+                img: ''
+                data:
+                  description:
+                    value: ''
+              misidentified: {}
+            stackGroup: coins
+          _id: z4EU1BVZnQWiqtBC
+          flags:
+            core: {}
+          img: systems/pf2e/icons/equipment/treasure/currency/gold-pieces.webp
+          name: Gold Pieces
+          sort: 600000
+          type: treasure
+          effects: []
+          folder: null
+          _stats:
+            compendiumSource: null
+            duplicateSource: null
+            exportSource: null
+            coreVersion: '14.359'
+            systemId: pf2e
+            systemVersion: 7.2.3
+            lastModifiedBy: null
+            createdTime: null
+            modifiedTime: null
+          ownership:
+            default: 0
+          _key: >-
+            !scenes.tokens.delta.items!DzJ9oxMWiFVTWUNx.68lCiuEE3vmbEHvW.2Hqgcc2qwuH9WyRl.z4EU1BVZnQWiqtBC
+        - system:
+            _migration:
+              previous:
+                schema: 0.939
+                foundry: '13.345'
+                system: 7.2.0
+              version: 0.94
+            description:
+              gm: ''
+              value: ''
+            rules: []
+            slug: null
+            traits:
+              otherTags: []
+              value:
+                - magical
+                - versatile-p
+            publication:
+              title: ''
+              authors: ''
+              license: OGL
+              remaster: false
+            damageRolls:
+              Gu3nyQucbyFnYqfD:
+                damage: 2d10+11
+                damageType: slashing
+                category: null
+            bonus:
+              value: 23
+            attackEffects:
+              value: []
+          _id: QXyRODDmF4tozV5P
+          flags:
+            pf2e:
+              linkedWeapon: cIFXkQ4Qhht73I7F
+          img: systems/pf2e/icons/default-icons/melee.svg
+          name: Longsword
+          sort: 700000
+          type: melee
+          effects: []
+          folder: null
+          _stats:
+            compendiumSource: null
+            duplicateSource: null
+            exportSource: null
+            coreVersion: '14.359'
+            systemId: pf2e
+            systemVersion: 7.2.3
+            lastModifiedBy: null
+            createdTime: null
+            modifiedTime: null
+          ownership:
+            default: 0
+          _key: >-
+            !scenes.tokens.delta.items!DzJ9oxMWiFVTWUNx.68lCiuEE3vmbEHvW.2Hqgcc2qwuH9WyRl.QXyRODDmF4tozV5P
+        - system:
+            _migration:
+              previous:
+                schema: 0.939
+                foundry: '13.345'
+                system: 7.2.0
+              version: 0.94
+            description:
+              gm: ''
+              value: ''
+            rules: []
+            slug: null
+            traits:
+              otherTags: []
+              value:
+                - deadly-d10
+                - propulsive
+                - range-increment-100
+                - reload-0
+                - volley-30
+            publication:
+              title: ''
+              authors: ''
+              license: OGL
+              remaster: false
+            damageRolls:
+              yzPIArwvpmVhA0UN:
+                damage: 2d8+10
+                damageType: piercing
+                category: null
+            bonus:
+              value: 21
+            attackEffects:
+              value: []
+          _id: owZSVQs8IkCQjNLE
+          flags:
+            pf2e:
+              linkedWeapon: v9PhRWijgv7s7Ic1
+          img: systems/pf2e/icons/default-icons/melee.svg
+          name: Composite Longbow
+          sort: 800000
+          type: melee
+          effects: []
+          folder: null
+          _stats:
+            compendiumSource: null
+            duplicateSource: null
+            exportSource: null
+            coreVersion: '14.359'
+            systemId: pf2e
+            systemVersion: 7.2.3
+            lastModifiedBy: null
+            createdTime: null
+            modifiedTime: null
+          ownership:
+            default: 0
+          _key: >-
+            !scenes.tokens.delta.items!DzJ9oxMWiFVTWUNx.68lCiuEE3vmbEHvW.2Hqgcc2qwuH9WyRl.owZSVQs8IkCQjNLE
+        - system:
+            _migration:
+              previous:
+                schema: 0.939
+                foundry: '13.345'
+                system: 7.2.0
+              version: 0.94
+            description:
+              gm: ''
+              value: >-
+                <p>@Localize[PF2E.NPC.Abilities.Glossary.AttackOfOpportunity]</p>
+            rules: []
+            slug: attack-of-opportunity
+            traits:
+              otherTags: []
+              value: []
+            publication:
+              title: Pathfinder Bestiary
+              authors: ''
+              license: OGL
+              remaster: false
+            actionType:
+              value: reaction
+            category: defensive
+            actions:
+              value: null
+            deathNote: false
+          _id: 5z29EkkGtyaSoB1a
+          flags:
+            core: {}
+          img: systems/pf2e/icons/actions/Reaction.webp
+          name: Attack of Opportunity
+          sort: 900000
+          type: action
+          effects: []
+          folder: null
+          _stats:
+            compendiumSource: null
+            duplicateSource: null
+            exportSource: null
+            coreVersion: '14.359'
+            systemId: pf2e
+            systemVersion: 7.2.3
+            lastModifiedBy: null
+            createdTime: null
+            modifiedTime: null
+          ownership:
+            default: 0
+          _key: >-
+            !scenes.tokens.delta.items!DzJ9oxMWiFVTWUNx.68lCiuEE3vmbEHvW.2Hqgcc2qwuH9WyRl.5z29EkkGtyaSoB1a
+        - system:
+            _migration:
+              previous:
+                schema: 0.939
+                foundry: '13.345'
+                system: 7.2.0
+              version: 0.94
+            description:
+              gm: ''
+              value: >-
+                <p><strong>Requirements</strong> You are wielding a shield</p>
+
+                <hr />
+
+                <p>You position your shield to protect yourself. When you have
+                Raised a Shield, you gain its listed circumstance bonus to AC.
+                Your shield remains raised until the start of your next
+                turn.</p>
+
+                <p>@UUID[Compendium.pf2e.equipment-effects.Item.2YgXoHvJfrDHucMr]{Effect:
+                Raise a Shield}</p>
+            rules: []
+            slug: raise-a-shield
+            traits:
+              otherTags: []
+              value:
+                - general
+            publication:
+              title: Pathfinder Core Rulebook
+              authors: ''
+              license: OGL
+              remaster: false
+            actionType:
+              value: action
+            category: defensive
+            actions:
+              value: 1
+            deathNote: false
+          _id: F4qi1llZbd9QZy4d
+          flags:
+            core: {}
+          img: systems/pf2e/icons/actions/OneAction.webp
+          name: Raise a Shield
+          sort: 1000000
+          type: action
+          effects: []
+          folder: null
+          _stats:
+            compendiumSource: null
+            duplicateSource: null
+            exportSource: null
+            coreVersion: '14.359'
+            systemId: pf2e
+            systemVersion: 7.2.3
+            lastModifiedBy: null
+            createdTime: null
+            modifiedTime: null
+          ownership:
+            default: 0
+          _key: >-
+            !scenes.tokens.delta.items!DzJ9oxMWiFVTWUNx.68lCiuEE3vmbEHvW.2Hqgcc2qwuH9WyRl.F4qi1llZbd9QZy4d
+        - system:
+            _migration:
+              previous:
+                schema: 0.939
+                foundry: '13.345'
+                system: 7.2.0
+              version: 0.94
+            description:
+              gm: ''
+              value: <p>@Localize[PF2E.NPC.Abilities.Glossary.ShieldBlock]</p>
+            rules: []
+            slug: shield-block
+            traits:
+              otherTags: []
+              value: []
+            publication:
+              title: Pathfinder Bestiary
+              authors: ''
+              license: OGL
+              remaster: false
+            actionType:
+              value: reaction
+            category: defensive
+            actions:
+              value: null
+            deathNote: false
+          _id: Ez68XkpqwOnuPfr3
+          flags:
+            core: {}
+          img: systems/pf2e/icons/actions/Reaction.webp
+          name: Shield Block
+          sort: 1100000
+          type: action
+          effects: []
+          folder: null
+          _stats:
+            compendiumSource: null
+            duplicateSource: null
+            exportSource: null
+            coreVersion: '14.359'
+            systemId: pf2e
+            systemVersion: 7.2.3
+            lastModifiedBy: null
+            createdTime: null
+            modifiedTime: null
+          ownership:
+            default: 0
+          _key: >-
+            !scenes.tokens.delta.items!DzJ9oxMWiFVTWUNx.68lCiuEE3vmbEHvW.2Hqgcc2qwuH9WyRl.Ez68XkpqwOnuPfr3
+        - system:
+            _migration:
+              previous:
+                schema: 0.939
+                foundry: '13.345'
+                system: 7.2.0
+              version: 0.94
+            description:
+              gm: ''
+              value: >-
+                <p>The Drelev guard makes a melee Strike. If he hits and deals
+                damage, the target is
+                @UUID[Compendium.pf2e.conditionitems.Item.TBSHQspnbcqxsmjL]{Frightened
+                1}, or
+                @UUID[Compendium.pf2e.conditionitems.Item.TBSHQspnbcqxsmjL]{Frightened
+                2} on a critical hit.</p>
+            rules: []
+            slug: null
+            traits:
+              otherTags: []
+              value:
+                - emotion
+                - fear
+                - mental
+            publication:
+              title: ''
+              authors: ''
+              license: OGL
+              remaster: false
+            actionType:
+              value: action
+            category: offensive
+            actions:
+              value: 2
+            deathNote: false
+          _id: 7omOmpvwPwKMmBfB
+          img: systems/pf2e/icons/actions/TwoActions.webp
+          name: Intimidating Strike
+          sort: 1300000
+          type: action
+          effects: []
+          folder: null
+          flags: {}
+          _stats:
+            compendiumSource: null
+            duplicateSource: null
+            exportSource: null
+            coreVersion: '14.359'
+            systemId: pf2e
+            systemVersion: 7.2.3
+            lastModifiedBy: null
+            createdTime: null
+            modifiedTime: null
+          ownership:
+            default: 0
+          _key: >-
+            !scenes.tokens.delta.items!DzJ9oxMWiFVTWUNx.68lCiuEE3vmbEHvW.2Hqgcc2qwuH9WyRl.7omOmpvwPwKMmBfB
+      effects: []
+      flags:
+        xdy-pf2e-workbench: {}
+      name: null
+      type: null
+      img: null
+      ownership: null
+      _key: '!scenes.tokens.delta!DzJ9oxMWiFVTWUNx.68lCiuEE3vmbEHvW.2Hqgcc2qwuH9WyRl'
+    x: 1400
+    'y': 2100
+    elevation: 0
+    locked: false
+    _regions: []
+    shape: 4
+    turnMarker:
+      mode: 1
+      animation: null
+      src: null
+      disposition: false
+    movementAction: null
+    _movementHistory: []
+    depth: 1
+    level: defaultLevel0000
+    _key: '!scenes.tokens!DzJ9oxMWiFVTWUNx.68lCiuEE3vmbEHvW'
+  - displayName: 50
+    displayBars: 20
+    flags:
+      healthEstimate:
+        dontMarkDead: false
+        hideHealthEstimate: false
+        hideName: false
+      monks-tokenbar:
+        include: default
+      pf2e:
+        linkToActorSize: true
+        autoscale: true
+      monks-combat-marker:
+        token-highlight-scale: 1.5
+        token-combat-animation: ''
+        token-highlight: ''
+      monks-bloodsplats:
+        bloodsplat-colour: ''
+        bloodsplat-type: ''
+        bloodsplat-index: 52
+      wall-height:
+        tokenHeight: 0
+      tagger: {}
+      core: {}
+    sight:
+      enabled: true
+      range: 0
+      angle: 360
+      visionMode: basic
+      color: null
+      attenuation: 0.1
+      brightness: 0
+      saturation: 0
+      contrast: 0
+    detectionModes: {}
+    name: Ekundayo
+    actorLink: true
+    texture:
+      src: worlds/kingmaker/NPCs/Ekundayo%20token.webp
+      scaleX: 1
+      scaleY: 1
+      tint: '#ffffff'
+      anchorX: 0.5
+      anchorY: 0.5
+      fit: contain
+      alphaThreshold: 0.75
+    width: 1
+    height: 1
+    lockRotation: false
+    rotation: 0
+    alpha: 1
+    disposition: -1
+    bar1:
+      attribute: attributes.hp
+    bar2:
+      attribute: null
+    light:
+      alpha: 0.5
+      angle: 360
+      bright: 0
+      coloration: 1
+      dim: 0
+      attenuation: 0.5
+      luminosity: 0.5
+      saturation: 0
+      contrast: 0
+      shadows: 0
+      animation:
+        type: null
+        speed: 5
+        intensity: 5
+        reverse: false
+      darkness:
+        min: 0
+        max: 1
+      color: null
+      negative: false
+      priority: 0
+    occludable:
+      radius: 0
+    ring:
+      enabled: false
+      colors:
+        ring: null
+        background: null
+      effects: 0
+      subject:
+        scale: 1
+        texture: null
+    actorId: xVAnZDsMiQYTr5ml
+    hidden: false
+    sort: 4
+    _id: 7urVZcq1lx6oo2cz
+    delta:
+      _id: yazrUDr8C0HcM5DJ
+      system: {}
+      items: []
+      effects: []
+      flags: {}
+      name: null
+      type: null
+      img: null
+      ownership: null
+      _key: '!scenes.tokens.delta!DzJ9oxMWiFVTWUNx.7urVZcq1lx6oo2cz.yazrUDr8C0HcM5DJ'
+    x: 2000
+    'y': 1900
+    elevation: 0
+    locked: false
+    _regions: []
+    shape: 4
+    turnMarker:
+      mode: 1
+      animation: null
+      src: null
+      disposition: false
+    movementAction: null
+    _movementHistory: []
+    depth: 1
+    level: defaultLevel0000
+    _key: '!scenes.tokens!DzJ9oxMWiFVTWUNx.7urVZcq1lx6oo2cz'
+  - displayName: 30
+    displayBars: 20
+    flags:
+      monks-tokenbar:
+        include: default
+      healthEstimate:
+        dontMarkDead: false
+        hideHealthEstimate: false
+        hideName: false
+      pf2e:
+        linkToActorSize: true
+        autoscale: false
+      monks-combat-marker:
+        token-highlight-scale: 1.5
+        token-combat-animation: ''
+        token-highlight: ''
+      monks-bloodsplats:
+        bloodsplat-colour: ''
+        bloodsplat-type: ''
+        bloodsplat-index: 153
+      tagger:
+        tags:
+          - lee-swashbuckler
+      core: {}
+      wall-height:
+        tokenHeight: 0
+    height: 1
+    width: 1
+    actorLink: true
+    sight:
+      enabled: true
+      range: 0
+      angle: 360
+      visionMode: basic
+      color: null
+      attenuation: 0.1
+      brightness: 0
+      saturation: 0
+      contrast: 0
+    name: Lee
+    texture:
+      src: worlds/kingmaker/PCs/lee%20transparent.webp
+      scaleX: 1.2
+      scaleY: 1.2
+      tint: '#ffffff'
+      anchorX: 0.5
+      anchorY: 0.5
+      fit: contain
+      alphaThreshold: 0.75
+    lockRotation: false
+    rotation: 0
+    alpha: 1
+    disposition: -1
+    bar1:
+      attribute: attributes.hp
+    bar2:
+      attribute: null
+    light:
+      alpha: 0.5
+      angle: 360
+      bright: 0
+      color: null
+      coloration: 1
+      dim: 0
+      attenuation: 0.5
+      luminosity: 0.5
+      saturation: 0
+      contrast: 0
+      shadows: 0
+      animation:
+        type: null
+        speed: 5
+        intensity: 5
+        reverse: false
+      darkness:
+        min: 0
+        max: 1
+      negative: false
+      priority: 0
+    detectionModes:
+      lightPerception:
+        range: null
+        enabled: true
+    occludable:
+      radius: 0
+    ring:
+      enabled: true
+      colors:
+        ring: null
+        background: null
+      effects: 1
+      subject:
+        scale: 1.2
+        texture: null
+    actorId: e5w3kUoIn16cJHW3
+    hidden: false
+    sort: 5
+    _id: BOvomorXStyKgb4z
+    delta:
+      _id: ZlSRClvNv4ufEPwQ
+      system: {}
+      items: []
+      effects: []
+      flags: {}
+      name: null
+      type: null
+      img: null
+      ownership: null
+      _key: '!scenes.tokens.delta!DzJ9oxMWiFVTWUNx.BOvomorXStyKgb4z.ZlSRClvNv4ufEPwQ'
+    x: 1400
+    'y': 2200
+    elevation: 0
+    locked: false
+    _regions: []
+    shape: 4
+    turnMarker:
+      mode: 1
+      animation: null
+      src: null
+      disposition: false
+    movementAction: null
+    _movementHistory: []
+    depth: 1
+    level: defaultLevel0000
+    _key: '!scenes.tokens!DzJ9oxMWiFVTWUNx.BOvomorXStyKgb4z'
+  - displayName: 30
+    displayBars: 30
+    flags:
+      monks-tokenbar:
+        include: default
+      healthEstimate:
+        dontMarkDead: false
+        hideHealthEstimate: false
+        hideName: false
+      pf2e:
+        linkToActorSize: true
+        autoscale: false
+      monks-combat-marker:
+        token-highlight-scale: 1.5
+        token-combat-animation: ''
+        token-highlight: ''
+      monks-bloodsplats:
+        bloodsplat-colour: ''
+        glyph: f
+        bloodsplat-type: ''
+        bloodsplat-index: 176
+      tagger:
+        tags:
+          - lucas-oracle
+      core: {}
+      wall-height:
+        tokenHeight: 0
+    height: 1
+    width: 1
+    actorLink: true
+    sight:
+      enabled: true
+      range: 0
+      angle: 360
+      visionMode: basic
+      color: null
+      attenuation: 0.1
+      brightness: 0
+      saturation: 0
+      contrast: 0
+    name: Lucas Sato_
+    texture:
+      src: worlds/kingmaker/PCs/Lucas%20Sato%20head.webp
+      scaleX: 1.1
+      scaleY: 1.1
+      tint: '#ffffff'
+      anchorX: 0.5
+      anchorY: 0.5
+      fit: contain
+      alphaThreshold: 0.75
+    lockRotation: false
+    rotation: 0
+    alpha: 1
+    disposition: -1
+    bar1:
+      attribute: attributes.hp
+    bar2:
+      attribute: null
+    light:
+      alpha: 0.5
+      angle: 360
+      bright: 0
+      color: null
+      coloration: 1
+      dim: 0
+      attenuation: 0.5
+      luminosity: 0.5
+      saturation: 0
+      contrast: 0
+      shadows: 0
+      animation:
+        type: null
+        speed: 5
+        intensity: 5
+        reverse: false
+      darkness:
+        min: 0
+        max: 1
+      negative: false
+      priority: 0
+    detectionModes:
+      lightPerception:
+        range: null
+        enabled: true
+    occludable:
+      radius: 0
+    ring:
+      enabled: true
+      colors:
+        ring: null
+        background: null
+      effects: 1
+      subject:
+        scale: 1.1
+        texture: null
+    actorId: tcIYyvoSIEPinWBT
+    hidden: false
+    sort: 6
+    _id: J79jGMxugETGK7ip
+    delta:
+      _id: nMfpBMOZoCRq0cCJ
+      system: {}
+      items: []
+      effects: []
+      flags: {}
+      name: null
+      type: null
+      img: null
+      ownership: null
+      _key: '!scenes.tokens.delta!DzJ9oxMWiFVTWUNx.J79jGMxugETGK7ip.nMfpBMOZoCRq0cCJ'
+    x: 1900
+    'y': 2100
+    elevation: 0
+    locked: false
+    _regions: []
+    shape: 4
+    turnMarker:
+      mode: 1
+      animation: null
+      src: null
+      disposition: false
+    movementAction: null
+    _movementHistory: []
+    depth: 1
+    level: defaultLevel0000
+    _key: '!scenes.tokens!DzJ9oxMWiFVTWUNx.J79jGMxugETGK7ip'
+  - displayName: 30
+    displayBars: 40
+    flags:
+      monks-tokenbar:
+        include: default
+      healthEstimate:
+        dontMarkDead: false
+        hideHealthEstimate: false
+        hideName: false
+      pf2e:
+        linkToActorSize: true
+        autoscale: false
+      wall-height:
+        tokenHeight: 0
+      tagger: {}
+      core: {}
+      monks-combat-marker:
+        token-highlight-scale: 1.5
+        token-combat-animation: ''
+        token-highlight: ''
+      monks-bloodsplats:
+        bloodsplat-type: ''
+        bloodsplat-colour: ''
+        bloodsplat-index: 180
+    sight:
+      enabled: true
+      color: null
+      range: null
+      angle: 360
+      visionMode: darkvision
+      attenuation: 0
+      brightness: 0
+      saturation: -1
+      contrast: 0
+    detectionModes:
+      basicSight:
+        range: null
+        enabled: true
+    bar2:
+      attribute: null
+    height: 1
+    width: 1
+    actorLink: true
+    name: Pavel
+    texture:
+      src: worlds/kingmaker/PCs/Pavel_head.webp
+      scaleX: 1.05
+      scaleY: 1.05
+      tint: '#ffffff'
+      anchorX: 0.5
+      anchorY: 0.5
+      fit: contain
+      alphaThreshold: 0.75
+    lockRotation: false
+    rotation: 0
+    alpha: 1
+    disposition: -1
+    bar1:
+      attribute: attributes.hp
+    light:
+      alpha: 0.5
+      angle: 360
+      bright: 0
+      coloration: 1
+      dim: 0
+      attenuation: 0.5
+      luminosity: 0.5
+      saturation: 0
+      contrast: 0
+      shadows: 0
+      animation:
+        type: flame
+        speed: 5
+        intensity: 5
+        reverse: false
+      darkness:
+        min: 0
+        max: 1
+      color: null
+      negative: false
+      priority: 0
+    occludable:
+      radius: 0
+    ring:
+      enabled: true
+      colors:
+        ring: null
+        background: null
+      effects: 1
+      subject:
+        scale: 1.04
+        texture: null
+    actorId: VMmyjUNJLXltJ5DV
+    hidden: false
+    sort: 7
+    _id: nrK9GstsADa1dQ5P
+    delta:
+      _id: Hdfwrj6HgoPq8SLe
+      system: {}
+      items: []
+      effects: []
+      flags: {}
+      name: null
+      type: null
+      img: null
+      ownership: null
+      _key: '!scenes.tokens.delta!DzJ9oxMWiFVTWUNx.nrK9GstsADa1dQ5P.Hdfwrj6HgoPq8SLe'
+    x: 1600
+    'y': 2100
+    elevation: 0
+    locked: false
+    _regions: []
+    shape: 4
+    turnMarker:
+      mode: 1
+      animation: null
+      src: null
+      disposition: false
+    movementAction: null
+    _movementHistory: []
+    depth: 1
+    level: defaultLevel0000
+    _key: '!scenes.tokens!DzJ9oxMWiFVTWUNx.nrK9GstsADa1dQ5P'
+  - displayName: 30
+    displayBars: 20
+    flags:
+      monks-tokenbar:
+        include: default
+      healthEstimate:
+        dontMarkDead: false
+        hideHealthEstimate: false
+        hideName: false
+      pf2e:
+        linkToActorSize: true
+        autoscale: false
+      monks-combat-marker:
+        token-highlight-scale: 1.5
+        token-combat-animation: ''
+        token-highlight: ''
+      monks-bloodsplats:
+        bloodsplat-colour: ''
+        bloodsplat-type: ''
+        bloodsplat-index: 129
+      tagger:
+        tags:
+          - riven-ranger
+      core: {}
+      wall-height:
+        tokenHeight: 0
+    height: 1
+    width: 1
+    actorLink: true
+    sight:
+      enabled: true
+      range: null
+      angle: 360
+      visionMode: basic
+      color: null
+      attenuation: 0.1
+      brightness: 0
+      saturation: 0
+      contrast: 0
+    name: Riven
+    texture:
+      src: worlds/kingmaker/PCs/riven-portrait-1-nobg.png
+      scaleX: 1.1
+      scaleY: 1.1
+      tint: '#ffffff'
+      anchorX: 0.5
+      anchorY: 0.5
+      fit: contain
+      alphaThreshold: 0.75
+    lockRotation: false
+    rotation: 0
+    alpha: 1
+    disposition: -1
+    bar1:
+      attribute: attributes.hp
+    bar2:
+      attribute: null
+    light:
+      alpha: 0.5
+      angle: 360
+      bright: 0
+      color: null
+      coloration: 1
+      dim: 0
+      attenuation: 0.5
+      luminosity: 0.5
+      saturation: 0
+      contrast: 0
+      shadows: 0
+      animation:
+        type: null
+        speed: 5
+        intensity: 5
+        reverse: false
+      darkness:
+        min: 0
+        max: 1
+      negative: false
+      priority: 0
+    detectionModes:
+      basicSight:
+        range: null
+        enabled: true
+    occludable:
+      radius: 0
+    ring:
+      enabled: true
+      colors:
+        ring: null
+        background: null
+      effects: 1
+      subject:
+        scale: 1.1
+        texture: null
+    actorId: BXJA0aPg162BfOxh
+    hidden: false
+    sort: 8
+    _id: UyUlvhwmSzRhztbu
+    delta:
+      _id: BWNlJiTh5mNsWpgB
+      system: {}
+      items: []
+      effects: []
+      flags: {}
+      name: null
+      type: null
+      img: null
+      ownership: null
+      _key: '!scenes.tokens.delta!DzJ9oxMWiFVTWUNx.UyUlvhwmSzRhztbu.BWNlJiTh5mNsWpgB'
+    x: 2200
+    'y': 700
+    elevation: 20
+    locked: false
+    _regions: []
+    shape: 4
+    turnMarker:
+      mode: 1
+      animation: null
+      src: null
+      disposition: false
+    movementAction: null
+    _movementHistory: []
+    depth: 1
+    level: defaultLevel0000
+    _key: '!scenes.tokens!DzJ9oxMWiFVTWUNx.UyUlvhwmSzRhztbu'
+  - displayName: 50
+    displayBars: 40
+    flags:
+      monks-tokenbar:
+        include: default
+      healthEstimate:
+        dontMarkDead: false
+        hideHealthEstimate: false
+        hideName: false
+      pf2e:
+        linkToActorSize: true
+        autoscale: false
+      wall-height:
+        tokenHeight: 0
+      tagger: {}
+      core: {}
+      monks-combat-marker:
+        token-highlight-scale: 1.5
+        token-combat-animation: ''
+        token-highlight: ''
+      monks-bloodsplats:
+        bloodsplat-colour: ''
+        bloodsplat-type: ''
+    sight:
+      enabled: true
+      color: null
+      range: 0
+      angle: 360
+      visionMode: basic
+      attenuation: 0.1
+      brightness: 0
+      saturation: 0
+      contrast: 0
+    detectionModes:
+      senseAll:
+        range: 30
+        enabled: true
+    height: 1
+    width: 1
+    actorLink: true
+    name: Cat
+    texture:
+      src: worlds/kingmaker/PCs/Panther3.webp
+      scaleX: 0.9
+      scaleY: 0.9
+      tint: '#ffffff'
+      anchorX: 0.5
+      anchorY: 0.5
+      fit: contain
+      alphaThreshold: 0.75
+    lockRotation: false
+    rotation: 0
+    alpha: 1
+    disposition: -1
+    bar1:
+      attribute: attributes.hp
+    bar2:
+      attribute: resources.heroPoints
+    light:
+      alpha: 0.5
+      angle: 360
+      bright: 0
+      coloration: 1
+      dim: 0
+      attenuation: 0.5
+      luminosity: 0.5
+      saturation: 0
+      contrast: 0
+      shadows: 0
+      animation:
+        type: null
+        speed: 5
+        intensity: 5
+        reverse: false
+      darkness:
+        min: 0
+        max: 1
+      color: null
+      negative: false
+      priority: 0
+    occludable:
+      radius: 0
+    ring:
+      enabled: true
+      colors:
+        ring: null
+        background: null
+      effects: 1
+      subject:
+        scale: 0.9
+        texture: null
+    actorId: LLqJy26e7s2eawzi
+    hidden: false
+    sort: 9
+    _id: peka1OpwCuwt5l1S
+    delta:
+      _id: EskCAeO20zceZgSZ
+      system: {}
+      items: []
+      effects: []
+      flags: {}
+      name: null
+      type: null
+      img: null
+      ownership: null
+      _key: '!scenes.tokens.delta!DzJ9oxMWiFVTWUNx.peka1OpwCuwt5l1S.EskCAeO20zceZgSZ'
+    x: 1500
+    'y': 2100
+    elevation: 0
+    locked: false
+    _regions: []
+    shape: 4
+    turnMarker:
+      mode: 1
+      animation: null
+      src: null
+      disposition: false
+    movementAction: null
+    _movementHistory: []
+    depth: 1
+    level: defaultLevel0000
+    _key: '!scenes.tokens!DzJ9oxMWiFVTWUNx.peka1OpwCuwt5l1S'
+  - displayName: 20
+    displayBars: 40
+    flags:
+      healthEstimate:
+        dontMarkDead: false
+        hideHealthEstimate: false
+        hideName: false
+      pf2e:
+        linkToActorSize: true
+        autoscale: true
+      monks-combat-marker:
+        token-highlight-scale: 1.5
+        token-combat-animation: ''
+        token-highlight: ''
+      monks-bloodsplats:
+        bloodsplat-type: ''
+        bloodsplat-colour: ''
+    sight:
+      enabled: true
+      range: 0
+      angle: 360
+      visionMode: basic
+      color: null
+      attenuation: 0.1
+      brightness: 0
+      saturation: 0
+      contrast: 0
+    detectionModes:
+      basicSight:
+        range: 0
+        enabled: false
+      lightPerception:
+        range: null
+        enabled: true
+    height: 1
+    width: 1
+    actorLink: true
+    name: Dog
+    texture:
+      src: modules/pf2e-tokens-bestiaries/tokens/bestial/mammalian/wolf.webp
+      anchorX: 0.5
+      anchorY: 0.5
+      fit: contain
+      scaleX: 1
+      scaleY: 1
+      tint: '#ffffff'
+      alphaThreshold: 0.75
+    lockRotation: false
+    rotation: 0
+    alpha: 1
+    disposition: -1
+    bar1:
+      attribute: attributes.hp
+    bar2:
+      attribute: null
+    light:
+      negative: false
+      priority: 0
+      alpha: 0.5
+      angle: 360
+      bright: 0
+      color: null
+      coloration: 1
+      dim: 0
+      attenuation: 0.5
+      luminosity: 0.5
+      saturation: 0
+      contrast: 0
+      shadows: 0
+      animation:
+        type: null
+        speed: 5
+        intensity: 5
+        reverse: false
+      darkness:
+        min: 0
+        max: 1
+    occludable:
+      radius: 0
+    ring:
+      enabled: false
+      colors:
+        ring: null
+        background: null
+      effects: 0
+      subject:
+        scale: 1
+        texture: null
+    actorId: KbpIAYaD5eGnIsrg
+    hidden: false
+    sort: 10
+    _id: zqhZdj2AUMIMDkhd
+    delta:
+      _id: zUy8hUPEyG0cFvum
+      system: {}
+      items: []
+      effects: []
+      flags: {}
+      name: null
+      type: null
+      img: null
+      ownership: null
+      _key: '!scenes.tokens.delta!DzJ9oxMWiFVTWUNx.zqhZdj2AUMIMDkhd.zUy8hUPEyG0cFvum'
+    x: 1500
+    'y': 2000
+    elevation: 0
+    locked: false
+    _regions: []
+    shape: 4
+    turnMarker:
+      mode: 1
+      animation: null
+      src: null
+      disposition: false
+    movementAction: null
+    _movementHistory: []
+    depth: 1
+    level: defaultLevel0000
+    _key: '!scenes.tokens!DzJ9oxMWiFVTWUNx.zqhZdj2AUMIMDkhd'
+  - displayName: 30
+    displayBars: 40
+    flags:
+      monks-tokenbar:
+        include: default
+      healthEstimate:
+        dontMarkDead: false
+        hideHealthEstimate: false
+        hideName: false
+      pf2e:
+        linkToActorSize: true
+        autoscale: false
+      monks-combat-marker:
+        token-highlight-scale: 1.5
+        token-combat-animation: ''
+        token-highlight: ''
+      monks-bloodsplats:
+        bloodsplat-colour: ''
+        bloodsplat-type: ''
+        bloodsplat-index: 110
+      core: {}
+      wall-height:
+        tokenHeight: 0
+      tagger: {}
+    sight:
+      enabled: true
+      color: null
+      range: 0
+      angle: 360
+      visionMode: basic
+      attenuation: 0.1
+      brightness: 0
+      saturation: 0
+      contrast: 0
+    detectionModes: {}
+    bar2:
+      attribute: resources.heroPoints
+    height: 1
+    width: 1
+    actorLink: true
+    name: Milo Tinkerfoot
+    texture:
+      src: worlds/kingmaker/PCs/bramble-character-p.webp
+      scaleX: 1.1
+      scaleY: 1.1
+      tint: '#ffffff'
+      anchorX: 0.5
+      anchorY: 0.5
+      fit: contain
+      alphaThreshold: 0.75
+    lockRotation: false
+    rotation: 0
+    alpha: 1
+    disposition: -1
+    bar1:
+      attribute: attributes.hp
+    light:
+      alpha: 0.5
+      angle: 360
+      bright: 0
+      coloration: 1
+      dim: 0
+      attenuation: 0.5
+      luminosity: 0.5
+      saturation: 0
+      contrast: 0
+      shadows: 0
+      animation:
+        type: null
+        speed: 5
+        intensity: 5
+        reverse: false
+      darkness:
+        min: 0
+        max: 1
+      color: null
+      negative: false
+      priority: 0
+    occludable:
+      radius: 0
+    ring:
+      enabled: true
+      colors:
+        ring: null
+        background: null
+      effects: 1
+      subject:
+        scale: 1.1
+        texture: null
+    actorId: gFxipV1xecFvG2ry
+    hidden: false
+    sort: 11
+    _id: gbf44CZ3TDdXb235
+    delta:
+      _id: RAzEEWLyhFfCniwQ
+      system: {}
+      items: []
+      effects: []
+      flags: {}
+      name: null
+      type: null
+      img: null
+      ownership: null
+      _key: '!scenes.tokens.delta!DzJ9oxMWiFVTWUNx.gbf44CZ3TDdXb235.RAzEEWLyhFfCniwQ'
+    x: 1600
+    'y': 1800
+    elevation: 0
+    locked: false
+    _regions: []
+    shape: 4
+    turnMarker:
+      mode: 1
+      animation: null
+      src: null
+      disposition: false
+    movementAction: null
+    _movementHistory: []
+    depth: 1
+    level: defaultLevel0000
+    _key: '!scenes.tokens!DzJ9oxMWiFVTWUNx.gbf44CZ3TDdXb235'
+  - displayName: 30
+    displayBars: 40
+    flags:
+      monks-tokenbar:
+        include: default
+      healthEstimate:
+        dontMarkDead: false
+        hideHealthEstimate: false
+        hideName: false
+      pf2e:
+        linkToActorSize: true
+        autoscale: false
+      core: {}
+      wall-height:
+        tokenHeight: 0
+      tagger: {}
+      monks-combat-marker:
+        token-highlight-scale: 1.5
+        token-combat-animation: ''
+        token-highlight: ''
+      monks-bloodsplats:
+        bloodsplat-colour: ''
+        bloodsplat-type: ''
+    sight:
+      enabled: true
+      color: null
+      range: 0
+      angle: 360
+      visionMode: basic
+      attenuation: 0.1
+      brightness: 0
+      saturation: 0
+      contrast: 0
+    detectionModes: {}
+    height: 1
+    width: 1
+    actorLink: true
+    name: Rindle 7.0
+    texture:
+      src: worlds/kingmaker/PCs/rindle.webp
+      scaleX: 1.1
+      scaleY: 1.1
+      tint: '#ffffff'
+      anchorX: 0.5
+      anchorY: 0.5
+      fit: contain
+      alphaThreshold: 0.75
+    lockRotation: false
+    rotation: 0
+    alpha: 1
+    disposition: -1
+    bar1:
+      attribute: attributes.hp
+    bar2:
+      attribute: null
+    light:
+      alpha: 0.5
+      angle: 360
+      bright: 0
+      coloration: 1
+      dim: 0
+      attenuation: 0.5
+      luminosity: 0.5
+      saturation: 0
+      contrast: 0
+      shadows: 0
+      animation:
+        type: null
+        speed: 5
+        intensity: 5
+        reverse: false
+      darkness:
+        min: 0
+        max: 1
+      color: null
+      negative: false
+      priority: 0
+    occludable:
+      radius: 0
+    ring:
+      enabled: true
+      colors:
+        ring: null
+        background: null
+      effects: 1
+      subject:
+        scale: 1.1
+        texture: null
+    actorId: hdDU3CMTO5xZeumu
+    hidden: false
+    sort: 12
+    _id: NqLbPcQansOixHXj
+    delta:
+      _id: cqHEFyC1ntF2RZwZ
+      system: {}
+      items: []
+      effects: []
+      flags: {}
+      name: null
+      type: null
+      img: null
+      ownership: null
+      _key: '!scenes.tokens.delta!DzJ9oxMWiFVTWUNx.NqLbPcQansOixHXj.cqHEFyC1ntF2RZwZ'
+    x: 1600
+    'y': 1400
+    elevation: 0
+    locked: false
+    _regions: []
+    shape: 4
+    turnMarker:
+      mode: 1
+      animation: null
+      src: null
+      disposition: false
+    movementAction: null
+    _movementHistory: []
+    depth: 1
+    level: defaultLevel0000
+    _key: '!scenes.tokens!DzJ9oxMWiFVTWUNx.NqLbPcQansOixHXj'
+lights:
+  - _id: vSIzrYivqop0Vs6y
+    x: 450
+    'y': 2000
+    elevation: 0
+    rotation: 0
+    walls: true
+    vision: false
+    config:
+      negative: false
+      priority: 0
+      alpha: 0.5
+      angle: 360
+      bright: 8.74
+      color: null
+      coloration: 1
+      dim: 17.49
+      attenuation: 0.5
+      luminosity: 0.5
+      saturation: 0
+      contrast: 0
+      shadows: 0
+      animation:
+        type: null
+        speed: 5
+        intensity: 5
+        reverse: false
+      darkness:
+        min: 0
+        max: 1
+    hidden: false
+    flags: {}
+    levels: []
+    locked: false
+    _key: '!scenes.lights!DzJ9oxMWiFVTWUNx.vSIzrYivqop0Vs6y'
+  - _id: TFCiG1JwLSPwC81q
+    x: 1600
+    'y': 3050
+    elevation: 0
+    rotation: 0
+    walls: true
+    vision: false
+    config:
+      negative: false
+      priority: 0
+      alpha: 0.5
+      angle: 360
+      bright: 12.1
+      color: null
+      coloration: 1
+      dim: 24.2
+      attenuation: 0.5
+      luminosity: 0.5
+      saturation: 0
+      contrast: 0
+      shadows: 0
+      animation:
+        type: null
+        speed: 5
+        intensity: 5
+        reverse: false
+      darkness:
+        min: 0
+        max: 1
+    hidden: false
+    flags: {}
+    levels: []
+    locked: false
+    _key: '!scenes.lights!DzJ9oxMWiFVTWUNx.TFCiG1JwLSPwC81q'
+  - _id: nKeOzjX8CHqoXzEh
+    x: 550
+    'y': 1000
+    elevation: 0
+    rotation: 0
+    walls: true
+    vision: false
+    config:
+      negative: false
+      priority: 0
+      alpha: 0.5
+      angle: 360
+      bright: 10.92
+      color: null
+      coloration: 1
+      dim: 21.83
+      attenuation: 0.5
+      luminosity: 0.5
+      saturation: 0
+      contrast: 0
+      shadows: 0
+      animation:
+        type: null
+        speed: 5
+        intensity: 5
+        reverse: false
+      darkness:
+        min: 0
+        max: 1
+    hidden: false
+    flags: {}
+    levels: []
+    locked: false
+    _key: '!scenes.lights!DzJ9oxMWiFVTWUNx.nKeOzjX8CHqoXzEh'
+  - _id: tLzJpCnnjbbGzA0m
+    x: 800
+    'y': 2550
+    elevation: 0
+    rotation: 0
+    walls: true
+    vision: false
+    config:
+      negative: false
+      priority: 0
+      alpha: 0.5
+      angle: 360
+      bright: 12.69
+      color: null
+      coloration: 1
+      dim: 25.39
+      attenuation: 0.5
+      luminosity: 0.5
+      saturation: 0
+      contrast: 0
+      shadows: 0
+      animation:
+        type: null
+        speed: 5
+        intensity: 5
+        reverse: false
+      darkness:
+        min: 0
+        max: 1
+    hidden: false
+    flags: {}
+    levels: []
+    locked: false
+    _key: '!scenes.lights!DzJ9oxMWiFVTWUNx.tLzJpCnnjbbGzA0m'
+notes: []
+sounds: []
+regions: []
+tiles: []
+walls:
+  - light: 20
+    sight: 10
+    sound: 10
+    move: 20
+    c:
+      - 300
+      - 963
+      - 1100
+      - 950
+    _id: ZJ5kUCF0VTiwETAg
+    dir: 0
+    door: 0
+    ds: 0
+    threshold:
+      light: null
+      sight: null
+      sound: null
+      attenuation: false
+    flags: {}
+    animation: null
+    levels: []
+    _key: '!scenes.walls!DzJ9oxMWiFVTWUNx.ZJ5kUCF0VTiwETAg'
+  - light: 20
+    sight: 10
+    sound: 10
+    move: 20
+    c:
+      - 1100
+      - 950
+      - 1100
+      - 400
+    _id: Zg7XfZxdjU4kdNbE
+    dir: 0
+    door: 0
+    ds: 0
+    threshold:
+      light: null
+      sight: null
+      sound: null
+      attenuation: false
+    flags: {}
+    animation: null
+    levels: []
+    _key: '!scenes.walls!DzJ9oxMWiFVTWUNx.Zg7XfZxdjU4kdNbE'
+  - light: 20
+    sight: 10
+    sound: 10
+    move: 20
+    c:
+      - 1600
+      - 400
+      - 1613
+      - 963
+    _id: 5Z8UfVTAQREalYCT
+    dir: 0
+    door: 0
+    ds: 0
+    threshold:
+      light: null
+      sight: null
+      sound: null
+      attenuation: false
+    flags: {}
+    animation: null
+    levels: []
+    _key: '!scenes.walls!DzJ9oxMWiFVTWUNx.5Z8UfVTAQREalYCT'
+  - light: 20
+    sight: 10
+    sound: 10
+    move: 20
+    c:
+      - 2350
+      - 1600
+      - 1950
+      - 1725
+    _id: oEdohyW29a9fks9N
+    dir: 0
+    door: 0
+    ds: 0
+    threshold:
+      light: null
+      sight: null
+      sound: null
+      attenuation: false
+    flags: {}
+    animation: null
+    levels: []
+    _key: '!scenes.walls!DzJ9oxMWiFVTWUNx.oEdohyW29a9fks9N'
+  - light: 20
+    sight: 10
+    sound: 10
+    move: 20
+    c:
+      - 1963
+      - 2575
+      - 2350
+      - 2600
+    _id: cFXUWtOWi2m773wh
+    dir: 0
+    door: 0
+    ds: 0
+    threshold:
+      light: null
+      sight: null
+      sound: null
+      attenuation: false
+    flags: {}
+    animation: null
+    levels: []
+    _key: '!scenes.walls!DzJ9oxMWiFVTWUNx.cFXUWtOWi2m773wh'
+  - light: 20
+    sight: 10
+    sound: 10
+    move: 20
+    c:
+      - 2350
+      - 2688
+      - 1650
+      - 2688
+    _id: vngo5I4Q0O49zEI4
+    dir: 0
+    door: 0
+    ds: 0
+    threshold:
+      light: null
+      sight: null
+      sound: null
+      attenuation: false
+    flags: {}
+    animation: null
+    levels: []
+    _key: '!scenes.walls!DzJ9oxMWiFVTWUNx.vngo5I4Q0O49zEI4'
+  - light: 20
+    sight: 10
+    sound: 10
+    move: 20
+    c:
+      - 1650
+      - 2688
+      - 1638
+      - 3475
+    _id: Gmqm8QsQwYgbMLy6
+    dir: 0
+    door: 0
+    ds: 0
+    threshold:
+      light: null
+      sight: null
+      sound: null
+      attenuation: false
+    flags: {}
+    animation: null
+    levels: []
+    _key: '!scenes.walls!DzJ9oxMWiFVTWUNx.Gmqm8QsQwYgbMLy6'
+  - light: 20
+    sight: 10
+    sound: 10
+    move: 20
+    c:
+      - 825
+      - 3475
+      - 825
+      - 3175
+    _id: wO6KAEViwv9qIp8i
+    dir: 0
+    door: 0
+    ds: 0
+    threshold:
+      light: null
+      sight: null
+      sound: null
+      attenuation: false
+    flags: {}
+    animation: null
+    levels: []
+    _key: '!scenes.walls!DzJ9oxMWiFVTWUNx.wO6KAEViwv9qIp8i'
+  - light: 20
+    sight: 10
+    sound: 10
+    move: 20
+    c:
+      - 825
+      - 3175
+      - 300
+      - 3088
+    _id: Tl6PCOgqkeXE9PlF
+    dir: 0
+    door: 0
+    ds: 0
+    threshold:
+      light: null
+      sight: null
+      sound: null
+      attenuation: false
+    flags: {}
+    animation: null
+    levels: []
+    _key: '!scenes.walls!DzJ9oxMWiFVTWUNx.Tl6PCOgqkeXE9PlF'
+  - light: 20
+    sight: 10
+    sound: 10
+    move: 20
+    c:
+      - 288
+      - 2975
+      - 775
+      - 2938
+    _id: Nkh798T6H9sAEXIx
+    dir: 0
+    door: 0
+    ds: 0
+    threshold:
+      light: null
+      sight: null
+      sound: null
+      attenuation: false
+    flags: {}
+    animation: null
+    levels: []
+    _key: '!scenes.walls!DzJ9oxMWiFVTWUNx.Nkh798T6H9sAEXIx'
+  - light: 20
+    sight: 10
+    sound: 10
+    move: 20
+    c:
+      - 775
+      - 2938
+      - 775
+      - 2213
+    _id: E3khtCOumEprHpZ0
+    dir: 0
+    door: 0
+    ds: 0
+    threshold:
+      light: null
+      sight: null
+      sound: null
+      attenuation: false
+    flags: {}
+    animation: null
+    levels: []
+    _key: '!scenes.walls!DzJ9oxMWiFVTWUNx.E3khtCOumEprHpZ0'
+  - light: 20
+    sight: 10
+    sound: 10
+    move: 20
+    c:
+      - 775
+      - 2213
+      - 300
+      - 2213
+    _id: pwjR03ISp7bnZZEO
+    dir: 0
+    door: 0
+    ds: 0
+    threshold:
+      light: null
+      sight: null
+      sound: null
+      attenuation: false
+    flags: {}
+    animation: null
+    levels: []
+    _key: '!scenes.walls!DzJ9oxMWiFVTWUNx.pwjR03ISp7bnZZEO'
+  - light: 20
+    sight: 10
+    sound: 10
+    move: 20
+    c:
+      - 300
+      - 1988
+      - 663
+      - 1988
+    _id: IrlZRXu8bwcd4ONY
+    dir: 0
+    door: 0
+    ds: 0
+    threshold:
+      light: null
+      sight: null
+      sound: null
+      attenuation: false
+    flags: {}
+    animation: null
+    levels: []
+    _key: '!scenes.walls!DzJ9oxMWiFVTWUNx.IrlZRXu8bwcd4ONY'
+  - light: 20
+    sight: 10
+    sound: 10
+    move: 20
+    c:
+      - 663
+      - 1988
+      - 675
+      - 1225
+    _id: SdMTcUglGOuW2HEg
+    dir: 0
+    door: 0
+    ds: 0
+    threshold:
+      light: null
+      sight: null
+      sound: null
+      attenuation: false
+    flags: {}
+    animation: null
+    levels: []
+    _key: '!scenes.walls!DzJ9oxMWiFVTWUNx.SdMTcUglGOuW2HEg'
+  - light: 20
+    sight: 10
+    sound: 10
+    move: 20
+    c:
+      - 675
+      - 1225
+      - 300
+      - 1225
+    _id: kpvFLqY65mRao0hk
+    dir: 0
+    door: 0
+    ds: 0
+    threshold:
+      light: null
+      sight: null
+      sound: null
+      attenuation: false
+    flags: {}
+    animation: null
+    levels: []
+    _key: '!scenes.walls!DzJ9oxMWiFVTWUNx.kpvFLqY65mRao0hk'
+playlist: null
+playlistSound: null
+journal: null
+journalEntryPage: null
+weather: ''
+flags:
+  pf2e:
+    rulesBasedVision: true
+    hearingRange: null
+    environmentTypes: []
+  world-explorer:
+    enabled: false
+    color: '#000000'
+    image: ''
+    persistExploredAreas: false
+    position: behindDrawings
+    revealRadius: '0'
+    gridRevealRadius: '0'
+    opacityGM: 0.7
+    opacityPlayer: 1
+_stats:
+  compendiumSource: null
+  duplicateSource: null
+  exportSource: null
+  coreVersion: '14.359'
+  systemId: pf2e
+  systemVersion: 7.2.3
+  createdTime: 1752203154515
+  modifiedTime: 1752203154515
+  lastModifiedBy: txZjek5EOiCBHPoz
+active: false
+sort: 0
+ownership:
+  default: 0
+  txZjek5EOiCBHPoz: 3
+levels:
+  - _id: defaultLevel0000
+    name: Town small square
+    background:
+      color: '#999999'
+      src: >-
+        modules/dannysmodule/assets/scenes/ChatGPT%20Image%20Apr%2022%2C%202025%2C%2008_03_59%20PM.png
+      tint: '#ffffff'
+      alphaThreshold: 0.75
+    elevation:
+      top: 20
+      bottom: 0
+    foreground:
+      src: null
+      tint: '#ffffff'
+      alphaThreshold: 0.75
+    fog:
+      src: null
+      tint: '#ffffff'
+    textures:
+      anchorX: 0.5
+      anchorY: 0.5
+      offsetX: 0
+      offsetY: 0
+      fit: fill
+      scaleX: 1
+      scaleY: 1
+      rotation: 0
+    visibility:
+      levels: []
+    sort: 0
+    flags: {}
+    _key: '!scenes.levels!DzJ9oxMWiFVTWUNx.defaultLevel0000'
+shiftX: 0
+shiftY: 0
+initialLevel: defaultLevel0000
+transition:
+  type: null
+  duration: 1500
+  activeOnly: false
+_key: '!scenes!DzJ9oxMWiFVTWUNx'
+templates: []

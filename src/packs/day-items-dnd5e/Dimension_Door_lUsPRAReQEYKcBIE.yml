@@ -1,0 +1,112 @@
+name: Dimension Door
+type: spell
+system:
+  source:
+    custom: ''
+    book: PHB
+    page: '233'
+    license: ''
+  description:
+    value: >-
+      <div class="rd__b  rd__b--3"><p>You teleport yourself from your current
+      location to any other spot within range. You arrive at exactly the spot
+      desired. It can be a place you can see, one you can visualize, or one you
+      can describe by stating distance and direction, such as "200 feet straight
+      downward" or "upward to the northwest at a 45-degree angle, 300
+      feet."</p><div class="rd__spc-inline-post"></div><p>You can bring along
+      objects as long as their weight doesn't exceed what you can carry. You can
+      also bring one willing creature of your size or smaller who is carrying
+      gear up to its carrying capacity. The creature must be within 5 feet of
+      you when you cast this spell.</p><p>If you would arrive in a place already
+      occupied by an object or a creature, you and any creature traveling with
+      you each take [[/r 4d6]] force damage, and the spell fails to teleport
+      you.</p></div><div><span class="bold">Classes: </span>Bard, Sorcerer,
+      Warlock, Wizard</div>
+    chat: ''
+  actionType: util
+  level: 4
+  school: con
+  properties:
+    - vocal
+  materials:
+    value: ''
+    consumed: false
+    cost: 0
+    supply: 0
+  target:
+    value: 0
+    units: ''
+    type: self
+    prompt: true
+    width: null
+  range:
+    value: 500
+    units: ft
+    long: null
+  activation:
+    type: action
+    cost: 1
+    condition: ''
+  duration:
+    value: ''
+    units: inst
+  damage:
+    parts:
+      - - 4d6
+        - force
+    versatile: ''
+  scaling:
+    mode: none
+    formula: ''
+  save:
+    dc: null
+    scaling: spell
+    ability: ''
+  uses:
+    value: null
+    max: ''
+    per: null
+    recovery: ''
+    prompt: true
+  attackBonus: ''
+  chatFlavor: ''
+  critical:
+    threshold: null
+    damage: ''
+  formula: ''
+  preparation:
+    mode: prepared
+    prepared: false
+  consume:
+    type: ''
+    target: null
+    amount: null
+    scale: false
+  cover: null
+  crewed: false
+  ability: null
+img: icons/commodities/treasure/stone-cracked-lightning-blue.webp
+ownership:
+  default: 0
+  38Gfe7fp1EmVmZNj: 3
+flags:
+  plutonium:
+    page: spells.html
+    source: PHB
+    hash: dimension%20door_phb
+    propDroppable: spell
+effects: []
+folder: lwaKDeACA5FbH8IC
+_id: lUsPRAReQEYKcBIE
+sort: 0
+_stats:
+  systemId: dnd5e
+  systemVersion: 3.0.2
+  coreVersion: '13.345'
+  createdTime: 1708109196683
+  modifiedTime: 1708227409300
+  lastModifiedBy: 38Gfe7fp1EmVmZNj
+  compendiumSource: null
+  duplicateSource: null
+  exportSource: null
+_key: '!items!lUsPRAReQEYKcBIE'

@@ -1,0 +1,44 @@
+folder: 1XrfuqzpstOwCTFI
+name: Token Name-All-Controlled
+type: script
+author: txZjek5EOiCBHPoz
+img: icons/svg/sound-off.svg
+scope: global
+command: |-
+  // const activeSceneTokens = game.scenes.find(i=>i.active==true).tokens;
+  const activeSceneTokens = canvas.scene.tokens;
+
+  // Slower
+  // await activeSceneTokens.map(i=>
+  //    i.update({"displayName":CONST.TOKEN_DISPLAY_MODES.CONTROL}));
+
+  // Faster
+  let updates = activeSceneTokens.map(i=>
+    ({"_id":i._id, "displayName": CONST.TOKEN_DISPLAY_MODES.CONTROL}));
+  await canvas.scene.updateEmbeddedDocuments("Token", updates);
+
+  // CONST.TOKEN_DISPLAY_MODES reference:
+  // NONE (never display) (0)
+  // CONTROL (displayed when controlled) (10)
+  // OWNER_HOVER (on hover for owner) (20)
+  // HOVER (on hover for all) (30)
+  // OWNER (always for owner) (40)
+  // ALWAYS (always for all) (50)
+flags:
+  core: {}
+_stats:
+  compendiumSource: Macro.mucc8Dht2gC2o67m
+  duplicateSource: null
+  coreVersion: '13.346'
+  systemId: pf2e
+  systemVersion: 6.2.0
+  createdTime: 1723143751810
+  modifiedTime: 1752208126881
+  lastModifiedBy: txZjek5EOiCBHPoz
+  exportSource: null
+_id: NnOoqyvDQA80UI6B
+sort: 0
+ownership:
+  default: 0
+  txZjek5EOiCBHPoz: 3
+_key: '!macros!NnOoqyvDQA80UI6B'

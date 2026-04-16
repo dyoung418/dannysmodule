@@ -1,0 +1,134 @@
+name: Mansion
+type: campaignFeature
+effects: []
+system:
+  description:
+    gm: ''
+    value: >-
+      <p><span style="font-family:'Good OT', sans-serif">This larger manor house
+      houses a wealthy family.</span></p><hr
+      style="box-sizing:border-box;user-select:text;scrollbar-width:initial;scrollbar-color:initial;border-right:none;border-left:none;border-image:initial;border-top:none;border-bottom:1px
+      solid rgb(84, 132, 51);color:rgb(25, 24, 19);font-family:Signika,
+      sans-serif;font-size:14px;font-style:normal;font-variant-ligatures:normal;font-variant-caps:normal;font-weight:400;letter-spacing:normal;orphans:2;text-align:start;text-indent:0px;text-transform:none;widows:2;word-spacing:0px;-webkit-text-stroke-width:0px;white-space:normal;text-decoration-thickness:initial;text-decoration-style:initial;text-decoration-color:initial"
+      /><p
+      style="box-sizing:border-box;user-select:text;scrollbar-width:initial;scrollbar-color:initial;margin:0.5em
+      0px;font-family:'Good OT',
+      sans-serif;font-size:1rem;line-height:1.25rem;color:rgb(25, 24,
+      19);font-style:normal;font-variant-ligatures:normal;font-variant-caps:normal;font-weight:400;letter-spacing:normal;orphans:2;text-indent:0px;text-transform:none;widows:2;word-spacing:0px;-webkit-text-stroke-width:0px;white-space:normal;text-decoration-thickness:initial;text-decoration-style:initial;text-decoration-color:initial;text-align:justify"><span
+      style="font-family:'Good OT', sans-serif"><strong
+      style="box-sizing:border-box;user-select:text;scrollbar-width:initial;scrollbar-color:initial">Lots</strong>
+      1; <strong
+      style="box-sizing:border-box;user-select:text;scrollbar-width:initial;scrollbar-color:initial">Cost</strong>
+      10 RP, 6 Lumber, 6 Luxuries, 3 Stone</span></p><p
+      style="box-sizing:border-box;user-select:text;scrollbar-width:initial;scrollbar-color:initial;margin:0.5em
+      0px;font-family:'Good OT',
+      sans-serif;font-size:1rem;line-height:1.25rem;color:rgb(25, 24,
+      19);font-style:normal;font-variant-ligatures:normal;font-variant-caps:normal;font-weight:400;letter-spacing:normal;orphans:2;text-indent:0px;text-transform:none;widows:2;word-spacing:0px;-webkit-text-stroke-width:0px;white-space:normal;text-decoration-thickness:initial;text-decoration-style:initial;text-decoration-color:initial;text-align:justify"><span
+      style="font-family:'Good OT', sans-serif"><strong
+      style="box-sizing:border-box;user-select:text;scrollbar-width:initial;scrollbar-color:initial">Construction</strong>
+      Industry (trained) DC 20</span></p><p
+      style="box-sizing:border-box;user-select:text;scrollbar-width:initial;scrollbar-color:initial;margin:0.5em
+      0px;font-family:'Good OT',
+      sans-serif;font-size:1rem;line-height:1.25rem;color:rgb(25, 24,
+      19);font-style:normal;font-variant-ligatures:normal;font-variant-caps:normal;font-weight:400;letter-spacing:normal;orphans:2;text-indent:0px;text-transform:none;widows:2;word-spacing:0px;-webkit-text-stroke-width:0px;white-space:normal;text-decoration-thickness:initial;text-decoration-style:initial;text-decoration-color:initial;text-align:justify"><span
+      style="font-family:'Good OT', sans-serif"><strong
+      style="box-sizing:border-box;user-select:text;scrollbar-width:initial;scrollbar-color:initial">Upgrade
+      From</strong> <a class="content-link" draggable="true" data-link
+      data-uuid="JournalEntry.BIu4C1T1RR17QNwl.JournalEntryPage.GDdy9zqUvl3EwLvF"
+      data-id="GDdy9zqUvl3EwLvF" data-type="JournalEntryPage" data-tooltip="Text
+      Page"
+      style="box-sizing:border-box;user-select:text;scrollbar-width:initial;scrollbar-color:initial;cursor:pointer;--content-link-background:rgba(0,
+      0, 0, 0.1);background:none;padding:0px 2px 0px
+      0px;border:none;border-radius:2px;white-space:nowrap;word-break:break-all;font-weight:400;text-shadow:none
+      !important;line-height:1rem;outline:none;color:rgb(0, 68,
+      22);text-decoration:underline;text-underline-offset:2px"><span
+      style="text-decoration:underline">houses</span></a></span></p><p
+      style="box-sizing:border-box;user-select:text;scrollbar-width:initial;scrollbar-color:initial;margin:0.5em
+      0px;font-family:'Good OT',
+      sans-serif;font-size:1rem;line-height:1.25rem;color:rgb(25, 24,
+      19);font-style:normal;font-variant-ligatures:normal;font-variant-caps:normal;font-weight:400;letter-spacing:normal;orphans:2;text-indent:0px;text-transform:none;widows:2;word-spacing:0px;-webkit-text-stroke-width:0px;white-space:normal;text-decoration-thickness:initial;text-decoration-style:initial;text-decoration-color:initial;text-align:justify"><span
+      style="font-family:'Good OT', sans-serif"><strong
+      style="box-sizing:border-box;user-select:text;scrollbar-width:initial;scrollbar-color:initial">Upgrade
+      To</strong> <a class="content-link" draggable="true" data-link
+      data-uuid="JournalEntry.BIu4C1T1RR17QNwl.JournalEntryPage.0hdH7UPJqnhrxGMM"
+      data-id="0hdH7UPJqnhrxGMM" data-type="JournalEntryPage" data-tooltip="Text
+      Page"
+      style="box-sizing:border-box;user-select:text;scrollbar-width:initial;scrollbar-color:initial;cursor:pointer;--content-link-background:rgba(0,
+      0, 0, 0.1);background:none;padding:0px 2px 0px
+      0px;border:none;border-radius:2px;white-space:nowrap;word-break:break-all;font-weight:400;text-shadow:none
+      !important;line-height:1rem;outline:none;color:rgb(0, 68,
+      22);text-decoration:underline;text-underline-offset:2px"><span
+      style="text-decoration:underline">noble villa</span></a></span></p><p
+      style="box-sizing:border-box;user-select:text;scrollbar-width:initial;scrollbar-color:initial;margin:0.5em
+      0px;font-family:'Good OT',
+      sans-serif;font-size:1rem;line-height:1.25rem;color:rgb(25, 24,
+      19);font-style:normal;font-variant-ligatures:normal;font-variant-caps:normal;font-weight:400;letter-spacing:normal;orphans:2;text-indent:0px;text-transform:none;widows:2;word-spacing:0px;-webkit-text-stroke-width:0px;white-space:normal;text-decoration-thickness:initial;text-decoration-style:initial;text-decoration-color:initial;text-align:justify"><span
+      style="font-family:'Good OT', sans-serif"><strong
+      style="box-sizing:border-box;user-select:text;scrollbar-width:initial;scrollbar-color:initial">Item
+      Bonus</strong> +1 item bonus to <a class="content-link" draggable="true"
+      data-link
+      data-uuid="Compendium.pf2e.kingmaker-features.Item.nWAGfa4DoEODaKsq"
+      data-id="nWAGfa4DoEODaKsq" data-type="Item"
+      data-pack="pf2e.kingmaker-features" data-tooltip="Campaign Feature Item"
+      style="box-sizing:border-box;user-select:text;scrollbar-width:initial;scrollbar-color:initial;cursor:pointer;--content-link-background:rgba(0,
+      0, 0, 0.1);background:none;padding:0px 2px 0px
+      0px;border:none;border-radius:2px;white-space:nowrap;word-break:break-all;font-weight:400;text-shadow:none
+      !important;line-height:1rem;outline:none;color:rgb(0, 68,
+      22);text-decoration:underline;text-underline-offset:2px"><span
+      style="text-decoration:underline">Improve Lifestyle</span></a></span></p>
+  rules:
+    - hideIfDisabled: true
+      key: FlatModifier
+      label: Mansion bonus to Improve Lifestyle
+      predicate:
+        - action:improve-lifestyle
+      selector: kingdom-check
+      type: item
+      value: 1
+  slug: null
+  _migration:
+    version: 0.94
+    previous:
+      schema: 0.939
+      foundry: '13.345'
+      system: 7.2.0
+  traits:
+    otherTags: []
+    value:
+      - kingdom
+      - structure
+  publication:
+    title: ''
+    authors: ''
+    license: OGL
+    remaster: false
+  campaign: kingmaker
+  category: kingdom-feat
+  actionType:
+    value: passive
+  actions:
+    value: null
+  prerequisites:
+    value: []
+  location: null
+  level:
+    value: 1
+img: modules/pf2e-kingmaker/assets/maps-settlements/buildings/mansion.webp
+folder: yTd2CNZ9biWYoOF6
+flags: {}
+_stats:
+  compendiumSource: null
+  duplicateSource: null
+  coreVersion: '13.346'
+  systemId: pf2e
+  systemVersion: 7.2.3
+  createdTime: 1732924694197
+  modifiedTime: 1752208111692
+  lastModifiedBy: txZjek5EOiCBHPoz
+  exportSource: null
+_id: NJRyAIPIbU0SMlaF
+sort: 0
+ownership:
+  default: 0
+  txZjek5EOiCBHPoz: 3
+_key: '!items!NJRyAIPIbU0SMlaF'

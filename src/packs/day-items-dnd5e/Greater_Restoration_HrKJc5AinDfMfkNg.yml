@@ -1,0 +1,109 @@
+name: Greater Restoration
+type: spell
+system:
+  source:
+    custom: ''
+    book: PHB
+    page: '246'
+    license: ''
+  description:
+    value: >-
+      <div class="rd__b  rd__b--3"><p>You imbue a creature you touch with
+      positive energy to undo a debilitating effect. You can reduce the target's
+      @condition[exhaustion] level by one, or end one of the following effects
+      on the target:</p><div class="rd__spc-inline-post"></div><ul
+      class="rd__list"><li class="rd__li ">One effect that @condition[charmed]
+      or @condition[petrified] the target</li><li class="rd__li ">One curse,
+      including the target's attunement to a cursed magic item</li><li
+      class="rd__li ">Any reduction to one of the target's ability
+      scores</li><li class="rd__li ">One effect reducing the target's hit point
+      maximum</li></ul></div><div><span class="bold">Classes: </span>Artificer,
+      Bard, Cleric, Druid</div>
+    chat: ''
+  actionType: util
+  level: 5
+  school: abj
+  properties:
+    - vocal
+    - somatic
+    - material
+  materials:
+    value: diamond dust worth at least 100 gp, which the spell consumes
+    consumed: true
+    cost: 100
+    supply: 0
+  target:
+    value: 1
+    units: touch
+    type: creature
+    prompt: true
+    width: null
+  range:
+    value: 0
+    units: touch
+    long: null
+  activation:
+    type: action
+    cost: 1
+    condition: ''
+  duration:
+    value: ''
+    units: inst
+  damage:
+    parts: []
+    versatile: ''
+  scaling:
+    mode: none
+    formula: ''
+  save:
+    dc: null
+    scaling: spell
+    ability: ''
+  uses:
+    value: null
+    max: ''
+    per: null
+    recovery: ''
+    prompt: true
+  attackBonus: ''
+  chatFlavor: ''
+  critical:
+    threshold: null
+    damage: ''
+  formula: ''
+  preparation:
+    mode: prepared
+    prepared: false
+  consume:
+    type: ''
+    target: null
+    amount: null
+    scale: false
+  cover: null
+  crewed: false
+  ability: null
+img: icons/magic/nature/leaf-flower-wreath-glow-green-blue.webp
+ownership:
+  default: 0
+  38Gfe7fp1EmVmZNj: 3
+flags:
+  plutonium:
+    page: spells.html
+    source: PHB
+    hash: greater%20restoration_phb
+    propDroppable: spell
+effects: []
+folder: FQZOrkXQPkVrFxP1
+_id: HrKJc5AinDfMfkNg
+sort: 0
+_stats:
+  systemId: dnd5e
+  systemVersion: 3.0.2
+  coreVersion: '13.345'
+  createdTime: 1708227628877
+  modifiedTime: 1708227680382
+  lastModifiedBy: 38Gfe7fp1EmVmZNj
+  compendiumSource: null
+  duplicateSource: null
+  exportSource: null
+_key: '!items!HrKJc5AinDfMfkNg'

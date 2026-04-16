@@ -1,0 +1,108 @@
+name: Gentle Repose
+type: spell
+system:
+  source:
+    custom: ''
+    book: PHB
+    page: '245'
+    license: ''
+  description:
+    value: >-
+      <div class="rd__b  rd__b--3"><p>You touch a corpse or other remains. For
+      the duration, the target is protected from decay and can't become
+      undead.</p><div class="rd__spc-inline-post"></div><p>The spell also
+      effectively extends the time limit on raising the target from the dead,
+      since days spent under the influence of this spell don't count against the
+      time limit of spells such as @spell[raise dead].</p></div><div><span
+      class="bold">Classes: </span>Cleric, Wizard</div>
+    chat: ''
+  actionType: util
+  level: 2
+  school: nec
+  properties:
+    - vocal
+    - somatic
+    - material
+    - ritual
+  materials:
+    value: >-
+      a pinch of salt and one copper piece placed on each of the corpse's eyes,
+      which must remain there for the duration
+    consumed: false
+    cost: 0
+    supply: 0
+  target:
+    value: 1
+    units: touch
+    type: creature
+    prompt: true
+    width: null
+  range:
+    value: 0
+    units: touch
+    long: null
+  activation:
+    type: action
+    cost: 1
+    condition: ''
+  duration:
+    value: '10'
+    units: day
+  damage:
+    parts: []
+    versatile: ''
+  scaling:
+    mode: none
+    formula: ''
+  save:
+    dc: null
+    scaling: spell
+    ability: ''
+  uses:
+    value: null
+    max: ''
+    per: null
+    recovery: ''
+    prompt: true
+  attackBonus: ''
+  chatFlavor: ''
+  critical:
+    threshold: null
+    damage: ''
+  formula: ''
+  preparation:
+    mode: prepared
+    prepared: false
+  consume:
+    type: ''
+    target: null
+    amount: null
+    scale: false
+  cover: null
+  crewed: false
+  ability: null
+img: icons/magic/life/heart-area-circle-red-green.webp
+ownership:
+  default: 0
+  38Gfe7fp1EmVmZNj: 3
+flags:
+  plutonium:
+    page: spells.html
+    source: PHB
+    hash: gentle%20repose_phb
+    propDroppable: spell
+effects: []
+folder: ylLgNfU6rZjXCRE6
+_id: zLigjuo3LLizBwRA
+sort: 0
+_stats:
+  systemId: dnd5e
+  systemVersion: 3.0.2
+  coreVersion: '13.345'
+  createdTime: 1708227628866
+  modifiedTime: 1708227680382
+  lastModifiedBy: 38Gfe7fp1EmVmZNj
+  compendiumSource: null
+  duplicateSource: null
+  exportSource: null
+_key: '!items!zLigjuo3LLizBwRA'

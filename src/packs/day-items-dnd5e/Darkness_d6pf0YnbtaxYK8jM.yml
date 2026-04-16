@@ -1,0 +1,110 @@
+name: Darkness
+type: spell
+system:
+  source:
+    custom: ''
+    book: PHB
+    page: '230'
+    license: ''
+  description:
+    value: >-
+      <div class="rd__b  rd__b--3"><p>Magical darkness spreads from a point you
+      choose within range to fill a 15-foot-radius sphere for the duration. The
+      darkness spreads around corners. A creature with @sense[darkvision] can't
+      see through this darkness, and nonmagical light can't illuminate
+      it.</p><div class="rd__spc-inline-post"></div><p>If the point you choose
+      is on an object you are holding or one that isn't being worn or carried,
+      the darkness emanates from the object and moves with it. Completely
+      covering the source of the darkness with an opaque object, such as a bowl
+      or a helm, blocks the darkness.</p><p>If any of this spell's area overlaps
+      with an area of light created by a spell of 2nd level or lower, the spell
+      that created the light is dispelled.</p></div><div><span
+      class="bold">Classes: </span>Sorcerer, Warlock, Wizard</div>
+    chat: ''
+  actionType: util
+  level: 2
+  school: evo
+  properties:
+    - vocal
+    - material
+    - concentration
+  materials:
+    value: bat fur and a drop of pitch or piece of coal
+    consumed: false
+    cost: 0
+    supply: 0
+  target:
+    value: 15
+    units: ft
+    type: sphere
+    prompt: true
+    width: null
+  range:
+    value: 60
+    units: ft
+    long: null
+  activation:
+    type: action
+    cost: 1
+    condition: ''
+  duration:
+    value: '10'
+    units: minute
+  damage:
+    parts: []
+    versatile: ''
+  scaling:
+    mode: none
+    formula: ''
+  save:
+    dc: null
+    scaling: spell
+    ability: ''
+  uses:
+    value: null
+    max: ''
+    per: null
+    recovery: ''
+    prompt: true
+  attackBonus: ''
+  chatFlavor: ''
+  critical:
+    threshold: null
+    damage: ''
+  formula: ''
+  preparation:
+    mode: prepared
+    prepared: false
+  consume:
+    type: ''
+    target: null
+    amount: null
+    scale: false
+  cover: null
+  crewed: false
+  ability: null
+img: icons/magic/unholy/orb-rays-blue.webp
+ownership:
+  default: 0
+  38Gfe7fp1EmVmZNj: 3
+flags:
+  plutonium:
+    page: spells.html
+    source: PHB
+    hash: darkness_phb
+    propDroppable: spell
+effects: []
+folder: mgLDxy1J2PuOM31n
+_id: d6pf0YnbtaxYK8jM
+sort: 0
+_stats:
+  systemId: dnd5e
+  systemVersion: 3.0.3
+  coreVersion: '13.345'
+  createdTime: 1709684305086
+  modifiedTime: 1709684366197
+  lastModifiedBy: 38Gfe7fp1EmVmZNj
+  compendiumSource: null
+  duplicateSource: null
+  exportSource: null
+_key: '!items!d6pf0YnbtaxYK8jM'

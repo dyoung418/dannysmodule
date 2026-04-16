@@ -1,0 +1,127 @@
+name: Delayed Blast Fireball
+type: spell
+system:
+  source:
+    custom: ''
+    book: PHB
+    page: '230'
+    license: ''
+  description:
+    value: >-
+      <div class="rd__b  rd__b--3"><p>A beam of yellow light flashes from your
+      pointing finger, then condenses to linger at a chosen point within range
+      as a glowing bead for the duration. When the spell ends, either because
+      your @status[concentration] is broken or because you decide to end it, the
+      bead blossoms with a low roar into an explosion of flame that spreads
+      around corners. Each creature in a 20-foot-radius sphere centered on that
+      point must make a Dexterity saving throw. A creature takes fire damage
+      equal to the total accumulated damage on a failed save, or half as much
+      damage on a successful one.</p><div
+      class="rd__spc-inline-post"></div><p>The spell's base damage is [[/r
+      12d6]]. If at the end of your turn the bead has not yet detonated, the
+      damage increases by [[/r 1d6]].</p><p>If the glowing bead is touched
+      before the interval has expired, the creature touching it must make a
+      Dexterity saving throw. On a failed save, the spell ends immediately,
+      causing the bead to erupt in flame. On a successful save, the creature can
+      throw the bead up to 40 feet. When it strikes a creature or a solid
+      object, the spell ends, and the bead explodes.</p><p>The fire damages
+      objects in the area and ignites flammable objects that aren't being worn
+      or carried.</p></div><div class="rd__b  rd__b--3"><div class="rd__b 
+      rd__b--3"><span class="rd__h rd__h--3" data-title-index="1"> <span
+      class="entry-title-inner">At Higher Levels.</span></span> <p>When you cast
+      this spell using a spell slot of 8th level or higher, the base damage
+      increases by [[/r 1d6]] for each slot level above 7th.</p><div
+      class="rd__spc-inline-post"></div></div><div
+      class="rd__spc-inline-post"></div></div><div><span class="bold">Classes:
+      </span>Sorcerer, Wizard</div>
+    chat: ''
+  actionType: save
+  level: 7
+  school: evo
+  properties:
+    - vocal
+    - somatic
+    - material
+    - concentration
+  materials:
+    value: a tiny ball of bat guano and sulfur
+    consumed: false
+    cost: 0
+    supply: 0
+  target:
+    value: 20
+    units: ft
+    type: sphere
+    prompt: true
+    width: null
+  range:
+    value: 150
+    units: ft
+    long: null
+  activation:
+    type: action
+    cost: 1
+    condition: ''
+  duration:
+    value: '1'
+    units: minute
+  damage:
+    parts:
+      - - 12d6
+        - fire
+    versatile: ''
+  scaling:
+    mode: level
+    formula: 1d6
+  save:
+    ability: dex
+    dc: null
+    scaling: spell
+  uses:
+    value: null
+    max: ''
+    per: null
+    recovery: ''
+    prompt: true
+  attackBonus: ''
+  chatFlavor: ''
+  critical:
+    threshold: null
+    damage: ''
+  formula: ''
+  preparation:
+    mode: prepared
+    prepared: false
+  consume:
+    type: ''
+    target: null
+    amount: null
+    scale: false
+  cover: null
+  crewed: false
+  ability: null
+img: icons/magic/fire/projectile-fireball-red-yellow.webp
+ownership:
+  default: 0
+  38Gfe7fp1EmVmZNj: 3
+flags:
+  plutonium:
+    page: spells.html
+    source: PHB
+    hash: delayed%20blast%20fireball_phb
+    propDroppable: spell
+effects: []
+folder: QVPSDbViLxcmbcLj
+_id: z3nKcO6X2KIUPL66
+sort: 0
+_stats:
+  systemId: dnd5e
+  systemVersion: 3.0.3
+  coreVersion: '13.345'
+  createdTime: 1709684305100
+  modifiedTime: 1709684366197
+  lastModifiedBy: 38Gfe7fp1EmVmZNj
+  compendiumSource: null
+  duplicateSource: null
+  exportSource: null
+_key: '!items!z3nKcO6X2KIUPL66'

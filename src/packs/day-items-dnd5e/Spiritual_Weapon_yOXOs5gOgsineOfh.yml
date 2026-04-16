@@ -1,0 +1,160 @@
+name: Spiritual Weapon
+type: spell
+system:
+  source:
+    custom: ''
+    book: PHB
+    page: '278'
+    license: ''
+    revision: 1
+    rules: '2024'
+  description:
+    value: >-
+      <div class="rd__b  rd__b--3"><p>You create a floating, spectral weapon
+      within range that lasts for the duration or until you cast this spell
+      again. When you cast the spell, you can make a melee spell attack against
+      a creature within 5 feet of the weapon. On a hit, the target takes force
+      damage equal to [[/r 1d8]] + your spellcasting ability modifier.</p><div
+      class="rd__spc-inline-post"></div><p>As a bonus action on your turn, you
+      can move the weapon up to 20 feet and repeat the attack against a creature
+      within 5 feet of it.</p><p>The weapon can take whatever form you choose.
+      Clerics of deities who are associated with a particular weapon (as St.
+      Cuthbert is known for his mace and Thor for his hammer) make this spell's
+      effect resemble that weapon.</p></div><div class="rd__b  rd__b--3"><div
+      class="rd__b  rd__b--3"><span class="rd__h rd__h--3" data-title-index="1">
+      <span class="entry-title-inner">At Higher Levels.</span></span> <p>When
+      you cast this spell using a spell slot of 3rd level or higher, the damage
+      increases by [[/r 1d8]] for every two slot levels above 2nd.</p><div
+      class="rd__spc-inline-post"></div></div><div
+      class="rd__spc-inline-post"></div></div><div><span class="bold">Classes:
+      </span>Cleric</div>
+    chat: ''
+  level: 2
+  school: evo
+  properties:
+    - vocal
+    - somatic
+  materials:
+    value: ''
+    consumed: false
+    cost: 0
+    supply: 0
+  target:
+    affects:
+      choice: false
+    template:
+      units: ft
+      type: square
+      size: '5'
+      contiguous: false
+  range:
+    value: '60'
+    units: ft
+  activation:
+    type: bonus
+    condition: ''
+    value: 1
+  duration:
+    value: '1'
+    units: minute
+  uses:
+    max: ''
+    spent: 0
+    recovery: []
+  preparation:
+    mode: prepared
+    prepared: false
+  activities:
+    dnd5eactivity000:
+      _id: dnd5eactivity000
+      type: attack
+      activation:
+        type: action
+        value: null
+        override: false
+      consumption:
+        targets: []
+        scaling:
+          allowed: false
+          max: ''
+        spellSlot: true
+      description:
+        chatFlavor: ''
+      duration:
+        units: inst
+        concentration: false
+        override: false
+      effects: []
+      range:
+        override: false
+        units: self
+      target:
+        prompt: true
+        template:
+          contiguous: false
+          units: ft
+        affects:
+          choice: false
+        override: false
+      uses:
+        spent: 0
+        max: ''
+        recovery: []
+      attack:
+        ability: ''
+        bonus: ''
+        critical:
+          threshold: null
+        flat: false
+        type:
+          value: melee
+          classification: spell
+      damage:
+        critical:
+          bonus: ''
+        includeBase: true
+        parts:
+          - number: null
+            denomination: null
+            bonus: ''
+            types:
+              - force
+            custom:
+              enabled: true
+              formula: (floor((@item.level) / 2))d8 + @mod
+            scaling:
+              mode: ''
+              number: null
+              formula: ''
+      sort: 0
+  identifier: spiritual-weapon
+img: icons/weapons/swords/sword-winged-pink.webp
+ownership:
+  default: 0
+  38Gfe7fp1EmVmZNj: 3
+flags:
+  plutonium:
+    page: spells.html
+    source: PHB
+    hash: spiritual%20weapon_phb
+    propDroppable: spell
+  dnd5e:
+    persistSourceMigration: true
+    riders:
+      activity: []
+      effect: []
+effects: []
+folder: 5RW3khzmlcXrGJ9s
+_id: yOXOs5gOgsineOfh
+sort: 0
+_stats:
+  systemId: dnd5e
+  systemVersion: 5.0.4
+  coreVersion: '13.346'
+  createdTime: 1708227629224
+  modifiedTime: 1752197371435
+  lastModifiedBy: 1pY4akW8WASxGBbA
+  compendiumSource: null
+  duplicateSource: null
+  exportSource: null
+_key: '!items!yOXOs5gOgsineOfh'

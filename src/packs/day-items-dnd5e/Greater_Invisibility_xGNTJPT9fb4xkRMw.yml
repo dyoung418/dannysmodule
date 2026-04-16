@@ -1,0 +1,142 @@
+name: Greater Invisibility
+type: spell
+system:
+  source:
+    custom: ''
+    book: PHB
+    page: '246'
+    license: ''
+  description:
+    value: >-
+      <div class="rd__b  rd__b--3"><p>You or a creature you touch becomes
+      @condition[invisible] until the spell ends. Anything the target is wearing
+      or carrying is @condition[invisible] as long as it is on the target's
+      person.</p><div class="rd__spc-inline-post"></div></div><div><span
+      class="bold">Classes: </span>Bard, Sorcerer, Wizard</div>
+    chat: ''
+  actionType: util
+  level: 4
+  school: ill
+  properties:
+    - vocal
+    - somatic
+    - concentration
+  materials:
+    value: ''
+    consumed: false
+    cost: 0
+    supply: 0
+  target:
+    value: 1
+    units: touch
+    type: creature
+    prompt: true
+    width: null
+  range:
+    value: 0
+    units: touch
+    long: null
+  activation:
+    type: action
+    cost: 1
+    condition: ''
+  duration:
+    value: '1'
+    units: minute
+  damage:
+    parts: []
+    versatile: ''
+  scaling:
+    mode: none
+    formula: ''
+  save:
+    dc: null
+    scaling: spell
+    ability: ''
+  uses:
+    value: null
+    max: ''
+    per: null
+    recovery: ''
+    prompt: true
+  attackBonus: ''
+  chatFlavor: ''
+  critical:
+    threshold: null
+    damage: ''
+  formula: ''
+  preparation:
+    mode: prepared
+    prepared: false
+  consume:
+    type: ''
+    target: null
+    amount: null
+    scale: false
+  cover: null
+  crewed: false
+  ability: null
+img: icons/creatures/magical/spirit-fear-energy-pink.webp
+ownership:
+  default: 0
+  38Gfe7fp1EmVmZNj: 3
+flags:
+  plutonium:
+    page: spells.html
+    source: PHB
+    hash: greater%20invisibility_phb
+    propDroppable: spell
+effects:
+  - name: Greater Invisibility
+    origin: Compendium.dnd5e.spells.Item.tEpDmYZNGc9f5OhJ
+    duration:
+      value: 60
+      units: seconds
+      expiry: turnStart
+      expired: false
+    disabled: false
+    _id: lhYVl4DD9jyS5gcn
+    description: >-
+      <p>The target becomes Invisible until the spell ends. Anything the target
+      is wearing or carrying is Invisible as long as it is on the target's
+      person.</p>
+    transfer: false
+    statuses:
+      - invisible
+    flags:
+      plutonium:
+        dedupeId: greater-invisibility
+    tint: '#ffffff'
+    _stats:
+      coreVersion: '14.359'
+      systemId: null
+      systemVersion: null
+      createdTime: null
+      modifiedTime: null
+      lastModifiedBy: null
+      compendiumSource: null
+      duplicateSource: null
+      exportSource: null
+    img: icons/creatures/magical/spirit-fear-energy-pink.webp
+    type: base
+    system:
+      changes: []
+    sort: 0
+    showIcon: 2
+    start: null
+    folder: null
+    _key: '!items.effects!xGNTJPT9fb4xkRMw.lhYVl4DD9jyS5gcn'
+folder: lwaKDeACA5FbH8IC
+_id: xGNTJPT9fb4xkRMw
+sort: 0
+_stats:
+  systemId: dnd5e
+  systemVersion: 3.0.2
+  coreVersion: '14.359'
+  createdTime: 1708109196896
+  modifiedTime: 1708227409300
+  lastModifiedBy: 38Gfe7fp1EmVmZNj
+  compendiumSource: null
+  duplicateSource: null
+  exportSource: null
+_key: '!items!xGNTJPT9fb4xkRMw'

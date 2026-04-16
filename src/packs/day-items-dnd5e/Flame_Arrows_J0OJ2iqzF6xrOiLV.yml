@@ -1,0 +1,146 @@
+name: Flame Arrows
+type: spell
+system:
+  source:
+    custom: ''
+    book: XGE
+    page: '156'
+    license: ''
+    revision: 1
+    rules: '2024'
+  description:
+    value: >-
+      <div class="rd__b  rd__b--3"><p>You touch a quiver containing arrows or
+      bolts. When a target is hit by a ranged weapon attack using a piece of
+      ammunition drawn from the quiver, the target takes an extra [[/r 1d6]]
+      fire damage. The spell's magic ends on a piece of ammunition when it hits
+      or misses, and the spell ends when twelve pieces of ammunition have been
+      drawn from the quiver.</p><div
+      class="rd__spc-inline-post"></div></div><div class="rd__b  rd__b--3"><div
+      class="rd__b  rd__b--3"><span class="rd__h rd__h--3" data-title-index="1">
+      <span class="entry-title-inner">At Higher Levels.</span></span> <p>When
+      you cast this spell using a spell slot of 4th level or higher, the number
+      of pieces of ammunition you can affect with this spell increases by two
+      for each slot level above 3rd.</p><div
+      class="rd__spc-inline-post"></div></div><div
+      class="rd__spc-inline-post"></div></div><div><span class="bold">Classes:
+      </span>Artificer, Druid, Ranger, Sorcerer, Wizard</div>
+    chat: ''
+  level: 3
+  school: trs
+  properties:
+    - vocal
+    - somatic
+    - concentration
+  materials:
+    value: ''
+    consumed: false
+    cost: 0
+    supply: 0
+  target:
+    affects:
+      choice: false
+    template:
+      units: touch
+      contiguous: false
+  range:
+    value: '0'
+    units: touch
+  activation:
+    type: action
+    condition: ''
+    value: 1
+  duration:
+    value: '1'
+    units: hour
+  uses:
+    max: ''
+    spent: 0
+    recovery: []
+  preparation:
+    mode: prepared
+    prepared: false
+  activities:
+    dnd5eactivity000:
+      _id: dnd5eactivity000
+      type: damage
+      activation:
+        type: action
+        override: false
+      consumption:
+        targets: []
+        scaling:
+          allowed: false
+          max: ''
+        spellSlot: true
+      description:
+        chatFlavor: ''
+      duration:
+        units: inst
+        concentration: false
+        override: false
+      effects: []
+      range:
+        units: self
+        override: false
+      target:
+        prompt: true
+        template:
+          contiguous: false
+          units: ft
+        affects:
+          choice: false
+        override: false
+      uses:
+        spent: 0
+        max: ''
+        recovery: []
+      damage:
+        critical:
+          allow: false
+          bonus: ''
+        parts:
+          - number: 1
+            denomination: 6
+            bonus: ''
+            types:
+              - fire
+            custom:
+              enabled: false
+              formula: ''
+            scaling:
+              mode: ''
+              number: null
+              formula: ''
+      sort: 0
+  identifier: flame-arrows
+img: icons/magic/fire/projectile-arrow-fire-orange-yellow.webp
+ownership:
+  default: 0
+  38Gfe7fp1EmVmZNj: 3
+flags:
+  plutonium:
+    page: spells.html
+    source: XGE
+    hash: flame%20arrows_xge
+    propDroppable: spell
+  dnd5e:
+    persistSourceMigration: true
+    riders:
+      activity: []
+      effect: []
+effects: []
+folder: 460yTIg9sKBrbNPf
+_id: J0OJ2iqzF6xrOiLV
+sort: 0
+_stats:
+  systemId: dnd5e
+  systemVersion: 5.0.4
+  coreVersion: '13.346'
+  createdTime: 1708228956141
+  modifiedTime: 1752197371435
+  lastModifiedBy: 1pY4akW8WASxGBbA
+  compendiumSource: null
+  duplicateSource: null
+  exportSource: null
+_key: '!items!J0OJ2iqzF6xrOiLV'

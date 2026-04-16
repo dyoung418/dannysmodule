@@ -1,0 +1,103 @@
+img: systems/pf2e/icons/equipment/consumables/ammunition/viper-arrow.webp
+name: Tripline Arrow
+system:
+  description:
+    gm: ''
+    value: >-
+      <p><strong>Ammunition</strong> arrow</p>
+
+      <hr />
+
+      <p>This arrow unspools a line of wire as its flies at its target. The wire
+      animates as it hits a target and attempts to wrap around its legs before
+      vanishing a moment later. If you can apply the bow's critical
+      specialization effect, you can choose to knock the target
+      @UUID[Compendium.pf2e.conditionitems.Item.j91X7x0XSomq8d60]{Prone} instead
+      of pinning the target. If you cannot apply the bow's critical
+      specialization effect, you can instead attempt to use the arrow to
+      @UUID[Compendium.pf2e.actionspf2e.Item.ge56Lu1xXVFYUnLP]{Trip} with the
+      Athletics skill as if the bow had the trip weapon trait. The arrow's
+      unwieldy nature halves its weapon's range increment.</p>
+  rules: []
+  slug: tripline-arrow
+  _migration:
+    version: 0.94
+    lastMigration: null
+    previous:
+      schema: 0.939
+      foundry: '13.345'
+      system: 7.2.0
+  traits:
+    otherTags: []
+    value:
+      - consumable
+      - magical
+    rarity: rare
+  publication:
+    title: Pathfinder Kingmaker
+    authors: ''
+    license: OGL
+    remaster: false
+  level:
+    value: 2
+  quantity: 1
+  baseItem: null
+  bulk:
+    value: 0
+  hp:
+    value: 0
+    max: 0
+  hardness: 0
+  price:
+    value:
+      gp: 6
+  equipped:
+    carryType: worn
+    handsHeld: 0
+  containerId: null
+  size: med
+  material:
+    type: null
+    grade: null
+  identification:
+    status: identified
+    unidentified:
+      name: Unusual Ammunition
+      img: systems/pf2e/icons/unidentified_item_icons/ammunition.webp
+      data:
+        description:
+          value: ''
+    misidentified: {}
+  category: ammo
+  uses:
+    value: 1
+    max: 1
+    autoDestroy: true
+  damage: null
+  usage:
+    value: other
+  stackGroup: null
+  spell: null
+type: consumable
+flags:
+  core: {}
+  scene-packer:
+    hash: 1202e9e8f9d130ba80c4b3ea16f1de27b09afa0d
+effects: []
+folder: lVJfRR3nUB6MU7dI
+ownership:
+  default: 3
+  txZjek5EOiCBHPoz: 3
+_stats:
+  compendiumSource: Compendium.pf2e.equipment-srd.Item.zle8PCLlI8jIkgiY
+  duplicateSource: null
+  coreVersion: '13.346'
+  systemId: pf2e
+  systemVersion: 7.2.3
+  createdTime: 1718606591261
+  modifiedTime: 1752208111692
+  lastModifiedBy: txZjek5EOiCBHPoz
+  exportSource: null
+_id: mZvc74gPHA8Yig5T
+sort: 112500
+_key: '!items!mZvc74gPHA8Yig5T'

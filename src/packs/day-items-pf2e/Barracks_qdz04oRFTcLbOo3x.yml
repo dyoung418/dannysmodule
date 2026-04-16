@@ -1,0 +1,65 @@
+folder: yTd2CNZ9biWYoOF6
+name: Barracks
+type: campaignFeature
+effects: []
+system:
+  description:
+    gm: ''
+    value: "<p>Barracks are focused on housing and training guards, militia, soldiers, and military forces</p>\n<hr />\n<p><strong>Lots</strong>\_1;\_<strong>Cost</strong>\_6 RP, 2 Lumber, 1 Stone</p>\n<p><strong>Construction</strong>\_Defense DC 16</p>\n<p><strong>Upgrade To</strong>\_<a class=\"content-link\" draggable=\"true\" data-uuid=\"JournalEntry.BIu4C1T1RR17QNwl.JournalEntryPage.KyMscpPDWlGzLSDa\" data-id=\"KyMscpPDWlGzLSDa\" data-type=\"JournalEntryPage\" data-tooltip=\"Text Page\">garrison</a></p>\n<p><strong>Item Bonus</strong>\_+1 item bonus to\_<a class=\"content-link\" draggable=\"true\" data-uuid=\"Compendium.pf2e.kingmaker-features.Item.iYLFBep0kddHQkW9\" data-id=\"iYLFBep0kddHQkW9\" data-type=\"Item\" data-pack=\"pf2e.kingmaker-features\" data-tooltip=\"Campaign Feature Item\">Garrison Army</a>,\_<a class=\"content-link\" draggable=\"true\" data-uuid=\"Compendium.pf2e.kingmaker-features.Item.1wzNJEvPCuMwJdHe\" data-id=\"1wzNJEvPCuMwJdHe\" data-type=\"Item\" data-pack=\"pf2e.kingmaker-features\" data-tooltip=\"Campaign Feature Item\">Recover Army</a>, or\_<a class=\"content-link\" draggable=\"true\" data-uuid=\"Compendium.pf2e.kingmaker-features.Item.Fko5kdpi9Oxas6Ty\" data-id=\"Fko5kdpi9Oxas6Ty\" data-type=\"Item\" data-pack=\"pf2e.kingmaker-features\" data-tooltip=\"Campaign Feature Item\">Recruit Army</a>.</p>\n<p><strong>Effects</strong> Barracks aid in the recruitment of armies and in helping soldiers recover from battle. The first time you build a barracks in any settlement, reduce Unrest by 1.</p>"
+  rules:
+    - hideIfDisabled: true
+      key: FlatModifier
+      label: Barraks bonus to Garrison Army, Recover Army or Recruit Army
+      predicate:
+        - or:
+            - action:garrison-army
+            - action:recover-army
+            - action:recruit-army
+      selector: kingdom-check
+      type: item
+      value: 1
+  slug: null
+  _migration:
+    version: 0.94
+    previous:
+      schema: 0.939
+      foundry: '13.345'
+      system: 7.2.0
+  traits:
+    otherTags: []
+    value:
+      - kingdom
+  publication:
+    title: ''
+    authors: ''
+    license: OGL
+    remaster: false
+  campaign: kingmaker
+  category: kingdom-feat
+  actionType:
+    value: passive
+  actions:
+    value: null
+  prerequisites:
+    value: []
+  location: null
+  level:
+    value: 3
+_id: qdz04oRFTcLbOo3x
+img: modules/pf2e-kingmaker/assets/maps-settlements/buildings/barracks.webp
+sort: 0
+ownership:
+  default: 0
+  txZjek5EOiCBHPoz: 3
+flags: {}
+_stats:
+  compendiumSource: null
+  duplicateSource: null
+  coreVersion: '13.346'
+  systemId: pf2e
+  systemVersion: 7.2.3
+  createdTime: 1718606591261
+  modifiedTime: 1752208111692
+  lastModifiedBy: txZjek5EOiCBHPoz
+  exportSource: null
+_key: '!items!qdz04oRFTcLbOo3x'

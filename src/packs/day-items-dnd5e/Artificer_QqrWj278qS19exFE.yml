@@ -1,0 +1,20 @@
+name: Artificer
+sorting: a
+folder: jTcATC4oreSv2pQP
+type: Item
+_id: QqrWj278qS19exFE
+sort: 100000
+color: null
+flags: {}
+_stats:
+  systemId: dnd5e
+  systemVersion: 3.0.3
+  coreVersion: '13.346'
+  createdTime: 1709696700093
+  modifiedTime: 1752197369805
+  lastModifiedBy: 1pY4akW8WASxGBbA
+  compendiumSource: null
+  duplicateSource: null
+  exportSource: null
+description: ''
+_key: '!folders!QqrWj278qS19exFE'

@@ -1,0 +1,113 @@
+name: Locate Creature
+type: spell
+system:
+  source:
+    custom: ''
+    book: PHB
+    page: '256'
+    license: ''
+  description:
+    value: >-
+      <div class="rd__b  rd__b--3"><p>Describe or name a creature that is
+      familiar to you. You sense the direction to the creature's location, as
+      long as that creature is within 1,000 feet of you. If the creature is
+      moving, you know the direction of its movement.</p><div
+      class="rd__spc-inline-post"></div><p>The spell can locate a specific
+      creature known to you, or the nearest creature of a specific kind (such as
+      a human or a @creature[unicorn]), so long as you have seen such a creature
+      up close—within 30 feet—at least once. If the creature you described or
+      named is in a different form, such as being under the effects of a
+      @spell[polymorph] spell, this spell doesn't locate the
+      creature.</p><p>This spell can't locate a creature if running water at
+      least 10 feet wide blocks a direct path between you and the
+      creature.</p></div><div><span class="bold">Classes: </span>Bard, Cleric,
+      Druid, Paladin, Ranger, Wizard</div>
+    chat: ''
+  actionType: util
+  level: 4
+  school: div
+  properties:
+    - vocal
+    - somatic
+    - material
+    - concentration
+  materials:
+    value: a bit of fur from a bloodhound
+    consumed: false
+    cost: 0
+    supply: 0
+  target:
+    value: 0
+    units: self
+    type: self
+    prompt: true
+    width: null
+  range:
+    value: 0
+    units: self
+    long: null
+  activation:
+    type: action
+    cost: 1
+    condition: ''
+  duration:
+    value: '1'
+    units: hour
+  damage:
+    parts: []
+    versatile: ''
+  scaling:
+    mode: none
+    formula: ''
+  save:
+    dc: null
+    scaling: spell
+    ability: ''
+  uses:
+    value: null
+    max: ''
+    per: null
+    recovery: ''
+    prompt: true
+  attackBonus: ''
+  chatFlavor: ''
+  critical:
+    threshold: null
+    damage: ''
+  formula: ''
+  preparation:
+    mode: prepared
+    prepared: false
+  consume:
+    type: ''
+    target: null
+    amount: null
+    scale: false
+  cover: null
+  crewed: false
+  ability: null
+img: icons/creatures/birds/corvid-watchful-glowing-green.webp
+ownership:
+  default: 0
+  38Gfe7fp1EmVmZNj: 3
+flags:
+  plutonium:
+    page: spells.html
+    source: PHB
+    hash: locate%20creature_phb
+    propDroppable: spell
+effects: []
+folder: w3lMzzpkBHHzCIRO
+_id: aF8h4ff9nYIBjXf2
+sort: 0
+_stats:
+  systemId: dnd5e
+  systemVersion: 3.0.2
+  coreVersion: '13.345'
+  createdTime: 1708227665587
+  modifiedTime: 1708227673035
+  lastModifiedBy: 38Gfe7fp1EmVmZNj
+  compendiumSource: null
+  duplicateSource: null
+  exportSource: null
+_key: '!items!aF8h4ff9nYIBjXf2'

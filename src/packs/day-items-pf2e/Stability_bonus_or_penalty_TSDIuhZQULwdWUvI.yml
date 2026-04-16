@@ -1,0 +1,68 @@
+folder: pvQ3cJdDK35eTgLw
+name: Stability bonus or penalty
+type: effect
+effects: []
+system:
+  description:
+    gm: ''
+    value: <p>Modify formula for appropriate bonus/penalty</p>
+  rules:
+    - key: FlatModifier
+      hideIfDisabled: true
+      selector: stability-based
+      value: '@item.badge.value'
+      type: circumstance
+  slug: null
+  _migration:
+    version: 0.94
+    previous:
+      schema: 0.939
+      foundry: '13.345'
+      system: 7.2.0
+  traits:
+    otherTags: []
+    value: []
+  publication:
+    title: ''
+    authors: ''
+    license: ORC
+    remaster: false
+  level:
+    value: 1
+  duration:
+    value: -1
+    unit: unlimited
+    expiry: null
+    sustained: false
+  start:
+    value: 0
+    initiative: null
+  tokenIcon:
+    show: true
+  badge:
+    type: counter
+    value: 1
+    min: -4
+    labels: null
+    loop: false
+  context: null
+  unidentified: false
+  fromSpell: false
+img: systems/pf2e/assets/icons/plus.svg
+flags: {}
+_stats:
+  compendiumSource: null
+  duplicateSource: null
+  coreVersion: '13.346'
+  systemId: pf2e
+  systemVersion: 7.2.3
+  createdTime: 1719359124448
+  modifiedTime: 1752208111692
+  lastModifiedBy: txZjek5EOiCBHPoz
+  exportSource: null
+_id: TSDIuhZQULwdWUvI
+sort: 0
+ownership:
+  default: 0
+  txZjek5EOiCBHPoz: 3
+_key: '!items!TSDIuhZQULwdWUvI'

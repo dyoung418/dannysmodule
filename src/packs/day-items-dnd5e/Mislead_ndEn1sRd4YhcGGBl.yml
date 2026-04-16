@@ -1,0 +1,109 @@
+name: Mislead
+type: spell
+system:
+  source:
+    custom: ''
+    book: PHB
+    page: '260'
+    license: ''
+  description:
+    value: >-
+      <div class="rd__b  rd__b--3"><p>You become @condition[invisible] at the
+      same time that an illusory double of you appears where you are standing.
+      The double lasts for the duration, but the invisibility ends if you attack
+      or cast a spell.</p><div class="rd__spc-inline-post"></div><p>You can use
+      your action to move your illusory double up to twice your speed and make
+      it gesture, speak, and behave in whatever way you choose.</p><p>You can
+      see through its eyes and hear through its ears as if you were located
+      where it is. On each of your turns as a bonus action, you can switch from
+      using its senses to using your own, or back again. While you are using its
+      senses, you are @condition[blinded] and @condition[deafened] in regard to
+      your own surroundings.</p></div><div><span class="bold">Classes:
+      </span>Bard, Wizard</div>
+    chat: ''
+  actionType: util
+  level: 5
+  school: ill
+  properties:
+    - somatic
+    - concentration
+  materials:
+    value: ''
+    consumed: false
+    cost: 0
+    supply: 0
+  target:
+    value: 0
+    units: self
+    type: self
+    prompt: true
+    width: null
+  range:
+    value: 0
+    units: self
+    long: null
+  activation:
+    type: action
+    cost: 1
+    condition: ''
+  duration:
+    value: '1'
+    units: hour
+  damage:
+    parts: []
+    versatile: ''
+  scaling:
+    mode: none
+    formula: ''
+  save:
+    dc: null
+    scaling: spell
+    ability: ''
+  uses:
+    value: null
+    max: ''
+    per: null
+    recovery: ''
+    prompt: true
+  attackBonus: ''
+  chatFlavor: ''
+  critical:
+    threshold: null
+    damage: ''
+  formula: ''
+  preparation:
+    mode: prepared
+    prepared: false
+  consume:
+    type: ''
+    target: null
+    amount: null
+    scale: false
+  cover: null
+  crewed: false
+  ability: null
+img: icons/magic/death/mouth-bite-fangs-vampire.webp
+ownership:
+  default: 0
+  38Gfe7fp1EmVmZNj: 3
+flags:
+  plutonium:
+    page: spells.html
+    source: PHB
+    hash: mislead_phb
+    propDroppable: spell
+effects: []
+folder: 6twhZgoHdiiTwIDl
+_id: ndEn1sRd4YhcGGBl
+sort: 0
+_stats:
+  systemId: dnd5e
+  systemVersion: 3.0.2
+  coreVersion: '13.345'
+  createdTime: 1708109345325
+  modifiedTime: 1708227413053
+  lastModifiedBy: 38Gfe7fp1EmVmZNj
+  compendiumSource: null
+  duplicateSource: null
+  exportSource: null
+_key: '!items!ndEn1sRd4YhcGGBl'

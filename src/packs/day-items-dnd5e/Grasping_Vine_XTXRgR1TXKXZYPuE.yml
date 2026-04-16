@@ -1,0 +1,133 @@
+name: Grasping Vine
+type: spell
+system:
+  source:
+    custom: ''
+    book: PHB
+    page: '246'
+    license: ''
+    revision: 1
+    rules: '2024'
+  description:
+    value: >-
+      <div class="rd__b  rd__b--3"><p>You conjure a vine that sprouts from the
+      ground in an unoccupied space of your choice that you can see within
+      range. When you cast this spell, you can direct the vine to lash out at a
+      creature within 30 feet of it that you can see. That creature must succeed
+      on a Dexterity saving throw or be pulled 20 feet directly toward the
+      vine.</p><div class="rd__spc-inline-post"></div><p>Until the spell ends,
+      you can direct the vine to lash out at the same creature or another one as
+      a bonus action on each of your turns.</p></div><div><span
+      class="bold">Classes: </span>Druid, Ranger</div>
+    chat: ''
+  level: 4
+  school: con
+  properties:
+    - vocal
+    - somatic
+    - concentration
+  materials:
+    value: ''
+    consumed: false
+    cost: 0
+    supply: 0
+  target:
+    affects:
+      choice: false
+    template:
+      units: ''
+      contiguous: false
+  range:
+    value: '30'
+    units: ft
+  activation:
+    type: bonus
+    condition: ''
+    value: 1
+  duration:
+    value: '1'
+    units: minute
+  uses:
+    max: ''
+    spent: 0
+    recovery: []
+  preparation:
+    mode: prepared
+    prepared: false
+  activities:
+    dnd5eactivity000:
+      _id: dnd5eactivity000
+      type: save
+      activation:
+        type: action
+        value: null
+        override: false
+      consumption:
+        targets: []
+        scaling:
+          allowed: false
+          max: ''
+        spellSlot: true
+      description:
+        chatFlavor: ''
+      duration:
+        units: inst
+        concentration: false
+        override: false
+      effects: []
+      range:
+        override: false
+        units: self
+      target:
+        prompt: true
+        template:
+          contiguous: false
+          units: ft
+        affects:
+          choice: false
+        override: false
+      uses:
+        spent: 0
+        max: ''
+        recovery: []
+      damage:
+        onSave: half
+        parts: []
+      save:
+        ability:
+          - dex
+        dc:
+          calculation: spellcasting
+          formula: ''
+      sort: 0
+  identifier: grasping-vine
+img: icons/magic/nature/root-vine-beanstolk-green.webp
+ownership:
+  default: 0
+  38Gfe7fp1EmVmZNj: 3
+flags:
+  plutonium:
+    page: spells.html
+    source: PHB
+    hash: grasping%20vine_phb
+    propDroppable: spell
+  dnd5e:
+    persistSourceMigration: true
+    riders:
+      activity: []
+      effect: []
+effects: []
+folder: 0DxlLTSvnP6Pzz2r
+_id: XTXRgR1TXKXZYPuE
+sort: 0
+_stats:
+  systemId: dnd5e
+  systemVersion: 5.0.4
+  coreVersion: '13.346'
+  createdTime: 1708227601332
+  modifiedTime: 1752197371435
+  lastModifiedBy: 1pY4akW8WASxGBbA
+  compendiumSource: null
+  duplicateSource: null
+  exportSource: null
+_key: '!items!XTXRgR1TXKXZYPuE'

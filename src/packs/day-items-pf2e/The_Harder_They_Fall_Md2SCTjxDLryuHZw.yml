@@ -1,0 +1,70 @@
+_id: Md2SCTjxDLryuHZw
+img: systems/pf2e/icons/features/feats/feats.webp
+name: The Harder They Fall
+system:
+  description:
+    gm: ''
+    value: >-
+      <p>You make your foes fall painfully when you trip them. When you
+      successfully
+      @UUID[Compendium.pf2e.actionspf2e.Item.ge56Lu1xXVFYUnLP]{Trip} an
+      @UUID[Compendium.pf2e.conditionitems.Item.AJh5ex99aV6VTggg]{Off-Guard}
+      foe, your target takes @Damage[1d6[bludgeoning]] damage. On a critical
+      success, the target takes 1d6 bludgeoning damage plus your sneak attack
+      damage.</p>
+  rules: []
+  slug: the-harder-they-fall
+  _migration:
+    version: 0.94
+    previous:
+      schema: 0.939
+      foundry: '13.345'
+      system: 7.2.0
+  traits:
+    otherTags: []
+    value:
+      - rogue
+    rarity: common
+  publication:
+    title: Pathfinder Advanced Player's Guide
+    authors: ''
+    license: OGL
+    remaster: false
+  level:
+    value: 4
+  category: class
+  onlyLevel1: false
+  maxTakable: 1
+  actionType:
+    value: passive
+  actions:
+    value: null
+  prerequisites:
+    value: []
+  location: null
+  subfeatures:
+    proficiencies: {}
+    senses: {}
+    suppressedFeatures: []
+type: feat
+flags:
+  core: {}
+  scene-packer:
+    hash: 8c6e2b3ef81f4c5efdc10822333792a0b06b3ed5
+effects: []
+folder: lVJfRR3nUB6MU7dI
+sort: 143750
+ownership:
+  default: 0
+  txZjek5EOiCBHPoz: 3
+_stats:
+  compendiumSource: Compendium.pf2e.feats-srd.Item.k4QU2edqSoB23foo
+  duplicateSource: null
+  coreVersion: '13.346'
+  systemId: pf2e
+  systemVersion: 7.2.3
+  createdTime: 1718606591261
+  modifiedTime: 1752208111692
+  lastModifiedBy: txZjek5EOiCBHPoz
+  exportSource: null
+_key: '!items!Md2SCTjxDLryuHZw'

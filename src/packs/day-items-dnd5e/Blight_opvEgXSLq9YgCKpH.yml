@@ -1,0 +1,116 @@
+name: Blight
+type: spell
+system:
+  source:
+    custom: ''
+    book: PHB
+    page: '219'
+    license: ''
+  description:
+    value: >-
+      <div class="rd__b  rd__b--3"><p>Necromantic energy washes over a creature
+      of your choice that you can see within range, draining moisture and
+      vitality from it. The target must make a Constitution saving throw. The
+      target takes [[/r 8d8]] necrotic damage on a failed save, or half as much
+      damage on a successful one. This spell has no effect on undead or
+      constructs.</p><div class="rd__spc-inline-post"></div><p>If you target a
+      plant creature or a magical plant, it makes the saving throw with
+      disadvantage, and the spell deals maximum damage to it.</p><p>If you
+      target a nonmagical plant that isn't a creature, such as a tree or shrub,
+      it doesn't make a saving throw, it simply withers and dies.</p></div><div
+      class="rd__b  rd__b--3"><div class="rd__b  rd__b--3"><span class="rd__h
+      rd__h--3" data-title-index="1"> <span class="entry-title-inner">At Higher
+      Levels.</span></span> <p>When you cast this spell using a spell slot of
+      5th level or higher, the damage increases by [[/r 1d8]] for each slot
+      level above 4th.</p><div class="rd__spc-inline-post"></div></div><div
+      class="rd__spc-inline-post"></div></div><div><span class="bold">Classes:
+      </span>Druid, Sorcerer, Warlock, Wizard</div>
+    chat: ''
+  actionType: save
+  level: 4
+  school: nec
+  properties:
+    - vocal
+    - somatic
+  materials:
+    value: ''
+    consumed: false
+    cost: 0
+    supply: 0
+  target:
+    value: 1
+    units: ''
+    type: creature
+    prompt: true
+    width: null
+  range:
+    value: 30
+    units: ft
+    long: null
+  activation:
+    type: action
+    cost: 1
+    condition: ''
+  duration:
+    value: ''
+    units: inst
+  damage:
+    parts:
+      - - 8d8
+        - necrotic
+    versatile: ''
+  scaling:
+    mode: level
+    formula: 1d8
+  save:
+    ability: con
+    dc: null
+    scaling: spell
+  uses:
+    value: null
+    max: ''
+    per: null
+    recovery: ''
+    prompt: true
+  attackBonus: ''
+  chatFlavor: ''
+  critical:
+    threshold: null
+    damage: ''
+  formula: ''
+  preparation:
+    mode: prepared
+    prepared: false
+  consume:
+    type: ''
+    target: null
+    amount: null
+    scale: false
+  cover: null
+  crewed: false
+  ability: null
+img: icons/commodities/treasure/mask-bone-white.webp
+ownership:
+  default: 0
+  38Gfe7fp1EmVmZNj: 3
+flags:
+  plutonium:
+    page: spells.html
+    source: PHB
+    hash: blight_phb
+    propDroppable: spell
+effects: []
+folder: V63wQMxNm5MUYpcy
+_id: opvEgXSLq9YgCKpH
+sort: 0
+_stats:
+  systemId: dnd5e
+  systemVersion: 3.0.2
+  coreVersion: '13.345'
+  createdTime: 1708109344987
+  modifiedTime: 1708227413053
+  lastModifiedBy: 38Gfe7fp1EmVmZNj
+  compendiumSource: null
+  duplicateSource: null
+  exportSource: null
+_key: '!items!opvEgXSLq9YgCKpH'

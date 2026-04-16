@@ -1,0 +1,126 @@
+name: Otiluke's Freezing Sphere
+type: spell
+system:
+  source:
+    custom: ''
+    book: PHB
+    page: '263'
+    license: ''
+  description:
+    value: >-
+      <div class="rd__b  rd__b--3"><p>A frigid globe of cold energy streaks from
+      your fingertips to a point of your choice within range, where it explodes
+      in a 60-foot-radius sphere. Each creature within the area must make a
+      Constitution saving throw. On a failed save, a creature takes [[/r 10d6]]
+      cold damage. On a successful save, it takes half as much damage.</p><div
+      class="rd__spc-inline-post"></div><p>If the globe strikes a body of water
+      or a liquid that is principally water (not including water-based
+      creatures), it freezes the liquid to a depth of 6 inches over an area 30
+      feet square. This ice lasts for 1 minute. Creatures that were swimming on
+      the surface of frozen water are trapped in the ice. A trapped creature can
+      use an action to make a Strength check against your spell save DC to break
+      free.</p><p>You can refrain from firing the globe after completing the
+      spell, if you wish. A small globe about the size of a sling stone, cool to
+      the touch, appears in your hand. At any time, you or a creature you give
+      the globe to can throw the globe (to a range of 40 feet) or hurl it with a
+      sling (to the sling's normal range). It shatters on impact, with the same
+      effect as the normal casting of the spell. You can also set the globe down
+      without shattering it. After 1 minute, if the globe hasn't already
+      shattered, it explodes.</p></div><div class="rd__b  rd__b--3"><div
+      class="rd__b  rd__b--3"><span class="rd__h rd__h--3" data-title-index="1">
+      <span class="entry-title-inner">At Higher Levels.</span></span> <p>When
+      you cast this spell using a spell slot of 7th level or higher, the damage
+      increases by [[/r 1d6]] for each slot level above 6th.</p><div
+      class="rd__spc-inline-post"></div></div><div
+      class="rd__spc-inline-post"></div></div><div><span class="bold">Classes:
+      </span>Wizard</div>
+    chat: ''
+  actionType: save
+  level: 6
+  school: evo
+  properties:
+    - vocal
+    - somatic
+    - material
+  materials:
+    value: a small crystal sphere
+    consumed: false
+    cost: 0
+    supply: 0
+  target:
+    value: 60
+    units: ft
+    type: sphere
+    prompt: true
+    width: null
+  range:
+    value: 300
+    units: ft
+    long: null
+  activation:
+    type: action
+    cost: 1
+    condition: ''
+  duration:
+    value: ''
+    units: inst
+  damage:
+    parts:
+      - - 10d6
+        - cold
+    versatile: ''
+  scaling:
+    mode: level
+    formula: 1d6
+  save:
+    ability: con
+    dc: null
+    scaling: spell
+  uses:
+    value: null
+    max: ''
+    per: null
+    recovery: ''
+    prompt: true
+  attackBonus: ''
+  chatFlavor: ''
+  critical:
+    threshold: null
+    damage: ''
+  formula: ''
+  preparation:
+    mode: prepared
+    prepared: false
+  consume:
+    type: ''
+    target: null
+    amount: null
+    scale: false
+  cover: null
+  crewed: false
+  ability: null
+img: icons/weapons/ammunition/bullet-ice-blue.webp
+ownership:
+  default: 0
+  38Gfe7fp1EmVmZNj: 3
+flags:
+  plutonium:
+    page: spells.html
+    source: PHB
+    hash: otiluke's%20freezing%20sphere_phb
+    propDroppable: spell
+effects: []
+folder: YZc3v7XiNFawHEhx
+_id: nvEp7EsPi9FOFEE7
+sort: 0
+_stats:
+  systemId: dnd5e
+  systemVersion: 3.0.3
+  coreVersion: '13.345'
+  createdTime: 1709684305834
+  modifiedTime: 1709684366197
+  lastModifiedBy: 38Gfe7fp1EmVmZNj
+  compendiumSource: null
+  duplicateSource: null
+  exportSource: null
+_key: '!items!nvEp7EsPi9FOFEE7'

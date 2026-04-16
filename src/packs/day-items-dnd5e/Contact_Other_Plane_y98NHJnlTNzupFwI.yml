@@ -1,0 +1,114 @@
+name: Contact Other Plane
+type: spell
+system:
+  source:
+    custom: ''
+    book: PHB
+    page: '226'
+    license: ''
+  description:
+    value: >-
+      <div class="rd__b  rd__b--3"><p>You mentally contact a demigod, the spirit
+      of a long-dead sage, or some other mysterious entity from another plane.
+      Contacting this extraplanar intelligence can strain or even break your
+      mind. When you cast this spell, make a DC 15 Intelligence saving throw. On
+      a failure, you take [[/r 6d6]] psychic damage and are insane until you
+      finish a long rest. While insane, you can't take actions, can't understand
+      what other creatures say, can't read, and speak only in gibberish. A
+      @spell[greater restoration] spell cast on you ends this effect.</p><div
+      class="rd__spc-inline-post"></div><p>On a successful save, you can ask the
+      entity up to five questions. You must ask your questions before the spell
+      ends. The DM answers each question with one word, such as "yes," "no,"
+      "maybe," "never," "irrelevant," or "unclear" (if the entity doesn't know
+      the answer to the question). If a one-word answer would be misleading, the
+      DM might instead offer a short phrase as an answer.</p></div><div><span
+      class="bold">Classes: </span>Warlock, Wizard</div>
+    chat: ''
+  actionType: save
+  level: 5
+  school: div
+  properties:
+    - vocal
+    - ritual
+  materials:
+    value: ''
+    consumed: false
+    cost: 0
+    supply: 0
+  target:
+    value: 0
+    units: self
+    type: self
+    prompt: true
+    width: null
+  range:
+    value: 0
+    units: self
+    long: null
+  activation:
+    type: minute
+    cost: 1
+    condition: ''
+  duration:
+    value: '1'
+    units: minute
+  damage:
+    parts:
+      - - 6d6
+        - psychic
+    versatile: ''
+  scaling:
+    mode: none
+    formula: ''
+  save:
+    ability: int
+    dc: null
+    scaling: spell
+  uses:
+    value: null
+    max: ''
+    per: null
+    recovery: ''
+    prompt: true
+  attackBonus: ''
+  chatFlavor: ''
+  critical:
+    threshold: null
+    damage: ''
+  formula: ''
+  preparation:
+    mode: prepared
+    prepared: false
+  consume:
+    type: ''
+    target: null
+    amount: null
+    scale: false
+  cover: null
+  crewed: false
+  ability: null
+img: icons/creatures/slimes/bubbling-purple.webp
+ownership:
+  default: 0
+  38Gfe7fp1EmVmZNj: 3
+flags:
+  plutonium:
+    page: spells.html
+    source: PHB
+    hash: contact%20other%20plane_phb
+    propDroppable: spell
+effects: []
+folder: 6twhZgoHdiiTwIDl
+_id: y98NHJnlTNzupFwI
+sort: 0
+_stats:
+  systemId: dnd5e
+  systemVersion: 3.0.2
+  coreVersion: '13.345'
+  createdTime: 1708109345037
+  modifiedTime: 1708227413053
+  lastModifiedBy: 38Gfe7fp1EmVmZNj
+  compendiumSource: null
+  duplicateSource: null
+  exportSource: null
+_key: '!items!y98NHJnlTNzupFwI'

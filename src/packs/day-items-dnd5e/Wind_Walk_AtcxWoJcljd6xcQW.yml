@@ -1,0 +1,135 @@
+name: Wind Walk
+type: spell
+system:
+  source:
+    custom: ''
+    book: PHB
+    page: '288'
+    license: ''
+    revision: 1
+    rules: '2024'
+  description:
+    value: >-
+      <div class="rd__b  rd__b--3"><p>You and up to ten willing creatures you
+      can see within range assume a gaseous form for the duration, appearing as
+      wisps of cloud. While in this cloud form, a creature has a flying speed of
+      300 feet and has resistance to damage from nonmagical weapons. The only
+      actions a creature can take in this form are the @action[Dash] action or
+      to revert to its normal form. Reverting takes 1 minute, during which time
+      a creature is @condition[incapacitated] and can't move. Until the spell
+      ends, a creature can revert to cloud form, which also requires the
+      1-minute transformation.</p><div class="rd__spc-inline-post"></div><p>If a
+      creature is in cloud form and flying when the effect ends, the creature
+      descends 60 feet per round for 1 minute until it lands, which it does
+      safely. If it can't land after 1 minute, the creature falls the remaining
+      distance.</p></div><div><span class="bold">Classes: </span>Druid</div>
+    chat: ''
+  level: 6
+  school: trs
+  properties:
+    - vocal
+    - somatic
+    - material
+  materials:
+    value: fire and holy water
+    consumed: false
+    cost: 0
+    supply: 0
+  target:
+    affects:
+      type: creature
+      count: '11'
+      choice: false
+    template:
+      units: ''
+      contiguous: false
+  range:
+    value: '30'
+    units: ft
+  activation:
+    type: minute
+    condition: ''
+    value: 1
+  duration:
+    value: '8'
+    units: hour
+  uses:
+    max: ''
+    spent: 0
+    recovery: []
+  preparation:
+    mode: prepared
+    prepared: false
+  activities:
+    dnd5eactivity000:
+      _id: dnd5eactivity000
+      type: utility
+      activation:
+        type: action
+        value: null
+        override: false
+      consumption:
+        targets: []
+        scaling:
+          allowed: false
+          max: ''
+        spellSlot: true
+      description:
+        chatFlavor: ''
+      duration:
+        units: inst
+        concentration: false
+        override: false
+      effects: []
+      range:
+        override: false
+        units: self
+      target:
+        prompt: true
+        template:
+          contiguous: false
+          units: ft
+        affects:
+          choice: false
+        override: false
+      uses:
+        spent: 0
+        max: ''
+        recovery: []
+      roll:
+        formula: ''
+        name: ''
+        prompt: false
+        visible: false
+      sort: 0
+  identifier: wind-walk
+img: icons/skills/movement/feet-winged-boots-blue.webp
+ownership:
+  default: 0
+  38Gfe7fp1EmVmZNj: 3
+flags:
+  plutonium:
+    page: spells.html
+    source: PHB
+    hash: wind%20walk_phb
+    propDroppable: spell
+  dnd5e:
+    persistSourceMigration: true
+    riders:
+      activity: []
+      effect: []
+effects: []
+folder: 0FHG6CpgiMvDREpM
+_id: AtcxWoJcljd6xcQW
+sort: 0
+_stats:
+  systemId: dnd5e
+  systemVersion: 5.0.4
+  coreVersion: '13.346'
+  createdTime: 1708227601799
+  modifiedTime: 1752197371435
+  lastModifiedBy: 1pY4akW8WASxGBbA
+  compendiumSource: null
+  duplicateSource: null
+  exportSource: null
+_key: '!items!AtcxWoJcljd6xcQW'

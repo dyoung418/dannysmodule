@@ -1,0 +1,56 @@
+folder: 0BxmixOCuUUNHkjf
+name: Wartime Exercises (Valerie)
+type: campaignFeature
+effects: []
+system:
+  description:
+    gm: ''
+    value: "<p><strong>Requires</strong>: Valerie is General and is at least Friendly to the PCs</p>\n<p>Valerie spends time studying the nation’s armies, speaking\_with its commanders, researching historical records of\_battles, and running simulations in war rooms to help\_predict the best ways to prepare for upcoming conflicts.\_Attempt a basic @Check[warfare|dc:resolve(@kingdom.control.dc)] check to determine the success\_of these exercises.<br /><strong>Critical Success</strong> The exercises reveal a wide range of\_suggestions for the PCs to use during that month’s military\_exercises. All Army activities taken during this Kingdom\_turn’s Activity Phase gain a +1 circumstance bonus. This\_bonus increases to +2 at Kingdom level 9 and +3 at Kingdom\_level 15. In addition, the next time this Kingdom turn that\_you roll a critical failure on an Army activity, the result is\_improved to a regular failure instead.</p>\n<p><strong>Success</strong> The exercises grant a +1 circumstance bonus\_to your first Army activity taken during the Kingdom\_turn’s Activity Phase. This bonus increases to +2 at\_Kingdom level 9 and +3 at Kingdom level 15.<br /><strong>Failure</strong> The warfare exercises provide no insight this\_turn.<br /><strong>Critical Failure</strong> You accidentally form incorrect\_assumptions about your military tactics. The\_next time you roll a failure on an Army activity\_this Kingdom turn, it becomes a critical failure\_instead.</p>"
+  rules: []
+  slug: wartime-exercises
+  _migration:
+    version: 0.94
+    previous:
+      schema: 0.939
+      foundry: '13.345'
+      system: 7.2.0
+  traits:
+    otherTags: []
+    value:
+      - downtime
+      - leadership
+  publication:
+    title: ''
+    authors: ''
+    license: OGL
+    remaster: false
+  campaign: kingmaker
+  category: kingdom-activity
+  actionType:
+    value: passive
+  actions:
+    value: null
+  prerequisites:
+    value:
+      - value: Valerie is General and at least Friendly to the PCs
+  location: null
+  level:
+    value: 1
+_id: o5ZthUeq7m751cVA
+img: systems/pf2e/icons/default-icons/campaignFeature.svg
+sort: 100025
+ownership:
+  default: 0
+  txZjek5EOiCBHPoz: 3
+flags: {}
+_stats:
+  compendiumSource: null
+  duplicateSource: null
+  coreVersion: '13.346'
+  systemId: pf2e
+  systemVersion: 7.2.3
+  createdTime: 1718606591261
+  modifiedTime: 1752208111692
+  lastModifiedBy: txZjek5EOiCBHPoz
+  exportSource: null
+_key: '!items!o5ZthUeq7m751cVA'

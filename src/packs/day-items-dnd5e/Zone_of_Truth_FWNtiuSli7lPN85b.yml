@@ -1,0 +1,137 @@
+name: Zone of Truth
+type: spell
+system:
+  source:
+    custom: ''
+    book: PHB
+    page: '289'
+    license: ''
+    revision: 1
+    rules: '2024'
+  description:
+    value: >-
+      <div class="rd__b  rd__b--3"><p>You create a magical zone that guards
+      against deception in a 15-foot-radius sphere centered on a point of your
+      choice within range. Until the spell ends, a creature that enters the
+      spell's area for the first time on a turn or starts its turn there must
+      make a Charisma saving throw. On a failed save, a creature can't speak a
+      deliberate lie while in the radius. You know whether each creature
+      succeeds or fails on its saving throw.</p><div
+      class="rd__spc-inline-post"></div><p>An affected creature is aware of the
+      spell and can thus avoid answering questions to which it would normally
+      respond with a lie. Such creatures can be evasive in its answers as long
+      as it remains within the boundaries of the truth.</p></div><div><span
+      class="bold">Classes: </span>Bard, Cleric, Paladin</div>
+    chat: ''
+  level: 2
+  school: enc
+  properties:
+    - vocal
+    - somatic
+  materials:
+    value: ''
+    consumed: false
+    cost: 0
+    supply: 0
+  target:
+    affects:
+      choice: false
+    template:
+      units: ft
+      type: sphere
+      size: '15'
+      contiguous: false
+  range:
+    value: '60'
+    units: ft
+  activation:
+    type: action
+    condition: ''
+    value: 1
+  duration:
+    value: '10'
+    units: minute
+  uses:
+    max: ''
+    spent: 0
+    recovery: []
+  preparation:
+    mode: prepared
+    prepared: false
+  activities:
+    dnd5eactivity000:
+      _id: dnd5eactivity000
+      type: save
+      activation:
+        type: action
+        value: null
+        override: false
+      consumption:
+        targets: []
+        scaling:
+          allowed: false
+          max: ''
+        spellSlot: true
+      description:
+        chatFlavor: ''
+      duration:
+        units: inst
+        concentration: false
+        override: false
+      effects: []
+      range:
+        override: false
+        units: self
+      target:
+        prompt: true
+        template:
+          contiguous: false
+          units: ft
+        affects:
+          choice: false
+        override: false
+      uses:
+        spent: 0
+        max: ''
+        recovery: []
+      damage:
+        onSave: half
+        parts: []
+      save:
+        ability:
+          - cha
+        dc:
+          calculation: spellcasting
+          formula: ''
+      sort: 0
+  identifier: zone-of-truth
+img: icons/skills/targeting/crosshair-arrowhead-blue.webp
+ownership:
+  default: 0
+  38Gfe7fp1EmVmZNj: 3
+flags:
+  plutonium:
+    page: spells.html
+    source: PHB
+    hash: zone%20of%20truth_phb
+    propDroppable: spell
+  dnd5e:
+    persistSourceMigration: true
+    riders:
+      activity: []
+      effect: []
+effects: []
+folder: 5RW3khzmlcXrGJ9s
+_id: FWNtiuSli7lPN85b
+sort: 0
+_stats:
+  systemId: dnd5e
+  systemVersion: 5.0.4
+  coreVersion: '13.346'
+  createdTime: 1708227665724
+  modifiedTime: 1752197371435
+  lastModifiedBy: 1pY4akW8WASxGBbA
+  compendiumSource: null
+  duplicateSource: null
+  exportSource: null
+_key: '!items!FWNtiuSli7lPN85b'

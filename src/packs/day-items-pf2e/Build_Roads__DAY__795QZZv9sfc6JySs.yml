@@ -1,0 +1,80 @@
+folder: 0BxmixOCuUUNHkjf
+img: systems/pf2e/icons/default-icons/campaignFeature.svg
+name: Build Roads (DAY)
+system:
+  description:
+    gm: ''
+    value: >-
+      <p><strong>Requirements</strong> The hex in which you seek to build roads
+      must be claimed by your kingdom.</p><hr /><p>You order your kingdom's
+      engineers to construct a network of robust roads through the hex. Travel
+      along roads uses a terrain type one step better than the surrounding
+      terrain; for example, roads through forest hexes—normally difficult
+      terrain—allow travel as if it were open terrain. Spend RP as determined by
+      the hex's most inhospitable terrain (see
+      @UUID[JournalEntry.ufhwExwde2g3iEa7.JournalEntryPage.BcxGDLM1uo4TqMZY]{Building
+      on Rough Terrain on page 519}; if the hex includes any rivers that cross
+      the hex from one hex side to any other, you must spend double the normal
+      RP cost to also build bridges; this adds the Bridge structure to that
+      hex). Then attempt a basic
+      @Check[engineering|dc:resolve(@kingdom.control.dc)] check. Work with the
+      GM to determine where your roads appear on the map.</p><hr
+      /><p><strong>Critical Success</strong> You build roads into the target hex
+      and one adjacent claimed hex that doesn't yet have roads and whose terrain
+      features are at least as hospitable as those of the target hex. If no
+      adjacent hex is appropriate, treat this result as a Success
+      instead.</p><p><strong>Success</strong> You build roads in the
+      hex.</p><p><strong>Failure</strong> You fail to build roads in the
+      hex.</p><p><strong>Critical Failure</strong> Your attempt to build roads
+      ends in disaster. Not only do you fail to build roads, but you lose
+      several workers to an accident, banditry, a vicious monster, or some other
+      unforeseen occurrence. Gain 1 Unrest</p>
+  rules: []
+  slug: build-roads
+  _migration:
+    version: 0.94
+    previous:
+      schema: 0.939
+      foundry: '13.345'
+      system: 7.2.0
+  traits:
+    otherTags: []
+    value:
+      - downtime
+      - region
+  publication:
+    title: Pathfinder Kingmaker
+    authors: ''
+    license: OGL
+    remaster: false
+  campaign: kingmaker
+  category: kingdom-activity
+  actionType:
+    value: passive
+  actions:
+    value: null
+  prerequisites:
+    value: []
+  location: null
+  level:
+    value: 1
+type: campaignFeature
+_stats:
+  compendiumSource: Compendium.pf2e.kingmaker-features.Item.EgUxcWpmUaVrHP3L
+  duplicateSource: null
+  coreVersion: '13.346'
+  systemId: pf2e
+  systemVersion: 7.2.3
+  createdTime: 1719728560488
+  modifiedTime: 1752208111692
+  lastModifiedBy: txZjek5EOiCBHPoz
+  exportSource: null
+flags:
+  core: {}
+effects: []
+_id: 795QZZv9sfc6JySs
+sort: 0
+ownership:
+  default: 0
+  txZjek5EOiCBHPoz: 3
+_key: '!items!795QZZv9sfc6JySs'

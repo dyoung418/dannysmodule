@@ -1,0 +1,129 @@
+name: Phantasmal Force
+type: spell
+system:
+  source:
+    custom: ''
+    book: PHB
+    page: '264'
+    license: ''
+  description:
+    value: >-
+      <div class="rd__b  rd__b--3"><p>You craft an illusion that takes root in
+      the mind of a creature that you can see within range. The target must make
+      an Intelligence saving throw. On a failed save, you create a phantasmal
+      object, creature, or other visible phenomenon of your choice that is no
+      larger than a 10-foot cube and that is perceivable only to the target for
+      the duration. This spell has no effect on undead or constructs.</p><div
+      class="rd__spc-inline-post"></div><p>The phantasm includes sound,
+      temperature, and other stimuli, also evident only to the
+      creature.</p><p>The target can use its action to examine the phantasm with
+      an Intelligence (@skill[Investigation]) check against your spell save DC.
+      If the check succeeds, the target realizes that the phantasm is an
+      illusion, and the spell ends.</p><p>While a target is affected by the
+      spell, the target treats the phantasm as if it were real. The target
+      rationalizes any illogical outcomes from interacting with the phantasm.
+      For example, a target attempting to walk across a phantasmal bridge that
+      spans a chasm falls once it steps onto the bridge. If the target survives
+      the fall, it still believes that the bridge exists and comes up with some
+      other explanation for its fall—it was pushed, it slipped, or a strong wind
+      might have knocked it off.</p><p>An affected target is so convinced of the
+      phantasm's reality that it can even take damage from the illusion. A
+      phantasm created to appear as a creature can attack the target. Similarly,
+      a phantasm created to appear as fire, a pool of acid, or lava can burn the
+      target. Each round on your turn, the phantasm can deal [[/r 1d6]] psychic
+      damage to the target if it is in the phantasm's area or within 5 feet of
+      the phantasm, provided that the illusion is of a creature or hazard that
+      could logically deal damage, such as by attacking. The target perceives
+      the damage as a type appropriate to the illusion.</p></div><div><span
+      class="bold">Classes: </span>Bard, Sorcerer, Wizard</div>
+    chat: ''
+  actionType: save
+  level: 2
+  school: ill
+  properties:
+    - vocal
+    - somatic
+    - material
+    - concentration
+  materials:
+    value: a bit of fleece
+    consumed: false
+    cost: 0
+    supply: 0
+  target:
+    value: 10
+    units: ft
+    type: cube
+    prompt: true
+    width: null
+  range:
+    value: 60
+    units: ft
+    long: null
+  activation:
+    type: action
+    cost: 1
+    condition: ''
+  duration:
+    value: '1'
+    units: minute
+  damage:
+    parts:
+      - - 1d6
+        - psychic
+    versatile: ''
+  scaling:
+    mode: none
+    formula: ''
+  save:
+    ability: int
+    dc: null
+    scaling: spell
+  uses:
+    value: null
+    max: ''
+    per: null
+    recovery: ''
+    prompt: true
+  attackBonus: ''
+  chatFlavor: ''
+  critical:
+    threshold: null
+    damage: ''
+  formula: ''
+  preparation:
+    mode: prepared
+    prepared: false
+  consume:
+    type: ''
+    target: null
+    amount: null
+    scale: false
+  cover: null
+  crewed: false
+  ability: null
+img: icons/creatures/slimes/slime-giant-face-eyes.webp
+ownership:
+  default: 0
+  38Gfe7fp1EmVmZNj: 3
+flags:
+  plutonium:
+    page: spells.html
+    source: PHB
+    hash: phantasmal%20force_phb
+    propDroppable: spell
+effects: []
+folder: mgLDxy1J2PuOM31n
+_id: dlwLiakA1qdgZQPr
+sort: 0
+_stats:
+  systemId: dnd5e
+  systemVersion: 3.0.3
+  coreVersion: '13.345'
+  createdTime: 1709684305868
+  modifiedTime: 1709684366197
+  lastModifiedBy: 38Gfe7fp1EmVmZNj
+  compendiumSource: null
+  duplicateSource: null
+  exportSource: null
+_key: '!items!dlwLiakA1qdgZQPr'

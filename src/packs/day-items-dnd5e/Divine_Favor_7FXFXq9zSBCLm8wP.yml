@@ -1,0 +1,139 @@
+name: Divine Favor
+type: spell
+system:
+  source:
+    custom: ''
+    book: PHB
+    page: '234'
+    license: ''
+    revision: 1
+    rules: '2024'
+  description:
+    value: >-
+      <div class="rd__b  rd__b--3"><p>Your prayer empowers you with divine
+      radiance. Until the spell ends, your weapon attacks deal an extra [[/r
+      1d4]] radiant damage on a hit.</p><div
+      class="rd__spc-inline-post"></div></div><div><span class="bold">Classes:
+      </span>Paladin</div>
+    chat: ''
+  level: 1
+  school: evo
+  properties:
+    - vocal
+    - somatic
+    - concentration
+  materials:
+    value: ''
+    consumed: false
+    cost: 0
+    supply: 0
+  target:
+    affects:
+      type: self
+      count: '0'
+      choice: false
+    template:
+      units: self
+      contiguous: false
+  range:
+    value: '0'
+    units: self
+  activation:
+    type: bonus
+    condition: ''
+    value: 1
+  duration:
+    value: '1'
+    units: minute
+  uses:
+    max: ''
+    spent: 0
+    recovery: []
+  preparation:
+    mode: prepared
+    prepared: false
+  activities:
+    dnd5eactivity000:
+      _id: dnd5eactivity000
+      type: damage
+      activation:
+        type: action
+        value: null
+        override: false
+      consumption:
+        targets: []
+        scaling:
+          allowed: false
+          max: ''
+        spellSlot: true
+      description:
+        chatFlavor: ''
+      duration:
+        units: inst
+        concentration: false
+        override: false
+      effects: []
+      range:
+        override: false
+        units: self
+      target:
+        prompt: true
+        template:
+          contiguous: false
+          units: ft
+        affects:
+          choice: false
+        override: false
+      uses:
+        spent: 0
+        max: ''
+        recovery: []
+      damage:
+        critical:
+          allow: false
+          bonus: ''
+        parts:
+          - number: 1
+            denomination: 4
+            bonus: ''
+            types:
+              - radiant
+            custom:
+              enabled: false
+              formula: ''
+            scaling:
+              mode: ''
+              number: null
+              formula: ''
+      sort: 0
+  identifier: divine-favor
+img: icons/skills/ranged/wand-attack-beam-blue.webp
+ownership:
+  default: 0
+  38Gfe7fp1EmVmZNj: 3
+flags:
+  plutonium:
+    page: spells.html
+    source: PHB
+    hash: divine%20favor_phb
+    propDroppable: spell
+  dnd5e:
+    persistSourceMigration: true
+    riders:
+      activity: []
+      effect: []
+effects: []
+folder: 7LJJqiLuL1YQyknL
+_id: 7FXFXq9zSBCLm8wP
+sort: 0
+_stats:
+  systemId: dnd5e
+  systemVersion: 5.0.4
+  coreVersion: '13.346'
+  createdTime: 1708227665531
+  modifiedTime: 1752197371435
+  lastModifiedBy: 1pY4akW8WASxGBbA
+  compendiumSource: null
+  duplicateSource: null
+  exportSource: null
+_key: '!items!7FXFXq9zSBCLm8wP'

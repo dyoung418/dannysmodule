@@ -1,0 +1,88 @@
+_id: lrxSW29nmkcRAkVL
+img: >-
+  systems/pf2e/icons/equipment/runes/weapon-property-runes/weapon-property-runes.webp
+name: Hooked
+system:
+  description:
+    gm: ''
+    value: >-
+      <p>A <em>hooked weapon</em> extends hooks when it's used to attack. A
+      <em>hooked weapon </em>gains the trip trait. If a <em>hooked weapon</em>
+      normally has the trip trait, you can attempt to
+      @UUID[Compendium.pf2e.actionspf2e.Item.ge56Lu1xXVFYUnLP]{Trip} a foe as a
+      reaction when you critically hit it with the <em>hooked weapon</em>.</p>
+  rules: []
+  slug: hooked
+  _migration:
+    version: 0.94
+    lastMigration: null
+    previous:
+      schema: 0.939
+      foundry: '13.345'
+      system: 7.2.0
+  traits:
+    otherTags: []
+    value:
+      - magical
+    rarity: rare
+  publication:
+    title: Pathfinder Kingmaker
+    authors: ''
+    license: OGL
+    remaster: false
+  level:
+    value: 5
+  quantity: 1
+  baseItem: null
+  bulk:
+    value: 0
+  hp:
+    value: 0
+    max: 0
+  hardness: 0
+  price:
+    value:
+      gp: 140
+  equipped:
+    carryType: worn
+    invested: null
+    handsHeld: 0
+  containerId: null
+  size: med
+  material:
+    type: null
+    grade: null
+  identification:
+    status: identified
+    unidentified:
+      name: Unusual Object
+      img: systems/pf2e/icons/unidentified_item_icons/adventuring_gear.webp
+      data:
+        description:
+          value: ''
+    misidentified: {}
+  usage:
+    value: etched-onto-melee-weapon
+  subitems: []
+type: equipment
+flags:
+  core: {}
+  scene-packer:
+    hash: 79f1195573a4e2b7956cdea2a113bcdbdeb662dd
+effects: []
+folder: lVJfRR3nUB6MU7dI
+sort: 138282
+ownership:
+  default: 0
+  txZjek5EOiCBHPoz: 3
+_stats:
+  compendiumSource: Compendium.pf2e.equipment-srd.Item.S9eytXwDMdwdSh2z
+  duplicateSource: null
+  coreVersion: '13.346'
+  systemId: pf2e
+  systemVersion: 7.2.3
+  createdTime: 1718606591261
+  modifiedTime: 1752208111692
+  lastModifiedBy: txZjek5EOiCBHPoz
+  exportSource: null
+_key: '!items!lrxSW29nmkcRAkVL'

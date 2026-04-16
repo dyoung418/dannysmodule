@@ -1,0 +1,120 @@
+folder: 0sHlxu87NFujfkup
+name: Reclaim Potential
+type: feat
+_id: fFqbtsxOHZngAaGM
+img: systems/dnd5e/icons/svg/items/feature.svg
+system:
+  description:
+    value: >-
+      <p><em>15th-level Echo Knight feature</em></p><p>You’ve learned to absorb
+      the fleeting magic of your echo. When an echo of yours is destroyed by
+      taking damage, you can gain a number of temporary hit points equal to 2d6
+      + your Constitution modifier, provided you don’t already have temporary
+      hit points.</p><p>You can use this feature a number of times equal to your
+      Constitution modifier (a minimum of once). You regain all expended uses
+      when you finish a long rest.</p>
+    chat: ''
+  source:
+    revision: 1
+    rules: '2024'
+  uses:
+    max: max(1,@abilities.con.mod)
+    recovery:
+      - period: lr
+        type: recoverAll
+    spent: 0
+  type:
+    value: class
+    subtype: ''
+  properties: []
+  requirements: Fighter 15 (Echo Knight)
+  activities:
+    dnd5eactivity000:
+      _id: dnd5eactivity000
+      type: utility
+      activation:
+        type: special
+        value: null
+        condition: Your Echo is destroyed by taking damage
+        override: false
+      consumption:
+        targets:
+          - type: itemUses
+            target: ''
+            value: '1'
+            scaling:
+              mode: ''
+              formula: ''
+        scaling:
+          allowed: false
+          max: ''
+        spellSlot: true
+      description:
+        chatFlavor: You gain temporary hitpoints
+      duration:
+        concentration: false
+        value: ''
+        units: inst
+        special: ''
+        override: false
+      effects: []
+      range:
+        units: self
+        special: ''
+        override: false
+      target:
+        template:
+          count: ''
+          contiguous: false
+          type: ''
+          size: ''
+          width: ''
+          height: ''
+          units: ''
+        affects:
+          count: ''
+          type: ''
+          choice: false
+          special: ''
+        prompt: true
+        override: false
+      uses:
+        spent: 0
+        max: ''
+        recovery: []
+      roll:
+        formula: 2d6 + @mod
+        name: ''
+        prompt: false
+        visible: false
+      sort: 0
+  identifier: reclaim-potential
+  enchant: {}
+  prerequisites:
+    level: null
+    repeatable: false
+  advancement: []
+  crewed: false
+effects: []
+sort: 125000
+ownership:
+  default: 0
+  38Gfe7fp1EmVmZNj: 3
+flags:
+  dnd5e:
+    persistSourceMigration: true
+    migratedUses: 1
+    riders:
+      activity: []
+      effect: []
+_stats:
+  systemId: dnd5e
+  systemVersion: 5.0.4
+  coreVersion: '13.346'
+  createdTime: 1709682823818
+  modifiedTime: 1752197371435
+  lastModifiedBy: 1pY4akW8WASxGBbA
+  compendiumSource: null
+  duplicateSource: null
+  exportSource: null
+_key: '!items!fFqbtsxOHZngAaGM'

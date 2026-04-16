@@ -1,0 +1,61 @@
+folder: yTd2CNZ9biWYoOF6
+name: Specialised Artisan
+type: campaignFeature
+effects: []
+system:
+  description:
+    gm: ''
+    value: "<p>These shops and homes are devoted to crafters who create fine jewelry, glassware, clockworks, and the like.</p>\n<hr />\n<p><strong>Lots</strong>\_1;\_<strong>Cost</strong>\_10 RP, 4 Lumber, 1 Luxury</p>\n<p><strong>Construction</strong>\_Trade (expert) DC 19</p>\n<p><strong>Item Bonus</strong>\_+1 item bonus to\_<a class=\"content-link\" draggable=\"true\" data-uuid=\"Compendium.pf2e.kingmaker-features.Item.B70XC3Ci1SqemPlT\" data-id=\"B70XC3Ci1SqemPlT\" data-type=\"Item\" data-pack=\"pf2e.kingmaker-features\" data-tooltip=\"Campaign Feature Item\">Craft Luxuries</a></p>\n<p><strong>Effects</strong>\_While in a settlement with a specialized artisan, you gain a +1 item bonus to\_<a class=\"content-link\" draggable=\"true\" data-uuid=\"Compendium.pf2e.actionspf2e.Item.rmwa3OyhTZ2i2AHl\" data-id=\"rmwa3OyhTZ2i2AHl\" data-type=\"Item\" data-pack=\"pf2e.actionspf2e\" data-tooltip=\"Ability Item\">Craft</a> checks made to craft specialized goods like jewelry.</p>"
+  rules:
+    - hideIfDisabled: true
+      key: FlatModifier
+      label: Specialized Artisan bonus to Craft Luxuries
+      predicate:
+        - action:craft-luxuries
+      selector: kingdom-check
+      type: item
+      value: 1
+  slug: null
+  _migration:
+    version: 0.94
+    previous:
+      schema: 0.939
+      foundry: '13.345'
+      system: 7.2.0
+  traits:
+    otherTags: []
+    value: []
+  publication:
+    title: ''
+    authors: ''
+    license: OGL
+    remaster: false
+  campaign: kingmaker
+  category: kingdom-feat
+  actionType:
+    value: passive
+  actions:
+    value: null
+  prerequisites:
+    value: []
+  location: null
+  level:
+    value: 4
+_id: HZTVybXQ7bU14jzy
+img: modules/pf2e-kingmaker/assets/maps-settlements/buildings/special-artisan.webp
+sort: 0
+ownership:
+  default: 0
+  txZjek5EOiCBHPoz: 3
+flags: {}
+_stats:
+  compendiumSource: null
+  duplicateSource: null
+  coreVersion: '13.346'
+  systemId: pf2e
+  systemVersion: 7.2.3
+  createdTime: 1718606591261
+  modifiedTime: 1752208111692
+  lastModifiedBy: txZjek5EOiCBHPoz
+  exportSource: null
+_key: '!items!HZTVybXQ7bU14jzy'

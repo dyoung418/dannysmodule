@@ -1,0 +1,671 @@
+folder: 1XrfuqzpstOwCTFI
+name: Kingdom Turn Quickly
+type: script
+author: txZjek5EOiCBHPoz
+img: icons/svg/tower.svg
+scope: global
+command: |-
+  // Take a variety of common kingdom actions to streamline kingdom turns.
+  main()
+
+  async function main() {
+      
+      let kingdom = game.actors.party?.campaign;
+      if(!kingdom){
+          ui.notifications.error("You don't seem to have a kingdom");
+      }
+      console.log(kingdom);
+      
+      const option = await showOptions();
+      //console.log(`Option: `, option);
+      
+      makeRolls(kingdom, option);
+      
+  }
+
+  async function makeRolls(kingdom, options) {
+      const blankRp = {0:0, 1:0, 2:0, 3:0};
+      const basicResultText = {0:`<b style="color:red;">Critical Failure</b>`, 
+          1:`<b style="color:red;">Failure</b>`, 
+          2:`<b style="color:blue;">Success</b>`, 
+          3:`<b style="color:blue;">Critical Success</b>`};
+      const chResultText = {0:`On next turn, reduce Resource Dice total by 4. Also take a –1 circumstance penalty to Loyalty-based checks until the end of the next Kingdom turn. @UUID[Item.RULdEEmHmDBNIgp1]{Loyalty bonus or penalty}`, 
+          1:`No benefit, but still expensive. Immediately roll 1 Resource Die and spend RP equal to the result. If you can't afford this cost, treat this result as a Critical Failure instead.`, 
+          2:`You gain a +1 circumstance bonus to Loyalty-based checks until the end of your next Kingdom turn (@UUID[Item.RULdEEmHmDBNIgp1]{Loyalty bonus or penalty}). Immediately roll 1 Resource Die and spend RP equal to the result. If you can't afford this cost, treat this result as a Critical Failure instead.`, 
+          3:`Gain +2 circumstance bonus to Loyalty checks until end of next kingdom turn @UUID[Item.RULdEEmHmDBNIgp1]{Loyalty bonus or penalty}`};
+      const cmResultText = {0:`Lose 1 Fame or Infamy point; if you have no Fame or Infamy points to lose, instead gain 1d4 unrest`, 
+          1:`no impact`, 
+          2:`Gain 1 Fame or Infamy point immediately.`, 
+          3:`Gain 1 Fame or Infamy point immediately, and at the start of your next Kingdom turn, gain 1 additional Fame or Infamy point. Immediately roll 2 Resource Dice. Gain RP equal to the result.`};
+      const eteResultText = {0:`Increase Unrest by 1d4 (done) and increase Decay by 1`, 
+          1:`Reduce Unrest by only 1 (done)`, 
+          2:`Reduce Unrest by 1d3 (done)`, 
+          3:`Reduce Unrest by 1d4 (done), and either reduce Crime by 2 or reduce Corruption or Strife by 1.`};
+      const tcvkResultText = {0:`-1 Circ penalty next check with this skill`, 
+          1:`no impact`, 
+          2:`Gain 1 RP (already done)`, 
+          3:`Gain 1 RP (already done) AND +1 circumstance bonus on next check of this skill this turn`};
+      const tcvkResultRp = {0:0, 1:0, 2:1, 3:1};
+      const faResultText = {0:`no impact`, 
+          1:`no impact`, 
+          2:`+2 circumstance bonus on next check of this skill`, 
+          3:`+2 circumstance bonus on next check of this skill`};
+      const quResultText = {0:`EITHER increase Unrest by 1d4 OR increase 2 Ruins of your choice by 1`, 
+          1:`no impact`, 
+          2:`Reduce Unrest by 1 (done)`, 
+          3:`Reduce Unrest by 1d6 (done)`};
+      const quResultUnrest = {0:0, 1:0, 2:-1, 3:-1* (await new Roll('1d6').roll()).result};
+      const rnrResultText = {0:`-2 circumstance penalty to next skill check as leadership activity`, 
+          1:`no impact`, 
+          2:`reduce unrest by 1 (done)`, 
+          3:`reduce unrest by 1 (done) and get +2 circumstance bonus on next leadership activity check`};
+      const claimhexResultText = {0:`You fail to claim the hex, and you to take a –1 circumstance penalty to Stability-based checks until the end of your next Kingdom turn. (RP deducted)`, 
+          1:`You fail to claim the hex (RP deducted)`, 
+          2:`You claim the hex, increasing your kingdom's Size by 1.  Add 10 kingdom XP. (RP deducted)`, 
+          3:`You claim the hex, increasing your kingdom's Size by 1.  Add 10 kingdom XP (RP deducted). Additionally, you can immediately take another Region activity`};
+      const rnrResultUnrest = {0:0, 1:0, 2:-1, 3:-1};
+      const eteResultUnrest = {0:(await new Roll('1d4').roll()).result, 1:-1, 2:-1 * (await new Roll('1d3').roll()).result, 3:-1 * (await new Roll('1d4').roll()).result};
+      const rrResultUnrest = {0:(await new Roll('1d4').roll()).result, 1:0, 2:0, 3:0};
+      let rdie = `1d${kingdom.resources.dice.faces}`;
+      const choices = { 
+          //the first key is the text that will be captured by the dialog
+          //the keys under result_text and result_rp are the codes returned by the roll for critical fail, fail, success, critical success (0,1,2,3)
+          'mta-trad': {'action': "Manage Trade Agreements", 'skill': "trade", 
+              'result_text': {0:`You can't manage trade agreements for 1 kingdom turn. Remember to expend 2 RP per trade agreement.`, 
+                  1:`Gain 1RP per trade agreement next turn. Remember to expend 2 RP per trade agreement.`, 
+                  2:`Next turn EITHER: gain 1 resource die per trade agreement, OR 1 commodity of your choice per trade agreement (no more than half of these luxuries). Remember to expend 2 RP per trade agreement.`, 
+                  3:`Next turn: gain 1 resource die per trade agreement, AND 1 commodity of your choice per trade agreement (no more than half of these luxuries). Remember to expend 2 RP per trade agreement.`}, 
+              'result_rp': blankRp},
+          'tcomm-indu': {'action': "Trade Commodities", 'skill': "industry", 
+                  'result_text': {0:`If you traded commodities the previous turn, gain 1 Unrest. Remember to expend commodities`, 
+                      1:`Next turn, Gain 1 bonus resource die. Remember to expend commodities`, 
+                      2:`Next turn, gain 1 resource die per expended commodity. Remember to expend commodities`, 
+                      3:`Next turn, gain 2 resource die per expended commodity. Remember to expend commodities`}, 
+                  'result_rp': blankRp},
+          'ch-folk': {'action': "Celebrate Holiday", 'skill': "folklore", 'result_text': chResultText, 'result_rp': blankRp},
+          'cl-arts': {'action': "Craft Luxuries", 'skill': "arts", 
+                  'result_text': {0:`Increase Ruin by 1 (RP deducted)`, 1:`no impact (RP deducted)`, 2:`gain 1 luxury good (RP deducted)`, 3:`gain 1d4 luxury goods (RP deducted)`}, 
+                  'result_rp': {0:-1* (await new Roll(rdie).roll()).result, 1:-1* (await new Roll(rdie).roll()).result, 2:-1* (await new Roll(rdie).roll()).result, 3:-1* (await new Roll(rdie).roll()).result}}, // NOTE the true cost is "Roll 1 resource dice and spend RP equal to result" -- this is just a hack.
+          'cm-arts': {'action': "Create a Masterpiece", 'skill': "arts", 'result_text': cmResultText, 'result_rp': blankRp},
+          'ete-folk': {'action': "Evangelize The End (Harrim)", 'skill': "folklore", 'result_text': eteResultText, 'result_rp': blankRp, 'result_unrest': eteResultUnrest, 'skip_if_zero_unrest_and_ruin': true},
+          'pc-defe': {'action': "Provide Care", 'skill': "defense", 
+              'result_text': {0:` Increase your Unrest or a Ruin of your choice by 1`, 1:`no impact`, 2:`Reduce Unrest by 1 (done)`, 3:`Reduce Unrest by 1 (done) and reduce one Ruin of your choice by 1`}, 
+              'result_rp': blankRp, 
+              'result_unrest': {0:0, 1:0, 2:-1, 3:-1},
+               'skip_if_zero_unrest_and_ruin': true},
+          'fa-agri': {'action': "Focused Attention", 'skill': "agriculture", 'result_text': faResultText, 'result_rp': blankRp},
+          'fa-arts': {'action': "Focused Attention", 'skill': "arts",'result_text': faResultText, 'result_rp': blankRp},
+          'fa-boat': {'action': "Focused Attention", 'skill': "boating",'result_text': faResultText, 'result_rp': blankRp},
+          'fa-defe': {'action': "Focused Attention", 'skill': "defense",'result_text': faResultText, 'result_rp': blankRp},
+          'fa-engi': {'action': "Focused Attention", 'skill': "engineering",'result_text': faResultText, 'result_rp': blankRp},
+          'fa-expl': {'action': "Focused Attention", 'skill': "exploration",'result_text': faResultText, 'result_rp': blankRp},
+          'fa-folk': {'action': "Focused Attention", 'skill': "folklore",'result_text': faResultText, 'result_rp': blankRp},
+          'fa-indu': {'action': "Focused Attention", 'skill': "industry",'result_text': faResultText, 'result_rp': blankRp},
+          'fa-intr': {'action': "Focused Attention", 'skill': "intrigue",'result_text': faResultText, 'result_rp': blankRp},
+          'fa-magi': {'action': "Focused Attention", 'skill': "magic",'result_text': faResultText, 'result_rp': blankRp},
+          'fa-poli': {'action': "Focused Attention", 'skill': "politics",'result_text': faResultText, 'result_rp': blankRp},
+          'fa-scho': {'action': "Focused Attention", 'skill': "scholarship",'result_text': faResultText, 'result_rp': blankRp},
+          'fa-stat': {'action': "Focused Attention", 'skill': "statecraft",'result_text': faResultText, 'result_rp': blankRp},
+          'fa-trad': {'action': "Focused Attention", 'skill': "trade",'result_text': faResultText, 'result_rp': blankRp},
+          'fa-warf': {'action': "Focused Attention", 'skill': "warfare",'result_text': faResultText, 'result_rp': blankRp},
+          'fa-wild': {'action': "Focused Attention", 'skill': "wilderness",'result_text': faResultText, 'result_rp': blankRp},
+          'ha-expl': {'action': "Hire Adventurers", 'skill': "exploration", 
+              'result_text': {0:`You fail to end the +0 continuous event. You can no longer attempt to end this continuous event by hiring adventurers (RP deducted)`, 
+                  1:`You fail to end the +0 continuous event (RP deducted). If you try to end the continuous event again, the cost in RP increases to 2 resouce dice`, 
+                  2:`The +0 continuous event doesn't end, but you gain a +2 circumstance bonus to resolve the event during the next Event phase (RP deducted)`, 
+                  3:`You end the +0 continuous event. (RP deducted)`}, 
+              'result_rp': {0:-1* (await new Roll(rdie).roll()).result, 1:-1* (await new Roll(rdie).roll()).result, 2:-1* (await new Roll(rdie).roll()).result, 3:-1* (await new Roll(rdie).roll()).result}}, // NOTE the true cost is "Roll 1 resource dice and spend RP equal to result" -- this is just a hack.
+          'qu-arts': {'action': "Quell Unrest", 'skill': "arts",'result_text': quResultText, 'result_rp': blankRp, 'result_unrest': quResultUnrest, 'skip_if_zero_unrest': true},
+          'qu-folk': {'action': "Quell Unrest", 'skill': "folklore",'result_text': quResultText, 'result_rp': blankRp, 'result_unrest': quResultUnrest, 'skip_if_zero_unrest': true},
+          'qu-intr': {'action': "Quell Unrest", 'skill': "intrigue",'result_text': quResultText, 'result_rp': blankRp, 'result_unrest': quResultUnrest, 'skip_if_zero_unrest': true},
+          'qu-magi': {'action': "Quell Unrest", 'skill': "magic",'result_text': quResultText, 'result_rp': blankRp, 'result_unrest': quResultUnrest, 'skip_if_zero_unrest': true},
+          'qu-poli': {'action': "Quell Unrest", 'skill': "politics",'result_text': quResultText, 'result_rp': blankRp, 'result_unrest': quResultUnrest, 'skip_if_zero_unrest': true},
+          'qu-warf': {'action': "Quell Unrest", 'skill': "warfare",'result_text': quResultText, 'result_rp': blankRp, 'result_unrest': quResultUnrest, 'skip_if_zero_unrest': true},
+          'rhvk-wild': {'action': "Reconnoiter Hex (V&K)", 'skill': "wilderness", 
+              'result_text': {0:`team fails and some are lost. You take -1 circumstance penalty to Loyalty checks until end on next kingdom turn`, 1:`hex not reconnoitered, but basic info comes back`, 2:`hex is reconnoitered`, 3:`hex reconnoitered, team finds any hidden features. You may immediately attempt additional Reconnoiter Hex`}, 
+              'result_rp': {0:-1, 1:-1, 2:-1, 3:-1}},
+          'rr-arts': {'action': "Repair Reputation (Trained)", 'skill': "arts",
+              'result_text': {0:`Cannot attempt Repair Reputation for 3 Kingdom Turns`, 1:`Cannot attempt Repair Reputation for Corruption for 1 turn`, 2:`Reduce Corruption by 1`, 3:`Reduce Corruption by 2 and reduce its current ruin penalty by 1 to a minimum of 0`}, 
+              'result_rp': blankRp, 
+              'result_unrest':rrResultUnrest,
+              'dc_modifier': 2},
+          'rr-engi': {'action': "Repair Reputation (Trained)", 'skill': "engineering",
+              'result_text': {0:`Cannot attempt Repair Reputation for 3 Kingdom Turns`, 1:`Cannot attempt Repair Reputation for Decay for 1 turn`, 2:`Reduce Decay by 1`, 3:`Reduce Decay by 2 and reduce its current ruin penalty by 1 to a minimum of 0`}, 
+              'result_rp': blankRp, 
+              'result_unrest':rrResultUnrest,
+              'dc_modifier': 2},
+          'rr-intr': {'action': "Repair Reputation (Trained)", 'skill': "intrigue",
+              'result_text': {0:`Cannot attempt Repair Reputation for 3 Kingdom Turns`, 1:`Cannot attempt Repair Reputation for Strife for 1 turn`, 2:`Reduce Strife by 1`, 3:`Reduce Strife by 2 and reduce its current ruin penalty by 1 to a minimum of 0`}, 
+              'result_rp': blankRp, 
+              'result_unrest':rrResultUnrest,
+              'dc_modifier': 2},
+          'rr-trad': {'action': "Repair Reputation (Trained)", 'skill': "trade",
+              'result_text': {0:`Cannot attempt Repair Reputation for 3 Kingdom Turns`, 1:`Cannot attempt Repair Reputation for Crime for 1 turn`, 2:`Reduce Crime by 1`, 3:`Reduce Crime by 2 and reduce its current ruin penalty by 1 to a minimum of 0`}, 
+              'result_rp': blankRp, 
+              'result_unrest':rrResultUnrest,
+              'dc_modifier': 2},
+          'rnr-arts': {'action': "Rest and Relax", 'skill': "arts",'result_text': rnrResultText, 'result_rp': blankRp, 'result_unrest':rnrResultUnrest, 'skip_if_zero_unrest': true},
+          'rnr-boat': {'action': "Rest and Relax", 'skill': "boating",'result_text': rnrResultText, 'result_rp': blankRp, 'result_unrest':rnrResultUnrest, 'skip_if_zero_unrest': true},
+          'rnr-scho': {'action': "Rest and Relax", 'skill': "scholarship",'result_text': rnrResultText, 'result_rp': blankRp, 'result_unrest':rnrResultUnrest, 'skip_if_zero_unrest': true},
+          'rnr-trad': {'action': "Rest and Relax", 'skill': "trade",'result_text': rnrResultText, 'result_rp': blankRp, 'result_unrest':rnrResultUnrest, 'skip_if_zero_unrest': true},
+          'rnr-wild': {'action': "Rest and Relax", 'skill': "wilderness",'result_text': rnrResultText, 'result_rp': blankRp, 'result_unrest':rnrResultUnrest, 'skip_if_zero_unrest': true},
+          'stl-arts': {'action': "Spread The Legend (Linzi)", 'skill': "arts",
+              'result_text': {0:`Increase Unrest by 1d4 (done)`, 1:`Reduce unrest by 1 (done)`, 2:`Reduce Unrest by 1d6 (done)`, 3:`Reduce Unrest by 1d6 (done), Gain 1 bonus Fame next turn, Reduce DC of ongoing dangerous event by 1 this turn`}, 
+              'result_rp': blankRp, 
+              'result_unrest': {0:(await new Roll('1d4').roll()).result, 1:-1, 2:-1* (await new Roll('1d6').roll()).result, 3:-1* (await new Roll('1d6').roll()).result},
+              'skip_if_zero_unrest': true},
+          'tcvk-agri': {'action': "Take Charge (V&K)", 'skill': "agriculture", 'result_text': tcvkResultText, 'result_rp': tcvkResultRp},
+          'tcvk-arts': {'action': "Take Charge (V&K)", 'skill': "arts", 'result_text': tcvkResultText, 'result_rp': tcvkResultRp},
+          'tcvk-boat': {'action': "Take Charge (V&K)", 'skill': "boating", 'result_text': tcvkResultText, 'result_rp': tcvkResultRp},
+          'tcvk-defe': {'action': "Take Charge (V&K)", 'skill': "defense", 'result_text': tcvkResultText, 'result_rp': tcvkResultRp},
+          'tcvk-engi': {'action': "Take Charge (V&K)", 'skill': "engineering", 'result_text': tcvkResultText, 'result_rp': tcvkResultRp},
+          'tcvk-expl': {'action': "Take Charge (V&K)", 'skill': "exploration", 'result_text': tcvkResultText, 'result_rp': tcvkResultRp},
+          'tcvk-folk': {'action': "Take Charge (V&K)", 'skill': "folklore", 'result_text': tcvkResultText, 'result_rp': tcvkResultRp},
+          'tcvk-indu': {'action': "Take Charge (V&K)", 'skill': "industry", 'result_text': tcvkResultText, 'result_rp': tcvkResultRp},
+          'tcvk-intr': {'action': "Take Charge (V&K)", 'skill': "intrigue", 'result_text': tcvkResultText, 'result_rp': tcvkResultRp},
+          'tcvk-magi': {'action': "Take Charge (V&K)", 'skill': "magic", 'result_text': tcvkResultText, 'result_rp': tcvkResultRp},
+          'tcvk-poli': {'action': "Take Charge (V&K)", 'skill': "politics", 'result_text': tcvkResultText, 'result_rp': tcvkResultRp},
+          'tcvk-scho': {'action': "Take Charge (V&K)", 'skill': "scholarship", 'result_text': tcvkResultText, 'result_rp': tcvkResultRp},
+          'tcvk-stat': {'action': "Take Charge (V&K)", 'skill': "statecraft", 'result_text': tcvkResultText, 'result_rp': tcvkResultRp},
+          'tcvk-trad': {'action': "Take Charge (V&K)", 'skill': "trade", 'result_text': tcvkResultText, 'result_rp': tcvkResultRp},
+          'tcvk-warf': {'action': "Take Charge (V&K)", 'skill': "warfare", 'result_text': tcvkResultText, 'result_rp': tcvkResultRp},
+          'tcvk-wild': {'action': "Take Charge (V&K)", 'skill': "wilderness", 'result_text': tcvkResultText, 'result_rp': tcvkResultRp},
+          'claimhex-expl': {'action': "Claim Hex", 'skill': "exploration", 'result_text': claimhexResultText, 'result_rp': {0:1, 1:1, 2:1, 3:1}},
+          'claimhex-intr': {'action': "Claim Hex", 'skill': "intrigue", 'result_text': claimhexResultText, 'result_rp': {0:1, 1:1, 2:1, 3:1}},
+          'claimhex-magi': {'action': "Claim Hex", 'skill': "magic", 'result_text': claimhexResultText, 'result_rp': {0:1, 1:1, 2:1, 3:1}},
+          'claimhex-wild': {'action': "Claim Hex", 'skill': "wilderness", 'result_text': claimhexResultText, 'result_rp': {0:1, 1:1, 2:1, 3:1}},
+          'cs-scho': {'action': "Creative Solution", 'skill': "scholarship",
+              'result_text': {0:`No advantage, -1 penalty to culture checks till end of next turn, cost of 2d6 RP (done).`, 1:`No advantage and cost of 2d6 RP (done)`, 2:`On chosen kingdom check, can re-roll with +2 circumstance bonus. If unused this turn, add 10XP.  Cost 1d4 RP (done)`, 3:`On chosen kingdom check, can re-roll with +2 circumstance bonus. If unused this turn, add 10XP.`}, 
+              'result_rp': {0:-1 * (await new Roll('2d6').roll()).result, 1:-1 * (await new Roll('2d6').roll()).result, 2:-1* (await new Roll('1d4').roll()).result, 3:0}},
+          'ss-magi': {'action': "Supernatural Solution", 'skill': "magic",
+                  'result_text': {0:`No advantage and cost of 2d6 RP (done). You cannot attempt a Supernatural Solution again for 2 Kingdom turns`, 1:`No advantage and cost of 2d6 RP (done)`, 2:`Before chosen kingdom check, roll both normal skill and magic and choose the one you want. If unused this turn, add 10XP.  Cost 1d4 RP (done)`, 3:`Before chosen kingdom check, roll both normal skill and magic and choose the one you want. If unused this turn, add 10XP`}, 
+                  'result_rp': {0:-1 * (await new Roll('2d6').roll()).result, 1:-1 * (await new Roll('2d6').roll()).result, 2:-1* (await new Roll('1d4').roll()).result, 3:0}}
+              }
+      let finalMessage = ['<p><b>Kingdom Rolls Summary</b></p><hr>'];
+      let rollSummary;
+      for(let option of options){
+          if(choices[option].hasOwnProperty('skip_if_zero_unrest') && kingdom.unrest.value == 0){
+              console.log(`Skipping ${choices[option].action} / ${choices[option].skill} because unrest is zero`)
+              continue;
+          }
+          if(choices[option].hasOwnProperty('skip_if_zero_unrest_and_ruin') && kingdom.unrest.value == 0 && kingdom.abilities.culture.ruin.value == 0 &&
+                  kingdom.abilities.economy.ruin.value == 0 && kingdom.abilities.loyalty.ruin.value == 0 && kingdom.abilities.stability.ruin.value == 0){
+              console.log(`Skipping ${choices[option].action} / ${choices[option].skill} because unrest and ruins are zero`)
+              continue;
+          }
+          const rollDc = choices[option].hasOwnProperty('dc_modifier') ? kingdom.control.dc.value + choices[option].dc_modifier : kingdom.control.dc.value;
+          const roll = await game.actors.party.getStatistic(choices[option].skill).roll({
+              "dc": rollDc,
+              "item": kingdom.activities.find((a)=>a.name==choices[option].action),
+              "extraRollOptions": [
+                  "downtime",
+                  "leadership" // DAY TODO - I have some non-leadership actions in the list now.
+              ],
+              "title": `Kingdom Action: ${choices[option].action} / ${choices[option].skill}`,
+              "skipDialog": true
+          });
+          // Create summarization of the roll
+          rollSummary = `<p><b>${choices[option].action} / ${choices[option].skill}:</b></p><p style="margin-left: 25px;">${basicResultText[roll.degreeOfSuccess]}: ${choices[option].result_text[roll.degreeOfSuccess]}</p>`;
+          // Make any change required to Kingdom Resource Points
+          if(choices[option].result_rp[roll.degreeOfSuccess] != 0){
+              await kingdom.update({"resources.points": Math.max(0, parseInt(kingdom.resources.points) + parseInt(choices[option].result_rp[roll.degreeOfSuccess])) });
+              rollSummary = rollSummary.concat(`<p style="margin-left: 35px;">(RP changed by ${choices[option].result_rp[roll.degreeOfSuccess]})</p>`);
+          }
+          // Make any change required to Kingdom Unrest
+          if(choices[option].hasOwnProperty('result_unrest') && choices[option].result_unrest[roll.degreeOfSuccess] != 0){
+              console.log(`Unrest before changing = ${kingdom.unrest.value}.  About to change by ${choices[option].result_unrest[roll.degreeOfSuccess]}`);
+              await kingdom.update({"unrest.value": Math.max(0, parseInt(kingdom.unrest.value) + parseInt(choices[option].result_unrest[roll.degreeOfSuccess])) });
+              console.log(`Unrest after changing = ${kingdom.unrest.value}`);
+              rollSummary = rollSummary.concat(`<p style="margin-left: 35px;">(Unrest changed by ${choices[option].result_unrest[roll.degreeOfSuccess]})</p>`);
+          }
+          // Send result to chat
+          //ChatMessage.create({ content: rollSummary });
+          // accumulate the message for big summary message at the end.
+          finalMessage.push(rollSummary);
+      }
+      // Send big summary message of all rolls
+      ChatMessage.create({content: finalMessage.join("<hr>")});
+      return;
+  }
+
+  async function changeKingdom() {
+      console.log(`Current resource points = ${kingdom.resources.points}.`);
+      await kingdom.update({"resources.points": kingdom.resources.points-1});
+      console.log(`Now the resource points = ${kingdom.resources.points}`);
+      return;
+  }
+
+  async function showOptions() {
+      // A custom dialog. (see https://foundryvtt.wiki/en/development/api/dialog)
+      
+      return new Promise((resolve, reject) => {
+          const dialog = new foundry.applications.api.DialogV2({
+              window: { title: "Choose an option" },
+              content: `
+                  <form>
+                      <table>
+                          <thead>
+                              <tr>
+                                  <th>Action</th>
+                                  <th>agri</th>
+                                  <th>arts</th>
+                                  <th>boat</th>
+                                  <th>defe</th>
+                                  <th>engi</th>
+                                  <th>expl</th>
+                                  <th>folk</th>
+                                  <th>indu</th>
+                                  <th>intr</th>
+                                  <th>magi</th>
+                                  <th>poli</th>
+                                  <th>scho</th>
+                                  <th>stat</th>
+                                  <th>trad</th>
+                                  <th>warf</th>
+                                  <th>wild</th>
+                              </tr>
+                          </thead>
+                          <tbody>
+                              <tr>
+                                  <td>Manage Trade Agreements</td>
+                                  <td> </td>
+                                  <td> </td>
+                                  <td> </td>
+                                  <td> </td>
+                                  <td> </td>
+                                  <td> </td>
+                                  <td> </td>
+                                  <td> </td>
+                                  <td> </td>
+                                  <td> </td>
+                                  <td> </td>
+                                  <td> </td>
+                                  <td> </td>
+                                  <td><input type="checkbox" name="mta-trad" value="1" ></td> <!-- put 'checked' after value="1" in order to default to checked -->
+                                  <td> </td>
+                                  <td> </td>
+                              </tr>
+                              <tr>
+                                  <td>Trade Commodities</td>
+                                  <td> </td>
+                                  <td> </td>
+                                  <td> </td>
+                                  <td> </td>
+                                  <td> </td>
+                                  <td> </td>
+                                  <td> </td>
+                                  <td><input type="checkbox" name="tcomm-indu" value="1" ></td>
+                                  <td> </td>
+                                  <td> </td>
+                                  <td> </td>
+                                  <td> </td>
+                                  <td> </td>
+                                  <td> </td>
+                                  <td> </td>
+                                  <td> </td>
+                              </tr>
+                              <tr>
+                                  <td>Spread the Legend</td>
+                                  <td> </td> <!-- agriculture -->
+                                  <td><input type="checkbox" name="stl-arts" value="1" checked></td> <!-- arts -->
+                                  <td> </td> <!-- boating -->
+                                  <td> </td> <!-- defense -->
+                                  <td> </td> <!-- engineering -->
+                                  <td> </td> <!-- exploration -->
+                                  <td> </td> <!-- folklore -->
+                                  <td> </td> <!-- industry -->
+                                  <td> </td> <!-- intrigue -->
+                                  <td> </td> <!-- magic -->
+                                  <td> </td> <!-- politics -->
+                                  <td> </td> <!-- scholarship -->
+                                  <td> </td> <!-- statecraft -->
+                                  <td> </td> <!-- trade -->
+                                  <td> </td> <!-- warfare -->
+                                  <td> </td> <!-- wilderness -->
+                              </tr>
+                              <tr>
+                                  <td>Evangelize The End</td>
+                                  <td> </td> <!-- agriculture -->
+                                  <td> </td> <!-- arts -->
+                                  <td> </td> <!-- boating -->
+                                  <td> </td> <!-- defense -->
+                                  <td> </td> <!-- engineering -->
+                                  <td> </td> <!-- exploration -->
+                                  <td><input type="checkbox" name="ete-folk" value="1" checked></td> <!-- folklore -->
+                                  <td> </td> <!-- industry -->
+                                  <td> </td> <!-- intrigue -->
+                                  <td> </td> <!-- magic -->
+                                  <td> </td> <!-- politics -->
+                                  <td> </td> <!-- scholarship -->
+                                  <td> </td> <!-- statecraft -->
+                                  <td> </td> <!-- trade -->
+                                  <td> </td> <!-- warfare -->
+                                  <td> </td> <!-- wilderness -->
+                              </tr>
+                              <tr>
+                                  <td>Provide Care</td>
+                                  <td> </td> <!-- agriculture -->
+                                  <td> </td> <!-- arts -->
+                                  <td> </td> <!-- boating -->
+                                  <td><input type="checkbox" name="pc-defe" value="1" checked></td> <!-- defense -->
+                                  <td> </td> <!-- engineering -->
+                                  <td> </td> <!-- exploration -->
+                                  <td> </td> <!-- folklore -->
+                                  <td> </td> <!-- industry -->
+                                  <td> </td> <!-- intrigue -->
+                                  <td> </td> <!-- magic -->
+                                  <td> </td> <!-- politics -->
+                                  <td> </td> <!-- scholarship -->
+                                  <td> </td> <!-- statecraft -->
+                                  <td> </td> <!-- trade -->
+                                  <td> </td> <!-- warfare -->
+                                  <td> </td> <!-- wilderness -->
+                              </tr>
+                              <tr>
+                                  <td>Rest and Relax</td>
+                                  <td> </td>
+                                  <td><input type="checkbox" name="rnr-arts" value="1" ></td>
+                                  <td><input type="checkbox" name="rnr-boat" value="1" ></td>
+                                  <td> </td>
+                                  <td> </td>
+                                  <td> </td>
+                                  <td> </td>
+                                  <td> </td>
+                                  <td> </td>
+                                  <td> </td>
+                                  <td> </td>
+                                  <td><input type="checkbox" name="rnr-scho" value="1" ></td>
+                                  <td> </td>
+                                  <td><input type="checkbox" name="rnr-trad" value="1" checked></td>
+                                  <td> </td>
+                                  <td><input type="checkbox" name="rnr-wild" value="1" ></td>
+                              </tr>
+                              <tr>
+                                  <td>Quell Unrest</td>
+                                  <td> </td> <!-- agriculture -->
+                                  <td><input type="checkbox" name="qu-arts" value="1" ></td> <!-- arts -->
+                                  <td> </td> <!-- boating -->
+                                  <td> </td> <!-- defense -->
+                                  <td> </td> <!-- engineering -->
+                                  <td> </td> <!-- exploration -->
+                                  <td><input type="checkbox" name="qu-folk" value="1" ></td> <!-- folklore -->
+                                  <td> </td> <!-- industry -->
+                                  <td><input type="checkbox" name="qu-intr" value="1" ></td> <!-- intrigue -->
+                                  <td><input type="checkbox" name="qu-magi" value="1" checked></td> <!-- magic -->
+                                  <td><input type="checkbox" name="qu-poli" value="1" ></td> <!-- politics -->
+                                  <td> </td> <!-- scholarship -->
+                                  <td> </td> <!-- statecraft -->
+                                  <td> </td> <!-- trade -->
+                                  <td><input type="checkbox" name="qu-warf" value="1" ></td> <!-- warfare -->
+                                  <td> </td> <!-- wilderness -->
+                              </tr>
+                              <tr>
+                                  <td>Repair Reputation (Cor,Cri,Dec,Str)</td>
+                                  <td> </td> <!-- agriculture -->
+                                  <td><input type="checkbox" name="rr-arts" value="1" ></td> <!-- arts -->
+                                  <td> </td> <!-- boating -->
+                                  <td> </td> <!-- defense -->
+                                  <td><input type="checkbox" name="rr-engi" value="1" ></td> <!-- engineering -->
+                                  <td> </td> <!-- exploration -->
+                                  <td> </td> <!-- folklore -->
+                                  <td> </td> <!-- industry -->
+                                  <td><input type="checkbox" name="rr-intr" value="1" ></td> <!-- intrigue -->
+                                  <td> </td> <!-- magic -->
+                                  <td> </td> <!-- politics -->
+                                  <td> </td> <!-- scholarship -->
+                                  <td> </td> <!-- statecraft -->
+                                  <td><input type="checkbox" name="rr-trad" value="1" ></td> <!-- trade -->
+                                  <td> </td> <!-- warfare -->
+                                  <td> </td> <!-- wilderness -->
+                              </tr>
+                              <tr>
+                                  <td>Celebrate Holiday</td>
+                                  <td> </td> <!-- agriculture -->
+                                  <td> </td> <!-- arts -->
+                                  <td> </td> <!-- boating -->
+                                  <td> </td> <!-- defense -->
+                                  <td> </td> <!-- engineering -->
+                                  <td> </td> <!-- exploration -->
+                                  <td><input type="checkbox" name="ch-folk" value="1" ></td> <!-- folklore -->
+                                  <td> </td> <!-- industry -->
+                                  <td> </td> <!-- intrigue -->
+                                  <td> </td> <!-- magic -->
+                                  <td> </td> <!-- politics -->
+                                  <td> </td> <!-- scholarship -->
+                                  <td> </td> <!-- statecraft -->
+                                  <td> </td> <!-- trade -->
+                                  <td> </td> <!-- warfare -->
+                                  <td> </td> <!-- wilderness -->
+                              </tr>
+                              <tr>
+                                  <td>Take Charge (V&K)</td>
+                                  <td><input type="checkbox" name="tcvk-agri" value="1" ></td>
+                                  <td><input type="checkbox" name="tcvk-arts" value="1" ></td>
+                                  <td><input type="checkbox" name="tcvk-boat" value="1" ></td>
+                                  <td><input type="checkbox" name="tcvk-defe" value="1" ></td>
+                                  <td><input type="checkbox" name="tcvk-engi" value="1" ></td>
+                                  <td><input type="checkbox" name="tcvk-expl" value="1" ></td>
+                                  <td><input type="checkbox" name="tcvk-folk" value="1" ></td>
+                                  <td><input type="checkbox" name="tcvk-indu" value="1" ></td>
+                                  <td><input type="checkbox" name="tcvk-intr" value="1" ></td>
+                                  <td><input type="checkbox" name="tcvk-magi" value="1" ></td>
+                                  <td><input type="checkbox" name="tcvk-poli" value="1" ></td>
+                                  <td><input type="checkbox" name="tcvk-scho" value="1" ></td>
+                                  <td><input type="checkbox" name="tcvk-stat" value="1" ></td>
+                                  <td><input type="checkbox" name="tcvk-trad" value="1" ></td>
+                                  <td><input type="checkbox" name="tcvk-warf" value="1" ></td>
+                                  <td><input type="checkbox" name="tcvk-wild" value="1" ></td>
+                              </tr>
+                              <tr>
+                                  <td>Focused Attention</td>
+                                  <td><input type="checkbox" name="fa-agri" value="1" ></td>
+                                  <td><input type="checkbox" name="fa-arts" value="1" ></td>
+                                  <td><input type="checkbox" name="fa-boat" value="1" ></td>
+                                  <td><input type="checkbox" name="fa-defe" value="1" ></td>
+                                  <td><input type="checkbox" name="fa-engi" value="1" ></td>
+                                  <td><input type="checkbox" name="fa-expl" value="1" ></td>
+                                  <td><input type="checkbox" name="fa-folk" value="1" ></td>
+                                  <td><input type="checkbox" name="fa-indu" value="1" ></td>
+                                  <td><input type="checkbox" name="fa-intr" value="1" ></td>
+                                  <td><input type="checkbox" name="fa-magi" value="1" ></td>
+                                  <td><input type="checkbox" name="fa-poli" value="1" ></td>
+                                  <td><input type="checkbox" name="fa-scho" value="1" ></td>
+                                  <td><input type="checkbox" name="fa-stat" value="1" ></td>
+                                  <td><input type="checkbox" name="fa-trad" value="1" ></td>
+                                  <td><input type="checkbox" name="fa-warf" value="1" ></td>
+                                  <td><input type="checkbox" name="fa-wild" value="1" ></td>
+                              </tr>
+                              <tr>
+                                  <td>Craft Luxuries</td>
+                                  <td> </td> <!-- agriculture -->
+                                  <td><input type="checkbox" name="cl-arts" value="1" ></td> <!-- arts -->
+                                  <td> </td> <!-- boating -->
+                                  <td> </td> <!-- defense -->
+                                  <td> </td> <!-- engineering -->
+                                  <td> </td> <!-- exploration -->
+                                  <td> </td> <!-- folklore -->
+                                  <td> </td> <!-- industry -->
+                                  <td> </td> <!-- intrigue -->
+                                  <td> </td> <!-- magic -->
+                                  <td> </td> <!-- politics -->
+                                  <td> </td> <!-- scholarship -->
+                                  <td> </td> <!-- statecraft -->
+                                  <td> </td> <!-- trade -->
+                                  <td> </td> <!-- warfare -->
+                                  <td> </td> <!-- wilderness -->
+                              </tr>
+                              <tr>
+                                  <td>Create a Masterpiece</td>
+                                  <td> </td> <!-- agriculture -->
+                                  <td><input type="checkbox" name="cm-arts" value="1" ></td> <!-- arts -->
+                                  <td> </td> <!-- boating -->
+                                  <td> </td> <!-- defense -->
+                                  <td> </td> <!-- engineering -->
+                                  <td> </td> <!-- exploration -->
+                                  <td> </td> <!-- folklore -->
+                                  <td> </td> <!-- industry -->
+                                  <td> </td> <!-- intrigue -->
+                                  <td> </td> <!-- magic -->
+                                  <td> </td> <!-- politics -->
+                                  <td> </td> <!-- scholarship -->
+                                  <td> </td> <!-- statecraft -->
+                                  <td> </td> <!-- trade -->
+                                  <td> </td> <!-- warfare -->
+                                  <td> </td> <!-- wilderness -->
+                              </tr>
+                              <tr>
+                                  <td>Hire Adventurers</td>
+                                  <td> </td> <!-- agriculture -->
+                                  <td> </td> <!-- arts -->
+                                  <td> </td> <!-- boating -->
+                                  <td> </td> <!-- defense -->
+                                  <td> </td> <!-- engineering -->
+                                  <td><input type="checkbox" name="ha-expl" value="1" ></td> <!-- exploration -->
+                                  <td> </td> <!-- folklore -->
+                                  <td> </td> <!-- industry -->
+                                  <td> </td> <!-- intrigue -->
+                                  <td> </td> <!-- magic -->
+                                  <td> </td> <!-- politics -->
+                                  <td> </td> <!-- scholarship -->
+                                  <td> </td> <!-- statecraft -->
+                                  <td> </td> <!-- trade -->
+                                  <td> </td> <!-- warfare -->
+                                  <td> </td> <!-- wilderness -->
+                              </tr>
+                              <tr>
+                                  <td>Creative Solution</td>
+                                  <td> </td> <!-- agriculture -->
+                                  <td> </td> <!-- arts -->
+                                  <td> </td> <!-- boating -->
+                                  <td> </td> <!-- defense -->
+                                  <td> </td> <!-- engineering -->
+                                  <td> </td> <!-- exploration -->
+                                  <td> </td> <!-- folklore -->
+                                  <td> </td> <!-- industry -->
+                                  <td> </td> <!-- intrigue -->
+                                  <td> </td> <!-- magic -->
+                                  <td> </td> <!-- politics -->
+                                  <td><input type="checkbox" name="cs-scho" value="1" ></td> <!-- scholarship -->
+                                  <td> </td> <!-- statecraft -->
+                                  <td> </td> <!-- trade -->
+                                  <td> </td> <!-- warfare -->
+                                  <td> </td> <!-- wilderness -->
+                              </tr>
+                              <tr>
+                                  <td>Supernatural Solution</td>
+                                  <td> </td> <!-- agriculture -->
+                                  <td> </td> <!-- arts -->
+                                  <td> </td> <!-- boating -->
+                                  <td> </td> <!-- defense -->
+                                  <td> </td> <!-- engineering -->
+                                  <td> </td> <!-- exploration -->
+                                  <td> </td> <!-- folklore -->
+                                  <td> </td> <!-- industry -->
+                                  <td> </td> <!-- intrigue -->
+                                  <td><input type="checkbox" name="ss-magi" value="1" ></td> <!-- magic -->
+                                  <td> </td> <!-- politics -->
+                                  <td> </td> <!-- scholarship -->
+                                  <td> </td> <!-- statecraft -->
+                                  <td> </td> <!-- trade -->
+                                  <td> </td> <!-- warfare -->
+                                  <td> </td> <!-- wilderness -->
+                              </tr>
+                              <tr>
+                                  <td>Reconnoiter Hex (V&K)</td>
+                                  <td> </td>
+                                  <td> </td>
+                                  <td> </td>
+                                  <td> </td>
+                                  <td> </td>
+                                  <td> </td>
+                                  <td> </td>
+                                  <td> </td>
+                                  <td> </td>
+                                  <td> </td>
+                                  <td> </td>
+                                  <td> </td>
+                                  <td> </td>
+                                  <td> </td>
+                                  <td> </td>
+                                  <td><input type="checkbox" name="rhvk-wild" value="1" ></td>
+                              </tr>
+                              <tr>
+                                  <td>Claim Hex</td>
+                                  <td> </td> <!-- agriculture -->
+                                  <td> </td> <!-- arts -->
+                                  <td> </td> <!-- boating -->
+                                  <td> </td> <!-- defense -->
+                                  <td> </td> <!-- engineering -->
+                                  <td><input type="checkbox" name="claimhex-expl" value="1" ></td> <!-- exploration -->
+                                  <td> </td> <!-- folklore -->
+                                  <td> </td> <!-- industry -->
+                                  <td><input type="checkbox" name="claimhex-intr" value="1" ></td> <!-- intrigue -->
+                                  <td><input type="checkbox" name="claimhex-magi" value="1" ></td> <!-- magic -->
+                                  <td> </td> <!-- politics -->
+                                  <td> </td> <!-- scholarship -->
+                                  <td> </td> <!-- statecraft -->
+                                  <td> </td> <!-- trade -->
+                                  <td> </td> <!-- warfare -->
+                                  <td><input type="checkbox" name="claimhex-wild" value="1" ></td> <!-- wilderness -->
+                              </tr>
+                          </tbody>
+                      </table>
+                  </form>
+                  `,
+              buttons: [
+                  {
+                      action: "choice",
+                      label: "Submit",
+                      default: true,
+                      callback: (event, button, dialog) => {
+                          //console.log(`event`, event);
+                          //console.log(`button`, button);
+                          //console.log(`dialog`, dialog);
+                          //console.log(`button.form`, button.form);
+                          //console.log(`button.form.elements`, button.form.elements);
+                          let selected = [];
+                          const elements = button.form.elements;
+                          for ( let i = 0; i < elements.length; i++ ){
+                              if(elements[i].type == "checkbox"){
+                                  if(elements[i].checked) {
+                                      selected.push(elements[i].name);
+                                  }
+                              }
+                          }
+                          resolve(selected);
+                      }
+                  }, 
+                  {
+                      action: "cancel",
+                      label: "Cancel",
+                      callback: () => reject('User canceled.'),
+                  }
+              ],
+              submit: result => {
+                  resolve(result);
+              },
+              close: () => {
+                  reject('User canceled');
+              },
+          });
+          
+          dialog.render(true);
+      });
+  }
+flags: {}
+_stats:
+  compendiumSource: null
+  duplicateSource: null
+  coreVersion: '13.346'
+  systemId: pf2e
+  systemVersion: 6.0.2
+  createdTime: 1718664509825
+  modifiedTime: 1752208126881
+  lastModifiedBy: txZjek5EOiCBHPoz
+  exportSource: null
+ownership:
+  default: 0
+  gcpIdQ3dGIHSmvov: 3
+_id: oI0RnauxWs7GBOwt
+sort: 0
+_key: '!macros!oI0RnauxWs7GBOwt'

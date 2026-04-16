@@ -1,0 +1,72 @@
+folder: 0BxmixOCuUUNHkjf
+img: systems/pf2e/icons/default-icons/campaignFeature.svg
+name: Train Army (DAY)
+system:
+  description:
+    gm: ''
+    value: >-
+      <p>You train an army in the use of a tactic. Choose one of the tactics
+      from those listed
+      @UUID[JournalEntry.TBY1Ir2GtQJqW8VD.JournalEntryPage.87Ow7NpkaPbQFNlV]{starting
+      on page 575}, then attempt a
+      @Check[scholarship|dc:resolve(@kingdom.control.dc)] or
+      @Check[warfare|dc:resolve(@kingdom.control.dc)] check against the tactic's
+      Training DC (See
+      @UUID[Compendium.dannysmodule.day-journals.JournalEntry.aI76gXcm5nen7azD.JournalEntryPage.dRu66xNqJ9Ihe1or#level-based-dcs]{DC
+      by level}). If your army has already learned its maximum number of
+      tactics, the newly learned tactic replaces a previously learned tactic of
+      your choice.</p><hr /><p><strong>Critical Success</strong> The army learns
+      the tactic and then becomes efficient.</p><p><strong>Success</strong> The
+      army learns the tactic.</p><p><strong>Failure</strong> The army fails to
+      learn the tactic.</p><p><strong>Critical Failure</strong> The army not
+      only fails to learn the tactic but becomes frustrated and exhausted from
+      the training; increase the army's weary condition by 1.</p>
+  rules: []
+  slug: train-army
+  _migration:
+    version: 0.94
+    previous:
+      schema: 0.939
+      foundry: '13.345'
+      system: 7.2.0
+  traits:
+    otherTags: []
+    value:
+      - army
+      - downtime
+  publication:
+    title: Pathfinder Kingmaker
+    authors: ''
+    license: OGL
+    remaster: false
+  campaign: kingmaker
+  category: kingdom-activity
+  actionType:
+    value: passive
+  actions:
+    value: null
+  prerequisites:
+    value: []
+  location: null
+  level:
+    value: 1
+type: campaignFeature
+_stats:
+  compendiumSource: Compendium.pf2e.kingmaker-features.Item.bc9JdbyJ8HWrpLLx
+  duplicateSource: null
+  coreVersion: '13.346'
+  systemId: pf2e
+  systemVersion: 7.2.3
+  createdTime: 1719728560488
+  modifiedTime: 1752208111692
+  lastModifiedBy: txZjek5EOiCBHPoz
+  exportSource: null
+flags:
+  core: {}
+effects: []
+_id: T7YEnIGgtkDbO83K
+sort: 0
+ownership:
+  default: 0
+  txZjek5EOiCBHPoz: 3
+_key: '!items!T7YEnIGgtkDbO83K'

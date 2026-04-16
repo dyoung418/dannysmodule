@@ -1,0 +1,115 @@
+name: Catapult
+type: spell
+system:
+  source:
+    custom: ''
+    book: XGE
+    page: '150'
+    license: ''
+  description:
+    value: >-
+      <div class="rd__b  rd__b--3"><p>Choose one object weighing 1 to 5 pounds
+      within range that isn't being worn or carried. The object flies in a
+      straight line up to 90 feet in a direction you choose before falling to
+      the ground, stopping early if it impacts against a solid surface. If the
+      object would strike a creature, that creature must make a Dexterity saving
+      throw. On a failed save, the object strikes the target and stops moving.
+      When the object strikes something, the object and what it strikes each
+      take [[/r 3d8]] bludgeoning damage.</p><div
+      class="rd__spc-inline-post"></div></div><div class="rd__b  rd__b--3"><div
+      class="rd__b  rd__b--3"><span class="rd__h rd__h--3" data-title-index="1">
+      <span class="entry-title-inner">At Higher Levels.</span></span> <p>When
+      you cast this spell using a spell slot of 2nd level or higher, the maximum
+      weight of objects that you can target with this spell increases by 5
+      pounds, and the damage increases by [[/r 1d8]], for each slot level above
+      1st.</p><div class="rd__spc-inline-post"></div></div><div
+      class="rd__spc-inline-post"></div></div><div><span class="bold">Classes:
+      </span>Artificer, Sorcerer, Wizard</div>
+    chat: ''
+  actionType: save
+  level: 1
+  school: trs
+  properties:
+    - somatic
+  materials:
+    value: ''
+    consumed: false
+    cost: 0
+    supply: 0
+  target:
+    value: 0
+    units: ''
+    type: ''
+    prompt: true
+    width: null
+  range:
+    value: 60
+    units: ft
+    long: null
+  activation:
+    type: action
+    cost: 1
+    condition: ''
+  duration:
+    value: ''
+    units: inst
+  damage:
+    parts:
+      - - 3d8
+        - bludgeoning
+    versatile: ''
+  scaling:
+    mode: level
+    formula: 1d8
+  save:
+    ability: dex
+    dc: null
+    scaling: spell
+  uses:
+    value: null
+    max: ''
+    per: null
+    recovery: ''
+    prompt: true
+  attackBonus: ''
+  chatFlavor: ''
+  critical:
+    threshold: null
+    damage: ''
+  formula: ''
+  preparation:
+    mode: prepared
+    prepared: false
+  consume:
+    type: ''
+    target: null
+    amount: null
+    scale: false
+  cover: null
+  crewed: false
+  ability: null
+img: icons/magic/water/projectile-ice-chunk.webp
+ownership:
+  default: 0
+  38Gfe7fp1EmVmZNj: 3
+flags:
+  plutonium:
+    page: spells.html
+    source: XGE
+    hash: catapult_xge
+    propDroppable: spell
+effects: []
+folder: xcRlAcnidmHoYRJ1
+_id: SV2HsyM57tUH9NBS
+sort: 0
+_stats:
+  systemId: dnd5e
+  systemVersion: 3.0.2
+  coreVersion: '13.345'
+  createdTime: 1708109197627
+  modifiedTime: 1708227409300
+  lastModifiedBy: 38Gfe7fp1EmVmZNj
+  compendiumSource: null
+  duplicateSource: null
+  exportSource: null
+_key: '!items!SV2HsyM57tUH9NBS'

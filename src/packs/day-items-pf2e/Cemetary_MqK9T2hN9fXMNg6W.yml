@@ -1,0 +1,54 @@
+folder: yTd2CNZ9biWYoOF6
+name: Cemetary
+type: campaignFeature
+effects: []
+system:
+  description:
+    gm: ''
+    value: "<p>A cemetery sets aside a plot of land to bury the dead and can also include above-ground vaults or underground catacombs.</p>\n<hr />\n<p><strong>Lots</strong>\_1;\_<strong>Cost</strong>\_4 RP, 1 Stone</p>\n<p><strong>Construction</strong>\_Folklore DC 15</p>\n<p><strong>Effects</strong> Giving the citizens a place to bury and remember their departed loved ones helps to temper Unrest gained from dangerous events. If you have at least one cemetery in a settlement, reduce Unrest gained from any dangerous settlement events in that particular settlement by 1 (to a maximum of 4 for four cemeteries). The presence of a cemetery provides additional effects during certain kingdom events.</p>"
+  rules: []
+  slug: null
+  _migration:
+    version: 0.94
+    previous:
+      schema: 0.939
+      foundry: '13.345'
+      system: 7.2.0
+  traits:
+    otherTags: []
+    value:
+      - kingdom
+  publication:
+    title: ''
+    authors: ''
+    license: OGL
+    remaster: false
+  campaign: kingmaker
+  category: kingdom-feat
+  actionType:
+    value: passive
+  actions:
+    value: null
+  prerequisites:
+    value: []
+  location: null
+  level:
+    value: 1
+_id: MqK9T2hN9fXMNg6W
+img: modules/pf2e-kingmaker/assets/maps-settlements/buildings/cemetery.webp
+sort: 0
+ownership:
+  default: 0
+  txZjek5EOiCBHPoz: 3
+flags: {}
+_stats:
+  compendiumSource: null
+  duplicateSource: null
+  coreVersion: '13.346'
+  systemId: pf2e
+  systemVersion: 7.2.3
+  createdTime: 1718606591261
+  modifiedTime: 1752208111692
+  lastModifiedBy: txZjek5EOiCBHPoz
+  exportSource: null
+_key: '!items!MqK9T2hN9fXMNg6W'

@@ -1,0 +1,153 @@
+name: Create Homunculus
+type: spell
+system:
+  source:
+    custom: ''
+    book: XGE
+    page: '152'
+    license: ''
+    revision: 1
+    rules: '2024'
+  description:
+    value: >-
+      <div class="rd__b  rd__b--3"><p>While speaking an intricate incantation,
+      you cut yourself with a jewel-encrusted dagger, taking [[/r 2d4]] piercing
+      damage that can't be reduced in any way. You then drip your blood on the
+      spell's other components and touch them, transforming them into a special
+      construct called a @creature[homunculus].</p><div
+      class="rd__spc-inline-post"></div><p>The statistics of the
+      @creature[homunculus] are in the Monster Manual. It is your faithful
+      companion, and it dies if you die. Whenever you finish a long rest, you
+      can spend up to half your Hit Dice if the homunculus is on the same plane
+      of existence as you. When you do so, roll each die and add your
+      Constitution modifier to it. Your hit point maximum is reduced by the
+      total, and the homunculus's hit point maximum and current hit points are
+      both increased by it. This process can reduce you to no lower than 1 hit
+      point, and the change to your and the homunculus's hit points ends when
+      you finish your next long rest. The reduction to your hit point maximum
+      can't be removed by any means before then, except by the homunculus's
+      death.</p><p>You can have only one homunculus at a time. If you cast this
+      spell while your homunculus lives, the spell fails.</p></div><div><span
+      class="bold">Classes: </span>Wizard</div>
+    chat: ''
+  level: 6
+  school: trs
+  properties:
+    - vocal
+    - somatic
+    - material
+  materials:
+    value: >-
+      clay, ash, and mandrake root, all of which the spell consumes, and a
+      jewel-encrusted dagger worth at least 1,000 gp
+    consumed: true
+    cost: 1000
+    supply: 0
+  target:
+    affects:
+      choice: false
+    template:
+      units: touch
+      contiguous: false
+  range:
+    value: '0'
+    units: touch
+  activation:
+    type: hour
+    condition: ''
+    value: 1
+  duration:
+    value: ''
+    units: inst
+  uses:
+    max: ''
+    spent: 0
+    recovery: []
+  preparation:
+    mode: prepared
+    prepared: false
+  activities:
+    dnd5eactivity000:
+      _id: dnd5eactivity000
+      type: damage
+      activation:
+        type: action
+        value: null
+        override: false
+      consumption:
+        targets: []
+        scaling:
+          allowed: false
+          max: ''
+        spellSlot: true
+      description:
+        chatFlavor: ''
+      duration:
+        units: inst
+        concentration: false
+        override: false
+      effects: []
+      range:
+        override: false
+        units: self
+      target:
+        prompt: true
+        template:
+          contiguous: false
+          units: ft
+        affects:
+          choice: false
+        override: false
+      uses:
+        spent: 0
+        max: ''
+        recovery: []
+      damage:
+        critical:
+          allow: false
+          bonus: ''
+        parts:
+          - number: 2
+            denomination: 4
+            bonus: ''
+            types:
+              - piercing
+            custom:
+              enabled: false
+              formula: ''
+            scaling:
+              mode: ''
+              number: null
+              formula: ''
+      sort: 0
+  identifier: create-homunculus
+img: icons/commodities/treasure/statuette-gargoyle-green-gold.webp
+ownership:
+  default: 0
+  38Gfe7fp1EmVmZNj: 3
+flags:
+  plutonium:
+    page: spells.html
+    source: XGE
+    hash: create%20homunculus_xge
+    propDroppable: spell
+  dnd5e:
+    persistSourceMigration: true
+    riders:
+      activity: []
+      effect: []
+effects: []
+folder: 0FHG6CpgiMvDREpM
+_id: i0ebv4ER8EhE0Znc
+sort: 0
+_stats:
+  systemId: dnd5e
+  systemVersion: 5.0.4
+  coreVersion: '13.346'
+  createdTime: 1709684306742
+  modifiedTime: 1752197371435
+  lastModifiedBy: 1pY4akW8WASxGBbA
+  compendiumSource: null
+  duplicateSource: null
+  exportSource: null
+_key: '!items!i0ebv4ER8EhE0Znc'

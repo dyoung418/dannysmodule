@@ -1,0 +1,134 @@
+name: Light
+type: spell
+system:
+  source:
+    custom: ''
+    book: PHB
+    page: '255'
+    license: ''
+    revision: 1
+    rules: '2024'
+  description:
+    value: >-
+      <div class="rd__b  rd__b--3"><p>You touch one object that is no larger
+      than 10 feet in any dimension. Until the spell ends, the object sheds
+      bright light in a 20-foot radius and dim light for an additional 20 feet.
+      The light can be colored as you like. Completely covering the object with
+      something opaque blocks the light. The spell ends if you cast it again or
+      dismiss it as an action.</p><div class="rd__spc-inline-post"></div><p>If
+      you target an object held or worn by a hostile creature, that creature
+      must succeed on a Dexterity saving throw to avoid the
+      spell.</p></div><div><span class="bold">Classes: </span>Artificer, Bard,
+      Cleric, Sorcerer, Wizard</div>
+    chat: ''
+  level: 0
+  school: evo
+  properties:
+    - vocal
+    - material
+  materials:
+    value: a firefly or phosphorescent moss
+    consumed: false
+    cost: 0
+    supply: 0
+  target:
+    affects:
+      type: object
+      count: '1'
+      choice: false
+    template:
+      units: touch
+      contiguous: false
+  range:
+    value: '0'
+    units: touch
+  activation:
+    type: action
+    condition: ''
+    value: 1
+  duration:
+    value: '1'
+    units: hour
+  uses:
+    max: ''
+    spent: 0
+    recovery: []
+  preparation:
+    mode: always
+    prepared: false
+  activities:
+    dnd5eactivity000:
+      _id: dnd5eactivity000
+      type: save
+      activation:
+        type: action
+        override: false
+      consumption:
+        targets: []
+        scaling:
+          allowed: false
+          max: ''
+        spellSlot: true
+      description:
+        chatFlavor: ''
+      duration:
+        units: inst
+        concentration: false
+        override: false
+      effects: []
+      range:
+        units: self
+        override: false
+      target:
+        prompt: true
+        template:
+          contiguous: false
+          units: ft
+        affects:
+          choice: false
+        override: false
+      uses:
+        spent: 0
+        max: ''
+        recovery: []
+      damage:
+        onSave: none
+        parts: []
+      save:
+        ability:
+          - dex
+        dc:
+          calculation: spellcasting
+          formula: ''
+      sort: 0
+  identifier: light
+img: icons/magic/light/orb-lightbulb-gray.webp
+ownership:
+  default: 0
+  38Gfe7fp1EmVmZNj: 3
+flags:
+  plutonium:
+    page: spells.html
+    source: PHB
+    hash: light_phb
+    propDroppable: spell
+  dnd5e:
+    persistSourceMigration: true
+    riders:
+      activity: []
+      effect: []
+effects: []
+folder: LiW94aeo1pXMSCLr
+_id: 4fg9G3btttahmhvK
+sort: 0
+_stats:
+  systemId: dnd5e
+  systemVersion: 5.0.4
+  coreVersion: '13.346'
+  createdTime: 1708228997805
+  modifiedTime: 1752197371435
+  lastModifiedBy: 1pY4akW8WASxGBbA
+  compendiumSource: null
+  duplicateSource: null
+  exportSource: null
+_key: '!items!4fg9G3btttahmhvK'

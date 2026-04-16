@@ -1,0 +1,115 @@
+name: Tasha's Caustic Brew
+type: spell
+system:
+  source:
+    custom: ''
+    book: TCE
+    page: '115'
+    license: ''
+  description:
+    value: >-
+      <div class="rd__b  rd__b--3"><p>A stream of acid emanates from you in a
+      line 30 feet long and 5 feet wide in a direction you choose. Each creature
+      in the line must succeed on a Dexterity saving throw or be covered in acid
+      for the spell's duration or until a creature uses its action to scrape or
+      wash the acid off itself or another creature. A creature covered in the
+      acid takes [[/r 2d4]] acid damage at start of each of its turns.</p><div
+      class="rd__spc-inline-post"></div></div><div class="rd__b  rd__b--3"><div
+      class="rd__b  rd__b--3"><span class="rd__h rd__h--3" data-title-index="1">
+      <span class="entry-title-inner">At Higher Levels.</span></span> <p>When
+      you cast this spell using a spell slot of 2nd level or higher, the damage
+      increases by [[/r 2d4]] for each slot level above 1st.</p><div
+      class="rd__spc-inline-post"></div></div><div
+      class="rd__spc-inline-post"></div></div><div><span class="bold">Classes:
+      </span>Artificer</div>
+    chat: ''
+  actionType: save
+  level: 1
+  school: evo
+  properties:
+    - vocal
+    - somatic
+    - material
+    - concentration
+  materials:
+    value: a bit of rotten food
+    consumed: false
+    cost: 0
+    supply: 0
+  target:
+    value: 30
+    units: ft
+    type: line
+    prompt: true
+    width: null
+  range:
+    value: 0
+    units: ''
+    long: null
+  activation:
+    type: action
+    cost: 1
+    condition: ''
+  duration:
+    value: '1'
+    units: minute
+  damage:
+    parts:
+      - - 2d4
+        - acid
+    versatile: ''
+  scaling:
+    mode: level
+    formula: 2d4
+  save:
+    ability: dex
+    dc: null
+    scaling: spell
+  uses:
+    value: null
+    max: ''
+    per: null
+    recovery: ''
+    prompt: true
+  attackBonus: ''
+  chatFlavor: ''
+  critical:
+    threshold: null
+    damage: ''
+  formula: ''
+  preparation:
+    mode: prepared
+    prepared: false
+  consume:
+    type: ''
+    target: null
+    amount: null
+    scale: false
+  cover: null
+  crewed: false
+  ability: null
+img: icons/magic/acid/projectile-glowing-bubbles.webp
+ownership:
+  default: 0
+  38Gfe7fp1EmVmZNj: 3
+flags:
+  plutonium:
+    page: spells.html
+    source: TCE
+    hash: tasha's%20caustic%20brew_tce
+    propDroppable: spell
+effects: []
+folder: xcRlAcnidmHoYRJ1
+_id: l5Y4sVXNlDeq4sE9
+sort: 0
+_stats:
+  systemId: dnd5e
+  systemVersion: 3.0.2
+  coreVersion: '13.345'
+  createdTime: 1708109197545
+  modifiedTime: 1708227409300
+  lastModifiedBy: 38Gfe7fp1EmVmZNj
+  compendiumSource: null
+  duplicateSource: null
+  exportSource: null
+_key: '!items!l5Y4sVXNlDeq4sE9'

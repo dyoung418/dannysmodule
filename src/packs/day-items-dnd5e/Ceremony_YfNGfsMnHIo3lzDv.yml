@@ -1,0 +1,138 @@
+name: Ceremony
+type: spell
+system:
+  source:
+    custom: ''
+    book: XGE
+    page: '151'
+    license: ''
+  description:
+    value: >-
+      <div class="rd__b  rd__b--3"><p>You perform a special religious ceremony
+      that is infused with magic. When you cast the spell, choose one of the
+      following rites, the target of which must be within 10 feet of you
+      throughout the casting.</p><div class="rd__spc-inline-post"></div><div
+      class="rd__b  rd__b--3"><span class="rd__h rd__h--3" data-title-index="1">
+      <span class="entry-title-inner">Atonement.</span></span> <p>You touch one
+      willing creature whose alignment has changed, and you make a DC 20 Wisdom
+      (@skill[Insight]) check. On a successful check, you restore the target to
+      its original alignment.</p><div
+      class="rd__spc-inline-post"></div></div><div class="rd__b  rd__b--3"><span
+      class="rd__h rd__h--3" data-title-index="2"> <span
+      class="entry-title-inner">Bless Water.</span></span> <p>You touch one
+      @item[vial|phb] of water and cause it to become @item[Holy Water
+      (flask)|phb|holy water].</p><div
+      class="rd__spc-inline-post"></div></div><div class="rd__b  rd__b--3"><span
+      class="rd__h rd__h--3" data-title-index="3"> <span
+      class="entry-title-inner">Coming of Age.</span></span> <p>You touch one
+      humanoid who is a young adult. For the next 24 hours, whenever the target
+      makes an ability check, it can roll a [[/r d4]] and add the number rolled
+      to the ability check. A creature can benefit from this rite only
+      once.</p><div class="rd__spc-inline-post"></div></div><div class="rd__b 
+      rd__b--3"><span class="rd__h rd__h--3" data-title-index="4"> <span
+      class="entry-title-inner">Dedication.</span></span> <p>You touch one
+      humanoid who wishes to be dedicated to your god's service. For the next 24
+      hours, whenever the target makes a saving throw, it can roll a [[/r d4]]
+      and add the number rolled to the save. A creature can benefit from this
+      rite only once.</p><div class="rd__spc-inline-post"></div></div><div
+      class="rd__b  rd__b--3"><span class="rd__h rd__h--3" data-title-index="5">
+      <span class="entry-title-inner">Funeral Rite.</span></span> <p>You touch
+      one corpse, and for the next 7 days, the target can't become undead by any
+      means short of a @spell[wish] spell.</p><div
+      class="rd__spc-inline-post"></div></div><div class="rd__b  rd__b--3"><span
+      class="rd__h rd__h--3" data-title-index="6"> <span
+      class="entry-title-inner">Wedding.</span></span> <p>You touch adult
+      humanoids willing to be bonded together in marriage. For the next 7 days,
+      each target gains a +2 bonus to AC while they are within 30 feet of each
+      other. A creature can benefit from this rite again only if
+      widowed.</p><div class="rd__spc-inline-post"></div></div></div><div><span
+      class="bold">Classes: </span>Cleric, Paladin</div>
+    chat: ''
+  actionType: util
+  level: 1
+  school: abj
+  properties:
+    - vocal
+    - somatic
+    - material
+    - ritual
+  materials:
+    value: 25 gp worth of powdered silver, which the spell consumes
+    consumed: true
+    cost: 25
+    supply: 0
+  target:
+    value: 0
+    units: touch
+    type: ''
+    prompt: true
+    width: null
+  range:
+    value: 0
+    units: touch
+    long: null
+  activation:
+    type: hour
+    cost: 1
+    condition: ''
+  duration:
+    value: ''
+    units: inst
+  damage:
+    parts: []
+    versatile: ''
+  scaling:
+    mode: none
+    formula: ''
+  save:
+    dc: null
+    scaling: spell
+    ability: ''
+  uses:
+    value: null
+    max: ''
+    per: null
+    recovery: ''
+    prompt: true
+  attackBonus: ''
+  chatFlavor: ''
+  critical:
+    threshold: null
+    damage: ''
+  formula: d4
+  preparation:
+    mode: prepared
+    prepared: false
+  consume:
+    type: ''
+    target: null
+    amount: null
+    scale: false
+  cover: null
+  crewed: false
+  ability: null
+img: icons/skills/trades/academics-study-reading-book.webp
+ownership:
+  default: 0
+  38Gfe7fp1EmVmZNj: 3
+flags:
+  plutonium:
+    page: spells.html
+    source: XGE
+    hash: ceremony_xge
+    propDroppable: spell
+effects: []
+folder: mGClZW2Oh0n8h6fG
+_id: YfNGfsMnHIo3lzDv
+sort: 0
+_stats:
+  systemId: dnd5e
+  systemVersion: 3.0.2
+  coreVersion: '13.345'
+  createdTime: 1708227629351
+  modifiedTime: 1708227680382
+  lastModifiedBy: 38Gfe7fp1EmVmZNj
+  compendiumSource: null
+  duplicateSource: null
+  exportSource: null
+_key: '!items!YfNGfsMnHIo3lzDv'

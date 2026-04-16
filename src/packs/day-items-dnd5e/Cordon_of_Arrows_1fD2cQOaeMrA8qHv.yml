@@ -1,0 +1,156 @@
+name: Cordon of Arrows
+type: spell
+system:
+  source:
+    custom: ''
+    book: PHB
+    page: '228'
+    license: ''
+    revision: 1
+    rules: '2024'
+  description:
+    value: >-
+      <div class="rd__b  rd__b--3"><p>You plant four pieces of nonmagical
+      ammunition—@item[arrow|phb|arrows] or @item[crossbow bolt|phb|crossbow
+      bolts]—in the ground within range and lay magic upon them to protect an
+      area. Until the spell ends, whenever a creature other than you comes
+      within 30 feet of the ammunition for the first time on a turn or ends its
+      turn there, one piece of ammunition flies up to strike it. The creature
+      must succeed on a Dexterity saving throw or take [[/r 1d6]] piercing
+      damage. The piece of ammunition is then destroyed. The spell ends when no
+      ammunition remains.</p><div class="rd__spc-inline-post"></div><p>When you
+      cast this spell, you can designate any creatures you choose, and the spell
+      ignores them.</p></div><div class="rd__b  rd__b--3"><div class="rd__b 
+      rd__b--3"><span class="rd__h rd__h--3" data-title-index="1"> <span
+      class="entry-title-inner">At Higher Levels.</span></span> <p>When you cast
+      this spell using a spell slot of 3rd level or higher, the amount of
+      ammunition that can be affected increases by two for each slot level above
+      2nd.</p><div class="rd__spc-inline-post"></div></div><div
+      class="rd__spc-inline-post"></div></div><div><span class="bold">Classes:
+      </span>Ranger</div>
+    chat: ''
+  level: 2
+  school: trs
+  properties:
+    - vocal
+    - somatic
+    - material
+  materials:
+    value: four or more arrows or bolts
+    consumed: false
+    cost: 0
+    supply: 0
+  target:
+    affects:
+      choice: false
+    template:
+      units: ft
+      type: sphere
+      size: '30'
+      contiguous: false
+  range:
+    value: '5'
+    units: ft
+  activation:
+    type: action
+    condition: ''
+    value: 1
+  duration:
+    value: '8'
+    units: hour
+  uses:
+    max: ''
+    spent: 0
+    recovery: []
+  preparation:
+    mode: prepared
+    prepared: false
+  activities:
+    dnd5eactivity000:
+      _id: dnd5eactivity000
+      type: save
+      activation:
+        type: action
+        value: null
+        override: false
+      consumption:
+        targets: []
+        scaling:
+          allowed: false
+          max: ''
+        spellSlot: true
+      description:
+        chatFlavor: ''
+      duration:
+        units: inst
+        concentration: false
+        override: false
+      effects: []
+      range:
+        override: false
+        units: self
+      target:
+        prompt: true
+        template:
+          contiguous: false
+          units: ft
+        affects:
+          choice: false
+        override: false
+      uses:
+        spent: 0
+        max: ''
+        recovery: []
+      damage:
+        onSave: half
+        parts:
+          - number: 1
+            denomination: 6
+            bonus: ''
+            types:
+              - piercing
+            custom:
+              enabled: false
+              formula: ''
+            scaling:
+              mode: ''
+              number: null
+              formula: ''
+      save:
+        ability:
+          - dex
+        dc:
+          calculation: spellcasting
+          formula: ''
+      sort: 0
+  identifier: cordon-of-arrows
+img: icons/skills/ranged/arrows-flying-salvo-yellow.webp
+ownership:
+  default: 0
+  38Gfe7fp1EmVmZNj: 3
+flags:
+  plutonium:
+    page: spells.html
+    source: PHB
+    hash: cordon%20of%20arrows_phb
+    propDroppable: spell
+  dnd5e:
+    persistSourceMigration: true
+    riders:
+      activity: []
+      effect: []
+effects: []
+folder: 5RW3khzmlcXrGJ9s
+_id: 1fD2cQOaeMrA8qHv
+sort: 0
+_stats:
+  systemId: dnd5e
+  systemVersion: 5.0.4
+  coreVersion: '13.346'
+  createdTime: 1708227517268
+  modifiedTime: 1752197371435
+  lastModifiedBy: 1pY4akW8WASxGBbA
+  compendiumSource: null
+  duplicateSource: null
+  exportSource: null
+_key: '!items!1fD2cQOaeMrA8qHv'

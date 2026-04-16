@@ -1,0 +1,103 @@
+name: Feather Fall
+type: spell
+system:
+  source:
+    custom: ''
+    book: PHB
+    page: '239'
+    license: ''
+  description:
+    value: >-
+      <div class="rd__b  rd__b--3"><p>Choose up to five falling creatures within
+      range. A falling creature's rate of descent slows to 60 feet per round
+      until the spell ends. If the creature lands before the spell ends, it
+      takes no falling damage and can land on its feet, and the spell ends for
+      that creature.</p><div class="rd__spc-inline-post"></div></div><div><span
+      class="bold">Classes: </span>Artificer, Bard, Sorcerer, Wizard</div>
+    chat: ''
+  actionType: util
+  level: 1
+  school: trs
+  properties:
+    - vocal
+    - material
+  materials:
+    value: a small feather or a piece of down
+    consumed: false
+    cost: 0
+    supply: 0
+  target:
+    value: 5
+    units: ''
+    type: creature
+    prompt: true
+    width: null
+  range:
+    value: 60
+    units: ft
+    long: null
+  activation:
+    type: reaction
+    cost: 1
+    condition: which you take when you or a creature within 60 feet of you falls
+  duration:
+    value: '1'
+    units: minute
+  damage:
+    parts: []
+    versatile: ''
+  scaling:
+    mode: none
+    formula: ''
+  save:
+    dc: null
+    scaling: spell
+    ability: ''
+  uses:
+    value: null
+    max: ''
+    per: null
+    recovery: ''
+    prompt: true
+  attackBonus: ''
+  chatFlavor: ''
+  critical:
+    threshold: null
+    damage: ''
+  formula: ''
+  preparation:
+    mode: prepared
+    prepared: false
+  consume:
+    type: ''
+    target: null
+    amount: null
+    scale: false
+  cover: null
+  crewed: false
+  ability: null
+img: icons/commodities/materials/feather-white-glowing-fire.webp
+ownership:
+  default: 0
+  38Gfe7fp1EmVmZNj: 3
+flags:
+  plutonium:
+    page: spells.html
+    source: PHB
+    hash: feather%20fall_phb
+    propDroppable: spell
+effects: []
+folder: OcbA4wVEVIT7E1MT
+_id: zAlQSSEg3ZVSpvaI
+sort: 0
+_stats:
+  systemId: dnd5e
+  systemVersion: 3.0.3
+  coreVersion: '13.345'
+  createdTime: 1709684305255
+  modifiedTime: 1709684366197
+  lastModifiedBy: 38Gfe7fp1EmVmZNj
+  compendiumSource: null
+  duplicateSource: null
+  exportSource: null
+_key: '!items!zAlQSSEg3ZVSpvaI'

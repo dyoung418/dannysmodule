@@ -1,0 +1,129 @@
+name: Enlarge/Reduce
+type: spell
+system:
+  source:
+    custom: ''
+    book: PHB
+    page: '237'
+    license: ''
+  description:
+    value: >-
+      <div class="rd__b  rd__b--3"><p>You cause a creature or an object you can
+      see within range to grow larger or smaller for the duration. Choose either
+      a creature or an object that is neither worn nor carried. If the target is
+      unwilling, it can make a Constitution saving throw. On a success, the
+      spell has no effect.</p><div class="rd__spc-inline-post"></div><p>If the
+      target is a creature, everything it is wearing and carrying changes size
+      with it. Any item dropped by an affected creature returns to normal size
+      at once.</p><div class="rd__b  rd__b--3"><span class="rd__h rd__h--3"
+      data-title-index="1"> <span
+      class="entry-title-inner">Enlarge.</span></span> <p>The target's size
+      doubles in all dimensions, and its weight is multiplied by eight. This
+      growth increases its size by one category—from Medium to Large, for
+      example. If there isn't enough room for the target to double its size, the
+      creature or object attains the maximum possible size in the space
+      available. Until the spell ends, the target also has advantage on Strength
+      checks and Strength saving throws. The target's weapons also grow to match
+      its new size. While these weapons are enlarged, the target's attacks with
+      them deal [[/r 1d4]] extra damage.</p><div
+      class="rd__spc-inline-post"></div></div><div class="rd__b  rd__b--3"><span
+      class="rd__h rd__h--3" data-title-index="2"> <span
+      class="entry-title-inner">Reduce.</span></span> <p>The target's size is
+      halved in all dimensions, and its weight is reduced to one-eighth of
+      normal. This reduction decreases its size by one category—from Medium to
+      Small, for example. Until the spell ends, the target also has disadvantage
+      on Strength checks and Strength saving throws. The target's weapons also
+      shrink to match its new size. While these weapons are reduced, the
+      target's attacks with them deal [[/r 1d4]] less damage (this can't reduce
+      the damage below 1).</p><div
+      class="rd__spc-inline-post"></div></div></div><div><span
+      class="bold">Classes: </span>Artificer, Sorcerer, Wizard</div>
+    chat: ''
+  actionType: save
+  level: 2
+  school: trs
+  properties:
+    - vocal
+    - somatic
+    - material
+    - concentration
+  materials:
+    value: a pinch of powdered iron
+    consumed: false
+    cost: 0
+    supply: 0
+  target:
+    value: 1
+    units: ''
+    type: creature
+    prompt: true
+    width: null
+  range:
+    value: 30
+    units: ft
+    long: null
+  activation:
+    type: action
+    cost: 1
+    condition: ''
+  duration:
+    value: '1'
+    units: minute
+  damage:
+    parts: []
+    versatile: ''
+  scaling:
+    mode: none
+    formula: ''
+  save:
+    ability: con
+    dc: null
+    scaling: spell
+  uses:
+    value: null
+    max: ''
+    per: null
+    recovery: ''
+    prompt: true
+  attackBonus: ''
+  chatFlavor: ''
+  critical:
+    threshold: null
+    damage: ''
+  formula: ''
+  preparation:
+    mode: prepared
+    prepared: false
+  consume:
+    type: ''
+    target: null
+    amount: null
+    scale: false
+  cover: null
+  crewed: false
+  ability: null
+img: icons/magic/control/silhouette-grow-shrink-tan.webp
+ownership:
+  default: 0
+  38Gfe7fp1EmVmZNj: 3
+flags:
+  plutonium:
+    page: spells.html
+    source: PHB
+    hash: enlarge%2freduce_phb
+    propDroppable: spell
+effects: []
+folder: mgLDxy1J2PuOM31n
+_id: Q5eaNAKfEvy45MLt
+sort: 0
+_stats:
+  systemId: dnd5e
+  systemVersion: 3.0.3
+  coreVersion: '13.345'
+  createdTime: 1709684305193
+  modifiedTime: 1709684366197
+  lastModifiedBy: 38Gfe7fp1EmVmZNj
+  compendiumSource: null
+  duplicateSource: null
+  exportSource: null
+_key: '!items!Q5eaNAKfEvy45MLt'

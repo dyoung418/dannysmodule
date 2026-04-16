@@ -1,0 +1,110 @@
+name: Beast Bond
+type: spell
+system:
+  source:
+    custom: ''
+    book: XGE
+    page: '150'
+    license: ''
+  description:
+    value: >-
+      <div class="rd__b  rd__b--3"><p>You establish a telepathic link with one
+      beast you touch that is friendly to you or @condition[charmed] by you. The
+      spell fails if the beast's Intelligence score is 4 or higher. Until the
+      spell ends, the link is active while you and the beast are within line of
+      sight of each other. Through the link, the beast can understand your
+      telepathic messages to it, and it can telepathically communicate simple
+      emotions and concepts back to you. While the link is active, the beast
+      gains advantage on attack rolls against any creature within 5 feet of you
+      that you can see.</p><div
+      class="rd__spc-inline-post"></div></div><div><span class="bold">Classes:
+      </span>Druid, Ranger</div>
+    chat: ''
+  actionType: util
+  level: 1
+  school: div
+  properties:
+    - vocal
+    - somatic
+    - material
+    - concentration
+  materials:
+    value: a bit of fur wrapped in a cloth
+    consumed: false
+    cost: 0
+    supply: 0
+  target:
+    value: 0
+    units: touch
+    type: ''
+    prompt: true
+    width: null
+  range:
+    value: 0
+    units: touch
+    long: null
+  activation:
+    type: action
+    cost: 1
+    condition: ''
+  duration:
+    value: '10'
+    units: minute
+  damage:
+    parts: []
+    versatile: ''
+  scaling:
+    mode: none
+    formula: ''
+  save:
+    dc: null
+    scaling: spell
+    ability: ''
+  uses:
+    value: null
+    max: ''
+    per: null
+    recovery: ''
+    prompt: true
+  attackBonus: ''
+  chatFlavor: ''
+  critical:
+    threshold: null
+    damage: ''
+  formula: ''
+  preparation:
+    mode: prepared
+    prepared: false
+  consume:
+    type: ''
+    target: null
+    amount: null
+    scale: false
+  cover: null
+  crewed: false
+  ability: null
+img: icons/creatures/abilities/paw-glowing-yellow.webp
+ownership:
+  default: 0
+  38Gfe7fp1EmVmZNj: 3
+flags:
+  plutonium:
+    page: spells.html
+    source: XGE
+    hash: beast%20bond_xge
+    propDroppable: spell
+effects: []
+folder: WXoCNUNuwEOIPcjd
+_id: u7ixhlsQBvfqL8mi
+sort: 0
+_stats:
+  systemId: dnd5e
+  systemVersion: 3.0.2
+  coreVersion: '13.345'
+  createdTime: 1708227601863
+  modifiedTime: 1708227676991
+  lastModifiedBy: 38Gfe7fp1EmVmZNj
+  compendiumSource: null
+  duplicateSource: null
+  exportSource: null
+_key: '!items!u7ixhlsQBvfqL8mi'

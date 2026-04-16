@@ -1,0 +1,2 @@
+# YAML source files are text
+src/packs/**/*.yml text eol=lf

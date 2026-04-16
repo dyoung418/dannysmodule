@@ -1,0 +1,107 @@
+name: Friends
+type: spell
+system:
+  source:
+    custom: ''
+    book: PHB
+    page: '244'
+    license: ''
+  description:
+    value: >-
+      <div class="rd__b  rd__b--3"><p>For the duration, you have advantage on
+      all Charisma checks directed at one creature of your choice that isn't
+      hostile toward you. When the spell ends, the creature realizes that you
+      used magic to influence its mood and becomes hostile toward you. A
+      creature prone to violence might attack you. Another creature might seek
+      retribution in other ways (at the DM's discretion), depending on the
+      nature of your interaction with it.</p><div
+      class="rd__spc-inline-post"></div></div><div><span class="bold">Classes:
+      </span>Bard, Sorcerer, Warlock, Wizard</div>
+    chat: ''
+  actionType: util
+  level: 0
+  school: enc
+  properties:
+    - somatic
+    - material
+    - concentration
+  materials:
+    value: a small amount of makeup applied to the face as this spell is cast
+    consumed: false
+    cost: 0
+    supply: 0
+  target:
+    value: 0
+    units: self
+    type: self
+    prompt: true
+    width: null
+  range:
+    value: 0
+    units: self
+    long: null
+  activation:
+    type: action
+    cost: 1
+    condition: ''
+  duration:
+    value: '1'
+    units: minute
+  damage:
+    parts: []
+    versatile: ''
+  scaling:
+    mode: none
+    formula: ''
+  save:
+    dc: null
+    scaling: spell
+    ability: ''
+  uses:
+    value: null
+    max: ''
+    per: null
+    recovery: ''
+    prompt: true
+  attackBonus: ''
+  chatFlavor: ''
+  critical:
+    threshold: null
+    damage: ''
+  formula: ''
+  preparation:
+    mode: always
+    prepared: false
+  consume:
+    type: ''
+    target: null
+    amount: null
+    scale: false
+  cover: null
+  crewed: false
+  ability: null
+img: icons/consumables/drinks/alcohol-beer-mug-yellow.webp
+ownership:
+  default: 0
+  38Gfe7fp1EmVmZNj: 3
+flags:
+  plutonium:
+    page: spells.html
+    source: PHB
+    hash: friends_phb
+    propDroppable: spell
+effects: []
+folder: LiW94aeo1pXMSCLr
+_id: hrVDPsUdlBJm69eC
+sort: 0
+_stats:
+  systemId: dnd5e
+  systemVersion: 3.0.3
+  coreVersion: '13.345'
+  createdTime: 1709684305357
+  modifiedTime: 1709684366197
+  lastModifiedBy: 38Gfe7fp1EmVmZNj
+  compendiumSource: null
+  duplicateSource: null
+  exportSource: null
+_key: '!items!hrVDPsUdlBJm69eC'

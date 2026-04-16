@@ -1,0 +1,147 @@
+name: Maelstrom
+type: spell
+system:
+  source:
+    custom: ''
+    book: XGE
+    page: '160'
+    license: ''
+    revision: 1
+    rules: '2024'
+  description:
+    value: >-
+      <div class="rd__b  rd__b--3"><p>A swirling mass of 5-foot-deep water
+      appears in a 30-foot radius centered on a point you can see within range.
+      The point must be on the ground or in a body of water. Until the spell
+      ends, that area is difficult terrain, and any creature that starts its
+      turn there must succeed on a Strength saving throw or take [[/r 6d6]]
+      bludgeoning damage and be pulled 10 feet toward the center.</p><div
+      class="rd__spc-inline-post"></div></div><div><span class="bold">Classes:
+      </span>Druid</div>
+    chat: ''
+  level: 5
+  school: evo
+  properties:
+    - vocal
+    - somatic
+    - material
+    - concentration
+  materials:
+    value: paper or leaf in the shape of a funnel
+    consumed: false
+    cost: 0
+    supply: 0
+  target:
+    affects:
+      choice: false
+    template:
+      units: ft
+      type: radius
+      size: '30'
+      contiguous: false
+  range:
+    value: '120'
+    units: ft
+  activation:
+    type: action
+    condition: ''
+    value: 1
+  duration:
+    value: '1'
+    units: minute
+  uses:
+    max: ''
+    spent: 0
+    recovery: []
+  preparation:
+    mode: prepared
+    prepared: false
+  activities:
+    dnd5eactivity000:
+      _id: dnd5eactivity000
+      type: save
+      activation:
+        type: action
+        value: null
+        override: false
+      consumption:
+        targets: []
+        scaling:
+          allowed: false
+          max: ''
+        spellSlot: true
+      description:
+        chatFlavor: ''
+      duration:
+        units: inst
+        concentration: false
+        override: false
+      effects: []
+      range:
+        override: false
+        units: self
+      target:
+        prompt: true
+        template:
+          contiguous: false
+          units: ft
+        affects:
+          choice: false
+        override: false
+      uses:
+        spent: 0
+        max: ''
+        recovery: []
+      damage:
+        onSave: half
+        parts:
+          - number: 6
+            denomination: 6
+            bonus: ''
+            types:
+              - bludgeoning
+            custom:
+              enabled: false
+              formula: ''
+            scaling:
+              mode: ''
+              number: null
+              formula: ''
+      save:
+        ability:
+          - str
+        dc:
+          calculation: spellcasting
+          formula: ''
+      sort: 0
+  identifier: maelstrom
+img: icons/magic/air/wind-tornado-cyclone-purple-blue.webp
+ownership:
+  default: 0
+  38Gfe7fp1EmVmZNj: 3
+flags:
+  plutonium:
+    page: spells.html
+    source: XGE
+    hash: maelstrom_xge
+    propDroppable: spell
+  dnd5e:
+    persistSourceMigration: true
+    riders:
+      activity: []
+      effect: []
+effects: []
+folder: 6twhZgoHdiiTwIDl
+_id: YeyJc9ovsVeOQ2gd
+sort: 0
+_stats:
+  systemId: dnd5e
+  systemVersion: 5.0.4
+  coreVersion: '13.346'
+  createdTime: 1708227602022
+  modifiedTime: 1752197371435
+  lastModifiedBy: 1pY4akW8WASxGBbA
+  compendiumSource: null
+  duplicateSource: null
+  exportSource: null
+_key: '!items!YeyJc9ovsVeOQ2gd'

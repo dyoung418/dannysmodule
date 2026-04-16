@@ -1,0 +1,118 @@
+name: Chain Lightning
+type: spell
+system:
+  source:
+    custom: ''
+    book: PHB
+    page: '221'
+    license: ''
+  description:
+    value: >-
+      <div class="rd__b  rd__b--3"><p>You create a bolt of lightning that arcs
+      toward a target of your choice that you can see within range. Three bolts
+      then leap from that target to as many as three other targets, each of
+      which must be within 30 feet of the first target. A target can be a
+      creature or an object and can be targeted by only one of the
+      bolts.</p><div class="rd__spc-inline-post"></div><p>A target must make a
+      Dexterity saving throw. The target takes [[/r 10d8]] lightning damage on a
+      failed save, or half as much damage on a successful one.</p></div><div
+      class="rd__b  rd__b--3"><div class="rd__b  rd__b--3"><span class="rd__h
+      rd__h--3" data-title-index="1"> <span class="entry-title-inner">At Higher
+      Levels.</span></span> <p>When you cast this spell using a spell slot of
+      7th level or higher, one additional bolt leaps from the first target to
+      another target for each slot level above 6th.</p><div
+      class="rd__spc-inline-post"></div></div><div
+      class="rd__spc-inline-post"></div></div><div><span class="bold">Classes:
+      </span>Sorcerer, Wizard</div>
+    chat: ''
+  actionType: save
+  level: 6
+  school: evo
+  properties:
+    - vocal
+    - somatic
+    - material
+  materials:
+    value: >-
+      a bit of fur; a piece of amber, glass, or a crystal rod; and three silver
+      pins
+    consumed: false
+    cost: 0
+    supply: 0
+  target:
+    value: 1
+    units: ''
+    type: creature
+    prompt: true
+    width: null
+  range:
+    value: 150
+    units: ft
+    long: null
+  activation:
+    type: action
+    cost: 1
+    condition: ''
+  duration:
+    value: ''
+    units: inst
+  damage:
+    parts:
+      - - 10d8
+        - lightning
+    versatile: ''
+  scaling:
+    mode: none
+    formula: ''
+  save:
+    ability: dex
+    dc: null
+    scaling: spell
+  uses:
+    value: null
+    max: ''
+    per: null
+    recovery: ''
+    prompt: true
+  attackBonus: ''
+  chatFlavor: ''
+  critical:
+    threshold: null
+    damage: ''
+  formula: ''
+  preparation:
+    mode: prepared
+    prepared: false
+  consume:
+    type: ''
+    target: null
+    amount: null
+    scale: false
+  cover: null
+  crewed: false
+  ability: null
+img: icons/magic/lightning/bolt-forked-large-blue-yellow.webp
+ownership:
+  default: 0
+  38Gfe7fp1EmVmZNj: 3
+flags:
+  plutonium:
+    page: spells.html
+    source: PHB
+    hash: chain%20lightning_phb
+    propDroppable: spell
+effects: []
+folder: l6s2S2ViuMdNCEzw
+_id: mFJ7r0yL621UAmho
+sort: 0
+_stats:
+  systemId: dnd5e
+  systemVersion: 3.0.2
+  coreVersion: '13.345'
+  createdTime: 1708109196534
+  modifiedTime: 1708227409300
+  lastModifiedBy: 38Gfe7fp1EmVmZNj
+  compendiumSource: null
+  duplicateSource: null
+  exportSource: null
+_key: '!items!mFJ7r0yL621UAmho'

@@ -1,0 +1,102 @@
+name: Far Step
+type: spell
+system:
+  source:
+    custom: ''
+    book: XGE
+    page: '155'
+    license: ''
+  description:
+    value: >-
+      <div class="rd__b  rd__b--3"><p>You teleport up to 60 feet to an
+      unoccupied space you can see. On each of your turns before the spell ends,
+      you can use a bonus action to teleport in this way again.</p><div
+      class="rd__spc-inline-post"></div></div><div><span class="bold">Classes:
+      </span>Sorcerer, Warlock, Wizard</div>
+    chat: ''
+  actionType: util
+  level: 5
+  school: con
+  properties:
+    - vocal
+    - concentration
+  materials:
+    value: ''
+    consumed: false
+    cost: 0
+    supply: 0
+  target:
+    value: 0
+    units: self
+    type: self
+    prompt: true
+    width: null
+  range:
+    value: 0
+    units: self
+    long: null
+  activation:
+    type: bonus
+    cost: 1
+    condition: ''
+  duration:
+    value: '1'
+    units: minute
+  damage:
+    parts: []
+    versatile: ''
+  scaling:
+    mode: none
+    formula: ''
+  save:
+    dc: null
+    scaling: spell
+    ability: ''
+  uses:
+    value: null
+    max: ''
+    per: null
+    recovery: ''
+    prompt: true
+  attackBonus: ''
+  chatFlavor: ''
+  critical:
+    threshold: null
+    damage: ''
+  formula: ''
+  preparation:
+    mode: prepared
+    prepared: false
+  consume:
+    type: ''
+    target: null
+    amount: null
+    scale: false
+  cover: null
+  crewed: false
+  ability: null
+img: icons/skills/movement/feet-spurred-boots-brown.webp
+ownership:
+  default: 0
+  38Gfe7fp1EmVmZNj: 3
+flags:
+  plutonium:
+    page: spells.html
+    source: XGE
+    hash: far%20step_xge
+    propDroppable: spell
+effects: []
+folder: 6twhZgoHdiiTwIDl
+_id: QvvmEje1J6U5XgL2
+sort: 0
+_stats:
+  systemId: dnd5e
+  systemVersion: 3.0.2
+  coreVersion: '13.345'
+  createdTime: 1708109345699
+  modifiedTime: 1708227413053
+  lastModifiedBy: 38Gfe7fp1EmVmZNj
+  compendiumSource: null
+  duplicateSource: null
+  exportSource: null
+_key: '!items!QvvmEje1J6U5XgL2'

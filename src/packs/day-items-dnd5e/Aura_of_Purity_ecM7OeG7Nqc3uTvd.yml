@@ -1,0 +1,131 @@
+name: Aura of Purity
+type: spell
+system:
+  source:
+    custom: ''
+    book: PHB
+    page: '216'
+    license: ''
+    revision: 1
+    rules: '2024'
+  description:
+    value: >-
+      <div class="rd__b  rd__b--3"><p>Purifying energy radiates from you in an
+      aura with a 30-foot radius. Until the spell ends, the aura moves with you,
+      centered on you. Each nonhostile creature in the aura (including you)
+      can't become diseased, has resistance to poison damage, and has advantage
+      on saving throws against effects that cause any of the following
+      conditions: @condition[blinded], @condition[charmed],
+      @condition[deafened], @condition[frightened], @condition[paralyzed],
+      @condition[poisoned], and @condition[stunned].</p><div
+      class="rd__spc-inline-post"></div></div><div><span class="bold">Classes:
+      </span>Paladin</div>
+    chat: ''
+  level: 4
+  school: abj
+  properties:
+    - vocal
+    - concentration
+  materials:
+    value: ''
+    consumed: false
+    cost: 0
+    supply: 0
+  target:
+    affects:
+      choice: false
+    template:
+      units: ft
+      type: radius
+      size: '30'
+      contiguous: false
+  range:
+    value: '0'
+    units: self
+  activation:
+    type: action
+    condition: ''
+    value: 1
+  duration:
+    value: '10'
+    units: minute
+  uses:
+    max: ''
+    spent: 0
+    recovery: []
+  preparation:
+    mode: prepared
+    prepared: false
+  activities:
+    dnd5eactivity000:
+      _id: dnd5eactivity000
+      type: utility
+      activation:
+        type: action
+        value: null
+        override: false
+      consumption:
+        targets: []
+        scaling:
+          allowed: false
+          max: ''
+        spellSlot: true
+      description:
+        chatFlavor: ''
+      duration:
+        units: inst
+        concentration: false
+        override: false
+      effects: []
+      range:
+        override: false
+        units: self
+      target:
+        prompt: true
+        template:
+          contiguous: false
+          units: ft
+        affects:
+          choice: false
+        override: false
+      uses:
+        spent: 0
+        max: ''
+        recovery: []
+      roll:
+        formula: ''
+        name: ''
+        prompt: false
+        visible: false
+      sort: 0
+  identifier: aura-of-purity
+img: icons/creatures/birds/songbird-yellow-flying.webp
+ownership:
+  default: 0
+  38Gfe7fp1EmVmZNj: 3
+flags:
+  plutonium:
+    page: spells.html
+    source: PHB
+    hash: aura%20of%20purity_phb
+    propDroppable: spell
+  dnd5e:
+    persistSourceMigration: true
+    riders:
+      activity: []
+      effect: []
+effects: []
+folder: 0DxlLTSvnP6Pzz2r
+_id: ecM7OeG7Nqc3uTvd
+sort: 0
+_stats:
+  systemId: dnd5e
+  systemVersion: 5.0.4
+  coreVersion: '13.346'
+  createdTime: 1708227628584
+  modifiedTime: 1752197371435
+  lastModifiedBy: 1pY4akW8WASxGBbA
+  compendiumSource: null
+  duplicateSource: null
+  exportSource: null
+_key: '!items!ecM7OeG7Nqc3uTvd'

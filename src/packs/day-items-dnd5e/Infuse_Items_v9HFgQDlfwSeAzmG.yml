@@ -1,0 +1,190 @@
+folder: QqrWj278qS19exFE
+name: Infuse Items
+type: feat
+_id: v9HFgQDlfwSeAzmG
+img: systems/dnd5e/icons/svg/items/feature.svg
+system:
+  description:
+    value: >-
+      <p><span style="font-family:Signika, sans-serif"><strong
+      style="box-sizing:border-box;user-select:text">Infuse
+      Item</strong></span></p><p
+      style="box-sizing:border-box;user-select:text;margin:0.5em
+      0px;color:rgb(25, 24, 19);font-family:Signika,
+      sans-serif;font-size:13px;font-style:normal;font-variant-ligatures:normal;font-variant-caps:normal;font-weight:400;letter-spacing:normal;orphans:2;text-indent:0px;text-transform:none;widows:2;word-spacing:0px;-webkit-text-stroke-width:0px;white-space:normal;text-decoration-thickness:initial;text-decoration-style:initial;text-decoration-color:initial;text-align:start"><span
+      style="font-family:Signika, sans-serif">2nd-level artificer
+      feature</span></p><p
+      style="box-sizing:border-box;user-select:text;margin:0.5em
+      0px;color:rgb(25, 24, 19);font-family:Signika,
+      sans-serif;font-size:13px;font-style:normal;font-variant-ligatures:normal;font-variant-caps:normal;font-weight:400;letter-spacing:normal;orphans:2;text-indent:0px;text-transform:none;widows:2;word-spacing:0px;-webkit-text-stroke-width:0px;white-space:normal;text-decoration-thickness:initial;text-decoration-style:initial;text-decoration-color:initial;text-align:start"><span
+      style="font-family:Signika, sans-serif">You’ve gained the ability to imbue
+      mundane items with certain magical infusions, turning those objects into
+      magic items.</span></p><p
+      style="box-sizing:border-box;user-select:text;margin:0.5em
+      0px;color:rgb(25, 24, 19);font-family:Signika,
+      sans-serif;font-size:13px;font-style:normal;font-variant-ligatures:normal;font-variant-caps:normal;font-weight:400;letter-spacing:normal;orphans:2;text-indent:0px;text-transform:none;widows:2;word-spacing:0px;-webkit-text-stroke-width:0px;white-space:normal;text-decoration-thickness:initial;text-decoration-style:initial;text-decoration-color:initial;text-align:start"><span
+      style="font-family:Signika, sans-serif"><strong
+      style="box-sizing:border-box;user-select:text">Infusions
+      Known</strong></span></p><p
+      style="box-sizing:border-box;user-select:text;margin:0.5em
+      0px;color:rgb(25, 24, 19);font-family:Signika,
+      sans-serif;font-size:13px;font-style:normal;font-variant-ligatures:normal;font-variant-caps:normal;font-weight:400;letter-spacing:normal;orphans:2;text-indent:0px;text-transform:none;widows:2;word-spacing:0px;-webkit-text-stroke-width:0px;white-space:normal;text-decoration-thickness:initial;text-decoration-style:initial;text-decoration-color:initial;text-align:start"><span
+      style="font-family:Signika, sans-serif">When you gain this feature, pick
+      four artificer infusions to learn, choosing from the “Artificer Infusions”
+      section at the end of the class’s description. You learn additional
+      infusions of your choice when you reach certain levels in this class, as
+      shown in the Infusions Known column of the Artificer table.</span></p><p
+      style="box-sizing:border-box;user-select:text;margin:0.5em
+      0px;color:rgb(25, 24, 19);font-family:Signika,
+      sans-serif;font-size:13px;font-style:normal;font-variant-ligatures:normal;font-variant-caps:normal;font-weight:400;letter-spacing:normal;orphans:2;text-indent:0px;text-transform:none;widows:2;word-spacing:0px;-webkit-text-stroke-width:0px;white-space:normal;text-decoration-thickness:initial;text-decoration-style:initial;text-decoration-color:initial;text-align:start"><span
+      style="font-family:Signika, sans-serif">Whenever you gain a level in this
+      class, you can replace one of the artificer infusions you learned with a
+      new one.</span></p><p
+      style="box-sizing:border-box;user-select:text;margin:0.5em
+      0px;color:rgb(25, 24, 19);font-family:Signika,
+      sans-serif;font-size:13px;font-style:normal;font-variant-ligatures:normal;font-variant-caps:normal;font-weight:400;letter-spacing:normal;orphans:2;text-indent:0px;text-transform:none;widows:2;word-spacing:0px;-webkit-text-stroke-width:0px;white-space:normal;text-decoration-thickness:initial;text-decoration-style:initial;text-decoration-color:initial;text-align:start"><span
+      style="font-family:Signika, sans-serif"><strong
+      style="box-sizing:border-box;user-select:text">Infusing an
+      Item</strong></span></p><p
+      style="box-sizing:border-box;user-select:text;margin:0.5em
+      0px;color:rgb(25, 24, 19);font-family:Signika,
+      sans-serif;font-size:13px;font-style:normal;font-variant-ligatures:normal;font-variant-caps:normal;font-weight:400;letter-spacing:normal;orphans:2;text-indent:0px;text-transform:none;widows:2;word-spacing:0px;-webkit-text-stroke-width:0px;white-space:normal;text-decoration-thickness:initial;text-decoration-style:initial;text-decoration-color:initial;text-align:start"><span
+      style="font-family:Signika, sans-serif">Whenever you finish a long rest,
+      you can touch a nonmagical object and imbue it with one of your artificer
+      infusions, turning it into a magic item. An infusion works on only certain
+      kinds of objects, as specified in the infusion’s description. If the item
+      requires attunement, you can attune yourself to it the instant you infuse
+      the item. If you decide to attune to the item later, you must do so using
+      the normal process for attunement (see the attunement rules in the Dungeon
+      Master’s Guide).</span></p><p
+      style="box-sizing:border-box;user-select:text;margin:0.5em
+      0px;color:rgb(25, 24, 19);font-family:Signika,
+      sans-serif;font-size:13px;font-style:normal;font-variant-ligatures:normal;font-variant-caps:normal;font-weight:400;letter-spacing:normal;orphans:2;text-indent:0px;text-transform:none;widows:2;word-spacing:0px;-webkit-text-stroke-width:0px;white-space:normal;text-decoration-thickness:initial;text-decoration-style:initial;text-decoration-color:initial;text-align:start"><span
+      style="font-family:Signika, sans-serif">Your infusion remains in an item
+      indefinitely, but when you die, the infusion vanishes after a number of
+      days equal to your Intelligence modifier (minimum of 1 day). The infusion
+      also vanishes if you replace your knowledge of the infusion.</span></p><p
+      style="box-sizing:border-box;user-select:text;margin:0.5em
+      0px;color:rgb(25, 24, 19);font-family:Signika,
+      sans-serif;font-size:13px;font-style:normal;font-variant-ligatures:normal;font-variant-caps:normal;font-weight:400;letter-spacing:normal;orphans:2;text-indent:0px;text-transform:none;widows:2;word-spacing:0px;-webkit-text-stroke-width:0px;white-space:normal;text-decoration-thickness:initial;text-decoration-style:initial;text-decoration-color:initial;text-align:start"><span
+      style="font-family:Signika, sans-serif">You can infuse more than one
+      nonmagical object at the end of a long rest; the maximum number of objects
+      appears in the Infused Items column of the Artificer table. You must touch
+      each of the objects, and each of your infusions can be in only one object
+      at a time. Moreover, no object can bear more than one of your infusions at
+      a time. If you try to exceed your maximum number of infusions, the oldest
+      infusion ends, and then the new infusion applies.</span></p><p
+      style="box-sizing:border-box;user-select:text;margin:0.5em
+      0px;color:rgb(25, 24, 19);font-family:Signika,
+      sans-serif;font-size:13px;font-style:normal;font-variant-ligatures:normal;font-variant-caps:normal;font-weight:400;letter-spacing:normal;orphans:2;text-indent:0px;text-transform:none;widows:2;word-spacing:0px;-webkit-text-stroke-width:0px;white-space:normal;text-decoration-thickness:initial;text-decoration-style:initial;text-decoration-color:initial;text-align:start"><span
+      style="font-family:Signika, sans-serif">If an infusion ends on an item
+      that contains other things, like a bag of holding, its contents harmlessly
+      appear in and around its space.</span></p>
+    chat: ''
+  source:
+    book: TCOE
+    page: '12'
+    custom: ''
+    license: ''
+    revision: 1
+    rules: '2024'
+  uses:
+    max: '@scale.artificer.infused-items'
+    spent: 0
+    recovery: []
+  type:
+    value: class
+    subtype: artificerInfusion
+  properties:
+    - mgc
+  requirements: Artificer 2
+  activities:
+    dnd5eactivity000:
+      _id: dnd5eactivity000
+      type: utility
+      activation:
+        type: special
+        value: null
+        condition: ''
+        override: false
+      consumption:
+        targets:
+          - type: itemUses
+            target: ''
+            value: '1'
+            scaling:
+              mode: ''
+              formula: ''
+        scaling:
+          allowed: false
+          max: ''
+        spellSlot: true
+      description:
+        chatFlavor: ''
+      duration:
+        concentration: false
+        value: ''
+        units: inst
+        special: ''
+        override: false
+      effects: []
+      range:
+        units: self
+        special: ''
+        override: false
+      target:
+        template:
+          count: ''
+          contiguous: false
+          type: ''
+          size: ''
+          width: ''
+          height: ''
+          units: ''
+        affects:
+          count: ''
+          type: ''
+          choice: false
+          special: ''
+        prompt: true
+        override: false
+      uses:
+        spent: 0
+        max: ''
+        recovery: []
+      roll:
+        formula: ''
+        name: ''
+        prompt: false
+        visible: false
+      sort: 0
+  identifier: infuse-items
+  enchant: {}
+  prerequisites:
+    level: null
+    repeatable: false
+  advancement: []
+  crewed: false
+effects: []
+sort: 0
+ownership:
+  default: 0
+  38Gfe7fp1EmVmZNj: 3
+flags:
+  dnd5e:
+    persistSourceMigration: true
+    migratedUses: 1
+    riders:
+      activity: []
+      effect: []
+_stats:
+  systemId: dnd5e
+  systemVersion: 5.0.4
+  coreVersion: '13.346'
+  createdTime: 1709697798256
+  modifiedTime: 1752197371435
+  lastModifiedBy: 1pY4akW8WASxGBbA
+  compendiumSource: null
+  duplicateSource: null
+  exportSource: null
+_key: '!items!v9HFgQDlfwSeAzmG'

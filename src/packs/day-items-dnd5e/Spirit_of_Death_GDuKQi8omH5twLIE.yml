@@ -1,0 +1,117 @@
+name: Spirit of Death
+type: spell
+system:
+  source:
+    custom: ''
+    book: BMT
+    page: '50'
+    license: ''
+  description:
+    value: >-
+      <div class="rd__b  rd__b--3"><p>You call forth a spirit that embodies
+      death. The spirit manifests in an unoccupied space you can see within
+      range and uses the @creature[reaper spirit|BMT] stat block. The spirit
+      disappears when it is reduced to 0 hit points or when the spell
+      ends.</p><div class="rd__spc-inline-post"></div><p>The spirit is an ally
+      to you and your companions. In combat, the spirit shares your initiative
+      count and takes its turn immediately after yours. It obeys your verbal
+      commands (no action required by you). If you don't issue the spirit any
+      commands, it takes the @action[Dodge] action and uses its movement to
+      avoid danger.</p></div><div class="rd__b  rd__b--3"><div class="rd__b 
+      rd__b--3"><span class="rd__h rd__h--3" data-title-index="1"> <span
+      class="entry-title-inner">At Higher Levels.</span></span> <p>When you cast
+      this spell using a spell slot of 5th level or higher, use the higher level
+      wherever the spell's level appears in the reaper spirit stat
+      block.</p><div class="rd__spc-inline-post"></div></div><div
+      class="rd__spc-inline-post"></div></div>
+    chat: ''
+  actionType: util
+  level: 4
+  school: nec
+  properties:
+    - vocal
+    - somatic
+    - material
+    - concentration
+  materials:
+    value: >-
+      a gilded playing card worth at least 400 gp and depicting an avatar of
+      death
+    consumed: false
+    cost: 400
+    supply: 0
+  target:
+    value: 0
+    units: ''
+    type: ''
+    prompt: true
+    width: null
+  range:
+    value: 60
+    units: ft
+    long: null
+  activation:
+    type: action
+    cost: 1
+    condition: ''
+  duration:
+    value: '1'
+    units: hour
+  damage:
+    parts: []
+    versatile: ''
+  scaling:
+    mode: none
+    formula: ''
+  save:
+    dc: null
+    scaling: spell
+    ability: ''
+  uses:
+    value: null
+    max: ''
+    per: null
+    recovery: ''
+    prompt: true
+  attackBonus: ''
+  chatFlavor: ''
+  critical:
+    threshold: null
+    damage: ''
+  formula: ''
+  preparation:
+    mode: prepared
+    prepared: false
+  consume:
+    type: ''
+    target: null
+    amount: null
+    scale: false
+  cover: null
+  crewed: false
+  ability: null
+img: icons/magic/unholy/hand-fire-skeleton-pink.webp
+ownership:
+  default: 0
+  38Gfe7fp1EmVmZNj: 3
+flags:
+  plutonium:
+    page: spells.html
+    source: BMT
+    hash: spirit%20of%20death_bmt
+    propDroppable: spell
+effects: []
+folder: 0DxlLTSvnP6Pzz2r
+_id: GDuKQi8omH5twLIE
+sort: 0
+_stats:
+  systemId: dnd5e
+  systemVersion: 3.0.3
+  coreVersion: '13.345'
+  createdTime: 1709684304269
+  modifiedTime: 1709684366197
+  lastModifiedBy: 38Gfe7fp1EmVmZNj
+  compendiumSource: null
+  duplicateSource: null
+  exportSource: null
+_key: '!items!GDuKQi8omH5twLIE'

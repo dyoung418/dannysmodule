@@ -1,0 +1,108 @@
+name: Sanctuary
+type: spell
+system:
+  source:
+    custom: ''
+    book: PHB
+    page: '272'
+    license: ''
+  description:
+    value: >-
+      <div class="rd__b  rd__b--3"><p>You ward a creature within range against
+      attack. Until the spell ends, any creature who targets the warded creature
+      with an attack or a harmful spell must first make a Wisdom saving throw.
+      On a failed save, the creature must choose a new target or lose the attack
+      or spell. This spell doesn't protect the warded creature from area
+      effects, such as the explosion of a @spell[fireball].</p><div
+      class="rd__spc-inline-post"></div><p>If the warded creature makes an
+      attack, casts a spell that affects an enemy, or deals damage to another
+      creature, this spell ends.</p></div><div><span class="bold">Classes:
+      </span>Artificer, Cleric</div>
+    chat: ''
+  actionType: save
+  level: 1
+  school: abj
+  properties:
+    - vocal
+    - somatic
+    - material
+  materials:
+    value: a small silver mirror
+    consumed: false
+    cost: 0
+    supply: 0
+  target:
+    value: 1
+    units: ''
+    type: creature
+    prompt: true
+    width: null
+  range:
+    value: 30
+    units: ft
+    long: null
+  activation:
+    type: bonus
+    cost: 1
+    condition: ''
+  duration:
+    value: '1'
+    units: minute
+  damage:
+    parts: []
+    versatile: ''
+  scaling:
+    mode: none
+    formula: ''
+  save:
+    ability: wis
+    dc: null
+    scaling: spell
+  uses:
+    value: null
+    max: ''
+    per: null
+    recovery: ''
+    prompt: true
+  attackBonus: ''
+  chatFlavor: ''
+  critical:
+    threshold: null
+    damage: ''
+  formula: ''
+  preparation:
+    mode: prepared
+    prepared: false
+  consume:
+    type: ''
+    target: null
+    amount: null
+    scale: false
+  cover: null
+  crewed: false
+  ability: null
+img: icons/magic/holy/barrier-shield-winged-blue.webp
+ownership:
+  default: 0
+  38Gfe7fp1EmVmZNj: 3
+flags:
+  plutonium:
+    page: spells.html
+    source: PHB
+    hash: sanctuary_phb
+    propDroppable: spell
+effects: []
+folder: 7LJJqiLuL1YQyknL
+_id: hLXZVfWNmv0vooUP
+sort: 0
+_stats:
+  systemId: dnd5e
+  systemVersion: 3.0.2
+  coreVersion: '13.345'
+  createdTime: 1708228955919
+  modifiedTime: 1708229053839
+  lastModifiedBy: 38Gfe7fp1EmVmZNj
+  compendiumSource: null
+  duplicateSource: null
+  exportSource: null
+_key: '!items!hLXZVfWNmv0vooUP'

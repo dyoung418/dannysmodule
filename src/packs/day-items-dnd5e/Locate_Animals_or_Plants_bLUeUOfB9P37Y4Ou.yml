@@ -1,0 +1,105 @@
+name: Locate Animals or Plants
+type: spell
+system:
+  source:
+    custom: ''
+    book: PHB
+    page: '256'
+    license: ''
+  description:
+    value: >-
+      <div class="rd__b  rd__b--3"><p>Describe or name a specific kind of beast
+      or plant. Concentrating on the voice of nature in your surroundings, you
+      learn the direction and distance to the closest creature or plant of that
+      kind within 5 miles, if any are present.</p><div
+      class="rd__spc-inline-post"></div></div><div><span class="bold">Classes:
+      </span>Bard, Druid, Ranger</div>
+    chat: ''
+  actionType: util
+  level: 2
+  school: div
+  properties:
+    - vocal
+    - somatic
+    - material
+    - ritual
+  materials:
+    value: a bit of fur from a bloodhound
+    consumed: false
+    cost: 0
+    supply: 0
+  target:
+    value: 0
+    units: self
+    type: self
+    prompt: true
+    width: null
+  range:
+    value: 0
+    units: self
+    long: null
+  activation:
+    type: action
+    cost: 1
+    condition: ''
+  duration:
+    value: ''
+    units: inst
+  damage:
+    parts: []
+    versatile: ''
+  scaling:
+    mode: none
+    formula: ''
+  save:
+    dc: null
+    scaling: spell
+    ability: ''
+  uses:
+    value: null
+    max: ''
+    per: null
+    recovery: ''
+    prompt: true
+  attackBonus: ''
+  chatFlavor: ''
+  critical:
+    threshold: null
+    damage: ''
+  formula: ''
+  preparation:
+    mode: prepared
+    prepared: false
+  consume:
+    type: ''
+    target: null
+    amount: null
+    scale: false
+  cover: null
+  crewed: false
+  ability: null
+img: icons/creatures/amphibians/treefrog-leaf-green.webp
+ownership:
+  default: 0
+  38Gfe7fp1EmVmZNj: 3
+flags:
+  plutonium:
+    page: spells.html
+    source: PHB
+    hash: locate%20animals%20or%20plants_phb
+    propDroppable: spell
+effects: []
+folder: oYyVYQLZDhEzl37h
+_id: bLUeUOfB9P37Y4Ou
+sort: 0
+_stats:
+  systemId: dnd5e
+  systemVersion: 3.0.2
+  coreVersion: '13.345'
+  createdTime: 1708228997810
+  modifiedTime: 1708229050063
+  lastModifiedBy: 38Gfe7fp1EmVmZNj
+  compendiumSource: null
+  duplicateSource: null
+  exportSource: null
+_key: '!items!bLUeUOfB9P37Y4Ou'

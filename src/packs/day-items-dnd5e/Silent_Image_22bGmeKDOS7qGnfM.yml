@@ -1,0 +1,139 @@
+name: Silent Image
+type: spell
+system:
+  source:
+    custom: ''
+    book: PHB
+    page: '276'
+    license: ''
+    revision: 1
+    rules: '2024'
+  description:
+    value: >-
+      <div class="rd__b  rd__b--3"><p>You create the image of an object, a
+      creature, or some other visible phenomenon that is no larger than a
+      15-foot cube. The image appears at a spot within range and lasts for the
+      duration. The image is purely visual; it isn't accompanied by sound,
+      smell, or other sensory effects.</p><div
+      class="rd__spc-inline-post"></div><p>You can use your action to cause the
+      image to move to any spot within range. As the image changes location, you
+      can alter its appearance so that its movements appear natural for the
+      image. For example, if you create an image of a creature and move it, you
+      can alter the image so that it appears to be walking.</p><p>Physical
+      interaction with the image reveals it to be an illusion, because things
+      can pass through it. A creature that uses its action to examine the image
+      can determine that it is an illusion with a successful Intelligence
+      (@skill[Investigation]) check against your spell save DC. If a creature
+      discerns the illusion for what it is, the creature can see through the
+      image.</p></div><div><span class="bold">Classes: </span>Bard, Sorcerer,
+      Wizard</div>
+    chat: ''
+  level: 1
+  school: ill
+  properties:
+    - vocal
+    - somatic
+    - material
+    - concentration
+  materials:
+    value: a bit of fleece
+    consumed: false
+    cost: 0
+    supply: 0
+  target:
+    affects:
+      choice: false
+    template:
+      units: ft
+      type: cube
+      size: '15'
+      contiguous: false
+  range:
+    value: '60'
+    units: ft
+  activation:
+    type: action
+    condition: ''
+    value: 1
+  duration:
+    value: '10'
+    units: minute
+  uses:
+    max: ''
+    spent: 0
+    recovery: []
+  preparation:
+    mode: prepared
+    prepared: false
+  activities:
+    dnd5eactivity000:
+      _id: dnd5eactivity000
+      type: utility
+      activation:
+        type: action
+        override: false
+      consumption:
+        targets: []
+        scaling:
+          allowed: false
+          max: ''
+        spellSlot: true
+      description:
+        chatFlavor: ''
+      duration:
+        units: inst
+        concentration: false
+        override: false
+      effects: []
+      range:
+        units: self
+        override: false
+      target:
+        prompt: true
+        template:
+          contiguous: false
+          units: ft
+        affects:
+          choice: false
+        override: false
+      uses:
+        spent: 0
+        max: ''
+        recovery: []
+      roll:
+        formula: ''
+        name: ''
+        prompt: false
+        visible: false
+      sort: 0
+  identifier: silent-image
+img: icons/commodities/treasure/crystal-pedastal-red-gold.webp
+ownership:
+  default: 0
+  38Gfe7fp1EmVmZNj: 3
+flags:
+  plutonium:
+    page: spells.html
+    source: PHB
+    hash: silent%20image_phb
+    propDroppable: spell
+  dnd5e:
+    persistSourceMigration: true
+    riders:
+      activity: []
+      effect: []
+effects: []
+folder: 7LJJqiLuL1YQyknL
+_id: 22bGmeKDOS7qGnfM
+sort: 0
+_stats:
+  systemId: dnd5e
+  systemVersion: 5.0.4
+  coreVersion: '13.346'
+  createdTime: 1708109197262
+  modifiedTime: 1752197371435
+  lastModifiedBy: 1pY4akW8WASxGBbA
+  compendiumSource: null
+  duplicateSource: null
+  exportSource: null
+_key: '!items!22bGmeKDOS7qGnfM'

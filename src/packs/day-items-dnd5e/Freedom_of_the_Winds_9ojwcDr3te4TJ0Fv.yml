@@ -1,0 +1,134 @@
+name: Freedom of the Winds
+type: spell
+system:
+  source:
+    custom: ''
+    book: TDCSR
+    page: '176'
+    license: ''
+    revision: 1
+    rules: '2024'
+  description:
+    value: >-
+      <div class="rd__b  rd__b--3"><p>Wind wraps around your body, tugging at
+      your hair and clothing as your feet lift off the ground. You gain a flying
+      speed of 60 feet. Additionally, you have advantage on ability checks to
+      avoid being @condition[grappled], and on saving throws against being
+      @condition[restrained] or @condition[paralyzed].</p><div
+      class="rd__spc-inline-post"></div><p>When you are targeted by a spell or
+      attack while this spell is in effect, you can use a reaction to teleport
+      up to 60 feet to an unoccupied space you can see. If this movement takes
+      you out of range of the triggering spell or attack, you are unaffected by
+      it. This spell then ends when you reappear.</p></div><div><span
+      class="bold">Classes: </span>Druid, Ranger, Sorcerer</div>
+    chat: ''
+  level: 5
+  school: abj
+  properties:
+    - vocal
+    - somatic
+    - material
+    - concentration
+  materials:
+    value: a scrap of sailcloth
+    consumed: false
+    cost: 0
+    supply: 0
+  target:
+    affects:
+      type: self
+      count: '0'
+      choice: false
+    template:
+      units: self
+      contiguous: false
+  range:
+    value: '0'
+    units: self
+  activation:
+    type: action
+    condition: ''
+    value: 1
+  duration:
+    value: '10'
+    units: minute
+  uses:
+    max: ''
+    spent: 0
+    recovery: []
+  preparation:
+    mode: prepared
+    prepared: false
+  activities:
+    dnd5eactivity000:
+      _id: dnd5eactivity000
+      type: utility
+      activation:
+        type: action
+        value: null
+        override: false
+      consumption:
+        targets: []
+        scaling:
+          allowed: false
+          max: ''
+        spellSlot: true
+      description:
+        chatFlavor: ''
+      duration:
+        units: inst
+        concentration: false
+        override: false
+      effects: []
+      range:
+        override: false
+        units: self
+      target:
+        prompt: true
+        template:
+          contiguous: false
+          units: ft
+        affects:
+          choice: false
+        override: false
+      uses:
+        spent: 0
+        max: ''
+        recovery: []
+      roll:
+        formula: ''
+        name: ''
+        prompt: false
+        visible: false
+      sort: 0
+  identifier: freedom-of-the-winds
+img: icons/magic/defensive/shield-barrier-blue.webp
+ownership:
+  default: 0
+  38Gfe7fp1EmVmZNj: 3
+flags:
+  plutonium:
+    page: spells.html
+    source: TDCSR
+    hash: freedom%20of%20the%20winds_tdcsr
+    propDroppable: spell
+  dnd5e:
+    persistSourceMigration: true
+    riders:
+      activity: []
+      effect: []
+effects: []
+folder: 6twhZgoHdiiTwIDl
+_id: 9ojwcDr3te4TJ0Fv
+sort: 0
+_stats:
+  systemId: dnd5e
+  systemVersion: 5.0.4
+  coreVersion: '13.346'
+  createdTime: 1708227601849
+  modifiedTime: 1752197371435
+  lastModifiedBy: 1pY4akW8WASxGBbA
+  compendiumSource: null
+  duplicateSource: null
+  exportSource: null
+_key: '!items!9ojwcDr3te4TJ0Fv'

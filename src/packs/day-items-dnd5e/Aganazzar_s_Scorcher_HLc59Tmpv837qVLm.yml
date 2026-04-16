@@ -1,0 +1,147 @@
+name: Aganazzar's Scorcher
+type: spell
+system:
+  source:
+    custom: ''
+    book: XGE
+    page: '150'
+    license: ''
+    revision: 1
+    rules: '2024'
+  description:
+    value: >-
+      <div class="rd__b  rd__b--3"><p>A line of roaring flame 30 feet long and 5
+      feet wide emanates from you in a direction you choose. Each creature in
+      the line must make a Dexterity saving throw. A creature takes [[/r 3d8]]
+      fire damage on a failed save, or half as much damage on a successful
+      one.</p><div class="rd__spc-inline-post"></div></div><div class="rd__b 
+      rd__b--3"><div class="rd__b  rd__b--3"><span class="rd__h rd__h--3"
+      data-title-index="1"> <span class="entry-title-inner">At Higher
+      Levels.</span></span> <p>When you cast this spell using a spell slot of
+      3rd level or higher, the damage increases by [[/r 1d8]] for each slot
+      level above 2nd.</p><div class="rd__spc-inline-post"></div></div><div
+      class="rd__spc-inline-post"></div></div><div><span class="bold">Classes:
+      </span>Sorcerer, Wizard</div>
+    chat: ''
+  level: 2
+  school: evo
+  properties:
+    - vocal
+    - somatic
+    - material
+  materials:
+    value: a red dragon's scale
+    consumed: false
+    cost: 0
+    supply: 0
+  target:
+    affects:
+      choice: false
+    template:
+      units: ''
+      contiguous: false
+  range:
+    value: '30'
+    units: ft
+  activation:
+    type: action
+    condition: ''
+    value: 1
+  duration:
+    value: ''
+    units: inst
+  uses:
+    max: ''
+    spent: 0
+    recovery: []
+  preparation:
+    mode: prepared
+    prepared: false
+  activities:
+    dnd5eactivity000:
+      _id: dnd5eactivity000
+      type: save
+      activation:
+        type: action
+        override: false
+      consumption:
+        targets: []
+        scaling:
+          allowed: false
+          max: ''
+        spellSlot: true
+      description:
+        chatFlavor: ''
+      duration:
+        units: inst
+        concentration: false
+        override: false
+      effects: []
+      range:
+        units: self
+        override: false
+      target:
+        prompt: true
+        template:
+          contiguous: false
+          units: ft
+        affects:
+          choice: false
+        override: false
+      uses:
+        spent: 0
+        max: ''
+        recovery: []
+      damage:
+        onSave: half
+        parts:
+          - number: 3
+            denomination: 8
+            bonus: ''
+            types:
+              - fire
+            custom:
+              enabled: false
+              formula: ''
+            scaling:
+              mode: whole
+              number: 1
+              formula: ''
+      save:
+        ability:
+          - dex
+        dc:
+          calculation: spellcasting
+          formula: ''
+      sort: 0
+  identifier: aganazzars-scorcher
+img: icons/magic/fire/projectile-fireball-smoke-orange.webp
+ownership:
+  default: 0
+  38Gfe7fp1EmVmZNj: 3
+flags:
+  plutonium:
+    page: spells.html
+    source: XGE
+    hash: aganazzar's%20scorcher_xge
+    propDroppable: spell
+  dnd5e:
+    persistSourceMigration: true
+    riders:
+      activity: []
+      effect: []
+effects: []
+folder: 5RW3khzmlcXrGJ9s
+_id: HLc59Tmpv837qVLm
+sort: 0
+_stats:
+  systemId: dnd5e
+  systemVersion: 5.0.4
+  coreVersion: '13.346'
+  createdTime: 1708109197615
+  modifiedTime: 1752197371435
+  lastModifiedBy: 1pY4akW8WASxGBbA
+  compendiumSource: null
+  duplicateSource: null
+  exportSource: null
+_key: '!items!HLc59Tmpv837qVLm'

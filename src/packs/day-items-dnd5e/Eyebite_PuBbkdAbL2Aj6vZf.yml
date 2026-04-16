@@ -1,0 +1,205 @@
+name: Eyebite
+type: spell
+system:
+  source:
+    custom: ''
+    book: PHB
+    page: '238'
+    license: ''
+  description:
+    value: >-
+      <div class="rd__b  rd__b--3"><p>For the spell's duration, your eyes become
+      an inky void imbued with dread power. One creature of your choice within
+      60 feet of you that you can see must succeed on a Wisdom saving throw or
+      be affected by one of the following effects of your choice for the
+      duration. On each of your turns until the spell ends, you can use your
+      action to target another creature but can't target a creature again if it
+      has succeeded on a saving throw against this casting of eyebite.</p><div
+      class="rd__spc-inline-post"></div><div class="rd__b  rd__b--3"><span
+      class="rd__h rd__h--3" data-title-index="1"> <span
+      class="entry-title-inner">Asleep.</span></span> <p>The target falls
+      @condition[unconscious]. It wakes up if it takes any damage or if another
+      creature uses its action to shake the sleeper awake.</p><div
+      class="rd__spc-inline-post"></div></div><div class="rd__b  rd__b--3"><span
+      class="rd__h rd__h--3" data-title-index="2"> <span
+      class="entry-title-inner">Panicked.</span></span> <p>The target is
+      @condition[frightened] of you. On each of its turns, the
+      @condition[frightened] creature must take the @action[Dash] action and
+      move away from you by the safest and shortest available route, unless
+      there is nowhere to move. If the target moves to a place at least 60 feet
+      away from you where it can no longer see you, this effect ends.</p><div
+      class="rd__spc-inline-post"></div></div><div class="rd__b  rd__b--3"><span
+      class="rd__h rd__h--3" data-title-index="3"> <span
+      class="entry-title-inner">Sickened.</span></span> <p>The target has
+      disadvantage on attack rolls and ability checks. At the end of each of its
+      turns, it can make another Wisdom saving throw. If it succeeds, the effect
+      ends.</p><div class="rd__spc-inline-post"></div></div></div><div><span
+      class="bold">Classes: </span>Bard, Sorcerer, Warlock, Wizard</div>
+    chat: ''
+  actionType: save
+  level: 6
+  school: nec
+  properties:
+    - vocal
+    - somatic
+    - concentration
+  materials:
+    value: ''
+    consumed: false
+    cost: 0
+    supply: 0
+  target:
+    value: 0
+    units: self
+    type: self
+    prompt: true
+    width: null
+  range:
+    value: 0
+    units: self
+    long: null
+  activation:
+    type: action
+    cost: 1
+    condition: ''
+  duration:
+    value: '1'
+    units: minute
+  damage:
+    parts: []
+    versatile: ''
+  scaling:
+    mode: none
+    formula: ''
+  save:
+    ability: wis
+    dc: null
+    scaling: spell
+  uses:
+    value: null
+    max: ''
+    per: null
+    recovery: ''
+    prompt: true
+  attackBonus: ''
+  chatFlavor: ''
+  critical:
+    threshold: null
+    damage: ''
+  formula: ''
+  preparation:
+    mode: prepared
+    prepared: false
+  consume:
+    type: ''
+    target: null
+    amount: null
+    scale: false
+  cover: null
+  crewed: false
+  ability: null
+img: icons/magic/nature/stealth-hide-eyes-pink.webp
+ownership:
+  default: 0
+  38Gfe7fp1EmVmZNj: 3
+flags:
+  plutonium:
+    page: spells.html
+    source: PHB
+    hash: eyebite_phb
+    propDroppable: spell
+effects:
+  - name: Eyebite (alseep)
+    origin: Compendium.dnd5e.spells.Item.ZRqu3Xh9FmlBCZGy
+    duration:
+      value: 60
+      units: seconds
+      expiry: turnStart
+      expired: false
+    disabled: false
+    _id: 2pJGy924n0r44Zkh
+    description: >-
+      <p>The target falls Unconscious. It wakes up if it takes any damage or if
+      another creature uses its action to shake the sleeper awake.</p>
+    transfer: false
+    statuses:
+      - unconscious
+      - incapacitated
+    flags:
+      plutonium:
+        dedupeId: eyebite-alseep
+    tint: '#ffffff'
+    _stats:
+      coreVersion: '14.359'
+      systemId: null
+      systemVersion: null
+      createdTime: null
+      modifiedTime: null
+      lastModifiedBy: null
+      compendiumSource: null
+      duplicateSource: null
+      exportSource: null
+    img: icons/magic/nature/stealth-hide-eyes-pink.webp
+    type: base
+    system:
+      changes: []
+    sort: 0
+    showIcon: 2
+    start: null
+    folder: null
+    _key: '!items.effects!PuBbkdAbL2Aj6vZf.2pJGy924n0r44Zkh'
+  - name: Eyebite (panicked)
+    origin: Compendium.dnd5e.spells.Item.ZRqu3Xh9FmlBCZGy
+    duration:
+      value: 60
+      units: seconds
+      expiry: turnStart
+      expired: false
+    disabled: false
+    _id: VcwWVogEU3TwChxb
+    description: >-
+      <p>The target is Frightened of the caster. On each of its turns, the
+      frightened creature must take the Dash action and move away from the
+      caster by the safest and shortest available route, unless there is nowhere
+      to move. If the target moves to a place at least 60 feet away from the
+      case where it can no longer see them, this effect ends.</p>
+    transfer: false
+    statuses:
+      - frightened
+    flags:
+      plutonium:
+        dedupeId: eyebite-panicked
+    tint: '#ffffff'
+    _stats:
+      coreVersion: '14.359'
+      systemId: null
+      systemVersion: null
+      createdTime: null
+      modifiedTime: null
+      lastModifiedBy: null
+      compendiumSource: null
+      duplicateSource: null
+      exportSource: null
+    img: icons/magic/nature/stealth-hide-eyes-pink.webp
+    type: base
+    system:
+      changes: []
+    sort: 0
+    showIcon: 2
+    start: null
+    folder: null
+    _key: '!items.effects!PuBbkdAbL2Aj6vZf.VcwWVogEU3TwChxb'
+folder: yzfv3oHd3vNNsIdJ
+_id: PuBbkdAbL2Aj6vZf
+sort: 0
+_stats:
+  systemId: dnd5e
+  systemVersion: 3.0.2
+  coreVersion: '14.359'
+  createdTime: 1708109345138
+  modifiedTime: 1708227413053
+  lastModifiedBy: 38Gfe7fp1EmVmZNj
+  compendiumSource: null
+  duplicateSource: null
+  exportSource: null
+_key: '!items!PuBbkdAbL2Aj6vZf'

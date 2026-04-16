@@ -1,0 +1,145 @@
+name: Frostbite
+type: spell
+system:
+  source:
+    custom: ''
+    book: XGE
+    page: '156'
+    license: ''
+    revision: 1
+    rules: '2024'
+  description:
+    value: >-
+      <div class="rd__b  rd__b--3"><p>You cause numbing frost to form on one
+      creature that you can see within range. The target must make a
+      Constitution saving throw. On a failed save, the target takes [[/r 1d6]]
+      cold damage, and it has disadvantage on the next weapon attack roll it
+      makes before the end of its next turn.</p><div
+      class="rd__spc-inline-post"></div><p>The spell's damage increases by [[/r
+      1d6]] when you reach 5th level ([[/r 2d6]]), 11th level ([[/r 3d6]]), and
+      17th level ([[/r 4d6]]).</p></div><div><span class="bold">Classes:
+      </span>Artificer, Druid, Sorcerer, Warlock, Wizard</div>
+    chat: ''
+  level: 0
+  school: evo
+  properties:
+    - vocal
+    - somatic
+  materials:
+    value: ''
+    consumed: false
+    cost: 0
+    supply: 0
+  target:
+    affects:
+      type: creature
+      count: '1'
+      choice: false
+    template:
+      units: ''
+      contiguous: false
+  range:
+    value: '60'
+    units: ft
+  activation:
+    type: action
+    condition: ''
+    value: 1
+  duration:
+    value: ''
+    units: inst
+  uses:
+    max: ''
+    spent: 0
+    recovery: []
+  preparation:
+    mode: always
+    prepared: false
+  activities:
+    dnd5eactivity000:
+      _id: dnd5eactivity000
+      type: save
+      activation:
+        type: action
+        override: false
+      consumption:
+        targets: []
+        scaling:
+          allowed: false
+          max: ''
+        spellSlot: true
+      description:
+        chatFlavor: ''
+      duration:
+        units: inst
+        concentration: false
+        override: false
+      effects: []
+      range:
+        units: self
+        override: false
+      target:
+        prompt: true
+        template:
+          contiguous: false
+          units: ft
+        affects:
+          choice: false
+        override: false
+      uses:
+        spent: 0
+        max: ''
+        recovery: []
+      damage:
+        onSave: none
+        parts:
+          - number: 1
+            denomination: 6
+            bonus: ''
+            types:
+              - cold
+            custom:
+              enabled: false
+              formula: ''
+            scaling:
+              mode: whole
+              number: 1
+              formula: ''
+      save:
+        ability:
+          - con
+        dc:
+          calculation: spellcasting
+          formula: ''
+      sort: 0
+  identifier: frostbite
+img: icons/magic/water/snowflake-ice-blue-white.webp
+ownership:
+  default: 0
+  38Gfe7fp1EmVmZNj: 3
+flags:
+  plutonium:
+    page: spells.html
+    source: XGE
+    hash: frostbite_xge
+    propDroppable: spell
+  dnd5e:
+    persistSourceMigration: true
+    riders:
+      activity: []
+      effect: []
+effects: []
+folder: LiW94aeo1pXMSCLr
+_id: 1Id4Qf9nDCrzwRiB
+sort: 0
+_stats:
+  systemId: dnd5e
+  systemVersion: 5.0.4
+  coreVersion: '13.346'
+  createdTime: 1708227601952
+  modifiedTime: 1752197371435
+  lastModifiedBy: 1pY4akW8WASxGBbA
+  compendiumSource: null
+  duplicateSource: null
+  exportSource: null
+_key: '!items!1Id4Qf9nDCrzwRiB'

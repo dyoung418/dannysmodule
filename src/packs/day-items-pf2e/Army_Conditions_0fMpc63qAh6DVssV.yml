@@ -1,0 +1,20 @@
+name: Army Conditions
+sorting: a
+folder: ISFvhvQJpbdNXXsZ
+type: Item
+_id: 0fMpc63qAh6DVssV
+description: ''
+sort: 0
+color: '#0e9911'
+flags: {}
+_stats:
+  compendiumSource: null
+  duplicateSource: null
+  coreVersion: '13.346'
+  systemId: pf2e
+  systemVersion: 6.7.1
+  createdTime: 1732924693989
+  modifiedTime: 1752208111600
+  lastModifiedBy: txZjek5EOiCBHPoz
+  exportSource: null
+_key: '!folders!0fMpc63qAh6DVssV'

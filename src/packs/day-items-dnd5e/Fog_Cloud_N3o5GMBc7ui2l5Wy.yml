@@ -1,0 +1,110 @@
+name: Fog Cloud
+type: spell
+system:
+  source:
+    custom: ''
+    book: PHB
+    page: '243'
+    license: ''
+  description:
+    value: >-
+      <div class="rd__b  rd__b--3"><p>You create a 20-foot-radius sphere of fog
+      centered on a point within range. The sphere spreads around corners, and
+      its area is heavily obscured. It lasts for the duration or until a wind of
+      moderate or greater speed (at least 10 miles per hour) disperses
+      it.</p><div class="rd__spc-inline-post"></div></div><div class="rd__b 
+      rd__b--3"><div class="rd__b  rd__b--3"><span class="rd__h rd__h--3"
+      data-title-index="1"> <span class="entry-title-inner">At Higher
+      Levels.</span></span> <p>When you cast this spell using a spell slot of
+      2nd level or higher, the radius of the fog increases by 20 feet for each
+      slot level above 1st.</p><div class="rd__spc-inline-post"></div></div><div
+      class="rd__spc-inline-post"></div></div><div><span class="bold">Classes:
+      </span>Druid, Ranger, Sorcerer, Wizard</div>
+    chat: ''
+  actionType: util
+  level: 1
+  school: con
+  properties:
+    - vocal
+    - somatic
+    - concentration
+  materials:
+    value: ''
+    consumed: false
+    cost: 0
+    supply: 0
+  target:
+    value: 20
+    units: ft
+    type: sphere
+    prompt: true
+    width: null
+  range:
+    value: 120
+    units: ft
+    long: null
+  activation:
+    type: action
+    cost: 1
+    condition: ''
+  duration:
+    value: '1'
+    units: hour
+  damage:
+    parts: []
+    versatile: ''
+  scaling:
+    mode: none
+    formula: ''
+  save:
+    dc: null
+    scaling: spell
+    ability: ''
+  uses:
+    value: null
+    max: ''
+    per: null
+    recovery: ''
+    prompt: true
+  attackBonus: ''
+  chatFlavor: ''
+  critical:
+    threshold: null
+    damage: ''
+  formula: ''
+  preparation:
+    mode: prepared
+    prepared: false
+  consume:
+    type: ''
+    target: null
+    amount: null
+    scale: false
+  cover: null
+  crewed: false
+  ability: null
+img: icons/commodities/tech/smoke-spout-blue.webp
+ownership:
+  default: 0
+  38Gfe7fp1EmVmZNj: 3
+flags:
+  plutonium:
+    page: spells.html
+    source: PHB
+    hash: fog%20cloud_phb
+    propDroppable: spell
+effects: []
+folder: hBkaUu7fsbkopX1H
+_id: N3o5GMBc7ui2l5Wy
+sort: 0
+_stats:
+  systemId: dnd5e
+  systemVersion: 3.0.2
+  coreVersion: '13.345'
+  createdTime: 1708227517379
+  modifiedTime: 1708227533976
+  lastModifiedBy: 38Gfe7fp1EmVmZNj
+  compendiumSource: null
+  duplicateSource: null
+  exportSource: null
+_key: '!items!N3o5GMBc7ui2l5Wy'

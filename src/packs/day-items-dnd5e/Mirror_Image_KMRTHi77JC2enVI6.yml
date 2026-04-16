@@ -1,0 +1,138 @@
+name: Mirror Image
+type: spell
+system:
+  source:
+    custom: ''
+    book: PHB
+    page: '260'
+    license: ''
+    revision: 1
+    rules: '2024'
+  description:
+    value: >-
+      <div class="rd__b  rd__b--3"><p>Three illusory duplicates of yourself
+      appear in your space. Until the spell ends, the duplicates move with you
+      and mimic your actions, shifting position so it's impossible to track
+      which image is real. You can use your action to dismiss the illusory
+      duplicates.</p><div class="rd__spc-inline-post"></div><p>Each time a
+      creature targets you with an attack during the spell's duration, roll a
+      [[/r d20]] to determine whether the attack instead targets one of your
+      duplicates.</p><p>If you have three duplicates, you must roll a 6 or
+      higher to change the attack's target to a duplicate. With two duplicates,
+      you must roll an 8 or higher. With one duplicate, you must roll an 11 or
+      higher.</p><p>A duplicate's AC equals 10 + your Dexterity modifier. If an
+      attack hits a duplicate, the duplicate is destroyed. A duplicate can be
+      destroyed only by an attack that hits it. It ignores all other damage and
+      effects. The spell ends when all three duplicates are destroyed.</p><p>A
+      creature is unaffected by this spell if it can't see, if it relies on
+      senses other than sight, such as blindsight, or if it can perceive
+      illusions as false, as with @sense[truesight].</p></div><div><span
+      class="bold">Classes: </span>Sorcerer, Warlock, Wizard</div>
+    chat: ''
+  level: 2
+  school: ill
+  properties:
+    - vocal
+    - somatic
+  materials:
+    value: ''
+    consumed: false
+    cost: 0
+    supply: 0
+  target:
+    affects:
+      type: self
+      count: '0'
+      choice: false
+    template:
+      units: self
+      contiguous: false
+  range:
+    value: '0'
+    units: self
+  activation:
+    type: action
+    condition: ''
+    value: 1
+  duration:
+    value: '1'
+    units: minute
+  uses:
+    max: ''
+    spent: 0
+    recovery: []
+  preparation:
+    mode: prepared
+    prepared: false
+  activities:
+    dnd5eactivity000:
+      _id: dnd5eactivity000
+      type: utility
+      activation:
+        type: action
+        override: false
+      consumption:
+        targets: []
+        scaling:
+          allowed: false
+          max: ''
+        spellSlot: true
+      description:
+        chatFlavor: ''
+      duration:
+        units: inst
+        concentration: false
+        override: false
+      effects: []
+      range:
+        units: self
+        override: false
+      target:
+        prompt: true
+        template:
+          contiguous: false
+          units: ft
+        affects:
+          choice: false
+        override: false
+      uses:
+        spent: 0
+        max: ''
+        recovery: []
+      roll:
+        formula: ''
+        name: ''
+        prompt: false
+        visible: false
+      sort: 0
+  identifier: mirror-image
+img: icons/sundries/gaming/chess-pawn-white-glass.webp
+ownership:
+  default: 0
+  38Gfe7fp1EmVmZNj: 3
+flags:
+  plutonium:
+    page: spells.html
+    source: PHB
+    hash: mirror%20image_phb
+    propDroppable: spell
+  dnd5e:
+    persistSourceMigration: true
+    riders:
+      activity: []
+      effect: []
+effects: []
+folder: 5RW3khzmlcXrGJ9s
+_id: KMRTHi77JC2enVI6
+sort: 0
+_stats:
+  systemId: dnd5e
+  systemVersion: 5.0.4
+  coreVersion: '13.346'
+  createdTime: 1708109345320
+  modifiedTime: 1752197371435
+  lastModifiedBy: 1pY4akW8WASxGBbA
+  compendiumSource: null
+  duplicateSource: null
+  exportSource: null
+_key: '!items!KMRTHi77JC2enVI6'

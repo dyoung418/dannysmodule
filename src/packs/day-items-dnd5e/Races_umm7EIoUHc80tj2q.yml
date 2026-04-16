@@ -1,0 +1,20 @@
+name: Races
+sorting: a
+folder: Try85loRkZPGd9Aa
+type: Item
+_id: umm7EIoUHc80tj2q
+sort: 400000
+color: null
+flags: {}
+_stats:
+  systemId: dnd5e
+  systemVersion: 3.0.3
+  coreVersion: '13.346'
+  createdTime: 1709666665099
+  modifiedTime: 1752197369805
+  lastModifiedBy: 1pY4akW8WASxGBbA
+  compendiumSource: null
+  duplicateSource: null
+  exportSource: null
+description: ''
+_key: '!folders!umm7EIoUHc80tj2q'

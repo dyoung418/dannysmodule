@@ -1,0 +1,451 @@
+folder: wN5hA2i4kce4SE3P
+name: Exterior - Rural
+_id: F45xZeUIEWdezMCN
+sounds:
+  - name: Centaur Attack
+    path: modules/dannysmodule/assets/audio/audio-ambient/rural/centaur-attack.ogg
+    _id: XncGcBwiunP2WIcy
+    channel: music
+    playing: false
+    pausedTime: null
+    repeat: true
+    volume: 0.5
+    fade: null
+    sort: 0
+    flags: {}
+    _key: '!playlists.sounds!F45xZeUIEWdezMCN.XncGcBwiunP2WIcy'
+  - name: Construction
+    path: modules/dannysmodule/assets/audio/audio-ambient/rural/construction.ogg
+    _id: YTf7qDNZCaPvcNEO
+    channel: music
+    playing: false
+    pausedTime: null
+    repeat: true
+    volume: 0.5
+    fade: null
+    sort: 0
+    flags: {}
+    _key: '!playlists.sounds!F45xZeUIEWdezMCN.YTf7qDNZCaPvcNEO'
+  - name: Crows Distant
+    path: modules/dannysmodule/assets/audio/audio-ambient/rural/crows-distant.ogg
+    _id: 31GKMBskemJLqZst
+    channel: music
+    playing: false
+    pausedTime: null
+    repeat: true
+    volume: 0.5
+    fade: null
+    sort: 0
+    flags: {}
+    _key: '!playlists.sounds!F45xZeUIEWdezMCN.31GKMBskemJLqZst'
+  - name: Crows
+    path: modules/dannysmodule/assets/audio/audio-ambient/rural/crows.ogg
+    _id: KJRAnBIa8yGjZ6nX
+    channel: music
+    playing: false
+    pausedTime: null
+    repeat: true
+    volume: 0.5
+    fade: null
+    sort: 0
+    flags: {}
+    _key: '!playlists.sounds!F45xZeUIEWdezMCN.KJRAnBIa8yGjZ6nX'
+  - name: Distant Drumming
+    path: modules/dannysmodule/assets/audio/audio-ambient/rural/distant-drumming.ogg
+    _id: hWfNVrhu9DKr5vKt
+    channel: music
+    playing: false
+    pausedTime: null
+    repeat: false
+    volume: 0.41
+    fade: null
+    sort: 0
+    flags: {}
+    _key: '!playlists.sounds!F45xZeUIEWdezMCN.hWfNVrhu9DKr5vKt'
+  - name: Distant Voices
+    path: modules/dannysmodule/assets/audio/audio-ambient/rural/distant-voices.ogg
+    _id: 5ru7nwnKGaHuO2NH
+    channel: music
+    playing: false
+    pausedTime: null
+    repeat: true
+    volume: 0.5
+    fade: null
+    sort: 0
+    flags: {}
+    _key: '!playlists.sounds!F45xZeUIEWdezMCN.5ru7nwnKGaHuO2NH'
+  - name: Festival Day
+    path: modules/dannysmodule/assets/audio/audio-ambient/rural/festival-day.ogg
+    _id: 89oci2YQhYxMTF8X
+    channel: music
+    playing: false
+    pausedTime: null
+    repeat: true
+    volume: 0.5
+    fade: null
+    sort: 0
+    flags: {}
+    _key: '!playlists.sounds!F45xZeUIEWdezMCN.89oci2YQhYxMTF8X'
+  - name: Festival Night
+    path: modules/dannysmodule/assets/audio/audio-ambient/rural/festival-night.ogg
+    _id: butG7mwH6Cy3R1bG
+    channel: music
+    playing: false
+    pausedTime: null
+    repeat: true
+    volume: 0.5
+    fade: null
+    sort: 0
+    flags: {}
+    _key: '!playlists.sounds!F45xZeUIEWdezMCN.butG7mwH6Cy3R1bG'
+  - name: Flies
+    path: modules/dannysmodule/assets/audio/audio-ambient/rural/flies.ogg
+    _id: e3MoLWwhsrjKu1M4
+    channel: music
+    playing: false
+    pausedTime: null
+    repeat: false
+    volume: 0.5
+    fade: null
+    sort: 0
+    flags: {}
+    _key: '!playlists.sounds!F45xZeUIEWdezMCN.e3MoLWwhsrjKu1M4'
+  - name: Forest Calm Day
+    path: modules/dannysmodule/assets/audio/audio-ambient/rural/forest-calm-day.ogg
+    _id: 8FrnTKkYDoY8dVAh
+    channel: music
+    playing: false
+    pausedTime: null
+    repeat: true
+    volume: 0.5
+    fade: null
+    sort: 0
+    flags: {}
+    _key: '!playlists.sounds!F45xZeUIEWdezMCN.8FrnTKkYDoY8dVAh'
+  - name: Forest Calm Night
+    path: >-
+      modules/dannysmodule/assets/audio/audio-ambient/rural/forest-calm-night.ogg
+    _id: Kyag2ejdb5MKXd5D
+    channel: music
+    playing: false
+    pausedTime: null
+    repeat: true
+    volume: 0.5
+    fade: null
+    sort: 0
+    flags: {}
+    _key: '!playlists.sounds!F45xZeUIEWdezMCN.Kyag2ejdb5MKXd5D'
+  - name: Forest Calm With River Day
+    path: >-
+      modules/dannysmodule/assets/audio/audio-ambient/rural/forest-calm-with-river-day.ogg
+    _id: YrBTnya5fr4vSkNm
+    channel: music
+    playing: false
+    pausedTime: null
+    repeat: true
+    volume: 0.5
+    fade: null
+    sort: 0
+    flags: {}
+    _key: '!playlists.sounds!F45xZeUIEWdezMCN.YrBTnya5fr4vSkNm'
+  - name: Forest Calm With River Night
+    path: >-
+      modules/dannysmodule/assets/audio/audio-ambient/rural/forest-calm-with-river-night.ogg
+    _id: CPQbNCa9SaTjr9r1
+    channel: music
+    playing: false
+    pausedTime: null
+    repeat: true
+    volume: 0.5
+    fade: null
+    sort: 0
+    flags: {}
+    _key: '!playlists.sounds!F45xZeUIEWdezMCN.CPQbNCa9SaTjr9r1'
+  - name: Gulls
+    path: modules/dannysmodule/assets/audio/audio-ambient/rural/gulls.ogg
+    _id: bIjYqk9gA5MUd4c5
+    channel: music
+    playing: false
+    pausedTime: null
+    repeat: true
+    volume: 0.5
+    fade: null
+    sort: 0
+    flags: {}
+    _key: '!playlists.sounds!F45xZeUIEWdezMCN.bIjYqk9gA5MUd4c5'
+  - name: Mountain Day
+    path: modules/dannysmodule/assets/audio/audio-ambient/rural/mountain-day.ogg
+    _id: 35bkIvf0YNjgS9aF
+    channel: music
+    playing: false
+    pausedTime: null
+    repeat: true
+    volume: 0.5
+    fade: null
+    sort: 0
+    flags: {}
+    _key: '!playlists.sounds!F45xZeUIEWdezMCN.35bkIvf0YNjgS9aF'
+  - name: Mountain Night
+    path: modules/dannysmodule/assets/audio/audio-ambient/rural/mountain-night.ogg
+    _id: AWK1ZadkNUdHbXh9
+    channel: music
+    playing: false
+    pausedTime: null
+    repeat: true
+    volume: 0.5
+    fade: null
+    sort: 0
+    flags: {}
+    _key: '!playlists.sounds!F45xZeUIEWdezMCN.AWK1ZadkNUdHbXh9'
+  - name: Plains Day With Bonfire
+    path: >-
+      modules/dannysmodule/assets/audio/audio-ambient/rural/plains-day-with-bonfire.ogg
+    _id: UzLuoNWtmZzBjraV
+    channel: music
+    playing: false
+    pausedTime: null
+    repeat: true
+    volume: 0.5
+    fade: null
+    sort: 0
+    flags: {}
+    _key: '!playlists.sounds!F45xZeUIEWdezMCN.UzLuoNWtmZzBjraV'
+  - name: Plains Day
+    path: modules/dannysmodule/assets/audio/audio-ambient/rural/plains-day.ogg
+    _id: 7yz33Ici7Ukf9dGX
+    channel: music
+    playing: false
+    pausedTime: null
+    repeat: true
+    volume: 0.5
+    fade: null
+    sort: 0
+    flags: {}
+    _key: '!playlists.sounds!F45xZeUIEWdezMCN.7yz33Ici7Ukf9dGX'
+  - name: Plains Night With Bonfire
+    path: >-
+      modules/dannysmodule/assets/audio/audio-ambient/rural/plains-night-with-bonfire.ogg
+    _id: 9I5PBtTbYMESSo5w
+    channel: music
+    playing: false
+    pausedTime: null
+    repeat: true
+    volume: 0.5
+    fade: null
+    sort: 0
+    flags: {}
+    _key: '!playlists.sounds!F45xZeUIEWdezMCN.9I5PBtTbYMESSo5w'
+  - name: Plains Night
+    path: modules/dannysmodule/assets/audio/audio-ambient/rural/plains-night.ogg
+    _id: 9NUN3uzUPLvaC2PP
+    channel: music
+    playing: false
+    pausedTime: null
+    repeat: true
+    volume: 0.5
+    fade: null
+    sort: 0
+    flags: {}
+    _key: '!playlists.sounds!F45xZeUIEWdezMCN.9NUN3uzUPLvaC2PP'
+  - name: Quiet Lakeshore
+    path: modules/dannysmodule/assets/audio/audio-ambient/rural/quiet-lakeshore.ogg
+    _id: 2mZ7im23BvyoM2NX
+    channel: music
+    playing: false
+    pausedTime: null
+    repeat: true
+    volume: 0.5
+    fade: null
+    sort: 0
+    flags: {}
+    _key: '!playlists.sounds!F45xZeUIEWdezMCN.2mZ7im23BvyoM2NX'
+  - name: Quiet Rural Drone
+    path: >-
+      modules/dannysmodule/assets/audio/audio-ambient/rural/quiet-rural-drone.ogg
+    _id: l3NtQduf7vjzEuBu
+    channel: music
+    playing: false
+    pausedTime: null
+    repeat: true
+    volume: 0.5
+    fade: null
+    sort: 0
+    flags: {}
+    _key: '!playlists.sounds!F45xZeUIEWdezMCN.l3NtQduf7vjzEuBu'
+  - name: Silverstep Lake Day
+    path: >-
+      modules/dannysmodule/assets/audio/audio-ambient/rural/silverstep-lake-day.ogg
+    _id: Bo33VH4KIvYEFvhp
+    channel: music
+    playing: false
+    pausedTime: null
+    repeat: true
+    volume: 0.5
+    fade: null
+    sort: 0
+    flags: {}
+    _key: '!playlists.sounds!F45xZeUIEWdezMCN.Bo33VH4KIvYEFvhp'
+  - name: Silverstep Lake Night
+    path: >-
+      modules/dannysmodule/assets/audio/audio-ambient/rural/silverstep-lake-night.ogg
+    _id: mw0cmRsnzwURy6b9
+    channel: music
+    playing: false
+    pausedTime: null
+    repeat: true
+    volume: 0.5
+    fade: null
+    sort: 0
+    flags: {}
+    _key: '!playlists.sounds!F45xZeUIEWdezMCN.mw0cmRsnzwURy6b9'
+  - name: Small Dog Barks Distant
+    path: >-
+      modules/dannysmodule/assets/audio/audio-ambient/rural/small-dog-barks-distant.ogg
+    _id: GhRhMsdFRN1PISIh
+    channel: music
+    playing: false
+    pausedTime: null
+    repeat: true
+    volume: 0.5
+    fade: null
+    sort: 0
+    flags: {}
+    _key: '!playlists.sounds!F45xZeUIEWdezMCN.GhRhMsdFRN1PISIh'
+  - name: Small Dog Barks Incessant
+    path: >-
+      modules/dannysmodule/assets/audio/audio-ambient/rural/small-dog-barks-incessant.ogg
+    _id: lZC3JXFpowE50YtI
+    channel: music
+    playing: false
+    pausedTime: null
+    repeat: true
+    volume: 0.5
+    fade: null
+    sort: 0
+    flags: {}
+    _key: '!playlists.sounds!F45xZeUIEWdezMCN.lZC3JXFpowE50YtI'
+  - name: Swamp Day
+    path: modules/dannysmodule/assets/audio/audio-ambient/rural/swamp-day.ogg
+    _id: VjS44DHQY5BXK6GR
+    channel: music
+    playing: false
+    pausedTime: null
+    repeat: true
+    volume: 0.5
+    fade: null
+    sort: 0
+    flags: {}
+    _key: '!playlists.sounds!F45xZeUIEWdezMCN.VjS44DHQY5BXK6GR'
+  - name: Swamp Night
+    path: modules/dannysmodule/assets/audio/audio-ambient/rural/swamp-night.ogg
+    _id: uDpjBwdpkfJL2AXD
+    channel: music
+    playing: false
+    pausedTime: null
+    repeat: true
+    volume: 0.5
+    fade: null
+    sort: 0
+    flags: {}
+    _key: '!playlists.sounds!F45xZeUIEWdezMCN.uDpjBwdpkfJL2AXD'
+  - name: Timber And Axes
+    path: modules/dannysmodule/assets/audio/audio-ambient/rural/timber-and-axes.ogg
+    _id: UUYG7tziHIIhRcnG
+    channel: music
+    playing: false
+    pausedTime: null
+    repeat: true
+    volume: 0.5
+    fade: null
+    sort: 0
+    flags: {}
+    _key: '!playlists.sounds!F45xZeUIEWdezMCN.UUYG7tziHIIhRcnG'
+  - name: Tradingpost Day
+    path: modules/dannysmodule/assets/audio/audio-ambient/rural/tradingpost-day.ogg
+    _id: up3NfEcsricaq33t
+    channel: music
+    playing: false
+    pausedTime: null
+    repeat: true
+    volume: 0.5
+    fade: null
+    sort: 0
+    flags: {}
+    _key: '!playlists.sounds!F45xZeUIEWdezMCN.up3NfEcsricaq33t'
+  - name: Tradingpost Night
+    path: >-
+      modules/dannysmodule/assets/audio/audio-ambient/rural/tradingpost-night.ogg
+    _id: npancaNk9qktX7SJ
+    channel: music
+    playing: false
+    pausedTime: null
+    repeat: true
+    volume: 0.5
+    fade: null
+    sort: 0
+    flags: {}
+    _key: '!playlists.sounds!F45xZeUIEWdezMCN.npancaNk9qktX7SJ'
+  - name: Winter
+    path: modules/dannysmodule/assets/audio/audio-ambient/rural/winter.ogg
+    _id: lMbqB0yNU53B25nI
+    channel: music
+    playing: false
+    pausedTime: null
+    repeat: true
+    volume: 0.09
+    fade: null
+    sort: 0
+    flags: {}
+    _key: '!playlists.sounds!F45xZeUIEWdezMCN.lMbqB0yNU53B25nI'
+  - name: Wyverns
+    path: modules/dannysmodule/assets/audio/audio-ambient/rural/wyverns.ogg
+    _id: dtQGZlULZUP7p7Yr
+    channel: music
+    playing: false
+    pausedTime: null
+    repeat: true
+    volume: 0.5
+    fade: null
+    sort: 0
+    flags: {}
+    _key: '!playlists.sounds!F45xZeUIEWdezMCN.dtQGZlULZUP7p7Yr'
+  - name: waterfall
+    path: modules/dannysmodule/assets/audio/audio-ambient/rural/waterfall.ogg
+    channel: environment
+    repeat: true
+    fade: null
+    flags:
+      monks-sound-enhancements:
+        hide-name: false
+    description: ''
+    volume: 0.52
+    _id: 6raNNMNiyiuYLiU9
+    playing: false
+    pausedTime: null
+    sort: 0
+    _key: '!playlists.sounds!F45xZeUIEWdezMCN.6raNNMNiyiuYLiU9'
+channel: environment
+mode: -1
+playing: false
+fade: null
+sorting: a
+seed: 134
+flags:
+  monks-sound-enhancements:
+    hide-playlist: false
+_stats:
+  compendiumSource: null
+  duplicateSource: null
+  coreVersion: '13.344'
+  systemId: pf2e
+  systemVersion: 6.1.3
+  createdTime: 1722151829972
+  modifiedTime: 1723499071408
+  lastModifiedBy: txZjek5EOiCBHPoz
+  exportSource: null
+description: Outside sounds of the countryside
+sort: 0
+ownership:
+  default: 0
+  txZjek5EOiCBHPoz: 3
+_key: '!playlists!F45xZeUIEWdezMCN'

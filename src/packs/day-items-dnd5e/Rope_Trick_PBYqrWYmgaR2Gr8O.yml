@@ -1,0 +1,112 @@
+name: Rope Trick
+type: spell
+system:
+  source:
+    custom: ''
+    book: PHB
+    page: '272'
+    license: ''
+  description:
+    value: >-
+      <div class="rd__b  rd__b--3"><p>You touch a length of rope that is up to
+      60 feet long. One end of the rope then rises into the air until the whole
+      rope hangs perpendicular to the ground. At the upper end of the rope, an
+      invisible entrance opens to an extradimensional space that lasts until the
+      spell ends.</p><div class="rd__spc-inline-post"></div><p>The
+      extradimensional space can be reached by climbing to the top of the rope.
+      The space can hold as many as eight Medium or smaller creatures. The rope
+      can be pulled into the space, making the rope disappear from view outside
+      the space.</p><p>Attacks and spells can't cross through the entrance into
+      or out of the extradimensional space, but those inside can see out of it
+      as if through a 3-foot-by-5-foot window centered on the
+      rope.</p><p>Anything inside the extradimensional space drops out when the
+      spell ends.</p></div><div><span class="bold">Classes: </span>Artificer,
+      Wizard</div>
+    chat: ''
+  actionType: util
+  level: 2
+  school: trs
+  properties:
+    - vocal
+    - somatic
+    - material
+  materials:
+    value: powdered corn extract and a twisted loop of parchment
+    consumed: false
+    cost: 0
+    supply: 0
+  target:
+    value: 1
+    units: spec
+    type: object
+    prompt: true
+    width: null
+  range:
+    value: 0
+    units: touch
+    long: null
+  activation:
+    type: action
+    cost: 1
+    condition: ''
+  duration:
+    value: '1'
+    units: hour
+  damage:
+    parts: []
+    versatile: ''
+  scaling:
+    mode: none
+    formula: ''
+  save:
+    dc: null
+    scaling: spell
+    ability: ''
+  uses:
+    value: null
+    max: ''
+    per: null
+    recovery: ''
+    prompt: true
+  attackBonus: ''
+  chatFlavor: ''
+  critical:
+    threshold: null
+    damage: ''
+  formula: ''
+  preparation:
+    mode: prepared
+    prepared: false
+  consume:
+    type: ''
+    target: null
+    amount: null
+    scale: false
+  cover: null
+  crewed: false
+  ability: null
+img: icons/tools/nautical/rope-line-blue.webp
+ownership:
+  default: 0
+  38Gfe7fp1EmVmZNj: 3
+flags:
+  plutonium:
+    page: spells.html
+    source: PHB
+    hash: rope%20trick_phb
+    propDroppable: spell
+effects: []
+folder: mgLDxy1J2PuOM31n
+_id: PBYqrWYmgaR2Gr8O
+sort: 0
+_stats:
+  systemId: dnd5e
+  systemVersion: 3.0.3
+  coreVersion: '13.345'
+  createdTime: 1709684306041
+  modifiedTime: 1709684366197
+  lastModifiedBy: 38Gfe7fp1EmVmZNj
+  compendiumSource: null
+  duplicateSource: null
+  exportSource: null
+_key: '!items!PBYqrWYmgaR2Gr8O'

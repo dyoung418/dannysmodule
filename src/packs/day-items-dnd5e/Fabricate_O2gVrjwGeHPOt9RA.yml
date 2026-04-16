@@ -1,0 +1,137 @@
+name: Fabricate
+type: spell
+system:
+  source:
+    custom: ''
+    book: PHB
+    page: '239'
+    license: ''
+    revision: 1
+    rules: '2024'
+  description:
+    value: >-
+      <div class="rd__b  rd__b--3"><p>You convert raw materials into products of
+      the same material. For example, you can fabricate a wooden bridge from a
+      clump of trees, a rope from a patch of hemp, and clothes from flax or
+      wool.</p><div class="rd__spc-inline-post"></div><p>Choose raw materials
+      that you can see within range. You can fabricate a Large or smaller object
+      (contained within a 10-foot cube, or eight connected 5-foot cubes), given
+      a sufficient quantity of raw material. If you are working with metal,
+      stone, or another mineral substance, however, the fabricated object can be
+      no larger than Medium (contained within a single 5-foot cube). The quality
+      of objects made by the spell is commensurate with the quality of the raw
+      materials.</p><p>Creatures or magic items can't be created or transmuted
+      by this spell. You also can't use it to create items that ordinarily
+      require a high degree of craftsmanship, such as jewelry, weapons, glass,
+      or armor, unless you have proficiency with the type of artisan's tools
+      used to craft such objects.</p></div><div><span class="bold">Classes:
+      </span>Artificer, Wizard</div>
+    chat: ''
+  level: 4
+  school: trs
+  properties:
+    - vocal
+    - somatic
+  materials:
+    value: ''
+    consumed: false
+    cost: 0
+    supply: 0
+  target:
+    affects:
+      choice: false
+    template:
+      units: ft
+      type: cube
+      size: '10'
+      contiguous: false
+  range:
+    value: '120'
+    units: ft
+  activation:
+    type: minute
+    condition: ''
+    value: 10
+  duration:
+    value: ''
+    units: inst
+  uses:
+    max: ''
+    spent: 0
+    recovery: []
+  preparation:
+    mode: prepared
+    prepared: false
+  activities:
+    dnd5eactivity000:
+      _id: dnd5eactivity000
+      type: utility
+      activation:
+        type: action
+        value: null
+        override: false
+      consumption:
+        targets: []
+        scaling:
+          allowed: false
+          max: ''
+        spellSlot: true
+      description:
+        chatFlavor: ''
+      duration:
+        units: inst
+        concentration: false
+        override: false
+      effects: []
+      range:
+        override: false
+        units: self
+      target:
+        prompt: true
+        template:
+          contiguous: false
+          units: ft
+        affects:
+          choice: false
+        override: false
+      uses:
+        spent: 0
+        max: ''
+        recovery: []
+      roll:
+        formula: ''
+        name: ''
+        prompt: false
+        visible: false
+      sort: 0
+  identifier: fabricate
+img: icons/skills/trades/smithing-anvil-silver-red.webp
+ownership:
+  default: 0
+  38Gfe7fp1EmVmZNj: 3
+flags:
+  plutonium:
+    page: spells.html
+    source: PHB
+    hash: fabricate_phb
+    propDroppable: spell
+  dnd5e:
+    persistSourceMigration: true
+    riders:
+      activity: []
+      effect: []
+effects: []
+folder: 0DxlLTSvnP6Pzz2r
+_id: O2gVrjwGeHPOt9RA
+sort: 0
+_stats:
+  systemId: dnd5e
+  systemVersion: 5.0.4
+  coreVersion: '13.346'
+  createdTime: 1709684305234
+  modifiedTime: 1752197371435
+  lastModifiedBy: 1pY4akW8WASxGBbA
+  compendiumSource: null
+  duplicateSource: null
+  exportSource: null
+_key: '!items!O2gVrjwGeHPOt9RA'

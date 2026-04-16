@@ -1,0 +1,115 @@
+name: Augury
+type: spell
+system:
+  source:
+    custom: ''
+    book: PHB
+    page: '215'
+    license: ''
+  description:
+    value: >-
+      <div class="rd__b  rd__b--3"><p>By casting gem-inlaid sticks, rolling
+      dragon bones, laying out ornate cards, or employing some other divining
+      tool, you receive an omen from an otherworldly entity about the results of
+      a specific course of action that you plan to take within the next 30
+      minutes. The DM chooses from the following possible omens:</p><div
+      class="rd__spc-inline-post"></div><ul class="rd__list"><li class="rd__li
+      ">Weal, for good results</li><li class="rd__li ">Woe, for bad
+      results</li><li class="rd__li ">Weal and woe, for both good and bad
+      results</li><li class="rd__li ">Nothing, for results that aren't
+      especially good or bad</li></ul><p>The spell doesn't take into account any
+      possible circumstances that might change the outcome, such as the casting
+      of additional spells or the loss or gain of a companion.</p><p>If you cast
+      the spell two or more times before completing your next long rest, there
+      is a cumulative [[/r 1d100]]{25 percent} chance for each casting after the
+      first that you get a random reading. The DM makes this roll in
+      secret.</p></div><div><span class="bold">Classes: </span>Cleric</div>
+    chat: ''
+  actionType: util
+  level: 2
+  school: div
+  properties:
+    - vocal
+    - somatic
+    - material
+    - ritual
+  materials:
+    value: specially marked sticks, bones, or similar tokens worth at least 25 gp
+    consumed: false
+    cost: 25
+    supply: 0
+  target:
+    value: 0
+    units: self
+    type: self
+    prompt: true
+    width: null
+  range:
+    value: 0
+    units: self
+    long: null
+  activation:
+    type: minute
+    cost: 1
+    condition: ''
+  duration:
+    value: ''
+    units: inst
+  damage:
+    parts: []
+    versatile: ''
+  scaling:
+    mode: none
+    formula: ''
+  save:
+    dc: null
+    scaling: spell
+    ability: ''
+  uses:
+    value: null
+    max: ''
+    per: null
+    recovery: ''
+    prompt: true
+  attackBonus: ''
+  chatFlavor: ''
+  critical:
+    threshold: null
+    damage: ''
+  formula: ''
+  preparation:
+    mode: prepared
+    prepared: false
+  consume:
+    type: ''
+    target: null
+    amount: null
+    scale: false
+  cover: null
+  crewed: false
+  ability: null
+img: icons/magic/light/orb-hands-humanoid-yellow.webp
+ownership:
+  default: 0
+  38Gfe7fp1EmVmZNj: 3
+flags:
+  plutonium:
+    page: spells.html
+    source: PHB
+    hash: augury_phb
+    propDroppable: spell
+effects: []
+folder: ylLgNfU6rZjXCRE6
+_id: LAFFhOOlnyAuheBZ
+sort: 0
+_stats:
+  systemId: dnd5e
+  systemVersion: 3.0.2
+  coreVersion: '13.345'
+  createdTime: 1708227628572
+  modifiedTime: 1708227680382
+  lastModifiedBy: 38Gfe7fp1EmVmZNj
+  compendiumSource: null
+  duplicateSource: null
+  exportSource: null
+_key: '!items!LAFFhOOlnyAuheBZ'

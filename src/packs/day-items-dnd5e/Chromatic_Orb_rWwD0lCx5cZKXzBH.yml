@@ -1,0 +1,113 @@
+name: Chromatic Orb
+type: spell
+system:
+  source:
+    custom: ''
+    book: PHB
+    page: '221'
+    license: ''
+  description:
+    value: >-
+      <div class="rd__b  rd__b--3"><p>You hurl a 4-inch-diameter sphere of
+      energy at a creature that you can see within range. You choose acid, cold,
+      fire, lightning, poison, or thunder for the type of orb you create, and
+      then make a ranged spell attack against the target. If the attack hits,
+      the creature takes [[/r 3d8]] damage of the type you chose.</p><div
+      class="rd__spc-inline-post"></div></div><div class="rd__b  rd__b--3"><div
+      class="rd__b  rd__b--3"><span class="rd__h rd__h--3" data-title-index="1">
+      <span class="entry-title-inner">At Higher Levels.</span></span> <p>When
+      you cast this spell using a spell slot of 2nd level or higher, the damage
+      increases by [[/r 1d8]] for each slot level above 1st.</p><div
+      class="rd__spc-inline-post"></div></div><div
+      class="rd__spc-inline-post"></div></div><div><span class="bold">Classes:
+      </span>Sorcerer, Wizard</div>
+    chat: ''
+  actionType: rsak
+  level: 1
+  school: evo
+  properties:
+    - vocal
+    - somatic
+    - material
+  materials:
+    value: a diamond worth at least 50 gp
+    consumed: false
+    cost: 50
+    supply: 0
+  target:
+    value: 0
+    units: ''
+    type: ''
+    prompt: true
+    width: null
+  range:
+    value: 90
+    units: ft
+    long: null
+  activation:
+    type: action
+    cost: 1
+    condition: ''
+  duration:
+    value: ''
+    units: inst
+  damage:
+    parts:
+      - - 3d8
+        - ''
+    versatile: ''
+  scaling:
+    mode: level
+    formula: 1d8
+  save:
+    dc: null
+    scaling: spell
+    ability: ''
+  uses:
+    value: null
+    max: ''
+    per: null
+    recovery: ''
+    prompt: true
+  attackBonus: ''
+  chatFlavor: ''
+  critical:
+    threshold: null
+    damage: ''
+  formula: ''
+  preparation:
+    mode: prepared
+    prepared: false
+  consume:
+    type: ''
+    target: null
+    amount: null
+    scale: false
+  cover: null
+  crewed: false
+  ability: null
+img: icons/magic/fire/orb-fireball-puzzle.webp
+ownership:
+  default: 0
+  38Gfe7fp1EmVmZNj: 3
+flags:
+  plutonium:
+    page: spells.html
+    source: PHB
+    hash: chromatic%20orb_phb
+    propDroppable: spell
+effects: []
+folder: xcRlAcnidmHoYRJ1
+_id: rWwD0lCx5cZKXzBH
+sort: 0
+_stats:
+  systemId: dnd5e
+  systemVersion: 3.0.2
+  coreVersion: '13.345'
+  createdTime: 1708109196554
+  modifiedTime: 1708227409300
+  lastModifiedBy: 38Gfe7fp1EmVmZNj
+  compendiumSource: null
+  duplicateSource: null
+  exportSource: null
+_key: '!items!rWwD0lCx5cZKXzBH'

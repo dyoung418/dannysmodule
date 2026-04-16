@@ -1,0 +1,58 @@
+folder: null
+name: Journal Text Search
+type: script
+_id: skRtiOIPZgGAww7v
+author: txZjek5EOiCBHPoz
+img: icons/tools/scribal/magnifying-glass.webp
+scope: global
+command: |-
+  const inputDialog = new Dialog({
+      title: "Find Text in Journals",
+      content: `<label for="toFind">Text to Find</label><input id="toFind" name="toFind" type="text">`,
+      buttons: {
+          find: {
+          label: "Find Text in Journal",
+          callback: (html) => findItems(html),
+          icon: `<i class="fas fa-check"></i>`
+          }
+      }
+  }).render(true);
+
+  async function findItems(html) {
+      let toFind = html.find("#toFind").val();
+      let results = "";
+      for (let journal of game.journal) {
+          for (let page of journal.pages) {
+              if ( page.type !== "text" || !page.text.content ) continue;
+              const text = page.text.content;
+              if ( text.includes(toFind) ) results += `<p><a class="content-link" draggable="true" data-link data-uuid="${page.uuid}" data-id="${page.id}}" data-type="JournalEntryPage" data-tooltip="Text Page">` + page.name + `</a></p>`;
+          }
+      }
+      const breakdown = new Dialog({
+          title: "In The Following Locations",
+          content: results,
+          buttons: {}
+      }).render(true);
+  }
+flags:
+  core: {}
+_stats:
+  compendiumSource: Macro.x36Qb4BnqMvr71xm
+  duplicateSource: null
+  coreVersion: '13.346'
+  systemId: pf2e
+  systemVersion: 6.0.1
+  createdTime: 1718140308547
+  modifiedTime: 1752208126881
+  lastModifiedBy: txZjek5EOiCBHPoz
+  exportSource:
+    worldId: v12-km
+    uuid: null
+    coreVersion: '12.323'
+    systemId: pf2e
+    systemVersion: 6.0.0-beta2
+sort: 0
+ownership:
+  default: 0
+  txZjek5EOiCBHPoz: 3
+_key: '!macros!skRtiOIPZgGAww7v'

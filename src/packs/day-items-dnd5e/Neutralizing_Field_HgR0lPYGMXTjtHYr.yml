@@ -1,0 +1,106 @@
+name: Neutralizing Field
+type: spell
+system:
+  source:
+    custom: ''
+    book: DoDk
+    page: '228'
+    license: ''
+  description:
+    value: >-
+      <div class="rd__b  rd__b--3"><p>You negate contaminated magical energies
+      in a 10-foot radius sphere. Until the spell ends, the sphere moves with
+      you, centred on you. Creatures in the sphere (including you) can't gain <a
+      href="https://5etools-mirror-2.github.io/adventure.html#DoDk,12">contamination
+      levels</a> and have immunity to necrotic damage. Contaminated spells can't
+      be cast by creatures in the area.</p><div
+      class="rd__spc-inline-post"></div></div>
+    chat: ''
+  actionType: util
+  level: 5
+  school: abj
+  properties:
+    - vocal
+    - somatic
+    - material
+    - concentration
+  materials:
+    value: A delerium crystal or holy relic worth 1,000 gp
+    consumed: false
+    cost: 1000
+    supply: 0
+  target:
+    value: 10
+    units: ft
+    type: sphere
+    prompt: true
+    width: null
+  range:
+    value: 0
+    units: ''
+    long: null
+  activation:
+    type: action
+    cost: 1
+    condition: ''
+  duration:
+    value: '1'
+    units: hour
+  damage:
+    parts: []
+    versatile: ''
+  scaling:
+    mode: none
+    formula: ''
+  save:
+    dc: null
+    scaling: spell
+    ability: ''
+  uses:
+    value: null
+    max: ''
+    per: null
+    recovery: ''
+    prompt: true
+  attackBonus: ''
+  chatFlavor: ''
+  critical:
+    threshold: null
+    damage: ''
+  formula: ''
+  preparation:
+    mode: prepared
+    prepared: false
+  consume:
+    type: ''
+    target: null
+    amount: null
+    scale: false
+  cover: null
+  crewed: false
+  ability: null
+img: icons/magic/defensive/shield-barrier-blue.webp
+ownership:
+  default: 0
+  38Gfe7fp1EmVmZNj: 3
+flags:
+  plutonium:
+    page: spells.html
+    source: DoDk
+    hash: neutralizing%20field_dodk
+    propDroppable: spell
+effects: []
+folder: i3oUZg2o4lUzPZxX
+_id: HgR0lPYGMXTjtHYr
+sort: 0
+_stats:
+  systemId: dnd5e
+  systemVersion: 3.0.2
+  coreVersion: '13.345'
+  createdTime: 1708227665316
+  modifiedTime: 1708227673035
+  lastModifiedBy: 38Gfe7fp1EmVmZNj
+  compendiumSource: null
+  duplicateSource: null
+  exportSource: null
+_key: '!items!HgR0lPYGMXTjtHYr'

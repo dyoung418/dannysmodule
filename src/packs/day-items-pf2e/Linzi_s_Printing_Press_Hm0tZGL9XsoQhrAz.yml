@@ -1,0 +1,63 @@
+folder: Fv7CAYaryDD6fff5
+name: Linzi's Printing Press
+type: campaignFeature
+effects: []
+system:
+  description:
+    gm: ''
+    value: >-
+      <p>If Linzi has secured a printing press for the kingdom, the Arts check
+      during "Spread the Legend" gains a +2 item bonus.</p>
+  rules:
+    - hideIfDisabled: true
+      key: FlatModifier
+      label: Printing Press bonus to Spread the Legend
+      predicate:
+        - action:spread-the-legend
+      selector: arts-check
+      type: item
+      value: 1
+  slug: null
+  _migration:
+    version: 0.94
+    previous:
+      schema: 0.939
+      foundry: '13.345'
+      system: 7.2.0
+  traits:
+    otherTags: []
+    value: []
+  publication:
+    title: ''
+    authors: ''
+    license: ORC
+    remaster: true
+  campaign: kingmaker
+  category: kingdom-feat
+  actionType:
+    value: passive
+  actions:
+    value: null
+  prerequisites:
+    value: []
+  location: null
+  level:
+    value: 4
+_id: Hm0tZGL9XsoQhrAz
+img: systems/pf2e/icons/default-icons/spellcastingEntry.svg
+flags: {}
+_stats:
+  compendiumSource: null
+  duplicateSource: null
+  coreVersion: '13.346'
+  systemId: pf2e
+  systemVersion: 7.2.3
+  createdTime: 1732924694197
+  modifiedTime: 1752208111692
+  lastModifiedBy: txZjek5EOiCBHPoz
+  exportSource: null
+sort: 0
+ownership:
+  default: 0
+  txZjek5EOiCBHPoz: 3
+_key: '!items!Hm0tZGL9XsoQhrAz'

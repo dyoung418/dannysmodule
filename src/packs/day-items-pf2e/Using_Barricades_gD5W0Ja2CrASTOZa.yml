@@ -1,0 +1,73 @@
+folder: 0fMpc63qAh6DVssV
+name: Using Barricades
+type: effect
+effects: []
+system:
+  description:
+    gm: ''
+    value: >-
+      <p
+      style="box-sizing:border-box;user-select:text;scrollbar-width:initial;scrollbar-color:initial;margin:0.5em
+      0px;font-weight:400;color:rgb(25, 24, 19);font-family:Roboto,
+      sans-serif;font-size:14px;font-style:normal;font-variant-ligatures:normal;font-variant-caps:normal;letter-spacing:normal;orphans:2;text-indent:0px;text-transform:none;widows:2;word-spacing:0px;-webkit-text-stroke-width:0px;white-space:normal;text-decoration-thickness:initial;text-decoration-style:initial;text-decoration-color:initial;text-align:start"><span
+      style="font-family:Roboto, sans-serif">When a defending army using
+      barricades takes the Guard action, it gains a +2 item bonus on its
+      Maneuver check. A barricade can grant this bonus only twice before it is
+      ruined by enemy attacks.</span></p>
+  rules:
+    - hideIfDisabled: true
+      key: FlatModifier
+      selector: maneuver-check
+      value: 2
+      type: item
+      predicate:
+        - action:guard
+  slug: using-barricades
+  _migration:
+    version: 0.94
+    previous:
+      schema: 0.939
+      foundry: '13.345'
+      system: 7.2.0
+  traits:
+    otherTags: []
+    value: []
+  publication:
+    title: ''
+    authors: ''
+    license: ORC
+    remaster: false
+  level:
+    value: 1
+  duration:
+    value: 2
+    unit: rounds
+    expiry: turn-end
+    sustained: false
+  start:
+    value: 0
+    initiative: null
+  tokenIcon:
+    show: true
+  badge: null
+  context: null
+  unidentified: false
+  fromSpell: false
+_id: gD5W0Ja2CrASTOZa
+img: systems/pf2e/icons/default-icons/shield.svg
+flags: {}
+_stats:
+  compendiumSource: null
+  duplicateSource: null
+  coreVersion: '13.346'
+  systemId: pf2e
+  systemVersion: 7.2.3
+  createdTime: 1732924694197
+  modifiedTime: 1752208111692
+  lastModifiedBy: txZjek5EOiCBHPoz
+  exportSource: null
+sort: 0
+ownership:
+  default: 0
+  txZjek5EOiCBHPoz: 3
+_key: '!items!gD5W0Ja2CrASTOZa'

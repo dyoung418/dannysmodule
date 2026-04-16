@@ -1,0 +1,80 @@
+folder: 0BxmixOCuUUNHkjf
+img: systems/pf2e/icons/default-icons/campaignFeature.svg
+name: Improve Lifestyle (DAY)
+system:
+  description:
+    gm: ''
+    value: >-
+      <p>Attempt a basic @Check[politics|dc:resolve(@kingdom.control.dc)] check
+      to draw upon your kingdom's treasury to enhance the quality of life for
+      your citizens. This activity can be taken only during the Commerce phase
+      of a Kingdom turn.</p><hr /><p><strong>Critical Success</strong> Your push
+      to Improve Lifestyles affords your citizens significant free time to
+      pursue recreational activities. For the remainder of the Kingdom turn, you
+      gain a +2 circumstance bonus to Culture-based checks. Pull
+      @UUID[Item.T7ndb7zZTZi3jO8R]{Culture bonus or penalty} onto the kingdom
+      sheet, set it to 2 and delete it at the end of the turn (in Ongoing
+      tab).</p><p><strong>Success</strong> Your push to Improve Lifestyles helps
+      your citizens enjoy life. For the remainder of the Kingdom turn, you gain
+      a +1 circumstance bonus to Culture-based checks. Pull
+      @UUID[Item.T7ndb7zZTZi3jO8R]{Culture bonus or penalty} onto the kingdom
+      sheet, set it to 1 and delete it at the end of the turn (in Ongoing
+      tab).</p><p><strong>Failure</strong> As success, but you've strained your
+      treasury. Take a –1 circumstance penalty to Economy-based checks for the
+      remainder of this Kingdom turn. Pull @UUID[Item.Y6jCauFqTKiSNr0d]{Economy
+      bonus or penalty} onto sheet.</p><p><strong>Critical Failure</strong> Your
+      attempt to Improve Lifestyles backfires horribly as criminal elements in
+      your kingdom abuse your generosity. You take a –1 circumstance penalty to
+      Economy-based checks for the remainder of the Kingdom turn, gain 1 Unrest,
+      and add 1 to a Ruin of your choice. (Pull
+      @UUID[Item.Y6jCauFqTKiSNr0d]{Economy bonus or penalty} onto sheet.) onto
+      sheet.)</p>
+  rules: []
+  slug: improve-lifestyle
+  _migration:
+    version: 0.94
+    previous:
+      schema: 0.939
+      foundry: '13.345'
+      system: 7.2.0
+  traits:
+    otherTags: []
+    value:
+      - commerce
+      - downtime
+  publication:
+    title: Pathfinder Kingmaker
+    authors: ''
+    license: OGL
+    remaster: false
+  campaign: kingmaker
+  category: kingdom-activity
+  actionType:
+    value: passive
+  actions:
+    value: null
+  prerequisites:
+    value: []
+  location: null
+  level:
+    value: 1
+type: campaignFeature
+_stats:
+  compendiumSource: Compendium.pf2e.kingmaker-features.Item.nWAGfa4DoEODaKsq
+  duplicateSource: null
+  coreVersion: '13.346'
+  systemId: pf2e
+  systemVersion: 7.2.3
+  createdTime: 1719728560488
+  modifiedTime: 1752208111692
+  lastModifiedBy: txZjek5EOiCBHPoz
+  exportSource: null
+flags:
+  core: {}
+effects: []
+_id: v2y3DYHrXYf7suw1
+sort: 0
+ownership:
+  default: 0
+  txZjek5EOiCBHPoz: 3
+_key: '!items!v2y3DYHrXYf7suw1'

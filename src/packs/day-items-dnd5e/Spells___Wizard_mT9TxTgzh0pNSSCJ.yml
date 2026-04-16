@@ -1,0 +1,20 @@
+name: Spells - Wizard
+sorting: a
+folder: Try85loRkZPGd9Aa
+type: Item
+_id: mT9TxTgzh0pNSSCJ
+sort: 1400000
+color: null
+flags: {}
+_stats:
+  systemId: dnd5e
+  systemVersion: 3.0.3
+  coreVersion: '13.346'
+  createdTime: 1709684134650
+  modifiedTime: 1752197369805
+  lastModifiedBy: 1pY4akW8WASxGBbA
+  compendiumSource: null
+  duplicateSource: null
+  exportSource: null
+description: ''
+_key: '!folders!mT9TxTgzh0pNSSCJ'

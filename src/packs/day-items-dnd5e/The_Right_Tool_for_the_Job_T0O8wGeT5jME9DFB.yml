@@ -1,0 +1,120 @@
+folder: QqrWj278qS19exFE
+name: The Right Tool for the Job
+type: feat
+_id: T0O8wGeT5jME9DFB
+img: systems/dnd5e/icons/svg/items/feature.svg
+system:
+  description:
+    value: >-
+      <p><span style="font-family:Signika, sans-serif">3rd-level artificer
+      feature</span></p><p
+      style="box-sizing:border-box;user-select:text;margin:0.5em
+      0px;color:rgb(25, 24, 19);font-family:Signika,
+      sans-serif;font-size:13px;font-style:normal;font-variant-ligatures:normal;font-variant-caps:normal;font-weight:400;letter-spacing:normal;orphans:2;text-indent:0px;text-transform:none;widows:2;word-spacing:0px;-webkit-text-stroke-width:0px;white-space:normal;text-decoration-thickness:initial;text-decoration-style:initial;text-decoration-color:initial;text-align:start"><span
+      style="font-family:Signika, sans-serif">You’ve learned how to produce
+      exactly the tool you need: with thieves’ tools or artisan’s tools in hand,
+      you can magically create one set of artisan’s tools in an unoccupied space
+      within 5 feet of you. This creation requires 1 hour of uninterrupted work,
+      which can coincide with a short or long rest. Though the product of magic,
+      the tools are nonmagical, and they vanish when you use this feature
+      again.</span></p>
+    chat: ''
+  source:
+    book: TCOE
+    page: '13'
+    custom: ''
+    license: ''
+    revision: 1
+    rules: '2024'
+  uses:
+    max: ''
+    spent: 0
+    recovery: []
+  type:
+    value: class
+    subtype: ''
+  properties: []
+  requirements: Artificer 3
+  activities:
+    dnd5eactivity000:
+      _id: dnd5eactivity000
+      type: utility
+      activation:
+        type: hour
+        value: 1
+        condition: ''
+        override: false
+      consumption:
+        targets: []
+        scaling:
+          allowed: false
+          max: ''
+        spellSlot: true
+      description:
+        chatFlavor: ''
+      duration:
+        concentration: false
+        value: ''
+        units: inst
+        special: ''
+        override: false
+      effects: []
+      range:
+        units: self
+        special: ''
+        override: false
+      target:
+        template:
+          count: ''
+          contiguous: false
+          type: ''
+          size: ''
+          width: ''
+          height: ''
+          units: ''
+        affects:
+          count: ''
+          type: ''
+          choice: false
+          special: ''
+        prompt: true
+        override: false
+      uses:
+        spent: 0
+        max: ''
+        recovery: []
+      roll:
+        formula: ''
+        name: ''
+        prompt: false
+        visible: false
+      sort: 0
+  identifier: the-right-tool-for-the-job
+  enchant: {}
+  prerequisites:
+    level: null
+    repeatable: false
+  advancement: []
+  crewed: false
+effects: []
+sort: 0
+ownership:
+  default: 0
+  38Gfe7fp1EmVmZNj: 3
+flags:
+  dnd5e:
+    persistSourceMigration: true
+    riders:
+      activity: []
+      effect: []
+_stats:
+  systemId: dnd5e
+  systemVersion: 5.0.4
+  coreVersion: '13.346'
+  createdTime: 1709698002631
+  modifiedTime: 1752197371435
+  lastModifiedBy: 1pY4akW8WASxGBbA
+  compendiumSource: null
+  duplicateSource: null
+  exportSource: null
+_key: '!items!T0O8wGeT5jME9DFB'

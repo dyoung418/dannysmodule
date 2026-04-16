@@ -1,0 +1,177 @@
+name: Jim's Magic Missile
+type: spell
+system:
+  source:
+    custom: ''
+    book: AI
+    page: '76'
+    license: ''
+    revision: 1
+    rules: '2024'
+  description:
+    value: >-
+      <div class="rd__b  rd__b--3"><div class="rd__quote"><p
+      class="rd__quote-line rd__quote-line--last">“<i>Jim's magic missile is an
+      ancient and powerful spell, as well as being the name of my band in Wizard
+      Academy.</i>”</p><p><span class="rd__quote-by">— Jim
+      Darkmagic</span></p></div><div class="rd__spc-inline-post"></div><p>Any
+      apprentice wizard can cast a boring old magic missile. Sure, it always
+      strikes its target. Yawn. Do away with the drudgery of your grandfather's
+      magic with this improved version of the spell, as used by Jim
+      Darkmagic!</p><p>You create three twisting, whistling, hypoallergenic,
+      gluten-free darts of magical force. Each dart targets a creature of your
+      choice that you can see within range. Make a ranged spell attack for each
+      missile. On a hit, a missile deals [[/r 2d4]] force damage to its
+      target.</p><p>If the attack roll scores a critical hit, the target of that
+      missile takes [[/r 5d4]] force damage instead of you rolling damage twice
+      for a critical hit. If the attack roll for any missile is a 1, all
+      missiles miss their targets and blow up in your face, dealing 1 force
+      damage per missile to you.</p></div><div class="rd__b  rd__b--3"><div
+      class="rd__b  rd__b--3"><span class="rd__h rd__h--3" data-title-index="1">
+      <span class="entry-title-inner">At Higher Levels.</span></span> <p>When
+      you cast this spell using a spell slot of 2nd level or higher, the spell
+      creates one more dart, and the royalty component increases by 1 gp, for
+      each slot level above 1st.</p><div
+      class="rd__spc-inline-post"></div></div><div
+      class="rd__spc-inline-post"></div></div><div><span class="bold">Classes:
+      </span>Wizard</div>
+    chat: ''
+  level: 1
+  school: evo
+  properties:
+    - vocal
+    - somatic
+  materials:
+    value: ''
+    consumed: false
+    cost: 0
+    supply: 0
+  target:
+    affects:
+      choice: false
+    template:
+      units: ''
+      contiguous: false
+  range:
+    value: '120'
+    units: ft
+  activation:
+    type: action
+    condition: ''
+    value: 1
+  duration:
+    value: ''
+    units: inst
+  uses:
+    max: ''
+    spent: 0
+    recovery: []
+  preparation:
+    mode: prepared
+    prepared: false
+  activities:
+    dnd5eactivity000:
+      _id: dnd5eactivity000
+      type: attack
+      activation:
+        type: action
+        value: null
+        override: false
+      consumption:
+        targets: []
+        scaling:
+          allowed: false
+          max: ''
+        spellSlot: true
+      description:
+        chatFlavor: ''
+      duration:
+        units: inst
+        concentration: false
+        override: false
+      effects: []
+      range:
+        override: false
+        units: self
+      target:
+        prompt: true
+        template:
+          contiguous: false
+          units: ft
+        affects:
+          choice: false
+        override: false
+      uses:
+        spent: 0
+        max: ''
+        recovery: []
+      attack:
+        ability: ''
+        bonus: ''
+        critical:
+          threshold: null
+        flat: false
+        type:
+          value: ranged
+          classification: spell
+      damage:
+        critical:
+          bonus: ''
+        includeBase: true
+        parts:
+          - number: 2
+            denomination: 4
+            bonus: ''
+            types:
+              - force
+            custom:
+              enabled: false
+              formula: ''
+            scaling:
+              mode: ''
+              number: null
+              formula: ''
+          - number: 5
+            denomination: 4
+            bonus: ''
+            types:
+              - force
+            custom:
+              enabled: false
+              formula: ''
+            scaling:
+              mode: ''
+              number: null
+              formula: ''
+      sort: 0
+  identifier: jims-magic-missile
+img: icons/magic/lightning/projectiles-tendril-salvo-pink.webp
+ownership:
+  default: 0
+  38Gfe7fp1EmVmZNj: 3
+flags:
+  plutonium:
+    page: spells.html
+    source: AI
+    hash: jim's%20magic%20missile_ai
+    propDroppable: spell
+  dnd5e:
+    persistSourceMigration: true
+    riders:
+      activity: []
+      effect: []
+effects: []
+folder: 7LJJqiLuL1YQyknL
+_id: 8tlGARcdAYnK2NC6
+sort: 0
+_stats:
+  systemId: dnd5e
+  systemVersion: 5.0.4
+  coreVersion: '13.346'
+  createdTime: 1709684304232
+  modifiedTime: 1752197371435
+  lastModifiedBy: 1pY4akW8WASxGBbA
+  compendiumSource: null
+  duplicateSource: null
+  exportSource: null
+_key: '!items!8tlGARcdAYnK2NC6'

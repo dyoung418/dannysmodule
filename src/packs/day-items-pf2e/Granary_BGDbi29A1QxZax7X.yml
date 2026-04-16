@@ -1,0 +1,63 @@
+folder: yTd2CNZ9biWYoOF6
+name: Granary
+type: campaignFeature
+effects: []
+system:
+  description:
+    gm: ''
+    value: "<p>A granary consists of silos and warehouses for the storage of grain and other preserved foodstuffs.</p>\n<hr />\n<p><strong>Lots</strong>\_1;\_<strong>Cost</strong>\_12 RP, 2 Lumber</p>\n<p><strong>Construction</strong>\_Agriculture DC 15</p>\n<p><strong>Effects</strong>\_Each granary in your kingdom increases your maximum Food Commodity capacity by 1.</p>\n<p><strong>D&amp;K rules</strong>: Gives a +1 item bonus to establish farmlands</p>"
+  rules:
+    - hideIfDisabled: true
+      key: FlatModifier
+      label: Granary bonus to Establish Farmlands
+      selector: kingdom-check
+      value: 1
+      type: item
+      predicate:
+        - action:establish-farmland
+  slug: null
+  _migration:
+    version: 0.94
+    previous:
+      schema: 0.939
+      foundry: '13.345'
+      system: 7.2.0
+  traits:
+    otherTags: []
+    value:
+      - kingdom
+      - structure
+  publication:
+    title: ''
+    authors: ''
+    license: OGL
+    remaster: false
+  campaign: kingmaker
+  category: kingdom-feat
+  actionType:
+    value: passive
+  actions:
+    value: null
+  prerequisites:
+    value: []
+  location: null
+  level:
+    value: 1
+_id: BGDbi29A1QxZax7X
+img: modules/pf2e-kingmaker/assets/maps-settlements/buildings/granary.webp
+sort: 0
+ownership:
+  default: 0
+  txZjek5EOiCBHPoz: 3
+flags: {}
+_stats:
+  compendiumSource: null
+  duplicateSource: null
+  coreVersion: '13.346'
+  systemId: pf2e
+  systemVersion: 7.2.3
+  createdTime: 1718606591261
+  modifiedTime: 1752208111692
+  lastModifiedBy: txZjek5EOiCBHPoz
+  exportSource: null
+_key: '!items!BGDbi29A1QxZax7X'

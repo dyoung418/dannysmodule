@@ -1,0 +1,117 @@
+name: Mirage Arcane
+type: spell
+system:
+  source:
+    custom: ''
+    book: PHB
+    page: '260'
+    license: ''
+  description:
+    value: >-
+      <div class="rd__b  rd__b--3"><p>You make terrain in an area up to 1 mile
+      square look, sound, smell, and even feel like some other sort of terrain.
+      The terrain's general shape remains the same, however. Open fields or a
+      road could be made to resemble a swamp, hill, crevasse, or some other
+      difficult or impassable terrain. A pond can be made to seem like a grassy
+      meadow, a precipice like a gentle slope, or a rock-strewn gully like a
+      wide and smooth road.</p><div
+      class="rd__spc-inline-post"></div><p>Similarly, you can alter the
+      appearance of structures, or add them where none are present. The spell
+      doesn't disguise, conceal, or add creatures.</p><p>The illusion includes
+      audible, visual, tactile, and olfactory elements, so it can turn clear
+      ground into difficult terrain (or vice versa) or otherwise impede movement
+      through the area. Any piece of the illusory terrain (such as a rock or
+      stick) that is removed from the spell's area disappears
+      immediately.</p><p>Creatures with @sense[truesight] can see through the
+      illusion to the terrain's true form; however, all other elements of the
+      illusion remain, so while the creature is aware of the illusion's
+      presence, the creature can still physically interact with the
+      illusion.</p></div><div><span class="bold">Classes: </span>Bard, Druid,
+      Wizard</div>
+    chat: ''
+  actionType: util
+  level: 7
+  school: ill
+  properties:
+    - vocal
+    - somatic
+  materials:
+    value: ''
+    consumed: false
+    cost: 0
+    supply: 0
+  target:
+    value: 1
+    units: mi
+    type: square
+    prompt: true
+    width: null
+  range:
+    value: 0
+    units: spec
+    long: null
+  activation:
+    type: minute
+    cost: 10
+    condition: ''
+  duration:
+    value: '10'
+    units: day
+  damage:
+    parts: []
+    versatile: ''
+  scaling:
+    mode: none
+    formula: ''
+  save:
+    dc: null
+    scaling: spell
+    ability: ''
+  uses:
+    value: null
+    max: ''
+    per: null
+    recovery: ''
+    prompt: true
+  attackBonus: ''
+  chatFlavor: ''
+  critical:
+    threshold: null
+    damage: ''
+  formula: ''
+  preparation:
+    mode: prepared
+    prepared: false
+  consume:
+    type: ''
+    target: null
+    amount: null
+    scale: false
+  cover: null
+  crewed: false
+  ability: null
+img: icons/magic/earth/volcano-explosion-lava-teal.webp
+ownership:
+  default: 0
+  38Gfe7fp1EmVmZNj: 3
+flags:
+  plutonium:
+    page: spells.html
+    source: PHB
+    hash: mirage%20arcane_phb
+    propDroppable: spell
+effects: []
+folder: uXSXluqMEezxN39E
+_id: GqutVG49JTpjd5IH
+sort: 0
+_stats:
+  systemId: dnd5e
+  systemVersion: 3.0.2
+  coreVersion: '13.345'
+  createdTime: 1708228997911
+  modifiedTime: 1708229050063
+  lastModifiedBy: 38Gfe7fp1EmVmZNj
+  compendiumSource: null
+  duplicateSource: null
+  exportSource: null
+_key: '!items!GqutVG49JTpjd5IH'

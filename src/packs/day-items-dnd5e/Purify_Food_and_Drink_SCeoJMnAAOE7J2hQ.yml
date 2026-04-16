@@ -1,0 +1,103 @@
+name: Purify Food and Drink
+type: spell
+system:
+  source:
+    custom: ''
+    book: PHB
+    page: '270'
+    license: ''
+  description:
+    value: >-
+      <div class="rd__b  rd__b--3"><p>All nonmagical food and drink within a
+      5-foot-radius sphere centered on a point of your choice within range is
+      purified and rendered free of poison and disease.</p><div
+      class="rd__spc-inline-post"></div></div><div><span class="bold">Classes:
+      </span>Artificer, Cleric, Druid, Paladin</div>
+    chat: ''
+  actionType: util
+  level: 1
+  school: trs
+  properties:
+    - vocal
+    - somatic
+    - ritual
+  materials:
+    value: ''
+    consumed: false
+    cost: 0
+    supply: 0
+  target:
+    value: 5
+    units: ft
+    type: sphere
+    prompt: true
+    width: null
+  range:
+    value: 10
+    units: ft
+    long: null
+  activation:
+    type: action
+    cost: 1
+    condition: ''
+  duration:
+    value: ''
+    units: inst
+  damage:
+    parts: []
+    versatile: ''
+  scaling:
+    mode: none
+    formula: ''
+  save:
+    dc: null
+    scaling: spell
+    ability: ''
+  uses:
+    value: null
+    max: ''
+    per: null
+    recovery: ''
+    prompt: true
+  attackBonus: ''
+  chatFlavor: ''
+  critical:
+    threshold: null
+    damage: ''
+  formula: ''
+  preparation:
+    mode: prepared
+    prepared: false
+  consume:
+    type: ''
+    target: null
+    amount: null
+    scale: false
+  cover: null
+  crewed: false
+  ability: null
+img: icons/consumables/meat/hock-leg-stylized.webp
+ownership:
+  default: 0
+  38Gfe7fp1EmVmZNj: 3
+flags:
+  plutonium:
+    page: spells.html
+    source: PHB
+    hash: purify%20food%20and%20drink_phb
+    propDroppable: spell
+effects: []
+folder: WXoCNUNuwEOIPcjd
+_id: SCeoJMnAAOE7J2hQ
+sort: 0
+_stats:
+  systemId: dnd5e
+  systemVersion: 3.0.2
+  coreVersion: '13.345'
+  createdTime: 1708227601553
+  modifiedTime: 1708227676991
+  lastModifiedBy: 38Gfe7fp1EmVmZNj
+  compendiumSource: null
+  duplicateSource: null
+  exportSource: null
+_key: '!items!SCeoJMnAAOE7J2hQ'

@@ -1,0 +1,136 @@
+name: Goodberry
+type: spell
+system:
+  source:
+    custom: ''
+    book: PHB
+    page: '246'
+    license: ''
+    revision: 1
+    rules: '2024'
+  description:
+    value: >-
+      <div class="rd__b  rd__b--3"><p>Up to ten berries appear in your hand and
+      are infused with magic for the duration. A creature can use its action to
+      eat one berry. Eating a berry restores 1 hit point, and the berry provides
+      enough nourishment to sustain a creature for one day.</p><div
+      class="rd__spc-inline-post"></div><p>The berries lose their potency if
+      they have not been consumed within 24 hours of the casting of this
+      spell.</p></div><div><span class="bold">Classes: </span>Druid,
+      Ranger</div>
+    chat: ''
+  level: 1
+  school: trs
+  properties:
+    - vocal
+    - somatic
+    - material
+  materials:
+    value: a sprig of mistletoe
+    consumed: false
+    cost: 0
+    supply: 0
+  target:
+    affects:
+      choice: false
+    template:
+      units: touch
+      contiguous: false
+  range:
+    value: '0'
+    units: touch
+  activation:
+    type: action
+    condition: ''
+    value: 1
+  duration:
+    value: ''
+    units: inst
+  uses:
+    max: ''
+    spent: 0
+    recovery: []
+  preparation:
+    mode: prepared
+    prepared: false
+  activities:
+    dnd5eactivity000:
+      _id: dnd5eactivity000
+      type: heal
+      activation:
+        type: action
+        value: null
+        override: false
+      consumption:
+        targets: []
+        scaling:
+          allowed: false
+          max: ''
+        spellSlot: true
+      description:
+        chatFlavor: ''
+      duration:
+        units: inst
+        concentration: false
+        override: false
+      effects: []
+      range:
+        override: false
+        units: self
+      target:
+        prompt: true
+        template:
+          contiguous: false
+          units: ft
+        affects:
+          choice: false
+        override: false
+      uses:
+        spent: 0
+        max: ''
+        recovery: []
+      healing:
+        number: null
+        denomination: null
+        bonus: ''
+        types:
+          - healing
+        custom:
+          enabled: true
+          formula: '1'
+        scaling:
+          mode: ''
+          number: null
+          formula: ''
+      sort: 0
+  identifier: goodberry
+img: icons/consumables/fruit/berry-dates-jujube-red.webp
+ownership:
+  default: 0
+  38Gfe7fp1EmVmZNj: 3
+flags:
+  plutonium:
+    page: spells.html
+    source: PHB
+    hash: goodberry_phb
+    propDroppable: spell
+  dnd5e:
+    persistSourceMigration: true
+    riders:
+      activity: []
+      effect: []
+effects: []
+folder: 7LJJqiLuL1YQyknL
+_id: 7RrQEpLJDwQH1iKB
+sort: 0
+_stats:
+  systemId: dnd5e
+  systemVersion: 5.0.4
+  coreVersion: '13.346'
+  createdTime: 1708227601327
+  modifiedTime: 1752197371435
+  lastModifiedBy: 1pY4akW8WASxGBbA
+  compendiumSource: null
+  duplicateSource: null
+  exportSource: null
+_key: '!items!7RrQEpLJDwQH1iKB'

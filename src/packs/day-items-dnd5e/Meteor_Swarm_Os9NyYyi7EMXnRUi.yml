@@ -1,0 +1,112 @@
+name: Meteor Swarm
+type: spell
+system:
+  source:
+    custom: ''
+    book: PHB
+    page: '259'
+    license: ''
+  description:
+    value: >-
+      <div class="rd__b  rd__b--3"><p>Blazing orbs of fire plummet to the ground
+      at four different points you can see within range. Each creature in a
+      40-foot-radius sphere centered on each point you choose must make a
+      Dexterity saving throw. The sphere spreads around corners. A creature
+      takes [[/r 20d6]] fire damage and [[/r 20d6]] bludgeoning damage on a
+      failed save, or half as much damage on a successful one. A creature in the
+      area of more than one fiery burst is affected only once.</p><div
+      class="rd__spc-inline-post"></div><p>The spell damages objects in the area
+      and ignites flammable objects that aren't being worn or
+      carried.</p></div><div><span class="bold">Classes: </span>Sorcerer,
+      Wizard</div>
+    chat: ''
+  actionType: save
+  level: 9
+  school: evo
+  properties:
+    - vocal
+    - somatic
+  materials:
+    value: ''
+    consumed: false
+    cost: 0
+    supply: 0
+  target:
+    value: 40
+    units: ft
+    type: sphere
+    prompt: true
+    width: null
+  range:
+    value: 1
+    units: mi
+    long: null
+  activation:
+    type: action
+    cost: 1
+    condition: ''
+  duration:
+    value: ''
+    units: inst
+  damage:
+    parts:
+      - - 20d6
+        - bludgeoning
+      - - 20d6
+        - fire
+    versatile: ''
+  scaling:
+    mode: none
+    formula: ''
+  save:
+    ability: dex
+    dc: null
+    scaling: spell
+  uses:
+    value: null
+    max: ''
+    per: null
+    recovery: ''
+    prompt: true
+  attackBonus: ''
+  chatFlavor: ''
+  critical:
+    threshold: null
+    damage: ''
+  formula: ''
+  preparation:
+    mode: prepared
+    prepared: false
+  consume:
+    type: ''
+    target: null
+    amount: null
+    scale: false
+  cover: null
+  crewed: false
+  ability: null
+img: icons/magic/earth/projectiles-fire-stone-salvo.webp
+ownership:
+  default: 0
+  38Gfe7fp1EmVmZNj: 3
+flags:
+  plutonium:
+    page: spells.html
+    source: PHB
+    hash: meteor%20swarm_phb
+    propDroppable: spell
+effects: []
+folder: dhMceSQx1Qq4Vytb
+_id: Os9NyYyi7EMXnRUi
+sort: 0
+_stats:
+  systemId: dnd5e
+  systemVersion: 3.0.3
+  coreVersion: '13.345'
+  createdTime: 1709684305708
+  modifiedTime: 1709684366197
+  lastModifiedBy: 38Gfe7fp1EmVmZNj
+  compendiumSource: null
+  duplicateSource: null
+  exportSource: null
+_key: '!items!Os9NyYyi7EMXnRUi'

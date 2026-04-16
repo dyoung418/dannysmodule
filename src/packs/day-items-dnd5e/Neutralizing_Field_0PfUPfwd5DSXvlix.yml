@@ -1,0 +1,129 @@
+name: Neutralizing Field
+type: spell
+system:
+  source:
+    custom: ''
+    book: DoDk
+    page: '228'
+    license: ''
+    revision: 1
+    rules: '2024'
+  description:
+    value: >-
+      <div class="rd__b  rd__b--3"><p>You negate contaminated magical energies
+      in a 10-foot radius sphere. Until the spell ends, the sphere moves with
+      you, centred on you. Creatures in the sphere (including you) can't gain <a
+      href="https://5etools-mirror-2.github.io/adventure.html#DoDk,12">contamination
+      levels</a> and have immunity to necrotic damage. Contaminated spells can't
+      be cast by creatures in the area.</p><div
+      class="rd__spc-inline-post"></div></div>
+    chat: ''
+  level: 5
+  school: abj
+  properties:
+    - vocal
+    - somatic
+    - material
+    - concentration
+  materials:
+    value: A delerium crystal or holy relic worth 1,000 gp
+    consumed: false
+    cost: 1000
+    supply: 0
+  target:
+    affects:
+      choice: false
+    template:
+      units: ft
+      type: sphere
+      size: '10'
+      contiguous: false
+  range:
+    value: '0'
+    units: self
+  activation:
+    type: action
+    condition: ''
+    value: 1
+  duration:
+    value: '1'
+    units: hour
+  uses:
+    max: ''
+    spent: 0
+    recovery: []
+  preparation:
+    mode: prepared
+    prepared: false
+  activities:
+    dnd5eactivity000:
+      _id: dnd5eactivity000
+      type: utility
+      activation:
+        type: action
+        override: false
+      consumption:
+        targets: []
+        scaling:
+          allowed: false
+          max: ''
+        spellSlot: true
+      description:
+        chatFlavor: ''
+      duration:
+        units: inst
+        concentration: false
+        override: false
+      effects: []
+      range:
+        units: self
+        override: false
+      target:
+        prompt: true
+        template:
+          contiguous: false
+          units: ft
+        affects:
+          choice: false
+        override: false
+      uses:
+        spent: 0
+        max: ''
+        recovery: []
+      roll:
+        formula: ''
+        name: ''
+        prompt: false
+        visible: false
+      sort: 0
+  identifier: neutralizing-field
+img: icons/magic/defensive/shield-barrier-blue.webp
+ownership:
+  default: 0
+  38Gfe7fp1EmVmZNj: 3
+flags:
+  plutonium:
+    page: spells.html
+    source: DoDk
+    hash: neutralizing%20field_dodk
+    propDroppable: spell
+  dnd5e:
+    persistSourceMigration: true
+    riders:
+      activity: []
+      effect: []
+effects: []
+folder: 6twhZgoHdiiTwIDl
+_id: 0PfUPfwd5DSXvlix
+sort: 0
+_stats:
+  systemId: dnd5e
+  systemVersion: 5.0.4
+  coreVersion: '13.346'
+  createdTime: 1708227517154
+  modifiedTime: 1752197371435
+  lastModifiedBy: 1pY4akW8WASxGBbA
+  compendiumSource: null
+  duplicateSource: null
+  exportSource: null
+_key: '!items!0PfUPfwd5DSXvlix'

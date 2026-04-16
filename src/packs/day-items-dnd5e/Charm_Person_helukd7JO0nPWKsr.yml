@@ -1,0 +1,152 @@
+name: Charm Person
+type: spell
+system:
+  source:
+    custom: ''
+    book: PHB
+    page: '221'
+    license: ''
+  description:
+    value: >-
+      <div class="rd__b  rd__b--3"><p>You attempt to charm a humanoid you can
+      see within range. It must make a Wisdom saving throw, and does so with
+      advantage if you or your companions are fighting it. If it fails the
+      saving throw, it is @condition[charmed] by you until the spell ends or
+      until you or your companions do anything harmful to it. The
+      @condition[charmed] creature regards you as a friendly acquaintance. When
+      the spell ends, the creature knows it was @condition[charmed] by
+      you.</p><div class="rd__spc-inline-post"></div></div><div class="rd__b 
+      rd__b--3"><div class="rd__b  rd__b--3"><span class="rd__h rd__h--3"
+      data-title-index="1"> <span class="entry-title-inner">At Higher
+      Levels.</span></span> <p>When you cast this spell using a spell slot of
+      2nd level or higher, you can target one additional creature for each slot
+      level above 1st. The creatures must be within 30 feet of each other when
+      you target them.</p><div class="rd__spc-inline-post"></div></div><div
+      class="rd__spc-inline-post"></div></div><div><span class="bold">Classes:
+      </span>Bard, Druid, Sorcerer, Warlock, Wizard</div>
+    chat: ''
+  actionType: save
+  level: 1
+  school: enc
+  properties:
+    - vocal
+    - somatic
+  materials:
+    value: ''
+    consumed: false
+    cost: 0
+    supply: 0
+  target:
+    value: 1
+    units: ''
+    type: creature
+    prompt: true
+    width: null
+  range:
+    value: 30
+    units: ft
+    long: null
+  activation:
+    type: action
+    cost: 1
+    condition: ''
+  duration:
+    value: '1'
+    units: hour
+  damage:
+    parts: []
+    versatile: ''
+  scaling:
+    mode: none
+    formula: ''
+  save:
+    ability: wis
+    dc: null
+    scaling: spell
+  uses:
+    value: null
+    max: ''
+    per: null
+    recovery: ''
+    prompt: true
+  attackBonus: ''
+  chatFlavor: ''
+  critical:
+    threshold: null
+    damage: ''
+  formula: ''
+  preparation:
+    mode: prepared
+    prepared: false
+  consume:
+    type: ''
+    target: null
+    amount: null
+    scale: false
+  cover: null
+  crewed: false
+  ability: null
+img: icons/magic/life/heart-shadow-red.webp
+ownership:
+  default: 0
+  38Gfe7fp1EmVmZNj: 3
+flags:
+  plutonium:
+    page: spells.html
+    source: PHB
+    hash: charm%20person_phb
+    propDroppable: spell
+effects:
+  - name: Charm Person
+    origin: Compendium.dnd5e.spells.Item.eS7XnnApoxRxYXPs
+    duration:
+      value: 3600
+      units: seconds
+      expiry: turnStart
+      expired: false
+    disabled: false
+    _id: 1QhUB3231btaCO0b
+    description: >-
+      <p>The target is Charmed by the caster until the spell ends. The charmed
+      creature regards the caster as a friendly acquaintance. When the spell
+      ends, the creature knows it was charmed.</p>
+    transfer: false
+    statuses:
+      - charmed
+    flags:
+      plutonium:
+        dedupeId: charm-person
+    tint: '#ffffff'
+    _stats:
+      coreVersion: '14.359'
+      systemId: null
+      systemVersion: null
+      createdTime: null
+      modifiedTime: null
+      lastModifiedBy: null
+      compendiumSource: null
+      duplicateSource: null
+      exportSource: null
+    img: icons/magic/life/heart-shadow-red.webp
+    type: base
+    system:
+      changes: []
+    sort: 0
+    showIcon: 2
+    start: null
+    folder: null
+    _key: '!items.effects!helukd7JO0nPWKsr.1QhUB3231btaCO0b'
+folder: WXoCNUNuwEOIPcjd
+_id: helukd7JO0nPWKsr
+sort: 0
+_stats:
+  systemId: dnd5e
+  systemVersion: 3.0.2
+  coreVersion: '14.359'
+  createdTime: 1708227601004
+  modifiedTime: 1708227676991
+  lastModifiedBy: 38Gfe7fp1EmVmZNj
+  compendiumSource: null
+  duplicateSource: null
+  exportSource: null
+_key: '!items!helukd7JO0nPWKsr'

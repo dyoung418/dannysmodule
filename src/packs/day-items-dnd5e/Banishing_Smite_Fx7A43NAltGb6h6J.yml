@@ -1,0 +1,146 @@
+name: Banishing Smite
+type: spell
+system:
+  source:
+    custom: ''
+    book: PHB
+    page: '216'
+    license: ''
+    revision: 1
+    rules: '2024'
+  description:
+    value: >-
+      <div class="rd__b  rd__b--3"><p>The next time you hit a creature with a
+      weapon attack before this spell ends, your weapon crackles with force, and
+      the attack deals an extra [[/r 5d10]] force damage to the target.
+      Additionally, if this attack reduces the target to 50 hit points or fewer,
+      you banish it. If the target is native to a different plane of existence
+      than the one you're on, the target disappears, returning to its home
+      plane. If the target is native to the plane you're on, the creature
+      vanishes into a harmless demiplane. While there, the target is
+      @condition[incapacitated]. It remains there until the spell ends, at which
+      point the target reappears in the space it left or in the nearest
+      unoccupied space if that space is occupied.</p><div
+      class="rd__spc-inline-post"></div></div><div><span class="bold">Classes:
+      </span>Paladin</div>
+    chat: ''
+  level: 5
+  school: abj
+  properties:
+    - vocal
+    - concentration
+  materials:
+    value: ''
+    consumed: false
+    cost: 0
+    supply: 0
+  target:
+    affects:
+      type: self
+      count: '0'
+      choice: false
+    template:
+      units: self
+      contiguous: false
+  range:
+    value: '0'
+    units: self
+  activation:
+    type: bonus
+    condition: ''
+    value: 1
+  duration:
+    value: '1'
+    units: minute
+  uses:
+    max: ''
+    spent: 0
+    recovery: []
+  preparation:
+    mode: prepared
+    prepared: false
+  activities:
+    dnd5eactivity000:
+      _id: dnd5eactivity000
+      type: damage
+      activation:
+        type: action
+        value: null
+        override: false
+      consumption:
+        targets: []
+        scaling:
+          allowed: false
+          max: ''
+        spellSlot: true
+      description:
+        chatFlavor: ''
+      duration:
+        units: inst
+        concentration: false
+        override: false
+      effects: []
+      range:
+        override: false
+        units: self
+      target:
+        prompt: true
+        template:
+          contiguous: false
+          units: ft
+        affects:
+          choice: false
+        override: false
+      uses:
+        spent: 0
+        max: ''
+        recovery: []
+      damage:
+        critical:
+          allow: false
+          bonus: ''
+        parts:
+          - number: 5
+            denomination: 10
+            bonus: ''
+            types:
+              - force
+            custom:
+              enabled: false
+              formula: ''
+            scaling:
+              mode: ''
+              number: null
+              formula: ''
+      sort: 0
+  identifier: banishing-smite
+img: icons/magic/control/silhouette-fall-slip-prone.webp
+ownership:
+  default: 0
+  38Gfe7fp1EmVmZNj: 3
+flags:
+  plutonium:
+    page: spells.html
+    source: PHB
+    hash: banishing%20smite_phb
+    propDroppable: spell
+  dnd5e:
+    persistSourceMigration: true
+    riders:
+      activity: []
+      effect: []
+effects: []
+folder: 6twhZgoHdiiTwIDl
+_id: Fx7A43NAltGb6h6J
+sort: 0
+_stats:
+  systemId: dnd5e
+  systemVersion: 5.0.4
+  coreVersion: '13.346'
+  createdTime: 1708227665389
+  modifiedTime: 1752197371435
+  lastModifiedBy: 1pY4akW8WASxGBbA
+  compendiumSource: null
+  duplicateSource: null
+  exportSource: null
+_key: '!items!Fx7A43NAltGb6h6J'

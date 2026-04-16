@@ -1,0 +1,115 @@
+name: Arcane Gate
+type: spell
+system:
+  source:
+    custom: ''
+    book: PHB
+    page: '214'
+    license: ''
+  description:
+    value: >-
+      <div class="rd__b  rd__b--3"><p>You create linked teleportation portals
+      that remain open for the duration. Choose two points on the ground that
+      you can see, one point within 10 feet of you and one point within 500 feet
+      of you. A circular portal, 10 feet in diameter, opens over each point. If
+      the portal would open in the space occupied by a creature, the spell
+      fails, and the casting is lost.</p><div
+      class="rd__spc-inline-post"></div><p>The portals are two-dimensional
+      glowing rings filled with mist, hovering inches from the ground and
+      perpendicular to it at the points you choose. A ring is visible only from
+      one side (your choice), which is the side that functions as a
+      portal.</p><p>Any creature or object entering the portal exits from the
+      other portal as if the two were adjacent to each other; passing through a
+      portal from the nonportal side has no effect. The mist that fills each
+      portal is opaque and blocks vision through it. On your turn, you can
+      rotate the rings as a bonus action so that the active side faces in a
+      different direction.</p></div><div><span class="bold">Classes:
+      </span>Sorcerer, Warlock, Wizard</div>
+    chat: ''
+  actionType: util
+  level: 6
+  school: con
+  properties:
+    - vocal
+    - somatic
+    - concentration
+  materials:
+    value: ''
+    consumed: false
+    cost: 0
+    supply: 0
+  target:
+    value: 10
+    units: ft
+    type: wall
+    prompt: true
+    width: null
+  range:
+    value: 500
+    units: ft
+    long: null
+  activation:
+    type: action
+    cost: 1
+    condition: ''
+  duration:
+    value: '10'
+    units: minute
+  damage:
+    parts: []
+    versatile: ''
+  scaling:
+    mode: none
+    formula: ''
+  save:
+    dc: null
+    scaling: spell
+    ability: ''
+  uses:
+    value: null
+    max: ''
+    per: null
+    recovery: ''
+    prompt: true
+  attackBonus: ''
+  chatFlavor: ''
+  critical:
+    threshold: null
+    damage: ''
+  formula: ''
+  preparation:
+    mode: prepared
+    prepared: false
+  consume:
+    type: ''
+    target: null
+    amount: null
+    scale: false
+  cover: null
+  crewed: false
+  ability: null
+img: icons/magic/fire/orb-vortex.webp
+ownership:
+  default: 0
+  38Gfe7fp1EmVmZNj: 3
+flags:
+  plutonium:
+    page: spells.html
+    source: PHB
+    hash: arcane%20gate_phb
+    propDroppable: spell
+effects: []
+folder: yzfv3oHd3vNNsIdJ
+_id: R7NfWr0Sd0tZD53Q
+sort: 0
+_stats:
+  systemId: dnd5e
+  systemVersion: 3.0.2
+  coreVersion: '13.345'
+  createdTime: 1708109344947
+  modifiedTime: 1708227413053
+  lastModifiedBy: 38Gfe7fp1EmVmZNj
+  compendiumSource: null
+  duplicateSource: null
+  exportSource: null
+_key: '!items!R7NfWr0Sd0tZD53Q'

@@ -1,0 +1,55 @@
+folder: 0BxmixOCuUUNHkjf
+name: Recruit Monsters (Nok-Nok)
+type: campaignFeature
+effects: []
+system:
+  description:
+    gm: ''
+    value: "<p>While Nok-Nok is quick to suggest that most of the\_monsters the party encounters during their adventures\_deserve killing, he also understands that there can be\_exceptions. Some can be bribed or allied with, while others\_can be trusted to act on their instincts—a canny person\_can capitalize on these instincts or alliances to bolster a\_kingdom’s defenses. Attempt a basic @Check[intrigue|dc:resolve(@kingdom.control.dc)]\_ check.<br /><strong>Critical Success</strong> You manage to locate a monster’s lair and\_take steps to incorporate it into your kingdom’s defense.\_The next time your kingdom suffers a Bandit Activity,\_Monster Activity, Sacrifices, or Undead Uprising random\_event, you can use your recruited monster to help resolve\_the event. Doing so removes the Recruited Monster from\_your kingdom (you can attempt to recruit a new monster\_on a future kingdom turn though) but allows you to roll\_a skill check twice when resolving the Dangerous Hex\_event, taking the better of the two results as your actual\_result. This is a <strong>fortune</strong> effect. Your kingdom can support 1 Recruited Monster at\_a time. If your kingdom is master in Intrigue, you can\_support up to 2 Recruited Monsters at a time, and if your\_kingdom is legendary in Intrigue, you can support up to\_3 Recruited Monsters at a time.<br /><strong>Success</strong> You locate a monster’s lair but can’t recruit it into\_your kingdom’s defense just yet. If you attempt this\_activity on your next kingdom turn; the result of that<br />check is improved one degree as you continue to build a\_rapport with the monster.<br /><strong>Failure</strong> You fail to locate a monster, or if you were\_recruiting a monster you didn’t succeed at recruiting\_on the previous turn, that monster moves on and you\_must start the recruitment procedure from scratch in\_the future.<br /><strong>Critical Failure</strong> You found a monster, but it proves\_impossible to recruit. Worse, you’ve attracted its\_attention. A Monster Activity event occurs during the\_kingdom’s next Event Phase, in addition to any other\_potential random events</p>"
+  rules: []
+  slug: recruit-monsters
+  _migration:
+    version: 0.94
+    previous:
+      schema: 0.939
+      foundry: '13.345'
+      system: 7.2.0
+  traits:
+    otherTags: []
+    value:
+      - downtime
+      - region
+  publication:
+    title: ''
+    authors: ''
+    license: OGL
+    remaster: false
+  campaign: kingmaker
+  category: kingdom-activity
+  actionType:
+    value: passive
+  actions:
+    value: null
+  prerequisites:
+    value: []
+  location: null
+  level:
+    value: 1
+_id: HchKXewzXZvSpMSb
+img: systems/pf2e/icons/default-icons/campaignFeature.svg
+sort: 100782
+ownership:
+  default: 0
+  txZjek5EOiCBHPoz: 3
+flags: {}
+_stats:
+  compendiumSource: null
+  duplicateSource: null
+  coreVersion: '13.346'
+  systemId: pf2e
+  systemVersion: 7.2.3
+  createdTime: 1718606591261
+  modifiedTime: 1752208111692
+  lastModifiedBy: txZjek5EOiCBHPoz
+  exportSource: null
+_key: '!items!HchKXewzXZvSpMSb'

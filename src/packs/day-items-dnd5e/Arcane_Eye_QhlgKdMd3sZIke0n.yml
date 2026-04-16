@@ -1,0 +1,110 @@
+name: Arcane Eye
+type: spell
+system:
+  source:
+    custom: ''
+    book: PHB
+    page: '214'
+    license: ''
+  description:
+    value: >-
+      <div class="rd__b  rd__b--3"><p>You create an invisible, magical eye
+      within range that hovers in the air for the duration.</p><div
+      class="rd__spc-inline-post"></div><p>You mentally receive visual
+      information from the eye, which has normal vision and @sense[darkvision]
+      out to 30 feet. The eye can look in every direction.</p><p>As an action,
+      you can move the eye up to 30 feet in any direction. There is no limit to
+      how far away from you the eye can move, but it can't enter another plane
+      of existence. A solid barrier blocks the eye's movement, but the eye can
+      pass through an opening as small as 1 inch in
+      diameter.</p></div><div><span class="bold">Classes: </span>Artificer,
+      Wizard</div>
+    chat: ''
+  actionType: util
+  level: 4
+  school: div
+  properties:
+    - vocal
+    - somatic
+    - material
+    - concentration
+  materials:
+    value: a bit of bat fur
+    consumed: false
+    cost: 0
+    supply: 0
+  target:
+    value: 0
+    units: ''
+    type: ''
+    prompt: true
+    width: null
+  range:
+    value: 30
+    units: ft
+    long: null
+  activation:
+    type: action
+    cost: 1
+    condition: ''
+  duration:
+    value: '1'
+    units: hour
+  damage:
+    parts: []
+    versatile: ''
+  scaling:
+    mode: none
+    formula: ''
+  save:
+    dc: null
+    scaling: spell
+    ability: ''
+  uses:
+    value: null
+    max: ''
+    per: null
+    recovery: ''
+    prompt: true
+  attackBonus: ''
+  chatFlavor: ''
+  critical:
+    threshold: null
+    damage: ''
+  formula: ''
+  preparation:
+    mode: prepared
+    prepared: false
+  consume:
+    type: ''
+    target: null
+    amount: null
+    scale: false
+  cover: null
+  crewed: false
+  ability: null
+img: icons/magic/perception/orb-eye-scrying.webp
+ownership:
+  default: 0
+  38Gfe7fp1EmVmZNj: 3
+flags:
+  plutonium:
+    page: spells.html
+    source: PHB
+    hash: arcane%20eye_phb
+    propDroppable: spell
+effects: []
+folder: 0DxlLTSvnP6Pzz2r
+_id: QhlgKdMd3sZIke0n
+sort: 0
+_stats:
+  systemId: dnd5e
+  systemVersion: 3.0.3
+  coreVersion: '13.345'
+  createdTime: 1709684304815
+  modifiedTime: 1709684366197
+  lastModifiedBy: 38Gfe7fp1EmVmZNj
+  compendiumSource: null
+  duplicateSource: null
+  exportSource: null
+_key: '!items!QhlgKdMd3sZIke0n'

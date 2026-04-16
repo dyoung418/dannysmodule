@@ -1,0 +1,159 @@
+name: Disintegrate
+type: spell
+system:
+  source:
+    custom: ''
+    book: PHB
+    page: '233'
+    license: ''
+    revision: 1
+    rules: '2024'
+  description:
+    value: >-
+      <div class="rd__b  rd__b--3"><p>A thin green ray springs from your
+      pointing finger to a target that you can see within range. The target can
+      be a creature, an object, or a creation of magical force, such as the wall
+      created by @spell[wall of force].</p><div
+      class="rd__spc-inline-post"></div><p>A creature targeted by this spell
+      must make a Dexterity saving throw. On a failed save, the target takes
+      [[/r 10d6 + 40]] force damage. The target is disintegrated if this damage
+      leaves it with 0 hit points.</p><p>A disintegrated creature and everything
+      it is wearing and carrying, except magic items, are reduced to a pile of
+      fine gray dust. The creature can be restored to life only by means of a
+      @spell[true resurrection] or a @spell[wish] spell.</p><p>This spell
+      automatically disintegrates a Large or smaller nonmagical object or a
+      creation of magical force. If the target is a Huge or larger object or
+      creation of force, this spell disintegrates a 10-foot-cube portion of it.
+      A magic item is unaffected by this spell.</p></div><div class="rd__b 
+      rd__b--3"><div class="rd__b  rd__b--3"><span class="rd__h rd__h--3"
+      data-title-index="1"> <span class="entry-title-inner">At Higher
+      Levels.</span></span> <p>When you cast this spell using a spell slot of
+      7th level or higher, the damage increases by [[/r 3d6]] for each slot
+      level above 6th.</p><div class="rd__spc-inline-post"></div></div><div
+      class="rd__spc-inline-post"></div></div><div><span class="bold">Classes:
+      </span>Sorcerer, Wizard</div>
+    chat: ''
+  level: 6
+  school: trs
+  properties:
+    - vocal
+    - somatic
+    - material
+  materials:
+    value: a lodestone and a pinch of dust
+    consumed: false
+    cost: 0
+    supply: 0
+  target:
+    affects:
+      type: creature
+      count: '1'
+      choice: false
+    template:
+      units: ''
+      contiguous: false
+  range:
+    value: '60'
+    units: ft
+  activation:
+    type: action
+    condition: ''
+    value: 1
+  duration:
+    value: ''
+    units: inst
+  uses:
+    max: ''
+    spent: 0
+    recovery: []
+  preparation:
+    mode: prepared
+    prepared: false
+  activities:
+    dnd5eactivity000:
+      _id: dnd5eactivity000
+      type: save
+      activation:
+        type: action
+        override: false
+      consumption:
+        targets: []
+        scaling:
+          allowed: false
+          max: ''
+        spellSlot: true
+      description:
+        chatFlavor: ''
+      duration:
+        units: inst
+        concentration: false
+        override: false
+      effects: []
+      range:
+        units: self
+        override: false
+      target:
+        prompt: true
+        template:
+          contiguous: false
+          units: ft
+        affects:
+          choice: false
+        override: false
+      uses:
+        spent: 0
+        max: ''
+        recovery: []
+      damage:
+        onSave: half
+        parts:
+          - number: 10
+            denomination: 6
+            bonus: '40'
+            types:
+              - force
+            custom:
+              enabled: false
+              formula: ''
+            scaling:
+              mode: whole
+              number: 3
+              formula: ''
+      save:
+        ability:
+          - dex
+        dc:
+          calculation: spellcasting
+          formula: ''
+      sort: 0
+  identifier: disintegrate
+img: icons/magic/earth/strike-body-stone-crumble.webp
+ownership:
+  default: 0
+  38Gfe7fp1EmVmZNj: 3
+flags:
+  plutonium:
+    page: spells.html
+    source: PHB
+    hash: disintegrate_phb
+    propDroppable: spell
+  dnd5e:
+    persistSourceMigration: true
+    riders:
+      activity: []
+      effect: []
+effects: []
+folder: 0FHG6CpgiMvDREpM
+_id: N5lpUkSNoXzuiRqG
+sort: 0
+_stats:
+  systemId: dnd5e
+  systemVersion: 5.0.4
+  coreVersion: '13.346'
+  createdTime: 1708109196697
+  modifiedTime: 1752197371435
+  lastModifiedBy: 1pY4akW8WASxGBbA
+  compendiumSource: null
+  duplicateSource: null
+  exportSource: null
+_key: '!items!N5lpUkSNoXzuiRqG'

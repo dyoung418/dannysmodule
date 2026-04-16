@@ -1,0 +1,219 @@
+name: Contagion
+type: spell
+system:
+  source:
+    custom: ''
+    book: PHB
+    page: '227'
+    license: ''
+    revision: 1
+    rules: '2024'
+  description:
+    value: >-
+      <div class="rd__b  rd__b--3"><p>Your touch inflicts disease. Make a melee
+      spell attack against a creature within your reach. On a hit, the target is
+      @condition[poisoned].</p><div class="rd__spc-inline-post"></div><p>At the
+      end of each of the @condition[poisoned] target's turns, the target must
+      make a Constitution saving throw. If the target succeeds on three of these
+      saves, it is no longer @condition[poisoned], and the spell ends. If the
+      target fails three of these saves, the target is no longer
+      @condition[poisoned], but choose one of the diseases below. The target is
+      subjected to the chosen disease for the spell's duration.</p><p>Since this
+      spell induces a natural disease in its target, any effect that removes a
+      disease or otherwise ameliorates a disease's effects apply to it.</p><div
+      class="rd__b  rd__b--3"><span class="rd__h rd__h--3" data-title-index="1">
+      <span class="entry-title-inner">Blinding Sickness.</span></span> <p>Pain
+      grips the creature's mind, and its eyes turn milky white. The creature has
+      disadvantage on Wisdom checks and Wisdom saving throws and is
+      @condition[blinded].</p><div class="rd__spc-inline-post"></div></div><div
+      class="rd__b  rd__b--3"><span class="rd__h rd__h--3" data-title-index="2">
+      <span class="entry-title-inner">Filth Fever.</span></span> <p>A raging
+      fever sweeps through the creature's body. The creature has disadvantage on
+      Strength checks, Strength saving throws, and attack rolls that use
+      Strength.</p><div class="rd__spc-inline-post"></div></div><div
+      class="rd__b  rd__b--3"><span class="rd__h rd__h--3" data-title-index="3">
+      <span class="entry-title-inner">Flesh Rot.</span></span> <p>The creature's
+      flesh decays. The creature has disadvantage on Charisma checks and
+      vulnerability to all damage.</p><div
+      class="rd__spc-inline-post"></div></div><div class="rd__b  rd__b--3"><span
+      class="rd__h rd__h--3" data-title-index="4"> <span
+      class="entry-title-inner">Mindfire.</span></span> <p>The creature's mind
+      becomes feverish. The creature has disadvantage on Intelligence checks and
+      Intelligence saving throws, and the creature behaves as if under the
+      effects of the @spell[confusion] spell during combat.</p><div
+      class="rd__spc-inline-post"></div></div><div class="rd__b  rd__b--3"><span
+      class="rd__h rd__h--3" data-title-index="5"> <span
+      class="entry-title-inner">Seizure.</span></span> <p>The creature is
+      overcome with shaking. The creature has disadvantage on Dexterity checks,
+      Dexterity saving throws, and attack rolls that use Dexterity.</p><div
+      class="rd__spc-inline-post"></div></div><div class="rd__b  rd__b--3"><span
+      class="rd__h rd__h--3" data-title-index="6"> <span
+      class="entry-title-inner">Slimy Doom.</span></span> <p>The creature begins
+      to bleed uncontrollably. The creature has disadvantage on Constitution
+      checks and Constitution saving throws. In addition, whenever the creature
+      takes damage, it is @condition[stunned] until the end of its next
+      turn.</p><div class="rd__spc-inline-post"></div></div></div><div><span
+      class="bold">Classes: </span>Cleric, Druid</div>
+    chat: ''
+  level: 5
+  school: nec
+  properties:
+    - vocal
+    - somatic
+  materials:
+    value: ''
+    consumed: false
+    cost: 0
+    supply: 0
+  target:
+    affects:
+      type: creature
+      count: '1'
+      choice: false
+    template:
+      units: touch
+      contiguous: false
+  range:
+    value: '0'
+    units: touch
+  activation:
+    type: action
+    condition: ''
+    value: 1
+  duration:
+    value: '7'
+    units: day
+  uses:
+    max: ''
+    spent: 0
+    recovery: []
+  preparation:
+    mode: prepared
+    prepared: false
+  activities:
+    dnd5eactivity000:
+      _id: dnd5eactivity000
+      type: attack
+      activation:
+        type: action
+        value: null
+        override: false
+      consumption:
+        targets: []
+        scaling:
+          allowed: false
+          max: ''
+        spellSlot: true
+      description:
+        chatFlavor: ''
+      duration:
+        units: inst
+        concentration: false
+        override: false
+      effects: []
+      range:
+        override: false
+        units: self
+      target:
+        prompt: true
+        template:
+          contiguous: false
+          units: ft
+        affects:
+          choice: false
+        override: false
+      uses:
+        spent: 0
+        max: ''
+        recovery: []
+      attack:
+        ability: ''
+        bonus: ''
+        critical:
+          threshold: null
+        flat: false
+        type:
+          value: melee
+          classification: spell
+      damage:
+        critical:
+          bonus: ''
+        includeBase: true
+        parts: []
+      sort: 0
+    dnd5eactivity100:
+      _id: dnd5eactivity100
+      type: save
+      activation:
+        type: action
+        value: null
+        override: false
+      consumption:
+        targets: []
+        scaling:
+          allowed: false
+          max: ''
+        spellSlot: true
+      description:
+        chatFlavor: ''
+      duration:
+        units: inst
+        concentration: false
+        override: false
+      effects: []
+      range:
+        override: false
+        units: self
+      target:
+        prompt: true
+        template:
+          contiguous: false
+          units: ft
+        affects:
+          choice: false
+        override: false
+      uses:
+        spent: 0
+        max: ''
+        recovery: []
+      damage:
+        onSave: half
+        parts: []
+      save:
+        ability:
+          - con
+        dc:
+          calculation: spellcasting
+          formula: ''
+      sort: 0
+  identifier: contagion
+img: icons/magic/acid/dissolve-arm-flesh.webp
+ownership:
+  default: 0
+  38Gfe7fp1EmVmZNj: 3
+flags:
+  plutonium:
+    page: spells.html
+    source: PHB
+    hash: contagion_phb
+    propDroppable: spell
+  dnd5e:
+    persistSourceMigration: true
+    riders:
+      activity: []
+      effect: []
+effects: []
+folder: 6twhZgoHdiiTwIDl
+_id: ruiLOsxi4svmVxor
+sort: 0
+_stats:
+  systemId: dnd5e
+  systemVersion: 5.0.4
+  coreVersion: '13.346'
+  createdTime: 1708227628680
+  modifiedTime: 1752197371435
+  lastModifiedBy: 1pY4akW8WASxGBbA
+  compendiumSource: null
+  duplicateSource: null
+  exportSource: null
+_key: '!items!ruiLOsxi4svmVxor'

@@ -1,0 +1,82 @@
+name: Enhance Weapons
+type: effect
+img: systems/pf2e/icons/spells/bloodspray-curse.webp
+system:
+  description:
+    gm: ''
+    value: >-
+      <p data-pm-slice="1 1 []">Each PC chooses one melee weapon. That melee
+      weapon gains a +1 circumstance bonus to damage rolls during the next
+      encounter it’s used in; this bonus expires at the end of that encounter or
+      after 24 hours, whichever comes first.</p>
+  rules:
+    - choices:
+        ownedItems: true
+        predicate:
+          - item:equipped
+          - item:melee
+        types:
+          - weapon
+      key: ChoiceSet
+      prompt: PF2E.SpecificRule.Prompt.Weapon
+      flag: enhanceWeapons
+    - key: FlatModifier
+      selector: '{item|flags.pf2e.rulesSelections.enhanceWeapons}-damage'
+      value: 1
+      predicate:
+        - melee
+      type: circumstance
+  slug: null
+  _migration:
+    version: 0.94
+    previous:
+      schema: 0.939
+      foundry: '13.345'
+      system: 7.2.0
+  traits:
+    otherTags: []
+    value: []
+  publication:
+    title: ''
+    authors: ''
+    license: OGL
+    remaster: false
+  level:
+    value: 1
+  duration:
+    value: 24
+    unit: hours
+    expiry: turn-start
+    sustained: false
+  start:
+    value: 0
+    initiative: null
+  tokenIcon:
+    show: true
+  badge: null
+  context: null
+  unidentified: false
+  fromSpell: false
+effects: []
+ownership:
+  default: 0
+  txZjek5EOiCBHPoz: 3
+flags:
+  core: {}
+  scene-packer:
+    hash: 7c691340233b756573f82dfabf39a6e919ed2934
+_stats:
+  compendiumSource: >-
+    Compendium.pf2e-kingmaker-tools.kingmaker-tools-camping-effects.Item.ZKJlIqyFgbKDACnG
+  duplicateSource: null
+  coreVersion: '13.346'
+  systemId: pf2e
+  systemVersion: 7.2.3
+  createdTime: 1718606591261
+  modifiedTime: 1752208111692
+  lastModifiedBy: txZjek5EOiCBHPoz
+  exportSource: null
+folder: lVJfRR3nUB6MU7dI
+_id: DcGg80rUnIgfGIRm
+sort: 103125
+_key: '!items!DcGg80rUnIgfGIRm'

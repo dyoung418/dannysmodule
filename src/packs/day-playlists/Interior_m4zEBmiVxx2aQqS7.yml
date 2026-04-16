@@ -1,0 +1,329 @@
+folder: wN5hA2i4kce4SE3P
+name: Interior
+_id: m4zEBmiVxx2aQqS7
+sounds:
+  - name: Angry Owlbear Noises
+    path: >-
+      modules/dannysmodule/assets/audio/audio-ambient/interior/angry-owlbear-noises.ogg
+    _id: JRvnK3MjMGpizhOv
+    channel: music
+    playing: false
+    pausedTime: null
+    repeat: true
+    volume: 0.5
+    fade: null
+    sort: 0
+    flags: {}
+    _key: '!playlists.sounds!m4zEBmiVxx2aQqS7.JRvnK3MjMGpizhOv'
+  - name: Cave With Dripping Water
+    path: >-
+      modules/dannysmodule/assets/audio/audio-ambient/interior/cave-with-dripping-water.ogg
+    _id: e3MN0awWo1Qr1ns9
+    channel: music
+    playing: false
+    pausedTime: null
+    repeat: true
+    volume: 0.5
+    fade: null
+    sort: 0
+    flags: {}
+    _key: '!playlists.sounds!m4zEBmiVxx2aQqS7.e3MN0awWo1Qr1ns9'
+  - name: Cave With Insects
+    path: >-
+      modules/dannysmodule/assets/audio/audio-ambient/interior/cave-with-insects.ogg
+    _id: LDaH0XGIQAIU5HtD
+    channel: music
+    playing: false
+    pausedTime: null
+    repeat: true
+    volume: 0.5
+    fade: null
+    sort: 0
+    flags: {}
+    _key: '!playlists.sounds!m4zEBmiVxx2aQqS7.LDaH0XGIQAIU5HtD'
+  - name: Deep Cavernous Drone
+    path: >-
+      modules/dannysmodule/assets/audio/audio-ambient/interior/deep-cavernous-drone.ogg
+    _id: u5tomyFooi0NasoL
+    channel: music
+    playing: false
+    pausedTime: null
+    repeat: true
+    volume: 0.5
+    fade: null
+    sort: 0
+    flags: {}
+    _key: '!playlists.sounds!m4zEBmiVxx2aQqS7.u5tomyFooi0NasoL'
+  - name: Dungeon Evil Tomb 01
+    path: >-
+      modules/dannysmodule/assets/audio/audio-ambient/interior/dungeon-evil-tomb-01.ogg
+    _id: odvPSBFhJHy5KtGF
+    channel: music
+    playing: false
+    pausedTime: null
+    repeat: true
+    volume: 0.5
+    fade: null
+    sort: 0
+    flags: {}
+    _key: '!playlists.sounds!m4zEBmiVxx2aQqS7.odvPSBFhJHy5KtGF'
+  - name: Dungeon Evil Tomb 02
+    path: >-
+      modules/dannysmodule/assets/audio/audio-ambient/interior/dungeon-evil-tomb-02.ogg
+    _id: KsRwTYzgtI4B6rBc
+    channel: music
+    playing: false
+    pausedTime: null
+    repeat: true
+    volume: 0.5
+    fade: null
+    sort: 0
+    flags: {}
+    _key: '!playlists.sounds!m4zEBmiVxx2aQqS7.KsRwTYzgtI4B6rBc'
+  - name: Dungeon Trobold
+    path: >-
+      modules/dannysmodule/assets/audio/audio-ambient/interior/dungeon-trobold.ogg
+    _id: Vsnh95A1Qb4r0Wmi
+    channel: music
+    playing: false
+    pausedTime: null
+    repeat: true
+    volume: 0.5
+    fade: null
+    sort: 0
+    flags: {}
+    _key: '!playlists.sounds!m4zEBmiVxx2aQqS7.Vsnh95A1Qb4r0Wmi'
+  - name: Dungeon With Acid
+    path: >-
+      modules/dannysmodule/assets/audio/audio-ambient/interior/dungeon-with-acid.ogg
+    _id: uU3EsYe0n4Eiovuq
+    channel: music
+    playing: false
+    pausedTime: null
+    repeat: true
+    volume: 0.5
+    fade: null
+    sort: 0
+    flags: {}
+    _key: '!playlists.sounds!m4zEBmiVxx2aQqS7.uU3EsYe0n4Eiovuq'
+  - name: Irovetti Palace
+    path: >-
+      modules/dannysmodule/assets/audio/audio-ambient/interior/irovetti-palace.ogg
+    _id: WT9enn6amoxZFVI3
+    channel: music
+    playing: false
+    pausedTime: null
+    repeat: true
+    volume: 0.5
+    fade: null
+    sort: 0
+    flags: {}
+    _key: '!playlists.sounds!m4zEBmiVxx2aQqS7.WT9enn6amoxZFVI3'
+  - name: Library No Clock
+    path: >-
+      modules/dannysmodule/assets/audio/audio-ambient/interior/library-no-clock.ogg
+    _id: 7R8SJPSxsABUc0NN
+    channel: music
+    playing: false
+    pausedTime: null
+    repeat: true
+    volume: 0.5
+    fade: null
+    sort: 0
+    flags: {}
+    _key: '!playlists.sounds!m4zEBmiVxx2aQqS7.7R8SJPSxsABUc0NN'
+  - name: Library
+    path: modules/dannysmodule/assets/audio/audio-ambient/interior/library.ogg
+    _id: 8kKDaAzWNiUsFCSk
+    channel: music
+    playing: false
+    pausedTime: null
+    repeat: true
+    volume: 0.5
+    fade: null
+    sort: 0
+    flags: {}
+    _key: '!playlists.sounds!m4zEBmiVxx2aQqS7.8kKDaAzWNiUsFCSk'
+  - name: Mansion With Guests Being Silent
+    path: >-
+      modules/dannysmodule/assets/audio/audio-ambient/interior/mansion-with-guests-being-silent.ogg
+    _id: qENVBWb0K90gfiYF
+    channel: music
+    playing: false
+    pausedTime: null
+    repeat: true
+    volume: 0.5
+    fade: null
+    sort: 0
+    flags: {}
+    _key: '!playlists.sounds!m4zEBmiVxx2aQqS7.qENVBWb0K90gfiYF'
+  - name: Mansion With Guests Talking
+    path: >-
+      modules/dannysmodule/assets/audio/audio-ambient/interior/mansion-with-guests-talking.ogg
+    _id: vaCE9jfO9uLT8K0Z
+    channel: music
+    playing: false
+    pausedTime: null
+    repeat: true
+    volume: 0.5
+    fade: null
+    sort: 0
+    flags: {}
+    _key: '!playlists.sounds!m4zEBmiVxx2aQqS7.vaCE9jfO9uLT8K0Z'
+  - name: Prison With Convicts
+    path: >-
+      modules/dannysmodule/assets/audio/audio-ambient/interior/prison-with-convicts.ogg
+    _id: SbpeiunMRS6C50ir
+    channel: music
+    playing: false
+    pausedTime: null
+    repeat: true
+    volume: 0.5
+    fade: null
+    sort: 0
+    flags: {}
+    _key: '!playlists.sounds!m4zEBmiVxx2aQqS7.SbpeiunMRS6C50ir'
+  - name: Quiet Room Drone
+    path: >-
+      modules/dannysmodule/assets/audio/audio-ambient/interior/quiet-room-drone.ogg
+    _id: 77bO9zg4tQIo0Brr
+    channel: music
+    playing: false
+    pausedTime: null
+    repeat: true
+    volume: 0.5
+    fade: null
+    sort: 0
+    flags: {}
+    _key: '!playlists.sounds!m4zEBmiVxx2aQqS7.77bO9zg4tQIo0Brr'
+  - name: Room Empty Day
+    path: >-
+      modules/dannysmodule/assets/audio/audio-ambient/interior/room-empty-day.ogg
+    _id: cOdgjH2TlRC8Nkk9
+    channel: music
+    playing: false
+    pausedTime: null
+    repeat: true
+    volume: 0.5
+    fade: null
+    sort: 0
+    flags: {}
+    _key: '!playlists.sounds!m4zEBmiVxx2aQqS7.cOdgjH2TlRC8Nkk9'
+  - name: Room Empty Night
+    path: >-
+      modules/dannysmodule/assets/audio/audio-ambient/interior/room-empty-night.ogg
+    _id: mvRqRAtSS6hZm1Yi
+    channel: music
+    playing: false
+    pausedTime: null
+    repeat: true
+    volume: 0.5
+    fade: null
+    sort: 0
+    flags: {}
+    _key: '!playlists.sounds!m4zEBmiVxx2aQqS7.mvRqRAtSS6hZm1Yi'
+  - name: Tavern Full With Music
+    path: >-
+      modules/dannysmodule/assets/audio/audio-ambient/interior/tavern-full-with-music.ogg
+    _id: FUmCMiufwjcVY7uW
+    channel: music
+    playing: false
+    pausedTime: null
+    repeat: true
+    volume: 0.5
+    fade: null
+    sort: 0
+    flags: {}
+    _key: '!playlists.sounds!m4zEBmiVxx2aQqS7.FUmCMiufwjcVY7uW'
+  - name: Tavern Full Without Music
+    path: >-
+      modules/dannysmodule/assets/audio/audio-ambient/interior/tavern-full-without-music.ogg
+    _id: JRwv80BTL5FZfpm4
+    channel: music
+    playing: false
+    pausedTime: null
+    repeat: true
+    volume: 0.5
+    fade: null
+    sort: 0
+    flags: {}
+    _key: '!playlists.sounds!m4zEBmiVxx2aQqS7.JRwv80BTL5FZfpm4'
+  - name: Throne Room With Visitors
+    path: >-
+      modules/dannysmodule/assets/audio/audio-ambient/interior/throne-room-with-visitors.ogg
+    _id: rwVICKErBUzXLUJw
+    channel: music
+    playing: false
+    pausedTime: null
+    repeat: true
+    volume: 0.5
+    fade: null
+    sort: 0
+    flags: {}
+    _key: '!playlists.sounds!m4zEBmiVxx2aQqS7.rwVICKErBUzXLUJw'
+  - name: Trolls And Hounds
+    path: >-
+      modules/dannysmodule/assets/audio/audio-ambient/interior/trolls-and-hounds.ogg
+    _id: XFIDldT97yNYjAEH
+    channel: music
+    playing: false
+    pausedTime: null
+    repeat: true
+    volume: 0.5
+    fade: null
+    sort: 0
+    flags: {}
+    _key: '!playlists.sounds!m4zEBmiVxx2aQqS7.XFIDldT97yNYjAEH'
+  - name: Undead Distant Cave
+    path: >-
+      modules/dannysmodule/assets/audio/audio-ambient/interior/undead-distant-cave.ogg
+    _id: 9uhAylGHpApRSAjc
+    channel: music
+    playing: false
+    pausedTime: null
+    repeat: true
+    volume: 0.5
+    fade: null
+    sort: 0
+    flags: {}
+    _key: '!playlists.sounds!m4zEBmiVxx2aQqS7.9uhAylGHpApRSAjc'
+  - name: Fireplace
+    path: modules/dannysmodule/assets/audio/audio-ambient/interior/fireplace.ogg
+    channel: environment
+    repeat: true
+    fade: null
+    flags:
+      monks-sound-enhancements:
+        hide-name: false
+    description: ''
+    volume: 0.52
+    _id: Ehc4nzHXwM1iin3s
+    playing: false
+    pausedTime: null
+    sort: 0
+    _key: '!playlists.sounds!m4zEBmiVxx2aQqS7.Ehc4nzHXwM1iin3s'
+channel: environment
+mode: -1
+playing: false
+fade: null
+sorting: a
+seed: 390
+flags:
+  monks-sound-enhancements:
+    hide-playlist: false
+_stats:
+  compendiumSource: null
+  duplicateSource: null
+  coreVersion: '13.344'
+  systemId: pf2e
+  systemVersion: 6.1.3
+  createdTime: 1722151829972
+  modifiedTime: 1723499071408
+  lastModifiedBy: txZjek5EOiCBHPoz
+  exportSource: null
+description: ''
+sort: 0
+ownership:
+  default: 0
+  txZjek5EOiCBHPoz: 3
+_key: '!playlists!m4zEBmiVxx2aQqS7'

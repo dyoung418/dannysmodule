@@ -1,0 +1,19 @@
+name: SFX
+sorting: a
+folder: null
+type: Playlist
+_id: vqO1Z889NYcaj7md
+description: ''
+sort: 0
+color: '#89b4ec'
+flags: {}
+_stats:
+  compendiumSource: null
+  duplicateSource: null
+  coreVersion: '12.330'
+  systemId: pf2e
+  systemVersion: 6.1.2
+  createdTime: 1722148944348
+  modifiedTime: 1722306758327
+  lastModifiedBy: txZjek5EOiCBHPoz
+_key: '!folders!vqO1Z889NYcaj7md'

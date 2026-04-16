@@ -1,0 +1,55 @@
+folder: 0BxmixOCuUUNHkjf
+name: Reconnoiter Hex (V&K)
+type: campaignFeature
+effects: []
+system:
+  description:
+    gm: ''
+    value: "<p>You send a team to spend time surveying and exploring a specific hex, getting the lay of the land and looking for unusual features and specific sites. <strong>Spend 1 RP</strong> and then attempt a @Check[wilderness|dc:resolve(@kingdom.control.dc)]  or @Check[exploration|dc:resolve(@kingdom.control.dc)] Basic check.\_</p><p><br /><strong>Critical Success</strong>: Your team successfully explores the hex and it is now Reconnoitered for the purpose of Claim Hex. Your team automatically finds one Special or Hidden feature if the hex contains one. If the hex contains multiple Special or Hidden Features the GM chooses one. If the hex contains an Encounter or Hazard, the team avoids it and reports back useful and detailed information on it. In addition, your team's reconnaissance of the hex goes so smoothly you may immediately attempt an additional Reconnoiter Hex activity on an adjacent hex. Treat a Critical Success on this additional check as a Success instead<br /><strong>Success</strong>: Your team successfully explores the hex and it is now Reconnoitered for the purpose of Claim Hex. If the hex contains a Special feature your team may find it if your GM wishes. If the hex contains an Encounter or Hazard, the team avoids it and reports basic information on it.<br /><strong>Failure</strong>: Your team fails to explore the hex sufficiently. If the hex contains an Encounter or Hazard, the team escapes it and reports basic information on it.\_<br /><strong>Critical Failure</strong>: Your team fails to explore the hex sufficiently and a number of the team are lost, causing you to take a -1 circumstance penalty to Loyalty-based checks until the end of your next Kingdom turn. If the hex contains an Encounter or Hazard, the team members were lost to it and the survivors can report back basic information on it.</p>"
+  rules: []
+  slug: reconnoiter-hex
+  _migration:
+    version: 0.94
+    previous:
+      schema: 0.939
+      foundry: '13.345'
+      system: 7.2.0
+  traits:
+    otherTags: []
+    value:
+      - downtime
+      - leadership
+  publication:
+    title: ''
+    authors: ''
+    license: OGL
+    remaster: false
+  campaign: kingmaker
+  category: kingdom-activity
+  actionType:
+    value: passive
+  actions:
+    value: null
+  prerequisites:
+    value: []
+  location: null
+  level:
+    value: 1
+_id: wFeG4D9QmSz9rXUM
+img: systems/pf2e/icons/default-icons/campaignFeature.svg
+sort: 101563
+ownership:
+  default: 0
+  txZjek5EOiCBHPoz: 3
+flags: {}
+_stats:
+  compendiumSource: null
+  duplicateSource: null
+  coreVersion: '13.346'
+  systemId: pf2e
+  systemVersion: 7.2.3
+  createdTime: 1718606591261
+  modifiedTime: 1752208111692
+  lastModifiedBy: txZjek5EOiCBHPoz
+  exportSource: null
+_key: '!items!wFeG4D9QmSz9rXUM'

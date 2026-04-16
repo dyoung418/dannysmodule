@@ -1,0 +1,137 @@
+name: Blink
+type: spell
+system:
+  source:
+    custom: ''
+    book: PHB
+    page: '219'
+    license: ''
+    revision: 1
+    rules: '2024'
+  description:
+    value: >-
+      <div class="rd__b  rd__b--3"><p>Roll a [[/r d20]] at the end of each of
+      your turns for the duration of the spell. On a roll of 11 or higher, you
+      vanish from your current plane of existence and appear in the Ethereal
+      Plane (the spell fails and the casting is wasted if you were already on
+      that plane). At the start of your next turn, and when the spell ends if
+      you are on the Ethereal Plane, you return to an unoccupied space of your
+      choice that you can see within 10 feet of the space you vanished from. If
+      no unoccupied space is available within that range, you appear in the
+      nearest unoccupied space (chosen at random if more than one space is
+      equally near). You can dismiss this spell as an action.</p><div
+      class="rd__spc-inline-post"></div><p>While on the Ethereal Plane, you can
+      see and hear the plane you originated from, which is cast in shades of
+      gray, and you can't see anything there more than 60 feet away. You can
+      only affect and be affected by other creatures on the Ethereal Plane.
+      Creatures that aren't there can't perceive you or interact with you,
+      unless they have the ability to do so.</p></div><div><span
+      class="bold">Classes: </span>Artificer, Sorcerer, Wizard</div>
+    chat: ''
+  level: 3
+  school: trs
+  properties:
+    - vocal
+    - somatic
+  materials:
+    value: ''
+    consumed: false
+    cost: 0
+    supply: 0
+  target:
+    affects:
+      type: self
+      count: '0'
+      choice: false
+    template:
+      units: self
+      contiguous: false
+  range:
+    value: '0'
+    units: self
+  activation:
+    type: action
+    condition: ''
+    value: 1
+  duration:
+    value: '1'
+    units: minute
+  uses:
+    max: ''
+    spent: 0
+    recovery: []
+  preparation:
+    mode: prepared
+    prepared: false
+  activities:
+    dnd5eactivity000:
+      _id: dnd5eactivity000
+      type: utility
+      activation:
+        type: action
+        override: false
+      consumption:
+        targets: []
+        scaling:
+          allowed: false
+          max: ''
+        spellSlot: true
+      description:
+        chatFlavor: ''
+      duration:
+        units: inst
+        concentration: false
+        override: false
+      effects: []
+      range:
+        units: self
+        override: false
+      target:
+        prompt: true
+        template:
+          contiguous: false
+          units: ft
+        affects:
+          choice: false
+        override: false
+      uses:
+        spent: 0
+        max: ''
+        recovery: []
+      roll:
+        formula: ''
+        name: ''
+        prompt: false
+        visible: false
+      sort: 0
+  identifier: blink
+img: icons/magic/control/hypnosis-mesmerism-eye-tan.webp
+ownership:
+  default: 0
+  38Gfe7fp1EmVmZNj: 3
+flags:
+  plutonium:
+    page: spells.html
+    source: PHB
+    hash: blink_phb
+    propDroppable: spell
+  dnd5e:
+    persistSourceMigration: true
+    riders:
+      activity: []
+      effect: []
+effects: []
+folder: 460yTIg9sKBrbNPf
+_id: Di5911WByLvvWASO
+sort: 0
+_stats:
+  systemId: dnd5e
+  systemVersion: 5.0.4
+  coreVersion: '13.346'
+  createdTime: 1708228955540
+  modifiedTime: 1752197371435
+  lastModifiedBy: 1pY4akW8WASxGBbA
+  compendiumSource: null
+  duplicateSource: null
+  exportSource: null
+_key: '!items!Di5911WByLvvWASO'

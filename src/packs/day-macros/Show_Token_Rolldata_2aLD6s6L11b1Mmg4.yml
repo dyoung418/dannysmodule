@@ -1,0 +1,33 @@
+name: Show Token Rolldata
+type: script
+command: |-
+  const controlledTokens = game.canvas.tokens.controlled;
+
+  if( controlledTokens.length < 1 ) {
+    UI.notification("Please select a token");
+    return;
+  }
+
+  const rollData = controlledTokens[0].actor.getRollData();
+  console.log(rollData);
+img: icons/svg/dice-target.svg
+_id: 2aLD6s6L11b1Mmg4
+author: txZjek5EOiCBHPoz
+scope: global
+folder: null
+flags: {}
+_stats:
+  compendiumSource: null
+  duplicateSource: null
+  coreVersion: '13.346'
+  systemId: pf2e
+  systemVersion: 6.0.4
+  createdTime: 1719793564598
+  modifiedTime: 1752208126881
+  lastModifiedBy: txZjek5EOiCBHPoz
+  exportSource: null
+sort: 0
+ownership:
+  default: 0
+  txZjek5EOiCBHPoz: 3
+_key: '!macros!2aLD6s6L11b1Mmg4'

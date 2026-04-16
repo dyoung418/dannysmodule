@@ -1,0 +1,109 @@
+name: Intellect Fortress
+type: spell
+system:
+  source:
+    custom: ''
+    book: TCE
+    page: '107'
+    license: ''
+  description:
+    value: >-
+      <div class="rd__b  rd__b--3"><p>For the duration, you or one willing
+      creature you can see within range has resistance to psychic damage, as
+      well as advantage on Intelligence, Wisdom, and Charisma saving
+      throws.</p><div class="rd__spc-inline-post"></div></div><div class="rd__b 
+      rd__b--3"><div class="rd__b  rd__b--3"><span class="rd__h rd__h--3"
+      data-title-index="1"> <span class="entry-title-inner">At Higher
+      Levels.</span></span> <p>When you cast this spell using a spell slot of
+      4th level or higher, you can target one additional creature for each slot
+      level above 3rd. The creatures must be within 30 feet of each other when
+      you target them.</p><div class="rd__spc-inline-post"></div></div><div
+      class="rd__spc-inline-post"></div></div><div><span class="bold">Classes:
+      </span>Artificer</div>
+    chat: ''
+  actionType: util
+  level: 3
+  school: abj
+  properties:
+    - vocal
+    - concentration
+  materials:
+    value: ''
+    consumed: false
+    cost: 0
+    supply: 0
+  target:
+    value: 0
+    units: ''
+    type: ''
+    prompt: true
+    width: null
+  range:
+    value: 30
+    units: ft
+    long: null
+  activation:
+    type: action
+    cost: 1
+    condition: ''
+  duration:
+    value: '1'
+    units: hour
+  damage:
+    parts: []
+    versatile: ''
+  scaling:
+    mode: none
+    formula: ''
+  save:
+    dc: null
+    scaling: spell
+    ability: ''
+  uses:
+    value: null
+    max: ''
+    per: null
+    recovery: ''
+    prompt: true
+  attackBonus: ''
+  chatFlavor: ''
+  critical:
+    threshold: null
+    damage: ''
+  formula: ''
+  preparation:
+    mode: prepared
+    prepared: false
+  consume:
+    type: ''
+    target: null
+    amount: null
+    scale: false
+  cover: null
+  crewed: false
+  ability: null
+img: icons/magic/control/control-influence-rally-purple.webp
+ownership:
+  default: 0
+  38Gfe7fp1EmVmZNj: 3
+flags:
+  plutonium:
+    page: spells.html
+    source: TCE
+    hash: intellect%20fortress_tce
+    propDroppable: spell
+effects: []
+folder: JyVdMrWD1EOLBwdQ
+_id: TF1Os3Kdv1Yyfpx2
+sort: 0
+_stats:
+  systemId: dnd5e
+  systemVersion: 3.0.2
+  coreVersion: '13.345'
+  createdTime: 1708109345518
+  modifiedTime: 1708227413053
+  lastModifiedBy: 38Gfe7fp1EmVmZNj
+  compendiumSource: null
+  duplicateSource: null
+  exportSource: null
+_key: '!items!TF1Os3Kdv1Yyfpx2'

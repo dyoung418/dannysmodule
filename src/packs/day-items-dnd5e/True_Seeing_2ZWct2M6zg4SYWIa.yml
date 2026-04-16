@@ -1,0 +1,129 @@
+name: True Seeing
+type: spell
+system:
+  source:
+    custom: ''
+    book: PHB
+    page: '284'
+    license: ''
+    revision: 1
+    rules: '2024'
+  description:
+    value: >-
+      <div class="rd__b  rd__b--3"><p>This spell gives the willing creature you
+      touch the ability to see things as they actually are. For the duration,
+      the creature has @sense[truesight], notices secret doors hidden by magic,
+      and can see into the Ethereal Plane, all out to a range of 120
+      feet.</p><div class="rd__spc-inline-post"></div></div><div><span
+      class="bold">Classes: </span>Bard, Cleric, Sorcerer, Warlock, Wizard</div>
+    chat: ''
+  level: 6
+  school: div
+  properties:
+    - vocal
+    - somatic
+    - material
+  materials:
+    value: >-
+      an ointment for the eyes that costs 25 gp; is made from mushroom powder,
+      saffron, and fat; and is consumed by the spell
+    consumed: true
+    cost: 25
+    supply: 0
+  target:
+    affects:
+      type: creature
+      count: '1'
+      choice: false
+    template:
+      units: touch
+      contiguous: false
+  range:
+    value: '0'
+    units: touch
+  activation:
+    type: action
+    condition: ''
+    value: 1
+  duration:
+    value: '1'
+    units: hour
+  uses:
+    max: ''
+    spent: 0
+    recovery: []
+  preparation:
+    mode: prepared
+    prepared: false
+  activities:
+    dnd5eactivity000:
+      _id: dnd5eactivity000
+      type: utility
+      activation:
+        type: action
+        override: false
+      consumption:
+        targets: []
+        scaling:
+          allowed: false
+          max: ''
+        spellSlot: true
+      description:
+        chatFlavor: ''
+      duration:
+        units: inst
+        concentration: false
+        override: false
+      effects: []
+      range:
+        units: self
+        override: false
+      target:
+        prompt: true
+        template:
+          contiguous: false
+          units: ft
+        affects:
+          choice: false
+        override: false
+      uses:
+        spent: 0
+        max: ''
+        recovery: []
+      roll:
+        formula: ''
+        name: ''
+        prompt: false
+        visible: false
+      sort: 0
+  identifier: true-seeing
+img: icons/magic/perception/eye-slit-orange.webp
+ownership:
+  default: 0
+  38Gfe7fp1EmVmZNj: 3
+flags:
+  plutonium:
+    page: spells.html
+    source: PHB
+    hash: true%20seeing_phb
+    propDroppable: spell
+  dnd5e:
+    persistSourceMigration: true
+    riders:
+      activity: []
+      effect: []
+effects: []
+folder: 0FHG6CpgiMvDREpM
+_id: 2ZWct2M6zg4SYWIa
+sort: 0
+_stats:
+  systemId: dnd5e
+  systemVersion: 5.0.4
+  coreVersion: '13.346'
+  createdTime: 1708109197395
+  modifiedTime: 1752197371435
+  lastModifiedBy: 1pY4akW8WASxGBbA
+  compendiumSource: null
+  duplicateSource: null
+  exportSource: null
+_key: '!items!2ZWct2M6zg4SYWIa'

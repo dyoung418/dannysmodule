@@ -1,0 +1,107 @@
+name: Silvery Barbs
+type: spell
+system:
+  source:
+    custom: ''
+    book: SCC
+    page: '38'
+    license: ''
+  description:
+    value: >-
+      <div class="rd__b  rd__b--3"><p>You magically distract the triggering
+      creature and turn its momentary uncertainty into encouragement for another
+      creature. The triggering creature must reroll the [[/r d20]] and use the
+      lower roll.</p><div class="rd__spc-inline-post"></div><p>You can then
+      choose a different creature you can see within range (you can choose
+      yourself). The chosen creature has advantage on the next attack roll,
+      ability check, or saving throw it makes within 1 minute. A creature can be
+      empowered by only one use of this spell at a time.</p></div><div><span
+      class="bold">Classes: </span>Bard, Sorcerer, Wizard</div>
+    chat: ''
+  actionType: util
+  level: 1
+  school: enc
+  properties:
+    - vocal
+  materials:
+    value: ''
+    consumed: false
+    cost: 0
+    supply: 0
+  target:
+    value: 0
+    units: ''
+    type: ''
+    prompt: true
+    width: null
+  range:
+    value: 60
+    units: ft
+    long: null
+  activation:
+    type: reaction
+    cost: 1
+    condition: >-
+      which you take when a creature you can see within 60 feet of yourself
+      succeeds on an attack roll, an ability check, or a saving throw
+  duration:
+    value: ''
+    units: inst
+  damage:
+    parts: []
+    versatile: ''
+  scaling:
+    mode: none
+    formula: ''
+  save:
+    dc: null
+    scaling: spell
+    ability: ''
+  uses:
+    value: null
+    max: ''
+    per: null
+    recovery: ''
+    prompt: true
+  attackBonus: ''
+  chatFlavor: ''
+  critical:
+    threshold: null
+    damage: ''
+  formula: d20
+  preparation:
+    mode: prepared
+    prepared: false
+  consume:
+    type: ''
+    target: null
+    amount: null
+    scale: false
+  cover: null
+  crewed: false
+  ability: null
+img: icons/magic/control/energy-stream-link-white.webp
+ownership:
+  default: 0
+  38Gfe7fp1EmVmZNj: 3
+flags:
+  plutonium:
+    page: spells.html
+    source: SCC
+    hash: silvery%20barbs_scc
+    propDroppable: spell
+effects: []
+folder: hdVFDb2tp1Lrrt0O
+_id: z3dOX889lUdY4gs9
+sort: 0
+_stats:
+  systemId: dnd5e
+  systemVersion: 3.0.2
+  coreVersion: '13.345'
+  createdTime: 1708228998344
+  modifiedTime: 1708229050063
+  lastModifiedBy: 38Gfe7fp1EmVmZNj
+  compendiumSource: null
+  duplicateSource: null
+  exportSource: null
+_key: '!items!z3dOX889lUdY4gs9'

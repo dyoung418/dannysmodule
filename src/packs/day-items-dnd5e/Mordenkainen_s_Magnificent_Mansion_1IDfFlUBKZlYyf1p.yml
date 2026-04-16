@@ -1,0 +1,146 @@
+name: Mordenkainen's Magnificent Mansion
+type: spell
+system:
+  source:
+    custom: ''
+    book: PHB
+    page: '261'
+    license: ''
+    revision: 1
+    rules: '2024'
+  description:
+    value: >-
+      <div class="rd__b  rd__b--3"><p>You conjure an extradimensional dwelling
+      in range that lasts for the duration. You choose where its one entrance is
+      located. The entrance shimmers faintly and is 5 feet wide and 10 feet
+      tall. You and any creature you designate when you cast the spell can enter
+      the extradimensional dwelling as long as the portal remains open. You can
+      open or close the portal if you are within 30 feet of it. While closed,
+      the portal is invisible.</p><div
+      class="rd__spc-inline-post"></div><p>Beyond the portal is a magnificent
+      foyer with numerous chambers beyond. The atmosphere is clean, fresh, and
+      warm.</p><p>You can create any floor plan you like, but the space can't
+      exceed 50 cubes, each cube being 10 feet on each side. The place is
+      furnished and decorated as you choose. It contains sufficient food to
+      serve a nine course banquet for up to 100 people. A staff of 100
+      near-transparent servants attends all who enter. You decide the visual
+      appearance of these servants and their attire. They are completely
+      obedient to your orders. Each servant can perform any task a normal human
+      servant could perform, but they can't attack or take any action that would
+      directly harm another creature. Thus the servants can fetch things, clean,
+      mend, fold clothes, light fires, serve food, pour wine, and so on. The
+      servants can go anywhere in the mansion but can't leave it. Furnishings
+      and other objects created by this spell dissipate into smoke if removed
+      from the mansion. When the spell ends, any creatures or objects left
+      inside the extradimensional space are expelled into the open spaces
+      nearest to the entrance.</p></div><div><span class="bold">Classes:
+      </span>Bard, Wizard</div>
+    chat: ''
+  level: 7
+  school: con
+  properties:
+    - vocal
+    - somatic
+    - material
+  materials:
+    value: >-
+      a miniature portal carved from ivory, a small piece of polished marble,
+      and a tiny silver spoon, each item worth at least 5 gp
+    consumed: false
+    cost: 15
+    supply: 0
+  target:
+    affects:
+      choice: false
+    template:
+      units: ''
+      contiguous: false
+  range:
+    value: '300'
+    units: ft
+  activation:
+    type: minute
+    condition: ''
+    value: 1
+  duration:
+    value: '24'
+    units: hour
+  uses:
+    max: ''
+    spent: 0
+    recovery: []
+  preparation:
+    mode: prepared
+    prepared: false
+  activities:
+    dnd5eactivity000:
+      _id: dnd5eactivity000
+      type: utility
+      activation:
+        type: action
+        override: false
+      consumption:
+        targets: []
+        scaling:
+          allowed: false
+          max: ''
+        spellSlot: true
+      description:
+        chatFlavor: ''
+      duration:
+        units: inst
+        concentration: false
+        override: false
+      effects: []
+      range:
+        units: self
+        override: false
+      target:
+        prompt: true
+        template:
+          contiguous: false
+          units: ft
+        affects:
+          choice: false
+        override: false
+      uses:
+        spent: 0
+        max: ''
+        recovery: []
+      roll:
+        formula: ''
+        name: ''
+        prompt: false
+        visible: false
+      sort: 0
+  identifier: mordenkainens-magnificent-mansion
+img: icons/environment/settlement/castle-gatehouse.webp
+ownership:
+  default: 0
+  38Gfe7fp1EmVmZNj: 3
+flags:
+  plutonium:
+    page: spells.html
+    source: PHB
+    hash: mordenkainen's%20magnificent%20mansion_phb
+    propDroppable: spell
+  dnd5e:
+    persistSourceMigration: true
+    riders:
+      activity: []
+      effect: []
+effects: []
+folder: CCUxt5FjyUSGiGKX
+_id: 1IDfFlUBKZlYyf1p
+sort: 0
+_stats:
+  systemId: dnd5e
+  systemVersion: 5.0.4
+  coreVersion: '13.346'
+  createdTime: 1708228997945
+  modifiedTime: 1752197371435
+  lastModifiedBy: 1pY4akW8WASxGBbA
+  compendiumSource: null
+  duplicateSource: null
+  exportSource: null
+_key: '!items!1IDfFlUBKZlYyf1p'

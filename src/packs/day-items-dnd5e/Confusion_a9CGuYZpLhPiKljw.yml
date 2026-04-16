@@ -1,0 +1,133 @@
+name: Confusion
+type: spell
+system:
+  source:
+    custom: ''
+    book: PHB
+    page: '224'
+    license: ''
+  description:
+    value: >-
+      <div class="rd__b  rd__b--3"><p>This spell assaults and twists creatures'
+      minds, spawning delusions and provoking uncontrolled action. Each creature
+      in a 10-foot-radius sphere centered on a point you choose within range
+      must succeed on a Wisdom saving throw when you cast this spell or be
+      affected by it.</p><div class="rd__spc-inline-post"></div><p>An affected
+      target can't take reactions and must roll a [[/r d10]] at the start of
+      each of its turns to determine its behavior for that turn.</p><table
+      class="w-100 rd__table  stripe-odd-table"><caption>Confusion
+      Behavior</caption><thead><tr><th class="col-1 ve-text-center"
+      data-rd-isroller="true">[[/r d10]]</th><th class="col-11"
+      data-rd-isroller="false">Behavior</th></tr></thead><tbody><tr><td
+      class="col-1 ve-text-center" data-roll-min="1" data-roll-max="1">1</td><td
+      class="col-11">The creature uses all its movement to move in a random
+      direction. To determine the direction, roll a [[/r d8]] and assign a
+      direction to each die face. The creature doesn't take an action this
+      turn.</td></tr><tr><td class="col-1 ve-text-center" data-roll-min="2"
+      data-roll-max="6">2-6</td><td class="col-11">The creature doesn't move or
+      take actions this turn.</td></tr><tr><td class="col-1 ve-text-center"
+      data-roll-min="7" data-roll-max="8">7-8</td><td class="col-11">The
+      creature uses its action to make a melee attack against a randomly
+      determined creature within its reach. If there is no creature within its
+      reach, the creature does nothing this turn.</td></tr><tr><td class="col-1
+      ve-text-center" data-roll-min="9" data-roll-max="10">9-10</td><td
+      class="col-11">The creature can act and move
+      normally.</td></tr></tbody></table><p>At the end of each of its turns, an
+      affected target can make a Wisdom saving throw. If it succeeds, this
+      effect ends for that target.</p></div><div class="rd__b  rd__b--3"><div
+      class="rd__b  rd__b--3"><span class="rd__h rd__h--3" data-title-index="1">
+      <span class="entry-title-inner">At Higher Levels.</span></span> <p>When
+      you cast this spell using a spell slot of 5th level or higher, the radius
+      of the sphere increases by 5 feet for each slot level above 4th.</p><div
+      class="rd__spc-inline-post"></div></div><div
+      class="rd__spc-inline-post"></div></div><div><span class="bold">Classes:
+      </span>Bard, Druid, Sorcerer, Wizard</div>
+    chat: ''
+  actionType: save
+  level: 4
+  school: enc
+  properties:
+    - vocal
+    - somatic
+    - material
+    - concentration
+  materials:
+    value: three nut shells
+    consumed: false
+    cost: 0
+    supply: 0
+  target:
+    value: 10
+    units: ft
+    type: sphere
+    prompt: true
+    width: null
+  range:
+    value: 90
+    units: ft
+    long: null
+  activation:
+    type: action
+    cost: 1
+    condition: ''
+  duration:
+    value: '1'
+    units: minute
+  damage:
+    parts: []
+    versatile: ''
+  scaling:
+    mode: none
+    formula: ''
+  save:
+    ability: wis
+    dc: null
+    scaling: spell
+  uses:
+    value: null
+    max: ''
+    per: null
+    recovery: ''
+    prompt: true
+  attackBonus: ''
+  chatFlavor: ''
+  critical:
+    threshold: null
+    damage: ''
+  formula: ''
+  preparation:
+    mode: prepared
+    prepared: false
+  consume:
+    type: ''
+    target: null
+    amount: null
+    scale: false
+  cover: null
+  crewed: false
+  ability: null
+img: icons/creatures/amphibians/frog-confused-green-blue.webp
+ownership:
+  default: 0
+  38Gfe7fp1EmVmZNj: 3
+flags:
+  plutonium:
+    page: spells.html
+    source: PHB
+    hash: confusion_phb
+    propDroppable: spell
+effects: []
+folder: pJIquRdqK7vmpj36
+_id: a9CGuYZpLhPiKljw
+sort: 0
+_stats:
+  systemId: dnd5e
+  systemVersion: 3.0.2
+  coreVersion: '13.345'
+  createdTime: 1708227601027
+  modifiedTime: 1708227676991
+  lastModifiedBy: 38Gfe7fp1EmVmZNj
+  compendiumSource: null
+  duplicateSource: null
+  exportSource: null
+_key: '!items!a9CGuYZpLhPiKljw'

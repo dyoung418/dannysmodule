@@ -1,0 +1,104 @@
+img: icons/magic/acid/projectile-smoke-glowing.webp
+name: Inkshot
+system:
+  description:
+    gm: ''
+    value: >-
+      <p>A spray of viscous, toxic ink jets from your fingertip to strike a
+      target creature in the face. Make a spell attack roll against the target.
+      On a hit, you deal 2d6 poison damage, plus you blast the target's eyes,
+      making them
+      @UUID[Compendium.pf2e.conditionitems.Item.TkIyaNPgTZFBCCuh]{Dazzled} for 1
+      round as the stinging ink blurs and distorts the creature's vision. On a
+      critical hit, double the poison damage, and the target becomes dazzled for
+      1 minute by the foul ink.</p>
+
+      <p>The ink stain remains for 1 hour before fading, although vigorous
+      cleansing (or magic such as a prestidigitation cantrip) can remove the ink
+      before then.</p>
+
+      <hr />
+
+      <p><strong>Heightened (+1)</strong> Increase the base poison damage by
+      2d6.</p>
+  rules: []
+  slug: inkshot
+  _migration:
+    version: 0.94
+    lastMigration: null
+    previous:
+      schema: 0.939
+      foundry: '13.345'
+      system: 7.2.0
+  traits:
+    otherTags: []
+    value:
+      - attack
+      - concentrate
+      - manipulate
+      - poison
+    rarity: rare
+    traditions:
+      - occult
+      - primal
+  publication:
+    title: Pathfinder Kingmaker
+    authors: ''
+    license: OGL
+    remaster: false
+  level:
+    value: 1
+  requirements: ''
+  target:
+    value: ''
+  range:
+    value: 30 feet
+  area: null
+  time:
+    value: '2'
+  duration:
+    value: ''
+    sustained: false
+  damage:
+    Mk0Ianq2Zs3VT6IK:
+      applyMod: false
+      formula: 2d6
+      type: poison
+      category: null
+      materials: []
+      kinds:
+        - damage
+  defense: null
+  cost:
+    value: ''
+  location:
+    value: null
+  counteraction: false
+  heightening:
+    damage:
+      Mk0Ianq2Zs3VT6IK: 2d6
+    interval: 1
+    type: interval
+type: spell
+flags:
+  core: {}
+  scene-packer:
+    hash: f1bc43df32b274e87f2768fabf82d133ea59e6db
+effects: []
+folder: lVJfRR3nUB6MU7dI
+ownership:
+  default: 3
+  txZjek5EOiCBHPoz: 3
+_stats:
+  compendiumSource: Compendium.pf2e.spells-srd.Item.MiTFNcqCI9f34A2V
+  duplicateSource: null
+  coreVersion: '13.346'
+  systemId: pf2e
+  systemVersion: 7.2.3
+  createdTime: 1718606591261
+  modifiedTime: 1752208111692
+  lastModifiedBy: txZjek5EOiCBHPoz
+  exportSource: null
+_id: ekRMrGWC98spLbrS
+sort: 200000
+_key: '!items!ekRMrGWC98spLbrS'

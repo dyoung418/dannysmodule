@@ -1,0 +1,137 @@
+name: Disguise Self
+type: spell
+system:
+  source:
+    custom: ''
+    book: PHB
+    page: '233'
+    license: ''
+    revision: 1
+    rules: '2024'
+  description:
+    value: >-
+      <div class="rd__b  rd__b--3"><p>You make yourself—including your clothing,
+      armor, weapons, and other belongings on your person—look different until
+      the spell ends or until you use your action to dismiss it. You can seem 1
+      foot shorter or taller and can appear thin, fat, or in between. You can't
+      change your body type, so you must adopt a form that has the same basic
+      arrangement of limbs. Otherwise, the extent of the illusion is up to
+      you.</p><div class="rd__spc-inline-post"></div><p>The changes wrought by
+      this spell fail to hold up to physical inspection. For example, if you use
+      this spell to add a hat to your outfit, objects pass through the hat, and
+      anyone who touches it would feel nothing or would feel your head and hair.
+      If you use this spell to appear thinner than you are, the hand of someone
+      who reaches out to touch you would bump into you while it was seemingly
+      still in midair.</p><p>To discern that you are disguised, a creature can
+      use its action to inspect your appearance and must succeed on an
+      Intelligence (@skill[Investigation]) check against your spell save
+      DC.</p></div><div><span class="bold">Classes: </span>Artificer, Bard,
+      Sorcerer, Wizard</div>
+    chat: ''
+  level: 1
+  school: ill
+  properties:
+    - vocal
+    - somatic
+  materials:
+    value: ''
+    consumed: false
+    cost: 0
+    supply: 0
+  target:
+    affects:
+      type: self
+      count: '0'
+      choice: false
+    template:
+      units: self
+      contiguous: false
+  range:
+    value: '0'
+    units: self
+  activation:
+    type: action
+    condition: ''
+    value: 1
+  duration:
+    value: '1'
+    units: hour
+  uses:
+    max: ''
+    spent: 0
+    recovery: []
+  preparation:
+    mode: prepared
+    prepared: false
+  activities:
+    dnd5eactivity000:
+      _id: dnd5eactivity000
+      type: utility
+      activation:
+        type: action
+        override: false
+      consumption:
+        targets: []
+        scaling:
+          allowed: false
+          max: ''
+        spellSlot: true
+      description:
+        chatFlavor: ''
+      duration:
+        units: inst
+        concentration: false
+        override: false
+      effects: []
+      range:
+        units: self
+        override: false
+      target:
+        prompt: true
+        template:
+          contiguous: false
+          units: ft
+        affects:
+          choice: false
+        override: false
+      uses:
+        spent: 0
+        max: ''
+        recovery: []
+      roll:
+        formula: ''
+        name: ''
+        prompt: false
+        visible: false
+      sort: 0
+  identifier: disguise-self
+img: icons/creatures/eyes/human-single-brown.webp
+ownership:
+  default: 0
+  38Gfe7fp1EmVmZNj: 3
+flags:
+  plutonium:
+    page: spells.html
+    source: PHB
+    hash: disguise%20self_phb
+    propDroppable: spell
+  dnd5e:
+    persistSourceMigration: true
+    riders:
+      activity: []
+      effect: []
+effects: []
+folder: 7LJJqiLuL1YQyknL
+_id: GFtZqMdCmzA918GB
+sort: 0
+_stats:
+  systemId: dnd5e
+  systemVersion: 5.0.4
+  coreVersion: '13.346'
+  createdTime: 1708228997530
+  modifiedTime: 1752197371435
+  lastModifiedBy: 1pY4akW8WASxGBbA
+  compendiumSource: null
+  duplicateSource: null
+  exportSource: null
+_key: '!items!GFtZqMdCmzA918GB'

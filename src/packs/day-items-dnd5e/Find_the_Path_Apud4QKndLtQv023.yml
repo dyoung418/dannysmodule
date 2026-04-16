@@ -1,0 +1,114 @@
+name: Find the Path
+type: spell
+system:
+  source:
+    custom: ''
+    book: PHB
+    page: '240'
+    license: ''
+  description:
+    value: >-
+      <div class="rd__b  rd__b--3"><p>This spell allows you to find the
+      shortest, most direct physical route to a specific fixed location that you
+      are familiar with on the same plane of existence. If you name a
+      destination on another plane of existence, a destination that moves (such
+      as a mobile fortress), or a destination that isn't specific (such as "a
+      green dragon's lair"), the spell fails.</p><div
+      class="rd__spc-inline-post"></div><p>For the duration, as long as you are
+      on the same plane of existence as the destination, you know how far it is
+      and in what direction it lies. While you are traveling there, whenever you
+      are presented with a choice of paths along the way, you automatically
+      determine which path is the shortest and most direct route (but not
+      necessarily the safest route) to the destination.</p></div><div><span
+      class="bold">Classes: </span>Bard, Cleric, Druid</div>
+    chat: ''
+  actionType: util
+  level: 6
+  school: div
+  properties:
+    - vocal
+    - somatic
+    - material
+    - concentration
+  materials:
+    value: >-
+      a set of divinatory tools—such as bones, ivory sticks, cards, teeth, or
+      carved runes—worth 100 gp and an object from the location you wish to find
+    consumed: false
+    cost: 100
+    supply: 0
+  target:
+    value: 0
+    units: self
+    type: self
+    prompt: true
+    width: null
+  range:
+    value: 0
+    units: self
+    long: null
+  activation:
+    type: minute
+    cost: 1
+    condition: ''
+  duration:
+    value: '1'
+    units: day
+  damage:
+    parts: []
+    versatile: ''
+  scaling:
+    mode: none
+    formula: ''
+  save:
+    dc: null
+    scaling: spell
+    ability: ''
+  uses:
+    value: null
+    max: ''
+    per: null
+    recovery: ''
+    prompt: true
+  attackBonus: ''
+  chatFlavor: ''
+  critical:
+    threshold: null
+    damage: ''
+  formula: ''
+  preparation:
+    mode: prepared
+    prepared: false
+  consume:
+    type: ''
+    target: null
+    amount: null
+    scale: false
+  cover: null
+  crewed: false
+  ability: null
+img: icons/environment/wilderness/terrain-river-road-gray.webp
+ownership:
+  default: 0
+  38Gfe7fp1EmVmZNj: 3
+flags:
+  plutonium:
+    page: spells.html
+    source: PHB
+    hash: find%20the%20path_phb
+    propDroppable: spell
+effects: []
+folder: yxrFVw9xL2yqAjvf
+_id: Apud4QKndLtQv023
+sort: 0
+_stats:
+  systemId: dnd5e
+  systemVersion: 3.0.2
+  coreVersion: '13.345'
+  createdTime: 1708227628816
+  modifiedTime: 1708227680382
+  lastModifiedBy: 38Gfe7fp1EmVmZNj
+  compendiumSource: null
+  duplicateSource: null
+  exportSource: null
+_key: '!items!Apud4QKndLtQv023'

@@ -1,0 +1,72 @@
+folder: yTd2CNZ9biWYoOF6
+name: Castle
+type: campaignFeature
+effects: []
+system:
+  description:
+    gm: ''
+    value: "<p>A castle is a fortified structure that often serves as the seat of government for a kingdom</p>\n<hr />\n<p><strong>Lots</strong>\_4;\_<strong>Cost</strong>\_54 RP, 12 Lumber, 12 Stone</p>\n<p><strong>Construction</strong>\_Defense (expert), Industry (expert), Magic (expert), or Statecraft (expert) DC 26</p>\n<p><strong>Upgrade From</strong>\_<a class=\"content-link\" draggable=\"true\" data-uuid=\"JournalEntry.BIu4C1T1RR17QNwl.JournalEntryPage.0v9Mj54D3yGpkY0q\" data-id=\"0v9Mj54D3yGpkY0q\" data-type=\"JournalEntryPage\" data-tooltip=\"Text Page\">town hall</a></p>\n<p><strong>Upgrade To</strong>\_<a class=\"content-link\" draggable=\"true\" data-uuid=\"JournalEntry.BIu4C1T1RR17QNwl.JournalEntryPage.rLG1J1HRIDOix4Ve\" data-id=\"rLG1J1HRIDOix4Ve\" data-type=\"JournalEntryPage\" data-tooltip=\"Text Page\">palace</a></p>\n<p><strong>Item Bonus</strong>\_+2 item bonus to\_<a class=\"content-link\" draggable=\"true\" data-uuid=\"Compendium.pf2e.kingmaker-features.Item.vHKPoZycxZAA1vpz\" data-id=\"vHKPoZycxZAA1vpz\" data-type=\"Item\" data-pack=\"pf2e.kingmaker-features\" data-tooltip=\"Campaign Feature Item\">New Leadership</a>,\_<a class=\"content-link\" draggable=\"true\" data-uuid=\"Compendium.pf2e.kingmaker-features.Item.nc4XV5NFuHDz93O0\" data-id=\"nc4XV5NFuHDz93O0\" data-type=\"Item\" data-pack=\"pf2e.kingmaker-features\" data-tooltip=\"Campaign Feature Item\">Pledge of Fealty</a>,\_<a class=\"content-link\" draggable=\"true\" data-uuid=\"Compendium.pf2e.kingmaker-features.Item.FGQfcX6BelYrJatp\" data-id=\"FGQfcX6BelYrJatp\" data-type=\"Item\" data-pack=\"pf2e.kingmaker-features\" data-tooltip=\"Campaign Feature Item\">Send Diplomatic Envoy</a>, and +2 item bonus to\_<a class=\"content-link\" draggable=\"true\" data-uuid=\"Compendium.pf2e.kingmaker-features.Item.iYLFBep0kddHQkW9\" data-id=\"iYLFBep0kddHQkW9\" data-type=\"Item\" data-pack=\"pf2e.kingmaker-features\" data-tooltip=\"Campaign Feature Item\">Garrison Army</a>,\_<a class=\"content-link\" draggable=\"true\" data-uuid=\"Compendium.pf2e.kingmaker-features.Item.1wzNJEvPCuMwJdHe\" data-id=\"1wzNJEvPCuMwJdHe\" data-type=\"Item\" data-pack=\"pf2e.kingmaker-features\" data-tooltip=\"Campaign Feature Item\">Recover Army</a>, or\_<a class=\"content-link\" draggable=\"true\" data-uuid=\"Compendium.pf2e.kingmaker-features.Item.Fko5kdpi9Oxas6Ty\" data-id=\"Fko5kdpi9Oxas6Ty\" data-type=\"Item\" data-pack=\"pf2e.kingmaker-features\" data-tooltip=\"Campaign Feature Item\">Recruit Army</a>\_(see\_<a class=\"content-link\" draggable=\"true\" data-uuid=\"JournalEntry.TBY1Ir2GtQJqW8VD\" data-id=\"TBY1Ir2GtQJqW8VD\" data-type=\"JournalEntry\" data-tooltip=\"Journal Entry\">Appendix 3: Warfare</a>)</p>\n<p><strong>Effects</strong>\_The first time you build a castle each Kingdom turn, reduce Unrest by\_<a class=\"inline-roll gmroll\" data-mode=\"gmroll\" data-flavor data-formula=\"1d4\" data-tooltip=\"1d4\" data-damage-roll>1d4</a>. A castle in a capital allows PC leaders to take 3 Leadership activities during the Activity phase of a Kingdom turn rather than 2.</p>"
+  rules:
+    - hideIfDisabled: true
+      key: FlatModifier
+      label: >-
+        Castle bonus (new ldrshp, pledge, send diplo, garrison, recover, recruit
+        army)
+      predicate:
+        - or:
+            - action:new-leadership
+            - action:pledge-of-fealty
+            - action:send-diplomatic-envoy
+            - action:garrison-army
+            - action:recover-army
+            - action:recruit-army
+            - action:manage-trade-agreements
+            - action:relocate-capital
+      selector: kingdom-check
+      type: item
+      value: 2
+  slug: null
+  _migration:
+    version: 0.94
+    previous:
+      schema: 0.939
+      foundry: '13.345'
+      system: 7.2.0
+  traits:
+    otherTags: []
+    value:
+      - kingdom
+  publication:
+    title: ''
+    authors: ''
+    license: OGL
+    remaster: false
+  campaign: kingmaker
+  category: kingdom-feat
+  actionType:
+    value: passive
+  actions:
+    value: null
+  prerequisites:
+    value: []
+  location: null
+  level:
+    value: 9
+_id: oMPwSTp9h99FSAWk
+img: modules/pf2e-kingmaker/assets/maps-settlements/buildings/castle.webp
+sort: 0
+ownership:
+  default: 0
+  txZjek5EOiCBHPoz: 3
+flags: {}
+_stats:
+  compendiumSource: null
+  duplicateSource: null
+  coreVersion: '13.346'
+  systemId: pf2e
+  systemVersion: 7.2.3
+  createdTime: 1718606591261
+  modifiedTime: 1752208111692
+  lastModifiedBy: txZjek5EOiCBHPoz
+  exportSource: null
+_key: '!items!oMPwSTp9h99FSAWk'

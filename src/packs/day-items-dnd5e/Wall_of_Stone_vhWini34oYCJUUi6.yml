@@ -1,0 +1,125 @@
+name: Wall of Stone
+type: spell
+system:
+  source:
+    custom: ''
+    book: PHB
+    page: '287'
+    license: ''
+  description:
+    value: >-
+      <div class="rd__b  rd__b--3"><p>A nonmagical wall of solid stone springs
+      into existence at a point you choose within range. The wall is 6 inches
+      thick and is composed of ten 10-foot-by-10-foot panels. Each panel must be
+      contiguous with at least one other panel. Alternatively, you can create
+      10-foot-by-20-foot panels that are only 3 inches thick.</p><div
+      class="rd__spc-inline-post"></div><p>If the wall cuts through a creature's
+      space when it appears, the creature is pushed to one side of the wall
+      (your choice). If a creature would be surrounded on all sides by the wall
+      (or the wall and another solid surface), that creature can make a
+      Dexterity saving throw. On a success, it can use its reaction to move up
+      to its speed so that it is no longer enclosed by the wall.</p><p>The wall
+      can have any shape you desire, though it can't occupy the same space as a
+      creature or object. The wall doesn't need to be vertical or rest on any
+      firm foundation. It must, however, merge with and be solidly supported by
+      existing stone. Thus, you can use this spell to bridge a chasm or create a
+      ramp.</p><p>If you create a span greater than 20 feet in length, you must
+      halve the size of each panel to create supports. You can crudely shape the
+      wall to create crenellations, battlements, and so on.</p><p>The wall is an
+      object made of stone that can be damaged and thus breached. Each panel has
+      AC 15 and 30 hit points per inch of thickness. Reducing a panel to 0 hit
+      points destroys it and might cause connected panels to collapse at the
+      DM's discretion.</p><p>If you maintain your @status[concentration] on this
+      spell for its whole duration, the wall becomes permanent and can't be
+      dispelled. Otherwise, the wall disappears when the spell
+      ends.</p></div><div><span class="bold">Classes: </span>Artificer, Druid,
+      Sorcerer, Wizard</div>
+    chat: ''
+  actionType: save
+  level: 5
+  school: evo
+  properties:
+    - vocal
+    - somatic
+    - material
+    - concentration
+  materials:
+    value: a small block of granite
+    consumed: false
+    cost: 0
+    supply: 0
+  target:
+    value: 100
+    units: ft
+    type: wall
+    prompt: true
+    width: null
+  range:
+    value: 120
+    units: ft
+    long: null
+  activation:
+    type: action
+    cost: 1
+    condition: ''
+  duration:
+    value: '10'
+    units: minute
+  damage:
+    parts: []
+    versatile: ''
+  scaling:
+    mode: none
+    formula: ''
+  save:
+    ability: dex
+    dc: null
+    scaling: spell
+  uses:
+    value: null
+    max: ''
+    per: null
+    recovery: ''
+    prompt: true
+  attackBonus: ''
+  chatFlavor: ''
+  critical:
+    threshold: null
+    damage: ''
+  formula: ''
+  preparation:
+    mode: prepared
+    prepared: false
+  consume:
+    type: ''
+    target: null
+    amount: null
+    scale: false
+  cover: null
+  crewed: false
+  ability: null
+img: icons/environment/settlement/fence-stone-brick.webp
+ownership:
+  default: 0
+  38Gfe7fp1EmVmZNj: 3
+flags:
+  plutonium:
+    page: spells.html
+    source: PHB
+    hash: wall%20of%20stone_phb
+    propDroppable: spell
+effects: []
+folder: NgGfZzb7StmQMVjk
+_id: vhWini34oYCJUUi6
+sort: 0
+_stats:
+  systemId: dnd5e
+  systemVersion: 3.0.3
+  coreVersion: '13.345'
+  createdTime: 1709684306384
+  modifiedTime: 1709684366197
+  lastModifiedBy: 38Gfe7fp1EmVmZNj
+  compendiumSource: null
+  duplicateSource: null
+  exportSource: null
+_key: '!items!vhWini34oYCJUUi6'

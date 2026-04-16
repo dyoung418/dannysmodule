@@ -1,0 +1,111 @@
+name: Magic Missile
+type: spell
+system:
+  source:
+    custom: ''
+    book: PHB
+    page: '257'
+    license: ''
+  description:
+    value: >-
+      <div class="rd__b  rd__b--3"><p>You create three glowing darts of magical
+      force. Each dart hits a creature of your choice that you can see within
+      range. A dart deals [[/r 1d4 + 1]] force damage to its target. The darts
+      all strike simultaneously, and you can direct them to hit one creature or
+      several.</p><div class="rd__spc-inline-post"></div></div><div
+      class="rd__b  rd__b--3"><div class="rd__b  rd__b--3"><span class="rd__h
+      rd__h--3" data-title-index="1"> <span class="entry-title-inner">At Higher
+      Levels.</span></span> <p>When you cast this spell using a spell slot of
+      2nd level or higher, the spell creates one more dart for each slot level
+      above 1st.</p><div class="rd__spc-inline-post"></div></div><div
+      class="rd__spc-inline-post"></div></div><div><span class="bold">Classes:
+      </span>Sorcerer, Wizard</div>
+    chat: ''
+  actionType: util
+  level: 1
+  school: evo
+  properties:
+    - vocal
+    - somatic
+  materials:
+    value: ''
+    consumed: false
+    cost: 0
+    supply: 0
+  target:
+    value: 1
+    units: ''
+    type: creature
+    prompt: true
+    width: null
+  range:
+    value: 120
+    units: ft
+    long: null
+  activation:
+    type: action
+    cost: 1
+    condition: ''
+  duration:
+    value: ''
+    units: inst
+  damage:
+    parts:
+      - - (1d4 + 1) * (2 + @item.level)
+        - force
+    versatile: ''
+  scaling:
+    mode: none
+    formula: ''
+  save:
+    dc: null
+    scaling: spell
+    ability: ''
+  uses:
+    value: null
+    max: ''
+    per: null
+    recovery: ''
+    prompt: true
+  attackBonus: ''
+  chatFlavor: ''
+  critical:
+    threshold: null
+    damage: ''
+  formula: ''
+  preparation:
+    mode: prepared
+    prepared: false
+  consume:
+    type: ''
+    target: null
+    amount: null
+    scale: false
+  cover: null
+  crewed: false
+  ability: null
+img: icons/magic/light/projectile-stars-blue.webp
+ownership:
+  default: 0
+  38Gfe7fp1EmVmZNj: 3
+flags:
+  plutonium:
+    page: spells.html
+    source: PHB
+    hash: magic%20missile_phb
+    propDroppable: spell
+effects: []
+folder: OcbA4wVEVIT7E1MT
+_id: jrUME7Tgx4pkvUyO
+sort: 0
+_stats:
+  systemId: dnd5e
+  systemVersion: 3.0.3
+  coreVersion: '13.345'
+  createdTime: 1709684305636
+  modifiedTime: 1709684366197
+  lastModifiedBy: 38Gfe7fp1EmVmZNj
+  compendiumSource: null
+  duplicateSource: null
+  exportSource: null
+_key: '!items!jrUME7Tgx4pkvUyO'

@@ -1,0 +1,115 @@
+name: Legend Lore
+type: spell
+system:
+  source:
+    custom: ''
+    book: PHB
+    page: '254'
+    license: ''
+  description:
+    value: >-
+      <div class="rd__b  rd__b--3"><p>Name or describe a person, place, or
+      object. The spell brings to your mind a brief summary of the significant
+      lore about the thing you named. The lore might consist of current tales,
+      forgotten stories, or even secret lore that has never been widely known.
+      If the thing you named isn't of legendary importance, you gain no
+      information. The more information you already have about the thing, the
+      more precise and detailed the information you receive is.</p><div
+      class="rd__spc-inline-post"></div><p>The information you learn is accurate
+      but might be couched in figurative language. For example, if you have a
+      mysterious magic axe on hand, the spell might yield this information: "Woe
+      to the evildoer whose hand touches the axe, for even the haft slices the
+      hand of the evil ones. Only a true Child of Stone, lover and beloved of
+      Moradin, may awaken the true powers of the axe, and only with the sacred
+      word Rudnogg on the lips."</p></div><div><span class="bold">Classes:
+      </span>Bard, Cleric, Wizard</div>
+    chat: ''
+  actionType: util
+  level: 5
+  school: div
+  properties:
+    - vocal
+    - somatic
+    - material
+  materials:
+    value: >-
+      incense worth at least 250 gp, which the spell consumes, and four ivory
+      strips worth at least 50 gp each
+    consumed: true
+    cost: 250
+    supply: 0
+  target:
+    value: 0
+    units: self
+    type: self
+    prompt: true
+    width: null
+  range:
+    value: 0
+    units: self
+    long: null
+  activation:
+    type: minute
+    cost: 10
+    condition: ''
+  duration:
+    value: ''
+    units: inst
+  damage:
+    parts: []
+    versatile: ''
+  scaling:
+    mode: none
+    formula: ''
+  save:
+    dc: null
+    scaling: spell
+    ability: ''
+  uses:
+    value: null
+    max: ''
+    per: null
+    recovery: ''
+    prompt: true
+  attackBonus: ''
+  chatFlavor: ''
+  critical:
+    threshold: null
+    damage: ''
+  formula: ''
+  preparation:
+    mode: prepared
+    prepared: false
+  consume:
+    type: ''
+    target: null
+    amount: null
+    scale: false
+  cover: null
+  crewed: false
+  ability: null
+img: icons/skills/trades/academics-investigation-study-blue.webp
+ownership:
+  default: 0
+  38Gfe7fp1EmVmZNj: 3
+flags:
+  plutonium:
+    page: spells.html
+    source: PHB
+    hash: legend%20lore_phb
+    propDroppable: spell
+effects: []
+folder: NgGfZzb7StmQMVjk
+_id: VW4xghHPvT3E5kt3
+sort: 0
+_stats:
+  systemId: dnd5e
+  systemVersion: 3.0.3
+  coreVersion: '13.345'
+  createdTime: 1709684305533
+  modifiedTime: 1709684366197
+  lastModifiedBy: 38Gfe7fp1EmVmZNj
+  compendiumSource: null
+  duplicateSource: null
+  exportSource: null
+_key: '!items!VW4xghHPvT3E5kt3'

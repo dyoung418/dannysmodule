@@ -1,0 +1,62 @@
+folder: yTd2CNZ9biWYoOF6
+name: Secure Warehouse
+type: campaignFeature
+effects: []
+system:
+  description:
+    gm: ''
+    value: "<p>Secure warehouses are used to store valuables.</p>\n<hr />\n<p><strong>Lots</strong>\_2;\_<strong>Cost</strong>\_24 RP, 6 Lumber, 4 Ore, 6 Stone</p>\n<p><strong>Construction</strong>\_Industry (expert) DC 22</p>\n<p><strong>Item Bonus</strong>\_+1 item bonus to\_<a class=\"content-link\" draggable=\"true\" data-uuid=\"Compendium.pf2e.kingmaker-features.Item.B70XC3Ci1SqemPlT\" data-id=\"B70XC3Ci1SqemPlT\" data-type=\"Item\" data-pack=\"pf2e.kingmaker-features\" data-tooltip=\"Campaign Feature Item\">Craft Luxuries</a></p>\n<p><strong>Effects</strong> Each secure warehouse in your kingdom increases your maximum Luxuries Commodity capacity by 1.</p>"
+  rules:
+    - hideIfDisabled: true
+      key: FlatModifier
+      label: Secure Warehouse bonus to Craft Luxuries
+      predicate:
+        - action:craft-luxuries
+      selector: kingdom-check
+      type: item
+      value: 1
+  slug: null
+  _migration:
+    version: 0.94
+    previous:
+      schema: 0.939
+      foundry: '13.345'
+      system: 7.2.0
+  traits:
+    otherTags: []
+    value:
+      - kingdom
+  publication:
+    title: ''
+    authors: ''
+    license: OGL
+    remaster: false
+  campaign: kingmaker
+  category: kingdom-feat
+  actionType:
+    value: passive
+  actions:
+    value: null
+  prerequisites:
+    value: []
+  location: null
+  level:
+    value: 6
+_id: jcPD3OEdRqxKtEQN
+img: modules/pf2e-kingmaker/assets/maps-settlements/buildings/secure-warehouse.webp
+sort: 0
+ownership:
+  default: 0
+  txZjek5EOiCBHPoz: 3
+flags: {}
+_stats:
+  compendiumSource: null
+  duplicateSource: null
+  coreVersion: '13.346'
+  systemId: pf2e
+  systemVersion: 7.2.3
+  createdTime: 1718606591261
+  modifiedTime: 1752208111692
+  lastModifiedBy: txZjek5EOiCBHPoz
+  exportSource: null
+_key: '!items!jcPD3OEdRqxKtEQN'

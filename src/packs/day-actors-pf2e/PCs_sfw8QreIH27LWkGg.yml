@@ -1,0 +1,20 @@
+name: PCs
+sorting: a
+folder: null
+type: Actor
+_id: sfw8QreIH27LWkGg
+description: ''
+sort: 0
+color: null
+flags: {}
+_stats:
+  compendiumSource: null
+  duplicateSource: null
+  coreVersion: '13.346'
+  systemId: pf2e
+  systemVersion: 6.0.1
+  createdTime: 1718321732754
+  modifiedTime: 1752208102705
+  lastModifiedBy: txZjek5EOiCBHPoz
+  exportSource: null
+_key: '!folders!sfw8QreIH27LWkGg'

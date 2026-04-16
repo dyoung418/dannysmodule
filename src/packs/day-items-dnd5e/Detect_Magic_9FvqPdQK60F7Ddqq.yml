@@ -1,0 +1,109 @@
+name: Detect Magic
+type: spell
+system:
+  source:
+    custom: ''
+    book: PHB
+    page: '231'
+    license: ''
+  description:
+    value: >-
+      <div class="rd__b  rd__b--3"><p>For the duration, you sense the presence
+      of magic within 30 feet of you. If you sense magic in this way, you can
+      use your action to see a faint aura around any visible creature or object
+      in the area that bears magic, and you learn its <a
+      href="https://5etools-mirror-2.github.io/book.html#PHB,10,the%20schools%20of%20magic,0">school
+      of magic</a>, if any.</p><div class="rd__spc-inline-post"></div><p>The
+      spell can penetrate most barriers, but it is blocked by 1 foot of stone, 1
+      inch of common metal, a thin sheet of lead, or 3 feet of wood or
+      dirt.</p></div><div><span class="bold">Classes: </span>Artificer, Bard,
+      Cleric, Druid, Paladin, Ranger, Sorcerer, Wizard</div>
+    chat: ''
+  actionType: util
+  level: 1
+  school: div
+  properties:
+    - vocal
+    - somatic
+    - ritual
+    - concentration
+  materials:
+    value: ''
+    consumed: false
+    cost: 0
+    supply: 0
+  target:
+    value: 30
+    units: ft
+    type: radius
+    prompt: true
+    width: null
+  range:
+    value: 0
+    units: self
+    long: null
+  activation:
+    type: action
+    cost: 1
+    condition: ''
+  duration:
+    value: '10'
+    units: minute
+  damage:
+    parts: []
+    versatile: ''
+  scaling:
+    mode: none
+    formula: ''
+  save:
+    dc: null
+    scaling: spell
+    ability: ''
+  uses:
+    value: null
+    max: ''
+    per: null
+    recovery: ''
+    prompt: true
+  attackBonus: ''
+  chatFlavor: ''
+  critical:
+    threshold: null
+    damage: ''
+  formula: ''
+  preparation:
+    mode: prepared
+    prepared: false
+  consume:
+    type: ''
+    target: null
+    amount: null
+    scale: false
+  cover: null
+  crewed: false
+  ability: null
+img: icons/magic/unholy/hands-cloud-light-pink.webp
+ownership:
+  default: 0
+  38Gfe7fp1EmVmZNj: 3
+flags:
+  plutonium:
+    page: spells.html
+    source: PHB
+    hash: detect%20magic_phb
+    propDroppable: spell
+effects: []
+folder: 7LJJqiLuL1YQyknL
+_id: 9FvqPdQK60F7Ddqq
+sort: 0
+_stats:
+  systemId: dnd5e
+  systemVersion: 3.0.2
+  coreVersion: '13.345'
+  createdTime: 1708228955597
+  modifiedTime: 1708229053839
+  lastModifiedBy: 38Gfe7fp1EmVmZNj
+  compendiumSource: null
+  duplicateSource: null
+  exportSource: null
+_key: '!items!9FvqPdQK60F7Ddqq'

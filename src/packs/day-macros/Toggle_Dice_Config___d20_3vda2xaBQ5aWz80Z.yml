@@ -1,0 +1,42 @@
+name: Toggle Dice Config - d20
+type: script
+command: |-
+  // Toggles between automatic ('mersenne') dice rolls
+  // and manually input ('manual') dice rolls.
+  const mode = "mersenne"; // options: mersenne, manual, or blank string
+  const die = "d20"; // options: d4, d6, d8, d10, d12, d20, d100
+
+  const config = game.settings.get("core", "diceConfiguration");
+  console.log(config[die]);
+
+  if(config[die]=="" || config[die]=="mersenne") {
+    console.log(`changing to ${die} to manual`);
+    config[die] = "manual";
+    await game.settings.set("core", "diceConfiguration", config);
+  }
+  else if(config[die]=="manual") {
+    console.log(`changing to ${die} to mersenne`);
+    config[die] = "mersenne";
+    await game.settings.set("core", "diceConfiguration", config);
+  }
+img: icons/svg/d20.svg
+_id: 3vda2xaBQ5aWz80Z
+author: txZjek5EOiCBHPoz
+scope: global
+folder: null
+flags: {}
+_stats:
+  compendiumSource: null
+  duplicateSource: null
+  coreVersion: '13.346'
+  systemId: pf2e
+  systemVersion: 6.0.4
+  createdTime: 1719886664941
+  modifiedTime: 1752208126881
+  lastModifiedBy: txZjek5EOiCBHPoz
+  exportSource: null
+sort: 0
+ownership:
+  default: 0
+  txZjek5EOiCBHPoz: 3
+_key: '!macros!3vda2xaBQ5aWz80Z'

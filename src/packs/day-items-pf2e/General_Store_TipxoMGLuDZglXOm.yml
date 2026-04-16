@@ -1,0 +1,63 @@
+folder: yTd2CNZ9biWYoOF6
+name: General Store
+type: campaignFeature
+effects: []
+system:
+  description:
+    gm: ''
+    value: "<p><strong>Lots</strong>\_1;\_<strong>Cost</strong>\_8 RP, 1 Lumber</p>\n<p><strong>Construction</strong>\_Trade DC 15</p>\n<p><strong>Upgrade To</strong>\_<a class=\"content-link\" draggable=\"true\" data-uuid=\"JournalEntry.BIu4C1T1RR17QNwl.JournalEntryPage.Wy4xzHQ8TlldTa5E\" data-id=\"Wy4xzHQ8TlldTa5E\" data-type=\"JournalEntryPage\" data-tooltip=\"Text Page\">luxury store</a>,\_<a class=\"content-link\" draggable=\"true\" data-uuid=\"JournalEntry.BIu4C1T1RR17QNwl.JournalEntryPage.2Do0nXnXzYIuiT4V\" data-id=\"2Do0nXnXzYIuiT4V\" data-type=\"JournalEntryPage\" data-tooltip=\"Text Page\">marketplace</a></p>\n<p><strong>Item Bonus</strong>\_+2 item bonus to\_<a class=\"content-link\" draggable=\"true\" data-uuid=\"Compendium.pf2e.kingmaker-features.Item.Sc4nKtdFqZqeh86f\" data-id=\"Sc4nKtdFqZqeh86f\" data-type=\"Item\" data-pack=\"pf2e.kingmaker-features\" data-tooltip=\"Campaign Feature Item\">Creative Solution</a></p>\n<p><strong>Effects</strong> A settlement without a general store or marketplace reduces its effective level for the purposes of determining what items can be purchased there by 2.</p>"
+  rules:
+    - hideIfDisabled: true
+      key: FlatModifier
+      label: General Store bonus to Creative Solution
+      predicate:
+        - action:creative-solution
+      selector: kingdom-check
+      type: item
+      value: 2
+  slug: null
+  _migration:
+    version: 0.94
+    previous:
+      schema: 0.939
+      foundry: '13.345'
+      system: 7.2.0
+  traits:
+    otherTags: []
+    value:
+      - kingdom
+      - structure
+  publication:
+    title: ''
+    authors: ''
+    license: OGL
+    remaster: false
+  campaign: kingmaker
+  category: kingdom-feat
+  actionType:
+    value: passive
+  actions:
+    value: null
+  prerequisites:
+    value: []
+  location: null
+  level:
+    value: 1
+_id: TipxoMGLuDZglXOm
+img: modules/pf2e-kingmaker/assets/maps-settlements/buildings/general-store.webp
+sort: 0
+ownership:
+  default: 0
+  txZjek5EOiCBHPoz: 3
+flags: {}
+_stats:
+  compendiumSource: null
+  duplicateSource: null
+  coreVersion: '13.346'
+  systemId: pf2e
+  systemVersion: 7.2.3
+  createdTime: 1718606591261
+  modifiedTime: 1752208111692
+  lastModifiedBy: txZjek5EOiCBHPoz
+  exportSource: null
+_key: '!items!TipxoMGLuDZglXOm'

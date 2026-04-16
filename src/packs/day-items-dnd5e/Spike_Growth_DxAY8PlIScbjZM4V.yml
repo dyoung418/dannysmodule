@@ -1,0 +1,111 @@
+name: Spike Growth
+type: spell
+system:
+  source:
+    custom: ''
+    book: PHB
+    page: '277'
+    license: ''
+  description:
+    value: >-
+      <div class="rd__b  rd__b--3"><p>The ground in a 20-foot radius centered on
+      a point within range twists and sprouts hard spikes and thorns. The area
+      becomes difficult terrain for the duration. When a creature moves into or
+      within the area, it takes [[/r 2d4]] piercing damage for every 5 feet it
+      travels.</p><div class="rd__spc-inline-post"></div><p>The transformation
+      of the ground is camouflaged to look natural. Any creature that can't see
+      the area at the time the spell is cast must make a Wisdom
+      (@skill[Perception]) check against your spell save DC to recognize the
+      terrain as hazardous before entering it.</p></div><div><span
+      class="bold">Classes: </span>Druid, Ranger</div>
+    chat: ''
+  actionType: util
+  level: 2
+  school: trs
+  properties:
+    - vocal
+    - somatic
+    - material
+    - concentration
+  materials:
+    value: seven sharp thorns or seven small twigs, each sharpened to a point
+    consumed: false
+    cost: 0
+    supply: 0
+  target:
+    value: 20
+    units: ft
+    type: radius
+    prompt: true
+    width: null
+  range:
+    value: 150
+    units: ft
+    long: null
+  activation:
+    type: action
+    cost: 1
+    condition: ''
+  duration:
+    value: '10'
+    units: minute
+  damage:
+    parts:
+      - - 2d4
+        - piercing
+    versatile: ''
+  scaling:
+    mode: none
+    formula: ''
+  save:
+    dc: null
+    scaling: spell
+    ability: ''
+  uses:
+    value: null
+    max: ''
+    per: null
+    recovery: ''
+    prompt: true
+  attackBonus: ''
+  chatFlavor: ''
+  critical:
+    threshold: null
+    damage: ''
+  formula: ''
+  preparation:
+    mode: prepared
+    prepared: false
+  consume:
+    type: ''
+    target: null
+    amount: null
+    scale: false
+  cover: null
+  crewed: false
+  ability: null
+img: icons/environment/wilderness/terrain-stone-stalagtite.webp
+ownership:
+  default: 0
+  38Gfe7fp1EmVmZNj: 3
+flags:
+  plutonium:
+    page: spells.html
+    source: PHB
+    hash: spike%20growth_phb
+    propDroppable: spell
+effects: []
+folder: hys47gEfFh1kH8oy
+_id: DxAY8PlIScbjZM4V
+sort: 0
+_stats:
+  systemId: dnd5e
+  systemVersion: 3.0.2
+  coreVersion: '13.345'
+  createdTime: 1708227601661
+  modifiedTime: 1708227676991
+  lastModifiedBy: 38Gfe7fp1EmVmZNj
+  compendiumSource: null
+  duplicateSource: null
+  exportSource: null
+_key: '!items!DxAY8PlIScbjZM4V'

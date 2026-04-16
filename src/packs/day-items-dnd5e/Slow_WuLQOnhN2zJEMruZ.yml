@@ -1,0 +1,179 @@
+name: Slow
+type: spell
+system:
+  source:
+    custom: ''
+    book: PHB
+    page: '277'
+    license: ''
+  description:
+    value: >-
+      <div class="rd__b  rd__b--3"><p>You alter time around up to six creatures
+      of your choice in a 40-foot cube within range. Each target must succeed on
+      a Wisdom saving throw or be affected by this spell for the
+      duration.</p><div class="rd__spc-inline-post"></div><p>An affected
+      target's speed is halved, it takes a −2 penalty to AC and Dexterity saving
+      throws, and it can't use reactions. On its turn, it can use either an
+      action or a bonus action, not both. Regardless of the creature's abilities
+      or magic items, it can't make more than one melee or ranged attack during
+      its turn.</p><p>If the creature attempts to cast a spell with a casting
+      time of 1 action, roll a [[/r d20]]. On an 11 or higher, the spell doesn't
+      take effect until the creature's next turn, and the creature must use its
+      action on that turn to complete the spell. If it can't, the spell is
+      wasted.</p><p>A creature affected by this spell makes another Wisdom
+      saving throw at the end of each of its turns. On a successful save, the
+      effect ends for it.</p></div><div><span class="bold">Classes:
+      </span>Sorcerer, Wizard</div>
+    chat: ''
+  actionType: save
+  level: 3
+  school: trs
+  properties:
+    - vocal
+    - somatic
+    - material
+    - concentration
+  materials:
+    value: a drop of molasses
+    consumed: false
+    cost: 0
+    supply: 0
+  target:
+    value: 40
+    units: ft
+    type: cube
+    prompt: true
+    width: null
+  range:
+    value: 120
+    units: ft
+    long: null
+  activation:
+    type: action
+    cost: 1
+    condition: ''
+  duration:
+    value: '1'
+    units: minute
+  damage:
+    parts: []
+    versatile: ''
+  scaling:
+    mode: none
+    formula: ''
+  save:
+    ability: wis
+    dc: null
+    scaling: spell
+  uses:
+    value: null
+    max: ''
+    per: null
+    recovery: ''
+    prompt: true
+  attackBonus: ''
+  chatFlavor: ''
+  critical:
+    threshold: null
+    damage: ''
+  formula: ''
+  preparation:
+    mode: prepared
+    prepared: false
+  consume:
+    type: ''
+    target: null
+    amount: null
+    scale: false
+  cover: null
+  crewed: false
+  ability: null
+img: icons/creatures/invertebrates/snail-movement-green.webp
+ownership:
+  default: 0
+  38Gfe7fp1EmVmZNj: 3
+flags:
+  plutonium:
+    page: spells.html
+    source: PHB
+    hash: slow_phb
+    propDroppable: spell
+effects:
+  - name: Slow
+    origin: Compendium.dnd5e.spells.Item.yqUDoxk4x0NWG5Bz
+    duration:
+      value: 60
+      units: seconds
+      expiry: turnStart
+      expired: false
+    disabled: false
+    _id: YtN8kTDQyxFaxpEx
+    description: >-
+      <p>An affected target's speed is halved, it takes a -2 penalty to AC and
+      Dexterity saving throws, and it can't use reactions. On its turn, it can
+      use either an action or a bonus action, not both. Regardless of the
+      creature's abilities or magic items, it can't make more than one melee or
+      ranged attack during its turn.</p>
+    transfer: false
+    statuses: []
+    flags:
+      plutonium:
+        dedupeId: slow
+    tint: '#ffffff'
+    _stats:
+      coreVersion: '14.359'
+      systemId: null
+      systemVersion: null
+      createdTime: null
+      modifiedTime: null
+      lastModifiedBy: null
+      compendiumSource: null
+      duplicateSource: null
+      exportSource: null
+    img: icons/creatures/invertebrates/snail-movement-green.webp
+    type: base
+    system:
+      changes:
+        - key: system.attributes.ac.bonus
+          value: -2
+          priority: null
+          type: add
+        - key: system.attributes.movement.burrow
+          value: 0.5
+          priority: null
+          type: multiply
+        - key: system.attributes.movement.climb
+          value: 0.5
+          priority: null
+          type: multiply
+        - key: system.attributes.movement.fly
+          value: 0.5
+          priority: null
+          type: multiply
+        - key: system.attributes.movement.swim
+          value: 0.5
+          priority: null
+          type: multiply
+        - key: system.attributes.movement.walk
+          value: 0.5
+          priority: null
+          type: multiply
+    sort: 0
+    start: null
+    showIcon: 1
+    folder: null
+    _key: '!items.effects!WuLQOnhN2zJEMruZ.YtN8kTDQyxFaxpEx'
+folder: 845CFVkKwrIaEVKc
+_id: WuLQOnhN2zJEMruZ
+sort: 0
+_stats:
+  systemId: dnd5e
+  systemVersion: 3.0.2
+  coreVersion: '14.359'
+  createdTime: 1708109197283
+  modifiedTime: 1708227409300
+  lastModifiedBy: 38Gfe7fp1EmVmZNj
+  compendiumSource: null
+  duplicateSource: null
+  exportSource: null
+_key: '!items!WuLQOnhN2zJEMruZ'

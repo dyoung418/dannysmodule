@@ -1,0 +1,110 @@
+name: Warding Bond
+type: spell
+system:
+  source:
+    custom: ''
+    book: PHB
+    page: '287'
+    license: ''
+  description:
+    value: >-
+      <div class="rd__b  rd__b--3"><p>This spell wards a willing creature you
+      touch and creates a mystic connection between you and the target until the
+      spell ends. While the target is within 60 feet of you, it gains a +1 bonus
+      to AC and saving throws, and it has resistance to all damage. Also, each
+      time it takes damage, you take the same amount of damage.</p><div
+      class="rd__spc-inline-post"></div><p>The spell ends if you drop to 0 hit
+      points or if you and the target become separated by more than 60 feet. It
+      also ends if the spell is cast again on either of the connected creatures.
+      You can also dismiss the spell as an action.</p></div><div><span
+      class="bold">Classes: </span>Cleric</div>
+    chat: ''
+  actionType: util
+  level: 2
+  school: abj
+  properties:
+    - vocal
+    - somatic
+    - material
+  materials:
+    value: >-
+      a pair of platinum rings worth at least 50 gp each, which you and the
+      target must wear for the duration
+    consumed: false
+    cost: 100
+    supply: 0
+  target:
+    value: 1
+    units: touch
+    type: creature
+    prompt: true
+    width: null
+  range:
+    value: 0
+    units: touch
+    long: null
+  activation:
+    type: action
+    cost: 1
+    condition: ''
+  duration:
+    value: '1'
+    units: hour
+  damage:
+    parts: []
+    versatile: ''
+  scaling:
+    mode: none
+    formula: ''
+  save:
+    dc: null
+    scaling: spell
+    ability: ''
+  uses:
+    value: null
+    max: ''
+    per: null
+    recovery: ''
+    prompt: true
+  attackBonus: ''
+  chatFlavor: ''
+  critical:
+    threshold: null
+    damage: ''
+  formula: ''
+  preparation:
+    mode: prepared
+    prepared: false
+  consume:
+    type: ''
+    target: null
+    amount: null
+    scale: false
+  cover: null
+  crewed: false
+  ability: null
+img: icons/equipment/head/helm-barbute-horned-gold-pink.webp
+ownership:
+  default: 0
+  38Gfe7fp1EmVmZNj: 3
+flags:
+  plutonium:
+    page: spells.html
+    source: PHB
+    hash: warding%20bond_phb
+    propDroppable: spell
+effects: []
+folder: eaPGRYZvF3zSUbxp
+_id: vRddnX9ihRdX9Oo6
+sort: 0
+_stats:
+  systemId: dnd5e
+  systemVersion: 3.0.2
+  coreVersion: '13.345'
+  createdTime: 1708227665713
+  modifiedTime: 1708227673035
+  lastModifiedBy: 38Gfe7fp1EmVmZNj
+  compendiumSource: null
+  duplicateSource: null
+  exportSource: null
+_key: '!items!vRddnX9ihRdX9Oo6'

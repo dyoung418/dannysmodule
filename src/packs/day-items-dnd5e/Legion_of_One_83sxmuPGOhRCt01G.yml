@@ -1,0 +1,111 @@
+folder: 0sHlxu87NFujfkup
+name: Legion of One
+type: feat
+_id: 83sxmuPGOhRCt01G
+img: systems/dnd5e/icons/svg/items/feature.svg
+system:
+  description:
+    value: >-
+      <p><em>18th-level Echo Knight feature</em></p><p>You can use a bonus
+      action to create two echoes with your Manifest Echo feature, and these
+      echoes can coexist. If you try to create a third echo, the previous two
+      echoes are destroyed. Anything you can do from one echo’s position can be
+      done from the other’s instead.</p><p>In addition, when you roll initiative
+      and have no uses of your Unleash Incarnation feature left, you regain one
+      use of that feature.</p>
+    chat: ''
+  source:
+    revision: 1
+    rules: '2024'
+  uses:
+    max: ''
+    spent: 0
+    recovery: []
+  type:
+    value: class
+    subtype: ''
+  properties: []
+  requirements: Fighter 18 (Echo Knight)
+  activities:
+    dnd5eactivity000:
+      _id: dnd5eactivity000
+      type: utility
+      activation:
+        type: bonus
+        value: null
+        condition: ''
+        override: false
+      consumption:
+        targets: []
+        scaling:
+          allowed: false
+          max: ''
+        spellSlot: true
+      description:
+        chatFlavor: ''
+      duration:
+        concentration: false
+        value: ''
+        units: inst
+        special: ''
+        override: false
+      effects: []
+      range:
+        units: self
+        special: ''
+        override: false
+      target:
+        template:
+          count: ''
+          contiguous: false
+          type: ''
+          size: ''
+          width: ''
+          height: ''
+          units: ''
+        affects:
+          count: ''
+          type: ''
+          choice: false
+          special: ''
+        prompt: true
+        override: false
+      uses:
+        spent: 0
+        max: ''
+        recovery: []
+      roll:
+        formula: ''
+        name: ''
+        prompt: false
+        visible: false
+      sort: 0
+  identifier: legion-of-one
+  enchant: {}
+  prerequisites:
+    level: null
+    repeatable: false
+  advancement: []
+  crewed: false
+effects: []
+sort: 200000
+ownership:
+  default: 0
+  38Gfe7fp1EmVmZNj: 3
+flags:
+  dnd5e:
+    persistSourceMigration: true
+    riders:
+      activity: []
+      effect: []
+_stats:
+  systemId: dnd5e
+  systemVersion: 5.0.4
+  coreVersion: '13.346'
+  createdTime: 1709683095778
+  modifiedTime: 1752197371435
+  lastModifiedBy: 1pY4akW8WASxGBbA
+  compendiumSource: null
+  duplicateSource: null
+  exportSource: null
+_key: '!items!83sxmuPGOhRCt01G'

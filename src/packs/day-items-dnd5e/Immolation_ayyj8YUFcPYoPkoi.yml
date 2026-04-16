@@ -1,0 +1,161 @@
+name: Immolation
+type: spell
+system:
+  source:
+    custom: ''
+    book: XGE
+    page: '158'
+    license: ''
+    revision: 1
+    rules: '2024'
+  description:
+    value: >-
+      <div class="rd__b  rd__b--3"><p>Flames wreathe one creature you can see
+      within range. The target must make a Dexterity saving throw. It takes [[/r
+      8d6]] fire damage on a failed save, or half as much damage on a successful
+      one. On a failed save, the target also burns for the spell's duration. The
+      burning target sheds bright light in a 30-foot radius and dim light for an
+      additional 30 feet. At the end of each of its turns, the target repeats
+      the saving throw. It takes [[/r 4d6]] fire damage on a failed save, and
+      the spell ends on a successful one. These magical flames can't be
+      extinguished by nonmagical means.</p><div
+      class="rd__spc-inline-post"></div><p>If damage from this spell kills a
+      target, the target is turned to ash.</p></div><div><span
+      class="bold">Classes: </span>Sorcerer, Wizard</div>
+    chat: ''
+  level: 5
+  school: evo
+  properties:
+    - vocal
+    - concentration
+  materials:
+    value: ''
+    consumed: false
+    cost: 0
+    supply: 0
+  target:
+    affects:
+      choice: false
+    template:
+      units: ft
+      type: radius
+      size: '30'
+      contiguous: false
+  range:
+    value: '90'
+    units: ft
+  activation:
+    type: action
+    condition: ''
+    value: 1
+  duration:
+    value: '1'
+    units: minute
+  uses:
+    max: ''
+    spent: 0
+    recovery: []
+  preparation:
+    mode: prepared
+    prepared: false
+  activities:
+    dnd5eactivity000:
+      _id: dnd5eactivity000
+      type: save
+      activation:
+        type: action
+        value: null
+        override: false
+      consumption:
+        targets: []
+        scaling:
+          allowed: false
+          max: ''
+        spellSlot: true
+      description:
+        chatFlavor: ''
+      duration:
+        units: inst
+        concentration: false
+        override: false
+      effects: []
+      range:
+        override: false
+        units: self
+      target:
+        prompt: true
+        template:
+          contiguous: false
+          units: ft
+        affects:
+          choice: false
+        override: false
+      uses:
+        spent: 0
+        max: ''
+        recovery: []
+      damage:
+        onSave: half
+        parts:
+          - number: 8
+            denomination: 6
+            bonus: ''
+            types:
+              - fire
+            custom:
+              enabled: false
+              formula: ''
+            scaling:
+              mode: ''
+              number: null
+              formula: ''
+          - number: 4
+            denomination: 6
+            bonus: ''
+            types:
+              - fire
+            custom:
+              enabled: false
+              formula: ''
+            scaling:
+              mode: ''
+              number: null
+              formula: ''
+      save:
+        ability:
+          - dex
+        dc:
+          calculation: spellcasting
+          formula: ''
+      sort: 0
+  identifier: immolation
+img: icons/magic/death/projectile-skull-fire-orange.webp
+ownership:
+  default: 0
+  38Gfe7fp1EmVmZNj: 3
+flags:
+  plutonium:
+    page: spells.html
+    source: XGE
+    hash: immolation_xge
+    propDroppable: spell
+  dnd5e:
+    persistSourceMigration: true
+    riders:
+      activity: []
+      effect: []
+effects: []
+folder: 6twhZgoHdiiTwIDl
+_id: ayyj8YUFcPYoPkoi
+sort: 0
+_stats:
+  systemId: dnd5e
+  systemVersion: 5.0.4
+  coreVersion: '13.346'
+  createdTime: 1709684306907
+  modifiedTime: 1752197371435
+  lastModifiedBy: 1pY4akW8WASxGBbA
+  compendiumSource: null
+  duplicateSource: null
+  exportSource: null
+_key: '!items!ayyj8YUFcPYoPkoi'

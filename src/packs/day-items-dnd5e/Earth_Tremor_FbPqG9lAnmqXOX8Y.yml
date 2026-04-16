@@ -1,0 +1,113 @@
+name: Earth Tremor
+type: spell
+system:
+  source:
+    custom: ''
+    book: XGE
+    page: '155'
+    license: ''
+  description:
+    value: >-
+      <div class="rd__b  rd__b--3"><p>You cause a tremor in the ground within
+      range. Each creature other than you in that area must make a Dexterity
+      saving throw. On a failed save, a creature takes [[/r 1d6]] bludgeoning
+      damage and is knocked @condition[prone]. If the ground in that area is
+      loose earth or stone, it becomes difficult terrain until cleared, with
+      each 5-foot-diameter portion requiring at least 1 minute to clear by
+      hand.</p><div class="rd__spc-inline-post"></div></div><div class="rd__b 
+      rd__b--3"><div class="rd__b  rd__b--3"><span class="rd__h rd__h--3"
+      data-title-index="1"> <span class="entry-title-inner">At Higher
+      Levels.</span></span> <p>When you cast this spell using a spell slot of
+      2nd level or higher, the damage increases by [[/r 1d6]] for each slot
+      level above 1st.</p><div class="rd__spc-inline-post"></div></div><div
+      class="rd__spc-inline-post"></div></div><div><span class="bold">Classes:
+      </span>Bard, Druid, Sorcerer, Wizard</div>
+    chat: ''
+  actionType: save
+  level: 1
+  school: evo
+  properties:
+    - vocal
+    - somatic
+  materials:
+    value: ''
+    consumed: false
+    cost: 0
+    supply: 0
+  target:
+    value: 0
+    units: ''
+    type: ''
+    prompt: true
+    width: null
+  range:
+    value: 10
+    units: ft
+    long: null
+  activation:
+    type: action
+    cost: 1
+    condition: ''
+  duration:
+    value: ''
+    units: inst
+  damage:
+    parts:
+      - - 1d6
+        - bludgeoning
+    versatile: ''
+  scaling:
+    mode: level
+    formula: 1d6
+  save:
+    ability: dex
+    dc: null
+    scaling: spell
+  uses:
+    value: null
+    max: ''
+    per: null
+    recovery: ''
+    prompt: true
+  attackBonus: ''
+  chatFlavor: ''
+  critical:
+    threshold: null
+    damage: ''
+  formula: ''
+  preparation:
+    mode: prepared
+    prepared: false
+  consume:
+    type: ''
+    target: null
+    amount: null
+    scale: false
+  cover: null
+  crewed: false
+  ability: null
+img: icons/magic/earth/barrier-stone-explosion-spiked.webp
+ownership:
+  default: 0
+  38Gfe7fp1EmVmZNj: 3
+flags:
+  plutonium:
+    page: spells.html
+    source: XGE
+    hash: earth%20tremor_xge
+    propDroppable: spell
+effects: []
+folder: hdVFDb2tp1Lrrt0O
+_id: FbPqG9lAnmqXOX8Y
+sort: 0
+_stats:
+  systemId: dnd5e
+  systemVersion: 3.0.2
+  coreVersion: '13.345'
+  createdTime: 1708228998388
+  modifiedTime: 1708229050063
+  lastModifiedBy: 38Gfe7fp1EmVmZNj
+  compendiumSource: null
+  duplicateSource: null
+  exportSource: null
+_key: '!items!FbPqG9lAnmqXOX8Y'

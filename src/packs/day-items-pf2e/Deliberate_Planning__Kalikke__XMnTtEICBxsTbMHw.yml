@@ -1,0 +1,57 @@
+folder: 0BxmixOCuUUNHkjf
+name: Deliberate Planning (Kalikke)
+type: campaignFeature
+effects: []
+system:
+  description:
+    gm: ''
+    value: "<p>Kalikke takes time and weighs all options when faced with decisions, regardless of their importance. While this can sometimes lead her to taking too long to make choices, her theoretical analysis can be quite helpful in navigating continuous events. Choose a single continuous event that will affect your kingdom on this turn’s Event Phase, then attempt a @Check[scholarship|dc:resolve(@kingdom.control.dc)] check against that event’s DC.<br /><strong>Critical Success</strong> Kalikke’s aid has been monumentally\_helpful. When you roll to resolve the continuous event\_you chose, you can roll twice and choose which result to apply. You gain a +1 status bonus to each roll.<br /><strong>Success</strong> Kalikke’s suggestions are useful, granting you a +1\_status bonus to rolls to resolve the chosen continuous\_event.<br /><strong>Failure</strong> Kalikke’s advice isn’t helpful, but neither does it\_hinder your ability to handle the event.<br /><strong>Critical Failure</strong> You got too caught up in Kalikke’s theoretical analysis and spent too much time preparing. When you\_roll to resolve the continuous event you tried to plan for,\_roll twice and take the worse result.</p>"
+  rules: []
+  slug: deliberate-planning
+  _migration:
+    version: 0.94
+    previous:
+      schema: 0.939
+      foundry: '13.345'
+      system: 7.2.0
+  traits:
+    otherTags: []
+    value:
+      - downtime
+      - fortune
+      - leadership
+  publication:
+    title: ''
+    authors: ''
+    license: OGL
+    remaster: false
+  campaign: kingmaker
+  category: kingdom-activity
+  actionType:
+    value: passive
+  actions:
+    value: null
+  prerequisites:
+    value:
+      - value: Kalikke is present in the kingdom and at least Friendly to the PCs
+  location: null
+  level:
+    value: 1
+_id: XMnTtEICBxsTbMHw
+img: systems/pf2e/icons/default-icons/campaignFeature.svg
+sort: 200000
+ownership:
+  default: 0
+  txZjek5EOiCBHPoz: 3
+flags: {}
+_stats:
+  compendiumSource: null
+  duplicateSource: null
+  coreVersion: '13.346'
+  systemId: pf2e
+  systemVersion: 7.2.3
+  createdTime: 1718606591261
+  modifiedTime: 1752208111692
+  lastModifiedBy: txZjek5EOiCBHPoz
+  exportSource: null
+_key: '!items!XMnTtEICBxsTbMHw'

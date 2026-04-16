@@ -1,0 +1,106 @@
+name: Foresight
+type: spell
+system:
+  source:
+    custom: ''
+    book: PHB
+    page: '244'
+    license: ''
+  description:
+    value: >-
+      <div class="rd__b  rd__b--3"><p>You touch a willing creature and bestow a
+      limited ability to see into the immediate future. For the duration, the
+      target can't be surprised and has advantage on attack rolls, ability
+      checks, and saving throws. Additionally, other creatures have disadvantage
+      on attack rolls against the target for the duration.</p><div
+      class="rd__spc-inline-post"></div><p>This spell immediately ends if you
+      cast it again before its duration ends.</p></div><div><span
+      class="bold">Classes: </span>Bard, Druid, Warlock, Wizard</div>
+    chat: ''
+  actionType: util
+  level: 9
+  school: div
+  properties:
+    - vocal
+    - somatic
+    - material
+  materials:
+    value: a hummingbird feather
+    consumed: false
+    cost: 0
+    supply: 0
+  target:
+    value: 1
+    units: touch
+    type: creature
+    prompt: true
+    width: null
+  range:
+    value: 0
+    units: touch
+    long: null
+  activation:
+    type: minute
+    cost: 1
+    condition: ''
+  duration:
+    value: '8'
+    units: hour
+  damage:
+    parts: []
+    versatile: ''
+  scaling:
+    mode: none
+    formula: ''
+  save:
+    dc: null
+    scaling: spell
+    ability: ''
+  uses:
+    value: null
+    max: ''
+    per: null
+    recovery: ''
+    prompt: true
+  attackBonus: ''
+  chatFlavor: ''
+  critical:
+    threshold: null
+    damage: ''
+  formula: ''
+  preparation:
+    mode: prepared
+    prepared: false
+  consume:
+    type: ''
+    target: null
+    amount: null
+    scale: false
+  cover: null
+  crewed: false
+  ability: null
+img: icons/magic/symbols/rune-sigil-green-purple.webp
+ownership:
+  default: 0
+  38Gfe7fp1EmVmZNj: 3
+flags:
+  plutonium:
+    page: spells.html
+    source: PHB
+    hash: foresight_phb
+    propDroppable: spell
+effects: []
+folder: sWmnJK6SMMIbFso5
+_id: jCygFdYXM6E3To2t
+sort: 0
+_stats:
+  systemId: dnd5e
+  systemVersion: 3.0.2
+  coreVersion: '13.345'
+  createdTime: 1708227601300
+  modifiedTime: 1708227676991
+  lastModifiedBy: 38Gfe7fp1EmVmZNj
+  compendiumSource: null
+  duplicateSource: null
+  exportSource: null
+_key: '!items!jCygFdYXM6E3To2t'

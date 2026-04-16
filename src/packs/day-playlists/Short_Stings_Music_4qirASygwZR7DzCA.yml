@@ -1,0 +1,351 @@
+folder: 9knvgHfaGijd7P6o
+name: Short Stings Music
+_id: 4qirASygwZR7DzCA
+sounds:
+  - name: Army Battle Begin
+    path: >-
+      modules/dannysmodule/assets/audio/audio-music/shorts-stings/army-battle-begin.ogg
+    _id: 1iqsqTWSC9rWbORY
+    channel: music
+    playing: false
+    pausedTime: null
+    repeat: false
+    volume: 0.5
+    fade: null
+    sort: 0
+    flags: {}
+    _key: '!playlists.sounds!4qirASygwZR7DzCA.1iqsqTWSC9rWbORY'
+  - name: Army Battle End Defeat
+    path: >-
+      modules/dannysmodule/assets/audio/audio-music/shorts-stings/army-battle-end-defeat.ogg
+    _id: aaS2LZ9kiTxARxpu
+    channel: music
+    playing: false
+    pausedTime: null
+    repeat: false
+    volume: 0.5
+    fade: null
+    sort: 0
+    flags: {}
+    _key: '!playlists.sounds!4qirASygwZR7DzCA.aaS2LZ9kiTxARxpu'
+  - name: Combat End Bare Victory
+    path: >-
+      modules/dannysmodule/assets/audio/audio-music/shorts-stings/combat-end-bare-victory.ogg
+    _id: tbSlcrxMh5L73VQQ
+    channel: music
+    playing: false
+    pausedTime: null
+    repeat: false
+    volume: 0.5
+    fade: null
+    sort: 0
+    flags: {}
+    _key: '!playlists.sounds!4qirASygwZR7DzCA.tbSlcrxMh5L73VQQ'
+  - name: Combat End Defeat
+    path: >-
+      modules/dannysmodule/assets/audio/audio-music/shorts-stings/combat-end-defeat.ogg
+    _id: uAS2FejLPs9keMIy
+    channel: music
+    playing: false
+    pausedTime: null
+    repeat: false
+    volume: 0.5
+    fade: null
+    sort: 0
+    flags: {}
+    _key: '!playlists.sounds!4qirASygwZR7DzCA.uAS2FejLPs9keMIy'
+  - name: Army Battle End Draw
+    path: >-
+      modules/dannysmodule/assets/audio/audio-music/shorts-stings/army-battle-end-draw.ogg
+    _id: rSnvbMng4Ai0MzNy
+    channel: music
+    playing: false
+    pausedTime: null
+    repeat: false
+    volume: 0.5
+    fade: null
+    sort: 0
+    flags: {}
+    _key: '!playlists.sounds!4qirASygwZR7DzCA.rSnvbMng4Ai0MzNy'
+  - name: Combat End Victory
+    path: >-
+      modules/dannysmodule/assets/audio/audio-music/shorts-stings/combat-end-victory.ogg
+    _id: Fc6hRPpPqJuSkVWY
+    channel: music
+    playing: false
+    pausedTime: null
+    repeat: false
+    volume: 0.5
+    fade: null
+    sort: 0
+    flags: {}
+    _key: '!playlists.sounds!4qirASygwZR7DzCA.Fc6hRPpPqJuSkVWY'
+  - name: Event Danger
+    path: >-
+      modules/dannysmodule/assets/audio/audio-music/shorts-stings/event-danger.ogg
+    _id: xQIn4ZNvPmQWRrPl
+    channel: music
+    playing: false
+    pausedTime: null
+    repeat: false
+    volume: 0.5
+    fade: null
+    sort: 0
+    flags: {}
+    _key: '!playlists.sounds!4qirASygwZR7DzCA.xQIn4ZNvPmQWRrPl'
+  - name: Event Disaster
+    path: >-
+      modules/dannysmodule/assets/audio/audio-music/shorts-stings/event-disaster.ogg
+    _id: lJuTRcff7ni38FdW
+    channel: music
+    playing: false
+    pausedTime: null
+    repeat: false
+    volume: 0.5
+    fade: null
+    sort: 0
+    flags: {}
+    _key: '!playlists.sounds!4qirASygwZR7DzCA.lJuTRcff7ni38FdW'
+  - name: Event Military
+    path: >-
+      modules/dannysmodule/assets/audio/audio-music/shorts-stings/event-military.ogg
+    _id: FoLGD9HkbDs3IPOc
+    channel: music
+    playing: false
+    pausedTime: null
+    repeat: false
+    volume: 0.5
+    fade: null
+    sort: 0
+    flags: {}
+    _key: '!playlists.sounds!4qirASygwZR7DzCA.FoLGD9HkbDs3IPOc'
+  - name: Event Mysterious
+    path: >-
+      modules/dannysmodule/assets/audio/audio-music/shorts-stings/event-mysterious.ogg
+    _id: xLkw6N1SGAi1Rwcz
+    channel: music
+    playing: false
+    pausedTime: null
+    repeat: false
+    volume: 0.5
+    fade: null
+    sort: 0
+    flags: {}
+    _key: '!playlists.sounds!4qirASygwZR7DzCA.xLkw6N1SGAi1Rwcz'
+  - name: Hand Of Nyrissa Long
+    path: >-
+      modules/dannysmodule/assets/audio/audio-music/shorts-stings/hand-of-nyrissa-long.ogg
+    _id: OF4kmuk7c0xSVpWW
+    channel: music
+    playing: false
+    pausedTime: null
+    repeat: false
+    volume: 0.5
+    fade: null
+    sort: 0
+    flags: {}
+    _key: '!playlists.sounds!4qirASygwZR7DzCA.OF4kmuk7c0xSVpWW'
+  - name: Hand Of Nyrissa Short
+    path: >-
+      modules/dannysmodule/assets/audio/audio-music/shorts-stings/hand-of-nyrissa-short.ogg
+    _id: FYQ1MaZnWlqm9Zx6
+    channel: music
+    playing: false
+    pausedTime: null
+    repeat: false
+    volume: 0.5
+    fade: null
+    sort: 0
+    flags: {}
+    _key: '!playlists.sounds!4qirASygwZR7DzCA.FYQ1MaZnWlqm9Zx6'
+  - name: Hand Of Pitax
+    path: >-
+      modules/dannysmodule/assets/audio/audio-music/shorts-stings/hand-of-pitax.ogg
+    _id: 8XJ6wZsLMAaL6680
+    channel: music
+    playing: false
+    pausedTime: null
+    repeat: false
+    volume: 0.5
+    fade: null
+    sort: 0
+    flags: {}
+    _key: '!playlists.sounds!4qirASygwZR7DzCA.8XJ6wZsLMAaL6680'
+  - name: Iron Wraiths Fate Short
+    path: >-
+      modules/dannysmodule/assets/audio/audio-music/shorts-stings/iron-wraiths-fate-short.ogg
+    _id: 1RicoyHpwcKLfgWv
+    channel: music
+    playing: false
+    pausedTime: null
+    repeat: false
+    volume: 0.5
+    fade: null
+    sort: 0
+    flags: {}
+    _key: '!playlists.sounds!4qirASygwZR7DzCA.1RicoyHpwcKLfgWv'
+  - name: Iron Wraiths Short
+    path: >-
+      modules/dannysmodule/assets/audio/audio-music/shorts-stings/iron-wraiths-short.ogg
+    _id: 3BsJTi2kmyPeOUYk
+    channel: music
+    playing: false
+    pausedTime: null
+    repeat: false
+    volume: 0.5
+    fade: null
+    sort: 0
+    flags: {}
+    _key: '!playlists.sounds!4qirASygwZR7DzCA.3BsJTi2kmyPeOUYk'
+  - name: Lantern King Unresolved
+    path: >-
+      modules/dannysmodule/assets/audio/audio-music/shorts-stings/lantern-king-unresolved.ogg
+    _id: f5zbu0L9PTobnfQ1
+    channel: music
+    playing: false
+    pausedTime: null
+    repeat: false
+    volume: 0.5
+    fade: null
+    sort: 0
+    flags: {}
+    _key: '!playlists.sounds!4qirASygwZR7DzCA.f5zbu0L9PTobnfQ1'
+  - name: Lantern King
+    path: >-
+      modules/dannysmodule/assets/audio/audio-music/shorts-stings/lantern-king.ogg
+    _id: oGgycIDPr1WJCJW5
+    channel: music
+    playing: false
+    pausedTime: null
+    repeat: false
+    volume: 0.5
+    fade: null
+    sort: 0
+    flags: {}
+    _key: '!playlists.sounds!4qirASygwZR7DzCA.oGgycIDPr1WJCJW5'
+  - name: Main Theme Sting Victorious
+    path: >-
+      modules/dannysmodule/assets/audio/audio-music/shorts-stings/main-theme-sting-victorious.ogg
+    _id: nvO6ANB1M5ZkSF8i
+    channel: music
+    playing: false
+    pausedTime: null
+    repeat: false
+    volume: 0.5
+    fade: null
+    sort: 0
+    flags: {}
+    _key: '!playlists.sounds!4qirASygwZR7DzCA.nvO6ANB1M5ZkSF8i'
+  - name: Surprise Combat Stinger
+    path: >-
+      modules/dannysmodule/assets/audio/audio-music/shorts-stings/surprise-combat-stinger.ogg
+    _id: DGax2OHCk4hyZGEv
+    channel: music
+    playing: false
+    pausedTime: null
+    repeat: false
+    volume: 0.5
+    fade: null
+    sort: 0
+    flags: {}
+    _key: '!playlists.sounds!4qirASygwZR7DzCA.DGax2OHCk4hyZGEv'
+  - name: Tartuccio
+    path: modules/dannysmodule/assets/audio/audio-music/shorts-stings/tartuccio.ogg
+    _id: XDnkU1KL5VWxtEmv
+    channel: music
+    playing: false
+    pausedTime: null
+    repeat: false
+    volume: 0.5
+    fade: null
+    sort: 0
+    flags: {}
+    _key: '!playlists.sounds!4qirASygwZR7DzCA.XDnkU1KL5VWxtEmv'
+  - name: Threat Revealed
+    path: >-
+      modules/dannysmodule/assets/audio/audio-music/shorts-stings/threat-revealed.ogg
+    _id: Gz06y7JaBmwT5MBC
+    channel: music
+    playing: false
+    pausedTime: null
+    repeat: false
+    volume: 0.5
+    fade: null
+    sort: 0
+    flags: {}
+    _key: '!playlists.sounds!4qirASygwZR7DzCA.Gz06y7JaBmwT5MBC'
+  - name: Uneasy And Mysterious
+    path: >-
+      modules/dannysmodule/assets/audio/audio-music/shorts-stings/uneasy-and-mysterious.ogg
+    _id: kj1Y6eDKpJdICYSy
+    channel: music
+    playing: false
+    pausedTime: null
+    repeat: false
+    volume: 0.5
+    fade: null
+    sort: 0
+    flags: {}
+    _key: '!playlists.sounds!4qirASygwZR7DzCA.kj1Y6eDKpJdICYSy'
+  - name: Urgent Moment No Cymbal
+    path: >-
+      modules/dannysmodule/assets/audio/audio-music/shorts-stings/urgent-moment-no-cymbal.ogg
+    _id: 1YUYeUwRHDsej9HZ
+    channel: music
+    playing: false
+    pausedTime: null
+    repeat: false
+    volume: 0.5
+    fade: null
+    sort: 0
+    flags: {}
+    _key: '!playlists.sounds!4qirASygwZR7DzCA.1YUYeUwRHDsej9HZ'
+  - name: Urgent Moment
+    path: >-
+      modules/dannysmodule/assets/audio/audio-music/shorts-stings/urgent-moment.ogg
+    _id: LVo6M30mGVXQwEHv
+    channel: music
+    playing: false
+    pausedTime: null
+    repeat: false
+    volume: 0.5
+    fade: null
+    sort: 0
+    flags: {}
+    _key: '!playlists.sounds!4qirASygwZR7DzCA.LVo6M30mGVXQwEHv'
+  - name: Varnhold Short
+    path: >-
+      modules/dannysmodule/assets/audio/audio-music/shorts-stings/varnhold-short.ogg
+    _id: g9817feJFKcV4Svp
+    channel: music
+    playing: false
+    pausedTime: null
+    repeat: false
+    volume: 0.5
+    fade: null
+    sort: 0
+    flags: {}
+    _key: '!playlists.sounds!4qirASygwZR7DzCA.g9817feJFKcV4Svp'
+channel: music
+mode: 0
+playing: false
+fade: null
+sorting: a
+seed: 662
+flags: {}
+_stats:
+  compendiumSource: null
+  duplicateSource: null
+  coreVersion: '13.344'
+  systemId: pf2e
+  systemVersion: 6.1.3
+  createdTime: 1722151843629
+  modifiedTime: 1723499082395
+  lastModifiedBy: txZjek5EOiCBHPoz
+  exportSource: null
+description: ''
+sort: 0
+ownership:
+  default: 0
+  txZjek5EOiCBHPoz: 3
+_key: '!playlists!4qirASygwZR7DzCA'

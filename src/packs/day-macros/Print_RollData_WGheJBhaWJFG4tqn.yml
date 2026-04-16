@@ -1,0 +1,24 @@
+folder: null
+name: Print RollData
+type: script
+_id: WGheJBhaWJFG4tqn
+author: txZjek5EOiCBHPoz
+img: icons/svg/d20-highlight.svg
+scope: global
+command: console.log(canvas.tokens.controlled[0]?.actor.getRollData());
+flags: {}
+_stats:
+  compendiumSource: null
+  duplicateSource: null
+  coreVersion: '13.346'
+  systemId: dnd5e
+  systemVersion: 3.2.1
+  createdTime: 1718754222646
+  modifiedTime: 1752208126881
+  lastModifiedBy: txZjek5EOiCBHPoz
+  exportSource: null
+sort: 0
+ownership:
+  default: 0
+  ZadzM7MeXA3VOvGy: 3
+_key: '!macros!WGheJBhaWJFG4tqn'

@@ -1,0 +1,143 @@
+name: False Life
+type: spell
+system:
+  source:
+    custom: ''
+    book: PHB
+    page: '239'
+    license: ''
+    revision: 1
+    rules: '2024'
+  description:
+    value: >-
+      <div class="rd__b  rd__b--3"><p>Bolstering yourself with a necromantic
+      facsimile of life, you gain [[/r 1d4 + 4]] temporary hit points for the
+      duration.</p><div class="rd__spc-inline-post"></div></div><div
+      class="rd__b  rd__b--3"><div class="rd__b  rd__b--3"><span class="rd__h
+      rd__h--3" data-title-index="1"> <span class="entry-title-inner">At Higher
+      Levels.</span></span> <p>When you cast this spell using a spell slot of
+      2nd level or higher, you gain 5 additional temporary hit points for each
+      slot level above 1st.</p><div class="rd__spc-inline-post"></div></div><div
+      class="rd__spc-inline-post"></div></div><div><span class="bold">Classes:
+      </span>Artificer, Sorcerer, Wizard</div>
+    chat: ''
+  level: 1
+  school: nec
+  properties:
+    - vocal
+    - somatic
+    - material
+  materials:
+    value: a small amount of alcohol or distilled spirits
+    consumed: false
+    cost: 0
+    supply: 0
+  target:
+    affects:
+      type: self
+      count: '0'
+      choice: false
+    template:
+      units: self
+      contiguous: false
+  range:
+    value: '0'
+    units: self
+  activation:
+    type: action
+    condition: ''
+    value: 1
+  duration:
+    value: '1'
+    units: hour
+  uses:
+    max: ''
+    spent: 0
+    recovery: []
+  preparation:
+    mode: prepared
+    prepared: false
+  activities:
+    dnd5eactivity000:
+      _id: dnd5eactivity000
+      type: damage
+      activation:
+        type: action
+        override: false
+      consumption:
+        targets: []
+        scaling:
+          allowed: false
+          max: ''
+        spellSlot: true
+      description:
+        chatFlavor: ''
+      duration:
+        units: inst
+        concentration: false
+        override: false
+      effects: []
+      range:
+        units: self
+        override: false
+      target:
+        prompt: true
+        template:
+          contiguous: false
+          units: ft
+        affects:
+          choice: false
+        override: false
+      uses:
+        spent: 0
+        max: ''
+        recovery: []
+      damage:
+        critical:
+          allow: false
+          bonus: ''
+        parts:
+          - number: 1
+            denomination: 4
+            bonus: '4'
+            types:
+              - temphp
+            custom:
+              enabled: false
+              formula: ''
+            scaling:
+              mode: whole
+              number: null
+              formula: (@item.level - 1) * 5
+      sort: 0
+  identifier: false-life
+img: icons/magic/life/heart-cross-purple-orange.webp
+ownership:
+  default: 0
+  38Gfe7fp1EmVmZNj: 3
+flags:
+  plutonium:
+    page: spells.html
+    source: PHB
+    hash: false%20life_phb
+    propDroppable: spell
+  dnd5e:
+    persistSourceMigration: true
+    riders:
+      activity: []
+      effect: []
+effects: []
+folder: 7LJJqiLuL1YQyknL
+_id: 6KxE1ihxyAyU7Ql5
+sort: 0
+_stats:
+  systemId: dnd5e
+  systemVersion: 5.0.4
+  coreVersion: '13.346'
+  createdTime: 1708228955662
+  modifiedTime: 1752197371435
+  lastModifiedBy: 1pY4akW8WASxGBbA
+  compendiumSource: null
+  duplicateSource: null
+  exportSource: null
+_key: '!items!6KxE1ihxyAyU7Ql5'

@@ -1,0 +1,129 @@
+name: Purge Contamination
+type: spell
+system:
+  source:
+    custom: ''
+    book: DoDk
+    page: '228'
+    license: ''
+    revision: 1
+    rules: '2024'
+  description:
+    value: >-
+      <div class="rd__b  rd__b--3"><p>You apply alchemical fluids or holy water
+      to a contaminated humanoid creature while reciting an exacting magical
+      chant that expels eldritch contaminants from the target's body. When you
+      finish casting the spell, all <a
+      href="https://5etools-mirror-2.github.io/adventure.html#DoDk,12">contamination
+      levels</a> and mutations are removed from the creature. It then gains one
+      level of @condition[exhaustion] for each <a
+      href="https://5etools-mirror-2.github.io/adventure.html#DoDk,12">contamination
+      level</a> removed with this spell.</p><div
+      class="rd__spc-inline-post"></div></div>
+    chat: ''
+  level: 3
+  school: abj
+  properties:
+    - vocal
+    - somatic
+    - material
+  materials:
+    value: 100 gp of alchemical fluids or holy water, which the spell consumes
+    consumed: true
+    cost: 100
+    supply: 0
+  target:
+    affects:
+      choice: false
+    template:
+      units: touch
+      contiguous: false
+  range:
+    value: '0'
+    units: touch
+  activation:
+    type: hour
+    condition: ''
+    value: 1
+  duration:
+    value: ''
+    units: inst
+  uses:
+    max: ''
+    spent: 0
+    recovery: []
+  preparation:
+    mode: prepared
+    prepared: false
+  activities:
+    dnd5eactivity000:
+      _id: dnd5eactivity000
+      type: utility
+      activation:
+        type: action
+        override: false
+      consumption:
+        targets: []
+        scaling:
+          allowed: false
+          max: ''
+        spellSlot: true
+      description:
+        chatFlavor: ''
+      duration:
+        units: inst
+        concentration: false
+        override: false
+      effects: []
+      range:
+        units: self
+        override: false
+      target:
+        prompt: true
+        template:
+          contiguous: false
+          units: ft
+        affects:
+          choice: false
+        override: false
+      uses:
+        spent: 0
+        max: ''
+        recovery: []
+      roll:
+        formula: ''
+        name: ''
+        prompt: false
+        visible: false
+      sort: 0
+  identifier: purge-contamination
+img: icons/magic/defensive/shield-barrier-blue.webp
+ownership:
+  default: 0
+  38Gfe7fp1EmVmZNj: 3
+flags:
+  plutonium:
+    page: spells.html
+    source: DoDk
+    hash: purge%20contamination_dodk
+    propDroppable: spell
+  dnd5e:
+    persistSourceMigration: true
+    riders:
+      activity: []
+      effect: []
+effects: []
+folder: 460yTIg9sKBrbNPf
+_id: MLg54S2VEJoDkqgH
+sort: 0
+_stats:
+  systemId: dnd5e
+  systemVersion: 5.0.4
+  coreVersion: '13.346'
+  createdTime: 1708227600878
+  modifiedTime: 1752197371435
+  lastModifiedBy: 1pY4akW8WASxGBbA
+  compendiumSource: null
+  duplicateSource: null
+  exportSource: null
+_key: '!items!MLg54S2VEJoDkqgH'

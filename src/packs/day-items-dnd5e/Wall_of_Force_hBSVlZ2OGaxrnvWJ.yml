@@ -1,0 +1,139 @@
+name: Wall of Force
+type: spell
+system:
+  source:
+    custom: ''
+    book: PHB
+    page: '285'
+    license: ''
+    revision: 1
+    rules: '2024'
+  description:
+    value: >-
+      <div class="rd__b  rd__b--3"><p>An invisible wall of force springs into
+      existence at a point you choose within range. The wall appears in any
+      orientation you choose, as a horizontal or vertical barrier or at an
+      angle. It can be free floating or resting on a solid surface. You can form
+      it into a hemispherical dome or a sphere with a radius of up to 10 feet,
+      or you can shape a flat surface made up of ten 10-foot-by-10-foot panels.
+      Each panel must be contiguous with another panel. In any form, the wall is
+      1/4 inch thick. It lasts for the duration. If the wall cuts through a
+      creature's space when it appears, the creature is pushed to one side of
+      the wall (your choice which side).</p><div
+      class="rd__spc-inline-post"></div><p>Nothing can physically pass through
+      the wall. It is immune to all damage and can't be dispelled by
+      @spell[dispel magic]. A @spell[disintegrate] spell destroys the wall
+      instantly, however. The wall also extends into the Ethereal Plane,
+      blocking ethereal travel through the wall.</p></div><div><span
+      class="bold">Classes: </span>Wizard</div>
+    chat: ''
+  level: 5
+  school: evo
+  properties:
+    - vocal
+    - somatic
+    - material
+    - concentration
+  materials:
+    value: a pinch of powder made by crushing a clear gemstone
+    consumed: false
+    cost: 0
+    supply: 0
+  target:
+    affects:
+      choice: false
+    template:
+      units: ft
+      type: wall
+      size: '100'
+      contiguous: false
+  range:
+    value: '120'
+    units: ft
+  activation:
+    type: action
+    condition: ''
+    value: 1
+  duration:
+    value: '10'
+    units: minute
+  uses:
+    max: ''
+    spent: 0
+    recovery: []
+  preparation:
+    mode: prepared
+    prepared: false
+  activities:
+    dnd5eactivity000:
+      _id: dnd5eactivity000
+      type: utility
+      activation:
+        type: action
+        value: null
+        override: false
+      consumption:
+        targets: []
+        scaling:
+          allowed: false
+          max: ''
+        spellSlot: true
+      description:
+        chatFlavor: ''
+      duration:
+        units: inst
+        concentration: false
+        override: false
+      effects: []
+      range:
+        override: false
+        units: self
+      target:
+        prompt: true
+        template:
+          contiguous: false
+          units: ft
+        affects:
+          choice: false
+        override: false
+      uses:
+        spent: 0
+        max: ''
+        recovery: []
+      roll:
+        formula: ''
+        name: ''
+        prompt: false
+        visible: false
+      sort: 0
+  identifier: wall-of-force
+img: icons/magic/air/air-pressure-shield-blue.webp
+ownership:
+  default: 0
+  38Gfe7fp1EmVmZNj: 3
+flags:
+  plutonium:
+    page: spells.html
+    source: PHB
+    hash: wall%20of%20force_phb
+    propDroppable: spell
+  dnd5e:
+    persistSourceMigration: true
+    riders:
+      activity: []
+      effect: []
+effects: []
+folder: 6twhZgoHdiiTwIDl
+_id: hBSVlZ2OGaxrnvWJ
+sort: 0
+_stats:
+  systemId: dnd5e
+  systemVersion: 5.0.4
+  coreVersion: '13.346'
+  createdTime: 1709684306368
+  modifiedTime: 1752197371435
+  lastModifiedBy: 1pY4akW8WASxGBbA
+  compendiumSource: null
+  duplicateSource: null
+  exportSource: null
+_key: '!items!hBSVlZ2OGaxrnvWJ'

@@ -1,0 +1,105 @@
+name: Mind Blank
+type: spell
+system:
+  source:
+    custom: ''
+    book: PHB
+    page: '259'
+    license: ''
+  description:
+    value: >-
+      <div class="rd__b  rd__b--3"><p>Until the spell ends, one willing creature
+      you touch is immune to psychic damage, any effect that would sense its
+      emotions or read its thoughts, divination spells, and the
+      @condition[charmed] condition. The spell even foils @spell[wish] spells
+      and spells or effects of similar power used to affect the target's mind or
+      to gain information about the target.</p><div
+      class="rd__spc-inline-post"></div></div><div><span class="bold">Classes:
+      </span>Bard, Wizard</div>
+    chat: ''
+  actionType: util
+  level: 8
+  school: abj
+  properties:
+    - vocal
+    - somatic
+  materials:
+    value: ''
+    consumed: false
+    cost: 0
+    supply: 0
+  target:
+    value: 1
+    units: touch
+    type: creature
+    prompt: true
+    width: null
+  range:
+    value: 0
+    units: touch
+    long: null
+  activation:
+    type: action
+    cost: 1
+    condition: ''
+  duration:
+    value: '24'
+    units: hour
+  damage:
+    parts: []
+    versatile: ''
+  scaling:
+    mode: none
+    formula: ''
+  save:
+    dc: null
+    scaling: spell
+    ability: ''
+  uses:
+    value: null
+    max: ''
+    per: null
+    recovery: ''
+    prompt: true
+  attackBonus: ''
+  chatFlavor: ''
+  critical:
+    threshold: null
+    damage: ''
+  formula: ''
+  preparation:
+    mode: prepared
+    prepared: false
+  consume:
+    type: ''
+    target: null
+    amount: null
+    scale: false
+  cover: null
+  crewed: false
+  ability: null
+img: icons/magic/perception/hand-eye-fire-blue.webp
+ownership:
+  default: 0
+  38Gfe7fp1EmVmZNj: 3
+flags:
+  plutonium:
+    page: spells.html
+    source: PHB
+    hash: mind%20blank_phb
+    propDroppable: spell
+effects: []
+folder: YqrwNRyxA259JLwW
+_id: qXCx0PLLvmdk1mk5
+sort: 0
+_stats:
+  systemId: dnd5e
+  systemVersion: 3.0.3
+  coreVersion: '13.345'
+  createdTime: 1709684305717
+  modifiedTime: 1709684366197
+  lastModifiedBy: 38Gfe7fp1EmVmZNj
+  compendiumSource: null
+  duplicateSource: null
+  exportSource: null
+_key: '!items!qXCx0PLLvmdk1mk5'

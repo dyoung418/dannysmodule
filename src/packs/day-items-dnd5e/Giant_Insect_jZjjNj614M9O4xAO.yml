@@ -1,0 +1,137 @@
+name: Giant Insect
+type: spell
+system:
+  source:
+    custom: ''
+    book: PHB
+    page: '245'
+    license: ''
+    revision: 1
+    rules: '2024'
+  description:
+    value: >-
+      <div class="rd__b  rd__b--3"><p>You transform up to ten centipedes, three
+      spiders, five wasps, or one scorpion within range into giant versions of
+      their natural forms for the duration. A centipede becomes a
+      @creature[giant centipede], a spider becomes a @creature[giant spider], a
+      wasp becomes a @creature[giant wasp], and a scorpion becomes a
+      @creature[giant scorpion].</p><div
+      class="rd__spc-inline-post"></div><p>Each creature obeys your verbal
+      commands, and in combat, they act on your turn each round. The DM has the
+      statistics for these creatures and resolves their actions and
+      movement.</p><p>A creature remains in its giant size for the duration,
+      until it drops to 0 hit points, or until you use an action to dismiss the
+      effect on it.</p><p>The DM might allow you to choose different targets.
+      For example, if you transform a bee, its giant version might have the same
+      statistics as a @creature[giant wasp].</p></div><div><span
+      class="bold">Classes: </span>Druid</div>
+    chat: ''
+  level: 4
+  school: trs
+  properties:
+    - vocal
+    - somatic
+    - concentration
+  materials:
+    value: ''
+    consumed: false
+    cost: 0
+    supply: 0
+  target:
+    affects:
+      type: creature
+      count: '10'
+      choice: false
+    template:
+      units: spec
+      contiguous: false
+  range:
+    value: '30'
+    units: ft
+  activation:
+    type: action
+    condition: ''
+    value: 1
+  duration:
+    value: '10'
+    units: minute
+  uses:
+    max: ''
+    spent: 0
+    recovery: []
+  preparation:
+    mode: prepared
+    prepared: false
+  activities:
+    dnd5eactivity000:
+      _id: dnd5eactivity000
+      type: utility
+      activation:
+        type: action
+        value: null
+        override: false
+      consumption:
+        targets: []
+        scaling:
+          allowed: false
+          max: ''
+        spellSlot: true
+      description:
+        chatFlavor: ''
+      duration:
+        units: inst
+        concentration: false
+        override: false
+      effects: []
+      range:
+        override: false
+        units: self
+      target:
+        prompt: true
+        template:
+          contiguous: false
+          units: ft
+        affects:
+          choice: false
+        override: false
+      uses:
+        spent: 0
+        max: ''
+        recovery: []
+      roll:
+        formula: ''
+        name: ''
+        prompt: false
+        visible: false
+      sort: 0
+  identifier: giant-insect
+img: icons/creatures/invertebrates/beetle-stag-tan-brown.webp
+ownership:
+  default: 0
+  38Gfe7fp1EmVmZNj: 3
+flags:
+  plutonium:
+    page: spells.html
+    source: PHB
+    hash: giant%20insect_phb
+    propDroppable: spell
+  dnd5e:
+    persistSourceMigration: true
+    riders:
+      activity: []
+      effect: []
+effects: []
+folder: 0DxlLTSvnP6Pzz2r
+_id: jZjjNj614M9O4xAO
+sort: 0
+_stats:
+  systemId: dnd5e
+  systemVersion: 5.0.4
+  coreVersion: '13.346'
+  createdTime: 1708227601318
+  modifiedTime: 1752197371435
+  lastModifiedBy: 1pY4akW8WASxGBbA
+  compendiumSource: null
+  duplicateSource: null
+  exportSource: null
+_key: '!items!jZjjNj614M9O4xAO'

@@ -1,0 +1,62 @@
+folder: QqrWj278qS19exFE
+name: Magic Item Master
+type: feat
+_id: zUKBl8nHCK5pGa68
+img: systems/dnd5e/icons/svg/items/feature.svg
+system:
+  description:
+    value: >-
+      <p><span style="font-family:Signika, sans-serif"><em
+      style="box-sizing:border-box;user-select:text">18th-level artificer
+      feature</em></span></p><p
+      style="box-sizing:border-box;user-select:text;margin:0.5em
+      0px;color:rgb(25, 24, 19);font-family:Signika,
+      sans-serif;font-size:13px;font-style:normal;font-variant-ligatures:normal;font-variant-caps:normal;font-weight:400;letter-spacing:normal;orphans:2;text-indent:0px;text-transform:none;widows:2;word-spacing:0px;-webkit-text-stroke-width:0px;white-space:normal;text-decoration-thickness:initial;text-decoration-style:initial;text-decoration-color:initial;text-align:start"><span
+      style="font-family:Signika, sans-serif">You can now attune to up to six
+      magic items at once.</span></p>
+    chat: ''
+  source:
+    book: TCOE
+    page: '14'
+    custom: ''
+    license: ''
+    revision: 1
+    rules: '2024'
+  uses:
+    max: ''
+    spent: 0
+    recovery: []
+  type:
+    value: class
+    subtype: ''
+  properties: []
+  requirements: Artificer 18
+  activities: {}
+  identifier: magic-item-master
+  enchant: {}
+  prerequisites:
+    level: null
+    repeatable: false
+  advancement: []
+  crewed: false
+effects: []
+sort: 0
+ownership:
+  default: 0
+  38Gfe7fp1EmVmZNj: 3
+flags:
+  dnd5e:
+    riders:
+      activity: []
+      effect: []
+_stats:
+  systemId: dnd5e
+  systemVersion: 5.0.4
+  coreVersion: '13.346'
+  createdTime: 1709698758227
+  modifiedTime: 1752197371435
+  lastModifiedBy: 1pY4akW8WASxGBbA
+  compendiumSource: null
+  duplicateSource: null
+  exportSource: null
+_key: '!items!zUKBl8nHCK5pGa68'

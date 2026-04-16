@@ -1,0 +1,20 @@
+name: DY PF2e Macros
+sorting: a
+folder: null
+type: Macro
+_id: 1XrfuqzpstOwCTFI
+sort: 100000
+color: '#3287a4'
+flags: {}
+_stats:
+  systemId: pf2e
+  systemVersion: 5.10.3
+  coreVersion: '13.346'
+  createdTime: 1701590957666
+  modifiedTime: 1752208126847
+  lastModifiedBy: txZjek5EOiCBHPoz
+  compendiumSource: null
+  duplicateSource: null
+  exportSource: null
+description: ''
+_key: '!folders!1XrfuqzpstOwCTFI'

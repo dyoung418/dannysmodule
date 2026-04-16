@@ -1,0 +1,103 @@
+name: True Strike
+type: spell
+system:
+  source:
+    custom: ''
+    book: PHB
+    page: '284'
+    license: ''
+  description:
+    value: >-
+      <div class="rd__b  rd__b--3"><p>You extend your hand and point a finger at
+      a target in range. Your magic grants you a brief insight into the target's
+      defenses. On your next turn, you gain advantage on your first attack roll
+      against the target, provided that this spell hasn't ended.</p><div
+      class="rd__spc-inline-post"></div></div><div><span class="bold">Classes:
+      </span>Bard, Sorcerer, Warlock, Wizard</div>
+    chat: ''
+  actionType: util
+  level: 0
+  school: div
+  properties:
+    - somatic
+    - concentration
+  materials:
+    value: ''
+    consumed: false
+    cost: 0
+    supply: 0
+  target:
+    value: 1
+    units: ''
+    type: creature
+    prompt: true
+    width: null
+  range:
+    value: 30
+    units: ft
+    long: null
+  activation:
+    type: action
+    cost: 1
+    condition: ''
+  duration:
+    value: '1'
+    units: round
+  damage:
+    parts: []
+    versatile: ''
+  scaling:
+    mode: none
+    formula: ''
+  save:
+    dc: null
+    scaling: spell
+    ability: ''
+  uses:
+    value: null
+    max: ''
+    per: null
+    recovery: ''
+    prompt: true
+  attackBonus: ''
+  chatFlavor: ''
+  critical:
+    threshold: null
+    damage: ''
+  formula: ''
+  preparation:
+    mode: always
+    prepared: false
+  consume:
+    type: ''
+    target: null
+    amount: null
+    scale: false
+  cover: null
+  crewed: false
+  ability: null
+img: icons/skills/ranged/target-bullseye-archer-orange.webp
+ownership:
+  default: 0
+  38Gfe7fp1EmVmZNj: 3
+flags:
+  plutonium:
+    page: spells.html
+    source: PHB
+    hash: true%20strike_phb
+    propDroppable: spell
+effects: []
+folder: jh1chwW7rVB4Z2Kp
+_id: DRdLf9pxxPHYp1vu
+sort: 0
+_stats:
+  systemId: dnd5e
+  systemVersion: 3.0.2
+  coreVersion: '13.345'
+  createdTime: 1708228998293
+  modifiedTime: 1708229050063
+  lastModifiedBy: 38Gfe7fp1EmVmZNj
+  compendiumSource: null
+  duplicateSource: null
+  exportSource: null
+_key: '!items!DRdLf9pxxPHYp1vu'

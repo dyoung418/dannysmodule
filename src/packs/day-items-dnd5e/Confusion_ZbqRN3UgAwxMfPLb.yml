@@ -1,0 +1,160 @@
+name: Confusion
+type: spell
+system:
+  source:
+    custom: ''
+    book: PHB
+    page: '224'
+    license: ''
+    revision: 1
+    rules: '2024'
+  description:
+    value: >-
+      <div class="rd__b  rd__b--3"><p>This spell assaults and twists creatures'
+      minds, spawning delusions and provoking uncontrolled action. Each creature
+      in a 10-foot-radius sphere centered on a point you choose within range
+      must succeed on a Wisdom saving throw when you cast this spell or be
+      affected by it.</p><div class="rd__spc-inline-post"></div><p>An affected
+      target can't take reactions and must roll a [[/r d10]] at the start of
+      each of its turns to determine its behavior for that turn.</p><table
+      class="w-100 rd__table  stripe-odd-table"><caption>Confusion
+      Behavior</caption><thead><tr><th class="col-1 ve-text-center"
+      data-rd-isroller="true">[[/r d10]]</th><th class="col-11"
+      data-rd-isroller="false">Behavior</th></tr></thead><tbody><tr><td
+      class="col-1 ve-text-center" data-roll-min="1" data-roll-max="1">1</td><td
+      class="col-11">The creature uses all its movement to move in a random
+      direction. To determine the direction, roll a [[/r d8]] and assign a
+      direction to each die face. The creature doesn't take an action this
+      turn.</td></tr><tr><td class="col-1 ve-text-center" data-roll-min="2"
+      data-roll-max="6">2-6</td><td class="col-11">The creature doesn't move or
+      take actions this turn.</td></tr><tr><td class="col-1 ve-text-center"
+      data-roll-min="7" data-roll-max="8">7-8</td><td class="col-11">The
+      creature uses its action to make a melee attack against a randomly
+      determined creature within its reach. If there is no creature within its
+      reach, the creature does nothing this turn.</td></tr><tr><td class="col-1
+      ve-text-center" data-roll-min="9" data-roll-max="10">9-10</td><td
+      class="col-11">The creature can act and move
+      normally.</td></tr></tbody></table><p>At the end of each of its turns, an
+      affected target can make a Wisdom saving throw. If it succeeds, this
+      effect ends for that target.</p></div><div class="rd__b  rd__b--3"><div
+      class="rd__b  rd__b--3"><span class="rd__h rd__h--3" data-title-index="1">
+      <span class="entry-title-inner">At Higher Levels.</span></span> <p>When
+      you cast this spell using a spell slot of 5th level or higher, the radius
+      of the sphere increases by 5 feet for each slot level above 4th.</p><div
+      class="rd__spc-inline-post"></div></div><div
+      class="rd__spc-inline-post"></div></div><div><span class="bold">Classes:
+      </span>Bard, Druid, Sorcerer, Wizard</div>
+    chat: ''
+  level: 4
+  school: enc
+  properties:
+    - vocal
+    - somatic
+    - material
+    - concentration
+  materials:
+    value: three nut shells
+    consumed: false
+    cost: 0
+    supply: 0
+  target:
+    affects:
+      choice: false
+    template:
+      units: ft
+      type: sphere
+      size: '10'
+      contiguous: false
+  range:
+    value: '90'
+    units: ft
+  activation:
+    type: action
+    condition: ''
+    value: 1
+  duration:
+    value: '1'
+    units: minute
+  uses:
+    max: ''
+    spent: 0
+    recovery: []
+  preparation:
+    mode: prepared
+    prepared: false
+  activities:
+    dnd5eactivity000:
+      _id: dnd5eactivity000
+      type: save
+      activation:
+        type: action
+        override: false
+      consumption:
+        targets: []
+        scaling:
+          allowed: false
+          max: ''
+        spellSlot: true
+      description:
+        chatFlavor: ''
+      duration:
+        units: inst
+        concentration: false
+        override: false
+      effects: []
+      range:
+        units: self
+        override: false
+      target:
+        prompt: true
+        template:
+          contiguous: false
+          units: ft
+        affects:
+          choice: false
+        override: false
+      uses:
+        spent: 0
+        max: ''
+        recovery: []
+      damage:
+        onSave: half
+        parts: []
+      save:
+        ability:
+          - wis
+        dc:
+          calculation: spellcasting
+          formula: ''
+      sort: 0
+  identifier: confusion
+img: icons/creatures/amphibians/frog-confused-green-blue.webp
+ownership:
+  default: 0
+  38Gfe7fp1EmVmZNj: 3
+flags:
+  plutonium:
+    page: spells.html
+    source: PHB
+    hash: confusion_phb
+    propDroppable: spell
+  dnd5e:
+    persistSourceMigration: true
+    riders:
+      activity: []
+      effect: []
+effects: []
+folder: 0DxlLTSvnP6Pzz2r
+_id: ZbqRN3UgAwxMfPLb
+sort: 0
+_stats:
+  systemId: dnd5e
+  systemVersion: 5.0.4
+  coreVersion: '13.346'
+  createdTime: 1708109196603
+  modifiedTime: 1752197371435
+  lastModifiedBy: 1pY4akW8WASxGBbA
+  compendiumSource: null
+  duplicateSource: null
+  exportSource: null
+_key: '!items!ZbqRN3UgAwxMfPLb'

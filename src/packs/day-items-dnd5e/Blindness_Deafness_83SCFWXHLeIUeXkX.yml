@@ -1,0 +1,218 @@
+name: Blindness/Deafness
+type: spell
+system:
+  source:
+    custom: ''
+    book: PHB
+    page: '219'
+    license: ''
+    revision: 1
+    rules: '2024'
+  description:
+    value: >-
+      <div class="rd__b  rd__b--3"><p>You can blind or deafen a foe. Choose one
+      creature that you can see within range to make a Constitution saving
+      throw. If it fails, the target is either @condition[blinded] or
+      @condition[deafened] (your choice) for the duration. At the end of each of
+      its turns, the target can make a Constitution saving throw. On a success,
+      the spell ends.</p><div class="rd__spc-inline-post"></div></div><div
+      class="rd__b  rd__b--3"><div class="rd__b  rd__b--3"><span class="rd__h
+      rd__h--3" data-title-index="1"> <span class="entry-title-inner">At Higher
+      Levels.</span></span> <p>When you cast this spell using a spell slot of
+      3rd level or higher, you can target one additional creature for each slot
+      level above 2nd.</p><div class="rd__spc-inline-post"></div></div><div
+      class="rd__spc-inline-post"></div></div><div><span class="bold">Classes:
+      </span>Bard, Cleric, Sorcerer, Wizard</div>
+    chat: ''
+  level: 2
+  school: nec
+  properties:
+    - vocal
+  materials:
+    value: ''
+    consumed: false
+    cost: 0
+    supply: 0
+  target:
+    affects:
+      type: creature
+      count: '1'
+      choice: false
+    template:
+      units: ''
+      contiguous: false
+  range:
+    value: '30'
+    units: ft
+  activation:
+    type: action
+    condition: ''
+    value: 1
+  duration:
+    value: '1'
+    units: minute
+  uses:
+    max: ''
+    spent: 0
+    recovery: []
+  preparation:
+    mode: prepared
+    prepared: false
+  activities:
+    dnd5eactivity000:
+      _id: dnd5eactivity000
+      type: save
+      activation:
+        type: action
+        override: false
+      consumption:
+        targets: []
+        scaling:
+          allowed: false
+          max: ''
+        spellSlot: true
+      description:
+        chatFlavor: ''
+      duration:
+        units: inst
+        concentration: false
+        override: false
+      effects:
+        - _id: 59WpbiZFULwixyvC
+          onSave: false
+        - _id: H0SG0oq3VfiCxBOQ
+          onSave: false
+      range:
+        units: self
+        override: false
+      target:
+        prompt: true
+        template:
+          contiguous: false
+          units: ft
+        affects:
+          choice: false
+        override: false
+      uses:
+        spent: 0
+        max: ''
+        recovery: []
+      damage:
+        onSave: half
+        parts: []
+      save:
+        ability:
+          - con
+        dc:
+          calculation: spellcasting
+          formula: ''
+      sort: 0
+  identifier: blindness-deafness
+img: icons/skills/wounds/injury-eyes-blood-red-pink.webp
+ownership:
+  default: 0
+  38Gfe7fp1EmVmZNj: 3
+flags:
+  plutonium:
+    page: spells.html
+    source: PHB
+    hash: blindness%2fdeafness_phb
+    propDroppable: spell
+  dnd5e:
+    persistSourceMigration: true
+    riders:
+      activity: []
+      effect: []
+effects:
+  - name: Blindness
+    origin: Compendium.dnd5e.spells.Item.zwGsAv6kmwzYGhh3
+    duration:
+      value: 60
+      units: seconds
+      expiry: turnStart
+      expired: false
+    disabled: false
+    _id: 59WpbiZFULwixyvC
+    description: >-
+      <p>The target is Blinded for the duration. At the end of each of its
+      turns, the target can make a Constitution saving throw. On a success, the
+      spell ends.</p>
+    transfer: false
+    statuses:
+      - blinded
+    flags:
+      plutonium:
+        dedupeId: blindness
+    tint: '#ffffff'
+    _stats:
+      coreVersion: '14.359'
+      systemId: null
+      systemVersion: null
+      createdTime: null
+      modifiedTime: null
+      lastModifiedBy: null
+      compendiumSource: null
+      duplicateSource: null
+      exportSource: null
+    img: icons/skills/wounds/injury-eyes-blood-red-pink.webp
+    type: base
+    system:
+      changes: []
+    sort: 0
+    showIcon: 2
+    start: null
+    folder: null
+    _key: '!items.effects!83SCFWXHLeIUeXkX.59WpbiZFULwixyvC'
+  - name: Deafness
+    origin: Compendium.dnd5e.spells.Item.zwGsAv6kmwzYGhh3
+    duration:
+      value: 60
+      units: seconds
+      expiry: turnStart
+      expired: false
+    disabled: false
+    _id: H0SG0oq3VfiCxBOQ
+    description: >-
+      <p>The target is Deafened for the duration. At the end of each of its
+      turns, the target can make a Constitution saving throw. On a success, the
+      spell ends.</p>
+    transfer: false
+    statuses:
+      - deafened
+    flags:
+      plutonium:
+        dedupeId: deafness
+    tint: '#ffffff'
+    _stats:
+      coreVersion: '14.359'
+      systemId: null
+      systemVersion: null
+      createdTime: null
+      modifiedTime: null
+      lastModifiedBy: null
+      compendiumSource: null
+      duplicateSource: null
+      exportSource: null
+    img: icons/skills/wounds/injury-eyes-blood-red-pink.webp
+    type: base
+    system:
+      changes: []
+    sort: 0
+    showIcon: 2
+    start: null
+    folder: null
+    _key: '!items.effects!83SCFWXHLeIUeXkX.H0SG0oq3VfiCxBOQ'
+folder: 5RW3khzmlcXrGJ9s
+_id: 83SCFWXHLeIUeXkX
+sort: 0
+_stats:
+  systemId: dnd5e
+  systemVersion: 5.0.4
+  coreVersion: '14.359'
+  createdTime: 1708109196508
+  modifiedTime: 1752197371435
+  lastModifiedBy: 1pY4akW8WASxGBbA
+  compendiumSource: null
+  duplicateSource: null
+  exportSource: null
+_key: '!items!83SCFWXHLeIUeXkX'

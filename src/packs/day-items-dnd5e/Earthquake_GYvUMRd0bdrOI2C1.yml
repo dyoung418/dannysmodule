@@ -1,0 +1,167 @@
+name: Earthquake
+type: spell
+system:
+  source:
+    custom: ''
+    book: PHB
+    page: '236'
+    license: ''
+    revision: 1
+    rules: '2024'
+  description:
+    value: >-
+      <div class="rd__b  rd__b--3"><p>You create a seismic disturbance at a
+      point on the ground that you can see within range. For the duration, an
+      intense tremor rips through the ground in a 100-foot-radius circle
+      centered on that point and shakes creatures and structures in contact with
+      the ground in that area.</p><div class="rd__spc-inline-post"></div><p>The
+      ground in the area becomes difficult terrain. Each creature on the ground
+      that is @status[concentration||concentrating] must make a Constitution
+      saving throw. On a failed save, the creature's @status[concentration] is
+      broken.</p><p>When you cast this spell and at the end of each turn you
+      spend @status[concentration||concentrating] on it, each creature on the
+      ground in the area must make a Dexterity saving throw. On a failed save,
+      the creature is knocked @condition[prone].</p><p>This spell can have
+      additional effects depending on the terrain in the area, as determined by
+      the DM.</p><div class="rd__b  rd__b--3"><span class="rd__h rd__h--3"
+      data-title-index="1"> <span
+      class="entry-title-inner">Fissures.</span></span> <p>Fissures open
+      throughout the spell's area at the start of your next turn after you cast
+      the spell. A total of [[/r 1d6]] such fissures open in locations chosen by
+      the DM. Each is [[/r 1d10 * 10]]{1d10 × 10} feet deep, 10 feet wide, and
+      extends from one edge of the spell's area to the opposite side. A creature
+      standing on a spot where a fissure opens must succeed on a Dexterity
+      saving throw or fall in. A creature that successfully saves moves with the
+      fissure's edge as it opens.</p><div class="rd__spc-inline-post"></div><p>A
+      fissure that opens beneath a structure causes it to automatically collapse
+      (see below).</p></div><div class="rd__b  rd__b--3"><span class="rd__h
+      rd__h--3" data-title-index="2"> <span
+      class="entry-title-inner">Structures.</span></span> <p>The tremor deals 50
+      bludgeoning damage to any structure in contact with the ground in the area
+      when you cast the spell and at the start of each of your turns until the
+      spell ends. If a structure drops to 0 hit points, it collapses and
+      potentially damages nearby creatures. A creature within half the distance
+      of a structure's height must make a Dexterity saving throw. On a failed
+      save, the creature takes [[/r 5d6]] bludgeoning damage, is knocked
+      @condition[prone], and is buried in the rubble, requiring a DC 20 Strength
+      (@skill[Athletics]) check as an action to escape. The DM can adjust the DC
+      higher or lower, depending on the nature of the rubble. On a successful
+      save, the creature takes half as much damage and doesn't fall
+      @condition[prone] or become buried.</p><div
+      class="rd__spc-inline-post"></div></div></div><div><span
+      class="bold">Classes: </span>Cleric, Druid, Sorcerer</div>
+    chat: ''
+  level: 8
+  school: evo
+  properties:
+    - vocal
+    - somatic
+    - material
+    - concentration
+  materials:
+    value: a pinch of dirt, a piece of rock, and a lump of clay
+    consumed: false
+    cost: 0
+    supply: 0
+  target:
+    affects:
+      choice: false
+    template:
+      units: ft
+      type: radius
+      size: '100'
+      contiguous: false
+  range:
+    value: '500'
+    units: ft
+  activation:
+    type: action
+    condition: ''
+    value: 1
+  duration:
+    value: '1'
+    units: minute
+  uses:
+    max: ''
+    spent: 0
+    recovery: []
+  preparation:
+    mode: prepared
+    prepared: false
+  activities:
+    dnd5eactivity000:
+      _id: dnd5eactivity000
+      type: save
+      activation:
+        type: action
+        value: null
+        override: false
+      consumption:
+        targets: []
+        scaling:
+          allowed: false
+          max: ''
+        spellSlot: true
+      description:
+        chatFlavor: ''
+      duration:
+        units: inst
+        concentration: false
+        override: false
+      effects: []
+      range:
+        override: false
+        units: self
+      target:
+        prompt: true
+        template:
+          contiguous: false
+          units: ft
+        affects:
+          choice: false
+        override: false
+      uses:
+        spent: 0
+        max: ''
+        recovery: []
+      damage:
+        onSave: half
+        parts: []
+      save:
+        ability:
+          - con
+        dc:
+          calculation: spellcasting
+          formula: ''
+      sort: 0
+  identifier: earthquake
+img: icons/magic/earth/barrier-stone-explosion-debris.webp
+ownership:
+  default: 0
+  38Gfe7fp1EmVmZNj: 3
+flags:
+  plutonium:
+    page: spells.html
+    source: PHB
+    hash: earthquake_phb
+    propDroppable: spell
+  dnd5e:
+    persistSourceMigration: true
+    riders:
+      activity: []
+      effect: []
+effects: []
+folder: MPJYAqSTQHr6QzkQ
+_id: GYvUMRd0bdrOI2C1
+sort: 0
+_stats:
+  systemId: dnd5e
+  systemVersion: 5.0.4
+  coreVersion: '13.346'
+  createdTime: 1708227601176
+  modifiedTime: 1752197371435
+  lastModifiedBy: 1pY4akW8WASxGBbA
+  compendiumSource: null
+  duplicateSource: null
+  exportSource: null
+_key: '!items!GYvUMRd0bdrOI2C1'

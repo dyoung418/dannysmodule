@@ -1,0 +1,108 @@
+name: Detect Poison and Disease
+type: spell
+system:
+  source:
+    custom: ''
+    book: PHB
+    page: '231'
+    license: ''
+  description:
+    value: >-
+      <div class="rd__b  rd__b--3"><p>For the duration, you can sense the
+      presence and location of poisons, poisonous creatures, and diseases within
+      30 feet of you. You also identify the kind of poison, poisonous creature,
+      or disease in each case.</p><div class="rd__spc-inline-post"></div><p>The
+      spell can penetrate most barriers, but it is blocked by 1 foot of stone, 1
+      inch of common metal, a thin sheet of lead, or 3 feet of wood or
+      dirt.</p></div><div><span class="bold">Classes: </span>Cleric, Druid,
+      Paladin, Ranger</div>
+    chat: ''
+  actionType: util
+  level: 1
+  school: div
+  properties:
+    - vocal
+    - somatic
+    - material
+    - ritual
+    - concentration
+  materials:
+    value: a yew leaf
+    consumed: false
+    cost: 0
+    supply: 0
+  target:
+    value: 30
+    units: ft
+    type: radius
+    prompt: true
+    width: null
+  range:
+    value: 0
+    units: self
+    long: null
+  activation:
+    type: action
+    cost: 1
+    condition: ''
+  duration:
+    value: '10'
+    units: minute
+  damage:
+    parts: []
+    versatile: ''
+  scaling:
+    mode: none
+    formula: ''
+  save:
+    dc: null
+    scaling: spell
+    ability: ''
+  uses:
+    value: null
+    max: ''
+    per: null
+    recovery: ''
+    prompt: true
+  attackBonus: ''
+  chatFlavor: ''
+  critical:
+    threshold: null
+    damage: ''
+  formula: ''
+  preparation:
+    mode: prepared
+    prepared: false
+  consume:
+    type: ''
+    target: null
+    amount: null
+    scale: false
+  cover: null
+  crewed: false
+  ability: null
+img: icons/skills/toxins/poison-bottle-open-fire-purple.webp
+ownership:
+  default: 0
+  38Gfe7fp1EmVmZNj: 3
+flags:
+  plutonium:
+    page: spells.html
+    source: PHB
+    hash: detect%20poison%20and%20disease_phb
+    propDroppable: spell
+effects: []
+folder: VtM7mt4hOselv4zN
+_id: tmomWj748uztS9Oy
+sort: 0
+_stats:
+  systemId: dnd5e
+  systemVersion: 3.0.2
+  coreVersion: '13.345'
+  createdTime: 1708227665506
+  modifiedTime: 1708227673035
+  lastModifiedBy: 38Gfe7fp1EmVmZNj
+  compendiumSource: null
+  duplicateSource: null
+  exportSource: null
+_key: '!items!tmomWj748uztS9Oy'

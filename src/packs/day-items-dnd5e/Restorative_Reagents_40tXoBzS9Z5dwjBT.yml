@@ -1,0 +1,63 @@
+folder: QqrWj278qS19exFE
+name: Restorative Reagents
+type: feat
+_id: 40tXoBzS9Z5dwjBT
+img: systems/dnd5e/icons/svg/items/feature.svg
+system:
+  description:
+    value: >-
+      <p><em>9th-level Alchemist feature</em></p><p>You can incorporate
+      restorative reagents into some of your works:</p><p>Whenever a creature
+      drinks an experimental elixir you created, the creature gains temporary
+      hit points equal to 2d6 + your Intelligence modifier (minimum of 1
+      temporary hit point).</p><p>You can cast lesser restoration without
+      expending a spell slot and without preparing the spell, provided you use
+      alchemist’s supplies as the spellcasting focus. You can do so a number of
+      times equal to your Intelligence modifier (minimum of once), and you
+      regain all expended uses when you finish a long rest.</p>
+    chat: ''
+  source:
+    book: TCOE
+    page: '15'
+    custom: ''
+    license: ''
+    revision: 1
+    rules: '2024'
+  uses:
+    max: ''
+    spent: 0
+    recovery: []
+  type:
+    value: class
+    subtype: ''
+  properties: []
+  requirements: Artificer 9 (Alchemist)
+  activities: {}
+  identifier: restorative-reagents
+  enchant: {}
+  prerequisites:
+    level: null
+    repeatable: false
+  advancement: []
+  crewed: false
+effects: []
+sort: 0
+ownership:
+  default: 0
+  38Gfe7fp1EmVmZNj: 3
+flags:
+  dnd5e:
+    riders:
+      activity: []
+      effect: []
+_stats:
+  systemId: dnd5e
+  systemVersion: 5.0.4
+  coreVersion: '13.346'
+  createdTime: 1709705404196
+  modifiedTime: 1752197371435
+  lastModifiedBy: 1pY4akW8WASxGBbA
+  compendiumSource: null
+  duplicateSource: null
+  exportSource: null
+_key: '!items!40tXoBzS9Z5dwjBT'

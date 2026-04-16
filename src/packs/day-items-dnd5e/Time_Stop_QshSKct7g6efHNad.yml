@@ -1,0 +1,106 @@
+name: Time Stop
+type: spell
+system:
+  source:
+    custom: ''
+    book: PHB
+    page: '283'
+    license: ''
+  description:
+    value: >-
+      <div class="rd__b  rd__b--3"><p>You briefly stop the flow of time for
+      everyone but yourself. No time passes for other creatures, while you take
+      [[/r 1d4 + 1]] turns in a row, during which you can use actions and move
+      as normal.</p><div class="rd__spc-inline-post"></div><p>This spell ends if
+      one of the actions you use during this period, or any effects that you
+      create during this period, affects a creature other than you or an object
+      being worn or carried by someone other than you. In addition, the spell
+      ends if you move to a place more than 1,000 feet from the location where
+      you cast it.</p></div><div><span class="bold">Classes: </span>Sorcerer,
+      Wizard</div>
+    chat: ''
+  actionType: util
+  level: 9
+  school: trs
+  properties:
+    - vocal
+  materials:
+    value: ''
+    consumed: false
+    cost: 0
+    supply: 0
+  target:
+    value: 0
+    units: self
+    type: self
+    prompt: true
+    width: null
+  range:
+    value: 0
+    units: self
+    long: null
+  activation:
+    type: action
+    cost: 1
+    condition: ''
+  duration:
+    value: ''
+    units: inst
+  damage:
+    parts: []
+    versatile: ''
+  scaling:
+    mode: none
+    formula: ''
+  save:
+    dc: null
+    scaling: spell
+    ability: ''
+  uses:
+    value: null
+    max: ''
+    per: null
+    recovery: ''
+    prompt: true
+  attackBonus: ''
+  chatFlavor: ''
+  critical:
+    threshold: null
+    damage: ''
+  formula: ''
+  preparation:
+    mode: prepared
+    prepared: false
+  consume:
+    type: ''
+    target: null
+    amount: null
+    scale: false
+  cover: null
+  crewed: false
+  ability: null
+img: icons/magic/time/clock-spinning-gold-pink.webp
+ownership:
+  default: 0
+  38Gfe7fp1EmVmZNj: 3
+flags:
+  plutonium:
+    page: spells.html
+    source: PHB
+    hash: time%20stop_phb
+    propDroppable: spell
+effects: []
+folder: T6sdyK5v8uIgMBwC
+_id: QshSKct7g6efHNad
+sort: 0
+_stats:
+  systemId: dnd5e
+  systemVersion: 3.0.2
+  coreVersion: '13.345'
+  createdTime: 1708109197379
+  modifiedTime: 1708227409300
+  lastModifiedBy: 38Gfe7fp1EmVmZNj
+  compendiumSource: null
+  duplicateSource: null
+  exportSource: null
+_key: '!items!QshSKct7g6efHNad'

@@ -1,0 +1,73 @@
+name: Inn
+type: campaignFeature
+effects: []
+system:
+  description:
+    gm: ''
+    value: >-
+      <p>An inn provides a safe and secure place for a settlement's visitors to
+      rest.</p>
+
+      <p>Lots: 1</p>
+
+      <p>Cost: 10 RP, 2 Lumber</p>
+
+      <p>Construction: Trade DC 15</p>
+
+      <p>Item Bonus: +1 item bonus to Hire Adventurers</p>
+  rules:
+    - hideIfDisabled: true
+      key: FlatModifier
+      label: Inn bonus to Hire Adventurers
+      predicate:
+        - action:hire-adventurers
+      selector: kingdom-check
+      type: item
+      value: 1
+  slug: null
+  _migration:
+    version: 0.94
+    previous:
+      schema: 0.939
+      foundry: '13.345'
+      system: 7.2.0
+  traits:
+    otherTags: []
+    value:
+      - kingdom
+      - structure
+  publication:
+    title: ''
+    authors: ''
+    license: OGL
+    remaster: false
+  campaign: kingmaker
+  category: kingdom-feat
+  actionType:
+    value: passive
+  actions:
+    value: null
+  prerequisites:
+    value: []
+  location: null
+  level:
+    value: 1
+_id: 2o7OZRJNDaD6y5fi
+img: modules/pf2e-kingmaker/assets/maps-settlements/buildings/inn.webp
+folder: yTd2CNZ9biWYoOF6
+sort: 100000
+ownership:
+  default: 0
+  txZjek5EOiCBHPoz: 3
+flags: {}
+_stats:
+  compendiumSource: null
+  duplicateSource: null
+  coreVersion: '13.346'
+  systemId: pf2e
+  systemVersion: 7.2.3
+  createdTime: 1718606591261
+  modifiedTime: 1752208111692
+  lastModifiedBy: txZjek5EOiCBHPoz
+  exportSource: null
+_key: '!items!2o7OZRJNDaD6y5fi'

@@ -1,0 +1,158 @@
+name: Dust Devil
+type: spell
+system:
+  source:
+    custom: ''
+    book: XGE
+    page: '154'
+    license: ''
+    revision: 1
+    rules: '2024'
+  description:
+    value: >-
+      <div class="rd__b  rd__b--3"><p>Choose an unoccupied 5-foot cube of air
+      that you can see within range. An elemental force that resembles a dust
+      devil appears in the cube and lasts for the spell's duration.</p><div
+      class="rd__spc-inline-post"></div><p>Any creature that ends its turn
+      within 5 feet of the dust devil must make a Strength saving throw. On a
+      failed save, the creature takes [[/r 1d8]] bludgeoning damage and is
+      pushed 10 feet away from the dust devil. On a successful save, the
+      creature takes half as much damage and isn't pushed.</p><p>As a bonus
+      action, you can move the dust devil up to 30 feet in any direction. If the
+      dust devil moves over sand, dust, loose dirt, or light gravel, it sucks up
+      the material and forms a 10-foot-radius cloud of debris around itself that
+      lasts until the start of your next turn. The cloud heavily obscures its
+      area.</p></div><div class="rd__b  rd__b--3"><div class="rd__b 
+      rd__b--3"><span class="rd__h rd__h--3" data-title-index="1"> <span
+      class="entry-title-inner">At Higher Levels.</span></span> <p>When you cast
+      this spell using a spell slot of 3rd level or higher, the damage increases
+      by [[/r 1d8]] for each slot level above 2nd.</p><div
+      class="rd__spc-inline-post"></div></div><div
+      class="rd__spc-inline-post"></div></div><div><span class="bold">Classes:
+      </span>Druid, Sorcerer, Wizard</div>
+    chat: ''
+  level: 2
+  school: con
+  properties:
+    - vocal
+    - somatic
+    - material
+    - concentration
+  materials:
+    value: a pinch of dust
+    consumed: false
+    cost: 0
+    supply: 0
+  target:
+    affects:
+      choice: false
+    template:
+      units: ft
+      type: cube
+      size: '5'
+      contiguous: false
+  range:
+    value: '60'
+    units: ft
+  activation:
+    type: action
+    condition: ''
+    value: 1
+  duration:
+    value: '1'
+    units: minute
+  uses:
+    max: ''
+    spent: 0
+    recovery: []
+  preparation:
+    mode: prepared
+    prepared: false
+  activities:
+    dnd5eactivity000:
+      _id: dnd5eactivity000
+      type: save
+      activation:
+        type: action
+        override: false
+      consumption:
+        targets: []
+        scaling:
+          allowed: false
+          max: ''
+        spellSlot: true
+      description:
+        chatFlavor: ''
+      duration:
+        units: inst
+        concentration: false
+        override: false
+      effects: []
+      range:
+        units: self
+        override: false
+      target:
+        prompt: true
+        template:
+          contiguous: false
+          units: ft
+        affects:
+          choice: false
+        override: false
+      uses:
+        spent: 0
+        max: ''
+        recovery: []
+      damage:
+        onSave: half
+        parts:
+          - number: 1
+            denomination: 8
+            bonus: ''
+            types:
+              - bludgeoning
+            custom:
+              enabled: false
+              formula: ''
+            scaling:
+              mode: whole
+              number: 1
+              formula: ''
+      save:
+        ability:
+          - str
+        dc:
+          calculation: spellcasting
+          formula: ''
+      sort: 0
+  identifier: dust-devil
+img: icons/magic/air/wind-tornado-funnel-blue.webp
+ownership:
+  default: 0
+  38Gfe7fp1EmVmZNj: 3
+flags:
+  plutonium:
+    page: spells.html
+    source: XGE
+    hash: dust%20devil_xge
+    propDroppable: spell
+  dnd5e:
+    persistSourceMigration: true
+    riders:
+      activity: []
+      effect: []
+effects: []
+folder: 5RW3khzmlcXrGJ9s
+_id: 4KaUqFz1AauQ2LPi
+sort: 0
+_stats:
+  systemId: dnd5e
+  systemVersion: 5.0.4
+  coreVersion: '13.346'
+  createdTime: 1708109197700
+  modifiedTime: 1752197371435
+  lastModifiedBy: 1pY4akW8WASxGBbA
+  compendiumSource: null
+  duplicateSource: null
+  exportSource: null
+_key: '!items!4KaUqFz1AauQ2LPi'

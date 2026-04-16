@@ -1,0 +1,116 @@
+name: Speak with Plants
+type: spell
+system:
+  source:
+    custom: ''
+    book: PHB
+    page: '277'
+    license: ''
+  description:
+    value: >-
+      <div class="rd__b  rd__b--3"><p>You imbue plants within 30 feet of you
+      with limited sentience and animation, giving them the ability to
+      communicate with you and follow your simple commands. You can question
+      plants about events in the spell's area within the past day, gaining
+      information about creatures that have passed, weather, and other
+      circumstances.</p><div class="rd__spc-inline-post"></div><p>You can also
+      turn difficult terrain caused by plant growth (such as thickets and
+      undergrowth) into ordinary terrain that lasts for the duration. Or you can
+      turn ordinary terrain where plants are present into difficult terrain that
+      lasts for the duration, causing vines and branches to hinder pursuers, for
+      example.</p><p>Plants might be able to perform other tasks on your behalf,
+      at the DM's discretion. The spell doesn't enable plants to uproot
+      themselves and move about, but they can freely move branches, tendrils,
+      and stalks.</p><p>If a plant creature is in the area, you can communicate
+      with it as if you shared a common language, but you gain no magical
+      ability to influence it.</p><p>This spell can cause the plants created by
+      the @spell[entangle] spell to release a @condition[restrained]
+      creature.</p></div><div><span class="bold">Classes: </span>Bard, Druid,
+      Ranger</div>
+    chat: ''
+  actionType: util
+  level: 3
+  school: trs
+  properties:
+    - vocal
+    - somatic
+  materials:
+    value: ''
+    consumed: false
+    cost: 0
+    supply: 0
+  target:
+    value: 30
+    units: ft
+    type: radius
+    prompt: true
+    width: null
+  range:
+    value: 0
+    units: ''
+    long: null
+  activation:
+    type: action
+    cost: 1
+    condition: ''
+  duration:
+    value: '10'
+    units: minute
+  damage:
+    parts: []
+    versatile: ''
+  scaling:
+    mode: none
+    formula: ''
+  save:
+    dc: null
+    scaling: spell
+    ability: ''
+  uses:
+    value: null
+    max: ''
+    per: null
+    recovery: ''
+    prompt: true
+  attackBonus: ''
+  chatFlavor: ''
+  critical:
+    threshold: null
+    damage: ''
+  formula: ''
+  preparation:
+    mode: prepared
+    prepared: false
+  consume:
+    type: ''
+    target: null
+    amount: null
+    scale: false
+  cover: null
+  crewed: false
+  ability: null
+img: icons/magic/nature/tree-animated-smile.webp
+ownership:
+  default: 0
+  38Gfe7fp1EmVmZNj: 3
+flags:
+  plutonium:
+    page: spells.html
+    source: PHB
+    hash: speak%20with%20plants_phb
+    propDroppable: spell
+effects: []
+folder: 6bqSE9R3xLCM19nC
+_id: pcL1WltaQiT3mvbc
+sort: 0
+_stats:
+  systemId: dnd5e
+  systemVersion: 3.0.2
+  coreVersion: '13.345'
+  createdTime: 1708228998192
+  modifiedTime: 1708229050063
+  lastModifiedBy: 38Gfe7fp1EmVmZNj
+  compendiumSource: null
+  duplicateSource: null
+  exportSource: null
+_key: '!items!pcL1WltaQiT3mvbc'

@@ -1,0 +1,119 @@
+name: Meld into Stone
+type: spell
+system:
+  source:
+    custom: ''
+    book: PHB
+    page: '259'
+    license: ''
+  description:
+    value: >-
+      <div class="rd__b  rd__b--3"><p>You step into a stone object or surface
+      large enough to fully contain your body, melding yourself and all the
+      equipment you carry with the stone for the duration. Using your movement,
+      you step into the stone at a point you can touch. Nothing of your presence
+      remains visible or otherwise detectable by nonmagical senses.</p><div
+      class="rd__spc-inline-post"></div><p>While merged with the stone, you
+      can't see what occurs outside it, and any Wisdom (@skill[Perception])
+      checks you make to hear sounds outside it are made with disadvantage. You
+      remain aware of the passage of time and can cast spells on yourself while
+      merged in the stone. You can use your movement to leave the stone where
+      you entered it, which ends the spell. You otherwise can't
+      move.</p><p>Minor physical damage to the stone doesn't harm you, but its
+      partial destruction or a change in its shape (to the extent that you no
+      longer fit within it) expels you and deals [[/r 6d6]] bludgeoning damage
+      to you. The stone's complete destruction (or transmutation into a
+      different substance) expels you and deals 50 bludgeoning damage to you. If
+      expelled, you fall @condition[prone] in an unoccupied space closest to
+      where you first entered.</p></div><div><span class="bold">Classes:
+      </span>Cleric, Druid</div>
+    chat: ''
+  actionType: util
+  level: 3
+  school: trs
+  properties:
+    - vocal
+    - somatic
+    - ritual
+  materials:
+    value: ''
+    consumed: false
+    cost: 0
+    supply: 0
+  target:
+    value: 0
+    units: touch
+    type: self
+    prompt: true
+    width: null
+  range:
+    value: 0
+    units: touch
+    long: null
+  activation:
+    type: action
+    cost: 1
+    condition: ''
+  duration:
+    value: '8'
+    units: hour
+  damage:
+    parts:
+      - - 6d6
+        - bludgeoning
+    versatile: ''
+  scaling:
+    mode: none
+    formula: ''
+  save:
+    dc: null
+    scaling: spell
+    ability: ''
+  uses:
+    value: null
+    max: ''
+    per: null
+    recovery: ''
+    prompt: true
+  attackBonus: ''
+  chatFlavor: ''
+  critical:
+    threshold: null
+    damage: ''
+  formula: ''
+  preparation:
+    mode: prepared
+    prepared: false
+  consume:
+    type: ''
+    target: null
+    amount: null
+    scale: false
+  cover: null
+  crewed: false
+  ability: null
+img: icons/magic/earth/lava-stone-fire-eye.webp
+ownership:
+  default: 0
+  38Gfe7fp1EmVmZNj: 3
+flags:
+  plutonium:
+    page: spells.html
+    source: PHB
+    hash: meld%20into%20stone_phb
+    propDroppable: spell
+effects: []
+folder: mnKBFoFg1vZvQ4WB
+_id: q86RbanpVvZ0afe2
+sort: 0
+_stats:
+  systemId: dnd5e
+  systemVersion: 3.0.2
+  coreVersion: '13.345'
+  createdTime: 1708227517502
+  modifiedTime: 1708227533976
+  lastModifiedBy: 38Gfe7fp1EmVmZNj
+  compendiumSource: null
+  duplicateSource: null
+  exportSource: null
+_key: '!items!q86RbanpVvZ0afe2'

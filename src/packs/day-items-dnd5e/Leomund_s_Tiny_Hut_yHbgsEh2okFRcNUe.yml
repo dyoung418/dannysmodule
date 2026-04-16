@@ -1,0 +1,114 @@
+name: Leomund's Tiny Hut
+type: spell
+system:
+  source:
+    custom: ''
+    book: PHB
+    page: '255'
+    license: ''
+  description:
+    value: >-
+      <div class="rd__b  rd__b--3"><p>A 10-foot-radius immobile dome of force
+      springs into existence around and above you and remains stationary for the
+      duration. The spell ends if you leave its area.</p><div
+      class="rd__spc-inline-post"></div><p>Nine creatures of Medium size or
+      smaller can fit inside the dome with you. The spell fails if its area
+      includes a larger creature or more than nine creatures. Creatures and
+      objects within the dome when you cast this spell can move through it
+      freely. All other creatures and objects are barred from passing through
+      it. Spells and other magical effects can't extend through the dome or be
+      cast through it. The atmosphere inside the space is comfortable and dry,
+      regardless of the weather outside.</p><p>Until the spell ends, you can
+      command the interior to become dimly lit or dark. The dome is opaque from
+      the outside, of any color you choose, but it is transparent from the
+      inside.</p></div><div><span class="bold">Classes: </span>Bard,
+      Wizard</div>
+    chat: ''
+  actionType: util
+  level: 3
+  school: evo
+  properties:
+    - vocal
+    - somatic
+    - material
+    - ritual
+  materials:
+    value: a small crystal bead
+    consumed: false
+    cost: 0
+    supply: 0
+  target:
+    value: 10
+    units: ft
+    type: sphere
+    prompt: true
+    width: null
+  range:
+    value: 0
+    units: ''
+    long: null
+  activation:
+    type: minute
+    cost: 1
+    condition: ''
+  duration:
+    value: '8'
+    units: hour
+  damage:
+    parts: []
+    versatile: ''
+  scaling:
+    mode: none
+    formula: ''
+  save:
+    dc: null
+    scaling: spell
+    ability: ''
+  uses:
+    value: null
+    max: ''
+    per: null
+    recovery: ''
+    prompt: true
+  attackBonus: ''
+  chatFlavor: ''
+  critical:
+    threshold: null
+    damage: ''
+  formula: ''
+  preparation:
+    mode: prepared
+    prepared: false
+  consume:
+    type: ''
+    target: null
+    amount: null
+    scale: false
+  cover: null
+  crewed: false
+  ability: null
+img: icons/skills/movement/arrow-upward-white.webp
+ownership:
+  default: 0
+  38Gfe7fp1EmVmZNj: 3
+flags:
+  plutonium:
+    page: spells.html
+    source: PHB
+    hash: leomund's%20tiny%20hut_phb
+    propDroppable: spell
+effects: []
+folder: 460yTIg9sKBrbNPf
+_id: yHbgsEh2okFRcNUe
+sort: 0
+_stats:
+  systemId: dnd5e
+  systemVersion: 3.0.3
+  coreVersion: '13.345'
+  createdTime: 1709684305542
+  modifiedTime: 1709684366197
+  lastModifiedBy: 38Gfe7fp1EmVmZNj
+  compendiumSource: null
+  duplicateSource: null
+  exportSource: null
+_key: '!items!yHbgsEh2okFRcNUe'

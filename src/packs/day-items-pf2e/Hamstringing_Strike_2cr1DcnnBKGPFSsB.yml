@@ -1,0 +1,93 @@
+_id: 2cr1DcnnBKGPFSsB
+img: icons/sundries/books/book-red-exclamation.webp
+name: Hamstringing Strike
+system:
+  description:
+    gm: ''
+    value: >-
+      <p>You slow your foes with a well-aimed attack. Make a Strike against your
+      hunted prey with a -2 penalty. If you hit your prey, the creature takes a
+      -5-foot status penalty to Speed. If you critically hit your prey, the
+      creature takes a -10-foot status penalty to Speed. A creature immune to
+      bleed damage does not take this penalty. The penalty can be removed using
+      any method that removes persistent bleed damage or offers a flat check to
+      do so, such as Administer First Aid.</p>
+
+      <p>@UUID[Compendium.pf2e.feat-effects.Item.ESnzqtwSgahLcxg2]{Effect:
+      Hamstringing Strike}</p>
+  rules:
+    - domain: all
+      key: RollOption
+      option: hamstringing-strike
+      predicate:
+        - hunted-prey
+      toggleable: true
+    - key: FlatModifier
+      predicate:
+        - hamstringing-strike
+      selector: strike-attack-roll
+      value: -2
+    - key: Note
+      outcome:
+        - success
+        - criticalSuccess
+      predicate:
+        - hamstringing-strike
+      selector: strike-attack-roll
+      text: PF2E.SpecificRule.Ranger.HamstringingStrike.Note
+      title: '{item|name}'
+  slug: hamstringing-strike
+  _migration:
+    version: 0.94
+    previous:
+      schema: 0.939
+      foundry: '13.345'
+      system: 7.2.0
+  traits:
+    otherTags: []
+    value:
+      - ranger
+    rarity: rare
+  publication:
+    title: Pathfinder Kingmaker
+    authors: ''
+    license: OGL
+    remaster: false
+  level:
+    value: 8
+  category: class
+  onlyLevel1: false
+  maxTakable: 1
+  actionType:
+    value: action
+  actions:
+    value: 1
+  prerequisites:
+    value: []
+  location: null
+  subfeatures:
+    proficiencies: {}
+    senses: {}
+    suppressedFeatures: []
+type: feat
+flags:
+  core: {}
+  scene-packer:
+    hash: 8964d591bd362859cd7a24040aaa6de2783c8867
+effects: []
+folder: lVJfRR3nUB6MU7dI
+sort: 146875
+ownership:
+  default: 0
+  txZjek5EOiCBHPoz: 3
+_stats:
+  compendiumSource: Compendium.pf2e.feats-srd.Item.s2GbcUIXG1ZBurSd
+  duplicateSource: null
+  coreVersion: '13.346'
+  systemId: pf2e
+  systemVersion: 7.2.3
+  createdTime: 1718606591261
+  modifiedTime: 1752208111692
+  lastModifiedBy: txZjek5EOiCBHPoz
+  exportSource: null
+_key: '!items!2cr1DcnnBKGPFSsB'

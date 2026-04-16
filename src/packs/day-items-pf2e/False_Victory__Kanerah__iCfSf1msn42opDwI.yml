@@ -1,0 +1,86 @@
+folder: 0BxmixOCuUUNHkjf
+name: False Victory (Kanerah)
+type: campaignFeature
+effects: []
+system:
+  description:
+    gm: ''
+    value: >-
+      <p>Kanerah’s contacts with the criminal underworld and her<br />knack for
+      dodging punishment and claiming responsibility<br />for victories she had
+      no direct role in can be harnessed to<br />engineer false victories to
+      trick the kingdom’s citizens into<br />thinking their leaders are doing
+      more than they actually are<br />to create a safe place to live. Such
+      attempts are not without<br />risks, though, for if things backfire, you
+      can cause problems<br />where none existed in the first place. When
+      setting up a<br />false victory, attempt a basic
+      @Check[intrigue|dc:resolve(@kingdom.control.dc)] check.<br
+      /><strong>Critical Success</strong> At the end of this Kingdom turn’s
+      Event<br />Phase, roll again on the random kingdom events<br />table.
+      Rumors of this event being resolved spread<br />throughout your kingdom.
+      You don’t gain any of the<br />benefits of resolving this false victory,
+      but instead<br />reduce Unrest by 1d6 and one Ruin of your choice by 1.<br
+      />If you randomly roll that same random kingdom event<br />at any time
+      during the next four Kingdom turns, you<br />can attempt an Intrigue check
+      with a +1 circumstance<br />bonus to resolve it rather than the normal
+      check to<br />resolve it.<br /><strong>Success</strong> Vague rumors of
+      the kingdom’s leaders attaining<br />victories over vague threats spread
+      through the<br />kingdom. Reduce Unrest by 1d3.<br
+      /><strong>Failure</strong> The false event fails to manifest, and
+      rumors<br />of the truth spread throughout the kingdom. Gain 1<br
+      />Unrest. You cannot attempt False Victory on your next<br />Kingdom
+      turn.<br /><strong>Critical Failure</strong> The truth comes out, and the
+      citizens<br />revolt against this attempt to manipulate them. A<br
+      />Public Scandal event takes place during this kingdom’s<br />event phase,
+      in addition to any other events that<br />would normally take place.
+      Attempt a DC 11 flat check.<br />On a success, the Public Scandal involves
+      a randomly<br />determined leader, but on a failure, the blame falls on<br
+      />Kanerah. Regardless of how the Public Scandal plays<br />out, you cannot
+      attempt False Victory again for 6<br />Kingdom turns.</p>
+  rules: []
+  slug: false-victory
+  _migration:
+    version: 0.94
+    previous:
+      schema: 0.939
+      foundry: '13.345'
+      system: 7.2.0
+  traits:
+    otherTags: []
+    value:
+      - downtime
+      - leadership
+  publication:
+    title: ''
+    authors: ''
+    license: OGL
+    remaster: false
+  campaign: kingmaker
+  category: kingdom-activity
+  actionType:
+    value: passive
+  actions:
+    value: null
+  prerequisites:
+    value: []
+  location: null
+  level:
+    value: 1
+_id: iCfSf1msn42opDwI
+img: systems/pf2e/icons/default-icons/campaignFeature.svg
+sort: 125000
+ownership:
+  default: 0
+  txZjek5EOiCBHPoz: 3
+flags: {}
+_stats:
+  compendiumSource: null
+  duplicateSource: null
+  coreVersion: '13.346'
+  systemId: pf2e
+  systemVersion: 7.2.3
+  createdTime: 1718606591261
+  modifiedTime: 1752208111692
+  lastModifiedBy: txZjek5EOiCBHPoz
+  exportSource: null
+_key: '!items!iCfSf1msn42opDwI'

@@ -1,0 +1,52 @@
+folder: 1XrfuqzpstOwCTFI
+name: Token Name-NPC-Hover Owner
+type: script
+author: txZjek5EOiCBHPoz
+img: icons/svg/sound-off.svg
+scope: global
+command: >-
+  const sceneTokens = canvas.scene.tokens; // all tokens on current viewed scene
+
+  const relevantTokens = sceneTokens.filter(k=> k.actor.type=="npc"); // filter
+  for NPC tokens
+
+  // await
+  relevantTokens.map(i=>i.update({"displayName":CONST.TOKEN_DISPLAY_MODES.OWNER_HOVER}));
+  // slower
+
+  let updates = relevantTokens.map(i=>({"_id":i._id, "displayName":
+  CONST.TOKEN_DISPLAY_MODES.OWNER_HOVER}));
+
+  await canvas.scene.updateEmbeddedDocuments("Token", updates); // faster
+
+
+  // CONST.TOKEN_DISPLAY_MODES reference:
+
+  // NONE (never display) (0)
+
+  // CONTROL (displayed when controlled) (10)
+
+  // OWNER_HOVER (on hover for owner) (20)
+
+  // HOVER (on hover for all) (30)
+
+  // OWNER (always for owner) (40)
+
+  // ALWAYS (always for all) (50)
+sort: 0
+ownership:
+  default: 0
+  txZjek5EOiCBHPoz: 3
+flags: {}
+_stats:
+  systemId: pf2e
+  systemVersion: 5.10.3
+  coreVersion: '13.346'
+  createdTime: 1701590991762
+  modifiedTime: 1752208126881
+  lastModifiedBy: txZjek5EOiCBHPoz
+  compendiumSource: null
+  duplicateSource: null
+  exportSource: null
+_id: G3k6glNiniYS6lhw
+_key: '!macros!G3k6glNiniYS6lhw'

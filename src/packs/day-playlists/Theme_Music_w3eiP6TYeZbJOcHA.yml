@@ -1,0 +1,624 @@
+folder: 9knvgHfaGijd7P6o
+name: Theme Music
+_id: w3eiP6TYeZbJOcHA
+sounds:
+  - name: Aecora Silverfire Grim
+    path: >-
+      modules/dannysmodule/assets/audio/audio-music/theme/aecora-silverfire-grim.ogg
+    _id: OlxKIjNSujaXps8o
+    channel: music
+    playing: false
+    pausedTime: null
+    repeat: false
+    volume: 0.5
+    fade: null
+    sort: 0
+    flags: {}
+    _key: '!playlists.sounds!w3eiP6TYeZbJOcHA.OlxKIjNSujaXps8o'
+  - name: Aecora Silverfire
+    path: modules/dannysmodule/assets/audio/audio-music/theme/aecora-silverfire.ogg
+    _id: nwKXY4W3RuHX6WwM
+    channel: music
+    playing: false
+    pausedTime: null
+    repeat: false
+    volume: 0.5
+    fade: null
+    sort: 0
+    flags: {}
+    _key: '!playlists.sounds!w3eiP6TYeZbJOcHA.nwKXY4W3RuHX6WwM'
+  - name: Bittersweet (nyrissas Theme)
+    path: >-
+      modules/dannysmodule/assets/audio/audio-music/theme/bittersweet-(nyrissas-theme).ogg
+    _id: IlEN0rGluT4MVBLs
+    channel: music
+    playing: false
+    pausedTime: null
+    repeat: false
+    volume: 0.5
+    fade: null
+    sort: 0
+    flags: {}
+    _key: '!playlists.sounds!w3eiP6TYeZbJOcHA.IlEN0rGluT4MVBLs'
+  - name: Bold Dog Barks Loud
+    path: >-
+      modules/dannysmodule/assets/audio/audio-music/theme/bold-dog-barks-loud.ogg
+    _id: opK2lcTgx38gGHUL
+    channel: music
+    playing: false
+    pausedTime: null
+    repeat: false
+    volume: 0.5
+    fade: null
+    sort: 0
+    flags: {}
+    _key: '!playlists.sounds!w3eiP6TYeZbJOcHA.opK2lcTgx38gGHUL'
+  - name: Canvas For The Gods
+    path: >-
+      modules/dannysmodule/assets/audio/audio-music/theme/canvas-for-the-gods.ogg
+    _id: zPXWwqxGF41pFZ9J
+    channel: music
+    playing: false
+    pausedTime: null
+    repeat: false
+    volume: 0.5
+    fade: null
+    sort: 0
+    flags: {}
+    _key: '!playlists.sounds!w3eiP6TYeZbJOcHA.zPXWwqxGF41pFZ9J'
+  - name: City Of Hollow Eyes
+    path: >-
+      modules/dannysmodule/assets/audio/audio-music/theme/city-of-hollow-eyes.ogg
+    _id: kYC81QQT5ACupjrM
+    channel: music
+    playing: false
+    pausedTime: null
+    repeat: false
+    volume: 0.5
+    fade: null
+    sort: 0
+    flags: {}
+    _key: '!playlists.sounds!w3eiP6TYeZbJOcHA.kYC81QQT5ACupjrM'
+  - name: Dawn At The Dunsward
+    path: >-
+      modules/dannysmodule/assets/audio/audio-music/theme/dawn-at-the-dunsward.ogg
+    _id: uM9gZTvaaqjWk65Q
+    channel: music
+    playing: false
+    pausedTime: null
+    repeat: false
+    volume: 0.5
+    fade: null
+    sort: 0
+    flags: {}
+    _key: '!playlists.sounds!w3eiP6TYeZbJOcHA.uM9gZTvaaqjWk65Q'
+  - name: Dawn At The Narlmarches
+    path: >-
+      modules/dannysmodule/assets/audio/audio-music/theme/dawn-at-the-narlmarches.ogg
+    _id: uFyriUtbrHI62sTa
+    channel: music
+    playing: false
+    pausedTime: null
+    repeat: false
+    volume: 0.5
+    fade: null
+    sort: 0
+    flags: {}
+    _key: '!playlists.sounds!w3eiP6TYeZbJOcHA.uFyriUtbrHI62sTa'
+  - name: Exploring The Stolen Lands
+    path: >-
+      modules/dannysmodule/assets/audio/audio-music/theme/exploring-the-stolen-lands.ogg
+    _id: 856C1Qq3XvXSia0m
+    channel: music
+    playing: false
+    pausedTime: null
+    repeat: false
+    volume: 0.5
+    fade: null
+    sort: 0
+    flags: {}
+    _key: '!playlists.sounds!w3eiP6TYeZbJOcHA.856C1Qq3XvXSia0m'
+  - name: Hills Of Glenebon
+    path: modules/dannysmodule/assets/audio/audio-music/theme/hills-of-glenebon.ogg
+    _id: 7CDVUySK9b5NzNWH
+    channel: music
+    playing: false
+    pausedTime: null
+    repeat: false
+    volume: 0.5
+    fade: null
+    sort: 0
+    flags: {}
+    _key: '!playlists.sounds!w3eiP6TYeZbJOcHA.7CDVUySK9b5NzNWH'
+  - name: Iron Wraiths Fate
+    path: modules/dannysmodule/assets/audio/audio-music/theme/iron-wraiths-fate.ogg
+    _id: 5bkE0BjvvAytz5Ms
+    channel: music
+    playing: false
+    pausedTime: null
+    repeat: false
+    volume: 0.5
+    fade: null
+    sort: 0
+    flags: {}
+    _key: '!playlists.sounds!w3eiP6TYeZbJOcHA.5bkE0BjvvAytz5Ms'
+  - name: Iron Wraiths
+    path: modules/dannysmodule/assets/audio/audio-music/theme/iron-wraiths.ogg
+    _id: CNWZHKS0iUXuPMuX
+    channel: music
+    playing: false
+    pausedTime: null
+    repeat: false
+    volume: 0.5
+    fade: null
+    sort: 0
+    flags: {}
+    _key: '!playlists.sounds!w3eiP6TYeZbJOcHA.CNWZHKS0iUXuPMuX'
+  - name: Irovetti Meeting
+    path: modules/dannysmodule/assets/audio/audio-music/theme/irovetti-meeting.ogg
+    _id: XTQUTJ5lsXtYWE5p
+    channel: music
+    playing: false
+    pausedTime: null
+    repeat: false
+    volume: 0.5
+    fade: null
+    sort: 0
+    flags: {}
+    _key: '!playlists.sounds!w3eiP6TYeZbJOcHA.XTQUTJ5lsXtYWE5p'
+  - name: Main Theme
+    path: modules/dannysmodule/assets/audio/audio-music/theme/main-theme.ogg
+    _id: jR6YUwDWlclMfoWA
+    channel: music
+    playing: false
+    pausedTime: null
+    repeat: false
+    volume: 0.5
+    fade: null
+    sort: 0
+    flags: {}
+    _key: '!playlists.sounds!w3eiP6TYeZbJOcHA.jR6YUwDWlclMfoWA'
+  - name: Lantern King Ominous
+    path: >-
+      modules/dannysmodule/assets/audio/audio-music/theme/lantern-king-ominous.ogg
+    _id: b872KBiUqcomR3pP
+    channel: music
+    playing: false
+    pausedTime: null
+    repeat: false
+    volume: 0.5
+    fade: null
+    sort: 0
+    flags: {}
+    _key: '!playlists.sounds!w3eiP6TYeZbJOcHA.b872KBiUqcomR3pP'
+  - name: Master Spies
+    path: modules/dannysmodule/assets/audio/audio-music/theme/master-spies.ogg
+    _id: HJaxDTLEGwU1u8Vm
+    channel: music
+    playing: false
+    pausedTime: null
+    repeat: false
+    volume: 0.5
+    fade: null
+    sort: 0
+    flags: {}
+    _key: '!playlists.sounds!w3eiP6TYeZbJOcHA.HJaxDTLEGwU1u8Vm'
+  - name: Mystery Waltz Cacophany
+    path: >-
+      modules/dannysmodule/assets/audio/audio-music/theme/mystery-waltz-cacophany.ogg
+    _id: P9agWA4Bjm18xzkk
+    channel: music
+    playing: false
+    pausedTime: null
+    repeat: false
+    volume: 0.5
+    fade: null
+    sort: 0
+    flags: {}
+    _key: '!playlists.sounds!w3eiP6TYeZbJOcHA.P9agWA4Bjm18xzkk'
+  - name: Mystery Waltz Overture
+    path: >-
+      modules/dannysmodule/assets/audio/audio-music/theme/mystery-waltz-overture.ogg
+    _id: R3v3a96eeUnq7Iin
+    channel: music
+    playing: false
+    pausedTime: null
+    repeat: false
+    volume: 0.5
+    fade: null
+    sort: 0
+    flags: {}
+    _key: '!playlists.sounds!w3eiP6TYeZbJOcHA.R3v3a96eeUnq7Iin'
+  - name: Mystery Waltz Reprise
+    path: >-
+      modules/dannysmodule/assets/audio/audio-music/theme/mystery-waltz-reprise.ogg
+    _id: 7XgsFQ3XOU0rgduA
+    channel: music
+    playing: false
+    pausedTime: null
+    repeat: false
+    volume: 0.5
+    fade: null
+    sort: 0
+    flags: {}
+    _key: '!playlists.sounds!w3eiP6TYeZbJOcHA.7XgsFQ3XOU0rgduA'
+  - name: Mystery Waltz
+    path: modules/dannysmodule/assets/audio/audio-music/theme/mystery-waltz.ogg
+    _id: mMX5DkUOA1AwEDBk
+    channel: music
+    playing: false
+    pausedTime: null
+    repeat: false
+    volume: 0.5
+    fade: null
+    sort: 0
+    flags: {}
+    _key: '!playlists.sounds!w3eiP6TYeZbJOcHA.mMX5DkUOA1AwEDBk'
+  - name: Old Sycamore Caves
+    path: modules/dannysmodule/assets/audio/audio-music/theme/old-sycamore-caves.ogg
+    _id: RCSXHmhBHvpgNqQc
+    channel: music
+    playing: false
+    pausedTime: null
+    repeat: false
+    volume: 0.5
+    fade: null
+    sort: 0
+    flags: {}
+    _key: '!playlists.sounds!w3eiP6TYeZbJOcHA.RCSXHmhBHvpgNqQc'
+  - name: Old Sycamore
+    path: modules/dannysmodule/assets/audio/audio-music/theme/old-sycamore.ogg
+    _id: pkxBL0ha6NwQVJDZ
+    channel: music
+    playing: false
+    pausedTime: null
+    repeat: false
+    volume: 0.5
+    fade: null
+    sort: 0
+    flags: {}
+    _key: '!playlists.sounds!w3eiP6TYeZbJOcHA.pkxBL0ha6NwQVJDZ'
+  - name: Peaceful Lands
+    path: modules/dannysmodule/assets/audio/audio-music/theme/peaceful-lands.ogg
+    _id: RxXbYrHS706OAjf9
+    channel: music
+    playing: false
+    pausedTime: null
+    repeat: false
+    volume: 0.5
+    fade: null
+    sort: 0
+    flags: {}
+    _key: '!playlists.sounds!w3eiP6TYeZbJOcHA.RxXbYrHS706OAjf9'
+  - name: Pitax
+    path: modules/dannysmodule/assets/audio/audio-music/theme/pitax.ogg
+    _id: fY604erbj6NSDU1v
+    channel: music
+    playing: false
+    pausedTime: null
+    repeat: false
+    volume: 0.5
+    fade: null
+    sort: 0
+    flags: {}
+    _key: '!playlists.sounds!w3eiP6TYeZbJOcHA.fY604erbj6NSDU1v'
+  - name: Preparing For Battle
+    path: >-
+      modules/dannysmodule/assets/audio/audio-music/theme/preparing-for-battle.ogg
+    _id: STbvkmBZdkpXvv96
+    channel: music
+    playing: false
+    pausedTime: null
+    repeat: false
+    volume: 0.5
+    fade: null
+    sort: 0
+    flags: {}
+    _key: '!playlists.sounds!w3eiP6TYeZbJOcHA.STbvkmBZdkpXvv96'
+  - name: Quiet Exploration
+    path: modules/dannysmodule/assets/audio/audio-music/theme/quiet-exploration.ogg
+    _id: H3eVC0UwKhD307s7
+    channel: music
+    playing: false
+    pausedTime: null
+    repeat: false
+    volume: 0.5
+    fade: null
+    sort: 0
+    flags: {}
+    _key: '!playlists.sounds!w3eiP6TYeZbJOcHA.H3eVC0UwKhD307s7'
+  - name: Rule Of Balance
+    path: modules/dannysmodule/assets/audio/audio-music/theme/rule-of-balance.ogg
+    _id: 02YmoXnZTMpVNur0
+    channel: music
+    playing: false
+    pausedTime: null
+    repeat: false
+    volume: 0.5
+    fade: null
+    sort: 0
+    flags: {}
+    _key: '!playlists.sounds!w3eiP6TYeZbJOcHA.02YmoXnZTMpVNur0'
+  - name: Rule Of Chaos
+    path: modules/dannysmodule/assets/audio/audio-music/theme/rule-of-chaos.ogg
+    _id: 4HdqICrWQzCOcN5z
+    channel: music
+    playing: false
+    pausedTime: null
+    repeat: false
+    volume: 0.5
+    fade: null
+    sort: 0
+    flags: {}
+    _key: '!playlists.sounds!w3eiP6TYeZbJOcHA.4HdqICrWQzCOcN5z'
+  - name: Rule Of Evil
+    path: modules/dannysmodule/assets/audio/audio-music/theme/rule-of-evil.ogg
+    _id: LCeRU3OfBHandBMv
+    channel: music
+    playing: false
+    pausedTime: null
+    repeat: false
+    volume: 0.5
+    fade: null
+    sort: 0
+    flags: {}
+    _key: '!playlists.sounds!w3eiP6TYeZbJOcHA.LCeRU3OfBHandBMv'
+  - name: Rule Of Good
+    path: modules/dannysmodule/assets/audio/audio-music/theme/rule-of-good.ogg
+    _id: vpdOt1LcWHBHHvI8
+    channel: music
+    playing: false
+    pausedTime: null
+    repeat: false
+    volume: 0.5
+    fade: null
+    sort: 0
+    flags: {}
+    _key: '!playlists.sounds!w3eiP6TYeZbJOcHA.vpdOt1LcWHBHHvI8'
+  - name: Rule Of Order
+    path: modules/dannysmodule/assets/audio/audio-music/theme/rule-of-order.ogg
+    _id: WypkB2jNDIYwWMpn
+    channel: music
+    playing: false
+    pausedTime: null
+    repeat: false
+    volume: 0.5
+    fade: null
+    sort: 0
+    flags: {}
+    _key: '!playlists.sounds!w3eiP6TYeZbJOcHA.WypkB2jNDIYwWMpn'
+  - name: Skylark
+    path: modules/dannysmodule/assets/audio/audio-music/theme/skylark.ogg
+    _id: 4nw3fF3dnfBw3M3k
+    channel: music
+    playing: false
+    pausedTime: null
+    repeat: false
+    volume: 0.5
+    fade: null
+    sort: 0
+    flags: {}
+    _key: '!playlists.sounds!w3eiP6TYeZbJOcHA.4nw3fF3dnfBw3M3k'
+  - name: Steps Of The Goddess
+    path: >-
+      modules/dannysmodule/assets/audio/audio-music/theme/steps-of-the-goddess.ogg
+    _id: CVEYxUu4fARp9RYj
+    channel: music
+    playing: false
+    pausedTime: null
+    repeat: false
+    volume: 0.5
+    fade: null
+    sort: 0
+    flags: {}
+    _key: '!playlists.sounds!w3eiP6TYeZbJOcHA.CVEYxUu4fARp9RYj'
+  - name: Sunset At The Dunsward
+    path: >-
+      modules/dannysmodule/assets/audio/audio-music/theme/sunset-at-the-dunsward.ogg
+    _id: P7eVVVoBn7I3YQTm
+    channel: music
+    playing: false
+    pausedTime: null
+    repeat: false
+    volume: 0.5
+    fade: null
+    sort: 0
+    flags: {}
+    _key: '!playlists.sounds!w3eiP6TYeZbJOcHA.P7eVVVoBn7I3YQTm'
+  - name: Sunset At The Narlmarches
+    path: >-
+      modules/dannysmodule/assets/audio/audio-music/theme/sunset-at-the-narlmarches.ogg
+    _id: ua8QqudasiWAiP2E
+    channel: music
+    playing: false
+    pausedTime: null
+    repeat: false
+    volume: 0.5
+    fade: null
+    sort: 0
+    flags: {}
+    _key: '!playlists.sounds!w3eiP6TYeZbJOcHA.ua8QqudasiWAiP2E'
+  - name: The Art Of Ruling
+    path: modules/dannysmodule/assets/audio/audio-music/theme/the-art-of-ruling.ogg
+    _id: u60AhQnbHauJ6C8X
+    channel: music
+    playing: false
+    pausedTime: null
+    repeat: false
+    volume: 0.5
+    fade: null
+    sort: 0
+    flags: {}
+    _key: '!playlists.sounds!w3eiP6TYeZbJOcHA.u60AhQnbHauJ6C8X'
+  - name: The Art Of Illusion
+    path: >-
+      modules/dannysmodule/assets/audio/audio-music/theme/the-art_of_illusion.ogg
+    _id: ehijo800MFoaAO4p
+    channel: music
+    playing: false
+    pausedTime: null
+    repeat: false
+    volume: 0.5
+    fade: null
+    sort: 0
+    flags: {}
+    _key: '!playlists.sounds!w3eiP6TYeZbJOcHA.ehijo800MFoaAO4p'
+  - name: The Dunsward
+    path: modules/dannysmodule/assets/audio/audio-music/theme/the-dunsward.ogg
+    _id: dn8SDoMfLHw9m8YW
+    channel: music
+    playing: false
+    pausedTime: null
+    repeat: false
+    volume: 0.5
+    fade: null
+    sort: 0
+    flags: {}
+    _key: '!playlists.sounds!w3eiP6TYeZbJOcHA.dn8SDoMfLHw9m8YW'
+  - name: The Narlmarches
+    path: modules/dannysmodule/assets/audio/audio-music/theme/the-narlmarches.ogg
+    _id: tUIGyMDErhbodF2N
+    channel: music
+    playing: false
+    pausedTime: null
+    repeat: false
+    volume: 0.5
+    fade: null
+    sort: 0
+    flags: {}
+    _key: '!playlists.sounds!w3eiP6TYeZbJOcHA.tUIGyMDErhbodF2N'
+  - name: The Shrike Hills
+    path: modules/dannysmodule/assets/audio/audio-music/theme/the-shrike-hills.ogg
+    _id: jmgnHP4iPvMHy55W
+    channel: music
+    playing: false
+    pausedTime: null
+    repeat: false
+    volume: 0.5
+    fade: null
+    sort: 0
+    flags: {}
+    _key: '!playlists.sounds!w3eiP6TYeZbJOcHA.jmgnHP4iPvMHy55W'
+  - name: Thousand Grains
+    path: modules/dannysmodule/assets/audio/audio-music/theme/thousand-grains.ogg
+    _id: BeSEq2qLyNXldZk6
+    channel: music
+    playing: false
+    pausedTime: null
+    repeat: false
+    volume: 0.5
+    fade: null
+    sort: 0
+    flags: {}
+    _key: '!playlists.sounds!w3eiP6TYeZbJOcHA.BeSEq2qLyNXldZk6'
+  - name: Tiger Lords Drums Only
+    path: >-
+      modules/dannysmodule/assets/audio/audio-music/theme/tiger-lords-drums-only.ogg
+    _id: 7Y1ZjwpZKQgpik1f
+    channel: music
+    playing: false
+    pausedTime: null
+    repeat: false
+    volume: 0.5
+    fade: null
+    sort: 0
+    flags: {}
+    _key: '!playlists.sounds!w3eiP6TYeZbJOcHA.7Y1ZjwpZKQgpik1f'
+  - name: Tiger Lords
+    path: modules/dannysmodule/assets/audio/audio-music/theme/tiger-lords.ogg
+    _id: G8OLlSoDxicV3XGA
+    channel: music
+    playing: false
+    pausedTime: null
+    repeat: false
+    volume: 0.5
+    fade: null
+    sort: 0
+    flags: {}
+    _key: '!playlists.sounds!w3eiP6TYeZbJOcHA.G8OLlSoDxicV3XGA'
+  - name: Tomb Of The Iron Lords Champion
+    path: >-
+      modules/dannysmodule/assets/audio/audio-music/theme/tomb-of-the-iron-lords-champion.ogg
+    _id: RCJ3JosZa94IDdQb
+    channel: music
+    playing: false
+    pausedTime: null
+    repeat: false
+    volume: 0.5
+    fade: null
+    sort: 0
+    flags: {}
+    _key: '!playlists.sounds!w3eiP6TYeZbJOcHA.RCJ3JosZa94IDdQb'
+  - name: Twilight At Glenebon
+    path: >-
+      modules/dannysmodule/assets/audio/audio-music/theme/twilight-at-glenebon.ogg
+    _id: LyAGnJYYbGx0yOiB
+    channel: music
+    playing: false
+    pausedTime: null
+    repeat: false
+    volume: 0.5
+    fade: null
+    sort: 0
+    flags: {}
+    _key: '!playlists.sounds!w3eiP6TYeZbJOcHA.LyAGnJYYbGx0yOiB'
+  - name: Uneasy Moments
+    path: modules/dannysmodule/assets/audio/audio-music/theme/uneasy-moments.ogg
+    _id: WzxRRPU3KLf7q1ED
+    channel: music
+    playing: false
+    pausedTime: null
+    repeat: false
+    volume: 0.5
+    fade: null
+    sort: 0
+    flags: {}
+    _key: '!playlists.sounds!w3eiP6TYeZbJOcHA.WzxRRPU3KLf7q1ED'
+  - name: Varnholds Dawn
+    path: modules/dannysmodule/assets/audio/audio-music/theme/varnholds_dawn.ogg
+    _id: zNwiYzSDNT8lVgwJ
+    channel: music
+    playing: false
+    pausedTime: null
+    repeat: false
+    volume: 0.5
+    fade: null
+    sort: 0
+    flags: {}
+    _key: '!playlists.sounds!w3eiP6TYeZbJOcHA.zNwiYzSDNT8lVgwJ'
+  - name: Who Rules Your Heart
+    path: >-
+      modules/dannysmodule/assets/audio/audio-music/theme/who-rules-your-heart.ogg
+    _id: uyxlH5mRBU4fD5Fv
+    channel: music
+    playing: false
+    pausedTime: null
+    repeat: false
+    volume: 0.5
+    fade: null
+    sort: 0
+    flags: {}
+    _key: '!playlists.sounds!w3eiP6TYeZbJOcHA.uyxlH5mRBU4fD5Fv'
+channel: music
+mode: 0
+playing: false
+fade: null
+sorting: a
+seed: 443
+flags: {}
+_stats:
+  compendiumSource: null
+  duplicateSource: null
+  coreVersion: '13.344'
+  systemId: pf2e
+  systemVersion: 6.1.3
+  createdTime: 1722151843629
+  modifiedTime: 1723499082395
+  lastModifiedBy: txZjek5EOiCBHPoz
+  exportSource: null
+description: ''
+sort: 0
+ownership:
+  default: 0
+  txZjek5EOiCBHPoz: 3
+_key: '!playlists!w3eiP6TYeZbJOcHA'

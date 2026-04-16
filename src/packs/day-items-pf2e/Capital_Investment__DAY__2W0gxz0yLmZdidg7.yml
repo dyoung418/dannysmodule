@@ -1,0 +1,85 @@
+folder: 0BxmixOCuUUNHkjf
+img: systems/pf2e/icons/default-icons/campaignFeature.svg
+name: Capital Investment (DAY)
+system:
+  description:
+    gm: ''
+    value: >-
+      <p><strong>Requirements</strong> You must be within the influence of a
+      settlement that contains at least one Bank.</p><hr /><p>You contribute
+      funds from your personal wealth for the good of the kingdom, including
+      coinage, gems, jewelry, weapons and armor salvaged from enemies, magical
+      or alchemical items, and so on. Your contribution generates economic
+      activity in the form of RP that can be used during your current Kingdom
+      turn or on the next Kingdom turn (your choice). You can use Capital
+      Investment to repay funds from Tap Treasury. In this case, no roll is
+      needed and you simply deduct the appropriate amount of funds from your
+      personal wealth to pay back that which was borrowed. When you use Capital
+      Investment to generate RP, the amount of gp required to make an investment
+      is set by your kingdom's level. Investments below this amount cause your
+      attempt at Capital Investment to suffer an automatic critical failure,
+      while investments above this amount are lost. The investment required is
+      equal to the value listed on Table 10–9: Party Treasure by Level in the
+      Pathfinder Core Rulebook; use the value for your kingdom's level under the
+      @UUID[Compendium.dannysmodule.day-journals.JournalEntry.aI76gXcm5nen7azD.JournalEntryPage.Ly8l2GT6dbvuY3A2]{"Currency
+      per Additional PC"} as the required investment value. This is a basic
+      @Check[trade|dc:resolve(@kingdom.control.dc)] check.</p><hr
+      /><p><strong>Critical Success</strong> Your kingdom reaps the benefits of
+      your investment. Immediately roll 4 Resource Dice. Gain RP equal to the
+      result.</p><p><strong>Success</strong> Your investment helps the economy.
+      Immediately roll 2 Resource Dice. Gain RP equal to the
+      result.</p><p><strong>Failure</strong> Your investment ends up being used
+      to shore up shortfalls elsewhere. Gain [[/r 1d4 #RP]]{1d4
+      RP}.</p><p><strong>Critical Failure</strong> Your investment is embezzled,
+      lost, or otherwise misappropriated. Choose one of the following: either
+      roll 1 Resource Die and gain RP equal to the result and also increase your
+      Crime by an equal amount, or gain 0 RP and increase Crime by 1.</p>
+  rules: []
+  slug: capital-investment
+  _migration:
+    version: 0.94
+    previous:
+      schema: 0.939
+      foundry: '13.345'
+      system: 7.2.0
+  traits:
+    otherTags: []
+    value:
+      - downtime
+      - leadership
+  publication:
+    title: Pathfinder Kingmaker
+    authors: ''
+    license: OGL
+    remaster: false
+  campaign: kingmaker
+  category: kingdom-activity
+  actionType:
+    value: passive
+  actions:
+    value: null
+  prerequisites:
+    value: []
+  location: null
+  level:
+    value: 1
+type: campaignFeature
+_stats:
+  compendiumSource: Compendium.pf2e.kingmaker-features.Item.x2a7kuyipzczqsFc
+  duplicateSource: null
+  coreVersion: '13.346'
+  systemId: pf2e
+  systemVersion: 7.2.3
+  createdTime: 1719728560488
+  modifiedTime: 1752208111692
+  lastModifiedBy: txZjek5EOiCBHPoz
+  exportSource: null
+flags:
+  core: {}
+effects: []
+_id: 2W0gxz0yLmZdidg7
+sort: 0
+ownership:
+  default: 0
+  txZjek5EOiCBHPoz: 3
+_key: '!items!2W0gxz0yLmZdidg7'

@@ -1,0 +1,154 @@
+name: Octarine Spray
+type: spell
+system:
+  source:
+    custom: ''
+    book: DoDk
+    page: '228'
+    license: ''
+  description:
+    value: >-
+      <div class="rd__b  rd__b--3"><p>When you cast this spell, you gain one <a
+      href="https://5etools-mirror-2.github.io/adventure.html#DoDk,12">level of
+      contamination</a>. Octarine rays of light flash from your hand. Each ray
+      is a different colour and has a different power and purpose, see the table
+      below. Each creature in a 60-foot cone must succeed on a Constitution
+      saving throw. For each target, roll a [[/r d8]] to determine which colour
+      ray affects it.</p><div class="rd__spc-inline-post"></div><table
+      class="w-100 rd__table  stripe-odd-table"><thead><tr><th class="col-2
+      ve-text-center" data-rd-isroller="true">[[/r d8]]</th><th class="col-10"
+      data-rd-isroller="false">Octarine Spray
+      Effect</th></tr></thead><tbody><tr><td class="col-2 ve-text-center"
+      data-roll-min="1" data-roll-max="1">1</td><td class="col-10">The target
+      takes [[/r 20d6]] psychic damage on a failed save, or half as much damage
+      on a success.</td></tr><tr><td class="col-2 ve-text-center"
+      data-roll-min="2" data-roll-max="2">2</td><td class="col-10">The target
+      takes [[/r 20d6]] necrotic damage on a failed save, or half as much damage
+      on a success.</td></tr><tr><td class="col-2 ve-text-center"
+      data-roll-min="3" data-roll-max="3">3</td><td class="col-10">The target
+      takes [[/r 20d6]] force damage on a failed save, or half as much damage on
+      a success.</td></tr><tr><td class="col-2 ve-text-center" data-roll-min="4"
+      data-roll-max="4">4</td><td class="col-10">The target takes [[/r 20d6]]
+      radiant damage on a failed save, or half as much damage on a
+      success.</td></tr><tr><td class="col-2 ve-text-center" data-roll-min="5"
+      data-roll-max="5">5</td><td class="col-10">The target takes [[/r 20d6]]
+      thunder damage on a failed save, or half as much damage on a
+      success.</td></tr><tr><td class="col-2 ve-text-center" data-roll-min="6"
+      data-roll-max="6">6</td><td class="col-10">At the start of each of its
+      turns, the affected target uses all its movement to move directly towards
+      the closest creature it can see. Then, the affected target uses its action
+      to make a melee attack against a randomly determined creature within its
+      reach. If there is no creature within its reach, the affected target does
+      nothing this turn. At the end of each of its turns, the affected target
+      can make a Wisdom saving throw. If it succeeds, this effect ends for that
+      target.</td></tr><tr><td class="col-2 ve-text-center" data-roll-min="7"
+      data-roll-max="7">7</td><td class="col-10">At the start of each of its
+      turns, the affected target gains one <a
+      href="https://5etools-mirror-2.github.io/adventure.html#DoDk,12">level of
+      contamination</a>. At the end of each of its turns, an affected target can
+      make a Constitution saving throw. If it succeeds, this effect ends for
+      that target, but any <a
+      href="https://5etools-mirror-2.github.io/adventure.html#DoDk,12">contamination
+      levels</a> gained remain.</td></tr><tr><td class="col-2 ve-text-center"
+      data-roll-min="8" data-roll-max="8">8</td><td
+      class="col-10"><b>Special.</b> The target is struck by an additional ray.
+      Roll again twice. There's no limit to how many additional rays can strike
+      a single creature in this manner.</td></tr></tbody></table></div>
+    chat: ''
+  actionType: save
+  level: 7
+  school: evo
+  properties:
+    - vocal
+    - somatic
+    - material
+  materials:
+    value: a delerium fragment worth 100 gp, which the spell consumes
+    consumed: true
+    cost: 100
+    supply: 0
+  target:
+    value: 60
+    units: ft
+    type: cone
+    prompt: true
+    width: null
+  range:
+    value: 0
+    units: ''
+    long: null
+  activation:
+    type: action
+    cost: 1
+    condition: ''
+  duration:
+    value: ''
+    units: inst
+  damage:
+    parts:
+      - - 20d6
+        - psychic
+      - - 20d6
+        - necrotic
+      - - 20d6
+        - force
+      - - 20d6
+        - radiant
+      - - 20d6
+        - thunder
+    versatile: ''
+  scaling:
+    mode: none
+    formula: ''
+  save:
+    ability: con
+    dc: null
+    scaling: spell
+  uses:
+    value: null
+    max: ''
+    per: null
+    recovery: ''
+    prompt: true
+  attackBonus: ''
+  chatFlavor: ''
+  critical:
+    threshold: null
+    damage: ''
+  formula: ''
+  preparation:
+    mode: prepared
+    prepared: false
+  consume:
+    type: ''
+    target: null
+    amount: null
+    scale: false
+  cover: null
+  crewed: false
+  ability: null
+img: icons/magic/fire/projectile-fireball-orange-yellow.webp
+ownership:
+  default: 0
+  38Gfe7fp1EmVmZNj: 3
+flags:
+  plutonium:
+    page: spells.html
+    source: DoDk
+    hash: octarine%20spray_dodk
+    propDroppable: spell
+effects: []
+folder: uXSXluqMEezxN39E
+_id: zBStAufisTgEz2oG
+sort: 0
+_stats:
+  systemId: dnd5e
+  systemVersion: 3.0.2
+  coreVersion: '13.345'
+  createdTime: 1708228997286
+  modifiedTime: 1708229050063
+  lastModifiedBy: 38Gfe7fp1EmVmZNj
+  compendiumSource: null
+  duplicateSource: null
+  exportSource: null
+_key: '!items!zBStAufisTgEz2oG'

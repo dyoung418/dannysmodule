@@ -1,0 +1,118 @@
+name: Ray of Contamination
+type: spell
+system:
+  source:
+    custom: ''
+    book: DoDk
+    page: '229'
+    license: ''
+  description:
+    value: >-
+      <div class="rd__b  rd__b--3"><p>When you cast this spell, you gain one <a
+      href="https://5etools-mirror-2.github.io/adventure.html#DoDk,12">level of
+      contamination</a>. An octarine ray springs from your pointing finger to a
+      creature that you can see within range. The target must succeed on a
+      Constitution saving throw. On a failed save, a creature takes [[/r 16d6]]
+      necrotic damage and gains [[/r 1d4]] <a
+      href="https://5etools-mirror-2.github.io/adventure.html#DoDk,12">levels of
+      contamination</a>. On a successful save, a target takes half as much
+      damage and does not gain any <a
+      href="https://5etools-mirror-2.github.io/adventure.html#DoDk,12">contamination
+      levels</a>.</p><div class="rd__spc-inline-post"></div></div><div
+      class="rd__b  rd__b--3"><div class="rd__b  rd__b--3"><span class="rd__h
+      rd__h--3" data-title-index="1"> <span class="entry-title-inner">At Higher
+      Levels.</span></span> <p>When you cast this spell using a spell slot of
+      7th level or higher, you can target one additional creature for each slot
+      level above 6th. The creatures must be within 30 feet of each other when
+      you target them.</p><div class="rd__spc-inline-post"></div></div><div
+      class="rd__spc-inline-post"></div></div>
+    chat: ''
+  actionType: save
+  level: 6
+  school: nec
+  properties:
+    - vocal
+    - somatic
+    - material
+  materials:
+    value: a delerium fragment worth 100 gp, which the spell consumes
+    consumed: true
+    cost: 100
+    supply: 0
+  target:
+    value: 0
+    units: ''
+    type: ''
+    prompt: true
+    width: null
+  range:
+    value: 60
+    units: ft
+    long: null
+  activation:
+    type: action
+    cost: 1
+    condition: ''
+  duration:
+    value: ''
+    units: inst
+  damage:
+    parts:
+      - - 16d6
+        - necrotic
+    versatile: ''
+  scaling:
+    mode: none
+    formula: ''
+  save:
+    ability: con
+    dc: null
+    scaling: spell
+  uses:
+    value: null
+    max: ''
+    per: null
+    recovery: ''
+    prompt: true
+  attackBonus: ''
+  chatFlavor: ''
+  critical:
+    threshold: null
+    damage: ''
+  formula: ''
+  preparation:
+    mode: prepared
+    prepared: false
+  consume:
+    type: ''
+    target: null
+    amount: null
+    scale: false
+  cover: null
+  crewed: false
+  ability: null
+img: icons/magic/unholy/hand-fire-skeleton-pink.webp
+ownership:
+  default: 0
+  38Gfe7fp1EmVmZNj: 3
+flags:
+  plutonium:
+    page: spells.html
+    source: DoDk
+    hash: ray%20of%20contamination_dodk
+    propDroppable: spell
+effects: []
+folder: YZc3v7XiNFawHEhx
+_id: YDkiwuPprwfY9LqF
+sort: 0
+_stats:
+  systemId: dnd5e
+  systemVersion: 3.0.3
+  coreVersion: '13.345'
+  createdTime: 1709684304353
+  modifiedTime: 1709684366197
+  lastModifiedBy: 38Gfe7fp1EmVmZNj
+  compendiumSource: null
+  duplicateSource: null
+  exportSource: null
+_key: '!items!YDkiwuPprwfY9LqF'

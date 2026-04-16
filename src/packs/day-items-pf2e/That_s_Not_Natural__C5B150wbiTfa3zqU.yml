@@ -1,0 +1,80 @@
+img: icons/sundries/books/book-red-exclamation.webp
+name: That's Not Natural!
+system:
+  description:
+    gm: ''
+    value: >-
+      <p>Your mastery at surviving in the wild has given you a sort of
+      sixth-sense when it comes to noticing creatures that aren't part of the
+      natural order. You gain a +1 circumstance bonus to all initiative checks
+      made at the start of a battle in which at least one of your enemies is an
+      aberration, fey, mutant, or undead, or if one of your enemies is from a
+      plane other than the Material Plane, as long as the battle takes place in
+      a wilderness region. In wilderness regions, you also increase your
+      Perception DC by 1 against these types of creatures for the purposes of
+      resolving their Stealth checks. If you're master in Survival, this
+      circumstance bonus increases to +2.</p>
+
+      <p>If you know the
+      <em>@UUID[Compendium.pf2e.spells-srd.Item.7DN13ILADW2N9Z1t]{Commune}</em>
+      ritual, you can use Survival as a primary or secondary check to resolve
+      that ritual-if you do so, you gain a +2 circumstance bonus.</p>
+  rules: []
+  slug: thats-not-natural
+  _migration:
+    version: 0.94
+    previous:
+      schema: 0.939
+      foundry: '13.345'
+      system: 7.2.0
+  traits:
+    otherTags: []
+    value:
+      - general
+      - skill
+    rarity: rare
+  publication:
+    title: Pathfinder Kingmaker
+    authors: ''
+    license: OGL
+    remaster: false
+  level:
+    value: 4
+  category: skill
+  onlyLevel1: false
+  maxTakable: 1
+  actionType:
+    value: reaction
+  actions:
+    value: null
+  prerequisites:
+    value:
+      - value: expert in Survival
+  location: null
+  subfeatures:
+    proficiencies: {}
+    senses: {}
+    suppressedFeatures: []
+type: feat
+flags:
+  core: {}
+  scene-packer:
+    hash: ce5aba3800716749a025aaf2d7ce4734696af086
+effects: []
+folder: lVJfRR3nUB6MU7dI
+ownership:
+  default: 3
+  txZjek5EOiCBHPoz: 3
+_stats:
+  compendiumSource: Compendium.pf2e.feats-srd.Item.Jivt1iaqKfT6EcwV
+  duplicateSource: null
+  coreVersion: '13.346'
+  systemId: pf2e
+  systemVersion: 7.2.3
+  createdTime: 1718606591261
+  modifiedTime: 1752208111692
+  lastModifiedBy: txZjek5EOiCBHPoz
+  exportSource: null
+_id: C5B150wbiTfa3zqU
+sort: 150000
+_key: '!items!C5B150wbiTfa3zqU'

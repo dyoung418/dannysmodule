@@ -1,0 +1,154 @@
+name: Freedom of Movement
+type: spell
+system:
+  source:
+    custom: ''
+    book: PHB
+    page: '244'
+    license: ''
+  description:
+    value: >-
+      <div class="rd__b  rd__b--3"><p>You touch a willing creature. For the
+      duration, the target's movement is unaffected by difficult terrain, and
+      spells and other magical effects can neither reduce the target's speed nor
+      cause the target to be @condition[paralyzed] or
+      @condition[restrained].</p><div class="rd__spc-inline-post"></div><p>The
+      target can also spend 5 feet of movement to automatically escape from
+      nonmagical restraints, such as manacles or a creature that has it
+      @condition[grappled]. Finally, being underwater imposes no penalties on
+      the target's movement or attacks.</p></div><div><span
+      class="bold">Classes: </span>Artificer, Bard, Cleric, Druid, Ranger</div>
+    chat: ''
+  actionType: util
+  level: 4
+  school: abj
+  properties:
+    - vocal
+    - somatic
+    - material
+  materials:
+    value: a leather strap, bound around the arm or a similar appendage
+    consumed: false
+    cost: 0
+    supply: 0
+  target:
+    value: 1
+    units: touch
+    type: creature
+    prompt: true
+    width: null
+  range:
+    value: 0
+    units: touch
+    long: null
+  activation:
+    type: action
+    cost: 1
+    condition: ''
+  duration:
+    value: '1'
+    units: hour
+  damage:
+    parts: []
+    versatile: ''
+  scaling:
+    mode: none
+    formula: ''
+  save:
+    dc: null
+    scaling: spell
+    ability: ''
+  uses:
+    value: null
+    max: ''
+    per: null
+    recovery: ''
+    prompt: true
+  attackBonus: ''
+  chatFlavor: ''
+  critical:
+    threshold: null
+    damage: ''
+  formula: ''
+  preparation:
+    mode: prepared
+    prepared: false
+  consume:
+    type: ''
+    target: null
+    amount: null
+    scale: false
+  cover: null
+  crewed: false
+  ability: null
+img: icons/magic/control/debuff-chains-shackles-movement-purple.webp
+ownership:
+  default: 0
+  38Gfe7fp1EmVmZNj: 3
+flags:
+  plutonium:
+    page: spells.html
+    source: PHB
+    hash: freedom%20of%20movement_phb
+    propDroppable: spell
+effects:
+  - name: Freedom of Movement
+    origin: Compendium.dnd5e.spells.Item.da0a1t2FqaTjRZGT
+    duration:
+      value: null
+      units: seconds
+      expiry: null
+      expired: false
+    disabled: false
+    _id: OnWa3f4IQ3pneB5T
+    description: >-
+      <p>The target's Movement is unaffected by difficult terrain, and Spells
+      and other magical Effects can neither reduce the target's speed nor cause
+      the target to be Paralyzed or Restrained.</p>
+    transfer: false
+    statuses: []
+    flags:
+      plutonium:
+        dedupeId: freedom-of-movement
+    tint: '#ffffff'
+    _stats:
+      coreVersion: '14.359'
+      systemId: null
+      systemVersion: null
+      createdTime: null
+      modifiedTime: null
+      lastModifiedBy: null
+      compendiumSource: null
+      duplicateSource: null
+      exportSource: null
+    img: icons/magic/control/debuff-chains-shackles-movement-purple.webp
+    type: base
+    system:
+      changes:
+        - key: system.traits.di.value
+          value: paralyzed
+          priority: null
+          type: add
+        - key: system.traits.di.value
+          value: restrained
+          priority: null
+          type: add
+    sort: 0
+    start: null
+    showIcon: 1
+    folder: null
+    _key: '!items.effects!zJBTYoISCpsR69M9.OnWa3f4IQ3pneB5T'
+folder: aaCYL9CjTfzO9OWL
+_id: zJBTYoISCpsR69M9
+sort: 0
+_stats:
+  systemId: dnd5e
+  systemVersion: 3.0.2
+  coreVersion: '14.359'
+  createdTime: 1708228955689
+  modifiedTime: 1708229053839
+  lastModifiedBy: 38Gfe7fp1EmVmZNj
+  compendiumSource: null
+  duplicateSource: null
+  exportSource: null
+_key: '!items!zJBTYoISCpsR69M9'

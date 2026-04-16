@@ -1,0 +1,104 @@
+name: Borrowed Knowledge
+type: spell
+system:
+  source:
+    custom: ''
+    book: SCC
+    page: '37'
+    license: ''
+  description:
+    value: >-
+      <div class="rd__b  rd__b--3"><p>You draw on knowledge from spirits of the
+      past. Choose one skill in which you lack proficiency. For the spell's
+      duration, you have proficiency in the chosen skill. The spell ends early
+      if you cast it again.</p><div
+      class="rd__spc-inline-post"></div></div><div><span class="bold">Classes:
+      </span>Bard, Cleric, Warlock, Wizard</div>
+    chat: ''
+  actionType: util
+  level: 2
+  school: div
+  properties:
+    - vocal
+    - somatic
+    - material
+  materials:
+    value: a book worth at least 25 gp
+    consumed: false
+    cost: 25
+    supply: 0
+  target:
+    value: 0
+    units: self
+    type: self
+    prompt: true
+    width: null
+  range:
+    value: 0
+    units: self
+    long: null
+  activation:
+    type: action
+    cost: 1
+    condition: ''
+  duration:
+    value: '1'
+    units: hour
+  damage:
+    parts: []
+    versatile: ''
+  scaling:
+    mode: none
+    formula: ''
+  save:
+    dc: null
+    scaling: spell
+    ability: ''
+  uses:
+    value: null
+    max: ''
+    per: null
+    recovery: ''
+    prompt: true
+  attackBonus: ''
+  chatFlavor: ''
+  critical:
+    threshold: null
+    damage: ''
+  formula: ''
+  preparation:
+    mode: prepared
+    prepared: false
+  consume:
+    type: ''
+    target: null
+    amount: null
+    scale: false
+  cover: null
+  crewed: false
+  ability: null
+img: icons/magic/perception/third-eye-blue-red.webp
+ownership:
+  default: 0
+  38Gfe7fp1EmVmZNj: 3
+flags:
+  plutonium:
+    page: spells.html
+    source: SCC
+    hash: borrowed%20knowledge_scc
+    propDroppable: spell
+effects: []
+folder: oYyVYQLZDhEzl37h
+_id: Xwb4x1dLp0KrRB7r
+sort: 0
+_stats:
+  systemId: dnd5e
+  systemVersion: 3.0.2
+  coreVersion: '13.345'
+  createdTime: 1708228998327
+  modifiedTime: 1708229050063
+  lastModifiedBy: 38Gfe7fp1EmVmZNj
+  compendiumSource: null
+  duplicateSource: null
+  exportSource: null
+_key: '!items!Xwb4x1dLp0KrRB7r'

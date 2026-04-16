@@ -1,0 +1,112 @@
+folder: 0sHlxu87NFujfkup
+name: Echo Avatar
+type: feat
+_id: xAN7fIugJs3yODWA
+img: systems/dnd5e/icons/svg/items/feature.svg
+system:
+  description:
+    value: >-
+      <p><em>7th-level Echo Knight feature</em></p><p>You can temporarily
+      transfer your consciousness to your echo. As an action, you can see
+      through your echo’s eyes and hear through its ears. During this time, you
+      are deafened and blinded. You can sustain this effect for up to 10
+      minutes, and you can end it at any time (requires no action). While your
+      echo is being used in this way, it can be up to 1,000 feet away from you
+      without being destroyed.</p>
+    chat: ''
+  source:
+    revision: 1
+    rules: '2024'
+  uses:
+    max: ''
+    spent: 0
+    recovery: []
+  type:
+    value: class
+    subtype: ''
+  properties: []
+  requirements: Fighter 7 (Echo Knight)
+  activities:
+    dnd5eactivity000:
+      _id: dnd5eactivity000
+      type: utility
+      activation:
+        type: action
+        value: null
+        condition: ''
+        override: false
+      consumption:
+        targets: []
+        scaling:
+          allowed: false
+          max: ''
+        spellSlot: true
+      description:
+        chatFlavor: ''
+      duration:
+        concentration: false
+        value: '10'
+        units: minute
+        special: ''
+        override: false
+      effects: []
+      range:
+        value: '1000'
+        units: ft
+        special: ''
+        override: false
+      target:
+        template:
+          count: ''
+          contiguous: false
+          type: ''
+          size: ''
+          width: ''
+          height: ''
+          units: ''
+        affects:
+          count: ''
+          type: ''
+          choice: false
+          special: ''
+        prompt: true
+        override: false
+      uses:
+        spent: 0
+        max: ''
+        recovery: []
+      roll:
+        formula: ''
+        name: ''
+        prompt: false
+        visible: false
+      sort: 0
+  identifier: echo-avatar
+  enchant: {}
+  prerequisites:
+    level: null
+    repeatable: false
+  advancement: []
+  crewed: false
+effects: []
+sort: 100000
+ownership:
+  default: 0
+  38Gfe7fp1EmVmZNj: 3
+flags:
+  dnd5e:
+    persistSourceMigration: true
+    riders:
+      activity: []
+      effect: []
+_stats:
+  systemId: dnd5e
+  systemVersion: 5.0.4
+  coreVersion: '13.346'
+  createdTime: 1709682535525
+  modifiedTime: 1752197371435
+  lastModifiedBy: 1pY4akW8WASxGBbA
+  compendiumSource: null
+  duplicateSource: null
+  exportSource: null
+_key: '!items!xAN7fIugJs3yODWA'

@@ -1,0 +1,115 @@
+name: Mirror Image
+type: spell
+system:
+  source:
+    custom: ''
+    book: PHB
+    page: '260'
+    license: ''
+  description:
+    value: >-
+      <div class="rd__b  rd__b--3"><p>Three illusory duplicates of yourself
+      appear in your space. Until the spell ends, the duplicates move with you
+      and mimic your actions, shifting position so it's impossible to track
+      which image is real. You can use your action to dismiss the illusory
+      duplicates.</p><div class="rd__spc-inline-post"></div><p>Each time a
+      creature targets you with an attack during the spell's duration, roll a
+      [[/r d20]] to determine whether the attack instead targets one of your
+      duplicates.</p><p>If you have three duplicates, you must roll a 6 or
+      higher to change the attack's target to a duplicate. With two duplicates,
+      you must roll an 8 or higher. With one duplicate, you must roll an 11 or
+      higher.</p><p>A duplicate's AC equals 10 + your Dexterity modifier. If an
+      attack hits a duplicate, the duplicate is destroyed. A duplicate can be
+      destroyed only by an attack that hits it. It ignores all other damage and
+      effects. The spell ends when all three duplicates are destroyed.</p><p>A
+      creature is unaffected by this spell if it can't see, if it relies on
+      senses other than sight, such as blindsight, or if it can perceive
+      illusions as false, as with @sense[truesight].</p></div><div><span
+      class="bold">Classes: </span>Sorcerer, Warlock, Wizard</div>
+    chat: ''
+  actionType: util
+  level: 2
+  school: ill
+  properties:
+    - vocal
+    - somatic
+  materials:
+    value: ''
+    consumed: false
+    cost: 0
+    supply: 0
+  target:
+    value: 0
+    units: self
+    type: self
+    prompt: true
+    width: null
+  range:
+    value: 0
+    units: self
+    long: null
+  activation:
+    type: action
+    cost: 1
+    condition: ''
+  duration:
+    value: '1'
+    units: minute
+  damage:
+    parts: []
+    versatile: ''
+  scaling:
+    mode: none
+    formula: ''
+  save:
+    dc: null
+    scaling: spell
+    ability: ''
+  uses:
+    value: null
+    max: ''
+    per: null
+    recovery: ''
+    prompt: true
+  attackBonus: ''
+  chatFlavor: ''
+  critical:
+    threshold: null
+    damage: ''
+  formula: ''
+  preparation:
+    mode: prepared
+    prepared: false
+  consume:
+    type: ''
+    target: null
+    amount: null
+    scale: false
+  cover: null
+  crewed: false
+  ability: null
+img: icons/sundries/gaming/chess-pawn-white-glass.webp
+ownership:
+  default: 0
+  38Gfe7fp1EmVmZNj: 3
+flags:
+  plutonium:
+    page: spells.html
+    source: PHB
+    hash: mirror%20image_phb
+    propDroppable: spell
+effects: []
+folder: oYyVYQLZDhEzl37h
+_id: TdCOEXhOCu9c7hxk
+sort: 0
+_stats:
+  systemId: dnd5e
+  systemVersion: 3.0.2
+  coreVersion: '13.345'
+  createdTime: 1708228997923
+  modifiedTime: 1708229050063
+  lastModifiedBy: 38Gfe7fp1EmVmZNj
+  compendiumSource: null
+  duplicateSource: null
+  exportSource: null
+_key: '!items!TdCOEXhOCu9c7hxk'

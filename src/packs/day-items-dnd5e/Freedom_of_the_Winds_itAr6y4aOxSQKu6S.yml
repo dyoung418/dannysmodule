@@ -1,0 +1,110 @@
+name: Freedom of the Winds
+type: spell
+system:
+  source:
+    custom: ''
+    book: TDCSR
+    page: '176'
+    license: ''
+  description:
+    value: >-
+      <div class="rd__b  rd__b--3"><p>Wind wraps around your body, tugging at
+      your hair and clothing as your feet lift off the ground. You gain a flying
+      speed of 60 feet. Additionally, you have advantage on ability checks to
+      avoid being @condition[grappled], and on saving throws against being
+      @condition[restrained] or @condition[paralyzed].</p><div
+      class="rd__spc-inline-post"></div><p>When you are targeted by a spell or
+      attack while this spell is in effect, you can use a reaction to teleport
+      up to 60 feet to an unoccupied space you can see. If this movement takes
+      you out of range of the triggering spell or attack, you are unaffected by
+      it. This spell then ends when you reappear.</p></div><div><span
+      class="bold">Classes: </span>Druid, Ranger, Sorcerer</div>
+    chat: ''
+  actionType: util
+  level: 5
+  school: abj
+  properties:
+    - vocal
+    - somatic
+    - material
+    - concentration
+  materials:
+    value: a scrap of sailcloth
+    consumed: false
+    cost: 0
+    supply: 0
+  target:
+    value: 0
+    units: self
+    type: self
+    prompt: true
+    width: null
+  range:
+    value: 0
+    units: self
+    long: null
+  activation:
+    type: action
+    cost: 1
+    condition: ''
+  duration:
+    value: '10'
+    units: minute
+  damage:
+    parts: []
+    versatile: ''
+  scaling:
+    mode: none
+    formula: ''
+  save:
+    dc: null
+    scaling: spell
+    ability: ''
+  uses:
+    value: null
+    max: ''
+    per: null
+    recovery: ''
+    prompt: true
+  attackBonus: ''
+  chatFlavor: ''
+  critical:
+    threshold: null
+    damage: ''
+  formula: ''
+  preparation:
+    mode: prepared
+    prepared: false
+  consume:
+    type: ''
+    target: null
+    amount: null
+    scale: false
+  cover: null
+  crewed: false
+  ability: null
+img: icons/magic/defensive/shield-barrier-blue.webp
+ownership:
+  default: 0
+  38Gfe7fp1EmVmZNj: 3
+flags:
+  plutonium:
+    page: spells.html
+    source: TDCSR
+    hash: freedom%20of%20the%20winds_tdcsr
+    propDroppable: spell
+effects: []
+folder: xgHrtKIAtE3kEzFX
+_id: itAr6y4aOxSQKu6S
+sort: 0
+_stats:
+  systemId: dnd5e
+  systemVersion: 3.0.2
+  coreVersion: '13.345'
+  createdTime: 1708227517694
+  modifiedTime: 1708227533976
+  lastModifiedBy: 38Gfe7fp1EmVmZNj
+  compendiumSource: null
+  duplicateSource: null
+  exportSource: null
+_key: '!items!itAr6y4aOxSQKu6S'

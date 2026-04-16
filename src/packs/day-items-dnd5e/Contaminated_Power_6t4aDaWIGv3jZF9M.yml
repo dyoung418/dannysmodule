@@ -1,0 +1,152 @@
+name: Contaminated Power
+type: spell
+system:
+  source:
+    custom: ''
+    book: DoDk
+    page: '226'
+    license: ''
+    revision: 1
+    rules: '2024'
+  description:
+    value: >-
+      <div class="rd__b  rd__b--3"><p>When you cast this spell, you gain one <a
+      href="https://5etools-mirror-2.github.io/adventure.html#DoDk,12">level of
+      contamination</a>. You draw unrestrained arcane magic from the delerium
+      shard you hold in your hand. Until the spell ends, you gain the following
+      benefits:</p><div class="rd__spc-inline-post"></div><ul
+      class="rd__list"><li class="rd__li ">When you cast a spell that deals
+      acid, fire, cold, lightning, or poison damage, you can change the damage
+      type to force, necrotic, psychic, or radiant damage.</li><li class="rd__li
+      ">Once per turn when you deal damage with a spell, you can deal an extra
+      [[/r 1d12]] necrotic damage for each <a
+      href="https://5etools-mirror-2.github.io/adventure.html#DoDk,12">contamination
+      level</a> you have gained to one target of that spell.</li><li
+      class="rd__li ">When you cast a spell that forces a creature to make a
+      saving throw to resist its effects, you can choose to gain one <a
+      href="https://5etools-mirror-2.github.io/adventure.html#DoDk,12">level of
+      contamination</a>. If you do, one target of the spell has disadvantage on
+      its first saving throw made against that spell.</li></ul><p>This spell
+      can't be dispelled by @spell[dispel magic].</p></div>
+    chat: ''
+  level: 8
+  school: trs
+  properties:
+    - vocal
+    - somatic
+    - material
+  materials:
+    value: a delerium shard worth 500 gp, which the spell consumes
+    consumed: true
+    cost: 500
+    supply: 0
+  target:
+    affects:
+      type: self
+      count: '0'
+      choice: false
+    template:
+      units: self
+      contiguous: false
+  range:
+    value: '0'
+    units: self
+  activation:
+    type: bonus
+    condition: ''
+    value: 1
+  duration:
+    value: '1'
+    units: minute
+  uses:
+    max: ''
+    spent: 0
+    recovery: []
+  preparation:
+    mode: prepared
+    prepared: false
+  activities:
+    dnd5eactivity000:
+      _id: dnd5eactivity000
+      type: damage
+      activation:
+        type: action
+        value: null
+        override: false
+      consumption:
+        targets: []
+        scaling:
+          allowed: false
+          max: ''
+        spellSlot: true
+      description:
+        chatFlavor: ''
+      duration:
+        units: inst
+        concentration: false
+        override: false
+      effects: []
+      range:
+        override: false
+        units: self
+      target:
+        prompt: true
+        template:
+          contiguous: false
+          units: ft
+        affects:
+          choice: false
+        override: false
+      uses:
+        spent: 0
+        max: ''
+        recovery: []
+      damage:
+        critical:
+          allow: false
+          bonus: ''
+        parts:
+          - number: 1
+            denomination: 12
+            bonus: ''
+            types:
+              - necrotic
+            custom:
+              enabled: false
+              formula: ''
+            scaling:
+              mode: ''
+              number: null
+              formula: ''
+      sort: 0
+  identifier: contaminated-power
+img: icons/magic/movement/abstract-ribbons-red-orange.webp
+ownership:
+  default: 0
+  38Gfe7fp1EmVmZNj: 3
+flags:
+  plutonium:
+    page: spells.html
+    source: DoDk
+    hash: contaminated%20power_dodk
+    propDroppable: spell
+  dnd5e:
+    persistSourceMigration: true
+    riders:
+      activity: []
+      effect: []
+effects: []
+folder: MPJYAqSTQHr6QzkQ
+_id: 6t4aDaWIGv3jZF9M
+sort: 0
+_stats:
+  systemId: dnd5e
+  systemVersion: 5.0.4
+  coreVersion: '13.346'
+  createdTime: 1709684304292
+  modifiedTime: 1752197371435
+  lastModifiedBy: 1pY4akW8WASxGBbA
+  compendiumSource: null
+  duplicateSource: null
+  exportSource: null
+_key: '!items!6t4aDaWIGv3jZF9M'

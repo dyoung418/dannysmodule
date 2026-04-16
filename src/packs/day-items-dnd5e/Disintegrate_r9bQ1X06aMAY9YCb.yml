@@ -1,0 +1,122 @@
+name: Disintegrate
+type: spell
+system:
+  source:
+    custom: ''
+    book: PHB
+    page: '233'
+    license: ''
+  description:
+    value: >-
+      <div class="rd__b  rd__b--3"><p>A thin green ray springs from your
+      pointing finger to a target that you can see within range. The target can
+      be a creature, an object, or a creation of magical force, such as the wall
+      created by @spell[wall of force].</p><div
+      class="rd__spc-inline-post"></div><p>A creature targeted by this spell
+      must make a Dexterity saving throw. On a failed save, the target takes
+      [[/r 10d6 + 40]] force damage. The target is disintegrated if this damage
+      leaves it with 0 hit points.</p><p>A disintegrated creature and everything
+      it is wearing and carrying, except magic items, are reduced to a pile of
+      fine gray dust. The creature can be restored to life only by means of a
+      @spell[true resurrection] or a @spell[wish] spell.</p><p>This spell
+      automatically disintegrates a Large or smaller nonmagical object or a
+      creation of magical force. If the target is a Huge or larger object or
+      creation of force, this spell disintegrates a 10-foot-cube portion of it.
+      A magic item is unaffected by this spell.</p></div><div class="rd__b 
+      rd__b--3"><div class="rd__b  rd__b--3"><span class="rd__h rd__h--3"
+      data-title-index="1"> <span class="entry-title-inner">At Higher
+      Levels.</span></span> <p>When you cast this spell using a spell slot of
+      7th level or higher, the damage increases by [[/r 3d6]] for each slot
+      level above 6th.</p><div class="rd__spc-inline-post"></div></div><div
+      class="rd__spc-inline-post"></div></div><div><span class="bold">Classes:
+      </span>Sorcerer, Wizard</div>
+    chat: ''
+  actionType: save
+  level: 6
+  school: trs
+  properties:
+    - vocal
+    - somatic
+    - material
+  materials:
+    value: a lodestone and a pinch of dust
+    consumed: false
+    cost: 0
+    supply: 0
+  target:
+    value: 1
+    units: ''
+    type: creature
+    prompt: true
+    width: null
+  range:
+    value: 60
+    units: ft
+    long: null
+  activation:
+    type: action
+    cost: 1
+    condition: ''
+  duration:
+    value: ''
+    units: inst
+  damage:
+    parts:
+      - - 10d6 + 40
+        - force
+    versatile: ''
+  scaling:
+    mode: level
+    formula: 3d6
+  save:
+    ability: dex
+    dc: null
+    scaling: spell
+  uses:
+    value: null
+    max: ''
+    per: null
+    recovery: ''
+    prompt: true
+  attackBonus: ''
+  chatFlavor: ''
+  critical:
+    threshold: null
+    damage: ''
+  formula: ''
+  preparation:
+    mode: prepared
+    prepared: false
+  consume:
+    type: ''
+    target: null
+    amount: null
+    scale: false
+  cover: null
+  crewed: false
+  ability: null
+img: icons/magic/earth/strike-body-stone-crumble.webp
+ownership:
+  default: 0
+  38Gfe7fp1EmVmZNj: 3
+flags:
+  plutonium:
+    page: spells.html
+    source: PHB
+    hash: disintegrate_phb
+    propDroppable: spell
+effects: []
+folder: YZc3v7XiNFawHEhx
+_id: r9bQ1X06aMAY9YCb
+sort: 0
+_stats:
+  systemId: dnd5e
+  systemVersion: 3.0.3
+  coreVersion: '13.345'
+  createdTime: 1709684305137
+  modifiedTime: 1709684366197
+  lastModifiedBy: 38Gfe7fp1EmVmZNj
+  compendiumSource: null
+  duplicateSource: null
+  exportSource: null
+_key: '!items!r9bQ1X06aMAY9YCb'

@@ -1,0 +1,111 @@
+name: Sacrament of the Falling Fire
+type: spell
+system:
+  source:
+    custom: ''
+    book: DoDk
+    page: '229'
+    license: ''
+  description:
+    value: >-
+      <div class="rd__b  rd__b--3"><p>This spell may only be cast in an area
+      covered by the Deep Haze.</p><div class="rd__spc-inline-post"></div><p>You
+      perform a holy ceremony involving up to 12 faithful and willing humanoid
+      creatures that ends when each participating creature drives a delerium
+      shard into their chest. Those creatures become sanctified (see the
+      Followers of the Falling Fire dossier in chapter 3 of Dungeons of
+      Drakkenheim).</p><p>When you finish casting this spell, a hostile
+      @creature[shadow] appears and attacks each participant, as a manifestation
+      of that character's inner darkness. The GM may determine that a character
+      who carries great anger, fear, or hate in their heart causes a
+      @creature[wraith] to manifest instead.</p></div>
+    chat: ''
+  actionType: util
+  level: 9
+  school: abj
+  properties:
+    - vocal
+    - somatic
+    - material
+  materials:
+    value: >-
+      a delerium fragment worth 100 gp for each participating creature, which
+      the spell consumes
+    consumed: true
+    cost: 100
+    supply: 0
+  target:
+    value: 0
+    units: ''
+    type: ''
+    prompt: true
+    width: null
+  range:
+    value: 30
+    units: ft
+    long: null
+  activation:
+    type: hour
+    cost: 1
+    condition: ''
+  duration:
+    value: ''
+    units: inst
+  damage:
+    parts: []
+    versatile: ''
+  scaling:
+    mode: none
+    formula: ''
+  save:
+    dc: null
+    scaling: spell
+    ability: ''
+  uses:
+    value: null
+    max: ''
+    per: null
+    recovery: ''
+    prompt: true
+  attackBonus: ''
+  chatFlavor: ''
+  critical:
+    threshold: null
+    damage: ''
+  formula: ''
+  preparation:
+    mode: prepared
+    prepared: false
+  consume:
+    type: ''
+    target: null
+    amount: null
+    scale: false
+  cover: null
+  crewed: false
+  ability: null
+img: icons/magic/defensive/shield-barrier-blue.webp
+ownership:
+  default: 0
+  38Gfe7fp1EmVmZNj: 3
+flags:
+  plutonium:
+    page: spells.html
+    source: DoDk
+    hash: sacrament%20of%20the%20falling%20fire_dodk
+    propDroppable: spell
+effects: []
+folder: 1CtZ32VkNkomb6Oe
+_id: tLrTNYKpnWeC0y31
+sort: 0
+_stats:
+  systemId: dnd5e
+  systemVersion: 3.0.2
+  coreVersion: '13.345'
+  createdTime: 1708228997308
+  modifiedTime: 1708229050063
+  lastModifiedBy: 38Gfe7fp1EmVmZNj
+  compendiumSource: null
+  duplicateSource: null
+  exportSource: null
+_key: '!items!tLrTNYKpnWeC0y31'

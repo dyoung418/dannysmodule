@@ -1,0 +1,115 @@
+name: Levitate
+type: spell
+system:
+  source:
+    custom: ''
+    book: PHB
+    page: '255'
+    license: ''
+  description:
+    value: >-
+      <div class="rd__b  rd__b--3"><p>One creature or loose object of your
+      choice that you can see within range rises vertically, up to 20 feet, and
+      remains suspended there for the duration. The spell can levitate a target
+      that weighs up to 500 pounds. An unwilling creature that succeeds on a
+      Constitution saving throw is unaffected.</p><div
+      class="rd__spc-inline-post"></div><p>The target can move only by pushing
+      or pulling against a fixed object or surface within reach (such as a wall
+      or a ceiling), which allows it to move as if it were climbing. You can
+      change the target's altitude by up to 20 feet in either direction on your
+      turn. If you are the target, you can move up or down as part of your move.
+      Otherwise, you can use your action to move the target, which must remain
+      within the spell's range.</p><p>When the spell ends, the target floats
+      gently to the ground if it is still aloft.</p></div><div><span
+      class="bold">Classes: </span>Artificer, Sorcerer, Wizard</div>
+    chat: ''
+  actionType: save
+  level: 2
+  school: trs
+  properties:
+    - vocal
+    - somatic
+    - material
+    - concentration
+  materials:
+    value: >-
+      either a small leather loop or a piece of golden wire bent into a cup
+      shape with a long shank on one end
+    consumed: false
+    cost: 0
+    supply: 0
+  target:
+    value: 1
+    units: ''
+    type: creature
+    prompt: true
+    width: null
+  range:
+    value: 60
+    units: ft
+    long: null
+  activation:
+    type: action
+    cost: 1
+    condition: ''
+  duration:
+    value: '10'
+    units: minute
+  damage:
+    parts: []
+    versatile: ''
+  scaling:
+    mode: none
+    formula: ''
+  save:
+    ability: con
+    dc: null
+    scaling: spell
+  uses:
+    value: null
+    max: ''
+    per: null
+    recovery: ''
+    prompt: true
+  attackBonus: ''
+  chatFlavor: ''
+  critical:
+    threshold: null
+    damage: ''
+  formula: ''
+  preparation:
+    mode: prepared
+    prepared: false
+  consume:
+    type: ''
+    target: null
+    amount: null
+    scale: false
+  cover: null
+  crewed: false
+  ability: null
+img: icons/skills/movement/arrow-upward-yellow.webp
+ownership:
+  default: 0
+  38Gfe7fp1EmVmZNj: 3
+flags:
+  plutonium:
+    page: spells.html
+    source: PHB
+    hash: levitate_phb
+    propDroppable: spell
+effects: []
+folder: mgLDxy1J2PuOM31n
+_id: MIy9lmuXHcTHFCr4
+sort: 0
+_stats:
+  systemId: dnd5e
+  systemVersion: 3.0.3
+  coreVersion: '13.345'
+  createdTime: 1709684305552
+  modifiedTime: 1709684366197
+  lastModifiedBy: 38Gfe7fp1EmVmZNj
+  compendiumSource: null
+  duplicateSource: null
+  exportSource: null
+_key: '!items!MIy9lmuXHcTHFCr4'

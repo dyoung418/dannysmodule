@@ -1,0 +1,132 @@
+name: Gentle Repose
+type: spell
+system:
+  source:
+    custom: ''
+    book: PHB
+    page: '245'
+    license: ''
+    revision: 1
+    rules: '2024'
+  description:
+    value: >-
+      <div class="rd__b  rd__b--3"><p>You touch a corpse or other remains. For
+      the duration, the target is protected from decay and can't become
+      undead.</p><div class="rd__spc-inline-post"></div><p>The spell also
+      effectively extends the time limit on raising the target from the dead,
+      since days spent under the influence of this spell don't count against the
+      time limit of spells such as @spell[raise dead].</p></div><div><span
+      class="bold">Classes: </span>Cleric, Wizard</div>
+    chat: ''
+  level: 2
+  school: nec
+  properties:
+    - vocal
+    - somatic
+    - material
+    - ritual
+  materials:
+    value: >-
+      a pinch of salt and one copper piece placed on each of the corpse's eyes,
+      which must remain there for the duration
+    consumed: false
+    cost: 0
+    supply: 0
+  target:
+    affects:
+      type: creature
+      count: '1'
+      choice: false
+    template:
+      units: touch
+      contiguous: false
+  range:
+    value: '0'
+    units: touch
+  activation:
+    type: action
+    condition: ''
+    value: 1
+  duration:
+    value: '10'
+    units: day
+  uses:
+    max: ''
+    spent: 0
+    recovery: []
+  preparation:
+    mode: prepared
+    prepared: false
+  activities:
+    dnd5eactivity000:
+      _id: dnd5eactivity000
+      type: utility
+      activation:
+        type: action
+        value: null
+        override: false
+      consumption:
+        targets: []
+        scaling:
+          allowed: false
+          max: ''
+        spellSlot: true
+      description:
+        chatFlavor: ''
+      duration:
+        units: inst
+        concentration: false
+        override: false
+      effects: []
+      range:
+        override: false
+        units: self
+      target:
+        prompt: true
+        template:
+          contiguous: false
+          units: ft
+        affects:
+          choice: false
+        override: false
+      uses:
+        spent: 0
+        max: ''
+        recovery: []
+      roll:
+        formula: ''
+        name: ''
+        prompt: false
+        visible: false
+      sort: 0
+  identifier: gentle-repose
+img: icons/magic/life/heart-area-circle-red-green.webp
+ownership:
+  default: 0
+  38Gfe7fp1EmVmZNj: 3
+flags:
+  plutonium:
+    page: spells.html
+    source: PHB
+    hash: gentle%20repose_phb
+    propDroppable: spell
+  dnd5e:
+    persistSourceMigration: true
+    riders:
+      activity: []
+      effect: []
+effects: []
+folder: 5RW3khzmlcXrGJ9s
+_id: ZhjRNZI2OyAmDmKR
+sort: 0
+_stats:
+  systemId: dnd5e
+  systemVersion: 5.0.4
+  coreVersion: '13.346'
+  createdTime: 1709684305385
+  modifiedTime: 1752197371435
+  lastModifiedBy: 1pY4akW8WASxGBbA
+  compendiumSource: null
+  duplicateSource: null
+  exportSource: null
+_key: '!items!ZhjRNZI2OyAmDmKR'

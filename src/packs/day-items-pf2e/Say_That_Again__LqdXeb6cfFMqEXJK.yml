@@ -1,0 +1,79 @@
+_id: LqdXeb6cfFMqEXJK
+img: icons/sundries/books/book-red-exclamation.webp
+name: Say That Again!
+system:
+  description:
+    gm: ''
+    value: >-
+      <p><strong>Trigger</strong> An opponent gets a critical failure when
+      attempting to
+      @UUID[Compendium.pf2e.actionspf2e.Item.2u915NdUyQan6uKF]{Demoralize} you
+      or Lie to you.</p>
+
+      <hr />
+
+      <p>The world is full of obnoxious weasels who think they can pull one over
+      on you-put them in their place! When an adjacent creature attempts to Lie
+      to you or to Demoralize you and gets a critical failure on the roll, you
+      can use your reaction to make a
+      @UUID[Compendium.pf2e.actionspf2e.Item.7blmbDrQFNfdT731]{Shove} attempt
+      against that opponent. If combat results, you can roll Intimidation for
+      your initiative check.</p>
+  rules: []
+  slug: say-that-again
+  _migration:
+    version: 0.94
+    previous:
+      schema: 0.939
+      foundry: '13.345'
+      system: 7.2.0
+  traits:
+    otherTags: []
+    value:
+      - general
+      - skill
+    rarity: rare
+  publication:
+    title: Pathfinder Kingmaker
+    authors: ''
+    license: OGL
+    remaster: false
+  level:
+    value: 6
+  category: skill
+  onlyLevel1: false
+  maxTakable: 1
+  actionType:
+    value: reaction
+  actions:
+    value: null
+  prerequisites:
+    value:
+      - value: expert in Athletics
+  location: null
+  subfeatures:
+    proficiencies: {}
+    senses: {}
+    suppressedFeatures: []
+type: feat
+flags:
+  core: {}
+  scene-packer:
+    hash: 102c44a2699dd398d3417799185fb88bf66da60e
+effects: []
+folder: lVJfRR3nUB6MU7dI
+sort: 137500
+ownership:
+  default: 3
+  txZjek5EOiCBHPoz: 3
+_stats:
+  compendiumSource: Compendium.pf2e.feats-srd.Item.hAsaNx1dd3xvvAsE
+  duplicateSource: null
+  coreVersion: '13.346'
+  systemId: pf2e
+  systemVersion: 7.2.3
+  createdTime: 1718606591261
+  modifiedTime: 1752208111692
+  lastModifiedBy: txZjek5EOiCBHPoz
+  exportSource: null
+_key: '!items!LqdXeb6cfFMqEXJK'

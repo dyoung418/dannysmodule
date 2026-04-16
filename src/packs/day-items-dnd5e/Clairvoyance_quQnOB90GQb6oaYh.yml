@@ -1,0 +1,114 @@
+name: Clairvoyance
+type: spell
+system:
+  source:
+    custom: ''
+    book: PHB
+    page: '222'
+    license: ''
+  description:
+    value: >-
+      <div class="rd__b  rd__b--3"><p>You create an invisible sensor within
+      range in a location familiar to you (a place you have visited or seen
+      before) or in an obvious location that is unfamiliar to you (such as
+      behind a door, around a corner, or in a grove of trees). The sensor
+      remains in place for the duration, and it can't be attacked or otherwise
+      interacted with.</p><div class="rd__spc-inline-post"></div><p>When you
+      cast the spell, you choose seeing or hearing. You can use the chosen sense
+      through the sensor as if you were in its space. As your action, you can
+      switch between seeing and hearing.</p><p>A creature that can see the
+      sensor (such as a creature benefiting from @spell[see invisibility] or
+      @sense[truesight]) sees a luminous, intangible orb about the size of your
+      fist.</p></div><div><span class="bold">Classes: </span>Bard, Cleric,
+      Sorcerer, Wizard</div>
+    chat: ''
+  actionType: util
+  level: 3
+  school: div
+  properties:
+    - vocal
+    - somatic
+    - material
+    - concentration
+  materials:
+    value: >-
+      a focus worth at least 100 gp, either a jeweled horn for hearing or a
+      glass eye for seeing
+    consumed: false
+    cost: 100
+    supply: 0
+  target:
+    value: 0
+    units: any
+    type: space
+    prompt: true
+    width: null
+  range:
+    value: 1
+    units: mi
+    long: null
+  activation:
+    type: minute
+    cost: 10
+    condition: ''
+  duration:
+    value: '10'
+    units: minute
+  damage:
+    parts: []
+    versatile: ''
+  scaling:
+    mode: none
+    formula: ''
+  save:
+    dc: null
+    scaling: spell
+    ability: ''
+  uses:
+    value: null
+    max: ''
+    per: null
+    recovery: ''
+    prompt: true
+  attackBonus: ''
+  chatFlavor: ''
+  critical:
+    threshold: null
+    damage: ''
+  formula: ''
+  preparation:
+    mode: prepared
+    prepared: false
+  consume:
+    type: ''
+    target: null
+    amount: null
+    scale: false
+  cover: null
+  crewed: false
+  ability: null
+img: icons/magic/perception/orb-crystal-ball-scrying.webp
+ownership:
+  default: 0
+  38Gfe7fp1EmVmZNj: 3
+flags:
+  plutonium:
+    page: spells.html
+    source: PHB
+    hash: clairvoyance_phb
+    propDroppable: spell
+effects: []
+folder: 6bqSE9R3xLCM19nC
+_id: quQnOB90GQb6oaYh
+sort: 0
+_stats:
+  systemId: dnd5e
+  systemVersion: 3.0.2
+  coreVersion: '13.345'
+  createdTime: 1708228997426
+  modifiedTime: 1708229050063
+  lastModifiedBy: 38Gfe7fp1EmVmZNj
+  compendiumSource: null
+  duplicateSource: null
+  exportSource: null
+_key: '!items!quQnOB90GQb6oaYh'

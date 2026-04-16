@@ -1,0 +1,134 @@
+name: Power Word Heal
+type: spell
+system:
+  source:
+    custom: ''
+    book: PHB
+    page: '266'
+    license: ''
+    revision: 1
+    rules: '2024'
+  description:
+    value: >-
+      <div class="rd__b  rd__b--3"><p>A wave of healing energy washes over the
+      creature you touch. The target regains all its hit points. If the creature
+      is @condition[charmed], @condition[frightened], @condition[paralyzed], or
+      @condition[stunned], the condition ends. If the creature is
+      @condition[prone], it can use its reaction to stand up. This spell has no
+      effect on undead or constructs.</p><div
+      class="rd__spc-inline-post"></div></div><div><span class="bold">Classes:
+      </span>Bard</div>
+    chat: ''
+  level: 9
+  school: evo
+  properties:
+    - vocal
+    - somatic
+  materials:
+    value: ''
+    consumed: false
+    cost: 0
+    supply: 0
+  target:
+    affects:
+      choice: false
+    template:
+      units: touch
+      contiguous: false
+  range:
+    value: '0'
+    units: touch
+  activation:
+    type: action
+    condition: ''
+    value: 1
+  duration:
+    value: ''
+    units: inst
+  uses:
+    max: ''
+    spent: 0
+    recovery: []
+  preparation:
+    mode: prepared
+    prepared: false
+  activities:
+    dnd5eactivity000:
+      _id: dnd5eactivity000
+      type: heal
+      activation:
+        type: action
+        override: false
+      consumption:
+        targets: []
+        scaling:
+          allowed: false
+          max: ''
+        spellSlot: true
+      description:
+        chatFlavor: ''
+      duration:
+        units: inst
+        concentration: false
+        override: false
+      effects: []
+      range:
+        units: self
+        override: false
+      target:
+        prompt: true
+        template:
+          contiguous: false
+          units: ft
+        affects:
+          choice: false
+        override: false
+      uses:
+        spent: 0
+        max: ''
+        recovery: []
+      healing:
+        number: null
+        denomination: null
+        bonus: ''
+        types:
+          - healing
+        custom:
+          enabled: false
+          formula: ''
+        scaling:
+          mode: ''
+          number: null
+          formula: ''
+      sort: 0
+  identifier: power-word-heal
+img: icons/magic/life/heart-cross-strong-flame-blue.webp
+ownership:
+  default: 0
+  38Gfe7fp1EmVmZNj: 3
+flags:
+  plutonium:
+    page: spells.html
+    source: PHB
+    hash: power%20word%20heal_phb
+    propDroppable: spell
+  dnd5e:
+    persistSourceMigration: true
+    riders:
+      activity: []
+      effect: []
+effects: []
+folder: 1CtZ32VkNkomb6Oe
+_id: X486V5kpQa4bAB1p
+sort: 0
+_stats:
+  systemId: dnd5e
+  systemVersion: 5.0.4
+  coreVersion: '13.346'
+  createdTime: 1708227629081
+  modifiedTime: 1752197371435
+  lastModifiedBy: 1pY4akW8WASxGBbA
+  compendiumSource: null
+  duplicateSource: null
+  exportSource: null
+_key: '!items!X486V5kpQa4bAB1p'

@@ -1,0 +1,107 @@
+name: Lightning Lure
+type: spell
+system:
+  source:
+    custom: ''
+    book: TCE
+    page: '107'
+    license: ''
+  description:
+    value: >-
+      <div class="rd__b  rd__b--3"><p>You create a lash of lightning energy that
+      strikes at one creature of your choice that you can see within 15 feet of
+      you. The target must succeed on a Strength saving throw or be pulled up to
+      10 feet in a straight line toward you and then take [[/r 1d8]] lightning
+      damage if it is within 5 feet of you.</p><div
+      class="rd__spc-inline-post"></div><p>This spell's damage increases by [[/r
+      1d8]] when you reach 5th level ([[/r 2d8]]), 11th level ([[/r 3d8]]), and
+      17th level ([[/r 4d8]]).</p></div><div><span class="bold">Classes:
+      </span>Artificer, Sorcerer, Warlock, Wizard</div>
+    chat: ''
+  actionType: save
+  level: 0
+  school: evo
+  properties:
+    - vocal
+  materials:
+    value: ''
+    consumed: false
+    cost: 0
+    supply: 0
+  target:
+    value: 1
+    units: ''
+    type: creature
+    prompt: true
+    width: null
+  range:
+    value: 0
+    units: ''
+    long: null
+  activation:
+    type: action
+    cost: 1
+    condition: ''
+  duration:
+    value: ''
+    units: inst
+  damage:
+    parts:
+      - - 1d8
+        - lightning
+    versatile: ''
+  scaling:
+    mode: cantrip
+    formula: 1d8
+  save:
+    ability: str
+    dc: null
+    scaling: spell
+  uses:
+    value: null
+    max: ''
+    per: null
+    recovery: ''
+    prompt: true
+  attackBonus: ''
+  chatFlavor: ''
+  critical:
+    threshold: null
+    damage: ''
+  formula: ''
+  preparation:
+    mode: always
+    prepared: false
+  consume:
+    type: ''
+    target: null
+    amount: null
+    scale: false
+  cover: null
+  crewed: false
+  ability: null
+img: icons/magic/lightning/bolt-strike-sparks-teal.webp
+ownership:
+  default: 0
+  38Gfe7fp1EmVmZNj: 3
+flags:
+  plutonium:
+    page: spells.html
+    source: TCE
+    hash: lightning%20lure_tce
+    propDroppable: spell
+effects: []
+folder: dYHM8VXu9gwlPUn6
+_id: ofj7EAQ2yV08JzsQ
+sort: 0
+_stats:
+  systemId: dnd5e
+  systemVersion: 3.0.2
+  coreVersion: '13.345'
+  createdTime: 1708109197520
+  modifiedTime: 1708227409300
+  lastModifiedBy: 38Gfe7fp1EmVmZNj
+  compendiumSource: null
+  duplicateSource: null
+  exportSource: null
+_key: '!items!ofj7EAQ2yV08JzsQ'

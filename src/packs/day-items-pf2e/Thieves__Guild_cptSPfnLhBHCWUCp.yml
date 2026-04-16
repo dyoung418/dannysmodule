@@ -1,0 +1,62 @@
+folder: yTd2CNZ9biWYoOF6
+name: Thieves' Guild
+type: campaignFeature
+effects: []
+system:
+  description:
+    gm: ''
+    value: "<p>The government knows this group exists but allows it to continue doing its business as long as the guild doesn’t overstep its bounds.</p>\n<hr />\n<p><strong>Lots</strong>\_1;\_<strong>Cost</strong>\_25 RP, 4 Lumber</p>\n<p><strong>Construction</strong>\_Intrigue (trained) DC 20</p>\n<p><strong>Item Bonus</strong>\_+1 item bonus to\_<a class=\"content-link\" draggable=\"true\" data-uuid=\"Compendium.pf2e.kingmaker-features.Item.NPUQJAt6lzBGRPZf\" data-id=\"NPUQJAt6lzBGRPZf\" data-type=\"Item\" data-pack=\"pf2e.kingmaker-features\" data-tooltip=\"Campaign Feature Item\">Infiltration</a></p>\n<p><strong>Ruin</strong>\_+1 Crime</p>\n<p><strong>Effects</strong>\_While in a settlement with a thieves’ guild, you gain a +1 item bonus to\_<a class=\"content-link\" draggable=\"true\" data-uuid=\"Compendium.pf2e.actionspf2e.Item.ftG89SjTSa9DYDOD\" data-id=\"ftG89SjTSa9DYDOD\" data-type=\"Item\" data-pack=\"pf2e.actionspf2e\" data-tooltip=\"Ability Item\">Create Forgeries</a>.</p>"
+  rules:
+    - hideIfDisabled: true
+      key: FlatModifier
+      label: Thieves' Guild bonus to Infiltration
+      predicate:
+        - action:infiltration
+      selector: kingdom-check
+      type: item
+      value: 1
+  slug: null
+  _migration:
+    version: 0.94
+    previous:
+      schema: 0.939
+      foundry: '13.345'
+      system: 7.2.0
+  traits:
+    otherTags: []
+    value:
+      - kingdom
+  publication:
+    title: ''
+    authors: ''
+    license: OGL
+    remaster: false
+  campaign: kingmaker
+  category: kingdom-feat
+  actionType:
+    value: passive
+  actions:
+    value: null
+  prerequisites:
+    value: []
+  location: null
+  level:
+    value: 5
+_id: cptSPfnLhBHCWUCp
+img: modules/pf2e-kingmaker/assets/maps-settlements/buildings/thieves-guild.webp
+sort: 0
+ownership:
+  default: 0
+  txZjek5EOiCBHPoz: 3
+flags: {}
+_stats:
+  compendiumSource: null
+  duplicateSource: null
+  coreVersion: '13.346'
+  systemId: pf2e
+  systemVersion: 7.2.3
+  createdTime: 1718606591261
+  modifiedTime: 1752208111692
+  lastModifiedBy: txZjek5EOiCBHPoz
+  exportSource: null
+_key: '!items!cptSPfnLhBHCWUCp'

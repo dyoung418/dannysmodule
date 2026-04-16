@@ -1,0 +1,149 @@
+name: Tasha's Mind Whip
+type: spell
+system:
+  source:
+    custom: ''
+    book: TCE
+    page: '115'
+    license: ''
+    revision: 1
+    rules: '2024'
+  description:
+    value: >-
+      <div class="rd__b  rd__b--3"><p>You psychically lash out at one creature
+      you can see within range. The target must make an Intelligence saving
+      throw. On a failed save, the target takes [[/r 3d6]] psychic damage, and
+      it can't take a reaction until the end of its next turn. Moreover, on its
+      next turn, it must choose whether it gets a move, an action, or a bonus
+      action; it gets only one of the three. On a successful save, the target
+      takes half as much damage and suffers none of the spell's other
+      effects.</p><div class="rd__spc-inline-post"></div></div><div
+      class="rd__b  rd__b--3"><div class="rd__b  rd__b--3"><span class="rd__h
+      rd__h--3" data-title-index="1"> <span class="entry-title-inner">At Higher
+      Levels.</span></span> <p>When you cast this spell using a spell slot of
+      3rd level or higher, you can target one additional creature for each slot
+      level above 2nd. The creatures must be within 30 feet of each other when
+      you target them.</p><div class="rd__spc-inline-post"></div></div><div
+      class="rd__spc-inline-post"></div></div>
+    chat: ''
+  level: 2
+  school: enc
+  properties:
+    - vocal
+  materials:
+    value: ''
+    consumed: false
+    cost: 0
+    supply: 0
+  target:
+    affects:
+      choice: false
+    template:
+      units: ''
+      contiguous: false
+  range:
+    value: '90'
+    units: ft
+  activation:
+    type: action
+    condition: ''
+    value: 1
+  duration:
+    value: '1'
+    units: round
+  uses:
+    max: ''
+    spent: 0
+    recovery: []
+  preparation:
+    mode: prepared
+    prepared: false
+  activities:
+    dnd5eactivity000:
+      _id: dnd5eactivity000
+      type: save
+      activation:
+        type: action
+        value: null
+        override: false
+      consumption:
+        targets: []
+        scaling:
+          allowed: false
+          max: ''
+        spellSlot: true
+      description:
+        chatFlavor: ''
+      duration:
+        units: inst
+        concentration: false
+        override: false
+      effects: []
+      range:
+        override: false
+        units: self
+      target:
+        prompt: true
+        template:
+          contiguous: false
+          units: ft
+        affects:
+          choice: false
+        override: false
+      uses:
+        spent: 0
+        max: ''
+        recovery: []
+      damage:
+        onSave: half
+        parts:
+          - number: 3
+            denomination: 6
+            bonus: ''
+            types:
+              - psychic
+            custom:
+              enabled: false
+              formula: ''
+            scaling:
+              mode: ''
+              number: null
+              formula: ''
+      save:
+        ability:
+          - int
+        dc:
+          calculation: spellcasting
+          formula: ''
+      sort: 0
+  identifier: tashas-mind-whip
+img: icons/magic/lightning/bolt-strike-pink.webp
+ownership:
+  default: 0
+  38Gfe7fp1EmVmZNj: 3
+flags:
+  plutonium:
+    page: spells.html
+    source: TCE
+    hash: tasha's%20mind%20whip_tce
+    propDroppable: spell
+  dnd5e:
+    persistSourceMigration: true
+    riders:
+      activity: []
+      effect: []
+effects: []
+folder: 5RW3khzmlcXrGJ9s
+_id: tkP2obilvPoszUEa
+sort: 0
+_stats:
+  systemId: dnd5e
+  systemVersion: 5.0.4
+  coreVersion: '13.346'
+  createdTime: 1709684306640
+  modifiedTime: 1752197371435
+  lastModifiedBy: 1pY4akW8WASxGBbA
+  compendiumSource: null
+  duplicateSource: null
+  exportSource: null
+_key: '!items!tkP2obilvPoszUEa'

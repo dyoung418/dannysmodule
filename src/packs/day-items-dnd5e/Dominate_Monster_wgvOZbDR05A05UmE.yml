@@ -1,0 +1,163 @@
+name: Dominate Monster
+type: spell
+system:
+  source:
+    custom: ''
+    book: PHB
+    page: '235'
+    license: ''
+  description:
+    value: >-
+      <div class="rd__b  rd__b--3"><p>You attempt to beguile a creature that you
+      can see within range. It must succeed on a Wisdom saving throw or be
+      @condition[charmed] by you for the duration. If you or creatures that are
+      friendly to you are fighting it, it has advantage on the saving
+      throw.</p><div class="rd__spc-inline-post"></div><p>While the creature is
+      @condition[charmed], you have a telepathic link with it as long as the two
+      of you are on the same plane of existence. You can use this telepathic
+      link to issue commands to the creature while you are conscious (no action
+      required), which it does its best to obey. You can specify a simple and
+      general course of action, such as "Attack that creature," "Run over
+      there," or "Fetch that object." If the creature completes the order and
+      doesn't receive further direction from you, it defends and preserves
+      itself to the best of its ability.</p><p>You can use your action to take
+      total and precise control of the target. Until the end of your next turn,
+      the creature takes only the actions you choose, and doesn't do anything
+      that you don't allow it to do. During this time, you can also cause the
+      creature to use a reaction, but this requires you to use your own reaction
+      as well.</p><p>Each time the target takes damage, it makes a new Wisdom
+      saving throw against the spell. If the saving throw succeeds, the spell
+      ends.</p></div><div class="rd__b  rd__b--3"><div class="rd__b 
+      rd__b--3"><span class="rd__h rd__h--3" data-title-index="1"> <span
+      class="entry-title-inner">At Higher Levels.</span></span> <p>When you cast
+      this spell with a 9th-level spell slot, the duration is
+      @status[concentration], up to 8 hours.</p><div
+      class="rd__spc-inline-post"></div></div><div
+      class="rd__spc-inline-post"></div></div><div><span class="bold">Classes:
+      </span>Bard, Sorcerer, Warlock, Wizard</div>
+    chat: ''
+  actionType: save
+  level: 8
+  school: enc
+  properties:
+    - vocal
+    - somatic
+    - concentration
+  materials:
+    value: ''
+    consumed: false
+    cost: 0
+    supply: 0
+  target:
+    value: 1
+    units: ''
+    type: creature
+    prompt: true
+    width: null
+  range:
+    value: 60
+    units: ft
+    long: null
+  activation:
+    type: action
+    cost: 1
+    condition: ''
+  duration:
+    value: '1'
+    units: hour
+  damage:
+    parts: []
+    versatile: ''
+  scaling:
+    mode: none
+    formula: ''
+  save:
+    ability: wis
+    dc: null
+    scaling: spell
+  uses:
+    value: null
+    max: ''
+    per: null
+    recovery: ''
+    prompt: true
+  attackBonus: ''
+  chatFlavor: ''
+  critical:
+    threshold: null
+    damage: ''
+  formula: ''
+  preparation:
+    mode: prepared
+    prepared: false
+  consume:
+    type: ''
+    target: null
+    amount: null
+    scale: false
+  cover: null
+  crewed: false
+  ability: null
+img: icons/magic/death/skull-horned-goat-pentagram-red.webp
+ownership:
+  default: 0
+  38Gfe7fp1EmVmZNj: 3
+flags:
+  plutonium:
+    page: spells.html
+    source: PHB
+    hash: dominate%20monster_phb
+    propDroppable: spell
+effects:
+  - name: Dominate Monster
+    origin: Compendium.dnd5e.spells.Item.eEpy1ONlXumKS1mp
+    duration:
+      value: null
+      units: seconds
+      expiry: null
+      expired: false
+    disabled: false
+    _id: fBMLyF7ftAaWmv1s
+    description: >-
+      <p>The target is Charmed and must do its best to obey any commands sent by
+      the caster.</p>
+    transfer: false
+    statuses:
+      - charmed
+    flags:
+      plutonium:
+        dedupeId: dominate-monster
+    tint: '#ffffff'
+    _stats:
+      coreVersion: '14.359'
+      systemId: null
+      systemVersion: null
+      createdTime: null
+      modifiedTime: null
+      lastModifiedBy: null
+      compendiumSource: null
+      duplicateSource: null
+      exportSource: null
+    img: icons/magic/death/skull-horned-goat-pentagram-red.webp
+    type: base
+    system:
+      changes: []
+    sort: 0
+    showIcon: 2
+    start: null
+    folder: null
+    _key: '!items.effects!wgvOZbDR05A05UmE.fBMLyF7ftAaWmv1s'
+folder: yZ5F2lC10AuYVA0R
+_id: wgvOZbDR05A05UmE
+sort: 0
+_stats:
+  systemId: dnd5e
+  systemVersion: 3.0.2
+  coreVersion: '14.359'
+  createdTime: 1708109345091
+  modifiedTime: 1708227413053
+  lastModifiedBy: 38Gfe7fp1EmVmZNj
+  compendiumSource: null
+  duplicateSource: null
+  exportSource: null
+_key: '!items!wgvOZbDR05A05UmE'

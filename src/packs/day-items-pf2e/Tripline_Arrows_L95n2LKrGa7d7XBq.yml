@@ -1,0 +1,96 @@
+folder: ISFvhvQJpbdNXXsZ
+name: Tripline Arrows
+type: consumable
+effects: []
+system:
+  description:
+    gm: ''
+    value: >-
+      <p>This arrow unspools a line of wire as its flies at its target.
+      The</p><p>wire animates as it hits a target and attempts to wrap
+      around</p><p>its legs before vanishing a moment later. If you can apply
+      the</p><p>bow’s critical specialization effect, you can choose to
+      knock</p><p>the target prone instead of pinning the target. If you
+      cannot</p><p>apply the bow’s critical specialization effect, you can
+      instead</p><p>attempt to use the arrow to Trip with the @Check[athletics]
+      skill as</p><p>if the bow had the trip weapon trait. The arrow’s
+      unwieldy</p><p>nature halves its weapon’s range increment.</p>
+  rules: []
+  slug: null
+  _migration:
+    version: 0.94
+    lastMigration: null
+    previous:
+      schema: 0.939
+      foundry: '13.345'
+      system: 7.2.0
+  traits:
+    otherTags: []
+    value:
+      - consumable
+      - magical
+    rarity: common
+  publication:
+    title: ''
+    authors: ''
+    license: OGL
+    remaster: false
+  level:
+    value: 2
+  quantity: 1
+  baseItem: null
+  bulk:
+    value: 0.1
+  hp:
+    value: 0
+    max: 0
+  hardness: 0
+  price:
+    value:
+      gp: 6
+    per: 10
+  equipped:
+    carryType: worn
+    handsHeld: 0
+  containerId: null
+  size: med
+  material:
+    type: null
+    grade: null
+  identification:
+    status: identified
+    unidentified:
+      name: Unusual Object
+      img: systems/pf2e/icons/unidentified_item_icons/other-consumables.webp
+      data:
+        description:
+          value: ''
+    misidentified: {}
+  category: ammo
+  uses:
+    value: 1
+    max: 1
+    autoDestroy: false
+  damage: null
+  usage:
+    value: other
+  stackGroup: arrows
+  spell: null
+_id: L95n2LKrGa7d7XBq
+img: systems/pf2e/icons/equipment/weapons/arrows.webp
+flags: {}
+_stats:
+  compendiumSource: null
+  duplicateSource: null
+  coreVersion: '13.346'
+  systemId: pf2e
+  systemVersion: 7.2.3
+  createdTime: 1732924694197
+  modifiedTime: 1752208111692
+  lastModifiedBy: txZjek5EOiCBHPoz
+  exportSource: null
+sort: 0
+ownership:
+  default: 0
+  txZjek5EOiCBHPoz: 3
+_key: '!items!L95n2LKrGa7d7XBq'

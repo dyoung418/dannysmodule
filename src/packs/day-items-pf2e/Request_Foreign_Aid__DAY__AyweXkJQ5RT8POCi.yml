@@ -1,0 +1,80 @@
+folder: 0BxmixOCuUUNHkjf
+img: systems/pf2e/icons/default-icons/campaignFeature.svg
+name: Request Foreign Aid (DAY)
+system:
+  description:
+    gm: ''
+    value: >-
+      <p><strong>Requirements</strong> You have diplomatic relations with the
+      group you are requesting aid from.</p><hr /><p>When disaster strikes, you
+      send out a call for help to another nation with whom you have diplomatic
+      relations. The DC of this check is equal to the other group's
+      @UUID[JournalEntry.ufhwExwde2g3iEa7.JournalEntryPage.eATwgXlHtXmEU16S]{Negotiation
+      DC +2} (see the sidebar on page 519).</p><hr /><p><strong>Critical
+      Success</strong> Your ally's aid grants a +4 circumstance bonus to any one
+      Kingdom skill check attempted during the remainder of this Kingdom turn.
+      You can choose to apply this bonus to any Kingdom skill check after the
+      die is rolled, but must do so before the result is known. In addition,
+      immediately roll 2 Resource Dice and gain RP equal to the result; this RP
+      does not accrue into XP at the end of the turn if you don't spend
+      it.</p><p><strong>Success</strong> As success, but choose the benefit
+      given by the aid: either roll 1 Resource Die and gain RP equal to the
+      result or gain a +2 circumstance bonus to a
+      check.</p><p><strong>Failure</strong> Your ally marshals its resources but
+      cannot get aid to you in time to deal with your current situation. At the
+      start of your next Kingdom turn, gain [[/r 1d4 #RP]]{1d4
+      RP}.</p><p><strong>Critical Failure</strong> Your ally is tangled up in
+      its own problems and is unable to assist you, is insulted by your request
+      for aid, or might even have an interest in seeing your kingdom struggle
+      against one of your ongoing events. Whatever the case, your pleas for aid
+      make your kingdom look desperate. You gain no aid, but you do increase
+      Unrest by [[/r 1d4]].</p>
+  rules: []
+  slug: request-foreign-aid
+  _migration:
+    version: 0.94
+    previous:
+      schema: 0.939
+      foundry: '13.345'
+      system: 7.2.0
+  traits:
+    otherTags: []
+    value:
+      - downtime
+      - leadership
+  publication:
+    title: Pathfinder Kingmaker
+    authors: ''
+    license: OGL
+    remaster: false
+  campaign: kingmaker
+  category: kingdom-activity
+  actionType:
+    value: passive
+  actions:
+    value: null
+  prerequisites:
+    value: []
+  location: null
+  level:
+    value: 1
+type: campaignFeature
+_stats:
+  compendiumSource: Compendium.pf2e.kingmaker-features.Item.QKBoVicXa0GfKrYG
+  duplicateSource: null
+  coreVersion: '13.346'
+  systemId: pf2e
+  systemVersion: 7.2.3
+  createdTime: 1719728560488
+  modifiedTime: 1752208111692
+  lastModifiedBy: txZjek5EOiCBHPoz
+  exportSource: null
+flags:
+  core: {}
+effects: []
+_id: AyweXkJQ5RT8POCi
+sort: 0
+ownership:
+  default: 0
+  txZjek5EOiCBHPoz: 3
+_key: '!items!AyweXkJQ5RT8POCi'

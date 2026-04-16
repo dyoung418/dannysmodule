@@ -1,0 +1,73 @@
+folder: 0BxmixOCuUUNHkjf
+img: systems/pf2e/icons/default-icons/campaignFeature.svg
+name: Recruit Army (DAY)
+system:
+  description:
+    gm: ''
+    value: >-
+      <p>Note that you pursue this activity during the Leadership step of the
+      Activity phase. Either you recruit an army from your kingdom's citizens,
+      or you secure the allegiance of a specialized army you encountered in the
+      Stolen Lands. If you're recruiting an army from your kingdom's citizens,
+      choose one of the basic armies listed at the start of page 570
+      @UUID[Compendium.pf2e.kingmaker-bestiary.Folder.BRkIyvmgOgyA2kq7]{Armies}
+      and attempt a Warfare check against the army's Recruitment DC. If you're
+      securing a specialized army, you must attempt a Statecraft check against
+      the Recruitment DC; statistics for these armies appear starting on page
+      571.</p><hr /><p><strong>Critical Success</strong> You recruit the army;
+      it becomes
+      @UUID[Compendium.pf2e.kingmaker-features.Item.DURRMyANFnFccM24]{efficient}.</p><p><strong>Success</strong>
+      You recruit the army.</p><p><strong>Failure</strong> You fail to recruit
+      the army.</p><p><strong>Critical Failure</strong> Many of the individuals
+      in the army you attempted to recruit took offense at the attempt. Gain 1
+      Unrest, and you cannot attempt to recruit an army again until the next
+      Kingdom turn.</p>
+  rules: []
+  slug: recruit-army
+  _migration:
+    version: 0.94
+    previous:
+      schema: 0.939
+      foundry: '13.345'
+      system: 7.2.0
+  traits:
+    otherTags: []
+    value:
+      - downtime
+      - leadership
+  publication:
+    title: Pathfinder Kingmaker
+    authors: ''
+    license: OGL
+    remaster: false
+  campaign: kingmaker
+  category: kingdom-activity
+  actionType:
+    value: passive
+  actions:
+    value: null
+  prerequisites:
+    value: []
+  location: null
+  level:
+    value: 1
+type: campaignFeature
+_stats:
+  compendiumSource: Compendium.pf2e.kingmaker-features.Item.Fko5kdpi9Oxas6Ty
+  duplicateSource: null
+  coreVersion: '13.346'
+  systemId: pf2e
+  systemVersion: 7.2.3
+  createdTime: 1719728560488
+  modifiedTime: 1752208111692
+  lastModifiedBy: txZjek5EOiCBHPoz
+  exportSource: null
+flags:
+  core: {}
+effects: []
+_id: ZEPtEqG5CHPddnFj
+sort: 0
+ownership:
+  default: 0
+  txZjek5EOiCBHPoz: 3
+_key: '!items!ZEPtEqG5CHPddnFj'

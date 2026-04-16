@@ -1,0 +1,108 @@
+name: Water Walk
+type: spell
+system:
+  source:
+    custom: ''
+    book: PHB
+    page: '287'
+    license: ''
+  description:
+    value: >-
+      <div class="rd__b  rd__b--3"><p>This spell grants the ability to move
+      across any liquid surface—such as water, acid, mud, snow, quicksand, or
+      lava—as if it were harmless solid ground (creatures crossing molten lava
+      can still take damage from the heat). Up to ten willing creatures you can
+      see within range gain this ability for the duration.</p><div
+      class="rd__spc-inline-post"></div><p>If you target a creature submerged in
+      a liquid, the spell carries the target to the surface of the liquid at a
+      rate of 60 feet per round.</p></div><div><span class="bold">Classes:
+      </span>Artificer, Cleric, Druid, Ranger, Sorcerer</div>
+    chat: ''
+  actionType: util
+  level: 3
+  school: trs
+  properties:
+    - vocal
+    - somatic
+    - material
+    - ritual
+  materials:
+    value: a piece of cork
+    consumed: false
+    cost: 0
+    supply: 0
+  target:
+    value: 10
+    units: ''
+    type: creature
+    prompt: true
+    width: null
+  range:
+    value: 30
+    units: ft
+    long: null
+  activation:
+    type: action
+    cost: 1
+    condition: ''
+  duration:
+    value: '1'
+    units: hour
+  damage:
+    parts: []
+    versatile: ''
+  scaling:
+    mode: none
+    formula: ''
+  save:
+    dc: null
+    scaling: spell
+    ability: ''
+  uses:
+    value: null
+    max: ''
+    per: null
+    recovery: ''
+    prompt: true
+  attackBonus: ''
+  chatFlavor: ''
+  critical:
+    threshold: null
+    damage: ''
+  formula: ''
+  preparation:
+    mode: prepared
+    prepared: false
+  consume:
+    type: ''
+    target: null
+    amount: null
+    scale: false
+  cover: null
+  crewed: false
+  ability: null
+img: icons/commodities/materials/feather-blue-glowing.webp
+ownership:
+  default: 0
+  38Gfe7fp1EmVmZNj: 3
+flags:
+  plutonium:
+    page: spells.html
+    source: PHB
+    hash: water%20walk_phb
+    propDroppable: spell
+effects: []
+folder: dJYIr0WG8bhDeGxW
+_id: DFRUXpvfVz3DMpC0
+sort: 0
+_stats:
+  systemId: dnd5e
+  systemVersion: 3.0.2
+  coreVersion: '13.345'
+  createdTime: 1708228956018
+  modifiedTime: 1708229053839
+  lastModifiedBy: 38Gfe7fp1EmVmZNj
+  compendiumSource: null
+  duplicateSource: null
+  exportSource: null
+_key: '!items!DFRUXpvfVz3DMpC0'

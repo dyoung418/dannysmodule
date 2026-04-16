@@ -1,0 +1,117 @@
+name: Holy Weapon
+type: spell
+system:
+  source:
+    custom: ''
+    book: XGE
+    page: '157'
+    license: ''
+  description:
+    value: >-
+      <div class="rd__b  rd__b--3"><p>You imbue a weapon you touch with holy
+      power. Until the spell ends, the weapon emits bright light in a 30-foot
+      radius and dim light for an additional 30 feet. In addition, weapon
+      attacks made with it deal an extra [[/r 2d8]] radiant damage on a hit. If
+      the weapon isn't already a magic weapon, it becomes one for the
+      duration.</p><div class="rd__spc-inline-post"></div><p>As a bonus action
+      on your turn, you can dismiss this spell and cause the weapon to emit a
+      burst of radiance. Each creature of your choice that you can see within 30
+      feet of the weapon must make a Constitution saving throw. On a failed
+      save, a creature takes [[/r 4d8]] radiant damage, and it is
+      @condition[blinded] for 1 minute. On a successful save, a creature takes
+      half as much damage and isn't @condition[blinded]. At the end of each of
+      its turns, a @condition[blinded] creature can make a Constitution saving
+      throw, ending the effect on itself on a success.</p></div><div><span
+      class="bold">Classes: </span>Cleric, Paladin</div>
+    chat: ''
+  actionType: save
+  level: 5
+  school: evo
+  properties:
+    - vocal
+    - somatic
+    - concentration
+  materials:
+    value: ''
+    consumed: false
+    cost: 0
+    supply: 0
+  target:
+    value: 0
+    units: touch
+    type: ''
+    prompt: true
+    width: null
+  range:
+    value: 0
+    units: touch
+    long: null
+  activation:
+    type: bonus
+    cost: 1
+    condition: ''
+  duration:
+    value: '1'
+    units: hour
+  damage:
+    parts:
+      - - 2d8
+        - radiant
+      - - 4d8
+        - radiant
+    versatile: ''
+  scaling:
+    mode: none
+    formula: ''
+  save:
+    ability: con
+    dc: null
+    scaling: spell
+  uses:
+    value: null
+    max: ''
+    per: null
+    recovery: ''
+    prompt: true
+  attackBonus: ''
+  chatFlavor: ''
+  critical:
+    threshold: null
+    damage: ''
+  formula: ''
+  preparation:
+    mode: prepared
+    prepared: false
+  consume:
+    type: ''
+    target: null
+    amount: null
+    scale: false
+  cover: null
+  crewed: false
+  ability: null
+img: icons/weapons/swords/sword-gold-holy.webp
+ownership:
+  default: 0
+  38Gfe7fp1EmVmZNj: 3
+flags:
+  plutonium:
+    page: spells.html
+    source: XGE
+    hash: holy%20weapon_xge
+    propDroppable: spell
+effects: []
+folder: i3oUZg2o4lUzPZxX
+_id: g53qOL6huw57gMiv
+sort: 0
+_stats:
+  systemId: dnd5e
+  systemVersion: 3.0.2
+  coreVersion: '13.345'
+  createdTime: 1708227665762
+  modifiedTime: 1708227673035
+  lastModifiedBy: 38Gfe7fp1EmVmZNj
+  compendiumSource: null
+  duplicateSource: null
+  exportSource: null
+_key: '!items!g53qOL6huw57gMiv'

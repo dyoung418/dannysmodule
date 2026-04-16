@@ -1,0 +1,114 @@
+name: Lightning Bolt
+type: spell
+system:
+  source:
+    custom: ''
+    book: PHB
+    page: '255'
+    license: ''
+  description:
+    value: >-
+      <div class="rd__b  rd__b--3"><p>A stroke of lightning forming a line 100
+      feet long and 5 feet wide blasts out from you in a direction you choose.
+      Each creature in the line must make a Dexterity saving throw. A creature
+      takes [[/r 8d6]] lightning damage on a failed save, or half as much damage
+      on a successful one.</p><div class="rd__spc-inline-post"></div><p>The
+      lightning ignites flammable objects in the area that aren't being worn or
+      carried.</p></div><div class="rd__b  rd__b--3"><div class="rd__b 
+      rd__b--3"><span class="rd__h rd__h--3" data-title-index="1"> <span
+      class="entry-title-inner">At Higher Levels.</span></span> <p>When you cast
+      this spell using a spell slot of 4th level or higher, the damage increases
+      by [[/r 1d6]] for each slot level above 3rd.</p><div
+      class="rd__spc-inline-post"></div></div><div
+      class="rd__spc-inline-post"></div></div><div><span class="bold">Classes:
+      </span>Sorcerer, Wizard</div>
+    chat: ''
+  actionType: save
+  level: 3
+  school: evo
+  properties:
+    - vocal
+    - somatic
+    - material
+  materials:
+    value: a bit of fur and a rod of amber, crystal, or glass
+    consumed: false
+    cost: 0
+    supply: 0
+  target:
+    value: 100
+    units: ft
+    type: line
+    prompt: true
+    width: null
+  range:
+    value: 0
+    units: ''
+    long: null
+  activation:
+    type: action
+    cost: 1
+    condition: ''
+  duration:
+    value: ''
+    units: inst
+  damage:
+    parts:
+      - - 8d6
+        - lightning
+    versatile: ''
+  scaling:
+    mode: level
+    formula: 1d6
+  save:
+    ability: dex
+    dc: null
+    scaling: spell
+  uses:
+    value: null
+    max: ''
+    per: null
+    recovery: ''
+    prompt: true
+  attackBonus: ''
+  chatFlavor: ''
+  critical:
+    threshold: null
+    damage: ''
+  formula: ''
+  preparation:
+    mode: prepared
+    prepared: false
+  consume:
+    type: ''
+    target: null
+    amount: null
+    scale: false
+  cover: null
+  crewed: false
+  ability: null
+img: icons/magic/lightning/bolt-blue.webp
+ownership:
+  default: 0
+  38Gfe7fp1EmVmZNj: 3
+flags:
+  plutonium:
+    page: spells.html
+    source: PHB
+    hash: lightning%20bolt_phb
+    propDroppable: spell
+effects: []
+folder: 845CFVkKwrIaEVKc
+_id: quFwdWBXNcZHXgj6
+sort: 0
+_stats:
+  systemId: dnd5e
+  systemVersion: 3.0.2
+  coreVersion: '13.345'
+  createdTime: 1708109196998
+  modifiedTime: 1708227409300
+  lastModifiedBy: 38Gfe7fp1EmVmZNj
+  compendiumSource: null
+  duplicateSource: null
+  exportSource: null
+_key: '!items!quFwdWBXNcZHXgj6'

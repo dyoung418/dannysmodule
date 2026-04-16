@@ -1,0 +1,33 @@
+name: Send imm/weak/resist to chat
+type: script
+command: |-
+  await ChatMessage.create( 
+    {
+      user: game.user._id, 
+      content: _token.actor.name + ["immunities", "weaknesses", 
+                "resistances"].map(
+        (x) => `<p><b>${x}</b>` + ': ' +
+               _token.actor.system.attributes[x].map(
+          (p) => p.label ).join( ',</p>' ) ).join( "<hl>" ) 
+    }, {} );
+img: icons/svg/hazard.svg
+_id: ZFXlJxVa3IJzMYrl
+author: txZjek5EOiCBHPoz
+scope: global
+folder: 1XrfuqzpstOwCTFI
+flags: {}
+_stats:
+  compendiumSource: null
+  duplicateSource: null
+  coreVersion: '13.346'
+  systemId: pf2e
+  systemVersion: 6.0.4
+  createdTime: 1721012402192
+  modifiedTime: 1752208126881
+  lastModifiedBy: txZjek5EOiCBHPoz
+  exportSource: null
+sort: 0
+ownership:
+  default: 0
+  txZjek5EOiCBHPoz: 3
+_key: '!macros!ZFXlJxVa3IJzMYrl'

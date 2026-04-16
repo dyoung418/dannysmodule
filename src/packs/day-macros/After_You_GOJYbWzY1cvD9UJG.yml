@@ -1,0 +1,107 @@
+folder: 1XrfuqzpstOwCTFI
+name: After You
+type: script
+author: txZjek5EOiCBHPoz
+img: icons/svg/card-hand.svg
+scope: global
+command: >-
+  // Macro for Swashbuckler's "After You" feat
+
+  const swashbuckler = canvas.tokens.controlled[0]?.actor;
+
+
+  if (!swashbuckler) {
+    return ui.notifications.error("PF2E.ErrorMessage.NoTokenSelected", { localize: true });
+  }
+
+
+  // Check if we're in combat
+
+  if (!game.combat) {
+    return ui.notifications.warn("This feat can only be used when in combat.");
+  }
+
+
+  // Check if the Swashbuckler has already rolled initiative
+
+  let combatant = game.combat.combatants.find(c => c.actor.id ===
+  swashbuckler.id);
+
+  console.log(combatant);
+
+  if (!combatant) {
+    ui.notifications.warn("Swashbuckler not found in combat.");
+    return;
+  }
+
+
+  //if (combatant.initiative !== null) {
+
+  //  ui.notifications.warn("You've already rolled initiative. This feat must be
+  used before rolling.");
+
+  //  return;
+
+  //}
+
+
+  // Grant panache
+
+  const ITEM_UUID = "Compendium.pf2e.feat-effects.Item.uBJsxCzNhje8m8jj"; //
+  Effect: Panache
+
+  const item = await fromUuid(ITEM_UUID);
+
+  const source = item.toObject();
+
+  source.flags = foundry.utils.mergeObject(source.flags ?? {}, { core: {
+  sourceId: ITEM_UUID } });
+
+  const existing = swashbuckler.itemTypes.effect.find((e) =>
+  e.flags.core?.sourceId === ITEM_UUID);
+
+  if (existing) {
+      await existing.delete(); // take off old effect
+  }
+
+  await swashbuckler.createEmbeddedDocuments("Item", [source]); // add effect
+
+
+  // Move Swashbuckler to the bottom of the initiative order
+
+  let lowestInitiative = Math.min(...game.combat.combatants.map(c =>
+  c.initiative || 0)) - 1;
+
+  await game.combat.setInitiative(combatant._id,lowestInitiative);
+
+
+  // Create a chat message
+
+  let chatMessage = `${swashbuckler.name} uses "After You".<br>`;
+
+  chatMessage += `They gain panache and move to the end of the initiative
+  order.`;
+
+
+  ChatMessage.create({
+    user: game.user._id,
+    speaker: ChatMessage.getSpeaker({token: swashbuckler.token}),
+    content: chatMessage
+  });
+flags: {}
+_stats:
+  compendiumSource: null
+  duplicateSource: null
+  coreVersion: '13.346'
+  systemId: pf2e
+  systemVersion: 6.3.1
+  createdTime: 1725154642258
+  modifiedTime: 1752208126881
+  lastModifiedBy: txZjek5EOiCBHPoz
+  exportSource: null
+_id: GOJYbWzY1cvD9UJG
+sort: 0
+ownership:
+  default: 0
+  gcpIdQ3dGIHSmvov: 3
+_key: '!macros!GOJYbWzY1cvD9UJG'

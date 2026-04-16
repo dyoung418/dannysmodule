@@ -1,0 +1,149 @@
+name: Control Weather
+type: spell
+system:
+  source:
+    custom: ''
+    book: PHB
+    page: '228'
+    license: ''
+  description:
+    value: >-
+      <div class="rd__b  rd__b--3"><p>You take control of the weather within 5
+      miles of you for the duration. You must be outdoors to cast this spell.
+      Moving to a place where you don't have a clear path to the sky ends the
+      spell early.</p><div class="rd__spc-inline-post"></div><p>When you cast
+      the spell, you change the current weather conditions, which are determined
+      by the DM based on the climate and season. You can change precipitation,
+      temperature, and wind. It takes [[/r 1d4 * 10]]{1d4 × 10} minutes for the
+      new conditions to take effect. Once they do so, you can change the
+      conditions again. When the spell ends, the weather gradually returns to
+      normal.</p><p>When you change the weather conditions, find a current
+      condition on the following tables and change its stage by one, up or down.
+      When changing the wind, you can change its direction.</p><table
+      class="w-100 rd__table 
+      stripe-odd-table"><caption>Precipitation</caption><thead><tr><th
+      class="col-1 ve-text-center" data-rd-isroller="false">Stage</th><th
+      class="col-11"
+      data-rd-isroller="false">Condition</th></tr></thead><tbody><tr><td
+      class="col-1 ve-text-center">1</td><td
+      class="col-11">Clear</td></tr><tr><td class="col-1
+      ve-text-center">2</td><td class="col-11">Light clouds</td></tr><tr><td
+      class="col-1 ve-text-center">3</td><td class="col-11">Overcast or ground
+      fog</td></tr><tr><td class="col-1 ve-text-center">4</td><td
+      class="col-11">Rain, hail, or snow</td></tr><tr><td class="col-1
+      ve-text-center">5</td><td class="col-11">Torrential rain, driving hail, or
+      blizzard</td></tr></tbody></table><table class="w-100 rd__table 
+      stripe-odd-table"><caption>Temperature</caption><thead><tr><th
+      class="col-1 ve-text-center" data-rd-isroller="false">Stage</th><th
+      class="col-11"
+      data-rd-isroller="false">Condition</th></tr></thead><tbody><tr><td
+      class="col-1 ve-text-center">1</td><td class="col-11">Unbearable
+      heat</td></tr><tr><td class="col-1 ve-text-center">2</td><td
+      class="col-11">Hot</td></tr><tr><td class="col-1 ve-text-center">3</td><td
+      class="col-11">Warm</td></tr><tr><td class="col-1
+      ve-text-center">4</td><td class="col-11">Cool</td></tr><tr><td
+      class="col-1 ve-text-center">5</td><td
+      class="col-11">Cold</td></tr><tr><td class="col-1
+      ve-text-center">6</td><td class="col-11">Arctic
+      cold</td></tr></tbody></table><table class="w-100 rd__table 
+      stripe-odd-table"><caption>Wind</caption><thead><tr><th class="col-1
+      ve-text-center" data-rd-isroller="false">Stage</th><th class="col-11"
+      data-rd-isroller="false">Condition</th></tr></thead><tbody><tr><td
+      class="col-1 ve-text-center">1</td><td
+      class="col-11">Calm</td></tr><tr><td class="col-1
+      ve-text-center">2</td><td class="col-11">Moderate wind</td></tr><tr><td
+      class="col-1 ve-text-center">3</td><td class="col-11">Strong
+      wind</td></tr><tr><td class="col-1 ve-text-center">4</td><td
+      class="col-11">Gale</td></tr><tr><td class="col-1
+      ve-text-center">5</td><td
+      class="col-11">Storm</td></tr></tbody></table></div><div><span
+      class="bold">Classes: </span>Cleric, Druid, Wizard</div>
+    chat: ''
+  actionType: util
+  level: 8
+  school: trs
+  properties:
+    - vocal
+    - somatic
+    - material
+    - concentration
+  materials:
+    value: burning incense and bits of earth and wood mixed in water
+    consumed: false
+    cost: 0
+    supply: 0
+  target:
+    value: 5
+    units: mi
+    type: radius
+    prompt: true
+    width: null
+  range:
+    value: 0
+    units: ''
+    long: null
+  activation:
+    type: minute
+    cost: 10
+    condition: ''
+  duration:
+    value: '8'
+    units: hour
+  damage:
+    parts: []
+    versatile: ''
+  scaling:
+    mode: none
+    formula: ''
+  save:
+    dc: null
+    scaling: spell
+    ability: ''
+  uses:
+    value: null
+    max: ''
+    per: null
+    recovery: ''
+    prompt: true
+  attackBonus: ''
+  chatFlavor: ''
+  critical:
+    threshold: null
+    damage: ''
+  formula: ''
+  preparation:
+    mode: prepared
+    prepared: false
+  consume:
+    type: ''
+    target: null
+    amount: null
+    scale: false
+  cover: null
+  crewed: false
+  ability: null
+img: icons/magic/air/weather-clouds-rainbow.webp
+ownership:
+  default: 0
+  38Gfe7fp1EmVmZNj: 3
+flags:
+  plutonium:
+    page: spells.html
+    source: PHB
+    hash: control%20weather_phb
+    propDroppable: spell
+effects: []
+folder: d5seM6MugjHQIevD
+_id: kwsakOY7Oc7I9XxL
+sort: 0
+_stats:
+  systemId: dnd5e
+  systemVersion: 3.0.2
+  coreVersion: '13.345'
+  createdTime: 1708227628701
+  modifiedTime: 1708227680382
+  lastModifiedBy: 38Gfe7fp1EmVmZNj
+  compendiumSource: null
+  duplicateSource: null
+  exportSource: null
+_key: '!items!kwsakOY7Oc7I9XxL'

@@ -1,0 +1,132 @@
+name: Daylight
+type: spell
+system:
+  source:
+    custom: ''
+    book: PHB
+    page: '230'
+    license: ''
+    revision: 1
+    rules: '2024'
+  description:
+    value: >-
+      <div class="rd__b  rd__b--3"><p>A 60-foot-radius sphere of light spreads
+      out from a point you choose within range. The sphere is bright light and
+      sheds dim light for an additional 60 feet.</p><div
+      class="rd__spc-inline-post"></div><p>If you chose a point on an object you
+      are holding or one that isn't being worn or carried, the light shines from
+      the object and moves with it. Completely covering the affected object with
+      an opaque object, such as a bowl or a helm, blocks the light.</p><p>If any
+      of this spell's area overlaps with an area of darkness created by a spell
+      of 3rd level or lower, the spell that created the darkness is
+      dispelled.</p></div><div><span class="bold">Classes: </span>Cleric, Druid,
+      Paladin, Ranger, Sorcerer</div>
+    chat: ''
+  level: 3
+  school: evo
+  properties:
+    - vocal
+    - somatic
+  materials:
+    value: ''
+    consumed: false
+    cost: 0
+    supply: 0
+  target:
+    affects:
+      choice: false
+    template:
+      units: ft
+      type: sphere
+      size: '120'
+      contiguous: false
+  range:
+    value: '60'
+    units: ft
+  activation:
+    type: action
+    condition: ''
+    value: 1
+  duration:
+    value: '1'
+    units: hour
+  uses:
+    max: ''
+    spent: 0
+    recovery: []
+  preparation:
+    mode: prepared
+    prepared: false
+  activities:
+    dnd5eactivity000:
+      _id: dnd5eactivity000
+      type: utility
+      activation:
+        type: action
+        value: null
+        override: false
+      consumption:
+        targets: []
+        scaling:
+          allowed: false
+          max: ''
+        spellSlot: true
+      description:
+        chatFlavor: ''
+      duration:
+        units: inst
+        concentration: false
+        override: false
+      effects: []
+      range:
+        override: false
+        units: self
+      target:
+        prompt: true
+        template:
+          contiguous: false
+          units: ft
+        affects:
+          choice: false
+        override: false
+      uses:
+        spent: 0
+        max: ''
+        recovery: []
+      roll:
+        formula: ''
+        name: ''
+        prompt: false
+        visible: false
+      sort: 0
+  identifier: daylight
+img: icons/magic/air/weather-sunlight-sky.webp
+ownership:
+  default: 0
+  38Gfe7fp1EmVmZNj: 3
+flags:
+  plutonium:
+    page: spells.html
+    source: PHB
+    hash: daylight_phb
+    propDroppable: spell
+  dnd5e:
+    persistSourceMigration: true
+    riders:
+      activity: []
+      effect: []
+effects: []
+folder: 460yTIg9sKBrbNPf
+_id: CrjNYSBERUSRd9Os
+sort: 0
+_stats:
+  systemId: dnd5e
+  systemVersion: 5.0.4
+  coreVersion: '13.346'
+  createdTime: 1708227517291
+  modifiedTime: 1752197371435
+  lastModifiedBy: 1pY4akW8WASxGBbA
+  compendiumSource: null
+  duplicateSource: null
+  exportSource: null
+_key: '!items!CrjNYSBERUSRd9Os'

@@ -1,0 +1,72 @@
+img: icons/sundries/books/book-red-exclamation.webp
+name: Giant Hunter
+system:
+  description:
+    gm: ''
+    value: >-
+      <p>You have studied giants and hunt them with efficiency. When you roll
+      initiative and can see a giant, you can
+      @UUID[Compendium.pf2e.actionspf2e.Item.JYi4MnsdFu618hPm]{Hunt Prey} as a
+      free action, designating that enemy as your prey.</p>
+
+      <p>You can use this free action even if you haven't identified the giant
+      yet with Recall Knowledge. The benefit doesn't apply against giants
+      disguised as other creatures, and the GM determines whether it applies
+      against a creature disguised as a giant.</p>
+  rules: []
+  slug: giant-hunter
+  _migration:
+    version: 0.94
+    previous:
+      schema: 0.939
+      foundry: '13.345'
+      system: 7.2.0
+  traits:
+    otherTags: []
+    value:
+      - ranger
+    rarity: rare
+  publication:
+    title: Pathfinder Kingmaker
+    authors: ''
+    license: OGL
+    remaster: false
+  level:
+    value: 4
+  category: class
+  onlyLevel1: false
+  maxTakable: 1
+  actionType:
+    value: passive
+  actions:
+    value: null
+  prerequisites:
+    value: []
+  location: null
+  subfeatures:
+    proficiencies: {}
+    senses: {}
+    suppressedFeatures: []
+type: feat
+flags:
+  core: {}
+  scene-packer:
+    hash: 73be69e9ac80fb5af1ffc4a2c0b29e2af36c0358
+effects: []
+folder: lVJfRR3nUB6MU7dI
+ownership:
+  default: 3
+  txZjek5EOiCBHPoz: 3
+_stats:
+  compendiumSource: Compendium.pf2e.feats-srd.Item.XkYNCFdZMjZTw6nn
+  duplicateSource: null
+  coreVersion: '13.346'
+  systemId: pf2e
+  systemVersion: 7.2.3
+  createdTime: 1718606591261
+  modifiedTime: 1752208111692
+  lastModifiedBy: txZjek5EOiCBHPoz
+  exportSource: null
+_id: m4jKDJ7Ahw1ehlvZ
+sort: 100000
+_key: '!items!m4jKDJ7Ahw1ehlvZ'

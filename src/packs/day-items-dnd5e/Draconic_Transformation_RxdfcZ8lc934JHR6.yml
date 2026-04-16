@@ -1,0 +1,159 @@
+name: Draconic Transformation
+type: spell
+system:
+  source:
+    custom: ''
+    book: FTD
+    page: '19'
+    license: ''
+    revision: 1
+    rules: '2024'
+  description:
+    value: >-
+      <div class="rd__b  rd__b--3"><p>With a roar, you draw on the magic of
+      dragons to transform yourself, taking on draconic features. You gain the
+      following benefits until the spell ends:</p><div
+      class="rd__spc-inline-post"></div><ul class="rd__list
+      rd__list-hang-notitle"><li class="rd__li "><p
+      class="rd__p-list-item"><span class="bold
+      rd__list-item-name">Blindsight.</span> You have @sense[blindsight] with a
+      range of 30 feet. Within that range, you can effectively see anything that
+      isn't behind total cover, even if you're @condition[blinded] or in
+      darkness. Moreover, you can see an @condition[invisible] creature, unless
+      the creature successfully hides from you.</p></li><li class="rd__li "><p
+      class="rd__p-list-item"><span class="bold rd__list-item-name">Breath
+      Weapon.</span> When you cast this spell, and as a bonus action on
+      subsequent turns for the duration, you can exhale shimmering energy in a
+      60-foot cone. Each creature in that area must make a Dexterity saving
+      throw, taking [[/r 6d8]] force damage on a failed save, or half as much
+      damage on a successful one.</p></li><li class="rd__li "><p
+      class="rd__p-list-item"><span class="bold
+      rd__list-item-name">Wings.</span> Incorporeal wings sprout from your back,
+      giving you a flying speed of 60 feet.</p></li></ul></div><div><span
+      class="bold">Classes: </span>Druid, Sorcerer, Wizard</div>
+    chat: ''
+  level: 7
+  school: trs
+  properties:
+    - vocal
+    - somatic
+    - material
+    - concentration
+  materials:
+    value: a statuette of a dragon, worth at least 500 gp
+    consumed: false
+    cost: 500
+    supply: 0
+  target:
+    affects:
+      type: self
+      count: '0'
+      choice: false
+    template:
+      units: self
+      contiguous: false
+  range:
+    value: '0'
+    units: self
+  activation:
+    type: bonus
+    condition: ''
+    value: 1
+  duration:
+    value: '1'
+    units: minute
+  uses:
+    max: ''
+    spent: 0
+    recovery: []
+  preparation:
+    mode: prepared
+    prepared: false
+  activities:
+    dnd5eactivity000:
+      _id: dnd5eactivity000
+      type: save
+      activation:
+        type: action
+        override: false
+      consumption:
+        targets: []
+        scaling:
+          allowed: false
+          max: ''
+        spellSlot: true
+      description:
+        chatFlavor: ''
+      duration:
+        units: inst
+        concentration: false
+        override: false
+      effects: []
+      range:
+        units: self
+        override: false
+      target:
+        prompt: true
+        template:
+          contiguous: false
+          units: ft
+        affects:
+          choice: false
+        override: false
+      uses:
+        spent: 0
+        max: ''
+        recovery: []
+      damage:
+        onSave: half
+        parts:
+          - number: 6
+            denomination: 8
+            bonus: ''
+            types:
+              - force
+            custom:
+              enabled: false
+              formula: ''
+            scaling:
+              mode: ''
+              number: null
+              formula: ''
+      save:
+        ability:
+          - dex
+        dc:
+          calculation: spellcasting
+          formula: ''
+      sort: 0
+  identifier: draconic-transformation
+img: icons/creatures/abilities/dragon-fire-breath-orange.webp
+ownership:
+  default: 0
+  38Gfe7fp1EmVmZNj: 3
+flags:
+  plutonium:
+    page: spells.html
+    source: FTD
+    hash: draconic%20transformation_ftd
+    propDroppable: spell
+  dnd5e:
+    persistSourceMigration: true
+    riders:
+      activity: []
+      effect: []
+effects: []
+folder: CCUxt5FjyUSGiGKX
+_id: RxdfcZ8lc934JHR6
+sort: 0
+_stats:
+  systemId: dnd5e
+  systemVersion: 5.0.4
+  coreVersion: '13.346'
+  createdTime: 1709684304487
+  modifiedTime: 1752197371435
+  lastModifiedBy: 1pY4akW8WASxGBbA
+  compendiumSource: null
+  duplicateSource: null
+  exportSource: null
+_key: '!items!RxdfcZ8lc934JHR6'

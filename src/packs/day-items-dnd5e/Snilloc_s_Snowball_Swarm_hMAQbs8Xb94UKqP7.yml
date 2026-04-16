@@ -1,0 +1,112 @@
+name: Snilloc's Snowball Swarm
+type: spell
+system:
+  source:
+    custom: ''
+    book: XGE
+    page: '165'
+    license: ''
+  description:
+    value: >-
+      <div class="rd__b  rd__b--3"><p>A flurry of magic snowballs erupts from a
+      point you choose within range. Each creature in a 5-foot-radius sphere
+      centered on that point must make a Dexterity saving throw. A creature
+      takes [[/r 3d6]] cold damage on a failed save, or half as much damage on a
+      successful one.</p><div class="rd__spc-inline-post"></div></div><div
+      class="rd__b  rd__b--3"><div class="rd__b  rd__b--3"><span class="rd__h
+      rd__h--3" data-title-index="1"> <span class="entry-title-inner">At Higher
+      Levels.</span></span> <p>When you cast this spell using a spell slot of
+      3rd level or higher, the damage increases by [[/r 1d6]] for each slot
+      level above 2nd.</p><div class="rd__spc-inline-post"></div></div><div
+      class="rd__spc-inline-post"></div></div><div><span class="bold">Classes:
+      </span>Sorcerer, Wizard</div>
+    chat: ''
+  actionType: save
+  level: 2
+  school: evo
+  properties:
+    - vocal
+    - somatic
+    - material
+  materials:
+    value: a piece of ice or a small white rock chip
+    consumed: false
+    cost: 0
+    supply: 0
+  target:
+    value: 5
+    units: ft
+    type: sphere
+    prompt: true
+    width: null
+  range:
+    value: 90
+    units: ft
+    long: null
+  activation:
+    type: action
+    cost: 1
+    condition: ''
+  duration:
+    value: ''
+    units: inst
+  damage:
+    parts:
+      - - 3d6
+        - cold
+    versatile: ''
+  scaling:
+    mode: level
+    formula: 1d6
+  save:
+    ability: dex
+    dc: null
+    scaling: spell
+  uses:
+    value: null
+    max: ''
+    per: null
+    recovery: ''
+    prompt: true
+  attackBonus: ''
+  chatFlavor: ''
+  critical:
+    threshold: null
+    damage: ''
+  formula: ''
+  preparation:
+    mode: prepared
+    prepared: false
+  consume:
+    type: ''
+    target: null
+    amount: null
+    scale: false
+  cover: null
+  crewed: false
+  ability: null
+img: icons/magic/light/projectile-smoke-blue-white.webp
+ownership:
+  default: 0
+  38Gfe7fp1EmVmZNj: 3
+flags:
+  plutonium:
+    page: spells.html
+    source: XGE
+    hash: snilloc's%20snowball%20swarm_xge
+    propDroppable: spell
+effects: []
+folder: mgLDxy1J2PuOM31n
+_id: hMAQbs8Xb94UKqP7
+sort: 0
+_stats:
+  systemId: dnd5e
+  systemVersion: 3.0.3
+  coreVersion: '13.345'
+  createdTime: 1709684307160
+  modifiedTime: 1709684366197
+  lastModifiedBy: 38Gfe7fp1EmVmZNj
+  compendiumSource: null
+  duplicateSource: null
+  exportSource: null
+_key: '!items!hMAQbs8Xb94UKqP7'

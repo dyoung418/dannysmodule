@@ -1,0 +1,175 @@
+name: Haste
+type: spell
+system:
+  source:
+    custom: ''
+    book: PHB
+    page: '250'
+    license: ''
+  description:
+    value: >-
+      <div class="rd__b  rd__b--3"><p>Choose a willing creature that you can see
+      within range. Until the spell ends, the target's speed is doubled, it
+      gains a +2 bonus to AC, it has advantage on Dexterity saving throws, and
+      it gains an additional action on each of its turns. That action can be
+      used only to take the @action[Attack] (one weapon attack only),
+      @action[Dash], @action[Disengage], @action[Hide], or @action[Use an
+      Object] action.</p><div class="rd__spc-inline-post"></div><p>When the
+      spell ends, the target can't move or take actions until after its next
+      turn, as a wave of lethargy sweeps over it.</p></div><div><span
+      class="bold">Classes: </span>Artificer, Sorcerer, Wizard</div>
+    chat: ''
+  actionType: util
+  level: 3
+  school: trs
+  properties:
+    - vocal
+    - somatic
+    - material
+    - concentration
+  materials:
+    value: a shaving of licorice root
+    consumed: false
+    cost: 0
+    supply: 0
+  target:
+    value: 1
+    units: ''
+    type: creature
+    prompt: true
+    width: null
+  range:
+    value: 30
+    units: ft
+    long: null
+  activation:
+    type: action
+    cost: 1
+    condition: ''
+  duration:
+    value: '1'
+    units: minute
+  damage:
+    parts: []
+    versatile: ''
+  scaling:
+    mode: none
+    formula: ''
+  save:
+    dc: null
+    scaling: spell
+    ability: ''
+  uses:
+    value: null
+    max: ''
+    per: null
+    recovery: ''
+    prompt: true
+  attackBonus: ''
+  chatFlavor: ''
+  critical:
+    threshold: null
+    damage: ''
+  formula: ''
+  preparation:
+    mode: prepared
+    prepared: false
+  consume:
+    type: ''
+    target: null
+    amount: null
+    scale: false
+  cover: null
+  crewed: false
+  ability: null
+img: icons/skills/movement/feet-winged-boots-brown.webp
+ownership:
+  default: 0
+  38Gfe7fp1EmVmZNj: 3
+flags:
+  plutonium:
+    page: spells.html
+    source: PHB
+    hash: haste_phb
+    propDroppable: spell
+effects:
+  - name: Haste
+    origin: Compendium.dnd5e.spells.Item.Szvk5FEVQW3uhJi5
+    duration:
+      value: 60
+      units: seconds
+      expiry: turnStart
+      expired: false
+    disabled: false
+    _id: DEPrzDiNHOqKj4Hj
+    description: >-
+      <p>Until the spell ends, the target's speed is doubled, it gains a +2
+      bonus to AC, it has advantage on Dexterity Saving Throws, and it gains an
+      additional action on each of its turns. That action can be used only to
+      take the Attack (one weapon attack only), Dash, Disengage, Hide, or Use an
+      Object action.</p>
+    transfer: false
+    statuses: []
+    flags:
+      core: {}
+      plutonium:
+        dedupeId: haste
+    tint: '#ffffff'
+    _stats:
+      coreVersion: '14.359'
+      systemId: null
+      systemVersion: null
+      createdTime: null
+      modifiedTime: null
+      lastModifiedBy: null
+      compendiumSource: >-
+        Compendium.dnd5e.spells.Item.yqUDoxk4x0NWG5Bz.ActiveEffect.YtN8kTDQyxFaxpEx
+      duplicateSource: null
+      exportSource: null
+    img: icons/skills/movement/feet-winged-boots-brown.webp
+    type: base
+    system:
+      changes:
+        - key: system.attributes.ac.bonus
+          value: 2
+          priority: null
+          type: add
+        - key: system.attributes.movement.burrow
+          value: 2
+          priority: null
+          type: multiply
+        - key: system.attributes.movement.climb
+          value: 2
+          priority: null
+          type: multiply
+        - key: system.attributes.movement.fly
+          value: 2
+          priority: null
+          type: multiply
+        - key: system.attributes.movement.swim
+          value: 2
+          priority: null
+          type: multiply
+        - key: system.attributes.movement.walk
+          value: 2
+          priority: null
+          type: multiply
+    sort: 0
+    start: null
+    showIcon: 1
+    folder: null
+    _key: '!items.effects!CChRsXwV9GazDJLj.DEPrzDiNHOqKj4Hj'
+folder: 460yTIg9sKBrbNPf
+_id: CChRsXwV9GazDJLj
+sort: 0
+_stats:
+  systemId: dnd5e
+  systemVersion: 3.0.3
+  coreVersion: '14.359'
+  createdTime: 1709684305443
+  modifiedTime: 1709684366197
+  lastModifiedBy: 38Gfe7fp1EmVmZNj
+  compendiumSource: null
+  duplicateSource: null
+  exportSource: null
+_key: '!items!CChRsXwV9GazDJLj'

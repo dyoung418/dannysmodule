@@ -1,0 +1,121 @@
+name: Animal Messenger
+type: spell
+system:
+  source:
+    custom: ''
+    book: PHB
+    page: '212'
+    license: ''
+  description:
+    value: >-
+      <div class="rd__b  rd__b--3"><p>By means of this spell, you use an animal
+      to deliver a message. Choose a Tiny beast you can see within range, such
+      as a squirrel, a blue jay, or a bat. You specify a location, which you
+      must have visited, and a recipient who matches a general description, such
+      as "a man or woman dressed in the uniform of the town guard" or "a
+      red-haired dwarf wearing a pointed hat." You also speak a message of up to
+      twenty-five words. The target beast travels for the duration of the spell
+      toward the specified location, covering about 50 miles per 24 hours for a
+      flying messenger, or 25 miles for other animals.</p><div
+      class="rd__spc-inline-post"></div><p>When the messenger arrives, it
+      delivers your message to the creature that you described, replicating the
+      sound of your voice. The messenger speaks only to a creature matching the
+      description you gave. If the messenger doesn't reach its destination
+      before the spell ends, the message is lost, and the beast makes its way
+      back to where you cast this spell.</p></div><div class="rd__b 
+      rd__b--3"><div class="rd__b  rd__b--3"><span class="rd__h rd__h--3"
+      data-title-index="1"> <span class="entry-title-inner">At Higher
+      Levels.</span></span> <p>If you cast this spell using a spell slot of 3rd
+      level or higher, the duration of the spell increases by 48 hours for each
+      slot level above 2nd.</p><div class="rd__spc-inline-post"></div></div><div
+      class="rd__spc-inline-post"></div></div><div><span class="bold">Classes:
+      </span>Bard, Druid, Ranger</div>
+    chat: ''
+  actionType: util
+  level: 2
+  school: enc
+  properties:
+    - vocal
+    - somatic
+    - material
+    - ritual
+  materials:
+    value: a morsel of food
+    consumed: false
+    cost: 0
+    supply: 0
+  target:
+    value: 1
+    units: ''
+    type: creature
+    prompt: true
+    width: null
+  range:
+    value: 30
+    units: ft
+    long: null
+  activation:
+    type: action
+    cost: 1
+    condition: ''
+  duration:
+    value: '24'
+    units: hour
+  damage:
+    parts: []
+    versatile: ''
+  scaling:
+    mode: none
+    formula: ''
+  save:
+    dc: null
+    scaling: spell
+    ability: ''
+  uses:
+    value: null
+    max: ''
+    per: null
+    recovery: ''
+    prompt: true
+  attackBonus: ''
+  chatFlavor: ''
+  critical:
+    threshold: null
+    damage: ''
+  formula: ''
+  preparation:
+    mode: prepared
+    prepared: false
+  consume:
+    type: ''
+    target: null
+    amount: null
+    scale: false
+  cover: null
+  crewed: false
+  ability: null
+img: icons/creatures/birds/dove-pigeon-flying-white.webp
+ownership:
+  default: 0
+  38Gfe7fp1EmVmZNj: 3
+flags:
+  plutonium:
+    page: spells.html
+    source: PHB
+    hash: animal%20messenger_phb
+    propDroppable: spell
+effects: []
+folder: hys47gEfFh1kH8oy
+_id: Sqasl9kYHHSbrha6
+sort: 0
+_stats:
+  systemId: dnd5e
+  systemVersion: 3.0.2
+  coreVersion: '13.345'
+  createdTime: 1708227600926
+  modifiedTime: 1708227676991
+  lastModifiedBy: 38Gfe7fp1EmVmZNj
+  compendiumSource: null
+  duplicateSource: null
+  exportSource: null
+_key: '!items!Sqasl9kYHHSbrha6'

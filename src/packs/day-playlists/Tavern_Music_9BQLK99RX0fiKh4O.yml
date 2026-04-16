@@ -1,0 +1,153 @@
+folder: 9knvgHfaGijd7P6o
+name: Tavern Music
+_id: 9BQLK99RX0fiKh4O
+sounds:
+  - name: Brevoy Folk Melody (tavern Theme 1)
+    path: >-
+      modules/dannysmodule/assets/audio/audio-music/tavern/brevoy-folk-melody-(tavern-theme-1).ogg
+    _id: vQ300jKS2hNCqHsy
+    channel: music
+    playing: false
+    pausedTime: null
+    repeat: true
+    volume: 0.5
+    fade: null
+    sort: 0
+    flags: {}
+    _key: '!playlists.sounds!9BQLK99RX0fiKh4O.vQ300jKS2hNCqHsy'
+  - name: Lake Of Mists And Veils (tavern Theme 6)
+    path: >-
+      modules/dannysmodule/assets/audio/audio-music/tavern/lake-of-mists-and-veils-(tavern-theme-6).ogg
+    _id: 9eh1dddeAyVCjRey
+    channel: music
+    playing: false
+    pausedTime: null
+    repeat: true
+    volume: 0.5
+    fade: null
+    sort: 0
+    flags: {}
+    _key: '!playlists.sounds!9BQLK99RX0fiKh4O.9eh1dddeAyVCjRey'
+  - name: Fey In The Hills (tavern Theme 3)
+    path: >-
+      modules/dannysmodule/assets/audio/audio-music/tavern/fey-in-the-hills-(tavern-theme-3).ogg
+    _id: UBSrEV0M2wXWkSrB
+    channel: music
+    playing: false
+    pausedTime: null
+    repeat: true
+    volume: 0.5
+    fade: null
+    sort: 0
+    flags: {}
+    _key: '!playlists.sounds!9BQLK99RX0fiKh4O.UBSrEV0M2wXWkSrB'
+  - name: Lazy Morning (tavern Theme 4)
+    path: >-
+      modules/dannysmodule/assets/audio/audio-music/tavern/lazy-morning-(tavern-theme-4).ogg
+    _id: NKD4oTkpwNetr15U
+    channel: music
+    playing: false
+    pausedTime: null
+    repeat: true
+    volume: 0.5
+    fade: null
+    sort: 0
+    flags: {}
+    _key: '!playlists.sounds!9BQLK99RX0fiKh4O.NKD4oTkpwNetr15U'
+  - name: Rushlight Festival (tavern Theme 5)
+    path: >-
+      modules/dannysmodule/assets/audio/audio-music/tavern/rushlight-festival-(tavern-theme-5).ogg
+    _id: WDyXo0uqjHRzTaFy
+    channel: music
+    playing: false
+    pausedTime: null
+    repeat: true
+    volume: 0.5
+    fade: null
+    sort: 0
+    flags: {}
+    _key: '!playlists.sounds!9BQLK99RX0fiKh4O.WDyXo0uqjHRzTaFy'
+  - name: The Heart Of The Land (tavern Theme 2)
+    path: >-
+      modules/dannysmodule/assets/audio/audio-music/tavern/the-heart-of-the-land-(tavern-theme-2).ogg
+    _id: ABmOKzKckz1mp0S7
+    channel: music
+    playing: false
+    pausedTime: null
+    repeat: true
+    volume: 0.5
+    fade: null
+    sort: 0
+    flags: {}
+    _key: '!playlists.sounds!9BQLK99RX0fiKh4O.ABmOKzKckz1mp0S7'
+  - name: Last Respite
+    path: modules/dannysmodule/assets/audio/audio-music/tavern/last-respite.ogg
+    channel: music
+    repeat: true
+    fade: null
+    flags:
+      monks-sound-enhancements:
+        hide-name: false
+    description: ''
+    volume: 0.52
+    _id: pT4sg6csUTVFgAd2
+    playing: false
+    pausedTime: null
+    sort: 0
+    _key: '!playlists.sounds!9BQLK99RX0fiKh4O.pT4sg6csUTVFgAd2'
+  - name: Shelter At Last
+    path: modules/dannysmodule/assets/audio/audio-music/tavern/shelter-at-last.ogg
+    channel: music
+    repeat: true
+    fade: null
+    flags:
+      monks-sound-enhancements:
+        hide-name: false
+    description: ''
+    volume: 0.52
+    _id: AkKsouyo4JXer8yu
+    playing: false
+    pausedTime: null
+    sort: 0
+    _key: '!playlists.sounds!9BQLK99RX0fiKh4O.AkKsouyo4JXer8yu'
+  - name: The 'ol Silver Serpent Saloon
+    path: >-
+      modules/dannysmodule/assets/audio/audio-music/tavern/the-ol-silver-serpent-saloon.ogg
+    channel: music
+    repeat: true
+    fade: null
+    flags:
+      monks-sound-enhancements:
+        hide-name: false
+    description: ''
+    volume: 0.41
+    _id: q7lkeF1N6TBVBc1C
+    playing: false
+    pausedTime: null
+    sort: 0
+    _key: '!playlists.sounds!9BQLK99RX0fiKh4O.q7lkeF1N6TBVBc1C'
+channel: music
+mode: 0
+playing: false
+fade: null
+sorting: a
+seed: 339
+flags:
+  monks-sound-enhancements:
+    hide-playlist: false
+_stats:
+  compendiumSource: null
+  duplicateSource: null
+  coreVersion: '13.344'
+  systemId: pf2e
+  systemVersion: 6.1.3
+  createdTime: 1722151843629
+  modifiedTime: 1723499082395
+  lastModifiedBy: txZjek5EOiCBHPoz
+  exportSource: null
+description: ''
+sort: 0
+ownership:
+  default: 0
+  txZjek5EOiCBHPoz: 3
+_key: '!playlists!9BQLK99RX0fiKh4O'

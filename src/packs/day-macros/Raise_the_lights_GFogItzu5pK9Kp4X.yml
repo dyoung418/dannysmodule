@@ -1,0 +1,103 @@
+folder: qYaor4lQZNCHF6MM
+name: Raise the lights
+type: script
+author: txZjek5EOiCBHPoz
+img: icons/svg/dice-target.svg
+scope: global
+command: >-
+  // Meant to be run as a scene region behavior macro
+
+
+  // Variables to tweek
+
+  const newDarknessLevel = 0;
+
+  let step = 0.005;
+
+  const totalTimeInSec = 3; 
+
+  const ignoreIfTokensInRegion = false;
+
+
+  // The rest of the code
+
+  scene = game.scenes.active;
+
+  const oldDarknessLevel = scene.environment.darknessLevel;
+
+  const higherDark = (newDarknessLevel >= oldDarknessLevel);
+
+  step = higherDark ? step : (step * -1);
+
+  const delay = (totalTimeInSec * 1000) / 
+    ( Math.abs(oldDarknessLevel - newDarknessLevel) / Math.abs(step) );
+
+  // Do nothing if there are still tokens in the region
+
+  if( ignoreIfTokensInRegion && (region.tokens.size >=1) )
+
+  {
+    return undefined;
+  }
+
+
+  console.log(`old=${oldDarknessLevel}, new=${newDarknessLevel}, step=${step}, 
+    higherDark=${higherDark}; change darkness in ${roundx(Math.abs(oldDarknessLevel - 
+    newDarknessLevel)/step)} steps, with ${delay} ms delay between each`);
+
+  // This approach didn't delay the specified time
+
+  //for(let i=oldDarknessLevel; higherDark ? i < newDarknessLevel: i >
+  newDarknessLevel; i +=step) 
+
+  //{
+
+  //  scene.update({"environment.darknessLevel": i})
+
+  //    .then(setTimeout(() => {return 0;}, delay));
+
+  //}
+
+
+  // This pattern guarantees that each call of loop() is 
+
+  // completed before the next.
+
+  // It also doesn't block movement before it is finished
+
+  let i = oldDarknessLevel;
+
+  (function loop() {
+    setTimeout(async () => {
+      // Your logic here
+      if(higherDark ? i < newDarknessLevel: i > newDarknessLevel)
+      {
+        await scene.update({"environment.darknessLevel": i});
+        i += step;
+        loop();
+      }
+    }, delay);
+  })();
+
+
+
+  function roundx(number, decimals=0) {
+    return Math.round(number * 10**decimals) / 10**decimals;
+  }
+flags: {}
+_stats:
+  compendiumSource: null
+  duplicateSource: null
+  coreVersion: '13.346'
+  systemId: dnd5e
+  systemVersion: 3.2.0
+  createdTime: 1717940823510
+  modifiedTime: 1752208126881
+  lastModifiedBy: txZjek5EOiCBHPoz
+  exportSource: null
+_id: GFogItzu5pK9Kp4X
+sort: 0
+ownership:
+  default: 0
+  38Gfe7fp1EmVmZNj: 3
+_key: '!macros!GFogItzu5pK9Kp4X'

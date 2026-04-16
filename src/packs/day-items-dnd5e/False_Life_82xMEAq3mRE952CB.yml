@@ -1,0 +1,110 @@
+name: False Life
+type: spell
+system:
+  source:
+    custom: ''
+    book: PHB
+    page: '239'
+    license: ''
+  description:
+    value: >-
+      <div class="rd__b  rd__b--3"><p>Bolstering yourself with a necromantic
+      facsimile of life, you gain [[/r 1d4 + 4]] temporary hit points for the
+      duration.</p><div class="rd__spc-inline-post"></div></div><div
+      class="rd__b  rd__b--3"><div class="rd__b  rd__b--3"><span class="rd__h
+      rd__h--3" data-title-index="1"> <span class="entry-title-inner">At Higher
+      Levels.</span></span> <p>When you cast this spell using a spell slot of
+      2nd level or higher, you gain 5 additional temporary hit points for each
+      slot level above 1st.</p><div class="rd__spc-inline-post"></div></div><div
+      class="rd__spc-inline-post"></div></div><div><span class="bold">Classes:
+      </span>Artificer, Sorcerer, Wizard</div>
+    chat: ''
+  actionType: util
+  level: 1
+  school: nec
+  properties:
+    - vocal
+    - somatic
+    - material
+  materials:
+    value: a small amount of alcohol or distilled spirits
+    consumed: false
+    cost: 0
+    supply: 0
+  target:
+    value: 0
+    units: self
+    type: self
+    prompt: true
+    width: null
+  range:
+    value: 0
+    units: self
+    long: null
+  activation:
+    type: action
+    cost: 1
+    condition: ''
+  duration:
+    value: '1'
+    units: hour
+  damage:
+    parts:
+      - - 1d4 + 4
+        - temphp
+    versatile: ''
+  scaling:
+    mode: level
+    formula: (@item.level - 1) * 5
+  save:
+    dc: null
+    scaling: spell
+    ability: ''
+  uses:
+    value: null
+    max: ''
+    per: null
+    recovery: ''
+    prompt: true
+  attackBonus: ''
+  chatFlavor: ''
+  critical:
+    threshold: null
+    damage: ''
+  formula: ''
+  preparation:
+    mode: prepared
+    prepared: false
+  consume:
+    type: ''
+    target: null
+    amount: null
+    scale: false
+  cover: null
+  crewed: false
+  ability: null
+img: icons/magic/life/heart-cross-purple-orange.webp
+ownership:
+  default: 0
+  38Gfe7fp1EmVmZNj: 3
+flags:
+  plutonium:
+    page: spells.html
+    source: PHB
+    hash: false%20life_phb
+    propDroppable: spell
+effects: []
+folder: xcRlAcnidmHoYRJ1
+_id: 82xMEAq3mRE952CB
+sort: 0
+_stats:
+  systemId: dnd5e
+  systemVersion: 3.0.2
+  coreVersion: '13.345'
+  createdTime: 1708109196779
+  modifiedTime: 1708227409300
+  lastModifiedBy: 38Gfe7fp1EmVmZNj
+  compendiumSource: null
+  duplicateSource: null
+  exportSource: null
+_key: '!items!82xMEAq3mRE952CB'

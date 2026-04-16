@@ -1,0 +1,142 @@
+name: Darkvision
+type: spell
+system:
+  source:
+    custom: ''
+    book: PHB
+    page: '230'
+    license: ''
+  description:
+    value: >-
+      <div class="rd__b  rd__b--3"><p>You touch a willing creature to grant it
+      the ability to see in the dark. For the duration, that creature has
+      @sense[darkvision] out to a range of 60 feet.</p><div
+      class="rd__spc-inline-post"></div></div><div><span class="bold">Classes:
+      </span>Artificer, Druid, Ranger, Sorcerer, Wizard</div>
+    chat: ''
+  actionType: util
+  level: 2
+  school: trs
+  properties:
+    - vocal
+    - somatic
+    - material
+  materials:
+    value: either a pinch of dried carrot or an agate
+    consumed: false
+    cost: 0
+    supply: 0
+  target:
+    value: 1
+    units: touch
+    type: creature
+    prompt: true
+    width: null
+  range:
+    value: 0
+    units: touch
+    long: null
+  activation:
+    type: action
+    cost: 1
+    condition: ''
+  duration:
+    value: '8'
+    units: hour
+  damage:
+    parts: []
+    versatile: ''
+  scaling:
+    mode: none
+    formula: ''
+  save:
+    dc: null
+    scaling: spell
+    ability: ''
+  uses:
+    value: null
+    max: ''
+    per: null
+    recovery: ''
+    prompt: true
+  attackBonus: ''
+  chatFlavor: ''
+  critical:
+    threshold: null
+    damage: ''
+  formula: ''
+  preparation:
+    mode: prepared
+    prepared: false
+  consume:
+    type: ''
+    target: null
+    amount: null
+    scale: false
+  cover: null
+  crewed: false
+  ability: null
+img: icons/creatures/magical/construct-golem-stone-blue.webp
+ownership:
+  default: 0
+  38Gfe7fp1EmVmZNj: 3
+flags:
+  plutonium:
+    page: spells.html
+    source: PHB
+    hash: darkvision_phb
+    propDroppable: spell
+effects:
+  - name: Darkvision
+    origin: Compendium.dnd5e.spells.Item.hJ6ZiA3fpoY8v9cp
+    duration:
+      value: 28800
+      units: seconds
+      expiry: turnStart
+      expired: false
+    disabled: false
+    _id: 9qaZQFN5xP8Gig8f
+    description: <p>The target has darkvision out to a range of 60 feet.</p>
+    transfer: false
+    statuses: []
+    flags:
+      plutonium:
+        dedupeId: darkvision
+    tint: '#ffffff'
+    _stats:
+      coreVersion: '14.359'
+      systemId: null
+      systemVersion: null
+      createdTime: null
+      modifiedTime: null
+      lastModifiedBy: null
+      compendiumSource: null
+      duplicateSource: null
+      exportSource: null
+    img: icons/creatures/magical/construct-golem-stone-blue.webp
+    type: base
+    system:
+      changes:
+        - key: system.attributes.senses.darkvision
+          value: 60
+          priority: null
+          type: upgrade
+    sort: 0
+    start: null
+    showIcon: 1
+    folder: null
+    _key: '!items.effects!uvRU3ySlZse2k8CC.9qaZQFN5xP8Gig8f'
+folder: hys47gEfFh1kH8oy
+_id: uvRU3ySlZse2k8CC
+sort: 0
+_stats:
+  systemId: dnd5e
+  systemVersion: 3.0.2
+  coreVersion: '14.359'
+  createdTime: 1708227601116
+  modifiedTime: 1708227676991
+  lastModifiedBy: 38Gfe7fp1EmVmZNj
+  compendiumSource: null
+  duplicateSource: null
+  exportSource: null
+_key: '!items!uvRU3ySlZse2k8CC'

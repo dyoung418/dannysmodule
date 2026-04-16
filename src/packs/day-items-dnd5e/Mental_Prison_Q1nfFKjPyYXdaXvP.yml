@@ -1,0 +1,174 @@
+name: Mental Prison
+type: spell
+system:
+  source:
+    custom: ''
+    book: XGE
+    page: '161'
+    license: ''
+    revision: 1
+    rules: '2024'
+  description:
+    value: >-
+      <div class="rd__b  rd__b--3"><p>You attempt to bind a creature within an
+      illusory cell that only it perceives. One creature you can see within
+      range must make an Intelligence saving throw. The target succeeds
+      automatically if it is immune to being @condition[charmed]. On a
+      successful save, the target takes [[/r 5d10]] psychic damage, and the
+      spell ends. On a failed save, the target takes [[/r 5d10]] psychic damage,
+      and you make the area immediately around the target's space appear
+      dangerous to it in some way. You might cause the target to perceive itself
+      as being surrounded by fire, floating razors, or hideous maws filled with
+      dripping teeth. Whatever form the illusion takes, the target can't see or
+      hear anything beyond it and is @condition[restrained] for the spell's
+      duration. If the target is moved out of the illusion, makes a melee attack
+      through it, or reaches any part of its body through it, the target takes
+      [[/r 10d10]] psychic damage, and the spell ends.</p><div
+      class="rd__spc-inline-post"></div></div><div><span class="bold">Classes:
+      </span>Sorcerer, Warlock, Wizard</div>
+    chat: ''
+  level: 6
+  school: ill
+  properties:
+    - somatic
+    - concentration
+  materials:
+    value: ''
+    consumed: false
+    cost: 0
+    supply: 0
+  target:
+    affects:
+      choice: false
+    template:
+      units: ''
+      contiguous: false
+  range:
+    value: '60'
+    units: ft
+  activation:
+    type: action
+    condition: ''
+    value: 1
+  duration:
+    value: '1'
+    units: minute
+  uses:
+    max: ''
+    spent: 0
+    recovery: []
+  preparation:
+    mode: prepared
+    prepared: false
+  activities:
+    dnd5eactivity000:
+      _id: dnd5eactivity000
+      type: save
+      activation:
+        type: action
+        override: false
+      consumption:
+        targets: []
+        scaling:
+          allowed: false
+          max: ''
+        spellSlot: true
+      description:
+        chatFlavor: ''
+      duration:
+        units: inst
+        concentration: false
+        override: false
+      effects: []
+      range:
+        units: self
+        override: false
+      target:
+        prompt: true
+        template:
+          contiguous: false
+          units: ft
+        affects:
+          choice: false
+        override: false
+      uses:
+        spent: 0
+        max: ''
+        recovery: []
+      damage:
+        onSave: half
+        parts:
+          - number: 5
+            denomination: 10
+            bonus: ''
+            types:
+              - psychic
+            custom:
+              enabled: false
+              formula: ''
+            scaling:
+              mode: ''
+              number: null
+              formula: ''
+          - number: 5
+            denomination: 10
+            bonus: ''
+            types:
+              - psychic
+            custom:
+              enabled: false
+              formula: ''
+            scaling:
+              mode: ''
+              number: null
+              formula: ''
+          - number: 10
+            denomination: 10
+            bonus: ''
+            types:
+              - psychic
+            custom:
+              enabled: false
+              formula: ''
+            scaling:
+              mode: ''
+              number: null
+              formula: ''
+      save:
+        ability:
+          - int
+        dc:
+          calculation: spellcasting
+          formula: ''
+      sort: 0
+  identifier: mental-prison
+img: icons/magic/perception/eye-ringed-green.webp
+ownership:
+  default: 0
+  38Gfe7fp1EmVmZNj: 3
+flags:
+  plutonium:
+    page: spells.html
+    source: XGE
+    hash: mental%20prison_xge
+    propDroppable: spell
+  dnd5e:
+    persistSourceMigration: true
+    riders:
+      activity: []
+      effect: []
+effects: []
+folder: 0FHG6CpgiMvDREpM
+_id: Q1nfFKjPyYXdaXvP
+sort: 0
+_stats:
+  systemId: dnd5e
+  systemVersion: 5.0.4
+  coreVersion: '13.346'
+  createdTime: 1708109345782
+  modifiedTime: 1752197371435
+  lastModifiedBy: 1pY4akW8WASxGBbA
+  compendiumSource: null
+  duplicateSource: null
+  exportSource: null
+_key: '!items!Q1nfFKjPyYXdaXvP'

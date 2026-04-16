@@ -1,0 +1,32 @@
+name: Toggle Hook Logging
+type: script
+author: txZjek5EOiCBHPoz
+img: icons/svg/anchor.svg
+scope: global
+command: |-
+  CONFIG.debug.hooks = !CONFIG.debug.hooks;
+  if (CONFIG.debug.hooks)
+      console.log("NOW LISTENING TO ALL HOOK CALLS!");
+  else
+      console.log("HOOK LISTENING DISABLED.");
+folder: null
+ownership:
+  default: 0
+  txZjek5EOiCBHPoz: 3
+flags:
+  scene-packer:
+    hash: fcb25f544e0199856d0c12ef9b469594a382b00e
+  core: {}
+_stats:
+  systemId: pf2e
+  systemVersion: 5.10.3
+  coreVersion: '13.346'
+  createdTime: 1694679152292
+  modifiedTime: 1752208126881
+  lastModifiedBy: txZjek5EOiCBHPoz
+  compendiumSource: null
+  duplicateSource: null
+  exportSource: null
+_id: 62oOSxRBOx3Eg7W1
+sort: 0
+_key: '!macros!62oOSxRBOx3Eg7W1'

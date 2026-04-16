@@ -1,0 +1,112 @@
+name: Circle of Death
+type: spell
+system:
+  source:
+    custom: ''
+    book: PHB
+    page: '221'
+    license: ''
+  description:
+    value: >-
+      <div class="rd__b  rd__b--3"><p>A sphere of negative energy ripples out in
+      a 60-foot-radius sphere from a point within range. Each creature in that
+      area must make a Constitution saving throw. A target takes [[/r 8d6]]
+      necrotic damage on a failed save, or half as much damage on a successful
+      one.</p><div class="rd__spc-inline-post"></div></div><div class="rd__b 
+      rd__b--3"><div class="rd__b  rd__b--3"><span class="rd__h rd__h--3"
+      data-title-index="1"> <span class="entry-title-inner">At Higher
+      Levels.</span></span> <p>When you cast this spell using a spell slot of
+      7th level or higher, the damage increases by [[/r 2d6]] for each slot
+      level above 6th.</p><div class="rd__spc-inline-post"></div></div><div
+      class="rd__spc-inline-post"></div></div><div><span class="bold">Classes:
+      </span>Sorcerer, Warlock, Wizard</div>
+    chat: ''
+  actionType: save
+  level: 6
+  school: nec
+  properties:
+    - vocal
+    - somatic
+    - material
+  materials:
+    value: the powder of a crushed black pearl worth at least 500 gp
+    consumed: false
+    cost: 500
+    supply: 0
+  target:
+    value: 60
+    units: ft
+    type: sphere
+    prompt: true
+    width: null
+  range:
+    value: 150
+    units: ft
+    long: null
+  activation:
+    type: action
+    cost: 1
+    condition: ''
+  duration:
+    value: ''
+    units: inst
+  damage:
+    parts:
+      - - 8d6
+        - necrotic
+    versatile: ''
+  scaling:
+    mode: level
+    formula: 2d6
+  save:
+    ability: con
+    dc: null
+    scaling: spell
+  uses:
+    value: null
+    max: ''
+    per: null
+    recovery: ''
+    prompt: true
+  attackBonus: ''
+  chatFlavor: ''
+  critical:
+    threshold: null
+    damage: ''
+  formula: ''
+  preparation:
+    mode: prepared
+    prepared: false
+  consume:
+    type: ''
+    target: null
+    amount: null
+    scale: false
+  cover: null
+  crewed: false
+  ability: null
+img: icons/creatures/eyes/void-single-black-purple.webp
+ownership:
+  default: 0
+  38Gfe7fp1EmVmZNj: 3
+flags:
+  plutonium:
+    page: spells.html
+    source: PHB
+    hash: circle%20of%20death_phb
+    propDroppable: spell
+effects: []
+folder: YZc3v7XiNFawHEhx
+_id: H3zk7wsc815uAp7I
+sort: 0
+_stats:
+  systemId: dnd5e
+  systemVersion: 3.0.3
+  coreVersion: '13.345'
+  createdTime: 1709684304938
+  modifiedTime: 1709684366197
+  lastModifiedBy: 38Gfe7fp1EmVmZNj
+  compendiumSource: null
+  duplicateSource: null
+  exportSource: null
+_key: '!items!H3zk7wsc815uAp7I'

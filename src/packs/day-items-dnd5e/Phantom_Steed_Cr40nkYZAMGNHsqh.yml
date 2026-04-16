@@ -1,0 +1,135 @@
+name: Phantom Steed
+type: spell
+system:
+  source:
+    custom: ''
+    book: PHB
+    page: '265'
+    license: ''
+    revision: 1
+    rules: '2024'
+  description:
+    value: >-
+      <div class="rd__b  rd__b--3"><p>A Large quasi-real, horselike creature
+      appears on the ground in an unoccupied space of your choice within range.
+      You decide the creature's appearance, but it is equipped with a saddle,
+      bit, and bridle. Any of the equipment created by the spell vanishes in a
+      puff of smoke if it is carried more than 10 feet away from the
+      steed.</p><div class="rd__spc-inline-post"></div><p>For the duration, you
+      or a creature you choose can ride the steed. The creature uses the
+      statistics for a @creature[riding horse], except it has a speed of 100
+      feet and can travel 10 miles in an hour, or 13 miles at a fast pace. When
+      the spell ends, the steed gradually fades, giving the rider 1 minute to
+      dismount. The spell ends if you use an action to dismiss it or if the
+      steed takes any damage.</p></div><div><span class="bold">Classes:
+      </span>Wizard</div>
+    chat: ''
+  level: 3
+  school: ill
+  properties:
+    - vocal
+    - somatic
+    - ritual
+  materials:
+    value: ''
+    consumed: false
+    cost: 0
+    supply: 0
+  target:
+    affects:
+      type: space
+      count: '0'
+      choice: false
+    template:
+      units: any
+      contiguous: false
+  range:
+    value: '30'
+    units: ft
+  activation:
+    type: minute
+    condition: ''
+    value: 1
+  duration:
+    value: '1'
+    units: hour
+  uses:
+    max: ''
+    spent: 0
+    recovery: []
+  preparation:
+    mode: prepared
+    prepared: false
+  activities:
+    dnd5eactivity000:
+      _id: dnd5eactivity000
+      type: utility
+      activation:
+        type: action
+        value: null
+        override: false
+      consumption:
+        targets: []
+        scaling:
+          allowed: false
+          max: ''
+        spellSlot: true
+      description:
+        chatFlavor: ''
+      duration:
+        units: inst
+        concentration: false
+        override: false
+      effects: []
+      range:
+        override: false
+        units: self
+      target:
+        prompt: true
+        template:
+          contiguous: false
+          units: ft
+        affects:
+          choice: false
+        override: false
+      uses:
+        spent: 0
+        max: ''
+        recovery: []
+      roll:
+        formula: ''
+        name: ''
+        prompt: false
+        visible: false
+      sort: 0
+  identifier: phantom-steed
+img: icons/creatures/mammals/spirit-deer-herd-blue.webp
+ownership:
+  default: 0
+  38Gfe7fp1EmVmZNj: 3
+flags:
+  plutonium:
+    page: spells.html
+    source: PHB
+    hash: phantom%20steed_phb
+    propDroppable: spell
+  dnd5e:
+    persistSourceMigration: true
+    riders:
+      activity: []
+      effect: []
+effects: []
+folder: 460yTIg9sKBrbNPf
+_id: Cr40nkYZAMGNHsqh
+sort: 0
+_stats:
+  systemId: dnd5e
+  systemVersion: 5.0.4
+  coreVersion: '13.346'
+  createdTime: 1709684305884
+  modifiedTime: 1752197371435
+  lastModifiedBy: 1pY4akW8WASxGBbA
+  compendiumSource: null
+  duplicateSource: null
+  exportSource: null
+_key: '!items!Cr40nkYZAMGNHsqh'

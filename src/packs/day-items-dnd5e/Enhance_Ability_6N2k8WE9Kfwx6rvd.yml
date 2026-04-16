@@ -1,0 +1,171 @@
+name: Enhance Ability
+type: spell
+system:
+  source:
+    custom: ''
+    book: PHB
+    page: '237'
+    license: ''
+    revision: 1
+    rules: '2024'
+  description:
+    value: >-
+      <div class="rd__b  rd__b--3"><p>You touch a creature and bestow upon it a
+      magical enhancement. Choose one of the following effects; the target gains
+      that effect until the spell ends.</p><div
+      class="rd__spc-inline-post"></div><div class="rd__b  rd__b--3"><span
+      class="rd__h rd__h--3" data-title-index="1"> <span
+      class="entry-title-inner">Bear's Endurance.</span></span> <p>The target
+      has advantage on Constitution checks. It also gains [[/r 2d6]] temporary
+      hit points, which are lost when the spell ends.</p><div
+      class="rd__spc-inline-post"></div></div><div class="rd__b  rd__b--3"><span
+      class="rd__h rd__h--3" data-title-index="2"> <span
+      class="entry-title-inner">Bull's Strength.</span></span> <p>The target has
+      advantage on Strength checks, and his or her carrying capacity
+      doubles.</p><div class="rd__spc-inline-post"></div></div><div
+      class="rd__b  rd__b--3"><span class="rd__h rd__h--3" data-title-index="3">
+      <span class="entry-title-inner">Cat's Grace.</span></span> <p>The target
+      has advantage on Dexterity checks. It also doesn't take damage from
+      falling 20 feet or less if it isn't @condition[incapacitated].</p><div
+      class="rd__spc-inline-post"></div></div><div class="rd__b  rd__b--3"><span
+      class="rd__h rd__h--3" data-title-index="4"> <span
+      class="entry-title-inner">Eagle's Splendor.</span></span> <p>The target
+      has advantage on Charisma checks.</p><div
+      class="rd__spc-inline-post"></div></div><div class="rd__b  rd__b--3"><span
+      class="rd__h rd__h--3" data-title-index="5"> <span
+      class="entry-title-inner">Fox's Cunning.</span></span> <p>The target has
+      advantage on Intelligence checks.</p><div
+      class="rd__spc-inline-post"></div></div><div class="rd__b  rd__b--3"><span
+      class="rd__h rd__h--3" data-title-index="6"> <span
+      class="entry-title-inner">Owl's Wisdom.</span></span> <p>The target has
+      advantage on Wisdom checks.</p><div
+      class="rd__spc-inline-post"></div></div></div><div class="rd__b 
+      rd__b--3"><div class="rd__b  rd__b--3"><span class="rd__h rd__h--3"
+      data-title-index="1"> <span class="entry-title-inner">At Higher
+      Levels.</span></span> <p>When you cast this spell using a spell slot of
+      3rd level or higher, you can target one additional creature for each slot
+      level above 2nd.</p><div class="rd__spc-inline-post"></div></div><div
+      class="rd__spc-inline-post"></div></div><div><span class="bold">Classes:
+      </span>Artificer, Bard, Cleric, Druid, Sorcerer</div>
+    chat: ''
+  level: 2
+  school: trs
+  properties:
+    - vocal
+    - somatic
+    - material
+    - concentration
+  materials:
+    value: fur or a feather from a beast
+    consumed: false
+    cost: 0
+    supply: 0
+  target:
+    affects:
+      type: creature
+      count: '1'
+      choice: false
+    template:
+      units: touch
+      contiguous: false
+  range:
+    value: '0'
+    units: touch
+  activation:
+    type: action
+    condition: ''
+    value: 1
+  duration:
+    value: '1'
+    units: hour
+  uses:
+    max: ''
+    spent: 0
+    recovery: []
+  preparation:
+    mode: prepared
+    prepared: false
+  activities:
+    dnd5eactivity000:
+      _id: dnd5eactivity000
+      type: damage
+      activation:
+        type: action
+        override: false
+      consumption:
+        targets: []
+        scaling:
+          allowed: false
+          max: ''
+        spellSlot: true
+      description:
+        chatFlavor: ''
+      duration:
+        units: inst
+        concentration: false
+        override: false
+      effects: []
+      range:
+        units: self
+        override: false
+      target:
+        prompt: true
+        template:
+          contiguous: false
+          units: ft
+        affects:
+          choice: false
+        override: false
+      uses:
+        spent: 0
+        max: ''
+        recovery: []
+      damage:
+        critical:
+          allow: false
+          bonus: ''
+        parts:
+          - number: 2
+            denomination: 6
+            bonus: ''
+            types:
+              - temphp
+            custom:
+              enabled: false
+              formula: ''
+            scaling:
+              mode: ''
+              number: null
+              formula: ''
+      sort: 0
+  identifier: enhance-ability
+img: icons/magic/control/buff-strength-muscle-damage-red.webp
+ownership:
+  default: 0
+  38Gfe7fp1EmVmZNj: 3
+flags:
+  plutonium:
+    page: spells.html
+    source: PHB
+    hash: enhance%20ability_phb
+    propDroppable: spell
+  dnd5e:
+    persistSourceMigration: true
+    riders:
+      activity: []
+      effect: []
+effects: []
+folder: 5RW3khzmlcXrGJ9s
+_id: 6N2k8WE9Kfwx6rvd
+sort: 0
+_stats:
+  systemId: dnd5e
+  systemVersion: 5.0.4
+  coreVersion: '13.346'
+  createdTime: 1709684305188
+  modifiedTime: 1752197371435
+  lastModifiedBy: 1pY4akW8WASxGBbA
+  compendiumSource: null
+  duplicateSource: null
+  exportSource: null
+_key: '!items!6N2k8WE9Kfwx6rvd'

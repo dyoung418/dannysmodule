@@ -1,0 +1,121 @@
+name: Misc Rules Reference
+flags:
+  core: {}
+  scene-packer:
+    sourceId: JournalEntry.QPB5dyAzj11QWX6P
+    defaultPermission: 2
+    hash: 758b7dcfb748e2556cc953042f24fa6e95f1d505
+pages:
+  - name: Hexploration
+    type: text
+    title:
+      show: true
+      level: 1
+    text:
+      format: 1
+      content: "<h2>Exploration Activities</h2><p>For each day you receive a number of activities based on your speed:</p><p></p><table class=\"inner\"><tbody><tr><th><p>Speed (of slowest member for group activities)</p></th><th><p>Activities per Day</p></th><th><p>Activity Duration</p></th></tr><tr><td><p>10 feet or less</p></td><td><p>1/2</p></td><td><p>16:00</p></td></tr><tr><td><p>15–25 feet</p></td><td><p>1</p></td><td><p>8:00</p></td></tr><tr><td><p>30–40 feet</p></td><td><p>2</p></td><td><p>4:00</p></td></tr><tr><td><p>45–55 feet</p></td><td><p>3</p></td><td><p>2:40</p></td></tr><tr><td><p>60 feet or more</p></td><td><p>4</p></td><td><p>2:00</p></td></tr></tbody></table><p>Activities can be either of type Group or Individual. Group Activities require every party member to perform that activity. Individual Activities can be performed by each party member separately.</p><h2 style=\"margin-top:var(--p-space,1em);width:643.898px;font-family:var(--sans-serif)\"><span style=\"font-family:var(--sans-serif)\">Terrain</span></h2><p>Terrain depends on your travel method and hex types. Depending on if you want to travel through a hex or reconnoiter a hex (see further down), you must invest a number of exploration activities depending on the terrain type.</p><h4 style=\"margin-top:var(--p-space,1em);width:643.898px;font-family:var(--sans-serif)\"><span style=\"font-family:var(--sans-serif)\">WALKING</span></h4><p>If you are travelling, a road changes <strong>greater difficult</strong>\_to\_<strong>difficult</strong>\_terrain and\_<strong>difficult</strong>\_to\_<strong>open</strong> terrain.</p><p style=\"margin-top:var(--p-space,1em);width:643.898px\"></p><table class=\"inner\" style=\"width:94.0146%;height:78px\"><tbody><tr style=\"height:19.5px\"><td style=\"width:53.4946%;height:19.5px\"><p><strong>Hex Type</strong></p></td><td style=\"width:46.5054%;height:19.5px\"><p><strong>Terrain Type</strong></p></td></tr><tr style=\"height:19.5px\"><td style=\"width:53.4946%;height:19.5px\"><p>Plains</p></td><td style=\"width:46.5054%;height:19.5px\"><p>Open</p></td></tr><tr style=\"height:19.5px\"><td style=\"width:53.4946%;height:19.5px\"><p>Forest/Hills/Desert</p></td><td style=\"width:46.5054%;height:19.5px\"><p>Difficult</p></td></tr><tr style=\"height:19.5px\"><td style=\"width:53.4946%;height:19.5px\"><p>Swamp/Mountain</p></td><td style=\"width:46.5054%;height:19.5px\"><p>Greater Difficult</p></td></tr></tbody></table><h4 style=\"margin-top:var(--p-space,1em);width:643.898px;font-family:var(--sans-serif)\"><span style=\"font-family:var(--sans-serif)\">FLYING</span></h4><p style=\"margin-top:var(--p-space,1em);width:643.898px\">Requires an airship or fly speed:</p><p style=\"margin-top:var(--p-space,1em);width:643.898px\"></p><table class=\"inner\" style=\"width:643.898px;margin-top:var(--p-space,1em)\"><tbody><tr><td><p><strong>Wind Conditions</strong></p></td><td style=\"margin-top:var(--p-space,1em)\"><p><strong>Terrain Type</strong></p></td></tr><tr style=\"margin-top:var(--p-space,1em)\"><td><p>Normal</p></td><td style=\"margin-top:var(--p-space,1em)\"><p>Open</p></td></tr><tr style=\"margin-top:var(--p-space,1em)\"><td><p>Strong Winds</p></td><td style=\"margin-top:var(--p-space,1em)\"><p>Difficult</p></td></tr><tr style=\"margin-top:var(--p-space,1em)\"><td><p>Storms</p></td><td style=\"margin-top:var(--p-space,1em)\"><p>Greater Difficult</p></td></tr></tbody></table><h4 style=\"margin-top:var(--p-space,1em);width:643.898px;font-family:var(--sans-serif)\"><span style=\"font-family:var(--sans-serif)\">SWIMMING</span></h4><p style=\"margin-top:var(--p-space,1em);width:643.898px\">Requires a ship or swim speed:</p><p style=\"margin-top:var(--p-space,1em);width:643.898px\"></p><table class=\"inner\" style=\"width:94.0146%;height:78px\"><tbody><tr style=\"height:19.5px\"><td style=\"width:46.7804%;height:19.5px\"><p><strong>Water Type</strong></p></td><td style=\"width:52.5828%;height:19.5px\"><p><strong>Terrain Type</strong></p></td></tr><tr style=\"height:19.5px\"><td style=\"width:46.7804%;height:19.5px\"><p>Normal/Downriver</p></td><td style=\"width:52.5828%;height:19.5px\"><p>Open</p></td></tr><tr style=\"height:19.5px\"><td style=\"width:46.7804%;height:19.5px\"><p>Strong Waves/Upriver</p></td><td style=\"width:52.5828%;height:19.5px\"><p>Difficult</p></td></tr><tr style=\"height:19.5px\"><td style=\"width:46.7804%;height:19.5px\"><p>Storms</p></td><td style=\"width:52.5828%;height:19.5px\"><p>Greater Difficult</p></td></tr></tbody></table><h2>Hexploration Activities</h2><h3>Travel (Group, 1/2/3 activities, Move)</h3><p>When you are walking overland, spend the following number of activities to travel into a hex:</p><p></p><table class=\"inner\" style=\"width:94.0146%;height:78px\"><tbody><tr style=\"height:19.5px\"><td style=\"width:52.1157%;height:19.5px\"><p><strong>Terrain Type</strong></p></td><td style=\"width:47.2474%;height:19.5px\"><p><strong>Activities</strong></p></td></tr><tr style=\"height:19.5px\"><td style=\"width:52.1157%;height:19.5px\"><p>Open</p></td><td style=\"width:47.2474%;height:19.5px\"><p>1</p></td></tr><tr style=\"height:19.5px\"><td style=\"width:52.1157%;height:19.5px\"><p>Difficult</p></td><td style=\"width:47.2474%;height:19.5px\"><p>2</p></td></tr><tr style=\"height:19.5px\"><td style=\"width:52.1157%;height:19.5px\"><p>Greater Difficult</p></td><td style=\"width:47.2474%;height:19.5px\"><p>3</p></td></tr></tbody></table><p>Instead of travelling normally, you can choose to start a <strong>Forced March</strong> at the start of a day:</p><h4><strong>Forced March</strong></h4><p><strong>Requirements</strong>: You are not\_<strong style=\"margin-top:var(--p-space,1em)\">Fatigued</strong>.</p><p>Each member gains 1 additional activity at the start of each day (or 1 if their speed is 10 ft. or less) and must spend all activities to <strong style=\"margin-top:var(--p-space,1em)\">Travel</strong>. The number of days that you can march is equal to your <strong>Constitution</strong> modifier (min 1). You can choose to travel an additional day but then you become <strong>Fatigued</strong> and must pause a full day to recover.</p><h3>Reconnoiter (Group, 1/2/3 activities, Concentrate)</h3><p>Explore the current hex by spending the same amount of activities as listed in <strong>Travel</strong>:</p><table class=\"inner\" style=\"width:94.0146%;height:78px\"><tbody><tr style=\"height:19.5px\"><td style=\"width:52.1157%;height:19.5px\"><p><strong>Terrain Type</strong></p></td><td style=\"width:47.2474%;height:19.5px\"><p><strong>Activities</strong></p></td></tr><tr style=\"height:19.5px\"><td style=\"width:52.1157%;height:19.5px\"><p>Open</p></td><td style=\"width:47.2474%;height:19.5px\"><p>1</p></td></tr><tr style=\"height:19.5px\"><td style=\"width:52.1157%;height:19.5px\"><p>Difficult</p></td><td style=\"width:47.2474%;height:19.5px\"><p>2</p></td></tr><tr style=\"height:19.5px\"><td style=\"width:52.1157%;height:19.5px\"><p>Greater Difficult</p></td><td style=\"width:47.2474%;height:19.5px\"><p>3</p></td></tr></tbody></table><p>Roads have no impact when reconnoitering. Afterwards perform a <strong>Survival</strong>/<strong>Perception/Appropriate Lore </strong>check\_to find hidden encounters/features/sites.</p><h3>Fortify Camp (Individual, 1 activity)</h3><p>Make a <strong>Crafting</strong> check against the Zone DC. Anyone keeping watch gains a <strong>+2 circumstance bonus</strong> to <strong>Perception</strong> and <strong>Initiative</strong> rolls.</p><p>@UUID[Compendium.pf2e-kingmaker-tools.kingmaker-tools-camping-effects.3vDoIekv5yRSib7W]{Fortify Camp}</p><h3>Map the Area (Individual, 1 activity, Concentrate)</h3><p>Hex must be reconnoitered. Make a <strong>Survival</strong> check against the Zone DC. Reduce the DC to navigate the hex by 2.</p><h3>Subsist (Individual, Free, Downtime)</h3><p>At the end of the day, make a Survival check with a -5 penalty against the Zone DC:\_</p><p><span style=\"font-family:var(--journal-serif)\"><strong>Result:</strong></span></p><ul><li><strong>Critical Success</strong> You either provide a subsistence living for yourself and one additional creature, or you improve your own food and shelter, granting yourself a comfortable living.</li><li><span style=\"font-family:var(--journal-serif)\"><strong style=\"font-family:var(--journal-serif);font-size:var(--font-size-14)\">Success</strong> You find enough food and shelter with basic protection from the elements to provide you a subsistence living.</span></li><li><span style=\"font-family:var(--journal-serif)\"><strong style=\"font-family:var(--journal-serif);font-size:var(--font-size-14)\">Failure</strong> You’re exposed to the elements and don’t get enough food, becoming fatigued until you attain sufficient food and shelter.</span></li><li><span style=\"font-family:var(--journal-serif)\"><strong style=\"font-family:var(--journal-serif);font-size:var(--font-size-14)\">Critical Failure</strong> You attract trouble, eat something you shouldn’t, or otherwise worsen your situation. You take a –2 circumstance penalty to checks to Subsist for 1 week. You don’t find any food at all; if you don’t have any stored up, you’re in danger of starving or dying of thirst if you continue failing. @UUID[Compendium.pf2e-kingmaker-tools.kingmaker-tools-camping-effects.tWDpGhZivvosT4QO]{Subsist: Critical Failure}</span></li></ul><h2>Random Encounters</h2><table class=\"inner\" style=\"width:94.0146%;height:156px\"><tbody><tr style=\"height:19.5px\"><td style=\"width:46.7512%;height:19.5px\"><p><strong>Terrain Type</strong></p></td><td style=\"width:52.4565%;height:19.5px\"><p><strong>Flat Check DC*</strong></p></td></tr><tr style=\"height:19.5px\"><td style=\"width:46.7512%;height:19.5px\"><p>Aquatic</p></td><td style=\"width:52.4565%;height:19.5px\"><p>17</p></td></tr><tr style=\"height:19.5px\"><td style=\"width:46.7512%;height:19.5px\"><p>Arctic</p></td><td style=\"width:52.4565%;height:19.5px\"><p>17</p></td></tr><tr style=\"height:19.5px\"><td style=\"width:46.7512%;height:19.5px\"><p>Desert</p></td><td style=\"width:52.4565%;height:19.5px\"><p>17</p></td></tr><tr style=\"height:19.5px\"><td style=\"width:46.7512%;height:19.5px\"><p>Forest</p></td><td style=\"width:52.4565%;height:19.5px\"><p>14</p></td></tr><tr style=\"height:19.5px\"><td style=\"width:46.7512%;height:19.5px\"><p>Mountain</p></td><td style=\"width:52.4565%;height:19.5px\"><p>16</p></td></tr><tr style=\"height:19.5px\"><td style=\"width:46.7512%;height:19.5px\"><p>Plains</p></td><td style=\"width:52.4565%;height:19.5px\"><p>12</p></td></tr><tr style=\"height:19.5px\"><td style=\"width:46.7512%;height:19.5px\"><p>Swamp</p></td><td style=\"width:52.4565%;height:19.5px\"><p>14</p></td></tr></tbody></table><p><span id=\"ctl00_RadDrawer1_Content_MainContent_DetailedOutput\">\_* On a road or river, decrease the DC by 2. If PCs are flying, increase the DC by 3, but choose a hazard or monster that is relevant to flying PCs.\_</span></p>"
+      markdown: ''
+    _id: avHTRkO0kFMgaPFQ
+    image: {}
+    video:
+      controls: true
+      volume: 0.5
+    src: null
+    system: {}
+    sort: 0
+    ownership:
+      default: -1
+    flags: {}
+    _stats:
+      compendiumSource: null
+      duplicateSource: null
+      coreVersion: '13.344'
+      systemId: pf2e
+      systemVersion: 6.0.1
+      createdTime: null
+      modifiedTime: null
+      lastModifiedBy: null
+      exportSource: null
+    category: null
+    _key: '!journal.pages!xHI7P5jQPIychye8.avHTRkO0kFMgaPFQ'
+  - sort: 100000
+    name: Drowning and Suffocation
+    type: text
+    _id: jFXtu4raE83AdDnV
+    title:
+      show: true
+      level: 1
+    image: {}
+    text:
+      format: 1
+      content: >-
+        <p><span style="font-family:'Century Gothic', CenturyGothic,
+        AppleGothic, sans-serif">You can hold your breath for a number of rounds
+        equal to 5 + your Constitution modifier. Reduce your remaining air by 1
+        round at the end of each of your turns, or by 2 if you attacked or cast
+        any spells that turn. You also lose 1 round worth of air each time you
+        are critically hit or critically fail a save against a damaging effect.
+        If you speak (including casting spells with verbal components or
+        activating items with command components) you lose all remaining air.<br
+        style="color:rgb(255, 255, 255);font-family:'Century Gothic',
+        CenturyGothic, AppleGothic,
+        sans-serif;font-size:15px;font-style:normal;font-variant-ligatures:normal;font-variant-caps:normal;font-weight:400;letter-spacing:normal;orphans:2;text-align:start;text-indent:0px;text-transform:none;widows:2;word-spacing:0px;-webkit-text-stroke-width:0px;white-space:normal;background-color:rgb(15,
+        15,
+        15);text-decoration-thickness:initial;text-decoration-style:initial;text-decoration-color:initial"
+        /><br style="color:rgb(255, 255, 255);font-family:'Century Gothic',
+        CenturyGothic, AppleGothic,
+        sans-serif;font-size:15px;font-style:normal;font-variant-ligatures:normal;font-variant-caps:normal;font-weight:400;letter-spacing:normal;orphans:2;text-align:start;text-indent:0px;text-transform:none;widows:2;word-spacing:0px;-webkit-text-stroke-width:0px;white-space:normal;background-color:rgb(15,
+        15,
+        15);text-decoration-thickness:initial;text-decoration-style:initial;text-decoration-color:initial"
+        />When you run out of air, you fall unconscious and start suffocating.
+        You can’t recover from being unconscious and must attempt a DC 20
+        Fortitude save at the end of each of your turns. On a failure, you take
+        1d10 damage, and on a critical failure, you die. On each check after the
+        first, the DC increases by 5 and the damage by 1d10; these increases are
+        cumulative. Once your access to air is restored, you stop suffocating
+        and are no longer unconscious (unless you’re at 0 Hit
+        Points).</span></p>
+    video:
+      controls: true
+      volume: 0.5
+    src: null
+    system: {}
+    ownership:
+      default: -1
+      txZjek5EOiCBHPoz: 3
+    flags: {}
+    _stats:
+      compendiumSource: null
+      duplicateSource: null
+      coreVersion: '13.344'
+      systemId: pf2e
+      systemVersion: 6.0.1
+      createdTime: null
+      modifiedTime: null
+      lastModifiedBy: null
+      exportSource: null
+    category: null
+    _key: '!journal.pages!xHI7P5jQPIychye8.jFXtu4raE83AdDnV'
+_stats:
+  compendiumSource: null
+  duplicateSource: null
+  coreVersion: '13.344'
+  systemId: pf2e
+  systemVersion: 6.0.1
+  createdTime: 1718325601621
+  modifiedTime: 1718326661383
+  lastModifiedBy: 7z3De0izYRDXBpbx
+  exportSource:
+    worldId: quest-for-the-frozen-flame
+    uuid: null
+    coreVersion: '9.269'
+    systemId: pf2e
+    systemVersion: 3.13.5.16
+folder: yWBnE2Q0DKUuAWVt
+_id: xHI7P5jQPIychye8
+sort: 0
+ownership:
+  default: 0
+  7z3De0izYRDXBpbx: 3
+categories: []
+_key: '!journal!xHI7P5jQPIychye8'

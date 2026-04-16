@@ -1,0 +1,131 @@
+name: Word of Recall
+type: spell
+system:
+  source:
+    custom: ''
+    book: PHB
+    page: '289'
+    license: ''
+    revision: 1
+    rules: '2024'
+  description:
+    value: >-
+      <div class="rd__b  rd__b--3"><p>You and up to five willing creatures
+      within 5 feet of you instantly teleport to a previously designated
+      sanctuary. You and any creatures that teleport with you appear in the
+      nearest unoccupied space to the spot you designated when you prepared your
+      sanctuary (see below). If you cast this spell without first preparing a
+      sanctuary, the spell has no effect.</p><div
+      class="rd__spc-inline-post"></div><p>You must designate a sanctuary by
+      casting this spell within a location, such as a temple, dedicated to or
+      strongly linked to your deity. If you attempt to cast the spell in this
+      manner in an area that isn't dedicated to your deity, the spell has no
+      effect.</p></div><div><span class="bold">Classes: </span>Cleric</div>
+    chat: ''
+  level: 6
+  school: con
+  properties:
+    - vocal
+  materials:
+    value: ''
+    consumed: false
+    cost: 0
+    supply: 0
+  target:
+    affects:
+      type: creature
+      count: '6'
+      choice: false
+    template:
+      units: ''
+      contiguous: false
+  range:
+    value: '5'
+    units: ft
+  activation:
+    type: action
+    condition: ''
+    value: 1
+  duration:
+    value: ''
+    units: inst
+  uses:
+    max: ''
+    spent: 0
+    recovery: []
+  preparation:
+    mode: prepared
+    prepared: false
+  activities:
+    dnd5eactivity000:
+      _id: dnd5eactivity000
+      type: utility
+      activation:
+        type: action
+        value: null
+        override: false
+      consumption:
+        targets: []
+        scaling:
+          allowed: false
+          max: ''
+        spellSlot: true
+      description:
+        chatFlavor: ''
+      duration:
+        units: inst
+        concentration: false
+        override: false
+      effects: []
+      range:
+        override: false
+        units: self
+      target:
+        prompt: true
+        template:
+          contiguous: false
+          units: ft
+        affects:
+          choice: false
+        override: false
+      uses:
+        spent: 0
+        max: ''
+        recovery: []
+      roll:
+        formula: ''
+        name: ''
+        prompt: false
+        visible: false
+      sort: 0
+  identifier: word-of-recall
+img: icons/environment/settlement/house-wooden-fence.webp
+ownership:
+  default: 0
+  38Gfe7fp1EmVmZNj: 3
+flags:
+  plutonium:
+    page: spells.html
+    source: PHB
+    hash: word%20of%20recall_phb
+    propDroppable: spell
+  dnd5e:
+    persistSourceMigration: true
+    riders:
+      activity: []
+      effect: []
+effects: []
+folder: 0FHG6CpgiMvDREpM
+_id: 4N71Dw7RRxxV8BTy
+sort: 0
+_stats:
+  systemId: dnd5e
+  systemVersion: 5.0.4
+  coreVersion: '13.346'
+  createdTime: 1708227629317
+  modifiedTime: 1752197371435
+  lastModifiedBy: 1pY4akW8WASxGBbA
+  compendiumSource: null
+  duplicateSource: null
+  exportSource: null
+_key: '!items!4N71Dw7RRxxV8BTy'

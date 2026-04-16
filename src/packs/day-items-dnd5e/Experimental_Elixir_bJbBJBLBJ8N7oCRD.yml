@@ -1,0 +1,142 @@
+folder: QqrWj278qS19exFE
+name: Experimental Elixir
+type: feat
+_id: bJbBJBLBJ8N7oCRD
+img: systems/dnd5e/icons/svg/items/feature.svg
+system:
+  description:
+    value: >-
+      <p><em>3rd-level Alchemist feature</em></p><p>Whenever you finish a long
+      rest, you can magically produce an experimental elixir in an empty flask
+      you touch. Roll on the Experimental Elixir table for the elixir’s effect,
+      which is triggered when someone drinks the elixir. As an action, a
+      creature can drink the elixir or administer it to an incapacitated
+      creature.</p><p>You can create additional experimental elixirs by
+      expending a spell slot of 1st level or higher for each one. When you do
+      so, you use your action to create the elixir in an empty flask you touch,
+      and you choose the elixir’s effect from the Experimental Elixir
+      table.</p><p>Creating an experimental elixir requires you to have
+      alchemist supplies on your person, and any elixir you create with this
+      feature lasts until it is drunk or until the end of your next long
+      rest.</p><p>When you reach certain levels in this class, you can make more
+      elixirs at the end of a long rest: two at 6th level and three at 15th
+      level. Roll for each elixir’s effect separately. Each elixir requires its
+      own flask.</p><p>Experimental Elixir</p><p>d6 Effect</p><p>1 Healing. The
+      drinker regains a number of hit points equal to 2d4 + your Intelligence
+      modifier.</p><p>2 Swiftness. The drinker’s walking speed increases by 10
+      feet for 1 hour.</p><p>3 Resilience. The drinker gains a +1 bonus to AC
+      for 10 minutes.</p><p>4 Boldness. The drinker can roll a d4 and add the
+      number rolled to every attack roll and saving throw they make for the next
+      minute.</p><p>5 Flight. The drinker gains a flying speed of 10 feet for 10
+      minutes.</p><p>6 Transformation. The drinker’s body is transformed as if
+      by the alter self spell. The drinker determines the transformation caused
+      by the spell, the effects of which last for 10 minutes.</p><p></p>
+    chat: ''
+  source:
+    book: TCOE
+    page: '14'
+    custom: ''
+    license: ''
+    revision: 1
+    rules: '2024'
+  uses:
+    max: '1'
+    recovery:
+      - period: lr
+        type: recoverAll
+    spent: 0
+  type:
+    value: class
+    subtype: ''
+  properties: []
+  requirements: Artificer 3 (Alchemist)
+  activities:
+    dnd5eactivity000:
+      _id: dnd5eactivity000
+      type: utility
+      activation:
+        type: action
+        value: null
+        condition: ''
+        override: false
+      consumption:
+        targets:
+          - type: itemUses
+            target: ''
+            value: '1'
+            scaling:
+              mode: ''
+              formula: ''
+        scaling:
+          allowed: false
+          max: ''
+        spellSlot: true
+      description:
+        chatFlavor: ''
+      duration:
+        concentration: false
+        value: ''
+        units: inst
+        special: ''
+        override: false
+      effects: []
+      range:
+        units: self
+        special: ''
+        override: false
+      target:
+        template:
+          count: ''
+          contiguous: false
+          type: ''
+          size: ''
+          width: ''
+          height: ''
+          units: ''
+        affects:
+          count: ''
+          type: ''
+          choice: false
+          special: ''
+        prompt: true
+        override: false
+      uses:
+        spent: 0
+        max: ''
+        recovery: []
+      roll:
+        formula: ''
+        name: ''
+        prompt: false
+        visible: false
+      sort: 0
+  identifier: experimental-elixir
+  enchant: {}
+  prerequisites:
+    level: null
+    repeatable: false
+  advancement: []
+  crewed: false
+effects: []
+sort: 0
+ownership:
+  default: 0
+  38Gfe7fp1EmVmZNj: 3
+flags:
+  dnd5e:
+    persistSourceMigration: true
+    migratedUses: 1
+    riders:
+      activity: []
+      effect: []
+_stats:
+  systemId: dnd5e
+  systemVersion: 5.0.4
+  coreVersion: '13.346'
+  createdTime: 1709705097164
+  modifiedTime: 1752197371435
+  lastModifiedBy: 1pY4akW8WASxGBbA
+  compendiumSource: null
+  duplicateSource: null
+  exportSource: null
+_key: '!items!bJbBJBLBJ8N7oCRD'

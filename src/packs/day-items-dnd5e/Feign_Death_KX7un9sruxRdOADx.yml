@@ -1,0 +1,111 @@
+name: Feign Death
+type: spell
+system:
+  source:
+    custom: ''
+    book: PHB
+    page: '240'
+    license: ''
+  description:
+    value: >-
+      <div class="rd__b  rd__b--3"><p>You touch a willing creature and put it
+      into a cataleptic state that is indistinguishable from death.</p><div
+      class="rd__spc-inline-post"></div><p>For the spell's duration, or until
+      you use an action to touch the target and dismiss the spell, the target
+      appears dead to all outward inspection and to spells used to determine the
+      target's status. The target is @condition[blinded] and
+      @condition[incapacitated], and its speed drops to 0. The target has
+      resistance to all damage except psychic damage. If the target is diseased
+      or @condition[poisoned] when you cast the spell, or becomes diseased or
+      @condition[poisoned] while under the spell's effect, the disease and
+      poison have no effect until the spell ends.</p></div><div><span
+      class="bold">Classes: </span>Bard, Cleric, Druid, Wizard</div>
+    chat: ''
+  actionType: util
+  level: 3
+  school: nec
+  properties:
+    - vocal
+    - somatic
+    - material
+    - ritual
+  materials:
+    value: a pinch of graveyard dirt
+    consumed: false
+    cost: 0
+    supply: 0
+  target:
+    value: 0
+    units: touch
+    type: ''
+    prompt: true
+    width: null
+  range:
+    value: 0
+    units: touch
+    long: null
+  activation:
+    type: action
+    cost: 1
+    condition: ''
+  duration:
+    value: '1'
+    units: hour
+  damage:
+    parts: []
+    versatile: ''
+  scaling:
+    mode: none
+    formula: ''
+  save:
+    dc: null
+    scaling: spell
+    ability: ''
+  uses:
+    value: null
+    max: ''
+    per: null
+    recovery: ''
+    prompt: true
+  attackBonus: ''
+  chatFlavor: ''
+  critical:
+    threshold: null
+    damage: ''
+  formula: ''
+  preparation:
+    mode: prepared
+    prepared: false
+  consume:
+    type: ''
+    target: null
+    amount: null
+    scale: false
+  cover: null
+  crewed: false
+  ability: null
+img: icons/magic/death/grave-tombstone-glow-teal.webp
+ownership:
+  default: 0
+  38Gfe7fp1EmVmZNj: 3
+flags:
+  plutonium:
+    page: spells.html
+    source: PHB
+    hash: feign%20death_phb
+    propDroppable: spell
+effects: []
+folder: GWCEQTHuL0cv2zuZ
+_id: KX7un9sruxRdOADx
+sort: 0
+_stats:
+  systemId: dnd5e
+  systemVersion: 3.0.2
+  coreVersion: '13.345'
+  createdTime: 1708227628811
+  modifiedTime: 1708227680382
+  lastModifiedBy: 38Gfe7fp1EmVmZNj
+  compendiumSource: null
+  duplicateSource: null
+  exportSource: null
+_key: '!items!KX7un9sruxRdOADx'

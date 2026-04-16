@@ -1,0 +1,189 @@
+name: Fire Shield
+type: spell
+system:
+  source:
+    custom: ''
+    book: PHB
+    page: '242'
+    license: ''
+  description:
+    value: >-
+      <div class="rd__b  rd__b--3"><p>Thin and wispy flames wreathe your body
+      for the duration, shedding bright light in a 10-foot radius and dim light
+      for an additional 10 feet. You can end the spell early by using an action
+      to dismiss it.</p><div class="rd__spc-inline-post"></div><p>The flames
+      provide you with a warm shield or a chill shield, as you choose. The warm
+      shield grants you resistance to cold damage, and the chill shield grants
+      you resistance to fire damage.</p><p>In addition, whenever a creature
+      within 5 feet of you hits you with a melee attack, the shield erupts with
+      flame. The attacker takes [[/r 2d8]] fire damage from a warm shield, or
+      [[/r 2d8]] cold damage from a cold shield.</p></div><div><span
+      class="bold">Classes: </span>Wizard</div>
+    chat: ''
+  actionType: util
+  level: 4
+  school: evo
+  properties:
+    - vocal
+    - somatic
+    - material
+  materials:
+    value: a bit of phosphorus or a firefly
+    consumed: false
+    cost: 0
+    supply: 0
+  target:
+    value: 0
+    units: self
+    type: self
+    prompt: true
+    width: null
+  range:
+    value: 0
+    units: self
+    long: null
+  activation:
+    type: action
+    cost: 1
+    condition: ''
+  duration:
+    value: '10'
+    units: minute
+  damage:
+    parts:
+      - - 2d8
+        - fire
+    versatile: ''
+  scaling:
+    mode: none
+    formula: ''
+  save:
+    dc: null
+    scaling: spell
+    ability: ''
+  uses:
+    value: null
+    max: ''
+    per: null
+    recovery: ''
+    prompt: true
+  attackBonus: ''
+  chatFlavor: ''
+  critical:
+    threshold: null
+    damage: ''
+  formula: ''
+  preparation:
+    mode: prepared
+    prepared: false
+  consume:
+    type: ''
+    target: null
+    amount: null
+    scale: false
+  cover: null
+  crewed: false
+  ability: null
+img: icons/equipment/shield/heater-steel-crystal-red.webp
+ownership:
+  default: 0
+  38Gfe7fp1EmVmZNj: 3
+flags:
+  plutonium:
+    page: spells.html
+    source: PHB
+    hash: fire%20shield_phb
+    propDroppable: spell
+effects:
+  - _id: lVKx8swB08jm6IFE
+    flags:
+      plutonium:
+        dedupeId: warm-shield
+    disabled: false
+    duration:
+      value: 600
+      units: seconds
+      expiry: turnStart
+      expired: false
+    origin: Item.OtcTsffCQaOFkr9K
+    tint: '#ffffff'
+    transfer: false
+    name: Warm Shield
+    description: <p>The warm shield grants you Resistance to cold damage.</p>
+    statuses: []
+    _stats:
+      coreVersion: '14.359'
+      systemId: null
+      systemVersion: null
+      createdTime: null
+      modifiedTime: null
+      lastModifiedBy: null
+      compendiumSource: null
+      duplicateSource: null
+      exportSource: null
+    img: icons/equipment/shield/heater-steel-crystal-red.webp
+    type: base
+    system:
+      changes:
+        - key: system.traits.dr.value
+          value: cold
+          priority: null
+          type: add
+    sort: 0
+    start: null
+    showIcon: 1
+    folder: null
+    _key: '!items.effects!AaW0XKHqwVz9MNaB.lVKx8swB08jm6IFE'
+  - _id: UUXwEKSPX4nYfDzo
+    flags:
+      plutonium:
+        dedupeId: chill-shield
+    disabled: false
+    duration:
+      value: 600
+      units: seconds
+      expiry: turnStart
+      expired: false
+    origin: Item.OtcTsffCQaOFkr9K
+    tint: '#ffffff'
+    transfer: false
+    name: Chill Shield
+    description: <p>The chill shield grants you resistance to fire damage.</p>
+    statuses: []
+    _stats:
+      coreVersion: '14.359'
+      systemId: null
+      systemVersion: null
+      createdTime: null
+      modifiedTime: null
+      lastModifiedBy: null
+      compendiumSource: null
+      duplicateSource: null
+      exportSource: null
+    img: icons/equipment/shield/heater-steel-crystal-red.webp
+    type: base
+    system:
+      changes:
+        - key: system.traits.dr.value
+          value: fire
+          priority: null
+          type: add
+    sort: 0
+    start: null
+    showIcon: 1
+    folder: null
+    _key: '!items.effects!AaW0XKHqwVz9MNaB.UUXwEKSPX4nYfDzo'
+folder: 0DxlLTSvnP6Pzz2r
+_id: AaW0XKHqwVz9MNaB
+sort: 0
+_stats:
+  systemId: dnd5e
+  systemVersion: 3.0.3
+  coreVersion: '14.359'
+  createdTime: 1709684305302
+  modifiedTime: 1709684366197
+  lastModifiedBy: 38Gfe7fp1EmVmZNj
+  compendiumSource: null
+  duplicateSource: null
+  exportSource: null
+_key: '!items!AaW0XKHqwVz9MNaB'

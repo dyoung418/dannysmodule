@@ -1,0 +1,154 @@
+name: Wyvern Venom
+type: effect
+effects: []
+system:
+  description:
+    gm: ''
+    value: >-
+      <p><span style="font-family:Roboto, sans-serif"><strong
+      style="box-sizing:border-box;user-select:text;scrollbar-width:initial;scrollbar-color:initial">Saving
+      Throw</strong> </span><span data-visibility="all"
+      style="box-sizing:border-box;user-select:text;scrollbar-width:initial;scrollbar-color:initial"><span
+      style="font-family:Roboto, sans-serif"><a class="inline-check with-repost"
+      data-pf2-traits="poison" data-pf2-repost-flavor="Wyvern Venom"
+      data-pf2-label="Wyvern Venom DC" data-pf2-check="fortitude"
+      data-pf2-dc="27"
+      style="box-sizing:border-box;user-select:text;scrollbar-width:initial;scrollbar-color:initial;cursor:pointer;background:var(--inline-link-bg);border-radius:2px;border:1px
+      solid
+      var(--color-border-dark-tertiary);color:var(--color-text-dark-primary);line-height:1.6em;padding-top:;padding-right:0px;padding-bottom:;padding-left:;white-space:nowrap;word-break:break-all">DC
+      27</a></span></span><span style="font-family:Roboto, sans-serif"><a
+      class="inline-check with-repost" data-pf2-traits="poison"
+      data-pf2-repost-flavor="Wyvern Venom" data-pf2-label="Wyvern Venom DC"
+      data-pf2-check="fortitude" data-pf2-dc="27"
+      style="box-sizing:border-box;user-select:text;scrollbar-width:initial;scrollbar-color:initial;cursor:pointer;background:var(--inline-link-bg);border-radius:2px;border:1px
+      solid
+      var(--color-border-dark-tertiary);color:var(--color-text-dark-primary);line-height:1.6em;padding-top:;padding-right:0px;padding-bottom:;padding-left:;white-space:nowrap;word-break:break-all">
+      Fortitude</a></span></p><hr
+      style="box-sizing:border-box;user-select:text;scrollbar-width:initial;scrollbar-color:initial;border-right:none;border-left:none;border-image:initial;border-top:1px
+      solid var(--color-border-light-primary);border-bottom:1px solid
+      var(--color-border-light-highlight);color:rgb(25, 24,
+      19);font-family:Roboto,
+      sans-serif;font-size:14px;font-style:normal;font-variant-ligatures:normal;font-variant-caps:normal;font-weight:400;letter-spacing:normal;orphans:2;text-align:start;text-indent:0px;text-transform:none;widows:2;word-spacing:0px;-webkit-text-stroke-width:0px;white-space:normal;text-decoration-thickness:initial;text-decoration-style:initial;text-decoration-color:initial"
+      /><p
+      style="box-sizing:border-box;user-select:text;scrollbar-width:initial;scrollbar-color:initial;margin:0.5em
+      0px;color:rgb(25, 24, 19);font-family:Roboto,
+      sans-serif;font-size:14px;font-style:normal;font-variant-ligatures:normal;font-variant-caps:normal;font-weight:400;letter-spacing:normal;orphans:2;text-indent:0px;text-transform:none;widows:2;word-spacing:0px;-webkit-text-stroke-width:0px;white-space:normal;text-decoration-thickness:initial;text-decoration-style:initial;text-decoration-color:initial;text-align:start"><span
+      style="font-family:Roboto, sans-serif"><strong
+      style="box-sizing:border-box;user-select:text;scrollbar-width:initial;scrollbar-color:initial">Maximum
+      Duration</strong> 6 rounds</span></p><p
+      style="box-sizing:border-box;user-select:text;scrollbar-width:initial;scrollbar-color:initial;margin:0.5em
+      0px;color:rgb(25, 24, 19);font-family:Roboto,
+      sans-serif;font-size:14px;font-style:normal;font-variant-ligatures:normal;font-variant-caps:normal;font-weight:400;letter-spacing:normal;orphans:2;text-indent:0px;text-transform:none;widows:2;word-spacing:0px;-webkit-text-stroke-width:0px;white-space:normal;text-decoration-thickness:initial;text-decoration-style:initial;text-decoration-color:initial;text-align:start"><span
+      style="font-family:Roboto, sans-serif"><strong
+      style="box-sizing:border-box;user-select:text;scrollbar-width:initial;scrollbar-color:initial">Stage
+      1</strong> </span><span
+      style="box-sizing:border-box;user-select:text;scrollbar-width:initial;scrollbar-color:initial"><span
+      style="font-family:Roboto, sans-serif"><a class="inline-roll roll altered"
+      data-formula="{(5d6 + 2)[poison]}" data-base-formula="5d6[poison]"
+      data-tooltip="Base: 5d6 poison" data-damage-roll="5d6[poison]"
+      data-traits="poison" data-item-id="Mj7eIolH2KmKRos4"
+      style="box-sizing:border-box;user-select:text;scrollbar-width:initial;scrollbar-color:initial;cursor:pointer;--content-link-background:rgba(0,
+      0, 0, 0.1);background:rgb(221, 221, 221);padding:1px 4px;border:1px solid
+      var(--color-border-dark-tertiary);border-radius:2px;white-space:nowrap;word-break:break-all;color:var(--color-text-dark-improved)">5d6
+      + 2 poison</a></span></span><span style="font-family:Roboto, sans-serif">
+      damage (1 round)</span></p><p
+      style="box-sizing:border-box;user-select:text;scrollbar-width:initial;scrollbar-color:initial;margin:0.5em
+      0px;color:rgb(25, 24, 19);font-family:Roboto,
+      sans-serif;font-size:14px;font-style:normal;font-variant-ligatures:normal;font-variant-caps:normal;font-weight:400;letter-spacing:normal;orphans:2;text-indent:0px;text-transform:none;widows:2;word-spacing:0px;-webkit-text-stroke-width:0px;white-space:normal;text-decoration-thickness:initial;text-decoration-style:initial;text-decoration-color:initial;text-align:start"><span
+      style="font-family:Roboto, sans-serif"><strong
+      style="box-sizing:border-box;user-select:text;scrollbar-width:initial;scrollbar-color:initial">Stage
+      2</strong> </span><span
+      style="box-sizing:border-box;user-select:text;scrollbar-width:initial;scrollbar-color:initial"><span
+      style="font-family:Roboto, sans-serif"><a class="inline-roll roll altered"
+      data-formula="{(6d6 + 2)[poison]}" data-base-formula="6d6[poison]"
+      data-tooltip="Base: 6d6 poison" data-damage-roll="6d6[poison]"
+      data-traits="poison" data-item-id="Mj7eIolH2KmKRos4"
+      style="box-sizing:border-box;user-select:text;scrollbar-width:initial;scrollbar-color:initial;cursor:pointer;--content-link-background:rgba(0,
+      0, 0, 0.1);background:rgb(221, 221, 221);padding:1px 4px;border:1px solid
+      var(--color-border-dark-tertiary);border-radius:2px;white-space:nowrap;word-break:break-all;color:var(--color-text-dark-improved)">6d6
+      + 2 poison</a></span></span><span style="font-family:Roboto, sans-serif">
+      damage (1 round)</span></p><p
+      style="box-sizing:border-box;user-select:text;scrollbar-width:initial;scrollbar-color:initial;margin:0.5em
+      0px;color:rgb(25, 24, 19);font-family:Roboto,
+      sans-serif;font-size:14px;font-style:normal;font-variant-ligatures:normal;font-variant-caps:normal;font-weight:400;letter-spacing:normal;orphans:2;text-indent:0px;text-transform:none;widows:2;word-spacing:0px;-webkit-text-stroke-width:0px;white-space:normal;text-decoration-thickness:initial;text-decoration-style:initial;text-decoration-color:initial;text-align:start"><span
+      style="font-family:Roboto, sans-serif"><strong
+      style="box-sizing:border-box;user-select:text;scrollbar-width:initial;scrollbar-color:initial">Stage
+      3</strong> </span><span
+      style="box-sizing:border-box;user-select:text;scrollbar-width:initial;scrollbar-color:initial"><span
+      style="font-family:Roboto, sans-serif"><a class="inline-roll roll altered"
+      data-formula="{(8d6 + 2)[poison]}" data-base-formula="8d6[poison]"
+      data-tooltip="Base: 8d6 poison" data-damage-roll="8d6[poison]"
+      data-traits="poison" data-item-id="Mj7eIolH2KmKRos4"
+      style="box-sizing:border-box;user-select:text;scrollbar-width:initial;scrollbar-color:initial;cursor:pointer;--content-link-background:rgba(0,
+      0, 0, 0.1);background:rgb(221, 221, 221);padding:1px 4px;border:1px solid
+      var(--color-border-dark-tertiary);border-radius:2px;white-space:nowrap;word-break:break-all;color:var(--color-text-dark-improved)">8d6
+      + 2 poison</a></span></span><span style="font-family:Roboto, sans-serif">
+      damage (1 round)</span></p>
+  rules:
+    - key: TokenLight
+      value:
+        dim: 1
+        bright: 0
+        color: '#1a9112'
+        animation:
+          type: fog
+    - key: Note
+      selector: all
+      text: Remember to roll for Wyvern Venom and take damage
+      predicate:
+        - encounter
+  slug: null
+  _migration:
+    version: 0.94
+    previous:
+      schema: 0.939
+      foundry: '13.345'
+      system: 7.2.0
+  traits:
+    otherTags: []
+    value: []
+  publication:
+    title: ''
+    authors: ''
+    license: OGL
+    remaster: false
+  level:
+    value: 1
+  duration:
+    value: 6
+    unit: rounds
+    expiry: turn-start
+    sustained: false
+  start:
+    value: 0
+    initiative: null
+  tokenIcon:
+    show: true
+  badge:
+    type: counter
+    value: 1
+    max: 3
+    labels: null
+    loop: false
+  context: null
+  unidentified: false
+  fromSpell: false
+img: modules/pf2e-kingmaker/assets/actor-portraits/kingmaker/bloom-wyvern.webp
+folder: null
+ownership:
+  default: 0
+  txZjek5EOiCBHPoz: 3
+flags: {}
+_stats:
+  compendiumSource: null
+  duplicateSource: null
+  coreVersion: '13.346'
+  systemId: pf2e
+  systemVersion: 7.2.3
+  createdTime: 1718606584470
+  modifiedTime: 1752208111692
+  lastModifiedBy: txZjek5EOiCBHPoz
+  exportSource: null
+_id: 08zmCz8bM0ifoOGY
+sort: 0
+_key: '!items!08zmCz8bM0ifoOGY'

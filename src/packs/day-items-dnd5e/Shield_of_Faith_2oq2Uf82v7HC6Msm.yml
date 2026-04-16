@@ -1,0 +1,167 @@
+name: Shield of Faith
+type: spell
+system:
+  source:
+    custom: ''
+    book: PHB
+    page: '275'
+    license: ''
+    revision: 1
+    rules: '2024'
+  description:
+    value: >-
+      <div class="rd__b  rd__b--3"><p>A shimmering field appears and surrounds a
+      creature of your choice within range, granting it a +2 bonus to AC for the
+      duration.</p><div class="rd__spc-inline-post"></div></div><div><span
+      class="bold">Classes: </span>Cleric, Paladin</div>
+    chat: ''
+  level: 1
+  school: abj
+  properties:
+    - vocal
+    - somatic
+    - material
+    - concentration
+  materials:
+    value: a small parchment with a bit of holy text written on it
+    consumed: false
+    cost: 0
+    supply: 0
+  target:
+    affects:
+      type: creature
+      count: '1'
+      choice: false
+    template:
+      units: ''
+      contiguous: false
+  range:
+    value: '60'
+    units: ft
+  activation:
+    type: bonus
+    condition: ''
+    value: 1
+  duration:
+    value: '10'
+    units: minute
+  uses:
+    max: ''
+    spent: 0
+    recovery: []
+  preparation:
+    mode: prepared
+    prepared: false
+  activities:
+    dnd5eactivity000:
+      _id: dnd5eactivity000
+      type: utility
+      activation:
+        type: action
+        value: null
+        override: false
+      consumption:
+        targets: []
+        scaling:
+          allowed: false
+          max: ''
+        spellSlot: true
+      description:
+        chatFlavor: ''
+      duration:
+        units: inst
+        concentration: false
+        override: false
+      effects:
+        - _id: FKDbXBUs6VJlf8ZY
+      range:
+        override: false
+        units: self
+      target:
+        prompt: true
+        template:
+          contiguous: false
+          units: ft
+        affects:
+          choice: false
+        override: false
+      uses:
+        spent: 0
+        max: ''
+        recovery: []
+      roll:
+        formula: ''
+        name: ''
+        prompt: false
+        visible: false
+      sort: 0
+  identifier: shield-of-faith
+img: icons/magic/holy/barrier-shield-winged-cross.webp
+ownership:
+  default: 0
+  38Gfe7fp1EmVmZNj: 3
+flags:
+  plutonium:
+    page: spells.html
+    source: PHB
+    hash: shield%20of%20faith_phb
+    propDroppable: spell
+  dnd5e:
+    persistSourceMigration: true
+    riders:
+      activity: []
+      effect: []
+effects:
+  - name: Shield of Faith
+    origin: Compendium.dnd5e.spells.Item.jZ6JNykRtdQ90MOo
+    duration:
+      value: 600
+      units: seconds
+      expiry: turnStart
+      expired: false
+    disabled: false
+    _id: FKDbXBUs6VJlf8ZY
+    description: <p>The target gains it a +2 bonus to AC for the duration.</p>
+    transfer: false
+    statuses: []
+    flags:
+      plutonium:
+        dedupeId: shield-of-faith
+    tint: '#ffffff'
+    _stats:
+      coreVersion: '14.359'
+      systemId: null
+      systemVersion: null
+      createdTime: null
+      modifiedTime: null
+      lastModifiedBy: null
+      compendiumSource: null
+      duplicateSource: null
+      exportSource: null
+    img: icons/magic/holy/barrier-shield-winged-cross.webp
+    type: base
+    system:
+      changes:
+        - key: system.attributes.ac.bonus
+          value: 2
+          priority: null
+          type: add
+    sort: 0
+    start: null
+    showIcon: 1
+    folder: null
+    _key: '!items.effects!2oq2Uf82v7HC6Msm.FKDbXBUs6VJlf8ZY'
+folder: 7LJJqiLuL1YQyknL
+_id: 2oq2Uf82v7HC6Msm
+sort: 0
+_stats:
+  systemId: dnd5e
+  systemVersion: 5.0.4
+  coreVersion: '14.359'
+  createdTime: 1708227629179
+  modifiedTime: 1752197371435
+  lastModifiedBy: 1pY4akW8WASxGBbA
+  compendiumSource: null
+  duplicateSource: null
+  exportSource: null
+_key: '!items!2oq2Uf82v7HC6Msm'

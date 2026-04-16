@@ -1,0 +1,168 @@
+folder: QqrWj278qS19exFE
+name: Magical Tinkering
+type: feat
+_id: WgS8ISQKTtYdHXD7
+img: systems/dnd5e/icons/svg/items/feature.svg
+system:
+  description:
+    value: >-
+      <p><span style="font-family:Signika, sans-serif"><em>1st-level artificer
+      feature</em></span></p><p
+      style="box-sizing:border-box;user-select:text;margin:0.5em
+      0px;color:rgb(25, 24, 19);font-family:Signika,
+      sans-serif;font-size:13px;font-style:normal;font-variant-ligatures:normal;font-variant-caps:normal;font-weight:400;letter-spacing:normal;orphans:2;text-indent:0px;text-transform:none;widows:2;word-spacing:0px;-webkit-text-stroke-width:0px;white-space:normal;text-decoration-thickness:initial;text-decoration-style:initial;text-decoration-color:initial;text-align:start"><span
+      style="font-family:Signika, sans-serif">You’ve learned how to invest a
+      spark of magic into mundane objects. To use this ability, you must have
+      thieves’ tools or artisan’s tools in hand. You then touch a Tiny
+      nonmagical object as an action and give it one of the following magical
+      properties of your choice:</span></p><ul><li><p
+      style="box-sizing:border-box;user-select:text;margin:0.5em
+      0px;color:rgb(25, 24, 19);font-family:Signika,
+      sans-serif;font-size:13px;font-style:normal;font-variant-ligatures:normal;font-variant-caps:normal;font-weight:400;letter-spacing:normal;orphans:2;text-indent:0px;text-transform:none;widows:2;word-spacing:0px;-webkit-text-stroke-width:0px;white-space:normal;text-decoration-thickness:initial;text-decoration-style:initial;text-decoration-color:initial;text-align:start"><span
+      style="font-family:Signika, sans-serif">The object sheds bright light in a
+      5-foot radius and dim light for an additional 5
+      feet.</span></p></li><li><p
+      style="box-sizing:border-box;user-select:text;margin:0.5em
+      0px;color:rgb(25, 24, 19);font-family:Signika,
+      sans-serif;font-size:13px;font-style:normal;font-variant-ligatures:normal;font-variant-caps:normal;font-weight:400;letter-spacing:normal;orphans:2;text-indent:0px;text-transform:none;widows:2;word-spacing:0px;-webkit-text-stroke-width:0px;white-space:normal;text-decoration-thickness:initial;text-decoration-style:initial;text-decoration-color:initial;text-align:start"><span
+      style="font-family:Signika, sans-serif">Whenever tapped by a creature, the
+      object emits a recorded message that can be heard up to 10 feet away. You
+      utter the message when you bestow this property on the object, and the
+      recording can be no more than 6 seconds long.</span></p></li><li><p
+      style="box-sizing:border-box;user-select:text;margin:0.5em
+      0px;color:rgb(25, 24, 19);font-family:Signika,
+      sans-serif;font-size:13px;font-style:normal;font-variant-ligatures:normal;font-variant-caps:normal;font-weight:400;letter-spacing:normal;orphans:2;text-indent:0px;text-transform:none;widows:2;word-spacing:0px;-webkit-text-stroke-width:0px;white-space:normal;text-decoration-thickness:initial;text-decoration-style:initial;text-decoration-color:initial;text-align:start"><span
+      style="font-family:Signika, sans-serif">The object continuously emits your
+      choice of an odor or a nonverbal sound (wind, waves, chirping, or the
+      like). The chosen phenomenon is perceivable up to 10 feet
+      away.</span></p></li><li><p
+      style="box-sizing:border-box;user-select:text;margin:0.5em
+      0px;color:rgb(25, 24, 19);font-family:Signika,
+      sans-serif;font-size:13px;font-style:normal;font-variant-ligatures:normal;font-variant-caps:normal;font-weight:400;letter-spacing:normal;orphans:2;text-indent:0px;text-transform:none;widows:2;word-spacing:0px;-webkit-text-stroke-width:0px;white-space:normal;text-decoration-thickness:initial;text-decoration-style:initial;text-decoration-color:initial;text-align:start"><span
+      style="font-family:Signika, sans-serif">A static visual effect appears on
+      one of the object’s surfaces. This effect can be a picture, up to 25 words
+      of text, lines and shapes, or a mixture of these elements, as you
+      like.</span></p></li></ul><p
+      style="box-sizing:border-box;user-select:text;margin:0.5em
+      0px;color:rgb(25, 24, 19);font-family:Signika,
+      sans-serif;font-size:13px;font-style:normal;font-variant-ligatures:normal;font-variant-caps:normal;font-weight:400;letter-spacing:normal;orphans:2;text-indent:0px;text-transform:none;widows:2;word-spacing:0px;-webkit-text-stroke-width:0px;white-space:normal;text-decoration-thickness:initial;text-decoration-style:initial;text-decoration-color:initial;text-align:start"><span
+      style="font-family:Signika, sans-serif">The chosen property lasts
+      indefinitely. As an action, you can touch the object and end the property
+      early.</span></p><p
+      style="box-sizing:border-box;user-select:text;margin:0.5em
+      0px;color:rgb(25, 24, 19);font-family:Signika,
+      sans-serif;font-size:13px;font-style:normal;font-variant-ligatures:normal;font-variant-caps:normal;font-weight:400;letter-spacing:normal;orphans:2;text-indent:0px;text-transform:none;widows:2;word-spacing:0px;-webkit-text-stroke-width:0px;white-space:normal;text-decoration-thickness:initial;text-decoration-style:initial;text-decoration-color:initial;text-align:start"><span
+      style="font-family:Signika, sans-serif">You can bestow magic on multiple
+      objects, touching one object each time you use this feature, though a
+      single object can only bear one property at a time. The maximum number of
+      objects you can affect with this feature at one time is equal to your
+      Intelligence modifier (minimum of one object). If you try to exceed your
+      maximum, the oldest property immediately ends, and then the new property
+      applies.</span></p>
+    chat: ''
+  source:
+    book: TCOE
+    page: '10'
+    custom: ''
+    license: OGL
+    revision: 1
+    rules: '2024'
+  uses:
+    max: max(1,@abilities.int.mod)
+    spent: 0
+    recovery: []
+  type:
+    value: class
+    subtype: ''
+  properties: []
+  requirements: Artificer 1
+  activities:
+    dnd5eactivity000:
+      _id: dnd5eactivity000
+      type: utility
+      activation:
+        type: action
+        value: null
+        condition: ''
+        override: false
+      consumption:
+        targets:
+          - type: itemUses
+            target: ''
+            value: '1'
+            scaling:
+              mode: ''
+              formula: ''
+        scaling:
+          allowed: false
+          max: ''
+        spellSlot: true
+      description:
+        chatFlavor: ''
+      duration:
+        concentration: false
+        value: ''
+        units: inst
+        special: ''
+        override: false
+      effects: []
+      range:
+        units: self
+        special: ''
+        override: false
+      target:
+        template:
+          count: ''
+          contiguous: false
+          type: ''
+          size: ''
+          width: ''
+          height: ''
+          units: ''
+        affects:
+          count: ''
+          type: ''
+          choice: false
+          special: ''
+        prompt: true
+        override: false
+      uses:
+        spent: 0
+        max: ''
+        recovery: []
+      roll:
+        formula: ''
+        name: ''
+        prompt: false
+        visible: false
+      sort: 0
+  identifier: magical-tinkering
+  enchant: {}
+  prerequisites:
+    level: null
+    repeatable: false
+  advancement: []
+  crewed: false
+effects: []
+sort: 0
+ownership:
+  default: 0
+  38Gfe7fp1EmVmZNj: 3
+flags:
+  dnd5e:
+    persistSourceMigration: true
+    migratedUses: 1
+    riders:
+      activity: []
+      effect: []
+_stats:
+  systemId: dnd5e
+  systemVersion: 5.0.4
+  coreVersion: '13.346'
+  createdTime: 1709696709383
+  modifiedTime: 1752197371435
+  lastModifiedBy: 1pY4akW8WASxGBbA
+  compendiumSource: null
+  duplicateSource: null
+  exportSource: null
+_key: '!items!WgS8ISQKTtYdHXD7'

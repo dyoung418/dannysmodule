@@ -1,0 +1,118 @@
+name: Maximilian's Earthen Grasp
+type: spell
+system:
+  source:
+    custom: ''
+    book: XGE
+    page: '161'
+    license: ''
+  description:
+    value: >-
+      <div class="rd__b  rd__b--3"><p>You choose a 5-foot-square unoccupied
+      space on the ground that you can see within range. A Medium hand made from
+      compacted soil rises there and reaches for one creature you can see within
+      5 feet of it. The target must make a Strength saving throw. On a failed
+      save, the target takes [[/r 2d6]] bludgeoning damage and is
+      @condition[restrained] for the spell's duration.</p><div
+      class="rd__spc-inline-post"></div><p>As an action, you can cause the hand
+      to crush the @condition[restrained] target, which must make a Strength
+      saving throw. The target takes [[/r 2d6]] bludgeoning damage on a failed
+      save, or half as much damage on a successful one.</p><p>To break out, the
+      @condition[restrained] target can use its action to make a Strength check
+      against your spell save DC. On a success, the target escapes and is no
+      longer @condition[restrained] by the hand.</p><p>As an action, you can
+      cause the hand to reach for a different creature or to move to a different
+      unoccupied space within range. The hand releases a @condition[restrained]
+      target if you do either.</p></div><div><span class="bold">Classes:
+      </span>Sorcerer, Wizard</div>
+    chat: ''
+  actionType: save
+  level: 2
+  school: trs
+  properties:
+    - vocal
+    - somatic
+    - material
+    - concentration
+  materials:
+    value: a miniature hand sculpted from clay
+    consumed: false
+    cost: 0
+    supply: 0
+  target:
+    value: 0
+    units: ''
+    type: ''
+    prompt: true
+    width: null
+  range:
+    value: 30
+    units: ft
+    long: null
+  activation:
+    type: action
+    cost: 1
+    condition: ''
+  duration:
+    value: '1'
+    units: minute
+  damage:
+    parts:
+      - - 2d6
+        - bludgeoning
+    versatile: ''
+  scaling:
+    mode: none
+    formula: ''
+  save:
+    ability: str
+    dc: null
+    scaling: spell
+  uses:
+    value: null
+    max: ''
+    per: null
+    recovery: ''
+    prompt: true
+  attackBonus: ''
+  chatFlavor: ''
+  critical:
+    threshold: null
+    damage: ''
+  formula: ''
+  preparation:
+    mode: prepared
+    prepared: false
+  consume:
+    type: ''
+    target: null
+    amount: null
+    scale: false
+  cover: null
+  crewed: false
+  ability: null
+img: icons/magic/earth/strike-fist-stone-light.webp
+ownership:
+  default: 0
+  38Gfe7fp1EmVmZNj: 3
+flags:
+  plutonium:
+    page: spells.html
+    source: XGE
+    hash: maximilian's%20earthen%20grasp_xge
+    propDroppable: spell
+effects: []
+folder: mjT6ZpZEhCFeSr4U
+_id: vN739iVRHEISLRgV
+sort: 0
+_stats:
+  systemId: dnd5e
+  systemVersion: 3.0.2
+  coreVersion: '13.345'
+  createdTime: 1708109197845
+  modifiedTime: 1708227409300
+  lastModifiedBy: 38Gfe7fp1EmVmZNj
+  compendiumSource: null
+  duplicateSource: null
+  exportSource: null
+_key: '!items!vN739iVRHEISLRgV'

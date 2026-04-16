@@ -1,0 +1,113 @@
+name: Sunbeam
+type: spell
+system:
+  source:
+    custom: ''
+    book: PHB
+    page: '279'
+    license: ''
+  description:
+    value: >-
+      <div class="rd__b  rd__b--3"><p>A beam of brilliant light flashes out from
+      your hand in a 5-foot-wide, 60-foot-long line. Each creature in the line
+      must make a Constitution saving throw. On a failed save, a creature takes
+      [[/r 6d8]] radiant damage and is @condition[blinded] until your next turn.
+      On a successful save, it takes half as much damage and isn't
+      @condition[blinded] by this spell. Undead and oozes have disadvantage on
+      this saving throw.</p><div class="rd__spc-inline-post"></div><p>You can
+      create a new line of radiance as your action on any turn until the spell
+      ends.</p><p>For the duration, a mote of brilliant radiance shines in your
+      hand. It sheds bright light in a 30-foot radius and dim light for an
+      additional 30 feet. This light is sunlight.</p></div><div><span
+      class="bold">Classes: </span>Druid, Sorcerer, Wizard</div>
+    chat: ''
+  actionType: save
+  level: 6
+  school: evo
+  properties:
+    - vocal
+    - somatic
+    - material
+    - concentration
+  materials:
+    value: a magnifying glass
+    consumed: false
+    cost: 0
+    supply: 0
+  target:
+    value: 60
+    units: ft
+    type: line
+    prompt: true
+    width: null
+  range:
+    value: 0
+    units: ''
+    long: null
+  activation:
+    type: action
+    cost: 1
+    condition: ''
+  duration:
+    value: '1'
+    units: minute
+  damage:
+    parts:
+      - - 6d8
+        - radiant
+    versatile: ''
+  scaling:
+    mode: none
+    formula: ''
+  save:
+    ability: con
+    dc: null
+    scaling: spell
+  uses:
+    value: null
+    max: ''
+    per: null
+    recovery: ''
+    prompt: true
+  attackBonus: ''
+  chatFlavor: ''
+  critical:
+    threshold: null
+    damage: ''
+  formula: ''
+  preparation:
+    mode: prepared
+    prepared: false
+  consume:
+    type: ''
+    target: null
+    amount: null
+    scale: false
+  cover: null
+  crewed: false
+  ability: null
+img: icons/magic/light/beam-strike-village-yellow.webp
+ownership:
+  default: 0
+  38Gfe7fp1EmVmZNj: 3
+flags:
+  plutonium:
+    page: spells.html
+    source: PHB
+    hash: sunbeam_phb
+    propDroppable: spell
+effects: []
+folder: YZc3v7XiNFawHEhx
+_id: acvlKYWP3WFud3lr
+sort: 0
+_stats:
+  systemId: dnd5e
+  systemVersion: 3.0.3
+  coreVersion: '13.345'
+  createdTime: 1709684306223
+  modifiedTime: 1709684366197
+  lastModifiedBy: 38Gfe7fp1EmVmZNj
+  compendiumSource: null
+  duplicateSource: null
+  exportSource: null
+_key: '!items!acvlKYWP3WFud3lr'

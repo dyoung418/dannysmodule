@@ -1,0 +1,89 @@
+_id: 2cXLgzTkCmroz53d
+img: icons/sundries/books/book-red-exclamation.webp
+name: Roll With it (Kingmaker)
+system:
+  description:
+    gm: ''
+    value: >-
+      <p><strong>Trigger</strong> Your hunted prey, which must be a giant, hits
+      you with a melee attack.</p>
+
+      <hr />
+
+      <p>You can dodge attacks from giants. Attempt a Reflex save using 10 + the
+      giant's attack bonus as the save DC. If the result allows you to Stride as
+      part of the reaction, you may instead Fly or Swim if you have the
+      corresponding movement type.</p>
+
+      <hr />
+
+      <p><strong>Critical Success</strong> The attack misses you (or if the
+      attack was a critical hit, it becomes a regular hit). You can Stride up to
+      10 feet as part of the reaction; if you do so, the reaction gains the move
+      trait.</p>
+
+      <p><strong>Success</strong> The attack deals half damage. You can Stride
+      up to 5 feet as part of the reaction, but you must end this movement
+      adjacent to the triggering giant. If you do so, the reaction gains the
+      move trait.</p>
+
+      <p><strong>Critical Failure</strong> You fail to avoid the attack and are
+      knocked @UUID[Compendium.pf2e.conditionitems.Item.j91X7x0XSomq8d60]{Prone}
+      by the blow.</p>
+  rules: []
+  slug: roll-with-it-kingmaker
+  _migration:
+    version: 0.94
+    previous:
+      schema: 0.939
+      foundry: '13.345'
+      system: 7.2.0
+  traits:
+    otherTags: []
+    value:
+      - ranger
+    rarity: rare
+  publication:
+    title: Pathfinder Kingmaker
+    authors: ''
+    license: OGL
+    remaster: false
+  level:
+    value: 12
+  category: class
+  onlyLevel1: false
+  maxTakable: 1
+  actionType:
+    value: reaction
+  actions:
+    value: null
+  prerequisites:
+    value:
+      - value: Giant Hunter
+  location: null
+  subfeatures:
+    proficiencies: {}
+    senses: {}
+    suppressedFeatures: []
+type: feat
+flags:
+  core: {}
+  scene-packer:
+    hash: cc3ef5ca05dd5bf8ade6e75edfc394ee1b593883
+effects: []
+folder: lVJfRR3nUB6MU7dI
+sort: 140625
+ownership:
+  default: 0
+  txZjek5EOiCBHPoz: 3
+_stats:
+  compendiumSource: Compendium.pf2e.feats-srd.Item.8FxKcuFtOrqsl1FH
+  duplicateSource: null
+  coreVersion: '13.346'
+  systemId: pf2e
+  systemVersion: 7.2.3
+  createdTime: 1718606591261
+  modifiedTime: 1752208111692
+  lastModifiedBy: txZjek5EOiCBHPoz
+  exportSource: null
+_key: '!items!2cXLgzTkCmroz53d'

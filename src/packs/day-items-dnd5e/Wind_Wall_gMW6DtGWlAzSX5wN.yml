@@ -1,0 +1,117 @@
+name: Wind Wall
+type: spell
+system:
+  source:
+    custom: ''
+    book: PHB
+    page: '288'
+    license: ''
+  description:
+    value: >-
+      <div class="rd__b  rd__b--3"><p>A wall of strong wind rises from the
+      ground at a point you choose within range. You can make the wall up to 50
+      feet long, 15 feet high, and 1 foot thick. You can shape the wall in any
+      way you choose so long as it makes one continuous path along the ground.
+      The wall lasts for the duration.</p><div
+      class="rd__spc-inline-post"></div><p>When the wall appears, each creature
+      within its area must make a Strength saving throw. A creature takes [[/r
+      3d8]] bludgeoning damage on a failed save, or half as much damage on a
+      successful one.</p><p>The strong wind keeps fog, smoke, and other gases at
+      bay. Small or smaller flying creatures or objects can't pass through the
+      wall. Loose, lightweight materials brought into the wall fly upward.
+      Arrows, bolts, and other ordinary projectiles launched at targets behind
+      the wall are deflected upward and automatically miss. (Boulders hurled by
+      giants or siege engines, and similar projectiles, are unaffected.)
+      Creatures in gaseous form can't pass through it.</p></div><div><span
+      class="bold">Classes: </span>Druid, Ranger</div>
+    chat: ''
+  actionType: save
+  level: 3
+  school: evo
+  properties:
+    - vocal
+    - somatic
+    - material
+    - concentration
+  materials:
+    value: a tiny fan and a feather of exotic origin
+    consumed: false
+    cost: 0
+    supply: 0
+  target:
+    value: 50
+    units: ft
+    type: wall
+    prompt: true
+    width: null
+  range:
+    value: 120
+    units: ft
+    long: null
+  activation:
+    type: action
+    cost: 1
+    condition: ''
+  duration:
+    value: '1'
+    units: minute
+  damage:
+    parts:
+      - - 3d8
+        - bludgeoning
+    versatile: ''
+  scaling:
+    mode: none
+    formula: ''
+  save:
+    ability: str
+    dc: null
+    scaling: spell
+  uses:
+    value: null
+    max: ''
+    per: null
+    recovery: ''
+    prompt: true
+  attackBonus: ''
+  chatFlavor: ''
+  critical:
+    threshold: null
+    damage: ''
+  formula: ''
+  preparation:
+    mode: prepared
+    prepared: false
+  consume:
+    type: ''
+    target: null
+    amount: null
+    scale: false
+  cover: null
+  crewed: false
+  ability: null
+img: icons/creatures/webs/web-spider-casting-caught-purple.webp
+ownership:
+  default: 0
+  38Gfe7fp1EmVmZNj: 3
+flags:
+  plutonium:
+    page: spells.html
+    source: PHB
+    hash: wind%20wall_phb
+    propDroppable: spell
+effects: []
+folder: mnKBFoFg1vZvQ4WB
+_id: gMW6DtGWlAzSX5wN
+sort: 0
+_stats:
+  systemId: dnd5e
+  systemVersion: 3.0.2
+  coreVersion: '13.345'
+  createdTime: 1708227517652
+  modifiedTime: 1708227533976
+  lastModifiedBy: 38Gfe7fp1EmVmZNj
+  compendiumSource: null
+  duplicateSource: null
+  exportSource: null
+_key: '!items!gMW6DtGWlAzSX5wN'

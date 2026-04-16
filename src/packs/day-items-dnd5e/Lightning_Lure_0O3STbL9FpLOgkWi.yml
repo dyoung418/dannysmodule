@@ -1,0 +1,144 @@
+name: Lightning Lure
+type: spell
+system:
+  source:
+    custom: ''
+    book: TCE
+    page: '107'
+    license: ''
+    revision: 1
+    rules: '2024'
+  description:
+    value: >-
+      <div class="rd__b  rd__b--3"><p>You create a lash of lightning energy that
+      strikes at one creature of your choice that you can see within 15 feet of
+      you. The target must succeed on a Strength saving throw or be pulled up to
+      10 feet in a straight line toward you and then take [[/r 1d8]] lightning
+      damage if it is within 5 feet of you.</p><div
+      class="rd__spc-inline-post"></div><p>This spell's damage increases by [[/r
+      1d8]] when you reach 5th level ([[/r 2d8]]), 11th level ([[/r 3d8]]), and
+      17th level ([[/r 4d8]]).</p></div><div><span class="bold">Classes:
+      </span>Artificer, Sorcerer, Warlock, Wizard</div>
+    chat: ''
+  level: 0
+  school: evo
+  properties:
+    - vocal
+  materials:
+    value: ''
+    consumed: false
+    cost: 0
+    supply: 0
+  target:
+    affects:
+      type: creature
+      count: '1'
+      choice: false
+    template:
+      units: ''
+      contiguous: false
+  range:
+    value: '0'
+    units: self
+  activation:
+    type: action
+    condition: ''
+    value: 1
+  duration:
+    value: ''
+    units: inst
+  uses:
+    max: ''
+    spent: 0
+    recovery: []
+  preparation:
+    mode: always
+    prepared: false
+  activities:
+    dnd5eactivity000:
+      _id: dnd5eactivity000
+      type: save
+      activation:
+        type: action
+        override: false
+      consumption:
+        targets: []
+        scaling:
+          allowed: false
+          max: ''
+        spellSlot: true
+      description:
+        chatFlavor: ''
+      duration:
+        units: inst
+        concentration: false
+        override: false
+      effects: []
+      range:
+        units: self
+        override: false
+      target:
+        prompt: true
+        template:
+          contiguous: false
+          units: ft
+        affects:
+          choice: false
+        override: false
+      uses:
+        spent: 0
+        max: ''
+        recovery: []
+      damage:
+        onSave: none
+        parts:
+          - number: 1
+            denomination: 8
+            bonus: ''
+            types:
+              - lightning
+            custom:
+              enabled: false
+              formula: ''
+            scaling:
+              mode: whole
+              number: 1
+              formula: ''
+      save:
+        ability:
+          - str
+        dc:
+          calculation: spellcasting
+          formula: ''
+      sort: 0
+  identifier: lightning-lure
+img: icons/magic/lightning/bolt-strike-sparks-teal.webp
+ownership:
+  default: 0
+  38Gfe7fp1EmVmZNj: 3
+flags:
+  plutonium:
+    page: spells.html
+    source: TCE
+    hash: lightning%20lure_tce
+    propDroppable: spell
+  dnd5e:
+    persistSourceMigration: true
+    riders:
+      activity: []
+      effect: []
+effects: []
+folder: LiW94aeo1pXMSCLr
+_id: 0O3STbL9FpLOgkWi
+sort: 0
+_stats:
+  systemId: dnd5e
+  systemVersion: 5.0.4
+  coreVersion: '13.346'
+  createdTime: 1708109345523
+  modifiedTime: 1752197371435
+  lastModifiedBy: 1pY4akW8WASxGBbA
+  compendiumSource: null
+  duplicateSource: null
+  exportSource: null
+_key: '!items!0O3STbL9FpLOgkWi'

@@ -1,0 +1,119 @@
+name: Wither and Bloom
+type: spell
+system:
+  source:
+    custom: ''
+    book: SCC
+    page: '38'
+    license: ''
+  description:
+    value: >-
+      <div class="rd__b  rd__b--3"><p>You invoke both death and life upon a
+      10-foot-radius sphere centered on a point within range. Each creature of
+      your choice in that area must make a Constitution saving throw, taking
+      [[/r 2d6]] necrotic damage on a failed save, or half as much damage on a
+      successful one. Nonmagical vegetation in that area withers.</p><div
+      class="rd__spc-inline-post"></div><p>In addition, one creature of your
+      choice in that area can spend and roll one of its unspent Hit Dice and
+      regain a number of hit points equal to the roll plus your spellcasting
+      ability modifier.</p></div><div class="rd__b  rd__b--3"><div class="rd__b 
+      rd__b--3"><span class="rd__h rd__h--3" data-title-index="1"> <span
+      class="entry-title-inner">At Higher Levels.</span></span> <p>When you cast
+      this spell using a spell slot of 3rd level or higher, the damage increases
+      by [[/r 1d6]] for each slot above the 2nd, and the number of Hit Dice that
+      can be spent and added to the healing roll increases by one for each slot
+      above 2nd.</p><div class="rd__spc-inline-post"></div></div><div
+      class="rd__spc-inline-post"></div></div><div><span class="bold">Classes:
+      </span>Druid, Sorcerer, Wizard</div>
+    chat: ''
+  actionType: save
+  level: 2
+  school: nec
+  properties:
+    - vocal
+    - somatic
+    - material
+  materials:
+    value: a withered vine twisted into a loop
+    consumed: false
+    cost: 0
+    supply: 0
+  target:
+    value: 10
+    units: ft
+    type: radius
+    prompt: true
+    width: null
+  range:
+    value: 60
+    units: ft
+    long: null
+  activation:
+    type: action
+    cost: 1
+    condition: ''
+  duration:
+    value: ''
+    units: inst
+  damage:
+    parts:
+      - - 2d6
+        - necrotic
+      - - ''
+        - healing
+    versatile: ''
+  scaling:
+    mode: level
+    formula: 1d6
+  save:
+    ability: con
+    dc: null
+    scaling: spell
+  uses:
+    value: null
+    max: ''
+    per: null
+    recovery: ''
+    prompt: true
+  attackBonus: ''
+  chatFlavor: ''
+  critical:
+    threshold: null
+    damage: ''
+  formula: ''
+  preparation:
+    mode: prepared
+    prepared: false
+  consume:
+    type: ''
+    target: null
+    amount: null
+    scale: false
+  cover: null
+  crewed: false
+  ability: null
+img: icons/magic/nature/plant-vines-skull-green.webp
+ownership:
+  default: 0
+  38Gfe7fp1EmVmZNj: 3
+flags:
+  plutonium:
+    page: spells.html
+    source: SCC
+    hash: wither%20and%20bloom_scc
+    propDroppable: spell
+effects: []
+folder: hys47gEfFh1kH8oy
+_id: WmiFQb0aDkX2WsmN
+sort: 0
+_stats:
+  systemId: dnd5e
+  systemVersion: 3.0.2
+  coreVersion: '13.345'
+  createdTime: 1708227601813
+  modifiedTime: 1708227676991
+  lastModifiedBy: 38Gfe7fp1EmVmZNj
+  compendiumSource: null
+  duplicateSource: null
+  exportSource: null
+_key: '!items!WmiFQb0aDkX2WsmN'

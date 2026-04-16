@@ -1,0 +1,153 @@
+name: Bestow Curse
+type: spell
+system:
+  source:
+    custom: ''
+    book: PHB
+    page: '218'
+    license: ''
+    revision: 1
+    rules: '2024'
+  description:
+    value: >-
+      <div class="rd__b  rd__b--3"><p>You touch a creature, and that creature
+      must succeed on a Wisdom saving throw or become cursed for the duration of
+      the spell. When you cast this spell, choose the nature of the curse from
+      the following options:</p><div class="rd__spc-inline-post"></div><ul
+      class="rd__list"><li class="rd__li ">Choose one ability score. While
+      cursed, the target has disadvantage on ability checks and saving throws
+      made with that ability score.</li><li class="rd__li ">While cursed, the
+      target has disadvantage on attack rolls against you.</li><li class="rd__li
+      ">While cursed, the target must make a Wisdom saving throw at the start of
+      each of its turns. If it fails, it wastes its action that turn doing
+      nothing.</li><li class="rd__li ">While the target is cursed, your attacks
+      and spells deal an extra [[/r 1d8]] necrotic damage to the
+      target.</li></ul><p>A @spell[remove curse] spell ends this effect. At the
+      DM's option, you may choose an alternative curse effect, but it should be
+      no more powerful than those described above. The DM has final say on such
+      a curse's effect.</p></div><div class="rd__b  rd__b--3"><div class="rd__b 
+      rd__b--3"><span class="rd__h rd__h--3" data-title-index="1"> <span
+      class="entry-title-inner">At Higher Levels.</span></span> <p>If you cast
+      this spell using a spell slot of 4th level or higher, the duration is
+      @status[concentration], up to 10 minutes. If you use a spell slot of 5th
+      level or higher, the duration is 8 hours. If you use a spell slot of 7th
+      level or higher, the duration is 24 hours. If you use a 9th level spell
+      slot, the spell lasts until it is dispelled. Using a spell slot of 5th
+      level or higher grants a duration that doesn't require
+      @status[concentration].</p><div
+      class="rd__spc-inline-post"></div></div><div
+      class="rd__spc-inline-post"></div></div><div><span class="bold">Classes:
+      </span>Bard, Cleric, Wizard</div>
+    chat: ''
+  level: 3
+  school: nec
+  properties:
+    - vocal
+    - somatic
+    - concentration
+  materials:
+    value: ''
+    consumed: false
+    cost: 0
+    supply: 0
+  target:
+    affects:
+      type: creature
+      count: '1'
+      choice: false
+    template:
+      units: touch
+      contiguous: false
+  range:
+    value: '0'
+    units: touch
+  activation:
+    type: action
+    condition: ''
+    value: 1
+  duration:
+    value: '1'
+    units: minute
+  uses:
+    max: ''
+    spent: 0
+    recovery: []
+  preparation:
+    mode: prepared
+    prepared: false
+  activities:
+    dnd5eactivity000:
+      _id: dnd5eactivity000
+      type: save
+      activation:
+        type: action
+        override: false
+      consumption:
+        targets: []
+        scaling:
+          allowed: false
+          max: ''
+        spellSlot: true
+      description:
+        chatFlavor: ''
+      duration:
+        units: inst
+        concentration: false
+        override: false
+      effects: []
+      range:
+        units: self
+        override: false
+      target:
+        prompt: true
+        template:
+          contiguous: false
+          units: ft
+        affects:
+          choice: false
+        override: false
+      uses:
+        spent: 0
+        max: ''
+        recovery: []
+      damage:
+        onSave: half
+        parts: []
+      save:
+        ability:
+          - wis
+        dc:
+          calculation: spellcasting
+          formula: ''
+      sort: 0
+  identifier: bestow-curse
+img: icons/magic/death/projectile-skull-fire-purple.webp
+ownership:
+  default: 0
+  38Gfe7fp1EmVmZNj: 3
+flags:
+  plutonium:
+    page: spells.html
+    source: PHB
+    hash: bestow%20curse_phb
+    propDroppable: spell
+  dnd5e:
+    persistSourceMigration: true
+    riders:
+      activity: []
+      effect: []
+effects: []
+folder: 460yTIg9sKBrbNPf
+_id: 4w4bo06aKGofQVi2
+sort: 0
+_stats:
+  systemId: dnd5e
+  systemVersion: 5.0.4
+  coreVersion: '13.346'
+  createdTime: 1708228997385
+  modifiedTime: 1752197371435
+  lastModifiedBy: 1pY4akW8WASxGBbA
+  compendiumSource: null
+  duplicateSource: null
+  exportSource: null
+_key: '!items!4w4bo06aKGofQVi2'

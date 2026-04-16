@@ -1,0 +1,181 @@
+name: Reincarnate
+type: spell
+system:
+  source:
+    custom: ''
+    book: PHB
+    page: '271'
+    license: ''
+    revision: 1
+    rules: '2024'
+  description:
+    value: >-
+      <div class="rd__b  rd__b--3"><p>You touch a dead humanoid or a piece of a
+      dead humanoid. Provided that the creature has been dead no longer than 10
+      days, the spell forms a new adult body for it and then calls the soul to
+      enter that body. If the target's soul isn't free or willing to do so, the
+      spell fails.</p><div class="rd__spc-inline-post"></div><p>The magic
+      fashions a new body for the creature to inhabit, which likely causes the
+      creature's race to change. The DM rolls a [[/r d100]] and consults the
+      following table to determine what form the creature takes when restored to
+      life, or the DM chooses a form.</p><table class="w-100 rd__table 
+      stripe-odd-table"><caption>Reincarnate Races</caption><thead><tr><th
+      class="col-1 ve-text-center no-wrap" data-rd-isroller="true">[[/r
+      d100]]</th><th class="col-11"
+      data-rd-isroller="false">Race</th></tr></thead><tbody><tr><td class="col-1
+      ve-text-center no-wrap" data-roll-min="1" data-roll-max="4">01-04</td><td
+      class="col-11">@race[Dragonborn]</td></tr><tr><td class="col-1
+      ve-text-center no-wrap" data-roll-min="5" data-roll-max="13">05-13</td><td
+      class="col-11">@race[dwarf (hill)||Dwarf, hill]</td></tr><tr><td
+      class="col-1 ve-text-center no-wrap" data-roll-min="14"
+      data-roll-max="21">14-21</td><td class="col-11">@race[dwarf
+      (mountain)||Dwarf, mountain]</td></tr><tr><td class="col-1 ve-text-center
+      no-wrap" data-roll-min="22" data-roll-max="25">22-25</td><td
+      class="col-11">@race[elf (drow)||Elf, dark]</td></tr><tr><td class="col-1
+      ve-text-center no-wrap" data-roll-min="26"
+      data-roll-max="34">26-34</td><td class="col-11">@race[elf (high)||Elf,
+      high]</td></tr><tr><td class="col-1 ve-text-center no-wrap"
+      data-roll-min="35" data-roll-max="42">35-42</td><td
+      class="col-11">@race[elf (wood)||Elf, wood]</td></tr><tr><td class="col-1
+      ve-text-center no-wrap" data-roll-min="43"
+      data-roll-max="46">43-46</td><td class="col-11">@race[gnome
+      (forest)||Gnome, forest]</td></tr><tr><td class="col-1 ve-text-center
+      no-wrap" data-roll-min="47" data-roll-max="52">47-52</td><td
+      class="col-11">@race[gnome (rock)||Gnome, rock]</td></tr><tr><td
+      class="col-1 ve-text-center no-wrap" data-roll-min="53"
+      data-roll-max="56">53-56</td><td
+      class="col-11">@race[Half-elf]</td></tr><tr><td class="col-1
+      ve-text-center no-wrap" data-roll-min="57"
+      data-roll-max="60">57-60</td><td
+      class="col-11">@race[Half-orc]</td></tr><tr><td class="col-1
+      ve-text-center no-wrap" data-roll-min="61"
+      data-roll-max="68">61-68</td><td class="col-11">@race[halfling
+      (lightfoot)||Halfling, lightfoot]</td></tr><tr><td class="col-1
+      ve-text-center no-wrap" data-roll-min="69"
+      data-roll-max="76">69-76</td><td class="col-11">@race[halfling
+      (stout)||Halfling, stout]</td></tr><tr><td class="col-1 ve-text-center
+      no-wrap" data-roll-min="77" data-roll-max="96">77-96</td><td
+      class="col-11">@race[Human]</td></tr><tr><td class="col-1 ve-text-center
+      no-wrap" data-roll-min="97" data-roll-max="100">97-00</td><td
+      class="col-11">@race[Tiefling]</td></tr></tbody></table><p>The
+      reincarnated creature recalls its former life and experiences. It retains
+      the capabilities it had in its original form, except it exchanges its
+      original race for the new one and changes its racial traits
+      accordingly.</p></div><div><span class="bold">Classes: </span>Druid</div>
+    chat: ''
+  level: 5
+  school: trs
+  properties:
+    - vocal
+    - somatic
+    - material
+  materials:
+    value: rare oils and unguents worth at least 1,000 gp, which the spell consumes
+    consumed: true
+    cost: 1000
+    supply: 0
+  target:
+    affects:
+      type: creature
+      count: '1'
+      choice: false
+    template:
+      units: spec
+      contiguous: false
+  range:
+    value: '0'
+    units: touch
+  activation:
+    type: hour
+    condition: ''
+    value: 1
+  duration:
+    value: ''
+    units: inst
+  uses:
+    max: ''
+    spent: 0
+    recovery: []
+  preparation:
+    mode: prepared
+    prepared: false
+  activities:
+    dnd5eactivity000:
+      _id: dnd5eactivity000
+      type: heal
+      activation:
+        type: action
+        value: null
+        override: false
+      consumption:
+        targets: []
+        scaling:
+          allowed: false
+          max: ''
+        spellSlot: true
+      description:
+        chatFlavor: ''
+      duration:
+        units: inst
+        concentration: false
+        override: false
+      effects: []
+      range:
+        override: false
+        units: self
+      target:
+        prompt: true
+        template:
+          contiguous: false
+          units: ft
+        affects:
+          choice: false
+        override: false
+      uses:
+        spent: 0
+        max: ''
+        recovery: []
+      healing:
+        number: null
+        denomination: null
+        bonus: ''
+        types: []
+        custom:
+          enabled: false
+          formula: ''
+        scaling:
+          mode: ''
+          number: null
+          formula: ''
+      sort: 0
+  identifier: reincarnate
+img: icons/magic/nature/plant-vines-skull-green.webp
+ownership:
+  default: 0
+  38Gfe7fp1EmVmZNj: 3
+flags:
+  plutonium:
+    page: spells.html
+    source: PHB
+    hash: reincarnate_phb
+    propDroppable: spell
+  dnd5e:
+    persistSourceMigration: true
+    riders:
+      activity: []
+      effect: []
+effects: []
+folder: 6twhZgoHdiiTwIDl
+_id: gvNdRgptEw46XCaT
+sort: 0
+_stats:
+  systemId: dnd5e
+  systemVersion: 5.0.4
+  coreVersion: '13.346'
+  createdTime: 1708227601567
+  modifiedTime: 1752197371435
+  lastModifiedBy: 1pY4akW8WASxGBbA
+  compendiumSource: null
+  duplicateSource: null
+  exportSource: null
+_key: '!items!gvNdRgptEw46XCaT'

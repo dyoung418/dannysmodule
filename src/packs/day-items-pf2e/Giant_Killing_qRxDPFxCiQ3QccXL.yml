@@ -1,0 +1,88 @@
+_id: qRxDPFxCiQ3QccXL
+img: >-
+  systems/pf2e/icons/equipment/runes/weapon-property-runes/weapon-property-runes.webp
+name: Giant-Killing
+system:
+  description:
+    gm: ''
+    value: >-
+      <p>This weapon features stylized etchings of giants. A giant-killing
+      weapon deals an additional @Damage[1d6[mental]] damage on a successful
+      Strike against a giant. On a critical hit, the giant is also
+      @UUID[Compendium.pf2e.conditionitems.Item.MIRkyAjyBeXivMa7]{Enfeebled 1}
+      until the end of your next turn.</p>
+  rules: []
+  slug: giant-killing
+  _migration:
+    version: 0.94
+    lastMigration: null
+    previous:
+      schema: 0.939
+      foundry: '13.345'
+      system: 7.2.0
+  traits:
+    otherTags: []
+    value:
+      - magical
+    rarity: rare
+  publication:
+    title: Pathfinder Kingmaker
+    authors: ''
+    license: OGL
+    remaster: false
+  level:
+    value: 8
+  quantity: 1
+  baseItem: null
+  bulk:
+    value: 0
+  hp:
+    value: 0
+    max: 0
+  hardness: 0
+  price:
+    value:
+      gp: 450
+  equipped:
+    carryType: worn
+    invested: null
+    handsHeld: 0
+  containerId: null
+  size: med
+  material:
+    type: null
+    grade: null
+  identification:
+    status: identified
+    unidentified:
+      name: Unusual Object
+      img: systems/pf2e/icons/unidentified_item_icons/adventuring_gear.webp
+      data:
+        description:
+          value: ''
+    misidentified: {}
+  usage:
+    value: etched-onto-a-weapon
+  subitems: []
+type: equipment
+flags:
+  core: {}
+  scene-packer:
+    hash: 7ae0d24d1fc99715a8b481012c34695b0402a0ae
+effects: []
+folder: lVJfRR3nUB6MU7dI
+sort: 300000
+ownership:
+  default: 0
+  txZjek5EOiCBHPoz: 3
+_stats:
+  compendiumSource: Compendium.pf2e.equipment-srd.Item.EjV3Pb13DLzGTCcY
+  duplicateSource: null
+  coreVersion: '13.346'
+  systemId: pf2e
+  systemVersion: 7.2.3
+  createdTime: 1718606591261
+  modifiedTime: 1752208111692
+  lastModifiedBy: txZjek5EOiCBHPoz
+  exportSource: null
+_key: '!items!qRxDPFxCiQ3QccXL'

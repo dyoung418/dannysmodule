@@ -1,0 +1,126 @@
+folder: CVlUrPy9DyppbPnU
+name: Custom Background
+type: background
+_id: kmbiJSST8tS656y0
+img: systems/dnd5e/icons/svg/items/background.svg
+system:
+  description:
+    value: >-
+      <p>Custom background provides</p><ul><li><p>1 tool or
+      language</p></li><li><p>1 origin feat</p></li><li><p>2
+      skills</p></li><li><p>50gp worth of items</p></li><li><p>3 ASI options
+      (either +2/+1, or +1/+1/+1)</p></li></ul>
+    chat: ''
+  identifier: custom-background-dy
+  source:
+    revision: 1
+    rules: '2024'
+  startingEquipment: []
+  advancement:
+    - type: AbilityScoreImprovement
+      _id: ZBZTKA0PjVU1kHbJ
+      configuration:
+        cap: 2
+        fixed:
+          str: 0
+          dex: 0
+          con: 0
+          int: 0
+          wis: 0
+          cha: 0
+        locked: []
+        points: 3
+      value:
+        type: asi
+      level: 0
+      title: Ability Score Improvement
+      hint: ''
+    - type: Trait
+      _id: fOgXCLcZBMPz4vFY
+      configuration:
+        allowReplacements: true
+        choices:
+          - count: 2
+            pool:
+              - skills:*
+        grants: []
+        mode: default
+      level: 0
+      title: Skills
+      hint: Choose proficiency in any two skills
+      value: {}
+    - type: Trait
+      _id: A7Xy5Oerw06B7b6r
+      configuration:
+        allowReplacements: false
+        choices:
+          - count: 1
+            pool:
+              - languages:standard:*
+        grants: []
+        mode: default
+      level: 0
+      title: ''
+      hint: ''
+      value: {}
+    - type: Trait
+      _id: ltGyIAKC0Trgn9AU
+      configuration:
+        allowReplacements: false
+        choices:
+          - count: 1
+            pool:
+              - tool:*
+        grants: []
+        mode: default
+      level: 0
+      title: ''
+      hint: ''
+      value: {}
+    - type: ItemChoice
+      _id: HMxlNrHvHziyhFsi
+      configuration:
+        allowDrops: true
+        choices:
+          '0':
+            count: 1
+            replacement: true
+        pool:
+          - uuid: Compendium.dnd-players-handbook.feats.Item.phbftAlert000000
+          - uuid: Compendium.dnd-players-handbook.feats.Item.phbftCrafter0000
+          - uuid: Compendium.dnd-players-handbook.feats.Item.phbftHealer00000
+          - uuid: Compendium.dnd-players-handbook.feats.Item.phbftLucky000000
+          - uuid: Compendium.dnd-players-handbook.feats.Item.phbftMagicInitia
+          - uuid: Compendium.dnd-players-handbook.feats.Item.phbftMusician000
+          - uuid: Compendium.dnd-players-handbook.feats.Item.phbftSavageAttac
+          - uuid: Compendium.dnd-players-handbook.feats.Item.phbftSkilled0000
+          - uuid: Compendium.dnd-players-handbook.feats.Item.phbftTavernBrawl
+          - uuid: Compendium.dnd-players-handbook.feats.Item.phbftTough000000
+        spell: null
+        type: feat
+        restriction:
+          type: feat
+          subtype: origin
+      value:
+        added: {}
+        replaced: {}
+      title: Origin Feat
+      hint: ''
+  wealth: '50'
+effects: []
+flags: {}
+_stats:
+  compendiumSource: null
+  duplicateSource: null
+  exportSource: null
+  coreVersion: '13.346'
+  systemId: dnd5e
+  systemVersion: 5.0.4
+  createdTime: 1752197373789
+  modifiedTime: 1752197373789
+  lastModifiedBy: 1pY4akW8WASxGBbA
+sort: 0
+ownership:
+  default: 0
+  1pY4akW8WASxGBbA: 3
+_key: '!items!kmbiJSST8tS656y0'

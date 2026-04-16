@@ -1,0 +1,108 @@
+name: Shocking Grasp
+type: spell
+system:
+  source:
+    custom: ''
+    book: PHB
+    page: '275'
+    license: ''
+  description:
+    value: >-
+      <div class="rd__b  rd__b--3"><p>Lightning springs from your hand to
+      deliver a shock to a creature you try to touch. Make a melee spell attack
+      against the target. You have advantage on the attack roll if the target is
+      wearing armor made of metal. On a hit, the target takes [[/r 1d8]]
+      lightning damage, and it can't take reactions until the start of its next
+      turn.</p><div class="rd__spc-inline-post"></div><p>The spell's damage
+      increases by [[/r 1d8]] when you reach 5th level ([[/r 2d8]]), 11th level
+      ([[/r 3d8]]), and 17th level ([[/r 4d8]]).</p></div><div><span
+      class="bold">Classes: </span>Artificer, Sorcerer, Wizard</div>
+    chat: ''
+  actionType: msak
+  level: 0
+  school: evo
+  properties:
+    - vocal
+    - somatic
+  materials:
+    value: ''
+    consumed: false
+    cost: 0
+    supply: 0
+  target:
+    value: 1
+    units: touch
+    type: creature
+    prompt: true
+    width: null
+  range:
+    value: 0
+    units: touch
+    long: null
+  activation:
+    type: action
+    cost: 1
+    condition: ''
+  duration:
+    value: ''
+    units: inst
+  damage:
+    parts:
+      - - 1d8
+        - lightning
+    versatile: ''
+  scaling:
+    mode: cantrip
+    formula: 1d8
+  save:
+    dc: null
+    scaling: spell
+    ability: ''
+  uses:
+    value: null
+    max: ''
+    per: null
+    recovery: ''
+    prompt: true
+  attackBonus: ''
+  chatFlavor: ''
+  critical:
+    threshold: null
+    damage: ''
+  formula: ''
+  preparation:
+    mode: always
+    prepared: false
+  consume:
+    type: ''
+    target: null
+    amount: null
+    scale: false
+  cover: null
+  crewed: false
+  ability: null
+img: icons/magic/unholy/hand-fire-skeleton-pink.webp
+ownership:
+  default: 0
+  38Gfe7fp1EmVmZNj: 3
+flags:
+  plutonium:
+    page: spells.html
+    source: PHB
+    hash: shocking%20grasp_phb
+    propDroppable: spell
+effects: []
+folder: e2JThPwPxkakLAgS
+_id: Kc3QlFOlRu7qWmhg
+sort: 0
+_stats:
+  systemId: dnd5e
+  systemVersion: 3.0.2
+  coreVersion: '13.345'
+  createdTime: 1708228955936
+  modifiedTime: 1708229053839
+  lastModifiedBy: 38Gfe7fp1EmVmZNj
+  compendiumSource: null
+  duplicateSource: null
+  exportSource: null
+_key: '!items!Kc3QlFOlRu7qWmhg'

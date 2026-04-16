@@ -1,0 +1,52 @@
+command: |-
+  // REQUIRED: update the UUID below
+  const ITEM_UUID = "Item.08zmCz8bM0ifoOGY"; // Wyvern Venom
+
+  const actors = game.user.getActiveTokens().flatMap((t) => t.actor ?? []);
+  if (actors.length === 0) {
+      return ui.notifications.error("Select at least one token");
+  }
+
+  const item = await fromUuid(ITEM_UUID);
+  if (item?.type === "condition") {
+      for (const actor of actors) {
+          actor.toggleCondition(item.slug);
+      }
+  } else if (item?.type === "effect") {
+      const source = item.toObject();
+      source.flags = mergeObject(source.flags ?? {}, { core: { sourceId: ITEM_UUID } });
+
+      for (const actor of actors) {
+          const existing = actor.itemTypes.effect.find((e) => e.flags.core?.sourceId === ITEM_UUID);
+          if (existing) {
+              await existing.delete();
+          } else {
+              await actor.createEmbeddedDocuments("Item", [source]);
+          }
+      }
+  } else {
+      ui.notifications.error("Item UUID not found");
+  }
+name: Toggle Effect to Selected Token (pf2e)
+type: script
+img: icons/magic/defensive/shield-barrier-deflect-teal.webp
+_id: UVvI8Y14tfk1H1Az
+author: txZjek5EOiCBHPoz
+scope: global
+folder: 1XrfuqzpstOwCTFI
+flags: {}
+_stats:
+  compendiumSource: null
+  duplicateSource: null
+  coreVersion: '13.346'
+  systemId: pf2e
+  systemVersion: 6.0.4
+  createdTime: 1719887394834
+  modifiedTime: 1752208126881
+  lastModifiedBy: txZjek5EOiCBHPoz
+  exportSource: null
+sort: 0
+ownership:
+  default: 0
+  txZjek5EOiCBHPoz: 3
+_key: '!macros!UVvI8Y14tfk1H1Az'

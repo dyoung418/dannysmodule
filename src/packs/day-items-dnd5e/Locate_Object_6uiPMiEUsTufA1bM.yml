@@ -1,0 +1,134 @@
+name: Locate Object
+type: spell
+system:
+  source:
+    custom: ''
+    book: PHB
+    page: '256'
+    license: ''
+    revision: 1
+    rules: '2024'
+  description:
+    value: >-
+      <div class="rd__b  rd__b--3"><p>Describe or name an object that is
+      familiar to you. You sense the direction to the object's location, as long
+      as that object is within 1,000 feet of you. If the object is in motion,
+      you know the direction of its movement.</p><div
+      class="rd__spc-inline-post"></div><p>The spell can locate a specific
+      object known to you, as long as you have seen it up close—within 30
+      feet—at least once. Alternatively, the spell can locate the nearest object
+      of a particular kind, such as a certain kind of apparel, jewelry,
+      furniture, tool, or weapon.</p><p>This spell can't locate an object if any
+      thickness of lead, even a thin sheet, blocks a direct path between you and
+      the object.</p></div><div><span class="bold">Classes: </span>Bard, Cleric,
+      Druid, Paladin, Ranger, Wizard</div>
+    chat: ''
+  level: 2
+  school: div
+  properties:
+    - vocal
+    - somatic
+    - material
+    - concentration
+  materials:
+    value: a forked twig
+    consumed: false
+    cost: 0
+    supply: 0
+  target:
+    affects:
+      type: self
+      count: '0'
+      choice: false
+    template:
+      units: self
+      contiguous: false
+  range:
+    value: '0'
+    units: self
+  activation:
+    type: action
+    condition: ''
+    value: 1
+  duration:
+    value: '10'
+    units: minute
+  uses:
+    max: ''
+    spent: 0
+    recovery: []
+  preparation:
+    mode: prepared
+    prepared: false
+  activities:
+    dnd5eactivity000:
+      _id: dnd5eactivity000
+      type: utility
+      activation:
+        type: action
+        override: false
+      consumption:
+        targets: []
+        scaling:
+          allowed: false
+          max: ''
+        spellSlot: true
+      description:
+        chatFlavor: ''
+      duration:
+        units: inst
+        concentration: false
+        override: false
+      effects: []
+      range:
+        units: self
+        override: false
+      target:
+        prompt: true
+        template:
+          contiguous: false
+          units: ft
+        affects:
+          choice: false
+        override: false
+      uses:
+        spent: 0
+        max: ''
+        recovery: []
+      roll:
+        formula: ''
+        name: ''
+        prompt: false
+        visible: false
+      sort: 0
+  identifier: locate-object
+img: icons/commodities/tech/cog-rough-stone.webp
+ownership:
+  default: 0
+  38Gfe7fp1EmVmZNj: 3
+flags:
+  plutonium:
+    page: spells.html
+    source: PHB
+    hash: locate%20object_phb
+    propDroppable: spell
+  dnd5e:
+    persistSourceMigration: true
+    riders:
+      activity: []
+      effect: []
+effects: []
+folder: 5RW3khzmlcXrGJ9s
+_id: 6uiPMiEUsTufA1bM
+sort: 0
+_stats:
+  systemId: dnd5e
+  systemVersion: 5.0.4
+  coreVersion: '13.346'
+  createdTime: 1708228997825
+  modifiedTime: 1752197371435
+  lastModifiedBy: 1pY4akW8WASxGBbA
+  compendiumSource: null
+  duplicateSource: null
+  exportSource: null
+_key: '!items!6uiPMiEUsTufA1bM'

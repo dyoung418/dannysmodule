@@ -1,0 +1,113 @@
+name: Speak with Dead
+type: spell
+system:
+  source:
+    custom: ''
+    book: PHB
+    page: '277'
+    license: ''
+  description:
+    value: >-
+      <div class="rd__b  rd__b--3"><p>You grant the semblance of life and
+      intelligence to a corpse of your choice within range, allowing it to
+      answer the questions you pose. The corpse must still have a mouth and
+      can't be undead. The spell fails if the corpse was the target of this
+      spell within the last 10 days.</p><div
+      class="rd__spc-inline-post"></div><p>Until the spell ends, you can ask the
+      corpse up to five questions. The corpse knows only what it knew in life,
+      including the languages it knew. Answers are usually brief, cryptic, or
+      repetitive, and the corpse is under no compulsion to offer a truthful
+      answer if you are hostile to it or it recognizes you as an enemy. This
+      spell doesn't return the creature's soul to its body, only its animating
+      spirit. Thus, the corpse can't learn new information, doesn't comprehend
+      anything that has happened since it died, and can't speculate about future
+      events.</p></div><div><span class="bold">Classes: </span>Bard,
+      Cleric</div>
+    chat: ''
+  actionType: util
+  level: 3
+  school: nec
+  properties:
+    - vocal
+    - somatic
+    - material
+  materials:
+    value: burning incense
+    consumed: false
+    cost: 0
+    supply: 0
+  target:
+    value: 0
+    units: ''
+    type: ''
+    prompt: true
+    width: null
+  range:
+    value: 10
+    units: ft
+    long: null
+  activation:
+    type: action
+    cost: 1
+    condition: ''
+  duration:
+    value: '10'
+    units: minute
+  damage:
+    parts: []
+    versatile: ''
+  scaling:
+    mode: none
+    formula: ''
+  save:
+    dc: null
+    scaling: spell
+    ability: ''
+  uses:
+    value: null
+    max: ''
+    per: null
+    recovery: ''
+    prompt: true
+  attackBonus: ''
+  chatFlavor: ''
+  critical:
+    threshold: null
+    damage: ''
+  formula: ''
+  preparation:
+    mode: prepared
+    prepared: false
+  consume:
+    type: ''
+    target: null
+    amount: null
+    scale: false
+  cover: null
+  crewed: false
+  ability: null
+img: icons/magic/death/undead-ghost-scream-teal.webp
+ownership:
+  default: 0
+  38Gfe7fp1EmVmZNj: 3
+flags:
+  plutonium:
+    page: spells.html
+    source: PHB
+    hash: speak%20with%20dead_phb
+    propDroppable: spell
+effects: []
+folder: 460yTIg9sKBrbNPf
+_id: eXYUOjTdqSYcMhhX
+sort: 0
+_stats:
+  systemId: dnd5e
+  systemVersion: 3.0.3
+  coreVersion: '13.345'
+  createdTime: 1709684306173
+  modifiedTime: 1709684366197
+  lastModifiedBy: 38Gfe7fp1EmVmZNj
+  compendiumSource: null
+  duplicateSource: null
+  exportSource: null
+_key: '!items!eXYUOjTdqSYcMhhX'

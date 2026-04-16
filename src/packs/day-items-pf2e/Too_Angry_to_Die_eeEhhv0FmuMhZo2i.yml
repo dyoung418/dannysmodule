@@ -1,0 +1,78 @@
+_id: eeEhhv0FmuMhZo2i
+img: icons/sundries/books/book-red-exclamation.webp
+name: Too Angry to Die
+system:
+  description:
+    gm: ''
+    value: >-
+      <p><strong>Trigger</strong> you stand up from
+      @UUID[Compendium.pf2e.conditionitems.Item.j91X7x0XSomq8d60]{Prone} after
+      waking up from being
+      @UUID[Compendium.pf2e.conditionitems.Item.fBnFDH2MTzgFijKf]{Unconscious}</p>
+
+      <hr />
+
+      <p>You refuse to yield the battle, even after you've been knocked off your
+      feet and nearly killed. For you, such a brush with death is less something
+      to fear and more a thing to become infuriated by. As you stand up, you
+      roar in defiance and can attempt to
+      @UUID[Compendium.pf2e.actionspf2e.Item.2u915NdUyQan6uKF]{Demoralize} a
+      foe.</p>
+  rules: []
+  slug: too-angry-to-die
+  _migration:
+    version: 0.94
+    previous:
+      schema: 0.939
+      foundry: '13.345'
+      system: 7.2.0
+  traits:
+    otherTags: []
+    value:
+      - general
+      - skill
+    rarity: rare
+  publication:
+    title: Pathfinder Kingmaker
+    authors: ''
+    license: OGL
+    remaster: false
+  level:
+    value: 12
+  category: skill
+  onlyLevel1: false
+  maxTakable: 1
+  actionType:
+    value: reaction
+  actions:
+    value: null
+  prerequisites:
+    value:
+      - value: master in Intimidation
+  location: null
+  subfeatures:
+    proficiencies: {}
+    senses: {}
+    suppressedFeatures: []
+type: feat
+flags:
+  core: {}
+  scene-packer:
+    hash: 280332092101d52065ed48255c4a3b04b2bff9b8
+effects: []
+folder: lVJfRR3nUB6MU7dI
+sort: 175000
+ownership:
+  default: 0
+  txZjek5EOiCBHPoz: 3
+_stats:
+  compendiumSource: Compendium.pf2e.feats-srd.Item.oFcn7SDOH6W2QhJl
+  duplicateSource: null
+  coreVersion: '13.346'
+  systemId: pf2e
+  systemVersion: 7.2.3
+  createdTime: 1718606591261
+  modifiedTime: 1752208111692
+  lastModifiedBy: txZjek5EOiCBHPoz
+  exportSource: null
+_key: '!items!eeEhhv0FmuMhZo2i'

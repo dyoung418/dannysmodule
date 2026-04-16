@@ -1,0 +1,113 @@
+name: Hallucinatory Terrain
+type: spell
+system:
+  source:
+    custom: ''
+    book: PHB
+    page: '249'
+    license: ''
+  description:
+    value: >-
+      <div class="rd__b  rd__b--3"><p>You make natural terrain in a 150-foot
+      cube in range look, sound, and smell like some other sort of natural
+      terrain. Thus, open fields or a road can be made to resemble a swamp,
+      hill, crevasse, or some other difficult or impassable terrain. A pond can
+      be made to seem like a grassy meadow, a precipice like a gentle slope, or
+      a rock-strewn gully like a wide and smooth road. Manufactured structures,
+      equipment, and creatures within the area aren't changed in
+      appearance.</p><div class="rd__spc-inline-post"></div><p>The tactile
+      characteristics of the terrain are unchanged, so creatures entering the
+      area are likely to see through the illusion. If the difference isn't
+      obvious by touch, a creature carefully examining the illusion can attempt
+      an Intelligence (@skill[Investigation]) check against your spell save DC
+      to disbelieve it. A creature who discerns the illusion for what it is,
+      sees it as a vague image superimposed on the terrain.</p></div><div><span
+      class="bold">Classes: </span>Bard, Druid, Warlock, Wizard</div>
+    chat: ''
+  actionType: util
+  level: 4
+  school: ill
+  properties:
+    - vocal
+    - somatic
+    - material
+  materials:
+    value: a stone, a twig, and a bit of green plant
+    consumed: false
+    cost: 0
+    supply: 0
+  target:
+    value: 150
+    units: ft
+    type: cube
+    prompt: true
+    width: null
+  range:
+    value: 300
+    units: ft
+    long: null
+  activation:
+    type: minute
+    cost: 10
+    condition: ''
+  duration:
+    value: '24'
+    units: hour
+  damage:
+    parts: []
+    versatile: ''
+  scaling:
+    mode: none
+    formula: ''
+  save:
+    dc: null
+    scaling: spell
+    ability: ''
+  uses:
+    value: null
+    max: ''
+    per: null
+    recovery: ''
+    prompt: true
+  attackBonus: ''
+  chatFlavor: ''
+  critical:
+    threshold: null
+    damage: ''
+  formula: ''
+  preparation:
+    mode: prepared
+    prepared: false
+  consume:
+    type: ''
+    target: null
+    amount: null
+    scale: false
+  cover: null
+  crewed: false
+  ability: null
+img: icons/magic/nature/tree-twisted-glow-yellow.webp
+ownership:
+  default: 0
+  38Gfe7fp1EmVmZNj: 3
+flags:
+  plutonium:
+    page: spells.html
+    source: PHB
+    hash: hallucinatory%20terrain_phb
+    propDroppable: spell
+effects: []
+folder: V63wQMxNm5MUYpcy
+_id: WXbpin6oygpHKlhE
+sort: 0
+_stats:
+  systemId: dnd5e
+  systemVersion: 3.0.2
+  coreVersion: '13.345'
+  createdTime: 1708109345219
+  modifiedTime: 1708227413053
+  lastModifiedBy: 38Gfe7fp1EmVmZNj
+  compendiumSource: null
+  duplicateSource: null
+  exportSource: null
+_key: '!items!WXbpin6oygpHKlhE'

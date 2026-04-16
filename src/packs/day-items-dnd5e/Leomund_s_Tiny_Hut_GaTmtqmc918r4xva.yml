@@ -1,0 +1,137 @@
+name: Leomund's Tiny Hut
+type: spell
+system:
+  source:
+    custom: ''
+    book: PHB
+    page: '255'
+    license: ''
+    revision: 1
+    rules: '2024'
+  description:
+    value: >-
+      <div class="rd__b  rd__b--3"><p>A 10-foot-radius immobile dome of force
+      springs into existence around and above you and remains stationary for the
+      duration. The spell ends if you leave its area.</p><div
+      class="rd__spc-inline-post"></div><p>Nine creatures of Medium size or
+      smaller can fit inside the dome with you. The spell fails if its area
+      includes a larger creature or more than nine creatures. Creatures and
+      objects within the dome when you cast this spell can move through it
+      freely. All other creatures and objects are barred from passing through
+      it. Spells and other magical effects can't extend through the dome or be
+      cast through it. The atmosphere inside the space is comfortable and dry,
+      regardless of the weather outside.</p><p>Until the spell ends, you can
+      command the interior to become dimly lit or dark. The dome is opaque from
+      the outside, of any color you choose, but it is transparent from the
+      inside.</p></div><div><span class="bold">Classes: </span>Bard,
+      Wizard</div>
+    chat: ''
+  level: 3
+  school: evo
+  properties:
+    - vocal
+    - somatic
+    - material
+    - ritual
+  materials:
+    value: a small crystal bead
+    consumed: false
+    cost: 0
+    supply: 0
+  target:
+    affects:
+      choice: false
+    template:
+      units: ft
+      type: sphere
+      size: '10'
+      contiguous: false
+  range:
+    value: '0'
+    units: self
+  activation:
+    type: minute
+    condition: ''
+    value: 1
+  duration:
+    value: '8'
+    units: hour
+  uses:
+    max: ''
+    spent: 0
+    recovery: []
+  preparation:
+    mode: prepared
+    prepared: false
+  activities:
+    dnd5eactivity000:
+      _id: dnd5eactivity000
+      type: utility
+      activation:
+        type: action
+        override: false
+      consumption:
+        targets: []
+        scaling:
+          allowed: false
+          max: ''
+        spellSlot: true
+      description:
+        chatFlavor: ''
+      duration:
+        units: inst
+        concentration: false
+        override: false
+      effects: []
+      range:
+        units: self
+        override: false
+      target:
+        prompt: true
+        template:
+          contiguous: false
+          units: ft
+        affects:
+          choice: false
+        override: false
+      uses:
+        spent: 0
+        max: ''
+        recovery: []
+      roll:
+        formula: ''
+        name: ''
+        prompt: false
+        visible: false
+      sort: 0
+  identifier: leomunds-tiny-hut
+img: icons/skills/movement/arrow-upward-white.webp
+ownership:
+  default: 0
+  38Gfe7fp1EmVmZNj: 3
+flags:
+  plutonium:
+    page: spells.html
+    source: PHB
+    hash: leomund's%20tiny%20hut_phb
+    propDroppable: spell
+  dnd5e:
+    persistSourceMigration: true
+    riders:
+      activity: []
+      effect: []
+effects: []
+folder: 460yTIg9sKBrbNPf
+_id: GaTmtqmc918r4xva
+sort: 0
+_stats:
+  systemId: dnd5e
+  systemVersion: 5.0.4
+  coreVersion: '13.346'
+  createdTime: 1708228997791
+  modifiedTime: 1752197371435
+  lastModifiedBy: 1pY4akW8WASxGBbA
+  compendiumSource: null
+  duplicateSource: null
+  exportSource: null
+_key: '!items!GaTmtqmc918r4xva'

@@ -1,0 +1,150 @@
+name: Incendiary Cloud
+type: spell
+system:
+  source:
+    custom: ''
+    book: PHB
+    page: '253'
+    license: ''
+    revision: 1
+    rules: '2024'
+  description:
+    value: >-
+      <div class="rd__b  rd__b--3"><p>A swirling cloud of smoke shot through
+      with white-hot embers appears in a 20-foot-radius sphere centered on a
+      point within range. The cloud spreads around corners and is heavily
+      obscured. It lasts for the duration or until a wind of moderate or greater
+      speed (at least 10 miles per hour) disperses it.</p><div
+      class="rd__spc-inline-post"></div><p>When the cloud appears, each creature
+      in it must make a Dexterity saving throw. A creature takes [[/r 10d8]]
+      fire damage on a failed save, or half as much damage on a successful one.
+      A creature must also make this saving throw when it enters the spell's
+      area for the first time on a turn or ends its turn there.</p><p>The cloud
+      moves 10 feet directly away from you in a direction that you choose at the
+      start of each of your turns.</p></div><div><span class="bold">Classes:
+      </span>Sorcerer, Wizard</div>
+    chat: ''
+  level: 8
+  school: con
+  properties:
+    - vocal
+    - somatic
+    - concentration
+  materials:
+    value: ''
+    consumed: false
+    cost: 0
+    supply: 0
+  target:
+    affects:
+      choice: false
+    template:
+      units: ft
+      type: sphere
+      size: '20'
+      contiguous: false
+  range:
+    value: '150'
+    units: ft
+  activation:
+    type: action
+    condition: ''
+    value: 1
+  duration:
+    value: '1'
+    units: minute
+  uses:
+    max: ''
+    spent: 0
+    recovery: []
+  preparation:
+    mode: prepared
+    prepared: false
+  activities:
+    dnd5eactivity000:
+      _id: dnd5eactivity000
+      type: save
+      activation:
+        type: action
+        override: false
+      consumption:
+        targets: []
+        scaling:
+          allowed: false
+          max: ''
+        spellSlot: true
+      description:
+        chatFlavor: ''
+      duration:
+        units: inst
+        concentration: false
+        override: false
+      effects: []
+      range:
+        units: self
+        override: false
+      target:
+        prompt: true
+        template:
+          contiguous: false
+          units: ft
+        affects:
+          choice: false
+        override: false
+      uses:
+        spent: 0
+        max: ''
+        recovery: []
+      damage:
+        onSave: half
+        parts:
+          - number: 10
+            denomination: 8
+            bonus: ''
+            types:
+              - fire
+            custom:
+              enabled: false
+              formula: ''
+            scaling:
+              mode: ''
+              number: null
+              formula: ''
+      save:
+        ability:
+          - dex
+        dc:
+          calculation: spellcasting
+          formula: ''
+      sort: 0
+  identifier: incendiary-cloud
+img: icons/magic/fire/explosion-mushroom-nuke-yellow.webp
+ownership:
+  default: 0
+  38Gfe7fp1EmVmZNj: 3
+flags:
+  plutonium:
+    page: spells.html
+    source: PHB
+    hash: incendiary%20cloud_phb
+    propDroppable: spell
+  dnd5e:
+    persistSourceMigration: true
+    riders:
+      activity: []
+      effect: []
+effects: []
+folder: MPJYAqSTQHr6QzkQ
+_id: 3RRuqgNNcfrxN9RV
+sort: 0
+_stats:
+  systemId: dnd5e
+  systemVersion: 5.0.4
+  coreVersion: '13.346'
+  createdTime: 1708109196946
+  modifiedTime: 1752197371435
+  lastModifiedBy: 1pY4akW8WASxGBbA
+  compendiumSource: null
+  duplicateSource: null
+  exportSource: null
+_key: '!items!3RRuqgNNcfrxN9RV'

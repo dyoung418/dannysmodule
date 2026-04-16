@@ -1,0 +1,61 @@
+folder: qYaor4lQZNCHF6MM
+name: Play playlist (prompt)
+type: script
+_id: XyHzZMGimmET6SdW
+author: txZjek5EOiCBHPoz
+img: icons/svg/dice-target.svg
+scope: global
+command: >-
+  const options = game.playlists.reduce((acc,e) => acc += `<option
+  value="${e.id}">${e.name}</options>`,``);
+
+
+  const content = `<form>
+    <div class="form-group">
+      <label>Playlist</label>
+      <div class="form-fields">
+        <select name="playlistId">${options}</select>
+      </div>
+    </div>
+  </form>`;
+
+
+  console.log("okay");
+
+
+  const id = await Dialog.prompt({
+      title: "Start Playlist",
+      content,
+      label: "Play",
+      callback: (html) => {
+          const {playlistId} = new FormDataExtended(html[0].querySelector("form")).object;
+          return playlistId;
+      }
+  });
+
+
+  console.log(id);
+
+  const pl = game.playlists.get(`${id}`);
+
+  const plFull = await fromUuid(`Playlist.${id}`);
+
+  console.log(plFull);
+
+  await plFull.playAll();
+flags: {}
+_stats:
+  compendiumSource: null
+  duplicateSource: null
+  exportSource: null
+  coreVersion: '13.346'
+  systemId: pf2e
+  systemVersion: 7.2.3
+  createdTime: 1752208126908
+  modifiedTime: 1752208126908
+  lastModifiedBy: txZjek5EOiCBHPoz
+sort: 0
+ownership:
+  default: 0
+  txZjek5EOiCBHPoz: 3
+_key: '!macros!XyHzZMGimmET6SdW'

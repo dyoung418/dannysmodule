@@ -1,0 +1,130 @@
+name: Alter Self
+type: spell
+system:
+  source:
+    custom: ''
+    book: PHB
+    page: '211'
+    license: ''
+  description:
+    value: >-
+      <div class="rd__b  rd__b--3"><p>You assume a different form. When you cast
+      the spell, choose one of the following options, the effects of which last
+      for the duration of the spell. While the spell lasts, you can end one
+      option as an action to gain the benefits of a different one.</p><div
+      class="rd__spc-inline-post"></div><div class="rd__b  rd__b--3"><span
+      class="rd__h rd__h--3" data-title-index="1"> <span
+      class="entry-title-inner">Aquatic Adaptation.</span></span> <p>You adapt
+      your body to an aquatic environment, sprouting gills and growing webbing
+      between your fingers. You can breathe underwater and gain a swimming speed
+      equal to your walking speed.</p><div
+      class="rd__spc-inline-post"></div></div><div class="rd__b  rd__b--3"><span
+      class="rd__h rd__h--3" data-title-index="2"> <span
+      class="entry-title-inner">Change Appearance.</span></span> <p>You
+      transform your appearance. You decide what you look like, including your
+      height, weight, facial features, sound of your voice, hair length,
+      coloration, and distinguishing characteristics, if any. You can make
+      yourself appear as a member of another race, though none of your
+      statistics change. You also can't appear as a creature of a different size
+      than you, and your basic shape stays the same; if you're bipedal, you
+      can't use this spell to become quadrupedal, for instance. At any time for
+      the duration of the spell, you can use your action to change your
+      appearance in this way again.</p><div
+      class="rd__spc-inline-post"></div></div><div class="rd__b  rd__b--3"><span
+      class="rd__h rd__h--3" data-title-index="3"> <span
+      class="entry-title-inner">Natural Weapons.</span></span> <p>You grow
+      claws, fangs, spines, horns, or a different natural weapon of your choice.
+      Your unarmed strikes deal [[/r 1d6]] bludgeoning, piercing, or slashing
+      damage, as appropriate to the natural weapon you chose, and you are
+      proficient with your unarmed strikes. Finally, the natural weapon is magic
+      and you have a +1 bonus to the attack and damage rolls you make using
+      it.</p><div class="rd__spc-inline-post"></div></div></div><div><span
+      class="bold">Classes: </span>Artificer, Sorcerer, Wizard</div>
+    chat: ''
+  actionType: util
+  level: 2
+  school: trs
+  properties:
+    - vocal
+    - somatic
+    - concentration
+  materials:
+    value: ''
+    consumed: false
+    cost: 0
+    supply: 0
+  target:
+    value: 0
+    units: self
+    type: self
+    prompt: true
+    width: null
+  range:
+    value: 0
+    units: self
+    long: null
+  activation:
+    type: action
+    cost: 1
+    condition: ''
+  duration:
+    value: '1'
+    units: hour
+  damage:
+    parts: []
+    versatile: ''
+  scaling:
+    mode: none
+    formula: ''
+  save:
+    dc: null
+    scaling: spell
+    ability: ''
+  uses:
+    value: null
+    max: ''
+    per: null
+    recovery: ''
+    prompt: true
+  attackBonus: ''
+  chatFlavor: ''
+  critical:
+    threshold: null
+    damage: ''
+  formula: ''
+  preparation:
+    mode: prepared
+    prepared: false
+  consume:
+    type: ''
+    target: null
+    amount: null
+    scale: false
+  cover: null
+  crewed: false
+  ability: null
+img: icons/creatures/claws/pincer-crab-brown.webp
+ownership:
+  default: 0
+  38Gfe7fp1EmVmZNj: 3
+flags:
+  plutonium:
+    page: spells.html
+    source: PHB
+    hash: alter%20self_phb
+    propDroppable: spell
+effects: []
+folder: mgLDxy1J2PuOM31n
+_id: 4NnsEEXS8IeJXG1n
+sort: 0
+_stats:
+  systemId: dnd5e
+  systemVersion: 3.0.3
+  coreVersion: '13.345'
+  createdTime: 1709684304752
+  modifiedTime: 1709684366197
+  lastModifiedBy: 38Gfe7fp1EmVmZNj
+  compendiumSource: null
+  duplicateSource: null
+  exportSource: null
+_key: '!items!4NnsEEXS8IeJXG1n'

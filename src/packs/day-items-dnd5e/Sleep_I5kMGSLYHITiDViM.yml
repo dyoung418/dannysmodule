@@ -1,0 +1,161 @@
+name: Sleep
+type: spell
+system:
+  source:
+    custom: ''
+    book: PHB
+    page: '276'
+    license: ''
+  description:
+    value: >-
+      <div class="rd__b  rd__b--3"><p>This spell sends creatures into a magical
+      slumber. Roll [[/r 5d8]]; the total is how many hit points of creatures
+      this spell can affect. Creatures within 20 feet of a point you choose
+      within range are affected in ascending order of their current hit points
+      (ignoring @condition[unconscious] creatures).</p><div
+      class="rd__spc-inline-post"></div><p>Starting with the creature that has
+      the lowest current hit points, each creature affected by this spell falls
+      @condition[unconscious] until the spell ends, the sleeper takes damage, or
+      someone uses an action to shake or slap the sleeper awake. Subtract each
+      creature's hit points from the total before moving on to the creature with
+      the next lowest hit points. A creature's hit points must be equal to or
+      less than the remaining total for that creature to be
+      affected.</p><p>Undead and creatures immune to being @condition[charmed]
+      aren't affected by this spell.</p></div><div class="rd__b  rd__b--3"><div
+      class="rd__b  rd__b--3"><span class="rd__h rd__h--3" data-title-index="1">
+      <span class="entry-title-inner">At Higher Levels.</span></span> <p>When
+      you cast this spell using a spell slot of 2nd level or higher, roll an
+      additional [[/r 2d8]] for each slot level above 1st.</p><div
+      class="rd__spc-inline-post"></div></div><div
+      class="rd__spc-inline-post"></div></div><div><span class="bold">Classes:
+      </span>Bard, Sorcerer, Wizard</div>
+    chat: ''
+  actionType: util
+  level: 1
+  school: enc
+  properties:
+    - vocal
+    - somatic
+    - material
+  materials:
+    value: a pinch of fine sand, rose petals, or a cricket
+    consumed: false
+    cost: 0
+    supply: 0
+  target:
+    value: 20
+    units: ft
+    type: sphere
+    prompt: true
+    width: null
+  range:
+    value: 90
+    units: ft
+    long: null
+  activation:
+    type: action
+    cost: 1
+    condition: ''
+  duration:
+    value: '1'
+    units: minute
+  damage:
+    parts:
+      - - 5d8
+        - ''
+    versatile: ''
+  scaling:
+    mode: level
+    formula: 2d8
+  save:
+    dc: null
+    scaling: spell
+    ability: ''
+  uses:
+    value: null
+    max: ''
+    per: null
+    recovery: ''
+    prompt: true
+  attackBonus: ''
+  chatFlavor: ''
+  critical:
+    threshold: null
+    damage: ''
+  formula: ''
+  preparation:
+    mode: prepared
+    prepared: false
+  consume:
+    type: ''
+    target: null
+    amount: null
+    scale: false
+  cover: null
+  crewed: false
+  ability: null
+img: icons/magic/control/sleep-bubble-purple.webp
+ownership:
+  default: 0
+  38Gfe7fp1EmVmZNj: 3
+flags:
+  plutonium:
+    page: spells.html
+    source: PHB
+    hash: sleep_phb
+    propDroppable: spell
+effects:
+  - name: Sleep
+    origin: Compendium.dnd5e.spells.Item.KhwiSi9fwVfUPtku
+    duration:
+      value: 60
+      units: seconds
+      expiry: turnStart
+      expired: false
+    disabled: false
+    _id: MowBnXpRu2aG48i9
+    description: >-
+      <p>The creature affected by this spell falls Unconscious until the spell
+      ends, the sleeper takes damage, or someone uses an action to shake or slap
+      the sleeper awake.</p>
+    transfer: false
+    statuses:
+      - unconscious
+      - incapacitated
+    flags:
+      plutonium:
+        dedupeId: sleep
+    tint: '#ffffff'
+    _stats:
+      coreVersion: '14.359'
+      systemId: null
+      systemVersion: null
+      createdTime: null
+      modifiedTime: null
+      lastModifiedBy: null
+      compendiumSource: null
+      duplicateSource: null
+      exportSource: null
+    img: icons/magic/control/sleep-bubble-purple.webp
+    type: base
+    system:
+      changes: []
+    sort: 0
+    showIcon: 2
+    start: null
+    folder: null
+    _key: '!items.effects!I5kMGSLYHITiDViM.MowBnXpRu2aG48i9'
+folder: xcRlAcnidmHoYRJ1
+_id: I5kMGSLYHITiDViM
+sort: 0
+_stats:
+  systemId: dnd5e
+  systemVersion: 3.0.2
+  coreVersion: '14.359'
+  createdTime: 1708109197268
+  modifiedTime: 1708227409300
+  lastModifiedBy: 38Gfe7fp1EmVmZNj
+  compendiumSource: null
+  duplicateSource: null
+  exportSource: null
+_key: '!items!I5kMGSLYHITiDViM'

@@ -1,0 +1,61 @@
+folder: QqrWj278qS19exFE
+name: Alchemical Savant
+type: feat
+_id: uGtBKKpQqJko9pWW
+img: systems/dnd5e/icons/svg/items/feature.svg
+system:
+  description:
+    value: >-
+      <p><em>5th-level Alchemist feature</em></p><p>You’ve developed masterful
+      command of magical chemicals, enhancing the healing and damage you create
+      through them. Whenever you cast a spell using your alchemist’s supplies as
+      the spellcasting focus, you gain a bonus to one roll of the spell. That
+      roll must restore hit points or be a damage roll that deals acid, fire,
+      necrotic, or poison damage, and the bonus equals your Intelligence
+      modifier (minimum of +1).</p>
+    chat: ''
+  source:
+    book: TCOE
+    page: '15'
+    custom: ''
+    license: ''
+    revision: 1
+    rules: '2024'
+  uses:
+    max: ''
+    spent: 0
+    recovery: []
+  type:
+    value: class
+    subtype: ''
+  properties: []
+  requirements: Artificer 5 (Alchemist)
+  activities: {}
+  identifier: alchemical-savant
+  enchant: {}
+  prerequisites:
+    level: null
+    repeatable: false
+  advancement: []
+  crewed: false
+effects: []
+sort: 0
+ownership:
+  default: 0
+  38Gfe7fp1EmVmZNj: 3
+flags:
+  dnd5e:
+    riders:
+      activity: []
+      effect: []
+_stats:
+  systemId: dnd5e
+  systemVersion: 5.0.4
+  coreVersion: '13.346'
+  createdTime: 1709705271138
+  modifiedTime: 1752197371435
+  lastModifiedBy: 1pY4akW8WASxGBbA
+  compendiumSource: null
+  duplicateSource: null
+  exportSource: null
+_key: '!items!uGtBKKpQqJko9pWW'

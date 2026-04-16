@@ -1,0 +1,113 @@
+name: Calm Emotions
+type: spell
+system:
+  source:
+    custom: ''
+    book: PHB
+    page: '221'
+    license: ''
+  description:
+    value: >-
+      <div class="rd__b  rd__b--3"><p>You attempt to suppress strong emotions in
+      a group of people. Each humanoid in a 20-foot-radius sphere centered on a
+      point you choose within range must make a Charisma saving throw; a
+      creature can choose to fail this saving throw if it wishes. If a creature
+      fails its saving throw, choose one of the following two effects.</p><div
+      class="rd__spc-inline-post"></div><p>You can suppress any effect causing a
+      target to be @condition[charmed] or @condition[frightened]. When this
+      spell ends, any suppressed effect resumes, provided that its duration has
+      not expired in the meantime.</p><p>Alternatively, you can make a target
+      indifferent about creatures of your choice that it is hostile toward. This
+      indifference ends if the target is attacked or harmed by a spell or if it
+      witnesses any of its friends being harmed. When the spell ends, the
+      creature becomes hostile again, unless the DM rules
+      otherwise.</p></div><div><span class="bold">Classes: </span>Bard,
+      Cleric</div>
+    chat: ''
+  actionType: save
+  level: 2
+  school: enc
+  properties:
+    - vocal
+    - somatic
+    - concentration
+  materials:
+    value: ''
+    consumed: false
+    cost: 0
+    supply: 0
+  target:
+    value: 20
+    units: ft
+    type: sphere
+    prompt: true
+    width: null
+  range:
+    value: 60
+    units: ft
+    long: null
+  activation:
+    type: action
+    cost: 1
+    condition: ''
+  duration:
+    value: '1'
+    units: minute
+  damage:
+    parts: []
+    versatile: ''
+  scaling:
+    mode: none
+    formula: ''
+  save:
+    ability: cha
+    dc: null
+    scaling: spell
+  uses:
+    value: null
+    max: ''
+    per: null
+    recovery: ''
+    prompt: true
+  attackBonus: ''
+  chatFlavor: ''
+  critical:
+    threshold: null
+    damage: ''
+  formula: ''
+  preparation:
+    mode: prepared
+    prepared: false
+  consume:
+    type: ''
+    target: null
+    amount: null
+    scale: false
+  cover: null
+  crewed: false
+  ability: null
+img: icons/skills/social/trading-justice-scale-gold.webp
+ownership:
+  default: 0
+  38Gfe7fp1EmVmZNj: 3
+flags:
+  plutonium:
+    page: spells.html
+    source: PHB
+    hash: calm%20emotions_phb
+    propDroppable: spell
+effects: []
+folder: oYyVYQLZDhEzl37h
+_id: ygMb9TJvC5HRI7Ry
+sort: 0
+_stats:
+  systemId: dnd5e
+  systemVersion: 3.0.2
+  coreVersion: '13.345'
+  createdTime: 1708228997408
+  modifiedTime: 1708229050063
+  lastModifiedBy: 38Gfe7fp1EmVmZNj
+  compendiumSource: null
+  duplicateSource: null
+  exportSource: null
+_key: '!items!ygMb9TJvC5HRI7Ry'

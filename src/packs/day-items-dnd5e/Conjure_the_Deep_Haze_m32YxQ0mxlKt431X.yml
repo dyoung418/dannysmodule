@@ -1,0 +1,115 @@
+name: Conjure the Deep Haze
+type: spell
+system:
+  source:
+    custom: ''
+    book: DoDk
+    page: '226'
+    license: ''
+  description:
+    value: >-
+      <div class="rd__b  rd__b--3"><p>When you cast this spell, you gain one <a
+      href="https://5etools-mirror-2.github.io/adventure.html#DoDk,12">level of
+      contamination</a>.</p><div class="rd__spc-inline-post"></div><p>You create
+      a 20-foot-radius sphere of the Deep Haze on a point you choose within
+      range. The fog spreads around corners. It lasts for the duration or until
+      strong wind disperses the fog, ending the spell. Its area is heavily
+      obscured.</p><p>When a creature enters the spell's area for the first time
+      on a turn or starts its turn there, that creature must succeed on a
+      Constitution saving throw. On a failed saving throw, it suffers ([[/r
+      8d6]]) necrotic damage and gains one <a
+      href="https://5etools-mirror-2.github.io/adventure.html#DoDk,12">level of
+      contamination</a>. On a successful save, the creature takes half as much
+      damage and does not gain any <a
+      href="https://5etools-mirror-2.github.io/adventure.html#DoDk,12">contamination
+      levels</a>. Creatures are affected even if they hold their breath or don't
+      need to breathe.</p></div>
+    chat: ''
+  actionType: save
+  level: 5
+  school: con
+  properties:
+    - vocal
+    - somatic
+    - material
+    - concentration
+  materials:
+    value: a delerium fragment worth 100 gp, which the spell consumes
+    consumed: true
+    cost: 100
+    supply: 0
+  target:
+    value: 0
+    units: ''
+    type: ''
+    prompt: true
+    width: null
+  range:
+    value: 120
+    units: ft
+    long: null
+  activation:
+    type: action
+    cost: 1
+    condition: ''
+  duration:
+    value: '10'
+    units: minute
+  damage:
+    parts: []
+    versatile: ''
+  scaling:
+    mode: none
+    formula: ''
+  save:
+    ability: con
+    dc: null
+    scaling: spell
+  uses:
+    value: null
+    max: ''
+    per: null
+    recovery: ''
+    prompt: true
+  attackBonus: ''
+  chatFlavor: ''
+  critical:
+    threshold: null
+    damage: ''
+  formula: 8d6
+  preparation:
+    mode: prepared
+    prepared: false
+  consume:
+    type: ''
+    target: null
+    amount: null
+    scale: false
+  cover: null
+  crewed: false
+  ability: null
+img: icons/magic/unholy/silhouette-evil-horned-giant.webp
+ownership:
+  default: 0
+  38Gfe7fp1EmVmZNj: 3
+flags:
+  plutonium:
+    page: spells.html
+    source: DoDk
+    hash: conjure%20the%20deep%20haze_dodk
+    propDroppable: spell
+effects: []
+folder: 8U2cnpUuL1cqC1TA
+_id: m32YxQ0mxlKt431X
+sort: 0
+_stats:
+  systemId: dnd5e
+  systemVersion: 3.0.2
+  coreVersion: '13.345'
+  createdTime: 1708227600853
+  modifiedTime: 1708227676991
+  lastModifiedBy: 38Gfe7fp1EmVmZNj
+  compendiumSource: null
+  duplicateSource: null
+  exportSource: null
+_key: '!items!m32YxQ0mxlKt431X'

@@ -1,0 +1,113 @@
+name: Counterspell
+type: spell
+system:
+  source:
+    custom: ''
+    book: PHB
+    page: '228'
+    license: ''
+  description:
+    value: >-
+      <div class="rd__b  rd__b--3"><p>You attempt to interrupt a creature in the
+      process of casting a spell. If the creature is casting a spell of 3rd
+      level or lower, its spell fails and has no effect. If it is casting a
+      spell of 4th level or higher, make an ability check using your
+      spellcasting ability. The DC equals 10 + the spell's level. On a success,
+      the creature's spell fails and has no effect.</p><div
+      class="rd__spc-inline-post"></div></div><div class="rd__b  rd__b--3"><div
+      class="rd__b  rd__b--3"><span class="rd__h rd__h--3" data-title-index="1">
+      <span class="entry-title-inner">At Higher Levels.</span></span> <p>When
+      you cast this spell using a spell slot of 4th level or higher, the
+      interrupted spell has no effect if its level is less than or equal to the
+      level of the spell slot you used.</p><div
+      class="rd__spc-inline-post"></div></div><div
+      class="rd__spc-inline-post"></div></div><div><span class="bold">Classes:
+      </span>Sorcerer, Warlock, Wizard</div>
+    chat: ''
+  actionType: util
+  level: 3
+  school: abj
+  properties:
+    - somatic
+  materials:
+    value: ''
+    consumed: false
+    cost: 0
+    supply: 0
+  target:
+    value: 1
+    units: ''
+    type: creature
+    prompt: true
+    width: null
+  range:
+    value: 60
+    units: ft
+    long: null
+  activation:
+    type: reaction
+    cost: 1
+    condition: >-
+      which you take when you see a creature within 60 feet of you casting a
+      spell
+  duration:
+    value: ''
+    units: inst
+  damage:
+    parts: []
+    versatile: ''
+  scaling:
+    mode: none
+    formula: ''
+  save:
+    dc: null
+    scaling: spell
+    ability: ''
+  uses:
+    value: null
+    max: ''
+    per: null
+    recovery: ''
+    prompt: true
+  attackBonus: ''
+  chatFlavor: ''
+  critical:
+    threshold: null
+    damage: ''
+  formula: ''
+  preparation:
+    mode: prepared
+    prepared: false
+  consume:
+    type: ''
+    target: null
+    amount: null
+    scale: false
+  cover: null
+  crewed: false
+  ability: null
+img: icons/creatures/abilities/wolf-heads-swirl-purple.webp
+ownership:
+  default: 0
+  38Gfe7fp1EmVmZNj: 3
+flags:
+  plutonium:
+    page: spells.html
+    source: PHB
+    hash: counterspell_phb
+    propDroppable: spell
+effects: []
+folder: JyVdMrWD1EOLBwdQ
+_id: zSQUMUM274L1EddU
+sort: 0
+_stats:
+  systemId: dnd5e
+  systemVersion: 3.0.2
+  coreVersion: '13.345'
+  createdTime: 1708109345046
+  modifiedTime: 1708227413053
+  lastModifiedBy: 38Gfe7fp1EmVmZNj
+  compendiumSource: null
+  duplicateSource: null
+  exportSource: null
+_key: '!items!zSQUMUM274L1EddU'

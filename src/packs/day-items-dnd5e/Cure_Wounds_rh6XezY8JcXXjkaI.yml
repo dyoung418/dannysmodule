@@ -1,0 +1,110 @@
+name: Cure Wounds
+type: spell
+system:
+  source:
+    custom: ''
+    book: PHB
+    page: '230'
+    license: ''
+  description:
+    value: >-
+      <div class="rd__b  rd__b--3"><p>A creature you touch regains a number of
+      hit points equal to [[/r 1d8]] + your spellcasting ability modifier. This
+      spell has no effect on undead or constructs.</p><div
+      class="rd__spc-inline-post"></div></div><div class="rd__b  rd__b--3"><div
+      class="rd__b  rd__b--3"><span class="rd__h rd__h--3" data-title-index="1">
+      <span class="entry-title-inner">At Higher Levels.</span></span> <p>When
+      you cast this spell using a spell slot of 2nd level or higher, the healing
+      increases by [[/r 1d8]] for each slot level above 1st.</p><div
+      class="rd__spc-inline-post"></div></div><div
+      class="rd__spc-inline-post"></div></div><div><span class="bold">Classes:
+      </span>Artificer, Bard, Cleric, Druid, Paladin, Ranger</div>
+    chat: ''
+  actionType: heal
+  level: 1
+  school: evo
+  properties:
+    - vocal
+    - somatic
+  materials:
+    value: ''
+    consumed: false
+    cost: 0
+    supply: 0
+  target:
+    value: 1
+    units: touch
+    type: creature
+    prompt: true
+    width: null
+  range:
+    value: 0
+    units: touch
+    long: null
+  activation:
+    type: action
+    cost: 1
+    condition: ''
+  duration:
+    value: ''
+    units: inst
+  damage:
+    parts:
+      - - 1d8 + @mod
+        - healing
+    versatile: ''
+  scaling:
+    mode: level
+    formula: 1d8
+  save:
+    dc: null
+    scaling: spell
+    ability: ''
+  uses:
+    value: null
+    max: ''
+    per: null
+    recovery: ''
+    prompt: true
+  attackBonus: ''
+  chatFlavor: ''
+  critical:
+    threshold: null
+    damage: ''
+  formula: ''
+  preparation:
+    mode: prepared
+    prepared: false
+  consume:
+    type: ''
+    target: null
+    amount: null
+    scale: false
+  cover: null
+  crewed: false
+  ability: null
+img: icons/magic/life/cross-flared-green.webp
+ownership:
+  default: 0
+  38Gfe7fp1EmVmZNj: 3
+flags:
+  plutonium:
+    page: spells.html
+    source: PHB
+    hash: cure%20wounds_phb
+    propDroppable: spell
+effects: []
+folder: hBkaUu7fsbkopX1H
+_id: rh6XezY8JcXXjkaI
+sort: 0
+_stats:
+  systemId: dnd5e
+  systemVersion: 3.0.2
+  coreVersion: '13.345'
+  createdTime: 1708227517275
+  modifiedTime: 1708227533976
+  lastModifiedBy: 38Gfe7fp1EmVmZNj
+  compendiumSource: null
+  duplicateSource: null
+  exportSource: null
+_key: '!items!rh6XezY8JcXXjkaI'

@@ -1,0 +1,16 @@
+name: 1st level
+color: null
+flags: {}
+sort: 0
+sorting: a
+folder: 9psEVaE3QjWHKa8C
+type: Item
+_id: hBkaUu7fsbkopX1H
+_stats:
+  systemId: dnd5e
+  systemVersion: 3.0.2
+  coreVersion: '11.315'
+  createdTime: 1708227517183
+  modifiedTime: 1708227533903
+  lastModifiedBy: 38Gfe7fp1EmVmZNj
+_key: '!folders!hBkaUu7fsbkopX1H'

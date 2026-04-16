@@ -1,0 +1,20 @@
+name: Spells - Sorcerer
+sorting: a
+folder: Try85loRkZPGd9Aa
+type: Item
+_id: K1s5ScESUfPAVWfa
+sort: 1200000
+color: null
+flags: {}
+_stats:
+  systemId: dnd5e
+  systemVersion: 3.0.2
+  coreVersion: '13.346'
+  createdTime: 1708109126661
+  modifiedTime: 1752197369805
+  lastModifiedBy: 1pY4akW8WASxGBbA
+  compendiumSource: null
+  duplicateSource: null
+  exportSource: null
+description: ''
+_key: '!folders!K1s5ScESUfPAVWfa'

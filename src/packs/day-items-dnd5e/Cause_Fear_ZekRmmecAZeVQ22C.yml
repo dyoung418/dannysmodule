@@ -1,0 +1,112 @@
+name: Cause Fear
+type: spell
+system:
+  source:
+    custom: ''
+    book: XGE
+    page: '151'
+    license: ''
+  description:
+    value: >-
+      <div class="rd__b  rd__b--3"><p>You awaken the sense of mortality in one
+      creature you can see within range. A construct or an undead is immune to
+      this effect. The target must succeed on a Wisdom saving throw or become
+      @condition[frightened] of you until the spell ends. The
+      @condition[frightened] target can repeat the saving throw at the end of
+      each of its turns, ending the effect on itself on a success.</p><div
+      class="rd__spc-inline-post"></div></div><div class="rd__b  rd__b--3"><div
+      class="rd__b  rd__b--3"><span class="rd__h rd__h--3" data-title-index="1">
+      <span class="entry-title-inner">At Higher Levels.</span></span> <p>When
+      you cast this spell using a spell slot of 2nd level or higher, you can
+      target one additional creature for each slot level above 1st. The
+      creatures must be within 30 feet of each other when you target
+      them.</p><div class="rd__spc-inline-post"></div></div><div
+      class="rd__spc-inline-post"></div></div><div><span class="bold">Classes:
+      </span>Warlock, Wizard</div>
+    chat: ''
+  actionType: save
+  level: 1
+  school: nec
+  properties:
+    - vocal
+    - concentration
+  materials:
+    value: ''
+    consumed: false
+    cost: 0
+    supply: 0
+  target:
+    value: 0
+    units: ''
+    type: ''
+    prompt: true
+    width: null
+  range:
+    value: 60
+    units: ft
+    long: null
+  activation:
+    type: action
+    cost: 1
+    condition: ''
+  duration:
+    value: '1'
+    units: minute
+  damage:
+    parts: []
+    versatile: ''
+  scaling:
+    mode: none
+    formula: ''
+  save:
+    ability: wis
+    dc: null
+    scaling: spell
+  uses:
+    value: null
+    max: ''
+    per: null
+    recovery: ''
+    prompt: true
+  attackBonus: ''
+  chatFlavor: ''
+  critical:
+    threshold: null
+    damage: ''
+  formula: ''
+  preparation:
+    mode: prepared
+    prepared: false
+  consume:
+    type: ''
+    target: null
+    amount: null
+    scale: false
+  cover: null
+  crewed: false
+  ability: null
+img: icons/commodities/bones/skull-hollow-worn-blue.webp
+ownership:
+  default: 0
+  38Gfe7fp1EmVmZNj: 3
+flags:
+  plutonium:
+    page: spells.html
+    source: XGE
+    hash: cause%20fear_xge
+    propDroppable: spell
+effects: []
+folder: fZniKrFWFeIkKPkT
+_id: ZekRmmecAZeVQ22C
+sort: 0
+_stats:
+  systemId: dnd5e
+  systemVersion: 3.0.2
+  coreVersion: '13.345'
+  createdTime: 1708109345601
+  modifiedTime: 1708227413053
+  lastModifiedBy: 38Gfe7fp1EmVmZNj
+  compendiumSource: null
+  duplicateSource: null
+  exportSource: null
+_key: '!items!ZekRmmecAZeVQ22C'

@@ -1,0 +1,209 @@
+name: Booming Blade
+type: spell
+system:
+  source:
+    custom: ''
+    book: TCE
+    page: '106'
+    license: ''
+    revision: 1
+    rules: '2024'
+  description:
+    value: >-
+      <div class="rd__b  rd__b--3"><p>You brandish the weapon used in the
+      spell's casting and make a melee attack with it against one creature
+      within 5 feet of you. On a hit, the target suffers the weapon attack's
+      normal effects and then becomes sheathed in booming energy until the start
+      of your next turn. If the target willingly moves 5 feet or more before
+      then, the target takes [[/r 1d8]] thunder damage, and the spell
+      ends.</p><div class="rd__spc-inline-post"></div><p>This spell's damage
+      increases when you reach certain levels. At 5th level, the melee attack
+      deals an extra [[/r 1d8]] thunder damage to the target on a hit, and the
+      damage the target takes for moving increases to [[/r 2d8]]. Both damage
+      rolls increase by 1d8 at 11th level ([[/r 2d8]] and [[/r 3d8]]) and again
+      at 17th level ([[/r 3d8]] and [[/r 4d8]]).</p></div><div><span
+      class="bold">Classes: </span>Artificer, Sorcerer, Warlock, Wizard</div>
+    chat: ''
+  level: 0
+  school: evo
+  properties:
+    - somatic
+    - material
+  materials:
+    value: a melee weapon worth at least 1 sp
+    consumed: false
+    cost: 0
+    supply: 0
+  target:
+    affects:
+      type: creature
+      count: '1'
+      choice: false
+    template:
+      units: ''
+      contiguous: false
+  range:
+    value: '0'
+    units: self
+  activation:
+    type: action
+    condition: ''
+    value: 1
+  duration:
+    value: '1'
+    units: round
+  uses:
+    max: ''
+    spent: 0
+    recovery: []
+  preparation:
+    mode: always
+    prepared: false
+  activities:
+    dnd5eactivity000:
+      _id: dnd5eactivity000
+      type: attack
+      activation:
+        type: action
+        override: false
+      consumption:
+        targets: []
+        scaling:
+          allowed: false
+          max: ''
+        spellSlot: true
+      description:
+        chatFlavor: ''
+      duration:
+        units: inst
+        concentration: false
+        override: false
+      effects: []
+      range:
+        units: self
+        override: false
+      target:
+        prompt: true
+        template:
+          contiguous: false
+          units: ft
+        affects:
+          choice: false
+        override: false
+      uses:
+        spent: 0
+        max: ''
+        recovery: []
+      attack:
+        ability: ''
+        bonus: ''
+        critical:
+          threshold: null
+        flat: false
+        type:
+          value: melee
+          classification: weapon
+      damage:
+        critical:
+          bonus: ''
+        includeBase: true
+        parts:
+          - number: null
+            denomination: null
+            bonus: ''
+            types:
+              - thunder
+            custom:
+              enabled: true
+              formula: >-
+                (floor(((@details.level + @details.spellLevel) + 1) / 6))d8[on
+                hit]
+            scaling:
+              mode: ''
+              number: null
+              formula: ''
+      sort: 0
+    dnd5eactivity200:
+      _id: dnd5eactivity200
+      type: damage
+      activation:
+        type: action
+        override: false
+      consumption:
+        targets: []
+        scaling:
+          allowed: false
+          max: ''
+        spellSlot: true
+      description:
+        chatFlavor: ''
+      duration:
+        units: inst
+        concentration: false
+        override: false
+      effects: []
+      range:
+        units: self
+        override: false
+      target:
+        prompt: true
+        template:
+          contiguous: false
+          units: ft
+        affects:
+          choice: false
+        override: false
+      uses:
+        spent: 0
+        max: ''
+        recovery: []
+      damage:
+        critical:
+          allow: false
+          bonus: ''
+        parts:
+          - number: null
+            denomination: null
+            bonus: ''
+            types: []
+            custom:
+              enabled: true
+              formula: >-
+                (floor(((@details.level + @details.spellLevel) + 1) / 6) +
+                1)d8[on willing movement]
+            scaling:
+              mode: ''
+              number: null
+              formula: ''
+      sort: 0
+  identifier: booming-blade
+img: icons/skills/melee/strike-sword-slashing-red.webp
+ownership:
+  default: 0
+  38Gfe7fp1EmVmZNj: 3
+flags:
+  plutonium:
+    page: spells.html
+    source: TCE
+    hash: booming%20blade_tce
+    propDroppable: spell
+  dnd5e:
+    persistSourceMigration: true
+    riders:
+      activity: []
+      effect: []
+effects: []
+folder: LiW94aeo1pXMSCLr
+_id: 6HiN2Zo0gX1UloIX
+sort: 0
+_stats:
+  systemId: dnd5e
+  systemVersion: 5.0.4
+  coreVersion: '13.346'
+  createdTime: 1708228956042
+  modifiedTime: 1752197371435
+  lastModifiedBy: 1pY4akW8WASxGBbA
+  compendiumSource: null
+  duplicateSource: null
+  exportSource: null
+_key: '!items!6HiN2Zo0gX1UloIX'

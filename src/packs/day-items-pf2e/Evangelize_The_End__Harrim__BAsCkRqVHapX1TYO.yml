@@ -1,0 +1,56 @@
+folder: 0BxmixOCuUUNHkjf
+name: Evangelize The End (Harrim)
+type: campaignFeature
+effects: []
+system:
+  description:
+    gm: ''
+    value: "<p><strong>Requires</strong>: Harrim is Magister and at least Friendly to the PCs</p>\n<p>Harrim spends time preaching the End Times. While his sermons certainly aren’t for everyone, his methods avoid deliberately antagonizing those who see hope in the world while simultaneously providing ease and calm to the more desperate among the kingdom’s citizens. Attempt a basic @Check[folklore|dc:resolve(@kingdom.control.dc)] check to determine how effective his sermons are.<br /><strong>Critical Success</strong> Harrim’s prayers soothe and calm the more\_criminal-minded citizens for the time being. Reduce\_Unrest by 1d4, and either reduce Crime by 2 or reduce\_Corruption or Strife by 1.<br /><strong>Success</strong> Harrim’s prayers serve to redirect and calm discord.\_Reduce Unrest by 1d3.<br /><strong>Failure</strong> As success, but reduce Unrest by only 1.<br /><strong>Critical Failure</strong> Harrim’s prayers have unsettled some of\_your citizens. Increase Unrest by 1d4 and increase Decay\_by 1.</p>"
+  rules: []
+  slug: evangelize-the-end
+  _migration:
+    version: 0.94
+    previous:
+      schema: 0.939
+      foundry: '13.345'
+      system: 7.2.0
+  traits:
+    otherTags: []
+    value:
+      - downtime
+      - leadership
+  publication:
+    title: ''
+    authors: ''
+    license: OGL
+    remaster: false
+  campaign: kingmaker
+  category: kingdom-activity
+  actionType:
+    value: passive
+  actions:
+    value: null
+  prerequisites:
+    value:
+      - value: Harrim is Magister and at least Friendly to the PCs
+  location: null
+  level:
+    value: 1
+_id: BAsCkRqVHapX1TYO
+img: systems/pf2e/icons/default-icons/campaignFeature.svg
+sort: 150000
+ownership:
+  default: 0
+  txZjek5EOiCBHPoz: 3
+flags: {}
+_stats:
+  compendiumSource: null
+  duplicateSource: null
+  coreVersion: '13.346'
+  systemId: pf2e
+  systemVersion: 7.2.3
+  createdTime: 1718606591261
+  modifiedTime: 1752208111692
+  lastModifiedBy: txZjek5EOiCBHPoz
+  exportSource: null
+_key: '!items!BAsCkRqVHapX1TYO'

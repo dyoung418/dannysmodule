@@ -1,0 +1,62 @@
+folder: yTd2CNZ9biWYoOF6
+name: Trade Shop
+type: campaignFeature
+effects: []
+system:
+  description:
+    gm: ''
+    value: "<p>A trade shop is a store that focuses on providing services.</p>\n<hr />\n<p><strong>Lots</strong>\_1;\_<strong>Cost</strong>\_10 RP, 2 Lumber</p>\n<p><strong>Construction</strong>\_Trade (trained) DC 18</p>\n<p><strong>Upgrade To</strong>\_<a class=\"content-link\" draggable=\"true\" data-uuid=\"JournalEntry.BIu4C1T1RR17QNwl.JournalEntryPage.1vTZ0ed65Bsd8dET\" data-id=\"1vTZ0ed65Bsd8dET\" data-type=\"JournalEntryPage\" data-tooltip=\"Text Page\">guildhall</a></p>\n<p><strong>Item Bonus</strong>\_+1 item bonus to\_<a class=\"content-link\" draggable=\"true\" data-uuid=\"Compendium.pf2e.kingmaker-features.Item.VadpbmRYNXSX7g8z\" data-id=\"VadpbmRYNXSX7g8z\" data-type=\"Item\" data-pack=\"pf2e.kingmaker-features\" data-tooltip=\"Campaign Feature Item\">Purchase Commodities</a></p>\n<p><strong>Effects</strong> When you build a trade shop, indicate the kind of shop it is, such as a bakery, carpenter, tailor, and so on. While in a settlement with a trade shop, you gain a +1 item bonus to all associated Crafting checks.</p>"
+  rules:
+    - hideIfDisabled: true
+      key: FlatModifier
+      label: Trade Shop bonus to Purchase Commodities
+      predicate:
+        - action:purchase-commodities
+      selector: kingdom-check
+      type: item
+      value: 1
+  slug: null
+  _migration:
+    version: 0.94
+    previous:
+      schema: 0.939
+      foundry: '13.345'
+      system: 7.2.0
+  traits:
+    otherTags: []
+    value:
+      - kingdom
+  publication:
+    title: ''
+    authors: ''
+    license: OGL
+    remaster: false
+  campaign: kingmaker
+  category: kingdom-feat
+  actionType:
+    value: passive
+  actions:
+    value: null
+  prerequisites:
+    value: []
+  location: null
+  level:
+    value: 3
+_id: axbWOpZggNm3rBaZ
+img: modules/pf2e-kingmaker/assets/maps-settlements/buildings/trade-shop.webp
+sort: 0
+ownership:
+  default: 0
+  txZjek5EOiCBHPoz: 3
+flags: {}
+_stats:
+  compendiumSource: null
+  duplicateSource: null
+  coreVersion: '13.346'
+  systemId: pf2e
+  systemVersion: 7.2.3
+  createdTime: 1718606591261
+  modifiedTime: 1752208111692
+  lastModifiedBy: txZjek5EOiCBHPoz
+  exportSource: null
+_key: '!items!axbWOpZggNm3rBaZ'

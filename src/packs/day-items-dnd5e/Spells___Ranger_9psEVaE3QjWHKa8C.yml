@@ -1,0 +1,20 @@
+name: Spells - Ranger
+sorting: a
+folder: Try85loRkZPGd9Aa
+type: Item
+_id: 9psEVaE3QjWHKa8C
+sort: 1100000
+color: null
+flags: {}
+_stats:
+  systemId: dnd5e
+  systemVersion: 3.0.2
+  coreVersion: '13.346'
+  createdTime: 1708109150470
+  modifiedTime: 1752197369805
+  lastModifiedBy: 1pY4akW8WASxGBbA
+  compendiumSource: null
+  duplicateSource: null
+  exportSource: null
+description: ''
+_key: '!folders!9psEVaE3QjWHKa8C'

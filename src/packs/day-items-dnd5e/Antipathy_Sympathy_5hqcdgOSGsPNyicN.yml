@@ -1,0 +1,215 @@
+name: Antipathy/Sympathy
+type: spell
+system:
+  source:
+    custom: ''
+    book: PHB
+    page: '214'
+    license: ''
+    revision: 1
+    rules: '2024'
+  description:
+    value: >-
+      <div class="rd__b  rd__b--3"><p>This spell attracts or repels creatures of
+      your choice. You target something within range, either a Huge or smaller
+      object or creature or an area that is no larger than a 200-foot cube. Then
+      specify a kind of intelligent creature, such as red dragons, goblins, or
+      vampires. You invest the target with an aura that either attracts or
+      repels the specified creatures for the duration. Choose antipathy or
+      sympathy as the aura's effect.</p><div
+      class="rd__spc-inline-post"></div><div class="rd__b  rd__b--3"><span
+      class="rd__h rd__h--3" data-title-index="1"> <span
+      class="entry-title-inner">Antipathy.</span></span> <p>The enchantment
+      causes creatures of the kind you designated to feel an intense urge to
+      leave the area and avoid the target. When such a creature can see the
+      target or comes within 60 feet of it, the creature must succeed on a
+      Wisdom saving throw or become @condition[frightened]. The creature remains
+      @condition[frightened] while it can see the target or is within 60 feet of
+      it. While @condition[frightened] by the target, the creature must use its
+      movement to move to the nearest safe spot from which it can't see the
+      target. If the creature moves more than 60 feet from the target and can't
+      see it, the creature is no longer @condition[frightened], but the creature
+      becomes @condition[frightened] again if it regains sight of the target or
+      moves within 60 feet of it.</p><div
+      class="rd__spc-inline-post"></div></div><div class="rd__b  rd__b--3"><span
+      class="rd__h rd__h--3" data-title-index="2"> <span
+      class="entry-title-inner">Sympathy.</span></span> <p>The enchantment
+      causes the specified creatures to feel an intense urge to approach the
+      target while within 60 feet of it or able to see it. When such a creature
+      can see the target or comes within 60 feet of it, the creature must
+      succeed on a Wisdom saving throw or use its movement on each of its turns
+      to enter the area or move within reach of the target. When the creature
+      has done so, it can't willingly move away from the target.</p><div
+      class="rd__spc-inline-post"></div><p>If the target damages or otherwise
+      harms an affected creature, the affected creature can make a Wisdom saving
+      throw to end the effect, as described below.</p></div><div class="rd__b 
+      rd__b--3"><span class="rd__h rd__h--3" data-title-index="3"> <span
+      class="entry-title-inner">Ending the Effect.</span></span> <p>If an
+      affected creature ends its turn while not within 60 feet of the target or
+      able to see it, the creature makes a Wisdom saving throw. On a successful
+      save, the creature is no longer affected by the target and recognizes the
+      feeling of repugnance or attraction as magical. In addition, a creature
+      affected by the spell is allowed another Wisdom saving throw every 24
+      hours while the spell persists.</p><div
+      class="rd__spc-inline-post"></div></div><p>A creature that successfully
+      saves against this effect is immune to it for 1 minute, after which time
+      it can be affected again.</p></div><div><span class="bold">Classes:
+      </span>Druid, Wizard</div>
+    chat: ''
+  level: 8
+  school: enc
+  properties:
+    - vocal
+    - somatic
+    - material
+  materials:
+    value: >-
+      either a lump of alum soaked in vinegar for the antipathy effect or a drop
+      of honey for the sympathy effect
+    consumed: false
+    cost: 0
+    supply: 0
+  target:
+    affects:
+      type: creature
+      count: '1'
+      choice: false
+    template:
+      units: ''
+      contiguous: false
+  range:
+    value: '60'
+    units: ft
+  activation:
+    type: hour
+    condition: ''
+    value: 1
+  duration:
+    value: '10'
+    units: day
+  uses:
+    max: ''
+    spent: 0
+    recovery: []
+  preparation:
+    mode: prepared
+    prepared: false
+  activities:
+    dnd5eactivity000:
+      _id: dnd5eactivity000
+      type: save
+      activation:
+        type: action
+        override: false
+      consumption:
+        targets: []
+        scaling:
+          allowed: false
+          max: ''
+        spellSlot: true
+      description:
+        chatFlavor: ''
+      duration:
+        units: inst
+        concentration: false
+        override: false
+      effects:
+        - _id: Cz824xQ2Z4BYuSa9
+          onSave: false
+      range:
+        units: self
+        override: false
+      target:
+        prompt: true
+        template:
+          contiguous: false
+          units: ft
+        affects:
+          choice: false
+        override: false
+      uses:
+        spent: 0
+        max: ''
+        recovery: []
+      damage:
+        onSave: half
+        parts: []
+      save:
+        ability:
+          - wis
+        dc:
+          calculation: spellcasting
+          formula: ''
+      sort: 0
+  identifier: antipathy-sympathy
+img: icons/magic/holy/yin-yang-balance-symbol.webp
+ownership:
+  default: 0
+  38Gfe7fp1EmVmZNj: 3
+flags:
+  plutonium:
+    page: spells.html
+    source: PHB
+    hash: antipathy%2fsympathy_phb
+    propDroppable: spell
+  dnd5e:
+    persistSourceMigration: true
+    riders:
+      activity: []
+      effect: []
+effects:
+  - name: Antipathy
+    origin: Compendium.dnd5e.spells.Item.GJ2WYm3SQFR0winH
+    duration:
+      value: null
+      units: seconds
+      expiry: null
+      expired: false
+    disabled: false
+    _id: Cz824xQ2Z4BYuSa9
+    description: >-
+      <p>While Frightened by the target, the creature must use its movement to
+      move to the nearest safe spot from which it can't see the target. If the
+      creature moves more than 60 feet from the target and can't see it, the
+      creature is no longer frightened, but the creature becomes frightened
+      again if it regains sight of the target or moves within 60 feet of it.</p>
+    transfer: false
+    statuses:
+      - frightened
+    flags:
+      plutonium:
+        dedupeId: antipathy
+    tint: '#ffffff'
+    _stats:
+      coreVersion: '14.359'
+      systemId: null
+      systemVersion: null
+      createdTime: null
+      modifiedTime: null
+      lastModifiedBy: null
+      compendiumSource: null
+      duplicateSource: null
+      exportSource: null
+    img: icons/magic/holy/yin-yang-balance-symbol.webp
+    type: base
+    system:
+      changes: []
+    sort: 0
+    showIcon: 2
+    start: null
+    folder: null
+    _key: '!items.effects!5hqcdgOSGsPNyicN.Cz824xQ2Z4BYuSa9'
+folder: MPJYAqSTQHr6QzkQ
+_id: 5hqcdgOSGsPNyicN
+sort: 0
+_stats:
+  systemId: dnd5e
+  systemVersion: 5.0.4
+  coreVersion: '14.359'
+  createdTime: 1709684304805
+  modifiedTime: 1752197371435
+  lastModifiedBy: 1pY4akW8WASxGBbA
+  compendiumSource: null
+  duplicateSource: null
+  exportSource: null
+_key: '!items!5hqcdgOSGsPNyicN'

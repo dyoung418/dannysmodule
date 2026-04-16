@@ -1,0 +1,107 @@
+name: Comprehend Languages
+type: spell
+system:
+  source:
+    custom: ''
+    book: PHB
+    page: '224'
+    license: ''
+  description:
+    value: >-
+      <div class="rd__b  rd__b--3"><p>For the duration, you understand the
+      literal meaning of any spoken language that you hear. You also understand
+      any written language that you see, but you must be touching the surface on
+      which the words are written. It takes about 1 minute to read one page of
+      text.</p><div class="rd__spc-inline-post"></div><p>This spell doesn't
+      decode secret messages in a text or a glyph, such as an arcane sigil, that
+      isn't part of a written language.</p></div><div><span
+      class="bold">Classes: </span>Bard, Sorcerer, Warlock, Wizard</div>
+    chat: ''
+  actionType: util
+  level: 1
+  school: div
+  properties:
+    - vocal
+    - somatic
+    - material
+    - ritual
+  materials:
+    value: a pinch of soot and salt
+    consumed: false
+    cost: 0
+    supply: 0
+  target:
+    value: 0
+    units: self
+    type: self
+    prompt: true
+    width: null
+  range:
+    value: 0
+    units: self
+    long: null
+  activation:
+    type: action
+    cost: 1
+    condition: ''
+  duration:
+    value: '1'
+    units: hour
+  damage:
+    parts: []
+    versatile: ''
+  scaling:
+    mode: none
+    formula: ''
+  save:
+    dc: null
+    scaling: spell
+    ability: ''
+  uses:
+    value: null
+    max: ''
+    per: null
+    recovery: ''
+    prompt: true
+  attackBonus: ''
+  chatFlavor: ''
+  critical:
+    threshold: null
+    damage: ''
+  formula: ''
+  preparation:
+    mode: prepared
+    prepared: false
+  consume:
+    type: ''
+    target: null
+    amount: null
+    scale: false
+  cover: null
+  crewed: false
+  ability: null
+img: icons/skills/trades/academics-book-study-runes.webp
+ownership:
+  default: 0
+  38Gfe7fp1EmVmZNj: 3
+flags:
+  plutonium:
+    page: spells.html
+    source: PHB
+    hash: comprehend%20languages_phb
+    propDroppable: spell
+effects: []
+folder: fZniKrFWFeIkKPkT
+_id: zA4LtB77pw1dfcoI
+sort: 0
+_stats:
+  systemId: dnd5e
+  systemVersion: 3.0.2
+  coreVersion: '13.345'
+  createdTime: 1708109345023
+  modifiedTime: 1708227413053
+  lastModifiedBy: 38Gfe7fp1EmVmZNj
+  compendiumSource: null
+  duplicateSource: null
+  exportSource: null
+_key: '!items!zA4LtB77pw1dfcoI'

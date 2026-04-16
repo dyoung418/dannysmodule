@@ -1,0 +1,132 @@
+name: Mislead
+type: spell
+system:
+  source:
+    custom: ''
+    book: PHB
+    page: '260'
+    license: ''
+    revision: 1
+    rules: '2024'
+  description:
+    value: >-
+      <div class="rd__b  rd__b--3"><p>You become @condition[invisible] at the
+      same time that an illusory double of you appears where you are standing.
+      The double lasts for the duration, but the invisibility ends if you attack
+      or cast a spell.</p><div class="rd__spc-inline-post"></div><p>You can use
+      your action to move your illusory double up to twice your speed and make
+      it gesture, speak, and behave in whatever way you choose.</p><p>You can
+      see through its eyes and hear through its ears as if you were located
+      where it is. On each of your turns as a bonus action, you can switch from
+      using its senses to using your own, or back again. While you are using its
+      senses, you are @condition[blinded] and @condition[deafened] in regard to
+      your own surroundings.</p></div><div><span class="bold">Classes:
+      </span>Bard, Wizard</div>
+    chat: ''
+  level: 5
+  school: ill
+  properties:
+    - somatic
+    - concentration
+  materials:
+    value: ''
+    consumed: false
+    cost: 0
+    supply: 0
+  target:
+    affects:
+      type: self
+      count: '0'
+      choice: false
+    template:
+      units: self
+      contiguous: false
+  range:
+    value: '0'
+    units: self
+  activation:
+    type: action
+    condition: ''
+    value: 1
+  duration:
+    value: '1'
+    units: hour
+  uses:
+    max: ''
+    spent: 0
+    recovery: []
+  preparation:
+    mode: prepared
+    prepared: false
+  activities:
+    dnd5eactivity000:
+      _id: dnd5eactivity000
+      type: utility
+      activation:
+        type: action
+        override: false
+      consumption:
+        targets: []
+        scaling:
+          allowed: false
+          max: ''
+        spellSlot: true
+      description:
+        chatFlavor: ''
+      duration:
+        units: inst
+        concentration: false
+        override: false
+      effects: []
+      range:
+        units: self
+        override: false
+      target:
+        prompt: true
+        template:
+          contiguous: false
+          units: ft
+        affects:
+          choice: false
+        override: false
+      uses:
+        spent: 0
+        max: ''
+        recovery: []
+      roll:
+        formula: ''
+        name: ''
+        prompt: false
+        visible: false
+      sort: 0
+  identifier: mislead
+img: icons/magic/death/mouth-bite-fangs-vampire.webp
+ownership:
+  default: 0
+  38Gfe7fp1EmVmZNj: 3
+flags:
+  plutonium:
+    page: spells.html
+    source: PHB
+    hash: mislead_phb
+    propDroppable: spell
+  dnd5e:
+    persistSourceMigration: true
+    riders:
+      activity: []
+      effect: []
+effects: []
+folder: 6twhZgoHdiiTwIDl
+_id: dHcN9zDltwrftMMz
+sort: 0
+_stats:
+  systemId: dnd5e
+  systemVersion: 5.0.4
+  coreVersion: '13.346'
+  createdTime: 1709684305751
+  modifiedTime: 1752197371435
+  lastModifiedBy: 1pY4akW8WASxGBbA
+  compendiumSource: null
+  duplicateSource: null
+  exportSource: null
+_key: '!items!dHcN9zDltwrftMMz'

@@ -1,0 +1,74 @@
+folder: 0BxmixOCuUUNHkjf
+img: systems/pf2e/icons/default-icons/campaignFeature.svg
+name: Establish Work Site (DAY)
+system:
+  description:
+    gm: ''
+    value: >-
+      <p>Your hire a crew of workers to travel to a hex that contains Lumber,
+      Ore, or Stone to be harvested. Spend RP as determined by the hex's most
+      inhospitable terrain (see the
+      @UUID[JournalEntry.ufhwExwde2g3iEa7.JournalEntryPage.BcxGDLM1uo4TqMZY]{Building
+      on Rough Terrain} sidebar on page 519). Then attempt a basic
+      @Check[engineering|dc:resolve(@kingdom.control.dc)] check. Lumber camps
+      can be established in any hex that contains a significant amount of forest
+      terrain. Mines and quarries can be established in any hex that contains a
+      significant amount of hill or mountain terrain.</p><hr
+      /><p><strong>Critical Success</strong> You establish a Work Site in the
+      hex and proceed to discover an unexpectedly rich supply of high quality
+      Commodities. All Commodity yields granted by this site are doubled until
+      the end of the next Kingdom turn.</p><p><strong>Success</strong> You
+      establish a Work Site in the hex.</p><p><strong>Failure</strong> You fail
+      to establish a Work Site in the hex.</p><p><strong>Critical
+      Failure</strong> Not only do you fail to establish a Work Site, but you
+      lose several workers to an accident, banditry, a vicious monster, or some
+      other unforeseen occurrence. Gain 1 Unrest.</p>
+  rules: []
+  slug: establish-work-site
+  _migration:
+    version: 0.94
+    previous:
+      schema: 0.939
+      foundry: '13.345'
+      system: 7.2.0
+  traits:
+    otherTags: []
+    value:
+      - downtime
+      - region
+  publication:
+    title: Pathfinder Kingmaker
+    authors: ''
+    license: OGL
+    remaster: false
+  campaign: kingmaker
+  category: kingdom-activity
+  actionType:
+    value: passive
+  actions:
+    value: null
+  prerequisites:
+    value: []
+  location: null
+  level:
+    value: 1
+type: campaignFeature
+_stats:
+  compendiumSource: Compendium.pf2e.kingmaker-features.Item.8B6PmgtMH2TthBSX
+  duplicateSource: null
+  coreVersion: '13.346'
+  systemId: pf2e
+  systemVersion: 7.2.3
+  createdTime: 1719728560488
+  modifiedTime: 1752208111692
+  lastModifiedBy: txZjek5EOiCBHPoz
+  exportSource: null
+flags:
+  core: {}
+effects: []
+_id: l0kp6jgRoeaVsK7H
+sort: 0
+ownership:
+  default: 0
+  txZjek5EOiCBHPoz: 3
+_key: '!items!l0kp6jgRoeaVsK7H'

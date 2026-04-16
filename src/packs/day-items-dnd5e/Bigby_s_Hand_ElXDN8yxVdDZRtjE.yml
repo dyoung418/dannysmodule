@@ -1,0 +1,154 @@
+name: Bigby's Hand
+type: spell
+system:
+  source:
+    custom: ''
+    book: PHB
+    page: '218'
+    license: ''
+  description:
+    value: >-
+      <div class="rd__b  rd__b--3"><p>You create a Large hand of shimmering,
+      translucent force in an unoccupied space that you can see within range.
+      The hand lasts for the spell's duration, and it moves at your command,
+      mimicking the movements of your own hand.</p><div
+      class="rd__spc-inline-post"></div><p>The hand is an object that has AC 20
+      and hit points equal to your hit point maximum. If it drops to 0 hit
+      points, the spell ends. It has a Strength of 26 ([[/r 1d20+8]]{+8}) and a
+      Dexterity of 10 ([[/r 1d20+0]]{+0}). The hand doesn't fill its
+      space.</p><p>When you cast the spell and as a bonus action on your
+      subsequent turns, you can move the hand up to 60 feet and then cause one
+      of the following effects with it.</p><div class="rd__b  rd__b--3"><span
+      class="rd__h rd__h--3" data-title-index="1"> <span
+      class="entry-title-inner">Clenched Fist.</span></span> <p>The hand strikes
+      one creature or object within 5 feet of it. Make a melee spell attack for
+      the hand using your game statistics. On a hit, the target takes [[/r 4d8]]
+      force damage.</p><div class="rd__spc-inline-post"></div></div><div
+      class="rd__b  rd__b--3"><span class="rd__h rd__h--3" data-title-index="2">
+      <span class="entry-title-inner">Forceful Hand.</span></span> <p>The hand
+      attempts to push a creature within 5 feet of it in a direction you choose.
+      Make a check with the hand's Strength contested by the Strength
+      (@skill[Athletics]) check of the target. If the target is Medium or
+      smaller, you have advantage on the check. If you succeed, the hand pushes
+      the target up to 5 feet plus a number of feet equal to five times your
+      spellcasting ability modifier. The hand moves with the target to remain
+      within 5 feet of it.</p><div class="rd__spc-inline-post"></div></div><div
+      class="rd__b  rd__b--3"><span class="rd__h rd__h--3" data-title-index="3">
+      <span class="entry-title-inner">Grasping Hand.</span></span> <p>The hand
+      attempts to grapple a Huge or smaller creature within 5 feet of it. You
+      use the hand's Strength score to resolve the grapple. If the target is
+      Medium or smaller, you have advantage on the check. While the hand is
+      grappling the target, you can use a bonus action to have the hand crush
+      it. When you do so, the target takes bludgeoning damage equal to [[/r
+      2d6]] + your spellcasting ability modifier.</p><div
+      class="rd__spc-inline-post"></div></div><div class="rd__b  rd__b--3"><span
+      class="rd__h rd__h--3" data-title-index="4"> <span
+      class="entry-title-inner">Interposing Hand.</span></span> <p>The hand
+      interposes itself between you and a creature you choose until you give the
+      hand a different command. The hand moves to stay between you and the
+      target, providing you with half cover against the target. The target can't
+      move through the hand's space if its Strength score is less than or equal
+      to the hand's Strength score. If its Strength score is higher than the
+      hand's Strength score, the target can move toward you through the hand's
+      space, but that space is difficult terrain for the target.</p><div
+      class="rd__spc-inline-post"></div></div></div><div class="rd__b 
+      rd__b--3"><div class="rd__b  rd__b--3"><span class="rd__h rd__h--3"
+      data-title-index="1"> <span class="entry-title-inner">At Higher
+      Levels.</span></span> <p>When you cast this spell using a spell slot of
+      6th level or higher, the damage from the clenched fist option increases by
+      [[/r 2d8]] and the damage from the grasping hand increases by [[/r 2d6]]
+      for each slot level above 5th.</p><div
+      class="rd__spc-inline-post"></div></div><div
+      class="rd__spc-inline-post"></div></div><div><span class="bold">Classes:
+      </span>Artificer, Wizard</div>
+    chat: ''
+  actionType: msak
+  level: 5
+  school: evo
+  properties:
+    - vocal
+    - somatic
+    - material
+    - concentration
+  materials:
+    value: an eggshell and a snakeskin glove
+    consumed: false
+    cost: 0
+    supply: 0
+  target:
+    value: 0
+    units: ''
+    type: ''
+    prompt: true
+    width: null
+  range:
+    value: 120
+    units: ft
+    long: null
+  activation:
+    type: action
+    cost: 1
+    condition: ''
+  duration:
+    value: '1'
+    units: minute
+  damage:
+    parts:
+      - - 4d8
+        - force
+    versatile: ''
+  scaling:
+    mode: level
+    formula: 2d8
+  save:
+    dc: null
+    scaling: spell
+    ability: ''
+  uses:
+    value: null
+    max: ''
+    per: null
+    recovery: ''
+    prompt: true
+  attackBonus: ''
+  chatFlavor: ''
+  critical:
+    threshold: null
+    damage: ''
+  formula: ''
+  preparation:
+    mode: prepared
+    prepared: false
+  consume:
+    type: ''
+    target: null
+    amount: null
+    scale: false
+  cover: null
+  crewed: false
+  ability: null
+img: icons/magic/perception/hand-eye-black.webp
+ownership:
+  default: 0
+  38Gfe7fp1EmVmZNj: 3
+flags:
+  plutonium:
+    page: spells.html
+    source: PHB
+    hash: bigby's%20hand_phb
+    propDroppable: spell
+effects: []
+folder: v10gZxALoCJnM6a9
+_id: ElXDN8yxVdDZRtjE
+sort: 0
+_stats:
+  systemId: dnd5e
+  systemVersion: 3.0.2
+  coreVersion: '13.345'
+  createdTime: 1708109196485
+  modifiedTime: 1708227409300
+  lastModifiedBy: 38Gfe7fp1EmVmZNj
+  compendiumSource: null
+  duplicateSource: null
+  exportSource: null
+_key: '!items!ElXDN8yxVdDZRtjE'

@@ -1,0 +1,113 @@
+name: Gust of Wind
+type: spell
+system:
+  source:
+    custom: ''
+    book: PHB
+    page: '248'
+    license: ''
+  description:
+    value: >-
+      <div class="rd__b  rd__b--3"><p>A line of strong wind 60 feet long and 10
+      feet wide blasts from you in a direction you choose for the spell's
+      duration. Each creature that starts its turn in the line must succeed on a
+      Strength saving throw or be pushed 15 feet away from you in a direction
+      following the line.</p><div class="rd__spc-inline-post"></div><p>Any
+      creature in the line must spend 2 feet of movement for every 1 foot it
+      moves when moving closer to you.</p><p>The gust disperses gas or vapor,
+      and it extinguishes candles, torches, and similar unprotected flames in
+      the area. It causes protected flames, such as those of lanterns, to dance
+      wildly and has a [[/r 1d100]]{50 percent} chance to extinguish
+      them.</p><p>As a bonus action on each of your turns before the spell ends,
+      you can change the direction in which the line blasts from
+      you.</p></div><div><span class="bold">Classes: </span>Druid, Sorcerer,
+      Wizard</div>
+    chat: ''
+  actionType: save
+  level: 2
+  school: evo
+  properties:
+    - vocal
+    - somatic
+    - material
+    - concentration
+  materials:
+    value: a legume seed
+    consumed: false
+    cost: 0
+    supply: 0
+  target:
+    value: 60
+    units: ft
+    type: line
+    prompt: true
+    width: null
+  range:
+    value: 0
+    units: ''
+    long: null
+  activation:
+    type: action
+    cost: 1
+    condition: ''
+  duration:
+    value: '1'
+    units: minute
+  damage:
+    parts: []
+    versatile: ''
+  scaling:
+    mode: none
+    formula: ''
+  save:
+    ability: str
+    dc: null
+    scaling: spell
+  uses:
+    value: null
+    max: ''
+    per: null
+    recovery: ''
+    prompt: true
+  attackBonus: ''
+  chatFlavor: ''
+  critical:
+    threshold: null
+    damage: ''
+  formula: ''
+  preparation:
+    mode: prepared
+    prepared: false
+  consume:
+    type: ''
+    target: null
+    amount: null
+    scale: false
+  cover: null
+  crewed: false
+  ability: null
+img: icons/magic/nature/leaf-juggle-humanoid-green.webp
+ownership:
+  default: 0
+  38Gfe7fp1EmVmZNj: 3
+flags:
+  plutonium:
+    page: spells.html
+    source: PHB
+    hash: gust%20of%20wind_phb
+    propDroppable: spell
+effects: []
+folder: 5RW3khzmlcXrGJ9s
+_id: ZNcsN0RQNSHr2F8x
+sort: 0
+_stats:
+  systemId: dnd5e
+  systemVersion: 3.0.2
+  coreVersion: '13.345'
+  createdTime: 1708227517413
+  modifiedTime: 1708227533976
+  lastModifiedBy: 38Gfe7fp1EmVmZNj
+  compendiumSource: null
+  duplicateSource: null
+  exportSource: null
+_key: '!items!ZNcsN0RQNSHr2F8x'

@@ -1,0 +1,167 @@
+name: Mage Armor
+type: spell
+system:
+  source:
+    custom: ''
+    book: PHB
+    page: '256'
+    license: ''
+    revision: 1
+    rules: '2024'
+  description:
+    value: >-
+      <div class="rd__b  rd__b--3"><p>You touch a willing creature who isn't
+      wearing armor, and a protective magical force surrounds it until the spell
+      ends. The target's base AC becomes 13 + its Dexterity modifier. The spell
+      ends if the target dons armor or if you dismiss the spell as an
+      action.</p><div class="rd__spc-inline-post"></div></div><div><span
+      class="bold">Classes: </span>Sorcerer, Wizard</div>
+    chat: ''
+  level: 1
+  school: abj
+  properties:
+    - vocal
+    - somatic
+    - material
+  materials:
+    value: a piece of cured leather
+    consumed: false
+    cost: 0
+    supply: 0
+  target:
+    affects:
+      type: creature
+      count: '1'
+      choice: false
+    template:
+      units: touch
+      contiguous: false
+  range:
+    value: '0'
+    units: touch
+  activation:
+    type: action
+    condition: ''
+    value: 1
+  duration:
+    value: '8'
+    units: hour
+  uses:
+    max: ''
+    spent: 0
+    recovery: []
+  preparation:
+    mode: prepared
+    prepared: false
+  activities:
+    dnd5eactivity000:
+      _id: dnd5eactivity000
+      type: utility
+      activation:
+        type: action
+        override: false
+      consumption:
+        targets: []
+        scaling:
+          allowed: false
+          max: ''
+        spellSlot: true
+      description:
+        chatFlavor: ''
+      duration:
+        units: inst
+        concentration: false
+        override: false
+      effects:
+        - _id: cfwMU7LuOJ619Lny
+      range:
+        units: self
+        override: false
+      target:
+        prompt: true
+        template:
+          contiguous: false
+          units: ft
+        affects:
+          choice: false
+        override: false
+      uses:
+        spent: 0
+        max: ''
+        recovery: []
+      roll:
+        formula: ''
+        name: ''
+        prompt: false
+        visible: false
+      sort: 0
+  identifier: mage-armor
+img: icons/equipment/chest/breastplate-helmet-metal.webp
+ownership:
+  default: 0
+  38Gfe7fp1EmVmZNj: 3
+flags:
+  plutonium:
+    page: spells.html
+    source: PHB
+    hash: mage%20armor_phb
+    propDroppable: spell
+  dnd5e:
+    persistSourceMigration: true
+    riders:
+      activity: []
+      effect: []
+effects:
+  - _id: cfwMU7LuOJ619Lny
+    disabled: false
+    duration:
+      value: 28800
+      units: seconds
+      expiry: turnStart
+      expired: false
+    origin: Compendium.dnd5e.spells.CKZTpZlxj7hjjo2H
+    transfer: false
+    flags:
+      plutonium:
+        dedupeId: mage-armor
+    tint: '#ffffff'
+    name: Mage Armor
+    description: <p>The target's base AC becomes 13 + its Dexterity modifier.</p>
+    statuses: []
+    _stats:
+      coreVersion: '14.359'
+      systemId: null
+      systemVersion: null
+      createdTime: null
+      modifiedTime: null
+      lastModifiedBy: null
+      compendiumSource: null
+      duplicateSource: null
+      exportSource: null
+    img: icons/equipment/chest/breastplate-helmet-metal.webp
+    type: base
+    system:
+      changes:
+        - key: system.attributes.ac.calc
+          value: mage
+          priority: null
+          type: override
+    sort: 0
+    start: null
+    showIcon: 1
+    folder: null
+    _key: '!items.effects!HDCEa5ab4MUtz9gn.cfwMU7LuOJ619Lny'
+folder: 7LJJqiLuL1YQyknL
+_id: HDCEa5ab4MUtz9gn
+sort: 0
+_stats:
+  systemId: dnd5e
+  systemVersion: 5.0.4
+  coreVersion: '14.359'
+  createdTime: 1708109197003
+  modifiedTime: 1752197371435
+  lastModifiedBy: 1pY4akW8WASxGBbA
+  compendiumSource: null
+  duplicateSource: null
+  exportSource: null
+_key: '!items!HDCEa5ab4MUtz9gn'

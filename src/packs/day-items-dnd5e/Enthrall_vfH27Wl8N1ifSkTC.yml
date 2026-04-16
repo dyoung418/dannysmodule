@@ -1,0 +1,108 @@
+name: Enthrall
+type: spell
+system:
+  source:
+    custom: ''
+    book: PHB
+    page: '238'
+    license: ''
+  description:
+    value: >-
+      <div class="rd__b  rd__b--3"><p>You weave a distracting string of words,
+      causing creatures of your choice that you can see within range and that
+      can hear you to make a Wisdom saving throw. Any creature that can't be
+      @condition[charmed] succeeds on this saving throw automatically, and if
+      you or your companions are fighting a creature, it has advantage on the
+      save. On a failed save, the target has disadvantage on Wisdom
+      (@skill[Perception]) checks made to perceive any creature other than you
+      until the spell ends or until the target can no longer hear you. The spell
+      ends if you are @condition[incapacitated] or can no longer speak.</p><div
+      class="rd__spc-inline-post"></div></div><div><span class="bold">Classes:
+      </span>Bard, Warlock</div>
+    chat: ''
+  actionType: save
+  level: 2
+  school: enc
+  properties:
+    - vocal
+    - somatic
+  materials:
+    value: ''
+    consumed: false
+    cost: 0
+    supply: 0
+  target:
+    value: 0
+    units: any
+    type: creature
+    prompt: true
+    width: null
+  range:
+    value: 60
+    units: ft
+    long: null
+  activation:
+    type: action
+    cost: 1
+    condition: ''
+  duration:
+    value: '1'
+    units: minute
+  damage:
+    parts: []
+    versatile: ''
+  scaling:
+    mode: none
+    formula: ''
+  save:
+    ability: wis
+    dc: null
+    scaling: spell
+  uses:
+    value: null
+    max: ''
+    per: null
+    recovery: ''
+    prompt: true
+  attackBonus: ''
+  chatFlavor: ''
+  critical:
+    threshold: null
+    damage: ''
+  formula: ''
+  preparation:
+    mode: prepared
+    prepared: false
+  consume:
+    type: ''
+    target: null
+    amount: null
+    scale: false
+  cover: null
+  crewed: false
+  ability: null
+img: icons/magic/control/voodoo-doll-pain-damage-tan.webp
+ownership:
+  default: 0
+  38Gfe7fp1EmVmZNj: 3
+flags:
+  plutonium:
+    page: spells.html
+    source: PHB
+    hash: enthrall_phb
+    propDroppable: spell
+effects: []
+folder: 6cJORACoxYuCEplb
+_id: vfH27Wl8N1ifSkTC
+sort: 0
+_stats:
+  systemId: dnd5e
+  systemVersion: 3.0.2
+  coreVersion: '13.345'
+  createdTime: 1708109345115
+  modifiedTime: 1708227413053
+  lastModifiedBy: 38Gfe7fp1EmVmZNj
+  compendiumSource: null
+  duplicateSource: null
+  exportSource: null
+_key: '!items!vfH27Wl8N1ifSkTC'

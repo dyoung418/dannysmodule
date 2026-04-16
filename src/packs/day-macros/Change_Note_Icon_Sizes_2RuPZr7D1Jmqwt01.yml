@@ -1,0 +1,28 @@
+folder: 1XrfuqzpstOwCTFI
+name: Change Note Icon Sizes
+type: script
+_id: 2RuPZr7D1Jmqwt01
+author: txZjek5EOiCBHPoz
+img: icons/svg/up.svg
+scope: global
+command: |-
+  let myNotes = game.scenes.find(
+       i=>i.active).collections.notes;
+  await myNotes.map(i=>i.update({"iconSize":64}));
+sort: 0
+ownership:
+  default: 0
+  txZjek5EOiCBHPoz: 3
+flags:
+  core: {}
+_stats:
+  systemId: pf2e
+  systemVersion: 5.10.3
+  coreVersion: '13.346'
+  createdTime: 1701596090507
+  modifiedTime: 1752208126881
+  lastModifiedBy: txZjek5EOiCBHPoz
+  compendiumSource: Macro.2RuPZr7D1Jmqwt01
+  duplicateSource: null
+  exportSource: null
+_key: '!macros!2RuPZr7D1Jmqwt01'

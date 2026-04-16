@@ -1,0 +1,140 @@
+name: Holy Aura
+type: spell
+system:
+  source:
+    custom: ''
+    book: PHB
+    page: '251'
+    license: ''
+    revision: 1
+    rules: '2024'
+  description:
+    value: >-
+      <div class="rd__b  rd__b--3"><p>Divine light washes out from you and
+      coalesces in a soft radiance in a 30-foot radius around you. Creatures of
+      your choice in that radius when you cast this spell shed dim light in a
+      5-foot radius and have advantage on all saving throws, and other creatures
+      have disadvantage on attack rolls against them until the spell ends. In
+      addition, when a fiend or an undead hits an affected creature with a melee
+      attack, the aura flashes with brilliant light. The attacker must succeed
+      on a Constitution saving throw or be @condition[blinded] until the spell
+      ends.</p><div class="rd__spc-inline-post"></div></div><div><span
+      class="bold">Classes: </span>Cleric</div>
+    chat: ''
+  level: 8
+  school: abj
+  properties:
+    - vocal
+    - somatic
+    - material
+    - concentration
+  materials:
+    value: >-
+      a tiny reliquary worth at least 1,000 gp containing a sacred relic, such
+      as a scrap of cloth from a saint's robe or a piece of parchment from a
+      religious text
+    consumed: false
+    cost: 1000
+    supply: 0
+  target:
+    affects:
+      choice: false
+    template:
+      units: ft
+      type: radius
+      size: '30'
+      contiguous: false
+  range:
+    value: '0'
+    units: self
+  activation:
+    type: action
+    condition: ''
+    value: 1
+  duration:
+    value: '1'
+    units: minute
+  uses:
+    max: ''
+    spent: 0
+    recovery: []
+  preparation:
+    mode: prepared
+    prepared: false
+  activities:
+    dnd5eactivity000:
+      _id: dnd5eactivity000
+      type: save
+      activation:
+        type: action
+        value: null
+        override: false
+      consumption:
+        targets: []
+        scaling:
+          allowed: false
+          max: ''
+        spellSlot: true
+      description:
+        chatFlavor: ''
+      duration:
+        units: inst
+        concentration: false
+        override: false
+      effects: []
+      range:
+        override: false
+        units: self
+      target:
+        prompt: true
+        template:
+          contiguous: false
+          units: ft
+        affects:
+          choice: false
+        override: false
+      uses:
+        spent: 0
+        max: ''
+        recovery: []
+      damage:
+        onSave: half
+        parts: []
+      save:
+        ability:
+          - con
+        dc:
+          calculation: spellcasting
+          formula: ''
+      sort: 0
+  identifier: holy-aura
+img: icons/magic/control/buff-flight-wings-runes-purple-orange.webp
+ownership:
+  default: 0
+  38Gfe7fp1EmVmZNj: 3
+flags:
+  plutonium:
+    page: spells.html
+    source: PHB
+    hash: holy%20aura_phb
+    propDroppable: spell
+  dnd5e:
+    persistSourceMigration: true
+    riders:
+      activity: []
+      effect: []
+effects: []
+folder: MPJYAqSTQHr6QzkQ
+_id: fpn9rHSNkMtE23py
+sort: 0
+_stats:
+  systemId: dnd5e
+  systemVersion: 5.0.4
+  coreVersion: '13.346'
+  createdTime: 1708227628966
+  modifiedTime: 1752197371435
+  lastModifiedBy: 1pY4akW8WASxGBbA
+  compendiumSource: null
+  duplicateSource: null
+  exportSource: null
+_key: '!items!fpn9rHSNkMtE23py'

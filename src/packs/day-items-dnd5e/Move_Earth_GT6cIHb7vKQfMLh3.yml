@@ -1,0 +1,144 @@
+name: Move Earth
+type: spell
+system:
+  source:
+    custom: ''
+    book: PHB
+    page: '263'
+    license: ''
+    revision: 1
+    rules: '2024'
+  description:
+    value: >-
+      <div class="rd__b  rd__b--3"><p>Choose an area of terrain no larger than
+      40 feet on a side within range. You can reshape dirt, sand, or clay in the
+      area in any manner you choose for the duration. You can raise or lower the
+      area's elevation, create or fill in a trench, erect or flatten a wall, or
+      form a pillar. The extent of any such changes can't exceed half the area's
+      largest dimension. So, if you affect a 40-foot square, you can create a
+      pillar up to 20 feet high, raise or lower the square's elevation by up to
+      20 feet, dig a trench up to 20 feet deep, and so on. It takes 10 minutes
+      for these changes to complete.</p><div
+      class="rd__spc-inline-post"></div><p>At the end of every 10 minutes you
+      spend @status[concentration||concentrating] on the spell, you can choose a
+      new area of terrain to affect.</p><p>Because the terrain's transformation
+      occurs slowly, creatures in the area can't usually be trapped or injured
+      by the ground's movement.</p><p>This spell can't manipulate natural stone
+      or stone construction. Rocks and structures shift to accommodate the new
+      terrain. If the way you shape the terrain would make a structure unstable,
+      it might collapse.</p><p>Similarly, this spell doesn't directly affect
+      plant growth. The moved earth carries any plants along with
+      it.</p></div><div><span class="bold">Classes: </span>Druid, Sorcerer,
+      Wizard</div>
+    chat: ''
+  level: 6
+  school: trs
+  properties:
+    - vocal
+    - somatic
+    - material
+    - concentration
+  materials:
+    value: >-
+      an iron blade and a small bag containing a mixture of soils—clay, loam,
+      and sand
+    consumed: false
+    cost: 0
+    supply: 0
+  target:
+    affects:
+      choice: false
+    template:
+      units: ft
+      type: square
+      size: '40'
+      contiguous: false
+  range:
+    value: '120'
+    units: ft
+  activation:
+    type: action
+    condition: ''
+    value: 1
+  duration:
+    value: '2'
+    units: hour
+  uses:
+    max: ''
+    spent: 0
+    recovery: []
+  preparation:
+    mode: prepared
+    prepared: false
+  activities:
+    dnd5eactivity000:
+      _id: dnd5eactivity000
+      type: utility
+      activation:
+        type: action
+        override: false
+      consumption:
+        targets: []
+        scaling:
+          allowed: false
+          max: ''
+        spellSlot: true
+      description:
+        chatFlavor: ''
+      duration:
+        units: inst
+        concentration: false
+        override: false
+      effects: []
+      range:
+        units: self
+        override: false
+      target:
+        prompt: true
+        template:
+          contiguous: false
+          units: ft
+        affects:
+          choice: false
+        override: false
+      uses:
+        spent: 0
+        max: ''
+        recovery: []
+      roll:
+        formula: ''
+        name: ''
+        prompt: false
+        visible: false
+      sort: 0
+  identifier: move-earth
+img: icons/skills/trades/mining-pickaxe-yellow-blue.webp
+ownership:
+  default: 0
+  38Gfe7fp1EmVmZNj: 3
+flags:
+  plutonium:
+    page: spells.html
+    source: PHB
+    hash: move%20earth_phb
+    propDroppable: spell
+  dnd5e:
+    persistSourceMigration: true
+    riders:
+      activity: []
+      effect: []
+effects: []
+folder: 0FHG6CpgiMvDREpM
+_id: GT6cIHb7vKQfMLh3
+sort: 0
+_stats:
+  systemId: dnd5e
+  systemVersion: 5.0.4
+  coreVersion: '13.346'
+  createdTime: 1709684305806
+  modifiedTime: 1752197371435
+  lastModifiedBy: 1pY4akW8WASxGBbA
+  compendiumSource: null
+  duplicateSource: null
+  exportSource: null
+_key: '!items!GT6cIHb7vKQfMLh3'

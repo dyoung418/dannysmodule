@@ -1,0 +1,159 @@
+name: Moonbeam
+type: spell
+system:
+  source:
+    custom: ''
+    book: PHB
+    page: '261'
+    license: ''
+    revision: 1
+    rules: '2024'
+  description:
+    value: >-
+      <div class="rd__b  rd__b--3"><p>A silvery beam of pale light shines down
+      in a 5-foot-radius, 40-foot-high cylinder centered on a point within
+      range. Until the spell ends, dim light fills the cylinder.</p><div
+      class="rd__spc-inline-post"></div><p>When a creature enters the spell's
+      area for the first time on a turn or starts its turn there, it is engulfed
+      in ghostly flames that cause searing pain, and it must make a Constitution
+      saving throw. It takes [[/r 2d10]] radiant damage on a failed save, or
+      half as much damage on a successful one.</p><p>A shapechanger makes its
+      saving throw with disadvantage. If it fails, it also instantly reverts to
+      its original form and can't assume a different form until it leaves the
+      spell's light.</p><p>On each of your turns after you cast this spell, you
+      can use an action to move the beam up to 60 feet in any
+      direction.</p></div><div class="rd__b  rd__b--3"><div class="rd__b 
+      rd__b--3"><span class="rd__h rd__h--3" data-title-index="1"> <span
+      class="entry-title-inner">At Higher Levels.</span></span> <p>When you cast
+      this spell using a spell slot of 3rd level or higher, the damage increases
+      by [[/r 1d10]] for each slot level above 2nd.</p><div
+      class="rd__spc-inline-post"></div></div><div
+      class="rd__spc-inline-post"></div></div><div><span class="bold">Classes:
+      </span>Druid</div>
+    chat: ''
+  level: 2
+  school: evo
+  properties:
+    - vocal
+    - somatic
+    - material
+    - concentration
+  materials:
+    value: several seeds of any moonseed plant and a piece of opalescent feldspar
+    consumed: false
+    cost: 0
+    supply: 0
+  target:
+    affects:
+      choice: false
+    template:
+      units: ft
+      type: cylinder
+      size: '5'
+      contiguous: false
+  range:
+    value: '120'
+    units: ft
+  activation:
+    type: action
+    condition: ''
+    value: 1
+  duration:
+    value: '1'
+    units: minute
+  uses:
+    max: ''
+    spent: 0
+    recovery: []
+  preparation:
+    mode: prepared
+    prepared: false
+  activities:
+    dnd5eactivity000:
+      _id: dnd5eactivity000
+      type: save
+      activation:
+        type: action
+        value: null
+        override: false
+      consumption:
+        targets: []
+        scaling:
+          allowed: false
+          max: ''
+        spellSlot: true
+      description:
+        chatFlavor: ''
+      duration:
+        units: inst
+        concentration: false
+        override: false
+      effects: []
+      range:
+        override: false
+        units: self
+      target:
+        prompt: true
+        template:
+          contiguous: false
+          units: ft
+        affects:
+          choice: false
+        override: false
+      uses:
+        spent: 0
+        max: ''
+        recovery: []
+      damage:
+        onSave: half
+        parts:
+          - number: 2
+            denomination: 10
+            bonus: ''
+            types:
+              - radiant
+            custom:
+              enabled: false
+              formula: ''
+            scaling:
+              mode: whole
+              number: 1
+              formula: ''
+      save:
+        ability:
+          - con
+        dc:
+          calculation: spellcasting
+          formula: ''
+      sort: 0
+  identifier: moonbeam
+img: icons/environment/settlement/watchtower-moonlit-blue.webp
+ownership:
+  default: 0
+  38Gfe7fp1EmVmZNj: 3
+flags:
+  plutonium:
+    page: spells.html
+    source: PHB
+    hash: moonbeam_phb
+    propDroppable: spell
+  dnd5e:
+    persistSourceMigration: true
+    riders:
+      activity: []
+      effect: []
+effects: []
+folder: 5RW3khzmlcXrGJ9s
+_id: dXfMMb3GaVKEal9o
+sort: 0
+_stats:
+  systemId: dnd5e
+  systemVersion: 5.0.4
+  coreVersion: '13.346'
+  createdTime: 1708227601477
+  modifiedTime: 1752197371435
+  lastModifiedBy: 1pY4akW8WASxGBbA
+  compendiumSource: null
+  duplicateSource: null
+  exportSource: null
+_key: '!items!dXfMMb3GaVKEal9o'

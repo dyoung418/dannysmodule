@@ -1,0 +1,118 @@
+name: Contaminated Power
+type: spell
+system:
+  source:
+    custom: ''
+    book: DoDk
+    page: '226'
+    license: ''
+  description:
+    value: >-
+      <div class="rd__b  rd__b--3"><p>When you cast this spell, you gain one <a
+      href="https://5etools-mirror-2.github.io/adventure.html#DoDk,12">level of
+      contamination</a>. You draw unrestrained arcane magic from the delerium
+      shard you hold in your hand. Until the spell ends, you gain the following
+      benefits:</p><div class="rd__spc-inline-post"></div><ul
+      class="rd__list"><li class="rd__li ">When you cast a spell that deals
+      acid, fire, cold, lightning, or poison damage, you can change the damage
+      type to force, necrotic, psychic, or radiant damage.</li><li class="rd__li
+      ">Once per turn when you deal damage with a spell, you can deal an extra
+      [[/r 1d12]] necrotic damage for each <a
+      href="https://5etools-mirror-2.github.io/adventure.html#DoDk,12">contamination
+      level</a> you have gained to one target of that spell.</li><li
+      class="rd__li ">When you cast a spell that forces a creature to make a
+      saving throw to resist its effects, you can choose to gain one <a
+      href="https://5etools-mirror-2.github.io/adventure.html#DoDk,12">level of
+      contamination</a>. If you do, one target of the spell has disadvantage on
+      its first saving throw made against that spell.</li></ul><p>This spell
+      can't be dispelled by @spell[dispel magic].</p></div>
+    chat: ''
+  actionType: util
+  level: 8
+  school: trs
+  properties:
+    - vocal
+    - somatic
+    - material
+  materials:
+    value: a delerium shard worth 500 gp, which the spell consumes
+    consumed: true
+    cost: 500
+    supply: 0
+  target:
+    value: 0
+    units: self
+    type: self
+    prompt: true
+    width: null
+  range:
+    value: 0
+    units: self
+    long: null
+  activation:
+    type: bonus
+    cost: 1
+    condition: ''
+  duration:
+    value: '1'
+    units: minute
+  damage:
+    parts:
+      - - 1d12
+        - necrotic
+    versatile: ''
+  scaling:
+    mode: none
+    formula: ''
+  save:
+    dc: null
+    scaling: spell
+    ability: ''
+  uses:
+    value: null
+    max: ''
+    per: null
+    recovery: ''
+    prompt: true
+  attackBonus: ''
+  chatFlavor: ''
+  critical:
+    threshold: null
+    damage: ''
+  formula: ''
+  preparation:
+    mode: prepared
+    prepared: false
+  consume:
+    type: ''
+    target: null
+    amount: null
+    scale: false
+  cover: null
+  crewed: false
+  ability: null
+img: icons/magic/movement/abstract-ribbons-red-orange.webp
+ownership:
+  default: 0
+  38Gfe7fp1EmVmZNj: 3
+flags:
+  plutonium:
+    page: spells.html
+    source: DoDk
+    hash: contaminated%20power_dodk
+    propDroppable: spell
+effects: []
+folder: yZ5F2lC10AuYVA0R
+_id: Q76OJRnUjHyBpoVd
+sort: 0
+_stats:
+  systemId: dnd5e
+  systemVersion: 3.0.2
+  coreVersion: '13.345'
+  createdTime: 1708109344812
+  modifiedTime: 1708227413053
+  lastModifiedBy: 38Gfe7fp1EmVmZNj
+  compendiumSource: null
+  duplicateSource: null
+  exportSource: null
+_key: '!items!Q76OJRnUjHyBpoVd'

@@ -1,0 +1,112 @@
+name: Mordenkainen's Sword
+type: spell
+system:
+  source:
+    custom: ''
+    book: PHB
+    page: '262'
+    license: ''
+  description:
+    value: >-
+      <div class="rd__b  rd__b--3"><p>You create a sword-shaped plane of force
+      that hovers within range. It lasts for the duration.</p><div
+      class="rd__spc-inline-post"></div><p>When the sword appears, you make a
+      melee spell attack against a target of your choice within 5 feet of the
+      sword. On a hit, the target takes [[/r 3d10]] force damage. Until the
+      spell ends, you can use a bonus action on each of your turns to move the
+      sword up to 20 feet to a spot you can see and repeat this attack against
+      the same target or a different one.</p></div><div><span
+      class="bold">Classes: </span>Bard, Wizard</div>
+    chat: ''
+  actionType: msak
+  level: 7
+  school: evo
+  properties:
+    - vocal
+    - somatic
+    - material
+    - concentration
+  materials:
+    value: >-
+      a miniature platinum sword with a grip and pommel of copper and zinc,
+      worth 250 gp
+    consumed: false
+    cost: 250
+    supply: 0
+  target:
+    value: 0
+    units: ''
+    type: ''
+    prompt: true
+    width: null
+  range:
+    value: 60
+    units: ft
+    long: null
+  activation:
+    type: action
+    cost: 1
+    condition: ''
+  duration:
+    value: '1'
+    units: minute
+  damage:
+    parts:
+      - - 3d10
+        - force
+    versatile: ''
+  scaling:
+    mode: none
+    formula: ''
+  save:
+    dc: null
+    scaling: spell
+    ability: ''
+  uses:
+    value: null
+    max: ''
+    per: null
+    recovery: ''
+    prompt: true
+  attackBonus: ''
+  chatFlavor: ''
+  critical:
+    threshold: null
+    damage: ''
+  formula: ''
+  preparation:
+    mode: prepared
+    prepared: false
+  consume:
+    type: ''
+    target: null
+    amount: null
+    scale: false
+  cover: null
+  crewed: false
+  ability: null
+img: icons/weapons/swords/sword-broad-serrated-blue.webp
+ownership:
+  default: 0
+  38Gfe7fp1EmVmZNj: 3
+flags:
+  plutonium:
+    page: spells.html
+    source: PHB
+    hash: mordenkainen's%20sword_phb
+    propDroppable: spell
+effects: []
+folder: QVPSDbViLxcmbcLj
+_id: Nz7KoSIfn3vWEZiu
+sort: 0
+_stats:
+  systemId: dnd5e
+  systemVersion: 3.0.3
+  coreVersion: '13.345'
+  createdTime: 1709684305801
+  modifiedTime: 1709684366197
+  lastModifiedBy: 38Gfe7fp1EmVmZNj
+  compendiumSource: null
+  duplicateSource: null
+  exportSource: null
+_key: '!items!Nz7KoSIfn3vWEZiu'

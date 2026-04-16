@@ -1,0 +1,66 @@
+folder: QqrWj278qS19exFE
+name: Alchemist Spells
+type: feat
+_id: 87MCXwZYHPivyUPC
+img: systems/dnd5e/icons/svg/items/feature.svg
+system:
+  description:
+    value: >-
+      <p>You always have certain spells prepared after you reach particular
+      levels in this class, as shown in the Alchemist Spells table. These spells
+      count as artificer spells for you, but they don’t count against the number
+      of artificer spells you
+      prepare.</p><p></p><table><tbody><tr><td><p>Artificer
+      Level</p></td><td><p>Spell</p></td></tr><tr><td><p>3rd</p></td><td><p>healing
+      word, ray of sickness</p></td></tr><tr><td><p>5th</p></td><td><p>flaming
+      sphere, Melf's acid
+      arrow</p></td></tr><tr><td><p>9th</p></td><td><p>gaseous form, mass
+      healing word</p></td></tr><tr><td><p>13th</p></td><td><p>blight, death
+      ward</p></td></tr><tr><td><p>17th</p></td><td><p>cloudkill, raise
+      dead</p></td></tr></tbody></table>
+    chat: ''
+  source:
+    book: TCOE
+    page: '14'
+    custom: ''
+    license: ''
+    revision: 1
+    rules: '2024'
+  uses:
+    max: ''
+    spent: 0
+    recovery: []
+  type:
+    value: class
+    subtype: ''
+  properties: []
+  requirements: Artificer 3 (Alchemist)
+  activities: {}
+  identifier: alchemist-spells
+  enchant: {}
+  prerequisites:
+    level: null
+    repeatable: false
+  advancement: []
+  crewed: false
+effects: []
+sort: 0
+ownership:
+  default: 0
+  38Gfe7fp1EmVmZNj: 3
+flags:
+  dnd5e:
+    riders:
+      activity: []
+      effect: []
+_stats:
+  systemId: dnd5e
+  systemVersion: 5.0.4
+  coreVersion: '13.346'
+  createdTime: 1709704538489
+  modifiedTime: 1752197371435
+  lastModifiedBy: 1pY4akW8WASxGBbA
+  compendiumSource: null
+  duplicateSource: null
+  exportSource: null
+_key: '!items!87MCXwZYHPivyUPC'

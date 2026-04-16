@@ -1,0 +1,108 @@
+name: Daylight
+type: spell
+system:
+  source:
+    custom: ''
+    book: PHB
+    page: '230'
+    license: ''
+  description:
+    value: >-
+      <div class="rd__b  rd__b--3"><p>A 60-foot-radius sphere of light spreads
+      out from a point you choose within range. The sphere is bright light and
+      sheds dim light for an additional 60 feet.</p><div
+      class="rd__spc-inline-post"></div><p>If you chose a point on an object you
+      are holding or one that isn't being worn or carried, the light shines from
+      the object and moves with it. Completely covering the affected object with
+      an opaque object, such as a bowl or a helm, blocks the light.</p><p>If any
+      of this spell's area overlaps with an area of darkness created by a spell
+      of 3rd level or lower, the spell that created the darkness is
+      dispelled.</p></div><div><span class="bold">Classes: </span>Cleric, Druid,
+      Paladin, Ranger, Sorcerer</div>
+    chat: ''
+  actionType: util
+  level: 3
+  school: evo
+  properties:
+    - vocal
+    - somatic
+  materials:
+    value: ''
+    consumed: false
+    cost: 0
+    supply: 0
+  target:
+    value: 120
+    units: ft
+    type: sphere
+    prompt: true
+    width: null
+  range:
+    value: 60
+    units: ft
+    long: null
+  activation:
+    type: action
+    cost: 1
+    condition: ''
+  duration:
+    value: '1'
+    units: hour
+  damage:
+    parts: []
+    versatile: ''
+  scaling:
+    mode: none
+    formula: ''
+  save:
+    dc: null
+    scaling: spell
+    ability: ''
+  uses:
+    value: null
+    max: ''
+    per: null
+    recovery: ''
+    prompt: true
+  attackBonus: ''
+  chatFlavor: ''
+  critical:
+    threshold: null
+    damage: ''
+  formula: ''
+  preparation:
+    mode: prepared
+    prepared: false
+  consume:
+    type: ''
+    target: null
+    amount: null
+    scale: false
+  cover: null
+  crewed: false
+  ability: null
+img: icons/magic/air/weather-sunlight-sky.webp
+ownership:
+  default: 0
+  38Gfe7fp1EmVmZNj: 3
+flags:
+  plutonium:
+    page: spells.html
+    source: PHB
+    hash: daylight_phb
+    propDroppable: spell
+effects: []
+folder: 845CFVkKwrIaEVKc
+_id: NcOTY9JzbfomVOLi
+sort: 0
+_stats:
+  systemId: dnd5e
+  systemVersion: 3.0.2
+  coreVersion: '13.345'
+  createdTime: 1708109196647
+  modifiedTime: 1708227409300
+  lastModifiedBy: 38Gfe7fp1EmVmZNj
+  compendiumSource: null
+  duplicateSource: null
+  exportSource: null
+_key: '!items!NcOTY9JzbfomVOLi'

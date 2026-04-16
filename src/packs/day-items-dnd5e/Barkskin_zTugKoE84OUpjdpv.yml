@@ -1,0 +1,147 @@
+name: Barkskin
+type: spell
+system:
+  source:
+    custom: ''
+    book: PHB
+    page: '217'
+    license: ''
+  description:
+    value: >-
+      <div class="rd__b  rd__b--3"><p>You touch a willing creature. Until the
+      spell ends, the target's skin has a rough, bark-like appearance, and the
+      target's AC can't be less than 16, regardless of what kind of armor it is
+      wearing.</p><div class="rd__spc-inline-post"></div></div><div><span
+      class="bold">Classes: </span>Druid, Ranger</div>
+    chat: ''
+  actionType: util
+  level: 2
+  school: trs
+  properties:
+    - vocal
+    - somatic
+    - material
+    - concentration
+  materials:
+    value: a handful of oak bark
+    consumed: false
+    cost: 0
+    supply: 0
+  target:
+    value: 1
+    units: touch
+    type: creature
+    prompt: true
+    width: null
+  range:
+    value: 0
+    units: touch
+    long: null
+  activation:
+    type: action
+    cost: 1
+    condition: ''
+  duration:
+    value: '1'
+    units: hour
+  damage:
+    parts: []
+    versatile: ''
+  scaling:
+    mode: none
+    formula: ''
+  save:
+    dc: null
+    scaling: spell
+    ability: ''
+  uses:
+    value: null
+    max: ''
+    per: null
+    recovery: ''
+    prompt: true
+  attackBonus: ''
+  chatFlavor: ''
+  critical:
+    threshold: null
+    damage: ''
+  formula: ''
+  preparation:
+    mode: prepared
+    prepared: false
+  consume:
+    type: ''
+    target: null
+    amount: null
+    scale: false
+  cover: null
+  crewed: false
+  ability: null
+img: icons/magic/nature/barrier-shield-wood-vines.webp
+ownership:
+  default: 0
+  38Gfe7fp1EmVmZNj: 3
+flags:
+  plutonium:
+    page: spells.html
+    source: PHB
+    hash: barkskin_phb
+    propDroppable: spell
+effects:
+  - _id: uM6rgctYpcbCVSkn
+    flags:
+      plutonium:
+        dedupeId: barkskin
+    disabled: false
+    duration:
+      value: 3600
+      units: seconds
+      expiry: turnStart
+      expired: false
+    origin: Item.VQMKMnQDw5rzL0zp
+    tint: '#ffffff'
+    transfer: false
+    name: Barkskin
+    description: ''
+    statuses: []
+    _stats:
+      coreVersion: '14.359'
+      systemId: null
+      systemVersion: null
+      createdTime: null
+      modifiedTime: null
+      lastModifiedBy: null
+      compendiumSource: null
+      duplicateSource: null
+      exportSource: null
+    img: icons/magic/nature/barrier-shield-wood-vines.webp
+    type: base
+    system:
+      changes:
+        - key: system.attributes.ac.formula
+          value: 16
+          priority: null
+          type: override
+        - key: system.attributes.ac.calc
+          value: custom
+          priority: null
+          type: override
+    sort: 0
+    start: null
+    showIcon: 1
+    folder: null
+    _key: '!items.effects!zTugKoE84OUpjdpv.uM6rgctYpcbCVSkn'
+folder: hys47gEfFh1kH8oy
+_id: zTugKoE84OUpjdpv
+sort: 0
+_stats:
+  systemId: dnd5e
+  systemVersion: 3.0.2
+  coreVersion: '14.359'
+  createdTime: 1708227600977
+  modifiedTime: 1708227676991
+  lastModifiedBy: 38Gfe7fp1EmVmZNj
+  compendiumSource: null
+  duplicateSource: null
+  exportSource: null
+_key: '!items!zTugKoE84OUpjdpv'

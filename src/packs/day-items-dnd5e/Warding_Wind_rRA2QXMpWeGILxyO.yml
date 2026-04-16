@@ -1,0 +1,111 @@
+name: Warding Wind
+type: spell
+system:
+  source:
+    custom: ''
+    book: XGE
+    page: '170'
+    license: ''
+  description:
+    value: >-
+      <div class="rd__b  rd__b--3"><p>A strong wind (20 miles per hour) blows
+      around you in a 10-foot radius and moves with you, remaining centered on
+      you. The wind lasts for the spell's duration.</p><div
+      class="rd__spc-inline-post"></div><p>The wind has the following
+      effects:</p><ul class="rd__list"><li class="rd__li ">It
+      @condition[deafened||deafens] you and other creatures in its area.</li><li
+      class="rd__li ">It extinguishes unprotected flames in its area that are
+      torch-sized or smaller.</li><li class="rd__li ">It hedges out vapor, gas,
+      and fog that can be dispersed by strong wind.</li><li class="rd__li ">The
+      area is difficult terrain for creatures other than you.</li><li
+      class="rd__li ">The attack rolls of ranged weapon attacks have
+      disadvantage if the attacks pass in or out of the
+      wind.</li></ul></div><div><span class="bold">Classes: </span>Bard, Druid,
+      Sorcerer, Wizard</div>
+    chat: ''
+  actionType: util
+  level: 2
+  school: evo
+  properties:
+    - vocal
+    - concentration
+  materials:
+    value: ''
+    consumed: false
+    cost: 0
+    supply: 0
+  target:
+    value: 0
+    units: self
+    type: self
+    prompt: true
+    width: null
+  range:
+    value: 0
+    units: self
+    long: null
+  activation:
+    type: action
+    cost: 1
+    condition: ''
+  duration:
+    value: '10'
+    units: minute
+  damage:
+    parts: []
+    versatile: ''
+  scaling:
+    mode: none
+    formula: ''
+  save:
+    dc: null
+    scaling: spell
+    ability: ''
+  uses:
+    value: null
+    max: ''
+    per: null
+    recovery: ''
+    prompt: true
+  attackBonus: ''
+  chatFlavor: ''
+  critical:
+    threshold: null
+    damage: ''
+  formula: ''
+  preparation:
+    mode: prepared
+    prepared: false
+  consume:
+    type: ''
+    target: null
+    amount: null
+    scale: false
+  cover: null
+  crewed: false
+  ability: null
+img: icons/creatures/abilities/dragon-ice-breath-blue.webp
+ownership:
+  default: 0
+  38Gfe7fp1EmVmZNj: 3
+flags:
+  plutonium:
+    page: spells.html
+    source: XGE
+    hash: warding%20wind_xge
+    propDroppable: spell
+effects: []
+folder: mjT6ZpZEhCFeSr4U
+_id: rRA2QXMpWeGILxyO
+sort: 0
+_stats:
+  systemId: dnd5e
+  systemVersion: 3.0.2
+  coreVersion: '13.345'
+  createdTime: 1708109198028
+  modifiedTime: 1708227409300
+  lastModifiedBy: 38Gfe7fp1EmVmZNj
+  compendiumSource: null
+  duplicateSource: null
+  exportSource: null
+_key: '!items!rRA2QXMpWeGILxyO'

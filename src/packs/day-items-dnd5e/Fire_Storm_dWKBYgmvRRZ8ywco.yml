@@ -1,0 +1,110 @@
+name: Fire Storm
+type: spell
+system:
+  source:
+    custom: ''
+    book: PHB
+    page: '242'
+    license: ''
+  description:
+    value: >-
+      <div class="rd__b  rd__b--3"><p>A storm made up of sheets of roaring flame
+      appears in a location you choose within range. The area of the storm
+      consists of up to ten 10-foot cubes, which you can arrange as you wish.
+      Each cube must have at least one face adjacent to the face of another
+      cube. Each creature in the area must make a Dexterity saving throw. It
+      takes [[/r 7d10]] fire damage on a failed save, or half as much damage on
+      a successful one.</p><div class="rd__spc-inline-post"></div><p>The fire
+      damages objects in the area and ignites flammable objects that aren't
+      being worn or carried. If you choose, plant life in the area is unaffected
+      by this spell.</p></div><div><span class="bold">Classes: </span>Cleric,
+      Druid, Sorcerer</div>
+    chat: ''
+  actionType: save
+  level: 7
+  school: evo
+  properties:
+    - vocal
+    - somatic
+  materials:
+    value: ''
+    consumed: false
+    cost: 0
+    supply: 0
+  target:
+    value: 10
+    units: ft
+    type: cube
+    prompt: true
+    width: null
+  range:
+    value: 150
+    units: ft
+    long: null
+  activation:
+    type: action
+    cost: 1
+    condition: ''
+  duration:
+    value: ''
+    units: inst
+  damage:
+    parts:
+      - - 7d10
+        - fire
+    versatile: ''
+  scaling:
+    mode: none
+    formula: ''
+  save:
+    ability: dex
+    dc: null
+    scaling: spell
+  uses:
+    value: null
+    max: ''
+    per: null
+    recovery: ''
+    prompt: true
+  attackBonus: ''
+  chatFlavor: ''
+  critical:
+    threshold: null
+    damage: ''
+  formula: ''
+  preparation:
+    mode: prepared
+    prepared: false
+  consume:
+    type: ''
+    target: null
+    amount: null
+    scale: false
+  cover: null
+  crewed: false
+  ability: null
+img: icons/magic/fire/beam-jet-stream-spiral-yellow.webp
+ownership:
+  default: 0
+  38Gfe7fp1EmVmZNj: 3
+flags:
+  plutonium:
+    page: spells.html
+    source: PHB
+    hash: fire%20storm_phb
+    propDroppable: spell
+effects: []
+folder: WgJKIfZjUcvwBnk1
+_id: dWKBYgmvRRZ8ywco
+sort: 0
+_stats:
+  systemId: dnd5e
+  systemVersion: 3.0.2
+  coreVersion: '13.345'
+  createdTime: 1708109196815
+  modifiedTime: 1708227409300
+  lastModifiedBy: 38Gfe7fp1EmVmZNj
+  compendiumSource: null
+  duplicateSource: null
+  exportSource: null
+_key: '!items!dWKBYgmvRRZ8ywco'

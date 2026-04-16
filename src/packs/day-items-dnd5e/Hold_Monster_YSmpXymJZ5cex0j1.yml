@@ -1,0 +1,153 @@
+name: Hold Monster
+type: spell
+system:
+  source:
+    custom: ''
+    book: PHB
+    page: '251'
+    license: ''
+  description:
+    value: >-
+      <div class="rd__b  rd__b--3"><p>Choose a creature that you can see within
+      range. The target must succeed on a Wisdom saving throw or be
+      @condition[paralyzed] for the duration. This spell has no effect on
+      undead. At the end of each of its turns, the target can make another
+      Wisdom saving throw. On a success, the spell ends on the target.</p><div
+      class="rd__spc-inline-post"></div></div><div class="rd__b  rd__b--3"><div
+      class="rd__b  rd__b--3"><span class="rd__h rd__h--3" data-title-index="1">
+      <span class="entry-title-inner">At Higher Levels.</span></span> <p>When
+      you cast this spell using a spell slot of 6th level or higher, you can
+      target one additional creature for each slot level above 5th. The
+      creatures must be within 30 feet of each other when you target
+      them.</p><div class="rd__spc-inline-post"></div></div><div
+      class="rd__spc-inline-post"></div></div><div><span class="bold">Classes:
+      </span>Bard, Sorcerer, Warlock, Wizard</div>
+    chat: ''
+  actionType: save
+  level: 5
+  school: enc
+  properties:
+    - vocal
+    - somatic
+    - material
+    - concentration
+  materials:
+    value: a small, straight piece of iron
+    consumed: false
+    cost: 0
+    supply: 0
+  target:
+    value: 1
+    units: ''
+    type: creature
+    prompt: true
+    width: null
+  range:
+    value: 90
+    units: ft
+    long: null
+  activation:
+    type: action
+    cost: 1
+    condition: ''
+  duration:
+    value: '1'
+    units: minute
+  damage:
+    parts: []
+    versatile: ''
+  scaling:
+    mode: none
+    formula: ''
+  save:
+    ability: wis
+    dc: null
+    scaling: spell
+  uses:
+    value: null
+    max: ''
+    per: null
+    recovery: ''
+    prompt: true
+  attackBonus: ''
+  chatFlavor: ''
+  critical:
+    threshold: null
+    damage: ''
+  formula: ''
+  preparation:
+    mode: prepared
+    prepared: false
+  consume:
+    type: ''
+    target: null
+    amount: null
+    scale: false
+  cover: null
+  crewed: false
+  ability: null
+img: icons/sundries/misc/pet-collar-spiked-brown.webp
+ownership:
+  default: 0
+  38Gfe7fp1EmVmZNj: 3
+flags:
+  plutonium:
+    page: spells.html
+    source: PHB
+    hash: hold%20monster_phb
+    propDroppable: spell
+effects:
+  - name: Hold Monster
+    origin: Compendium.dnd5e.spells.Item.l9Ju5KE7bbn3WpTm
+    duration:
+      value: null
+      units: seconds
+      expiry: null
+      expired: false
+    disabled: false
+    _id: 1nGyCW9SEQ2TusXw
+    description: >-
+      <p>The target is Paralyzed for the Duration. At the end of each of its
+      turns, the target can make another Wisdom saving throw. On a success, the
+      spell ends on the target.</p>
+    transfer: false
+    statuses:
+      - paralyzed
+      - incapacitated
+    flags:
+      plutonium:
+        dedupeId: hold-monster
+    tint: '#ffffff'
+    _stats:
+      coreVersion: '14.359'
+      systemId: null
+      systemVersion: null
+      createdTime: null
+      modifiedTime: null
+      lastModifiedBy: null
+      compendiumSource: null
+      duplicateSource: null
+      exportSource: null
+    img: icons/sundries/misc/pet-collar-spiked-brown.webp
+    type: base
+    system:
+      changes: []
+    sort: 0
+    showIcon: 2
+    start: null
+    folder: null
+    _key: '!items.effects!YSmpXymJZ5cex0j1.1nGyCW9SEQ2TusXw'
+folder: NgGfZzb7StmQMVjk
+_id: YSmpXymJZ5cex0j1
+sort: 0
+_stats:
+  systemId: dnd5e
+  systemVersion: 3.0.3
+  coreVersion: '14.359'
+  createdTime: 1709684305453
+  modifiedTime: 1709684366197
+  lastModifiedBy: 38Gfe7fp1EmVmZNj
+  compendiumSource: null
+  duplicateSource: null
+  exportSource: null
+_key: '!items!YSmpXymJZ5cex0j1'

@@ -1,0 +1,20 @@
+name: Spells - Paladin
+sorting: a
+folder: Try85loRkZPGd9Aa
+type: Item
+_id: 89u2TnmVPJMXXCI9
+sort: 1000000
+color: null
+flags: {}
+_stats:
+  systemId: dnd5e
+  systemVersion: 3.0.2
+  coreVersion: '13.346'
+  createdTime: 1708227642878
+  modifiedTime: 1752197369805
+  lastModifiedBy: 1pY4akW8WASxGBbA
+  compendiumSource: null
+  duplicateSource: null
+  exportSource: null
+description: ''
+_key: '!folders!89u2TnmVPJMXXCI9'

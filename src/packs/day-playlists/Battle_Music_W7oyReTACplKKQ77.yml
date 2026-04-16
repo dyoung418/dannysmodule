@@ -1,0 +1,333 @@
+folder: 9knvgHfaGijd7P6o
+name: Battle Music
+_id: W7oyReTACplKKQ77
+sounds:
+  - name: 43 Uplands Battle Theme
+    path: >-
+      modules/dannysmodule/assets/audio/audio-music/battle-music/43-uplands-battle-theme.ogg
+    _id: 3M5kATJOdwKUiP04
+    channel: music
+    playing: false
+    pausedTime: null
+    repeat: false
+    volume: 0.5
+    fade: null
+    sort: 0
+    flags: {}
+    _key: '!playlists.sounds!W7oyReTACplKKQ77.3M5kATJOdwKUiP04'
+  - name: 55 False Destiny (armag Battle Theme)
+    path: >-
+      modules/dannysmodule/assets/audio/audio-music/battle-music/55-false-destiny-(armag-battle-theme).ogg
+    _id: d9SBNGXLJxc5oEtd
+    channel: music
+    playing: false
+    pausedTime: null
+    repeat: false
+    volume: 0.5
+    fade: null
+    sort: 0
+    flags: {}
+    _key: '!playlists.sounds!W7oyReTACplKKQ77.d9SBNGXLJxc5oEtd'
+  - name: A Crumbled Empire
+    path: >-
+      modules/dannysmodule/assets/audio/audio-music/battle-music/a-crumbled-empire.ogg
+    _id: lpd32jLBvkRwTlW7
+    channel: music
+    playing: false
+    pausedTime: null
+    repeat: true
+    volume: 0.5
+    fade: null
+    sort: 0
+    flags: {}
+    _key: '!playlists.sounds!W7oyReTACplKKQ77.lpd32jLBvkRwTlW7'
+  - name: Ancient Ruins
+    path: >-
+      modules/dannysmodule/assets/audio/audio-music/battle-music/ancient-ruins.ogg
+    _id: mAR5QhlJo9UFL0EK
+    channel: music
+    playing: false
+    pausedTime: null
+    repeat: true
+    volume: 0.5
+    fade: null
+    sort: 0
+    flags: {}
+    _key: '!playlists.sounds!W7oyReTACplKKQ77.mAR5QhlJo9UFL0EK'
+  - name: Blade Of Your Own Choices
+    path: >-
+      modules/dannysmodule/assets/audio/audio-music/battle-music/blade-of-your-own-choices.ogg
+    _id: JJyHbFfwqVlLGCcg
+    channel: music
+    playing: false
+    pausedTime: null
+    repeat: true
+    volume: 0.5
+    fade: null
+    sort: 0
+    flags: {}
+    _key: '!playlists.sounds!W7oyReTACplKKQ77.JJyHbFfwqVlLGCcg'
+  - name: Capital Under Attack
+    path: >-
+      modules/dannysmodule/assets/audio/audio-music/battle-music/capital-under-attack.ogg
+    _id: Nq2rByT6thRpkqJF
+    channel: music
+    playing: false
+    pausedTime: null
+    repeat: true
+    volume: 0.5
+    fade: null
+    sort: 0
+    flags: {}
+    _key: '!playlists.sounds!W7oyReTACplKKQ77.Nq2rByT6thRpkqJF'
+  - name: Caves
+    path: modules/dannysmodule/assets/audio/audio-music/battle-music/caves.ogg
+    _id: EUemIRRUGgGSRFJE
+    channel: music
+    playing: false
+    pausedTime: null
+    repeat: true
+    volume: 0.5
+    fade: null
+    sort: 0
+    flags: {}
+    _key: '!playlists.sounds!W7oyReTACplKKQ77.EUemIRRUGgGSRFJE'
+  - name: Dungeon 1
+    path: modules/dannysmodule/assets/audio/audio-music/battle-music/dungeon-1.ogg
+    _id: hP3Ew6xaLiQxkfXE
+    channel: music
+    playing: false
+    pausedTime: null
+    repeat: true
+    volume: 0.5
+    fade: null
+    sort: 0
+    flags: {}
+    _key: '!playlists.sounds!W7oyReTACplKKQ77.hP3Ew6xaLiQxkfXE'
+  - name: Dungeon 2
+    path: modules/dannysmodule/assets/audio/audio-music/battle-music/dungeon-2.ogg
+    _id: iTSm8WlyQmC8SFhR
+    channel: music
+    playing: false
+    pausedTime: null
+    repeat: true
+    volume: 0.5
+    fade: null
+    sort: 0
+    flags: {}
+    _key: '!playlists.sounds!W7oyReTACplKKQ77.iTSm8WlyQmC8SFhR'
+  - name: Dunsward
+    path: modules/dannysmodule/assets/audio/audio-music/battle-music/dunsward.ogg
+    _id: 5lMGwrhm8pel73tH
+    channel: music
+    playing: false
+    pausedTime: null
+    repeat: true
+    volume: 0.5
+    fade: null
+    sort: 0
+    flags: {}
+    _key: '!playlists.sounds!W7oyReTACplKKQ77.5lMGwrhm8pel73tH'
+  - name: Dur Borba (hargulka)
+    path: >-
+      modules/dannysmodule/assets/audio/audio-music/battle-music/dur-borba-(hargulka).ogg
+    _id: ECqHFYQ21G987lX2
+    channel: music
+    playing: false
+    pausedTime: null
+    repeat: true
+    volume: 0.5
+    fade: null
+    sort: 0
+    flags: {}
+    _key: '!playlists.sounds!W7oyReTACplKKQ77.ECqHFYQ21G987lX2'
+  - name: False Destiny (armag)
+    path: >-
+      modules/dannysmodule/assets/audio/audio-music/battle-music/false-destiny-(armag).ogg
+    _id: DmdyWlgSO55pBXFB
+    channel: music
+    playing: false
+    pausedTime: null
+    repeat: true
+    volume: 0.5
+    fade: null
+    sort: 0
+    flags: {}
+    _key: '!playlists.sounds!W7oyReTACplKKQ77.DmdyWlgSO55pBXFB'
+  - name: Final Fantasy Vii Fighting
+    path: >-
+      modules/dannysmodule/assets/audio/audio-music/battle-music/final-fantasy-vii-fighting.mp3
+    _id: HJyal0AF1xLHNVtW
+    channel: music
+    playing: false
+    pausedTime: null
+    repeat: false
+    volume: 0.5
+    fade: null
+    sort: 0
+    flags: {}
+    _key: '!playlists.sounds!W7oyReTACplKKQ77.HJyal0AF1xLHNVtW'
+  - name: First World
+    path: modules/dannysmodule/assets/audio/audio-music/battle-music/first-world.ogg
+    _id: hbbBXrXEY9SV17Zg
+    channel: music
+    playing: false
+    pausedTime: null
+    repeat: true
+    volume: 0.5
+    fade: null
+    sort: 0
+    flags: {}
+    _key: '!playlists.sounds!W7oyReTACplKKQ77.hbbBXrXEY9SV17Zg'
+  - name: Glenebon
+    path: modules/dannysmodule/assets/audio/audio-music/battle-music/glenebon.ogg
+    _id: feK3jSN5JQEKpOFM
+    channel: music
+    playing: false
+    pausedTime: null
+    repeat: true
+    volume: 0.5
+    fade: null
+    sort: 0
+    flags: {}
+    _key: '!playlists.sounds!W7oyReTACplKKQ77.feK3jSN5JQEKpOFM'
+  - name: In The Name Of My Dream (stag Lord)
+    path: >-
+      modules/dannysmodule/assets/audio/audio-music/battle-music/in-the-name-of-my-dream-(stag-lord).ogg
+    _id: wGBlCcgUAyvWZQrK
+    channel: music
+    playing: false
+    pausedTime: null
+    repeat: true
+    volume: 0.5
+    fade: null
+    sort: 0
+    flags: {}
+    _key: '!playlists.sounds!W7oyReTACplKKQ77.wGBlCcgUAyvWZQrK'
+  - name: Lantern King Suite
+    path: >-
+      modules/dannysmodule/assets/audio/audio-music/battle-music/lantern-king-suite.ogg
+    _id: irpR7d0666nSGOcP
+    channel: music
+    playing: false
+    pausedTime: null
+    repeat: true
+    volume: 0.5
+    fade: null
+    sort: 0
+    flags: {}
+    _key: '!playlists.sounds!W7oyReTACplKKQ77.irpR7d0666nSGOcP'
+  - name: Relic Of A Crumbled Empire (vordakai)
+    path: >-
+      modules/dannysmodule/assets/audio/audio-music/battle-music/relic-of-a-crumbled-empire-(vordakai).ogg
+    _id: o0O88uTzj5tuDCRj
+    channel: music
+    playing: false
+    pausedTime: null
+    repeat: true
+    volume: 0.5
+    fade: null
+    sort: 0
+    flags: {}
+    _key: '!playlists.sounds!W7oyReTACplKKQ77.o0O88uTzj5tuDCRj'
+  - name: String That Holds The World
+    path: >-
+      modules/dannysmodule/assets/audio/audio-music/battle-music/string-that-holds-the-world.ogg
+    _id: kzbjErkKJDlrSZgB
+    channel: music
+    playing: false
+    pausedTime: null
+    repeat: true
+    volume: 0.5
+    fade: null
+    sort: 0
+    flags: {}
+    _key: '!playlists.sounds!W7oyReTACplKKQ77.kzbjErkKJDlrSZgB'
+  - name: The Dunsward
+    path: >-
+      modules/dannysmodule/assets/audio/audio-music/battle-music/the-dunsward.ogg
+    _id: waTiYVi7Q7EMIxuE
+    channel: music
+    playing: false
+    pausedTime: null
+    repeat: true
+    volume: 0.5
+    fade: null
+    sort: 0
+    flags: {}
+    _key: '!playlists.sounds!W7oyReTACplKKQ77.waTiYVi7Q7EMIxuE'
+  - name: The Laughing Lie
+    path: >-
+      modules/dannysmodule/assets/audio/audio-music/battle-music/the-laughing-lie.ogg
+    _id: vU5j13L8d2Dzml8L
+    channel: music
+    playing: false
+    pausedTime: null
+    repeat: true
+    volume: 0.5
+    fade: null
+    sort: 0
+    flags: {}
+    _key: '!playlists.sounds!W7oyReTACplKKQ77.vU5j13L8d2Dzml8L'
+  - name: The Narlmarches
+    path: >-
+      modules/dannysmodule/assets/audio/audio-music/battle-music/the-narlmarches.ogg
+    _id: luOzraKUkdXhSiml
+    channel: music
+    playing: false
+    pausedTime: null
+    repeat: true
+    volume: 0.5
+    fade: null
+    sort: 0
+    flags: {}
+    _key: '!playlists.sounds!W7oyReTACplKKQ77.luOzraKUkdXhSiml'
+  - name: The Proud The Bitter The Fallen (nyrissa)
+    path: >-
+      modules/dannysmodule/assets/audio/audio-music/battle-music/the-proud-the-bitter-the-fallen-(nyrissa).ogg
+    _id: oAAo9BTvzJcK15ZR
+    channel: music
+    playing: false
+    pausedTime: null
+    repeat: true
+    volume: 0.5
+    fade: null
+    sort: 0
+    flags: {}
+    _key: '!playlists.sounds!W7oyReTACplKKQ77.oAAo9BTvzJcK15ZR'
+  - name: The Shrike Hills
+    path: >-
+      modules/dannysmodule/assets/audio/audio-music/battle-music/the-shrike-hills.ogg
+    _id: wyfXgXFJo3qo4i1G
+    channel: music
+    playing: false
+    pausedTime: null
+    repeat: true
+    volume: 0.5
+    fade: null
+    sort: 0
+    flags: {}
+    _key: '!playlists.sounds!W7oyReTACplKKQ77.wyfXgXFJo3qo4i1G'
+channel: music
+mode: 0
+playing: false
+fade: null
+sorting: a
+seed: 880
+flags: {}
+_stats:
+  compendiumSource: null
+  duplicateSource: null
+  coreVersion: '13.344'
+  systemId: pf2e
+  systemVersion: 6.1.3
+  createdTime: 1722151843629
+  modifiedTime: 1723499082395
+  lastModifiedBy: txZjek5EOiCBHPoz
+  exportSource: null
+description: ''
+sort: 0
+ownership:
+  default: 0
+  txZjek5EOiCBHPoz: 3
+_key: '!playlists!W7oyReTACplKKQ77'

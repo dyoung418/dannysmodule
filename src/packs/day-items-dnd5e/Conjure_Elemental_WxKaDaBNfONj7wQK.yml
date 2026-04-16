@@ -1,0 +1,128 @@
+name: Conjure Elemental
+type: spell
+system:
+  source:
+    custom: ''
+    book: PHB
+    page: '225'
+    license: ''
+  description:
+    value: >-
+      <div class="rd__b  rd__b--3"><p>You call forth an elemental servant.
+      Choose an area of air, earth, fire, or water that fills a 10-foot cube
+      within range. An <a
+      href="https://5etools-mirror-2.github.io/bestiary.html#blankhash,flstchallenge%20rating:min=&amp;0~max=&amp;5,flsttype:elemental=1,flstmiscellaneous:swarm=2">elemental
+      of challenge rating 5 or lower</a> appropriate to the area you chose
+      appears in an unoccupied space within 10 feet of it. For example, a
+      @creature[fire elemental] emerges from a bonfire, and an @creature[earth
+      elemental] rises up from the ground. The elemental disappears when it
+      drops to 0 hit points or when the spell ends.</p><div
+      class="rd__spc-inline-post"></div><p>The elemental is friendly to you and
+      your companions for the duration. Roll initiative for the elemental, which
+      has its own turns. It obeys any verbal commands that you issue to it (no
+      action required by you). If you don't issue any commands to the elemental,
+      it defends itself from hostile creatures but otherwise takes no
+      actions.</p><p>If your @status[concentration] is broken, the elemental
+      doesn't disappear. Instead, you lose control of the elemental, it becomes
+      hostile toward you and your companions, and it might attack. An
+      uncontrolled elemental can't be dismissed by you, and it disappears 1 hour
+      after you summoned it.</p><p>The DM has the elemental's
+      statistics.</p></div><div class="rd__b  rd__b--3"><div class="rd__b 
+      rd__b--3"><span class="rd__h rd__h--3" data-title-index="1"> <span
+      class="entry-title-inner">At Higher Levels.</span></span> <p>When you cast
+      this spell using a spell slot of 6th level or higher, the challenge rating
+      increases by 1 for each slot level above 5th.</p><div
+      class="rd__spc-inline-post"></div></div><div
+      class="rd__spc-inline-post"></div></div><div><span class="bold">Classes:
+      </span>Druid, Wizard</div>
+    chat: ''
+  actionType: util
+  level: 5
+  school: con
+  properties:
+    - vocal
+    - somatic
+    - material
+    - concentration
+  materials:
+    value: >-
+      burning incense for air, soft clay for earth, sulfur and phosphorus for
+      fire, or water and sand for water
+    consumed: false
+    cost: 0
+    supply: 0
+  target:
+    value: 1
+    units: ''
+    type: space
+    prompt: true
+    width: null
+  range:
+    value: 90
+    units: ft
+    long: null
+  activation:
+    type: minute
+    cost: 1
+    condition: ''
+  duration:
+    value: '1'
+    units: hour
+  damage:
+    parts: []
+    versatile: ''
+  scaling:
+    mode: level
+    formula: (@item.level - 5) * 1
+  save:
+    dc: null
+    scaling: spell
+    ability: ''
+  uses:
+    value: null
+    max: ''
+    per: null
+    recovery: ''
+    prompt: true
+  attackBonus: ''
+  chatFlavor: ''
+  critical:
+    threshold: null
+    damage: ''
+  formula: ''
+  preparation:
+    mode: prepared
+    prepared: false
+  consume:
+    type: ''
+    target: null
+    amount: null
+    scale: false
+  cover: null
+  crewed: false
+  ability: null
+img: icons/magic/earth/construct-stone.webp
+ownership:
+  default: 0
+  38Gfe7fp1EmVmZNj: 3
+flags:
+  plutonium:
+    page: spells.html
+    source: PHB
+    hash: conjure%20elemental_phb
+    propDroppable: spell
+effects: []
+folder: 8U2cnpUuL1cqC1TA
+_id: WxKaDaBNfONj7wQK
+sort: 0
+_stats:
+  systemId: dnd5e
+  systemVersion: 3.0.2
+  coreVersion: '13.345'
+  createdTime: 1708227601045
+  modifiedTime: 1708227676991
+  lastModifiedBy: 38Gfe7fp1EmVmZNj
+  compendiumSource: null
+  duplicateSource: null
+  exportSource: null
+_key: '!items!WxKaDaBNfONj7wQK'

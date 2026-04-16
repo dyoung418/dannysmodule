@@ -1,0 +1,653 @@
+folder: kugQZp6qzkfNbPk7
+name: Artificer
+type: class
+_id: 0m0qrD8VnLoAC5ID
+img: systems/dnd5e/icons/svg/properties/magical.svg
+system:
+  description:
+    value: >-
+      <p>Masters of invention, artificers use ingenuity and magic to unlock
+      extraordinary capabilities in objects. They see magic as a complex system
+      waiting to be decoded and then harnessed in their spells and inventions.
+      You can find everything you need to play one of these inventors in the
+      next few sections.</p><p>Artificers use a variety of tools to channel
+      their arcane power. To cast a spell, an artificer might use alchemist’s
+      supplies to create a potent elixir, calligrapher’s supplies to inscribe a
+      sigil of power, or tinker’s tools to craft a temporary charm. The magic of
+      artificers is tied to their tools and their talents, and few other
+      characters can produce the right tool for a job as well as an
+      artificer.</p><p><strong>Artificers in Many
+      Worlds</strong></p><p>Throughout the D&amp;D multiverse, artificers create
+      inventions and magic items of peace and war. Many lives have been
+      brightened or saved because of the work of kind artificers, but countless
+      lives have also been lost because of the mass destruction unleashed by
+      certain artificers’ creations.</p><p>In the Forgotten Realms, the island
+      of Lantan is home to many artificers, and in the world of Dragon­lance,
+      tinker gnomes are often members of this class. The strange technologies in
+      the Barrier Peaks of the world of Greyhawk have inspired some folk to walk
+      the path of the artificer, and in Mystara, various nations employ
+      artificers to keep airships and other wondrous devices
+      operational.</p><p>Artificers in the City of Sigil share discoveries from
+      throughout the multiverse, and from there, the gnome artificer Vi runs a
+      cosmos-spanning business that hires adventurers to fix problems that
+      others deem unfixable. In Vi’s home world, Eberron, magic is harnessed as
+      a form of science and deployed throughout society, largely as a result of
+      the wondrous ingenuity of artificers.</p><p><strong>Hit Dice</strong>: 1d8
+      per artificer level</p><p><strong>Hit Points at 1st Level</strong>: 8 +
+      your Constitution modifier</p><p><strong>Hit Points at Higher
+      Levels</strong>: 1d8 (or 5) + your Constitution modifier per artificer
+      level after
+      1st</p><p><strong>Proficiencies</strong></p><p><strong>Armor</strong>:
+      Light armor, medium armor, shields</p><p><strong>Weapons</strong>: Simple
+      weapons</p><p><strong>Tools</strong>: Thieves’ tools, tinker’s tools, one
+      type of artisan’s tools of your choice</p><p><strong>Saving
+      Throws</strong>: Constitution, Intelligence</p><p><strong>Skills</strong>:
+      Choose two from Arcana, History, Investigation, Medicine, Nature,
+      Perception, Sleight of Hand</p><p>The secrets of gunpowder weapons have
+      been discovered in various corners of the D&amp;D multiverse. If your
+      Dungeon Master uses the rules on firearms in the Dungeon Master’s Guide
+      and your artificer has been exposed to the operation of such weapons, your
+      artificer is proficient with them.</p><p><strong>Starting
+      Equipment</strong></p><p>You start with the following equipment, in
+      addition to the equipment granted by your background:</p><p>any two simple
+      weapons of your choice</p><p>a light crossbow and 20 bolts</p><p>your
+      choice of studded leather armor or scale mail</p><p>thieves’ tools and a
+      dungeoneer’s pack</p><p>If you forgo this starting equipment, as well as
+      the items offered by your background, you start with 5d4 × 10 gp to buy
+      your equipment.</p><section class="secret revealed"
+      id="secret-9JU0bH5PKGGuXLbE"><p><strong>MULTICLASSING AND THE
+      ARTIFICER</strong></p><p>If your group uses the optional rule on
+      multiclassing in the Player’s Handbook, here’s what you need to know if
+      you choose artificer as one of your classes.</p><p>Ability Score Minimum.
+      As a multiclass character, you must have at least an Intelligence score of
+      13 to take a level in this class, or to take a level in another class if
+      you are already an artificer.</p><p>Proficiencies Gained. If artificer
+      isn’t your initial class, here are the proficiencies you gain when you
+      take your first level as an artificer: light armor, medium armor, shields,
+      thieves’ tools, tinker’s tools.</p><p>Spell Slots. Add half your levels
+      (rounded up) in the artificer class to the appropriate levels from other
+      classes to determine your available spell
+      slots.</p></section><p><strong>Class Features</strong></p><p>As an
+      artificer, you gain the following class features, which are summarized in
+      the Artificer table.</p><p><strong>Magical
+      Tinkering</strong></p><p><em>1st-level artificer feature</em></p><p>You’ve
+      learned how to invest a spark of magic into mundane objects. To use this
+      ability, you must have thieves’ tools or artisan’s tools in hand. You then
+      touch a Tiny nonmagical object as an action and give it one of the
+      following magical properties of your choice:</p><ul><li><p>The object
+      sheds bright light in a 5-foot radius and dim light for an additional 5
+      feet.</p></li><li><p>Whenever tapped by a creature, the object emits a
+      recorded message that can be heard up to 10 feet away. You utter the
+      message when you bestow this property on the object, and the recording can
+      be no more than 6 seconds long.</p></li><li><p>The object continuously
+      emits your choice of an odor or a nonverbal sound (wind, waves, chirping,
+      or the like). The chosen phenomenon is perceivable up to 10 feet
+      away.</p></li><li><p>A static visual effect appears on one of the object’s
+      surfaces. This effect can be a picture, up to 25 words of text, lines and
+      shapes, or a mixture of these elements, as you like.</p></li></ul><p>The
+      chosen property lasts indefinitely. As an action, you can touch the object
+      and end the property early.</p><p>You can bestow magic on multiple
+      objects, touching one object each time you use this feature, though a
+      single object can only bear one property at a time. The maximum number of
+      objects you can affect with this feature at one time is equal to your
+      Intelligence modifier (minimum of one object). If you try to exceed your
+      maximum, the oldest property immediately ends, and then the new property
+      applies.</p><p><strong>Spellcasting</strong></p><p><em>1st-level artificer
+      feature</em></p><p>You’ve studied the workings of magic and how to cast
+      spells, channeling the magic through objects. To observers, you don’t
+      appear to be casting spells in a conventional way; you appear to produce
+      wonders from mundane items and outlandish inventions.</p><p>Tools
+      Required</p><p>You produce your artificer spell effects through your
+      tools. You must have a spellcasting focus—specifically thieves’ tools or
+      some kind of artisan’s tool—in hand when you cast any spell with this
+      Spellcasting feature (meaning the spell has an “M” component when you cast
+      it). You must be proficient with the tool to use it in this way. See the
+      equipment chapter in the Player’s Handbook for descriptions of these
+      tools.</p><p>After you gain the Infuse Item feature at 2nd level, you can
+      also use any item bearing one of your infusions as a spellcasting
+      focus.</p><section class="secret revealed"
+      id="secret-IaTAItoq3R3vUznN"><p><strong>THE MAGIC OF
+      ARTIFICE</strong></p><p>As an artificer, you use tools when you cast your
+      spells. When describing your spellcasting, think about how you’re using a
+      tool. For example, if you cast cure wounds using alchemist’s supplies, you
+      could be quickly producing a salve. If you cast it using tinker’s tools,
+      you might have a miniature mechanical spider that binds wounds. The effect
+      of the spell is the same either way.</p><p>Such details don’t limit you in
+      any way or provide you with any benefit beyond the spell’s effects. You
+      don’t have to justify how you’re using tools to cast a spell. But
+      describing your spellcasting creatively is a fun way to distinguish
+      yourself from other spellcasters.</p></section><p><strong>Cantrips
+      (0-Level Spells)</strong></p><p>You know two cantrips of your choice from
+      the artificer spell list. At higher levels, you learn additional artificer
+      cantrips of your choice, as shown in the Cantrips Known column of the
+      Artificer table.</p><p>When you gain a level in this class, you can
+      replace one of the artificer cantrips you know with another cantrip from
+      the artificer spell list.</p><p><strong>Preparing and Casting
+      Spells</strong></p><p>The Artificer table shows how many spell slots you
+      have to cast your artificer spells. To cast one of your artificer spells
+      of 1st level or higher, you must expend a slot of the spell’s level or
+      higher. You regain all expended spell slots when you finish a long
+      rest.</p><p>You prepare the list of artificer spells that are available
+      for you to cast, choosing from the artificer spell list. When you do so,
+      choose a number of artificer spells equal to your Intelligence modifier +
+      half your artificer level, rounded down (minimum of one spell). The spells
+      must be of a level for which you have spell slots.</p><p>For example, if
+      you are a 5th-level artificer, you have four 1st-level and two 2nd-level
+      spell slots. With an Intelligence of 14, your list of prepared spells can
+      include four spells of 1st or 2nd level, in any combination. If you
+      prepare the 1st-level spell cure wounds, you can cast it using a 1st-level
+      or a 2nd-level slot. Casting the spell doesn’t remove it from your list of
+      prepared spells.</p><p>You can change your list of prepared spells when
+      you finish a long rest. Preparing a new list of artificer spells requires
+      time spent tinkering with your spellcasting focuses: at least 1 minute per
+      spell level for each spell on your list.</p><p><strong>Spellcasting
+      Ability</strong></p><p>Intelligence is your spellcasting ability for your
+      artificer spells; your understanding of the theory behind magic allows you
+      to wield these spells with superior skill. You use your Intelligence
+      whenever an artificer spell refers to your spellcasting ability. In
+      addition, you use your Intelligence modifier when setting the saving throw
+      DC for an artificer spell you cast and when making an attack roll with
+      one.</p><p><strong>Spell save DC</strong> = 8 + your proficiency bonus +
+      your Intelligence modifier</p><p><strong>Spell attack modifier</strong> =
+      your proficiency bonus + your Intelligence modifier</p><p><strong>Ritual
+      Casting</strong></p><p>You can cast an artificer spell as a ritual if that
+      spell has the ritual tag and you have the spell
+      prepared.</p><p><strong>Infuse Item</strong></p><p><em>2nd-level artificer
+      feature</em></p><p>You’ve gained the ability to imbue mundane items with
+      certain magical infusions, turning those objects into magic
+      items.</p><p><strong>Infusions Known</strong></p><p>When you gain this
+      feature, pick four artificer infusions to learn, choosing from the
+      “Artificer Infusions” section at the end of the class’s description. You
+      learn additional infusions of your choice when you reach certain levels in
+      this class, as shown in the Infusions Known column of the Artificer
+      table.</p><p>Whenever you gain a level in this class, you can replace one
+      of the artificer infusions you learned with a new
+      one.</p><p><strong>Infusing an Item</strong></p><p>Whenever you finish a
+      long rest, you can touch a nonmagical object and imbue it with one of your
+      artificer infusions, turning it into a magic item. An infusion works on
+      only certain kinds of objects, as specified in the infusion’s description.
+      If the item requires attunement, you can attune yourself to it the instant
+      you infuse the item. If you decide to attune to the item later, you must
+      do so using the normal process for attunement (see the attunement rules in
+      the Dungeon Master’s Guide).</p><p>Your infusion remains in an item
+      indefinitely, but when you die, the infusion vanishes after a number of
+      days equal to your Intelligence modifier (minimum of 1 day). The infusion
+      also vanishes if you replace your knowledge of the infusion.</p><p>You can
+      infuse more than one nonmagical object at the end of a long rest; the
+      maximum number of objects appears in the Infused Items column of the
+      Artificer table. You must touch each of the objects, and each of your
+      infusions can be in only one object at a time. Moreover, no object can
+      bear more than one of your infusions at a time. If you try to exceed your
+      maximum number of infusions, the oldest infusion ends, and then the new
+      infusion applies.</p><p>If an infusion ends on an item that contains other
+      things, like a bag of holding, its contents harmlessly appear in and
+      around its space.</p><p><strong>Artificer
+      Specialist</strong></p><p><em>3rd-level artificer
+      feature</em></p><p>Choose the type of specialist you are: Alchemist,
+      Armorer, Artillerist, or Battle Smith, each of which is detailed after the
+      class’s description. Your choice grants you features at 5th level and
+      again at 9th and 15th level.</p><p><strong>The Right Tool for the
+      Job</strong></p><p><em>3rd-level artificer feature</em></p><p>You’ve
+      learned how to produce exactly the tool you need: with thieves’ tools or
+      artisan’s tools in hand, you can magically create one set of artisan’s
+      tools in an unoccupied space within 5 feet of you. This creation requires
+      1 hour of uninterrupted work, which can coincide with a short or long
+      rest. Though the product of magic, the tools are nonmagical, and they
+      vanish when you use this feature again.</p><p><strong>Ability Score
+      Improvement</strong></p><p><em>4th-level artificer feature</em></p><p>When
+      you reach 4th level and again at 8th, 12th, 16th, and 19th level, you can
+      increase one ability score of your choice by 2, or you can increase two
+      ability scores of your choice by 1. As normal, you can’t increase an
+      ability score above 20 using this feature.</p><p><strong>Tool
+      Expertise</strong></p><p><em>6th-level artificer feature</em></p><p>Your
+      proficiency bonus is now doubled for any ability check you make that uses
+      your proficiency with a tool.</p><p><strong>Flash of
+      Genius</strong></p><p><em>7th-level artificer feature</em></p><p>You’ve
+      gained the ability to come up with solutions under pressure. When you or
+      another creature you can see within 30 feet of you makes an ability check
+      or a saving throw, you can use your reaction to add your Intelligence
+      modifier to the roll.</p><p>You can use this feature a number of times
+      equal to your Intelligence modifier (minimum of once). You regain all
+      expended uses when you finish a long rest.</p><p><strong>Magic Item
+      Adept</strong></p><p><em>10th-level artificer feature</em></p><p>You’ve
+      achieved a profound understanding of how to use and make magic
+      items:</p><p>You can attune to up to four magic items at once.</p><p>If
+      you craft a magic item with a rarity of common or uncommon, it takes you a
+      quarter of the normal time, and it costs you half as much of the usual
+      gold.</p><p><strong>Spell-Storing Item</strong></p><p><em>11th-level
+      artificer feature</em></p><p>You can now store a spell in an object.
+      Whenever you finish a long rest, you can touch one simple or martial
+      weapon or one item that you can use as a spellcasting focus, and you store
+      a spell in it, choosing a 1st- or 2nd-level spell from the artificer spell
+      list that requires 1 action to cast (you needn’t have it
+      prepared).</p><p>While holding the object, a creature can take an action
+      to produce the spell’s effect from it, using your spellcasting ability
+      modifier. If the spell requires concentration, the creature must
+      concentrate. The spell stays in the object until it’s been used a number
+      of times equal to twice your Intelligence modifier (minimum of twice) or
+      until you use this feature again to store a spell in an
+      object.</p><p><strong>Magic Item Savant</strong></p><p><em>14th-level
+      artificer feature</em></p><p>Your skill with magic items
+      deepens:</p><p>You can attune to up to five magic items at once.</p><p>You
+      ignore all class, race, spell, and level requirements on attuning to or
+      using a magic item.</p><p><strong>Magic Item
+      Master</strong></p><p><em>18th-level artificer feature</em></p><p>You can
+      now attune to up to six magic items at once.</p><p><strong>Soul of
+      Artifice</strong></p><p><em>20th-level artificer feature</em></p><p>You
+      have developed a mystical connection to your magic items, which you can
+      draw on for protection:</p><p>You gain a +1 bonus to all saving throws per
+      magic item you are currently attuned to.</p><p>If you’re reduced to 0 hit
+      points but not killed outright, you can use your reaction to end one of
+      your artificer infusions, causing you to drop to 1 hit point instead of
+      0.</p>
+    chat: ''
+  source:
+    custom: ''
+    revision: 1
+    rules: '2024'
+  identifier: artificer
+  levels: 1
+  advancement:
+    - _id: NtyApyhdzjyJWsfF
+      type: HitPoints
+      configuration: {}
+      value: {}
+    - _id: wqQIo7rBm0MxfCCP
+      type: AbilityScoreImprovement
+      configuration:
+        points: 2
+        fixed:
+          str: 0
+          dex: 0
+          con: 0
+          int: 0
+          wis: 0
+          cha: 0
+        cap: 2
+        locked: []
+      value:
+        type: asi
+      level: 4
+      title: ''
+      icon: null
+    - _id: kcE6SfZrIBnTRzUH
+      type: AbilityScoreImprovement
+      configuration:
+        points: 2
+        fixed:
+          str: 0
+          dex: 0
+          con: 0
+          int: 0
+          wis: 0
+          cha: 0
+        cap: 2
+        locked: []
+      value:
+        type: asi
+      level: 8
+      title: ''
+      icon: null
+    - _id: vyLnXReoTnjSMEPD
+      type: AbilityScoreImprovement
+      configuration:
+        points: 2
+        fixed:
+          str: 0
+          dex: 0
+          con: 0
+          int: 0
+          wis: 0
+          cha: 0
+        cap: 2
+        locked: []
+      value:
+        type: asi
+      level: 12
+      title: ''
+      icon: null
+    - _id: hU85lHd9yqPtQTbi
+      type: AbilityScoreImprovement
+      configuration:
+        points: 2
+        fixed:
+          str: 0
+          dex: 0
+          con: 0
+          int: 0
+          wis: 0
+          cha: 0
+        cap: 2
+        locked: []
+      value:
+        type: asi
+      level: 16
+      title: ''
+      icon: null
+    - _id: gO6A380klaLU86UN
+      type: AbilityScoreImprovement
+      configuration:
+        points: 2
+        fixed:
+          str: 0
+          dex: 0
+          con: 0
+          int: 0
+          wis: 0
+          cha: 0
+        cap: 2
+        locked: []
+      value:
+        type: asi
+      level: 19
+      title: ''
+      icon: null
+    - _id: CrVSQZ0zNMWu1yqI
+      type: ScaleValue
+      configuration:
+        identifier: ''
+        type: number
+        distance:
+          units: ''
+        scale:
+          '2':
+            value: 4
+          '6':
+            value: 6
+          '10':
+            value: 8
+          '14':
+            value: 10
+          '18':
+            value: 12
+      value: {}
+      title: Infusions Known
+      icon: null
+    - _id: EQDKBSsukap8Kg0F
+      type: ScaleValue
+      configuration:
+        identifier: ''
+        type: string
+        distance:
+          units: ''
+        scale:
+          '2':
+            value: '2'
+          '6':
+            value: '3'
+          '10':
+            value: '4'
+          '14':
+            value: '5'
+          '18':
+            value: '6'
+      value: {}
+      title: Infused Items
+      icon: null
+    - _id: JWu6A6IZqqrLThss
+      type: Trait
+      configuration:
+        mode: default
+        allowReplacements: false
+        grants:
+          - armor:lgt
+          - armor:med
+          - armor:shl
+        choices: []
+      level: 1
+      title: Armor
+      icon: null
+      value:
+        chosen: []
+    - _id: 51Gw46qh08QVSynT
+      type: Trait
+      configuration:
+        mode: default
+        allowReplacements: false
+        grants:
+          - weapon:sim
+        choices: []
+      level: 1
+      title: Weapons
+      icon: null
+      classRestriction: primary
+      value:
+        chosen: []
+    - _id: chqSFnIdI87macOE
+      type: Trait
+      configuration:
+        mode: default
+        allowReplacements: false
+        grants:
+          - tool:art:tinker
+          - tool:thief
+        choices:
+          - count: 1
+            pool:
+              - tool:art:*
+      level: 1
+      title: Tools
+      icon: null
+      value:
+        chosen: []
+    - _id: o8QLmvAFt4yQSAcG
+      type: Trait
+      configuration:
+        mode: default
+        allowReplacements: false
+        grants:
+          - saves:con
+          - saves:int
+        choices: []
+      level: 1
+      title: Saving Throws
+      icon: null
+      classRestriction: primary
+      value:
+        chosen: []
+    - _id: 6k6u0kUetYKzNZla
+      type: Trait
+      configuration:
+        mode: default
+        allowReplacements: false
+        grants: []
+        choices:
+          - count: 2
+            pool:
+              - skills:arc
+              - skills:his
+              - skills:inv
+              - skills:med
+              - skills:nat
+              - skills:prc
+              - skills:slt
+      level: 1
+      title: Skills
+      icon: null
+      classRestriction: primary
+      value:
+        chosen: []
+    - _id: wxhZ4Macp3IzkyGS
+      type: ScaleValue
+      configuration:
+        identifier: ''
+        type: string
+        distance:
+          units: ''
+        scale:
+          '1':
+            value: '2'
+          '10':
+            value: '3'
+          '14':
+            value: '4'
+      value: {}
+      title: Cantrips Known
+      icon: null
+    - _id: RBw9UvGVpE8T8ipP
+      type: Trait
+      configuration:
+        mode: expertise
+        allowReplacements: false
+        grants:
+          - tool:art
+          - tool:disg
+          - tool:forg
+          - tool:game
+          - tool:herb
+          - tool:music
+          - tool:navg
+          - tool:pois
+          - tool:thief
+          - tool:vehicle
+        choices: []
+      level: 6
+      title: Tool Expertise
+      icon: null
+      value:
+        chosen: []
+    - _id: ey8VQsWahpwjXbCn
+      type: ItemGrant
+      configuration:
+        items:
+          - uuid: Compendium.dannysmodule.day-items-dnd5e.Item.WgS8ISQKTtYdHXD7
+            optional: false
+          - uuid: Compendium.dannysmodule.day-items-dnd5e.Item.4TjJEaAt9OzXcmHa
+            optional: false
+        optional: false
+        spell: null
+      value: {}
+      level: 1
+      title: Class Features
+      icon: null
+      classRestriction: primary
+    - _id: gtqL5zCSxgOopDEV
+      type: ItemGrant
+      configuration:
+        items:
+          - uuid: Compendium.dannysmodule.day-items-dnd5e.Item.v9HFgQDlfwSeAzmG
+            optional: false
+          - uuid: Compendium.dannysmodule.day-items-dnd5e.Item.BSey4IivgnYf721H
+            optional: false
+        optional: false
+        spell: null
+      value: {}
+      level: 2
+      title: Class Features
+      icon: null
+    - _id: 6tRirt3Yi9aIKHKf
+      type: ItemGrant
+      configuration:
+        items:
+          - uuid: Compendium.dannysmodule.day-items-dnd5e.Item.wqolzHJJbbe0tKZU
+            optional: false
+          - uuid: Compendium.dannysmodule.day-items-dnd5e.Item.T0O8wGeT5jME9DFB
+            optional: false
+        optional: false
+        spell: null
+      value: {}
+      level: 3
+      title: Class Features
+      icon: null
+    - _id: zZDvptoX19LfYQot
+      type: ItemGrant
+      configuration:
+        items:
+          - uuid: Compendium.dannysmodule.day-items-dnd5e.Item.wI2UdRrjO5P1XZ76
+            optional: false
+        optional: false
+        spell: null
+      value: {}
+      level: 7
+      title: Class Features
+      icon: null
+    - _id: Uq5JueRtzQdhgMk0
+      type: ItemGrant
+      configuration:
+        items:
+          - uuid: Compendium.dannysmodule.day-items-dnd5e.Item.9LUxnvhToxdSDjuy
+            optional: false
+        optional: false
+        spell: null
+      value: {}
+      level: 10
+      title: Class Features
+      icon: null
+    - _id: DbMPZtE9Mk9CxZPJ
+      type: ItemGrant
+      configuration:
+        items:
+          - uuid: Compendium.dannysmodule.day-items-dnd5e.Item.RfCaQ4V2tFyxPI5q
+            optional: false
+        optional: false
+        spell: null
+      value: {}
+      level: 11
+      title: Class Features
+      icon: null
+    - _id: ijznrMGqExdMWTNp
+      type: ItemGrant
+      configuration:
+        items:
+          - uuid: Compendium.dannysmodule.day-items-dnd5e.Item.cnK7AXNk8xX2zZiu
+            optional: false
+        optional: false
+        spell: null
+      value: {}
+      level: 14
+      title: Class Features
+      icon: null
+    - _id: F1tlU6hSnIbLAK3h
+      type: ItemGrant
+      configuration:
+        items:
+          - uuid: Compendium.dannysmodule.day-items-dnd5e.Item.zUKBl8nHCK5pGa68
+            optional: false
+        optional: false
+        spell: null
+      value: {}
+      level: 18
+      title: Class Features
+      icon: null
+    - _id: d1NP9PkFCXe4Dc6W
+      type: ItemGrant
+      configuration:
+        items:
+          - uuid: Compendium.dannysmodule.day-items-dnd5e.Item.pGMRNsCNnL4hVlnq
+            optional: false
+        optional: false
+        spell: null
+      value: {}
+      level: 20
+      title: Class Features
+      icon: null
+  spellcasting:
+    progression: artificer
+    ability: int
+    preparation: {}
+  wealth: ''
+  startingEquipment: []
+  primaryAbility:
+    value: []
+    all: true
+  hd:
+    denomination: d8
+    spent: 1
+    additional: ''
+effects: []
+sort: 0
+ownership:
+  default: 0
+  38Gfe7fp1EmVmZNj: 3
+flags: {}
+_stats:
+  systemId: dnd5e
+  systemVersion: 5.0.4
+  coreVersion: '13.346'
+  createdTime: 1709685865803
+  modifiedTime: 1752197371435
+  lastModifiedBy: 1pY4akW8WASxGBbA
+  compendiumSource: null
+  duplicateSource: null
+  exportSource: null
+_key: '!items!0m0qrD8VnLoAC5ID'

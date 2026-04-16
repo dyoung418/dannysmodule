@@ -1,0 +1,187 @@
+name: Blindness/Deafness
+type: spell
+system:
+  source:
+    custom: ''
+    book: PHB
+    page: '219'
+    license: ''
+  description:
+    value: >-
+      <div class="rd__b  rd__b--3"><p>You can blind or deafen a foe. Choose one
+      creature that you can see within range to make a Constitution saving
+      throw. If it fails, the target is either @condition[blinded] or
+      @condition[deafened] (your choice) for the duration. At the end of each of
+      its turns, the target can make a Constitution saving throw. On a success,
+      the spell ends.</p><div class="rd__spc-inline-post"></div></div><div
+      class="rd__b  rd__b--3"><div class="rd__b  rd__b--3"><span class="rd__h
+      rd__h--3" data-title-index="1"> <span class="entry-title-inner">At Higher
+      Levels.</span></span> <p>When you cast this spell using a spell slot of
+      3rd level or higher, you can target one additional creature for each slot
+      level above 2nd.</p><div class="rd__spc-inline-post"></div></div><div
+      class="rd__spc-inline-post"></div></div><div><span class="bold">Classes:
+      </span>Bard, Cleric, Sorcerer, Wizard</div>
+    chat: ''
+  actionType: save
+  level: 2
+  school: nec
+  properties:
+    - vocal
+  materials:
+    value: ''
+    consumed: false
+    cost: 0
+    supply: 0
+  target:
+    value: 1
+    units: ''
+    type: creature
+    prompt: true
+    width: null
+  range:
+    value: 30
+    units: ft
+    long: null
+  activation:
+    type: action
+    cost: 1
+    condition: ''
+  duration:
+    value: '1'
+    units: minute
+  damage:
+    parts: []
+    versatile: ''
+  scaling:
+    mode: none
+    formula: ''
+  save:
+    ability: con
+    dc: null
+    scaling: spell
+  uses:
+    value: null
+    max: ''
+    per: null
+    recovery: ''
+    prompt: true
+  attackBonus: ''
+  chatFlavor: ''
+  critical:
+    threshold: null
+    damage: ''
+  formula: ''
+  preparation:
+    mode: prepared
+    prepared: false
+  consume:
+    type: ''
+    target: null
+    amount: null
+    scale: false
+  cover: null
+  crewed: false
+  ability: null
+img: icons/skills/wounds/injury-eyes-blood-red-pink.webp
+ownership:
+  default: 0
+  38Gfe7fp1EmVmZNj: 3
+flags:
+  plutonium:
+    page: spells.html
+    source: PHB
+    hash: blindness%2fdeafness_phb
+    propDroppable: spell
+effects:
+  - name: Blindness
+    origin: Compendium.dnd5e.spells.Item.zwGsAv6kmwzYGhh3
+    duration:
+      value: 60
+      units: seconds
+      expiry: turnStart
+      expired: false
+    disabled: false
+    _id: 59WpbiZFULwixyvC
+    description: >-
+      <p>The target is Blinded for the duration. At the end of each of its
+      turns, the target can make a Constitution saving throw. On a success, the
+      spell ends.</p>
+    transfer: false
+    statuses:
+      - blinded
+    flags:
+      plutonium:
+        dedupeId: blindness
+    tint: '#ffffff'
+    _stats:
+      coreVersion: '14.359'
+      systemId: null
+      systemVersion: null
+      createdTime: null
+      modifiedTime: null
+      lastModifiedBy: null
+      compendiumSource: null
+      duplicateSource: null
+      exportSource: null
+    img: icons/skills/wounds/injury-eyes-blood-red-pink.webp
+    type: base
+    system:
+      changes: []
+    sort: 0
+    showIcon: 2
+    start: null
+    folder: null
+    _key: '!items.effects!pAuZFYGcwDlo0g3m.59WpbiZFULwixyvC'
+  - name: Deafness
+    origin: Compendium.dnd5e.spells.Item.zwGsAv6kmwzYGhh3
+    duration:
+      value: 60
+      units: seconds
+      expiry: turnStart
+      expired: false
+    disabled: false
+    _id: H0SG0oq3VfiCxBOQ
+    description: >-
+      <p>The target is Deafened for the duration. At the end of each of its
+      turns, the target can make a Constitution saving throw. On a success, the
+      spell ends.</p>
+    transfer: false
+    statuses:
+      - deafened
+    flags:
+      plutonium:
+        dedupeId: deafness
+    tint: '#ffffff'
+    _stats:
+      coreVersion: '14.359'
+      systemId: null
+      systemVersion: null
+      createdTime: null
+      modifiedTime: null
+      lastModifiedBy: null
+      compendiumSource: null
+      duplicateSource: null
+      exportSource: null
+    img: icons/skills/wounds/injury-eyes-blood-red-pink.webp
+    type: base
+    system:
+      changes: []
+    sort: 0
+    showIcon: 2
+    start: null
+    folder: null
+    _key: '!items.effects!pAuZFYGcwDlo0g3m.H0SG0oq3VfiCxBOQ'
+folder: ylLgNfU6rZjXCRE6
+_id: pAuZFYGcwDlo0g3m
+sort: 0
+_stats:
+  systemId: dnd5e
+  systemVersion: 3.0.2
+  coreVersion: '14.359'
+  createdTime: 1708227628639
+  modifiedTime: 1708227680382
+  lastModifiedBy: 38Gfe7fp1EmVmZNj
+  compendiumSource: null
+  duplicateSource: null
+  exportSource: null
+_key: '!items!pAuZFYGcwDlo0g3m'

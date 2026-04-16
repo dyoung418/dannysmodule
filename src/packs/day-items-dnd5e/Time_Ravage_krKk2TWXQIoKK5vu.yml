@@ -1,0 +1,149 @@
+name: Time Ravage
+type: spell
+system:
+  source:
+    custom: ''
+    book: EGW
+    page: '189'
+    license: ''
+    revision: 1
+    rules: '2024'
+  description:
+    value: >-
+      <div class="rd__b  rd__b--3"><p>You target a creature you can see within
+      range, putting its physical form through the devastation of rapid aging.
+      The target must make a Constitution saving throw, taking [[/r 10d12]]
+      necrotic damage on a failed save, or half as much damage on a successful
+      one. If the save fails, the target also ages to the point where it has
+      only 30 days left before it dies of old age. In this aged state, the
+      target has disadvantage on attack rolls, ability checks, and saving
+      throws, and its walking speed is halved. Only the @spell[wish] spell or
+      the @spell[greater restoration] cast with a 9th-level spell slot can end
+      these effects and restore the target to its previous age.</p><div
+      class="rd__spc-inline-post"></div></div>
+    chat: ''
+  level: 9
+  school: nec
+  properties:
+    - vocal
+    - somatic
+    - material
+  materials:
+    value: >-
+      an hourglass filled with diamond dust worth at least 5,000 gp, which the
+      spell consumes
+    consumed: true
+    cost: 5000
+    supply: 0
+  target:
+    affects:
+      choice: false
+    template:
+      units: ''
+      contiguous: false
+  range:
+    value: '90'
+    units: ft
+  activation:
+    type: action
+    condition: ''
+    value: 1
+  duration:
+    value: ''
+    units: inst
+  uses:
+    max: ''
+    spent: 0
+    recovery: []
+  preparation:
+    mode: prepared
+    prepared: false
+  activities:
+    dnd5eactivity000:
+      _id: dnd5eactivity000
+      type: save
+      activation:
+        type: action
+        value: null
+        override: false
+      consumption:
+        targets: []
+        scaling:
+          allowed: false
+          max: ''
+        spellSlot: true
+      description:
+        chatFlavor: ''
+      duration:
+        units: inst
+        concentration: false
+        override: false
+      effects: []
+      range:
+        override: false
+        units: self
+      target:
+        prompt: true
+        template:
+          contiguous: false
+          units: ft
+        affects:
+          choice: false
+        override: false
+      uses:
+        spent: 0
+        max: ''
+        recovery: []
+      damage:
+        onSave: half
+        parts:
+          - number: 10
+            denomination: 12
+            bonus: ''
+            types:
+              - necrotic
+            custom:
+              enabled: false
+              formula: ''
+            scaling:
+              mode: ''
+              number: null
+              formula: ''
+      save:
+        ability:
+          - con
+        dc:
+          calculation: spellcasting
+          formula: ''
+      sort: 0
+  identifier: time-ravage
+img: icons/sundries/misc/hourglass-wood.webp
+ownership:
+  default: 0
+  38Gfe7fp1EmVmZNj: 3
+flags:
+  plutonium:
+    page: spells.html
+    source: EGW
+    hash: time%20ravage_egw
+    propDroppable: spell
+  dnd5e:
+    persistSourceMigration: true
+    riders:
+      activity: []
+      effect: []
+effects: []
+folder: 1CtZ32VkNkomb6Oe
+_id: krKk2TWXQIoKK5vu
+sort: 0
+_stats:
+  systemId: dnd5e
+  systemVersion: 5.0.4
+  coreVersion: '13.346'
+  createdTime: 1709684304469
+  modifiedTime: 1752197371435
+  lastModifiedBy: 1pY4akW8WASxGBbA
+  compendiumSource: null
+  duplicateSource: null
+  exportSource: null
+_key: '!items!krKk2TWXQIoKK5vu'

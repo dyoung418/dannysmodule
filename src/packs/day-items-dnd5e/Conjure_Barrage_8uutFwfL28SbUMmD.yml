@@ -1,0 +1,145 @@
+name: Conjure Barrage
+type: spell
+system:
+  source:
+    custom: ''
+    book: PHB
+    page: '225'
+    license: ''
+    revision: 1
+    rules: '2024'
+  description:
+    value: >-
+      <div class="rd__b  rd__b--3"><p>You throw a nonmagical weapon or fire a
+      piece of nonmagical ammunition into the air to create a cone of identical
+      weapons that shoot forward and then disappear. Each creature in a 60-foot
+      cone must succeed on a Dexterity saving throw. A creature takes [[/r 3d8]]
+      damage on a failed save, or half as much damage on a successful one. The
+      damage type is the same as that of the weapon or ammunition used as a
+      component.</p><div class="rd__spc-inline-post"></div></div><div><span
+      class="bold">Classes: </span>Ranger</div>
+    chat: ''
+  level: 3
+  school: con
+  properties:
+    - vocal
+    - somatic
+    - material
+  materials:
+    value: one piece of ammunition or a thrown weapon
+    consumed: false
+    cost: 0
+    supply: 0
+  target:
+    affects:
+      choice: false
+    template:
+      units: ft
+      type: cone
+      size: '60'
+      contiguous: false
+  range:
+    value: '0'
+    units: self
+  activation:
+    type: action
+    condition: ''
+    value: 1
+  duration:
+    value: ''
+    units: inst
+  uses:
+    max: ''
+    spent: 0
+    recovery: []
+  preparation:
+    mode: prepared
+    prepared: false
+  activities:
+    dnd5eactivity000:
+      _id: dnd5eactivity000
+      type: save
+      activation:
+        type: action
+        value: null
+        override: false
+      consumption:
+        targets: []
+        scaling:
+          allowed: false
+          max: ''
+        spellSlot: true
+      description:
+        chatFlavor: ''
+      duration:
+        units: inst
+        concentration: false
+        override: false
+      effects: []
+      range:
+        override: false
+        units: self
+      target:
+        prompt: true
+        template:
+          contiguous: false
+          units: ft
+        affects:
+          choice: false
+        override: false
+      uses:
+        spent: 0
+        max: ''
+        recovery: []
+      damage:
+        onSave: half
+        parts:
+          - number: 3
+            denomination: 8
+            bonus: ''
+            types: []
+            custom:
+              enabled: false
+              formula: ''
+            scaling:
+              mode: ''
+              number: null
+              formula: ''
+      save:
+        ability:
+          - dex
+        dc:
+          calculation: spellcasting
+          formula: ''
+      sort: 0
+  identifier: conjure-barrage
+img: icons/skills/ranged/daggers-thrown-salvo-orange.webp
+ownership:
+  default: 0
+  38Gfe7fp1EmVmZNj: 3
+flags:
+  plutonium:
+    page: spells.html
+    source: PHB
+    hash: conjure%20barrage_phb
+    propDroppable: spell
+  dnd5e:
+    persistSourceMigration: true
+    riders:
+      activity: []
+      effect: []
+effects: []
+folder: 460yTIg9sKBrbNPf
+_id: 8uutFwfL28SbUMmD
+sort: 0
+_stats:
+  systemId: dnd5e
+  systemVersion: 5.0.4
+  coreVersion: '13.346'
+  createdTime: 1708227517240
+  modifiedTime: 1752197371435
+  lastModifiedBy: 1pY4akW8WASxGBbA
+  compendiumSource: null
+  duplicateSource: null
+  exportSource: null
+_key: '!items!8uutFwfL28SbUMmD'

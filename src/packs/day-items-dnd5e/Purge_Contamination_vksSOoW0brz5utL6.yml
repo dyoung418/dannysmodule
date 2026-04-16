@@ -1,0 +1,108 @@
+name: Purge Contamination
+type: spell
+system:
+  source:
+    custom: ''
+    book: DoDk
+    page: '228'
+    license: ''
+  description:
+    value: >-
+      <div class="rd__b  rd__b--3"><p>You apply alchemical fluids or holy water
+      to a contaminated humanoid creature while reciting an exacting magical
+      chant that expels eldritch contaminants from the target's body. When you
+      finish casting the spell, all <a
+      href="https://5etools-mirror-2.github.io/adventure.html#DoDk,12">contamination
+      levels</a> and mutations are removed from the creature. It then gains one
+      level of @condition[exhaustion] for each <a
+      href="https://5etools-mirror-2.github.io/adventure.html#DoDk,12">contamination
+      level</a> removed with this spell.</p><div
+      class="rd__spc-inline-post"></div></div>
+    chat: ''
+  actionType: util
+  level: 3
+  school: abj
+  properties:
+    - vocal
+    - somatic
+    - material
+  materials:
+    value: 100 gp of alchemical fluids or holy water, which the spell consumes
+    consumed: true
+    cost: 100
+    supply: 0
+  target:
+    value: 0
+    units: touch
+    type: ''
+    prompt: true
+    width: null
+  range:
+    value: 0
+    units: touch
+    long: null
+  activation:
+    type: hour
+    cost: 1
+    condition: ''
+  duration:
+    value: ''
+    units: inst
+  damage:
+    parts: []
+    versatile: ''
+  scaling:
+    mode: none
+    formula: ''
+  save:
+    dc: null
+    scaling: spell
+    ability: ''
+  uses:
+    value: null
+    max: ''
+    per: null
+    recovery: ''
+    prompt: true
+  attackBonus: ''
+  chatFlavor: ''
+  critical:
+    threshold: null
+    damage: ''
+  formula: ''
+  preparation:
+    mode: prepared
+    prepared: false
+  consume:
+    type: ''
+    target: null
+    amount: null
+    scale: false
+  cover: null
+  crewed: false
+  ability: null
+img: icons/magic/defensive/shield-barrier-blue.webp
+ownership:
+  default: 0
+  38Gfe7fp1EmVmZNj: 3
+flags:
+  plutonium:
+    page: spells.html
+    source: DoDk
+    hash: purge%20contamination_dodk
+    propDroppable: spell
+effects: []
+folder: LiUZknAnmcvB6nmP
+_id: vksSOoW0brz5utL6
+sort: 0
+_stats:
+  systemId: dnd5e
+  systemVersion: 3.0.2
+  coreVersion: '13.345'
+  createdTime: 1708227665330
+  modifiedTime: 1708227673035
+  lastModifiedBy: 38Gfe7fp1EmVmZNj
+  compendiumSource: null
+  duplicateSource: null
+  exportSource: null
+_key: '!items!vksSOoW0brz5utL6'

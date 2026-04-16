@@ -1,0 +1,148 @@
+name: Entangle
+type: spell
+system:
+  source:
+    custom: ''
+    book: PHB
+    page: '238'
+    license: ''
+  description:
+    value: >-
+      <div class="rd__b  rd__b--3"><p>Grasping weeds and vines sprout from the
+      ground in a 20-foot square starting from a point within range. For the
+      duration, these plants turn the ground in the area into difficult
+      terrain.</p><div class="rd__spc-inline-post"></div><p>A creature in the
+      area when you cast the spell must succeed on a Strength saving throw or be
+      @condition[restrained] by the entangling plants until the spell ends. A
+      creature @condition[restrained] by the plants can use its action to make a
+      Strength check against your spell save DC. On a success, it frees
+      itself.</p><p>When the spell ends, the conjured plants wilt
+      away.</p></div><div><span class="bold">Classes: </span>Druid</div>
+    chat: ''
+  actionType: save
+  level: 1
+  school: con
+  properties:
+    - vocal
+    - somatic
+    - concentration
+  materials:
+    value: ''
+    consumed: false
+    cost: 0
+    supply: 0
+  target:
+    value: 20
+    units: ft
+    type: square
+    prompt: true
+    width: null
+  range:
+    value: 90
+    units: ft
+    long: null
+  activation:
+    type: action
+    cost: 1
+    condition: ''
+  duration:
+    value: '1'
+    units: minute
+  damage:
+    parts: []
+    versatile: ''
+  scaling:
+    mode: none
+    formula: ''
+  save:
+    ability: str
+    dc: null
+    scaling: spell
+  uses:
+    value: null
+    max: ''
+    per: null
+    recovery: ''
+    prompt: true
+  attackBonus: ''
+  chatFlavor: ''
+  critical:
+    threshold: null
+    damage: ''
+  formula: ''
+  preparation:
+    mode: prepared
+    prepared: false
+  consume:
+    type: ''
+    target: null
+    amount: null
+    scale: false
+  cover: null
+  crewed: false
+  ability: null
+img: icons/creatures/tentacles/tentacle-earth-green.webp
+ownership:
+  default: 0
+  38Gfe7fp1EmVmZNj: 3
+flags:
+  plutonium:
+    page: spells.html
+    source: PHB
+    hash: entangle_phb
+    propDroppable: spell
+effects:
+  - name: Entangle
+    origin: Compendium.dnd5e.spells.Item.gMrWeG8fMDPRFiVe
+    duration:
+      value: 60
+      units: seconds
+      expiry: turnStart
+      expired: false
+    disabled: false
+    _id: fO14IutGR3Hrepun
+    description: >-
+      <p>A creature in the area is Restrained by the entangling Plants until the
+      spell ends. A creature restrained by the plants can use its action to make
+      a Strength check against your spell save DC. On a success, it frees
+      itself.</p>
+    transfer: false
+    statuses:
+      - restrained
+    flags:
+      plutonium:
+        dedupeId: entangle
+    tint: '#ffffff'
+    _stats:
+      coreVersion: '14.359'
+      systemId: null
+      systemVersion: null
+      createdTime: null
+      modifiedTime: null
+      lastModifiedBy: null
+      compendiumSource: null
+      duplicateSource: null
+      exportSource: null
+    img: icons/creatures/tentacles/tentacle-earth-green.webp
+    type: base
+    system:
+      changes: []
+    sort: 0
+    showIcon: 2
+    start: null
+    folder: null
+    _key: '!items.effects!jdH1bSyXndbkXHKL.fO14IutGR3Hrepun'
+folder: hBkaUu7fsbkopX1H
+_id: jdH1bSyXndbkXHKL
+sort: 0
+_stats:
+  systemId: dnd5e
+  systemVersion: 3.0.2
+  coreVersion: '14.359'
+  createdTime: 1708227517346
+  modifiedTime: 1708227533976
+  lastModifiedBy: 38Gfe7fp1EmVmZNj
+  compendiumSource: null
+  duplicateSource: null
+  exportSource: null
+_key: '!items!jdH1bSyXndbkXHKL'

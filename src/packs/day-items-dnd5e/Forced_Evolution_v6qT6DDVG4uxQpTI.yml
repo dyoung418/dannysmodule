@@ -1,0 +1,128 @@
+name: Forced Evolution
+type: spell
+system:
+  source:
+    custom: ''
+    book: DoDk
+    page: '227'
+    license: ''
+    revision: 1
+    rules: '2024'
+  description:
+    value: >-
+      <div class="rd__b  rd__b--3"><p>By means of this spell, you transform a
+      mutation gained from <a
+      href="https://5etools-mirror-2.github.io/adventure.html#DoDk,12">contamination</a>.
+      One of the target's existing mutations is removed and is replaced by a
+      different one. This mutation may be chosen by the Game Master or
+      determined randomly (see Appendix C of Dungeons of Drakkenheim).</p><div
+      class="rd__spc-inline-post"></div></div>
+    chat: ''
+  level: 4
+  school: trs
+  properties:
+    - vocal
+    - somatic
+    - material
+  materials:
+    value: >-
+      An alchemical cocktail made from rare components and delerium dust worth
+      250 gold, which the target consumes as part of the spell
+    consumed: true
+    cost: 0
+    supply: 0
+  target:
+    affects:
+      choice: false
+    template:
+      units: touch
+      contiguous: false
+  range:
+    value: '0'
+    units: touch
+  activation:
+    type: hour
+    condition: ''
+    value: 8
+  duration:
+    value: ''
+    units: inst
+  uses:
+    max: ''
+    spent: 0
+    recovery: []
+  preparation:
+    mode: prepared
+    prepared: false
+  activities:
+    dnd5eactivity000:
+      _id: dnd5eactivity000
+      type: utility
+      activation:
+        type: action
+        override: false
+      consumption:
+        targets: []
+        scaling:
+          allowed: false
+          max: ''
+        spellSlot: true
+      description:
+        chatFlavor: ''
+      duration:
+        units: inst
+        concentration: false
+        override: false
+      effects: []
+      range:
+        units: self
+        override: false
+      target:
+        prompt: true
+        template:
+          contiguous: false
+          units: ft
+        affects:
+          choice: false
+        override: false
+      uses:
+        spent: 0
+        max: ''
+        recovery: []
+      roll:
+        formula: ''
+        name: ''
+        prompt: false
+        visible: false
+      sort: 0
+  identifier: forced-evolution
+img: icons/magic/movement/abstract-ribbons-red-orange.webp
+ownership:
+  default: 0
+  38Gfe7fp1EmVmZNj: 3
+flags:
+  plutonium:
+    page: spells.html
+    source: DoDk
+    hash: forced%20evolution_dodk
+    propDroppable: spell
+  dnd5e:
+    persistSourceMigration: true
+    riders:
+      activity: []
+      effect: []
+effects: []
+folder: 0DxlLTSvnP6Pzz2r
+_id: v6qT6DDVG4uxQpTI
+sort: 0
+_stats:
+  systemId: dnd5e
+  systemVersion: 5.0.4
+  coreVersion: '13.346'
+  createdTime: 1708109344870
+  modifiedTime: 1752197371435
+  lastModifiedBy: 1pY4akW8WASxGBbA
+  compendiumSource: null
+  duplicateSource: null
+  exportSource: null
+_key: '!items!v6qT6DDVG4uxQpTI'

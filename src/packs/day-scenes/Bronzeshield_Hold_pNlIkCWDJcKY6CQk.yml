@@ -1,0 +1,995 @@
+folder: fzBywiLU1ohCVIeR
+name: Bronzeshield Hold
+_id: pNlIkCWDJcKY6CQk
+navigation: false
+navOrder: 0
+navName: ''
+thumb: worlds/test14-dandd/assets/scenes/thumb-wFY-gL44hIxlhFZiRsiZ7Q.webp
+width: 2048
+height: 2048
+padding: 0.25
+initial:
+  x: 1800
+  'y': 1555
+  scale: 0.608
+grid:
+  type: 1
+  size: 100
+  style: solidLines
+  thickness: 1
+  color: '#000000'
+  alpha: 0.2
+  distance: 5
+  units: ft
+tokenVision: false
+fog:
+  colors:
+    explored: null
+    unexplored: null
+  mode: 0
+environment:
+  darknessLevel: 0
+  darknessLock: false
+  globalLight:
+    enabled: false
+    alpha: 0.5
+    bright: false
+    color: null
+    coloration: 1
+    luminosity: 0
+    saturation: 0
+    contrast: 0
+    shadows: 0
+    darkness:
+      min: 0
+      max: 1
+  cycle: true
+  base:
+    hue: 0
+    intensity: 0
+    luminosity: 0
+    saturation: 0
+    shadows: 0
+  dark:
+    hue: 0.7138888888888889
+    intensity: 0
+    luminosity: -0.25
+    saturation: 0
+    shadows: 0
+drawings: []
+tokens:
+  - actorLink: true
+    displayBars: 0
+    displayName: 50
+    texture:
+      src: modules/pf2e-kingmaker/assets/maps-settlements/buildings/houses.webp
+      scaleX: 1
+      scaleY: 1
+      tint: '#ffffff'
+      anchorX: 0.5
+      anchorY: 0.5
+      fit: contain
+      alphaThreshold: 0.75
+    width: 1
+    height: 1
+    name: Houses
+    lockRotation: false
+    rotation: 0
+    alpha: 1
+    disposition: -1
+    bar1:
+      attribute: null
+    bar2:
+      attribute: null
+    light:
+      alpha: 0.5
+      angle: 360
+      bright: 0
+      coloration: 1
+      dim: 0
+      attenuation: 0.5
+      luminosity: 0.5
+      saturation: 0
+      contrast: 0
+      shadows: 0
+      animation:
+        type: null
+        speed: 5
+        intensity: 5
+        reverse: false
+      darkness:
+        min: 0
+        max: 1
+      color: null
+      negative: false
+      priority: 0
+    sight:
+      enabled: true
+      range: 0
+      angle: 360
+      visionMode: basic
+      color: null
+      attenuation: 0.1
+      brightness: 0
+      saturation: 0
+      contrast: 0
+    detectionModes:
+      basicSight:
+        range: 0
+        enabled: true
+    flags:
+      monks-tokenbar:
+        include: default
+      tagger:
+        tags: ''
+      monks-combat-marker:
+        token-highlight-scale: 1.5
+        token-combat-animation: ''
+        token-highlight: ''
+      monks-bloodsplats:
+        bloodsplat-type: ''
+        bloodsplat-colour: ''
+    occludable:
+      radius: 0
+    ring:
+      enabled: false
+      colors:
+        ring: null
+        background: null
+      effects: 1
+      subject:
+        scale: 1
+        texture: null
+    actorId: X6RgktG9yh71KNs7
+    hidden: false
+    sort: 0
+    _id: zWV0f6gxxbZpTdRR
+    delta: null
+    x: 700
+    'y': 800
+    elevation: 0
+    locked: false
+    _regions: []
+    shape: 4
+    turnMarker:
+      mode: 1
+      animation: null
+      src: null
+      disposition: false
+    movementAction: null
+    _movementHistory: []
+    depth: 1
+    level: defaultLevel0000
+    _key: '!scenes.tokens!pNlIkCWDJcKY6CQk.zWV0f6gxxbZpTdRR'
+  - actorLink: true
+    displayBars: 0
+    displayName: 50
+    texture:
+      src: modules/pf2e-kingmaker/assets/maps-settlements/buildings/houses-2.webp
+      scaleX: 1
+      scaleY: 1
+      tint: '#ffffff'
+      anchorX: 0.5
+      anchorY: 0.5
+      fit: contain
+      alphaThreshold: 0.75
+    width: 1
+    height: 1
+    name: Houses
+    lockRotation: false
+    rotation: 0
+    alpha: 1
+    disposition: -1
+    bar1:
+      attribute: null
+    bar2:
+      attribute: null
+    light:
+      alpha: 0.5
+      angle: 360
+      bright: 0
+      coloration: 1
+      dim: 0
+      attenuation: 0.5
+      luminosity: 0.5
+      saturation: 0
+      contrast: 0
+      shadows: 0
+      animation:
+        type: null
+        speed: 5
+        intensity: 5
+        reverse: false
+      darkness:
+        min: 0
+        max: 1
+      color: null
+      negative: false
+      priority: 0
+    sight:
+      enabled: true
+      range: 0
+      angle: 360
+      visionMode: basic
+      color: null
+      attenuation: 0.1
+      brightness: 0
+      saturation: 0
+      contrast: 0
+    detectionModes:
+      basicSight:
+        range: 0
+        enabled: true
+    flags:
+      monks-tokenbar:
+        include: default
+      tagger:
+        tags: ''
+      monks-combat-marker:
+        token-highlight-scale: 1.5
+        token-combat-animation: ''
+        token-highlight: ''
+      monks-bloodsplats:
+        bloodsplat-type: ''
+        bloodsplat-colour: ''
+    occludable:
+      radius: 0
+    ring:
+      enabled: false
+      colors:
+        ring: null
+        background: null
+      effects: 1
+      subject:
+        scale: 1
+        texture: null
+    actorId: yjTgubQssXwpjyIy
+    hidden: false
+    sort: 1
+    _id: fmCIPZ5YCqQYIBEP
+    delta: null
+    x: 800
+    'y': 800
+    elevation: 0
+    locked: false
+    _regions: []
+    shape: 4
+    turnMarker:
+      mode: 1
+      animation: null
+      src: null
+      disposition: false
+    movementAction: null
+    _movementHistory: []
+    depth: 1
+    level: defaultLevel0000
+    _key: '!scenes.tokens!pNlIkCWDJcKY6CQk.fmCIPZ5YCqQYIBEP'
+  - actorLink: true
+    displayBars: 0
+    displayName: 50
+    texture:
+      src: modules/pf2e-kingmaker/assets/maps-settlements/buildings/cemetery.webp
+      scaleX: 1
+      scaleY: 1
+      tint: '#ffffff'
+      anchorX: 0.5
+      anchorY: 0.5
+      fit: contain
+      alphaThreshold: 0.75
+    width: 1
+    height: 1
+    name: Cemetery
+    lockRotation: false
+    rotation: 0
+    alpha: 1
+    disposition: -1
+    bar1:
+      attribute: null
+    bar2:
+      attribute: null
+    light:
+      alpha: 0.5
+      angle: 360
+      bright: 0
+      coloration: 1
+      dim: 0
+      attenuation: 0.5
+      luminosity: 0.5
+      saturation: 0
+      contrast: 0
+      shadows: 0
+      animation:
+        type: null
+        speed: 5
+        intensity: 5
+        reverse: false
+      darkness:
+        min: 0
+        max: 1
+      color: null
+      negative: false
+      priority: 0
+    sight:
+      enabled: true
+      range: 0
+      angle: 360
+      visionMode: basic
+      color: null
+      attenuation: 0.1
+      brightness: 0
+      saturation: 0
+      contrast: 0
+    detectionModes:
+      basicSight:
+        range: 0
+        enabled: true
+    flags:
+      monks-tokenbar:
+        include: default
+      tagger:
+        tags: ''
+      monks-combat-marker:
+        token-highlight-scale: 1.5
+        token-combat-animation: ''
+        token-highlight: ''
+      monks-bloodsplats:
+        bloodsplat-type: ''
+        bloodsplat-colour: ''
+    occludable:
+      radius: 0
+    ring:
+      enabled: false
+      colors:
+        ring: null
+        background: null
+      effects: 1
+      subject:
+        scale: 1
+        texture: null
+    actorId: 20oiZWhqbvv1Qx8A
+    hidden: false
+    sort: 2
+    _id: esmNO15XvmtuXEyB
+    delta: null
+    x: 700
+    'y': 700
+    elevation: 0
+    locked: false
+    _regions: []
+    shape: 4
+    turnMarker:
+      mode: 1
+      animation: null
+      src: null
+      disposition: false
+    movementAction: null
+    _movementHistory: []
+    depth: 1
+    level: defaultLevel0000
+    _key: '!scenes.tokens!pNlIkCWDJcKY6CQk.esmNO15XvmtuXEyB'
+  - actorLink: true
+    displayBars: 0
+    displayName: 50
+    texture:
+      src: >-
+        modules/pf2e-kingmaker/assets/maps-settlements/buildings/general-store.webp
+      scaleX: 1
+      scaleY: 1
+      tint: '#ffffff'
+      anchorX: 0.5
+      anchorY: 0.5
+      fit: contain
+      alphaThreshold: 0.75
+    width: 1
+    height: 1
+    name: General Store
+    lockRotation: false
+    rotation: 0
+    alpha: 1
+    disposition: -1
+    bar1:
+      attribute: null
+    bar2:
+      attribute: null
+    light:
+      alpha: 0.5
+      angle: 360
+      bright: 0
+      coloration: 1
+      dim: 0
+      attenuation: 0.5
+      luminosity: 0.5
+      saturation: 0
+      contrast: 0
+      shadows: 0
+      animation:
+        type: null
+        speed: 5
+        intensity: 5
+        reverse: false
+      darkness:
+        min: 0
+        max: 1
+      color: null
+      negative: false
+      priority: 0
+    sight:
+      enabled: true
+      range: 0
+      angle: 360
+      visionMode: basic
+      color: null
+      attenuation: 0.1
+      brightness: 0
+      saturation: 0
+      contrast: 0
+    detectionModes:
+      basicSight:
+        range: 0
+        enabled: true
+    flags:
+      monks-tokenbar:
+        include: default
+      tagger:
+        tags: ''
+      monks-combat-marker:
+        token-highlight-scale: 1.5
+        token-combat-animation: ''
+        token-highlight: ''
+      monks-bloodsplats:
+        bloodsplat-type: ''
+        bloodsplat-colour: ''
+    occludable:
+      radius: 0
+    ring:
+      enabled: false
+      colors:
+        ring: null
+        background: null
+      effects: 1
+      subject:
+        scale: 1
+        texture: null
+    actorId: PeSCzs2VnMK5m2kk
+    hidden: false
+    sort: 3
+    _id: VqFf7i6DBym2onI0
+    delta: null
+    x: 800
+    'y': 700
+    elevation: 0
+    locked: false
+    _regions: []
+    shape: 4
+    turnMarker:
+      mode: 1
+      animation: null
+      src: null
+      disposition: false
+    movementAction: null
+    _movementHistory: []
+    depth: 1
+    level: defaultLevel0000
+    _key: '!scenes.tokens!pNlIkCWDJcKY6CQk.VqFf7i6DBym2onI0'
+  - actorLink: true
+    displayBars: 0
+    displayName: 50
+    texture:
+      src: modules/pf2e-kingmaker/assets/maps-settlements/buildings/trade-shop.webp
+      scaleX: 1
+      scaleY: 1
+      tint: '#ffffff'
+      anchorX: 0.5
+      anchorY: 0.5
+      fit: contain
+      alphaThreshold: 0.75
+    width: 1
+    height: 1
+    name: Trade Shop
+    lockRotation: false
+    rotation: 0
+    alpha: 1
+    disposition: -1
+    bar1:
+      attribute: null
+    bar2:
+      attribute: null
+    light:
+      alpha: 0.5
+      angle: 360
+      bright: 0
+      coloration: 1
+      dim: 0
+      attenuation: 0.5
+      luminosity: 0.5
+      saturation: 0
+      contrast: 0
+      shadows: 0
+      animation:
+        type: null
+        speed: 5
+        intensity: 5
+        reverse: false
+      darkness:
+        min: 0
+        max: 1
+      color: null
+      negative: false
+      priority: 0
+    sight:
+      enabled: true
+      range: 0
+      angle: 360
+      visionMode: basic
+      color: null
+      attenuation: 0.1
+      brightness: 0
+      saturation: 0
+      contrast: 0
+    detectionModes:
+      basicSight:
+        range: 0
+        enabled: true
+    flags:
+      monks-tokenbar:
+        include: default
+      tagger:
+        tags: ''
+      monks-combat-marker:
+        token-highlight-scale: 1.5
+        token-combat-animation: ''
+        token-highlight: ''
+      monks-bloodsplats:
+        bloodsplat-type: ''
+        bloodsplat-colour: ''
+    occludable:
+      radius: 0
+    ring:
+      enabled: false
+      colors:
+        ring: null
+        background: null
+      effects: 1
+      subject:
+        scale: 1
+        texture: null
+    actorId: jGa44ctWlWkdInJm
+    hidden: false
+    sort: 4
+    _id: gRAcOT79lJyRqhbx
+    delta: null
+    x: 1000
+    'y': 700
+    elevation: 0
+    locked: false
+    _regions: []
+    shape: 4
+    turnMarker:
+      mode: 1
+      animation: null
+      src: null
+      disposition: false
+    movementAction: null
+    _movementHistory: []
+    depth: 1
+    level: defaultLevel0000
+    _key: '!scenes.tokens!pNlIkCWDJcKY6CQk.gRAcOT79lJyRqhbx'
+  - actorLink: true
+    displayBars: 0
+    displayName: 50
+    texture:
+      src: modules/pf2e-kingmaker/assets/maps-settlements/buildings/trade-shop.webp
+      scaleX: 1
+      scaleY: 1
+      tint: '#ffffff'
+      anchorX: 0.5
+      anchorY: 0.5
+      fit: contain
+      alphaThreshold: 0.75
+    width: 1
+    height: 1
+    name: Trade Shop
+    lockRotation: false
+    rotation: 0
+    alpha: 1
+    disposition: -1
+    bar1:
+      attribute: null
+    bar2:
+      attribute: null
+    light:
+      alpha: 0.5
+      angle: 360
+      bright: 0
+      coloration: 1
+      dim: 0
+      attenuation: 0.5
+      luminosity: 0.5
+      saturation: 0
+      contrast: 0
+      shadows: 0
+      animation:
+        type: null
+        speed: 5
+        intensity: 5
+        reverse: false
+      darkness:
+        min: 0
+        max: 1
+      color: null
+      negative: false
+      priority: 0
+    sight:
+      enabled: true
+      range: 0
+      angle: 360
+      visionMode: basic
+      color: null
+      attenuation: 0.1
+      brightness: 0
+      saturation: 0
+      contrast: 0
+    detectionModes:
+      basicSight:
+        range: 0
+        enabled: true
+    flags:
+      monks-tokenbar:
+        include: default
+      tagger:
+        tags: ''
+      monks-combat-marker:
+        token-highlight-scale: 1.5
+        token-combat-animation: ''
+        token-highlight: ''
+      monks-bloodsplats:
+        bloodsplat-type: ''
+        bloodsplat-colour: ''
+    occludable:
+      radius: 0
+    ring:
+      enabled: false
+      colors:
+        ring: null
+        background: null
+      effects: 1
+      subject:
+        scale: 1
+        texture: null
+    actorId: jGa44ctWlWkdInJm
+    hidden: false
+    sort: 5
+    _id: iXWRyV5r8T1YdZQs
+    delta: null
+    x: 1000
+    'y': 800
+    elevation: 0
+    locked: false
+    _regions: []
+    shape: 4
+    turnMarker:
+      mode: 1
+      animation: null
+      src: null
+      disposition: false
+    movementAction: null
+    _movementHistory: []
+    depth: 1
+    level: defaultLevel0000
+    _key: '!scenes.tokens!pNlIkCWDJcKY6CQk.iXWRyV5r8T1YdZQs'
+  - actorLink: true
+    displayBars: 0
+    displayName: 50
+    texture:
+      src: modules/pf2e-kingmaker/assets/maps-settlements/buildings/inn.webp
+      scaleX: 1
+      scaleY: 1
+      tint: '#ffffff'
+      anchorX: 0.5
+      anchorY: 0.5
+      fit: contain
+      alphaThreshold: 0.75
+    width: 1
+    height: 1
+    name: Inn
+    lockRotation: false
+    rotation: 0
+    alpha: 1
+    disposition: -1
+    bar1:
+      attribute: null
+    bar2:
+      attribute: null
+    light:
+      alpha: 0.5
+      angle: 360
+      bright: 0
+      coloration: 1
+      dim: 0
+      attenuation: 0.5
+      luminosity: 0.5
+      saturation: 0
+      contrast: 0
+      shadows: 0
+      animation:
+        type: null
+        speed: 5
+        intensity: 5
+        reverse: false
+      darkness:
+        min: 0
+        max: 1
+      color: null
+      negative: false
+      priority: 0
+    sight:
+      enabled: true
+      range: 0
+      angle: 360
+      visionMode: basic
+      color: null
+      attenuation: 0.1
+      brightness: 0
+      saturation: 0
+      contrast: 0
+    detectionModes:
+      basicSight:
+        range: 0
+        enabled: true
+    flags:
+      monks-tokenbar:
+        include: default
+      tagger:
+        tags: ''
+      monks-combat-marker:
+        token-highlight-scale: 1.5
+        token-combat-animation: ''
+        token-highlight: ''
+      monks-bloodsplats:
+        bloodsplat-type: ''
+        bloodsplat-colour: ''
+    occludable:
+      radius: 0
+    ring:
+      enabled: false
+      colors:
+        ring: null
+        background: null
+      effects: 1
+      subject:
+        scale: 1
+        texture: null
+    turnMarker:
+      mode: 1
+      animation: null
+      src: null
+      disposition: false
+    movementAction: null
+    actorId: ch7XF6MTMYRTeBFY
+    hidden: false
+    sort: 6
+    shape: 4
+    _id: x0URh8CXZbiYUNFE
+    delta: null
+    x: 1100
+    'y': 700
+    elevation: 0
+    locked: false
+    _movementHistory: []
+    _regions: []
+    depth: 1
+    level: defaultLevel0000
+    _key: '!scenes.tokens!pNlIkCWDJcKY6CQk.x0URh8CXZbiYUNFE'
+  - actorLink: true
+    displayBars: 0
+    displayName: 50
+    texture:
+      src: modules/pf2e-kingmaker/assets/maps-settlements/buildings/smithy.webp
+      scaleX: 1
+      scaleY: 1
+      tint: '#ffffff'
+      anchorX: 0.5
+      anchorY: 0.5
+      fit: contain
+      alphaThreshold: 0.75
+    width: 1
+    height: 1
+    name: Smithy
+    lockRotation: false
+    rotation: 0
+    alpha: 1
+    disposition: -1
+    bar1:
+      attribute: null
+    bar2:
+      attribute: null
+    light:
+      alpha: 0.5
+      angle: 360
+      bright: 0
+      coloration: 1
+      dim: 0
+      attenuation: 0.5
+      luminosity: 0.5
+      saturation: 0
+      contrast: 0
+      shadows: 0
+      animation:
+        type: null
+        speed: 5
+        intensity: 5
+        reverse: false
+      darkness:
+        min: 0
+        max: 1
+      color: null
+      negative: false
+      priority: 0
+    sight:
+      enabled: true
+      range: 0
+      angle: 360
+      visionMode: basic
+      color: null
+      attenuation: 0.1
+      brightness: 0
+      saturation: 0
+      contrast: 0
+    detectionModes:
+      basicSight:
+        range: 0
+        enabled: true
+    flags:
+      monks-tokenbar:
+        include: default
+      tagger:
+        tags: ''
+      monks-combat-marker:
+        token-highlight-scale: 1.5
+        token-combat-animation: ''
+        token-highlight: ''
+      monks-bloodsplats:
+        bloodsplat-type: ''
+        bloodsplat-colour: ''
+    occludable:
+      radius: 0
+    ring:
+      enabled: false
+      colors:
+        ring: null
+        background: null
+      effects: 1
+      subject:
+        scale: 1
+        texture: null
+    turnMarker:
+      mode: 1
+      animation: pulse
+      src: null
+      disposition: true
+    movementAction: null
+    actorId: BvS6cPAYic4kPLLZ
+    hidden: false
+    sort: 7
+    shape: 4
+    _id: RkjwxgE7TVhMTLaH
+    delta: null
+    x: 1100
+    'y': 800
+    elevation: 0
+    locked: false
+    _movementHistory: []
+    _regions: []
+    depth: 1
+    level: defaultLevel0000
+    _key: '!scenes.tokens!pNlIkCWDJcKY6CQk.RkjwxgE7TVhMTLaH'
+lights: []
+notes:
+  - entryId: 36YItDu6VgX6IRWV
+    pageId: 0NksPXFzWv8YI4Jn
+    text: ''
+    x: 1950
+    'y': 1500
+    elevation: 0
+    sort: 0
+    global: false
+    iconSize: 40
+    texture:
+      tint: '#ffffff'
+      src: icons/svg/book.svg
+      anchorX: 0.5
+      anchorY: 0.5
+      fit: contain
+      scaleX: 1
+      scaleY: 1
+      alphaThreshold: 0
+    fontFamily: Signika
+    fontSize: 32
+    textColor: '#ffffff'
+    textAnchor: 1
+    _id: 7w9cDDTUeqsfs6IT
+    flags: {}
+    author: Rd6viSMz3bRi3ZfD
+    levels: []
+    locked: false
+    _key: '!scenes.notes!pNlIkCWDJcKY6CQk.7w9cDDTUeqsfs6IT'
+sounds: []
+regions: []
+tiles: []
+walls: []
+playlist: null
+playlistSound: null
+journal: null
+journalEntryPage: null
+weather: ''
+flags:
+  pf2e:
+    rulesBasedVision: null
+    hearingRange: null
+    environmentTypes: []
+    syncDarkness: default
+  world-explorer:
+    enabled: false
+    color: '#000000'
+    image: ''
+    persistExploredAreas: false
+    position: behindDrawings
+    revealRadius: '0'
+    gridRevealRadius: '0'
+    opacityGM: 0.7
+    opacityPlayer: 1
+_stats:
+  compendiumSource: null
+  duplicateSource: null
+  coreVersion: '14.360'
+  systemId: dnd5e
+  systemVersion: 5.3.1
+  createdTime: 1776117466160
+  modifiedTime: 1776117466160
+  lastModifiedBy: Rd6viSMz3bRi3ZfD
+  exportSource: null
+active: false
+sort: 0
+ownership:
+  default: 0
+levels:
+  - _id: defaultLevel0000
+    name: Bronzeshield Hold
+    background:
+      color: '#999999'
+      src: worlds/kingmaker/assets/scenes/dwarven%20fortress%20town.png
+      tint: '#ffffff'
+      alphaThreshold: 0.75
+    elevation:
+      top: 20
+      bottom: 0
+    foreground:
+      src: null
+      tint: '#ffffff'
+      alphaThreshold: 0.75
+    fog:
+      src: null
+      tint: '#ffffff'
+    textures:
+      anchorX: 0.5
+      anchorY: 0.5
+      offsetX: 0
+      offsetY: 0
+      fit: fill
+      scaleX: 1
+      scaleY: 1
+      rotation: 0
+    visibility:
+      levels: []
+    sort: 0
+    flags: {}
+    _key: '!scenes.levels!pNlIkCWDJcKY6CQk.defaultLevel0000'
+shiftX: 0
+shiftY: 0
+initialLevel: defaultLevel0000
+transition:
+  type: null
+  duration: 1500
+  activeOnly: false
+_key: '!scenes!pNlIkCWDJcKY6CQk'
+templates: []

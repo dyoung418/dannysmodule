@@ -1,0 +1,20 @@
+name: Kingdom Feats
+sorting: a
+folder: ISFvhvQJpbdNXXsZ
+type: Item
+_id: Fv7CAYaryDD6fff5
+sort: 0
+color: '#0e9a11'
+flags: {}
+_stats:
+  compendiumSource: null
+  duplicateSource: null
+  coreVersion: '13.346'
+  systemId: pf2e
+  systemVersion: 6.0.2
+  createdTime: 1718606591225
+  modifiedTime: 1752208111600
+  lastModifiedBy: txZjek5EOiCBHPoz
+  exportSource: null
+description: ''
+_key: '!folders!Fv7CAYaryDD6fff5'

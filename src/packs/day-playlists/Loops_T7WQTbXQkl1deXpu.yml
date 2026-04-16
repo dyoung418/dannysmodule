@@ -1,0 +1,448 @@
+folder: vqO1Z889NYcaj7md
+name: Loops
+_id: T7WQTbXQkl1deXpu
+sounds:
+  - name: Boiling Pot
+    path: modules/dannysmodule/assets/audio/audio-sfx/Loops/boiling-pot.ogg
+    _id: 8lAm3gP09V3e9Zgk
+    channel: music
+    playing: false
+    pausedTime: null
+    repeat: true
+    volume: 0.5
+    fade: null
+    sort: 0
+    flags: {}
+    _key: '!playlists.sounds!T7WQTbXQkl1deXpu.8lAm3gP09V3e9Zgk'
+  - name: Bonfire
+    path: modules/dannysmodule/assets/audio/audio-sfx/Loops/bonfire.ogg
+    _id: gecmcnRUuQLZgnXD
+    channel: music
+    playing: false
+    pausedTime: null
+    repeat: true
+    volume: 0.5
+    fade: null
+    sort: 0
+    flags: {}
+    _key: '!playlists.sounds!T7WQTbXQkl1deXpu.gecmcnRUuQLZgnXD'
+  - name: Church Bells Close
+    path: modules/dannysmodule/assets/audio/audio-sfx/Loops/church-bells-close.ogg
+    _id: btldd5VLO7cSWUCu
+    channel: music
+    playing: false
+    pausedTime: null
+    repeat: true
+    volume: 0.5
+    fade: null
+    sort: 0
+    flags: {}
+    _key: '!playlists.sounds!T7WQTbXQkl1deXpu.btldd5VLO7cSWUCu'
+  - name: Church Bells Distant
+    path: modules/dannysmodule/assets/audio/audio-sfx/Loops/church-bells-distant.ogg
+    _id: 6PGWty7rhUI0VRXE
+    channel: music
+    playing: false
+    pausedTime: null
+    repeat: true
+    volume: 0.5
+    fade: null
+    sort: 0
+    flags: {}
+    _key: '!playlists.sounds!T7WQTbXQkl1deXpu.6PGWty7rhUI0VRXE'
+  - name: Cold Wind
+    path: modules/dannysmodule/assets/audio/audio-sfx/Loops/cold-wind.ogg
+    _id: 7SNh0nJ5Td6xI3Ww
+    channel: music
+    playing: false
+    pausedTime: null
+    repeat: true
+    volume: 0.5
+    fade: null
+    sort: 0
+    flags: {}
+    _key: '!playlists.sounds!T7WQTbXQkl1deXpu.7SNh0nJ5Td6xI3Ww'
+  - name: Church Bells
+    path: modules/dannysmodule/assets/audio/audio-sfx/Loops/church-bells.ogg
+    _id: 4rS3RB6RGCSGtI8b
+    channel: music
+    playing: false
+    pausedTime: null
+    repeat: true
+    volume: 0.5
+    fade: null
+    sort: 0
+    flags: {}
+    _key: '!playlists.sounds!T7WQTbXQkl1deXpu.4rS3RB6RGCSGtI8b'
+  - name: Colder Wind
+    path: modules/dannysmodule/assets/audio/audio-sfx/Loops/colder-wind.ogg
+    _id: tdnbhvh5IVaKNUML
+    channel: music
+    playing: false
+    pausedTime: null
+    repeat: true
+    volume: 0.5
+    fade: null
+    sort: 0
+    flags: {}
+    _key: '!playlists.sounds!T7WQTbXQkl1deXpu.tdnbhvh5IVaKNUML'
+  - name: Flesh Beast
+    path: modules/dannysmodule/assets/audio/audio-sfx/Loops/flesh-beast.ogg
+    _id: 4yIH2sJJ9OdfK8vF
+    channel: music
+    playing: false
+    pausedTime: null
+    repeat: true
+    volume: 0.5
+    fade: null
+    sort: 0
+    flags: {}
+    _key: '!playlists.sounds!T7WQTbXQkl1deXpu.4yIH2sJJ9OdfK8vF'
+  - name: Giants And Aldori
+    path: modules/dannysmodule/assets/audio/audio-sfx/Loops/giants-and-aldori.ogg
+    _id: AeXN3WAg65LjJ7LN
+    channel: music
+    playing: false
+    pausedTime: null
+    repeat: true
+    volume: 0.5
+    fade: null
+    sort: 0
+    flags: {}
+    _key: '!playlists.sounds!T7WQTbXQkl1deXpu.AeXN3WAg65LjJ7LN'
+  - name: Giants
+    path: modules/dannysmodule/assets/audio/audio-sfx/Loops/giants.ogg
+    _id: 0dJTkvlQPmb3yOpn
+    channel: music
+    playing: false
+    pausedTime: null
+    repeat: true
+    volume: 0.5
+    fade: null
+    sort: 0
+    flags: {}
+    _key: '!playlists.sounds!T7WQTbXQkl1deXpu.0dJTkvlQPmb3yOpn'
+  - name: Large Fire
+    path: modules/dannysmodule/assets/audio/audio-sfx/Loops/large-fire.ogg
+    _id: 4RAXm51oD5KBsSWF
+    channel: music
+    playing: false
+    pausedTime: null
+    repeat: true
+    volume: 0.5
+    fade: null
+    sort: 0
+    flags: {}
+    _key: '!playlists.sounds!T7WQTbXQkl1deXpu.4RAXm51oD5KBsSWF'
+  - name: Lava
+    path: modules/dannysmodule/assets/audio/audio-sfx/Loops/lava.ogg
+    _id: 4LY3Ncn7boxInfvC
+    channel: music
+    playing: false
+    pausedTime: null
+    repeat: true
+    volume: 0.5
+    fade: null
+    sort: 0
+    flags: {}
+    _key: '!playlists.sounds!T7WQTbXQkl1deXpu.4LY3Ncn7boxInfvC'
+  - name: Magic Portal
+    path: modules/dannysmodule/assets/audio/audio-sfx/Loops/magic-portal.ogg
+    _id: n0idOcrxJdRKob9f
+    channel: music
+    playing: false
+    pausedTime: null
+    repeat: true
+    volume: 0.5
+    fade: null
+    sort: 0
+    flags: {}
+    _key: '!playlists.sounds!T7WQTbXQkl1deXpu.n0idOcrxJdRKob9f'
+  - name: Marching Mammoths
+    path: modules/dannysmodule/assets/audio/audio-sfx/Loops/marching-mammoths.ogg
+    _id: gvLrSDEJI3cIfRq8
+    channel: music
+    playing: false
+    pausedTime: null
+    repeat: true
+    volume: 0.5
+    fade: null
+    sort: 0
+    flags: {}
+    _key: '!playlists.sounds!T7WQTbXQkl1deXpu.gvLrSDEJI3cIfRq8'
+  - name: Murder Of Crows
+    path: modules/dannysmodule/assets/audio/audio-sfx/Loops/murder-of-crows.ogg
+    _id: 3zlYr6gkTwEKP8HU
+    channel: music
+    playing: false
+    pausedTime: null
+    repeat: true
+    volume: 0.5
+    fade: null
+    sort: 0
+    flags: {}
+    _key: '!playlists.sounds!T7WQTbXQkl1deXpu.3zlYr6gkTwEKP8HU'
+  - name: Periodic Croaks
+    path: modules/dannysmodule/assets/audio/audio-sfx/Loops/periodic-croaks.ogg
+    _id: RvPyMZMFhby4b7CD
+    channel: music
+    playing: false
+    pausedTime: null
+    repeat: true
+    volume: 0.5
+    fade: null
+    sort: 0
+    flags: {}
+    _key: '!playlists.sounds!T7WQTbXQkl1deXpu.RvPyMZMFhby4b7CD'
+  - name: Periodic Rodents
+    path: modules/dannysmodule/assets/audio/audio-sfx/Loops/periodic-rodents.ogg
+    _id: IJxre89tVLddCo3X
+    channel: music
+    playing: false
+    pausedTime: null
+    repeat: true
+    volume: 0.5
+    fade: null
+    sort: 0
+    flags: {}
+    _key: '!playlists.sounds!T7WQTbXQkl1deXpu.IJxre89tVLddCo3X'
+  - name: Periodic Snores
+    path: modules/dannysmodule/assets/audio/audio-sfx/Loops/periodic-snores.ogg
+    _id: RFeVucthw6Hqe5Cx
+    channel: music
+    playing: false
+    pausedTime: null
+    repeat: true
+    volume: 0.5
+    fade: null
+    sort: 0
+    flags: {}
+    _key: '!playlists.sounds!T7WQTbXQkl1deXpu.RFeVucthw6Hqe5Cx'
+  - name: Rabble Rousing
+    path: modules/dannysmodule/assets/audio/audio-sfx/Loops/rabble-rousing.ogg
+    _id: CqbQhTP7m7MyBPmY
+    channel: music
+    playing: false
+    pausedTime: null
+    repeat: true
+    volume: 0.5
+    fade: null
+    sort: 0
+    flags: {}
+    _key: '!playlists.sounds!T7WQTbXQkl1deXpu.CqbQhTP7m7MyBPmY'
+  - name: Rain
+    path: modules/dannysmodule/assets/audio/audio-sfx/Loops/rain.ogg
+    _id: bo5pRc5dra9JiQQ0
+    channel: music
+    playing: false
+    pausedTime: null
+    repeat: true
+    volume: 0.5
+    fade: null
+    sort: 0
+    flags: {}
+    _key: '!playlists.sounds!T7WQTbXQkl1deXpu.bo5pRc5dra9JiQQ0'
+  - name: Rat Swarm
+    path: modules/dannysmodule/assets/audio/audio-sfx/Loops/rat-swarm.ogg
+    _id: ZF2hFJAXF5OKhUju
+    channel: music
+    playing: false
+    pausedTime: null
+    repeat: true
+    volume: 0.5
+    fade: null
+    sort: 0
+    flags: {}
+    _key: '!playlists.sounds!T7WQTbXQkl1deXpu.ZF2hFJAXF5OKhUju'
+  - name: River
+    path: modules/dannysmodule/assets/audio/audio-sfx/Loops/river.ogg
+    _id: XAYKu8OCQZjJooXw
+    channel: music
+    playing: false
+    pausedTime: null
+    repeat: true
+    volume: 0.5
+    fade: null
+    sort: 0
+    flags: {}
+    _key: '!playlists.sounds!T7WQTbXQkl1deXpu.XAYKu8OCQZjJooXw'
+  - name: Rushing Water
+    path: modules/dannysmodule/assets/audio/audio-sfx/Loops/rushing-water.ogg
+    _id: aI9pja9nkxxkgf9u
+    channel: music
+    playing: false
+    pausedTime: null
+    repeat: true
+    volume: 0.5
+    fade: null
+    sort: 0
+    flags: {}
+    _key: '!playlists.sounds!T7WQTbXQkl1deXpu.aI9pja9nkxxkgf9u'
+  - name: Small Combat Distant
+    path: modules/dannysmodule/assets/audio/audio-sfx/Loops/small-combat-distant.ogg
+    _id: iqtqYNhYxM6WZ0qz
+    channel: music
+    playing: false
+    pausedTime: null
+    repeat: true
+    volume: 0.5
+    fade: null
+    sort: 0
+    flags: {}
+    _key: '!playlists.sounds!T7WQTbXQkl1deXpu.iqtqYNhYxM6WZ0qz'
+  - name: Small Combat
+    path: modules/dannysmodule/assets/audio/audio-sfx/Loops/small-combat.ogg
+    _id: bffMqvtDaCCqGfyf
+    channel: music
+    playing: false
+    pausedTime: null
+    repeat: true
+    volume: 0.5
+    fade: null
+    sort: 0
+    flags: {}
+    _key: '!playlists.sounds!T7WQTbXQkl1deXpu.bffMqvtDaCCqGfyf'
+  - name: Thunderstorm
+    path: modules/dannysmodule/assets/audio/audio-sfx/Loops/thunderstorm.ogg
+    _id: Wc7RXuYqqX7vpUvv
+    channel: music
+    playing: false
+    pausedTime: null
+    repeat: true
+    volume: 0.5
+    fade: null
+    sort: 0
+    flags: {}
+    _key: '!playlists.sounds!T7WQTbXQkl1deXpu.Wc7RXuYqqX7vpUvv'
+  - name: Torch
+    path: modules/dannysmodule/assets/audio/audio-sfx/Loops/torch.ogg
+    _id: bDOBqPdohI8VF5Nv
+    channel: music
+    playing: false
+    pausedTime: null
+    repeat: true
+    volume: 0.5
+    fade: null
+    sort: 0
+    flags: {}
+    _key: '!playlists.sounds!T7WQTbXQkl1deXpu.bDOBqPdohI8VF5Nv'
+  - name: Tornado Wind
+    path: modules/dannysmodule/assets/audio/audio-sfx/Loops/tornado-wind.ogg
+    _id: p5HmRBy6Xyw0FCDj
+    channel: music
+    playing: false
+    pausedTime: null
+    repeat: true
+    volume: 0.5
+    fade: null
+    sort: 0
+    flags: {}
+    _key: '!playlists.sounds!T7WQTbXQkl1deXpu.p5HmRBy6Xyw0FCDj'
+  - name: Unrest 1
+    path: modules/dannysmodule/assets/audio/audio-sfx/Loops/unrest-1.ogg
+    _id: NsQnZHyD9wSJtEJf
+    channel: music
+    playing: false
+    pausedTime: null
+    repeat: true
+    volume: 0.5
+    fade: null
+    sort: 0
+    flags: {}
+    _key: '!playlists.sounds!T7WQTbXQkl1deXpu.NsQnZHyD9wSJtEJf'
+  - name: Unrest 2
+    path: modules/dannysmodule/assets/audio/audio-sfx/Loops/unrest-2.ogg
+    _id: LPX1PZPhkASbuMVa
+    channel: music
+    playing: false
+    pausedTime: null
+    repeat: true
+    volume: 0.5
+    fade: null
+    sort: 0
+    flags: {}
+    _key: '!playlists.sounds!T7WQTbXQkl1deXpu.LPX1PZPhkASbuMVa'
+  - name: War Drums
+    path: modules/dannysmodule/assets/audio/audio-sfx/Loops/war-drums.ogg
+    _id: 6qvrxXvup2IZepgp
+    channel: music
+    playing: false
+    pausedTime: null
+    repeat: true
+    volume: 0.5
+    fade: null
+    sort: 0
+    flags: {}
+    _key: '!playlists.sounds!T7WQTbXQkl1deXpu.6qvrxXvup2IZepgp'
+  - name: Waterfall
+    path: modules/dannysmodule/assets/audio/audio-sfx/Loops/waterfall.ogg
+    _id: BHuTzJxp0gtOZsRG
+    channel: music
+    playing: false
+    pausedTime: null
+    repeat: true
+    volume: 0.5
+    fade: null
+    sort: 0
+    flags: {}
+    _key: '!playlists.sounds!T7WQTbXQkl1deXpu.BHuTzJxp0gtOZsRG'
+  - name: Wolf Distant Howls
+    path: modules/dannysmodule/assets/audio/audio-sfx/Loops/wolf-distant-howls.ogg
+    _id: judLsdRoGWRI8p3N
+    channel: music
+    playing: false
+    pausedTime: null
+    repeat: true
+    volume: 0.5
+    fade: null
+    sort: 0
+    flags: {}
+    _key: '!playlists.sounds!T7WQTbXQkl1deXpu.judLsdRoGWRI8p3N'
+  - name: Wolf Fighting
+    path: modules/dannysmodule/assets/audio/audio-sfx/Loops/wolf-fighting.ogg
+    _id: IR31lyxTDyNJ3Xqs
+    channel: music
+    playing: false
+    pausedTime: null
+    repeat: true
+    volume: 0.5
+    fade: null
+    sort: 0
+    flags: {}
+    _key: '!playlists.sounds!T7WQTbXQkl1deXpu.IR31lyxTDyNJ3Xqs'
+  - name: Wolf Rustling And Growling
+    path: >-
+      modules/dannysmodule/assets/audio/audio-sfx/Loops/wolf-rustling-and-growling.ogg
+    _id: pV0SRC6HMTBCFC6j
+    channel: music
+    playing: false
+    pausedTime: null
+    repeat: true
+    volume: 0.5
+    fade: null
+    sort: 0
+    flags: {}
+    _key: '!playlists.sounds!T7WQTbXQkl1deXpu.pV0SRC6HMTBCFC6j'
+channel: music
+mode: 0
+playing: false
+fade: null
+sorting: a
+seed: 860
+flags: {}
+_stats:
+  compendiumSource: null
+  duplicateSource: null
+  coreVersion: '13.344'
+  systemId: pf2e
+  systemVersion: 6.1.3
+  createdTime: 1722151854552
+  modifiedTime: 1723499092090
+  lastModifiedBy: txZjek5EOiCBHPoz
+  exportSource: null
+description: ''
+sort: 0
+ownership:
+  default: 0
+  txZjek5EOiCBHPoz: 3
+_key: '!playlists!T7WQTbXQkl1deXpu'

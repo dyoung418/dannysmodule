@@ -1,0 +1,104 @@
+img: icons/sundries/scrolls/scroll-writing-tan-grey.webp
+name: Transcribe Conflict
+system:
+  description:
+    gm: ''
+    value: >-
+      <p>You cause a sheet of paper to appear in your hand, and a moment later a
+      detailed description of a combat you experienced within the last hour is
+      recorded on that sheet of paper in a language that you know of your
+      choice. The description is detailed enough that anyone who spends 1 minute
+      reading the page can attempt to Recall Knowledge about the event as if
+      they had been there, but the primary purpose of the transcribed conflict
+      is to give you additional insight into the fight by allowing you to study
+      the conflict and learn from errors or tactical blunders participants in
+      the battle may have committed.</p>
+
+      <p>When you cast this spell, choose a type of foe in the fight you
+      transcribed and attempt to Recall Knowledge about that foe using your
+      spell DC-10 instead of your skill modifier in an appropriate skill to do
+      so. For this action, you can't use any special abilities, reactions, or
+      free actions that trigger when you Recall Knowledge. If you are
+      successful, you not only learn information about that foe as determined by
+      the GM, but for the remainder of transcribe conflict's duration, you gain
+      a +1 status bonus to Initiative checks in combats where you face that
+      exact kind of foe. For example, if you made the check against a wrath
+      demon, the bonus would apply only to wrath demons, not to other demons.
+      The GM decides if a foe who is disguised grants you this bonus.</p>
+
+      <hr />
+
+      <p><strong>Heightened (5th)</strong> The bonus to initiative increases to
+      +2 and the duration increases to 8 hours.</p>
+
+      <p><strong>Heightened (8th)</strong> The bonus to initiative increases to
+      +3 and the duration increases until the next time you do your daily
+      preparations, and the status bonus to Initiative checks applies to any
+      allies who took part in the fight you transcribed as long as they are
+      within 30 feet of you when you cast the spell.</p>
+  rules: []
+  slug: transcribe-conflict
+  _migration:
+    version: 0.94
+    lastMigration: null
+    previous:
+      schema: 0.939
+      foundry: '13.345'
+      system: 7.2.0
+  traits:
+    otherTags: []
+    value:
+      - concentrate
+      - manipulate
+    rarity: rare
+    traditions:
+      - arcane
+      - occult
+  publication:
+    title: Pathfinder Kingmaker
+    authors: ''
+    license: OGL
+    remaster: false
+  level:
+    value: 3
+  requirements: ''
+  target:
+    value: ''
+  range:
+    value: touch
+  area: null
+  time:
+    value: 1 minute
+  duration:
+    value: 1 hour
+    sustained: false
+  damage: {}
+  defense: null
+  cost:
+    value: ''
+  location:
+    value: null
+  counteraction: false
+type: spell
+flags:
+  core: {}
+  scene-packer:
+    hash: 2f48bb9fb1a82089f512788e2077309fcf43b45d
+effects: []
+folder: lVJfRR3nUB6MU7dI
+ownership:
+  default: 3
+  txZjek5EOiCBHPoz: 3
+_stats:
+  compendiumSource: Compendium.pf2e.spells-srd.Item.YZnLggKDHkMY4cnw
+  duplicateSource: null
+  coreVersion: '13.346'
+  systemId: pf2e
+  systemVersion: 7.2.3
+  createdTime: 1718606591261
+  modifiedTime: 1752208111692
+  lastModifiedBy: txZjek5EOiCBHPoz
+  exportSource: null
+_id: H9jMCdLJvDPgNocm
+sort: 125000
+_key: '!items!H9jMCdLJvDPgNocm'

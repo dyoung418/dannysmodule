@@ -1,0 +1,105 @@
+name: Earthbind
+type: spell
+system:
+  source:
+    custom: ''
+    book: XGE
+    page: '154'
+    license: ''
+  description:
+    value: >-
+      <div class="rd__b  rd__b--3"><p>Choose one creature you can see within
+      range. Yellow strips of magical energy loop around the creature. The
+      target must succeed on a Strength saving throw, or its flying speed (if
+      any) is reduced to 0 feet for the spell's duration. An airborne creature
+      affected by this spell safely descends at 60 feet per round until it
+      reaches the ground or the spell ends.</p><div
+      class="rd__spc-inline-post"></div></div><div><span class="bold">Classes:
+      </span>Druid, Sorcerer, Warlock, Wizard</div>
+    chat: ''
+  actionType: save
+  level: 2
+  school: trs
+  properties:
+    - vocal
+    - concentration
+  materials:
+    value: ''
+    consumed: false
+    cost: 0
+    supply: 0
+  target:
+    value: 0
+    units: ''
+    type: ''
+    prompt: true
+    width: null
+  range:
+    value: 300
+    units: ft
+    long: null
+  activation:
+    type: action
+    cost: 1
+    condition: ''
+  duration:
+    value: '1'
+    units: minute
+  damage:
+    parts: []
+    versatile: ''
+  scaling:
+    mode: none
+    formula: ''
+  save:
+    ability: str
+    dc: null
+    scaling: spell
+  uses:
+    value: null
+    max: ''
+    per: null
+    recovery: ''
+    prompt: true
+  attackBonus: ''
+  chatFlavor: ''
+  critical:
+    threshold: null
+    damage: ''
+  formula: ''
+  preparation:
+    mode: prepared
+    prepared: false
+  consume:
+    type: ''
+    target: null
+    amount: null
+    scale: false
+  cover: null
+  crewed: false
+  ability: null
+img: icons/magic/nature/root-vine-entangled-humanoid.webp
+ownership:
+  default: 0
+  38Gfe7fp1EmVmZNj: 3
+flags:
+  plutonium:
+    page: spells.html
+    source: XGE
+    hash: earthbind_xge
+    propDroppable: spell
+effects: []
+folder: hys47gEfFh1kH8oy
+_id: fDDecXAnwqW1Ji4e
+sort: 0
+_stats:
+  systemId: dnd5e
+  systemVersion: 3.0.2
+  coreVersion: '13.345'
+  createdTime: 1708227601928
+  modifiedTime: 1708227676991
+  lastModifiedBy: 38Gfe7fp1EmVmZNj
+  compendiumSource: null
+  duplicateSource: null
+  exportSource: null
+_key: '!items!fDDecXAnwqW1Ji4e'

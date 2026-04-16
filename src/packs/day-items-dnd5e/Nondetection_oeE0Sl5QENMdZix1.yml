@@ -1,0 +1,107 @@
+name: Nondetection
+type: spell
+system:
+  source:
+    custom: ''
+    book: PHB
+    page: '263'
+    license: ''
+  description:
+    value: >-
+      <div class="rd__b  rd__b--3"><p>For the duration, you hide a target that
+      you touch from divination magic. The target can be a willing creature or a
+      place or an object no larger than 10 feet in any dimension. The target
+      can't be targeted by any divination magic or perceived through magical
+      scrying sensors.</p><div
+      class="rd__spc-inline-post"></div></div><div><span class="bold">Classes:
+      </span>Bard, Ranger, Wizard</div>
+    chat: ''
+  actionType: util
+  level: 3
+  school: abj
+  properties:
+    - vocal
+    - somatic
+    - material
+  materials:
+    value: >-
+      a pinch of diamond dust worth 25 gp sprinkled over the target, which the
+      spell consumes
+    consumed: true
+    cost: 25
+    supply: 0
+  target:
+    value: 1
+    units: touch
+    type: creature
+    prompt: true
+    width: null
+  range:
+    value: 0
+    units: touch
+    long: null
+  activation:
+    type: action
+    cost: 1
+    condition: ''
+  duration:
+    value: '8'
+    units: hour
+  damage:
+    parts: []
+    versatile: ''
+  scaling:
+    mode: none
+    formula: ''
+  save:
+    dc: null
+    scaling: spell
+    ability: ''
+  uses:
+    value: null
+    max: ''
+    per: null
+    recovery: ''
+    prompt: true
+  attackBonus: ''
+  chatFlavor: ''
+  critical:
+    threshold: null
+    damage: ''
+  formula: ''
+  preparation:
+    mode: prepared
+    prepared: false
+  consume:
+    type: ''
+    target: null
+    amount: null
+    scale: false
+  cover: null
+  crewed: false
+  ability: null
+img: icons/equipment/neck/amulet-carved-runed-othila-fehu-grey.webp
+ownership:
+  default: 0
+  38Gfe7fp1EmVmZNj: 3
+flags:
+  plutonium:
+    page: spells.html
+    source: PHB
+    hash: nondetection_phb
+    propDroppable: spell
+effects: []
+folder: 6bqSE9R3xLCM19nC
+_id: oeE0Sl5QENMdZix1
+sort: 0
+_stats:
+  systemId: dnd5e
+  systemVersion: 3.0.2
+  coreVersion: '13.345'
+  createdTime: 1708228997958
+  modifiedTime: 1708229050063
+  lastModifiedBy: 38Gfe7fp1EmVmZNj
+  compendiumSource: null
+  duplicateSource: null
+  exportSource: null
+_key: '!items!oeE0Sl5QENMdZix1'

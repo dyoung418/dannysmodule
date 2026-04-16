@@ -1,0 +1,55 @@
+folder: 0BxmixOCuUUNHkjf
+name: Take Charge (V&K)
+type: campaignFeature
+effects: []
+system:
+  description:
+    gm: ''
+    value: "<p>You spend some time getting directly involved in helping your kingdom. Choose a skill that your Kingdom is at least Trained in, then attempt a basic check. You can never use the same skill for this activity twice in the same Kingdom turn.\_</p><p>@Check[agriculture|dc:resolve(@kingdom.control.dc)]<br />@Check[arts|dc:resolve(@kingdom.control.dc)]<br />@Check[boating|dc:resolve(@kingdom.control.dc)]<br />@Check[defense|dc:resolve(@kingdom.control.dc)]<br />@Check[engineering|dc:resolve(@kingdom.control.dc)]<br />@Check[exploration|dc:resolve(@kingdom.control.dc)]<br />@Check[folklore|dc:resolve(@kingdom.control.dc)]<br />@Check[industry|dc:resolve(@kingdom.control.dc)]<br />@Check[intrigue|dc:resolve(@kingdom.control.dc)]<br />@Check[magic|dc:resolve(@kingdom.control.dc)]<br />@Check[politics|dc:resolve(@kingdom.control.dc)]<br />@Check[scholarship|dc:resolve(@kingdom.control.dc)]<br />@Check[statecraft|dc:resolve(@kingdom.control.dc)]<br />@Check[trade|dc:resolve(@kingdom.control.dc)]<br />@Check[warfare|dc:resolve(@kingdom.control.dc)]<br />@Check[wilderness|dc:resolve(@kingdom.control.dc)]</p><p><strong>Critical Success</strong>: Gain 1 RP. In addition you get a +1 Circumstance Bonus to the next Check you make this turn with the chosen skill.<br /><strong>Success</strong>: Gain 1 RP<br /><strong>Failure</strong>: You fail to generate RP.<br /><strong>Critical Failure</strong>: You take a -1 Circumstance Penalty to the next Check you make this turn with the chosen skill.</p>"
+  rules: []
+  slug: take-charge
+  _migration:
+    version: 0.94
+    previous:
+      schema: 0.939
+      foundry: '13.345'
+      system: 7.2.0
+  traits:
+    otherTags: []
+    value:
+      - downtime
+      - leadership
+  publication:
+    title: ''
+    authors: ''
+    license: OGL
+    remaster: false
+  campaign: kingmaker
+  category: kingdom-activity
+  actionType:
+    value: passive
+  actions:
+    value: null
+  prerequisites:
+    value: []
+  location: null
+  level:
+    value: 1
+_id: cLMoBPJ6YFrsnQI0
+img: systems/pf2e/icons/default-icons/campaignFeature.svg
+sort: 100049
+ownership:
+  default: 0
+  txZjek5EOiCBHPoz: 3
+flags: {}
+_stats:
+  compendiumSource: null
+  duplicateSource: null
+  coreVersion: '13.346'
+  systemId: pf2e
+  systemVersion: 7.2.3
+  createdTime: 1718606591261
+  modifiedTime: 1752208111692
+  lastModifiedBy: txZjek5EOiCBHPoz
+  exportSource: null
+_key: '!items!cLMoBPJ6YFrsnQI0'

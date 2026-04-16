@@ -1,0 +1,62 @@
+folder: yTd2CNZ9biWYoOF6
+name: Jail
+type: campaignFeature
+effects: []
+system:
+  description:
+    gm: ''
+    value: "<p>A jail is a fortified structure that houses criminals, prisoners, or dangerous monsters separate from the rest of society.</p>\n<hr />\n<p><strong>Lots</strong>\_1;\_<strong>Cost</strong>\_14 RP, 4 Lumber, 2 Ore, 4 Stone</p>\n<p><strong>Construction</strong>\_Defense DC 16</p>\n<p><strong>Item Bonus</strong>\_+1 item bonus to\_<a class=\"content-link\" draggable=\"true\" data-uuid=\"Compendium.pf2e.kingmaker-features.Item.s6WMS915YCbbfty4\" data-id=\"s6WMS915YCbbfty4\" data-type=\"Item\" data-pack=\"pf2e.kingmaker-features\" data-tooltip=\"Campaign Feature Item\">Quell Unrest</a>\_using Intrigue</p>\n<p><strong>Effects</strong> The first time you build a jail each a Kingdom turn, reduce Crime by 1.</p>"
+  rules:
+    - hideIfDisabled: true
+      key: FlatModifier
+      label: Jail bonus to Quell Unrest
+      predicate:
+        - action:quell-unrest
+      selector: intrigue-check
+      type: item
+      value: 1
+  slug: null
+  _migration:
+    version: 0.94
+    previous:
+      schema: 0.939
+      foundry: '13.345'
+      system: 7.2.0
+  traits:
+    otherTags: []
+    value:
+      - kingdom
+  publication:
+    title: ''
+    authors: ''
+    license: OGL
+    remaster: false
+  campaign: kingmaker
+  category: kingdom-feat
+  actionType:
+    value: passive
+  actions:
+    value: null
+  prerequisites:
+    value: []
+  location: null
+  level:
+    value: 2
+_id: Mlbq1Wm8ONj36R7b
+img: modules/pf2e-kingmaker/assets/maps-settlements/buildings/jail.webp
+sort: 0
+ownership:
+  default: 0
+  txZjek5EOiCBHPoz: 3
+flags: {}
+_stats:
+  compendiumSource: null
+  duplicateSource: null
+  coreVersion: '13.346'
+  systemId: pf2e
+  systemVersion: 7.2.3
+  createdTime: 1718606591261
+  modifiedTime: 1752208111692
+  lastModifiedBy: txZjek5EOiCBHPoz
+  exportSource: null
+_key: '!items!Mlbq1Wm8ONj36R7b'

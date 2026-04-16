@@ -1,0 +1,110 @@
+name: Plant Growth
+type: spell
+system:
+  source:
+    custom: ''
+    book: PHB
+    page: '266'
+    license: ''
+  description:
+    value: >-
+      <div class="rd__b  rd__b--3"><p>This spell channels vitality into plants
+      within a specific area. There are two possible uses for the spell,
+      granting either immediate or long-term benefits.</p><div
+      class="rd__spc-inline-post"></div><p>If you cast this spell using 1
+      action, choose a point within range. All normal plants in a 100-foot
+      radius centered on that point become thick and overgrown. A creature
+      moving through the area must spend 4 feet of movement for every 1 foot it
+      moves.</p><p>You can exclude one or more areas of any size within the
+      spell's area from being affected.</p><p>If you cast this spell over 8
+      hours, you enrich the land. All plants in a half-mile radius centered on a
+      point within range become enriched for 1 year. The plants yield twice the
+      normal amount of food when harvested.</p></div><div><span
+      class="bold">Classes: </span>Bard, Druid, Ranger</div>
+    chat: ''
+  actionType: util
+  level: 3
+  school: trs
+  properties:
+    - vocal
+    - somatic
+  materials:
+    value: ''
+    consumed: false
+    cost: 0
+    supply: 0
+  target:
+    value: 100
+    units: ft
+    type: radius
+    prompt: true
+    width: null
+  range:
+    value: 150
+    units: ft
+    long: null
+  activation:
+    type: action
+    cost: 1
+    condition: ''
+  duration:
+    value: ''
+    units: inst
+  damage:
+    parts: []
+    versatile: ''
+  scaling:
+    mode: none
+    formula: ''
+  save:
+    dc: null
+    scaling: spell
+    ability: ''
+  uses:
+    value: null
+    max: ''
+    per: null
+    recovery: ''
+    prompt: true
+  attackBonus: ''
+  chatFlavor: ''
+  critical:
+    threshold: null
+    damage: ''
+  formula: ''
+  preparation:
+    mode: prepared
+    prepared: false
+  consume:
+    type: ''
+    target: null
+    amount: null
+    scale: false
+  cover: null
+  crewed: false
+  ability: null
+img: icons/magic/nature/plant-sproud-hands-dirt-green.webp
+ownership:
+  default: 0
+  38Gfe7fp1EmVmZNj: 3
+flags:
+  plutonium:
+    page: spells.html
+    source: PHB
+    hash: plant%20growth_phb
+    propDroppable: spell
+effects: []
+folder: odcOOvRwbM005e8F
+_id: xQweirol2FN9n4Lo
+sort: 0
+_stats:
+  systemId: dnd5e
+  systemVersion: 3.0.2
+  coreVersion: '13.345'
+  createdTime: 1708227601511
+  modifiedTime: 1708227676991
+  lastModifiedBy: 38Gfe7fp1EmVmZNj
+  compendiumSource: null
+  duplicateSource: null
+  exportSource: null
+_key: '!items!xQweirol2FN9n4Lo'

@@ -1,0 +1,138 @@
+name: Unseen Servant
+type: spell
+system:
+  source:
+    custom: ''
+    book: PHB
+    page: '284'
+    license: ''
+    revision: 1
+    rules: '2024'
+  description:
+    value: >-
+      <div class="rd__b  rd__b--3"><p>This spell creates an
+      @condition[invisible], mindless, shapeless, Medium force that performs
+      simple tasks at your command until the spell ends. The servant springs
+      into existence in an unoccupied space on the ground within range. It has
+      AC 10, 1 hit point, and a Strength of 2, and it can't attack. If it drops
+      to 0 hit points, the spell ends.</p><div
+      class="rd__spc-inline-post"></div><p>Once on each of your turns as a bonus
+      action, you can mentally command the servant to move up to 15 feet and
+      interact with an object. The servant can perform simple tasks that a human
+      servant could do, such as fetching things, cleaning, mending, folding
+      clothes, lighting fires, serving food, and pouring wine. Once you give the
+      command, the servant performs the task to the best of its ability until it
+      completes the task, then waits for your next command.</p><p>If you command
+      the servant to perform a task that would move it more than 60 feet away
+      from you, the spell ends.</p></div><div><span class="bold">Classes:
+      </span>Bard, Warlock, Wizard</div>
+    chat: ''
+  level: 1
+  school: con
+  properties:
+    - vocal
+    - somatic
+    - material
+    - ritual
+  materials:
+    value: a piece of string and a bit of wood
+    consumed: false
+    cost: 0
+    supply: 0
+  target:
+    affects:
+      type: space
+      count: '1'
+      choice: false
+    template:
+      units: ''
+      contiguous: false
+  range:
+    value: '60'
+    units: ft
+  activation:
+    type: action
+    condition: ''
+    value: 1
+  duration:
+    value: '1'
+    units: hour
+  uses:
+    max: ''
+    spent: 0
+    recovery: []
+  preparation:
+    mode: prepared
+    prepared: false
+  activities:
+    dnd5eactivity000:
+      _id: dnd5eactivity000
+      type: utility
+      activation:
+        type: action
+        override: false
+      consumption:
+        targets: []
+        scaling:
+          allowed: false
+          max: ''
+        spellSlot: true
+      description:
+        chatFlavor: ''
+      duration:
+        units: inst
+        concentration: false
+        override: false
+      effects: []
+      range:
+        units: self
+        override: false
+      target:
+        prompt: true
+        template:
+          contiguous: false
+          units: ft
+        affects:
+          choice: false
+        override: false
+      uses:
+        spent: 0
+        max: ''
+        recovery: []
+      roll:
+        formula: ''
+        name: ''
+        prompt: false
+        visible: false
+      sort: 0
+  identifier: unseen-servant
+img: icons/creatures/magical/spirit-undead-horned-blue.webp
+ownership:
+  default: 0
+  38Gfe7fp1EmVmZNj: 3
+flags:
+  plutonium:
+    page: spells.html
+    source: PHB
+    hash: unseen%20servant_phb
+    propDroppable: spell
+  dnd5e:
+    persistSourceMigration: true
+    riders:
+      activity: []
+      effect: []
+effects: []
+folder: 7LJJqiLuL1YQyknL
+_id: Id6tON4VAv7y09ps
+sort: 0
+_stats:
+  systemId: dnd5e
+  systemVersion: 5.0.4
+  coreVersion: '13.346'
+  createdTime: 1708109345456
+  modifiedTime: 1752197371435
+  lastModifiedBy: 1pY4akW8WASxGBbA
+  compendiumSource: null
+  duplicateSource: null
+  exportSource: null
+_key: '!items!Id6tON4VAv7y09ps'

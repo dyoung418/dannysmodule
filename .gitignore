@@ -1,0 +1,7 @@
+.vscode/
+.claude/
+dannysmodule.lock
+node_modules/
+
+# LevelDB runtime artifacts — rebuild with `npm run build`
+packs/*/

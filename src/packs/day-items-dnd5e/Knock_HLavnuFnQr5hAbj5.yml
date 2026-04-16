@@ -1,0 +1,109 @@
+name: Knock
+type: spell
+system:
+  source:
+    custom: ''
+    book: PHB
+    page: '254'
+    license: ''
+  description:
+    value: >-
+      <div class="rd__b  rd__b--3"><p>Choose an object that you can see within
+      range. The object can be a door, a box, a @item[chest|phb], a set of
+      @item[manacles|phb], a padlock, or another object that contains a mundane
+      or magical means that prevents access.</p><div
+      class="rd__spc-inline-post"></div><p>A target that is held shut by a
+      mundane lock or that is stuck or barred becomes unlocked, unstuck, or
+      unbarred. If the object has multiple locks, only one of them is
+      unlocked.</p><p>If you choose a target that is held shut with
+      @spell[arcane lock], that spell is suppressed for 10 minutes, during which
+      time the target can be opened and shut normally.</p><p>When you cast the
+      spell, a loud knock, audible from as far away as 300 feet, emanates from
+      the target object.</p></div><div><span class="bold">Classes: </span>Bard,
+      Sorcerer, Wizard</div>
+    chat: ''
+  actionType: util
+  level: 2
+  school: trs
+  properties:
+    - vocal
+  materials:
+    value: ''
+    consumed: false
+    cost: 0
+    supply: 0
+  target:
+    value: 1
+    units: ''
+    type: object
+    prompt: true
+    width: null
+  range:
+    value: 60
+    units: ft
+    long: null
+  activation:
+    type: action
+    cost: 1
+    condition: ''
+  duration:
+    value: ''
+    units: inst
+  damage:
+    parts: []
+    versatile: ''
+  scaling:
+    mode: none
+    formula: ''
+  save:
+    dc: null
+    scaling: spell
+    ability: ''
+  uses:
+    value: null
+    max: ''
+    per: null
+    recovery: ''
+    prompt: true
+  attackBonus: ''
+  chatFlavor: ''
+  critical:
+    threshold: null
+    damage: ''
+  formula: ''
+  preparation:
+    mode: prepared
+    prepared: false
+  consume:
+    type: ''
+    target: null
+    amount: null
+    scale: false
+  cover: null
+  crewed: false
+  ability: null
+img: icons/sundries/misc/key-short-red.webp
+ownership:
+  default: 0
+  38Gfe7fp1EmVmZNj: 3
+flags:
+  plutonium:
+    page: spells.html
+    source: PHB
+    hash: knock_phb
+    propDroppable: spell
+effects: []
+folder: oYyVYQLZDhEzl37h
+_id: HLavnuFnQr5hAbj5
+sort: 0
+_stats:
+  systemId: dnd5e
+  systemVersion: 3.0.2
+  coreVersion: '13.345'
+  createdTime: 1708228997775
+  modifiedTime: 1708229050063
+  lastModifiedBy: 38Gfe7fp1EmVmZNj
+  compendiumSource: null
+  duplicateSource: null
+  exportSource: null
+_key: '!items!HLavnuFnQr5hAbj5'

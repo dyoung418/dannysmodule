@@ -1,0 +1,115 @@
+name: Delerium Orb
+type: spell
+system:
+  source:
+    custom: ''
+    book: DoDk
+    page: '227'
+    license: ''
+  description:
+    value: >-
+      <div class="rd__b  rd__b--3"><p>When you cast this spell, you gain one <a
+      href="https://5etools-mirror-2.github.io/adventure.html#DoDk,12">level of
+      contamination</a>. You draw chaotic magical power from the delerium
+      fragment held in your hand, and blast a creature you can see within range
+      with paradoxical power. Choose one ability score, then choose cold, fire,
+      lightning, necrotic, psychic, or radiant damage. The target must succeed
+      on a saving throw using the chosen ability score; it takes [[/r 6d6]]
+      damage of the chosen type on a failed saving throw, or half as much on a
+      successful one.</p><div class="rd__spc-inline-post"></div></div><div
+      class="rd__b  rd__b--3"><div class="rd__b  rd__b--3"><span class="rd__h
+      rd__h--3" data-title-index="1"> <span class="entry-title-inner">At Higher
+      Levels.</span></span> <p>When you cast this spell using a spell slot of
+      2nd level or higher, the damage increases by [[/r 2d6]] for each slot
+      level above 1st.</p><div class="rd__spc-inline-post"></div></div><div
+      class="rd__spc-inline-post"></div></div>
+    chat: ''
+  actionType: util
+  level: 1
+  school: evo
+  properties:
+    - vocal
+    - somatic
+    - material
+  materials:
+    value: a delerium fragment worth 100 gp, which the spell consumes
+    consumed: true
+    cost: 100
+    supply: 0
+  target:
+    value: 0
+    units: ''
+    type: ''
+    prompt: true
+    width: null
+  range:
+    value: 120
+    units: ft
+    long: null
+  activation:
+    type: action
+    cost: 1
+    condition: ''
+  duration:
+    value: ''
+    units: inst
+  damage:
+    parts:
+      - - 6d6
+        - ''
+    versatile: ''
+  scaling:
+    mode: none
+    formula: ''
+  save:
+    dc: null
+    scaling: spell
+    ability: ''
+  uses:
+    value: null
+    max: ''
+    per: null
+    recovery: ''
+    prompt: true
+  attackBonus: ''
+  chatFlavor: ''
+  critical:
+    threshold: null
+    damage: ''
+  formula: ''
+  preparation:
+    mode: prepared
+    prepared: false
+  consume:
+    type: ''
+    target: null
+    amount: null
+    scale: false
+  cover: null
+  crewed: false
+  ability: null
+img: icons/magic/fire/projectile-fireball-orange-yellow.webp
+ownership:
+  default: 0
+  38Gfe7fp1EmVmZNj: 3
+flags:
+  plutonium:
+    page: spells.html
+    source: DoDk
+    hash: delerium%20orb_dodk
+    propDroppable: spell
+effects: []
+folder: fZniKrFWFeIkKPkT
+_id: XPcnCKhN05Bbtaxf
+sort: 0
+_stats:
+  systemId: dnd5e
+  systemVersion: 3.0.2
+  coreVersion: '13.345'
+  createdTime: 1708109344859
+  modifiedTime: 1708227413053
+  lastModifiedBy: 38Gfe7fp1EmVmZNj
+  compendiumSource: null
+  duplicateSource: null
+  exportSource: null
+_key: '!items!XPcnCKhN05Bbtaxf'

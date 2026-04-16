@@ -1,0 +1,72 @@
+folder: 0BxmixOCuUUNHkjf
+img: systems/pf2e/icons/default-icons/campaignFeature.svg
+name: Recover Army (DAY)
+system:
+  description:
+    gm: ''
+    value: >-
+      <p>When an army endures ill fortune, it can become afflicted by negative
+      conditions. You can use the Recover Army activity to work at removing an
+      affliction with a basic skill check (this DC increases by 5 if you are
+      attempting to Recover from the defeated condition); the skill required for
+      the check depends on the affliction (see the
+      @UUID[JournalEntry.8od8x059aTxKGp70.JournalEntryPage.AWwX5QFI2Yb8a8aj]{table
+      on page 569}).</p><hr /><p><strong>Critical Success</strong> You reduce
+      the affliction's value by 2 (or in the case of a damaged army, increase
+      its HP by 2 up to its maximum). If the affliction does not have a value,
+      it is removed.</p><p><strong>Success</strong> As critical success but you
+      reduce the affliction's value by 1 (or in the case of a damaged army,
+      increase its HP by 1 up to its maximum).</p><p><strong>Failure</strong>
+      You fail to remove the affliction.</p><p><strong>Critical Failure</strong>
+      You fail to remove the affliction and your soldier's lowered morale
+      spreads discontent; increase Unrest by 1. If you were attempting to
+      recover a defeated army, the army is destroyed.</p>
+  rules: []
+  slug: recover-army
+  _migration:
+    version: 0.94
+    previous:
+      schema: 0.939
+      foundry: '13.345'
+      system: 7.2.0
+  traits:
+    otherTags: []
+    value:
+      - army
+      - downtime
+  publication:
+    title: Pathfinder Kingmaker
+    authors: ''
+    license: OGL
+    remaster: false
+  campaign: kingmaker
+  category: kingdom-activity
+  actionType:
+    value: passive
+  actions:
+    value: null
+  prerequisites:
+    value: []
+  location: null
+  level:
+    value: 1
+type: campaignFeature
+_stats:
+  compendiumSource: Compendium.pf2e.kingmaker-features.Item.1wzNJEvPCuMwJdHe
+  duplicateSource: null
+  coreVersion: '13.346'
+  systemId: pf2e
+  systemVersion: 7.2.3
+  createdTime: 1719728560488
+  modifiedTime: 1752208111692
+  lastModifiedBy: txZjek5EOiCBHPoz
+  exportSource: null
+flags:
+  core: {}
+effects: []
+_id: moNpOszfr6w5e8pL
+sort: 0
+ownership:
+  default: 0
+  txZjek5EOiCBHPoz: 3
+_key: '!items!moNpOszfr6w5e8pL'

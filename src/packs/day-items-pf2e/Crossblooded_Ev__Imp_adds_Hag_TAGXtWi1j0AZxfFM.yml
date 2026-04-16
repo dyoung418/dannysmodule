@@ -1,0 +1,90 @@
+folder: null
+name: 'Crossblooded Ev: Imp adds Hag'
+type: feat
+effects: []
+system:
+  description:
+    gm: ''
+    value: ''
+  rules:
+    - itemType: spell
+      key: ItemAlteration
+      mode: add
+      predicate:
+        - class:sorcerer
+        - or:
+            - item:tag:ancestral-spell
+            - and:
+                - item:trait:focus
+                - item:trait:sorcerer
+            - and:
+                - item:spell-slot
+                - spellcasting:category:spontaneous
+                - spellcasting:tradition:arcane
+                - or:
+                    - item:slug:force-barrage
+                    - item:slug:dispel-magic
+                    - item:slug:haste
+                    - item:slug:translocate
+                    - item:slug:scouting-eye
+                    - item:slug:disintegrate
+                    - item:slug:retrocognition
+                    - item:slug:quandary
+                    - item:slug:implosion
+      property: description
+      value:
+        - text: PF2E.SpecificRule.Sorcerer.Bloodline.BloodMagicDescription.Hag
+          title: PF2E.SpecificRule.Sorcerer.Bloodline.BloodMagicDescription.Title
+        - text: >-
+            @UUID[Compendium.pf2e.feat-effects.Item.6fb15XuSV4TNuVAT]{Effect:
+            Hag Blood Magic}
+  slug: null
+  _migration:
+    version: 0.94
+    previous:
+      schema: 0.939
+      foundry: '13.345'
+      system: 7.2.0
+  traits:
+    otherTags: []
+    value: []
+    rarity: common
+  publication:
+    title: ''
+    authors: ''
+    license: OGL
+    remaster: false
+  level:
+    value: 8
+  category: bonus
+  onlyLevel1: false
+  maxTakable: 1
+  actionType:
+    value: passive
+  actions:
+    value: null
+  prerequisites:
+    value: []
+  location: null
+  subfeatures:
+    proficiencies: {}
+    senses: {}
+    suppressedFeatures: []
+_id: TAGXtWi1j0AZxfFM
+img: systems/pf2e/icons/default-icons/feat.svg
+flags: {}
+_stats:
+  compendiumSource: null
+  duplicateSource: null
+  coreVersion: '13.346'
+  systemId: pf2e
+  systemVersion: 7.2.3
+  createdTime: 1722887075046
+  modifiedTime: 1752208111692
+  lastModifiedBy: txZjek5EOiCBHPoz
+  exportSource: null
+sort: 0
+ownership:
+  default: 0
+  txZjek5EOiCBHPoz: 3
+_key: '!items!TAGXtWi1j0AZxfFM'

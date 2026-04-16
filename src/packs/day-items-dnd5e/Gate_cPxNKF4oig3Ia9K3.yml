@@ -1,0 +1,118 @@
+name: Gate
+type: spell
+system:
+  source:
+    custom: ''
+    book: PHB
+    page: '244'
+    license: ''
+  description:
+    value: >-
+      <div class="rd__b  rd__b--3"><p>You conjure a portal linking an unoccupied
+      space you can see within range to a precise location on a different plane
+      of existence. The portal is a circular opening, which you can make 5 to 20
+      feet in diameter. You can orient the portal in any direction you choose.
+      The portal lasts for the duration.</p><div
+      class="rd__spc-inline-post"></div><p>The portal has a front and a back on
+      each plane where it appears. Travel through the portal is possible only by
+      moving through its front. Anything that does so is instantly transported
+      to the other plane, appearing in the unoccupied space nearest to the
+      portal.</p><p>Deities and other planar rulers can prevent portals created
+      by this spell from opening in their presence or anywhere within their
+      domains.</p><p>When you cast this spell, you can speak the name of a
+      specific creature (a pseudonym, title, or nickname doesn't work). If that
+      creature is on a plane other than the one you are on, the portal opens in
+      the named creature's immediate vicinity and draws the creature through it
+      to the nearest unoccupied space on your side of the portal. You gain no
+      special power over the creature, and it is free to act as the DM deems
+      appropriate. It might leave, attack you, or help you.</p></div><div><span
+      class="bold">Classes: </span>Cleric, Sorcerer, Wizard</div>
+    chat: ''
+  actionType: util
+  level: 9
+  school: con
+  properties:
+    - vocal
+    - somatic
+    - material
+    - concentration
+  materials:
+    value: a diamond worth at least 5,000 gp
+    consumed: false
+    cost: 5000
+    supply: 0
+  target:
+    value: 20
+    units: ft
+    type: wall
+    prompt: true
+    width: null
+  range:
+    value: 60
+    units: ft
+    long: null
+  activation:
+    type: action
+    cost: 1
+    condition: ''
+  duration:
+    value: '1'
+    units: minute
+  damage:
+    parts: []
+    versatile: ''
+  scaling:
+    mode: none
+    formula: ''
+  save:
+    dc: null
+    scaling: spell
+    ability: ''
+  uses:
+    value: null
+    max: ''
+    per: null
+    recovery: ''
+    prompt: true
+  attackBonus: ''
+  chatFlavor: ''
+  critical:
+    threshold: null
+    damage: ''
+  formula: ''
+  preparation:
+    mode: prepared
+    prepared: false
+  consume:
+    type: ''
+    target: null
+    amount: null
+    scale: false
+  cover: null
+  crewed: false
+  ability: null
+img: icons/magic/lightning/bolt-strike-explosion-purple.webp
+ownership:
+  default: 0
+  38Gfe7fp1EmVmZNj: 3
+flags:
+  plutonium:
+    page: spells.html
+    source: PHB
+    hash: gate_phb
+    propDroppable: spell
+effects: []
+folder: Z2RJ9nPXEKDgbS5x
+_id: cPxNKF4oig3Ia9K3
+sort: 0
+_stats:
+  systemId: dnd5e
+  systemVersion: 3.0.2
+  coreVersion: '13.345'
+  createdTime: 1708109345207
+  modifiedTime: 1708227413053
+  lastModifiedBy: 38Gfe7fp1EmVmZNj
+  compendiumSource: null
+  duplicateSource: null
+  exportSource: null
+_key: '!items!cPxNKF4oig3Ia9K3'

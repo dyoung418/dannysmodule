@@ -1,0 +1,101 @@
+folder: 1XrfuqzpstOwCTFI
+name: Manipulate Badge Counter
+type: script
+_id: rGB7Rnxh2ghEWemu
+author: txZjek5EOiCBHPoz
+img: icons/svg/acid.svg
+scope: global
+command: >-
+  // Auto manipulate badge counter of an effect each turn start or end.
+
+  // Examples are decrease by one on turn end, or reset to initial value on turn
+  start.
+
+  // Author: @xyzzy42
+
+  //
+
+  // Set effectSlug to the effect's slug, which can be found and set in the
+
+  // "Rules" pane of the effect.
+
+  const effectSlug = 'spell-effect-slug-goes-here';
+
+
+  // What to do:
+
+  // reset:  Reset to start value from the original effect
+
+  // decrement: Decrease by 1 (note that effects go away if the counter drops
+  below their defined limit, usually 1)
+
+  // increment: Increase by 1 (if the effect has a configured counter max value,
+  it applies)
+
+  const what = "decrement";
+
+
+  // When to do action, startTurn or endTurn
+
+  const when = "endTurn";
+
+
+  const op = {
+    reset: { act: resetCount, check: async (e) => e.flags.core?.sourceId && (await fromUuid(e.flags.core.sourceId))?.system.badge?.value !== undefined },
+    decrement: { act: (actor, effect) => effect.update({"system.badge.value": effect.system.badge.value-1}) },
+    increment: { act: (actor, effect) => effect.update({"system.badge.value": effect.system.badge.value+1}) },
+  }[what];
+
+
+  if (!actor) {
+    ui.notifications.error("Please select an actor");
+  }
+
+
+  // Reset counter to start value from origin effect
+
+  async function resetCount(actor, effect) {
+    const source = await fromUuid(effect.flags.core.sourceId);
+    if (effect.system.badge?.value !== source.system.badge?.value) {
+      effect.update({"system.badge.value": source.system.badge.value});
+    }
+  }
+
+
+  const effect = actor.itemTypes.effect.find(e => e.slug === effectSlug);
+
+  if (effect) {
+    if (effect.system.badge?.type !== "counter" || (op.check && !await op.check(effect))) {
+      ui.notifications.error(`Effect ${effect.name} does not have a suitable counter`);
+      return;
+    }
+    const effectId = effect.id;
+    const hook = async (combatant, encounter, userId) => {
+      if (combatant.actor === actor) {
+        const effect = actor.items.get(effectId);
+        if (!effect) return; // Don't rehook, effect is gone
+        await op.act(actor, effect);        
+      }
+      Hooks.once(`pf2e.${when}`, hook);
+    };
+    ui.notifications.info(`Perform auto count ${what} for ${effect.name} at ${when}`);
+    Hooks.once(`pf2e.${when}`, hook);
+  } else {
+    ui.notifications.error(`Actor ${actor.name} has no effect with slug ${effectSlug}`);
+  }
+flags: {}
+_stats:
+  compendiumSource: null
+  duplicateSource: null
+  coreVersion: '13.346'
+  systemId: pf2e
+  systemVersion: 6.2.0
+  createdTime: 1722818669753
+  modifiedTime: 1752208126881
+  lastModifiedBy: txZjek5EOiCBHPoz
+  exportSource: null
+sort: 0
+ownership:
+  default: 0
+  txZjek5EOiCBHPoz: 3
+_key: '!macros!rGB7Rnxh2ghEWemu'
