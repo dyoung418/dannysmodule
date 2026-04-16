@@ -1,5 +1,10 @@
 
 
+## [v1.1.0] - 2026-04-16
+### :bug: Bug Fixes
+- [`c6bb9b5`](https://github.com/dyoung418/dannysmodule/commit/c6bb9b5d4991502293c550787b73473bfd6ae8cc) - build LevelDB packs from YAML in CI before zipping release *(commit by [@dyoung418](https://github.com/dyoung418))*
+
+
 ## [v1.0.20] - 2025-07-11
 ### :sparkles: New Features
 - [`d0e250f`](https://github.com/dyoung418/dannysmodule/commit/d0e250f365789743c212b49e5cdd6f209a09ede2) - added scenes and a dnd PC fix: added canEdit flag to module.json *(commit by [@dyoung418](https://github.com/dyoung418))*
@@ -98,3 +103,4 @@
 [v1.0.17]: https://github.com/dyoung418/dannysmodule/compare/v1.0.16...v1.0.17
 [v1.0.19]: https://github.com/dyoung418/dannysmodule/compare/v1.0.18...v1.0.19
 [v1.0.20]: https://github.com/dyoung418/dannysmodule/compare/v1.0.19...v1.0.20
+[v1.1.0]: https://github.com/dyoung418/dannysmodule/compare/v1.0.21...v1.1.0
