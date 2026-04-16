@@ -115,6 +115,19 @@ jobs:
           DOWNLOAD: ${{ env.release_module_url }}
 
 
+      # Build LevelDB packs from YAML source files so they can be included in the release zip.
+      - name: Set Up Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: '22'
+          cache: 'npm'
+
+      - name: Install Dependencies
+        run: npm ci
+
+      - name: Build Packs From YAML Source
+        run: npm run build
+
       # Create a "module.zip" archive containing all the module's required files.
       # If you have other directories or files that will need to be added to
       # your packaged module, add them here.
