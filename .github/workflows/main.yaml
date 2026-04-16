@@ -34,6 +34,8 @@ name: Create Module Files For GitHub Release
 
 
 env:
+  FORCE_JAVASCRIPT_ACTIONS_TO_NODE24: true
+
   # The URL used for the module's "Project URL" link on FoundryVTT's website.
   project_url: "https://github.com/${{github.repository}}"
 
