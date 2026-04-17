@@ -38,3 +38,4 @@ Use Conventional Commits: `feat:`, `fix:`, `docs:`, `chore:`. Releases are tagge
 - Do not commit anything inside `packs/` — those are LevelDB runtime files
 - Do not commit `node_modules/`
 - Do not manually edit files inside `src/packs/` — edit content in Foundry, then `npm run unpack`
+- Do not do anything in scripts that are OS dependent.
