@@ -1,9 +1,9 @@
 folder: 1LOPSyo3SGiD9SB8
 name: Ocean Estate
 _id: eTLxwrSuru85JqVU
-navigation: true
+navigation: false
 navOrder: 0
-thumb: worlds/14testpath/assets/scenes/thumb-KkUToaw6sw1ITAqFOzagLw.webp
+thumb: worlds/test14path/assets/scenes/thumb-Fe2-nVo7RFJKZBtdpNB7nw.webp
 width: 3696
 height: 4196
 padding: 0.25
@@ -2494,10 +2494,10 @@ regions:
         _stats:
           coreVersion: '14.360'
           systemId: pf2e
-          systemVersion: 8.0.1
-          createdTime: 1776315392550
-          modifiedTime: 1776315392550
-          lastModifiedBy: 30eR7aFdBAa9b9kF
+          systemVersion: 8.0.2
+          createdTime: 1776395843169
+          modifiedTime: 1776395843169
+          lastModifiedBy: BHAmrX4n5zD1mCjc
           compendiumSource: null
           duplicateSource: null
           exportSource: null
@@ -2712,10 +2712,10 @@ regions:
         _stats:
           coreVersion: '14.360'
           systemId: pf2e
-          systemVersion: 8.0.1
-          createdTime: 1776315392551
-          modifiedTime: 1776315392551
-          lastModifiedBy: 30eR7aFdBAa9b9kF
+          systemVersion: 8.0.2
+          createdTime: 1776395843169
+          modifiedTime: 1776395843169
+          lastModifiedBy: BHAmrX4n5zD1mCjc
           compendiumSource: null
           duplicateSource: null
           exportSource: null
@@ -2970,10 +2970,10 @@ regions:
         _stats:
           coreVersion: '14.360'
           systemId: pf2e
-          systemVersion: 8.0.1
-          createdTime: 1776315392552
-          modifiedTime: 1776315392552
-          lastModifiedBy: 30eR7aFdBAa9b9kF
+          systemVersion: 8.0.2
+          createdTime: 1776395843170
+          modifiedTime: 1776395843170
+          lastModifiedBy: BHAmrX4n5zD1mCjc
           compendiumSource: null
           duplicateSource: null
           exportSource: null
@@ -3033,10 +3033,10 @@ regions:
         _stats:
           coreVersion: '14.360'
           systemId: pf2e
-          systemVersion: 8.0.1
-          createdTime: 1776315392552
-          modifiedTime: 1776315392552
-          lastModifiedBy: 30eR7aFdBAa9b9kF
+          systemVersion: 8.0.2
+          createdTime: 1776395843170
+          modifiedTime: 1776395843170
+          lastModifiedBy: BHAmrX4n5zD1mCjc
           compendiumSource: null
           duplicateSource: null
           exportSource: null
@@ -3163,10 +3163,10 @@ regions:
         _stats:
           coreVersion: '14.360'
           systemId: pf2e
-          systemVersion: 8.0.1
-          createdTime: 1776315392553
-          modifiedTime: 1776315392553
-          lastModifiedBy: 30eR7aFdBAa9b9kF
+          systemVersion: 8.0.2
+          createdTime: 1776395843170
+          modifiedTime: 1776395843170
+          lastModifiedBy: BHAmrX4n5zD1mCjc
           compendiumSource: null
           duplicateSource: null
           exportSource: null
@@ -3224,10 +3224,10 @@ regions:
         _stats:
           coreVersion: '14.360'
           systemId: pf2e
-          systemVersion: 8.0.1
-          createdTime: 1776315392553
-          modifiedTime: 1776315392553
-          lastModifiedBy: 30eR7aFdBAa9b9kF
+          systemVersion: 8.0.2
+          createdTime: 1776395843170
+          modifiedTime: 1776395843170
+          lastModifiedBy: BHAmrX4n5zD1mCjc
           compendiumSource: null
           duplicateSource: null
           exportSource: null
@@ -3277,10 +3277,10 @@ regions:
         _stats:
           coreVersion: '14.360'
           systemId: pf2e
-          systemVersion: 8.0.1
-          createdTime: 1776315392553
-          modifiedTime: 1776315392553
-          lastModifiedBy: 30eR7aFdBAa9b9kF
+          systemVersion: 8.0.2
+          createdTime: 1776395843171
+          modifiedTime: 1776395843171
+          lastModifiedBy: BHAmrX4n5zD1mCjc
           compendiumSource: null
           duplicateSource: null
           exportSource: null
@@ -3338,10 +3338,10 @@ regions:
         _stats:
           coreVersion: '14.360'
           systemId: pf2e
-          systemVersion: 8.0.1
-          createdTime: 1776315392554
-          modifiedTime: 1776315392554
-          lastModifiedBy: 30eR7aFdBAa9b9kF
+          systemVersion: 8.0.2
+          createdTime: 1776395843171
+          modifiedTime: 1776395843171
+          lastModifiedBy: BHAmrX4n5zD1mCjc
           compendiumSource: null
           duplicateSource: null
           exportSource: null
@@ -3395,10 +3395,10 @@ regions:
         _stats:
           coreVersion: '14.360'
           systemId: pf2e
-          systemVersion: 8.0.1
-          createdTime: 1776315392554
-          modifiedTime: 1776315392554
-          lastModifiedBy: 30eR7aFdBAa9b9kF
+          systemVersion: 8.0.2
+          createdTime: 1776395843171
+          modifiedTime: 1776395843171
+          lastModifiedBy: BHAmrX4n5zD1mCjc
           compendiumSource: null
           duplicateSource: null
           exportSource: null
@@ -3460,10 +3460,10 @@ regions:
         _stats:
           coreVersion: '14.360'
           systemId: pf2e
-          systemVersion: 8.0.1
-          createdTime: 1776315392554
-          modifiedTime: 1776315392554
-          lastModifiedBy: 30eR7aFdBAa9b9kF
+          systemVersion: 8.0.2
+          createdTime: 1776395843171
+          modifiedTime: 1776395843171
+          lastModifiedBy: BHAmrX4n5zD1mCjc
           compendiumSource: null
           duplicateSource: null
           exportSource: null
@@ -3519,10 +3519,10 @@ regions:
         _stats:
           coreVersion: '14.360'
           systemId: pf2e
-          systemVersion: 8.0.1
-          createdTime: 1776315392555
-          modifiedTime: 1776315392555
-          lastModifiedBy: 30eR7aFdBAa9b9kF
+          systemVersion: 8.0.2
+          createdTime: 1776395843171
+          modifiedTime: 1776395843171
+          lastModifiedBy: BHAmrX4n5zD1mCjc
           compendiumSource: null
           duplicateSource: null
           exportSource: null
@@ -3576,10 +3576,10 @@ regions:
         _stats:
           coreVersion: '14.360'
           systemId: pf2e
-          systemVersion: 8.0.1
-          createdTime: 1776315392555
-          modifiedTime: 1776315392555
-          lastModifiedBy: 30eR7aFdBAa9b9kF
+          systemVersion: 8.0.2
+          createdTime: 1776395843171
+          modifiedTime: 1776395843171
+          lastModifiedBy: BHAmrX4n5zD1mCjc
           compendiumSource: null
           duplicateSource: null
           exportSource: null
@@ -3633,10 +3633,10 @@ regions:
         _stats:
           coreVersion: '14.360'
           systemId: pf2e
-          systemVersion: 8.0.1
-          createdTime: 1776315392555
-          modifiedTime: 1776315392555
-          lastModifiedBy: 30eR7aFdBAa9b9kF
+          systemVersion: 8.0.2
+          createdTime: 1776395843171
+          modifiedTime: 1776395843171
+          lastModifiedBy: BHAmrX4n5zD1mCjc
           compendiumSource: null
           duplicateSource: null
           exportSource: null
@@ -3694,10 +3694,10 @@ regions:
         _stats:
           coreVersion: '14.360'
           systemId: pf2e
-          systemVersion: 8.0.1
-          createdTime: 1776315392556
-          modifiedTime: 1776315392556
-          lastModifiedBy: 30eR7aFdBAa9b9kF
+          systemVersion: 8.0.2
+          createdTime: 1776395843172
+          modifiedTime: 1776395843172
+          lastModifiedBy: BHAmrX4n5zD1mCjc
           compendiumSource: null
           duplicateSource: null
           exportSource: null
@@ -3786,10 +3786,10 @@ regions:
         _stats:
           coreVersion: '14.360'
           systemId: pf2e
-          systemVersion: 8.0.1
-          createdTime: 1776315392536
-          modifiedTime: 1776315392536
-          lastModifiedBy: 30eR7aFdBAa9b9kF
+          systemVersion: 8.0.2
+          createdTime: 1776395843172
+          modifiedTime: 1776395843172
+          lastModifiedBy: BHAmrX4n5zD1mCjc
           compendiumSource: null
           duplicateSource: null
           exportSource: null
@@ -3874,10 +3874,10 @@ regions:
         _stats:
           coreVersion: '14.360'
           systemId: pf2e
-          systemVersion: 8.0.1
-          createdTime: 1776315392536
-          modifiedTime: 1776315392536
-          lastModifiedBy: 30eR7aFdBAa9b9kF
+          systemVersion: 8.0.2
+          createdTime: 1776395843172
+          modifiedTime: 1776395843172
+          lastModifiedBy: BHAmrX4n5zD1mCjc
           compendiumSource: null
           duplicateSource: null
           exportSource: null
@@ -3891,6 +3891,69 @@ regions:
     ownership:
       default: 0
     _key: '!scenes.regions!eTLxwrSuru85JqVU.439SCBfpfN8rzNyg'
+  - name: Stair inner ground to 2nd B
+    _id: 8jZgSYrfFKBAvnsx
+    color: '#28cc76'
+    shapes:
+      - type: polygon
+        points:
+          - 1618.8872405882598
+          - 3098.3957614059773
+          - 1713.4741232374197
+          - 3098.3957614059773
+          - 1714.2400089268867
+          - 2916.114967312859
+          - 1805.763348818179
+          - 2915.7320244681255
+          - 1796.9556633893098
+          - 3197.5779581919383
+          - 1620.03606912246
+          - 3196.0461868130046
+        hole: false
+        origin: null
+    elevation:
+      bottom: 0
+      top: 40
+    levels:
+      - yIRjNOqsHazWDZZK
+      - dViw9SJh4SPObgJi
+    restriction:
+      enabled: false
+      type: move
+      priority: 0
+    attachment:
+      token: null
+    behaviors:
+      - name: Change Level
+        type: changeLevel
+        _id: Y23oINPKCWgyHIA1
+        system: {}
+        disabled: false
+        flags: {}
+        _stats:
+          coreVersion: '14.360'
+          systemId: pf2e
+          systemVersion: 8.0.2
+          createdTime: 1776395843162
+          modifiedTime: 1776395843162
+          lastModifiedBy: BHAmrX4n5zD1mCjc
+          compendiumSource: null
+          duplicateSource: null
+          exportSource: null
+        _key: >-
+          !scenes.regions.behaviors!eTLxwrSuru85JqVU.8jZgSYrfFKBAvnsx.Y23oINPKCWgyHIA1
+    visibility: 4
+    highlightMode: shapes
+    displayMeasurements: false
+    hidden: false
+    locked: false
+    flags:
+      pf2e:
+        areaShape: null
+    _shapeConstraints: null
+    ownership:
+      default: 0
+    _key: '!scenes.regions!eTLxwrSuru85JqVU.8jZgSYrfFKBAvnsx'
 tiles: []
 walls:
   - levels:
@@ -10354,7 +10417,7 @@ walls:
       texture: canvas/doors/large/Door_Large_Wood_Dark_D_2x1.webp
       flip: false
       double: true
-      direction: 1
+      direction: -1
       duration: 750
       strength: 1
     flags: {}
@@ -10391,9 +10454,9 @@ walls:
     flags: {}
     c:
       - 1988
-      - 2950
+      - 2938
       - 1988
-      - 3050
+      - 3075
     _id: 98SBWPL8vMN5lfSX
     doorSound: woodBasic
     _key: '!scenes.walls!eTLxwrSuru85JqVU.98SBWPL8vMN5lfSX'
@@ -10922,7 +10985,7 @@ walls:
     flags: {}
     c:
       - 1600
-      - 3588
+      - 3088
       - 1600
       - 2500
     _id: gy8DgLdHbb3DHJQg
@@ -11155,8 +11218,8 @@ walls:
     animation: null
     flags: {}
     c:
-      - 1704
-      - 3302
+      - 1700
+      - 3075
       - 1707
       - 2901
     _id: EXIY110powGaebIf
@@ -11293,10 +11356,10 @@ walls:
     animation: null
     flags: {}
     c:
-      - 2300
-      - 3113
+      - 2175
+      - 3100
       - 1988
-      - 3113
+      - 3100
     _id: GZokZS2oxZ5YH9LH
     _key: '!scenes.walls!eTLxwrSuru85JqVU.GZokZS2oxZ5YH9LH'
   - levels:
@@ -11342,7 +11405,7 @@ walls:
       - 1988
       - 3113
       - 1988
-      - 3050
+      - 3075
     _id: 6EDWooL0uUDDnSOt
     _key: '!scenes.walls!eTLxwrSuru85JqVU.6EDWooL0uUDDnSOt'
   - levels:
@@ -11363,7 +11426,7 @@ walls:
     flags: {}
     c:
       - 1988
-      - 2950
+      - 2938
       - 1988
       - 2900
     _id: DA4z1elIziHZX20i
@@ -16360,9 +16423,9 @@ walls:
     flags: {}
     c:
       - 2300
-      - 2950
+      - 2938
       - 2300
-      - 3050
+      - 3063
     _id: DFXUGdcHfPJf0NRY
     doorSound: woodBasic
     _key: '!scenes.walls!eTLxwrSuru85JqVU.DFXUGdcHfPJf0NRY'
@@ -16852,7 +16915,7 @@ walls:
     flags: {}
     c:
       - 2300
-      - 2950
+      - 2938
       - 2300
       - 2600
     _id: L1Wh4D14oUf1VvP6
@@ -17176,7 +17239,7 @@ walls:
       - 2300
       - 3388
       - 2300
-      - 3050
+      - 3063
     _id: acTUMEB1BCSVtMou
     _key: '!scenes.walls!eTLxwrSuru85JqVU.acTUMEB1BCSVtMou'
   - levels:
@@ -18467,6 +18530,76 @@ walls:
       - 3200
     _id: RitpQ7J4xw0obVu3
     _key: '!scenes.walls!eTLxwrSuru85JqVU.RitpQ7J4xw0obVu3'
+  - levels:
+      - dViw9SJh4SPObgJi
+    light: 0
+    move: 20
+    sight: 0
+    sound: 0
+    dir: 0
+    door: 0
+    ds: 0
+    threshold:
+      light: null
+      sight: null
+      sound: null
+      attenuation: false
+    animation: null
+    flags: {}
+    c:
+      - 1600
+      - 3213
+      - 1600
+      - 3588
+    _id: 0dYHMXcg50DaskGy
+    _key: '!scenes.walls!eTLxwrSuru85JqVU.0dYHMXcg50DaskGy'
+  - levels:
+      - yIRjNOqsHazWDZZK
+    light: 20
+    move: 20
+    sight: 20
+    sound: 20
+    dir: 0
+    door: 0
+    ds: 0
+    threshold:
+      light: null
+      sight: null
+      sound: null
+      attenuation: false
+    animation: null
+    flags: {}
+    c:
+      - 1700
+      - 3213
+      - 1703
+      - 3303
+    _id: UIAbiQCOa6CTDWBD
+    _key: '!scenes.walls!eTLxwrSuru85JqVU.UIAbiQCOa6CTDWBD'
+  - levels:
+      - yIRjNOqsHazWDZZK
+      - dViw9SJh4SPObgJi
+    light: 0
+    move: 20
+    sight: 0
+    sound: 0
+    dir: 0
+    door: 0
+    ds: 0
+    threshold:
+      light: null
+      sight: null
+      sound: null
+      attenuation: false
+    animation: null
+    flags: {}
+    c:
+      - 1702
+      - 3197
+      - 1813
+      - 3197
+    _id: 0CcY1jqk6nnaDfFb
+    _key: '!scenes.walls!eTLxwrSuru85JqVU.0CcY1jqk6nnaDfFb'
 playlist: null
 playlistSound: null
 journal: null
@@ -18481,10 +18614,10 @@ flags:
 _stats:
   coreVersion: '14.360'
   systemId: pf2e
-  systemVersion: 8.0.1
-  createdTime: 1776315392536
-  modifiedTime: 1776315392536
-  lastModifiedBy: 30eR7aFdBAa9b9kF
+  systemVersion: 8.0.2
+  createdTime: 1776395843162
+  modifiedTime: 1776395843162
+  lastModifiedBy: BHAmrX4n5zD1mCjc
   exportSource: null
   compendiumSource: null
   duplicateSource: null

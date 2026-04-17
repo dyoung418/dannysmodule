@@ -42,6 +42,7 @@ git commit -m "feat: describe what changed"
 After cloning the repo, build the LevelDB packs that Foundry needs:
 
 ```bash
+npm install
 npm run build
 ```
 

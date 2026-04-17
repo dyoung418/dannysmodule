@@ -1,8 +1,8 @@
 name: Small Inn
 _id: xy0S6z1GuWhdUmCF
-navigation: true
+navigation: false
 navOrder: 0
-thumb: worlds/14testpath/assets/scenes/thumb-FXcLf9DW-_cDCHNkqy-JhA.webp
+thumb: worlds/test14path/assets/scenes/thumb-xY99QcVYqtOnCF4iWSYn0A.webp
 width: 4000
 height: 3000
 padding: 0.25
@@ -1215,10 +1215,10 @@ regions:
         _stats:
           coreVersion: '14.360'
           systemId: pf2e
-          systemVersion: 8.0.1
-          createdTime: 1776315392631
-          modifiedTime: 1776315392631
-          lastModifiedBy: 30eR7aFdBAa9b9kF
+          systemVersion: 8.0.2
+          createdTime: 1776395843211
+          modifiedTime: 1776395843211
+          lastModifiedBy: BHAmrX4n5zD1mCjc
           compendiumSource: null
           duplicateSource: null
           exportSource: null
@@ -3085,10 +3085,10 @@ flags:
 _stats:
   coreVersion: '14.360'
   systemId: pf2e
-  systemVersion: 8.0.1
-  createdTime: 1776315392626
-  modifiedTime: 1776315392626
-  lastModifiedBy: 30eR7aFdBAa9b9kF
+  systemVersion: 8.0.2
+  createdTime: 1776395843207
+  modifiedTime: 1776395843207
+  lastModifiedBy: BHAmrX4n5zD1mCjc
   exportSource: null
   compendiumSource: null
   duplicateSource: null
