@@ -1,5 +1,16 @@
 
 
+## [v1.1.1] - 2026-04-17
+### :sparkles: New Features
+- [`9346e05`](https://github.com/dyoung418/dannysmodule/commit/9346e055df8613e10fd8b6c04d1790f521d81e4a) - added some stairways to Ocean Estate *(commit by [@dyoung418](https://github.com/dyoung418))*
+
+### :bug: Bug Fixes
+- [`23e819a`](https://github.com/dyoung418/dannysmodule/commit/23e819a677dc015d42120adfd78b0e14d94f2c8c) - Ocean Estate map *(commit by [@dyoung418](https://github.com/dyoung418))*
+
+### :wrench: Chores
+- [`2860337`](https://github.com/dyoung418/dannysmodule/commit/28603375dc82713c268a6239c0493f01a8264008) - opt into Node.js 24 for GitHub Actions to suppress deprecation warnings *(commit by [@dyoung418](https://github.com/dyoung418))*
+
+
 ## [v1.1.0] - 2026-04-16
 ### :bug: Bug Fixes
 - [`c6bb9b5`](https://github.com/dyoung418/dannysmodule/commit/c6bb9b5d4991502293c550787b73473bfd6ae8cc) - build LevelDB packs from YAML in CI before zipping release *(commit by [@dyoung418](https://github.com/dyoung418))*
@@ -104,3 +115,4 @@
 [v1.0.19]: https://github.com/dyoung418/dannysmodule/compare/v1.0.18...v1.0.19
 [v1.0.20]: https://github.com/dyoung418/dannysmodule/compare/v1.0.19...v1.0.20
 [v1.1.0]: https://github.com/dyoung418/dannysmodule/compare/v1.0.21...v1.1.0
+[v1.1.1]: https://github.com/dyoung418/dannysmodule/compare/v1.1.0...v1.1.1
