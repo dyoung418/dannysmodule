@@ -6,7 +6,7 @@ import { join } from "path";
 
 const PACKS_DIR = "packs";
 const OUT_DIR = "src/packs";
-const FVTT_MJS = "./node_modules/@foundryvtt/foundryvtt-cli/index.mjs";
+const FVTT_MJS = "./node_modules/@foundryvtt/foundryvtt-cli/fvtt.mjs";
 
 const packs = readdirSync(PACKS_DIR).filter((name) =>
   statSync(join(PACKS_DIR, name)).isDirectory()

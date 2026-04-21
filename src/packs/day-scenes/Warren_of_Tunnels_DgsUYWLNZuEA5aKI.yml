@@ -1,9 +1,9 @@
 folder: YHCvoQlsDcfwZeEt
 name: Warren of Tunnels
 _id: DgsUYWLNZuEA5aKI
-navigation: true
+navigation: false
 navOrder: 0
-thumb: modules/dannysmodule/assets/scenes/DgsUYWLNZuEA5aKI-thumb.webp
+thumb: worlds/test14path/assets/scenes/thumb-AssY4BSkBn7JsV2ScoBmZg.webp
 width: 4760
 height: 6160
 padding: 0.25
@@ -57,7 +57,7 @@ environment:
     shadows: 0
 drawings:
   - _id: Olxrd9zT3M1aPkgj
-    author: PzJNQ4UpDf2BNFbq
+    author: BHAmrX4n5zD1mCjc
     shape:
       type: p
       width: 323
@@ -126,7 +126,7 @@ drawings:
     levels: []
     _key: '!scenes.drawings!DgsUYWLNZuEA5aKI.Olxrd9zT3M1aPkgj'
   - _id: TILfzMcdsppdD9eD
-    author: PzJNQ4UpDf2BNFbq
+    author: BHAmrX4n5zD1mCjc
     shape:
       type: p
       width: 21
@@ -211,7 +211,7 @@ drawings:
     levels: []
     _key: '!scenes.drawings!DgsUYWLNZuEA5aKI.TILfzMcdsppdD9eD'
   - _id: hpyf5fBUVTpch14V
-    author: PzJNQ4UpDf2BNFbq
+    author: BHAmrX4n5zD1mCjc
     shape:
       type: p
       width: 29
@@ -274,7 +274,7 @@ drawings:
     levels: []
     _key: '!scenes.drawings!DgsUYWLNZuEA5aKI.hpyf5fBUVTpch14V'
   - _id: vS4mKtfsqaZdeV0l
-    author: PzJNQ4UpDf2BNFbq
+    author: BHAmrX4n5zD1mCjc
     shape:
       type: p
       width: 113
@@ -339,7 +339,7 @@ drawings:
     levels: []
     _key: '!scenes.drawings!DgsUYWLNZuEA5aKI.vS4mKtfsqaZdeV0l'
   - _id: lehYawvMHn19KZoz
-    author: PzJNQ4UpDf2BNFbq
+    author: BHAmrX4n5zD1mCjc
     shape:
       type: p
       width: 19
@@ -523,12 +523,12 @@ tokens:
             compendiumSource: null
             duplicateSource: null
             exportSource: null
-            coreVersion: '14.359'
+            coreVersion: '14.360'
             systemId: pf2e
-            systemVersion: 7.2.3
-            lastModifiedBy: null
-            createdTime: null
-            modifiedTime: null
+            systemVersion: 8.0.3
+            lastModifiedBy: BHAmrX4n5zD1mCjc
+            createdTime: 1776753052124
+            modifiedTime: 1776753052124
           effects: []
           folder: null
           sort: 0
@@ -589,12 +589,12 @@ tokens:
             compendiumSource: null
             duplicateSource: null
             exportSource: null
-            coreVersion: '14.359'
+            coreVersion: '14.360'
             systemId: pf2e
-            systemVersion: 7.2.3
-            lastModifiedBy: null
-            createdTime: null
-            modifiedTime: null
+            systemVersion: 8.0.3
+            lastModifiedBy: BHAmrX4n5zD1mCjc
+            createdTime: 1776753052125
+            modifiedTime: 1776753052125
           effects: []
           folder: null
           sort: 0
@@ -619,6 +619,7 @@ tokens:
             traits:
               otherTags: []
               value: []
+              config: {}
             publication:
               title: ''
               authors: ''
@@ -634,6 +635,10 @@ tokens:
             attackEffects:
               value:
                 - grab
+            action: strike
+            area: null
+            range: null
+            subjectToMAP: true
           _id: X6lteRmVzKPr3P02
           img: systems/pf2e/icons/default-icons/melee.svg
           name: Jaws
@@ -646,12 +651,12 @@ tokens:
             compendiumSource: null
             duplicateSource: null
             exportSource: null
-            coreVersion: '14.359'
+            coreVersion: '14.360'
             systemId: pf2e
-            systemVersion: 7.2.3
-            lastModifiedBy: null
-            createdTime: null
-            modifiedTime: null
+            systemVersion: 8.0.3
+            lastModifiedBy: BHAmrX4n5zD1mCjc
+            createdTime: 1776753052125
+            modifiedTime: 1776753052125
           ownership:
             default: 0
           _key: >-
@@ -672,6 +677,7 @@ tokens:
               otherTags: []
               value:
                 - agile
+              config: {}
             publication:
               title: ''
               authors: ''
@@ -687,6 +693,10 @@ tokens:
             attackEffects:
               value:
                 - grab
+            action: strike
+            area: null
+            range: null
+            subjectToMAP: true
           _id: nflrLT1POlEJZu3H
           img: systems/pf2e/icons/default-icons/melee.svg
           name: Claw
@@ -699,12 +709,12 @@ tokens:
             compendiumSource: null
             duplicateSource: null
             exportSource: null
-            coreVersion: '14.359'
+            coreVersion: '14.360'
             systemId: pf2e
-            systemVersion: 7.2.3
-            lastModifiedBy: null
-            createdTime: null
-            modifiedTime: null
+            systemVersion: 8.0.3
+            lastModifiedBy: BHAmrX4n5zD1mCjc
+            createdTime: 1776753052125
+            modifiedTime: 1776753052125
           ownership:
             default: 0
           _key: >-
@@ -748,12 +758,12 @@ tokens:
             compendiumSource: null
             duplicateSource: null
             exportSource: null
-            coreVersion: '14.359'
+            coreVersion: '14.360'
             systemId: pf2e
-            systemVersion: 7.2.3
-            lastModifiedBy: null
-            createdTime: null
-            modifiedTime: null
+            systemVersion: 8.0.3
+            lastModifiedBy: BHAmrX4n5zD1mCjc
+            createdTime: 1776753052125
+            modifiedTime: 1776753052125
           ownership:
             default: 0
           _key: >-
@@ -797,12 +807,12 @@ tokens:
             compendiumSource: null
             duplicateSource: null
             exportSource: null
-            coreVersion: '14.359'
+            coreVersion: '14.360'
             systemId: pf2e
-            systemVersion: 7.2.3
-            lastModifiedBy: null
-            createdTime: null
-            modifiedTime: null
+            systemVersion: 8.0.3
+            lastModifiedBy: BHAmrX4n5zD1mCjc
+            createdTime: 1776753052125
+            modifiedTime: 1776753052125
           ownership:
             default: 0
           _key: >-
@@ -819,7 +829,7 @@ tokens:
               value: >-
                 <p><strong>Trigger</strong> The monster is reduced to 0 HP.</p>
 
-                <hr />
+                <hr>
 
                 <p><strong>Effect</strong> The monster avoids being knocked out
                 and remains at 1 HP, but its
@@ -856,12 +866,12 @@ tokens:
             compendiumSource: null
             duplicateSource: null
             exportSource: null
-            coreVersion: '14.359'
+            coreVersion: '14.360'
             systemId: pf2e
-            systemVersion: 7.2.3
-            lastModifiedBy: null
-            createdTime: null
-            modifiedTime: null
+            systemVersion: 8.0.3
+            lastModifiedBy: BHAmrX4n5zD1mCjc
+            createdTime: 1776753052125
+            modifiedTime: 1776753052125
           ownership:
             default: 0
           _key: >-
@@ -922,12 +932,12 @@ tokens:
             compendiumSource: null
             duplicateSource: null
             exportSource: null
-            coreVersion: '14.359'
+            coreVersion: '14.360'
             systemId: pf2e
-            systemVersion: 7.2.3
-            lastModifiedBy: null
-            createdTime: null
-            modifiedTime: null
+            systemVersion: 8.0.3
+            lastModifiedBy: BHAmrX4n5zD1mCjc
+            createdTime: 1776753052125
+            modifiedTime: 1776753052125
           ownership:
             default: 0
           _key: >-
@@ -978,12 +988,12 @@ tokens:
             compendiumSource: null
             duplicateSource: null
             exportSource: null
-            coreVersion: '14.359'
+            coreVersion: '14.360'
             systemId: pf2e
-            systemVersion: 7.2.3
-            lastModifiedBy: null
-            createdTime: null
-            modifiedTime: null
+            systemVersion: 8.0.3
+            lastModifiedBy: BHAmrX4n5zD1mCjc
+            createdTime: 1776753052125
+            modifiedTime: 1776753052125
           ownership:
             default: 0
           _key: >-
@@ -1036,12 +1046,12 @@ tokens:
             compendiumSource: null
             duplicateSource: null
             exportSource: null
-            coreVersion: '14.359'
+            coreVersion: '14.360'
             systemId: pf2e
-            systemVersion: 7.2.3
-            lastModifiedBy: null
-            createdTime: null
-            modifiedTime: null
+            systemVersion: 8.0.3
+            lastModifiedBy: BHAmrX4n5zD1mCjc
+            createdTime: 1776753052125
+            modifiedTime: 1776753052125
           ownership:
             default: 0
           _key: >-
@@ -1088,12 +1098,12 @@ tokens:
             compendiumSource: null
             duplicateSource: null
             exportSource: null
-            coreVersion: '14.359'
+            coreVersion: '14.360'
             systemId: pf2e
-            systemVersion: 7.2.3
-            lastModifiedBy: null
-            createdTime: null
-            modifiedTime: null
+            systemVersion: 8.0.3
+            lastModifiedBy: BHAmrX4n5zD1mCjc
+            createdTime: 1776753052125
+            modifiedTime: 1776753052125
           ownership:
             default: 0
           _key: >-
@@ -1137,12 +1147,12 @@ tokens:
             compendiumSource: null
             duplicateSource: null
             exportSource: null
-            coreVersion: '14.359'
+            coreVersion: '14.360'
             systemId: pf2e
-            systemVersion: 7.2.3
-            lastModifiedBy: null
-            createdTime: null
-            modifiedTime: null
+            systemVersion: 8.0.3
+            lastModifiedBy: BHAmrX4n5zD1mCjc
+            createdTime: 1776753052125
+            modifiedTime: 1776753052125
           ownership:
             default: 0
           _key: >-
@@ -1306,12 +1316,12 @@ tokens:
             compendiumSource: null
             duplicateSource: null
             exportSource: null
-            coreVersion: '14.359'
+            coreVersion: '14.360'
             systemId: pf2e
-            systemVersion: 7.2.3
-            lastModifiedBy: null
-            createdTime: null
-            modifiedTime: null
+            systemVersion: 8.0.3
+            lastModifiedBy: BHAmrX4n5zD1mCjc
+            createdTime: 1776753052127
+            modifiedTime: 1776753052127
           effects: []
           folder: null
           sort: 0
@@ -1372,12 +1382,12 @@ tokens:
             compendiumSource: null
             duplicateSource: null
             exportSource: null
-            coreVersion: '14.359'
+            coreVersion: '14.360'
             systemId: pf2e
-            systemVersion: 7.2.3
-            lastModifiedBy: null
-            createdTime: null
-            modifiedTime: null
+            systemVersion: 8.0.3
+            lastModifiedBy: BHAmrX4n5zD1mCjc
+            createdTime: 1776753052127
+            modifiedTime: 1776753052127
           effects: []
           folder: null
           sort: 0
@@ -1402,6 +1412,7 @@ tokens:
             traits:
               otherTags: []
               value: []
+              config: {}
             publication:
               title: ''
               authors: ''
@@ -1417,6 +1428,10 @@ tokens:
             attackEffects:
               value:
                 - grab
+            action: strike
+            area: null
+            range: null
+            subjectToMAP: true
           _id: X6lteRmVzKPr3P02
           img: systems/pf2e/icons/default-icons/melee.svg
           name: Jaws
@@ -1429,12 +1444,12 @@ tokens:
             compendiumSource: null
             duplicateSource: null
             exportSource: null
-            coreVersion: '14.359'
+            coreVersion: '14.360'
             systemId: pf2e
-            systemVersion: 7.2.3
-            lastModifiedBy: null
-            createdTime: null
-            modifiedTime: null
+            systemVersion: 8.0.3
+            lastModifiedBy: BHAmrX4n5zD1mCjc
+            createdTime: 1776753052127
+            modifiedTime: 1776753052127
           ownership:
             default: 0
           _key: >-
@@ -1455,6 +1470,7 @@ tokens:
               otherTags: []
               value:
                 - agile
+              config: {}
             publication:
               title: ''
               authors: ''
@@ -1470,6 +1486,10 @@ tokens:
             attackEffects:
               value:
                 - grab
+            action: strike
+            area: null
+            range: null
+            subjectToMAP: true
           _id: nflrLT1POlEJZu3H
           img: systems/pf2e/icons/default-icons/melee.svg
           name: Claw
@@ -1482,12 +1502,12 @@ tokens:
             compendiumSource: null
             duplicateSource: null
             exportSource: null
-            coreVersion: '14.359'
+            coreVersion: '14.360'
             systemId: pf2e
-            systemVersion: 7.2.3
-            lastModifiedBy: null
-            createdTime: null
-            modifiedTime: null
+            systemVersion: 8.0.3
+            lastModifiedBy: BHAmrX4n5zD1mCjc
+            createdTime: 1776753052127
+            modifiedTime: 1776753052127
           ownership:
             default: 0
           _key: >-
@@ -1531,12 +1551,12 @@ tokens:
             compendiumSource: null
             duplicateSource: null
             exportSource: null
-            coreVersion: '14.359'
+            coreVersion: '14.360'
             systemId: pf2e
-            systemVersion: 7.2.3
-            lastModifiedBy: null
-            createdTime: null
-            modifiedTime: null
+            systemVersion: 8.0.3
+            lastModifiedBy: BHAmrX4n5zD1mCjc
+            createdTime: 1776753052128
+            modifiedTime: 1776753052128
           ownership:
             default: 0
           _key: >-
@@ -1580,12 +1600,12 @@ tokens:
             compendiumSource: null
             duplicateSource: null
             exportSource: null
-            coreVersion: '14.359'
+            coreVersion: '14.360'
             systemId: pf2e
-            systemVersion: 7.2.3
-            lastModifiedBy: null
-            createdTime: null
-            modifiedTime: null
+            systemVersion: 8.0.3
+            lastModifiedBy: BHAmrX4n5zD1mCjc
+            createdTime: 1776753052128
+            modifiedTime: 1776753052128
           ownership:
             default: 0
           _key: >-
@@ -1602,7 +1622,7 @@ tokens:
               value: >-
                 <p><strong>Trigger</strong> The monster is reduced to 0 HP.</p>
 
-                <hr />
+                <hr>
 
                 <p><strong>Effect</strong> The monster avoids being knocked out
                 and remains at 1 HP, but its
@@ -1639,12 +1659,12 @@ tokens:
             compendiumSource: null
             duplicateSource: null
             exportSource: null
-            coreVersion: '14.359'
+            coreVersion: '14.360'
             systemId: pf2e
-            systemVersion: 7.2.3
-            lastModifiedBy: null
-            createdTime: null
-            modifiedTime: null
+            systemVersion: 8.0.3
+            lastModifiedBy: BHAmrX4n5zD1mCjc
+            createdTime: 1776753052128
+            modifiedTime: 1776753052128
           ownership:
             default: 0
           _key: >-
@@ -1705,12 +1725,12 @@ tokens:
             compendiumSource: null
             duplicateSource: null
             exportSource: null
-            coreVersion: '14.359'
+            coreVersion: '14.360'
             systemId: pf2e
-            systemVersion: 7.2.3
-            lastModifiedBy: null
-            createdTime: null
-            modifiedTime: null
+            systemVersion: 8.0.3
+            lastModifiedBy: BHAmrX4n5zD1mCjc
+            createdTime: 1776753052128
+            modifiedTime: 1776753052128
           ownership:
             default: 0
           _key: >-
@@ -1761,12 +1781,12 @@ tokens:
             compendiumSource: null
             duplicateSource: null
             exportSource: null
-            coreVersion: '14.359'
+            coreVersion: '14.360'
             systemId: pf2e
-            systemVersion: 7.2.3
-            lastModifiedBy: null
-            createdTime: null
-            modifiedTime: null
+            systemVersion: 8.0.3
+            lastModifiedBy: BHAmrX4n5zD1mCjc
+            createdTime: 1776753052128
+            modifiedTime: 1776753052128
           ownership:
             default: 0
           _key: >-
@@ -1819,12 +1839,12 @@ tokens:
             compendiumSource: null
             duplicateSource: null
             exportSource: null
-            coreVersion: '14.359'
+            coreVersion: '14.360'
             systemId: pf2e
-            systemVersion: 7.2.3
-            lastModifiedBy: null
-            createdTime: null
-            modifiedTime: null
+            systemVersion: 8.0.3
+            lastModifiedBy: BHAmrX4n5zD1mCjc
+            createdTime: 1776753052128
+            modifiedTime: 1776753052128
           ownership:
             default: 0
           _key: >-
@@ -1871,12 +1891,12 @@ tokens:
             compendiumSource: null
             duplicateSource: null
             exportSource: null
-            coreVersion: '14.359'
+            coreVersion: '14.360'
             systemId: pf2e
-            systemVersion: 7.2.3
-            lastModifiedBy: null
-            createdTime: null
-            modifiedTime: null
+            systemVersion: 8.0.3
+            lastModifiedBy: BHAmrX4n5zD1mCjc
+            createdTime: 1776753052128
+            modifiedTime: 1776753052128
           ownership:
             default: 0
           _key: >-
@@ -1920,12 +1940,12 @@ tokens:
             compendiumSource: null
             duplicateSource: null
             exportSource: null
-            coreVersion: '14.359'
+            coreVersion: '14.360'
             systemId: pf2e
-            systemVersion: 7.2.3
-            lastModifiedBy: null
-            createdTime: null
-            modifiedTime: null
+            systemVersion: 8.0.3
+            lastModifiedBy: BHAmrX4n5zD1mCjc
+            createdTime: 1776753052128
+            modifiedTime: 1776753052128
           ownership:
             default: 0
           _key: >-
@@ -1942,7 +1962,8 @@ tokens:
     elevation: 0
     locked: false
     _movementHistory: []
-    _regions: []
+    _regions:
+      - QYYu0e84fLP9XCvL
     depth: 1
     level: defaultLevel0000
     _key: '!scenes.tokens!DgsUYWLNZuEA5aKI.WE4myePdZzseCd9E'
@@ -2092,12 +2113,12 @@ tokens:
             compendiumSource: null
             duplicateSource: null
             exportSource: null
-            coreVersion: '14.359'
+            coreVersion: '14.360'
             systemId: pf2e
-            systemVersion: 7.2.3
-            lastModifiedBy: null
-            createdTime: null
-            modifiedTime: null
+            systemVersion: 8.0.3
+            lastModifiedBy: BHAmrX4n5zD1mCjc
+            createdTime: 1776753052131
+            modifiedTime: 1776753052131
           effects: []
           folder: null
           sort: 0
@@ -2161,12 +2182,12 @@ tokens:
             compendiumSource: null
             duplicateSource: null
             exportSource: null
-            coreVersion: '14.359'
+            coreVersion: '14.360'
             systemId: pf2e
-            systemVersion: 7.2.3
-            lastModifiedBy: null
-            createdTime: null
-            modifiedTime: null
+            systemVersion: 8.0.3
+            lastModifiedBy: BHAmrX4n5zD1mCjc
+            createdTime: 1776753052131
+            modifiedTime: 1776753052131
           effects: []
           folder: null
           sort: 0
@@ -2227,12 +2248,12 @@ tokens:
             compendiumSource: null
             duplicateSource: null
             exportSource: null
-            coreVersion: '14.359'
+            coreVersion: '14.360'
             systemId: pf2e
-            systemVersion: 7.2.3
-            lastModifiedBy: null
-            createdTime: null
-            modifiedTime: null
+            systemVersion: 8.0.3
+            lastModifiedBy: BHAmrX4n5zD1mCjc
+            createdTime: 1776753052131
+            modifiedTime: 1776753052131
           effects: []
           folder: null
           sort: 0
@@ -2257,6 +2278,7 @@ tokens:
             traits:
               otherTags: []
               value: []
+              config: {}
             publication:
               title: ''
               authors: ''
@@ -2272,6 +2294,10 @@ tokens:
             attackEffects:
               value:
                 - grab
+            action: strike
+            area: null
+            range: null
+            subjectToMAP: true
           _id: X6lteRmVzKPr3P02
           img: systems/pf2e/icons/default-icons/melee.svg
           name: Jaws
@@ -2284,12 +2310,12 @@ tokens:
             compendiumSource: null
             duplicateSource: null
             exportSource: null
-            coreVersion: '14.359'
+            coreVersion: '14.360'
             systemId: pf2e
-            systemVersion: 7.2.3
-            lastModifiedBy: null
-            createdTime: null
-            modifiedTime: null
+            systemVersion: 8.0.3
+            lastModifiedBy: BHAmrX4n5zD1mCjc
+            createdTime: 1776753052131
+            modifiedTime: 1776753052131
           ownership:
             default: 0
           _key: >-
@@ -2310,6 +2336,7 @@ tokens:
               otherTags: []
               value:
                 - agile
+              config: {}
             publication:
               title: ''
               authors: ''
@@ -2325,6 +2352,10 @@ tokens:
             attackEffects:
               value:
                 - grab
+            action: strike
+            area: null
+            range: null
+            subjectToMAP: true
           _id: nflrLT1POlEJZu3H
           img: systems/pf2e/icons/default-icons/melee.svg
           name: Claw
@@ -2337,12 +2368,12 @@ tokens:
             compendiumSource: null
             duplicateSource: null
             exportSource: null
-            coreVersion: '14.359'
+            coreVersion: '14.360'
             systemId: pf2e
-            systemVersion: 7.2.3
-            lastModifiedBy: null
-            createdTime: null
-            modifiedTime: null
+            systemVersion: 8.0.3
+            lastModifiedBy: BHAmrX4n5zD1mCjc
+            createdTime: 1776753052131
+            modifiedTime: 1776753052131
           ownership:
             default: 0
           _key: >-
@@ -2386,12 +2417,12 @@ tokens:
             compendiumSource: null
             duplicateSource: null
             exportSource: null
-            coreVersion: '14.359'
+            coreVersion: '14.360'
             systemId: pf2e
-            systemVersion: 7.2.3
-            lastModifiedBy: null
-            createdTime: null
-            modifiedTime: null
+            systemVersion: 8.0.3
+            lastModifiedBy: BHAmrX4n5zD1mCjc
+            createdTime: 1776753052131
+            modifiedTime: 1776753052131
           ownership:
             default: 0
           _key: >-
@@ -2435,12 +2466,12 @@ tokens:
             compendiumSource: null
             duplicateSource: null
             exportSource: null
-            coreVersion: '14.359'
+            coreVersion: '14.360'
             systemId: pf2e
-            systemVersion: 7.2.3
-            lastModifiedBy: null
-            createdTime: null
-            modifiedTime: null
+            systemVersion: 8.0.3
+            lastModifiedBy: BHAmrX4n5zD1mCjc
+            createdTime: 1776753052131
+            modifiedTime: 1776753052131
           ownership:
             default: 0
           _key: >-
@@ -2457,7 +2488,7 @@ tokens:
               value: >-
                 <p><strong>Trigger</strong> The monster is reduced to 0 HP.</p>
 
-                <hr />
+                <hr>
 
                 <p><strong>Effect</strong> The monster avoids being knocked out
                 and remains at 1 HP, but its
@@ -2494,12 +2525,12 @@ tokens:
             compendiumSource: null
             duplicateSource: null
             exportSource: null
-            coreVersion: '14.359'
+            coreVersion: '14.360'
             systemId: pf2e
-            systemVersion: 7.2.3
-            lastModifiedBy: null
-            createdTime: null
-            modifiedTime: null
+            systemVersion: 8.0.3
+            lastModifiedBy: BHAmrX4n5zD1mCjc
+            createdTime: 1776753052131
+            modifiedTime: 1776753052131
           ownership:
             default: 0
           _key: >-
@@ -2560,12 +2591,12 @@ tokens:
             compendiumSource: null
             duplicateSource: null
             exportSource: null
-            coreVersion: '14.359'
+            coreVersion: '14.360'
             systemId: pf2e
-            systemVersion: 7.2.3
-            lastModifiedBy: null
-            createdTime: null
-            modifiedTime: null
+            systemVersion: 8.0.3
+            lastModifiedBy: BHAmrX4n5zD1mCjc
+            createdTime: 1776753052131
+            modifiedTime: 1776753052131
           ownership:
             default: 0
           _key: >-
@@ -2616,12 +2647,12 @@ tokens:
             compendiumSource: null
             duplicateSource: null
             exportSource: null
-            coreVersion: '14.359'
+            coreVersion: '14.360'
             systemId: pf2e
-            systemVersion: 7.2.3
-            lastModifiedBy: null
-            createdTime: null
-            modifiedTime: null
+            systemVersion: 8.0.3
+            lastModifiedBy: BHAmrX4n5zD1mCjc
+            createdTime: 1776753052132
+            modifiedTime: 1776753052132
           ownership:
             default: 0
           _key: >-
@@ -2674,12 +2705,12 @@ tokens:
             compendiumSource: null
             duplicateSource: null
             exportSource: null
-            coreVersion: '14.359'
+            coreVersion: '14.360'
             systemId: pf2e
-            systemVersion: 7.2.3
-            lastModifiedBy: null
-            createdTime: null
-            modifiedTime: null
+            systemVersion: 8.0.3
+            lastModifiedBy: BHAmrX4n5zD1mCjc
+            createdTime: 1776753052132
+            modifiedTime: 1776753052132
           ownership:
             default: 0
           _key: >-
@@ -2726,12 +2757,12 @@ tokens:
             compendiumSource: null
             duplicateSource: null
             exportSource: null
-            coreVersion: '14.359'
+            coreVersion: '14.360'
             systemId: pf2e
-            systemVersion: 7.2.3
-            lastModifiedBy: null
-            createdTime: null
-            modifiedTime: null
+            systemVersion: 8.0.3
+            lastModifiedBy: BHAmrX4n5zD1mCjc
+            createdTime: 1776753052132
+            modifiedTime: 1776753052132
           ownership:
             default: 0
           _key: >-
@@ -2775,12 +2806,12 @@ tokens:
             compendiumSource: null
             duplicateSource: null
             exportSource: null
-            coreVersion: '14.359'
+            coreVersion: '14.360'
             systemId: pf2e
-            systemVersion: 7.2.3
-            lastModifiedBy: null
-            createdTime: null
-            modifiedTime: null
+            systemVersion: 8.0.3
+            lastModifiedBy: BHAmrX4n5zD1mCjc
+            createdTime: 1776753052132
+            modifiedTime: 1776753052132
           ownership:
             default: 0
           _key: >-
@@ -2797,7 +2828,8 @@ tokens:
     elevation: 0
     locked: false
     _movementHistory: []
-    _regions: []
+    _regions:
+      - QYYu0e84fLP9XCvL
     depth: 1
     level: defaultLevel0000
     _key: '!scenes.tokens!DgsUYWLNZuEA5aKI.LrAb0vHIt6X5ojMz'
@@ -2946,12 +2978,12 @@ tokens:
             compendiumSource: null
             duplicateSource: null
             exportSource: null
-            coreVersion: '14.359'
+            coreVersion: '14.360'
             systemId: pf2e
-            systemVersion: 7.2.3
-            lastModifiedBy: null
-            createdTime: null
-            modifiedTime: null
+            systemVersion: 8.0.3
+            lastModifiedBy: BHAmrX4n5zD1mCjc
+            createdTime: 1776753052134
+            modifiedTime: 1776753052134
           effects: []
           folder: null
           sort: 0
@@ -2976,6 +3008,7 @@ tokens:
             traits:
               otherTags: []
               value: []
+              config: {}
             publication:
               title: ''
               authors: ''
@@ -2991,6 +3024,10 @@ tokens:
             attackEffects:
               value:
                 - grab
+            action: strike
+            area: null
+            range: null
+            subjectToMAP: true
           _id: X6lteRmVzKPr3P02
           img: systems/pf2e/icons/default-icons/melee.svg
           name: Jaws
@@ -3003,12 +3040,12 @@ tokens:
             compendiumSource: null
             duplicateSource: null
             exportSource: null
-            coreVersion: '14.359'
+            coreVersion: '14.360'
             systemId: pf2e
-            systemVersion: 7.2.3
-            lastModifiedBy: null
-            createdTime: null
-            modifiedTime: null
+            systemVersion: 8.0.3
+            lastModifiedBy: BHAmrX4n5zD1mCjc
+            createdTime: 1776753052134
+            modifiedTime: 1776753052134
           ownership:
             default: 0
           _key: >-
@@ -3029,6 +3066,7 @@ tokens:
               otherTags: []
               value:
                 - agile
+              config: {}
             publication:
               title: ''
               authors: ''
@@ -3044,6 +3082,10 @@ tokens:
             attackEffects:
               value:
                 - grab
+            action: strike
+            area: null
+            range: null
+            subjectToMAP: true
           _id: nflrLT1POlEJZu3H
           img: systems/pf2e/icons/default-icons/melee.svg
           name: Claw
@@ -3056,12 +3098,12 @@ tokens:
             compendiumSource: null
             duplicateSource: null
             exportSource: null
-            coreVersion: '14.359'
+            coreVersion: '14.360'
             systemId: pf2e
-            systemVersion: 7.2.3
-            lastModifiedBy: null
-            createdTime: null
-            modifiedTime: null
+            systemVersion: 8.0.3
+            lastModifiedBy: BHAmrX4n5zD1mCjc
+            createdTime: 1776753052134
+            modifiedTime: 1776753052134
           ownership:
             default: 0
           _key: >-
@@ -3105,12 +3147,12 @@ tokens:
             compendiumSource: null
             duplicateSource: null
             exportSource: null
-            coreVersion: '14.359'
+            coreVersion: '14.360'
             systemId: pf2e
-            systemVersion: 7.2.3
-            lastModifiedBy: null
-            createdTime: null
-            modifiedTime: null
+            systemVersion: 8.0.3
+            lastModifiedBy: BHAmrX4n5zD1mCjc
+            createdTime: 1776753052134
+            modifiedTime: 1776753052134
           ownership:
             default: 0
           _key: >-
@@ -3154,12 +3196,12 @@ tokens:
             compendiumSource: null
             duplicateSource: null
             exportSource: null
-            coreVersion: '14.359'
+            coreVersion: '14.360'
             systemId: pf2e
-            systemVersion: 7.2.3
-            lastModifiedBy: null
-            createdTime: null
-            modifiedTime: null
+            systemVersion: 8.0.3
+            lastModifiedBy: BHAmrX4n5zD1mCjc
+            createdTime: 1776753052134
+            modifiedTime: 1776753052134
           ownership:
             default: 0
           _key: >-
@@ -3176,7 +3218,7 @@ tokens:
               value: >-
                 <p><strong>Trigger</strong> The monster is reduced to 0 HP.</p>
 
-                <hr />
+                <hr>
 
                 <p><strong>Effect</strong> The monster avoids being knocked out
                 and remains at 1 HP, but its
@@ -3213,12 +3255,12 @@ tokens:
             compendiumSource: null
             duplicateSource: null
             exportSource: null
-            coreVersion: '14.359'
+            coreVersion: '14.360'
             systemId: pf2e
-            systemVersion: 7.2.3
-            lastModifiedBy: null
-            createdTime: null
-            modifiedTime: null
+            systemVersion: 8.0.3
+            lastModifiedBy: BHAmrX4n5zD1mCjc
+            createdTime: 1776753052134
+            modifiedTime: 1776753052134
           ownership:
             default: 0
           _key: >-
@@ -3279,12 +3321,12 @@ tokens:
             compendiumSource: null
             duplicateSource: null
             exportSource: null
-            coreVersion: '14.359'
+            coreVersion: '14.360'
             systemId: pf2e
-            systemVersion: 7.2.3
-            lastModifiedBy: null
-            createdTime: null
-            modifiedTime: null
+            systemVersion: 8.0.3
+            lastModifiedBy: BHAmrX4n5zD1mCjc
+            createdTime: 1776753052134
+            modifiedTime: 1776753052134
           ownership:
             default: 0
           _key: >-
@@ -3335,12 +3377,12 @@ tokens:
             compendiumSource: null
             duplicateSource: null
             exportSource: null
-            coreVersion: '14.359'
+            coreVersion: '14.360'
             systemId: pf2e
-            systemVersion: 7.2.3
-            lastModifiedBy: null
-            createdTime: null
-            modifiedTime: null
+            systemVersion: 8.0.3
+            lastModifiedBy: BHAmrX4n5zD1mCjc
+            createdTime: 1776753052134
+            modifiedTime: 1776753052134
           ownership:
             default: 0
           _key: >-
@@ -3393,12 +3435,12 @@ tokens:
             compendiumSource: null
             duplicateSource: null
             exportSource: null
-            coreVersion: '14.359'
+            coreVersion: '14.360'
             systemId: pf2e
-            systemVersion: 7.2.3
-            lastModifiedBy: null
-            createdTime: null
-            modifiedTime: null
+            systemVersion: 8.0.3
+            lastModifiedBy: BHAmrX4n5zD1mCjc
+            createdTime: 1776753052134
+            modifiedTime: 1776753052134
           ownership:
             default: 0
           _key: >-
@@ -3445,12 +3487,12 @@ tokens:
             compendiumSource: null
             duplicateSource: null
             exportSource: null
-            coreVersion: '14.359'
+            coreVersion: '14.360'
             systemId: pf2e
-            systemVersion: 7.2.3
-            lastModifiedBy: null
-            createdTime: null
-            modifiedTime: null
+            systemVersion: 8.0.3
+            lastModifiedBy: BHAmrX4n5zD1mCjc
+            createdTime: 1776753052135
+            modifiedTime: 1776753052135
           ownership:
             default: 0
           _key: >-
@@ -3494,12 +3536,12 @@ tokens:
             compendiumSource: null
             duplicateSource: null
             exportSource: null
-            coreVersion: '14.359'
+            coreVersion: '14.360'
             systemId: pf2e
-            systemVersion: 7.2.3
-            lastModifiedBy: null
-            createdTime: null
-            modifiedTime: null
+            systemVersion: 8.0.3
+            lastModifiedBy: BHAmrX4n5zD1mCjc
+            createdTime: 1776753052135
+            modifiedTime: 1776753052135
           ownership:
             default: 0
           _key: >-
@@ -3516,7 +3558,8 @@ tokens:
     elevation: 0
     locked: false
     _movementHistory: []
-    _regions: []
+    _regions:
+      - QYYu0e84fLP9XCvL
     depth: 1
     level: defaultLevel0000
     _key: '!scenes.tokens!DgsUYWLNZuEA5aKI.huTgT5rR34UDz7u5'
@@ -3629,6 +3672,7 @@ tokens:
             traits:
               otherTags: []
               value: []
+              config: {}
             publication:
               title: ''
               authors: ''
@@ -3644,6 +3688,10 @@ tokens:
             attackEffects:
               value:
                 - grab
+            action: strike
+            area: null
+            range: null
+            subjectToMAP: true
           _id: X6lteRmVzKPr3P02
           img: systems/pf2e/icons/default-icons/melee.svg
           name: Jaws
@@ -3656,12 +3704,12 @@ tokens:
             compendiumSource: null
             duplicateSource: null
             exportSource: null
-            coreVersion: '14.359'
+            coreVersion: '14.360'
             systemId: pf2e
-            systemVersion: 7.2.3
-            lastModifiedBy: null
-            createdTime: null
-            modifiedTime: null
+            systemVersion: 8.0.3
+            lastModifiedBy: BHAmrX4n5zD1mCjc
+            createdTime: 1776753052136
+            modifiedTime: 1776753052136
           ownership:
             default: 0
           _key: >-
@@ -3682,6 +3730,7 @@ tokens:
               otherTags: []
               value:
                 - agile
+              config: {}
             publication:
               title: ''
               authors: ''
@@ -3697,6 +3746,10 @@ tokens:
             attackEffects:
               value:
                 - grab
+            action: strike
+            area: null
+            range: null
+            subjectToMAP: true
           _id: nflrLT1POlEJZu3H
           img: systems/pf2e/icons/default-icons/melee.svg
           name: Claw
@@ -3709,12 +3762,12 @@ tokens:
             compendiumSource: null
             duplicateSource: null
             exportSource: null
-            coreVersion: '14.359'
+            coreVersion: '14.360'
             systemId: pf2e
-            systemVersion: 7.2.3
-            lastModifiedBy: null
-            createdTime: null
-            modifiedTime: null
+            systemVersion: 8.0.3
+            lastModifiedBy: BHAmrX4n5zD1mCjc
+            createdTime: 1776753052136
+            modifiedTime: 1776753052136
           ownership:
             default: 0
           _key: >-
@@ -3758,12 +3811,12 @@ tokens:
             compendiumSource: null
             duplicateSource: null
             exportSource: null
-            coreVersion: '14.359'
+            coreVersion: '14.360'
             systemId: pf2e
-            systemVersion: 7.2.3
-            lastModifiedBy: null
-            createdTime: null
-            modifiedTime: null
+            systemVersion: 8.0.3
+            lastModifiedBy: BHAmrX4n5zD1mCjc
+            createdTime: 1776753052137
+            modifiedTime: 1776753052137
           ownership:
             default: 0
           _key: >-
@@ -3807,12 +3860,12 @@ tokens:
             compendiumSource: null
             duplicateSource: null
             exportSource: null
-            coreVersion: '14.359'
+            coreVersion: '14.360'
             systemId: pf2e
-            systemVersion: 7.2.3
-            lastModifiedBy: null
-            createdTime: null
-            modifiedTime: null
+            systemVersion: 8.0.3
+            lastModifiedBy: BHAmrX4n5zD1mCjc
+            createdTime: 1776753052137
+            modifiedTime: 1776753052137
           ownership:
             default: 0
           _key: >-
@@ -3829,7 +3882,7 @@ tokens:
               value: >-
                 <p><strong>Trigger</strong> The monster is reduced to 0 HP.</p>
 
-                <hr />
+                <hr>
 
                 <p><strong>Effect</strong> The monster avoids being knocked out
                 and remains at 1 HP, but its
@@ -3866,12 +3919,12 @@ tokens:
             compendiumSource: null
             duplicateSource: null
             exportSource: null
-            coreVersion: '14.359'
+            coreVersion: '14.360'
             systemId: pf2e
-            systemVersion: 7.2.3
-            lastModifiedBy: null
-            createdTime: null
-            modifiedTime: null
+            systemVersion: 8.0.3
+            lastModifiedBy: BHAmrX4n5zD1mCjc
+            createdTime: 1776753052137
+            modifiedTime: 1776753052137
           ownership:
             default: 0
           _key: >-
@@ -3932,12 +3985,12 @@ tokens:
             compendiumSource: null
             duplicateSource: null
             exportSource: null
-            coreVersion: '14.359'
+            coreVersion: '14.360'
             systemId: pf2e
-            systemVersion: 7.2.3
-            lastModifiedBy: null
-            createdTime: null
-            modifiedTime: null
+            systemVersion: 8.0.3
+            lastModifiedBy: BHAmrX4n5zD1mCjc
+            createdTime: 1776753052137
+            modifiedTime: 1776753052137
           ownership:
             default: 0
           _key: >-
@@ -3988,12 +4041,12 @@ tokens:
             compendiumSource: null
             duplicateSource: null
             exportSource: null
-            coreVersion: '14.359'
+            coreVersion: '14.360'
             systemId: pf2e
-            systemVersion: 7.2.3
-            lastModifiedBy: null
-            createdTime: null
-            modifiedTime: null
+            systemVersion: 8.0.3
+            lastModifiedBy: BHAmrX4n5zD1mCjc
+            createdTime: 1776753052137
+            modifiedTime: 1776753052137
           ownership:
             default: 0
           _key: >-
@@ -4046,12 +4099,12 @@ tokens:
             compendiumSource: null
             duplicateSource: null
             exportSource: null
-            coreVersion: '14.359'
+            coreVersion: '14.360'
             systemId: pf2e
-            systemVersion: 7.2.3
-            lastModifiedBy: null
-            createdTime: null
-            modifiedTime: null
+            systemVersion: 8.0.3
+            lastModifiedBy: BHAmrX4n5zD1mCjc
+            createdTime: 1776753052137
+            modifiedTime: 1776753052137
           ownership:
             default: 0
           _key: >-
@@ -4098,12 +4151,12 @@ tokens:
             compendiumSource: null
             duplicateSource: null
             exportSource: null
-            coreVersion: '14.359'
+            coreVersion: '14.360'
             systemId: pf2e
-            systemVersion: 7.2.3
-            lastModifiedBy: null
-            createdTime: null
-            modifiedTime: null
+            systemVersion: 8.0.3
+            lastModifiedBy: BHAmrX4n5zD1mCjc
+            createdTime: 1776753052137
+            modifiedTime: 1776753052137
           ownership:
             default: 0
           _key: >-
@@ -4147,12 +4200,12 @@ tokens:
             compendiumSource: null
             duplicateSource: null
             exportSource: null
-            coreVersion: '14.359'
+            coreVersion: '14.360'
             systemId: pf2e
-            systemVersion: 7.2.3
-            lastModifiedBy: null
-            createdTime: null
-            modifiedTime: null
+            systemVersion: 8.0.3
+            lastModifiedBy: BHAmrX4n5zD1mCjc
+            createdTime: 1776753052137
+            modifiedTime: 1776753052137
           ownership:
             default: 0
           _key: >-
@@ -4169,7 +4222,8 @@ tokens:
     elevation: 0
     locked: false
     _movementHistory: []
-    _regions: []
+    _regions:
+      - QYYu0e84fLP9XCvL
     depth: 1
     level: defaultLevel0000
     _key: '!scenes.tokens!DgsUYWLNZuEA5aKI.SA2JzGdAzHGjQLa3'
@@ -4316,12 +4370,12 @@ tokens:
             compendiumSource: null
             duplicateSource: null
             exportSource: null
-            coreVersion: '14.359'
+            coreVersion: '14.360'
             systemId: pf2e
-            systemVersion: 7.2.3
-            lastModifiedBy: null
-            createdTime: null
-            modifiedTime: null
+            systemVersion: 8.0.3
+            lastModifiedBy: BHAmrX4n5zD1mCjc
+            createdTime: 1776753052139
+            modifiedTime: 1776753052139
           effects: []
           folder: null
           sort: 0
@@ -4386,12 +4440,12 @@ tokens:
             compendiumSource: null
             duplicateSource: null
             exportSource: null
-            coreVersion: '14.359'
+            coreVersion: '14.360'
             systemId: pf2e
-            systemVersion: 7.2.3
-            lastModifiedBy: null
-            createdTime: null
-            modifiedTime: null
+            systemVersion: 8.0.3
+            lastModifiedBy: BHAmrX4n5zD1mCjc
+            createdTime: 1776753052139
+            modifiedTime: 1776753052139
           effects: []
           folder: null
           sort: 0
@@ -4416,6 +4470,7 @@ tokens:
             traits:
               otherTags: []
               value: []
+              config: {}
             publication:
               title: ''
               authors: ''
@@ -4431,6 +4486,10 @@ tokens:
             attackEffects:
               value:
                 - grab
+            action: strike
+            area: null
+            range: null
+            subjectToMAP: true
           _id: X6lteRmVzKPr3P02
           img: systems/pf2e/icons/default-icons/melee.svg
           name: Jaws
@@ -4443,12 +4502,12 @@ tokens:
             compendiumSource: null
             duplicateSource: null
             exportSource: null
-            coreVersion: '14.359'
+            coreVersion: '14.360'
             systemId: pf2e
-            systemVersion: 7.2.3
-            lastModifiedBy: null
-            createdTime: null
-            modifiedTime: null
+            systemVersion: 8.0.3
+            lastModifiedBy: BHAmrX4n5zD1mCjc
+            createdTime: 1776753052139
+            modifiedTime: 1776753052139
           ownership:
             default: 0
           _key: >-
@@ -4469,6 +4528,7 @@ tokens:
               otherTags: []
               value:
                 - agile
+              config: {}
             publication:
               title: ''
               authors: ''
@@ -4484,6 +4544,10 @@ tokens:
             attackEffects:
               value:
                 - grab
+            action: strike
+            area: null
+            range: null
+            subjectToMAP: true
           _id: nflrLT1POlEJZu3H
           img: systems/pf2e/icons/default-icons/melee.svg
           name: Claw
@@ -4496,12 +4560,12 @@ tokens:
             compendiumSource: null
             duplicateSource: null
             exportSource: null
-            coreVersion: '14.359'
+            coreVersion: '14.360'
             systemId: pf2e
-            systemVersion: 7.2.3
-            lastModifiedBy: null
-            createdTime: null
-            modifiedTime: null
+            systemVersion: 8.0.3
+            lastModifiedBy: BHAmrX4n5zD1mCjc
+            createdTime: 1776753052140
+            modifiedTime: 1776753052140
           ownership:
             default: 0
           _key: >-
@@ -4545,12 +4609,12 @@ tokens:
             compendiumSource: null
             duplicateSource: null
             exportSource: null
-            coreVersion: '14.359'
+            coreVersion: '14.360'
             systemId: pf2e
-            systemVersion: 7.2.3
-            lastModifiedBy: null
-            createdTime: null
-            modifiedTime: null
+            systemVersion: 8.0.3
+            lastModifiedBy: BHAmrX4n5zD1mCjc
+            createdTime: 1776753052140
+            modifiedTime: 1776753052140
           ownership:
             default: 0
           _key: >-
@@ -4594,12 +4658,12 @@ tokens:
             compendiumSource: null
             duplicateSource: null
             exportSource: null
-            coreVersion: '14.359'
+            coreVersion: '14.360'
             systemId: pf2e
-            systemVersion: 7.2.3
-            lastModifiedBy: null
-            createdTime: null
-            modifiedTime: null
+            systemVersion: 8.0.3
+            lastModifiedBy: BHAmrX4n5zD1mCjc
+            createdTime: 1776753052140
+            modifiedTime: 1776753052140
           ownership:
             default: 0
           _key: >-
@@ -4616,7 +4680,7 @@ tokens:
               value: >-
                 <p><strong>Trigger</strong> The monster is reduced to 0 HP.</p>
 
-                <hr />
+                <hr>
 
                 <p><strong>Effect</strong> The monster avoids being knocked out
                 and remains at 1 HP, but its
@@ -4653,12 +4717,12 @@ tokens:
             compendiumSource: null
             duplicateSource: null
             exportSource: null
-            coreVersion: '14.359'
+            coreVersion: '14.360'
             systemId: pf2e
-            systemVersion: 7.2.3
-            lastModifiedBy: null
-            createdTime: null
-            modifiedTime: null
+            systemVersion: 8.0.3
+            lastModifiedBy: BHAmrX4n5zD1mCjc
+            createdTime: 1776753052140
+            modifiedTime: 1776753052140
           ownership:
             default: 0
           _key: >-
@@ -4719,12 +4783,12 @@ tokens:
             compendiumSource: null
             duplicateSource: null
             exportSource: null
-            coreVersion: '14.359'
+            coreVersion: '14.360'
             systemId: pf2e
-            systemVersion: 7.2.3
-            lastModifiedBy: null
-            createdTime: null
-            modifiedTime: null
+            systemVersion: 8.0.3
+            lastModifiedBy: BHAmrX4n5zD1mCjc
+            createdTime: 1776753052140
+            modifiedTime: 1776753052140
           ownership:
             default: 0
           _key: >-
@@ -4775,12 +4839,12 @@ tokens:
             compendiumSource: null
             duplicateSource: null
             exportSource: null
-            coreVersion: '14.359'
+            coreVersion: '14.360'
             systemId: pf2e
-            systemVersion: 7.2.3
-            lastModifiedBy: null
-            createdTime: null
-            modifiedTime: null
+            systemVersion: 8.0.3
+            lastModifiedBy: BHAmrX4n5zD1mCjc
+            createdTime: 1776753052140
+            modifiedTime: 1776753052140
           ownership:
             default: 0
           _key: >-
@@ -4833,12 +4897,12 @@ tokens:
             compendiumSource: null
             duplicateSource: null
             exportSource: null
-            coreVersion: '14.359'
+            coreVersion: '14.360'
             systemId: pf2e
-            systemVersion: 7.2.3
-            lastModifiedBy: null
-            createdTime: null
-            modifiedTime: null
+            systemVersion: 8.0.3
+            lastModifiedBy: BHAmrX4n5zD1mCjc
+            createdTime: 1776753052140
+            modifiedTime: 1776753052140
           ownership:
             default: 0
           _key: >-
@@ -4885,12 +4949,12 @@ tokens:
             compendiumSource: null
             duplicateSource: null
             exportSource: null
-            coreVersion: '14.359'
+            coreVersion: '14.360'
             systemId: pf2e
-            systemVersion: 7.2.3
-            lastModifiedBy: null
-            createdTime: null
-            modifiedTime: null
+            systemVersion: 8.0.3
+            lastModifiedBy: BHAmrX4n5zD1mCjc
+            createdTime: 1776753052140
+            modifiedTime: 1776753052140
           ownership:
             default: 0
           _key: >-
@@ -4934,12 +4998,12 @@ tokens:
             compendiumSource: null
             duplicateSource: null
             exportSource: null
-            coreVersion: '14.359'
+            coreVersion: '14.360'
             systemId: pf2e
-            systemVersion: 7.2.3
-            lastModifiedBy: null
-            createdTime: null
-            modifiedTime: null
+            systemVersion: 8.0.3
+            lastModifiedBy: BHAmrX4n5zD1mCjc
+            createdTime: 1776753052140
+            modifiedTime: 1776753052140
           ownership:
             default: 0
           _key: >-
@@ -4956,7 +5020,8 @@ tokens:
     elevation: 0
     locked: false
     _movementHistory: []
-    _regions: []
+    _regions:
+      - QYYu0e84fLP9XCvL
     depth: 1
     level: defaultLevel0000
     _key: '!scenes.tokens!DgsUYWLNZuEA5aKI.b9eBDUUKgprJ9nQG'
@@ -5109,12 +5174,12 @@ tokens:
             compendiumSource: null
             duplicateSource: null
             exportSource: null
-            coreVersion: '14.359'
+            coreVersion: '14.360'
             systemId: pf2e
-            systemVersion: 7.2.3
-            lastModifiedBy: null
-            createdTime: null
-            modifiedTime: null
+            systemVersion: 8.0.3
+            lastModifiedBy: BHAmrX4n5zD1mCjc
+            createdTime: 1776753052142
+            modifiedTime: 1776753052142
           effects: []
           folder: null
           sort: 0
@@ -5175,12 +5240,12 @@ tokens:
             compendiumSource: null
             duplicateSource: null
             exportSource: null
-            coreVersion: '14.359'
+            coreVersion: '14.360'
             systemId: pf2e
-            systemVersion: 7.2.3
-            lastModifiedBy: null
-            createdTime: null
-            modifiedTime: null
+            systemVersion: 8.0.3
+            lastModifiedBy: BHAmrX4n5zD1mCjc
+            createdTime: 1776753052142
+            modifiedTime: 1776753052142
           effects: []
           folder: null
           sort: 0
@@ -5205,6 +5270,7 @@ tokens:
             traits:
               otherTags: []
               value: []
+              config: {}
             publication:
               title: ''
               authors: ''
@@ -5220,6 +5286,10 @@ tokens:
             attackEffects:
               value:
                 - grab
+            action: strike
+            area: null
+            range: null
+            subjectToMAP: true
           _id: X6lteRmVzKPr3P02
           img: systems/pf2e/icons/default-icons/melee.svg
           name: Jaws
@@ -5232,12 +5302,12 @@ tokens:
             compendiumSource: null
             duplicateSource: null
             exportSource: null
-            coreVersion: '14.359'
+            coreVersion: '14.360'
             systemId: pf2e
-            systemVersion: 7.2.3
-            lastModifiedBy: null
-            createdTime: null
-            modifiedTime: null
+            systemVersion: 8.0.3
+            lastModifiedBy: BHAmrX4n5zD1mCjc
+            createdTime: 1776753052142
+            modifiedTime: 1776753052142
           ownership:
             default: 0
           _key: >-
@@ -5258,6 +5328,7 @@ tokens:
               otherTags: []
               value:
                 - agile
+              config: {}
             publication:
               title: ''
               authors: ''
@@ -5273,6 +5344,10 @@ tokens:
             attackEffects:
               value:
                 - grab
+            action: strike
+            area: null
+            range: null
+            subjectToMAP: true
           _id: nflrLT1POlEJZu3H
           img: systems/pf2e/icons/default-icons/melee.svg
           name: Claw
@@ -5285,12 +5360,12 @@ tokens:
             compendiumSource: null
             duplicateSource: null
             exportSource: null
-            coreVersion: '14.359'
+            coreVersion: '14.360'
             systemId: pf2e
-            systemVersion: 7.2.3
-            lastModifiedBy: null
-            createdTime: null
-            modifiedTime: null
+            systemVersion: 8.0.3
+            lastModifiedBy: BHAmrX4n5zD1mCjc
+            createdTime: 1776753052142
+            modifiedTime: 1776753052142
           ownership:
             default: 0
           _key: >-
@@ -5334,12 +5409,12 @@ tokens:
             compendiumSource: null
             duplicateSource: null
             exportSource: null
-            coreVersion: '14.359'
+            coreVersion: '14.360'
             systemId: pf2e
-            systemVersion: 7.2.3
-            lastModifiedBy: null
-            createdTime: null
-            modifiedTime: null
+            systemVersion: 8.0.3
+            lastModifiedBy: BHAmrX4n5zD1mCjc
+            createdTime: 1776753052142
+            modifiedTime: 1776753052142
           ownership:
             default: 0
           _key: >-
@@ -5383,12 +5458,12 @@ tokens:
             compendiumSource: null
             duplicateSource: null
             exportSource: null
-            coreVersion: '14.359'
+            coreVersion: '14.360'
             systemId: pf2e
-            systemVersion: 7.2.3
-            lastModifiedBy: null
-            createdTime: null
-            modifiedTime: null
+            systemVersion: 8.0.3
+            lastModifiedBy: BHAmrX4n5zD1mCjc
+            createdTime: 1776753052142
+            modifiedTime: 1776753052142
           ownership:
             default: 0
           _key: >-
@@ -5405,7 +5480,7 @@ tokens:
               value: >-
                 <p><strong>Trigger</strong> The monster is reduced to 0 HP.</p>
 
-                <hr />
+                <hr>
 
                 <p><strong>Effect</strong> The monster avoids being knocked out
                 and remains at 1 HP, but its
@@ -5442,12 +5517,12 @@ tokens:
             compendiumSource: null
             duplicateSource: null
             exportSource: null
-            coreVersion: '14.359'
+            coreVersion: '14.360'
             systemId: pf2e
-            systemVersion: 7.2.3
-            lastModifiedBy: null
-            createdTime: null
-            modifiedTime: null
+            systemVersion: 8.0.3
+            lastModifiedBy: BHAmrX4n5zD1mCjc
+            createdTime: 1776753052142
+            modifiedTime: 1776753052142
           ownership:
             default: 0
           _key: >-
@@ -5508,12 +5583,12 @@ tokens:
             compendiumSource: null
             duplicateSource: null
             exportSource: null
-            coreVersion: '14.359'
+            coreVersion: '14.360'
             systemId: pf2e
-            systemVersion: 7.2.3
-            lastModifiedBy: null
-            createdTime: null
-            modifiedTime: null
+            systemVersion: 8.0.3
+            lastModifiedBy: BHAmrX4n5zD1mCjc
+            createdTime: 1776753052142
+            modifiedTime: 1776753052142
           ownership:
             default: 0
           _key: >-
@@ -5564,12 +5639,12 @@ tokens:
             compendiumSource: null
             duplicateSource: null
             exportSource: null
-            coreVersion: '14.359'
+            coreVersion: '14.360'
             systemId: pf2e
-            systemVersion: 7.2.3
-            lastModifiedBy: null
-            createdTime: null
-            modifiedTime: null
+            systemVersion: 8.0.3
+            lastModifiedBy: BHAmrX4n5zD1mCjc
+            createdTime: 1776753052143
+            modifiedTime: 1776753052143
           ownership:
             default: 0
           _key: >-
@@ -5622,12 +5697,12 @@ tokens:
             compendiumSource: null
             duplicateSource: null
             exportSource: null
-            coreVersion: '14.359'
+            coreVersion: '14.360'
             systemId: pf2e
-            systemVersion: 7.2.3
-            lastModifiedBy: null
-            createdTime: null
-            modifiedTime: null
+            systemVersion: 8.0.3
+            lastModifiedBy: BHAmrX4n5zD1mCjc
+            createdTime: 1776753052145
+            modifiedTime: 1776753052145
           ownership:
             default: 0
           _key: >-
@@ -5674,12 +5749,12 @@ tokens:
             compendiumSource: null
             duplicateSource: null
             exportSource: null
-            coreVersion: '14.359'
+            coreVersion: '14.360'
             systemId: pf2e
-            systemVersion: 7.2.3
-            lastModifiedBy: null
-            createdTime: null
-            modifiedTime: null
+            systemVersion: 8.0.3
+            lastModifiedBy: BHAmrX4n5zD1mCjc
+            createdTime: 1776753052145
+            modifiedTime: 1776753052145
           ownership:
             default: 0
           _key: >-
@@ -5723,12 +5798,12 @@ tokens:
             compendiumSource: null
             duplicateSource: null
             exportSource: null
-            coreVersion: '14.359'
+            coreVersion: '14.360'
             systemId: pf2e
-            systemVersion: 7.2.3
-            lastModifiedBy: null
-            createdTime: null
-            modifiedTime: null
+            systemVersion: 8.0.3
+            lastModifiedBy: BHAmrX4n5zD1mCjc
+            createdTime: 1776753052146
+            modifiedTime: 1776753052146
           ownership:
             default: 0
           _key: >-
@@ -5745,7 +5820,8 @@ tokens:
     elevation: 0
     locked: false
     _movementHistory: []
-    _regions: []
+    _regions:
+      - QYYu0e84fLP9XCvL
     depth: 1
     level: defaultLevel0000
     _key: '!scenes.tokens!DgsUYWLNZuEA5aKI.ptsQh8eiCjrfqp66'
@@ -5898,12 +5974,12 @@ tokens:
             compendiumSource: null
             duplicateSource: null
             exportSource: null
-            coreVersion: '14.359'
+            coreVersion: '14.360'
             systemId: pf2e
-            systemVersion: 7.2.3
-            lastModifiedBy: null
-            createdTime: null
-            modifiedTime: null
+            systemVersion: 8.0.3
+            lastModifiedBy: BHAmrX4n5zD1mCjc
+            createdTime: 1776753052148
+            modifiedTime: 1776753052148
           effects: []
           folder: null
           sort: 0
@@ -5928,6 +6004,7 @@ tokens:
             traits:
               otherTags: []
               value: []
+              config: {}
             publication:
               title: ''
               authors: ''
@@ -5943,6 +6020,10 @@ tokens:
             attackEffects:
               value:
                 - grab
+            action: strike
+            area: null
+            range: null
+            subjectToMAP: true
           _id: X6lteRmVzKPr3P02
           img: systems/pf2e/icons/default-icons/melee.svg
           name: Jaws
@@ -5955,12 +6036,12 @@ tokens:
             compendiumSource: null
             duplicateSource: null
             exportSource: null
-            coreVersion: '14.359'
+            coreVersion: '14.360'
             systemId: pf2e
-            systemVersion: 7.2.3
-            lastModifiedBy: null
-            createdTime: null
-            modifiedTime: null
+            systemVersion: 8.0.3
+            lastModifiedBy: BHAmrX4n5zD1mCjc
+            createdTime: 1776753052148
+            modifiedTime: 1776753052148
           ownership:
             default: 0
           _key: >-
@@ -5981,6 +6062,7 @@ tokens:
               otherTags: []
               value:
                 - agile
+              config: {}
             publication:
               title: ''
               authors: ''
@@ -5996,6 +6078,10 @@ tokens:
             attackEffects:
               value:
                 - grab
+            action: strike
+            area: null
+            range: null
+            subjectToMAP: true
           _id: nflrLT1POlEJZu3H
           img: systems/pf2e/icons/default-icons/melee.svg
           name: Claw
@@ -6008,12 +6094,12 @@ tokens:
             compendiumSource: null
             duplicateSource: null
             exportSource: null
-            coreVersion: '14.359'
+            coreVersion: '14.360'
             systemId: pf2e
-            systemVersion: 7.2.3
-            lastModifiedBy: null
-            createdTime: null
-            modifiedTime: null
+            systemVersion: 8.0.3
+            lastModifiedBy: BHAmrX4n5zD1mCjc
+            createdTime: 1776753052148
+            modifiedTime: 1776753052148
           ownership:
             default: 0
           _key: >-
@@ -6057,12 +6143,12 @@ tokens:
             compendiumSource: null
             duplicateSource: null
             exportSource: null
-            coreVersion: '14.359'
+            coreVersion: '14.360'
             systemId: pf2e
-            systemVersion: 7.2.3
-            lastModifiedBy: null
-            createdTime: null
-            modifiedTime: null
+            systemVersion: 8.0.3
+            lastModifiedBy: BHAmrX4n5zD1mCjc
+            createdTime: 1776753052148
+            modifiedTime: 1776753052148
           ownership:
             default: 0
           _key: >-
@@ -6106,12 +6192,12 @@ tokens:
             compendiumSource: null
             duplicateSource: null
             exportSource: null
-            coreVersion: '14.359'
+            coreVersion: '14.360'
             systemId: pf2e
-            systemVersion: 7.2.3
-            lastModifiedBy: null
-            createdTime: null
-            modifiedTime: null
+            systemVersion: 8.0.3
+            lastModifiedBy: BHAmrX4n5zD1mCjc
+            createdTime: 1776753052148
+            modifiedTime: 1776753052148
           ownership:
             default: 0
           _key: >-
@@ -6128,7 +6214,7 @@ tokens:
               value: >-
                 <p><strong>Trigger</strong> The monster is reduced to 0 HP.</p>
 
-                <hr />
+                <hr>
 
                 <p><strong>Effect</strong> The monster avoids being knocked out
                 and remains at 1 HP, but its
@@ -6165,12 +6251,12 @@ tokens:
             compendiumSource: null
             duplicateSource: null
             exportSource: null
-            coreVersion: '14.359'
+            coreVersion: '14.360'
             systemId: pf2e
-            systemVersion: 7.2.3
-            lastModifiedBy: null
-            createdTime: null
-            modifiedTime: null
+            systemVersion: 8.0.3
+            lastModifiedBy: BHAmrX4n5zD1mCjc
+            createdTime: 1776753052148
+            modifiedTime: 1776753052148
           ownership:
             default: 0
           _key: >-
@@ -6231,12 +6317,12 @@ tokens:
             compendiumSource: null
             duplicateSource: null
             exportSource: null
-            coreVersion: '14.359'
+            coreVersion: '14.360'
             systemId: pf2e
-            systemVersion: 7.2.3
-            lastModifiedBy: null
-            createdTime: null
-            modifiedTime: null
+            systemVersion: 8.0.3
+            lastModifiedBy: BHAmrX4n5zD1mCjc
+            createdTime: 1776753052148
+            modifiedTime: 1776753052148
           ownership:
             default: 0
           _key: >-
@@ -6287,12 +6373,12 @@ tokens:
             compendiumSource: null
             duplicateSource: null
             exportSource: null
-            coreVersion: '14.359'
+            coreVersion: '14.360'
             systemId: pf2e
-            systemVersion: 7.2.3
-            lastModifiedBy: null
-            createdTime: null
-            modifiedTime: null
+            systemVersion: 8.0.3
+            lastModifiedBy: BHAmrX4n5zD1mCjc
+            createdTime: 1776753052148
+            modifiedTime: 1776753052148
           ownership:
             default: 0
           _key: >-
@@ -6345,12 +6431,12 @@ tokens:
             compendiumSource: null
             duplicateSource: null
             exportSource: null
-            coreVersion: '14.359'
+            coreVersion: '14.360'
             systemId: pf2e
-            systemVersion: 7.2.3
-            lastModifiedBy: null
-            createdTime: null
-            modifiedTime: null
+            systemVersion: 8.0.3
+            lastModifiedBy: BHAmrX4n5zD1mCjc
+            createdTime: 1776753052148
+            modifiedTime: 1776753052148
           ownership:
             default: 0
           _key: >-
@@ -6397,12 +6483,12 @@ tokens:
             compendiumSource: null
             duplicateSource: null
             exportSource: null
-            coreVersion: '14.359'
+            coreVersion: '14.360'
             systemId: pf2e
-            systemVersion: 7.2.3
-            lastModifiedBy: null
-            createdTime: null
-            modifiedTime: null
+            systemVersion: 8.0.3
+            lastModifiedBy: BHAmrX4n5zD1mCjc
+            createdTime: 1776753052148
+            modifiedTime: 1776753052148
           ownership:
             default: 0
           _key: >-
@@ -6446,12 +6532,12 @@ tokens:
             compendiumSource: null
             duplicateSource: null
             exportSource: null
-            coreVersion: '14.359'
+            coreVersion: '14.360'
             systemId: pf2e
-            systemVersion: 7.2.3
-            lastModifiedBy: null
-            createdTime: null
-            modifiedTime: null
+            systemVersion: 8.0.3
+            lastModifiedBy: BHAmrX4n5zD1mCjc
+            createdTime: 1776753052148
+            modifiedTime: 1776753052148
           ownership:
             default: 0
           _key: >-
@@ -6468,7 +6554,8 @@ tokens:
     elevation: 0
     locked: false
     _movementHistory: []
-    _regions: []
+    _regions:
+      - 4Q1zEoSgeQ15aFXK
     depth: 1
     level: defaultLevel0000
     _key: '!scenes.tokens!DgsUYWLNZuEA5aKI.YVOsACx5POEsICJY'
@@ -6618,12 +6705,12 @@ tokens:
             compendiumSource: null
             duplicateSource: null
             exportSource: null
-            coreVersion: '14.359'
+            coreVersion: '14.360'
             systemId: pf2e
-            systemVersion: 7.2.3
-            lastModifiedBy: null
-            createdTime: null
-            modifiedTime: null
+            systemVersion: 8.0.3
+            lastModifiedBy: BHAmrX4n5zD1mCjc
+            createdTime: 1776753052150
+            modifiedTime: 1776753052150
           effects: []
           folder: null
           sort: 0
@@ -6688,12 +6775,12 @@ tokens:
             compendiumSource: null
             duplicateSource: null
             exportSource: null
-            coreVersion: '14.359'
+            coreVersion: '14.360'
             systemId: pf2e
-            systemVersion: 7.2.3
-            lastModifiedBy: null
-            createdTime: null
-            modifiedTime: null
+            systemVersion: 8.0.3
+            lastModifiedBy: BHAmrX4n5zD1mCjc
+            createdTime: 1776753052150
+            modifiedTime: 1776753052150
           effects: []
           folder: null
           sort: 0
@@ -6748,12 +6835,12 @@ tokens:
             compendiumSource: null
             duplicateSource: null
             exportSource: null
-            coreVersion: '14.359'
+            coreVersion: '14.360'
             systemId: pf2e
-            systemVersion: 7.2.3
-            lastModifiedBy: null
-            createdTime: null
-            modifiedTime: null
+            systemVersion: 8.0.3
+            lastModifiedBy: BHAmrX4n5zD1mCjc
+            createdTime: 1776753052150
+            modifiedTime: 1776753052150
           effects: []
           folder: null
           sort: 0
@@ -6778,6 +6865,7 @@ tokens:
             traits:
               otherTags: []
               value: []
+              config: {}
             publication:
               title: ''
               authors: ''
@@ -6793,6 +6881,10 @@ tokens:
             attackEffects:
               value:
                 - grab
+            action: strike
+            area: null
+            range: null
+            subjectToMAP: true
           _id: X6lteRmVzKPr3P02
           img: systems/pf2e/icons/default-icons/melee.svg
           name: Jaws
@@ -6805,12 +6897,12 @@ tokens:
             compendiumSource: null
             duplicateSource: null
             exportSource: null
-            coreVersion: '14.359'
+            coreVersion: '14.360'
             systemId: pf2e
-            systemVersion: 7.2.3
-            lastModifiedBy: null
-            createdTime: null
-            modifiedTime: null
+            systemVersion: 8.0.3
+            lastModifiedBy: BHAmrX4n5zD1mCjc
+            createdTime: 1776753052151
+            modifiedTime: 1776753052151
           ownership:
             default: 0
           _key: >-
@@ -6831,6 +6923,7 @@ tokens:
               otherTags: []
               value:
                 - agile
+              config: {}
             publication:
               title: ''
               authors: ''
@@ -6846,6 +6939,10 @@ tokens:
             attackEffects:
               value:
                 - grab
+            action: strike
+            area: null
+            range: null
+            subjectToMAP: true
           _id: nflrLT1POlEJZu3H
           img: systems/pf2e/icons/default-icons/melee.svg
           name: Claw
@@ -6858,12 +6955,12 @@ tokens:
             compendiumSource: null
             duplicateSource: null
             exportSource: null
-            coreVersion: '14.359'
+            coreVersion: '14.360'
             systemId: pf2e
-            systemVersion: 7.2.3
-            lastModifiedBy: null
-            createdTime: null
-            modifiedTime: null
+            systemVersion: 8.0.3
+            lastModifiedBy: BHAmrX4n5zD1mCjc
+            createdTime: 1776753052151
+            modifiedTime: 1776753052151
           ownership:
             default: 0
           _key: >-
@@ -6907,12 +7004,12 @@ tokens:
             compendiumSource: null
             duplicateSource: null
             exportSource: null
-            coreVersion: '14.359'
+            coreVersion: '14.360'
             systemId: pf2e
-            systemVersion: 7.2.3
-            lastModifiedBy: null
-            createdTime: null
-            modifiedTime: null
+            systemVersion: 8.0.3
+            lastModifiedBy: BHAmrX4n5zD1mCjc
+            createdTime: 1776753052151
+            modifiedTime: 1776753052151
           ownership:
             default: 0
           _key: >-
@@ -6956,12 +7053,12 @@ tokens:
             compendiumSource: null
             duplicateSource: null
             exportSource: null
-            coreVersion: '14.359'
+            coreVersion: '14.360'
             systemId: pf2e
-            systemVersion: 7.2.3
-            lastModifiedBy: null
-            createdTime: null
-            modifiedTime: null
+            systemVersion: 8.0.3
+            lastModifiedBy: BHAmrX4n5zD1mCjc
+            createdTime: 1776753052151
+            modifiedTime: 1776753052151
           ownership:
             default: 0
           _key: >-
@@ -6978,7 +7075,7 @@ tokens:
               value: >-
                 <p><strong>Trigger</strong> The monster is reduced to 0 HP.</p>
 
-                <hr />
+                <hr>
 
                 <p><strong>Effect</strong> The monster avoids being knocked out
                 and remains at 1 HP, but its
@@ -7015,12 +7112,12 @@ tokens:
             compendiumSource: null
             duplicateSource: null
             exportSource: null
-            coreVersion: '14.359'
+            coreVersion: '14.360'
             systemId: pf2e
-            systemVersion: 7.2.3
-            lastModifiedBy: null
-            createdTime: null
-            modifiedTime: null
+            systemVersion: 8.0.3
+            lastModifiedBy: BHAmrX4n5zD1mCjc
+            createdTime: 1776753052151
+            modifiedTime: 1776753052151
           ownership:
             default: 0
           _key: >-
@@ -7081,12 +7178,12 @@ tokens:
             compendiumSource: null
             duplicateSource: null
             exportSource: null
-            coreVersion: '14.359'
+            coreVersion: '14.360'
             systemId: pf2e
-            systemVersion: 7.2.3
-            lastModifiedBy: null
-            createdTime: null
-            modifiedTime: null
+            systemVersion: 8.0.3
+            lastModifiedBy: BHAmrX4n5zD1mCjc
+            createdTime: 1776753052151
+            modifiedTime: 1776753052151
           ownership:
             default: 0
           _key: >-
@@ -7137,12 +7234,12 @@ tokens:
             compendiumSource: null
             duplicateSource: null
             exportSource: null
-            coreVersion: '14.359'
+            coreVersion: '14.360'
             systemId: pf2e
-            systemVersion: 7.2.3
-            lastModifiedBy: null
-            createdTime: null
-            modifiedTime: null
+            systemVersion: 8.0.3
+            lastModifiedBy: BHAmrX4n5zD1mCjc
+            createdTime: 1776753052151
+            modifiedTime: 1776753052151
           ownership:
             default: 0
           _key: >-
@@ -7195,12 +7292,12 @@ tokens:
             compendiumSource: null
             duplicateSource: null
             exportSource: null
-            coreVersion: '14.359'
+            coreVersion: '14.360'
             systemId: pf2e
-            systemVersion: 7.2.3
-            lastModifiedBy: null
-            createdTime: null
-            modifiedTime: null
+            systemVersion: 8.0.3
+            lastModifiedBy: BHAmrX4n5zD1mCjc
+            createdTime: 1776753052151
+            modifiedTime: 1776753052151
           ownership:
             default: 0
           _key: >-
@@ -7247,12 +7344,12 @@ tokens:
             compendiumSource: null
             duplicateSource: null
             exportSource: null
-            coreVersion: '14.359'
+            coreVersion: '14.360'
             systemId: pf2e
-            systemVersion: 7.2.3
-            lastModifiedBy: null
-            createdTime: null
-            modifiedTime: null
+            systemVersion: 8.0.3
+            lastModifiedBy: BHAmrX4n5zD1mCjc
+            createdTime: 1776753052151
+            modifiedTime: 1776753052151
           ownership:
             default: 0
           _key: >-
@@ -7296,12 +7393,12 @@ tokens:
             compendiumSource: null
             duplicateSource: null
             exportSource: null
-            coreVersion: '14.359'
+            coreVersion: '14.360'
             systemId: pf2e
-            systemVersion: 7.2.3
-            lastModifiedBy: null
-            createdTime: null
-            modifiedTime: null
+            systemVersion: 8.0.3
+            lastModifiedBy: BHAmrX4n5zD1mCjc
+            createdTime: 1776753052151
+            modifiedTime: 1776753052151
           ownership:
             default: 0
           _key: >-
@@ -7319,6 +7416,7 @@ tokens:
     locked: false
     _movementHistory: []
     _regions:
+      - D27guY3XVyVQ1h4Y
       - qry1nqMgf8Kxlo4o
     depth: 1
     level: defaultLevel0000
@@ -7462,12 +7560,12 @@ tokens:
             compendiumSource: null
             duplicateSource: null
             exportSource: null
-            coreVersion: '14.359'
+            coreVersion: '14.360'
             systemId: pf2e
-            systemVersion: 7.2.3
-            lastModifiedBy: null
-            createdTime: null
-            modifiedTime: null
+            systemVersion: 8.0.3
+            lastModifiedBy: BHAmrX4n5zD1mCjc
+            createdTime: 1776753052153
+            modifiedTime: 1776753052153
           effects: []
           folder: null
           sort: 0
@@ -7492,6 +7590,7 @@ tokens:
             traits:
               otherTags: []
               value: []
+              config: {}
             publication:
               title: ''
               authors: ''
@@ -7507,6 +7606,10 @@ tokens:
             attackEffects:
               value:
                 - grab
+            action: strike
+            area: null
+            range: null
+            subjectToMAP: true
           _id: X6lteRmVzKPr3P02
           img: systems/pf2e/icons/default-icons/melee.svg
           name: Jaws
@@ -7519,12 +7622,12 @@ tokens:
             compendiumSource: null
             duplicateSource: null
             exportSource: null
-            coreVersion: '14.359'
+            coreVersion: '14.360'
             systemId: pf2e
-            systemVersion: 7.2.3
-            lastModifiedBy: null
-            createdTime: null
-            modifiedTime: null
+            systemVersion: 8.0.3
+            lastModifiedBy: BHAmrX4n5zD1mCjc
+            createdTime: 1776753052153
+            modifiedTime: 1776753052153
           ownership:
             default: 0
           _key: >-
@@ -7545,6 +7648,7 @@ tokens:
               otherTags: []
               value:
                 - agile
+              config: {}
             publication:
               title: ''
               authors: ''
@@ -7560,6 +7664,10 @@ tokens:
             attackEffects:
               value:
                 - grab
+            action: strike
+            area: null
+            range: null
+            subjectToMAP: true
           _id: nflrLT1POlEJZu3H
           img: systems/pf2e/icons/default-icons/melee.svg
           name: Claw
@@ -7572,12 +7680,12 @@ tokens:
             compendiumSource: null
             duplicateSource: null
             exportSource: null
-            coreVersion: '14.359'
+            coreVersion: '14.360'
             systemId: pf2e
-            systemVersion: 7.2.3
-            lastModifiedBy: null
-            createdTime: null
-            modifiedTime: null
+            systemVersion: 8.0.3
+            lastModifiedBy: BHAmrX4n5zD1mCjc
+            createdTime: 1776753052154
+            modifiedTime: 1776753052154
           ownership:
             default: 0
           _key: >-
@@ -7621,12 +7729,12 @@ tokens:
             compendiumSource: null
             duplicateSource: null
             exportSource: null
-            coreVersion: '14.359'
+            coreVersion: '14.360'
             systemId: pf2e
-            systemVersion: 7.2.3
-            lastModifiedBy: null
-            createdTime: null
-            modifiedTime: null
+            systemVersion: 8.0.3
+            lastModifiedBy: BHAmrX4n5zD1mCjc
+            createdTime: 1776753052154
+            modifiedTime: 1776753052154
           ownership:
             default: 0
           _key: >-
@@ -7670,12 +7778,12 @@ tokens:
             compendiumSource: null
             duplicateSource: null
             exportSource: null
-            coreVersion: '14.359'
+            coreVersion: '14.360'
             systemId: pf2e
-            systemVersion: 7.2.3
-            lastModifiedBy: null
-            createdTime: null
-            modifiedTime: null
+            systemVersion: 8.0.3
+            lastModifiedBy: BHAmrX4n5zD1mCjc
+            createdTime: 1776753052154
+            modifiedTime: 1776753052154
           ownership:
             default: 0
           _key: >-
@@ -7692,7 +7800,7 @@ tokens:
               value: >-
                 <p><strong>Trigger</strong> The monster is reduced to 0 HP.</p>
 
-                <hr />
+                <hr>
 
                 <p><strong>Effect</strong> The monster avoids being knocked out
                 and remains at 1 HP, but its
@@ -7729,12 +7837,12 @@ tokens:
             compendiumSource: null
             duplicateSource: null
             exportSource: null
-            coreVersion: '14.359'
+            coreVersion: '14.360'
             systemId: pf2e
-            systemVersion: 7.2.3
-            lastModifiedBy: null
-            createdTime: null
-            modifiedTime: null
+            systemVersion: 8.0.3
+            lastModifiedBy: BHAmrX4n5zD1mCjc
+            createdTime: 1776753052154
+            modifiedTime: 1776753052154
           ownership:
             default: 0
           _key: >-
@@ -7795,12 +7903,12 @@ tokens:
             compendiumSource: null
             duplicateSource: null
             exportSource: null
-            coreVersion: '14.359'
+            coreVersion: '14.360'
             systemId: pf2e
-            systemVersion: 7.2.3
-            lastModifiedBy: null
-            createdTime: null
-            modifiedTime: null
+            systemVersion: 8.0.3
+            lastModifiedBy: BHAmrX4n5zD1mCjc
+            createdTime: 1776753052154
+            modifiedTime: 1776753052154
           ownership:
             default: 0
           _key: >-
@@ -7851,12 +7959,12 @@ tokens:
             compendiumSource: null
             duplicateSource: null
             exportSource: null
-            coreVersion: '14.359'
+            coreVersion: '14.360'
             systemId: pf2e
-            systemVersion: 7.2.3
-            lastModifiedBy: null
-            createdTime: null
-            modifiedTime: null
+            systemVersion: 8.0.3
+            lastModifiedBy: BHAmrX4n5zD1mCjc
+            createdTime: 1776753052154
+            modifiedTime: 1776753052154
           ownership:
             default: 0
           _key: >-
@@ -7909,12 +8017,12 @@ tokens:
             compendiumSource: null
             duplicateSource: null
             exportSource: null
-            coreVersion: '14.359'
+            coreVersion: '14.360'
             systemId: pf2e
-            systemVersion: 7.2.3
-            lastModifiedBy: null
-            createdTime: null
-            modifiedTime: null
+            systemVersion: 8.0.3
+            lastModifiedBy: BHAmrX4n5zD1mCjc
+            createdTime: 1776753052154
+            modifiedTime: 1776753052154
           ownership:
             default: 0
           _key: >-
@@ -7961,12 +8069,12 @@ tokens:
             compendiumSource: null
             duplicateSource: null
             exportSource: null
-            coreVersion: '14.359'
+            coreVersion: '14.360'
             systemId: pf2e
-            systemVersion: 7.2.3
-            lastModifiedBy: null
-            createdTime: null
-            modifiedTime: null
+            systemVersion: 8.0.3
+            lastModifiedBy: BHAmrX4n5zD1mCjc
+            createdTime: 1776753052154
+            modifiedTime: 1776753052154
           ownership:
             default: 0
           _key: >-
@@ -8010,12 +8118,12 @@ tokens:
             compendiumSource: null
             duplicateSource: null
             exportSource: null
-            coreVersion: '14.359'
+            coreVersion: '14.360'
             systemId: pf2e
-            systemVersion: 7.2.3
-            lastModifiedBy: null
-            createdTime: null
-            modifiedTime: null
+            systemVersion: 8.0.3
+            lastModifiedBy: BHAmrX4n5zD1mCjc
+            createdTime: 1776753052154
+            modifiedTime: 1776753052154
           ownership:
             default: 0
           _key: >-
@@ -8135,23 +8243,14 @@ tokens:
     sort: 10
     shape: 4
     _id: OE8IXL7O6WKIjTwO
-    delta:
-      _id: fVmcCzM089kOZ8xD
-      system: {}
-      items: []
-      effects: []
-      flags: {}
-      name: null
-      type: null
-      img: null
-      ownership: null
-      _key: '!scenes.tokens.delta!DgsUYWLNZuEA5aKI.OE8IXL7O6WKIjTwO.fVmcCzM089kOZ8xD'
+    delta: null
     x: 2800
     'y': 3080
     elevation: 0
     locked: false
     _movementHistory: []
-    _regions: []
+    _regions:
+      - QYYu0e84fLP9XCvL
     depth: 1
     level: defaultLevel0000
     _key: '!scenes.tokens!DgsUYWLNZuEA5aKI.OE8IXL7O6WKIjTwO'
@@ -8260,17 +8359,7 @@ tokens:
     sort: 11
     shape: 4
     _id: gmpZZ9rNrbLju2x8
-    delta:
-      _id: l1JodOAStGH9MgpY
-      system: {}
-      items: []
-      effects: []
-      flags: {}
-      name: null
-      type: null
-      img: null
-      ownership: null
-      _key: '!scenes.tokens.delta!DgsUYWLNZuEA5aKI.gmpZZ9rNrbLju2x8.l1JodOAStGH9MgpY'
+    delta: null
     x: 2940
     'y': 3080
     elevation: 0
@@ -8386,17 +8475,7 @@ tokens:
     sort: 12
     shape: 4
     _id: ND5uqxBYyWP2vPhR
-    delta:
-      _id: SxT9nAoFOWVl3pgw
-      system: {}
-      items: []
-      effects: []
-      flags: {}
-      name: null
-      type: null
-      img: null
-      ownership: null
-      _key: '!scenes.tokens.delta!DgsUYWLNZuEA5aKI.ND5uqxBYyWP2vPhR.SxT9nAoFOWVl3pgw'
+    delta: null
     x: 2800
     'y': 2940
     elevation: 0
@@ -8506,17 +8585,7 @@ tokens:
     sort: 13
     shape: 4
     _id: qTdhVBOS6ouNyksS
-    delta:
-      _id: kDIU9M8nZhQz6mjy
-      system: {}
-      items: []
-      effects: []
-      flags: {}
-      name: null
-      type: null
-      img: null
-      ownership: null
-      _key: '!scenes.tokens.delta!DgsUYWLNZuEA5aKI.qTdhVBOS6ouNyksS.kDIU9M8nZhQz6mjy'
+    delta: null
     x: 2940
     'y': 2800
     elevation: 0
@@ -8629,17 +8698,7 @@ tokens:
     sort: 14
     shape: 4
     _id: pTIgxHkVnNqt8YSb
-    delta:
-      _id: yDjuIzv3QMxDNWOc
-      system: {}
-      items: []
-      effects: []
-      flags: {}
-      name: null
-      type: null
-      img: null
-      ownership: null
-      _key: '!scenes.tokens.delta!DgsUYWLNZuEA5aKI.pTIgxHkVnNqt8YSb.yDjuIzv3QMxDNWOc'
+    delta: null
     x: 2940
     'y': 3220
     elevation: 0
@@ -8754,17 +8813,7 @@ tokens:
     sort: 15
     shape: 4
     _id: Fa4vuIO1sRTEiRdp
-    delta:
-      _id: fTftd6Ymhk1Is8RH
-      system: {}
-      items: []
-      effects: []
-      flags: {}
-      name: null
-      type: null
-      img: null
-      ownership: null
-      _key: '!scenes.tokens.delta!DgsUYWLNZuEA5aKI.Fa4vuIO1sRTEiRdp.fTftd6Ymhk1Is8RH'
+    delta: null
     x: 2940
     'y': 2940
     elevation: 0
@@ -8873,23 +8922,14 @@ tokens:
     sort: 17
     shape: 4
     _id: a9AmZVCFe3KT9bKf
-    delta:
-      _id: QnH3Bd5iejpU6JXf
-      system: {}
-      items: []
-      effects: []
-      flags: {}
-      name: null
-      type: null
-      img: null
-      ownership: null
-      _key: '!scenes.tokens.delta!DgsUYWLNZuEA5aKI.a9AmZVCFe3KT9bKf.QnH3Bd5iejpU6JXf'
+    delta: null
     x: 2800
     'y': 3220
     elevation: 0
     locked: false
     _movementHistory: []
-    _regions: []
+    _regions:
+      - QYYu0e84fLP9XCvL
     depth: 1
     level: defaultLevel0000
     _key: '!scenes.tokens!DgsUYWLNZuEA5aKI.a9AmZVCFe3KT9bKf'
@@ -8995,23 +9035,14 @@ tokens:
     sort: 18
     shape: 4
     _id: SoNyLk8KNfQNAsvB
-    delta:
-      _id: zyxlGLElYj00cCW9
-      system: {}
-      items: []
-      effects: []
-      flags: {}
-      name: null
-      type: null
-      img: null
-      ownership: null
-      _key: '!scenes.tokens.delta!DgsUYWLNZuEA5aKI.SoNyLk8KNfQNAsvB.zyxlGLElYj00cCW9'
+    delta: null
     x: 3080
     'y': 2520
     elevation: 0
     locked: false
     _movementHistory: []
     _regions:
+      - D27guY3XVyVQ1h4Y
       - qry1nqMgf8Kxlo4o
     depth: 1
     level: defaultLevel0000
@@ -9087,6 +9118,8 @@ regions:
             fly: 1
             swim: 1
             burrow: 1
+            deploy: 1
+            travel: 1
         disabled: false
         flags: {}
         _stats:
@@ -9095,15 +9128,17 @@ regions:
           exportSource: null
           coreVersion: '14.360'
           systemId: pf2e
-          systemVersion: 7.2.3
-          lastModifiedBy: null
-          createdTime: null
-          modifiedTime: null
+          systemVersion: 8.0.3
+          lastModifiedBy: BHAmrX4n5zD1mCjc
+          createdTime: 1776753052157
+          modifiedTime: 1776753052157
         _key: >-
           !scenes.regions.behaviors!DgsUYWLNZuEA5aKI.qry1nqMgf8Kxlo4o.ESUXu3kZd9CjSl0u
     visibility: 0
     locked: false
-    flags: {}
+    flags:
+      pf2e:
+        areaShape: null
     levels: []
     restriction:
       enabled: false
@@ -42975,16 +43010,15 @@ _stats:
   exportSource: null
   coreVersion: '14.360'
   systemId: pf2e
-  systemVersion: 7.2.3
-  createdTime: 1752203081242
-  modifiedTime: 1752203081242
-  lastModifiedBy: txZjek5EOiCBHPoz
+  systemVersion: 8.0.3
+  createdTime: 1776753052121
+  modifiedTime: 1776753052121
+  lastModifiedBy: BHAmrX4n5zD1mCjc
 navName: ''
 active: false
 sort: 0
 ownership:
   default: 0
-  txZjek5EOiCBHPoz: 3
 levels:
   - _id: defaultLevel0000
     name: Warren of Tunnels
@@ -43024,5 +43058,5 @@ transition:
   type: null
   duration: 1500
   activeOnly: false
-templates: []
 _key: '!scenes!DgsUYWLNZuEA5aKI'
+templates: []

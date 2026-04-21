@@ -1,0 +1,948 @@
+folder: wWLmoj0X0gW1STMN
+name: Relms Keep
+_id: khpqj5xU8tAXJkOs
+navigation: true
+navOrder: 0
+thumb: worlds/test14path/assets/scenes/thumb-zn8VlN_EwBCY8w1Xf0YzVw.webp
+width: 10780
+height: 7140
+padding: 0.25
+shiftX: 0
+shiftY: 0
+initial:
+  x: null
+  'y': null
+  scale: null
+initialLevel: defaultLevel0000
+grid:
+  type: 1
+  size: 100
+  style: solidLines
+  thickness: 1
+  color: '#000000'
+  alpha: 0.2
+  distance: 5
+  units: ft
+tokenVision: true
+fog:
+  mode: 1
+  colors:
+    explored: null
+    unexplored: null
+environment:
+  darknessLevel: 0
+  darknessLock: false
+  globalLight:
+    enabled: false
+    alpha: 0.5
+    bright: false
+    color: null
+    coloration: 1
+    luminosity: 0
+    saturation: 0
+    contrast: 0
+    shadows: 0
+    darkness:
+      min: 0
+      max: 1
+  cycle: true
+  base:
+    hue: 0
+    intensity: 0
+    luminosity: 0
+    saturation: 0
+    shadows: 0
+  dark:
+    hue: 0.7138888888888889
+    intensity: 0
+    luminosity: -0.25
+    saturation: 0
+    shadows: 0
+transition:
+  type: null
+  duration: 1500
+  activeOnly: false
+drawings: []
+tokens: []
+levels:
+  - _id: defaultLevel0000
+    name: Ground - Gateway
+    elevation:
+      bottom: 0
+      top: 20
+    background:
+      color: '#999999'
+      src: modules/dannysmodule/assets/maps/Relms%20Keep%20-%20ground.webp
+      tint: '#ffffff'
+      alphaThreshold: 0.75
+    foreground:
+      src: null
+      tint: '#ffffff'
+      alphaThreshold: 0.75
+    fog:
+      src: null
+      tint: '#ffffff'
+    textures:
+      anchorX: 0.5
+      anchorY: 0.5
+      offsetX: 0
+      offsetY: 0
+      fit: fill
+      scaleX: 1
+      scaleY: 1
+      rotation: 0
+    visibility:
+      levels:
+        - A3EfdjeXw9Bjeqdi
+        - V10SW3cWypt7ihPx
+    sort: 0
+    flags: {}
+    _key: '!scenes.levels!khpqj5xU8tAXJkOs.defaultLevel0000'
+  - name: 2nd - Ramparts
+    _id: A3EfdjeXw9Bjeqdi
+    elevation:
+      bottom: 20
+      top: 40
+    background:
+      color: '#999999'
+      src: modules/dannysmodule/assets/maps/Relms%20Keep%20-%20rampart.webp
+      tint: '#ffffff'
+      alphaThreshold: 0.75
+    foreground:
+      src: null
+      tint: '#ffffff'
+      alphaThreshold: 0.75
+    fog:
+      src: null
+      tint: '#ffffff'
+    textures:
+      anchorX: 0.5
+      anchorY: 0.5
+      offsetX: 0
+      offsetY: 0
+      fit: fill
+      scaleX: 1
+      scaleY: 1
+      rotation: 0
+    visibility:
+      levels:
+        - V10SW3cWypt7ihPx
+        - defaultLevel0000
+    sort: 0
+    flags: {}
+    _key: '!scenes.levels!khpqj5xU8tAXJkOs.A3EfdjeXw9Bjeqdi'
+  - name: 3rd - Tower
+    _id: V10SW3cWypt7ihPx
+    elevation:
+      bottom: 40
+      top: 60
+    background:
+      color: '#999999'
+      src: modules/dannysmodule/assets/maps/Relms%20Keep%20-%20tower.webp
+      tint: '#ffffff'
+      alphaThreshold: 0.75
+    foreground:
+      src: null
+      tint: '#ffffff'
+      alphaThreshold: 0.75
+    fog:
+      src: null
+      tint: '#ffffff'
+    textures:
+      anchorX: 0.5
+      anchorY: 0.5
+      offsetX: 0
+      offsetY: 0
+      fit: fill
+      scaleX: 1
+      scaleY: 1
+      rotation: 0
+    visibility:
+      levels:
+        - A3EfdjeXw9Bjeqdi
+        - defaultLevel0000
+    sort: 0
+    flags: {}
+    _key: '!scenes.levels!khpqj5xU8tAXJkOs.V10SW3cWypt7ihPx'
+lights: []
+notes: []
+sounds: []
+regions:
+  - color: '#2875cc'
+    elevation:
+      bottom: 0
+      top: 40
+    levels:
+      - defaultLevel0000
+      - A3EfdjeXw9Bjeqdi
+    restriction:
+      enabled: false
+      type: move
+      priority: 0
+    attachment:
+      token: null
+    visibility: 4
+    highlightMode: shapes
+    displayMeasurements: false
+    hidden: false
+    name: Ramp up to rampart
+    _id: srDnCaKjd38gfC5R
+    shapes:
+      - type: rectangle
+        x: 10550
+        'y': 7100
+        width: 400
+        height: 450
+        hole: false
+        anchorX: 0
+        anchorY: 0
+        rotation: 0
+        gridBased: false
+    behaviors:
+      - name: Change Level
+        type: changeLevel
+        _id: 7axpoJhVH5VQYu0D
+        system: {}
+        disabled: false
+        flags: {}
+        _stats:
+          coreVersion: '14.360'
+          systemId: pf2e
+          systemVersion: 8.0.3
+          createdTime: 1776753052224
+          modifiedTime: 1776753052224
+          lastModifiedBy: BHAmrX4n5zD1mCjc
+          compendiumSource: null
+          duplicateSource: null
+          exportSource: null
+        _key: >-
+          !scenes.regions.behaviors!khpqj5xU8tAXJkOs.srDnCaKjd38gfC5R.7axpoJhVH5VQYu0D
+    locked: false
+    flags:
+      pf2e:
+        areaShape: null
+    _shapeConstraints: null
+    ownership:
+      default: 0
+    _key: '!scenes.regions!khpqj5xU8tAXJkOs.srDnCaKjd38gfC5R'
+  - color: '#9728cc'
+    elevation:
+      bottom: 20
+      top: 40
+    levels:
+      - defaultLevel0000
+      - A3EfdjeXw9Bjeqdi
+      - V10SW3cWypt7ihPx
+    restriction:
+      enabled: false
+      type: move
+      priority: 0
+    attachment:
+      token: null
+    visibility: 4
+    highlightMode: shapes
+    displayMeasurements: false
+    hidden: false
+    name: Ramparts
+    _id: m2NA8BzOVV9B7WTU
+    shapes:
+      - type: polygon
+        points:
+          - 2800
+          - 6100
+          - 2750
+          - 6600
+          - 7250
+          - 6600
+          - 7300
+          - 6750
+          - 7450
+          - 6900
+          - 7800
+          - 6900
+          - 7950
+          - 6750
+          - 7900
+          - 6450
+          - 8600
+          - 5750
+          - 8650
+          - 5800
+          - 8750
+          - 5900
+          - 8650
+          - 6000
+          - 8700
+          - 6150
+          - 8650
+          - 6200
+          - 8850
+          - 6300
+          - 9050
+          - 6300
+          - 9050
+          - 6350
+          - 9533.961610705543
+          - 6685.225377862507
+          - 9787.90557883784
+          - 6811.032481340893
+          - 9806.543668242044
+          - 7009.062181260575
+          - 9883.425787034392
+          - 7102.252628281601
+          - 9971.956711704366
+          - 7165.156180020794
+          - 10281.81494804928
+          - 7160.4966576697425
+          - 10330.73993273532
+          - 7123.220478861332
+          - 10380.859077618707
+          - 7122.329073053943
+          - 10523.138495635876
+          - 7286.165978649471
+          - 10997.403222359775
+          - 7286.165978649471
+          - 11105.19066025157
+          - 7118.017575538272
+          - 11105.19066025157
+          - 7057.656610318865
+          - 11169.863122986648
+          - 7113.706078022598
+          - 11204.355103112022
+          - 7169.755545726332
+          - 11540.651909334423
+          - 7169.755545726332
+          - 11704.488814929953
+          - 6997.295645099461
+          - 11692.766685507153
+          - 6824.461799442097
+          - 12047.170959308463
+          - 6648.402902134349
+          - 12431.299462525369
+          - 6326.009336934448
+          - 12687.385131336638
+          - 6081.356064052253
+          - 12854.298111901126
+          - 5729.238269436757
+          - 12817.714444928088
+          - 5605.768393402752
+          - 12842.865715972051
+          - 5434.282454466635
+          - 12783.417257140864
+          - 5301.66666168937
+          - 12739.97415261038
+          - 5123.321285195807
+          - 12632.50963087708
+          - 5059.29986799299
+          - 12520.47215077215
+          - 5374.833995635447
+          - 12086.041105467317
+          - 5146.186077053956
+          - 12108.905897325467
+          - 5089.024097408584
+          - 12070.035751166613
+          - 5063.87282636462
+          - 12102.046459768022
+          - 4956.408304631319
+          - 11914.5551665312
+          - 4812.36011592498
+          - 11848.247270142567
+          - 4666.025448032826
+          - 11770.50697782486
+          - 4622.582343502343
+          - 11605.880476446187
+          - 4597.431072458378
+          - 11534.999621685925
+          - 4508.258384211597
+          - 9982.480254517604
+          - 4503.685425839967
+          - 9911.599399757342
+          - 4547.128530370451
+          - 9824.713190696375
+          - 4622.582343502343
+          - 9705.816273034001
+          - 4629.441781059788
+          - 9554.908646770216
+          - 4627.155301873972
+          - 9378.84974946247
+          - 4636.301218617232
+          - 9317.114811445466
+          - 4700.322635820049
+          - 9205.077331340537
+          - 4734.619823607272
+          - 9077.034496934903
+          - 4732.333344421459
+          - 8937.559266600192
+          - 4704.895594191679
+          - 8880.39728695482
+          - 4679.7443231477155
+          - 8665.46824348822
+          - 4661.4524896611965
+          - 8537.425409082583
+          - 4647.733614546307
+          - 8434.533845720913
+          - 4476.247675610189
+          - 8388.804262004614
+          - 4524.263738512302
+          - 8320.209886430168
+          - 4512.8313425832275
+          - 8116.713238892641
+          - 4734.619823607272
+          - 8128.145634821716
+          - 5576.044163987159
+          - 7563.385275925435
+          - 6097.361418352957
+          - 6925.457583083076
+          - 6106.507335096217
+          - 6916.311666339817
+          - 5976.178021504767
+          - 6591.6316219541
+          - 5976.178021504767
+          - 6589.345142768285
+          - 6099.647897538772
+          - 3996.4777460541823
+          - 6101.934376724586
+          - 3978.185912567663
+          - 5969.318583947323
+          - 3669.5112224826507
+          - 5971.605063133137
+          - 3660.365305739391
+          - 6108.793814282031
+          - 2873.8164658190635
+          - 6095.074939167142
+        hole: false
+        origin: null
+      - type: polygon
+        points:
+          - 11900
+          - 5500
+          - 12298.60727638652
+          - 5736.910997612974
+          - 12128.45682717432
+          - 5952.975060104654
+          - 11874.581553746593
+          - 6198.747931188942
+          - 11615.304678756576
+          - 6339.189571808534
+          - 11383.035811578022
+          - 6428.315997586353
+          - 11042.734913153623
+          - 6514.741622583025
+          - 10675.426006917765
+          - 6506.639220239586
+          - 10327.022706149932
+          - 6495.8360171150025
+          - 9978.619405382095
+          - 6390.504786650308
+          - 9622.113702270823
+          - 6182.543126502065
+          - 9376.340831186535
+          - 5979.983067916115
+          - 9273.710401502987
+          - 5863.848634326836
+          - 8987.42551870151
+          - 5415.515704656598
+          - 8882.094288236814
+          - 5153.538028885436
+          - 8755.156651522953
+          - 5188.648439040334
+          - 8730.849444492638
+          - 5040.104396077303
+          - 8736.251046054931
+          - 4905.064357020003
+          - 8865.88948354994
+          - 4886.1587515519805
+          - 8865.88948354994
+          - 4689.000294528321
+          - 8925.307100735152
+          - 4702.504298434052
+          - 9022.535928856407
+          - 4745.717110932388
+          - 9152.174366351417
+          - 4729.512306245511
+          - 9306.120010876739
+          - 4699.803497652906
+          - 9387.144034311119
+          - 4648.488282811131
+          - 9360.136026499658
+          - 4770.024317962702
+          - 9451.963253058624
+          - 5059.010001545325
+          - 9400.648038216848
+          - 5110.325216387099
+          - 9624.814503051968
+          - 5523.547735902439
+          - 9689.633721799473
+          - 5496.539728090978
+          - 9749.051338984686
+          - 5591.06775543109
+          - 9911.099385853446
+          - 5720.706192926098
+          - 10151.47065537544
+          - 5877.352638232566
+          - 10405.345928803164
+          - 5961.077462448093
+          - 10521.480362392444
+          - 5974.581466353822
+          - 10513.377960049005
+          - 6025.896681195596
+          - 10645.717198325161
+          - 6044.802286663618
+          - 10670.024405355474
+          - 6079.912696818517
+          - 10832.072452224234
+          - 6077.211896037371
+          - 10869.883663160279
+          - 6042.101485882473
+          - 10977.91569440612
+          - 6031.298282757889
+          - 10988.718897530704
+          - 5979.983067916115
+          - 11285.806983456765
+          - 5909.762247606319
+          - 11539.68225688449
+          - 5769.320606986726
+          - 11690.927100628665
+          - 5634.280567929425
+          - 11744.943116251587
+          - 5666.690177303177
+        hole: true
+        origin: null
+      - type: polygon
+        points:
+          - 8841.756405489454
+          - 4681.3854861661675
+          - 8917.846019947856
+          - 4685.287517676855
+          - 9089.535406418097
+          - 4732.111895805102
+          - 9233.910572313527
+          - 4728.209864294415
+          - 9347.069486123459
+          - 4661.875328612731
+          - 9397.795895762392
+          - 4628.708060771889
+          - 9430.963163603235
+          - 4812.103541774191
+          - 9473.885510220796
+          - 5069.637621479554
+          - 9512.905825327669
+          - 5186.698566800173
+          - 8984.18055562954
+          - 5432.526551973472
+          - 8872.972657574952
+          - 5176.943488023454
+          - 8740.303586211583
+          - 5217.914818885671
+          - 8701.28327110471
+          - 4919.409408318093
+        hole: false
+        origin: null
+    behaviors:
+      - name: Define Surface
+        type: defineSurface
+        _id: c6nQGmpJfq7DqEc2
+        system:
+          placement: bottom
+          light: true
+          move: true
+          sight: true
+          sound: true
+          occlusion: true
+          exposure: false
+        disabled: false
+        flags: {}
+        _stats:
+          coreVersion: '14.360'
+          systemId: pf2e
+          systemVersion: 8.0.3
+          createdTime: 1776753052224
+          modifiedTime: 1776753052224
+          lastModifiedBy: BHAmrX4n5zD1mCjc
+          compendiumSource: null
+          duplicateSource: null
+          exportSource: null
+        _key: >-
+          !scenes.regions.behaviors!khpqj5xU8tAXJkOs.m2NA8BzOVV9B7WTU.c6nQGmpJfq7DqEc2
+    locked: false
+    flags:
+      pf2e:
+        areaShape: null
+    _shapeConstraints: null
+    ownership:
+      default: 0
+    _key: '!scenes.regions!khpqj5xU8tAXJkOs.m2NA8BzOVV9B7WTU'
+  - color: '#28b8cc'
+    elevation:
+      bottom: 40
+      top: 60
+    levels:
+      - defaultLevel0000
+      - A3EfdjeXw9Bjeqdi
+      - V10SW3cWypt7ihPx
+    restriction:
+      enabled: false
+      type: move
+      priority: 0
+    attachment:
+      token: null
+    visibility: 4
+    highlightMode: shapes
+    displayMeasurements: false
+    hidden: false
+    name: Tower
+    _id: sGwleOWiBNtr00zv
+    shapes:
+      - type: polygon
+        points:
+          - 13550
+          - 8950
+          - 11950
+          - 8850
+          - 12500
+          - 8350
+          - 13250
+          - 7900
+          - 13450
+          - 6150
+          - 13407.10865386558
+          - 6165.8694373001
+          - 13093.06437567383
+          - 5893.913567525801
+          - 13054.213537134645
+          - 5654.333396534157
+          - 13093.06437567383
+          - 5239.924452116178
+          - 12869.672054073513
+          - 4964.731012463614
+          - 12681.893001134114
+          - 4835.228217332996
+          - 12235.10835793348
+          - 4770.476819767687
+          - 11963.152488159181
+          - 4543.846928289105
+          - 11675.008768993555
+          - 4152.1009730189835
+          - 11551.981113619468
+          - 4462.907681332468
+          - 11555.218683497733
+          - 4504.996089749919
+          - 9923.48346485194
+          - 4482.333100602061
+          - 9810.16851911265
+          - 4621.548605367476
+          - 9415.184993964263
+          - 4628.023745124006
+          - 9288.919768711912
+          - 4699.250282445847
+          - 8984.588200154958
+          - 4721.913271593705
+          - 8861.56054478087
+          - 4670.112153541458
+          - 8675.484110635232
+          - 4673.349723419723
+          - 8507.130476965427
+          - 4647.4491643936
+          - 8507.130476965427
+          - 4624.786175245741
+          - 8442.379079400118
+          - 4508.233659628185
+          - 8358.202262565217
+          - 4553.559637923901
+          - 8322.588993904297
+          - 4511.47122950645
+          - 8354.964692686952
+          - 4210.377230827762
+          - 8277.26301560858
+          - 4058.2114465492855
+          - 7979.406586808158
+          - 3925.471081540402
+          - 7985.8817265646885
+          - 3854.2445442185617
+          - 8280.500585486847
+          - 3727.979318966209
+          - 8351.727122808687
+          - 3595.238953957325
+          - 8322.588993904297
+          - 3290.907385400372
+          - 8354.964692686952
+          - 3141.979171000161
+          - 8121.859661451838
+          - 2711.3823771908546
+          - 7704.213147155594
+          - 2303.4485725294066
+          - 7205.627385902713
+          - 2076.818681050824
+          - 6791.218441484734
+          - 2012.067283485515
+          - 6363.859217553695
+          - 2041.2054123899043
+          - 6111.328767048989
+          - 2144.807648494399
+          - 5923.549714109592
+          - 2420.001088146963
+          - 5658.068984091825
+          - 2620.7304205994214
+          - 5178.908642108537
+          - 2688.7193880429963
+          - 4583.195784507692
+          - 2870.0233012258623
+          - 4282.101785829004
+          - 3180.830009539346
+          - 4006.9083461764403
+          - 3559.625685296405
+          - 3433.8584777234537
+          - 3792.7307165315183
+          - 3210.466156123137
+          - 4025.8357477666314
+          - 3132.7644790447657
+          - 4589.172906584821
+          - 3032.3998128185367
+          - 5142.797355768214
+          - 2838.145620122609
+          - 5800.024041056104
+          - 2698.930115357195
+          - 6690.355757579104
+          - 2705.4052551137256
+          - 1790.642467674989
+          - 13479.340368280797
+          - 1803.5927471880505
+          - 13511.716067063451
+          - 8960.0917779657
+        hole: false
+        origin: null
+      - type: polygon
+        points:
+          - 13100
+          - 5800
+          - 12850
+          - 5700
+          - 12800
+          - 5600
+          - 12831.578396272107
+          - 5441.982630686241
+          - 12777.556922900756
+          - 5333.939683943538
+          - 12761.668254262124
+          - 5197.297133651295
+          - 12647.269840063967
+          - 5092.431920636317
+          - 12354.918337113122
+          - 4933.545234249988
+          - 12148.365644810894
+          - 4933.545234249988
+          - 12037.144964340463
+          - 4955.789370344075
+          - 11827.41453831051
+          - 4717.459340764581
+          - 11795.637201033243
+          - 4647.549198754597
+          - 11544.596236542844
+          - 4593.527725383245
+          - 11411.131419978326
+          - 4409.219169175103
+          - 11674.883319379634
+          - 3980.2251159320153
+          - 12977.754147747532
+          - 4730.170275675488
+          - 13212.906443599297
+          - 5321.228749032631
+        hole: false
+        origin: null
+    behaviors:
+      - name: Define Surface
+        type: defineSurface
+        _id: h27iF5gqNGg1T6Fn
+        system:
+          placement: bottom
+          light: true
+          move: true
+          sight: true
+          sound: true
+          occlusion: true
+          exposure: false
+        disabled: false
+        flags: {}
+        _stats:
+          coreVersion: '14.360'
+          systemId: pf2e
+          systemVersion: 8.0.3
+          createdTime: 1776753052224
+          modifiedTime: 1776753052224
+          lastModifiedBy: BHAmrX4n5zD1mCjc
+          compendiumSource: null
+          duplicateSource: null
+          exportSource: null
+        _key: >-
+          !scenes.regions.behaviors!khpqj5xU8tAXJkOs.sGwleOWiBNtr00zv.h27iF5gqNGg1T6Fn
+    locked: false
+    flags:
+      pf2e:
+        areaShape: null
+    _shapeConstraints: null
+    ownership:
+      default: 0
+    _key: '!scenes.regions!khpqj5xU8tAXJkOs.sGwleOWiBNtr00zv'
+  - name: Inner Ramp up to rampart
+    _id: dk28G6KDDNuV10KV
+    color: '#2847cc'
+    shapes:
+      - type: polygon
+        points:
+          - 9250
+          - 5800
+          - 9650
+          - 5500
+          - 9500
+          - 5200
+          - 8993.935634406258
+          - 5432.526551973472
+          - 9126.604705769627
+          - 5680.305552902115
+        hole: false
+        origin: null
+    elevation:
+      bottom: 0
+      top: 40
+    levels:
+      - defaultLevel0000
+      - A3EfdjeXw9Bjeqdi
+    restriction:
+      enabled: false
+      type: move
+      priority: 0
+    attachment:
+      token: null
+    behaviors:
+      - name: Change Level
+        type: changeLevel
+        _id: 5sTXYcLDqYD3M3NP
+        system: {}
+        disabled: false
+        flags: {}
+        _stats:
+          coreVersion: '14.360'
+          systemId: pf2e
+          systemVersion: 8.0.3
+          createdTime: 1776753052224
+          modifiedTime: 1776753052224
+          lastModifiedBy: BHAmrX4n5zD1mCjc
+          compendiumSource: null
+          duplicateSource: null
+          exportSource: null
+        _key: >-
+          !scenes.regions.behaviors!khpqj5xU8tAXJkOs.dk28G6KDDNuV10KV.5sTXYcLDqYD3M3NP
+    visibility: 4
+    highlightMode: shapes
+    displayMeasurements: false
+    hidden: false
+    locked: false
+    flags:
+      pf2e:
+        areaShape: null
+    _shapeConstraints: null
+    ownership:
+      default: 0
+    _key: '!scenes.regions!khpqj5xU8tAXJkOs.dk28G6KDDNuV10KV'
+  - name: Stairs to Tower
+    _id: xaibcuPM29XTRwrd
+    color: '#ca28cc'
+    shapes:
+      - type: polygon
+        points:
+          - 8467.082417599764
+          - 3829.1662925064
+          - 8497.68213214081
+          - 3758.653906824864
+          - 8549.56860462345
+          - 3701.4457448568246
+          - 8641.367748246581
+          - 3648.228850002835
+          - 8713.210556299467
+          - 3634.9246262893375
+          - 8713.210556299467
+          - 3752.001794968115
+          - 8626.733102161734
+          - 3795.9057332226566
+          - 8584.159586278542
+          - 3858.4355846760945
+          - 8584.159586278542
+          - 3857.1051623047447
+          - 8550
+          - 3850
+        hole: false
+        origin: null
+    elevation:
+      bottom: 20
+      top: 60
+    levels:
+      - A3EfdjeXw9Bjeqdi
+      - V10SW3cWypt7ihPx
+    restriction:
+      enabled: false
+      type: move
+      priority: 0
+    attachment:
+      token: null
+    behaviors:
+      - name: Change Level
+        type: changeLevel
+        _id: 5Omk7wIE9xRcrRFS
+        system: {}
+        disabled: false
+        flags: {}
+        _stats:
+          coreVersion: '14.360'
+          systemId: pf2e
+          systemVersion: 8.0.3
+          createdTime: 1776753052224
+          modifiedTime: 1776753052224
+          lastModifiedBy: BHAmrX4n5zD1mCjc
+          compendiumSource: null
+          duplicateSource: null
+          exportSource: null
+        _key: >-
+          !scenes.regions.behaviors!khpqj5xU8tAXJkOs.xaibcuPM29XTRwrd.5Omk7wIE9xRcrRFS
+    visibility: 4
+    highlightMode: shapes
+    displayMeasurements: false
+    hidden: false
+    locked: false
+    flags:
+      pf2e:
+        areaShape: null
+    _shapeConstraints: null
+    ownership:
+      default: 0
+    _key: '!scenes.regions!khpqj5xU8tAXJkOs.xaibcuPM29XTRwrd'
+tiles: []
+walls: []
+playlist: null
+playlistSound: null
+journal: null
+journalEntryPage: null
+weather: ''
+flags:
+  pf2e:
+    rulesBasedVision: null
+    hearingRange: null
+    environmentTypes: []
+    syncDarkness: default
+_stats:
+  coreVersion: '14.360'
+  systemId: pf2e
+  systemVersion: 8.0.3
+  createdTime: 1776753052224
+  modifiedTime: 1776753052225
+  lastModifiedBy: BHAmrX4n5zD1mCjc
+  exportSource: null
+  compendiumSource: null
+  duplicateSource: null
+navName: ''
+ownership:
+  default: 0
+  BHAmrX4n5zD1mCjc: 3
+active: false
+sort: 0
+_key: '!scenes!khpqj5xU8tAXJkOs'
+templates: []

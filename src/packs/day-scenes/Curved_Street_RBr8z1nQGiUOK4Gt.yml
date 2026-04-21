@@ -4,7 +4,7 @@ _id: RBr8z1nQGiUOK4Gt
 navigation: false
 navOrder: 0
 navName: Town Street
-thumb: modules/dannysmodule/assets/scenes/RBr8z1nQGiUOK4Gt-thumb.webp
+thumb: worlds/test14path/assets/scenes/thumb-__qI9F19fyB5NZGSqoL8uQ.webp
 width: 2880
 height: 3840
 padding: 0.25
@@ -253,17 +253,7 @@ tokens:
     hidden: false
     sort: 1
     _id: bP9UuLRkV5Ui0KEx
-    delta:
-      _id: SOma8JoyxEaEM5LT
-      system: {}
-      items: []
-      effects: []
-      flags: {}
-      name: null
-      type: null
-      img: null
-      ownership: null
-      _key: '!scenes.tokens.delta!RBr8z1nQGiUOK4Gt.bP9UuLRkV5Ui0KEx.SOma8JoyxEaEM5LT'
+    delta: null
     x: 2175
     'y': 1500
     elevation: 0
@@ -376,17 +366,7 @@ tokens:
     hidden: false
     sort: 2
     _id: i44WNc0OagqX1PXw
-    delta:
-      _id: q7XIRgXhCJ8n4M61
-      system: {}
-      items: []
-      effects: []
-      flags: {}
-      name: null
-      type: null
-      img: null
-      ownership: null
-      _key: '!scenes.tokens.delta!RBr8z1nQGiUOK4Gt.i44WNc0OagqX1PXw.q7XIRgXhCJ8n4M61'
+    delta: null
     x: 2400
     'y': 1425
     elevation: 0
@@ -501,17 +481,7 @@ tokens:
     hidden: false
     sort: 3
     _id: 5qg5w7Lavb93I4qi
-    delta:
-      _id: bqeR7sw413Alk4YJ
-      system: {}
-      items: []
-      effects: []
-      flags: {}
-      name: null
-      type: null
-      img: null
-      ownership: null
-      _key: '!scenes.tokens.delta!RBr8z1nQGiUOK4Gt.5qg5w7Lavb93I4qi.bqeR7sw413Alk4YJ'
+    delta: null
     x: 2400
     'y': 1725
     elevation: 20
@@ -627,17 +597,7 @@ tokens:
     hidden: false
     sort: 4
     _id: u43fK7Ae7BiaJnVl
-    delta:
-      _id: HWM9zlXxZtjkquCz
-      system: {}
-      items: []
-      effects: []
-      flags: {}
-      name: null
-      type: null
-      img: null
-      ownership: null
-      _key: '!scenes.tokens.delta!RBr8z1nQGiUOK4Gt.u43fK7Ae7BiaJnVl.HWM9zlXxZtjkquCz'
+    delta: null
     x: 1875
     'y': 1800
     elevation: 0
@@ -752,17 +712,7 @@ tokens:
     hidden: false
     sort: 5
     _id: GhoGWceXyHRcFCH5
-    delta:
-      _id: gr8bDR0chvmy44Sb
-      system: {}
-      items: []
-      effects: []
-      flags: {}
-      name: null
-      type: null
-      img: null
-      ownership: null
-      _key: '!scenes.tokens.delta!RBr8z1nQGiUOK4Gt.GhoGWceXyHRcFCH5.gr8bDR0chvmy44Sb'
+    delta: null
     x: 2550
     'y': 1350
     elevation: 0
@@ -871,17 +821,7 @@ tokens:
     hidden: false
     sort: 9
     _id: Ggr56myCFFEEe1dL
-    delta:
-      _id: 1NxSRb9bg0TCm0KQ
-      system: {}
-      items: []
-      effects: []
-      flags: {}
-      name: null
-      type: null
-      img: null
-      ownership: null
-      _key: '!scenes.tokens.delta!RBr8z1nQGiUOK4Gt.Ggr56myCFFEEe1dL.1NxSRb9bg0TCm0KQ'
+    delta: null
     x: 2250
     'y': 1500
     elevation: 0
@@ -1033,15 +973,15 @@ tokens:
             persistent: null
           type: condition
           _stats:
-            coreVersion: '14.359'
+            coreVersion: '14.360'
             systemId: pf2e
-            systemVersion: 7.2.3
-            lastModifiedBy: null
+            systemVersion: 8.0.3
+            lastModifiedBy: BHAmrX4n5zD1mCjc
             compendiumSource: null
             duplicateSource: null
             exportSource: null
-            createdTime: null
-            modifiedTime: null
+            createdTime: 1776753052057
+            modifiedTime: 1776753052057
           effects: []
           folder: null
           sort: 0
@@ -1100,15 +1040,15 @@ tokens:
             persistent: null
           type: condition
           _stats:
-            coreVersion: '14.359'
+            coreVersion: '14.360'
             systemId: pf2e
-            systemVersion: 7.2.3
-            lastModifiedBy: null
+            systemVersion: 8.0.3
+            lastModifiedBy: BHAmrX4n5zD1mCjc
             compendiumSource: null
             duplicateSource: null
             exportSource: null
-            createdTime: null
-            modifiedTime: null
+            createdTime: 1776753052057
+            modifiedTime: 1776753052057
           effects: []
           folder: null
           sort: 0
@@ -1170,15 +1110,15 @@ tokens:
             fromSpell: false
           type: condition
           _stats:
-            coreVersion: '14.359'
+            coreVersion: '14.360'
             systemId: pf2e
-            systemVersion: 7.2.3
-            lastModifiedBy: null
+            systemVersion: 8.0.3
+            lastModifiedBy: BHAmrX4n5zD1mCjc
             compendiumSource: null
             duplicateSource: null
             exportSource: null
-            createdTime: null
-            modifiedTime: null
+            createdTime: 1776753052057
+            modifiedTime: 1776753052057
           effects: []
           folder: null
           sort: 0
@@ -1261,8 +1201,10 @@ tokens:
               value: 0
             range: null
             expend: null
+            ammo: null
             reload:
               value: ''
+            grade: null
             runes:
               potency: 0
               striking: 0
@@ -1290,15 +1232,15 @@ tokens:
           effects: []
           folder: null
           _stats:
-            coreVersion: '14.359'
+            coreVersion: '14.360'
             systemId: pf2e
-            systemVersion: 7.2.3
-            lastModifiedBy: null
+            systemVersion: 8.0.3
+            lastModifiedBy: BHAmrX4n5zD1mCjc
             compendiumSource: null
             duplicateSource: null
             exportSource: null
-            createdTime: null
-            modifiedTime: null
+            createdTime: 1776753052057
+            modifiedTime: 1776753052057
           ownership:
             default: 0
           _key: >-
@@ -1367,6 +1309,7 @@ tokens:
             dexCap: 2
             checkPenalty: -2
             speedPenalty: -5
+            grade: null
             runes:
               potency: 0
               resilient: 0
@@ -1383,15 +1326,15 @@ tokens:
           effects: []
           folder: null
           _stats:
-            coreVersion: '14.359'
+            coreVersion: '14.360'
             systemId: pf2e
-            systemVersion: 7.2.3
-            lastModifiedBy: null
+            systemVersion: 8.0.3
+            lastModifiedBy: BHAmrX4n5zD1mCjc
             compendiumSource: null
             duplicateSource: null
             exportSource: null
-            createdTime: null
-            modifiedTime: null
+            createdTime: 1776753052057
+            modifiedTime: 1776753052057
           ownership:
             default: 0
           _key: >-
@@ -1460,15 +1403,15 @@ tokens:
           folder: null
           flags: {}
           _stats:
-            coreVersion: '14.359'
+            coreVersion: '14.360'
             systemId: pf2e
-            systemVersion: 7.2.3
-            lastModifiedBy: null
+            systemVersion: 8.0.3
+            lastModifiedBy: BHAmrX4n5zD1mCjc
             compendiumSource: null
             duplicateSource: null
             exportSource: null
-            createdTime: null
-            modifiedTime: null
+            createdTime: 1776753052057
+            modifiedTime: 1776753052057
           ownership:
             default: 0
           _key: >-
@@ -1532,8 +1475,8 @@ tokens:
             damage: null
             usage:
               value: held-in-one-hand
-            stackGroup: null
             spell: null
+            stackGroup: null
           _id: 4uhmqqCnN4EAqpVy
           img: systems/pf2e/icons/spells/shape-stone.webp
           name: Rock
@@ -1543,15 +1486,15 @@ tokens:
           folder: null
           flags: {}
           _stats:
-            coreVersion: '14.359'
+            coreVersion: '14.360'
             systemId: pf2e
-            systemVersion: 7.2.3
-            lastModifiedBy: null
+            systemVersion: 8.0.3
+            lastModifiedBy: BHAmrX4n5zD1mCjc
             compendiumSource: null
             duplicateSource: null
             exportSource: null
-            createdTime: null
-            modifiedTime: null
+            createdTime: 1776753052057
+            modifiedTime: 1776753052057
           ownership:
             default: 0
           _key: >-
@@ -1574,6 +1517,7 @@ tokens:
                 - backswing
                 - reach-10
                 - shove
+              config: {}
             publication:
               title: ''
               authors: ''
@@ -1588,6 +1532,10 @@ tokens:
               value: 22
             attackEffects:
               value: []
+            action: strike
+            area: null
+            range: null
+            subjectToMAP: true
           _id: kBr3AKRl4vlCwVK2
           flags:
             pf2e:
@@ -1599,15 +1547,15 @@ tokens:
           effects: []
           folder: null
           _stats:
-            coreVersion: '14.359'
+            coreVersion: '14.360'
             systemId: pf2e
-            systemVersion: 7.2.3
-            lastModifiedBy: null
+            systemVersion: 8.0.3
+            lastModifiedBy: BHAmrX4n5zD1mCjc
             compendiumSource: null
             duplicateSource: null
             exportSource: null
-            createdTime: null
-            modifiedTime: null
+            createdTime: 1776753052057
+            modifiedTime: 1776753052057
           ownership:
             default: 0
           _key: >-
@@ -1629,6 +1577,7 @@ tokens:
               value:
                 - agile
                 - reach-10
+              config: {}
             publication:
               title: ''
               authors: ''
@@ -1643,6 +1592,10 @@ tokens:
               value: 22
             attackEffects:
               value: []
+            action: strike
+            area: null
+            range: null
+            subjectToMAP: true
           _id: 3tyBaMgyINlZCj76
           img: systems/pf2e/icons/default-icons/melee.svg
           name: Fist
@@ -1652,15 +1605,15 @@ tokens:
           folder: null
           flags: {}
           _stats:
-            coreVersion: '14.359'
+            coreVersion: '14.360'
             systemId: pf2e
-            systemVersion: 7.2.3
-            lastModifiedBy: null
+            systemVersion: 8.0.3
+            lastModifiedBy: BHAmrX4n5zD1mCjc
             compendiumSource: null
             duplicateSource: null
             exportSource: null
-            createdTime: null
-            modifiedTime: null
+            createdTime: 1776753052058
+            modifiedTime: 1776753052058
           ownership:
             default: 0
           _key: >-
@@ -1681,7 +1634,7 @@ tokens:
               otherTags: []
               value:
                 - brutal
-                - range-increment-120
+              config: {}
             publication:
               title: ''
               authors: ''
@@ -1697,6 +1650,12 @@ tokens:
             attackEffects:
               value:
                 - rock
+            range:
+              increment: 120
+              max: null
+            action: strike
+            area: null
+            subjectToMAP: true
           _id: 6SHvRrPDTa74t0cD
           img: systems/pf2e/icons/default-icons/melee.svg
           name: Rock
@@ -1706,15 +1665,15 @@ tokens:
           folder: null
           flags: {}
           _stats:
-            coreVersion: '14.359'
+            coreVersion: '14.360'
             systemId: pf2e
-            systemVersion: 7.2.3
-            lastModifiedBy: null
+            systemVersion: 8.0.3
+            lastModifiedBy: BHAmrX4n5zD1mCjc
             compendiumSource: null
             duplicateSource: null
             exportSource: null
-            createdTime: null
-            modifiedTime: null
+            createdTime: 1776753052058
+            modifiedTime: 1776753052058
           ownership:
             default: 0
           _key: >-
@@ -1755,15 +1714,15 @@ tokens:
           effects: []
           folder: null
           _stats:
-            coreVersion: '14.359'
+            coreVersion: '14.360'
             systemId: pf2e
-            systemVersion: 7.2.3
-            lastModifiedBy: null
+            systemVersion: 8.0.3
+            lastModifiedBy: BHAmrX4n5zD1mCjc
             compendiumSource: null
             duplicateSource: null
             exportSource: null
-            createdTime: null
-            modifiedTime: null
+            createdTime: 1776753052058
+            modifiedTime: 1776753052058
           ownership:
             default: 0
           _key: >-
@@ -1804,15 +1763,15 @@ tokens:
           effects: []
           folder: null
           _stats:
-            coreVersion: '14.359'
+            coreVersion: '14.360'
             systemId: pf2e
-            systemVersion: 7.2.3
-            lastModifiedBy: null
+            systemVersion: 8.0.3
+            lastModifiedBy: BHAmrX4n5zD1mCjc
             compendiumSource: null
             duplicateSource: null
             exportSource: null
-            createdTime: null
-            modifiedTime: null
+            createdTime: 1776753052058
+            modifiedTime: 1776753052058
           ownership:
             default: 0
           _key: >-
@@ -1853,15 +1812,15 @@ tokens:
           effects: []
           folder: null
           _stats:
-            coreVersion: '14.359'
+            coreVersion: '14.360'
             systemId: pf2e
-            systemVersion: 7.2.3
-            lastModifiedBy: null
+            systemVersion: 8.0.3
+            lastModifiedBy: BHAmrX4n5zD1mCjc
             compendiumSource: null
             duplicateSource: null
             exportSource: null
-            createdTime: null
-            modifiedTime: null
+            createdTime: 1776753052058
+            modifiedTime: 1776753052058
           ownership:
             default: 0
           _key: >-
@@ -1907,15 +1866,15 @@ tokens:
           folder: null
           flags: {}
           _stats:
-            coreVersion: '14.359'
+            coreVersion: '14.360'
             systemId: pf2e
-            systemVersion: 7.2.3
-            lastModifiedBy: null
+            systemVersion: 8.0.3
+            lastModifiedBy: BHAmrX4n5zD1mCjc
             compendiumSource: null
             duplicateSource: null
             exportSource: null
-            createdTime: null
-            modifiedTime: null
+            createdTime: 1776753052058
+            modifiedTime: 1776753052058
           ownership:
             default: 0
           _key: >-
@@ -2039,17 +1998,7 @@ tokens:
     hidden: false
     sort: 11
     _id: aFMrrYmri8UUFHCt
-    delta:
-      _id: 24d3SG3yBcnmtJGU
-      system: {}
-      items: []
-      effects: []
-      flags: {}
-      name: null
-      type: null
-      img: null
-      ownership: null
-      _key: '!scenes.tokens.delta!RBr8z1nQGiUOK4Gt.aFMrrYmri8UUFHCt.24d3SG3yBcnmtJGU'
+    delta: null
     x: 2475
     'y': 1350
     elevation: 0
@@ -4863,18 +4812,17 @@ flags:
 _stats:
   compendiumSource: null
   duplicateSource: null
-  coreVersion: '14.359'
+  coreVersion: '14.360'
   systemId: pf2e
-  systemVersion: 7.2.3
-  createdTime: 1742345330680
-  modifiedTime: 1752203153701
-  lastModifiedBy: txZjek5EOiCBHPoz
+  systemVersion: 8.0.3
+  createdTime: 1776753052053
+  modifiedTime: 1776753052053
+  lastModifiedBy: BHAmrX4n5zD1mCjc
   exportSource: null
 active: false
 sort: 0
 ownership:
   default: 0
-  txZjek5EOiCBHPoz: 3
 levels:
   - _id: defaultLevel0000
     name: Curved Street
@@ -4915,5 +4863,5 @@ transition:
   type: null
   duration: 1500
   activeOnly: false
-templates: []
 _key: '!scenes!RBr8z1nQGiUOK4Gt'
+templates: []

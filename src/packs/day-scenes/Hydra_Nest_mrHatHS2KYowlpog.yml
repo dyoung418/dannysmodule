@@ -1,7 +1,7 @@
 name: Hydra Nest
 navigation: false
 navName: ''
-thumb: worlds/test14-dandd/assets/scenes/thumb-5VGkUAwD94njg3OLSatnDQ.webp
+thumb: worlds/test14path/assets/scenes/thumb-5VGkUAwD94njg3OLSatnDQ.webp
 width: 2160
 height: 3084
 padding: 0.25
@@ -563,11 +563,11 @@ regions:
           compendiumSource: null
           duplicateSource: null
           coreVersion: '14.360'
-          systemId: dnd5e
-          systemVersion: 5.3.1
-          createdTime: 1776117466140
-          modifiedTime: 1776117466140
-          lastModifiedBy: Rd6viSMz3bRi3ZfD
+          systemId: pf2e
+          systemVersion: 8.0.3
+          createdTime: 1776753051959
+          modifiedTime: 1776753051959
+          lastModifiedBy: BHAmrX4n5zD1mCjc
           exportSource: null
         _key: >-
           !scenes.regions.behaviors!mrHatHS2KYowlpog.iy5zH7Obnuaia635.Jwhk9e8lD5yzYNux
@@ -581,17 +581,19 @@ regions:
           compendiumSource: null
           duplicateSource: null
           coreVersion: '14.360'
-          systemId: dnd5e
-          systemVersion: 5.3.1
-          createdTime: 1776117466140
-          modifiedTime: 1776117466140
-          lastModifiedBy: Rd6viSMz3bRi3ZfD
+          systemId: pf2e
+          systemVersion: 8.0.3
+          createdTime: 1776753051959
+          modifiedTime: 1776753051959
+          lastModifiedBy: BHAmrX4n5zD1mCjc
           exportSource: null
         _key: >-
           !scenes.regions.behaviors!mrHatHS2KYowlpog.iy5zH7Obnuaia635.vN3BBtaI54VwQ6EX
     visibility: 0
     locked: false
-    flags: {}
+    flags:
+      pf2e:
+        areaShape: null
     levels: []
     restriction:
       enabled: false
@@ -720,17 +722,19 @@ regions:
           compendiumSource: null
           duplicateSource: null
           coreVersion: '14.360'
-          systemId: dnd5e
-          systemVersion: 5.3.1
-          createdTime: 1776117466140
-          modifiedTime: 1776117466140
-          lastModifiedBy: Rd6viSMz3bRi3ZfD
+          systemId: pf2e
+          systemVersion: 8.0.3
+          createdTime: 1776753051959
+          modifiedTime: 1776753051959
+          lastModifiedBy: BHAmrX4n5zD1mCjc
           exportSource: null
         _key: >-
           !scenes.regions.behaviors!mrHatHS2KYowlpog.QDYwAIYQqTraZsrQ.EO6CgfPRdvuR7ANB
     visibility: 1
     locked: false
-    flags: {}
+    flags:
+      pf2e:
+        areaShape: null
     levels: []
     restriction:
       enabled: false
@@ -6120,11 +6124,11 @@ _stats:
   compendiumSource: null
   duplicateSource: null
   coreVersion: '14.360'
-  systemId: dnd5e
-  systemVersion: 5.3.1
-  createdTime: 1776117466139
-  modifiedTime: 1776117466139
-  lastModifiedBy: Rd6viSMz3bRi3ZfD
+  systemId: pf2e
+  systemVersion: 8.0.3
+  createdTime: 1776753051957
+  modifiedTime: 1776753051957
+  lastModifiedBy: BHAmrX4n5zD1mCjc
   exportSource: null
 navOrder: 0
 _id: mrHatHS2KYowlpog
@@ -6169,5 +6173,5 @@ transition:
   type: null
   duration: 1500
   activeOnly: false
-templates: []
 _key: '!scenes!mrHatHS2KYowlpog'
+templates: []

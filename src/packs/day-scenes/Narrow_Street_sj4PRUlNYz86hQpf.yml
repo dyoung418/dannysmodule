@@ -4,7 +4,7 @@ _id: sj4PRUlNYz86hQpf
 navigation: false
 navOrder: 0
 navName: ''
-thumb: worlds/test14-dandd/assets/scenes/thumb-YJwz5B6hOeuChZ2lBxOg2Q.webp
+thumb: worlds/test14path/assets/scenes/thumb-YJwz5B6hOeuChZ2lBxOg2Q.webp
 width: 3750
 height: 6750
 padding: 0.25
@@ -3342,11 +3342,11 @@ _stats:
   compendiumSource: null
   duplicateSource: null
   coreVersion: '14.360'
-  systemId: dnd5e
-  systemVersion: 5.3.1
-  createdTime: 1776117466123
-  modifiedTime: 1776117466123
-  lastModifiedBy: Rd6viSMz3bRi3ZfD
+  systemId: pf2e
+  systemVersion: 8.0.3
+  createdTime: 1776753051941
+  modifiedTime: 1776753051941
+  lastModifiedBy: BHAmrX4n5zD1mCjc
   exportSource: null
 active: false
 sort: 0
@@ -3391,5 +3391,5 @@ transition:
   type: null
   duration: 1500
   activeOnly: false
-templates: []
 _key: '!scenes!sj4PRUlNYz86hQpf'
+templates: []

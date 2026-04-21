@@ -4,7 +4,7 @@ _id: DzJ9oxMWiFVTWUNx
 navigation: false
 navOrder: 0
 navName: ''
-thumb: modules/dannysmodule/assets/scenes/DzJ9oxMWiFVTWUNx-thumb.webp
+thumb: worlds/test14path/assets/scenes/thumb-NZkEFw0fxl56N00G8thcaQ.webp
 width: 2048
 height: 3072
 padding: 0.1
@@ -213,12 +213,12 @@ tokens:
             compendiumSource: null
             duplicateSource: null
             exportSource: null
-            coreVersion: '14.359'
+            coreVersion: '14.360'
             systemId: pf2e
-            systemVersion: 7.2.3
-            lastModifiedBy: null
-            createdTime: null
-            modifiedTime: null
+            systemVersion: 8.0.3
+            lastModifiedBy: BHAmrX4n5zD1mCjc
+            createdTime: 1776753052101
+            modifiedTime: 1776753052101
           effects: []
           folder: null
           sort: 0
@@ -235,8 +235,8 @@ tokens:
               gm: ''
               value: >-
                 <p><strong>Activate</strong> <span class="action-glyph">A</span>
-                (manipulate)</p><hr /><p>A <em>healing potion</em> is a vial of
-                a ruby-red liquid that imparts a tingling sensation as the
+                (manipulate)</p><hr><p>A <em>healing potion</em> is a vial of a
+                ruby-red liquid that imparts a tingling sensation as the
                 drinker's wounds heal rapidly. When you drink a <em>healing
                 potion</em>, you regain @Damage[(3d8+10)[healing]] Hit
                 Points.</p>
@@ -303,19 +303,19 @@ tokens:
               type: vitality
             usage:
               value: held-in-one-hand
-            stackGroup: null
             spell: null
+            stackGroup: null
           type: consumable
           _stats:
             compendiumSource: null
             duplicateSource: null
             exportSource: null
-            coreVersion: '14.359'
+            coreVersion: '14.360'
             systemId: pf2e
-            systemVersion: 7.2.3
-            lastModifiedBy: null
-            createdTime: null
-            modifiedTime: null
+            systemVersion: 8.0.3
+            lastModifiedBy: BHAmrX4n5zD1mCjc
+            createdTime: 1776753052101
+            modifiedTime: 1776753052101
           effects: []
           folder: null
           sort: 0
@@ -382,12 +382,12 @@ tokens:
             compendiumSource: null
             duplicateSource: null
             exportSource: null
-            coreVersion: '14.359'
+            coreVersion: '14.360'
             systemId: pf2e
-            systemVersion: 7.2.3
-            lastModifiedBy: null
-            createdTime: null
-            modifiedTime: null
+            systemVersion: 8.0.3
+            lastModifiedBy: BHAmrX4n5zD1mCjc
+            createdTime: 1776753052101
+            modifiedTime: 1776753052101
           effects: []
           folder: null
           sort: 0
@@ -470,8 +470,10 @@ tokens:
               value: 0
             range: null
             expend: null
+            ammo: null
             reload:
               value: null
+            grade: null
             runes:
               potency: 0
               striking: 0
@@ -502,12 +504,12 @@ tokens:
             compendiumSource: null
             duplicateSource: null
             exportSource: null
-            coreVersion: '14.359'
+            coreVersion: '14.360'
             systemId: pf2e
-            systemVersion: 7.2.3
-            lastModifiedBy: null
-            createdTime: null
-            modifiedTime: null
+            systemVersion: 8.0.3
+            lastModifiedBy: BHAmrX4n5zD1mCjc
+            createdTime: 1776753052102
+            modifiedTime: 1776753052102
           ownership:
             default: 0
           _key: >-
@@ -576,6 +578,7 @@ tokens:
             dexCap: 2
             checkPenalty: -2
             speedPenalty: -5
+            grade: null
             runes:
               potency: 0
               resilient: 0
@@ -595,12 +598,12 @@ tokens:
             compendiumSource: null
             duplicateSource: null
             exportSource: null
-            coreVersion: '14.359'
+            coreVersion: '14.360'
             systemId: pf2e
-            systemVersion: 7.2.3
-            lastModifiedBy: null
-            createdTime: null
-            modifiedTime: null
+            systemVersion: 8.0.3
+            lastModifiedBy: BHAmrX4n5zD1mCjc
+            createdTime: 1776753052102
+            modifiedTime: 1776753052102
           ownership:
             default: 0
           _key: >-
@@ -672,12 +675,12 @@ tokens:
             compendiumSource: null
             duplicateSource: null
             exportSource: null
-            coreVersion: '14.359'
+            coreVersion: '14.360'
             systemId: pf2e
-            systemVersion: 7.2.3
-            lastModifiedBy: null
-            createdTime: null
-            modifiedTime: null
+            systemVersion: 8.0.3
+            lastModifiedBy: BHAmrX4n5zD1mCjc
+            createdTime: 1776753052102
+            modifiedTime: 1776753052102
           ownership:
             default: 0
           _key: >-
@@ -741,8 +744,8 @@ tokens:
             damage: null
             usage:
               value: held-in-one-hand
-            stackGroup: null
             spell: null
+            stackGroup: null
           _id: 4uhmqqCnN4EAqpVy
           img: systems/pf2e/icons/spells/shape-stone.webp
           name: Rock
@@ -755,12 +758,12 @@ tokens:
             compendiumSource: null
             duplicateSource: null
             exportSource: null
-            coreVersion: '14.359'
+            coreVersion: '14.360'
             systemId: pf2e
-            systemVersion: 7.2.3
-            lastModifiedBy: null
-            createdTime: null
-            modifiedTime: null
+            systemVersion: 8.0.3
+            lastModifiedBy: BHAmrX4n5zD1mCjc
+            createdTime: 1776753052102
+            modifiedTime: 1776753052102
           ownership:
             default: 0
           _key: >-
@@ -783,6 +786,7 @@ tokens:
                 - backswing
                 - reach-10
                 - shove
+              config: {}
             publication:
               title: ''
               authors: ''
@@ -797,6 +801,10 @@ tokens:
               value: 25
             attackEffects:
               value: []
+            action: strike
+            area: null
+            range: null
+            subjectToMAP: true
           _id: kBr3AKRl4vlCwVK2
           flags:
             pf2e:
@@ -811,12 +819,12 @@ tokens:
             compendiumSource: null
             duplicateSource: null
             exportSource: null
-            coreVersion: '14.359'
+            coreVersion: '14.360'
             systemId: pf2e
-            systemVersion: 7.2.3
-            lastModifiedBy: null
-            createdTime: null
-            modifiedTime: null
+            systemVersion: 8.0.3
+            lastModifiedBy: BHAmrX4n5zD1mCjc
+            createdTime: 1776753052102
+            modifiedTime: 1776753052102
           ownership:
             default: 0
           _key: >-
@@ -838,6 +846,7 @@ tokens:
               value:
                 - agile
                 - reach-10
+              config: {}
             publication:
               title: ''
               authors: ''
@@ -852,6 +861,10 @@ tokens:
               value: 25
             attackEffects:
               value: []
+            action: strike
+            area: null
+            range: null
+            subjectToMAP: true
           _id: 3tyBaMgyINlZCj76
           img: systems/pf2e/icons/default-icons/melee.svg
           name: Fist
@@ -864,12 +877,12 @@ tokens:
             compendiumSource: null
             duplicateSource: null
             exportSource: null
-            coreVersion: '14.359'
+            coreVersion: '14.360'
             systemId: pf2e
-            systemVersion: 7.2.3
-            lastModifiedBy: null
-            createdTime: null
-            modifiedTime: null
+            systemVersion: 8.0.3
+            lastModifiedBy: BHAmrX4n5zD1mCjc
+            createdTime: 1776753052102
+            modifiedTime: 1776753052102
           ownership:
             default: 0
           _key: >-
@@ -890,7 +903,7 @@ tokens:
               otherTags: []
               value:
                 - brutal
-                - range-increment-120
+              config: {}
             publication:
               title: ''
               authors: ''
@@ -906,6 +919,12 @@ tokens:
             attackEffects:
               value:
                 - rock
+            range:
+              increment: 120
+              max: null
+            action: strike
+            area: null
+            subjectToMAP: true
           _id: 6SHvRrPDTa74t0cD
           img: systems/pf2e/icons/default-icons/melee.svg
           name: Rock
@@ -918,12 +937,12 @@ tokens:
             compendiumSource: null
             duplicateSource: null
             exportSource: null
-            coreVersion: '14.359'
+            coreVersion: '14.360'
             systemId: pf2e
-            systemVersion: 7.2.3
-            lastModifiedBy: null
-            createdTime: null
-            modifiedTime: null
+            systemVersion: 8.0.3
+            lastModifiedBy: BHAmrX4n5zD1mCjc
+            createdTime: 1776753052102
+            modifiedTime: 1776753052102
           ownership:
             default: 0
           _key: >-
@@ -967,12 +986,12 @@ tokens:
             compendiumSource: null
             duplicateSource: null
             exportSource: null
-            coreVersion: '14.359'
+            coreVersion: '14.360'
             systemId: pf2e
-            systemVersion: 7.2.3
-            lastModifiedBy: null
-            createdTime: null
-            modifiedTime: null
+            systemVersion: 8.0.3
+            lastModifiedBy: BHAmrX4n5zD1mCjc
+            createdTime: 1776753052102
+            modifiedTime: 1776753052102
           ownership:
             default: 0
           _key: >-
@@ -1016,12 +1035,12 @@ tokens:
             compendiumSource: null
             duplicateSource: null
             exportSource: null
-            coreVersion: '14.359'
+            coreVersion: '14.360'
             systemId: pf2e
-            systemVersion: 7.2.3
-            lastModifiedBy: null
-            createdTime: null
-            modifiedTime: null
+            systemVersion: 8.0.3
+            lastModifiedBy: BHAmrX4n5zD1mCjc
+            createdTime: 1776753052102
+            modifiedTime: 1776753052102
           ownership:
             default: 0
           _key: >-
@@ -1065,12 +1084,12 @@ tokens:
             compendiumSource: null
             duplicateSource: null
             exportSource: null
-            coreVersion: '14.359'
+            coreVersion: '14.360'
             systemId: pf2e
-            systemVersion: 7.2.3
-            lastModifiedBy: null
-            createdTime: null
-            modifiedTime: null
+            systemVersion: 8.0.3
+            lastModifiedBy: BHAmrX4n5zD1mCjc
+            createdTime: 1776753052102
+            modifiedTime: 1776753052102
           ownership:
             default: 0
           _key: >-
@@ -1119,12 +1138,12 @@ tokens:
             compendiumSource: null
             duplicateSource: null
             exportSource: null
-            coreVersion: '14.359'
+            coreVersion: '14.360'
             systemId: pf2e
-            systemVersion: 7.2.3
-            lastModifiedBy: null
-            createdTime: null
-            modifiedTime: null
+            systemVersion: 8.0.3
+            lastModifiedBy: BHAmrX4n5zD1mCjc
+            createdTime: 1776753052102
+            modifiedTime: 1776753052102
           ownership:
             default: 0
           _key: >-
@@ -1312,12 +1331,12 @@ tokens:
             compendiumSource: null
             duplicateSource: null
             exportSource: null
-            coreVersion: '14.359'
+            coreVersion: '14.360'
             systemId: pf2e
-            systemVersion: 7.2.3
-            lastModifiedBy: null
-            createdTime: null
-            modifiedTime: null
+            systemVersion: 8.0.3
+            lastModifiedBy: BHAmrX4n5zD1mCjc
+            createdTime: 1776753052105
+            modifiedTime: 1776753052105
           ownership:
             default: 0
           _key: >-
@@ -1401,8 +1420,10 @@ tokens:
               value: 0
             range: 100
             expend: 1
+            ammo: null
             reload:
               value: '0'
+            grade: null
             runes:
               potency: 0
               striking: 0
@@ -1433,12 +1454,12 @@ tokens:
             compendiumSource: null
             duplicateSource: null
             exportSource: null
-            coreVersion: '14.359'
+            coreVersion: '14.360'
             systemId: pf2e
-            systemVersion: 7.2.3
-            lastModifiedBy: null
-            createdTime: null
-            modifiedTime: null
+            systemVersion: 8.0.3
+            lastModifiedBy: BHAmrX4n5zD1mCjc
+            createdTime: 1776753052105
+            modifiedTime: 1776753052105
           ownership:
             default: 0
           _key: >-
@@ -1515,8 +1536,10 @@ tokens:
               value: 0
             range: null
             expend: null
+            ammo: null
             reload:
               value: null
+            grade: null
             runes:
               potency: 1
               striking: 1
@@ -1547,12 +1570,12 @@ tokens:
             compendiumSource: null
             duplicateSource: null
             exportSource: null
-            coreVersion: '14.359'
+            coreVersion: '14.360'
             systemId: pf2e
-            systemVersion: 7.2.3
-            lastModifiedBy: null
-            createdTime: null
-            modifiedTime: null
+            systemVersion: 8.0.3
+            lastModifiedBy: BHAmrX4n5zD1mCjc
+            createdTime: 1776753052105
+            modifiedTime: 1776753052105
           ownership:
             default: 0
           _key: >-
@@ -1647,6 +1670,7 @@ tokens:
                     value: ''
               misidentified: {}
             acBonus: 2
+            grade: null
             runes:
               reinforcing: 0
             specific: null
@@ -1665,12 +1689,12 @@ tokens:
             compendiumSource: null
             duplicateSource: null
             exportSource: null
-            coreVersion: '14.359'
+            coreVersion: '14.360'
             systemId: pf2e
-            systemVersion: 7.2.3
-            lastModifiedBy: null
-            createdTime: null
-            modifiedTime: null
+            systemVersion: 8.0.3
+            lastModifiedBy: BHAmrX4n5zD1mCjc
+            createdTime: 1776753052105
+            modifiedTime: 1776753052105
           ownership:
             default: 0
           _key: >-
@@ -1740,6 +1764,7 @@ tokens:
             dexCap: 1
             checkPenalty: -2
             speedPenalty: -5
+            grade: null
             runes:
               potency: 0
               resilient: 0
@@ -1758,12 +1783,12 @@ tokens:
             compendiumSource: null
             duplicateSource: null
             exportSource: null
-            coreVersion: '14.359'
+            coreVersion: '14.360'
             systemId: pf2e
-            systemVersion: 7.2.3
-            lastModifiedBy: null
-            createdTime: null
-            modifiedTime: null
+            systemVersion: 8.0.3
+            lastModifiedBy: BHAmrX4n5zD1mCjc
+            createdTime: 1776753052105
+            modifiedTime: 1776753052105
           ownership:
             default: 0
           _key: >-
@@ -1832,8 +1857,8 @@ tokens:
             damage: null
             usage:
               value: held-in-one-hand
-            stackGroup: arrows
             spell: null
+            stackGroup: arrows
           _id: wCDlYwoa5nEJskWn
           flags:
             core: {}
@@ -1847,12 +1872,12 @@ tokens:
             compendiumSource: null
             duplicateSource: null
             exportSource: null
-            coreVersion: '14.359'
+            coreVersion: '14.360'
             systemId: pf2e
-            systemVersion: 7.2.3
-            lastModifiedBy: null
-            createdTime: null
-            modifiedTime: null
+            systemVersion: 8.0.3
+            lastModifiedBy: BHAmrX4n5zD1mCjc
+            createdTime: 1776753052105
+            modifiedTime: 1776753052105
           ownership:
             default: 0
           _key: >-
@@ -1892,6 +1917,7 @@ tokens:
             price:
               value:
                 gp: 1
+              per: 1
             equipped:
               carryType: worn
             containerId: null
@@ -1903,12 +1929,15 @@ tokens:
               status: identified
               unidentified:
                 name: ''
-                img: ''
+                img: >-
+                  systems/pf2e/icons/unidentified_item_icons/adventuring_gear.webp
                 data:
                   description:
                     value: ''
               misidentified: {}
             stackGroup: coins
+            category: coin
+            temporary: false
           _id: z4EU1BVZnQWiqtBC
           flags:
             core: {}
@@ -1922,12 +1951,12 @@ tokens:
             compendiumSource: null
             duplicateSource: null
             exportSource: null
-            coreVersion: '14.359'
+            coreVersion: '14.360'
             systemId: pf2e
-            systemVersion: 7.2.3
-            lastModifiedBy: null
-            createdTime: null
-            modifiedTime: null
+            systemVersion: 8.0.3
+            lastModifiedBy: BHAmrX4n5zD1mCjc
+            createdTime: 1776753052105
+            modifiedTime: 1776753052105
           ownership:
             default: 0
           _key: >-
@@ -1949,6 +1978,7 @@ tokens:
               value:
                 - magical
                 - versatile-p
+              config: {}
             publication:
               title: ''
               authors: ''
@@ -1963,6 +1993,10 @@ tokens:
               value: 23
             attackEffects:
               value: []
+            action: strike
+            area: null
+            range: null
+            subjectToMAP: true
           _id: QXyRODDmF4tozV5P
           flags:
             pf2e:
@@ -1977,12 +2011,12 @@ tokens:
             compendiumSource: null
             duplicateSource: null
             exportSource: null
-            coreVersion: '14.359'
+            coreVersion: '14.360'
             systemId: pf2e
-            systemVersion: 7.2.3
-            lastModifiedBy: null
-            createdTime: null
-            modifiedTime: null
+            systemVersion: 8.0.3
+            lastModifiedBy: BHAmrX4n5zD1mCjc
+            createdTime: 1776753052105
+            modifiedTime: 1776753052105
           ownership:
             default: 0
           _key: >-
@@ -2004,9 +2038,9 @@ tokens:
               value:
                 - deadly-d10
                 - propulsive
-                - range-increment-100
                 - reload-0
                 - volley-30
+              config: {}
             publication:
               title: ''
               authors: ''
@@ -2021,6 +2055,12 @@ tokens:
               value: 21
             attackEffects:
               value: []
+            range:
+              increment: 100
+              max: null
+            action: strike
+            area: null
+            subjectToMAP: true
           _id: owZSVQs8IkCQjNLE
           flags:
             pf2e:
@@ -2035,12 +2075,12 @@ tokens:
             compendiumSource: null
             duplicateSource: null
             exportSource: null
-            coreVersion: '14.359'
+            coreVersion: '14.360'
             systemId: pf2e
-            systemVersion: 7.2.3
-            lastModifiedBy: null
-            createdTime: null
-            modifiedTime: null
+            systemVersion: 8.0.3
+            lastModifiedBy: BHAmrX4n5zD1mCjc
+            createdTime: 1776753052105
+            modifiedTime: 1776753052105
           ownership:
             default: 0
           _key: >-
@@ -2085,12 +2125,12 @@ tokens:
             compendiumSource: null
             duplicateSource: null
             exportSource: null
-            coreVersion: '14.359'
+            coreVersion: '14.360'
             systemId: pf2e
-            systemVersion: 7.2.3
-            lastModifiedBy: null
-            createdTime: null
-            modifiedTime: null
+            systemVersion: 8.0.3
+            lastModifiedBy: BHAmrX4n5zD1mCjc
+            createdTime: 1776753052106
+            modifiedTime: 1776753052106
           ownership:
             default: 0
           _key: >-
@@ -2107,7 +2147,7 @@ tokens:
               value: >-
                 <p><strong>Requirements</strong> You are wielding a shield</p>
 
-                <hr />
+                <hr>
 
                 <p>You position your shield to protect yourself. When you have
                 Raised a Shield, you gain its listed circumstance bonus to AC.
@@ -2146,12 +2186,12 @@ tokens:
             compendiumSource: null
             duplicateSource: null
             exportSource: null
-            coreVersion: '14.359'
+            coreVersion: '14.360'
             systemId: pf2e
-            systemVersion: 7.2.3
-            lastModifiedBy: null
-            createdTime: null
-            modifiedTime: null
+            systemVersion: 8.0.3
+            lastModifiedBy: BHAmrX4n5zD1mCjc
+            createdTime: 1776753052106
+            modifiedTime: 1776753052106
           ownership:
             default: 0
           _key: >-
@@ -2195,12 +2235,12 @@ tokens:
             compendiumSource: null
             duplicateSource: null
             exportSource: null
-            coreVersion: '14.359'
+            coreVersion: '14.360'
             systemId: pf2e
-            systemVersion: 7.2.3
-            lastModifiedBy: null
-            createdTime: null
-            modifiedTime: null
+            systemVersion: 8.0.3
+            lastModifiedBy: BHAmrX4n5zD1mCjc
+            createdTime: 1776753052106
+            modifiedTime: 1776753052106
           ownership:
             default: 0
           _key: >-
@@ -2252,12 +2292,12 @@ tokens:
             compendiumSource: null
             duplicateSource: null
             exportSource: null
-            coreVersion: '14.359'
+            coreVersion: '14.360'
             systemId: pf2e
-            systemVersion: 7.2.3
-            lastModifiedBy: null
-            createdTime: null
-            modifiedTime: null
+            systemVersion: 8.0.3
+            lastModifiedBy: BHAmrX4n5zD1mCjc
+            createdTime: 1776753052106
+            modifiedTime: 1776753052106
           ownership:
             default: 0
           _key: >-
@@ -2445,12 +2485,12 @@ tokens:
             compendiumSource: null
             duplicateSource: null
             exportSource: null
-            coreVersion: '14.359'
+            coreVersion: '14.360'
             systemId: pf2e
-            systemVersion: 7.2.3
-            lastModifiedBy: null
-            createdTime: null
-            modifiedTime: null
+            systemVersion: 8.0.3
+            lastModifiedBy: BHAmrX4n5zD1mCjc
+            createdTime: 1776753052108
+            modifiedTime: 1776753052108
           ownership:
             default: 0
           _key: >-
@@ -2506,12 +2546,12 @@ tokens:
             compendiumSource: null
             duplicateSource: null
             exportSource: null
-            coreVersion: '14.359'
+            coreVersion: '14.360'
             systemId: pf2e
-            systemVersion: 7.2.3
-            lastModifiedBy: null
-            createdTime: null
-            modifiedTime: null
+            systemVersion: 8.0.3
+            lastModifiedBy: BHAmrX4n5zD1mCjc
+            createdTime: 1776753052109
+            modifiedTime: 1776753052109
           effects: []
           folder: null
           sort: 0
@@ -2573,12 +2613,12 @@ tokens:
             compendiumSource: null
             duplicateSource: null
             exportSource: null
-            coreVersion: '14.359'
+            coreVersion: '14.360'
             systemId: pf2e
-            systemVersion: 7.2.3
-            lastModifiedBy: null
-            createdTime: null
-            modifiedTime: null
+            systemVersion: 8.0.3
+            lastModifiedBy: BHAmrX4n5zD1mCjc
+            createdTime: 1776753052109
+            modifiedTime: 1776753052109
           effects: []
           folder: null
           sort: 0
@@ -2667,8 +2707,10 @@ tokens:
               value: 0
             range: 100
             expend: 1
+            ammo: null
             reload:
               value: '0'
+            grade: null
             runes:
               potency: 0
               striking: 0
@@ -2699,12 +2741,12 @@ tokens:
             compendiumSource: null
             duplicateSource: null
             exportSource: null
-            coreVersion: '14.359'
+            coreVersion: '14.360'
             systemId: pf2e
-            systemVersion: 7.2.3
-            lastModifiedBy: null
-            createdTime: null
-            modifiedTime: null
+            systemVersion: 8.0.3
+            lastModifiedBy: BHAmrX4n5zD1mCjc
+            createdTime: 1776753052109
+            modifiedTime: 1776753052109
           ownership:
             default: 0
           _key: >-
@@ -2781,8 +2823,10 @@ tokens:
               value: 0
             range: null
             expend: null
+            ammo: null
             reload:
               value: null
+            grade: null
             runes:
               potency: 1
               striking: 1
@@ -2813,12 +2857,12 @@ tokens:
             compendiumSource: null
             duplicateSource: null
             exportSource: null
-            coreVersion: '14.359'
+            coreVersion: '14.360'
             systemId: pf2e
-            systemVersion: 7.2.3
-            lastModifiedBy: null
-            createdTime: null
-            modifiedTime: null
+            systemVersion: 8.0.3
+            lastModifiedBy: BHAmrX4n5zD1mCjc
+            createdTime: 1776753052109
+            modifiedTime: 1776753052109
           ownership:
             default: 0
           _key: >-
@@ -2913,6 +2957,7 @@ tokens:
                     value: ''
               misidentified: {}
             acBonus: 2
+            grade: null
             runes:
               reinforcing: 0
             specific: null
@@ -2931,12 +2976,12 @@ tokens:
             compendiumSource: null
             duplicateSource: null
             exportSource: null
-            coreVersion: '14.359'
+            coreVersion: '14.360'
             systemId: pf2e
-            systemVersion: 7.2.3
-            lastModifiedBy: null
-            createdTime: null
-            modifiedTime: null
+            systemVersion: 8.0.3
+            lastModifiedBy: BHAmrX4n5zD1mCjc
+            createdTime: 1776753052109
+            modifiedTime: 1776753052109
           ownership:
             default: 0
           _key: >-
@@ -3006,6 +3051,7 @@ tokens:
             dexCap: 1
             checkPenalty: -2
             speedPenalty: -5
+            grade: null
             runes:
               potency: 0
               resilient: 0
@@ -3024,12 +3070,12 @@ tokens:
             compendiumSource: null
             duplicateSource: null
             exportSource: null
-            coreVersion: '14.359'
+            coreVersion: '14.360'
             systemId: pf2e
-            systemVersion: 7.2.3
-            lastModifiedBy: null
-            createdTime: null
-            modifiedTime: null
+            systemVersion: 8.0.3
+            lastModifiedBy: BHAmrX4n5zD1mCjc
+            createdTime: 1776753052109
+            modifiedTime: 1776753052109
           ownership:
             default: 0
           _key: >-
@@ -3098,8 +3144,8 @@ tokens:
             damage: null
             usage:
               value: held-in-one-hand
-            stackGroup: arrows
             spell: null
+            stackGroup: arrows
           _id: wCDlYwoa5nEJskWn
           flags:
             core: {}
@@ -3113,12 +3159,12 @@ tokens:
             compendiumSource: null
             duplicateSource: null
             exportSource: null
-            coreVersion: '14.359'
+            coreVersion: '14.360'
             systemId: pf2e
-            systemVersion: 7.2.3
-            lastModifiedBy: null
-            createdTime: null
-            modifiedTime: null
+            systemVersion: 8.0.3
+            lastModifiedBy: BHAmrX4n5zD1mCjc
+            createdTime: 1776753052109
+            modifiedTime: 1776753052109
           ownership:
             default: 0
           _key: >-
@@ -3158,6 +3204,7 @@ tokens:
             price:
               value:
                 gp: 1
+              per: 1
             equipped:
               carryType: worn
             containerId: null
@@ -3169,12 +3216,15 @@ tokens:
               status: identified
               unidentified:
                 name: ''
-                img: ''
+                img: >-
+                  systems/pf2e/icons/unidentified_item_icons/adventuring_gear.webp
                 data:
                   description:
                     value: ''
               misidentified: {}
             stackGroup: coins
+            category: coin
+            temporary: false
           _id: z4EU1BVZnQWiqtBC
           flags:
             core: {}
@@ -3188,12 +3238,12 @@ tokens:
             compendiumSource: null
             duplicateSource: null
             exportSource: null
-            coreVersion: '14.359'
+            coreVersion: '14.360'
             systemId: pf2e
-            systemVersion: 7.2.3
-            lastModifiedBy: null
-            createdTime: null
-            modifiedTime: null
+            systemVersion: 8.0.3
+            lastModifiedBy: BHAmrX4n5zD1mCjc
+            createdTime: 1776753052109
+            modifiedTime: 1776753052109
           ownership:
             default: 0
           _key: >-
@@ -3215,6 +3265,7 @@ tokens:
               value:
                 - magical
                 - versatile-p
+              config: {}
             publication:
               title: ''
               authors: ''
@@ -3229,6 +3280,10 @@ tokens:
               value: 23
             attackEffects:
               value: []
+            action: strike
+            area: null
+            range: null
+            subjectToMAP: true
           _id: QXyRODDmF4tozV5P
           flags:
             pf2e:
@@ -3243,12 +3298,12 @@ tokens:
             compendiumSource: null
             duplicateSource: null
             exportSource: null
-            coreVersion: '14.359'
+            coreVersion: '14.360'
             systemId: pf2e
-            systemVersion: 7.2.3
-            lastModifiedBy: null
-            createdTime: null
-            modifiedTime: null
+            systemVersion: 8.0.3
+            lastModifiedBy: BHAmrX4n5zD1mCjc
+            createdTime: 1776753052109
+            modifiedTime: 1776753052109
           ownership:
             default: 0
           _key: >-
@@ -3270,9 +3325,9 @@ tokens:
               value:
                 - deadly-d10
                 - propulsive
-                - range-increment-100
                 - reload-0
                 - volley-30
+              config: {}
             publication:
               title: ''
               authors: ''
@@ -3287,6 +3342,12 @@ tokens:
               value: 21
             attackEffects:
               value: []
+            range:
+              increment: 100
+              max: null
+            action: strike
+            area: null
+            subjectToMAP: true
           _id: owZSVQs8IkCQjNLE
           flags:
             pf2e:
@@ -3301,12 +3362,12 @@ tokens:
             compendiumSource: null
             duplicateSource: null
             exportSource: null
-            coreVersion: '14.359'
+            coreVersion: '14.360'
             systemId: pf2e
-            systemVersion: 7.2.3
-            lastModifiedBy: null
-            createdTime: null
-            modifiedTime: null
+            systemVersion: 8.0.3
+            lastModifiedBy: BHAmrX4n5zD1mCjc
+            createdTime: 1776753052109
+            modifiedTime: 1776753052109
           ownership:
             default: 0
           _key: >-
@@ -3351,12 +3412,12 @@ tokens:
             compendiumSource: null
             duplicateSource: null
             exportSource: null
-            coreVersion: '14.359'
+            coreVersion: '14.360'
             systemId: pf2e
-            systemVersion: 7.2.3
-            lastModifiedBy: null
-            createdTime: null
-            modifiedTime: null
+            systemVersion: 8.0.3
+            lastModifiedBy: BHAmrX4n5zD1mCjc
+            createdTime: 1776753052110
+            modifiedTime: 1776753052110
           ownership:
             default: 0
           _key: >-
@@ -3373,7 +3434,7 @@ tokens:
               value: >-
                 <p><strong>Requirements</strong> You are wielding a shield</p>
 
-                <hr />
+                <hr>
 
                 <p>You position your shield to protect yourself. When you have
                 Raised a Shield, you gain its listed circumstance bonus to AC.
@@ -3412,12 +3473,12 @@ tokens:
             compendiumSource: null
             duplicateSource: null
             exportSource: null
-            coreVersion: '14.359'
+            coreVersion: '14.360'
             systemId: pf2e
-            systemVersion: 7.2.3
-            lastModifiedBy: null
-            createdTime: null
-            modifiedTime: null
+            systemVersion: 8.0.3
+            lastModifiedBy: BHAmrX4n5zD1mCjc
+            createdTime: 1776753052110
+            modifiedTime: 1776753052110
           ownership:
             default: 0
           _key: >-
@@ -3461,12 +3522,12 @@ tokens:
             compendiumSource: null
             duplicateSource: null
             exportSource: null
-            coreVersion: '14.359'
+            coreVersion: '14.360'
             systemId: pf2e
-            systemVersion: 7.2.3
-            lastModifiedBy: null
-            createdTime: null
-            modifiedTime: null
+            systemVersion: 8.0.3
+            lastModifiedBy: BHAmrX4n5zD1mCjc
+            createdTime: 1776753052110
+            modifiedTime: 1776753052110
           ownership:
             default: 0
           _key: >-
@@ -3518,12 +3579,12 @@ tokens:
             compendiumSource: null
             duplicateSource: null
             exportSource: null
-            coreVersion: '14.359'
+            coreVersion: '14.360'
             systemId: pf2e
-            systemVersion: 7.2.3
-            lastModifiedBy: null
-            createdTime: null
-            modifiedTime: null
+            systemVersion: 8.0.3
+            lastModifiedBy: BHAmrX4n5zD1mCjc
+            createdTime: 1776753052110
+            modifiedTime: 1776753052110
           ownership:
             default: 0
           _key: >-
@@ -3711,12 +3772,12 @@ tokens:
             compendiumSource: null
             duplicateSource: null
             exportSource: null
-            coreVersion: '14.359'
+            coreVersion: '14.360'
             systemId: pf2e
-            systemVersion: 7.2.3
-            lastModifiedBy: null
-            createdTime: null
-            modifiedTime: null
+            systemVersion: 8.0.3
+            lastModifiedBy: BHAmrX4n5zD1mCjc
+            createdTime: 1776753052112
+            modifiedTime: 1776753052112
           ownership:
             default: 0
           _key: >-
@@ -3773,12 +3834,12 @@ tokens:
             compendiumSource: null
             duplicateSource: null
             exportSource: null
-            coreVersion: '14.359'
+            coreVersion: '14.360'
             systemId: pf2e
-            systemVersion: 7.2.3
-            lastModifiedBy: null
-            createdTime: null
-            modifiedTime: null
+            systemVersion: 8.0.3
+            lastModifiedBy: BHAmrX4n5zD1mCjc
+            createdTime: 1776753052112
+            modifiedTime: 1776753052112
           effects: []
           folder: null
           sort: 0
@@ -3843,12 +3904,12 @@ tokens:
             compendiumSource: null
             duplicateSource: null
             exportSource: null
-            coreVersion: '14.359'
+            coreVersion: '14.360'
             systemId: pf2e
-            systemVersion: 7.2.3
-            lastModifiedBy: null
-            createdTime: null
-            modifiedTime: null
+            systemVersion: 8.0.3
+            lastModifiedBy: BHAmrX4n5zD1mCjc
+            createdTime: 1776753052112
+            modifiedTime: 1776753052112
           effects: []
           folder: null
           sort: 0
@@ -3937,8 +3998,10 @@ tokens:
               value: 0
             range: 100
             expend: 1
+            ammo: null
             reload:
               value: '0'
+            grade: null
             runes:
               potency: 0
               striking: 0
@@ -3969,12 +4032,12 @@ tokens:
             compendiumSource: null
             duplicateSource: null
             exportSource: null
-            coreVersion: '14.359'
+            coreVersion: '14.360'
             systemId: pf2e
-            systemVersion: 7.2.3
-            lastModifiedBy: null
-            createdTime: null
-            modifiedTime: null
+            systemVersion: 8.0.3
+            lastModifiedBy: BHAmrX4n5zD1mCjc
+            createdTime: 1776753052113
+            modifiedTime: 1776753052113
           ownership:
             default: 0
           _key: >-
@@ -4051,8 +4114,10 @@ tokens:
               value: 0
             range: null
             expend: null
+            ammo: null
             reload:
               value: null
+            grade: null
             runes:
               potency: 1
               striking: 1
@@ -4083,12 +4148,12 @@ tokens:
             compendiumSource: null
             duplicateSource: null
             exportSource: null
-            coreVersion: '14.359'
+            coreVersion: '14.360'
             systemId: pf2e
-            systemVersion: 7.2.3
-            lastModifiedBy: null
-            createdTime: null
-            modifiedTime: null
+            systemVersion: 8.0.3
+            lastModifiedBy: BHAmrX4n5zD1mCjc
+            createdTime: 1776753052113
+            modifiedTime: 1776753052113
           ownership:
             default: 0
           _key: >-
@@ -4183,6 +4248,7 @@ tokens:
                     value: ''
               misidentified: {}
             acBonus: 2
+            grade: null
             runes:
               reinforcing: 0
             specific: null
@@ -4201,12 +4267,12 @@ tokens:
             compendiumSource: null
             duplicateSource: null
             exportSource: null
-            coreVersion: '14.359'
+            coreVersion: '14.360'
             systemId: pf2e
-            systemVersion: 7.2.3
-            lastModifiedBy: null
-            createdTime: null
-            modifiedTime: null
+            systemVersion: 8.0.3
+            lastModifiedBy: BHAmrX4n5zD1mCjc
+            createdTime: 1776753052113
+            modifiedTime: 1776753052113
           ownership:
             default: 0
           _key: >-
@@ -4276,6 +4342,7 @@ tokens:
             dexCap: 1
             checkPenalty: -2
             speedPenalty: -5
+            grade: null
             runes:
               potency: 0
               resilient: 0
@@ -4294,12 +4361,12 @@ tokens:
             compendiumSource: null
             duplicateSource: null
             exportSource: null
-            coreVersion: '14.359'
+            coreVersion: '14.360'
             systemId: pf2e
-            systemVersion: 7.2.3
-            lastModifiedBy: null
-            createdTime: null
-            modifiedTime: null
+            systemVersion: 8.0.3
+            lastModifiedBy: BHAmrX4n5zD1mCjc
+            createdTime: 1776753052113
+            modifiedTime: 1776753052113
           ownership:
             default: 0
           _key: >-
@@ -4368,8 +4435,8 @@ tokens:
             damage: null
             usage:
               value: held-in-one-hand
-            stackGroup: arrows
             spell: null
+            stackGroup: arrows
           _id: wCDlYwoa5nEJskWn
           flags:
             core: {}
@@ -4383,12 +4450,12 @@ tokens:
             compendiumSource: null
             duplicateSource: null
             exportSource: null
-            coreVersion: '14.359'
+            coreVersion: '14.360'
             systemId: pf2e
-            systemVersion: 7.2.3
-            lastModifiedBy: null
-            createdTime: null
-            modifiedTime: null
+            systemVersion: 8.0.3
+            lastModifiedBy: BHAmrX4n5zD1mCjc
+            createdTime: 1776753052113
+            modifiedTime: 1776753052113
           ownership:
             default: 0
           _key: >-
@@ -4428,6 +4495,7 @@ tokens:
             price:
               value:
                 gp: 1
+              per: 1
             equipped:
               carryType: worn
             containerId: null
@@ -4439,12 +4507,15 @@ tokens:
               status: identified
               unidentified:
                 name: ''
-                img: ''
+                img: >-
+                  systems/pf2e/icons/unidentified_item_icons/adventuring_gear.webp
                 data:
                   description:
                     value: ''
               misidentified: {}
             stackGroup: coins
+            category: coin
+            temporary: false
           _id: z4EU1BVZnQWiqtBC
           flags:
             core: {}
@@ -4458,12 +4529,12 @@ tokens:
             compendiumSource: null
             duplicateSource: null
             exportSource: null
-            coreVersion: '14.359'
+            coreVersion: '14.360'
             systemId: pf2e
-            systemVersion: 7.2.3
-            lastModifiedBy: null
-            createdTime: null
-            modifiedTime: null
+            systemVersion: 8.0.3
+            lastModifiedBy: BHAmrX4n5zD1mCjc
+            createdTime: 1776753052113
+            modifiedTime: 1776753052113
           ownership:
             default: 0
           _key: >-
@@ -4485,6 +4556,7 @@ tokens:
               value:
                 - magical
                 - versatile-p
+              config: {}
             publication:
               title: ''
               authors: ''
@@ -4499,6 +4571,10 @@ tokens:
               value: 23
             attackEffects:
               value: []
+            action: strike
+            area: null
+            range: null
+            subjectToMAP: true
           _id: QXyRODDmF4tozV5P
           flags:
             pf2e:
@@ -4513,12 +4589,12 @@ tokens:
             compendiumSource: null
             duplicateSource: null
             exportSource: null
-            coreVersion: '14.359'
+            coreVersion: '14.360'
             systemId: pf2e
-            systemVersion: 7.2.3
-            lastModifiedBy: null
-            createdTime: null
-            modifiedTime: null
+            systemVersion: 8.0.3
+            lastModifiedBy: BHAmrX4n5zD1mCjc
+            createdTime: 1776753052113
+            modifiedTime: 1776753052113
           ownership:
             default: 0
           _key: >-
@@ -4540,9 +4616,9 @@ tokens:
               value:
                 - deadly-d10
                 - propulsive
-                - range-increment-100
                 - reload-0
                 - volley-30
+              config: {}
             publication:
               title: ''
               authors: ''
@@ -4557,6 +4633,12 @@ tokens:
               value: 21
             attackEffects:
               value: []
+            range:
+              increment: 100
+              max: null
+            action: strike
+            area: null
+            subjectToMAP: true
           _id: owZSVQs8IkCQjNLE
           flags:
             pf2e:
@@ -4571,12 +4653,12 @@ tokens:
             compendiumSource: null
             duplicateSource: null
             exportSource: null
-            coreVersion: '14.359'
+            coreVersion: '14.360'
             systemId: pf2e
-            systemVersion: 7.2.3
-            lastModifiedBy: null
-            createdTime: null
-            modifiedTime: null
+            systemVersion: 8.0.3
+            lastModifiedBy: BHAmrX4n5zD1mCjc
+            createdTime: 1776753052113
+            modifiedTime: 1776753052113
           ownership:
             default: 0
           _key: >-
@@ -4621,12 +4703,12 @@ tokens:
             compendiumSource: null
             duplicateSource: null
             exportSource: null
-            coreVersion: '14.359'
+            coreVersion: '14.360'
             systemId: pf2e
-            systemVersion: 7.2.3
-            lastModifiedBy: null
-            createdTime: null
-            modifiedTime: null
+            systemVersion: 8.0.3
+            lastModifiedBy: BHAmrX4n5zD1mCjc
+            createdTime: 1776753052113
+            modifiedTime: 1776753052113
           ownership:
             default: 0
           _key: >-
@@ -4643,7 +4725,7 @@ tokens:
               value: >-
                 <p><strong>Requirements</strong> You are wielding a shield</p>
 
-                <hr />
+                <hr>
 
                 <p>You position your shield to protect yourself. When you have
                 Raised a Shield, you gain its listed circumstance bonus to AC.
@@ -4682,12 +4764,12 @@ tokens:
             compendiumSource: null
             duplicateSource: null
             exportSource: null
-            coreVersion: '14.359'
+            coreVersion: '14.360'
             systemId: pf2e
-            systemVersion: 7.2.3
-            lastModifiedBy: null
-            createdTime: null
-            modifiedTime: null
+            systemVersion: 8.0.3
+            lastModifiedBy: BHAmrX4n5zD1mCjc
+            createdTime: 1776753052114
+            modifiedTime: 1776753052114
           ownership:
             default: 0
           _key: >-
@@ -4731,12 +4813,12 @@ tokens:
             compendiumSource: null
             duplicateSource: null
             exportSource: null
-            coreVersion: '14.359'
+            coreVersion: '14.360'
             systemId: pf2e
-            systemVersion: 7.2.3
-            lastModifiedBy: null
-            createdTime: null
-            modifiedTime: null
+            systemVersion: 8.0.3
+            lastModifiedBy: BHAmrX4n5zD1mCjc
+            createdTime: 1776753052114
+            modifiedTime: 1776753052114
           ownership:
             default: 0
           _key: >-
@@ -4788,12 +4870,12 @@ tokens:
             compendiumSource: null
             duplicateSource: null
             exportSource: null
-            coreVersion: '14.359'
+            coreVersion: '14.360'
             systemId: pf2e
-            systemVersion: 7.2.3
-            lastModifiedBy: null
-            createdTime: null
-            modifiedTime: null
+            systemVersion: 8.0.3
+            lastModifiedBy: BHAmrX4n5zD1mCjc
+            createdTime: 1776753052114
+            modifiedTime: 1776753052114
           ownership:
             default: 0
           _key: >-
@@ -4915,17 +4997,7 @@ tokens:
     hidden: false
     sort: 4
     _id: 7urVZcq1lx6oo2cz
-    delta:
-      _id: yazrUDr8C0HcM5DJ
-      system: {}
-      items: []
-      effects: []
-      flags: {}
-      name: null
-      type: null
-      img: null
-      ownership: null
-      _key: '!scenes.tokens.delta!DzJ9oxMWiFVTWUNx.7urVZcq1lx6oo2cz.yazrUDr8C0HcM5DJ'
+    delta: null
     x: 2000
     'y': 1900
     elevation: 0
@@ -5040,17 +5112,7 @@ tokens:
     hidden: false
     sort: 5
     _id: BOvomorXStyKgb4z
-    delta:
-      _id: ZlSRClvNv4ufEPwQ
-      system: {}
-      items: []
-      effects: []
-      flags: {}
-      name: null
-      type: null
-      img: null
-      ownership: null
-      _key: '!scenes.tokens.delta!DzJ9oxMWiFVTWUNx.BOvomorXStyKgb4z.ZlSRClvNv4ufEPwQ'
+    delta: null
     x: 1400
     'y': 2200
     elevation: 0
@@ -5166,17 +5228,7 @@ tokens:
     hidden: false
     sort: 6
     _id: J79jGMxugETGK7ip
-    delta:
-      _id: nMfpBMOZoCRq0cCJ
-      system: {}
-      items: []
-      effects: []
-      flags: {}
-      name: null
-      type: null
-      img: null
-      ownership: null
-      _key: '!scenes.tokens.delta!DzJ9oxMWiFVTWUNx.J79jGMxugETGK7ip.nMfpBMOZoCRq0cCJ'
+    delta: null
     x: 1900
     'y': 2100
     elevation: 0
@@ -5289,17 +5341,7 @@ tokens:
     hidden: false
     sort: 7
     _id: nrK9GstsADa1dQ5P
-    delta:
-      _id: Hdfwrj6HgoPq8SLe
-      system: {}
-      items: []
-      effects: []
-      flags: {}
-      name: null
-      type: null
-      img: null
-      ownership: null
-      _key: '!scenes.tokens.delta!DzJ9oxMWiFVTWUNx.nrK9GstsADa1dQ5P.Hdfwrj6HgoPq8SLe'
+    delta: null
     x: 1600
     'y': 2100
     elevation: 0
@@ -5414,17 +5456,7 @@ tokens:
     hidden: false
     sort: 8
     _id: UyUlvhwmSzRhztbu
-    delta:
-      _id: BWNlJiTh5mNsWpgB
-      system: {}
-      items: []
-      effects: []
-      flags: {}
-      name: null
-      type: null
-      img: null
-      ownership: null
-      _key: '!scenes.tokens.delta!DzJ9oxMWiFVTWUNx.UyUlvhwmSzRhztbu.BWNlJiTh5mNsWpgB'
+    delta: null
     x: 2200
     'y': 700
     elevation: 20
@@ -5536,17 +5568,7 @@ tokens:
     hidden: false
     sort: 9
     _id: peka1OpwCuwt5l1S
-    delta:
-      _id: EskCAeO20zceZgSZ
-      system: {}
-      items: []
-      effects: []
-      flags: {}
-      name: null
-      type: null
-      img: null
-      ownership: null
-      _key: '!scenes.tokens.delta!DzJ9oxMWiFVTWUNx.peka1OpwCuwt5l1S.EskCAeO20zceZgSZ'
+    delta: null
     x: 1500
     'y': 2100
     elevation: 0
@@ -5655,17 +5677,7 @@ tokens:
     hidden: false
     sort: 10
     _id: zqhZdj2AUMIMDkhd
-    delta:
-      _id: zUy8hUPEyG0cFvum
-      system: {}
-      items: []
-      effects: []
-      flags: {}
-      name: null
-      type: null
-      img: null
-      ownership: null
-      _key: '!scenes.tokens.delta!DzJ9oxMWiFVTWUNx.zqhZdj2AUMIMDkhd.zUy8hUPEyG0cFvum'
+    delta: null
     x: 1500
     'y': 2000
     elevation: 0
@@ -5775,17 +5787,7 @@ tokens:
     hidden: false
     sort: 11
     _id: gbf44CZ3TDdXb235
-    delta:
-      _id: RAzEEWLyhFfCniwQ
-      system: {}
-      items: []
-      effects: []
-      flags: {}
-      name: null
-      type: null
-      img: null
-      ownership: null
-      _key: '!scenes.tokens.delta!DzJ9oxMWiFVTWUNx.gbf44CZ3TDdXb235.RAzEEWLyhFfCniwQ'
+    delta: null
     x: 1600
     'y': 1800
     elevation: 0
@@ -5894,17 +5896,7 @@ tokens:
     hidden: false
     sort: 12
     _id: NqLbPcQansOixHXj
-    delta:
-      _id: cqHEFyC1ntF2RZwZ
-      system: {}
-      items: []
-      effects: []
-      flags: {}
-      name: null
-      type: null
-      img: null
-      ownership: null
-      _key: '!scenes.tokens.delta!DzJ9oxMWiFVTWUNx.NqLbPcQansOixHXj.cqHEFyC1ntF2RZwZ'
+    delta: null
     x: 1600
     'y': 1400
     elevation: 0
@@ -6417,17 +6409,16 @@ _stats:
   compendiumSource: null
   duplicateSource: null
   exportSource: null
-  coreVersion: '14.359'
+  coreVersion: '14.360'
   systemId: pf2e
-  systemVersion: 7.2.3
-  createdTime: 1752203154515
-  modifiedTime: 1752203154515
-  lastModifiedBy: txZjek5EOiCBHPoz
+  systemVersion: 8.0.3
+  createdTime: 1776753052098
+  modifiedTime: 1776753052098
+  lastModifiedBy: BHAmrX4n5zD1mCjc
 active: false
 sort: 0
 ownership:
   default: 0
-  txZjek5EOiCBHPoz: 3
 levels:
   - _id: defaultLevel0000
     name: Town small square
@@ -6468,5 +6459,5 @@ transition:
   type: null
   duration: 1500
   activeOnly: false
-templates: []
 _key: '!scenes!DzJ9oxMWiFVTWUNx'
+templates: []

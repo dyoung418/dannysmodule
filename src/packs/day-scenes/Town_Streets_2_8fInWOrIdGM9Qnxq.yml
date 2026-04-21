@@ -4,7 +4,7 @@ _id: 8fInWOrIdGM9Qnxq
 navigation: false
 navOrder: 0
 navName: Town Streets
-thumb: worlds/test14-dandd/assets/scenes/thumb-_zbC55yppdCZ-65F36ZDYw.webp
+thumb: worlds/test14path/assets/scenes/thumb-_zbC55yppdCZ-65F36ZDYw.webp
 width: 4695
 height: 4500
 padding: 0.25
@@ -4404,11 +4404,11 @@ _stats:
   compendiumSource: null
   duplicateSource: null
   coreVersion: '14.360'
-  systemId: dnd5e
-  systemVersion: 5.3.1
-  createdTime: 1776117466129
-  modifiedTime: 1776117466129
-  lastModifiedBy: Rd6viSMz3bRi3ZfD
+  systemId: pf2e
+  systemVersion: 8.0.3
+  createdTime: 1776753051948
+  modifiedTime: 1776753051948
+  lastModifiedBy: BHAmrX4n5zD1mCjc
   exportSource: null
 active: false
 sort: 0
@@ -4453,5 +4453,5 @@ transition:
   type: null
   duration: 1500
   activeOnly: false
-templates: []
 _key: '!scenes!8fInWOrIdGM9Qnxq'
+templates: []
