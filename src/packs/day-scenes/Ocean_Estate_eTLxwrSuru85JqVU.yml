@@ -3,7 +3,7 @@ name: Ocean Estate
 _id: eTLxwrSuru85JqVU
 navigation: false
 navOrder: 0
-thumb: worlds/test14path/assets/scenes/thumb-Fe2-nVo7RFJKZBtdpNB7nw.webp
+thumb: worlds/14testpath/assets/scenes/thumb-2QTDq6pvrpC3P-Vqpyv5Fg.webp
 width: 3696
 height: 4196
 padding: 0.25
@@ -2495,9 +2495,9 @@ regions:
           coreVersion: '14.360'
           systemId: pf2e
           systemVersion: 8.0.3
-          createdTime: 1776753051976
-          modifiedTime: 1776753051976
-          lastModifiedBy: BHAmrX4n5zD1mCjc
+          createdTime: 1776912239287
+          modifiedTime: 1776912239287
+          lastModifiedBy: 30eR7aFdBAa9b9kF
           compendiumSource: null
           duplicateSource: null
           exportSource: null
@@ -2713,9 +2713,9 @@ regions:
           coreVersion: '14.360'
           systemId: pf2e
           systemVersion: 8.0.3
-          createdTime: 1776753051976
-          modifiedTime: 1776753051976
-          lastModifiedBy: BHAmrX4n5zD1mCjc
+          createdTime: 1776912239287
+          modifiedTime: 1776912239287
+          lastModifiedBy: 30eR7aFdBAa9b9kF
           compendiumSource: null
           duplicateSource: null
           exportSource: null
@@ -2971,9 +2971,9 @@ regions:
           coreVersion: '14.360'
           systemId: pf2e
           systemVersion: 8.0.3
-          createdTime: 1776753051976
-          modifiedTime: 1776753051976
-          lastModifiedBy: BHAmrX4n5zD1mCjc
+          createdTime: 1776912239288
+          modifiedTime: 1776912239288
+          lastModifiedBy: 30eR7aFdBAa9b9kF
           compendiumSource: null
           duplicateSource: null
           exportSource: null
@@ -3034,9 +3034,9 @@ regions:
           coreVersion: '14.360'
           systemId: pf2e
           systemVersion: 8.0.3
-          createdTime: 1776753051976
-          modifiedTime: 1776753051976
-          lastModifiedBy: BHAmrX4n5zD1mCjc
+          createdTime: 1776912239288
+          modifiedTime: 1776912239288
+          lastModifiedBy: 30eR7aFdBAa9b9kF
           compendiumSource: null
           duplicateSource: null
           exportSource: null
@@ -3164,9 +3164,9 @@ regions:
           coreVersion: '14.360'
           systemId: pf2e
           systemVersion: 8.0.3
-          createdTime: 1776753051977
-          modifiedTime: 1776753051977
-          lastModifiedBy: BHAmrX4n5zD1mCjc
+          createdTime: 1776912239289
+          modifiedTime: 1776912239289
+          lastModifiedBy: 30eR7aFdBAa9b9kF
           compendiumSource: null
           duplicateSource: null
           exportSource: null
@@ -3225,9 +3225,9 @@ regions:
           coreVersion: '14.360'
           systemId: pf2e
           systemVersion: 8.0.3
-          createdTime: 1776753051977
-          modifiedTime: 1776753051977
-          lastModifiedBy: BHAmrX4n5zD1mCjc
+          createdTime: 1776912239289
+          modifiedTime: 1776912239289
+          lastModifiedBy: 30eR7aFdBAa9b9kF
           compendiumSource: null
           duplicateSource: null
           exportSource: null
@@ -3278,9 +3278,9 @@ regions:
           coreVersion: '14.360'
           systemId: pf2e
           systemVersion: 8.0.3
-          createdTime: 1776753051977
-          modifiedTime: 1776753051977
-          lastModifiedBy: BHAmrX4n5zD1mCjc
+          createdTime: 1776912239290
+          modifiedTime: 1776912239290
+          lastModifiedBy: 30eR7aFdBAa9b9kF
           compendiumSource: null
           duplicateSource: null
           exportSource: null
@@ -3339,9 +3339,9 @@ regions:
           coreVersion: '14.360'
           systemId: pf2e
           systemVersion: 8.0.3
-          createdTime: 1776753051977
-          modifiedTime: 1776753051977
-          lastModifiedBy: BHAmrX4n5zD1mCjc
+          createdTime: 1776912239290
+          modifiedTime: 1776912239290
+          lastModifiedBy: 30eR7aFdBAa9b9kF
           compendiumSource: null
           duplicateSource: null
           exportSource: null
@@ -3396,9 +3396,9 @@ regions:
           coreVersion: '14.360'
           systemId: pf2e
           systemVersion: 8.0.3
-          createdTime: 1776753051978
-          modifiedTime: 1776753051978
-          lastModifiedBy: BHAmrX4n5zD1mCjc
+          createdTime: 1776912239290
+          modifiedTime: 1776912239290
+          lastModifiedBy: 30eR7aFdBAa9b9kF
           compendiumSource: null
           duplicateSource: null
           exportSource: null
@@ -3461,9 +3461,9 @@ regions:
           coreVersion: '14.360'
           systemId: pf2e
           systemVersion: 8.0.3
-          createdTime: 1776753051978
-          modifiedTime: 1776753051978
-          lastModifiedBy: BHAmrX4n5zD1mCjc
+          createdTime: 1776912239291
+          modifiedTime: 1776912239291
+          lastModifiedBy: 30eR7aFdBAa9b9kF
           compendiumSource: null
           duplicateSource: null
           exportSource: null
@@ -3520,9 +3520,9 @@ regions:
           coreVersion: '14.360'
           systemId: pf2e
           systemVersion: 8.0.3
-          createdTime: 1776753051978
-          modifiedTime: 1776753051978
-          lastModifiedBy: BHAmrX4n5zD1mCjc
+          createdTime: 1776912239291
+          modifiedTime: 1776912239291
+          lastModifiedBy: 30eR7aFdBAa9b9kF
           compendiumSource: null
           duplicateSource: null
           exportSource: null
@@ -3577,9 +3577,9 @@ regions:
           coreVersion: '14.360'
           systemId: pf2e
           systemVersion: 8.0.3
-          createdTime: 1776753051978
-          modifiedTime: 1776753051978
-          lastModifiedBy: BHAmrX4n5zD1mCjc
+          createdTime: 1776912239291
+          modifiedTime: 1776912239291
+          lastModifiedBy: 30eR7aFdBAa9b9kF
           compendiumSource: null
           duplicateSource: null
           exportSource: null
@@ -3634,9 +3634,9 @@ regions:
           coreVersion: '14.360'
           systemId: pf2e
           systemVersion: 8.0.3
-          createdTime: 1776753051978
-          modifiedTime: 1776753051978
-          lastModifiedBy: BHAmrX4n5zD1mCjc
+          createdTime: 1776912239292
+          modifiedTime: 1776912239292
+          lastModifiedBy: 30eR7aFdBAa9b9kF
           compendiumSource: null
           duplicateSource: null
           exportSource: null
@@ -3695,9 +3695,9 @@ regions:
           coreVersion: '14.360'
           systemId: pf2e
           systemVersion: 8.0.3
-          createdTime: 1776753051979
-          modifiedTime: 1776753051979
-          lastModifiedBy: BHAmrX4n5zD1mCjc
+          createdTime: 1776912239292
+          modifiedTime: 1776912239292
+          lastModifiedBy: 30eR7aFdBAa9b9kF
           compendiumSource: null
           duplicateSource: null
           exportSource: null
@@ -3787,9 +3787,9 @@ regions:
           coreVersion: '14.360'
           systemId: pf2e
           systemVersion: 8.0.3
-          createdTime: 1776753051979
-          modifiedTime: 1776753051979
-          lastModifiedBy: BHAmrX4n5zD1mCjc
+          createdTime: 1776912239293
+          modifiedTime: 1776912239293
+          lastModifiedBy: 30eR7aFdBAa9b9kF
           compendiumSource: null
           duplicateSource: null
           exportSource: null
@@ -3875,9 +3875,9 @@ regions:
           coreVersion: '14.360'
           systemId: pf2e
           systemVersion: 8.0.3
-          createdTime: 1776753051979
-          modifiedTime: 1776753051979
-          lastModifiedBy: BHAmrX4n5zD1mCjc
+          createdTime: 1776912239293
+          modifiedTime: 1776912239293
+          lastModifiedBy: 30eR7aFdBAa9b9kF
           compendiumSource: null
           duplicateSource: null
           exportSource: null
@@ -3934,9 +3934,9 @@ regions:
           coreVersion: '14.360'
           systemId: pf2e
           systemVersion: 8.0.3
-          createdTime: 1776753051979
-          modifiedTime: 1776753051979
-          lastModifiedBy: BHAmrX4n5zD1mCjc
+          createdTime: 1776912239293
+          modifiedTime: 1776912239293
+          lastModifiedBy: 30eR7aFdBAa9b9kF
           compendiumSource: null
           duplicateSource: null
           exportSource: null
@@ -18615,9 +18615,9 @@ _stats:
   coreVersion: '14.360'
   systemId: pf2e
   systemVersion: 8.0.3
-  createdTime: 1776753051968
-  modifiedTime: 1776753051968
-  lastModifiedBy: BHAmrX4n5zD1mCjc
+  createdTime: 1776912239274
+  modifiedTime: 1776912239274
+  lastModifiedBy: 30eR7aFdBAa9b9kF
   exportSource: null
   compendiumSource: null
   duplicateSource: null
