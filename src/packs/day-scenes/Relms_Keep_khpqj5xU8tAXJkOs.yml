@@ -2,7 +2,6 @@ folder: wWLmoj0X0gW1STMN
 name: Relms Keep
 _id: khpqj5xU8tAXJkOs
 navigation: false
-navOrder: 0
 thumb: worlds/14testpath/assets/scenes/thumb-SWn1syyGFt8EjyKh9YOlDA.webp
 width: 10780
 height: 7140
@@ -30,7 +29,7 @@ fog:
     explored: null
     unexplored: null
 environment:
-  darknessLevel: 1
+  darknessLevel: 0
   darknessLock: false
   globalLight:
     enabled: false
@@ -3992,8 +3991,8 @@ regions:
           coreVersion: '14.360'
           systemId: pf2e
           systemVersion: 8.0.3
-          createdTime: 1776912217613
-          modifiedTime: 1776912217613
+          createdTime: 1776916764713
+          modifiedTime: 1776916764713
           lastModifiedBy: 30eR7aFdBAa9b9kF
           compendiumSource: null
           duplicateSource: null
@@ -4271,8 +4270,8 @@ regions:
           coreVersion: '14.360'
           systemId: pf2e
           systemVersion: 8.0.3
-          createdTime: 1776912217614
-          modifiedTime: 1776912217614
+          createdTime: 1776916764713
+          modifiedTime: 1776916764713
           lastModifiedBy: 30eR7aFdBAa9b9kF
           compendiumSource: null
           duplicateSource: null
@@ -4324,8 +4323,8 @@ regions:
           coreVersion: '14.360'
           systemId: pf2e
           systemVersion: 8.0.3
-          createdTime: 1776912217601
-          modifiedTime: 1776912217601
+          createdTime: 1776916764713
+          modifiedTime: 1776916764713
           lastModifiedBy: 30eR7aFdBAa9b9kF
           compendiumSource: null
           duplicateSource: null
@@ -4381,8 +4380,8 @@ regions:
           coreVersion: '14.360'
           systemId: pf2e
           systemVersion: 8.0.3
-          createdTime: 1776912217601
-          modifiedTime: 1776912217601
+          createdTime: 1776916764713
+          modifiedTime: 1776916764713
           lastModifiedBy: 30eR7aFdBAa9b9kF
           compendiumSource: null
           duplicateSource: null
@@ -4442,8 +4441,8 @@ regions:
           coreVersion: '14.360'
           systemId: pf2e
           systemVersion: 8.0.3
-          createdTime: 1776912217601
-          modifiedTime: 1776912217601
+          createdTime: 1776916764713
+          modifiedTime: 1776916764713
           lastModifiedBy: 30eR7aFdBAa9b9kF
           compendiumSource: null
           duplicateSource: null
@@ -4495,8 +4494,8 @@ regions:
           coreVersion: '14.360'
           systemId: pf2e
           systemVersion: 8.0.3
-          createdTime: 1776912217601
-          modifiedTime: 1776912217601
+          createdTime: 1776916764713
+          modifiedTime: 1776916764713
           lastModifiedBy: 30eR7aFdBAa9b9kF
           compendiumSource: null
           duplicateSource: null
@@ -4575,8 +4574,8 @@ regions:
           coreVersion: '14.360'
           systemId: pf2e
           systemVersion: 8.0.3
-          createdTime: 1776912217601
-          modifiedTime: 1776912217601
+          createdTime: 1776916764713
+          modifiedTime: 1776916764713
           lastModifiedBy: 30eR7aFdBAa9b9kF
           compendiumSource: null
           duplicateSource: null
@@ -4655,8 +4654,8 @@ regions:
           coreVersion: '14.360'
           systemId: pf2e
           systemVersion: 8.0.3
-          createdTime: 1776912217601
-          modifiedTime: 1776912217601
+          createdTime: 1776916764713
+          modifiedTime: 1776916764713
           lastModifiedBy: 30eR7aFdBAa9b9kF
           compendiumSource: null
           duplicateSource: null
@@ -4728,8 +4727,8 @@ regions:
           coreVersion: '14.360'
           systemId: pf2e
           systemVersion: 8.0.3
-          createdTime: 1776912217601
-          modifiedTime: 1776912217601
+          createdTime: 1776916764713
+          modifiedTime: 1776916764713
           lastModifiedBy: 30eR7aFdBAa9b9kF
           compendiumSource: null
           duplicateSource: null
@@ -4795,8 +4794,8 @@ regions:
           coreVersion: '14.360'
           systemId: pf2e
           systemVersion: 8.0.3
-          createdTime: 1776912217601
-          modifiedTime: 1776912217601
+          createdTime: 1776916764713
+          modifiedTime: 1776916764713
           lastModifiedBy: 30eR7aFdBAa9b9kF
           compendiumSource: null
           duplicateSource: null
@@ -4852,8 +4851,8 @@ regions:
           coreVersion: '14.360'
           systemId: pf2e
           systemVersion: 8.0.3
-          createdTime: 1776912217601
-          modifiedTime: 1776912217601
+          createdTime: 1776916764713
+          modifiedTime: 1776916764713
           lastModifiedBy: 30eR7aFdBAa9b9kF
           compendiumSource: null
           duplicateSource: null
@@ -4884,7 +4883,7 @@ regions:
     highlightMode: shapes
     displayMeasurements: false
     hidden: false
-    name: River difficult terrain
+    name: River (set system-specific diff terrain)
     _id: 9Qh056W2OZRDZq1r
     shapes:
       - type: polygon
@@ -5003,48 +5002,7 @@ regions:
           - 3289.441845908864
         hole: false
         origin: null
-    behaviors:
-      - name: Environment
-        type: environment
-        _id: oaN665stpM9H1PYv
-        system:
-          environmentTypes:
-            - swamp
-          mode: add
-        disabled: false
-        flags: {}
-        _stats:
-          coreVersion: '14.360'
-          systemId: pf2e
-          systemVersion: 8.0.3
-          createdTime: 1776912217601
-          modifiedTime: 1776912217601
-          lastModifiedBy: 30eR7aFdBAa9b9kF
-          compendiumSource: null
-          duplicateSource: null
-          exportSource: null
-        _key: >-
-          !scenes.regions.behaviors!khpqj5xU8tAXJkOs.9Qh056W2OZRDZq1r.oaN665stpM9H1PYv
-      - name: Environment Feature
-        type: environmentFeature
-        _id: zPUBREXn28mfrBF6
-        system:
-          terrain:
-            difficult: 1
-        disabled: false
-        flags: {}
-        _stats:
-          coreVersion: '14.360'
-          systemId: pf2e
-          systemVersion: 8.0.3
-          createdTime: 1776912217601
-          modifiedTime: 1776912217601
-          lastModifiedBy: 30eR7aFdBAa9b9kF
-          compendiumSource: null
-          duplicateSource: null
-          exportSource: null
-        _key: >-
-          !scenes.regions.behaviors!khpqj5xU8tAXJkOs.9Qh056W2OZRDZq1r.zPUBREXn28mfrBF6
+    behaviors: []
     locked: false
     flags:
       pf2e:
@@ -5133,8 +5091,8 @@ regions:
           coreVersion: '14.360'
           systemId: pf2e
           systemVersion: 8.0.3
-          createdTime: 1776912217601
-          modifiedTime: 1776912217601
+          createdTime: 1776916764713
+          modifiedTime: 1776916764713
           lastModifiedBy: 30eR7aFdBAa9b9kF
           compendiumSource: null
           duplicateSource: null
@@ -5151,8 +5109,8 @@ regions:
           coreVersion: '14.360'
           systemId: pf2e
           systemVersion: 8.0.3
-          createdTime: 1776912217601
-          modifiedTime: 1776912217601
+          createdTime: 1776916764713
+          modifiedTime: 1776916764713
           lastModifiedBy: 30eR7aFdBAa9b9kF
           compendiumSource: null
           duplicateSource: null
@@ -5215,8 +5173,8 @@ regions:
           coreVersion: '14.360'
           systemId: pf2e
           systemVersion: 8.0.3
-          createdTime: 1776912217601
-          modifiedTime: 1776912217601
+          createdTime: 1776916764713
+          modifiedTime: 1776916764713
           lastModifiedBy: 30eR7aFdBAa9b9kF
           compendiumSource: null
           duplicateSource: null
@@ -5233,8 +5191,8 @@ regions:
           coreVersion: '14.360'
           systemId: pf2e
           systemVersion: 8.0.3
-          createdTime: 1776912217601
-          modifiedTime: 1776912217601
+          createdTime: 1776916764713
+          modifiedTime: 1776916764713
           lastModifiedBy: 30eR7aFdBAa9b9kF
           compendiumSource: null
           duplicateSource: null
@@ -22802,15 +22760,17 @@ _stats:
   coreVersion: '14.360'
   systemId: pf2e
   systemVersion: 8.0.3
-  createdTime: 1776912217601
-  modifiedTime: 1776912217601
+  createdTime: 1776916764713
+  modifiedTime: 1776916764755
   lastModifiedBy: 30eR7aFdBAa9b9kF
   exportSource: null
   compendiumSource: null
   duplicateSource: null
 navName: ''
+navOrder: 0
 ownership:
   default: 0
+  30eR7aFdBAa9b9kF: 3
 active: false
 sort: 0
 _key: '!scenes!khpqj5xU8tAXJkOs'

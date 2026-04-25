@@ -2,7 +2,7 @@ name: Small Inn
 _id: xy0S6z1GuWhdUmCF
 navigation: false
 navOrder: 0
-thumb: worlds/14testpath/assets/scenes/thumb-FXcLf9DW-_cDCHNkqy-JhA.webp
+thumb: worlds/14testdaggerheart/assets/scenes/thumb-FXcLf9DW-_cDCHNkqy-JhA.webp
 width: 4000
 height: 3000
 padding: 0.25
@@ -1214,11 +1214,11 @@ regions:
         flags: {}
         _stats:
           coreVersion: '14.360'
-          systemId: pf2e
-          systemVersion: 8.0.3
-          createdTime: 1776912239370
-          modifiedTime: 1776912239370
-          lastModifiedBy: 30eR7aFdBAa9b9kF
+          systemId: daggerheart
+          systemVersion: 2.1.2
+          createdTime: 1776927444104
+          modifiedTime: 1776927444104
+          lastModifiedBy: VXQYn9BIFMjfqECH
           compendiumSource: null
           duplicateSource: null
           exportSource: null
@@ -3084,11 +3084,11 @@ flags:
     syncDarkness: default
 _stats:
   coreVersion: '14.360'
-  systemId: pf2e
-  systemVersion: 8.0.3
-  createdTime: 1776912239365
-  modifiedTime: 1776912239365
-  lastModifiedBy: 30eR7aFdBAa9b9kF
+  systemId: daggerheart
+  systemVersion: 2.1.2
+  createdTime: 1776927444099
+  modifiedTime: 1776927444099
+  lastModifiedBy: VXQYn9BIFMjfqECH
   exportSource: null
   compendiumSource: null
   duplicateSource: null
