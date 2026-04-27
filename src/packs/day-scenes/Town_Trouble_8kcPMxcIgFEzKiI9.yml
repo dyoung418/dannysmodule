@@ -3,7 +3,7 @@ name: Town Trouble
 _id: 8kcPMxcIgFEzKiI9
 navigation: true
 navOrder: 0
-thumb: worlds/kingmaker/assets/scenes/thumb-5VuBE2H5KYLSqdiC_XnUyg.webp
+thumb: worlds/kingmaker/assets/scenes/thumb-7bqFqpF4Msrzo5s4Jw9muw.webp
 width: 12000
 height: 10000
 padding: 0.25
@@ -279,8 +279,8 @@ regions:
           coreVersion: '14.360'
           systemId: pf2e
           systemVersion: 8.0.3
-          createdTime: 1777270485156
-          modifiedTime: 1777270485156
+          createdTime: 1777274651571
+          modifiedTime: 1777274651571
           lastModifiedBy: txZjek5EOiCBHPoz
           compendiumSource: null
           duplicateSource: null
@@ -8483,8 +8483,8 @@ _stats:
   coreVersion: '14.360'
   systemId: pf2e
   systemVersion: 8.0.3
-  createdTime: 1777270485154
-  modifiedTime: 1777270485154
+  createdTime: 1777274651569
+  modifiedTime: 1777274651569
   lastModifiedBy: txZjek5EOiCBHPoz
   exportSource: null
   compendiumSource: null
