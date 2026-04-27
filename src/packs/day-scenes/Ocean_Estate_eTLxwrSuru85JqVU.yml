@@ -2,8 +2,7 @@ folder: 1LOPSyo3SGiD9SB8
 name: Ocean Estate
 _id: eTLxwrSuru85JqVU
 navigation: false
-navOrder: 0
-thumb: worlds/14testdaggerheart/assets/scenes/thumb-2QTDq6pvrpC3P-Vqpyv5Fg.webp
+thumb: worlds/kingmaker/assets/scenes/thumb-2QTDq6pvrpC3P-Vqpyv5Fg.webp
 width: 3696
 height: 4196
 padding: 0.25
@@ -2493,11 +2492,11 @@ regions:
         flags: {}
         _stats:
           coreVersion: '14.360'
-          systemId: daggerheart
-          systemVersion: 2.1.2
-          createdTime: 1776927444021
-          modifiedTime: 1776927444021
-          lastModifiedBy: VXQYn9BIFMjfqECH
+          systemId: pf2e
+          systemVersion: 8.0.3
+          createdTime: 1777266016721
+          modifiedTime: 1777266016721
+          lastModifiedBy: txZjek5EOiCBHPoz
           compendiumSource: null
           duplicateSource: null
           exportSource: null
@@ -2711,11 +2710,11 @@ regions:
         flags: {}
         _stats:
           coreVersion: '14.360'
-          systemId: daggerheart
-          systemVersion: 2.1.2
-          createdTime: 1776927444022
-          modifiedTime: 1776927444022
-          lastModifiedBy: VXQYn9BIFMjfqECH
+          systemId: pf2e
+          systemVersion: 8.0.3
+          createdTime: 1777266016722
+          modifiedTime: 1777266016722
+          lastModifiedBy: txZjek5EOiCBHPoz
           compendiumSource: null
           duplicateSource: null
           exportSource: null
@@ -2969,11 +2968,11 @@ regions:
         flags: {}
         _stats:
           coreVersion: '14.360'
-          systemId: daggerheart
-          systemVersion: 2.1.2
-          createdTime: 1776927444023
-          modifiedTime: 1776927444023
-          lastModifiedBy: VXQYn9BIFMjfqECH
+          systemId: pf2e
+          systemVersion: 8.0.3
+          createdTime: 1777266016723
+          modifiedTime: 1777266016723
+          lastModifiedBy: txZjek5EOiCBHPoz
           compendiumSource: null
           duplicateSource: null
           exportSource: null
@@ -3032,11 +3031,11 @@ regions:
         flags: {}
         _stats:
           coreVersion: '14.360'
-          systemId: daggerheart
-          systemVersion: 2.1.2
-          createdTime: 1776927444023
-          modifiedTime: 1776927444023
-          lastModifiedBy: VXQYn9BIFMjfqECH
+          systemId: pf2e
+          systemVersion: 8.0.3
+          createdTime: 1777266016723
+          modifiedTime: 1777266016723
+          lastModifiedBy: txZjek5EOiCBHPoz
           compendiumSource: null
           duplicateSource: null
           exportSource: null
@@ -3162,11 +3161,11 @@ regions:
         flags: {}
         _stats:
           coreVersion: '14.360'
-          systemId: daggerheart
-          systemVersion: 2.1.2
-          createdTime: 1776927444023
-          modifiedTime: 1776927444023
-          lastModifiedBy: VXQYn9BIFMjfqECH
+          systemId: pf2e
+          systemVersion: 8.0.3
+          createdTime: 1777266016724
+          modifiedTime: 1777266016724
+          lastModifiedBy: txZjek5EOiCBHPoz
           compendiumSource: null
           duplicateSource: null
           exportSource: null
@@ -3223,11 +3222,11 @@ regions:
         flags: {}
         _stats:
           coreVersion: '14.360'
-          systemId: daggerheart
-          systemVersion: 2.1.2
-          createdTime: 1776927444025
-          modifiedTime: 1776927444025
-          lastModifiedBy: VXQYn9BIFMjfqECH
+          systemId: pf2e
+          systemVersion: 8.0.3
+          createdTime: 1777266016724
+          modifiedTime: 1777266016724
+          lastModifiedBy: txZjek5EOiCBHPoz
           compendiumSource: null
           duplicateSource: null
           exportSource: null
@@ -3276,11 +3275,11 @@ regions:
         flags: {}
         _stats:
           coreVersion: '14.360'
-          systemId: daggerheart
-          systemVersion: 2.1.2
-          createdTime: 1776927444025
-          modifiedTime: 1776927444025
-          lastModifiedBy: VXQYn9BIFMjfqECH
+          systemId: pf2e
+          systemVersion: 8.0.3
+          createdTime: 1777266016724
+          modifiedTime: 1777266016724
+          lastModifiedBy: txZjek5EOiCBHPoz
           compendiumSource: null
           duplicateSource: null
           exportSource: null
@@ -3337,11 +3336,11 @@ regions:
         flags: {}
         _stats:
           coreVersion: '14.360'
-          systemId: daggerheart
-          systemVersion: 2.1.2
-          createdTime: 1776927444025
-          modifiedTime: 1776927444025
-          lastModifiedBy: VXQYn9BIFMjfqECH
+          systemId: pf2e
+          systemVersion: 8.0.3
+          createdTime: 1777266016725
+          modifiedTime: 1777266016725
+          lastModifiedBy: txZjek5EOiCBHPoz
           compendiumSource: null
           duplicateSource: null
           exportSource: null
@@ -3394,11 +3393,11 @@ regions:
         flags: {}
         _stats:
           coreVersion: '14.360'
-          systemId: daggerheart
-          systemVersion: 2.1.2
-          createdTime: 1776927444026
-          modifiedTime: 1776927444026
-          lastModifiedBy: VXQYn9BIFMjfqECH
+          systemId: pf2e
+          systemVersion: 8.0.3
+          createdTime: 1777266016725
+          modifiedTime: 1777266016725
+          lastModifiedBy: txZjek5EOiCBHPoz
           compendiumSource: null
           duplicateSource: null
           exportSource: null
@@ -3459,11 +3458,11 @@ regions:
         flags: {}
         _stats:
           coreVersion: '14.360'
-          systemId: daggerheart
-          systemVersion: 2.1.2
-          createdTime: 1776927444026
-          modifiedTime: 1776927444026
-          lastModifiedBy: VXQYn9BIFMjfqECH
+          systemId: pf2e
+          systemVersion: 8.0.3
+          createdTime: 1777266016725
+          modifiedTime: 1777266016725
+          lastModifiedBy: txZjek5EOiCBHPoz
           compendiumSource: null
           duplicateSource: null
           exportSource: null
@@ -3518,11 +3517,11 @@ regions:
         flags: {}
         _stats:
           coreVersion: '14.360'
-          systemId: daggerheart
-          systemVersion: 2.1.2
-          createdTime: 1776927444026
-          modifiedTime: 1776927444026
-          lastModifiedBy: VXQYn9BIFMjfqECH
+          systemId: pf2e
+          systemVersion: 8.0.3
+          createdTime: 1777266016726
+          modifiedTime: 1777266016726
+          lastModifiedBy: txZjek5EOiCBHPoz
           compendiumSource: null
           duplicateSource: null
           exportSource: null
@@ -3575,11 +3574,11 @@ regions:
         flags: {}
         _stats:
           coreVersion: '14.360'
-          systemId: daggerheart
-          systemVersion: 2.1.2
-          createdTime: 1776927444027
-          modifiedTime: 1776927444027
-          lastModifiedBy: VXQYn9BIFMjfqECH
+          systemId: pf2e
+          systemVersion: 8.0.3
+          createdTime: 1777266016726
+          modifiedTime: 1777266016726
+          lastModifiedBy: txZjek5EOiCBHPoz
           compendiumSource: null
           duplicateSource: null
           exportSource: null
@@ -3632,11 +3631,11 @@ regions:
         flags: {}
         _stats:
           coreVersion: '14.360'
-          systemId: daggerheart
-          systemVersion: 2.1.2
-          createdTime: 1776927444027
-          modifiedTime: 1776927444027
-          lastModifiedBy: VXQYn9BIFMjfqECH
+          systemId: pf2e
+          systemVersion: 8.0.3
+          createdTime: 1777266016726
+          modifiedTime: 1777266016726
+          lastModifiedBy: txZjek5EOiCBHPoz
           compendiumSource: null
           duplicateSource: null
           exportSource: null
@@ -3693,11 +3692,11 @@ regions:
         flags: {}
         _stats:
           coreVersion: '14.360'
-          systemId: daggerheart
-          systemVersion: 2.1.2
-          createdTime: 1776927444027
-          modifiedTime: 1776927444027
-          lastModifiedBy: VXQYn9BIFMjfqECH
+          systemId: pf2e
+          systemVersion: 8.0.3
+          createdTime: 1777266016727
+          modifiedTime: 1777266016727
+          lastModifiedBy: txZjek5EOiCBHPoz
           compendiumSource: null
           duplicateSource: null
           exportSource: null
@@ -3785,11 +3784,11 @@ regions:
         flags: {}
         _stats:
           coreVersion: '14.360'
-          systemId: daggerheart
-          systemVersion: 2.1.2
-          createdTime: 1776927444027
-          modifiedTime: 1776927444027
-          lastModifiedBy: VXQYn9BIFMjfqECH
+          systemId: pf2e
+          systemVersion: 8.0.3
+          createdTime: 1777266016727
+          modifiedTime: 1777266016727
+          lastModifiedBy: txZjek5EOiCBHPoz
           compendiumSource: null
           duplicateSource: null
           exportSource: null
@@ -3873,11 +3872,11 @@ regions:
         flags: {}
         _stats:
           coreVersion: '14.360'
-          systemId: daggerheart
-          systemVersion: 2.1.2
-          createdTime: 1776927444028
-          modifiedTime: 1776927444028
-          lastModifiedBy: VXQYn9BIFMjfqECH
+          systemId: pf2e
+          systemVersion: 8.0.3
+          createdTime: 1777266016727
+          modifiedTime: 1777266016727
+          lastModifiedBy: txZjek5EOiCBHPoz
           compendiumSource: null
           duplicateSource: null
           exportSource: null
@@ -3932,11 +3931,11 @@ regions:
         flags: {}
         _stats:
           coreVersion: '14.360'
-          systemId: daggerheart
-          systemVersion: 2.1.2
-          createdTime: 1776927444028
-          modifiedTime: 1776927444028
-          lastModifiedBy: VXQYn9BIFMjfqECH
+          systemId: pf2e
+          systemVersion: 8.0.3
+          createdTime: 1777266016728
+          modifiedTime: 1777266016728
+          lastModifiedBy: txZjek5EOiCBHPoz
           compendiumSource: null
           duplicateSource: null
           exportSource: null
@@ -10121,7 +10120,7 @@ walls:
     sound: 20
     dir: 0
     door: 1
-    ds: 0
+    ds: 1
     threshold:
       light: null
       sight: null
@@ -10152,7 +10151,7 @@ walls:
     sound: 20
     dir: 0
     door: 1
-    ds: 0
+    ds: 1
     threshold:
       light: null
       sight: null
@@ -10375,7 +10374,7 @@ walls:
     sound: 20
     dir: 0
     door: 1
-    ds: 0
+    ds: 1
     threshold:
       light: null
       sight: null
@@ -16174,7 +16173,7 @@ walls:
     sound: 20
     dir: 0
     door: 1
-    ds: 0
+    ds: 1
     threshold:
       light: null
       sight: null
@@ -18611,20 +18610,23 @@ flags:
     hearingRange: null
     environmentTypes: []
     syncDarkness: default
+  world-explorer:
+    schemaVersion: 2.1.0
 _stats:
   coreVersion: '14.360'
-  systemId: daggerheart
-  systemVersion: 2.1.2
-  createdTime: 1776927444009
-  modifiedTime: 1776927444009
-  lastModifiedBy: VXQYn9BIFMjfqECH
+  systemId: pf2e
+  systemVersion: 8.0.3
+  createdTime: 1777266016710
+  modifiedTime: 1777266016710
+  lastModifiedBy: txZjek5EOiCBHPoz
   exportSource: null
   compendiumSource: null
   duplicateSource: null
 navName: ''
+navOrder: 0
 ownership:
   default: 0
 active: false
 sort: 0
-templates: []
 _key: '!scenes!eTLxwrSuru85JqVU'
+templates: []

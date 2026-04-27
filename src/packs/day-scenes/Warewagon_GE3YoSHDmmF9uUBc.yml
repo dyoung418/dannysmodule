@@ -1,0 +1,374 @@
+folder: 1LOPSyo3SGiD9SB8
+name: Warewagon
+_id: GE3YoSHDmmF9uUBc
+navigation: true
+navOrder: 0
+thumb: worlds/kingmaker/assets/scenes/thumb-tHfYsOShlBDngDh2_TmOcA.webp
+width: 1426
+height: 1426
+padding: 0.25
+shiftX: 0
+shiftY: 0
+initial:
+  x: 1113
+  'y': 1113
+  scale: 0.55
+initialLevel: defaultLevel0000
+grid:
+  type: 1
+  size: 100
+  style: solidLines
+  thickness: 1
+  color: '#000000'
+  alpha: 0.2
+  distance: 5
+  units: ft
+tokenVision: true
+fog:
+  mode: 1
+  colors:
+    explored: null
+    unexplored: null
+environment:
+  darknessLevel: 0
+  darknessLock: false
+  globalLight:
+    enabled: false
+    alpha: 0.5
+    bright: false
+    color: null
+    coloration: 1
+    luminosity: 0
+    saturation: 0
+    contrast: 0
+    shadows: 0
+    darkness:
+      min: 0
+      max: 1
+  cycle: true
+  base:
+    hue: 0
+    intensity: 0
+    luminosity: 0
+    saturation: 0
+    shadows: 0
+  dark:
+    hue: 0.7138888888888889
+    intensity: 0
+    luminosity: -0.25
+    saturation: 0
+    shadows: 0
+transition:
+  type: null
+  duration: 1500
+  activeOnly: false
+drawings: []
+tokens:
+  - displayName: 20
+    displayBars: 40
+    flags:
+      pf2e:
+        linkToActorSize: true
+        autoscale: false
+      monks-combat-marker:
+        token-highlight-scale: 1.5
+        token-combat-animation: ''
+        token-highlight: ''
+      wall-height:
+        tokenHeight: 0
+      monks-bloodsplats:
+        bloodsplat-type: ''
+        bloodsplat-colour: ''
+      healthEstimate:
+        dontMarkDead: false
+        hideHealthEstimate: false
+        hideName: false
+    sight:
+      enabled: true
+      color: null
+      range: null
+      angle: 360
+      visionMode: darkvision
+      attenuation: 0
+      brightness: 0
+      saturation: -1
+      contrast: 0
+    detectionModes:
+      basicSight:
+        range: null
+        enabled: true
+    height: 1
+    width: 1
+    actorLink: true
+    name: Benedin Bronzeshield
+    texture:
+      src: worlds/kingmaker/PCs/Benedin%20-%20cutout.webp
+      anchorX: 0.5
+      anchorY: 0.5
+      fit: contain
+      scaleX: 1
+      scaleY: 1
+      tint: '#ffffff'
+      alphaThreshold: 0.75
+    lockRotation: false
+    rotation: 0
+    alpha: 1
+    disposition: -1
+    bar1:
+      attribute: attributes.hp
+    bar2:
+      attribute: null
+    light:
+      negative: false
+      priority: 0
+      alpha: 0.5
+      angle: 360
+      bright: 0
+      color: null
+      coloration: 1
+      dim: 0
+      attenuation: 0.5
+      luminosity: 0.5
+      saturation: 0
+      contrast: 0
+      shadows: 0
+      animation:
+        type: flame
+        speed: 5
+        intensity: 5
+        reverse: false
+      darkness:
+        min: 0
+        max: 1
+    occludable:
+      radius: 0
+    ring:
+      enabled: true
+      colors:
+        ring: null
+        background: null
+      effects: 1
+      subject:
+        scale: 1
+        texture: null
+    turnMarker:
+      mode: 1
+      animation: pulse
+      src: null
+      disposition: true
+    movementAction: null
+    depth: 1
+    actorId: KO3CVx7aihg4JABN
+    hidden: false
+    sort: 0
+    shape: 4
+    level: MXDxnkaCRWfWL1g4
+    _id: 1Do8JtdQCbbLWOHC
+    delta: null
+    x: 1300
+    'y': 1200
+    elevation: -20
+    locked: false
+    _movementHistory: []
+    _regions: []
+    _key: '!scenes.tokens!GE3YoSHDmmF9uUBc.1Do8JtdQCbbLWOHC'
+levels:
+  - _id: defaultLevel0000
+    name: Ground level
+    elevation:
+      bottom: 0
+      top: 20
+    background:
+      color: '#999999'
+      src: modules/dannysmodule/assets/maps/Warewagon_ground.webp
+      tint: '#ffffff'
+      alphaThreshold: 0.75
+    foreground:
+      src: null
+      tint: '#ffffff'
+      alphaThreshold: 0.75
+    fog:
+      src: null
+      tint: '#ffffff'
+    textures:
+      anchorX: 0.5
+      anchorY: 0.5
+      offsetX: 0
+      offsetY: 0
+      fit: fill
+      scaleX: 1
+      scaleY: 1
+      rotation: 0
+    visibility:
+      levels:
+        - MXDxnkaCRWfWL1g4
+    sort: 0
+    flags: {}
+    _key: '!scenes.levels!GE3YoSHDmmF9uUBc.defaultLevel0000'
+  - name: Cellar
+    _id: MXDxnkaCRWfWL1g4
+    elevation:
+      bottom: -20
+      top: 0
+    background:
+      color: '#999999'
+      src: modules/dannysmodule/assets/maps/Warewagon_cellar.webp
+      tint: '#ffffff'
+      alphaThreshold: 0.75
+    foreground:
+      src: null
+      tint: '#ffffff'
+      alphaThreshold: 0.75
+    fog:
+      src: null
+      tint: '#ffffff'
+    textures:
+      anchorX: 0.5
+      anchorY: 0.5
+      offsetX: 0
+      offsetY: 0
+      fit: fill
+      scaleX: 1
+      scaleY: 1
+      rotation: 0
+    visibility:
+      levels:
+        - defaultLevel0000
+    sort: 0
+    flags: {}
+    _key: '!scenes.levels!GE3YoSHDmmF9uUBc.MXDxnkaCRWfWL1g4'
+lights: []
+notes: []
+sounds: []
+regions:
+  - color: '#6e28cc'
+    elevation:
+      bottom: 0
+      top: 20
+    levels:
+      - defaultLevel0000
+      - MXDxnkaCRWfWL1g4
+    restriction:
+      enabled: false
+      type: move
+      priority: 0
+    attachment:
+      token: null
+    visibility: 4
+    highlightMode: shapes
+    displayMeasurements: false
+    hidden: false
+    name: Ground region
+    _id: F1kDsDsr9a5Q3753
+    shapes:
+      - type: rectangle
+        x: 400
+        'y': 400
+        width: 1400
+        height: 1400
+        hole: false
+        anchorX: 0
+        anchorY: 0
+        rotation: 0
+        gridBased: false
+      - type: polygon
+        points:
+          - 1200
+          - 1350
+          - 1180.8430431743113
+          - 1346.210942189185
+          - 1177.2085865103436
+          - 1182.6603853751233
+          - 1396.4876197894846
+          - 1179.0259285570332
+          - 1395.2759863484084
+          - 1252.9265874964751
+          - 1475.2340329556991
+          - 1251.7150649188382
+          - 1474.0226213442534
+          - 1478.2629102180708
+          - 1323.7984865101298
+          - 1470.9939965818903
+          - 1322.5868530690536
+          - 1332.8846374944608
+          - 1189.323589943323
+          - 1329.2501806763705
+        hole: true
+        origin: null
+    behaviors:
+      - name: Define Surface
+        type: defineSurface
+        _id: aI2p78nGEef1xI7w
+        system:
+          placement: bottom
+          light: true
+          move: true
+          sight: true
+          sound: true
+          occlusion: true
+          exposure: false
+        disabled: false
+        flags: {}
+        _stats:
+          coreVersion: '14.360'
+          systemId: pf2e
+          systemVersion: 8.0.3
+          createdTime: 1777266016917
+          modifiedTime: 1777266016917
+          lastModifiedBy: txZjek5EOiCBHPoz
+          compendiumSource: null
+          duplicateSource: null
+          exportSource: null
+        _key: >-
+          !scenes.regions.behaviors!GE3YoSHDmmF9uUBc.F1kDsDsr9a5Q3753.aI2p78nGEef1xI7w
+    locked: false
+    flags:
+      pf2e:
+        areaShape: null
+    _shapeConstraints: null
+    ownership:
+      default: 0
+    _key: '!scenes.regions!GE3YoSHDmmF9uUBc.F1kDsDsr9a5Q3753'
+tiles: []
+walls: []
+playlist: null
+playlistSound: null
+journal: null
+journalEntryPage: null
+weather: ''
+flags:
+  world-explorer:
+    enabled: false
+    image: ''
+    color: '#000000'
+    position: behindDrawings
+    opacityGM: 0.7
+    opacityPlayer: 1
+    partialColor: ''
+    partialOpacityPlayer: 0.4
+    persistExploredAreas: false
+    revealRadius: 0
+    gridRevealRadius: 0
+    schemaVersion: 2.1.0
+  pf2e:
+    rulesBasedVision: null
+    hearingRange: null
+    environmentTypes: []
+    syncDarkness: default
+_stats:
+  coreVersion: '14.360'
+  systemId: pf2e
+  systemVersion: 8.0.3
+  createdTime: 1777266016915
+  modifiedTime: 1777266016915
+  lastModifiedBy: txZjek5EOiCBHPoz
+  exportSource: null
+  compendiumSource: null
+  duplicateSource: null
+navName: ''
+ownership:
+  default: 0
+active: false
+sort: 0
+_key: '!scenes!GE3YoSHDmmF9uUBc'
+templates: []

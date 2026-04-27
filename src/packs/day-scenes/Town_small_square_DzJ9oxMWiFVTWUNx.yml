@@ -4,7 +4,7 @@ _id: DzJ9oxMWiFVTWUNx
 navigation: false
 navOrder: 0
 navName: ''
-thumb: worlds/test14path/assets/scenes/thumb-NZkEFw0fxl56N00G8thcaQ.webp
+thumb: worlds/kingmaker/assets/scenes/thumb-NkZx3_Z1QpmpR-rgTH6mFQ.webp
 width: 2048
 height: 3072
 padding: 0.1
@@ -216,9 +216,9 @@ tokens:
             coreVersion: '14.360'
             systemId: pf2e
             systemVersion: 8.0.3
-            lastModifiedBy: BHAmrX4n5zD1mCjc
-            createdTime: 1776753052101
-            modifiedTime: 1776753052101
+            lastModifiedBy: txZjek5EOiCBHPoz
+            createdTime: 1777266017954
+            modifiedTime: 1777266017954
           effects: []
           folder: null
           sort: 0
@@ -313,9 +313,9 @@ tokens:
             coreVersion: '14.360'
             systemId: pf2e
             systemVersion: 8.0.3
-            lastModifiedBy: BHAmrX4n5zD1mCjc
-            createdTime: 1776753052101
-            modifiedTime: 1776753052101
+            lastModifiedBy: txZjek5EOiCBHPoz
+            createdTime: 1777266017954
+            modifiedTime: 1777266017954
           effects: []
           folder: null
           sort: 0
@@ -385,9 +385,9 @@ tokens:
             coreVersion: '14.360'
             systemId: pf2e
             systemVersion: 8.0.3
-            lastModifiedBy: BHAmrX4n5zD1mCjc
-            createdTime: 1776753052101
-            modifiedTime: 1776753052101
+            lastModifiedBy: txZjek5EOiCBHPoz
+            createdTime: 1777266017955
+            modifiedTime: 1777266017955
           effects: []
           folder: null
           sort: 0
@@ -507,9 +507,9 @@ tokens:
             coreVersion: '14.360'
             systemId: pf2e
             systemVersion: 8.0.3
-            lastModifiedBy: BHAmrX4n5zD1mCjc
-            createdTime: 1776753052102
-            modifiedTime: 1776753052102
+            lastModifiedBy: txZjek5EOiCBHPoz
+            createdTime: 1777266017955
+            modifiedTime: 1777266017955
           ownership:
             default: 0
           _key: >-
@@ -601,9 +601,9 @@ tokens:
             coreVersion: '14.360'
             systemId: pf2e
             systemVersion: 8.0.3
-            lastModifiedBy: BHAmrX4n5zD1mCjc
-            createdTime: 1776753052102
-            modifiedTime: 1776753052102
+            lastModifiedBy: txZjek5EOiCBHPoz
+            createdTime: 1777266017955
+            modifiedTime: 1777266017955
           ownership:
             default: 0
           _key: >-
@@ -678,9 +678,9 @@ tokens:
             coreVersion: '14.360'
             systemId: pf2e
             systemVersion: 8.0.3
-            lastModifiedBy: BHAmrX4n5zD1mCjc
-            createdTime: 1776753052102
-            modifiedTime: 1776753052102
+            lastModifiedBy: txZjek5EOiCBHPoz
+            createdTime: 1777266017955
+            modifiedTime: 1777266017955
           ownership:
             default: 0
           _key: >-
@@ -761,9 +761,9 @@ tokens:
             coreVersion: '14.360'
             systemId: pf2e
             systemVersion: 8.0.3
-            lastModifiedBy: BHAmrX4n5zD1mCjc
-            createdTime: 1776753052102
-            modifiedTime: 1776753052102
+            lastModifiedBy: txZjek5EOiCBHPoz
+            createdTime: 1777266017955
+            modifiedTime: 1777266017955
           ownership:
             default: 0
           _key: >-
@@ -822,9 +822,9 @@ tokens:
             coreVersion: '14.360'
             systemId: pf2e
             systemVersion: 8.0.3
-            lastModifiedBy: BHAmrX4n5zD1mCjc
-            createdTime: 1776753052102
-            modifiedTime: 1776753052102
+            lastModifiedBy: txZjek5EOiCBHPoz
+            createdTime: 1777266017956
+            modifiedTime: 1777266017956
           ownership:
             default: 0
           _key: >-
@@ -880,9 +880,9 @@ tokens:
             coreVersion: '14.360'
             systemId: pf2e
             systemVersion: 8.0.3
-            lastModifiedBy: BHAmrX4n5zD1mCjc
-            createdTime: 1776753052102
-            modifiedTime: 1776753052102
+            lastModifiedBy: txZjek5EOiCBHPoz
+            createdTime: 1777266017956
+            modifiedTime: 1777266017956
           ownership:
             default: 0
           _key: >-
@@ -940,9 +940,9 @@ tokens:
             coreVersion: '14.360'
             systemId: pf2e
             systemVersion: 8.0.3
-            lastModifiedBy: BHAmrX4n5zD1mCjc
-            createdTime: 1776753052102
-            modifiedTime: 1776753052102
+            lastModifiedBy: txZjek5EOiCBHPoz
+            createdTime: 1777266017956
+            modifiedTime: 1777266017956
           ownership:
             default: 0
           _key: >-
@@ -989,9 +989,9 @@ tokens:
             coreVersion: '14.360'
             systemId: pf2e
             systemVersion: 8.0.3
-            lastModifiedBy: BHAmrX4n5zD1mCjc
-            createdTime: 1776753052102
-            modifiedTime: 1776753052102
+            lastModifiedBy: txZjek5EOiCBHPoz
+            createdTime: 1777266017956
+            modifiedTime: 1777266017956
           ownership:
             default: 0
           _key: >-
@@ -1038,9 +1038,9 @@ tokens:
             coreVersion: '14.360'
             systemId: pf2e
             systemVersion: 8.0.3
-            lastModifiedBy: BHAmrX4n5zD1mCjc
-            createdTime: 1776753052102
-            modifiedTime: 1776753052102
+            lastModifiedBy: txZjek5EOiCBHPoz
+            createdTime: 1777266017956
+            modifiedTime: 1777266017956
           ownership:
             default: 0
           _key: >-
@@ -1087,9 +1087,9 @@ tokens:
             coreVersion: '14.360'
             systemId: pf2e
             systemVersion: 8.0.3
-            lastModifiedBy: BHAmrX4n5zD1mCjc
-            createdTime: 1776753052102
-            modifiedTime: 1776753052102
+            lastModifiedBy: txZjek5EOiCBHPoz
+            createdTime: 1777266017956
+            modifiedTime: 1777266017956
           ownership:
             default: 0
           _key: >-
@@ -1141,9 +1141,9 @@ tokens:
             coreVersion: '14.360'
             systemId: pf2e
             systemVersion: 8.0.3
-            lastModifiedBy: BHAmrX4n5zD1mCjc
-            createdTime: 1776753052102
-            modifiedTime: 1776753052102
+            lastModifiedBy: txZjek5EOiCBHPoz
+            createdTime: 1777266017956
+            modifiedTime: 1777266017956
           ownership:
             default: 0
           _key: >-
@@ -1334,9 +1334,9 @@ tokens:
             coreVersion: '14.360'
             systemId: pf2e
             systemVersion: 8.0.3
-            lastModifiedBy: BHAmrX4n5zD1mCjc
-            createdTime: 1776753052105
-            modifiedTime: 1776753052105
+            lastModifiedBy: txZjek5EOiCBHPoz
+            createdTime: 1777266017960
+            modifiedTime: 1777266017960
           ownership:
             default: 0
           _key: >-
@@ -1457,9 +1457,9 @@ tokens:
             coreVersion: '14.360'
             systemId: pf2e
             systemVersion: 8.0.3
-            lastModifiedBy: BHAmrX4n5zD1mCjc
-            createdTime: 1776753052105
-            modifiedTime: 1776753052105
+            lastModifiedBy: txZjek5EOiCBHPoz
+            createdTime: 1777266017961
+            modifiedTime: 1777266017961
           ownership:
             default: 0
           _key: >-
@@ -1573,9 +1573,9 @@ tokens:
             coreVersion: '14.360'
             systemId: pf2e
             systemVersion: 8.0.3
-            lastModifiedBy: BHAmrX4n5zD1mCjc
-            createdTime: 1776753052105
-            modifiedTime: 1776753052105
+            lastModifiedBy: txZjek5EOiCBHPoz
+            createdTime: 1777266017961
+            modifiedTime: 1777266017961
           ownership:
             default: 0
           _key: >-
@@ -1692,9 +1692,9 @@ tokens:
             coreVersion: '14.360'
             systemId: pf2e
             systemVersion: 8.0.3
-            lastModifiedBy: BHAmrX4n5zD1mCjc
-            createdTime: 1776753052105
-            modifiedTime: 1776753052105
+            lastModifiedBy: txZjek5EOiCBHPoz
+            createdTime: 1777266017961
+            modifiedTime: 1777266017961
           ownership:
             default: 0
           _key: >-
@@ -1786,9 +1786,9 @@ tokens:
             coreVersion: '14.360'
             systemId: pf2e
             systemVersion: 8.0.3
-            lastModifiedBy: BHAmrX4n5zD1mCjc
-            createdTime: 1776753052105
-            modifiedTime: 1776753052105
+            lastModifiedBy: txZjek5EOiCBHPoz
+            createdTime: 1777266017961
+            modifiedTime: 1777266017961
           ownership:
             default: 0
           _key: >-
@@ -1875,9 +1875,9 @@ tokens:
             coreVersion: '14.360'
             systemId: pf2e
             systemVersion: 8.0.3
-            lastModifiedBy: BHAmrX4n5zD1mCjc
-            createdTime: 1776753052105
-            modifiedTime: 1776753052105
+            lastModifiedBy: txZjek5EOiCBHPoz
+            createdTime: 1777266017962
+            modifiedTime: 1777266017962
           ownership:
             default: 0
           _key: >-
@@ -1954,9 +1954,9 @@ tokens:
             coreVersion: '14.360'
             systemId: pf2e
             systemVersion: 8.0.3
-            lastModifiedBy: BHAmrX4n5zD1mCjc
-            createdTime: 1776753052105
-            modifiedTime: 1776753052105
+            lastModifiedBy: txZjek5EOiCBHPoz
+            createdTime: 1777266017962
+            modifiedTime: 1777266017962
           ownership:
             default: 0
           _key: >-
@@ -2014,9 +2014,9 @@ tokens:
             coreVersion: '14.360'
             systemId: pf2e
             systemVersion: 8.0.3
-            lastModifiedBy: BHAmrX4n5zD1mCjc
-            createdTime: 1776753052105
-            modifiedTime: 1776753052105
+            lastModifiedBy: txZjek5EOiCBHPoz
+            createdTime: 1777266017962
+            modifiedTime: 1777266017962
           ownership:
             default: 0
           _key: >-
@@ -2078,9 +2078,9 @@ tokens:
             coreVersion: '14.360'
             systemId: pf2e
             systemVersion: 8.0.3
-            lastModifiedBy: BHAmrX4n5zD1mCjc
-            createdTime: 1776753052105
-            modifiedTime: 1776753052105
+            lastModifiedBy: txZjek5EOiCBHPoz
+            createdTime: 1777266017962
+            modifiedTime: 1777266017962
           ownership:
             default: 0
           _key: >-
@@ -2128,9 +2128,9 @@ tokens:
             coreVersion: '14.360'
             systemId: pf2e
             systemVersion: 8.0.3
-            lastModifiedBy: BHAmrX4n5zD1mCjc
-            createdTime: 1776753052106
-            modifiedTime: 1776753052106
+            lastModifiedBy: txZjek5EOiCBHPoz
+            createdTime: 1777266017962
+            modifiedTime: 1777266017962
           ownership:
             default: 0
           _key: >-
@@ -2189,9 +2189,9 @@ tokens:
             coreVersion: '14.360'
             systemId: pf2e
             systemVersion: 8.0.3
-            lastModifiedBy: BHAmrX4n5zD1mCjc
-            createdTime: 1776753052106
-            modifiedTime: 1776753052106
+            lastModifiedBy: txZjek5EOiCBHPoz
+            createdTime: 1777266017962
+            modifiedTime: 1777266017962
           ownership:
             default: 0
           _key: >-
@@ -2238,9 +2238,9 @@ tokens:
             coreVersion: '14.360'
             systemId: pf2e
             systemVersion: 8.0.3
-            lastModifiedBy: BHAmrX4n5zD1mCjc
-            createdTime: 1776753052106
-            modifiedTime: 1776753052106
+            lastModifiedBy: txZjek5EOiCBHPoz
+            createdTime: 1777266017962
+            modifiedTime: 1777266017962
           ownership:
             default: 0
           _key: >-
@@ -2295,9 +2295,9 @@ tokens:
             coreVersion: '14.360'
             systemId: pf2e
             systemVersion: 8.0.3
-            lastModifiedBy: BHAmrX4n5zD1mCjc
-            createdTime: 1776753052106
-            modifiedTime: 1776753052106
+            lastModifiedBy: txZjek5EOiCBHPoz
+            createdTime: 1777266017963
+            modifiedTime: 1777266017963
           ownership:
             default: 0
           _key: >-
@@ -2488,9 +2488,9 @@ tokens:
             coreVersion: '14.360'
             systemId: pf2e
             systemVersion: 8.0.3
-            lastModifiedBy: BHAmrX4n5zD1mCjc
-            createdTime: 1776753052108
-            modifiedTime: 1776753052108
+            lastModifiedBy: txZjek5EOiCBHPoz
+            createdTime: 1777266017967
+            modifiedTime: 1777266017967
           ownership:
             default: 0
           _key: >-
@@ -2549,9 +2549,9 @@ tokens:
             coreVersion: '14.360'
             systemId: pf2e
             systemVersion: 8.0.3
-            lastModifiedBy: BHAmrX4n5zD1mCjc
-            createdTime: 1776753052109
-            modifiedTime: 1776753052109
+            lastModifiedBy: txZjek5EOiCBHPoz
+            createdTime: 1777266017967
+            modifiedTime: 1777266017967
           effects: []
           folder: null
           sort: 0
@@ -2616,9 +2616,9 @@ tokens:
             coreVersion: '14.360'
             systemId: pf2e
             systemVersion: 8.0.3
-            lastModifiedBy: BHAmrX4n5zD1mCjc
-            createdTime: 1776753052109
-            modifiedTime: 1776753052109
+            lastModifiedBy: txZjek5EOiCBHPoz
+            createdTime: 1777266017967
+            modifiedTime: 1777266017967
           effects: []
           folder: null
           sort: 0
@@ -2744,9 +2744,9 @@ tokens:
             coreVersion: '14.360'
             systemId: pf2e
             systemVersion: 8.0.3
-            lastModifiedBy: BHAmrX4n5zD1mCjc
-            createdTime: 1776753052109
-            modifiedTime: 1776753052109
+            lastModifiedBy: txZjek5EOiCBHPoz
+            createdTime: 1777266017968
+            modifiedTime: 1777266017968
           ownership:
             default: 0
           _key: >-
@@ -2860,9 +2860,9 @@ tokens:
             coreVersion: '14.360'
             systemId: pf2e
             systemVersion: 8.0.3
-            lastModifiedBy: BHAmrX4n5zD1mCjc
-            createdTime: 1776753052109
-            modifiedTime: 1776753052109
+            lastModifiedBy: txZjek5EOiCBHPoz
+            createdTime: 1777266017968
+            modifiedTime: 1777266017968
           ownership:
             default: 0
           _key: >-
@@ -2979,9 +2979,9 @@ tokens:
             coreVersion: '14.360'
             systemId: pf2e
             systemVersion: 8.0.3
-            lastModifiedBy: BHAmrX4n5zD1mCjc
-            createdTime: 1776753052109
-            modifiedTime: 1776753052109
+            lastModifiedBy: txZjek5EOiCBHPoz
+            createdTime: 1777266017968
+            modifiedTime: 1777266017968
           ownership:
             default: 0
           _key: >-
@@ -3073,9 +3073,9 @@ tokens:
             coreVersion: '14.360'
             systemId: pf2e
             systemVersion: 8.0.3
-            lastModifiedBy: BHAmrX4n5zD1mCjc
-            createdTime: 1776753052109
-            modifiedTime: 1776753052109
+            lastModifiedBy: txZjek5EOiCBHPoz
+            createdTime: 1777266017968
+            modifiedTime: 1777266017968
           ownership:
             default: 0
           _key: >-
@@ -3162,9 +3162,9 @@ tokens:
             coreVersion: '14.360'
             systemId: pf2e
             systemVersion: 8.0.3
-            lastModifiedBy: BHAmrX4n5zD1mCjc
-            createdTime: 1776753052109
-            modifiedTime: 1776753052109
+            lastModifiedBy: txZjek5EOiCBHPoz
+            createdTime: 1777266017968
+            modifiedTime: 1777266017968
           ownership:
             default: 0
           _key: >-
@@ -3241,9 +3241,9 @@ tokens:
             coreVersion: '14.360'
             systemId: pf2e
             systemVersion: 8.0.3
-            lastModifiedBy: BHAmrX4n5zD1mCjc
-            createdTime: 1776753052109
-            modifiedTime: 1776753052109
+            lastModifiedBy: txZjek5EOiCBHPoz
+            createdTime: 1777266017969
+            modifiedTime: 1777266017969
           ownership:
             default: 0
           _key: >-
@@ -3301,9 +3301,9 @@ tokens:
             coreVersion: '14.360'
             systemId: pf2e
             systemVersion: 8.0.3
-            lastModifiedBy: BHAmrX4n5zD1mCjc
-            createdTime: 1776753052109
-            modifiedTime: 1776753052109
+            lastModifiedBy: txZjek5EOiCBHPoz
+            createdTime: 1777266017969
+            modifiedTime: 1777266017969
           ownership:
             default: 0
           _key: >-
@@ -3365,9 +3365,9 @@ tokens:
             coreVersion: '14.360'
             systemId: pf2e
             systemVersion: 8.0.3
-            lastModifiedBy: BHAmrX4n5zD1mCjc
-            createdTime: 1776753052109
-            modifiedTime: 1776753052109
+            lastModifiedBy: txZjek5EOiCBHPoz
+            createdTime: 1777266017969
+            modifiedTime: 1777266017969
           ownership:
             default: 0
           _key: >-
@@ -3415,9 +3415,9 @@ tokens:
             coreVersion: '14.360'
             systemId: pf2e
             systemVersion: 8.0.3
-            lastModifiedBy: BHAmrX4n5zD1mCjc
-            createdTime: 1776753052110
-            modifiedTime: 1776753052110
+            lastModifiedBy: txZjek5EOiCBHPoz
+            createdTime: 1777266017969
+            modifiedTime: 1777266017969
           ownership:
             default: 0
           _key: >-
@@ -3476,9 +3476,9 @@ tokens:
             coreVersion: '14.360'
             systemId: pf2e
             systemVersion: 8.0.3
-            lastModifiedBy: BHAmrX4n5zD1mCjc
-            createdTime: 1776753052110
-            modifiedTime: 1776753052110
+            lastModifiedBy: txZjek5EOiCBHPoz
+            createdTime: 1777266017969
+            modifiedTime: 1777266017969
           ownership:
             default: 0
           _key: >-
@@ -3525,9 +3525,9 @@ tokens:
             coreVersion: '14.360'
             systemId: pf2e
             systemVersion: 8.0.3
-            lastModifiedBy: BHAmrX4n5zD1mCjc
-            createdTime: 1776753052110
-            modifiedTime: 1776753052110
+            lastModifiedBy: txZjek5EOiCBHPoz
+            createdTime: 1777266017969
+            modifiedTime: 1777266017969
           ownership:
             default: 0
           _key: >-
@@ -3582,9 +3582,9 @@ tokens:
             coreVersion: '14.360'
             systemId: pf2e
             systemVersion: 8.0.3
-            lastModifiedBy: BHAmrX4n5zD1mCjc
-            createdTime: 1776753052110
-            modifiedTime: 1776753052110
+            lastModifiedBy: txZjek5EOiCBHPoz
+            createdTime: 1777266017969
+            modifiedTime: 1777266017969
           ownership:
             default: 0
           _key: >-
@@ -3775,9 +3775,9 @@ tokens:
             coreVersion: '14.360'
             systemId: pf2e
             systemVersion: 8.0.3
-            lastModifiedBy: BHAmrX4n5zD1mCjc
-            createdTime: 1776753052112
-            modifiedTime: 1776753052112
+            lastModifiedBy: txZjek5EOiCBHPoz
+            createdTime: 1777266017974
+            modifiedTime: 1777266017974
           ownership:
             default: 0
           _key: >-
@@ -3837,9 +3837,9 @@ tokens:
             coreVersion: '14.360'
             systemId: pf2e
             systemVersion: 8.0.3
-            lastModifiedBy: BHAmrX4n5zD1mCjc
-            createdTime: 1776753052112
-            modifiedTime: 1776753052112
+            lastModifiedBy: txZjek5EOiCBHPoz
+            createdTime: 1777266017974
+            modifiedTime: 1777266017974
           effects: []
           folder: null
           sort: 0
@@ -3907,9 +3907,9 @@ tokens:
             coreVersion: '14.360'
             systemId: pf2e
             systemVersion: 8.0.3
-            lastModifiedBy: BHAmrX4n5zD1mCjc
-            createdTime: 1776753052112
-            modifiedTime: 1776753052112
+            lastModifiedBy: txZjek5EOiCBHPoz
+            createdTime: 1777266017974
+            modifiedTime: 1777266017974
           effects: []
           folder: null
           sort: 0
@@ -4035,9 +4035,9 @@ tokens:
             coreVersion: '14.360'
             systemId: pf2e
             systemVersion: 8.0.3
-            lastModifiedBy: BHAmrX4n5zD1mCjc
-            createdTime: 1776753052113
-            modifiedTime: 1776753052113
+            lastModifiedBy: txZjek5EOiCBHPoz
+            createdTime: 1777266017974
+            modifiedTime: 1777266017974
           ownership:
             default: 0
           _key: >-
@@ -4151,9 +4151,9 @@ tokens:
             coreVersion: '14.360'
             systemId: pf2e
             systemVersion: 8.0.3
-            lastModifiedBy: BHAmrX4n5zD1mCjc
-            createdTime: 1776753052113
-            modifiedTime: 1776753052113
+            lastModifiedBy: txZjek5EOiCBHPoz
+            createdTime: 1777266017975
+            modifiedTime: 1777266017975
           ownership:
             default: 0
           _key: >-
@@ -4270,9 +4270,9 @@ tokens:
             coreVersion: '14.360'
             systemId: pf2e
             systemVersion: 8.0.3
-            lastModifiedBy: BHAmrX4n5zD1mCjc
-            createdTime: 1776753052113
-            modifiedTime: 1776753052113
+            lastModifiedBy: txZjek5EOiCBHPoz
+            createdTime: 1777266017975
+            modifiedTime: 1777266017975
           ownership:
             default: 0
           _key: >-
@@ -4364,9 +4364,9 @@ tokens:
             coreVersion: '14.360'
             systemId: pf2e
             systemVersion: 8.0.3
-            lastModifiedBy: BHAmrX4n5zD1mCjc
-            createdTime: 1776753052113
-            modifiedTime: 1776753052113
+            lastModifiedBy: txZjek5EOiCBHPoz
+            createdTime: 1777266017975
+            modifiedTime: 1777266017975
           ownership:
             default: 0
           _key: >-
@@ -4453,9 +4453,9 @@ tokens:
             coreVersion: '14.360'
             systemId: pf2e
             systemVersion: 8.0.3
-            lastModifiedBy: BHAmrX4n5zD1mCjc
-            createdTime: 1776753052113
-            modifiedTime: 1776753052113
+            lastModifiedBy: txZjek5EOiCBHPoz
+            createdTime: 1777266017975
+            modifiedTime: 1777266017975
           ownership:
             default: 0
           _key: >-
@@ -4532,9 +4532,9 @@ tokens:
             coreVersion: '14.360'
             systemId: pf2e
             systemVersion: 8.0.3
-            lastModifiedBy: BHAmrX4n5zD1mCjc
-            createdTime: 1776753052113
-            modifiedTime: 1776753052113
+            lastModifiedBy: txZjek5EOiCBHPoz
+            createdTime: 1777266017975
+            modifiedTime: 1777266017975
           ownership:
             default: 0
           _key: >-
@@ -4592,9 +4592,9 @@ tokens:
             coreVersion: '14.360'
             systemId: pf2e
             systemVersion: 8.0.3
-            lastModifiedBy: BHAmrX4n5zD1mCjc
-            createdTime: 1776753052113
-            modifiedTime: 1776753052113
+            lastModifiedBy: txZjek5EOiCBHPoz
+            createdTime: 1777266017976
+            modifiedTime: 1777266017976
           ownership:
             default: 0
           _key: >-
@@ -4656,9 +4656,9 @@ tokens:
             coreVersion: '14.360'
             systemId: pf2e
             systemVersion: 8.0.3
-            lastModifiedBy: BHAmrX4n5zD1mCjc
-            createdTime: 1776753052113
-            modifiedTime: 1776753052113
+            lastModifiedBy: txZjek5EOiCBHPoz
+            createdTime: 1777266017976
+            modifiedTime: 1777266017976
           ownership:
             default: 0
           _key: >-
@@ -4706,9 +4706,9 @@ tokens:
             coreVersion: '14.360'
             systemId: pf2e
             systemVersion: 8.0.3
-            lastModifiedBy: BHAmrX4n5zD1mCjc
-            createdTime: 1776753052113
-            modifiedTime: 1776753052113
+            lastModifiedBy: txZjek5EOiCBHPoz
+            createdTime: 1777266017976
+            modifiedTime: 1777266017976
           ownership:
             default: 0
           _key: >-
@@ -4767,9 +4767,9 @@ tokens:
             coreVersion: '14.360'
             systemId: pf2e
             systemVersion: 8.0.3
-            lastModifiedBy: BHAmrX4n5zD1mCjc
-            createdTime: 1776753052114
-            modifiedTime: 1776753052114
+            lastModifiedBy: txZjek5EOiCBHPoz
+            createdTime: 1777266017976
+            modifiedTime: 1777266017976
           ownership:
             default: 0
           _key: >-
@@ -4816,9 +4816,9 @@ tokens:
             coreVersion: '14.360'
             systemId: pf2e
             systemVersion: 8.0.3
-            lastModifiedBy: BHAmrX4n5zD1mCjc
-            createdTime: 1776753052114
-            modifiedTime: 1776753052114
+            lastModifiedBy: txZjek5EOiCBHPoz
+            createdTime: 1777266017976
+            modifiedTime: 1777266017976
           ownership:
             default: 0
           _key: >-
@@ -4873,9 +4873,9 @@ tokens:
             coreVersion: '14.360'
             systemId: pf2e
             systemVersion: 8.0.3
-            lastModifiedBy: BHAmrX4n5zD1mCjc
-            createdTime: 1776753052114
-            modifiedTime: 1776753052114
+            lastModifiedBy: txZjek5EOiCBHPoz
+            createdTime: 1777266017976
+            modifiedTime: 1777266017976
           ownership:
             default: 0
           _key: >-
@@ -6412,9 +6412,9 @@ _stats:
   coreVersion: '14.360'
   systemId: pf2e
   systemVersion: 8.0.3
-  createdTime: 1776753052098
-  modifiedTime: 1776753052098
-  lastModifiedBy: BHAmrX4n5zD1mCjc
+  createdTime: 1777266017949
+  modifiedTime: 1777266017949
+  lastModifiedBy: txZjek5EOiCBHPoz
 active: false
 sort: 0
 ownership:
@@ -6459,5 +6459,5 @@ transition:
   type: null
   duration: 1500
   activeOnly: false
-templates: []
 _key: '!scenes!DzJ9oxMWiFVTWUNx'
+templates: []

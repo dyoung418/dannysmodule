@@ -1,0 +1,20 @@
+type: Scene
+folder: null
+name: Town
+color: null
+sorting: a
+_id: PzZSh8dtytkWOJL6
+description: ''
+sort: 0
+flags: {}
+_stats:
+  coreVersion: '14.360'
+  systemId: pf2e
+  systemVersion: 8.0.3
+  createdTime: 1777266015908
+  modifiedTime: 1777266015908
+  lastModifiedBy: txZjek5EOiCBHPoz
+  compendiumSource: null
+  duplicateSource: null
+  exportSource: null
+_key: '!folders!PzZSh8dtytkWOJL6'

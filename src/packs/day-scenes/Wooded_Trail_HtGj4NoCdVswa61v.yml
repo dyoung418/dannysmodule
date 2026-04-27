@@ -1,7 +1,7 @@
 name: Wooded Trail
 navigation: false
 navName: ''
-thumb: worlds/test14path/assets/scenes/thumb-xkBAi9fTr65FwBEE-uDSpw.webp
+thumb: worlds/kingmaker/assets/scenes/thumb-8rEJ7SuZWC6p1cY2J4JXaQ.webp
 width: 3000
 height: 3000
 padding: 0.25
@@ -194,9 +194,9 @@ tokens:
             coreVersion: '14.360'
             systemId: pf2e
             systemVersion: 8.0.3
-            createdTime: 1776753052069
-            modifiedTime: 1776753052069
-            lastModifiedBy: BHAmrX4n5zD1mCjc
+            createdTime: 1777266017819
+            modifiedTime: 1777266017819
+            lastModifiedBy: txZjek5EOiCBHPoz
             exportSource: null
           flags:
             core: {}
@@ -265,9 +265,9 @@ tokens:
             coreVersion: '14.360'
             systemId: pf2e
             systemVersion: 8.0.3
-            createdTime: 1776753052069
-            modifiedTime: 1776753052069
-            lastModifiedBy: BHAmrX4n5zD1mCjc
+            createdTime: 1777266017820
+            modifiedTime: 1777266017820
+            lastModifiedBy: txZjek5EOiCBHPoz
             exportSource: null
           flags:
             core: {}
@@ -325,9 +325,9 @@ tokens:
             coreVersion: '14.360'
             systemId: pf2e
             systemVersion: 8.0.3
-            createdTime: 1776753052069
-            modifiedTime: 1776753052069
-            lastModifiedBy: BHAmrX4n5zD1mCjc
+            createdTime: 1777266017820
+            modifiedTime: 1777266017820
+            lastModifiedBy: txZjek5EOiCBHPoz
             exportSource: null
           effects: []
           folder: null
@@ -382,9 +382,9 @@ tokens:
             coreVersion: '14.360'
             systemId: pf2e
             systemVersion: 8.0.3
-            createdTime: 1776753052070
-            modifiedTime: 1776753052070
-            lastModifiedBy: BHAmrX4n5zD1mCjc
+            createdTime: 1777266017820
+            modifiedTime: 1777266017820
+            lastModifiedBy: txZjek5EOiCBHPoz
             exportSource: null
           effects: []
           folder: null
@@ -440,9 +440,9 @@ tokens:
             coreVersion: '14.360'
             systemId: pf2e
             systemVersion: 8.0.3
-            createdTime: 1776753052070
-            modifiedTime: 1776753052070
-            lastModifiedBy: BHAmrX4n5zD1mCjc
+            createdTime: 1777266017820
+            modifiedTime: 1777266017820
+            lastModifiedBy: txZjek5EOiCBHPoz
             exportSource: null
           effects: []
           folder: null
@@ -504,9 +504,9 @@ tokens:
             coreVersion: '14.360'
             systemId: pf2e
             systemVersion: 8.0.3
-            createdTime: 1776753052070
-            modifiedTime: 1776753052070
-            lastModifiedBy: BHAmrX4n5zD1mCjc
+            createdTime: 1777266017820
+            modifiedTime: 1777266017820
+            lastModifiedBy: txZjek5EOiCBHPoz
             exportSource: null
           effects: []
           folder: null
@@ -685,9 +685,9 @@ tokens:
             coreVersion: '14.360'
             systemId: pf2e
             systemVersion: 8.0.3
-            createdTime: 1776753052072
-            modifiedTime: 1776753052072
-            lastModifiedBy: BHAmrX4n5zD1mCjc
+            createdTime: 1777266017823
+            modifiedTime: 1777266017823
+            lastModifiedBy: txZjek5EOiCBHPoz
             exportSource: null
           flags:
             core: {}
@@ -773,9 +773,9 @@ tokens:
             coreVersion: '14.360'
             systemId: pf2e
             systemVersion: 8.0.3
-            createdTime: 1776753052072
-            modifiedTime: 1776753052072
-            lastModifiedBy: BHAmrX4n5zD1mCjc
+            createdTime: 1777266017823
+            modifiedTime: 1777266017823
+            lastModifiedBy: txZjek5EOiCBHPoz
             exportSource: null
           folder: null
           sort: 700000
@@ -845,9 +845,9 @@ tokens:
             coreVersion: '14.360'
             systemId: pf2e
             systemVersion: 8.0.3
-            createdTime: 1776753052072
-            modifiedTime: 1776753052072
-            lastModifiedBy: BHAmrX4n5zD1mCjc
+            createdTime: 1777266017823
+            modifiedTime: 1777266017823
+            lastModifiedBy: txZjek5EOiCBHPoz
             exportSource: null
           _id: kH5xmdDx0dfVEJeT
           sort: 100000
@@ -898,9 +898,9 @@ tokens:
             coreVersion: '14.360'
             systemId: pf2e
             systemVersion: 8.0.3
-            createdTime: 1776753052072
-            modifiedTime: 1776753052072
-            lastModifiedBy: BHAmrX4n5zD1mCjc
+            createdTime: 1777266017823
+            modifiedTime: 1777266017823
+            lastModifiedBy: txZjek5EOiCBHPoz
             exportSource: null
           effects: []
           folder: null
@@ -955,9 +955,9 @@ tokens:
             coreVersion: '14.360'
             systemId: pf2e
             systemVersion: 8.0.3
-            createdTime: 1776753052072
-            modifiedTime: 1776753052072
-            lastModifiedBy: BHAmrX4n5zD1mCjc
+            createdTime: 1777266017823
+            modifiedTime: 1777266017823
+            lastModifiedBy: txZjek5EOiCBHPoz
             exportSource: null
           effects: []
           folder: null
@@ -1013,9 +1013,9 @@ tokens:
             coreVersion: '14.360'
             systemId: pf2e
             systemVersion: 8.0.3
-            createdTime: 1776753052072
-            modifiedTime: 1776753052072
-            lastModifiedBy: BHAmrX4n5zD1mCjc
+            createdTime: 1777266017823
+            modifiedTime: 1777266017823
+            lastModifiedBy: txZjek5EOiCBHPoz
             exportSource: null
           effects: []
           folder: null
@@ -1077,9 +1077,9 @@ tokens:
             coreVersion: '14.360'
             systemId: pf2e
             systemVersion: 8.0.3
-            createdTime: 1776753052072
-            modifiedTime: 1776753052072
-            lastModifiedBy: BHAmrX4n5zD1mCjc
+            createdTime: 1777266017824
+            modifiedTime: 1777266017824
+            lastModifiedBy: txZjek5EOiCBHPoz
             exportSource: null
           effects: []
           folder: null
@@ -4759,9 +4759,9 @@ _stats:
   coreVersion: '14.360'
   systemId: pf2e
   systemVersion: 8.0.3
-  createdTime: 1776753052067
-  modifiedTime: 1776753052067
-  lastModifiedBy: BHAmrX4n5zD1mCjc
+  createdTime: 1777266017817
+  modifiedTime: 1777266017817
+  lastModifiedBy: txZjek5EOiCBHPoz
   exportSource: null
 _id: HtGj4NoCdVswa61v
 active: false
@@ -4806,5 +4806,5 @@ transition:
   type: null
   duration: 1500
   activeOnly: false
-templates: []
 _key: '!scenes!HtGj4NoCdVswa61v'
+templates: []

@@ -1,7 +1,7 @@
 name: Hydra Nest
 navigation: false
 navName: ''
-thumb: worlds/test14path/assets/scenes/thumb-5VGkUAwD94njg3OLSatnDQ.webp
+thumb: worlds/kingmaker/assets/scenes/thumb-1CpjvdRh10y7-ql-RBWZ5Q.webp
 width: 2160
 height: 3084
 padding: 0.25
@@ -565,9 +565,9 @@ regions:
           coreVersion: '14.360'
           systemId: pf2e
           systemVersion: 8.0.3
-          createdTime: 1776753051959
-          modifiedTime: 1776753051959
-          lastModifiedBy: BHAmrX4n5zD1mCjc
+          createdTime: 1777266016653
+          modifiedTime: 1777266016653
+          lastModifiedBy: txZjek5EOiCBHPoz
           exportSource: null
         _key: >-
           !scenes.regions.behaviors!mrHatHS2KYowlpog.iy5zH7Obnuaia635.Jwhk9e8lD5yzYNux
@@ -583,9 +583,9 @@ regions:
           coreVersion: '14.360'
           systemId: pf2e
           systemVersion: 8.0.3
-          createdTime: 1776753051959
-          modifiedTime: 1776753051959
-          lastModifiedBy: BHAmrX4n5zD1mCjc
+          createdTime: 1777266016653
+          modifiedTime: 1777266016653
+          lastModifiedBy: txZjek5EOiCBHPoz
           exportSource: null
         _key: >-
           !scenes.regions.behaviors!mrHatHS2KYowlpog.iy5zH7Obnuaia635.vN3BBtaI54VwQ6EX
@@ -724,9 +724,9 @@ regions:
           coreVersion: '14.360'
           systemId: pf2e
           systemVersion: 8.0.3
-          createdTime: 1776753051959
-          modifiedTime: 1776753051959
-          lastModifiedBy: BHAmrX4n5zD1mCjc
+          createdTime: 1777266016654
+          modifiedTime: 1777266016654
+          lastModifiedBy: txZjek5EOiCBHPoz
           exportSource: null
         _key: >-
           !scenes.regions.behaviors!mrHatHS2KYowlpog.QDYwAIYQqTraZsrQ.EO6CgfPRdvuR7ANB
@@ -6126,9 +6126,9 @@ _stats:
   coreVersion: '14.360'
   systemId: pf2e
   systemVersion: 8.0.3
-  createdTime: 1776753051957
-  modifiedTime: 1776753051957
-  lastModifiedBy: BHAmrX4n5zD1mCjc
+  createdTime: 1777266016651
+  modifiedTime: 1777266016651
+  lastModifiedBy: txZjek5EOiCBHPoz
   exportSource: null
 navOrder: 0
 _id: mrHatHS2KYowlpog
@@ -6173,5 +6173,5 @@ transition:
   type: null
   duration: 1500
   activeOnly: false
-templates: []
 _key: '!scenes!mrHatHS2KYowlpog'
+templates: []

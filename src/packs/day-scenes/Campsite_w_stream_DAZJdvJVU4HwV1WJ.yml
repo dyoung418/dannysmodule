@@ -3,7 +3,7 @@ name: Campsite w stream
 _id: DAZJdvJVU4HwV1WJ
 navigation: false
 navName: Campsite
-thumb: worlds/test14path/assets/scenes/thumb-Na24_WZVT71arJ9UeVoQ2w.webp
+thumb: worlds/kingmaker/assets/scenes/thumb-2MSsvL0nkIN0KYEv9hgKsQ.webp
 width: 2016
 height: 1440
 padding: 0.25
@@ -2080,9 +2080,9 @@ _stats:
   coreVersion: '14.360'
   systemId: pf2e
   systemVersion: 8.0.3
-  createdTime: 1776753051931
-  modifiedTime: 1776753051931
-  lastModifiedBy: BHAmrX4n5zD1mCjc
+  createdTime: 1777266016601
+  modifiedTime: 1777266016601
+  lastModifiedBy: txZjek5EOiCBHPoz
   exportSource: null
 ownership:
   default: 0
@@ -2128,5 +2128,5 @@ transition:
   type: null
   duration: 1500
   activeOnly: false
-templates: []
 _key: '!scenes!DAZJdvJVU4HwV1WJ'
+templates: []
