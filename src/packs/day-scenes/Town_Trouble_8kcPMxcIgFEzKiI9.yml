@@ -3,7 +3,7 @@ name: Town Trouble
 _id: 8kcPMxcIgFEzKiI9
 navigation: true
 navOrder: 0
-thumb: worlds/kingmaker/assets/scenes/thumb-7bqFqpF4Msrzo5s4Jw9muw.webp
+thumb: worlds/kingmaker/assets/scenes/thumb-TE1IsyWOvPT8rRv8pI0UpA.webp
 width: 12000
 height: 10000
 padding: 0.25
@@ -44,7 +44,7 @@ environment:
     shadows: 0
     darkness:
       min: 0
-      max: 1
+      max: 0.7
   cycle: true
   base:
     hue: 0
@@ -62,7 +62,67 @@ transition:
   type: null
   duration: 1500
   activeOnly: false
-drawings: []
+drawings:
+  - strokeWidth: 8
+    strokeColor: '#000000'
+    strokeAlpha: 1
+    bezierFactor: 0
+    fillType: 1
+    fillColor: '#000000'
+    fillAlpha: 1
+    texture: null
+    fontFamily: ''
+    fontSize: 48
+    textColor: '#ffffff'
+    textAlpha: 1
+    elevation: 0
+    levels:
+      - defaultLevel0000
+    interface: false
+    x: 3000
+    'y': 2450
+    sort: 0
+    shape:
+      type: p
+      points:
+        - 0
+        - 50
+        - 0
+        - 1550
+        - 750
+        - 2150
+        - 1950
+        - 2950
+        - 3550
+        - 3550
+        - 5250
+        - 3850
+        - 6600
+        - 3850
+        - 7900
+        - 3600
+        - 9500
+        - 3000
+        - 10800
+        - 2250
+        - 12000
+        - 1250
+        - 12000
+        - 0
+        - 0
+        - 50
+      width: 12000
+      height: 3850
+      radius: null
+    _id: mxt7tvfOn6APJKXU
+    rotation: 0
+    hidden: false
+    locked: false
+    flags: {}
+    name: ''
+    text: ''
+    author: txZjek5EOiCBHPoz
+    _key: '!scenes.drawings!8kcPMxcIgFEzKiI9.mxt7tvfOn6APJKXU'
 tokens: []
 levels:
   - _id: defaultLevel0000
@@ -133,7 +193,30 @@ lights: []
 notes: []
 sounds: []
 regions:
-  - color: '#2851cc'
+  - name: Roof SW
+    _id: usdhQPlalDRS0tJT
+    color: '#cc3828'
+    shapes:
+      - type: polygon
+        points:
+          - 5197.902263025553
+          - 8492.311789161758
+          - 4759.642281533152
+          - 9476.49363345611
+          - 5431.713419404874
+          - 9760.3295023631
+          - 5700.324375803443
+          - 9129.583127014233
+          - 5650.299663275775
+          - 9084.995883239573
+          - 5759.049038335924
+          - 8825.084876845816
+          - 5492.613069438557
+          - 8715.248008035065
+          - 5523.062894455399
+          - 8629.336001737547
+        hole: false
+        origin: null
     elevation:
       bottom: 20
       top: 40
@@ -146,125 +229,10 @@ regions:
       priority: 0
     attachment:
       token: null
-    visibility: 4
-    highlightMode: shapes
-    displayMeasurements: false
-    hidden: false
-    name: Rooftops region
-    _id: ie5NGBZvc5KGNqNQ
-    shapes:
-      - type: polygon
-        points:
-          - 5126.372595894404
-          - 7943.6759752912785
-          - 5764.347448159193
-          - 7314.686929939533
-          - 4955.647105003658
-          - 6492.508007203014
-          - 4317.672252738868
-          - 7112.511629914086
-        hole: false
-        origin: null
-      - type: polygon
-        points:
-          - 5176.792726700417
-          - 8487.706146531073
-          - 4745.998173243198
-          - 9473.488201228913
-          - 5425.17853866122
-          - 9780.08986170746
-          - 5704.612843606444
-          - 9135.838401768417
-          - 5661.921609901732
-          - 9093.147166253344
-          - 5747.304432630248
-          - 8809.83169884104
-          - 5502.799415803178
-          - 8720.568077193486
-          - 5533.847553468505
-          - 8604.13711186228
-        hole: false
-        origin: null
-      - type: polygon
-        points:
-          - 6585.607347465919
-          - 6873.196701385167
-          - 6566.201950520883
-          - 7661.046292679512
-          - 6818.469268253604
-          - 7661.046292679512
-          - 6818.469268253604
-          - 7750.3099143270665
-          - 7245.382671257998
-          - 7765.834161477597
-          - 7253.144616844556
-          - 7649.403196146392
-          - 7761.560047443733
-          - 7657.165142062102
-          - 7749.916951404349
-          - 6869.315728427312
-        hole: false
-        origin: null
-      - type: polygon
-        points:
-          - 7877.991007837577
-          - 6970.222446607988
-          - 7827.537828546307
-          - 7890.027072724513
-          - 8615.38685345252
-          - 7921.07538936602
-          - 8623.149154358172
-          - 7024.556956315735
-        hole: false
-        origin: null
-      - type: polygon
-        points:
-          - 9174.255463342968
-          - 8460.538802847423
-          - 9162.612367303582
-          - 9256.150517717033
-          - 10179.443228501936
-          - 9186.291938518309
-          - 10160.0378315569
-          - 8476.063049997952
-        hole: false
-        origin: null
-      - type: polygon
-        points:
-          - 10905.195978077496
-          - 6679.145033279973
-          - 11270.012750432143
-          - 7362.206755776232
-          - 12170.412651236651
-          - 6908.125990984529
-          - 11770.665880125667
-          - 6205.659137209662
-        hole: false
-        origin: null
-      - type: polygon
-        points:
-          - 11339.871326668448
-          - 7486.399844682703
-          - 13280.387570111894
-          - 6535.54690192467
-          - 13885.829274798063
-          - 7738.666817793946
-          - 13136.78962250555
-          - 8103.483960938094
-          - 13458.91480583639
-          - 8724.449227810896
-          - 12857.355317560327
-          - 9034.93168358774
-          - 13276.506774978161
-          - 9958.617460321677
-          - 12651.660383985141
-          - 10241.932572414873
-        hole: false
-        origin: null
     behaviors:
       - name: Define Surface
         type: defineSurface
-        _id: Y2zqDlDi3J1UfNDi
+        _id: kxEoGlfO7sVqrM0p
         system:
           placement: bottom
           light: true
@@ -279,14 +247,18 @@ regions:
           coreVersion: '14.360'
           systemId: pf2e
           systemVersion: 8.0.3
-          createdTime: 1777274651571
-          modifiedTime: 1777274651571
+          createdTime: 1777410633460
+          modifiedTime: 1777410633460
           lastModifiedBy: txZjek5EOiCBHPoz
           compendiumSource: null
           duplicateSource: null
           exportSource: null
         _key: >-
-          !scenes.regions.behaviors!8kcPMxcIgFEzKiI9.ie5NGBZvc5KGNqNQ.Y2zqDlDi3J1UfNDi
+          !scenes.regions.behaviors!8kcPMxcIgFEzKiI9.usdhQPlalDRS0tJT.kxEoGlfO7sVqrM0p
+    visibility: 4
+    highlightMode: shapes
+    displayMeasurements: false
+    hidden: false
     locked: false
     flags:
       pf2e:
@@ -294,7 +266,419 @@ regions:
     _shapeConstraints: null
     ownership:
       default: 0
-    _key: '!scenes.regions!8kcPMxcIgFEzKiI9.ie5NGBZvc5KGNqNQ'
+    _key: '!scenes.regions!8kcPMxcIgFEzKiI9.usdhQPlalDRS0tJT'
+  - name: Roof NW
+    _id: IobDoadKimK3F7S9
+    color: '#cc284b'
+    shapes:
+      - type: polygon
+        points:
+          - 5122.4547603028295
+          - 7945.260026735793
+          - 4328.107508757678
+          - 7132.686834428612
+          - 4959.940121841393
+          - 6508.4483633290765
+          - 5763.400343767558
+          - 7331.653354414108
+        hole: false
+        origin: null
+    elevation:
+      bottom: 20
+      top: 40
+    levels:
+      - defaultLevel0000
+      - eQCbahc8CsRne40D
+    restriction:
+      enabled: false
+      type: move
+      priority: 0
+    attachment:
+      token: null
+    behaviors:
+      - name: Define Surface
+        type: defineSurface
+        _id: pYdl6LeainVBCMHL
+        system:
+          placement: bottom
+          light: true
+          move: true
+          sight: true
+          sound: true
+          occlusion: true
+          exposure: true
+        disabled: false
+        flags: {}
+        _stats:
+          coreVersion: '14.360'
+          systemId: pf2e
+          systemVersion: 8.0.3
+          createdTime: 1777410633460
+          modifiedTime: 1777410633460
+          lastModifiedBy: txZjek5EOiCBHPoz
+          compendiumSource: null
+          duplicateSource: null
+          exportSource: null
+        _key: >-
+          !scenes.regions.behaviors!8kcPMxcIgFEzKiI9.IobDoadKimK3F7S9.pYdl6LeainVBCMHL
+    visibility: 4
+    highlightMode: shapes
+    displayMeasurements: false
+    hidden: false
+    locked: false
+    flags:
+      pf2e:
+        areaShape: null
+    _shapeConstraints: null
+    ownership:
+      default: 0
+    _key: '!scenes.regions!8kcPMxcIgFEzKiI9.IobDoadKimK3F7S9'
+  - name: Roof N w wagon in front
+    _id: hdquK509kjhld8jL
+    color: '#cc288c'
+    shapes:
+      - type: polygon
+        points:
+          - 6592.987607315075
+          - 6890.1847158881665
+          - 6591.272766620941
+          - 7637.855258530251
+          - 6817.631738246527
+          - 7636.140417836118
+          - 6827.920782411326
+          - 7742.460540872378
+          - 7236.052867615033
+          - 7749.319903648911
+          - 7246.341911779833
+          - 7627.566214365452
+          - 7752.219916549133
+          - 7636.140417836118
+          - 7750.505075855
+          - 6879.895671723367
+        hole: false
+        origin: null
+    elevation:
+      bottom: 20
+      top: 40
+    levels:
+      - defaultLevel0000
+      - eQCbahc8CsRne40D
+    restriction:
+      enabled: false
+      type: move
+      priority: 0
+    attachment:
+      token: null
+    behaviors:
+      - name: Define Surface
+        type: defineSurface
+        _id: Gpm6hb5c5acybIgS
+        system:
+          placement: bottom
+          light: true
+          move: true
+          sight: true
+          sound: true
+          occlusion: true
+          exposure: true
+        disabled: false
+        flags: {}
+        _stats:
+          coreVersion: '14.360'
+          systemId: pf2e
+          systemVersion: 8.0.3
+          createdTime: 1777410633460
+          modifiedTime: 1777410633460
+          lastModifiedBy: txZjek5EOiCBHPoz
+          compendiumSource: null
+          duplicateSource: null
+          exportSource: null
+        _key: >-
+          !scenes.regions.behaviors!8kcPMxcIgFEzKiI9.hdquK509kjhld8jL.Gpm6hb5c5acybIgS
+    visibility: 4
+    highlightMode: shapes
+    displayMeasurements: false
+    hidden: false
+    locked: false
+    flags:
+      pf2e:
+        areaShape: null
+    _shapeConstraints: null
+    ownership:
+      default: 0
+    _key: '!scenes.regions!8kcPMxcIgFEzKiI9.hdquK509kjhld8jL'
+  - name: Roof N one o clock
+    _id: OZCk3P2of38xLknE
+    color: '#cc2870'
+    shapes:
+      - type: polygon
+        points:
+          - 7881.784006314121
+          - 6990.088266790855
+          - 7843.638246008677
+          - 7892.235498014597
+          - 8593.202436010644
+          - 7911.3083781673195
+          - 8616.089892193912
+          - 7022.512163050482
+        hole: false
+        origin: null
+    elevation:
+      bottom: 20
+      top: 40
+    levels:
+      - defaultLevel0000
+      - eQCbahc8CsRne40D
+    restriction:
+      enabled: false
+      type: move
+      priority: 0
+    attachment:
+      token: null
+    behaviors:
+      - name: Define Surface
+        type: defineSurface
+        _id: 3xROMR2yBJfdmLYU
+        system:
+          placement: bottom
+          light: true
+          move: true
+          sight: true
+          sound: true
+          occlusion: true
+          exposure: true
+        disabled: false
+        flags: {}
+        _stats:
+          coreVersion: '14.360'
+          systemId: pf2e
+          systemVersion: 8.0.3
+          createdTime: 1777410633460
+          modifiedTime: 1777410633460
+          lastModifiedBy: txZjek5EOiCBHPoz
+          compendiumSource: null
+          duplicateSource: null
+          exportSource: null
+        _key: >-
+          !scenes.regions.behaviors!8kcPMxcIgFEzKiI9.OZCk3P2of38xLknE.3xROMR2yBJfdmLYU
+    visibility: 4
+    highlightMode: shapes
+    displayMeasurements: false
+    hidden: false
+    locked: false
+    flags:
+      pf2e:
+        areaShape: null
+    _shapeConstraints: null
+    ownership:
+      default: 0
+    _key: '!scenes.regions!8kcPMxcIgFEzKiI9.OZCk3P2of38xLknE'
+  - name: Roof three o clock
+    _id: TY2rVQEwMhHJmtcV
+    color: '#28cc39'
+    shapes:
+      - type: polygon
+        points:
+          - 9181.318193473537
+          - 8456.726449275839
+          - 9181.318193473537
+          - 9244.223119235136
+          - 10166.801314354805
+          - 9262.01965414947
+          - 10169.025881219097
+          - 8474.522984190173
+        hole: false
+        origin: null
+    elevation:
+      bottom: 20
+      top: 40
+    levels:
+      - defaultLevel0000
+      - eQCbahc8CsRne40D
+    restriction:
+      enabled: false
+      type: move
+      priority: 0
+    attachment:
+      token: null
+    behaviors:
+      - name: Define Surface
+        type: defineSurface
+        _id: ONUu9BWcANllxJnj
+        system:
+          placement: bottom
+          light: true
+          move: true
+          sight: true
+          sound: true
+          occlusion: true
+          exposure: true
+        disabled: false
+        flags: {}
+        _stats:
+          coreVersion: '14.360'
+          systemId: pf2e
+          systemVersion: 8.0.3
+          createdTime: 1777410633460
+          modifiedTime: 1777410633460
+          lastModifiedBy: txZjek5EOiCBHPoz
+          compendiumSource: null
+          duplicateSource: null
+          exportSource: null
+        _key: >-
+          !scenes.regions.behaviors!8kcPMxcIgFEzKiI9.TY2rVQEwMhHJmtcV.ONUu9BWcANllxJnj
+    visibility: 4
+    highlightMode: shapes
+    displayMeasurements: false
+    hidden: false
+    locked: false
+    flags:
+      pf2e:
+        areaShape: null
+    _shapeConstraints: null
+    ownership:
+      default: 0
+    _key: '!scenes.regions!8kcPMxcIgFEzKiI9.TY2rVQEwMhHJmtcV'
+  - name: Roof NE barn
+    _id: TKIGhaUBqf2CknkG
+    color: '#28b5cc'
+    shapes:
+      - type: polygon
+        points:
+          - 10906.189605928339
+          - 6682.931096535683
+          - 11287.579443119326
+          - 7367.876110266434
+          - 12167.111108478133
+          - 6893.084680293981
+          - 11777.937805222024
+          - 6204.247933530668
+        hole: false
+        origin: null
+    elevation:
+      bottom: 20
+      top: 40
+    levels:
+      - defaultLevel0000
+      - eQCbahc8CsRne40D
+    restriction:
+      enabled: false
+      type: move
+      priority: 0
+    attachment:
+      token: null
+    behaviors:
+      - name: Define Surface
+        type: defineSurface
+        _id: 97JzcBonujN7wzmP
+        system:
+          placement: bottom
+          light: true
+          move: true
+          sight: true
+          sound: true
+          occlusion: true
+          exposure: true
+        disabled: false
+        flags: {}
+        _stats:
+          coreVersion: '14.360'
+          systemId: pf2e
+          systemVersion: 8.0.3
+          createdTime: 1777410633460
+          modifiedTime: 1777410633460
+          lastModifiedBy: txZjek5EOiCBHPoz
+          compendiumSource: null
+          duplicateSource: null
+          exportSource: null
+        _key: >-
+          !scenes.regions.behaviors!8kcPMxcIgFEzKiI9.TKIGhaUBqf2CknkG.97JzcBonujN7wzmP
+    visibility: 4
+    highlightMode: shapes
+    displayMeasurements: false
+    hidden: false
+    locked: false
+    flags:
+      pf2e:
+        areaShape: null
+    _shapeConstraints: null
+    ownership:
+      default: 0
+    _key: '!scenes.regions!8kcPMxcIgFEzKiI9.TKIGhaUBqf2CknkG'
+  - name: Roof NE large
+    _id: WxidGNSlEilqYOxS
+    color: '#2897cc'
+    shapes:
+      - type: polygon
+        points:
+          - 11342.009844295793
+          - 7487.828428332634
+          - 12666.226525772605
+          - 10210.566534936257
+          - 13258.010734127973
+          - 9950.499932161252
+          - 12830.758458140464
+          - 9034.959340759448
+          - 13441.118852408334
+          - 8748.355329538015
+          - 13130.631173585112
+          - 8090.227600066573
+          - 13876.33235092977
+          - 7731.972586039781
+          - 13303.124328486902
+          - 6540.442946795116
+        hole: false
+        origin: null
+    elevation:
+      bottom: 20
+      top: 40
+    levels:
+      - defaultLevel0000
+      - eQCbahc8CsRne40D
+    restriction:
+      enabled: false
+      type: move
+      priority: 0
+    attachment:
+      token: null
+    behaviors:
+      - name: Define Surface
+        type: defineSurface
+        _id: QiQrlzindyHmxlwQ
+        system:
+          placement: bottom
+          light: true
+          move: true
+          sight: true
+          sound: true
+          occlusion: true
+          exposure: true
+        disabled: false
+        flags: {}
+        _stats:
+          coreVersion: '14.360'
+          systemId: pf2e
+          systemVersion: 8.0.3
+          createdTime: 1777410633460
+          modifiedTime: 1777410633460
+          lastModifiedBy: txZjek5EOiCBHPoz
+          compendiumSource: null
+          duplicateSource: null
+          exportSource: null
+        _key: >-
+          !scenes.regions.behaviors!8kcPMxcIgFEzKiI9.WxidGNSlEilqYOxS.QiQrlzindyHmxlwQ
+    visibility: 4
+    highlightMode: shapes
+    displayMeasurements: false
+    hidden: false
+    locked: false
+    flags:
+      pf2e:
+        areaShape: null
+    _shapeConstraints: null
+    ownership:
+      default: 0
+    _key: '!scenes.regions!8kcPMxcIgFEzKiI9.WxidGNSlEilqYOxS'
 tiles: []
 walls:
   - levels:
@@ -8483,8 +8867,8 @@ _stats:
   coreVersion: '14.360'
   systemId: pf2e
   systemVersion: 8.0.3
-  createdTime: 1777274651569
-  modifiedTime: 1777274651569
+  createdTime: 1777410633460
+  modifiedTime: 1777410633460
   lastModifiedBy: txZjek5EOiCBHPoz
   exportSource: null
   compendiumSource: null
