@@ -1,7 +1,7 @@
 name: Small Inn
 _id: xy0S6z1GuWhdUmCF
 navigation: false
-thumb: worlds/kingmaker/assets/scenes/thumb-FXcLf9DW-_cDCHNkqy-JhA.webp
+thumb: worlds/kingmaker/assets/scenes/thumb-xY99QcVYqtOnCF4iWSYn0A.webp
 width: 4000
 height: 3000
 padding: 0.25
@@ -1215,8 +1215,8 @@ regions:
           coreVersion: '14.360'
           systemId: pf2e
           systemVersion: 8.0.3
-          createdTime: 1777266016960
-          modifiedTime: 1777266016960
+          createdTime: 1777449212190
+          modifiedTime: 1777449212190
           lastModifiedBy: txZjek5EOiCBHPoz
           compendiumSource: null
           duplicateSource: null
@@ -3085,8 +3085,8 @@ _stats:
   coreVersion: '14.360'
   systemId: pf2e
   systemVersion: 8.0.3
-  createdTime: 1777266016955
-  modifiedTime: 1777266016955
+  createdTime: 1777449212185
+  modifiedTime: 1777449212185
   lastModifiedBy: txZjek5EOiCBHPoz
   exportSource: null
   compendiumSource: null
@@ -3097,5 +3097,5 @@ ownership:
   default: 0
 active: false
 sort: 0
-templates: []
 _key: '!scenes!xy0S6z1GuWhdUmCF'
+templates: []

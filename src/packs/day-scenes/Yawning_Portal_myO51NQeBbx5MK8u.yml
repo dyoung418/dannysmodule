@@ -1,0 +1,500 @@
+folder: 1LOPSyo3SGiD9SB8
+name: Yawning Portal
+_id: myO51NQeBbx5MK8u
+navigation: true
+navOrder: 0
+thumb: worlds/kingmaker/assets/scenes/thumb-9aWxctNn-jsIuKQKMNuxJQ.webp
+width: 6750
+height: 4950
+padding: 0.25
+shiftX: 0
+shiftY: 0
+initial:
+  x: null
+  'y': null
+  scale: null
+initialLevel: defaultLevel0000
+grid:
+  type: 1
+  size: 150
+  style: solidLines
+  thickness: 1
+  color: '#000000'
+  alpha: 0.2
+  distance: 5
+  units: ft
+tokenVision: true
+fog:
+  mode: 1
+  colors:
+    explored: null
+    unexplored: null
+environment:
+  darknessLevel: 0
+  darknessLock: false
+  globalLight:
+    enabled: true
+    alpha: 0.5
+    bright: false
+    color: null
+    coloration: 1
+    luminosity: 0
+    saturation: 0
+    contrast: 0
+    shadows: 0
+    darkness:
+      min: 0
+      max: 0.5
+  cycle: true
+  base:
+    hue: 0
+    intensity: 0
+    luminosity: 0
+    saturation: 0
+    shadows: 0
+  dark:
+    hue: 0.7138888888888889
+    intensity: 0
+    luminosity: -0.25
+    saturation: 0
+    shadows: 0
+transition:
+  type: null
+  duration: 1500
+  activeOnly: false
+drawings: []
+tokens: []
+levels:
+  - _id: defaultLevel0000
+    name: ground level
+    elevation:
+      bottom: 0
+      top: 20
+    background:
+      color: '#999999'
+      src: >-
+        modules/dannysmodule/assets/maps/YawningPortal/YawningPortalNoGrid_WEBP_45x33.webp
+      tint: '#ffffff'
+      alphaThreshold: 0.75
+    foreground:
+      src: null
+      tint: '#ffffff'
+      alphaThreshold: 0.75
+    fog:
+      src: null
+      tint: '#ffffff'
+    textures:
+      anchorX: 0.5
+      anchorY: 0.5
+      offsetX: 0
+      offsetY: 0
+      fit: fill
+      scaleX: 1
+      scaleY: 1
+      rotation: 0
+    visibility:
+      levels:
+        - qRErgiuJXDwdmf9x
+        - TB3C1vrjlOvJNzz3
+    sort: 0
+    flags: {}
+    _key: '!scenes.levels!myO51NQeBbx5MK8u.defaultLevel0000'
+  - name: 2nd floor
+    _id: qRErgiuJXDwdmf9x
+    elevation:
+      bottom: 20
+      top: 40
+    background:
+      color: '#999999'
+      src: >-
+        modules/dannysmodule/assets/maps/YawningPortal/YawningPortal2Floor_HiRes_Tile_90x66.webp
+      tint: '#ffffff'
+      alphaThreshold: 0.75
+    foreground:
+      src: null
+      tint: '#ffffff'
+      alphaThreshold: 0.75
+    fog:
+      src: null
+      tint: '#ffffff'
+    textures:
+      anchorX: 0.5
+      anchorY: 0.5
+      offsetX: 0
+      offsetY: 0
+      fit: fill
+      scaleX: 1
+      scaleY: 1
+      rotation: 0
+    visibility:
+      levels:
+        - TB3C1vrjlOvJNzz3
+        - defaultLevel0000
+    sort: 0
+    flags: {}
+    _key: '!scenes.levels!myO51NQeBbx5MK8u.qRErgiuJXDwdmf9x'
+  - name: 3rd floor
+    _id: TB3C1vrjlOvJNzz3
+    elevation:
+      bottom: 40
+      top: 60
+    background:
+      color: '#999999'
+      src: >-
+        modules/dannysmodule/assets/maps/YawningPortal/YawningPortal3FloorTile_Large_90x66.webp
+      tint: '#ffffff'
+      alphaThreshold: 0.75
+    foreground:
+      src: null
+      tint: '#ffffff'
+      alphaThreshold: 0.75
+    fog:
+      src: null
+      tint: '#ffffff'
+    textures:
+      anchorX: 0.5
+      anchorY: 0.5
+      offsetX: 0
+      offsetY: 0
+      fit: fill
+      scaleX: 1
+      scaleY: 1
+      rotation: 0
+    visibility:
+      levels:
+        - qRErgiuJXDwdmf9x
+        - defaultLevel0000
+    sort: 0
+    flags: {}
+    _key: '!scenes.levels!myO51NQeBbx5MK8u.TB3C1vrjlOvJNzz3'
+lights: []
+notes: []
+sounds: []
+regions:
+  - color: '#cc2899'
+    elevation:
+      bottom: 40
+      top: 60
+    levels:
+      - defaultLevel0000
+      - qRErgiuJXDwdmf9x
+      - TB3C1vrjlOvJNzz3
+    restriction:
+      enabled: false
+      type: move
+      priority: 0
+    attachment:
+      token: null
+    visibility: 4
+    highlightMode: shapes
+    displayMeasurements: false
+    hidden: false
+    name: 3rd floor area
+    _id: oFkZaHaeL1fDEd0t
+    shapes:
+      - type: polygon
+        points:
+          - 2079.397333002049
+          - 2224.2290112940436
+          - 2075.079853225872
+          - 5123.416680996902
+          - 3724.3571277254873
+          - 5123.416680996902
+          - 3743.7857867182843
+          - 5883.293121604056
+          - 5282.967326925387
+          - 5874.658162051701
+          - 5330.459604463334
+          - 5816.372185073312
+          - 5425.444159539227
+          - 5911.3567401492055
+          - 5764.3663219691225
+          - 5585.387017047842
+          - 5669.381766893229
+          - 5470.9738029791515
+          - 5725.5090039835295
+          - 5414.846565888851
+          - 7836.756614534084
+          - 5423.481525441204
+          - 7830.280394869818
+          - 2058.006039911229
+          - 6481.067964814505
+          - 2053.6885601350523
+          - 6472.433005262152
+          - 1919.846687073565
+          - 5969.446611337531
+          - 1915.5292072973878
+          - 5956.494172008999
+          - 2064.482259575494
+          - 4320.169336837915
+          - 2068.7997393516716
+          - 4318.010596949825
+          - 2662.4532085760093
+          - 3640.1662720900363
+          - 2666.770688352187
+          - 3627.2138327615053
+          - 2217.7527916297777
+        hole: false
+        origin: null
+      - type: polygon
+        points:
+          - 5125.516827551261
+          - 2727.0177171620617
+          - 5119.937109097448
+          - 4917.057210283426
+          - 7340.665053714781
+          - 4939.376084098676
+          - 7323.925898353344
+          - 2721.4379987082493
+          - 7240.2301215461575
+          - 2721.4379987082493
+        hole: true
+        origin: null
+    behaviors:
+      - name: Define Surface
+        type: defineSurface
+        _id: 75vg0mnYN8Vh4r6k
+        system:
+          placement: bottom
+          light: true
+          move: true
+          sight: true
+          sound: true
+          occlusion: true
+          exposure: true
+        disabled: false
+        flags: {}
+        _stats:
+          coreVersion: '14.360'
+          systemId: pf2e
+          systemVersion: 8.0.3
+          createdTime: 1777449212201
+          modifiedTime: 1777449212201
+          lastModifiedBy: txZjek5EOiCBHPoz
+          compendiumSource: null
+          duplicateSource: null
+          exportSource: null
+        _key: >-
+          !scenes.regions.behaviors!myO51NQeBbx5MK8u.oFkZaHaeL1fDEd0t.75vg0mnYN8Vh4r6k
+    locked: false
+    flags:
+      pf2e:
+        areaShape: null
+    _shapeConstraints: null
+    ownership:
+      default: 0
+    _key: '!scenes.regions!myO51NQeBbx5MK8u.oFkZaHaeL1fDEd0t'
+  - color: '#28cc69'
+    elevation:
+      bottom: 20
+      top: 40
+    levels:
+      - defaultLevel0000
+      - qRErgiuJXDwdmf9x
+      - TB3C1vrjlOvJNzz3
+    restriction:
+      enabled: false
+      type: move
+      priority: 0
+    attachment:
+      token: null
+    visibility: 4
+    highlightMode: shapes
+    displayMeasurements: false
+    hidden: false
+    name: 2nd floor area
+    _id: FTJ51CLGapJH3Gl5
+    shapes:
+      - type: polygon
+        points:
+          - 2076.7691739632037
+          - 2225.97406886401
+          - 2074.639905821572
+          - 5128.166545907892
+          - 3724.822715586068
+          - 5134.554350332786
+          - 3726.9519837277
+          - 5882.28158881744
+          - 5285.576263402037
+          - 5878.023052534177
+          - 5321.773821809774
+          - 5816.2742764268605
+          - 5458.046982874197
+          - 5926.996219791704
+          - 5777.437204118938
+          - 5601.218194122068
+          - 5688.00794217041
+          - 5477.720641907434
+          - 5692.266478453674
+          - 5450.040156066223
+          - 5728.464036861411
+          - 5428.7474746499065
+          - 7825.791974273079
+          - 5428.747474649908
+          - 7825.791974273079
+          - 2053.8574701638086
+          - 6480.094508761903
+          - 2066.633079013598
+          - 6471.577436195376
+          - 1911.196504674491
+          - 5964.811618487053
+          - 1915.455040957754
+          - 5969.070154770317
+          - 2058.1160064470714
+          - 4301.853199872767
+          - 2070.8916152968613
+          - 4318.88734500582
+          - 2654.3110861039218
+          - 3641.780075966968
+          - 2664.95742681208
+          - 3622.6166626922836
+          - 2219.9403852110736
+        hole: false
+        origin: null
+      - type: polygon
+        points:
+          - 5116.961141878895
+          - 2723.9037635263007
+          - 5116.961141878895
+          - 4917.049949406857
+          - 7333.5292773174
+          - 4934.0840945399095
+          - 7322.882936609241
+          - 2717.5159591014058
+        hole: true
+        origin: null
+    behaviors:
+      - name: Define Surface
+        type: defineSurface
+        _id: 6uay8xXRQKY9zvyi
+        system:
+          placement: bottom
+          light: true
+          move: true
+          sight: true
+          sound: true
+          occlusion: true
+          exposure: true
+        disabled: false
+        flags: {}
+        _stats:
+          coreVersion: '14.360'
+          systemId: pf2e
+          systemVersion: 8.0.3
+          createdTime: 1777449212201
+          modifiedTime: 1777449212201
+          lastModifiedBy: txZjek5EOiCBHPoz
+          compendiumSource: null
+          duplicateSource: null
+          exportSource: null
+        _key: >-
+          !scenes.regions.behaviors!myO51NQeBbx5MK8u.FTJ51CLGapJH3Gl5.6uay8xXRQKY9zvyi
+    locked: false
+    flags:
+      pf2e:
+        areaShape: null
+    _shapeConstraints: null
+    ownership:
+      default: 0
+    _key: '!scenes.regions!myO51NQeBbx5MK8u.FTJ51CLGapJH3Gl5'
+  - color: '#5b28cc'
+    elevation:
+      bottom: 0
+      top: 40
+    levels:
+      - defaultLevel0000
+      - qRErgiuJXDwdmf9x
+    restriction:
+      enabled: false
+      type: move
+      priority: 0
+    attachment:
+      token: null
+    visibility: 4
+    highlightMode: shapes
+    displayMeasurements: false
+    hidden: false
+    name: Stair outdoors to 2nd floor
+    _id: SK2jJMvBOUrzKL9E
+    shapes:
+      - type: rectangle
+        x: 7800
+        'y': 4725
+        width: 193
+        height: 226
+        hole: false
+        anchorX: 0
+        anchorY: 0
+        rotation: 0
+        gridBased: false
+    behaviors:
+      - name: Change Level
+        type: changeLevel
+        _id: gdHsOJQzShoUagom
+        system: {}
+        disabled: false
+        flags: {}
+        _stats:
+          coreVersion: '14.360'
+          systemId: pf2e
+          systemVersion: 8.0.3
+          createdTime: 1777449212201
+          modifiedTime: 1777449212201
+          lastModifiedBy: txZjek5EOiCBHPoz
+          compendiumSource: null
+          duplicateSource: null
+          exportSource: null
+        _key: >-
+          !scenes.regions.behaviors!myO51NQeBbx5MK8u.SK2jJMvBOUrzKL9E.gdHsOJQzShoUagom
+    locked: false
+    flags:
+      pf2e:
+        areaShape: null
+    _shapeConstraints: null
+    ownership:
+      default: 0
+    _key: '!scenes.regions!myO51NQeBbx5MK8u.SK2jJMvBOUrzKL9E'
+tiles: []
+walls: []
+playlist: null
+playlistSound: null
+journal: null
+journalEntryPage: null
+weather: ''
+flags:
+  world-explorer:
+    enabled: false
+    image: ''
+    color: '#000000'
+    position: behindDrawings
+    opacityGM: 0.7
+    opacityPlayer: 1
+    partialColor: ''
+    partialOpacityPlayer: 0.4
+    persistExploredAreas: false
+    revealRadius: 0
+    gridRevealRadius: 0
+    schemaVersion: 2.1.0
+  pf2e:
+    rulesBasedVision: null
+    hearingRange: null
+    environmentTypes: []
+    syncDarkness: default
+_stats:
+  coreVersion: '14.360'
+  systemId: pf2e
+  systemVersion: 8.0.3
+  createdTime: 1777449212201
+  modifiedTime: 1777449212202
+  lastModifiedBy: txZjek5EOiCBHPoz
+  exportSource: null
+  compendiumSource: null
+  duplicateSource: null
+navName: ''
+ownership:
+  default: 0
+  txZjek5EOiCBHPoz: 3
+active: false
+sort: 0
+_key: '!scenes!myO51NQeBbx5MK8u'
+templates: []
