@@ -1,5 +1,21 @@
 
 
+## [v1.1.2] - 2026-04-29
+### :sparkles: New Features
+- [`59874d6`](https://github.com/dyoung418/dannysmodule/commit/59874d68b0372126634f3da5645a66034d5f0e64) - add Relms Keep scenes and fix unpack script for Linux *(commit by [@dyoung418](https://github.com/dyoung418))*
+- [`98d5dd4`](https://github.com/dyoung418/dannysmodule/commit/98d5dd46408eaeb3406990099cd473d392431f3a) - added Relms Keep walls lights level features *(commit by [@dyoung418](https://github.com/dyoung418))*
+- [`dd39cd8`](https://github.com/dyoung418/dannysmodule/commit/dd39cd8a7188087610ec882e0adadbcd0867ea0d) - Added Warewagon scene, but levels aren't working yet. *(commit by [@dyoung418](https://github.com/dyoung418))*
+- [`0d808e2`](https://github.com/dyoung418/dannysmodule/commit/0d808e21fd703c8661a6fceac9ba18e472a9448d) - added some image files in prep for kingmaker final scenes with levels *(commit by [@dyoung418](https://github.com/dyoung418))*
+- [`3229107`](https://github.com/dyoung418/dannysmodule/commit/3229107843c4a4efc8a6aa6bc75a7d098e0d38f7) - added Xonthals Village as Town Trouble - roofs work well *(commit by [@dyoung418](https://github.com/dyoung418))*
+- [`3781206`](https://github.com/dyoung418/dannysmodule/commit/3781206f73dcdad7bb8e7235dc701d5791e7c6b9) - added Coynberry town. this time with roofs as tiles *(commit by [@dyoung418](https://github.com/dyoung418))*
+- [`8fcd566`](https://github.com/dyoung418/dannysmodule/commit/8fcd56668cd0f2828efa650f8ed29dd0c90690f0) - changed coynberry town to better roofs *(commit by [@dyoung418](https://github.com/dyoung418))*
+- [`35719a2`](https://github.com/dyoung418/dannysmodule/commit/35719a21486ba274bb405c1d474f5b577a0acf61) - added Yawning Portal - good start but no walls or lights yet *(commit by [@dyoung418](https://github.com/dyoung418))*
+
+### :bug: Bug Fixes
+- [`530a25b`](https://github.com/dyoung418/dannysmodule/commit/530a25bb66c6fbd251d089fd01ca7b6caf9737c8) - make build/unpack scripts platform-independent *(commit by [@dyoung418](https://github.com/dyoung418))*
+- [`673f271`](https://github.com/dyoung418/dannysmodule/commit/673f2717d5958e1b39ee09fb37aca8553c00b170) - deleted Warewagon scene *(commit by [@dyoung418](https://github.com/dyoung418))*
+
+
 ## [v1.1.1] - 2026-04-17
 ### :sparkles: New Features
 - [`9346e05`](https://github.com/dyoung418/dannysmodule/commit/9346e055df8613e10fd8b6c04d1790f521d81e4a) - added some stairways to Ocean Estate *(commit by [@dyoung418](https://github.com/dyoung418))*
@@ -116,3 +132,4 @@
 [v1.0.20]: https://github.com/dyoung418/dannysmodule/compare/v1.0.19...v1.0.20
 [v1.1.0]: https://github.com/dyoung418/dannysmodule/compare/v1.0.21...v1.1.0
 [v1.1.1]: https://github.com/dyoung418/dannysmodule/compare/v1.1.0...v1.1.1
+[v1.1.2]: https://github.com/dyoung418/dannysmodule/compare/v1.1.1...v1.1.2
