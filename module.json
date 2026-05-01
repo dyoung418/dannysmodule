@@ -48,6 +48,17 @@
       }
     },
     {
+      "name": "day-adventures-daggerheart",
+      "label": "DAY Adventures Daggerheart",
+      "path": "packs/day-adventures-daggerheart",
+      "type": "Adventure",
+      "system": "daggerheart",
+      "ownership": {
+        "PLAYER": "OBSERVER",
+        "ASSISTANT": "OWNER"
+      }
+    },
+    {
       "name": "day-character-pf2e",
       "label": "DAY Character Options PF2e",
       "path": "packs/day-character-pf2e",
@@ -205,6 +216,7 @@
           "packs": [
               "day-adventures-pf2e",
               "day-adventures-dnd5e",
+              "day-adventures-daggerheart",
               "day-character-pf2e",
               "day-character-dnd5e",
               "day-character-daggerheart",
