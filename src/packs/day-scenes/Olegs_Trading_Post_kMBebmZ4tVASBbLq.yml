@@ -4,7 +4,7 @@ _id: kMBebmZ4tVASBbLq
 navigation: false
 navOrder: 0
 navName: ''
-thumb: worlds/kingmaker/assets/scenes/thumb-mFxw63T1OANhYbrpifVPvA.webp
+thumb: worlds/kingmaker/assets/scenes/thumb-iKnSnS1gKOng3FxqQqB5sQ.webp
 width: 2912
 height: 1632
 padding: 0.25
@@ -90,8 +90,8 @@ _stats:
   coreVersion: '14.360'
   systemId: pf2e
   systemVersion: 8.0.3
-  createdTime: 1777266016600
-  modifiedTime: 1777266016600
+  createdTime: 1777449242887
+  modifiedTime: 1777449242887
   lastModifiedBy: txZjek5EOiCBHPoz
   exportSource: null
 active: false

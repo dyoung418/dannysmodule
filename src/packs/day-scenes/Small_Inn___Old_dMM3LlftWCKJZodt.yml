@@ -3,7 +3,7 @@ name: Small Inn - Old
 _id: dMM3LlftWCKJZodt
 navigation: false
 navName: ''
-thumb: worlds/kingmaker/assets/scenes/thumb-yI7Goz4TGQE4u3tqesOy6w.webp
+thumb: worlds/kingmaker/assets/scenes/thumb-EfGm8hJRETldJfQzedmMeQ.webp
 width: 1620
 height: 1620
 padding: 0.25
@@ -1358,8 +1358,8 @@ regions:
           coreVersion: '14.360'
           systemId: pf2e
           systemVersion: 8.0.3
-          createdTime: 1777266016945
-          modifiedTime: 1777266016945
+          createdTime: 1777449212146
+          modifiedTime: 1777449212146
           lastModifiedBy: txZjek5EOiCBHPoz
           compendiumSource: null
           duplicateSource: null
@@ -1425,8 +1425,8 @@ regions:
           coreVersion: '14.360'
           systemId: pf2e
           systemVersion: 8.0.3
-          createdTime: 1777266016945
-          modifiedTime: 1777266016945
+          createdTime: 1777449212147
+          modifiedTime: 1777449212147
           lastModifiedBy: txZjek5EOiCBHPoz
           compendiumSource: null
           duplicateSource: null
@@ -1500,8 +1500,8 @@ regions:
           coreVersion: '14.360'
           systemId: pf2e
           systemVersion: 8.0.3
-          createdTime: 1777266016946
-          modifiedTime: 1777266016946
+          createdTime: 1777449212147
+          modifiedTime: 1777449212147
           lastModifiedBy: txZjek5EOiCBHPoz
           compendiumSource: null
           duplicateSource: null
@@ -1520,8 +1520,8 @@ regions:
           coreVersion: '14.360'
           systemId: pf2e
           systemVersion: 8.0.3
-          createdTime: 1777266016946
-          modifiedTime: 1777266016946
+          createdTime: 1777449212147
+          modifiedTime: 1777449212147
           lastModifiedBy: txZjek5EOiCBHPoz
           compendiumSource: null
           duplicateSource: null
@@ -3337,8 +3337,8 @@ _stats:
   coreVersion: '14.360'
   systemId: pf2e
   systemVersion: 8.0.3
-  createdTime: 1777266016938
-  modifiedTime: 1777266016938
+  createdTime: 1777449212140
+  modifiedTime: 1777449212140
   lastModifiedBy: txZjek5EOiCBHPoz
   exportSource: null
   compendiumSource: null

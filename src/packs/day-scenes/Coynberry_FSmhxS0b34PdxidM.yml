@@ -30,10 +30,43 @@ levels:
       scaleY: 1
       rotation: 0
     visibility:
-      levels: []
+      levels:
+        - gLkwyzMlFl75mT5o
     sort: 0
     flags: {}
     _key: '!scenes.levels!FSmhxS0b34PdxidM.defaultLevel0000'
+  - name: Roofs
+    _id: gLkwyzMlFl75mT5o
+    elevation:
+      bottom: 20
+      top: 40
+    background:
+      color: '#999999'
+      src: modules/dannysmodule/assets/maps/coynberry%20roofs/all%20roofs.webp
+      tint: '#ffffff'
+      alphaThreshold: 0.75
+    foreground:
+      src: null
+      tint: '#ffffff'
+      alphaThreshold: 0.75
+    fog:
+      src: null
+      tint: '#ffffff'
+    textures:
+      anchorX: 0.5
+      anchorY: 0.5
+      offsetX: 0
+      offsetY: 0
+      fit: fill
+      scaleX: 1
+      scaleY: 1
+      rotation: 0
+    visibility:
+      levels:
+        - defaultLevel0000
+    sort: 0
+    flags: {}
+    _key: '!scenes.levels!FSmhxS0b34PdxidM.gLkwyzMlFl75mT5o'
 walls:
   - c:
       - 2464
@@ -11969,7 +12002,7 @@ walls:
     move: 20
     sound: 20
     dir: 0
-    ds: 0
+    ds: 1
     animation:
       type: swing
       texture: canvas/doors/small/Door_Wood_Red_J_1x1.webp
@@ -13098,19 +13131,19 @@ grid:
   distance: 5
   units: ft
 _id: FSmhxS0b34PdxidM
-navigation: true
+navigation: false
 navOrder: 0
-thumb: worlds/kingmaker/assets/scenes/thumb-lE7UJpFW36d7pCJcwj_OEA.webp
+thumb: worlds/kingmaker/assets/scenes/thumb-zmabsnwbtUlr91sTVr27lA.webp
 shiftX: 0
 shiftY: 0
 initial:
-  x: null
-  'y': null
-  scale: null
-initialLevel: null
+  x: 5741
+  'y': 4461
+  scale: 0.189
+initialLevel: defaultLevel0000
 tokenVision: true
 fog:
-  mode: 1
+  mode: 2
   colors:
     explored: null
     unexplored: null
@@ -13148,469 +13181,1188 @@ transition:
   duration: 1500
   activeOnly: false
 drawings: []
-tokens: []
+tokens:
+  - displayName: 30
+    displayBars: 20
+    flags:
+      monks-tokenbar:
+        include: default
+      healthEstimate:
+        dontMarkDead: false
+        hideHealthEstimate: false
+        hideName: false
+      pf2e:
+        linkToActorSize: true
+        autoscale: false
+      monks-combat-marker:
+        token-highlight-scale: 1.5
+        token-combat-animation: ''
+        token-highlight: ''
+      monks-bloodsplats:
+        bloodsplat-colour: ''
+        bloodsplat-type: ''
+      tagger:
+        tags:
+          - riven-ranger
+      core: {}
+      wall-height:
+        tokenHeight: 0
+    height: 1
+    width: 1
+    actorLink: true
+    sight:
+      enabled: true
+      range: null
+      angle: 360
+      visionMode: basic
+      color: null
+      attenuation: 0.1
+      brightness: 0
+      saturation: 0
+      contrast: 0
+    name: Riven
+    texture:
+      src: worlds/kingmaker/PCs/riven-portrait-1-nobg.png
+      scaleX: 1.1
+      scaleY: 1.1
+      tint: '#ffffff'
+      anchorX: 0.5
+      anchorY: 0.5
+      fit: contain
+      alphaThreshold: 0.75
+    lockRotation: false
+    rotation: 0
+    alpha: 1
+    disposition: -1
+    bar1:
+      attribute: attributes.hp
+    bar2:
+      attribute: null
+    light:
+      alpha: 0.5
+      angle: 360
+      bright: 0
+      color: null
+      coloration: 1
+      dim: 0
+      attenuation: 0.5
+      luminosity: 0.5
+      saturation: 0
+      contrast: 0
+      shadows: 0
+      animation:
+        type: null
+        speed: 5
+        intensity: 5
+        reverse: false
+      darkness:
+        min: 0
+        max: 1
+      negative: false
+      priority: 0
+    detectionModes:
+      basicSight:
+        range: null
+        enabled: true
+    occludable:
+      radius: 0
+    ring:
+      enabled: true
+      colors:
+        ring: null
+        background: null
+      effects: 1
+      subject:
+        scale: 1.1
+        texture: null
+    turnMarker:
+      mode: 1
+      animation: pulse
+      src: null
+      disposition: true
+    movementAction: null
+    depth: 1
+    actorId: BXJA0aPg162BfOxh
+    hidden: false
+    sort: 0
+    shape: 4
+    level: defaultLevel0000
+    _id: YvVQwm1PtPJOUGiB
+    delta: null
+    x: 7000
+    'y': 4800
+    elevation: 0
+    locked: false
+    _movementHistory: []
+    _regions: []
+    _key: '!scenes.tokens!FSmhxS0b34PdxidM.YvVQwm1PtPJOUGiB'
+  - displayName: 30
+    displayBars: 40
+    flags:
+      monks-tokenbar:
+        include: default
+      healthEstimate:
+        dontMarkDead: false
+        hideHealthEstimate: false
+        hideName: false
+      pf2e:
+        linkToActorSize: true
+        autoscale: false
+      monks-combat-marker:
+        token-highlight-scale: 1.5
+        token-combat-animation: ''
+        token-highlight: ''
+      monks-bloodsplats:
+        bloodsplat-colour: ''
+        bloodsplat-type: ''
+      core: {}
+      wall-height:
+        tokenHeight: 0
+      tagger: {}
+    sight:
+      enabled: true
+      color: null
+      range: 0
+      angle: 360
+      visionMode: basic
+      attenuation: 0.1
+      brightness: 0
+      saturation: 0
+      contrast: 0
+    detectionModes: {}
+    bar2:
+      attribute: resources.heroPoints
+    height: 1
+    width: 1
+    actorLink: true
+    name: Milo Tinkerfoot
+    texture:
+      src: worlds/kingmaker/PCs/bramble-character-p.webp
+      scaleX: 1.1
+      scaleY: 1.1
+      tint: '#ffffff'
+      anchorX: 0.5
+      anchorY: 0.5
+      fit: contain
+      alphaThreshold: 0.75
+    lockRotation: false
+    rotation: 0
+    alpha: 1
+    disposition: -1
+    bar1:
+      attribute: attributes.hp
+    light:
+      alpha: 0.5
+      angle: 360
+      bright: 0
+      coloration: 1
+      dim: 0
+      attenuation: 0.5
+      luminosity: 0.5
+      saturation: 0
+      contrast: 0
+      shadows: 0
+      animation:
+        type: null
+        speed: 5
+        intensity: 5
+        reverse: false
+      darkness:
+        min: 0
+        max: 1
+      color: null
+      negative: false
+      priority: 0
+    occludable:
+      radius: 0
+    ring:
+      enabled: true
+      colors:
+        ring: null
+        background: null
+      effects: 1
+      subject:
+        scale: 1.1
+        texture: null
+    turnMarker:
+      mode: 1
+      animation: pulse
+      src: null
+      disposition: true
+    movementAction: null
+    depth: 1
+    actorId: gFxipV1xecFvG2ry
+    hidden: false
+    sort: 1
+    shape: 4
+    level: defaultLevel0000
+    _id: d8Bktmj8Gm0odZMC
+    delta: null
+    x: 6900
+    'y': 4600
+    elevation: 0
+    locked: false
+    _movementHistory: []
+    _regions: []
+    _key: '!scenes.tokens!FSmhxS0b34PdxidM.d8Bktmj8Gm0odZMC'
 notes: []
 sounds: []
-regions: []
-tiles:
-  - texture:
-      src: modules/dannysmodule/assets/maps/coynberry%20roofs/ConyberryRooftop1.png
-      anchorX: 0.5
-      anchorY: 0.5
-      scaleX: 1
-      scaleY: 1
-      tint: '#ffffff'
-      fit: fill
-      alphaThreshold: 0.75
-    x: 2581
-    'y': 3115
-    width: 468
-    height: 426
-    sort: 0
-    elevation: 20
+regions:
+  - color: '#cc282b'
+    elevation:
+      bottom: 20
+      top: 40
     levels:
       - defaultLevel0000
-    alpha: 1
-    restrictions:
-      light: false
-      weather: true
-    occlusion:
-      modes:
-        - 1
-      alpha: 0
-    video:
-      loop: true
-      autoplay: true
-      volume: 0
-    flags: {}
-    _id: R0ys3UVq70dzLbBP
-    rotation: 328
+      - gLkwyzMlFl75mT5o
+    restriction:
+      enabled: false
+      type: move
+      priority: 0
+    attachment:
+      token: null
+    visibility: 4
+    highlightMode: shapes
+    displayMeasurements: false
     hidden: false
+    name: roof r2 c3
+    _id: mg0p1nbJqnT1bHUZ
+    shapes:
+      - type: polygon
+        points:
+          - 5370.588187871151
+          - 3054.005747342204
+          - 5364.238223548888
+          - 3750.914331710528
+          - 5402.338009482464
+          - 3754.0893138716597
+          - 5394.400554079635
+          - 3957.288172184064
+          - 5437.262813254909
+          - 3955.700681103498
+          - 5438.850304335474
+          - 4114.449789160064
+          - 5826.198127993495
+          - 4119.212262401761
+          - 5824.610636912929
+          - 3962.050645425761
+          - 6126.233942220404
+          - 3962.050645425761
+          - 6130.996415462101
+          - 3755.676804952225
+          - 6245.295773262829
+          - 3754.0893138716597
+          - 6242.120791101697
+          - 3236.5672216072544
+          - 5892.872753377253
+          - 3238.1547126878204
+          - 5900
+          - 3050
+        hole: false
+        origin: null
+    behaviors:
+      - name: Define Surface
+        type: defineSurface
+        _id: 304MBfipprUBXlBU
+        system:
+          placement: bottom
+          light: true
+          move: true
+          sight: true
+          sound: true
+          occlusion: true
+          exposure: true
+        disabled: false
+        flags: {}
+        _stats:
+          coreVersion: '14.360'
+          systemId: pf2e
+          systemVersion: 8.0.3
+          createdTime: 1777449269354
+          modifiedTime: 1777449269354
+          lastModifiedBy: txZjek5EOiCBHPoz
+          compendiumSource: null
+          duplicateSource: null
+          exportSource: null
+        _key: >-
+          !scenes.regions.behaviors!FSmhxS0b34PdxidM.mg0p1nbJqnT1bHUZ.304MBfipprUBXlBU
     locked: false
-    name: ''
-    _key: '!scenes.tiles!FSmhxS0b34PdxidM.R0ys3UVq70dzLbBP'
-  - texture:
-      src: modules/dannysmodule/assets/maps/coynberry%20roofs/ConyberryRooftop2.png
-      anchorX: 0.5
-      anchorY: 0.5
-      scaleX: 1
-      scaleY: 1
-      tint: '#ffffff'
-      fit: fill
-      alphaThreshold: 0.75
-    x: 5808
-    'y': 3587
-    width: 909
-    height: 1098
-    sort: 1
-    elevation: 20
+    flags:
+      pf2e:
+        areaShape: null
+    _shapeConstraints: null
+    ownership:
+      default: 0
+    _key: '!scenes.regions!FSmhxS0b34PdxidM.mg0p1nbJqnT1bHUZ'
+  - color: '#cc6c28'
+    elevation:
+      bottom: 20
+      top: 40
     levels:
       - defaultLevel0000
-    alpha: 1
-    restrictions:
-      light: false
-      weather: true
-    occlusion:
-      modes:
-        - 1
-      alpha: 0
-    video:
-      loop: true
-      autoplay: true
-      volume: 0
-    flags: {}
-    _id: apLIOfxza16j3cQD
-    rotation: 0
+      - gLkwyzMlFl75mT5o
+    restriction:
+      enabled: false
+      type: move
+      priority: 0
+    attachment:
+      token: null
+    visibility: 4
+    highlightMode: shapes
+    displayMeasurements: false
     hidden: false
+    name: roof r2 c2
+    _id: 9OslmT0Ni9yGoDoU
+    shapes:
+      - type: rectangle
+        x: 4147.003706445186
+        'y': 2786.0561276869125
+        width: 890
+        height: 862
+        hole: false
+        anchorX: 0
+        anchorY: 0
+        rotation: 0
+        gridBased: false
+    behaviors:
+      - name: Define Surface
+        type: defineSurface
+        _id: yFTO0FRnnMz3W3rk
+        system:
+          placement: bottom
+          light: true
+          move: true
+          sight: true
+          sound: true
+          occlusion: true
+          exposure: true
+        disabled: false
+        flags: {}
+        _stats:
+          coreVersion: '14.360'
+          systemId: pf2e
+          systemVersion: 8.0.3
+          createdTime: 1777449269354
+          modifiedTime: 1777449269354
+          lastModifiedBy: txZjek5EOiCBHPoz
+          compendiumSource: null
+          duplicateSource: null
+          exportSource: null
+        _key: >-
+          !scenes.regions.behaviors!FSmhxS0b34PdxidM.9OslmT0Ni9yGoDoU.yFTO0FRnnMz3W3rk
     locked: false
-    _key: '!scenes.tiles!FSmhxS0b34PdxidM.apLIOfxza16j3cQD'
-  - texture:
-      src: modules/dannysmodule/assets/maps/coynberry%20roofs/ConyberryRooftop3.png
-      anchorX: 0.5
-      anchorY: 0.5
-      scaleX: 1
-      scaleY: 1
-      tint: '#ffffff'
-      fit: fill
-      alphaThreshold: 0.75
-    x: 6932
-    'y': 3516
-    width: 1261
-    height: 1146
-    sort: 2
-    elevation: 20
+    flags:
+      pf2e:
+        areaShape: null
+    _shapeConstraints: null
+    ownership:
+      default: 0
+    _key: '!scenes.regions!FSmhxS0b34PdxidM.9OslmT0Ni9yGoDoU'
+  - color: '#e1b28e'
+    elevation:
+      bottom: 20
+      top: 40
     levels:
       - defaultLevel0000
-    alpha: 1
-    restrictions:
-      light: false
-      weather: true
-    occlusion:
-      modes:
-        - 1
-      alpha: 0
-    video:
-      loop: true
-      autoplay: true
-      volume: 0
-    flags: {}
-    _id: e8rZwrGuGn9Q7sIE
-    rotation: 0
+      - gLkwyzMlFl75mT5o
+    restriction:
+      enabled: false
+      type: move
+      priority: 0
+    attachment:
+      token: null
+    visibility: 4
+    highlightMode: shapes
+    displayMeasurements: false
     hidden: false
+    name: roof r1 c1
+    _id: 9GceQDM7VmUevqh2
+    shapes:
+      - type: polygon
+        points:
+          - 3680.093590278635
+          - 1559.1236314127445
+          - 3680.093590278635
+          - 2156.6160453950815
+          - 4095.380396828735
+          - 2166.081271755198
+          - 4198.314733494999
+          - 2251.268308996244
+          - 4320.179522881495
+          - 2299.7775940918395
+          - 4466.890531463297
+          - 2321.074353402101
+          - 4623.066766405214
+          - 2297.4112875018104
+          - 4754.396782151827
+          - 2235.887316161055
+          - 4811.188140312524
+          - 2171.9970382302704
+          - 4915.305630273803
+          - 2171.9970382302704
+          - 4908.206710503716
+          - 1560.306784707759
+          - 4836.03435950783
+          - 1560.306784707759
+        hole: false
+        origin: null
+    behaviors:
+      - name: Define Surface
+        type: defineSurface
+        _id: m7xOst1246ancdnU
+        system:
+          placement: bottom
+          light: true
+          move: true
+          sight: true
+          sound: true
+          occlusion: true
+          exposure: true
+        disabled: false
+        flags: {}
+        _stats:
+          coreVersion: '14.360'
+          systemId: pf2e
+          systemVersion: 8.0.3
+          createdTime: 1777449269355
+          modifiedTime: 1777449269355
+          lastModifiedBy: txZjek5EOiCBHPoz
+          compendiumSource: null
+          duplicateSource: null
+          exportSource: null
+        _key: >-
+          !scenes.regions.behaviors!FSmhxS0b34PdxidM.9GceQDM7VmUevqh2.m7xOst1246ancdnU
     locked: false
-    _key: '!scenes.tiles!FSmhxS0b34PdxidM.e8rZwrGuGn9Q7sIE'
-  - texture:
-      src: modules/dannysmodule/assets/maps/coynberry%20roofs/ConyberryRooftop4.png
-      anchorX: 0.5
-      anchorY: 0.5
-      scaleX: 1
-      scaleY: 1
-      tint: '#ffffff'
-      fit: fill
-      alphaThreshold: 0.75
-    x: 5700
-    'y': 6100
-    width: 877
-    height: 843
-    sort: 3
-    elevation: 20
+    flags:
+      pf2e:
+        areaShape: null
+    _shapeConstraints: null
+    ownership:
+      default: 0
+    _key: '!scenes.regions!FSmhxS0b34PdxidM.9GceQDM7VmUevqh2'
+  - color: '#28b9cc'
+    elevation:
+      bottom: 20
+      top: 40
     levels:
       - defaultLevel0000
-    alpha: 1
-    restrictions:
-      light: false
-      weather: true
-    occlusion:
-      modes:
-        - 1
-      alpha: 0
-    video:
-      loop: true
-      autoplay: true
-      volume: 0
-    flags: {}
-    _id: 8LJuyu21PP5NmjjK
-    rotation: 0
+      - gLkwyzMlFl75mT5o
+    restriction:
+      enabled: false
+      type: move
+      priority: 0
+    attachment:
+      token: null
+    visibility: 4
+    highlightMode: shapes
+    displayMeasurements: false
     hidden: false
+    name: roof r1 c2
+    _id: 4NaToBN1wpEqYxI2
+    shapes:
+      - type: polygon
+        points:
+          - 7777.824095102227
+          - 1649.217437989621
+          - 9303.975459528061
+          - 1655.2655939913084
+          - 9318.087823532
+          - 2195.5675301420665
+          - 8693.111703357616
+          - 2187.5033221398166
+          - 8701.175911359865
+          - 2372.980106191569
+          - 7783.872251103914
+          - 2360.883794188194
+        hole: false
+        origin: null
+    behaviors:
+      - name: Define Surface
+        type: defineSurface
+        _id: 7VZir2TNzCKcoZxJ
+        system:
+          placement: bottom
+          light: true
+          move: true
+          sight: true
+          sound: true
+          occlusion: true
+          exposure: true
+        disabled: false
+        flags: {}
+        _stats:
+          coreVersion: '14.360'
+          systemId: pf2e
+          systemVersion: 8.0.3
+          createdTime: 1777449269355
+          modifiedTime: 1777449269355
+          lastModifiedBy: txZjek5EOiCBHPoz
+          compendiumSource: null
+          duplicateSource: null
+          exportSource: null
+        _key: >-
+          !scenes.regions.behaviors!FSmhxS0b34PdxidM.4NaToBN1wpEqYxI2.7VZir2TNzCKcoZxJ
     locked: false
-    _key: '!scenes.tiles!FSmhxS0b34PdxidM.8LJuyu21PP5NmjjK'
-  - texture:
-      src: modules/dannysmodule/assets/maps/coynberry%20roofs/ConyberryRooftop5.png
-      anchorX: 0.5
-      anchorY: 0.5
-      scaleX: 1
-      scaleY: 1
-      tint: '#ffffff'
-      fit: fill
-      alphaThreshold: 0.75
-    x: 9173
-    'y': 4932
-    width: 1150
-    height: 1383
-    sort: 4
-    elevation: 20
+    flags:
+      pf2e:
+        areaShape: null
+    _shapeConstraints: null
+    ownership:
+      default: 0
+    _key: '!scenes.regions!FSmhxS0b34PdxidM.4NaToBN1wpEqYxI2'
+  - color: '#67cc28'
+    elevation:
+      bottom: 20
+      top: 40
     levels:
       - defaultLevel0000
-    alpha: 1
-    restrictions:
-      light: false
-      weather: true
-    occlusion:
-      modes:
-        - 1
-      alpha: 0
-    video:
-      loop: true
-      autoplay: true
-      volume: 0
-    flags: {}
-    _id: DCjPaIT3nrtWhSUT
-    rotation: 0
+      - gLkwyzMlFl75mT5o
+    restriction:
+      enabled: false
+      type: move
+      priority: 0
+    attachment:
+      token: null
+    visibility: 4
+    highlightMode: shapes
+    displayMeasurements: false
     hidden: false
+    name: roof r2 c1
+    _id: 8cp4nBmw3JQaV74r
+    shapes:
+      - type: polygon
+        points:
+          - 2256.748295152198
+          - 3059.556461602198
+          - 2486.982906947662
+          - 3443.743133092219
+          - 2914.1651987127398
+          - 3201.0259218620613
+          - 2692.252319873738
+          - 2812.678383893809
+        hole: false
+        origin: null
+    behaviors:
+      - name: Define Surface
+        type: defineSurface
+        _id: 6bKam2Mn441LZbkW
+        system:
+          placement: bottom
+          light: true
+          move: true
+          sight: true
+          sound: true
+          occlusion: true
+          exposure: true
+        disabled: false
+        flags: {}
+        _stats:
+          coreVersion: '14.360'
+          systemId: pf2e
+          systemVersion: 8.0.3
+          createdTime: 1777449269355
+          modifiedTime: 1777449269355
+          lastModifiedBy: txZjek5EOiCBHPoz
+          compendiumSource: null
+          duplicateSource: null
+          exportSource: null
+        _key: >-
+          !scenes.regions.behaviors!FSmhxS0b34PdxidM.8cp4nBmw3JQaV74r.6bKam2Mn441LZbkW
     locked: false
-    _key: '!scenes.tiles!FSmhxS0b34PdxidM.DCjPaIT3nrtWhSUT'
-  - texture:
-      src: modules/dannysmodule/assets/maps/coynberry%20roofs/ConyberryRooftop6.png
-      anchorX: 0.5
-      anchorY: 0.5
-      scaleX: 1
-      scaleY: 1
-      tint: '#ffffff'
-      fit: fill
-      alphaThreshold: 0.75
-    x: 4463
-    'y': 5793
-    width: 876
-    height: 850
-    sort: 5
-    elevation: 20
+    flags:
+      pf2e:
+        areaShape: null
+    _shapeConstraints: null
+    ownership:
+      default: 0
+    _key: '!scenes.regions!FSmhxS0b34PdxidM.8cp4nBmw3JQaV74r'
+  - color: '#28cc74'
+    elevation:
+      bottom: 20
+      top: 40
     levels:
       - defaultLevel0000
-    alpha: 1
-    restrictions:
-      light: false
-      weather: true
-    occlusion:
-      modes:
-        - 1
-      alpha: 0
-    video:
-      loop: true
-      autoplay: true
-      volume: 0
-    flags: {}
-    _id: XDkgs87NpdvD9vbZ
-    rotation: 0
+      - gLkwyzMlFl75mT5o
+    restriction:
+      enabled: false
+      type: move
+      priority: 0
+    attachment:
+      token: null
+    visibility: 4
+    highlightMode: shapes
+    displayMeasurements: false
     hidden: false
+    name: roof r2 c4
+    _id: weTs9Cm1rwtE1gi7
+    shapes:
+      - type: polygon
+        points:
+          - 6690.901483432943
+          - 2968.8587327376063
+          - 6695.827949973804
+          - 3261.1624141619986
+          - 6561.171197856948
+          - 3297.2898354616427
+          - 6444.578156389915
+          - 3382.6819221698925
+          - 6360.828225195286
+          - 3486.137719527964
+          - 6316.490026327541
+          - 3637.2160267810204
+          - 6318.132181841162
+          - 3757.093379275294
+          - 6350.975292113565
+          - 3857.264865606125
+          - 6433.083067794574
+          - 3973.8579070731585
+          - 6554.602575802468
+          - 4047.7549051860665
+          - 6689.2593279193225
+          - 4087.1666375129507
+          - 6828.842546577038
+          - 4072.387237890369
+          - 6947.077743557691
+          - 4013.2696394000423
+          - 7042.322763347662
+          - 3921.308930637312
+          - 7098.156050810749
+          - 3822.7795998201013
+          - 7127.7148500559115
+          - 3725.892424516511
+          - 7139.209938651253
+          - 3689.7650032168667
+          - 7539.895883974577
+          - 3693.049314244107
+          - 7541.538039488198
+          - 3065.7459080411973
+          - 7347.763688881016
+          - 3065.7459080411973
+          - 7339.552911312915
+          - 2959.0057996558853
+        hole: false
+        origin: null
+    behaviors:
+      - name: Define Surface
+        type: defineSurface
+        _id: YelKqKUmxvdHcQWM
+        system:
+          placement: bottom
+          light: true
+          move: true
+          sight: true
+          sound: true
+          occlusion: true
+          exposure: true
+        disabled: false
+        flags: {}
+        _stats:
+          coreVersion: '14.360'
+          systemId: pf2e
+          systemVersion: 8.0.3
+          createdTime: 1777449269355
+          modifiedTime: 1777449269355
+          lastModifiedBy: txZjek5EOiCBHPoz
+          compendiumSource: null
+          duplicateSource: null
+          exportSource: null
+        _key: >-
+          !scenes.regions.behaviors!FSmhxS0b34PdxidM.weTs9Cm1rwtE1gi7.YelKqKUmxvdHcQWM
     locked: false
-    _key: '!scenes.tiles!FSmhxS0b34PdxidM.XDkgs87NpdvD9vbZ'
-  - texture:
-      src: modules/dannysmodule/assets/maps/coynberry%20roofs/RooftopNE.png
-      anchorX: 0.5
-      anchorY: 0.5
-      scaleX: 1
-      scaleY: 1
-      tint: '#ffffff'
-      fit: fill
-      alphaThreshold: 0.75
-    x: 8120
-    'y': 3451
-    width: 929
-    height: 951
-    sort: 7
-    elevation: 20
+    flags:
+      pf2e:
+        areaShape: null
+    _shapeConstraints: null
+    ownership:
+      default: 0
+    _key: '!scenes.regions!FSmhxS0b34PdxidM.weTs9Cm1rwtE1gi7'
+  - color: '#5228cc'
+    elevation:
+      bottom: 20
+      top: 40
     levels:
       - defaultLevel0000
-    alpha: 1
-    restrictions:
-      light: false
-      weather: true
-    occlusion:
-      modes:
-        - 1
-      alpha: 0
-    video:
-      loop: true
-      autoplay: true
-      volume: 0
-    flags: {}
-    _id: 15q4U62oaZVK0T95
-    rotation: 0
+      - gLkwyzMlFl75mT5o
+    restriction:
+      enabled: false
+      type: move
+      priority: 0
+    attachment:
+      token: null
+    visibility: 4
+    highlightMode: shapes
+    displayMeasurements: false
     hidden: false
+    name: roof r2 c5
+    _id: wFU1ddC6ziGD5V7F
+    shapes:
+      - type: polygon
+        points:
+          - 7735.4481262745485
+          - 3015.8680310545087
+          - 7738.695717909002
+          - 3904.0843430773857
+          - 8237.201033797526
+          - 3905.7081388946126
+          - 8240.44862543198
+          - 3718.9716199135687
+          - 8552.217422339461
+          - 3546.849263287563
+          - 8527.860485081064
+          - 3499.7591845879956
+          - 8527.860485081064
+          - 3010.996643602829
+        hole: false
+        origin: null
+    behaviors:
+      - name: Define Surface
+        type: defineSurface
+        _id: TgogsfCkRANcgsfC
+        system:
+          placement: bottom
+          light: true
+          move: true
+          sight: true
+          sound: true
+          occlusion: true
+          exposure: true
+        disabled: false
+        flags: {}
+        _stats:
+          coreVersion: '14.360'
+          systemId: pf2e
+          systemVersion: 8.0.3
+          createdTime: 1777449269355
+          modifiedTime: 1777449269355
+          lastModifiedBy: txZjek5EOiCBHPoz
+          compendiumSource: null
+          duplicateSource: null
+          exportSource: null
+        _key: >-
+          !scenes.regions.behaviors!FSmhxS0b34PdxidM.wFU1ddC6ziGD5V7F.TgogsfCkRANcgsfC
     locked: false
-    _key: '!scenes.tiles!FSmhxS0b34PdxidM.15q4U62oaZVK0T95'
-  - texture:
-      src: modules/dannysmodule/assets/maps/coynberry%20roofs/RooftopShrineNW.png
-      anchorX: 0.5
-      anchorY: 0.5
-      scaleX: 1
-      scaleY: 1
-      tint: '#ffffff'
-      fit: fill
-      alphaThreshold: 0.75
-    x: 4300
-    'y': 1941
-    width: 1250
-    height: 780
-    sort: 8
-    elevation: 20
+    flags:
+      pf2e:
+        areaShape: null
+    _shapeConstraints: null
+    ownership:
+      default: 0
+    _key: '!scenes.regions!FSmhxS0b34PdxidM.wFU1ddC6ziGD5V7F'
+  - name: roof r3 c1
+    _id: HIGsbdpQ42Vz8PwN
+    color: '#5f28cc'
+    shapes:
+      - type: polygon
+        points:
+          - 3487.294534069031
+          - 4052.5753787647363
+          - 3488.839104218656
+          - 5073.536247666623
+          - 4298.193862621967
+          - 5087.437379013245
+          - 4290.471011873844
+          - 4534.4812654476245
+          - 4329.08526561446
+          - 4534.4812654476245
+          - 4339.897256661832
+          - 4077.2885011587305
+          - 4304.372143220466
+          - 4075.743931009106
+          - 4299.738432771592
+          - 4054.119948914361
+        hole: false
+        origin: null
+    elevation:
+      bottom: 20
+      top: 40
     levels:
       - defaultLevel0000
-    alpha: 1
-    restrictions:
-      light: false
-      weather: true
-    occlusion:
-      modes:
-        - 1
-      alpha: 0
-    video:
-      loop: true
-      autoplay: true
-      volume: 0
-    flags: {}
-    _id: qw2P8KB3GbcbZTlW
-    rotation: 0
+      - gLkwyzMlFl75mT5o
+    restriction:
+      enabled: false
+      type: move
+      priority: 0
+    attachment:
+      token: null
+    behaviors:
+      - name: Define Surface
+        type: defineSurface
+        _id: 1MLCOcSMc1Q7GThi
+        system:
+          placement: bottom
+          light: true
+          move: true
+          sight: true
+          sound: true
+          occlusion: true
+          exposure: true
+        disabled: false
+        flags: {}
+        _stats:
+          coreVersion: '14.360'
+          systemId: pf2e
+          systemVersion: 8.0.3
+          createdTime: 1777449269356
+          modifiedTime: 1777449269356
+          lastModifiedBy: txZjek5EOiCBHPoz
+          compendiumSource: null
+          duplicateSource: null
+          exportSource: null
+        _key: >-
+          !scenes.regions.behaviors!FSmhxS0b34PdxidM.HIGsbdpQ42Vz8PwN.1MLCOcSMc1Q7GThi
+    visibility: 4
+    highlightMode: shapes
+    displayMeasurements: false
     hidden: false
     locked: false
-    _key: '!scenes.tiles!FSmhxS0b34PdxidM.qw2P8KB3GbcbZTlW'
-  - texture:
-      src: modules/dannysmodule/assets/maps/coynberry%20roofs/RooftopSouth.png
-      anchorX: 0.5
-      anchorY: 0.5
-      scaleX: 1
-      scaleY: 1
-      tint: '#ffffff'
-      fit: fill
-      alphaThreshold: 0.75
-    x: 6748
-    'y': 5856
-    width: 719
-    height: 878
-    sort: 9
-    elevation: 20
+    flags:
+      pf2e:
+        areaShape: null
+    _shapeConstraints: null
+    ownership:
+      default: 0
+    _key: '!scenes.regions!FSmhxS0b34PdxidM.HIGsbdpQ42Vz8PwN'
+  - color: '#b228cc'
+    elevation:
+      bottom: 20
+      top: 40
     levels:
       - defaultLevel0000
-    alpha: 1
-    restrictions:
-      light: false
-      weather: true
-    occlusion:
-      modes:
-        - 1
-      alpha: 0
-    video:
-      loop: true
-      autoplay: true
-      volume: 0
-    flags: {}
-    _id: 5kCqnLrr23vnXYFY
-    rotation: 0
+      - gLkwyzMlFl75mT5o
+    restriction:
+      enabled: false
+      type: move
+      priority: 0
+    attachment:
+      token: null
+    visibility: 4
+    highlightMode: shapes
+    displayMeasurements: false
     hidden: false
+    name: roof r3 c2
+    _id: Xq5qPyBEXXUhyV1m
+    shapes:
+      - type: polygon
+        points:
+          - 8609.719201510767
+          - 4240.232514965027
+          - 8604.294225954964
+          - 5609.134680212368
+          - 9503.03184303281
+          - 5621.792956509238
+          - 9503.03184303281
+          - 5533.185022431141
+          - 9748.964068229161
+          - 5533.185022431141
+          - 9743.53909267336
+          - 4936.437711292934
+          - 9618.764654889916
+          - 4941.862686848736
+          - 9616.956329704648
+          - 4582.005974980545
+          - 9512.073468959146
+          - 4583.814300165813
+          - 9510.265143773879
+          - 4245.657490520829
+        hole: false
+        origin: null
+    behaviors:
+      - name: Define Surface
+        type: defineSurface
+        _id: SjoiYE0wWyHxHwjE
+        system:
+          placement: bottom
+          light: true
+          move: true
+          sight: true
+          sound: true
+          occlusion: true
+          exposure: true
+        disabled: false
+        flags: {}
+        _stats:
+          coreVersion: '14.360'
+          systemId: pf2e
+          systemVersion: 8.0.3
+          createdTime: 1777449269356
+          modifiedTime: 1777449269356
+          lastModifiedBy: txZjek5EOiCBHPoz
+          compendiumSource: null
+          duplicateSource: null
+          exportSource: null
+        _key: >-
+          !scenes.regions.behaviors!FSmhxS0b34PdxidM.Xq5qPyBEXXUhyV1m.SjoiYE0wWyHxHwjE
     locked: false
-    _key: '!scenes.tiles!FSmhxS0b34PdxidM.5kCqnLrr23vnXYFY'
-  - texture:
-      src: modules/dannysmodule/assets/maps/coynberry%20roofs/RooftopStablesNE.png
-      anchorX: 0.5
-      anchorY: 0.5
-      scaleX: 1
-      scaleY: 1
-      tint: '#ffffff'
-      fit: fill
-      alphaThreshold: 0.75
-    x: 8549
-    'y': 2015
-    width: 1626
-    height: 777
-    sort: 10
-    elevation: 20
+    flags:
+      pf2e:
+        areaShape: null
+    _shapeConstraints: null
+    ownership:
+      default: 0
+    _key: '!scenes.regions!FSmhxS0b34PdxidM.Xq5qPyBEXXUhyV1m'
+  - color: '#cc5428'
+    elevation:
+      bottom: 20
+      top: 40
     levels:
       - defaultLevel0000
-    alpha: 1
-    restrictions:
-      light: false
-      weather: true
-    occlusion:
-      modes:
-        - 1
-      alpha: 0
-    video:
-      loop: true
-      autoplay: true
-      volume: 0
-    flags: {}
-    _id: YszNwCnE3gOAtKQr
-    rotation: 0
+      - gLkwyzMlFl75mT5o
+    restriction:
+      enabled: false
+      type: move
+      priority: 0
+    attachment:
+      token: null
+    visibility: 4
+    highlightMode: shapes
+    displayMeasurements: false
     hidden: false
+    name: roof r4 c1
+    _id: Y4LU2WyyKoT4MXED
+    shapes:
+      - type: rectangle
+        x: 4018.252261647456
+        'y': 5370.995937886866
+        width: 869
+        height: 835
+        hole: false
+        anchorX: 0
+        anchorY: 0
+        rotation: 0
+        gridBased: false
+    behaviors:
+      - name: Define Surface
+        type: defineSurface
+        _id: cETVPuHqu2wEgHYB
+        system:
+          placement: bottom
+          light: true
+          move: true
+          sight: true
+          sound: true
+          occlusion: true
+          exposure: true
+        disabled: false
+        flags: {}
+        _stats:
+          coreVersion: '14.360'
+          systemId: pf2e
+          systemVersion: 8.0.3
+          createdTime: 1777449269356
+          modifiedTime: 1777449269356
+          lastModifiedBy: txZjek5EOiCBHPoz
+          compendiumSource: null
+          duplicateSource: null
+          exportSource: null
+        _key: >-
+          !scenes.regions.behaviors!FSmhxS0b34PdxidM.Y4LU2WyyKoT4MXED.cETVPuHqu2wEgHYB
     locked: false
-    _key: '!scenes.tiles!FSmhxS0b34PdxidM.YszNwCnE3gOAtKQr'
-  - texture:
-      src: modules/dannysmodule/assets/maps/coynberry%20roofs/RooftopWest.png
-      anchorX: 0.5
-      anchorY: 0.5
-      scaleX: 1
-      scaleY: 1
-      tint: '#ffffff'
-      fit: fill
-      alphaThreshold: 0.75
-    x: 4524
-    'y': 3221
-    width: 881
-    height: 1100
-    sort: 11
-    elevation: 20
+    flags:
+      pf2e:
+        areaShape: null
+    _shapeConstraints: null
+    ownership:
+      default: 0
+    _key: '!scenes.regions!FSmhxS0b34PdxidM.Y4LU2WyyKoT4MXED'
+  - color: '#5ccc28'
+    elevation:
+      bottom: 20
+      top: 40
     levels:
       - defaultLevel0000
-    alpha: 1
-    restrictions:
-      light: false
-      weather: true
-    occlusion:
-      modes:
-        - 1
-      alpha: 0
-    video:
-      loop: true
-      autoplay: true
-      volume: 0
-    flags: {}
-    _id: otryAShvpgXeu52M
-    rotation: 90
+      - gLkwyzMlFl75mT5o
+    restriction:
+      enabled: false
+      type: move
+      priority: 0
+    attachment:
+      token: null
+    visibility: 4
+    highlightMode: shapes
+    displayMeasurements: false
     hidden: false
+    name: roof r4 c2
+    _id: 3AHeJANilqtCJGZQ
+    shapes:
+      - type: polygon
+        points:
+          - 5246.858302956517
+          - 5663.679961078314
+          - 5246.858302956517
+          - 6503.9073505875485
+          - 5971.42686152116
+          - 6507.309080909448
+          - 5969.72599636021
+          - 6112.708363569079
+          - 6122.803860845699
+          - 6114.409228730029
+          - 6119.402130523798
+          - 5667.0816914002135
+        hole: false
+        origin: null
+    behaviors:
+      - name: Define Surface
+        type: defineSurface
+        _id: 6WikBCGGs1ZUhC0z
+        system:
+          placement: bottom
+          light: true
+          move: true
+          sight: true
+          sound: true
+          occlusion: true
+          exposure: true
+        disabled: false
+        flags: {}
+        _stats:
+          coreVersion: '14.360'
+          systemId: pf2e
+          systemVersion: 8.0.3
+          createdTime: 1777449269356
+          modifiedTime: 1777449269356
+          lastModifiedBy: txZjek5EOiCBHPoz
+          compendiumSource: null
+          duplicateSource: null
+          exportSource: null
+        _key: >-
+          !scenes.regions.behaviors!FSmhxS0b34PdxidM.3AHeJANilqtCJGZQ.6WikBCGGs1ZUhC0z
     locked: false
-    name: ''
-    _key: '!scenes.tiles!FSmhxS0b34PdxidM.otryAShvpgXeu52M'
-  - texture:
-      src: modules/dannysmodule/assets/maps/coynberry%20roofs/RooftopSouth.png
-      anchorX: 0.5
-      anchorY: 0.5
-      scaleX: 1
-      scaleY: 1
-      tint: '#ffffff'
-      fit: fill
-      alphaThreshold: 0.75
-    x: 8210
-    'y': 6272
-    width: 923
-    height: 1126
-    sort: 9
-    elevation: 20
+    flags:
+      pf2e:
+        areaShape: null
+    _shapeConstraints: null
+    ownership:
+      default: 0
+    _key: '!scenes.regions!FSmhxS0b34PdxidM.3AHeJANilqtCJGZQ'
+  - color: '#2858cc'
+    elevation:
+      bottom: 20
+      top: 40
     levels:
       - defaultLevel0000
-    alpha: 1
-    restrictions:
-      light: false
-      weather: true
-    occlusion:
-      modes:
-        - 1
-      alpha: 0
-    video:
-      loop: true
-      autoplay: true
-      volume: 0
-    flags: {}
-    rotation: 0
+      - gLkwyzMlFl75mT5o
+    restriction:
+      enabled: false
+      type: move
+      priority: 0
+    attachment:
+      token: null
+    visibility: 4
+    highlightMode: shapes
+    displayMeasurements: false
     hidden: false
+    name: roof r4 c3
+    _id: DJ8sU6ZORDjb4E9d
+    shapes:
+      - type: rectangle
+        x: 6331.048170673112
+        'y': 5398.399150407631
+        width: 800
+        height: 896
+        hole: false
+        anchorX: 0
+        anchorY: 0
+        rotation: 0
+        gridBased: false
+    behaviors:
+      - name: Define Surface
+        type: defineSurface
+        _id: aC8ctVmD8lLVtihU
+        system:
+          placement: bottom
+          light: true
+          move: true
+          sight: true
+          sound: true
+          occlusion: true
+          exposure: true
+        disabled: false
+        flags: {}
+        _stats:
+          coreVersion: '14.360'
+          systemId: pf2e
+          systemVersion: 8.0.3
+          createdTime: 1777449269357
+          modifiedTime: 1777449269357
+          lastModifiedBy: txZjek5EOiCBHPoz
+          compendiumSource: null
+          duplicateSource: null
+          exportSource: null
+        _key: >-
+          !scenes.regions.behaviors!FSmhxS0b34PdxidM.DJ8sU6ZORDjb4E9d.aC8ctVmD8lLVtihU
     locked: false
-    _id: 3VFc8IrcWmEfyQ6d
-    _key: '!scenes.tiles!FSmhxS0b34PdxidM.3VFc8IrcWmEfyQ6d'
-  - texture:
-      src: modules/dannysmodule/assets/maps/coynberry%20roofs/ConyberryRooftop6.png
-      anchorX: 0.5
-      anchorY: 0.5
-      scaleX: 1
-      scaleY: 0.85
-      tint: '#ffffff'
-      fit: fill
-      alphaThreshold: 0.75
-    x: 3903
-    'y': 4582
-    width: 1053
-    height: 1022
-    sort: 5
-    elevation: 20
+    flags:
+      pf2e:
+        areaShape: null
+    _shapeConstraints: null
+    ownership:
+      default: 0
+    _key: '!scenes.regions!FSmhxS0b34PdxidM.DJ8sU6ZORDjb4E9d'
+  - color: '#cc9c28'
+    elevation:
+      bottom: 20
+      top: 40
     levels:
       - defaultLevel0000
-    alpha: 1
-    restrictions:
-      light: false
-      weather: true
-    occlusion:
-      modes:
-        - 1
-      alpha: 0
-    video:
-      loop: true
-      autoplay: true
-      volume: 0
-    flags: {}
-    rotation: 90
+      - gLkwyzMlFl75mT5o
+    restriction:
+      enabled: false
+      type: move
+      priority: 0
+    attachment:
+      token: null
+    visibility: 4
+    highlightMode: shapes
+    displayMeasurements: false
     hidden: false
+    name: roof r4 c4
+    _id: cMHbCjrt8GQlnecv
+    shapes:
+      - type: rectangle
+        x: 7769.163727252759
+        'y': 5711.125462267406
+        width: 885
+        height: 1098
+        hole: false
+        anchorX: 0
+        anchorY: 0
+        rotation: 0
+        gridBased: false
+    behaviors:
+      - name: Define Surface
+        type: defineSurface
+        _id: wscU9aqoijw3jSXI
+        system:
+          placement: bottom
+          light: true
+          move: true
+          sight: true
+          sound: true
+          occlusion: true
+          exposure: true
+        disabled: false
+        flags: {}
+        _stats:
+          coreVersion: '14.360'
+          systemId: pf2e
+          systemVersion: 8.0.3
+          createdTime: 1777449269357
+          modifiedTime: 1777449269357
+          lastModifiedBy: txZjek5EOiCBHPoz
+          compendiumSource: null
+          duplicateSource: null
+          exportSource: null
+        _key: >-
+          !scenes.regions.behaviors!FSmhxS0b34PdxidM.cMHbCjrt8GQlnecv.wscU9aqoijw3jSXI
     locked: false
-    _id: gieIYPCkDdUT4SkK
-    name: ''
-    _key: '!scenes.tiles!FSmhxS0b34PdxidM.gieIYPCkDdUT4SkK'
+    flags:
+      pf2e:
+        areaShape: null
+    _shapeConstraints: null
+    ownership:
+      default: 0
+    _key: '!scenes.regions!FSmhxS0b34PdxidM.cMHbCjrt8GQlnecv'
+tiles: []
 playlist: null
 playlistSound: null
 journal: null
@@ -13640,8 +14392,8 @@ _stats:
   coreVersion: '14.360'
   systemId: pf2e
   systemVersion: 8.0.3
-  createdTime: 1777274651665
-  modifiedTime: 1777274651693
+  createdTime: 1777449269330
+  modifiedTime: 1777449269330
   lastModifiedBy: txZjek5EOiCBHPoz
   exportSource: null
   compendiumSource: null
@@ -13649,7 +14401,6 @@ _stats:
 navName: ''
 ownership:
   default: 0
-  txZjek5EOiCBHPoz: 3
 active: false
 sort: 0
 _key: '!scenes!FSmhxS0b34PdxidM'
