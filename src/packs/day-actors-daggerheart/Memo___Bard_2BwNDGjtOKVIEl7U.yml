@@ -1,0 +1,3173 @@
+name: Memo - Bard
+type: character
+_id: 2BwNDGjtOKVIEl7U
+img: modules/dannysmodule/assets/tokens/memo%20token.webp
+system:
+  resistance:
+    physical:
+      resistance: false
+      immunity: false
+      reduction: 0
+    magical:
+      resistance: false
+      immunity: false
+      reduction: 0
+  resources:
+    hitPoints:
+      value: 0
+      max: 0
+    stress:
+      value: 0
+      max: 6
+    hope:
+      value: 6
+      max: 6
+  traits:
+    agility:
+      value: 0
+      tierMarked: false
+    strength:
+      value: -1
+      tierMarked: false
+    finesse:
+      value: 1
+      tierMarked: false
+    instinct:
+      value: 0
+      tierMarked: false
+    presence:
+      value: 2
+      tierMarked: false
+    knowledge:
+      value: 1
+      tierMarked: false
+  proficiency: 1
+  evasion: 0
+  damageThresholds:
+    severe: 0
+    major: 0
+  experiences:
+    4puDce3QupFt9N3O:
+      name: Control the Heat
+      value: 2
+      core: true
+      description: ''
+    Pvxp36YA52LMvZXa:
+      name: Tuned In
+      value: 3
+      core: true
+      description: ''
+    9qlMipuPamGpnBdN:
+      name: Humanoid Expert
+      value: 2
+      core: true
+  gold:
+    coins: 0
+    handfuls: 1
+    bags: 0
+    chests: 0
+  scars: 0
+  biography:
+    background: ''
+    connections: ''
+    characteristics:
+      pronouns: ''
+      age: ''
+      faith: ''
+  attack:
+    name: Attack
+    img: icons/skills/melee/unarmed-punch-fist-yellow-red.webp
+    _id: thGzLDNEsN4Zorha
+    systemPath: attack
+    chatDisplay: false
+    type: attack
+    range: melee
+    target:
+      type: any
+      amount: 1
+    roll:
+      type: attack
+      trait: strength
+      difficulty: null
+      bonus: null
+      advState: neutral
+      diceRolling:
+        multiplier: prof
+        flatMultiplier: 1
+        dice: d6
+        compare: null
+        treshold: null
+      useDefault: false
+    damage:
+      parts:
+        hitPoints:
+          type:
+            - physical
+          value:
+            custom:
+              enabled: true
+              formula: '@profd4'
+            multiplier: prof
+            flatMultiplier: 1
+            dice: d6
+            bonus: null
+          applyTo: hitPoints
+          resultBased: false
+          valueAlt:
+            multiplier: prof
+            flatMultiplier: 1
+            dice: d6
+            bonus: null
+            custom:
+              enabled: false
+              formula: ''
+          base: false
+      includeBase: false
+      direct: false
+    description: ''
+    actionType: action
+    cost: []
+    uses:
+      value: null
+      max: null
+      recovery: null
+      consumeOnSuccess: false
+    effects: []
+    save:
+      trait: null
+      difficulty: null
+      damageMod: none
+    baseAction: false
+    originItem:
+      type: itemCollection
+    triggers: []
+    areas: []
+  advantageSources: []
+  disadvantageSources: []
+  levelData:
+    level:
+      current: 3
+      changed: 3
+      bonuses: {}
+    levelups:
+      '2':
+        achievements:
+          experiences:
+            9qlMipuPamGpnBdN:
+              name: Humanoid Expert
+              modifier: 2
+          domainCards:
+            - uuid: Compendium.daggerheart.domains.Item.eq8VNqYMRHhF9xw9
+              itemUuid: Actor.2BwNDGjtOKVIEl7U.Item.l2k84a7i6o4IHjgE
+          proficiency: 1
+        selections:
+          - tier: 2
+            minCost: 1
+            amount: 2
+            value: null
+            type: trait
+            data:
+              - presence
+              - instinct
+            secondaryData: {}
+            level: 2
+            optionKey: trait
+            checkboxNr: 1
+            itemUuid: null
+            features: []
+          - tier: 2
+            minCost: 1
+            amount: null
+            value: 1
+            type: hitPoint
+            data: []
+            secondaryData: {}
+            level: 2
+            optionKey: hitPoint
+            checkboxNr: 1
+            itemUuid: null
+            features: []
+      '3':
+        achievements:
+          domainCards:
+            - uuid: Compendium.daggerheart.domains.Item.KHkzA4Zrw8EWN1CH
+              itemUuid: Actor.2BwNDGjtOKVIEl7U.Item.572c2xREe2Az41wH
+          proficiency: null
+          experiences: {}
+        selections:
+          - tier: 2
+            minCost: 1
+            amount: null
+            value: 1
+            type: evasion
+            data: []
+            secondaryData: {}
+            level: 3
+            optionKey: evasion
+            checkboxNr: 1
+            itemUuid: null
+            features: []
+          - tier: 2
+            minCost: 1
+            amount: 1
+            value: null
+            type: domainCard
+            secondaryData:
+              limit: '4'
+            data:
+              - Compendium.daggerheart.domains.Item.JrdZedm1BFKeV7Yb
+            level: 3
+            optionKey: domainCard
+            checkboxNr: 1
+            itemUuid: Actor.2BwNDGjtOKVIEl7U.Item.II4mcZ2uDarG14lz
+            features: []
+  bonuses:
+    roll:
+      attack:
+        bonus: 0
+        dice: []
+      spellcast:
+        bonus: 0
+        dice: []
+      trait:
+        bonus: 0
+        dice: []
+      action:
+        bonus: 0
+        dice: []
+      reaction:
+        bonus: 0
+        dice: []
+      primaryWeapon:
+        bonus: 0
+        dice: []
+      secondaryWeapon:
+        bonus: 0
+        dice: []
+    damage:
+      physical:
+        bonus: 0
+        dice: []
+      magical:
+        bonus: 0
+        dice: []
+      primaryWeapon:
+        bonus: 0
+        dice: []
+      secondaryWeapon:
+        bonus: 0
+        dice: []
+    healing:
+      bonus: 0
+      dice: []
+    range:
+      weapon: 0
+      spell: 0
+      other: 0
+    rally: []
+    rest:
+      shortRest:
+        shortMoves: 0
+        longMoves: 0
+      longRest:
+        shortMoves: 0
+        longMoves: 0
+    maxLoadout: 0
+  companion: null
+  rules:
+    damageReduction:
+      maxArmorMarked:
+        value: 1
+        stressExtra: 0
+      stressDamageReduction:
+        severe: {}
+        major: {}
+        minor: {}
+        any: {}
+      increasePerArmorMark: 1
+      magical: false
+      physical: false
+      thresholdImmunities:
+        minor: false
+      disabledArmor: false
+      reduceSeverity:
+        magical: 0
+        physical: 0
+    attack:
+      damage:
+        diceIndex: 0
+        bonus: 0
+        hpDamageMultiplier: 1
+        hpDamageTakenMultiplier: 1
+      roll:
+        trait: null
+    burden:
+      ignore: false
+    conditionImmunities:
+      hidden: false
+      restrained: false
+      vulnerable: false
+    dualityRoll:
+      defaultHopeDice: 12
+      defaultFearDice: 12
+    roll:
+      guaranteedCritical: false
+      defaultAdvantageDice: null
+      defaultDisadvantageDice: null
+prototypeToken:
+  name: Memo
+  displayName: 0
+  actorLink: true
+  width: 1
+  height: 1
+  texture:
+    src: modules/dannysmodule/assets/tokens/memo%20token.webp
+    anchorX: 0.5
+    anchorY: 0.5
+    fit: contain
+    scaleX: 1
+    scaleY: 1
+    tint: '#ffffff'
+    alphaThreshold: 0.75
+  lockRotation: false
+  rotation: 0
+  alpha: 1
+  disposition: 1
+  displayBars: 0
+  bar1:
+    attribute: resources.hitPoints
+  bar2:
+    attribute: resources.stress
+  light:
+    negative: false
+    priority: 0
+    alpha: 0.5
+    angle: 360
+    bright: 0
+    color: null
+    coloration: 1
+    dim: 0
+    attenuation: 0.5
+    luminosity: 0.5
+    saturation: 0
+    contrast: 0
+    shadows: 0
+    animation:
+      type: null
+      speed: 5
+      intensity: 5
+      reverse: false
+    darkness:
+      min: 0
+      max: 1
+  sight:
+    enabled: true
+    range: 0
+    angle: 360
+    visionMode: basic
+    color: null
+    attenuation: 0.1
+    brightness: 0
+    saturation: 0
+    contrast: 0
+  detectionModes: {}
+  occludable:
+    radius: 0
+  ring:
+    enabled: true
+    colors:
+      ring: null
+      background: null
+    effects: 1
+    subject:
+      scale: 1
+      texture: null
+  turnMarker:
+    mode: 1
+    animation: null
+    src: null
+    disposition: false
+  movementAction: null
+  flags: {}
+  randomImg: false
+  appendNumber: false
+  prependAdjective: false
+  depth: 1
+items:
+  - folder: dSAccOl5ccgXPyje
+    name: Purposeful Design
+    type: feature
+    _id: fs4sUHaE4X3jXd8E
+    img: icons/tools/scribal/lens-blue.webp
+    system:
+      description: >-
+        <p>Decide who made you and for what purpose. At character creation,
+        choose one of your Experiences that best aligns with this purpose and
+        gain a permanent +1 bonus to it.</p>
+      resource: null
+      actions: {}
+      originItemType: ancestry
+      identifier: primary
+      attribution: {}
+      multiclassOrigin: false
+      featureForm: passive
+    effects: []
+    sort: 0
+    flags: {}
+    _stats:
+      coreVersion: '14.360'
+      systemId: daggerheart
+      systemVersion: 2.2.1
+      createdTime: 1777621319794
+      modifiedTime: 1777621319794
+      lastModifiedBy: pQzNfYJpGL2Gy8DA
+      exportSource: null
+      compendiumSource: null
+      duplicateSource: null
+    ownership:
+      default: 0
+    _key: '!actors.items!2BwNDGjtOKVIEl7U.fs4sUHaE4X3jXd8E'
+  - folder: dSAccOl5ccgXPyje
+    name: Efficient
+    type: feature
+    _id: cYG609rCLkiZX7jN
+    img: icons/magic/time/clock-stopwatch-white-blue.webp
+    system:
+      description: >-
+        <p>When you take a short rest, you can choose a long rest move instead
+        of a short rest move.</p>
+      resource: null
+      actions: {}
+      originItemType: ancestry
+      identifier: secondary
+      attribution: {}
+      multiclassOrigin: false
+      featureForm: passive
+    effects:
+      - name: Efficient
+        type: base
+        _id: EEryWN2nE33ppGHi
+        img: icons/magic/time/clock-stopwatch-white-blue.webp
+        system:
+          rangeDependence:
+            enabled: false
+            type: withinRange
+            target: hostile
+            range: melee
+          changes:
+            - key: system.bonuses.rest.shortRest.longMoves
+              value: 1
+              priority: null
+              type: add
+              phase: initial
+            - key: system.bonuses.rest.shortRest.shortMoves
+              value: -1
+              priority: null
+              type: add
+              phase: initial
+          duration:
+            description: ''
+          stacking: null
+          targetDispositions: []
+        disabled: false
+        duration:
+          value: null
+          units: seconds
+          expiry: null
+          expired: false
+        description: >-
+          <p><span style="color:rgb(239, 230, 216);font-family:Montserrat,
+          sans-serif;font-size:14px;font-style:normal;font-variant-ligatures:normal;font-variant-caps:normal;font-weight:400;letter-spacing:normal;orphans:2;text-align:start;text-indent:0px;text-transform:none;widows:2;word-spacing:0px;-webkit-text-stroke-width:0px;white-space:normal;background-color:rgba(24,
+          22, 46,
+          0.376);text-decoration-thickness:initial;text-decoration-style:initial;text-decoration-color:initial;display:inline
+          !important;float:none">When you take a short rest, you can choose a
+          long rest move instead of a short rest move.</span></p>
+        origin: null
+        tint: '#ffffff'
+        transfer: true
+        statuses: []
+        sort: 0
+        flags: {}
+        _stats:
+          coreVersion: '14.360'
+          systemId: daggerheart
+          systemVersion: 2.2.1
+          lastModifiedBy: pQzNfYJpGL2Gy8DA
+          createdTime: 1777621319794
+          modifiedTime: 1777621319794
+          compendiumSource: null
+          duplicateSource: null
+          exportSource: null
+        start:
+          combat: null
+          round: null
+          time: 0
+          turn: null
+          combatant: null
+          initiative: null
+        showIcon: 1
+        folder: null
+        _key: >-
+          !actors.items.effects!2BwNDGjtOKVIEl7U.cYG609rCLkiZX7jN.EEryWN2nE33ppGHi
+    sort: 0
+    flags: {}
+    _stats:
+      coreVersion: '14.360'
+      systemId: daggerheart
+      systemVersion: 2.2.1
+      createdTime: 1777621319794
+      modifiedTime: 1777621319794
+      lastModifiedBy: pQzNfYJpGL2Gy8DA
+      exportSource: null
+      compendiumSource: null
+      duplicateSource: null
+    ownership:
+      default: 0
+    _key: '!actors.items!2BwNDGjtOKVIEl7U.cYG609rCLkiZX7jN'
+  - name: Clank
+    type: ancestry
+    img: icons/creatures/magical/construct-golem-stone-blue.webp
+    system:
+      description: >-
+        <p>Clanks are sentient mechanical beings built from a variety of
+        materials, including metal, wood, and stone.<br><br></p><p class="green
+        Body-Styles_Body">They can resemble humanoids, animals, or even
+        inanimate objects. Like organic beings, their bodies come in a wide
+        array of sizes. Because of their bespoke construction, many clanks have
+        highly specialized physical configurations. Examples include clawed
+        hands for grasping, wheels for movement, or built-in weaponry.</p>
+
+        <p class="green Body-Styles_Body">Many clanks embrace body modifications
+        for style as well as function, and members of other ancestries often
+        turn to clank artisans to construct customized mobility aids and
+        physical adornments. Other ancestries can create clanks, even using
+        their own physical characteristics as inspiration, but it’s also common
+        for clanks to build one another. A clank’s lifespan extends as long as
+        they’re able to acquire or craft new parts, making their physical form
+        effectively immortal. That said, their minds are subject to the effects
+        of time, and deteriorate as the magic that powers them loses
+        potency.</p><p></p>
+      features:
+        - type: primary
+          item: Actor.2BwNDGjtOKVIEl7U.Item.fs4sUHaE4X3jXd8E
+        - type: secondary
+          item: Actor.2BwNDGjtOKVIEl7U.Item.cYG609rCLkiZX7jN
+      attribution: {}
+    sort: 3400000
+    flags: {}
+    _stats:
+      coreVersion: '14.360'
+      systemId: daggerheart
+      systemVersion: 2.2.1
+      createdTime: 1777621319794
+      modifiedTime: 1777621319794
+      lastModifiedBy: pQzNfYJpGL2Gy8DA
+      exportSource: null
+      compendiumSource: null
+      duplicateSource: null
+    effects: []
+    _id: W5A43MZrwAtxLf9x
+    folder: null
+    ownership:
+      default: 0
+    _key: '!actors.items!2BwNDGjtOKVIEl7U.W5A43MZrwAtxLf9x'
+  - folder: KA1VSGslxkbvVeMp
+    name: Dedicated
+    type: feature
+    _id: QCYEID1towdn30jt
+    img: icons/environment/people/cleric-orange.webp
+    system:
+      description: >-
+        <p>Record three sayings or values your upbringing instilled in you. Once
+        per rest, when you describe how you’re embodying one of these principles
+        through your current action, you can roll a d20 as your Hope
+        Die</p><p>1) Helping Hand</p><p>2) To Everything there is a
+        Solution</p><p>3) Get it Right the First Time</p>
+      resource: null
+      actions:
+        ZBVqSlsDUKf8uGrI:
+          type: effect
+          _id: ZBVqSlsDUKf8uGrI
+          systemPath: actions
+          description: ''
+          chatDisplay: true
+          actionType: action
+          cost: []
+          uses:
+            value: null
+            max: '1'
+            recovery: shortRest
+            consumeOnSuccess: false
+          effects: []
+          target:
+            type: any
+            amount: null
+          name: Use
+          img: icons/environment/people/cleric-orange.webp
+          range: ''
+          baseAction: false
+          originItem:
+            type: itemCollection
+          triggers: []
+          areas: []
+      originItemType: community
+      attribution: {}
+      multiclassOrigin: false
+      featureForm: passive
+    effects: []
+    flags: {}
+    _stats:
+      coreVersion: '14.360'
+      systemId: daggerheart
+      systemVersion: 2.2.1
+      createdTime: 1777621319794
+      modifiedTime: 1777621319794
+      lastModifiedBy: pQzNfYJpGL2Gy8DA
+      exportSource: null
+      compendiumSource: null
+      duplicateSource: null
+    sort: 0
+    ownership:
+      default: 0
+    _key: '!actors.items!2BwNDGjtOKVIEl7U.QCYEID1towdn30jt'
+  - name: Orderborne
+    type: community
+    img: icons/environment/people/infantry-army.webp
+    system:
+      description: >-
+        <p>Being part of an orderborne community means you’re from a collective
+        that focuses on discipline or faith, and you uphold a set of principles
+        that reflect your experience there.<br><br></p><p class="green
+        Body-Styles_Body">Orderborne are frequently some of the most powerful
+        among the surrounding communities. By aligning the members of their
+        society around a common value or goal, such as a god, doctrine, ethos,
+        or even a shared business or trade, the ruling bodies of these enclaves
+        are able to mobilize larger populations with less effort. While
+        orderborne communities take a variety of forms—some even profoundly
+        pacifistic—perhaps the most feared are those that structure themselves
+        around military prowess. In such a case, it’s not uncommon for
+        orderborne to provide soldiers for hire to other cities or
+        countries.</p>
+
+        <p class="green Body-Styles_Body"><em>Orderborne are often ambitious,
+        benevolent, pensive, prudent, sardonic, and stoic.</em></p><p></p>
+      features:
+        - Actor.2BwNDGjtOKVIEl7U.Item.QCYEID1towdn30jt
+      attribution: {}
+    sort: 3400000
+    flags: {}
+    _stats:
+      coreVersion: '14.360'
+      systemId: daggerheart
+      systemVersion: 2.2.1
+      createdTime: 1777621319794
+      modifiedTime: 1777621319794
+      lastModifiedBy: pQzNfYJpGL2Gy8DA
+      exportSource: null
+      compendiumSource: null
+      duplicateSource: null
+    effects: []
+    _id: HKZXGZTYXOBm76I5
+    folder: null
+    ownership:
+      default: 0
+    _key: '!actors.items!2BwNDGjtOKVIEl7U.HKZXGZTYXOBm76I5'
+  - folder: C9y59fIkq50d3SyD
+    name: Make a Scene
+    type: feature
+    img: icons/magic/sonic/scream-wail-shout-teal.webp
+    system:
+      description: >-
+        <p>Spend <strong>3 Hope</strong> to temporarily <strong>Distract a
+        target</strong> within <strong>Close</strong> range, giving them a
+        <strong>-2 penalty</strong> to their Difficulty.</p>
+      resource: null
+      actions:
+        T6sfMJ9DRvF0IQZ4:
+          type: effect
+          _id: T6sfMJ9DRvF0IQZ4
+          systemPath: actions
+          description: ''
+          chatDisplay: false
+          actionType: action
+          cost:
+            - scalable: false
+              key: hope
+              value: 3
+              step: null
+              consumeOnSuccess: false
+              itemId: null
+          uses:
+            value: null
+            max: ''
+            recovery: null
+            consumeOnSuccess: false
+          effects:
+            - _id: 8G9zDv1gac6dEHmS
+              onSave: false
+          target:
+            type: any
+            amount: null
+          name: Spend Hope
+          img: icons/commodities/currency/coin-embossed-ruby-gold.webp
+          range: ''
+          baseAction: false
+          originItem:
+            type: itemCollection
+          triggers: []
+          areas: []
+      originItemType: class
+      identifier: hope
+      attribution: {}
+      multiclassOrigin: false
+      featureForm: passive
+    effects:
+      - name: Make a Scene
+        img: icons/svg/daze.svg
+        origin: Compendium.daggerheart.classes.Item.OxmucTHHfuBSv2dn
+        transfer: false
+        _id: 8G9zDv1gac6dEHmS
+        type: base
+        system:
+          rangeDependence:
+            enabled: false
+            type: withinRange
+            target: hostile
+            range: melee
+          changes:
+            - key: system.difficulty
+              value: -2
+              priority: null
+              type: add
+              phase: initial
+          duration:
+            description: ''
+          stacking: null
+          targetDispositions: []
+        disabled: false
+        duration:
+          value: null
+          units: seconds
+          expiry: null
+          expired: false
+        description: ''
+        tint: '#ffffff'
+        statuses: []
+        sort: 0
+        flags: {}
+        _stats:
+          coreVersion: '14.360'
+          systemId: daggerheart
+          systemVersion: 2.2.1
+          lastModifiedBy: pQzNfYJpGL2Gy8DA
+          createdTime: 1777621319794
+          modifiedTime: 1777621319794
+          compendiumSource: null
+          duplicateSource: null
+          exportSource: null
+        start: null
+        showIcon: 1
+        folder: null
+        _key: >-
+          !actors.items.effects!2BwNDGjtOKVIEl7U.5FHnAMkZStKXmK8K.8G9zDv1gac6dEHmS
+    flags: {}
+    _stats:
+      coreVersion: '14.360'
+      systemId: daggerheart
+      systemVersion: 2.2.1
+      createdTime: 1777621319794
+      modifiedTime: 1777621319794
+      lastModifiedBy: pQzNfYJpGL2Gy8DA
+      exportSource: null
+      compendiumSource: null
+      duplicateSource: null
+    _id: 5FHnAMkZStKXmK8K
+    sort: 100000
+    ownership:
+      default: 0
+    _key: '!actors.items!2BwNDGjtOKVIEl7U.5FHnAMkZStKXmK8K'
+  - folder: C9y59fIkq50d3SyD
+    name: Rally
+    type: feature
+    img: icons/tools/instruments/drum-hand-tan.webp
+    system:
+      description: >-
+        <p>Once per session, describe how you rally the party and give yourself
+        and each of your allies a Rally Die. At level 1, your Rally Die is a d6.
+        A PC can spend their Rally Die to roll it, adding the result to their
+        action roll, reaction roll, damage roll, or to clear a number of Stress
+        equal to the result. At the end of each session, clear all unspent Rally
+        Dice. At level 5, your Rally Die increases to a d8.</p>
+      resource: null
+      actions:
+        vI4Fph3y9ygsya9e:
+          type: effect
+          _id: vI4Fph3y9ygsya9e
+          systemPath: actions
+          description: ''
+          chatDisplay: false
+          actionType: action
+          cost: []
+          uses:
+            value: 0
+            max: '1'
+            recovery: session
+            consumeOnSuccess: false
+          effects:
+            - _id: FrSJH9vzDHkFGYQL
+              onSave: false
+          target:
+            type: friendly
+            amount: null
+          name: Rally your allies!
+          img: icons/tools/instruments/drum-hand-tan.webp
+          range: ''
+          baseAction: false
+          originItem:
+            type: itemCollection
+          triggers: []
+          areas: []
+      originItemType: class
+      identifier: class
+      attribution: {}
+      multiclassOrigin: false
+      featureForm: passive
+    effects:
+      - name: Rally
+        img: icons/tools/instruments/drum-hand-tan.webp
+        origin: Compendium.daggerheart.classes.Item.Y7waM3ljoRLyk38N
+        transfer: false
+        _id: FrSJH9vzDHkFGYQL
+        type: base
+        system:
+          rangeDependence:
+            enabled: false
+            type: withinRange
+            target: hostile
+            range: melee
+          changes:
+            - key: system.bonuses.rally
+              value: d6
+              priority: null
+              type: add
+              phase: initial
+          duration:
+            description: ''
+          stacking: null
+          targetDispositions: []
+        disabled: false
+        duration:
+          value: null
+          units: seconds
+          expiry: null
+          expired: false
+        description: ''
+        tint: '#ffffff'
+        statuses: []
+        sort: 0
+        flags: {}
+        _stats:
+          coreVersion: '14.360'
+          systemId: daggerheart
+          systemVersion: 2.2.1
+          lastModifiedBy: pQzNfYJpGL2Gy8DA
+          createdTime: 1777621319794
+          modifiedTime: 1777621319794
+          compendiumSource: null
+          duplicateSource: null
+          exportSource: null
+        start: null
+        showIcon: 1
+        folder: null
+        _key: >-
+          !actors.items.effects!2BwNDGjtOKVIEl7U.gjdO5Fd2Mn9y7pTe.FrSJH9vzDHkFGYQL
+    flags: {}
+    _stats:
+      coreVersion: '14.360'
+      systemId: daggerheart
+      systemVersion: 2.2.1
+      createdTime: 1777621319794
+      modifiedTime: 1777621319794
+      lastModifiedBy: pQzNfYJpGL2Gy8DA
+      exportSource: null
+      compendiumSource: null
+      duplicateSource: null
+    _id: gjdO5Fd2Mn9y7pTe
+    sort: 200000
+    ownership:
+      default: 0
+    _key: '!actors.items!2BwNDGjtOKVIEl7U.gjdO5Fd2Mn9y7pTe'
+  - folder: C9y59fIkq50d3SyD
+    name: Rally (Level 5)
+    type: feature
+    img: icons/tools/instruments/drum-hand-tan.webp
+    system:
+      description: >-
+        <p>Once per session, describe how you rally the party and give yourself
+        and each of your allies a Rally Die. At level 1, your Rally Die is a d6.
+        A PC can spend their Rally Die to roll it, adding the result to their
+        action roll, reaction roll, damage roll, or to clear a number of Stress
+        equal to the result. At the end of each session, clear all unspent Rally
+        Dice. At level 5, your Rally Die increases to a d8.</p>
+      resource: null
+      actions:
+        Z1KWFrpXOqZWuZD1:
+          type: effect
+          _id: Z1KWFrpXOqZWuZD1
+          systemPath: actions
+          description: ''
+          chatDisplay: true
+          actionType: action
+          cost: []
+          uses:
+            value: null
+            max: '1'
+            recovery: session
+            consumeOnSuccess: false
+          effects:
+            - _id: 8CFxYJV8zE6Wabwj
+              onSave: false
+          target:
+            type: any
+            amount: null
+          name: Rally your Allies
+          img: icons/tools/instruments/drum-hand-tan.webp
+          range: ''
+          baseAction: false
+          originItem:
+            type: itemCollection
+          triggers: []
+          areas: []
+      originItemType: class
+      identifier: class
+      attribution: {}
+      multiclassOrigin: false
+      featureForm: passive
+    effects:
+      - name: Rally (Level 5)
+        img: icons/tools/instruments/drum-hand-tan.webp
+        origin: Compendium.daggerheart.classes.Item.oxv0m8AFUQVFKtZ4
+        transfer: false
+        _id: 8CFxYJV8zE6Wabwj
+        type: base
+        system:
+          rangeDependence:
+            enabled: false
+            type: withinRange
+            target: hostile
+            range: melee
+          changes:
+            - key: system.bonuses.rally
+              value: d8
+              priority: null
+              type: add
+              phase: initial
+          duration:
+            description: ''
+          stacking: null
+          targetDispositions: []
+        disabled: false
+        duration:
+          value: null
+          units: seconds
+          expiry: null
+          expired: false
+        description: ''
+        tint: '#ffffff'
+        statuses: []
+        sort: 0
+        flags: {}
+        _stats:
+          coreVersion: '14.360'
+          systemId: daggerheart
+          systemVersion: 2.2.1
+          lastModifiedBy: pQzNfYJpGL2Gy8DA
+          createdTime: 1777621319794
+          modifiedTime: 1777621319794
+          compendiumSource: null
+          duplicateSource: null
+          exportSource: null
+        start: null
+        showIcon: 1
+        folder: null
+        _key: >-
+          !actors.items.effects!2BwNDGjtOKVIEl7U.te3tLGEoDTFGxvUc.8CFxYJV8zE6Wabwj
+    flags: {}
+    _stats:
+      coreVersion: '14.360'
+      systemId: daggerheart
+      systemVersion: 2.2.1
+      createdTime: 1777621319794
+      modifiedTime: 1777621319794
+      lastModifiedBy: pQzNfYJpGL2Gy8DA
+      exportSource: null
+      compendiumSource: null
+      duplicateSource: null
+    _id: te3tLGEoDTFGxvUc
+    sort: 300000
+    ownership:
+      default: 0
+    _key: '!actors.items!2BwNDGjtOKVIEl7U.te3tLGEoDTFGxvUc'
+  - name: Bard
+    type: class
+    img: icons/tools/instruments/harp-red.webp
+    system:
+      description: >-
+        <p><strong>Note: At level 5 use Rally (Level 5) instead of Rally under
+        class feature. (Automation will be implemented in a later
+        release)</strong></p><p><br>Bards are the most charismatic people in all
+        the realms. Members of this class are masters of captivation and
+        specialize in a variety of performance types, including singing, playing
+        musical instruments, weaving tales, or telling jokes. Whether performing
+        for an audience or speaking to an individual, bards thrive in social
+        situations. Members of this profession bond and train at schools or
+        guilds, but a current of egotism runs through those of the bardic
+        persuasion. While they may be the most likely class to bring people
+        together, a bard of ill temper can just as easily tear a party
+        apart.</p>
+      domains:
+        - grace
+        - codex
+      classItems: []
+      hitPoints: 5
+      evasion: 10
+      features:
+        - type: hope
+          item: Actor.2BwNDGjtOKVIEl7U.Item.5FHnAMkZStKXmK8K
+        - type: class
+          item: Actor.2BwNDGjtOKVIEl7U.Item.gjdO5Fd2Mn9y7pTe
+        - type: class
+          item: Actor.2BwNDGjtOKVIEl7U.Item.te3tLGEoDTFGxvUc
+      subclasses:
+        - Compendium.daggerheart.subclasses.Item.ld8MIvk0xVJydSBz
+        - Compendium.daggerheart.subclasses.Item.XTSODVM8st75Os8M
+      inventory:
+        take:
+          - Compendium.daggerheart.classes.Item.hMST9iizQP1yz0MG
+          - Compendium.daggerheart.classes.Item.uoG5iq09mxJPXfmk
+          - Compendium.daggerheart.classes.Item.zqeXrJTd1geX73Pw
+        choiceA:
+          - Compendium.daggerheart.consumables.Item.tPfKtKRRjv8qdSqy
+          - Compendium.daggerheart.consumables.Item.b6vGSPFWOlzZZDLO
+        choiceB:
+          - Compendium.daggerheart.classes.Item.Bvr6wjf44EvCdidC
+          - Compendium.daggerheart.classes.Item.XGWVVkHlVrF5fGm6
+      characterGuide:
+        suggestedTraits:
+          agility: 0
+          strength: -1
+          finesse: 1
+          instinct: 0
+          presence: 2
+          knowledge: 1
+        suggestedPrimaryWeapon: Compendium.daggerheart.weapons.Item.zkAgEW6zMkRZalEm
+        suggestedSecondaryWeapon: Compendium.daggerheart.weapons.Item.wKklDxs5nkzILNp4
+        suggestedArmor: Compendium.daggerheart.armors.Item.yJFp1bfpecDcStVK
+      isMulticlass: false
+      attribution: {}
+      backgroundQuestions:
+        - ''
+        - ''
+        - ''
+      connections:
+        - ''
+        - ''
+        - ''
+    sort: 300000
+    flags: {}
+    _stats:
+      coreVersion: '14.360'
+      systemId: daggerheart
+      systemVersion: 2.2.1
+      createdTime: 1777621319794
+      modifiedTime: 1777621319794
+      lastModifiedBy: pQzNfYJpGL2Gy8DA
+      exportSource: null
+      compendiumSource: null
+      duplicateSource: null
+    effects: []
+    _id: 4QcgjGQHO8XyTerL
+    folder: null
+    ownership:
+      default: 0
+    _key: '!actors.items!2BwNDGjtOKVIEl7U.4QcgjGQHO8XyTerL'
+  - folder: Ih9KaoVY4bhZPjsn
+    name: Gifted Performer
+    type: feature
+    img: icons/tools/instruments/harp-yellow-teal.webp
+    system:
+      description: >-
+        <p>You can play three different types of songs, once each per long rest;
+        describe how you perform for others to gain the listed benefit:
+        </p><ul><li><p><strong>Relaxing Song:</strong> You and all allies within
+        Close range clear a Hit Point.</p></li><li><p><strong>Epic
+        Song:</strong> Make a target within Close range temporarily Vulnerable.
+        </p></li><li><p><strong>Heartbreaking Song:</strong> You and all allies
+        within Close range gain a Hope.</p></li></ul>
+      resource: null
+      actions:
+        xvs7ZKm93AlnZD3F:
+          type: healing
+          _id: xvs7ZKm93AlnZD3F
+          systemPath: actions
+          description: >-
+            <p><strong>You and all allies</strong> within <strong>Close</strong>
+            range <strong>clear a Hit Point</strong>.</p>
+          chatDisplay: true
+          actionType: action
+          cost: []
+          uses:
+            value: 0
+            max: '1'
+            recovery: longRest
+            consumeOnSuccess: false
+          damage:
+            parts:
+              hitPoints:
+                value:
+                  custom:
+                    enabled: true
+                    formula: '1'
+                  multiplier: prof
+                  flatMultiplier: 1
+                  dice: d6
+                  bonus: null
+                applyTo: hitPoints
+                base: false
+                resultBased: false
+                valueAlt:
+                  multiplier: prof
+                  flatMultiplier: 1
+                  dice: d6
+                  bonus: null
+                  custom:
+                    enabled: false
+                    formula: ''
+                type: []
+            includeBase: false
+            direct: false
+          target:
+            type: any
+            amount: null
+          effects: []
+          roll:
+            type: null
+            trait: null
+            difficulty: null
+            bonus: null
+            advState: neutral
+            diceRolling:
+              multiplier: prof
+              flatMultiplier: 1
+              dice: d6
+              compare: null
+              treshold: null
+            useDefault: false
+          name: Relaxing Song
+          img: icons/environment/wilderness/tree-oak.webp
+          range: ''
+          baseAction: false
+          originItem:
+            type: itemCollection
+          triggers: []
+          areas: []
+        nvfJ8rOx8baI6POZ:
+          type: effect
+          _id: nvfJ8rOx8baI6POZ
+          systemPath: actions
+          description: >-
+            <p>Make <strong>a target</strong> within <strong>Close</strong>
+            range temporarily <strong>Vulnerable</strong>.</p>
+          chatDisplay: true
+          actionType: action
+          cost: []
+          uses:
+            value: 0
+            max: '1'
+            recovery: longRest
+            consumeOnSuccess: false
+          effects:
+            - _id: FK4IdbxluRErfYor
+              onSave: false
+          target:
+            type: hostile
+            amount: null
+          name: Epic Song
+          img: icons/skills/targeting/target-strike-triple-blue.webp
+          range: close
+          baseAction: false
+          originItem:
+            type: itemCollection
+          triggers: []
+          areas: []
+        QTTgKnhpNE2XHz4u:
+          type: healing
+          _id: QTTgKnhpNE2XHz4u
+          systemPath: actions
+          description: >-
+            <p><strong>You and all allies</strong> within <strong>Close</strong>
+            range <strong>gain a Hope</strong>.</p>
+          chatDisplay: true
+          actionType: action
+          cost: []
+          uses:
+            value: 0
+            max: '1'
+            recovery: longRest
+            consumeOnSuccess: false
+          damage:
+            parts:
+              hope:
+                value:
+                  custom:
+                    enabled: true
+                    formula: '1'
+                  multiplier: prof
+                  flatMultiplier: 1
+                  dice: d6
+                  bonus: null
+                applyTo: hope
+                base: false
+                resultBased: false
+                valueAlt:
+                  multiplier: prof
+                  flatMultiplier: 1
+                  dice: d6
+                  bonus: null
+                  custom:
+                    enabled: false
+                    formula: ''
+                type: []
+            includeBase: false
+            direct: false
+          target:
+            type: friendly
+            amount: null
+          effects: []
+          roll:
+            type: null
+            trait: null
+            difficulty: null
+            bonus: null
+            advState: neutral
+            diceRolling:
+              multiplier: prof
+              flatMultiplier: 1
+              dice: d6
+              compare: null
+              treshold: null
+            useDefault: false
+          name: Heartbreaking Song
+          img: icons/magic/life/heart-cross-strong-flame-purple-orange.webp
+          range: close
+          baseAction: false
+          originItem:
+            type: itemCollection
+          triggers: []
+          areas: []
+      originItemType: subclass
+      identifier: foundation
+      attribution: {}
+      multiclassOrigin: false
+      featureForm: passive
+    effects:
+      - name: Epic Song
+        img: icons/svg/ice-aura.svg
+        origin: Compendium.daggerheart.subclasses.Item.6j1RP4fz3BwSfoli
+        transfer: false
+        _id: FK4IdbxluRErfYor
+        type: base
+        system:
+          rangeDependence:
+            enabled: false
+            type: withinRange
+            target: hostile
+            range: close
+          changes: []
+          duration:
+            description: ''
+          stacking: null
+          targetDispositions: []
+        disabled: false
+        duration:
+          value: null
+          units: seconds
+          expiry: null
+          expired: false
+        description: <p>Make a target within Close range temporarily Vulnerable.</p>
+        tint: '#ffffff'
+        statuses:
+          - vulnerable
+        sort: 0
+        flags: {}
+        _stats:
+          coreVersion: '14.360'
+          systemId: daggerheart
+          systemVersion: 2.2.1
+          lastModifiedBy: pQzNfYJpGL2Gy8DA
+          createdTime: 1777621319794
+          modifiedTime: 1777621319794
+          compendiumSource: null
+          duplicateSource: null
+          exportSource: null
+        showIcon: 2
+        start: null
+        folder: null
+        _key: >-
+          !actors.items.effects!2BwNDGjtOKVIEl7U.uu6xdHi6U85qYq8A.FK4IdbxluRErfYor
+    flags: {}
+    _stats:
+      coreVersion: '14.360'
+      systemId: daggerheart
+      systemVersion: 2.2.1
+      createdTime: 1777621319794
+      modifiedTime: 1777621319794
+      lastModifiedBy: pQzNfYJpGL2Gy8DA
+      exportSource: null
+      compendiumSource: null
+      duplicateSource: null
+    _id: uu6xdHi6U85qYq8A
+    sort: 100000
+    ownership:
+      default: 0
+    _key: '!actors.items!2BwNDGjtOKVIEl7U.uu6xdHi6U85qYq8A'
+  - folder: bwENCQMM1EMqEk45
+    name: Maestro
+    type: feature
+    img: icons/weapons/wands/wand-star-white.webp
+    system:
+      description: >-
+        <p>Your rallying songs steel the courage of those who listen. When you
+        give a <strong>Rally Die</strong> to an ally, they can <strong>gain a
+        Hope</strong> or <strong>clear a Stress</strong>.</p>
+      resource: null
+      actions: {}
+      originItemType: subclass
+      identifier: specialization
+      attribution: {}
+      multiclassOrigin: false
+      featureForm: passive
+    effects: []
+    flags: {}
+    _stats:
+      coreVersion: '14.360'
+      systemId: daggerheart
+      systemVersion: 2.2.1
+      createdTime: 1777621319794
+      modifiedTime: 1777621319794
+      lastModifiedBy: pQzNfYJpGL2Gy8DA
+      exportSource: null
+      compendiumSource: null
+      duplicateSource: null
+    _id: aWIyUWAJKy3MV1iq
+    sort: 200000
+    ownership:
+      default: 0
+    _key: '!actors.items!2BwNDGjtOKVIEl7U.aWIyUWAJKy3MV1iq'
+  - folder: Xpbd5rv84VaVSu7F
+    name: Virtuoso
+    type: feature
+    img: icons/magic/light/explosion-star-small-teal.webp
+    system:
+      description: >-
+        <p>You are among the greatest of your craft and your skill is boundless.
+        You can perform each of your <strong>"Gifted Performer"</strong>
+        feature’s songs <strong>twice per long rest.</strong></p>
+      resource: null
+      actions: {}
+      originItemType: subclass
+      identifier: mastery
+      attribution: {}
+      multiclassOrigin: false
+      featureForm: passive
+    effects: []
+    flags: {}
+    _stats:
+      coreVersion: '14.360'
+      systemId: daggerheart
+      systemVersion: 2.2.1
+      createdTime: 1777621319794
+      modifiedTime: 1777621319794
+      lastModifiedBy: pQzNfYJpGL2Gy8DA
+      exportSource: null
+      compendiumSource: null
+      duplicateSource: null
+    _id: C4yvJhAjl6vc7IGj
+    sort: 0
+    ownership:
+      default: 0
+    _key: '!actors.items!2BwNDGjtOKVIEl7U.C4yvJhAjl6vc7IGj'
+  - name: Troubadour
+    type: subclass
+    img: icons/tools/instruments/harp-gold-glowing.webp
+    system:
+      description: <p>You wish to play music to bolster your allies.</p>
+      spellcastingTrait: presence
+      features:
+        - type: foundation
+          item: Actor.2BwNDGjtOKVIEl7U.Item.uu6xdHi6U85qYq8A
+        - type: specialization
+          item: Actor.2BwNDGjtOKVIEl7U.Item.aWIyUWAJKy3MV1iq
+        - type: mastery
+          item: Actor.2BwNDGjtOKVIEl7U.Item.C4yvJhAjl6vc7IGj
+      featureState: 1
+      isMulticlass: false
+      attribution: {}
+      linkedClass: null
+    sort: 100000
+    flags: {}
+    _stats:
+      coreVersion: '14.360'
+      systemId: daggerheart
+      systemVersion: 2.2.1
+      createdTime: 1777621319794
+      modifiedTime: 1777621319794
+      lastModifiedBy: pQzNfYJpGL2Gy8DA
+      exportSource: null
+      compendiumSource: null
+      duplicateSource: null
+    effects: []
+    _id: TQ0UM84qhV1IVg3m
+    folder: null
+    ownership:
+      default: 0
+    _key: '!actors.items!2BwNDGjtOKVIEl7U.TQ0UM84qhV1IVg3m'
+  - name: Book of Ava
+    type: domainCard
+    img: systems/daggerheart/assets/icons/domains/domain-card/codex.png
+    system:
+      description: >-
+        <p class="Card-Feature"><em><strong>Power Push:</strong></em> Make a
+        <strong>Spellcast Roll</strong> against a target within Melee range. On
+        a success, they’re knocked back to Far range and take
+        <strong>d10+2</strong> magic damage using your
+        Proficiency.</p><p><br></p><p class="Card-Feature"><em><strong>Tava’s
+        Armor:</strong></em> <strong>Spend a Hope</strong> to give a target you
+        can touch a +1 bonus to their Armor Score until their next rest or you
+        cast Tava’s Armor again.</p><p><br></p><p class="Card-Feature"></p><p
+        class="Card-Feature"><em><strong>Ice Spike:</strong></em> Make a
+        <strong>Spellcast Roll (12)</strong> to summon a large ice spike within
+        Far range. If you use it as a weapon, make the Spellcast Roll against
+        the target’s Difficulty instead. On a success, deal <strong>d6</strong>
+        physical damage using your Proficiency.</p>
+      domain: codex
+      recallCost: 2
+      level: 1
+      type: grimoire
+      actions:
+        jX4wg2HR2xkdtbIU:
+          type: attack
+          _id: jX4wg2HR2xkdtbIU
+          systemPath: actions
+          description: >-
+            <p></p><p class="Card-Feature">Make a <strong>Spellcast
+            Roll</strong> against a target within Melee range. On a success,
+            they’re knocked back to Far range and take <strong>d10+2</strong>
+            magic damage using your Proficiency.</p>
+          chatDisplay: true
+          actionType: action
+          cost: []
+          uses:
+            value: null
+            max: ''
+            recovery: null
+            consumeOnSuccess: false
+          damage:
+            parts:
+              hitPoints:
+                resultBased: false
+                value:
+                  custom:
+                    enabled: false
+                    formula: ''
+                  multiplier: prof
+                  dice: d10
+                  bonus: 2
+                  flatMultiplier: 1
+                applyTo: hitPoints
+                type:
+                  - magical
+                base: false
+                valueAlt:
+                  multiplier: prof
+                  flatMultiplier: 1
+                  dice: d6
+                  bonus: null
+                  custom:
+                    enabled: false
+                    formula: ''
+            includeBase: false
+            direct: false
+          target:
+            type: any
+            amount: 1
+          effects: []
+          roll:
+            type: spellcast
+            trait: null
+            difficulty: null
+            bonus: null
+            advState: neutral
+            diceRolling:
+              multiplier: prof
+              flatMultiplier: 1
+              dice: d6
+              compare: null
+              treshold: null
+            useDefault: false
+          save:
+            trait: null
+            difficulty: null
+            damageMod: none
+          name: Power Push
+          img: icons/magic/movement/trail-streak-impact-blue.webp
+          range: melee
+          baseAction: false
+          originItem:
+            type: itemCollection
+          triggers: []
+          areas: []
+        4N7ViDYt9Na3zwzi:
+          type: effect
+          _id: 4N7ViDYt9Na3zwzi
+          systemPath: actions
+          description: >-
+            <p class="Card-Feature"><strong>Spend a Hope</strong> to give a
+            target you can touch a +1 bonus to their Armor Score until their
+            next rest or you cast Tava’s Armor again.</p>
+          chatDisplay: true
+          actionType: action
+          cost:
+            - key: hope
+              value: 1
+              scalable: false
+              step: null
+              consumeOnSuccess: false
+              itemId: null
+          uses:
+            value: null
+            max: ''
+            recovery: null
+            consumeOnSuccess: false
+          effects:
+            - _id: LdcT1nrkd5ORCU4n
+              onSave: false
+          target:
+            type: any
+            amount: 1
+          name: Tava's Armor
+          img: icons/magic/defensive/shield-barrier-glowing-triangle-blue.webp
+          range: ''
+          baseAction: false
+          originItem:
+            type: itemCollection
+          triggers: []
+          areas: []
+        XU1joyIDFZrQiToF:
+          type: attack
+          _id: XU1joyIDFZrQiToF
+          systemPath: actions
+          description: >-
+            <p>Make a <strong>Spellcast Roll (12)</strong> to summon a large ice
+            spike within Far range. If you use it as a weapon, make the
+            Spellcast Roll against the target’s Difficulty instead. On a
+            success, deal <strong>d6</strong> physical damage using your
+            Proficiency.</p>
+          chatDisplay: true
+          actionType: action
+          cost: []
+          uses:
+            value: null
+            max: ''
+            recovery: null
+            consumeOnSuccess: false
+          damage:
+            parts: {}
+            includeBase: false
+            direct: false
+          target:
+            type: any
+            amount: null
+          effects: []
+          roll:
+            type: spellcast
+            trait: null
+            difficulty: 12
+            bonus: null
+            advState: neutral
+            diceRolling:
+              multiplier: prof
+              flatMultiplier: 1
+              dice: d6
+              compare: null
+              treshold: null
+            useDefault: false
+          save:
+            trait: null
+            difficulty: null
+            damageMod: none
+          name: Ice Spike
+          img: icons/magic/water/projectile-icecicle.webp
+          range: ''
+          baseAction: false
+          originItem:
+            type: itemCollection
+          triggers: []
+          areas: []
+        enit3ZkPp0nY5lN1:
+          type: attack
+          _id: enit3ZkPp0nY5lN1
+          systemPath: actions
+          description: >-
+            <p>Make a <strong>Spellcast Roll (12)</strong> to summon a large ice
+            spike within Far range. If you use it as a weapon, make the
+            Spellcast Roll against the target’s Difficulty instead. On a
+            success, deal <strong>d6</strong> physical damage using your
+            Proficiency.</p>
+          chatDisplay: true
+          actionType: action
+          cost: []
+          uses:
+            value: null
+            max: ''
+            recovery: null
+            consumeOnSuccess: false
+          damage:
+            parts:
+              hitPoints:
+                resultBased: false
+                value:
+                  custom:
+                    enabled: false
+                    formula: ''
+                  multiplier: prof
+                  dice: d6
+                  bonus: null
+                  flatMultiplier: 1
+                applyTo: hitPoints
+                type:
+                  - physical
+                base: false
+                valueAlt:
+                  multiplier: prof
+                  flatMultiplier: 1
+                  dice: d6
+                  bonus: null
+                  custom:
+                    enabled: false
+                    formula: ''
+            includeBase: false
+            direct: false
+          target:
+            type: any
+            amount: null
+          effects: []
+          roll:
+            type: spellcast
+            trait: null
+            difficulty: null
+            bonus: null
+            advState: neutral
+            diceRolling:
+              multiplier: prof
+              flatMultiplier: 1
+              dice: d6
+              compare: null
+              treshold: null
+            useDefault: false
+          save:
+            trait: null
+            difficulty: null
+            damageMod: none
+          name: Ice Spike (Attack)
+          img: icons/magic/water/projectile-icecicle.webp
+          range: ''
+          baseAction: false
+          originItem:
+            type: itemCollection
+          triggers: []
+          areas: []
+      resource: null
+      inVault: false
+      attribution: {}
+      vaultActive: false
+      loadoutIgnore: false
+      domainTouched: null
+    sort: 3400000
+    flags: {}
+    _stats:
+      coreVersion: '14.360'
+      systemId: daggerheart
+      systemVersion: 2.2.1
+      createdTime: 1777621319794
+      modifiedTime: 1777621319794
+      lastModifiedBy: pQzNfYJpGL2Gy8DA
+      exportSource: null
+      compendiumSource: null
+      duplicateSource: null
+    effects:
+      - name: Tava's Armor
+        img: icons/magic/defensive/shield-barrier-glowing-triangle-blue.webp
+        origin: Compendium.daggerheart.domains.Item.YtZzYBtR0yLPPA93
+        transfer: false
+        _id: LdcT1nrkd5ORCU4n
+        type: base
+        system:
+          rangeDependence:
+            enabled: false
+            type: withinRange
+            target: hostile
+            range: melee
+          changes:
+            - type: armor
+              value:
+                current: 0
+                max: '1'
+                damageThresholds: null
+                interaction: none
+              phase: initial
+              priority: 0
+          duration:
+            description: ''
+          stacking: null
+          targetDispositions: []
+        disabled: false
+        duration:
+          value: null
+          units: seconds
+          expiry: null
+          expired: false
+        description: >-
+          <p>+1 bonus to your Armor Score until your next rest, or the caster
+          cast's Tava’s Armor again.</p>
+        tint: '#ffffff'
+        statuses: []
+        sort: 0
+        flags: {}
+        _stats:
+          coreVersion: '14.360'
+          systemId: daggerheart
+          systemVersion: 2.2.1
+          lastModifiedBy: pQzNfYJpGL2Gy8DA
+          createdTime: 1777621319794
+          modifiedTime: 1777621319794
+          compendiumSource: null
+          duplicateSource: null
+          exportSource: null
+        start: null
+        showIcon: 1
+        folder: null
+        _key: >-
+          !actors.items.effects!2BwNDGjtOKVIEl7U.5SQZiwswfGv70bbS.LdcT1nrkd5ORCU4n
+    _id: 5SQZiwswfGv70bbS
+    folder: null
+    ownership:
+      default: 0
+    _key: '!actors.items!2BwNDGjtOKVIEl7U.5SQZiwswfGv70bbS'
+  - name: Book of Illiat
+    type: domainCard
+    img: systems/daggerheart/assets/icons/domains/domain-card/codex.png
+    system:
+      description: >-
+        <p class="Card-Feature"><em><strong>Slumber:</strong></em> Make a
+        <strong>Spellcast Roll</strong> against a target within Very Close
+        range. On a success, they’re <em>Asleep</em> until they take damage or
+        the GM spends a <strong>Fear</strong> on their turn to clear this
+        condition.</p><p><br></p><p class="Card-Feature"><em><strong>Arcane
+        Barrage:</strong></em> Once per rest, <strong>spend any number of
+        Hope</strong> and shoot magical projectiles that strike a target of your
+        choice within Close range. Roll a number of <strong>d6s</strong> equal
+        to the Hope spent and deal that much magic damage to the
+        target.</p><p><br></p><p
+        class="Card-Feature"><em><strong>Telepathy:</strong></em> <strong>Spend
+        a Hope</strong> to open a line of mental communication with one target
+        you can see. This connection lasts until your next rest or you cast
+        Telepathy again.</p>
+      domain: codex
+      recallCost: 2
+      level: 1
+      type: grimoire
+      actions:
+        gd4zjBV1UvXhgAid:
+          type: attack
+          _id: gd4zjBV1UvXhgAid
+          systemPath: actions
+          description: >-
+            <p></p><p class="Card-Feature"><em><strong>Slumber:</strong></em>
+            Make a <strong>Spellcast Roll</strong> against a target within Very
+            Close range. On a success, they’re <em>Asleep</em> until they take
+            damage or the GM spends a <strong>Fear</strong> on their turn to
+            clear this condition.</p>
+          chatDisplay: true
+          actionType: action
+          cost: []
+          uses:
+            value: null
+            max: ''
+            recovery: null
+            consumeOnSuccess: false
+          damage:
+            parts: {}
+            includeBase: false
+            direct: false
+          target:
+            type: any
+            amount: 1
+          effects:
+            - _id: gfZTHSgwYSDKsePW
+              onSave: false
+          roll:
+            type: spellcast
+            trait: null
+            difficulty: null
+            bonus: null
+            advState: neutral
+            diceRolling:
+              multiplier: prof
+              flatMultiplier: 1
+              dice: d6
+              compare: null
+              treshold: null
+            useDefault: false
+          save:
+            trait: null
+            difficulty: null
+            damageMod: none
+          name: Slumber
+          img: icons/magic/control/sleep-bubble-purple.webp
+          range: veryClose
+          baseAction: false
+          originItem:
+            type: itemCollection
+          triggers: []
+          areas: []
+        tOHoeUFjdPw2TGrw:
+          type: damage
+          _id: tOHoeUFjdPw2TGrw
+          systemPath: actions
+          description: >-
+            <p class="Card-Feature">Once per rest, <strong>spend any number of
+            Hope</strong> and shoot magical projectiles that strike a target of
+            your choice within Close range. Roll a number of
+            <strong>d6s</strong> equal to the Hope spent and deal that much
+            magic damage to the target.</p>
+          chatDisplay: true
+          actionType: action
+          cost:
+            - scalable: true
+              key: hope
+              value: 1
+              step: 1
+              consumeOnSuccess: false
+              itemId: null
+          uses:
+            value: null
+            max: '1'
+            recovery: shortRest
+            consumeOnSuccess: false
+          damage:
+            parts:
+              hitPoints:
+                value:
+                  custom:
+                    enabled: false
+                    formula: ''
+                  multiplier: scale
+                  dice: d6
+                  bonus: null
+                  flatMultiplier: 1
+                applyTo: hitPoints
+                type: []
+                base: false
+                resultBased: false
+                valueAlt:
+                  multiplier: prof
+                  flatMultiplier: 1
+                  dice: d6
+                  bonus: null
+                  custom:
+                    enabled: false
+                    formula: ''
+            includeBase: false
+            direct: false
+          target:
+            type: any
+            amount: 1
+          effects: []
+          name: Arcane Barrage
+          img: icons/magic/light/projectiles-trio-pink.webp
+          range: close
+          baseAction: false
+          originItem:
+            type: itemCollection
+          triggers: []
+          areas: []
+        Ya1vttriJRLbuyhk:
+          type: effect
+          _id: Ya1vttriJRLbuyhk
+          systemPath: actions
+          description: >-
+            <p class="Card-Feature"><strong>Spend a Hope</strong> to open a line
+            of mental communication with one target you can see. This connection
+            lasts until your next rest or you cast Telepathy again.</p>
+          chatDisplay: true
+          actionType: action
+          cost:
+            - key: hope
+              value: 1
+              scalable: false
+              step: null
+              consumeOnSuccess: false
+              itemId: null
+          uses:
+            value: null
+            max: ''
+            recovery: null
+            consumeOnSuccess: false
+          effects:
+            - _id: zAEaETYSOE2fmcyB
+              onSave: false
+          target:
+            type: any
+            amount: 1
+          name: Telepathy
+          img: icons/magic/perception/third-eye-blue-red.webp
+          range: ''
+          baseAction: false
+          originItem:
+            type: itemCollection
+          triggers: []
+          areas: []
+      resource: null
+      inVault: false
+      attribution: {}
+      vaultActive: false
+      loadoutIgnore: false
+      domainTouched: null
+    sort: 3400000
+    flags: {}
+    _stats:
+      coreVersion: '14.360'
+      systemId: daggerheart
+      systemVersion: 2.2.1
+      createdTime: 1777621319794
+      modifiedTime: 1777621319794
+      lastModifiedBy: pQzNfYJpGL2Gy8DA
+      exportSource: null
+      compendiumSource: null
+      duplicateSource: null
+    effects:
+      - name: Telepathy
+        img: icons/magic/perception/third-eye-blue-red.webp
+        origin: Compendium.daggerheart.domains.Item.df4iRqQzRntrF6Qw
+        transfer: false
+        _id: zAEaETYSOE2fmcyB
+        type: base
+        system:
+          rangeDependence:
+            enabled: false
+            type: withinRange
+            target: hostile
+            range: melee
+          changes: []
+          duration:
+            description: ''
+          stacking: null
+          targetDispositions: []
+        disabled: false
+        duration:
+          value: null
+          units: seconds
+          expiry: null
+          expired: false
+        description: <p>Lasts until your next rest or the caster casts Telepathy again.</p>
+        tint: '#ffffff'
+        statuses: []
+        sort: 0
+        flags: {}
+        _stats:
+          coreVersion: '14.360'
+          systemId: daggerheart
+          systemVersion: 2.2.1
+          lastModifiedBy: pQzNfYJpGL2Gy8DA
+          createdTime: 1777621319794
+          modifiedTime: 1777621319794
+          compendiumSource: null
+          duplicateSource: null
+          exportSource: null
+        start: null
+        showIcon: 1
+        folder: null
+        _key: >-
+          !actors.items.effects!2BwNDGjtOKVIEl7U.UtKjzXwmhmixeKNL.zAEaETYSOE2fmcyB
+      - name: Slumber
+        img: icons/magic/control/sleep-bubble-purple.webp
+        origin: Compendium.daggerheart.domains.Item.df4iRqQzRntrF6Qw
+        transfer: false
+        _id: gfZTHSgwYSDKsePW
+        type: base
+        system:
+          rangeDependence:
+            enabled: false
+            type: withinRange
+            target: hostile
+            range: melee
+          changes: []
+          duration:
+            description: ''
+          stacking: null
+          targetDispositions: []
+        disabled: false
+        duration:
+          value: null
+          units: seconds
+          expiry: null
+          expired: false
+        description: >-
+          <p>Asleep until they take damage or the GM spends a Fear on their turn
+          to clear this condition.</p>
+        tint: '#ffffff'
+        statuses: []
+        sort: 0
+        flags: {}
+        _stats:
+          coreVersion: '14.360'
+          systemId: daggerheart
+          systemVersion: 2.2.1
+          lastModifiedBy: pQzNfYJpGL2Gy8DA
+          createdTime: 1777621319794
+          modifiedTime: 1777621319794
+          compendiumSource: null
+          duplicateSource: null
+          exportSource: null
+        start: null
+        showIcon: 1
+        folder: null
+        _key: >-
+          !actors.items.effects!2BwNDGjtOKVIEl7U.UtKjzXwmhmixeKNL.gfZTHSgwYSDKsePW
+    _id: UtKjzXwmhmixeKNL
+    folder: null
+    ownership:
+      default: 0
+    _key: '!actors.items!2BwNDGjtOKVIEl7U.UtKjzXwmhmixeKNL'
+  - name: 50ft of Rope
+    type: loot
+    img: icons/sundries/survival/rope-coiled-tan.webp
+    system:
+      description: ''
+      quantity: 1
+      actions: {}
+      attribution: {}
+    sort: 0
+    flags: {}
+    _stats:
+      coreVersion: '14.360'
+      systemId: daggerheart
+      systemVersion: 2.2.1
+      createdTime: 1777621319794
+      modifiedTime: 1777621319794
+      lastModifiedBy: pQzNfYJpGL2Gy8DA
+      exportSource: null
+      compendiumSource: null
+      duplicateSource: null
+    effects: []
+    _id: IuVO2Tg3K13CWBzK
+    folder: null
+    ownership:
+      default: 0
+    _key: '!actors.items!2BwNDGjtOKVIEl7U.IuVO2Tg3K13CWBzK'
+  - name: Basic Supplies
+    type: loot
+    img: icons/containers/bags/sack-leather-stitched-brown.webp
+    system:
+      description: ''
+      quantity: 1
+      actions: {}
+      attribution: {}
+    sort: 0
+    flags: {}
+    _stats:
+      coreVersion: '14.360'
+      systemId: daggerheart
+      systemVersion: 2.2.1
+      createdTime: 1777621319794
+      modifiedTime: 1777621319794
+      lastModifiedBy: pQzNfYJpGL2Gy8DA
+      exportSource: null
+      compendiumSource: null
+      duplicateSource: null
+    effects: []
+    _id: hiUimAxt2CeDIzDD
+    folder: null
+    ownership:
+      default: 0
+    _key: '!actors.items!2BwNDGjtOKVIEl7U.hiUimAxt2CeDIzDD'
+  - name: Torch
+    type: loot
+    img: icons/sundries/lights/torch-brown-lit.webp
+    system:
+      description: ''
+      quantity: 1
+      actions: {}
+      attribution: {}
+    sort: 0
+    flags: {}
+    _stats:
+      coreVersion: '14.360'
+      systemId: daggerheart
+      systemVersion: 2.2.1
+      createdTime: 1777621319794
+      modifiedTime: 1777621319794
+      lastModifiedBy: pQzNfYJpGL2Gy8DA
+      exportSource: null
+      compendiumSource: null
+      duplicateSource: null
+    effects: []
+    _id: ZWF6OsnRVUVpkuZG
+    folder: null
+    ownership:
+      default: 0
+    _key: '!actors.items!2BwNDGjtOKVIEl7U.ZWF6OsnRVUVpkuZG'
+  - folder: hLn0v6ov6KuFgptu
+    name: Improved Gambeson Armor
+    type: armor
+    _id: EYH39waLrxrJC564
+    img: icons/equipment/chest/breastplate-quilted-brown.webp
+    system:
+      description: ''
+      actions: {}
+      attached: []
+      tier: 2
+      equipped: true
+      armorFeatures:
+        - value: flexible
+          effectIds:
+            - BFwU3ErPaajUSMUz
+          actionIds: []
+      baseThresholds:
+        major: 7
+        severe: 16
+      armor:
+        current: 0
+        max: 4
+      attribution: {}
+      quantity: 1
+    effects:
+      - name: Flexible
+        description: +1 to Evasion
+        img: icons/magic/movement/abstract-ribbons-red-orange.webp
+        _id: BFwU3ErPaajUSMUz
+        type: base
+        system:
+          rangeDependence:
+            enabled: false
+            type: withinRange
+            target: hostile
+            range: melee
+          changes:
+            - key: system.evasion
+              value: 1
+              type: add
+              phase: initial
+          duration:
+            description: ''
+          stacking: null
+          targetDispositions: []
+        disabled: false
+        duration:
+          value: null
+          units: seconds
+          expiry: null
+          expired: false
+        origin: null
+        tint: '#ffffff'
+        transfer: true
+        statuses: []
+        sort: 0
+        flags: {}
+        _stats:
+          coreVersion: '14.360'
+          systemId: daggerheart
+          systemVersion: 2.2.1
+          lastModifiedBy: pQzNfYJpGL2Gy8DA
+          createdTime: 1777621319794
+          modifiedTime: 1777621319794
+          compendiumSource: null
+          duplicateSource: null
+          exportSource: null
+        start:
+          combat: null
+          time: 0
+          combatant: null
+          initiative: null
+          round: null
+          turn: null
+        showIcon: 1
+        folder: null
+        _key: >-
+          !actors.items.effects!2BwNDGjtOKVIEl7U.EYH39waLrxrJC564.BFwU3ErPaajUSMUz
+    sort: 0
+    flags: {}
+    _stats:
+      coreVersion: '14.360'
+      systemId: daggerheart
+      systemVersion: 2.2.1
+      createdTime: 1777621319794
+      modifiedTime: 1777621319794
+      lastModifiedBy: pQzNfYJpGL2Gy8DA
+      exportSource: null
+      compendiumSource: null
+      duplicateSource: null
+    ownership:
+      default: 0
+    _key: '!actors.items!2BwNDGjtOKVIEl7U.EYH39waLrxrJC564'
+  - name: Health Potion
+    type: consumable
+    _id: MnHcOyGbXXYoWnIZ
+    img: icons/consumables/potions/bottle-corked-red.webp
+    system:
+      description: <p>Clear 1d4+1 HP.</p>
+      quantity: 1
+      actions:
+        O5MYyHpkiEz9uf6A:
+          type: healing
+          _id: O5MYyHpkiEz9uf6A
+          systemPath: actions
+          description: <p>Clear 1d4+1 HP.</p>
+          chatDisplay: true
+          actionType: action
+          cost: []
+          uses:
+            value: null
+            max: ''
+            recovery: null
+            consumeOnSuccess: false
+          damage:
+            parts:
+              hitPoints:
+                value:
+                  custom:
+                    enabled: false
+                    formula: ''
+                  multiplier: flat
+                  dice: d4
+                  bonus: 1
+                  flatMultiplier: 1
+                applyTo: hitPoints
+                base: false
+                resultBased: false
+                valueAlt:
+                  multiplier: prof
+                  flatMultiplier: 1
+                  dice: d6
+                  bonus: null
+                  custom:
+                    enabled: false
+                    formula: ''
+                type: []
+            includeBase: false
+            direct: false
+          target:
+            type: self
+            amount: null
+          effects: []
+          roll:
+            type: null
+            trait: null
+            difficulty: null
+            bonus: null
+            advState: neutral
+            diceRolling:
+              multiplier: prof
+              flatMultiplier: 1
+              dice: d6
+              compare: null
+              treshold: null
+            useDefault: false
+          name: Drink
+          img: icons/consumables/potions/bottle-corked-red.webp
+          range: ''
+          baseAction: false
+          originItem:
+            type: itemCollection
+          triggers: []
+          areas: []
+      consumeOnUse: true
+      attribution: {}
+    effects: []
+    folder: null
+    sort: 0
+    flags: {}
+    _stats:
+      coreVersion: '14.360'
+      systemId: daggerheart
+      systemVersion: 2.2.1
+      createdTime: 1777621319794
+      modifiedTime: 1777621319794
+      lastModifiedBy: pQzNfYJpGL2Gy8DA
+      exportSource: null
+      compendiumSource: null
+      duplicateSource: null
+    ownership:
+      default: 0
+    _key: '!actors.items!2BwNDGjtOKVIEl7U.MnHcOyGbXXYoWnIZ'
+  - name: Book of Sitil
+    img: systems/daggerheart/assets/icons/domains/domain-card/codex.png
+    type: domainCard
+    folder: j9i2Q6Z7Z82udHn1
+    system:
+      description: >-
+        <p class="Card-Feature"><em><strong>Adjust Appearance:</strong></em> You
+        magically shift your appearance and clothing to avoid
+        recognition.</p><p><br></p><p
+        class="Card-Feature"><em><strong>Parallela:</strong></em><strong> Spend
+        2 Hope</strong> to cast this spell on yourself or an ally within Close
+        range. The next time the target makes an attack, they can hit an
+        additional target within range that their attack roll would succeed
+        against. You can only hold this spell on one creature at a
+        time.</p><p><br></p><p
+        class="Card-Feature"><em><strong>Illusion:</strong></em> Make a
+        <strong>Spellcast Roll (14)</strong>. On a success, create a temporary
+        visual illusion no larger than you within Close range that lasts for as
+        long as you look at it. It holds up to scrutiny until an observer is
+        within Melee range.</p>
+      domain: codex
+      recallCost: 2
+      level: 2
+      type: grimoire
+      actions:
+        cc1ahwawL16OEu2r:
+          type: effect
+          _id: cc1ahwawL16OEu2r
+          systemPath: actions
+          description: >-
+            <p class="Card-Feature">You magically shift your appearance and
+            clothing to avoid recognition.</p>
+          chatDisplay: true
+          actionType: action
+          cost: []
+          uses:
+            value: null
+            max: ''
+            recovery: null
+            consumeOnSuccess: false
+          effects:
+            - _id: wnrHSvvB6pydTVcC
+              onSave: false
+          target:
+            type: any
+            amount: null
+          name: Adjust Appearance
+          img: icons/magic/defensive/shield-barrier-blades-teal.webp
+          range: ''
+          baseAction: false
+          originItem:
+            type: itemCollection
+          triggers: []
+          areas: []
+        wBQkw3P4Esj6kOx2:
+          type: effect
+          _id: wBQkw3P4Esj6kOx2
+          systemPath: actions
+          description: >-
+            <p class="Card-Feature"><strong>Spend 2 Hope</strong> to cast this
+            spell on yourself or an ally within Close range. The next time the
+            target makes an attack, they can hit an additional target within
+            range that their attack roll would succeed against. You can only
+            hold this spell on one creature at a time.</p>
+          chatDisplay: true
+          actionType: action
+          cost:
+            - scalable: false
+              key: hope
+              value: 2
+              step: null
+              consumeOnSuccess: false
+              itemId: null
+          uses:
+            value: null
+            max: ''
+            recovery: null
+            consumeOnSuccess: false
+          effects:
+            - _id: klUaU5KeQCu7KCBI
+              onSave: false
+          target:
+            type: friendly
+            amount: 1
+          name: Parallela
+          img: icons/magic/defensive/illusion-evasion-echo-purple.webp
+          range: close
+          baseAction: false
+          originItem:
+            type: itemCollection
+          triggers: []
+          areas: []
+        rsyxORrTH5oU2DkV:
+          type: attack
+          _id: rsyxORrTH5oU2DkV
+          systemPath: actions
+          description: >-
+            <p class="Card-Feature">Make a <strong>Spellcast Roll (14)</strong>.
+            On a success, create a temporary visual illusion no larger than you
+            within Close range that lasts for as long as you look at it. It
+            holds up to scrutiny until an observer is within Melee range.</p>
+          chatDisplay: true
+          actionType: action
+          cost: []
+          uses:
+            value: null
+            max: ''
+            recovery: null
+            consumeOnSuccess: false
+          damage:
+            parts: {}
+            includeBase: false
+            direct: false
+          target:
+            type: any
+            amount: null
+          effects: []
+          roll:
+            type: spellcast
+            trait: null
+            difficulty: 14
+            bonus: null
+            advState: neutral
+            diceRolling:
+              multiplier: prof
+              flatMultiplier: 1
+              dice: d6
+              compare: null
+              treshold: null
+            useDefault: false
+          save:
+            trait: null
+            difficulty: null
+            damageMod: none
+          name: Illusion
+          img: icons/magic/control/silhouette-hold-change-green.webp
+          range: close
+          baseAction: false
+          originItem:
+            type: itemCollection
+          triggers: []
+          areas: []
+      resource: null
+      inVault: false
+      attribution: {}
+      vaultActive: false
+      loadoutIgnore: false
+      domainTouched: null
+    flags: {}
+    _stats:
+      coreVersion: '14.360'
+      systemId: daggerheart
+      systemVersion: 2.2.1
+      createdTime: 1777621319794
+      modifiedTime: 1777621319794
+      lastModifiedBy: pQzNfYJpGL2Gy8DA
+      exportSource: null
+      compendiumSource: null
+      duplicateSource: null
+    _id: l2k84a7i6o4IHjgE
+    sort: 3400000
+    effects:
+      - name: Parallela
+        img: icons/magic/defensive/illusion-evasion-echo-purple.webp
+        origin: Compendium.daggerheart.domains.Item.eq8VNqYMRHhF9xw9
+        transfer: false
+        _id: klUaU5KeQCu7KCBI
+        type: base
+        system:
+          rangeDependence:
+            enabled: false
+            type: withinRange
+            target: hostile
+            range: melee
+          changes: []
+          duration:
+            description: ''
+          stacking: null
+          targetDispositions: []
+        disabled: false
+        duration:
+          value: null
+          units: seconds
+          expiry: null
+          expired: false
+        description: >-
+          <p>The next time you make an attack, you can hit an additional target
+          within range that your attack roll would succeed against.</p>
+        tint: '#ffffff'
+        statuses: []
+        sort: 0
+        flags: {}
+        _stats:
+          coreVersion: '14.360'
+          systemId: daggerheart
+          systemVersion: 2.2.1
+          lastModifiedBy: pQzNfYJpGL2Gy8DA
+          createdTime: 1777621319794
+          modifiedTime: 1777621319794
+          compendiumSource: null
+          duplicateSource: null
+          exportSource: null
+        start: null
+        showIcon: 1
+        folder: null
+        _key: >-
+          !actors.items.effects!2BwNDGjtOKVIEl7U.l2k84a7i6o4IHjgE.klUaU5KeQCu7KCBI
+      - name: Adjust Appearance
+        img: icons/magic/defensive/shield-barrier-blades-teal.webp
+        origin: Compendium.daggerheart.domains.Item.eq8VNqYMRHhF9xw9
+        transfer: false
+        _id: wnrHSvvB6pydTVcC
+        type: base
+        system:
+          rangeDependence:
+            enabled: false
+            type: withinRange
+            target: hostile
+            range: melee
+          changes: []
+          duration:
+            description: ''
+          stacking: null
+          targetDispositions: []
+        disabled: false
+        duration:
+          value: null
+          units: seconds
+          expiry: null
+          expired: false
+        description: >-
+          <p>You magically shift your appearance and clothing to avoid
+          recognition.</p>
+        tint: '#ffffff'
+        statuses: []
+        sort: 0
+        flags: {}
+        _stats:
+          coreVersion: '14.360'
+          systemId: daggerheart
+          systemVersion: 2.2.1
+          lastModifiedBy: pQzNfYJpGL2Gy8DA
+          createdTime: 1777621319794
+          modifiedTime: 1777621319794
+          compendiumSource: null
+          duplicateSource: null
+          exportSource: null
+        start: null
+        showIcon: 1
+        folder: null
+        _key: >-
+          !actors.items.effects!2BwNDGjtOKVIEl7U.l2k84a7i6o4IHjgE.wnrHSvvB6pydTVcC
+    ownership:
+      default: 0
+    _key: '!actors.items!2BwNDGjtOKVIEl7U.l2k84a7i6o4IHjgE'
+  - name: Improved Enchanted Kite
+    type: weapon
+    _id: bBdriKTVW4xCzsv0
+    img: systems/daggerheart/assets/icons/documents/items/battered-axe.svg
+    system:
+      description: ''
+      actions: {}
+      attached: []
+      tier: 1
+      equipped: true
+      secondary: false
+      burden: twoHanded
+      weaponFeatures: []
+      attack:
+        name: Attack
+        img: icons/skills/melee/blood-slash-foam-red.webp
+        _id: fcG7qTdgv8LsYyY0
+        systemPath: attack
+        type: attack
+        range: far
+        target:
+          type: any
+          amount: 1
+        roll:
+          trait: presence
+          type: attack
+          difficulty: null
+          bonus: null
+          advState: neutral
+          diceRolling:
+            multiplier: prof
+            flatMultiplier: 1
+            dice: d6
+            compare: null
+            treshold: null
+          useDefault: false
+        damage:
+          parts:
+            hitPoints:
+              value:
+                dice: d6
+                bonus: 3
+                multiplier: prof
+                flatMultiplier: 1
+                custom:
+                  enabled: false
+                  formula: ''
+              type:
+                - magical
+              applyTo: hitPoints
+              resultBased: false
+              valueAlt:
+                multiplier: prof
+                flatMultiplier: 1
+                dice: d6
+                bonus: null
+                custom:
+                  enabled: false
+                  formula: ''
+              base: false
+          includeBase: false
+          direct: false
+        description: ''
+        chatDisplay: true
+        actionType: action
+        cost: []
+        uses:
+          value: null
+          max: null
+          recovery: null
+          consumeOnSuccess: false
+        effects: []
+        save:
+          trait: null
+          difficulty: null
+          damageMod: none
+        baseAction: false
+        originItem:
+          type: itemCollection
+        triggers: []
+        areas: []
+      rules:
+        attack:
+          roll:
+            trait: null
+      attribution: {}
+      quantity: 1
+    effects: []
+    folder: null
+    sort: 0
+    flags: {}
+    _stats:
+      coreVersion: '14.360'
+      systemId: daggerheart
+      systemVersion: 2.2.1
+      createdTime: 1777621319794
+      modifiedTime: 1777621319794
+      lastModifiedBy: pQzNfYJpGL2Gy8DA
+      exportSource: null
+      compendiumSource: null
+      duplicateSource: null
+    ownership:
+      default: 0
+    _key: '!actors.items!2BwNDGjtOKVIEl7U.bBdriKTVW4xCzsv0'
+  - name: Improved Enchanted Kite (Versatile)
+    type: weapon
+    img: systems/daggerheart/assets/icons/documents/items/battered-axe.svg
+    system:
+      description: ''
+      actions: {}
+      attached: []
+      tier: 1
+      equipped: false
+      secondary: false
+      burden: twoHanded
+      weaponFeatures: []
+      attack:
+        name: Attack
+        img: icons/skills/melee/blood-slash-foam-red.webp
+        _id: fcG7qTdgv8LsYyY0
+        systemPath: attack
+        type: attack
+        range: melee
+        target:
+          type: any
+          amount: 1
+        roll:
+          trait: presence
+          type: attack
+          difficulty: null
+          bonus: null
+          advState: neutral
+          diceRolling:
+            multiplier: prof
+            flatMultiplier: 1
+            dice: d6
+            compare: null
+            treshold: null
+          useDefault: false
+        damage:
+          parts:
+            hitPoints:
+              value:
+                dice: d10
+                bonus: 3
+                multiplier: prof
+                flatMultiplier: 1
+                custom:
+                  enabled: false
+                  formula: ''
+              type:
+                - magical
+              applyTo: hitPoints
+              resultBased: false
+              valueAlt:
+                multiplier: prof
+                flatMultiplier: 1
+                dice: d6
+                bonus: null
+                custom:
+                  enabled: false
+                  formula: ''
+              base: false
+          includeBase: false
+          direct: false
+        description: ''
+        chatDisplay: true
+        actionType: action
+        cost: []
+        uses:
+          value: null
+          max: null
+          recovery: null
+          consumeOnSuccess: false
+        effects: []
+        save:
+          trait: null
+          difficulty: null
+          damageMod: none
+        baseAction: false
+        originItem:
+          type: itemCollection
+        triggers: []
+        areas: []
+      rules:
+        attack:
+          roll:
+            trait: null
+      attribution: {}
+      quantity: 1
+    effects: []
+    folder: null
+    sort: 0
+    flags: {}
+    _stats:
+      coreVersion: '14.360'
+      systemId: daggerheart
+      systemVersion: 2.2.1
+      createdTime: 1777621319794
+      modifiedTime: 1777621319794
+      lastModifiedBy: pQzNfYJpGL2Gy8DA
+      exportSource: null
+      compendiumSource: null
+      duplicateSource: null
+    _id: uuKJeLum7ZBdcHvM
+    ownership:
+      default: 0
+    _key: '!actors.items!2BwNDGjtOKVIEl7U.uuKJeLum7ZBdcHvM'
+  - name: Troublemaker
+    img: systems/daggerheart/assets/icons/domains/domain-card/grace.png
+    type: domainCard
+    folder: pu3xD4rEkdfdAvGc
+    system:
+      description: >-
+        <p class="Body-Foundation">When you taunt or provoke a target within Far
+        range, make a <strong>Presence Roll</strong> against them. Once per rest
+        on a success, roll a number of <strong>d4s</strong> equal to your
+        Proficiency. The target must mark Stress equal to the highest result
+        rolled.</p>
+      domain: grace
+      recallCost: 2
+      level: 2
+      type: ability
+      actions:
+        8fv9Rk2Nq6kalkEQ:
+          type: attack
+          _id: 8fv9Rk2Nq6kalkEQ
+          systemPath: actions
+          description: >-
+            <p>When you taunt or provoke a target within Far range, make a
+            <strong>Presence Roll</strong> against them. Once per rest on a
+            success, roll a number of <strong>d4s</strong> equal to your
+            Proficiency. The target must mark Stress equal to the highest result
+            rolled.</p>
+          chatDisplay: true
+          actionType: action
+          cost: []
+          uses:
+            value: null
+            max: '1'
+            recovery: shortRest
+            consumeOnSuccess: true
+          damage:
+            parts:
+              stress:
+                resultBased: false
+                value:
+                  custom:
+                    enabled: true
+                    formula: '@profd4kh'
+                  multiplier: prof
+                  flatMultiplier: 1
+                  dice: d6
+                  bonus: null
+                applyTo: stress
+                base: false
+                valueAlt:
+                  multiplier: prof
+                  flatMultiplier: 1
+                  dice: d6
+                  bonus: null
+                  custom:
+                    enabled: false
+                    formula: ''
+                type: []
+            includeBase: false
+            direct: false
+          target:
+            type: any
+            amount: null
+          effects: []
+          roll:
+            type: trait
+            trait: presence
+            difficulty: null
+            bonus: null
+            advState: neutral
+            diceRolling:
+              multiplier: prof
+              flatMultiplier: 1
+              dice: d6
+              compare: null
+              treshold: null
+            useDefault: false
+          save:
+            trait: null
+            difficulty: null
+            damageMod: none
+          name: Provoke
+          img: icons/magic/control/fear-fright-monster-purple-blue.webp
+          range: far
+          baseAction: false
+          originItem:
+            type: itemCollection
+          triggers: []
+          areas: []
+      resource: null
+      inVault: true
+      attribution: {}
+      vaultActive: false
+      loadoutIgnore: false
+      domainTouched: null
+    flags: {}
+    _stats:
+      coreVersion: '14.360'
+      systemId: daggerheart
+      systemVersion: 2.2.1
+      createdTime: 1777621319794
+      modifiedTime: 1777621319794
+      lastModifiedBy: pQzNfYJpGL2Gy8DA
+      exportSource: null
+      compendiumSource: null
+      duplicateSource: null
+    _id: II4mcZ2uDarG14lz
+    sort: 3400000
+    effects: []
+    ownership:
+      default: 0
+    _key: '!actors.items!2BwNDGjtOKVIEl7U.II4mcZ2uDarG14lz'
+  - name: Invisibility
+    img: systems/daggerheart/assets/icons/domains/domain-card/grace.png
+    type: domainCard
+    folder: GhLhMfmSgGqS9bwU
+    system:
+      description: >-
+        <p class="Body-Foundation">Make a <strong>Spellcast Roll (10)</strong>.
+        On a success, <strong>mark a Stress</strong> and choose yourself or an
+        ally within Melee range to become <em>Invisible</em>. An
+        <em>Invisible</em> creature can’t be seen except through magical means
+        and attack rolls against them are made with disadvantage. Place a number
+        of tokens on this card equal to your Spellcast trait. When the
+        <em>Invisible</em> creature takes an action, spend a token from this
+        card. After the action that spends the last token is resolved, the
+        effect ends.</p><p class="Body-Foundation">You can only hold
+        Invisibility on one creature at a time.</p>
+      domain: grace
+      recallCost: 1
+      level: 3
+      type: spell
+      actions:
+        aIERmFBWCRLVv184:
+          type: attack
+          _id: aIERmFBWCRLVv184
+          systemPath: actions
+          description: >-
+            <p class="Body-Foundation">Make a <strong>Spellcast Roll
+            (10)</strong>. On a success, <strong>mark a Stress</strong> and
+            choose yourself or an ally within Melee range to become
+            <em>Invisible</em>. An <em>Invisible</em> creature can’t be seen
+            except through magical means and attack rolls against them are made
+            with disadvantage. Place a number of tokens on this card equal to
+            your Spellcast trait. When the <em>Invisible</em> creature takes an
+            action, spend a token from this card. After the action that spends
+            the last token is resolved, the effect ends.</p><p
+            class="Body-Foundation">You can only hold Invisibility on one
+            creature at a time.</p>
+          chatDisplay: true
+          actionType: action
+          cost:
+            - consumeOnSuccess: true
+              scalable: false
+              key: stress
+              value: 1
+              step: null
+              itemId: null
+          uses:
+            value: null
+            max: ''
+            recovery: null
+            consumeOnSuccess: false
+          damage:
+            parts: {}
+            includeBase: false
+            direct: false
+          target:
+            type: any
+            amount: null
+          effects:
+            - _id: bRJy0MoIPQEQOMzZ
+              onSave: false
+          roll:
+            type: spellcast
+            trait: null
+            difficulty: 10
+            bonus: null
+            advState: neutral
+            diceRolling:
+              multiplier: prof
+              flatMultiplier: 1
+              dice: d6
+              compare: null
+              treshold: null
+            useDefault: false
+          save:
+            trait: null
+            difficulty: null
+            damageMod: none
+          name: Cast
+          img: icons/magic/unholy/hand-fire-skeleton-pink.webp
+          range: ''
+          baseAction: false
+          originItem:
+            type: itemCollection
+          triggers: []
+          areas: []
+      resource:
+        type: simple
+        value: 0
+        max: '@cast'
+        icon: ''
+        recovery: null
+        progression: increasing
+        diceStates: {}
+        dieFaces: d4
+      inVault: true
+      attribution: {}
+      vaultActive: false
+      loadoutIgnore: false
+      domainTouched: null
+    flags: {}
+    _stats:
+      coreVersion: '14.360'
+      systemId: daggerheart
+      systemVersion: 2.2.1
+      createdTime: 1777621319794
+      modifiedTime: 1777621319794
+      lastModifiedBy: pQzNfYJpGL2Gy8DA
+      exportSource: null
+      compendiumSource: null
+      duplicateSource: null
+    _id: 572c2xREe2Az41wH
+    sort: 3400000
+    effects:
+      - name: Invisible
+        img: icons/magic/unholy/hand-fire-skeleton-pink.webp
+        origin: Compendium.daggerheart.domains.Item.KHkzA4Zrw8EWN1CH
+        transfer: false
+        _id: bRJy0MoIPQEQOMzZ
+        type: base
+        system:
+          rangeDependence:
+            enabled: false
+            type: withinRange
+            target: hostile
+            range: melee
+          changes: []
+          duration:
+            description: ''
+          stacking: null
+          targetDispositions: []
+        disabled: false
+        duration:
+          value: null
+          units: seconds
+          expiry: null
+          expired: false
+        description: >-
+          <p><span style="color:rgb(239, 230, 216);font-family:Montserrat,
+          sans-serif;font-size:14px;font-style:normal;font-variant-ligatures:normal;font-variant-caps:normal;font-weight:400;letter-spacing:normal;orphans:2;text-align:start;text-indent:0px;text-transform:none;widows:2;word-spacing:0px;-webkit-text-stroke-width:0px;white-space:normal;background-color:rgba(24,
+          22, 46,
+          0.376);text-decoration-thickness:initial;text-decoration-style:initial;text-decoration-color:initial;display:inline
+          !important;float:none">An </span><span
+          style="box-sizing:border-box;scrollbar-width:thin;scrollbar-color:rgb(93,
+          20, 43) rgba(0, 0, 0, 0);color:rgb(239, 230,
+          216);font-family:Montserrat,
+          sans-serif;font-size:14px;font-variant-ligatures:normal;font-variant-caps:normal;font-weight:400;letter-spacing:normal;orphans:2;text-align:start;text-indent:0px;text-transform:none;widows:2;word-spacing:0px;-webkit-text-stroke-width:0px;white-space:normal;background-color:rgba(24,
+          22, 46,
+          0.376);text-decoration-thickness:initial;text-decoration-style:initial;text-decoration-color:initial">Invisible</span><span
+          style="color:rgb(239, 230, 216);font-family:Montserrat,
+          sans-serif;font-size:14px;font-style:normal;font-variant-ligatures:normal;font-variant-caps:normal;font-weight:400;letter-spacing:normal;orphans:2;text-align:start;text-indent:0px;text-transform:none;widows:2;word-spacing:0px;-webkit-text-stroke-width:0px;white-space:normal;background-color:rgba(24,
+          22, 46,
+          0.376);text-decoration-thickness:initial;text-decoration-style:initial;text-decoration-color:initial;display:inline
+          !important;float:none"> creature can’t be seen except through magical
+          means and </span><span class="tooltip-convert"
+          style="box-sizing:border-box;scrollbar-width:thin;scrollbar-color:rgb(93,
+          20, 43) rgba(0, 0, 0, 0);color:rgb(239, 230,
+          216);font-family:Montserrat,
+          sans-serif;font-size:14px;font-style:normal;font-variant-ligatures:normal;font-variant-caps:normal;font-weight:400;letter-spacing:normal;orphans:2;text-align:start;text-indent:0px;text-transform:none;widows:2;word-spacing:0px;-webkit-text-stroke-width:0px;white-space:normal;background-color:rgba(24,
+          22, 46,
+          0.376);text-decoration-thickness:initial;text-decoration-style:initial;text-decoration-color:initial">attack
+          rolls</span><span style="color:rgb(239, 230,
+          216);font-family:Montserrat,
+          sans-serif;font-size:14px;font-style:normal;font-variant-ligatures:normal;font-variant-caps:normal;font-weight:400;letter-spacing:normal;orphans:2;text-align:start;text-indent:0px;text-transform:none;widows:2;word-spacing:0px;-webkit-text-stroke-width:0px;white-space:normal;background-color:rgba(24,
+          22, 46,
+          0.376);text-decoration-thickness:initial;text-decoration-style:initial;text-decoration-color:initial;display:inline
+          !important;float:none"> against them are made with </span><span
+          class="tooltip-convert"
+          style="box-sizing:border-box;scrollbar-width:thin;scrollbar-color:rgb(93,
+          20, 43) rgba(0, 0, 0, 0);color:rgb(239, 230,
+          216);font-family:Montserrat,
+          sans-serif;font-size:14px;font-style:normal;font-variant-ligatures:normal;font-variant-caps:normal;font-weight:400;letter-spacing:normal;orphans:2;text-align:start;text-indent:0px;text-transform:none;widows:2;word-spacing:0px;-webkit-text-stroke-width:0px;white-space:normal;background-color:rgba(24,
+          22, 46,
+          0.376);text-decoration-thickness:initial;text-decoration-style:initial;text-decoration-color:initial">disadvantage</span><span
+          style="color:rgb(239, 230, 216);font-family:Montserrat,
+          sans-serif;font-size:14px;font-style:normal;font-variant-ligatures:normal;font-variant-caps:normal;font-weight:400;letter-spacing:normal;orphans:2;text-align:start;text-indent:0px;text-transform:none;widows:2;word-spacing:0px;-webkit-text-stroke-width:0px;white-space:normal;background-color:rgba(24,
+          22, 46,
+          0.376);text-decoration-thickness:initial;text-decoration-style:initial;text-decoration-color:initial;display:inline
+          !important;float:none">. Place a number of tokens on this card equal
+          to your Spellcast trait. When the </span><span
+          style="box-sizing:border-box;scrollbar-width:thin;scrollbar-color:rgb(93,
+          20, 43) rgba(0, 0, 0, 0);color:rgb(239, 230,
+          216);font-family:Montserrat,
+          sans-serif;font-size:14px;font-variant-ligatures:normal;font-variant-caps:normal;font-weight:400;letter-spacing:normal;orphans:2;text-align:start;text-indent:0px;text-transform:none;widows:2;word-spacing:0px;-webkit-text-stroke-width:0px;white-space:normal;background-color:rgba(24,
+          22, 46,
+          0.376);text-decoration-thickness:initial;text-decoration-style:initial;text-decoration-color:initial">Invisible</span><span
+          style="color:rgb(239, 230, 216);font-family:Montserrat,
+          sans-serif;font-size:14px;font-style:normal;font-variant-ligatures:normal;font-variant-caps:normal;font-weight:400;letter-spacing:normal;orphans:2;text-align:start;text-indent:0px;text-transform:none;widows:2;word-spacing:0px;-webkit-text-stroke-width:0px;white-space:normal;background-color:rgba(24,
+          22, 46,
+          0.376);text-decoration-thickness:initial;text-decoration-style:initial;text-decoration-color:initial;display:inline
+          !important;float:none"> creature takes an action, spend a token from
+          this card. After the action that spends the last token is resolved,
+          the effect ends.</span></p>
+        tint: '#ffffff'
+        statuses: []
+        sort: 0
+        flags: {}
+        _stats:
+          coreVersion: '14.360'
+          systemId: daggerheart
+          systemVersion: 2.2.1
+          lastModifiedBy: pQzNfYJpGL2Gy8DA
+          createdTime: 1777621319794
+          modifiedTime: 1777621319794
+          compendiumSource: null
+          duplicateSource: null
+          exportSource: null
+        start: null
+        showIcon: 1
+        folder: null
+        _key: >-
+          !actors.items.effects!2BwNDGjtOKVIEl7U.572c2xREe2Az41wH.bRJy0MoIPQEQOMzZ
+    ownership:
+      default: 0
+    _key: '!actors.items!2BwNDGjtOKVIEl7U.572c2xREe2Az41wH'
+effects:
+  - name: Rally
+    img: icons/tools/instruments/drum-hand-tan.webp
+    origin: Actor.2BwNDGjtOKVIEl7U.Item.gjdO5Fd2Mn9y7pTe.ActiveEffect.FrSJH9vzDHkFGYQL
+    transfer: false
+    _id: XwkHeDRchiusw0uk
+    type: base
+    system:
+      rangeDependence:
+        enabled: false
+        type: withinRange
+        target: hostile
+        range: melee
+      changes:
+        - key: system.bonuses.rally
+          value: d6
+          priority: null
+          type: add
+          phase: initial
+      duration:
+        description: ''
+      stacking: null
+      targetDispositions: []
+    disabled: true
+    duration:
+      value: null
+      units: seconds
+      expiry: null
+      expired: false
+    description: ''
+    tint: '#ffffff'
+    statuses: []
+    sort: 0
+    flags: {}
+    _stats:
+      coreVersion: '14.360'
+      systemId: daggerheart
+      systemVersion: 2.2.1
+      createdTime: 1777621319794
+      modifiedTime: 1777621319794
+      lastModifiedBy: pQzNfYJpGL2Gy8DA
+      compendiumSource: null
+      duplicateSource: null
+      exportSource: null
+    start:
+      combat: null
+      round: null
+      time: 0
+      turn: null
+      combatant: null
+      initiative: null
+    showIcon: 1
+    folder: null
+    _key: '!actors.effects!2BwNDGjtOKVIEl7U.XwkHeDRchiusw0uk'
+folder: null
+flags: {}
+_stats:
+  coreVersion: '14.360'
+  systemId: daggerheart
+  systemVersion: 2.2.1
+  createdTime: 1777621319794
+  modifiedTime: 1777621319808
+  lastModifiedBy: pQzNfYJpGL2Gy8DA
+  exportSource: null
+  compendiumSource: null
+  duplicateSource: null
+ownership:
+  default: 0
+  pQzNfYJpGL2Gy8DA: 3
+sort: 0
+_key: '!actors!2BwNDGjtOKVIEl7U'

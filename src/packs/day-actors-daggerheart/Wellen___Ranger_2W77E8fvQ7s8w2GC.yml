@@ -1,0 +1,1876 @@
+name: Wellen - Ranger
+type: character
+_id: 2W77E8fvQ7s8w2GC
+img: modules/dannysmodule/assets/tokens/Wellen%20full%20transparent.webp
+system:
+  resistance:
+    physical:
+      resistance: false
+      immunity: false
+      reduction: 0
+    magical:
+      resistance: false
+      immunity: false
+      reduction: 0
+  resources:
+    hitPoints:
+      value: 0
+      max: null
+    stress:
+      value: 0
+      max: null
+    hope:
+      value: 2
+      max: null
+  advantageSources: []
+  disadvantageSources: []
+  traits:
+    agility:
+      value: 2
+      tierMarked: false
+    strength:
+      value: 0
+      tierMarked: false
+    finesse:
+      value: 1
+      tierMarked: false
+    instinct:
+      value: 1
+      tierMarked: false
+    presence:
+      value: -1
+      tierMarked: false
+    knowledge:
+      value: 0
+      tierMarked: false
+  proficiency: 1
+  evasion: 0
+  damageThresholds:
+    major: 0
+    severe: 0
+  experiences:
+    LVZks3PmrTPpmgN1:
+      name: Best from a distance
+      value: 2
+      core: true
+      description: ''
+    K9pRjeWCcvchCzGd:
+      name: Calm under pressure
+      value: 2
+      core: true
+      description: ''
+  gold:
+    coins: 0
+    handfuls: 1
+    bags: 0
+    chests: 0
+  scars: 0
+  biography:
+    background: >-
+      <p><strong>A terrible creature hurt your community, and you’ve vowed to
+      hunt them down. What are they, and what unique trail or sign do they leave
+      behind?</strong></p><br><p><strong>Your first kill almost killed you, too.
+      What was it, and what part of you was never the same after that
+      event?</strong></p><br><p><strong>You’ve traveled many dangerous lands,
+      but what is the one place you refuse to go?</strong></p>
+    connections: >-
+      <p><strong>What friendly competition do we
+      have?</strong></p><br><p><strong>Why do you act differently when we’re
+      alone than when others are around?</strong></p><br><p><strong>What threat
+      have you asked me to watch for, and why are you worried about
+      it?</strong></p>
+    characteristics:
+      pronouns: ''
+      age: ''
+      faith: ''
+  attack:
+    name: DAGGERHEART.GENERAL.unarmedAttack
+    img: icons/skills/melee/unarmed-punch-fist-yellow-red.webp
+    _id: Yqc9zvRhXIgAXQX3
+    systemPath: attack
+    chatDisplay: false
+    type: attack
+    range: melee
+    target:
+      type: any
+      amount: 1
+    roll:
+      type: attack
+      trait: strength
+      difficulty: null
+      bonus: null
+      advState: neutral
+      diceRolling:
+        multiplier: prof
+        flatMultiplier: 1
+        dice: d6
+        compare: null
+        treshold: null
+      useDefault: false
+    damage:
+      parts:
+        hitPoints:
+          type:
+            - physical
+          value:
+            custom:
+              enabled: true
+              formula: '@profd4'
+            multiplier: flat
+            flatMultiplier: 1
+            dice: d6
+            bonus: null
+          applyTo: hitPoints
+          resultBased: false
+          valueAlt:
+            multiplier: flat
+            flatMultiplier: 1
+            dice: d6
+            bonus: null
+            custom:
+              enabled: false
+              formula: ''
+          base: false
+      includeBase: false
+      direct: false
+    baseAction: false
+    description: ''
+    originItem:
+      type: itemCollection
+    actionType: action
+    triggers: []
+    areas: []
+    cost: []
+    uses:
+      value: null
+      max: null
+      recovery: null
+      consumeOnSuccess: false
+    effects: []
+    save:
+      trait: null
+      difficulty: null
+      damageMod: none
+  levelData:
+    level:
+      current: 1
+      changed: 1
+      bonuses: {}
+    levelups: {}
+  bonuses:
+    roll:
+      attack:
+        bonus: 0
+        dice: []
+      spellcast:
+        bonus: 0
+        dice: []
+      trait:
+        bonus: 0
+        dice: []
+      action:
+        bonus: 0
+        dice: []
+      reaction:
+        bonus: 0
+        dice: []
+      primaryWeapon:
+        bonus: 0
+        dice: []
+      secondaryWeapon:
+        bonus: 0
+        dice: []
+    damage:
+      physical:
+        bonus: 0
+        dice: []
+      magical:
+        bonus: 0
+        dice: []
+      primaryWeapon:
+        bonus: 0
+        dice: []
+      secondaryWeapon:
+        bonus: 0
+        dice: []
+    healing:
+      bonus: 0
+      dice: []
+    range:
+      weapon: 0
+      spell: 0
+      other: 0
+    rally: []
+    rest:
+      shortRest:
+        shortMoves: 0
+        longMoves: 0
+      longRest:
+        shortMoves: 0
+        longMoves: 0
+    maxLoadout: 0
+  companion: null
+  rules:
+    conditionImmunities:
+      hidden: false
+      restrained: false
+      vulnerable: false
+    damageReduction:
+      thresholdImmunities:
+        minor: false
+      reduceSeverity:
+        magical: 0
+        physical: 0
+      magical: false
+      physical: false
+      maxArmorMarked:
+        value: 1
+        stressExtra: 0
+      stressDamageReduction:
+        severe: {}
+        major: {}
+        minor: {}
+        any: {}
+      increasePerArmorMark: 1
+      disabledArmor: false
+    attack:
+      damage:
+        hpDamageMultiplier: 1
+        hpDamageTakenMultiplier: 1
+        diceIndex: 0
+        bonus: 0
+      roll:
+        trait: null
+    dualityRoll:
+      defaultHopeDice: 12
+      defaultFearDice: 12
+    burden:
+      ignore: false
+    roll:
+      guaranteedCritical: false
+      defaultAdvantageDice: null
+      defaultDisadvantageDice: null
+prototypeToken:
+  name: Wellen - Ranger
+  displayName: 0
+  actorLink: true
+  width: 1
+  height: 1
+  depth: 1
+  texture:
+    src: modules/dannysmodule/assets/tokens/Wellen%20token.webp
+    anchorX: 0.5
+    anchorY: 0.5
+    fit: contain
+    scaleX: 1
+    scaleY: 1
+    tint: '#ffffff'
+    alphaThreshold: 0.75
+  lockRotation: true
+  rotation: 0
+  alpha: 1
+  disposition: 1
+  displayBars: 30
+  bar1:
+    attribute: resources.hitPoints
+  bar2:
+    attribute: resources.stress
+  light:
+    negative: false
+    priority: 0
+    alpha: 0.5
+    angle: 360
+    bright: 0
+    color: null
+    coloration: 1
+    dim: 0
+    attenuation: 0.5
+    luminosity: 0.5
+    saturation: 0
+    contrast: 0
+    shadows: 0
+    animation:
+      type: null
+      speed: 5
+      intensity: 5
+      reverse: false
+    darkness:
+      min: 0
+      max: 1
+  sight:
+    enabled: true
+    range: 0
+    angle: 360
+    visionMode: basic
+    color: null
+    attenuation: 0.1
+    brightness: 0
+    saturation: 0
+    contrast: 0
+  detectionModes:
+    basicSight:
+      range: 60
+      enabled: true
+  occludable:
+    radius: 0
+  ring:
+    enabled: true
+    colors:
+      ring: null
+      background: null
+    effects: 1
+    subject:
+      scale: 1
+      texture: null
+  turnMarker:
+    mode: 1
+    animation: null
+    src: null
+    disposition: false
+  movementAction: null
+  flags: {}
+  randomImg: false
+  appendNumber: false
+  prependAdjective: false
+items:
+  - folder: dSAccOl5ccgXPyje
+    name: Surefooted
+    type: feature
+    _id: GHWGyEVasBobsQNS
+    img: icons/skills/movement/feet-bladed-boots-fire.webp
+    system:
+      description: <p>You ignore disadvantage on Agility Rolls.</p>
+      resource: null
+      actions: {}
+      originItemType: ancestry
+      attribution:
+        source: Daggerheart SRD
+        page: 29
+        artist: ''
+      multiclassOrigin: false
+      identifier: primary
+      featureForm: passive
+    effects: []
+    sort: 0
+    flags: {}
+    _stats:
+      coreVersion: '14.360'
+      systemId: daggerheart
+      systemVersion: 2.2.1
+      createdTime: 1777621319805
+      modifiedTime: 1777621319805
+      lastModifiedBy: pQzNfYJpGL2Gy8DA
+      exportSource: null
+      compendiumSource: null
+      duplicateSource: null
+    ownership:
+      default: 0
+    _key: '!actors.items!2W77E8fvQ7s8w2GC.GHWGyEVasBobsQNS'
+  - folder: dSAccOl5ccgXPyje
+    name: Danger Sense
+    type: feature
+    _id: Lkq9mCVW5fKz4nzS
+    img: icons/magic/perception/orb-eye-scrying.webp
+    system:
+      description: >-
+        <p>Once per rest, <strong>mark a Stress</strong> to force an adversary
+        to reroll an attack against you or an ally within Very Close range.</p>
+      resource: null
+      actions:
+        V2K3pMWOCVwBUnjq:
+          type: effect
+          _id: V2K3pMWOCVwBUnjq
+          systemPath: actions
+          description: >-
+            <p>Once per rest, <strong>mark a Stress</strong> to force an
+            adversary to reroll an attack against you or an ally within Very
+            Close range.</p>
+          chatDisplay: true
+          actionType: action
+          cost:
+            - scalable: false
+              key: stress
+              value: 1
+              step: null
+              itemId: null
+              consumeOnSuccess: false
+          uses:
+            value: null
+            max: '1'
+            recovery: shortRest
+            consumeOnSuccess: false
+          effects: []
+          target:
+            type: friendly
+            amount: null
+          name: Mark Stress
+          img: icons/magic/perception/orb-eye-scrying.webp
+          range: veryClose
+          baseAction: false
+          originItem:
+            type: itemCollection
+          triggers: []
+          areas: []
+      originItemType: ancestry
+      attribution:
+        source: Daggerheart SRD
+        page: 29
+        artist: ''
+      multiclassOrigin: false
+      identifier: secondary
+      featureForm: passive
+    effects: []
+    sort: 0
+    flags: {}
+    _stats:
+      coreVersion: '14.360'
+      systemId: daggerheart
+      systemVersion: 2.2.1
+      createdTime: 1777621319805
+      modifiedTime: 1777621319805
+      lastModifiedBy: pQzNfYJpGL2Gy8DA
+      exportSource: null
+      compendiumSource: null
+      duplicateSource: null
+    ownership:
+      default: 0
+    _key: '!actors.items!2W77E8fvQ7s8w2GC.Lkq9mCVW5fKz4nzS'
+  - effects: []
+    _id: zlxRXMLZl8Tzf9Tv
+    name: Goblin
+    type: ancestry
+    img: icons/magic/symbols/arrowhead-green.webp
+    system:
+      attribution:
+        source: Daggerheart SRD
+        page: 29
+        artist: ''
+      description: >-
+        <p>Goblins are small humanoids easily recognizable by their large eyes
+        and massive membranous ears. With keen hearing and sharp eyesight, they
+        perceive details both at great distances and in darkness, allowing them
+        to move through less-optimal environments with ease. Their skin and eye
+        colors are incredibly varied, with no one hue, either vibrant or
+        subdued, more dominant than another. A typical goblin stands between 3
+        feet and 4 feet tall, and each of their ears is about the size of their
+        head. Goblins are known to use ear positions to very specific effect
+        when communicating nonverbally. A goblin’s lifespan is roughly 100
+        years, and many maintain their keen hearing and sight well into advanced
+        age.</p>
+      features:
+        - type: primary
+          item: Compendium.daggerheart.ancestries.Item.YsJticxv8OFndd4D
+        - type: secondary
+          item: Compendium.daggerheart.ancestries.Item.AXqcoxnRoWBbbKpK
+    folder: null
+    sort: 3400000
+    flags: {}
+    _stats:
+      coreVersion: '14.360'
+      systemId: daggerheart
+      systemVersion: 2.2.1
+      createdTime: 1777621319805
+      modifiedTime: 1777621319805
+      lastModifiedBy: pQzNfYJpGL2Gy8DA
+      exportSource: null
+      compendiumSource: null
+      duplicateSource: null
+    ownership:
+      default: 0
+    _key: '!actors.items!2W77E8fvQ7s8w2GC.zlxRXMLZl8Tzf9Tv'
+  - folder: KA1VSGslxkbvVeMp
+    name: Nomadic Pack
+    type: feature
+    _id: 71jybM8T8yrKSmGv
+    img: icons/containers/bags/pack-leather-brown.webp
+    system:
+      description: >-
+        <p>Add a Nomadic Pack to your inventory. Once per session, you can spend
+        a Hope to reach into this pack and pull out a mundane item that’s useful
+        to your situation. Work with the GM to figure out what item you take
+        out.</p>
+      resource: null
+      actions:
+        Jd9uVincqkIMAXgU:
+          type: effect
+          _id: Jd9uVincqkIMAXgU
+          systemPath: actions
+          description: ''
+          chatDisplay: true
+          actionType: action
+          cost:
+            - key: hope
+              value: 1
+              scalable: false
+              step: null
+              itemId: null
+              consumeOnSuccess: false
+          uses:
+            value: null
+            max: '1'
+            recovery: session
+            consumeOnSuccess: false
+          effects: []
+          target:
+            type: any
+            amount: null
+          name: Pull Item
+          img: icons/containers/bags/pack-leather-brown.webp
+          range: ''
+          baseAction: false
+          originItem:
+            type: itemCollection
+          triggers: []
+          areas: []
+      originItemType: community
+      attribution:
+        source: Daggerheart SRD
+        page: 34
+        artist: ''
+      multiclassOrigin: false
+      featureForm: passive
+    effects: []
+    flags: {}
+    sort: 0
+    _stats:
+      coreVersion: '14.360'
+      systemId: daggerheart
+      systemVersion: 2.2.1
+      createdTime: 1777621319805
+      modifiedTime: 1777621319805
+      lastModifiedBy: pQzNfYJpGL2Gy8DA
+      exportSource: null
+      compendiumSource: null
+      duplicateSource: null
+    ownership:
+      default: 0
+    _key: '!actors.items!2W77E8fvQ7s8w2GC.71jybM8T8yrKSmGv'
+  - effects: []
+    _id: bAaSoTKsmQrhlQjf
+    name: Wanderborne
+    type: community
+    img: icons/environment/settlement/wagon.webp
+    system:
+      description: >-
+        <p>Being part of a wanderborne community means you’ve lived as a nomad,
+        forgoing a permanent home and experiencing a wide variety of cultures.
+        Unlike many communities that are defined by their locale, wanderborne
+        are defined by their traveling lifestyle. Because of their frequent
+        migration, wanderborne put less value on the accumulation of material
+        possessions in favor of acquiring information, skills, and connections.
+        While some wanderborne are allied by a common ethos, such as a religion
+        or a set of political or economic values, others come together after
+        shared tragedy, such as the loss of their home or land. No matter the
+        reason, the dangers posed by life on the road and the choice to continue
+        down that road together mean that wanderborne are known for their
+        unwavering loyalty.</p><p class="green Body-Styles_Body"><em>Wanderborne
+        are often inscrutable, magnanimous, mirthful, reliable, savvy, and
+        unorthodox.</em></p>
+      features:
+        - Compendium.daggerheart.communities.Item.2RSrQouA2zEJ5Xee
+      attribution:
+        source: Daggerheart SRD
+        page: 34
+        artist: ''
+    folder: null
+    sort: 3400000
+    flags: {}
+    _stats:
+      coreVersion: '14.360'
+      systemId: daggerheart
+      systemVersion: 2.2.1
+      createdTime: 1777621319805
+      modifiedTime: 1777621319805
+      lastModifiedBy: pQzNfYJpGL2Gy8DA
+      exportSource: null
+      compendiumSource: null
+      duplicateSource: null
+    ownership:
+      default: 0
+    _key: '!actors.items!2W77E8fvQ7s8w2GC.bAaSoTKsmQrhlQjf'
+  - folder: onLJZkd7ZOMBaFMG
+    name: Ranger's Focus
+    type: feature
+    _id: FJ5F8YxX0wQ4MVPQ
+    img: icons/magic/perception/eye-ringed-green.webp
+    system:
+      description: >-
+        <p>Spend a Hope and make an attack against a target. On a success, deal
+        your attack’s normal damage and temporarily make the attack’s target
+        your Focus. Until this feature ends or you make a different creature
+        your Focus, you gain the following benefits against your Focus:
+        </p><ul><li><p>You know precisely what direction they are in.
+        </p></li><li><p>When you deal damage to them, they must mark a Stress.
+        </p></li><li><p>When you fail an attack against them, you can end your
+        Ranger’s Focus feature to reroll your Duality Dice.</p></li></ul>
+      resource: null
+      actions:
+        dTkLqUxZpW4xOEKW:
+          type: effect
+          _id: dTkLqUxZpW4xOEKW
+          systemPath: actions
+          description: >-
+            <p>Spend a Hope and make an attack against a target. On a success,
+            deal your attack’s normal damage and temporarily make the attack’s
+            target your Focus. Until this feature ends or you make a different
+            creature your Focus, you gain the following benefits against your
+            Focus:</p><ul><li><p>You know precisely what direction they are
+            in.</p></li><li><p>When you deal damage to them, they must mark a
+            Stress.</p></li><li><p>When you fail an attack against them, you can
+            end your Ranger’s Focus feature to reroll your Duality
+            Dice.</p></li></ul>
+          chatDisplay: true
+          actionType: action
+          cost:
+            - key: hope
+              value: 1
+              scalable: false
+              step: null
+              itemId: null
+              consumeOnSuccess: false
+          uses:
+            value: null
+            max: ''
+            recovery: null
+            consumeOnSuccess: false
+          effects:
+            - _id: SXi2dQWqpwY9fap4
+              onSave: false
+          target:
+            type: any
+            amount: null
+          name: Spend Hope
+          img: icons/magic/perception/eye-ringed-green.webp
+          range: ''
+          baseAction: false
+          originItem:
+            type: itemCollection
+          triggers: []
+          areas: []
+      originItemType: class
+      attribution:
+        source: Daggerheart SRD
+        page: 17
+        artist: ''
+      multiclassOrigin: false
+      identifier: class
+      featureForm: passive
+    effects:
+      - name: Ranger's Focus
+        img: icons/magic/perception/eye-ringed-green.webp
+        origin: Compendium.daggerheart.classes.Item.ncLx2P8BOUtrAD38
+        transfer: false
+        _id: SXi2dQWqpwY9fap4
+        type: base
+        system:
+          rangeDependence:
+            enabled: false
+            type: withinRange
+            target: hostile
+            range: melee
+          changes: []
+          duration:
+            description: ''
+          stacking: null
+          targetDispositions: []
+        disabled: false
+        duration:
+          value: null
+          units: seconds
+          expiry: null
+          expired: false
+        description: >-
+          <p>Until this feature ends or the ranger makes a different creature
+          their Focus, they gain the following benefits against this
+          adversary:</p><ul><li><p>They know precisely what direction they are
+          in.</p></li><li><p>When they deal damage to them, the adverasry must
+          mark a Stress.</p></li><li><p>When they fail an attack against them,
+          they can end their Ranger’s Focus feature to reroll their Duality
+          Dice.</p></li></ul>
+        tint: '#ffffff'
+        statuses: []
+        sort: 0
+        flags: {}
+        _stats:
+          coreVersion: '14.360'
+          systemId: daggerheart
+          systemVersion: 2.2.1
+          createdTime: 1777621319805
+          modifiedTime: 1777621319805
+          lastModifiedBy: pQzNfYJpGL2Gy8DA
+          compendiumSource: null
+          duplicateSource: null
+          exportSource: null
+        start: null
+        showIcon: 1
+        folder: null
+        _key: >-
+          !actors.items.effects!2W77E8fvQ7s8w2GC.FJ5F8YxX0wQ4MVPQ.SXi2dQWqpwY9fap4
+    sort: 0
+    flags: {}
+    _stats:
+      coreVersion: '14.360'
+      systemId: daggerheart
+      systemVersion: 2.2.1
+      createdTime: 1777621319805
+      modifiedTime: 1777621319805
+      lastModifiedBy: pQzNfYJpGL2Gy8DA
+      exportSource: null
+      compendiumSource: null
+      duplicateSource: null
+    ownership:
+      default: 0
+    _key: '!actors.items!2W77E8fvQ7s8w2GC.FJ5F8YxX0wQ4MVPQ'
+  - folder: onLJZkd7ZOMBaFMG
+    name: Hold Them Off
+    type: feature
+    _id: MrmpfHYdnzulYkYe
+    img: icons/magic/defensive/barrier-shield-dome-deflect-teal.webp
+    system:
+      description: >-
+        <p><strong>Spend 3 Hope</strong> when you succeed on an attack with a
+        weapon to use that same roll against two additional adversaries within
+        range of the attack.</p>
+      resource: null
+      actions:
+        yhVUna5biFAN0o2Y:
+          type: effect
+          _id: yhVUna5biFAN0o2Y
+          systemPath: actions
+          description: >-
+            <p><strong>Spend 3 Hope</strong> when you succeed on an attack with
+            a weapon to use that same roll against two additional adversaries
+            within range of the attack.</p>
+          chatDisplay: true
+          actionType: action
+          cost:
+            - scalable: false
+              key: hope
+              value: 3
+              step: null
+              itemId: null
+              consumeOnSuccess: false
+          uses:
+            value: null
+            max: ''
+            recovery: null
+            consumeOnSuccess: false
+          effects: []
+          target:
+            type: any
+            amount: null
+          name: Spend Hope
+          img: icons/magic/defensive/barrier-shield-dome-deflect-teal.webp
+          range: ''
+          baseAction: false
+          originItem:
+            type: itemCollection
+          triggers: []
+          areas: []
+      originItemType: class
+      attribution:
+        source: Daggerheart SRD
+        page: 16
+        artist: ''
+      multiclassOrigin: false
+      identifier: hope
+      featureForm: passive
+    effects: []
+    sort: 0
+    flags: {}
+    _stats:
+      coreVersion: '14.360'
+      systemId: daggerheart
+      systemVersion: 2.2.1
+      createdTime: 1777621319805
+      modifiedTime: 1777621319805
+      lastModifiedBy: pQzNfYJpGL2Gy8DA
+      exportSource: null
+      compendiumSource: null
+      duplicateSource: null
+    ownership:
+      default: 0
+    _key: '!actors.items!2W77E8fvQ7s8w2GC.MrmpfHYdnzulYkYe'
+  - effects: []
+    _id: mFsmGGEWiSzHFaGD
+    name: Ranger
+    type: class
+    img: icons/weapons/bows/shortbow-recurve-yellow-blue.webp
+    system:
+      description: >-
+        <p>Rangers are highly skilled hunters who, despite their martial
+        abilities, rarely lend their skills to an army. Through mastery of the
+        body and a deep understanding of the wilderness, rangers become sly
+        tacticians, pursuing their quarry with cunning and patience. Many
+        rangers track and fight alongside an animal companion with whom they’ve
+        forged a powerful spiritual bond. By honing their skills in the wild,
+        rangers become expert trackers, as likely to ensnare their foes in a
+        trap as they are to assail them head-on.</p>
+      domains:
+        - bone
+        - sage
+      classItems: []
+      hitPoints: 6
+      evasion: 12
+      features:
+        - type: hope
+          item: Compendium.daggerheart.classes.Item.2Cyb9ZeuAesf5Sb3
+        - type: class
+          item: Compendium.daggerheart.classes.Item.ncLx2P8BOUtrAD38
+      subclasses:
+        - Compendium.daggerheart.subclasses.Item.TIUsIlTS1WkK5vr2
+        - Compendium.daggerheart.subclasses.Item.zsUglcU4NgZ8tNgZ
+      inventory:
+        take:
+          - Compendium.daggerheart.classes.Item.hMST9iizQP1yz0MG
+          - Compendium.daggerheart.classes.Item.uoG5iq09mxJPXfmk
+          - Compendium.daggerheart.classes.Item.zqeXrJTd1geX73Pw
+        choiceA:
+          - Compendium.daggerheart.consumables.Item.tPfKtKRRjv8qdSqy
+          - Compendium.daggerheart.consumables.Item.b6vGSPFWOlzZZDLO
+        choiceB:
+          - Compendium.daggerheart.classes.Item.eslejbiZRH6ODh9U
+          - Compendium.daggerheart.classes.Item.8k76EgktQXFWHf8r
+      characterGuide:
+        suggestedTraits:
+          agility: 2
+          strength: 0
+          finesse: 1
+          instinct: 1
+          presence: -1
+          knowledge: 0
+        suggestedPrimaryWeapon: Compendium.daggerheart.weapons.Item.p9tdjQr2AZP19RYm
+        suggestedSecondaryWeapon: null
+        suggestedArmor: Compendium.daggerheart.armors.Item.nibfdNtp2PtxvbVz
+      isMulticlass: false
+      attribution:
+        source: Daggerheart SRD
+        page: 16
+        artist: ''
+      backgroundQuestions:
+        - >-
+          A terrible creature hurt your community, and you’ve vowed to hunt them
+          down. What are they, and what unique trail or sign do they leave
+          behind?
+        - >-
+          Your first kill almost killed you, too. What was it, and what part of
+          you was never the same after that event?
+        - >-
+          You’ve traveled many dangerous lands, but what is the one place you
+          refuse to go?
+      connections:
+        - What friendly competition do we have?
+        - >-
+          Why do you act differently when we’re alone than when others are
+          around?
+        - >-
+          What threat have you asked me to watch for, and why are you worried
+          about it?
+    folder: null
+    sort: 712500
+    flags: {}
+    _stats:
+      coreVersion: '14.360'
+      systemId: daggerheart
+      systemVersion: 2.2.1
+      createdTime: 1777621319805
+      modifiedTime: 1777621319805
+      lastModifiedBy: pQzNfYJpGL2Gy8DA
+      exportSource: null
+      compendiumSource: null
+      duplicateSource: null
+    ownership:
+      default: 0
+    _key: '!actors.items!2W77E8fvQ7s8w2GC.mFsmGGEWiSzHFaGD'
+  - folder: D1rRX2AQ9wzVOsKy
+    name: Ruthless Predator
+    type: feature
+    _id: 76zOKlc6LehbEqDa
+    img: icons/creatures/mammals/wolf-shadow-black.webp
+    system:
+      description: >-
+        <p>When you make a damage roll, you can mark a Stress to gain a +1 bonus
+        to your Proficiency. Additionally, when you deal Severe damage to an
+        adversary, they must mark a Stress.</p>
+      resource: null
+      actions:
+        0YRLL1HC4XS3tX00:
+          type: effect
+          _id: 0YRLL1HC4XS3tX00
+          systemPath: actions
+          description: >-
+            <p>When you make a damage roll, you can mark a Stress to gain a +1
+            bonus to your Proficiency. Additionally, when you deal Severe damage
+            to an adversary, they must mark a Stress.</p>
+          chatDisplay: true
+          actionType: action
+          cost:
+            - scalable: false
+              key: stress
+              value: 1
+              step: null
+              itemId: null
+              consumeOnSuccess: false
+          uses:
+            value: null
+            max: ''
+            recovery: null
+            consumeOnSuccess: false
+          effects:
+            - _id: 8BNwCS7ueIQuvn2M
+              onSave: false
+          target:
+            type: self
+            amount: null
+          name: Mark Stress
+          img: icons/creatures/mammals/wolf-shadow-black.webp
+          range: self
+          baseAction: false
+          originItem:
+            type: itemCollection
+          triggers: []
+          areas: []
+      originItemType: subclass
+      attribution:
+        source: Daggerheart SRD
+        page: 17
+        artist: ''
+      multiclassOrigin: false
+      identifier: foundation
+      featureForm: passive
+    effects:
+      - name: Ruthless Predator
+        img: icons/creatures/mammals/wolf-shadow-black.webp
+        origin: Compendium.daggerheart.subclasses.Item.Qny2J3R35bvC0Cey
+        transfer: false
+        _id: 8BNwCS7ueIQuvn2M
+        type: base
+        system:
+          rangeDependence:
+            enabled: false
+            type: withinRange
+            target: any
+            range: self
+          changes:
+            - key: system.proficiency
+              value: 1
+              priority: null
+              type: add
+              phase: initial
+          duration:
+            description: ''
+          stacking: null
+          targetDispositions: []
+        disabled: false
+        duration:
+          value: null
+          units: seconds
+          expiry: null
+          expired: false
+        description: >-
+          <p>When you make a damage roll, you can mark a Stress to gain a +1
+          bonus to your Proficiency. Additionally, when you deal Severe damage
+          to an adversary, they must mark a Stress.</p>
+        tint: '#ffffff'
+        statuses: []
+        sort: 0
+        flags: {}
+        _stats:
+          coreVersion: '14.360'
+          systemId: daggerheart
+          systemVersion: 2.2.1
+          createdTime: 1777621319805
+          modifiedTime: 1777621319805
+          lastModifiedBy: pQzNfYJpGL2Gy8DA
+          compendiumSource: null
+          duplicateSource: null
+          exportSource: null
+        start: null
+        showIcon: 1
+        folder: null
+        _key: >-
+          !actors.items.effects!2W77E8fvQ7s8w2GC.76zOKlc6LehbEqDa.8BNwCS7ueIQuvn2M
+    sort: 0
+    flags: {}
+    _stats:
+      coreVersion: '14.360'
+      systemId: daggerheart
+      systemVersion: 2.2.1
+      createdTime: 1777621319805
+      modifiedTime: 1777621319805
+      lastModifiedBy: pQzNfYJpGL2Gy8DA
+      exportSource: null
+      compendiumSource: null
+      duplicateSource: null
+    ownership:
+      default: 0
+    _key: '!actors.items!2W77E8fvQ7s8w2GC.76zOKlc6LehbEqDa'
+  - folder: D1rRX2AQ9wzVOsKy
+    name: Path Forward
+    type: feature
+    _id: e0oyoJloc3LHEdKT
+    img: icons/environment/wilderness/terrain-river-road-gray.webp
+    system:
+      description: >-
+        <p>When you’re traveling to a place you’ve previously visited or you
+        carry an object that has been at the location before, you can identify
+        the shortest, most direct path to your destination.</p>
+      resource: null
+      actions: {}
+      originItemType: subclass
+      attribution:
+        source: Daggerheart SRD
+        page: 17
+        artist: ''
+      multiclassOrigin: false
+      identifier: foundation
+      featureForm: passive
+    effects: []
+    sort: 0
+    flags: {}
+    _stats:
+      coreVersion: '14.360'
+      systemId: daggerheart
+      systemVersion: 2.2.1
+      createdTime: 1777621319805
+      modifiedTime: 1777621319805
+      lastModifiedBy: pQzNfYJpGL2Gy8DA
+      exportSource: null
+      compendiumSource: null
+      duplicateSource: null
+    ownership:
+      default: 0
+    _key: '!actors.items!2W77E8fvQ7s8w2GC.e0oyoJloc3LHEdKT'
+  - folder: bv1Sw5FYWaS572v3
+    name: Elusive Predator
+    type: feature
+    _id: 46b12ojLYHIVyJSN
+    img: icons/creatures/mammals/beast-horned-scaled-glowing-orange.webp
+    system:
+      description: >-
+        <p>When your Focus makes an attack against you, you gain a +2 bonus to
+        your Evasion against the attack.</p>
+      resource: null
+      actions: {}
+      originItemType: subclass
+      attribution:
+        source: Daggerheart SRD
+        page: 17
+        artist: ''
+      multiclassOrigin: false
+      identifier: specialization
+      featureForm: passive
+    effects:
+      - name: Elusive Predator
+        type: base
+        system:
+          rangeDependence:
+            enabled: false
+            type: withinRange
+            target: hostile
+            range: melee
+          changes:
+            - key: system.evasion
+              value: 2
+              priority: null
+              type: add
+              phase: initial
+          duration:
+            type: ''
+            description: >-
+              <p><span style="color: rgb(239, 230, 216); font-family:
+              Montserrat, sans-serif; font-size: 14px; font-style: normal;
+              font-variant-ligatures: normal; font-variant-caps: normal;
+              font-weight: 400; letter-spacing: normal; orphans: 2; text-align:
+              start; text-indent: 0px; text-transform: none; widows: 2;
+              word-spacing: 0px; -webkit-text-stroke-width: 0px; white-space:
+              normal; background-color: rgba(24, 22, 46, 0.565);
+              text-decoration-thickness: initial; text-decoration-style:
+              initial; text-decoration-color: initial; display: inline
+              !important; float: none;">Against the attack.</span></p>
+          stacking: null
+          targetDispositions: []
+        _id: X4llFOcAcdJLbear
+        img: icons/creatures/mammals/beast-horned-scaled-glowing-orange.webp
+        disabled: true
+        duration:
+          value: null
+          units: seconds
+          expiry: null
+          expired: false
+        description: >-
+          <p>When your Focus makes an attack against you, you gain a +2 bonus to
+          your Evasion against the attack.</p>
+        origin: null
+        tint: '#ffffff'
+        transfer: true
+        statuses: []
+        sort: 0
+        flags: {}
+        _stats:
+          coreVersion: '14.360'
+          systemId: daggerheart
+          systemVersion: 2.2.1
+          createdTime: 1777621319805
+          modifiedTime: 1777621319805
+          lastModifiedBy: pQzNfYJpGL2Gy8DA
+          compendiumSource: null
+          duplicateSource: null
+          exportSource: null
+        start:
+          time: 0
+          combat: null
+          combatant: null
+          initiative: null
+          round: null
+          turn: null
+        showIcon: 1
+        folder: null
+        _key: >-
+          !actors.items.effects!2W77E8fvQ7s8w2GC.46b12ojLYHIVyJSN.X4llFOcAcdJLbear
+    sort: 0
+    flags: {}
+    _stats:
+      coreVersion: '14.360'
+      systemId: daggerheart
+      systemVersion: 2.2.1
+      createdTime: 1777621319805
+      modifiedTime: 1777621319805
+      lastModifiedBy: pQzNfYJpGL2Gy8DA
+      exportSource: null
+      compendiumSource: null
+      duplicateSource: null
+    ownership:
+      default: 0
+    _key: '!actors.items!2W77E8fvQ7s8w2GC.46b12ojLYHIVyJSN'
+  - folder: vIdORiocrNibqNFF
+    name: Apex Predator
+    type: feature
+    _id: zAjntZ6iAZMBnrp4
+    img: icons/creatures/mammals/bat-giant-tattered-purple.webp
+    system:
+      description: >-
+        <p>Before you make an attack roll against your Focus, you can spend a
+        Hope. On a successful attack, you remove a Fear from the GM’s Fear
+        pool.</p>
+      resource: null
+      actions:
+        LHDsuveQznbcFUhV:
+          type: effect
+          _id: LHDsuveQznbcFUhV
+          systemPath: actions
+          description: >-
+            <p>Before you make an attack roll against your Focus, you can spend
+            a Hope. On a successful attack, you remove a Fear from the GM’s Fear
+            pool.</p>
+          chatDisplay: true
+          actionType: action
+          cost:
+            - key: hope
+              value: 1
+              scalable: false
+              step: null
+              itemId: null
+              consumeOnSuccess: false
+          uses:
+            value: null
+            max: ''
+            recovery: null
+            consumeOnSuccess: false
+          effects: []
+          target:
+            type: any
+            amount: null
+          name: Spend Hope
+          img: icons/creatures/mammals/bat-giant-tattered-purple.webp
+          range: ''
+          baseAction: false
+          originItem:
+            type: itemCollection
+          triggers: []
+          areas: []
+      originItemType: subclass
+      attribution:
+        source: Daggerheart SRD
+        page: 17
+        artist: ''
+      multiclassOrigin: false
+      identifier: mastery
+      featureForm: passive
+    effects: []
+    sort: 0
+    flags: {}
+    _stats:
+      coreVersion: '14.360'
+      systemId: daggerheart
+      systemVersion: 2.2.1
+      createdTime: 1777621319805
+      modifiedTime: 1777621319805
+      lastModifiedBy: pQzNfYJpGL2Gy8DA
+      exportSource: null
+      compendiumSource: null
+      duplicateSource: null
+    ownership:
+      default: 0
+    _key: '!actors.items!2W77E8fvQ7s8w2GC.zAjntZ6iAZMBnrp4'
+  - effects: []
+    _id: cbUt1CDZ9mg8bq0c
+    name: Wayfinder
+    type: subclass
+    img: icons/environment/wilderness/mine-interior-dungeon-door.webp
+    system:
+      description: <p>You wish to hunt your prey and strike with deadly force.</p>
+      spellcastingTrait: agility
+      features:
+        - type: foundation
+          item: Compendium.daggerheart.subclasses.Item.Qny2J3R35bvC0Cey
+        - type: foundation
+          item: Compendium.daggerheart.subclasses.Item.uPPBOpoulUmSLlzr
+        - type: specialization
+          item: Compendium.daggerheart.subclasses.Item.Cjtc43V3IzAmfIFG
+        - type: mastery
+          item: Compendium.daggerheart.subclasses.Item.lwH3E0Zyf4gbVOd0
+      featureState: 1
+      isMulticlass: false
+      attribution:
+        source: Daggerheart SRD
+        page: 17
+        artist: ''
+      linkedClass: Compendium.daggerheart.classes.Item.BTyfve69LKqoOi9S
+    folder: ArVAtkgkm5bYpKHL
+    sort: 0
+    flags: {}
+    _stats:
+      coreVersion: '14.360'
+      systemId: daggerheart
+      systemVersion: 2.2.1
+      createdTime: 1777621319805
+      modifiedTime: 1777621319805
+      lastModifiedBy: pQzNfYJpGL2Gy8DA
+      exportSource: null
+      compendiumSource: null
+      duplicateSource: null
+    ownership:
+      default: 0
+    _key: '!actors.items!2W77E8fvQ7s8w2GC.cbUt1CDZ9mg8bq0c'
+  - effects:
+      - name: Restrained
+        img: icons/magic/control/debuff-chains-shackle-movement-red.webp
+        origin: Compendium.daggerheart.domains.Item.qvpvTnkAoRn9vYO4
+        transfer: false
+        _id: Xh0wrgRUuYpwChBU
+        type: base
+        system:
+          rangeDependence:
+            enabled: false
+            type: withinRange
+            target: hostile
+            range: melee
+          changes: []
+          duration:
+            type: temporary
+            description: ''
+          stacking: null
+          targetDispositions: []
+        disabled: false
+        duration:
+          value: null
+          units: seconds
+          expiry: null
+          expired: false
+        description: ''
+        tint: '#ffffff'
+        statuses:
+          - restrained
+        sort: 0
+        flags: {}
+        _stats:
+          coreVersion: '14.360'
+          systemId: daggerheart
+          systemVersion: 2.2.1
+          createdTime: 1777621319805
+          modifiedTime: 1777621319805
+          lastModifiedBy: pQzNfYJpGL2Gy8DA
+          compendiumSource: null
+          duplicateSource: null
+          exportSource: null
+        start:
+          time: 0
+          combat: null
+          combatant: null
+          initiative: null
+          round: null
+          turn: null
+        showIcon: 1
+        folder: null
+        _key: >-
+          !actors.items.effects!2W77E8fvQ7s8w2GC.nJx29rL3YrFaQwZU.Xh0wrgRUuYpwChBU
+      - name: Restrained
+        img: icons/magic/control/debuff-chains-shackle-movement-red.webp
+        origin: Compendium.daggerheart.domains.Item.qvpvTnkAoRn9vYO4
+        transfer: false
+        _id: 2xzOqTaPJQzGqFJv
+        type: base
+        system:
+          rangeDependence:
+            enabled: false
+            type: withinRange
+            target: hostile
+            range: melee
+          changes: []
+          duration:
+            type: temporary
+            description: ''
+          stacking: null
+          targetDispositions: []
+        disabled: false
+        duration:
+          value: null
+          units: seconds
+          expiry: null
+          expired: false
+        description: ''
+        tint: '#ffffff'
+        statuses:
+          - restrained
+        sort: 0
+        flags: {}
+        _stats:
+          coreVersion: '14.360'
+          systemId: daggerheart
+          systemVersion: 2.2.1
+          createdTime: 1777621319805
+          modifiedTime: 1777621319805
+          lastModifiedBy: pQzNfYJpGL2Gy8DA
+          compendiumSource: null
+          duplicateSource: null
+          exportSource: null
+        start:
+          time: 0
+          combat: null
+          combatant: null
+          initiative: null
+          round: null
+          turn: null
+        showIcon: 1
+        folder: null
+        _key: >-
+          !actors.items.effects!2W77E8fvQ7s8w2GC.nJx29rL3YrFaQwZU.2xzOqTaPJQzGqFJv
+    _id: nJx29rL3YrFaQwZU
+    name: Vicious Entangle
+    type: domainCard
+    img: systems/daggerheart/assets/icons/domains/domain-card/sage.png
+    system:
+      description: >-
+        <p class="Body-Foundation">Make a <strong>Spellcast Roll</strong>
+        against a target within Far range. On a success, roots and vines reach
+        out from the ground, dealing <strong>1d8+1</strong> physical damage and
+        temporarily <em>Restraining</em> the target.</p><p
+        class="Body-Foundation">Additionally on a success, you can <strong>spend
+        a Hope</strong> to temporarily <em>Restrain</em> another adversary
+        within Very Close range of your target.</p>
+      domain: sage
+      recallCost: 1
+      level: 1
+      type: spell
+      actions:
+        lrA95PnD2vOwwmgN:
+          type: attack
+          _id: lrA95PnD2vOwwmgN
+          systemPath: actions
+          description: >-
+            <p>Make a <strong>Spellcast Roll</strong> against a target within
+            Far range. On a success, roots and vines reach out from the ground,
+            dealing <strong>1d8+1</strong> physical damage and temporarily
+            <em>Restraining</em> the target.</p>
+          chatDisplay: true
+          actionType: action
+          cost: []
+          uses:
+            value: null
+            max: ''
+            recovery: null
+            consumeOnSuccess: false
+          damage:
+            parts:
+              hitPoints:
+                resultBased: false
+                value:
+                  custom:
+                    enabled: false
+                    formula: ''
+                  multiplier: flat
+                  flatMultiplier: 1
+                  dice: d8
+                  bonus: 1
+                applyTo: hitPoints
+                type:
+                  - physical
+                base: false
+                valueAlt:
+                  multiplier: prof
+                  flatMultiplier: 1
+                  dice: d6
+                  bonus: null
+                  custom:
+                    enabled: false
+                    formula: ''
+            includeBase: false
+            direct: false
+          target:
+            type: any
+            amount: null
+          effects:
+            - _id: Xh0wrgRUuYpwChBU
+              onSave: false
+          roll:
+            type: spellcast
+            trait: null
+            difficulty: null
+            bonus: null
+            advState: neutral
+            diceRolling:
+              multiplier: prof
+              flatMultiplier: 1
+              dice: d6
+              compare: null
+              treshold: null
+            useDefault: false
+          save:
+            trait: null
+            difficulty: null
+            damageMod: none
+          name: Cast
+          img: icons/magic/nature/vines-thorned-curled-glow-teal.webp
+          range: ''
+          baseAction: false
+          originItem:
+            type: itemCollection
+          triggers: []
+          areas: []
+        vh1IKRvsU4w57lBt:
+          type: effect
+          _id: vh1IKRvsU4w57lBt
+          systemPath: actions
+          description: >-
+            <p class="Body-Foundation">Additionally on a success, you can
+            <strong>spend a Hope</strong> to temporarily <em>Restrain</em>
+            another adversary within Very Close range of your target.</p>
+          chatDisplay: true
+          actionType: action
+          cost:
+            - key: hope
+              value: 1
+              scalable: false
+              step: null
+              itemId: null
+              consumeOnSuccess: false
+          uses:
+            value: null
+            max: ''
+            recovery: null
+            consumeOnSuccess: false
+          effects:
+            - _id: 2xzOqTaPJQzGqFJv
+              onSave: false
+          target:
+            type: any
+            amount: null
+          name: Restrain Another
+          img: icons/commodities/gems/gem-faceted-octagon-yellow.webp
+          range: ''
+          baseAction: false
+          originItem:
+            type: itemCollection
+          triggers: []
+          areas: []
+      attribution:
+        source: Daggerheart SRD
+        page: 130
+        artist: ''
+      resource: null
+      inVault: false
+      vaultActive: false
+      loadoutIgnore: false
+      domainTouched: null
+    folder: EJoXzO85rG5EiZsh
+    sort: 3400000
+    flags: {}
+    _stats:
+      coreVersion: '14.360'
+      systemId: daggerheart
+      systemVersion: 2.2.1
+      createdTime: 1777621319805
+      modifiedTime: 1777621319805
+      lastModifiedBy: pQzNfYJpGL2Gy8DA
+      exportSource: null
+      compendiumSource: null
+      duplicateSource: null
+    ownership:
+      default: 0
+    _key: '!actors.items!2W77E8fvQ7s8w2GC.nJx29rL3YrFaQwZU'
+  - effects: []
+    _id: YykG5sCiIcTN2dqp
+    name: I See It Coming
+    type: domainCard
+    img: systems/daggerheart/assets/icons/domains/domain-card/bone.png
+    system:
+      description: >-
+        <p class="Body-Foundation">When you’re targeted by an attack made from
+        beyond Melee range, you can <strong>mark a Stress</strong> to roll a
+        <strong>d4</strong> and gain a bonus to your Evasion equal to the result
+        against the attack.</p>
+      domain: bone
+      recallCost: 1
+      level: 1
+      type: ability
+      actions:
+        lVyTDd44pGJgF3w7:
+          type: attack
+          _id: lVyTDd44pGJgF3w7
+          systemPath: actions
+          description: >-
+            <p class="Body-Foundation">When you’re targeted by an attack made
+            from beyond Melee range, you can <strong>mark a Stress</strong> to
+            roll a <strong>d4</strong> and gain a bonus to your Evasion equal to
+            the result against the attack.</p>
+          chatDisplay: true
+          actionType: action
+          cost:
+            - consumeOnSuccess: false
+              scalable: false
+              key: stress
+              value: 1
+              step: null
+              itemId: null
+          uses:
+            value: null
+            max: ''
+            recovery: null
+            consumeOnSuccess: false
+          damage:
+            parts: {}
+            includeBase: false
+            direct: false
+          target:
+            type: self
+            amount: null
+          effects: []
+          roll:
+            type: diceSet
+            trait: null
+            difficulty: null
+            bonus: null
+            advState: neutral
+            diceRolling:
+              multiplier: flat
+              flatMultiplier: 1
+              dice: d4
+              compare: null
+              treshold: null
+            useDefault: false
+          save:
+            trait: null
+            difficulty: null
+            damageMod: none
+          name: Roll d4
+          img: icons/skills/melee/maneuver-sword-katana-yellow.webp
+          range: ''
+          baseAction: false
+          originItem:
+            type: itemCollection
+          triggers: []
+          areas: []
+      attribution:
+        source: Daggerheart SRD
+        page: 122
+        artist: ''
+      resource: null
+      inVault: false
+      vaultActive: false
+      loadoutIgnore: false
+      domainTouched: null
+    folder: PeeIjbkBv41613yZ
+    sort: 3400000
+    flags: {}
+    _stats:
+      coreVersion: '14.360'
+      systemId: daggerheart
+      systemVersion: 2.2.1
+      createdTime: 1777621319805
+      modifiedTime: 1777621319805
+      lastModifiedBy: pQzNfYJpGL2Gy8DA
+      exportSource: null
+      compendiumSource: null
+      duplicateSource: null
+    ownership:
+      default: 0
+    _key: '!actors.items!2W77E8fvQ7s8w2GC.YykG5sCiIcTN2dqp'
+  - effects: []
+    _id: lMJZvmGokdwUxwW8
+    name: Leather Armor
+    type: armor
+    img: icons/equipment/chest/breastplate-layered-leather-brown.webp
+    system:
+      armor:
+        current: 0
+        max: 3
+      description: ''
+      actions: {}
+      attached: []
+      tier: 1
+      equipped: false
+      armorFeatures: []
+      baseThresholds:
+        major: 6
+        severe: 13
+      attribution:
+        source: Daggerheart SRD
+        page: 56
+        artist: ''
+      quantity: 1
+    folder: h4QgrovjVZ1oee7O
+    sort: 0
+    flags: {}
+    _stats:
+      coreVersion: '14.360'
+      systemId: daggerheart
+      systemVersion: 2.2.1
+      createdTime: 1777621319805
+      modifiedTime: 1777621319805
+      lastModifiedBy: pQzNfYJpGL2Gy8DA
+      exportSource: null
+      compendiumSource: null
+      duplicateSource: null
+    ownership:
+      default: 0
+    _key: '!actors.items!2W77E8fvQ7s8w2GC.lMJZvmGokdwUxwW8'
+  - effects: []
+    _id: 1S0on764Ci4x59VD
+    name: Shortbow
+    type: weapon
+    img: icons/weapons/bows/shortbow-leather.webp
+    system:
+      description: ''
+      actions: {}
+      attached: []
+      tier: 1
+      equipped: false
+      secondary: false
+      burden: twoHanded
+      weaponFeatures: []
+      attack:
+        name: Attack
+        img: icons/skills/melee/blood-slash-foam-red.webp
+        _id: ZSdAawliPNsoA7nP
+        baseAction: true
+        systemPath: attack
+        type: attack
+        range: far
+        target:
+          type: any
+          amount: 1
+        roll:
+          trait: agility
+          type: attack
+          difficulty: null
+          bonus: null
+          advState: neutral
+          diceRolling:
+            multiplier: prof
+            flatMultiplier: 1
+            dice: d6
+            compare: null
+            treshold: null
+          useDefault: false
+        damage:
+          parts:
+            hitPoints:
+              value:
+                dice: d6
+                bonus: 3
+                multiplier: prof
+                flatMultiplier: 1
+                custom:
+                  enabled: false
+                  formula: ''
+              type:
+                - physical
+              applyTo: hitPoints
+              resultBased: false
+              valueAlt:
+                multiplier: prof
+                flatMultiplier: 1
+                dice: d6
+                bonus: null
+                custom:
+                  enabled: false
+                  formula: ''
+              base: false
+          includeBase: false
+          direct: false
+        description: ''
+        chatDisplay: false
+        actionType: action
+        cost: []
+        uses:
+          value: null
+          max: null
+          recovery: null
+          consumeOnSuccess: false
+        effects: []
+        save:
+          trait: null
+          difficulty: null
+          damageMod: none
+        originItem:
+          type: itemCollection
+        triggers: []
+        areas: []
+      rules:
+        attack:
+          roll:
+            trait: null
+      attribution:
+        source: Daggerheart SRD
+        page: 45
+        artist: ''
+      quantity: 1
+    folder: d7tdCsIUd94XuTtq
+    sort: 0
+    flags: {}
+    _stats:
+      coreVersion: '14.360'
+      systemId: daggerheart
+      systemVersion: 2.2.1
+      createdTime: 1777621319805
+      modifiedTime: 1777621319805
+      lastModifiedBy: pQzNfYJpGL2Gy8DA
+      exportSource: null
+      compendiumSource: null
+      duplicateSource: null
+    ownership:
+      default: 0
+    _key: '!actors.items!2W77E8fvQ7s8w2GC.1S0on764Ci4x59VD'
+  - effects: []
+    _id: XoLyFfu3kCIe3J8H
+    name: Basic Supplies
+    type: loot
+    img: icons/containers/bags/sack-leather-stitched-brown.webp
+    system:
+      description: ''
+      quantity: 1
+      actions: {}
+      attribution: {}
+    folder: rY8M3uLGRwuLhzk0
+    sort: 0
+    flags: {}
+    _stats:
+      coreVersion: '14.360'
+      systemId: daggerheart
+      systemVersion: 2.2.1
+      createdTime: 1777621319805
+      modifiedTime: 1777621319805
+      lastModifiedBy: pQzNfYJpGL2Gy8DA
+      exportSource: null
+      compendiumSource: null
+      duplicateSource: null
+    ownership:
+      default: 0
+    _key: '!actors.items!2W77E8fvQ7s8w2GC.XoLyFfu3kCIe3J8H'
+  - effects: []
+    _id: 2KubAQQhJVPMxrGz
+    name: 50ft of Rope
+    type: loot
+    img: icons/sundries/survival/rope-coiled-tan.webp
+    system:
+      description: ''
+      quantity: 1
+      actions: {}
+      attribution: {}
+    folder: rY8M3uLGRwuLhzk0
+    sort: 0
+    flags: {}
+    _stats:
+      coreVersion: '14.360'
+      systemId: daggerheart
+      systemVersion: 2.2.1
+      createdTime: 1777621319805
+      modifiedTime: 1777621319805
+      lastModifiedBy: pQzNfYJpGL2Gy8DA
+      exportSource: null
+      compendiumSource: null
+      duplicateSource: null
+    ownership:
+      default: 0
+    _key: '!actors.items!2W77E8fvQ7s8w2GC.2KubAQQhJVPMxrGz'
+  - effects: []
+    _id: yIDsPbiHpCCIxXL3
+    name: Torch
+    type: loot
+    img: icons/sundries/lights/torch-brown-lit.webp
+    system:
+      description: ''
+      quantity: 1
+      actions: {}
+      attribution: {}
+    folder: rY8M3uLGRwuLhzk0
+    sort: 0
+    flags: {}
+    _stats:
+      coreVersion: '14.360'
+      systemId: daggerheart
+      systemVersion: 2.2.1
+      createdTime: 1777621319805
+      modifiedTime: 1777621319805
+      lastModifiedBy: pQzNfYJpGL2Gy8DA
+      exportSource: null
+      compendiumSource: null
+      duplicateSource: null
+    ownership:
+      default: 0
+    _key: '!actors.items!2W77E8fvQ7s8w2GC.yIDsPbiHpCCIxXL3'
+  - name: Nomadic Pack
+    type: loot
+    _id: d1gN8wzawW3mCszj
+    img: systems/daggerheart/assets/icons/documents/items/open-treasure-chest.svg
+    system:
+      attribution: {}
+      description: ''
+      quantity: 1
+      actions: {}
+    effects: []
+    folder: null
+    sort: 0
+    flags: {}
+    _stats:
+      coreVersion: '14.360'
+      systemId: daggerheart
+      systemVersion: 2.2.1
+      createdTime: 1777621319805
+      modifiedTime: 1777621319805
+      lastModifiedBy: pQzNfYJpGL2Gy8DA
+      exportSource: null
+      compendiumSource: null
+      duplicateSource: null
+    ownership:
+      default: 0
+    _key: '!actors.items!2W77E8fvQ7s8w2GC.d1gN8wzawW3mCszj'
+effects: []
+folder: null
+flags: {}
+_stats:
+  coreVersion: '14.360'
+  systemId: daggerheart
+  systemVersion: 2.2.1
+  createdTime: 1777621319805
+  modifiedTime: 1777621319811
+  lastModifiedBy: pQzNfYJpGL2Gy8DA
+  exportSource: null
+  compendiumSource: null
+  duplicateSource: null
+ownership:
+  default: 0
+  pQzNfYJpGL2Gy8DA: 3
+sort: 0
+_key: '!actors!2W77E8fvQ7s8w2GC'

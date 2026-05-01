@@ -3,7 +3,7 @@ name: Warewagon
 _id: GE3YoSHDmmF9uUBc
 navigation: false
 navOrder: 0
-thumb: worlds/kingmaker/assets/scenes/thumb-wSvdWC5EJmKQpQNjzxkw4w.webp
+thumb: worlds/daggerheart-test/assets/scenes/thumb-tHfYsOShlBDngDh2_TmOcA.webp
 width: 1426
 height: 1426
 padding: 0.25
@@ -311,11 +311,11 @@ regions:
         flags: {}
         _stats:
           coreVersion: '14.360'
-          systemId: pf2e
-          systemVersion: 8.0.3
-          createdTime: 1777449212183
-          modifiedTime: 1777449212183
-          lastModifiedBy: txZjek5EOiCBHPoz
+          systemId: daggerheart
+          systemVersion: 2.2.1
+          createdTime: 1777619112018
+          modifiedTime: 1777619112018
+          lastModifiedBy: pQzNfYJpGL2Gy8DA
           compendiumSource: null
           duplicateSource: null
           exportSource: null
@@ -357,11 +357,11 @@ flags:
     syncDarkness: default
 _stats:
   coreVersion: '14.360'
-  systemId: pf2e
-  systemVersion: 8.0.3
-  createdTime: 1777449212181
-  modifiedTime: 1777449212181
-  lastModifiedBy: txZjek5EOiCBHPoz
+  systemId: daggerheart
+  systemVersion: 2.2.1
+  createdTime: 1777619112016
+  modifiedTime: 1777619112016
+  lastModifiedBy: pQzNfYJpGL2Gy8DA
   exportSource: null
   compendiumSource: null
   duplicateSource: null
@@ -370,5 +370,5 @@ ownership:
   default: 0
 active: false
 sort: 0
-_key: '!scenes!GE3YoSHDmmF9uUBc'
 templates: []
+_key: '!scenes!GE3YoSHDmmF9uUBc'

@@ -59,6 +59,17 @@
       }
     },
     {
+      "name": "day-character-daggerheart",
+      "label": "DAY Character Options Daggerheart",
+      "path": "packs/day-character-daggerheart",
+      "type": "Item",
+      "system": "daggerheart",
+      "ownership": {
+        "PLAYER": "OBSERVER",
+        "ASSISTANT": "OWNER"
+      }
+    },
+    {
       "name": "day-character-dnd5e",
       "label": "DAY Character Options dnd5e",
       "path": "packs/day-character-dnd5e",
@@ -81,6 +92,17 @@
       }
     },
     {
+      "name": "day-actors-daggerheart",
+      "label": "DAY Actors Daggerheart",
+      "path": "packs/day-actors-daggerheart",
+      "type": "Actor",
+      "system": "daggerheart",
+      "ownership": {
+        "PLAYER": "OBSERVER",
+        "ASSISTANT": "OWNER"
+      }
+    },
+    {
       "name": "day-actors-dnd5e",
       "label": "DAY Actors dnd5e",
       "path": "packs/day-actors-dnd5e",
@@ -97,6 +119,17 @@
       "path": "packs/day-items-pf2e",
       "type": "Item",
       "system": "pf2e",
+      "ownership": {
+        "PLAYER": "OBSERVER",
+        "ASSISTANT": "OWNER"
+      }
+    },
+    {
+      "name": "day-items-daggerheart",
+      "label": "DAY Items Daggerheart",
+      "path": "packs/day-items-daggerheart",
+      "type": "Item",
+      "system": "daggerheart",
       "ownership": {
         "PLAYER": "OBSERVER",
         "ASSISTANT": "OWNER"
@@ -174,10 +207,13 @@
               "day-adventures-dnd5e",
               "day-character-pf2e",
               "day-character-dnd5e",
+              "day-character-daggerheart",
               "day-actors-pf2e",
               "day-actors-dnd5e",
+              "day-actors-daggerheart",
               "day-items-pf2e",
               "day-items-dnd5e",
+              "day-items-daggerheart",
               "day-scenes",
               "day-macros",
               "day-playlists",
