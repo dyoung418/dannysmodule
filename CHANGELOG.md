@@ -1,5 +1,13 @@
 
 
+## [v1.1.3] - 2026-05-01
+### :sparkles: New Features
+- [`6c232e3`](https://github.com/dyoung418/dannysmodule/commit/6c232e38af570ce222a14de0b78a987494d72a4b) - added daggerheart-specific compendiums *(commit by [@dyoung418](https://github.com/dyoung418))*
+
+### :bug: Bug Fixes
+- [`17cc0fa`](https://github.com/dyoung418/dannysmodule/commit/17cc0fa19f374154fa138bba632e61ac8d445e07) - updated module.json to show verified for Foundry v14 *(commit by [@dyoung418](https://github.com/dyoung418))*
+
+
 ## [v1.1.2] - 2026-04-29
 ### :sparkles: New Features
 - [`59874d6`](https://github.com/dyoung418/dannysmodule/commit/59874d68b0372126634f3da5645a66034d5f0e64) - add Relms Keep scenes and fix unpack script for Linux *(commit by [@dyoung418](https://github.com/dyoung418))*
@@ -133,3 +141,4 @@
 [v1.1.0]: https://github.com/dyoung418/dannysmodule/compare/v1.0.21...v1.1.0
 [v1.1.1]: https://github.com/dyoung418/dannysmodule/compare/v1.1.0...v1.1.1
 [v1.1.2]: https://github.com/dyoung418/dannysmodule/compare/v1.1.1...v1.1.2
+[v1.1.3]: https://github.com/dyoung418/dannysmodule/compare/v1.1.2...v1.1.3
