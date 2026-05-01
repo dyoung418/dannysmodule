@@ -59,6 +59,18 @@ system:
       value: 2
       core: true
       description: ''
+    uFcrUcVvRaUkQW9Y:
+      name: Disconnected and aloof
+      value: 2
+      core: true
+    HXvkKJYerdmRTCj3:
+      name: Cover ground quickly
+      value: 2
+      core: true
+    mY6yXxRF2KnGQdVT:
+      name: Steely Determination
+      value: 2
+      core: true
   gold:
     coins: 0
     handfuls: 1
@@ -153,10 +165,307 @@ system:
       damageMod: none
   levelData:
     level:
-      current: 1
-      changed: 1
+      current: 10
+      changed: 10
       bonuses: {}
-    levelups: {}
+    levelups:
+      '2':
+        achievements:
+          experiences:
+            uFcrUcVvRaUkQW9Y:
+              name: Disconnected and aloof
+              modifier: 2
+          domainCards:
+            - uuid: Compendium.daggerheart.domains.Item.9QElncQUDSakuSdR
+              itemUuid: Actor.2W77E8fvQ7s8w2GC.Item.NhpZzdTUthptqMWZ
+          proficiency: 1
+        selections:
+          - tier: 2
+            minCost: 1
+            amount: 2
+            value: null
+            type: trait
+            data:
+              - agility
+              - knowledge
+            secondaryData: {}
+            level: 2
+            optionKey: trait
+            checkboxNr: 1
+            itemUuid: null
+            features: []
+          - tier: 2
+            minCost: 1
+            amount: 1
+            value: null
+            type: domainCard
+            secondaryData:
+              limit: '4'
+            data:
+              - Compendium.daggerheart.domains.Item.rZPH0BY8Sznc9sFG
+            level: 2
+            optionKey: domainCard
+            checkboxNr: 1
+            itemUuid: Actor.2W77E8fvQ7s8w2GC.Item.NvQsSXFhr2mDa9Sk
+            features: []
+      '3':
+        achievements:
+          experiences: {}
+          domainCards:
+            - uuid: Compendium.daggerheart.domains.Item.QXs4vssSqNGQu5b8
+              itemUuid: Actor.2W77E8fvQ7s8w2GC.Item.uTzLKpOz2nDdq0rR
+          proficiency: null
+        selections:
+          - tier: 2
+            minCost: 1
+            amount: 2
+            value: null
+            type: trait
+            data:
+              - strength
+              - finesse
+            secondaryData: {}
+            level: 3
+            optionKey: trait
+            checkboxNr: 2
+            itemUuid: null
+            features: []
+          - tier: 2
+            minCost: 1
+            amount: null
+            value: 1
+            type: stress
+            data: []
+            secondaryData: {}
+            level: 3
+            optionKey: stress
+            checkboxNr: 1
+            itemUuid: null
+            features: []
+      '4':
+        achievements:
+          experiences: {}
+          domainCards:
+            - uuid: Compendium.daggerheart.domains.Item.Tag303LoRNC5zGgl
+              itemUuid: Actor.2W77E8fvQ7s8w2GC.Item.MhohGAq1l5j9aBD5
+          proficiency: null
+        selections:
+          - tier: 2
+            minCost: 1
+            amount: 2
+            value: null
+            type: trait
+            data:
+              - instinct
+              - presence
+            secondaryData: {}
+            level: 4
+            optionKey: trait
+            checkboxNr: 3
+            itemUuid: null
+            features: []
+          - tier: 2
+            minCost: 1
+            amount: null
+            value: 1
+            type: hitPoint
+            data: []
+            secondaryData: {}
+            level: 4
+            optionKey: hitPoint
+            checkboxNr: 1
+            itemUuid: null
+            features: []
+      '5':
+        achievements:
+          experiences:
+            HXvkKJYerdmRTCj3:
+              name: Cover ground quickly
+              modifier: 2
+          domainCards:
+            - uuid: Compendium.daggerheart.domains.Item.LWRkhNY968Cu2Zl5
+              itemUuid: Actor.2W77E8fvQ7s8w2GC.Item.9tBCOCplL2DaiTK1
+          proficiency: 1
+        selections:
+          - tier: 3
+            minCost: 1
+            amount: 2
+            value: null
+            type: trait
+            data:
+              - agility
+              - knowledge
+            secondaryData: {}
+            level: 5
+            optionKey: trait
+            checkboxNr: 1
+            itemUuid: null
+            features: []
+          - tier: 3
+            minCost: 1
+            amount: null
+            value: null
+            type: subclass
+            data:
+              - Actor.2W77E8fvQ7s8w2GC.Item.cbUt1CDZ9mg8bq0c
+            secondaryData:
+              featureState: '2'
+              isMulticlass: 'false'
+            level: 5
+            optionKey: subclass
+            checkboxNr: 1
+            itemUuid: null
+            features: []
+      '6':
+        achievements:
+          experiences: {}
+          domainCards:
+            - uuid: Compendium.daggerheart.domains.Item.dc4rAXlv95srZUct
+              itemUuid: Actor.2W77E8fvQ7s8w2GC.Item.tVWTyXpsW9fMQiNW
+          proficiency: null
+        selections:
+          - tier: 3
+            minCost: 2
+            amount: null
+            value: 1
+            type: proficiency
+            data: []
+            secondaryData: {}
+            level: 6
+            optionKey: proficiency
+            checkboxNr: 1
+            itemUuid: null
+            features: []
+      '7':
+        achievements:
+          experiences: {}
+          domainCards:
+            - uuid: Compendium.daggerheart.domains.Item.DjnKlZQYaWdQGKcK
+              itemUuid: Actor.2W77E8fvQ7s8w2GC.Item.R8Mc7GAbrVQHHGLP
+          proficiency: null
+        selections:
+          - tier: 3
+            minCost: 1
+            amount: 2
+            value: null
+            type: trait
+            data:
+              - instinct
+              - strength
+            secondaryData: {}
+            level: 7
+            optionKey: trait
+            checkboxNr: 2
+            itemUuid: null
+            features: []
+          - tier: 3
+            minCost: 1
+            amount: 1
+            value: null
+            type: domainCard
+            secondaryData:
+              limit: '7'
+            data:
+              - Compendium.daggerheart.domains.Item.ON5bvnoQBy0SYc9Y
+            level: 7
+            optionKey: domainCard
+            checkboxNr: 1
+            itemUuid: Actor.2W77E8fvQ7s8w2GC.Item.5jIsuugWcbGdUXF9
+            features: []
+      '8':
+        achievements:
+          experiences:
+            mY6yXxRF2KnGQdVT:
+              name: Steely Determination
+              modifier: 2
+          domainCards:
+            - uuid: Compendium.daggerheart.domains.Item.8UANBgSdhMZ0sqfO
+              itemUuid: Actor.2W77E8fvQ7s8w2GC.Item.1Knov4P1ZDD9OFTX
+          proficiency: 1
+        selections:
+          - tier: 4
+            minCost: 1
+            amount: 2
+            value: null
+            type: trait
+            data:
+              - agility
+              - strength
+            secondaryData: {}
+            level: 8
+            optionKey: trait
+            checkboxNr: 1
+            itemUuid: null
+            features: []
+          - tier: 4
+            minCost: 1
+            amount: null
+            value: 1
+            type: hitPoint
+            data: []
+            secondaryData: {}
+            level: 8
+            optionKey: hitPoint
+            checkboxNr: 1
+            itemUuid: null
+            features: []
+      '9':
+        achievements:
+          experiences: {}
+          domainCards:
+            - uuid: Compendium.daggerheart.domains.Item.TYKfM3H9vBXyWiH4
+              itemUuid: Actor.2W77E8fvQ7s8w2GC.Item.PJOmGEKQ2QZrBRl1
+          proficiency: null
+        selections:
+          - tier: 4
+            minCost: 2
+            amount: null
+            value: 1
+            type: proficiency
+            data: []
+            secondaryData: {}
+            level: 9
+            optionKey: proficiency
+            checkboxNr: 2
+            itemUuid: null
+            features: []
+      '10':
+        achievements:
+          experiences: {}
+          domainCards:
+            - uuid: Compendium.daggerheart.domains.Item.H6TqCJBaa1eWEQ1z
+              itemUuid: Actor.2W77E8fvQ7s8w2GC.Item.CktGCViAgdFWiiaw
+          proficiency: null
+        selections:
+          - tier: 4
+            minCost: 1
+            amount: null
+            value: null
+            type: subclass
+            data:
+              - Actor.2W77E8fvQ7s8w2GC.Item.cbUt1CDZ9mg8bq0c
+            secondaryData:
+              featureState: '4'
+              isMulticlass: 'false'
+            level: 10
+            optionKey: subclass
+            checkboxNr: 1
+            itemUuid: null
+            features: []
+          - tier: 4
+            minCost: 1
+            amount: 1
+            value: null
+            type: domainCard
+            secondaryData:
+              limit: '10'
+            data:
+              - Compendium.daggerheart.domains.Item.X7YaZgFieBlqaPdZ
+            level: 10
+            optionKey: domainCard
+            checkboxNr: 1
+            itemUuid: Actor.2W77E8fvQ7s8w2GC.Item.CPfMDkxm0tvacPl5
+            features: []
   bonuses:
     roll:
       attack:
@@ -357,8 +666,8 @@ items:
       coreVersion: '14.360'
       systemId: daggerheart
       systemVersion: 2.2.1
-      createdTime: 1777621319805
-      modifiedTime: 1777621319805
+      createdTime: 1777642015496
+      modifiedTime: 1777642015496
       lastModifiedBy: pQzNfYJpGL2Gy8DA
       exportSource: null
       compendiumSource: null
@@ -426,8 +735,8 @@ items:
       coreVersion: '14.360'
       systemId: daggerheart
       systemVersion: 2.2.1
-      createdTime: 1777621319805
-      modifiedTime: 1777621319805
+      createdTime: 1777642015497
+      modifiedTime: 1777642015497
       lastModifiedBy: pQzNfYJpGL2Gy8DA
       exportSource: null
       compendiumSource: null
@@ -469,8 +778,8 @@ items:
       coreVersion: '14.360'
       systemId: daggerheart
       systemVersion: 2.2.1
-      createdTime: 1777621319805
-      modifiedTime: 1777621319805
+      createdTime: 1777642015497
+      modifiedTime: 1777642015497
       lastModifiedBy: pQzNfYJpGL2Gy8DA
       exportSource: null
       compendiumSource: null
@@ -536,8 +845,8 @@ items:
       coreVersion: '14.360'
       systemId: daggerheart
       systemVersion: 2.2.1
-      createdTime: 1777621319805
-      modifiedTime: 1777621319805
+      createdTime: 1777642015497
+      modifiedTime: 1777642015497
       lastModifiedBy: pQzNfYJpGL2Gy8DA
       exportSource: null
       compendiumSource: null
@@ -579,8 +888,8 @@ items:
       coreVersion: '14.360'
       systemId: daggerheart
       systemVersion: 2.2.1
-      createdTime: 1777621319805
-      modifiedTime: 1777621319805
+      createdTime: 1777642015497
+      modifiedTime: 1777642015497
       lastModifiedBy: pQzNfYJpGL2Gy8DA
       exportSource: null
       compendiumSource: null
@@ -695,8 +1004,8 @@ items:
           coreVersion: '14.360'
           systemId: daggerheart
           systemVersion: 2.2.1
-          createdTime: 1777621319805
-          modifiedTime: 1777621319805
+          createdTime: 1777642015498
+          modifiedTime: 1777642015498
           lastModifiedBy: pQzNfYJpGL2Gy8DA
           compendiumSource: null
           duplicateSource: null
@@ -712,8 +1021,8 @@ items:
       coreVersion: '14.360'
       systemId: daggerheart
       systemVersion: 2.2.1
-      createdTime: 1777621319805
-      modifiedTime: 1777621319805
+      createdTime: 1777642015498
+      modifiedTime: 1777642015498
       lastModifiedBy: pQzNfYJpGL2Gy8DA
       exportSource: null
       compendiumSource: null
@@ -782,8 +1091,8 @@ items:
       coreVersion: '14.360'
       systemId: daggerheart
       systemVersion: 2.2.1
-      createdTime: 1777621319805
-      modifiedTime: 1777621319805
+      createdTime: 1777642015498
+      modifiedTime: 1777642015498
       lastModifiedBy: pQzNfYJpGL2Gy8DA
       exportSource: null
       compendiumSource: null
@@ -873,8 +1182,8 @@ items:
       coreVersion: '14.360'
       systemId: daggerheart
       systemVersion: 2.2.1
-      createdTime: 1777621319805
-      modifiedTime: 1777621319805
+      createdTime: 1777642015498
+      modifiedTime: 1777642015498
       lastModifiedBy: pQzNfYJpGL2Gy8DA
       exportSource: null
       compendiumSource: null
@@ -979,8 +1288,8 @@ items:
           coreVersion: '14.360'
           systemId: daggerheart
           systemVersion: 2.2.1
-          createdTime: 1777621319805
-          modifiedTime: 1777621319805
+          createdTime: 1777642015499
+          modifiedTime: 1777642015499
           lastModifiedBy: pQzNfYJpGL2Gy8DA
           compendiumSource: null
           duplicateSource: null
@@ -996,8 +1305,8 @@ items:
       coreVersion: '14.360'
       systemId: daggerheart
       systemVersion: 2.2.1
-      createdTime: 1777621319805
-      modifiedTime: 1777621319805
+      createdTime: 1777642015499
+      modifiedTime: 1777642015499
       lastModifiedBy: pQzNfYJpGL2Gy8DA
       exportSource: null
       compendiumSource: null
@@ -1032,8 +1341,8 @@ items:
       coreVersion: '14.360'
       systemId: daggerheart
       systemVersion: 2.2.1
-      createdTime: 1777621319805
-      modifiedTime: 1777621319805
+      createdTime: 1777642015499
+      modifiedTime: 1777642015499
       lastModifiedBy: pQzNfYJpGL2Gy8DA
       exportSource: null
       compendiumSource: null
@@ -1111,8 +1420,8 @@ items:
           coreVersion: '14.360'
           systemId: daggerheart
           systemVersion: 2.2.1
-          createdTime: 1777621319805
-          modifiedTime: 1777621319805
+          createdTime: 1777642015500
+          modifiedTime: 1777642015500
           lastModifiedBy: pQzNfYJpGL2Gy8DA
           compendiumSource: null
           duplicateSource: null
@@ -1134,8 +1443,8 @@ items:
       coreVersion: '14.360'
       systemId: daggerheart
       systemVersion: 2.2.1
-      createdTime: 1777621319805
-      modifiedTime: 1777621319805
+      createdTime: 1777642015499
+      modifiedTime: 1777642015499
       lastModifiedBy: pQzNfYJpGL2Gy8DA
       exportSource: null
       compendiumSource: null
@@ -1204,8 +1513,8 @@ items:
       coreVersion: '14.360'
       systemId: daggerheart
       systemVersion: 2.2.1
-      createdTime: 1777621319805
-      modifiedTime: 1777621319805
+      createdTime: 1777642015500
+      modifiedTime: 1777642015500
       lastModifiedBy: pQzNfYJpGL2Gy8DA
       exportSource: null
       compendiumSource: null
@@ -1230,7 +1539,7 @@ items:
           item: Compendium.daggerheart.subclasses.Item.Cjtc43V3IzAmfIFG
         - type: mastery
           item: Compendium.daggerheart.subclasses.Item.lwH3E0Zyf4gbVOd0
-      featureState: 1
+      featureState: 4
       isMulticlass: false
       attribution:
         source: Daggerheart SRD
@@ -1244,8 +1553,8 @@ items:
       coreVersion: '14.360'
       systemId: daggerheart
       systemVersion: 2.2.1
-      createdTime: 1777621319805
-      modifiedTime: 1777621319805
+      createdTime: 1777642015500
+      modifiedTime: 1777642015500
       lastModifiedBy: pQzNfYJpGL2Gy8DA
       exportSource: null
       compendiumSource: null
@@ -1288,8 +1597,8 @@ items:
           coreVersion: '14.360'
           systemId: daggerheart
           systemVersion: 2.2.1
-          createdTime: 1777621319805
-          modifiedTime: 1777621319805
+          createdTime: 1777642015501
+          modifiedTime: 1777642015501
           lastModifiedBy: pQzNfYJpGL2Gy8DA
           compendiumSource: null
           duplicateSource: null
@@ -1339,8 +1648,8 @@ items:
           coreVersion: '14.360'
           systemId: daggerheart
           systemVersion: 2.2.1
-          createdTime: 1777621319805
-          modifiedTime: 1777621319805
+          createdTime: 1777642015501
+          modifiedTime: 1777642015501
           lastModifiedBy: pQzNfYJpGL2Gy8DA
           compendiumSource: null
           duplicateSource: null
@@ -1489,19 +1798,19 @@ items:
         page: 130
         artist: ''
       resource: null
-      inVault: false
+      inVault: true
       vaultActive: false
       loadoutIgnore: false
       domainTouched: null
     folder: EJoXzO85rG5EiZsh
-    sort: 3400000
+    sort: 100000
     flags: {}
     _stats:
       coreVersion: '14.360'
       systemId: daggerheart
       systemVersion: 2.2.1
-      createdTime: 1777621319805
-      modifiedTime: 1777621319805
+      createdTime: 1777642015501
+      modifiedTime: 1777642015501
       lastModifiedBy: pQzNfYJpGL2Gy8DA
       exportSource: null
       compendiumSource: null
@@ -1586,19 +1895,19 @@ items:
         page: 122
         artist: ''
       resource: null
-      inVault: false
+      inVault: true
       vaultActive: false
       loadoutIgnore: false
       domainTouched: null
     folder: PeeIjbkBv41613yZ
-    sort: 3400000
+    sort: 300000
     flags: {}
     _stats:
       coreVersion: '14.360'
       systemId: daggerheart
       systemVersion: 2.2.1
-      createdTime: 1777621319805
-      modifiedTime: 1777621319805
+      createdTime: 1777642015501
+      modifiedTime: 1777642015501
       lastModifiedBy: pQzNfYJpGL2Gy8DA
       exportSource: null
       compendiumSource: null
@@ -1636,8 +1945,8 @@ items:
       coreVersion: '14.360'
       systemId: daggerheart
       systemVersion: 2.2.1
-      createdTime: 1777621319805
-      modifiedTime: 1777621319805
+      createdTime: 1777642015502
+      modifiedTime: 1777642015502
       lastModifiedBy: pQzNfYJpGL2Gy8DA
       exportSource: null
       compendiumSource: null
@@ -1743,8 +2052,8 @@ items:
       coreVersion: '14.360'
       systemId: daggerheart
       systemVersion: 2.2.1
-      createdTime: 1777621319805
-      modifiedTime: 1777621319805
+      createdTime: 1777642015502
+      modifiedTime: 1777642015502
       lastModifiedBy: pQzNfYJpGL2Gy8DA
       exportSource: null
       compendiumSource: null
@@ -1769,8 +2078,8 @@ items:
       coreVersion: '14.360'
       systemId: daggerheart
       systemVersion: 2.2.1
-      createdTime: 1777621319805
-      modifiedTime: 1777621319805
+      createdTime: 1777642015502
+      modifiedTime: 1777642015502
       lastModifiedBy: pQzNfYJpGL2Gy8DA
       exportSource: null
       compendiumSource: null
@@ -1795,8 +2104,8 @@ items:
       coreVersion: '14.360'
       systemId: daggerheart
       systemVersion: 2.2.1
-      createdTime: 1777621319805
-      modifiedTime: 1777621319805
+      createdTime: 1777642015502
+      modifiedTime: 1777642015502
       lastModifiedBy: pQzNfYJpGL2Gy8DA
       exportSource: null
       compendiumSource: null
@@ -1821,8 +2130,8 @@ items:
       coreVersion: '14.360'
       systemId: daggerheart
       systemVersion: 2.2.1
-      createdTime: 1777621319805
-      modifiedTime: 1777621319805
+      createdTime: 1777642015511
+      modifiedTime: 1777642015511
       lastModifiedBy: pQzNfYJpGL2Gy8DA
       exportSource: null
       compendiumSource: null
@@ -1847,8 +2156,8 @@ items:
       coreVersion: '14.360'
       systemId: daggerheart
       systemVersion: 2.2.1
-      createdTime: 1777621319805
-      modifiedTime: 1777621319805
+      createdTime: 1777642015512
+      modifiedTime: 1777642015512
       lastModifiedBy: pQzNfYJpGL2Gy8DA
       exportSource: null
       compendiumSource: null
@@ -1856,21 +2165,2357 @@ items:
     ownership:
       default: 0
     _key: '!actors.items!2W77E8fvQ7s8w2GC.d1gN8wzawW3mCszj'
+  - name: Conjure Swarm
+    img: systems/daggerheart/assets/icons/domains/domain-card/sage.png
+    type: domainCard
+    folder: xZrCYAd05ayNu1yW
+    system:
+      description: >-
+        <p class="Card-Feature"><em><strong>Tekaira Armored
+        Beetles:</strong></em> <strong>Mark a Stress</strong> to conjure armored
+        beetles that encircle you. When you next take damage, reduce the
+        severity by one threshold. You can <strong>spend a Hope</strong> to keep
+        the beetles conjured after taking damage.</p><p
+        class="Card-Feature"><em><strong>Fire Flies:</strong></em> Make a
+        <strong>Spellcast Roll</strong> against all adversaries within Close
+        range. <strong>Spend a Hope</strong> to deal <strong>2d8+3</strong>
+        magic damage to targets you succeeded against.</p>
+      domain: sage
+      recallCost: 1
+      level: 2
+      type: spell
+      actions:
+        qygTUSNldYNbP7vN:
+          type: attack
+          _id: qygTUSNldYNbP7vN
+          systemPath: actions
+          description: >-
+            <p><em><strong>Tekaira Armored Beetles:</strong></em> <strong>Mark a
+            Stress</strong> to conjure armored beetles that encircle you. When
+            you next take damage, reduce the severity by one threshold.</p>
+          chatDisplay: true
+          actionType: action
+          cost:
+            - scalable: false
+              key: stress
+              value: 1
+              step: null
+              itemId: null
+              consumeOnSuccess: false
+          uses:
+            value: null
+            max: ''
+            recovery: null
+            consumeOnSuccess: false
+          damage:
+            parts: {}
+            includeBase: false
+            direct: false
+          target:
+            type: self
+            amount: null
+          effects:
+            - _id: dImnF8ZT2rVybiIP
+              onSave: false
+          roll:
+            type: null
+            trait: null
+            difficulty: null
+            bonus: null
+            advState: neutral
+            diceRolling:
+              multiplier: prof
+              flatMultiplier: 1
+              dice: d6
+              compare: null
+              treshold: null
+            useDefault: false
+          save:
+            trait: null
+            difficulty: null
+            damageMod: none
+          name: 'Tekaira''s Armored Beetles: Stress'
+          img: icons/creatures/invertebrates/wasp-swarm-attack.webp
+          range: self
+          baseAction: false
+          originItem:
+            type: itemCollection
+          triggers: []
+          areas: []
+        533qzPIjcccpiMey:
+          type: effect
+          _id: 533qzPIjcccpiMey
+          systemPath: actions
+          description: >-
+            <p>You can <strong>spend a Hope</strong> to keep the beetles
+            conjured after taking damage.</p>
+          chatDisplay: true
+          actionType: action
+          cost:
+            - key: hope
+              value: 1
+              scalable: false
+              step: null
+              itemId: null
+              consumeOnSuccess: false
+          uses:
+            value: null
+            max: ''
+            recovery: null
+            consumeOnSuccess: false
+          effects: []
+          target:
+            type: any
+            amount: null
+          name: Keep Beetles
+          img: icons/commodities/gems/gem-faceted-octagon-yellow.webp
+          range: ''
+          baseAction: false
+          originItem:
+            type: itemCollection
+          triggers: []
+          areas: []
+        nugW0yPOG08pqBAT:
+          type: attack
+          _id: nugW0yPOG08pqBAT
+          systemPath: actions
+          description: >-
+            <p><em><strong>Fire Flies:</strong></em> Make a <strong>Spellcast
+            Roll</strong> against all adversaries within Close range.
+            <strong>Spend a Hope</strong> to deal <strong>2d8+3</strong> magic
+            damage to targets you succeeded against.</p>
+          chatDisplay: true
+          actionType: action
+          cost:
+            - consumeOnSuccess: true
+              scalable: false
+              key: hope
+              value: 1
+              step: null
+              itemId: null
+          uses:
+            value: null
+            max: ''
+            recovery: null
+            consumeOnSuccess: false
+          damage:
+            parts:
+              hitPoints:
+                resultBased: false
+                value:
+                  custom:
+                    enabled: false
+                    formula: ''
+                  multiplier: flat
+                  flatMultiplier: 2
+                  dice: d8
+                  bonus: 3
+                applyTo: hitPoints
+                type:
+                  - magical
+                base: false
+                valueAlt:
+                  multiplier: prof
+                  flatMultiplier: 1
+                  dice: d6
+                  bonus: null
+                  custom:
+                    enabled: false
+                    formula: ''
+            includeBase: false
+            direct: false
+          target:
+            type: any
+            amount: null
+          effects: []
+          roll:
+            type: spellcast
+            trait: null
+            difficulty: null
+            bonus: null
+            advState: neutral
+            diceRolling:
+              multiplier: prof
+              flatMultiplier: 1
+              dice: d6
+              compare: null
+              treshold: null
+            useDefault: false
+          save:
+            trait: null
+            difficulty: null
+            damageMod: none
+          name: 'Fire Flies: Cast'
+          img: icons/creatures/invertebrates/wasp-swarm-movement.webp
+          range: close
+          areas:
+            - name: Conjure Swarm
+              type: placed
+              shape: emanation
+              size: close
+              effects: []
+          baseAction: false
+          originItem:
+            type: itemCollection
+          triggers: []
+      attribution:
+        source: Daggerheart SRD
+        page: 130
+        artist: ''
+      resource: null
+      inVault: true
+      vaultActive: false
+      loadoutIgnore: false
+      domainTouched: null
+    flags: {}
+    _id: NvQsSXFhr2mDa9Sk
+    sort: 3400000
+    effects:
+      - name: Reduced Damage
+        img: icons/magic/defensive/shield-barrier-flaming-diamond-acid.webp
+        origin: Compendium.daggerheart.domains.Item.rZPH0BY8Sznc9sFG
+        transfer: false
+        _id: dImnF8ZT2rVybiIP
+        type: base
+        system:
+          rangeDependence:
+            enabled: false
+            type: withinRange
+            target: hostile
+            range: melee
+          changes:
+            - key: system.rules.damageReduction.reduceSeverity.magical
+              value: 1
+              priority: null
+              type: add
+              phase: initial
+            - key: system.rules.damageReduction.reduceSeverity.physical
+              value: 1
+              priority: null
+              type: add
+              phase: initial
+          duration:
+            description: ''
+          stacking: null
+          targetDispositions: []
+        disabled: false
+        duration:
+          value: null
+          units: seconds
+          expiry: null
+          expired: false
+        description: ''
+        tint: '#ffffff'
+        statuses: []
+        sort: 0
+        flags: {}
+        _stats:
+          coreVersion: '14.360'
+          systemId: daggerheart
+          systemVersion: 2.2.1
+          createdTime: 1777642015512
+          modifiedTime: 1777642015512
+          lastModifiedBy: pQzNfYJpGL2Gy8DA
+          compendiumSource: null
+          duplicateSource: null
+          exportSource: null
+        start: null
+        showIcon: 1
+        folder: null
+        _key: >-
+          !actors.items.effects!2W77E8fvQ7s8w2GC.NvQsSXFhr2mDa9Sk.dImnF8ZT2rVybiIP
+    _stats:
+      coreVersion: '14.360'
+      systemId: daggerheart
+      systemVersion: 2.2.1
+      createdTime: 1777642015512
+      modifiedTime: 1777642015512
+      lastModifiedBy: pQzNfYJpGL2Gy8DA
+      compendiumSource: null
+      duplicateSource: null
+      exportSource: null
+    ownership:
+      default: 0
+    _key: '!actors.items!2W77E8fvQ7s8w2GC.NvQsSXFhr2mDa9Sk'
+  - name: Untouchable
+    img: systems/daggerheart/assets/icons/domains/domain-card/bone.png
+    type: domainCard
+    folder: PeeIjbkBv41613yZ
+    system:
+      description: >-
+        <p class="Body-Foundation">Gain a bonus to your Evasion equal to half
+        your Agility.</p>
+      domain: bone
+      recallCost: 1
+      level: 1
+      type: ability
+      attribution:
+        source: Daggerheart SRD
+        page: 122
+        artist: ''
+      resource: null
+      actions: {}
+      inVault: false
+      vaultActive: false
+      loadoutIgnore: false
+      domainTouched: null
+    flags: {}
+    _id: NhpZzdTUthptqMWZ
+    sort: 200000
+    effects:
+      - name: Untouchable
+        type: base
+        system:
+          rangeDependence:
+            enabled: false
+            type: withinRange
+            target: hostile
+            range: melee
+          changes:
+            - key: system.evasion
+              value: ceil(@system.traits.agility.value / 2)
+              priority: 21
+              type: add
+              phase: initial
+          duration:
+            description: ''
+          stacking: null
+          targetDispositions: []
+        _id: H8hazlQe4Wj4JFO6
+        img: icons/skills/movement/feet-winged-boots-glowing-yellow.webp
+        disabled: false
+        duration:
+          value: null
+          units: seconds
+          expiry: null
+          expired: false
+        description: >-
+          <p class="Body-Foundation">Gain a bonus to your Evasion equal to half
+          your Agility.</p>
+        origin: null
+        tint: '#ffffff'
+        transfer: true
+        statuses: []
+        sort: 0
+        flags: {}
+        _stats:
+          coreVersion: '14.360'
+          systemId: daggerheart
+          systemVersion: 2.2.1
+          createdTime: 1777642015513
+          modifiedTime: 1777642015513
+          lastModifiedBy: pQzNfYJpGL2Gy8DA
+          compendiumSource: null
+          duplicateSource: null
+          exportSource: null
+        start: null
+        showIcon: 1
+        folder: null
+        _key: >-
+          !actors.items.effects!2W77E8fvQ7s8w2GC.NhpZzdTUthptqMWZ.H8hazlQe4Wj4JFO6
+    _stats:
+      coreVersion: '14.360'
+      systemId: daggerheart
+      systemVersion: 2.2.1
+      createdTime: 1777642015513
+      modifiedTime: 1777642015513
+      lastModifiedBy: pQzNfYJpGL2Gy8DA
+      compendiumSource: null
+      duplicateSource: null
+      exportSource: null
+    ownership:
+      default: 0
+    _key: '!actors.items!2W77E8fvQ7s8w2GC.NhpZzdTUthptqMWZ'
+  - name: Brace
+    img: systems/daggerheart/assets/icons/domains/domain-card/bone.png
+    type: domainCard
+    folder: eR7sP5jQwfCLORUe
+    system:
+      description: >-
+        <p class="Body-Foundation">When you mark an Armor Slot to reduce
+        incoming damage, you can <strong>mark a Stress</strong> to mark an
+        additional Armor Slot.</p>
+      domain: bone
+      recallCost: 1
+      level: 3
+      type: ability
+      attribution:
+        source: Daggerheart SRD
+        page: 122
+        artist: ''
+      resource: null
+      actions: {}
+      inVault: true
+      vaultActive: false
+      loadoutIgnore: false
+      domainTouched: null
+    flags: {}
+    _id: uTzLKpOz2nDdq0rR
+    sort: 3400000
+    effects:
+      - name: Brace
+        type: base
+        system:
+          rangeDependence:
+            enabled: false
+            type: withinRange
+            target: hostile
+            range: melee
+          changes:
+            - key: system.rules.damageReduction.maxArmorMarked.stressExtra
+              value: 1
+              priority: null
+              type: add
+              phase: initial
+          duration:
+            description: ''
+          stacking: null
+          targetDispositions: []
+        _id: xSjqLOHfi5lImDHS
+        img: icons/magic/defensive/shield-barrier-blue.webp
+        disabled: false
+        duration:
+          value: null
+          units: seconds
+          expiry: null
+          expired: false
+        description: >-
+          <p class="Body-Foundation">When you mark an Armor Slot to reduce
+          incoming damage, you can <strong>mark a Stress</strong> to mark an
+          additional Armor Slot.</p>
+        origin: null
+        tint: '#ffffff'
+        transfer: true
+        statuses: []
+        sort: 0
+        flags: {}
+        _stats:
+          coreVersion: '14.360'
+          systemId: daggerheart
+          systemVersion: 2.2.1
+          createdTime: 1777642015513
+          modifiedTime: 1777642015513
+          lastModifiedBy: pQzNfYJpGL2Gy8DA
+          compendiumSource: null
+          duplicateSource: null
+          exportSource: null
+        start: null
+        showIcon: 1
+        folder: null
+        _key: >-
+          !actors.items.effects!2W77E8fvQ7s8w2GC.uTzLKpOz2nDdq0rR.xSjqLOHfi5lImDHS
+    _stats:
+      coreVersion: '14.360'
+      systemId: daggerheart
+      systemVersion: 2.2.1
+      createdTime: 1777642015513
+      modifiedTime: 1777642015513
+      lastModifiedBy: pQzNfYJpGL2Gy8DA
+      compendiumSource: null
+      duplicateSource: null
+      exportSource: null
+    ownership:
+      default: 0
+    _key: '!actors.items!2W77E8fvQ7s8w2GC.uTzLKpOz2nDdq0rR'
+  - name: Natural Familiar
+    img: systems/daggerheart/assets/icons/domains/domain-card/sage.png
+    type: domainCard
+    folder: xZrCYAd05ayNu1yW
+    system:
+      description: >-
+        <p class="Body-Foundation"><strong>Spend a Hope</strong> to summon a
+        small nature spirit or forest critter to your side until your next rest,
+        you cast Natural Familiar again, or the familiar is targeted by an
+        attack. If you <strong>spend an additional Hope</strong>, you can summon
+        a familiar that flies. You can communicate with them, make a
+        <strong>Spellcast Roll</strong> to command them to perform simple tasks,
+        and <strong>mark a Stress</strong> to see through their eyes.</p><p
+        class="Body-Foundation">When you deal damage to an adversary within
+        Melee range of your familiar, you add a <strong>d6</strong> to your
+        damage roll.</p>
+      domain: sage
+      recallCost: 1
+      level: 2
+      type: spell
+      actions:
+        BhVDgty2nqoOhn97:
+          type: effect
+          _id: BhVDgty2nqoOhn97
+          systemPath: actions
+          description: >-
+            <p><strong>Spend a Hope</strong> to summon a small nature spirit or
+            forest critter to your side until your next rest, you cast Natural
+            Familiar again, or the familiar is targeted by an attack. If you
+            <strong>spend an additional Hope</strong>, you can summon a familiar
+            that flies.</p>
+          chatDisplay: true
+          actionType: action
+          cost:
+            - scalable: true
+              key: hope
+              value: 1
+              step: null
+              consumeOnSuccess: false
+              itemId: null
+          uses:
+            value: null
+            max: ''
+            recovery: null
+            consumeOnSuccess: false
+          effects:
+            - _id: 0BumAWKw2aK4A5al
+              onSave: false
+          target:
+            type: any
+            amount: null
+          name: Summon Familiar
+          img: icons/creatures/amphibians/bullfrog-glass-teal.webp
+          range: ''
+          baseAction: false
+          originItem:
+            type: itemCollection
+          triggers: []
+          areas: []
+        kHAwq8lfsEPd9Qga:
+          type: attack
+          _id: kHAwq8lfsEPd9Qga
+          systemPath: actions
+          description: >-
+            <p>You can communicate with them, make a <strong>Spellcast
+            Roll</strong> to command them to perform simple tasks.</p>
+          chatDisplay: true
+          actionType: action
+          cost: []
+          uses:
+            value: null
+            max: ''
+            recovery: null
+            consumeOnSuccess: false
+          damage:
+            parts: {}
+            includeBase: false
+            direct: false
+          target:
+            type: any
+            amount: null
+          effects: []
+          roll:
+            type: spellcast
+            trait: null
+            difficulty: null
+            bonus: null
+            advState: neutral
+            diceRolling:
+              multiplier: prof
+              flatMultiplier: 1
+              dice: d6
+              compare: null
+              treshold: null
+            useDefault: false
+          save:
+            trait: null
+            difficulty: null
+            damageMod: none
+          name: Perform Task
+          img: icons/creatures/amphibians/treefrog-leaf-green.webp
+          range: ''
+          baseAction: false
+          originItem:
+            type: itemCollection
+          triggers: []
+          areas: []
+        8Y03LcPgXF30DfzZ:
+          type: effect
+          _id: 8Y03LcPgXF30DfzZ
+          systemPath: actions
+          description: >-
+            <p><strong>Mark a Stress</strong> to see through their eyes.</p><p
+            class="Body-Foundation"></p>
+          chatDisplay: true
+          actionType: action
+          cost:
+            - scalable: false
+              key: stress
+              value: 1
+              step: null
+              itemId: null
+              consumeOnSuccess: false
+          uses:
+            value: null
+            max: ''
+            recovery: null
+            consumeOnSuccess: false
+          effects: []
+          target:
+            type: any
+            amount: null
+          name: See Through Eyes
+          img: icons/magic/perception/eye-ringed-green.webp
+          range: ''
+          baseAction: false
+          originItem:
+            type: itemCollection
+          triggers: []
+          areas: []
+      attribution:
+        source: Daggerheart SRD
+        page: 130
+        artist: ''
+      resource: null
+      inVault: true
+      vaultActive: false
+      loadoutIgnore: false
+      domainTouched: null
+    flags: {}
+    _id: MhohGAq1l5j9aBD5
+    sort: 3400000
+    effects:
+      - name: Familiar Damage
+        img: icons/sundries/gaming/dice-pair-white-green.webp
+        origin: Compendium.daggerheart.domains.Item.Tag303LoRNC5zGgl
+        transfer: false
+        _id: 0BumAWKw2aK4A5al
+        type: base
+        system:
+          rangeDependence:
+            enabled: false
+            type: withinRange
+            target: hostile
+            range: melee
+          changes:
+            - key: system.bonuses.damage.magical.dice
+              value: d6
+              priority: null
+              type: add
+              phase: initial
+            - key: system.bonuses.damage.physical.dice
+              value: d6
+              priority: null
+              type: add
+              phase: initial
+          duration:
+            description: ''
+          stacking: null
+          targetDispositions: []
+        disabled: false
+        duration:
+          value: null
+          units: seconds
+          expiry: null
+          expired: false
+        description: ''
+        tint: '#ffffff'
+        statuses: []
+        sort: 0
+        flags: {}
+        _stats:
+          coreVersion: '14.360'
+          systemId: daggerheart
+          systemVersion: 2.2.1
+          createdTime: 1777642015514
+          modifiedTime: 1777642015514
+          lastModifiedBy: pQzNfYJpGL2Gy8DA
+          compendiumSource: null
+          duplicateSource: null
+          exportSource: null
+        start: null
+        showIcon: 1
+        folder: null
+        _key: >-
+          !actors.items.effects!2W77E8fvQ7s8w2GC.MhohGAq1l5j9aBD5.0BumAWKw2aK4A5al
+    _stats:
+      coreVersion: '14.360'
+      systemId: daggerheart
+      systemVersion: 2.2.1
+      createdTime: 1777642015514
+      modifiedTime: 1777642015514
+      lastModifiedBy: pQzNfYJpGL2Gy8DA
+      compendiumSource: null
+      duplicateSource: null
+      exportSource: null
+    ownership:
+      default: 0
+    _key: '!actors.items!2W77E8fvQ7s8w2GC.MhohGAq1l5j9aBD5'
+  - name: Signature Move
+    img: systems/daggerheart/assets/icons/domains/domain-card/bone.png
+    type: domainCard
+    folder: BQ1L4EiwOs84Xysp
+    system:
+      description: >-
+        <p></p><p class="Body-Foundation">Name and describe your signature
+        combat move. Once per rest, when you perform this signature move as part
+        of an action you’re taking, you can roll a<strong> d20</strong> as your
+        Hope Die. On a success, clear a Stress.</p><p></p>
+      domain: bone
+      recallCost: 1
+      level: 5
+      type: ability
+      attribution:
+        source: Daggerheart SRD
+        page: 123
+        artist: ''
+      resource: null
+      actions: {}
+      inVault: true
+      vaultActive: false
+      loadoutIgnore: false
+      domainTouched: null
+    flags: {}
+    _id: 9tBCOCplL2DaiTK1
+    sort: 3400000
+    effects: []
+    _stats:
+      coreVersion: '14.360'
+      systemId: daggerheart
+      systemVersion: 2.2.1
+      createdTime: 1777642015514
+      modifiedTime: 1777642015514
+      lastModifiedBy: pQzNfYJpGL2Gy8DA
+      compendiumSource: null
+      duplicateSource: null
+      exportSource: null
+    ownership:
+      default: 0
+    _key: '!actors.items!2W77E8fvQ7s8w2GC.9tBCOCplL2DaiTK1'
+  - name: Deft Maneuvers
+    img: systems/daggerheart/assets/icons/domains/domain-card/bone.png
+    type: domainCard
+    folder: PeeIjbkBv41613yZ
+    system:
+      description: >-
+        <p class="Body-Foundation">Once per rest,<strong> mark a Stress</strong>
+        to sprint anywhere within Far range without making an Agility Roll to
+        get there.</p><p class="Body-Foundation">If you end this movement within
+        Melee range of an adversary and immediately make an attack against them,
+        gain a +1 bonus to the attack roll.</p>
+      domain: bone
+      recallCost: 0
+      level: 1
+      type: ability
+      actions:
+        AKexQGjS5HwPTo19:
+          type: effect
+          _id: AKexQGjS5HwPTo19
+          systemPath: actions
+          description: >-
+            <p class="Body-Foundation">Once per rest,<strong> mark a
+            Stress</strong> to sprint anywhere within Far range without making
+            an Agility Roll to get there.</p><p class="Body-Foundation">If you
+            end this movement within Melee range of an adversary and immediately
+            make an attack against them, gain a +1 bonus to the attack roll.</p>
+          chatDisplay: true
+          actionType: action
+          cost:
+            - scalable: false
+              key: stress
+              value: 1
+              step: null
+              consumeOnSuccess: false
+              itemId: null
+          uses:
+            value: null
+            max: '1'
+            recovery: shortRest
+            consumeOnSuccess: false
+          effects:
+            - _id: gEDGcbsgWY2D2nOo
+              onSave: false
+          target:
+            type: any
+            amount: null
+          name: Mark Stress
+          img: icons/skills/movement/arrow-upward-yellow.webp
+          range: ''
+          baseAction: false
+          originItem:
+            type: itemCollection
+          triggers: []
+          areas: []
+      attribution:
+        source: Daggerheart SRD
+        page: 122
+        artist: ''
+      resource: null
+      inVault: true
+      vaultActive: false
+      loadoutIgnore: false
+      domainTouched: null
+    flags: {}
+    _id: tVWTyXpsW9fMQiNW
+    sort: 3400000
+    effects:
+      - name: Deft Maneuvers
+        img: icons/skills/movement/arrow-upward-yellow.webp
+        origin: Compendium.daggerheart.domains.Item.dc4rAXlv95srZUct
+        transfer: true
+        _id: gEDGcbsgWY2D2nOo
+        type: base
+        system:
+          rangeDependence:
+            enabled: false
+            type: withinRange
+            target: hostile
+            range: melee
+          changes:
+            - key: system.bonuses.roll.attack.bonus
+              value: 1
+              priority: null
+              type: add
+              phase: initial
+          duration:
+            description: ''
+          stacking: null
+          targetDispositions: []
+        disabled: true
+        duration:
+          value: null
+          units: seconds
+          expiry: null
+          expired: false
+        description: >-
+          <p>If you end this movement within Melee range of an adversary and
+          immediately make an attack against them, gain a +1 bonus to the attack
+          roll.</p>
+        tint: '#ffffff'
+        statuses: []
+        sort: 0
+        flags: {}
+        _stats:
+          coreVersion: '14.360'
+          systemId: daggerheart
+          systemVersion: 2.2.1
+          createdTime: 1777642015514
+          modifiedTime: 1777642015514
+          lastModifiedBy: pQzNfYJpGL2Gy8DA
+          compendiumSource: null
+          duplicateSource: null
+          exportSource: null
+        start: null
+        showIcon: 1
+        folder: null
+        _key: >-
+          !actors.items.effects!2W77E8fvQ7s8w2GC.tVWTyXpsW9fMQiNW.gEDGcbsgWY2D2nOo
+    _stats:
+      coreVersion: '14.360'
+      systemId: daggerheart
+      systemVersion: 2.2.1
+      createdTime: 1777642015514
+      modifiedTime: 1777642015514
+      lastModifiedBy: pQzNfYJpGL2Gy8DA
+      compendiumSource: null
+      duplicateSource: null
+      exportSource: null
+    ownership:
+      default: 0
+    _key: '!actors.items!2W77E8fvQ7s8w2GC.tVWTyXpsW9fMQiNW'
+  - name: Bone-Touched
+    img: systems/daggerheart/assets/icons/domains/domain-card/bone.png
+    type: domainCard
+    folder: i5iDLXMZLc0ckWI5
+    system:
+      description: >-
+        <p class="Body-Foundation-No-BOLDITALIC">When 4 or more of the domain
+        cards in your loadout are from the Bone domain, gain the following
+        benefits:</p><ul><li class="vertical-card-list-found"><p>+1 bonus to
+        Agility</p></li><li class="vertical-card-list-found"><p>Once per rest,
+        you can <strong>spend 3 Hope</strong> to cause an attack that succeeded
+        against you to fail instead.</p></li></ul>
+      domain: bone
+      recallCost: 2
+      level: 7
+      type: ability
+      actions:
+        pRSiIoh4Bzk5I9ej:
+          type: effect
+          _id: pRSiIoh4Bzk5I9ej
+          systemPath: actions
+          description: >-
+            <p>Once per rest, you can <strong>spend 3 Hope</strong> to cause an
+            attack that succeeded against you to fail instead.</p>
+          chatDisplay: true
+          actionType: action
+          cost:
+            - scalable: false
+              key: hope
+              value: 3
+              step: null
+              consumeOnSuccess: false
+              itemId: null
+          uses:
+            value: null
+            max: '1'
+            recovery: shortRest
+            consumeOnSuccess: false
+          effects: []
+          target:
+            type: self
+            amount: null
+          name: Spend Hope
+          img: icons/magic/holy/barrier-shield-winged-blue.webp
+          range: ''
+          baseAction: false
+          originItem:
+            type: itemCollection
+          triggers: []
+          areas: []
+      attribution:
+        source: Daggerheart SRD
+        page: 123
+        artist: ''
+      domainTouched: 4
+      resource: null
+      inVault: false
+      vaultActive: false
+      loadoutIgnore: false
+    flags: {}
+    _id: 5jIsuugWcbGdUXF9
+    sort: 3400000
+    effects:
+      - name: Bone Touched
+        type: base
+        system:
+          rangeDependence:
+            enabled: false
+            type: withinRange
+            target: hostile
+            range: melee
+          changes:
+            - key: system.traits.agility.value
+              value: 1
+              priority: null
+              type: add
+              phase: initial
+          duration:
+            description: ''
+          stacking: null
+          targetDispositions: []
+        _id: P6hYkkI64FqIcMoP
+        img: icons/magic/death/bones-crossed-orange.webp
+        disabled: false
+        duration:
+          value: null
+          units: seconds
+          expiry: null
+          expired: false
+        description: <p class="Body-Foundation-No-BOLDITALIC">+1 bonus to Agility</p>
+        origin: null
+        tint: '#ffffff'
+        transfer: true
+        statuses: []
+        sort: 0
+        flags: {}
+        _stats:
+          coreVersion: '14.360'
+          systemId: daggerheart
+          systemVersion: 2.2.1
+          createdTime: 1777642015515
+          modifiedTime: 1777642015515
+          lastModifiedBy: pQzNfYJpGL2Gy8DA
+          compendiumSource: null
+          duplicateSource: null
+          exportSource: null
+        start: null
+        showIcon: 1
+        folder: null
+        _key: >-
+          !actors.items.effects!2W77E8fvQ7s8w2GC.5jIsuugWcbGdUXF9.P6hYkkI64FqIcMoP
+    _stats:
+      coreVersion: '14.360'
+      systemId: daggerheart
+      systemVersion: 2.2.1
+      createdTime: 1777642015515
+      modifiedTime: 1777642015515
+      lastModifiedBy: pQzNfYJpGL2Gy8DA
+      compendiumSource: null
+      duplicateSource: null
+      exportSource: null
+    ownership:
+      default: 0
+    _key: '!actors.items!2W77E8fvQ7s8w2GC.5jIsuugWcbGdUXF9'
+  - name: Wild Surge
+    img: systems/daggerheart/assets/icons/domains/domain-card/sage.png
+    type: domainCard
+    folder: gEVGjjPrjqxxZkb5
+    system:
+      description: >-
+        <p class="Body-Foundation">Once per long rest, <strong>mark a
+        Stress</strong> to channel the natural world around you and enhance
+        yourself. Describe how your appearance changes, then place a
+        <strong>d6</strong> on this card with the 1 value facing up.</p><p
+        class="Body-Foundation">While the Wild Surge Die is active, you add its
+        value to every action roll you make. After you add its value to a roll,
+        increase the Wild Surge Die’s value by one. When the die’s value would
+        exceed 6 or you take a rest, this form drops and you must <strong>mark
+        an additional Stress</strong>.</p>
+      domain: sage
+      recallCost: 2
+      level: 7
+      type: spell
+      resource:
+        type: simple
+        value: 0
+        max: '6'
+        icon: ''
+        recovery: null
+        progression: increasing
+        diceStates: {}
+        dieFaces: d4
+      actions:
+        nYu6LRNVDKfWUJhx:
+          type: effect
+          _id: nYu6LRNVDKfWUJhx
+          systemPath: actions
+          description: >-
+            <p class="Body-Foundation">Once per long rest, <strong>mark a
+            Stress</strong> to channel the natural world around you and enhance
+            yourself. Describe how your appearance changes, then place a
+            <strong>d6</strong> on this card with the 1 value facing up.</p><p
+            class="Body-Foundation">While the Wild Surge Die is active, you add
+            its value to every action roll you make. After you add its value to
+            a roll, increase the Wild Surge Die’s value by one. When the die’s
+            value would exceed 6 or you take a rest, this form drops and you
+            must <strong>mark an additional Stress</strong>.</p>
+          chatDisplay: true
+          actionType: action
+          cost:
+            - scalable: false
+              key: stress
+              value: 1
+              step: null
+              itemId: null
+              consumeOnSuccess: false
+          uses:
+            value: null
+            max: '1'
+            recovery: longRest
+            consumeOnSuccess: false
+          effects: []
+          target:
+            type: any
+            amount: null
+          name: Channel Nature
+          img: icons/magic/control/debuff-energy-hold-levitate-green.webp
+          range: ''
+          baseAction: false
+          originItem:
+            type: itemCollection
+          triggers: []
+          areas: []
+      attribution:
+        source: Daggerheart SRD
+        page: 131
+        artist: ''
+      inVault: true
+      vaultActive: false
+      loadoutIgnore: false
+      domainTouched: null
+    flags: {}
+    _id: R8Mc7GAbrVQHHGLP
+    sort: 3400000
+    effects: []
+    _stats:
+      coreVersion: '14.360'
+      systemId: daggerheart
+      systemVersion: 2.2.1
+      createdTime: 1777642015515
+      modifiedTime: 1777642015515
+      lastModifiedBy: pQzNfYJpGL2Gy8DA
+      compendiumSource: null
+      duplicateSource: null
+      exportSource: null
+    ownership:
+      default: 0
+    _key: '!actors.items!2W77E8fvQ7s8w2GC.R8Mc7GAbrVQHHGLP'
+  - name: Breaking Blow
+    img: systems/daggerheart/assets/icons/domains/domain-card/bone.png
+    type: domainCard
+    folder: n7pgTBYSItMzCX0s
+    system:
+      description: >-
+        <p class="Body-Foundation">When you make a successful attack, you can
+        <strong>mark a Stress</strong> to make the next successful attack
+        against that same target deal an extra <strong>2d12</strong> damage.</p>
+      domain: bone
+      recallCost: 3
+      level: 8
+      type: ability
+      actions:
+        aL83OMkU7hSQRlOA:
+          type: effect
+          _id: aL83OMkU7hSQRlOA
+          systemPath: actions
+          description: >-
+            <p class="Body-Foundation">When you make a successful attack, you
+            can <strong>mark a Stress</strong> to make the next successful
+            attack against that same target deal an extra <strong>2d12</strong>
+            damage.</p>
+          chatDisplay: true
+          actionType: action
+          cost:
+            - scalable: false
+              key: stress
+              value: 1
+              step: null
+              consumeOnSuccess: false
+              itemId: null
+          uses:
+            value: null
+            max: ''
+            recovery: null
+            consumeOnSuccess: false
+          effects:
+            - _id: ETIeXRAib3DFBHpX
+              onSave: false
+          target:
+            type: any
+            amount: 1
+          name: Mark Stress
+          img: icons/skills/wounds/bone-broken-knee-beam.webp
+          range: ''
+          baseAction: false
+          originItem:
+            type: itemCollection
+          triggers: []
+          areas: []
+      attribution:
+        source: Daggerheart SRD
+        page: 123
+        artist: ''
+      resource: null
+      inVault: true
+      vaultActive: false
+      loadoutIgnore: false
+      domainTouched: null
+    flags: {}
+    _id: 1Knov4P1ZDD9OFTX
+    sort: 3400000
+    effects:
+      - name: Breaking Blow
+        img: icons/skills/wounds/bone-broken-knee-beam.webp
+        origin: Compendium.daggerheart.domains.Item.8UANBgSdhMZ0sqfO
+        transfer: false
+        _id: ETIeXRAib3DFBHpX
+        type: base
+        system:
+          rangeDependence:
+            enabled: false
+            type: withinRange
+            target: hostile
+            range: melee
+          changes: []
+          duration:
+            description: ''
+          stacking: null
+          targetDispositions: []
+        disabled: false
+        duration:
+          value: null
+          units: seconds
+          expiry: null
+          expired: false
+        description: >-
+          <p class="Body-Foundation">The next successful attack against this
+          target deals an extra <strong>2d12</strong> damage.</p>
+        tint: '#ffffff'
+        statuses: []
+        sort: 0
+        flags: {}
+        _stats:
+          coreVersion: '14.360'
+          systemId: daggerheart
+          systemVersion: 2.2.1
+          createdTime: 1777642015515
+          modifiedTime: 1777642015515
+          lastModifiedBy: pQzNfYJpGL2Gy8DA
+          compendiumSource: null
+          duplicateSource: null
+          exportSource: null
+        start: null
+        showIcon: 1
+        folder: null
+        _key: >-
+          !actors.items.effects!2W77E8fvQ7s8w2GC.1Knov4P1ZDD9OFTX.ETIeXRAib3DFBHpX
+    _stats:
+      coreVersion: '14.360'
+      systemId: daggerheart
+      systemVersion: 2.2.1
+      createdTime: 1777642015515
+      modifiedTime: 1777642015515
+      lastModifiedBy: pQzNfYJpGL2Gy8DA
+      compendiumSource: null
+      duplicateSource: null
+      exportSource: null
+    ownership:
+      default: 0
+    _key: '!actors.items!2W77E8fvQ7s8w2GC.1Knov4P1ZDD9OFTX'
+  - name: Splintering Strike
+    img: systems/daggerheart/assets/icons/domains/domain-card/bone.png
+    type: domainCard
+    folder: eg2vM8j9xhya9Rwa
+    system:
+      description: >-
+        <p><strong>Spend a Hope</strong> and make an attack against all
+        adversaries within your weapon’s range. Once per long rest, on a success
+        against any targets, roll your weapon’s damage and distribute that
+        damage however you wish between the targets you succeeded against.
+        Before you deal damage to each target, roll an additional damage die and
+        add its result to the damage you deal to them.</p>
+      domain: bone
+      recallCost: 3
+      level: 9
+      type: ability
+      actions:
+        yjEcSlzsWGX79gpB:
+          type: attack
+          _id: yjEcSlzsWGX79gpB
+          systemPath: actions
+          description: ''
+          chatDisplay: true
+          actionType: action
+          cost:
+            - key: hope
+              value: 1
+              scalable: false
+              step: null
+              consumeOnSuccess: false
+              itemId: null
+          uses:
+            value: null
+            max: '1'
+            recovery: longRest
+            consumeOnSuccess: true
+          damage:
+            parts: {}
+            includeBase: false
+            direct: false
+          target:
+            type: any
+            amount: null
+          effects: []
+          roll:
+            type: attack
+            trait: null
+            difficulty: null
+            bonus: null
+            advState: neutral
+            diceRolling:
+              multiplier: prof
+              flatMultiplier: 1
+              dice: d6
+              compare: null
+              treshold: null
+            useDefault: false
+          save:
+            trait: null
+            difficulty: null
+            damageMod: none
+          name: Spend Hope
+          img: icons/skills/melee/strike-sword-steel-yellow.webp
+          range: ''
+          baseAction: false
+          originItem:
+            type: itemCollection
+          triggers: []
+          areas: []
+      attribution:
+        source: Daggerheart SRD
+        page: 123
+        artist: ''
+      resource: null
+      inVault: false
+      vaultActive: false
+      loadoutIgnore: false
+      domainTouched: null
+    flags: {}
+    _id: PJOmGEKQ2QZrBRl1
+    sort: 3400000
+    effects: []
+    _stats:
+      coreVersion: '14.360'
+      systemId: daggerheart
+      systemVersion: 2.2.1
+      createdTime: 1777642015515
+      modifiedTime: 1777642015515
+      lastModifiedBy: pQzNfYJpGL2Gy8DA
+      compendiumSource: null
+      duplicateSource: null
+      exportSource: null
+    ownership:
+      default: 0
+    _key: '!actors.items!2W77E8fvQ7s8w2GC.PJOmGEKQ2QZrBRl1'
+  - name: Tempest
+    img: systems/daggerheart/assets/icons/domains/domain-card/sage.png
+    type: domainCard
+    folder: pPzU9WOQNv3ckO1w
+    system:
+      description: >-
+        <p class="Body-Foundation-No-BOLDITALIC">Choose one of the following
+        tempests and make a <strong>Spellcast Roll</strong> against all targets
+        within Far range. Targets you succeed against experience its effects
+        until the GM spends a Fear on their turn to end this spell.</p><ul><li
+        class="vertical-card-list"><p><em><strong>Blizzard:</strong></em> Deal
+        <strong>2d20+8</strong> magic damage and targets are temporarily
+        <em>Vulnerable</em>.</p></li><li
+        class="vertical-card-list"><em><strong>Hurricane: </strong></em>Deal
+        <strong>3d10+10</strong> magic damage and choose a direction the wind is
+        blowing. Targets can’t move against the wind.</li><li
+        class="vertical-card-list"><p><em><strong>Sandstorm:</strong></em> Deal
+        <strong>5d6+9</strong> magic damage. Attacks made from beyond Melee
+        range have disadvantage.</p><p></p></li></ul>
+      domain: sage
+      recallCost: 2
+      level: 10
+      type: spell
+      actions:
+        ZqnziDBlh5Re7SKs:
+          type: attack
+          _id: ZqnziDBlh5Re7SKs
+          systemPath: actions
+          description: >-
+            <p class="Body-Foundation-No-BOLDITALIC">Choose the following
+            tempest and make a <strong>Spellcast Roll</strong> against all
+            targets within Far range. Targets you succeed against experience its
+            effects until the GM spends a Fear on their turn to end this
+            spell.</p><ul class=""><li
+            class="vertical-card-list"><p><em><strong>Blizzard:</strong></em>
+            Deal <strong>2d20+8</strong> magic damage and targets are
+            temporarily <em>Vulnerable</em>.</p><p></p></li></ul>
+          chatDisplay: true
+          actionType: action
+          cost: []
+          uses:
+            value: null
+            max: ''
+            recovery: null
+            consumeOnSuccess: false
+          damage:
+            parts:
+              hitPoints:
+                resultBased: false
+                value:
+                  custom:
+                    enabled: false
+                    formula: ''
+                  multiplier: flat
+                  flatMultiplier: 2
+                  dice: d20
+                  bonus: 8
+                applyTo: hitPoints
+                type:
+                  - magical
+                base: false
+                valueAlt:
+                  multiplier: prof
+                  flatMultiplier: 1
+                  dice: d6
+                  bonus: null
+                  custom:
+                    enabled: false
+                    formula: ''
+            includeBase: false
+            direct: false
+          target:
+            type: any
+            amount: null
+          effects:
+            - _id: oqPY3I9oO9J6l5Aj
+              onSave: false
+          roll:
+            type: spellcast
+            trait: null
+            difficulty: null
+            bonus: null
+            advState: neutral
+            diceRolling:
+              multiplier: prof
+              flatMultiplier: 1
+              dice: d6
+              compare: null
+              treshold: null
+            useDefault: false
+          save:
+            trait: null
+            difficulty: null
+            damageMod: none
+          name: Blizzard
+          img: icons/magic/water/projectiles-ice-faceted-shard-salvo-blue.webp
+          range: far
+          areas:
+            - name: Tempest
+              type: placed
+              shape: emanation
+              size: far
+              effects: []
+          baseAction: false
+          originItem:
+            type: itemCollection
+          triggers: []
+        FEPhujGa5lvu5fXr:
+          type: attack
+          _id: FEPhujGa5lvu5fXr
+          systemPath: actions
+          description: >-
+            <p class="Body-Foundation-No-BOLDITALIC">Choose the following
+            tempest and make a <strong>Spellcast Roll</strong> against all
+            targets within Far range. Targets you succeed against experience its
+            effects until the GM spends a Fear on their turn to end this
+            spell.</p><ul class=""><li
+            class="vertical-card-list"><em><strong>Hurricane: </strong></em>Deal
+            <strong>3d10+10</strong> magic damage and choose a direction the
+            wind is blowing. Targets can’t move against the wind.</li></ul>
+          chatDisplay: true
+          actionType: action
+          cost: []
+          uses:
+            value: null
+            max: ''
+            recovery: null
+            consumeOnSuccess: false
+          damage:
+            parts:
+              hitPoints:
+                resultBased: false
+                value:
+                  custom:
+                    enabled: false
+                    formula: ''
+                  multiplier: flat
+                  flatMultiplier: 3
+                  dice: d10
+                  bonus: 10
+                applyTo: hitPoints
+                type:
+                  - magical
+                base: false
+                valueAlt:
+                  multiplier: prof
+                  flatMultiplier: 1
+                  dice: d6
+                  bonus: null
+                  custom:
+                    enabled: false
+                    formula: ''
+            includeBase: false
+            direct: false
+          target:
+            type: any
+            amount: null
+          effects:
+            - _id: tB7AyDy0pbE9q5hM
+              onSave: false
+          roll:
+            type: spellcast
+            trait: null
+            difficulty: null
+            bonus: null
+            advState: neutral
+            diceRolling:
+              multiplier: prof
+              flatMultiplier: 1
+              dice: d6
+              compare: null
+              treshold: null
+            useDefault: false
+          save:
+            trait: null
+            difficulty: null
+            damageMod: none
+          name: Hurricane
+          img: icons/magic/air/wind-tornado-cyclone-purple-blue.webp
+          range: far
+          areas:
+            - name: Tempest
+              type: placed
+              shape: emanation
+              size: far
+              effects: []
+          baseAction: false
+          originItem:
+            type: itemCollection
+          triggers: []
+        CzMlqo91kuTgg1As:
+          type: attack
+          _id: CzMlqo91kuTgg1As
+          systemPath: actions
+          description: >-
+            <p class="Body-Foundation-No-BOLDITALIC">Choose the following
+            tempest and make a <strong>Spellcast Roll</strong> against all
+            targets within Far range. Targets you succeed against experience its
+            effects until the GM spends a Fear on their turn to end this
+            spell.</p><ul class=""><li
+            class="vertical-card-list"><p><em><strong>Sandstorm:</strong></em>
+            Deal <strong>5d6+9</strong> magic damage. Attacks made from beyond
+            Melee range have disadvantage.</p><p></p></li></ul>
+          chatDisplay: true
+          actionType: action
+          cost: []
+          uses:
+            value: null
+            max: ''
+            recovery: null
+            consumeOnSuccess: false
+          damage:
+            parts:
+              hitPoints:
+                resultBased: false
+                value:
+                  custom:
+                    enabled: false
+                    formula: ''
+                  multiplier: flat
+                  flatMultiplier: 5
+                  dice: d6
+                  bonus: 9
+                applyTo: hitPoints
+                type:
+                  - magical
+                base: false
+                valueAlt:
+                  multiplier: prof
+                  flatMultiplier: 1
+                  dice: d6
+                  bonus: null
+                  custom:
+                    enabled: false
+                    formula: ''
+            includeBase: false
+            direct: false
+          target:
+            type: any
+            amount: null
+          effects:
+            - _id: S4Vpgf3FMmq8MGrb
+              onSave: false
+          roll:
+            type: spellcast
+            trait: null
+            difficulty: null
+            bonus: null
+            advState: neutral
+            diceRolling:
+              multiplier: prof
+              flatMultiplier: 1
+              dice: d6
+              compare: null
+              treshold: null
+            useDefault: false
+          save:
+            trait: null
+            difficulty: null
+            damageMod: none
+          name: Sandstorm
+          img: icons/magic/air/air-wave-gust-smoke-yellow.webp
+          range: far
+          areas:
+            - name: Tempest
+              type: placed
+              shape: emanation
+              size: far
+              effects: []
+          baseAction: false
+          originItem:
+            type: itemCollection
+          triggers: []
+      attribution:
+        source: Daggerheart SRD
+        page: 132
+        artist: ''
+      resource: null
+      inVault: false
+      vaultActive: false
+      loadoutIgnore: false
+      domainTouched: null
+    flags: {}
+    _id: CPfMDkxm0tvacPl5
+    sort: 3400000
+    effects:
+      - name: Vulnerable
+        img: icons/skills/wounds/injury-pain-body-orange.webp
+        origin: Compendium.daggerheart.domains.Item.X7YaZgFieBlqaPdZ
+        transfer: false
+        _id: oqPY3I9oO9J6l5Aj
+        type: base
+        system:
+          rangeDependence:
+            enabled: false
+            type: withinRange
+            target: hostile
+            range: melee
+          changes: []
+          duration:
+            type: temporary
+            description: ''
+          stacking: null
+          targetDispositions: []
+        disabled: false
+        duration:
+          value: null
+          units: seconds
+          expiry: null
+          expired: false
+        description: ''
+        tint: '#ffffff'
+        statuses:
+          - vulnerable
+        sort: 0
+        flags: {}
+        _stats:
+          coreVersion: '14.360'
+          systemId: daggerheart
+          systemVersion: 2.2.1
+          createdTime: 1777642015516
+          modifiedTime: 1777642015516
+          lastModifiedBy: pQzNfYJpGL2Gy8DA
+          compendiumSource: null
+          duplicateSource: null
+          exportSource: null
+        start:
+          time: 0
+          combat: null
+          combatant: null
+          initiative: null
+          round: null
+          turn: null
+        showIcon: 1
+        folder: null
+        _key: >-
+          !actors.items.effects!2W77E8fvQ7s8w2GC.CPfMDkxm0tvacPl5.oqPY3I9oO9J6l5Aj
+      - name: Wind
+        img: icons/magic/air/wind-tornado-cyclone-purple-blue.webp
+        origin: Compendium.daggerheart.domains.Item.X7YaZgFieBlqaPdZ
+        transfer: false
+        _id: tB7AyDy0pbE9q5hM
+        type: base
+        system:
+          rangeDependence:
+            enabled: false
+            type: withinRange
+            target: hostile
+            range: melee
+          changes: []
+          duration:
+            description: ''
+          stacking: null
+          targetDispositions: []
+        disabled: false
+        duration:
+          value: null
+          units: seconds
+          expiry: null
+          expired: false
+        description: >-
+          <p><span style="color:rgb(239, 230, 216);font-family:Montserrat,
+          sans-serif;font-size:14px;font-style:normal;font-variant-ligatures:normal;font-variant-caps:normal;font-weight:400;letter-spacing:normal;orphans:2;text-align:left;text-indent:0px;text-transform:none;widows:2;word-spacing:0px;-webkit-text-stroke-width:0px;white-space:normal;background-color:rgba(24,
+          22, 46,
+          0.376);text-decoration-thickness:initial;text-decoration-style:initial;text-decoration-color:initial;display:inline
+          !important;float:none">Targets can’t move against the wind.</span></p>
+        tint: '#ffffff'
+        statuses: []
+        sort: 0
+        flags: {}
+        _stats:
+          coreVersion: '14.360'
+          systemId: daggerheart
+          systemVersion: 2.2.1
+          createdTime: 1777642015516
+          modifiedTime: 1777642015516
+          lastModifiedBy: pQzNfYJpGL2Gy8DA
+          compendiumSource: null
+          duplicateSource: null
+          exportSource: null
+        start: null
+        showIcon: 1
+        folder: null
+        _key: >-
+          !actors.items.effects!2W77E8fvQ7s8w2GC.CPfMDkxm0tvacPl5.tB7AyDy0pbE9q5hM
+      - name: Sand
+        img: icons/magic/air/air-wave-gust-smoke-yellow.webp
+        origin: Compendium.daggerheart.domains.Item.X7YaZgFieBlqaPdZ
+        transfer: false
+        _id: S4Vpgf3FMmq8MGrb
+        type: base
+        system:
+          rangeDependence:
+            enabled: false
+            type: withinRange
+            target: hostile
+            range: melee
+          changes: []
+          duration:
+            description: ''
+          stacking: null
+          targetDispositions: []
+        disabled: false
+        duration:
+          value: null
+          units: seconds
+          expiry: null
+          expired: false
+        description: >-
+          <p><span style="color:rgb(239, 230, 216);font-family:Montserrat,
+          sans-serif;font-size:14px;font-style:normal;font-variant-ligatures:normal;font-variant-caps:normal;font-weight:400;letter-spacing:normal;orphans:2;text-align:left;text-indent:0px;text-transform:none;widows:2;word-spacing:0px;-webkit-text-stroke-width:0px;white-space:normal;background-color:rgba(24,
+          22, 46,
+          0.376);text-decoration-thickness:initial;text-decoration-style:initial;text-decoration-color:initial;display:inline
+          !important;float:none">Attacks made from beyond </span><span
+          class="tooltip-convert"
+          style="box-sizing:border-box;scrollbar-width:thin;scrollbar-color:rgb(93,
+          20, 43) rgba(0, 0, 0, 0);color:rgb(239, 230,
+          216);font-family:Montserrat,
+          sans-serif;font-size:14px;font-style:normal;font-variant-ligatures:normal;font-variant-caps:normal;font-weight:400;letter-spacing:normal;orphans:2;text-align:left;text-indent:0px;text-transform:none;widows:2;word-spacing:0px;-webkit-text-stroke-width:0px;white-space:normal;background-color:rgba(24,
+          22, 46,
+          0.376);text-decoration-thickness:initial;text-decoration-style:initial;text-decoration-color:initial">Melee</span><span
+          style="color:rgb(239, 230, 216);font-family:Montserrat,
+          sans-serif;font-size:14px;font-style:normal;font-variant-ligatures:normal;font-variant-caps:normal;font-weight:400;letter-spacing:normal;orphans:2;text-align:left;text-indent:0px;text-transform:none;widows:2;word-spacing:0px;-webkit-text-stroke-width:0px;white-space:normal;background-color:rgba(24,
+          22, 46,
+          0.376);text-decoration-thickness:initial;text-decoration-style:initial;text-decoration-color:initial;display:inline
+          !important;float:none"> range have </span><span
+          class="tooltip-convert"
+          style="box-sizing:border-box;scrollbar-width:thin;scrollbar-color:rgb(93,
+          20, 43) rgba(0, 0, 0, 0);color:rgb(239, 230,
+          216);font-family:Montserrat,
+          sans-serif;font-size:14px;font-style:normal;font-variant-ligatures:normal;font-variant-caps:normal;font-weight:400;letter-spacing:normal;orphans:2;text-align:left;text-indent:0px;text-transform:none;widows:2;word-spacing:0px;-webkit-text-stroke-width:0px;white-space:normal;background-color:rgba(24,
+          22, 46,
+          0.376);text-decoration-thickness:initial;text-decoration-style:initial;text-decoration-color:initial">disadvantage</span><span
+          style="color:rgb(239, 230, 216);font-family:Montserrat,
+          sans-serif;font-size:14px;font-style:normal;font-variant-ligatures:normal;font-variant-caps:normal;font-weight:400;letter-spacing:normal;orphans:2;text-align:left;text-indent:0px;text-transform:none;widows:2;word-spacing:0px;-webkit-text-stroke-width:0px;white-space:normal;background-color:rgba(24,
+          22, 46,
+          0.376);text-decoration-thickness:initial;text-decoration-style:initial;text-decoration-color:initial;display:inline
+          !important;float:none">.</span></p>
+        tint: '#ffffff'
+        statuses: []
+        sort: 0
+        flags: {}
+        _stats:
+          coreVersion: '14.360'
+          systemId: daggerheart
+          systemVersion: 2.2.1
+          createdTime: 1777642015516
+          modifiedTime: 1777642015516
+          lastModifiedBy: pQzNfYJpGL2Gy8DA
+          compendiumSource: null
+          duplicateSource: null
+          exportSource: null
+        start: null
+        showIcon: 1
+        folder: null
+        _key: >-
+          !actors.items.effects!2W77E8fvQ7s8w2GC.CPfMDkxm0tvacPl5.S4Vpgf3FMmq8MGrb
+    _stats:
+      coreVersion: '14.360'
+      systemId: daggerheart
+      systemVersion: 2.2.1
+      createdTime: 1777642015516
+      modifiedTime: 1777642015516
+      lastModifiedBy: pQzNfYJpGL2Gy8DA
+      compendiumSource: null
+      duplicateSource: null
+      exportSource: null
+    ownership:
+      default: 0
+    _key: '!actors.items!2W77E8fvQ7s8w2GC.CPfMDkxm0tvacPl5'
+  - name: Swift Step
+    img: systems/daggerheart/assets/icons/domains/domain-card/bone.png
+    type: domainCard
+    folder: Hs6POmXKThDXQJBn
+    system:
+      description: >-
+        <p class="Body-Foundation">When an attack made against you fails, clear
+        a Stress. If you can’t clear a Stress, gain a Hope.</p>
+      domain: bone
+      recallCost: 2
+      level: 10
+      type: ability
+      actions:
+        Yqyfl459M3q3TACB:
+          type: healing
+          _id: Yqyfl459M3q3TACB
+          systemPath: actions
+          description: >-
+            <p class="Body-Foundation">When an attack made against you fails,
+            clear a Stress. If you can’t clear a Stress, gain a Hope.</p>
+          chatDisplay: true
+          actionType: action
+          cost: []
+          uses:
+            value: null
+            max: ''
+            recovery: null
+            consumeOnSuccess: false
+          damage:
+            parts:
+              stress:
+                value:
+                  custom:
+                    enabled: true
+                    formula: '1'
+                  multiplier: prof
+                  flatMultiplier: 1
+                  dice: d6
+                  bonus: null
+                applyTo: stress
+                base: false
+                resultBased: false
+                valueAlt:
+                  multiplier: prof
+                  flatMultiplier: 1
+                  dice: d6
+                  bonus: null
+                  custom:
+                    enabled: false
+                    formula: ''
+                type: []
+            includeBase: false
+            direct: false
+          target:
+            type: self
+            amount: null
+          effects: []
+          roll:
+            type: null
+            trait: null
+            difficulty: null
+            bonus: null
+            advState: neutral
+            diceRolling:
+              multiplier: prof
+              flatMultiplier: 1
+              dice: d6
+              compare: null
+              treshold: null
+            useDefault: false
+          name: Clear Stress
+          img: icons/magic/life/cross-beam-green.webp
+          range: ''
+          baseAction: false
+          originItem:
+            type: itemCollection
+          triggers: []
+          areas: []
+        Py9Mx4nMfCRr4tpk:
+          type: healing
+          _id: Py9Mx4nMfCRr4tpk
+          systemPath: actions
+          description: >-
+            <p class="Body-Foundation">When an attack made against you fails,
+            clear a Stress. If you can’t clear a Stress, gain a Hope.</p>
+          chatDisplay: true
+          actionType: action
+          cost: []
+          uses:
+            value: null
+            max: ''
+            recovery: null
+            consumeOnSuccess: false
+          damage:
+            parts:
+              hope:
+                value:
+                  custom:
+                    enabled: true
+                    formula: '1'
+                  multiplier: prof
+                  flatMultiplier: 1
+                  dice: d6
+                  bonus: null
+                applyTo: hope
+                base: false
+                resultBased: false
+                valueAlt:
+                  multiplier: prof
+                  flatMultiplier: 1
+                  dice: d6
+                  bonus: null
+                  custom:
+                    enabled: false
+                    formula: ''
+                type: []
+            includeBase: false
+            direct: false
+          target:
+            type: any
+            amount: null
+          effects: []
+          roll:
+            type: null
+            trait: null
+            difficulty: null
+            bonus: null
+            advState: neutral
+            diceRolling:
+              multiplier: prof
+              flatMultiplier: 1
+              dice: d6
+              compare: null
+              treshold: null
+            useDefault: false
+          name: Gain Hope
+          img: icons/magic/life/cross-beam-green.webp
+          range: ''
+          baseAction: false
+          originItem:
+            type: itemCollection
+          triggers: []
+          areas: []
+      attribution:
+        source: Daggerheart SRD
+        page: 123
+        artist: ''
+      resource: null
+      inVault: false
+      vaultActive: false
+      loadoutIgnore: false
+      domainTouched: null
+    flags: {}
+    _id: CktGCViAgdFWiiaw
+    sort: 3400000
+    effects: []
+    _stats:
+      coreVersion: '14.360'
+      systemId: daggerheart
+      systemVersion: 2.2.1
+      createdTime: 1777642015516
+      modifiedTime: 1777642015516
+      lastModifiedBy: pQzNfYJpGL2Gy8DA
+      compendiumSource: null
+      duplicateSource: null
+      exportSource: null
+    ownership:
+      default: 0
+    _key: '!actors.items!2W77E8fvQ7s8w2GC.CktGCViAgdFWiiaw'
+  - name: Advanced Leather Armor
+    type: armor
+    _id: itSOp2GCyem0f7oM
+    img: icons/equipment/chest/breastplate-layered-leather-blue.webp
+    system:
+      armor:
+        current: 0
+        max: 5
+      description: ''
+      actions: {}
+      attached: []
+      tier: 3
+      equipped: true
+      armorFeatures: []
+      baseThresholds:
+        major: 11
+        severe: 27
+      attribution:
+        source: Daggerheart SRD
+        page: 57
+        artist: ''
+      quantity: 1
+    effects: []
+    flags: {}
+    _stats:
+      coreVersion: '14.360'
+      systemId: daggerheart
+      systemVersion: 2.2.1
+      createdTime: 1777642015495
+      modifiedTime: 1777642015495
+      lastModifiedBy: pQzNfYJpGL2Gy8DA
+      compendiumSource: null
+      duplicateSource: null
+      exportSource: null
+    folder: null
+    sort: 0
+    ownership:
+      default: 0
+    _key: '!actors.items!2W77E8fvQ7s8w2GC.itSOp2GCyem0f7oM'
+  - name: Advanced Shortbow
+    type: weapon
+    _id: JpSlJvDR0X8VFDns
+    img: icons/weapons/bows/shortbow-recurve-red.webp
+    system:
+      description: ''
+      actions: {}
+      attached: []
+      tier: 3
+      equipped: true
+      secondary: false
+      burden: twoHanded
+      weaponFeatures: []
+      attack:
+        name: Attack
+        img: icons/skills/melee/blood-slash-foam-red.webp
+        _id: tSwiEa50USNh6uEJ
+        baseAction: true
+        systemPath: attack
+        type: attack
+        range: far
+        target:
+          type: any
+          amount: 1
+        roll:
+          trait: agility
+          type: attack
+          difficulty: null
+          bonus: null
+          advState: neutral
+          diceRolling:
+            multiplier: prof
+            flatMultiplier: 1
+            dice: d6
+            compare: null
+            treshold: null
+          useDefault: false
+        damage:
+          parts:
+            hitPoints:
+              value:
+                dice: d6
+                bonus: 9
+                multiplier: prof
+                flatMultiplier: 1
+                custom:
+                  enabled: false
+                  formula: ''
+              type:
+                - physical
+              applyTo: hitPoints
+              resultBased: false
+              valueAlt:
+                multiplier: prof
+                flatMultiplier: 1
+                dice: d6
+                bonus: null
+                custom:
+                  enabled: false
+                  formula: ''
+              base: false
+          includeBase: false
+          direct: false
+        description: ''
+        chatDisplay: false
+        actionType: action
+        cost: []
+        uses:
+          value: null
+          max: null
+          recovery: null
+          consumeOnSuccess: false
+        effects: []
+        save:
+          trait: null
+          difficulty: null
+          damageMod: none
+        originItem:
+          type: itemCollection
+        triggers: []
+        areas: []
+      rules:
+        attack:
+          roll:
+            trait: null
+      attribution:
+        source: Daggerheart SRD
+        page: 48
+        artist: ''
+      quantity: 1
+    effects: []
+    flags: {}
+    _stats:
+      coreVersion: '14.360'
+      systemId: daggerheart
+      systemVersion: 2.2.1
+      createdTime: 1777642015495
+      modifiedTime: 1777642015495
+      lastModifiedBy: pQzNfYJpGL2Gy8DA
+      compendiumSource: null
+      duplicateSource: null
+      exportSource: null
+    folder: null
+    sort: 0
+    ownership:
+      default: 0
+    _key: '!actors.items!2W77E8fvQ7s8w2GC.JpSlJvDR0X8VFDns'
+  - name: Advanced Small Dagger
+    type: weapon
+    _id: 0thN0BpN05KT8Avx
+    img: icons/weapons/daggers/dagger-double-engraved-black.webp
+    system:
+      description: ''
+      actions: {}
+      attached: []
+      tier: 3
+      equipped: true
+      secondary: true
+      burden: oneHanded
+      weaponFeatures:
+        - value: paired
+          effectIds:
+            - 6tJmTBsumbPmEwkY
+          actionIds: []
+      attack:
+        name: Attack
+        img: icons/skills/melee/blood-slash-foam-red.webp
+        _id: qY9ylkwxFwRlPy6a
+        baseAction: true
+        systemPath: attack
+        type: attack
+        range: melee
+        target:
+          type: any
+          amount: 1
+        roll:
+          trait: finesse
+          type: attack
+          difficulty: null
+          bonus: null
+          advState: neutral
+          diceRolling:
+            multiplier: prof
+            flatMultiplier: 1
+            dice: d6
+            compare: null
+            treshold: null
+          useDefault: false
+        damage:
+          parts:
+            hitPoints:
+              value:
+                dice: d8
+                bonus: 4
+                multiplier: prof
+                flatMultiplier: 1
+                custom:
+                  enabled: false
+                  formula: ''
+              type:
+                - physical
+              applyTo: hitPoints
+              resultBased: false
+              valueAlt:
+                multiplier: prof
+                flatMultiplier: 1
+                dice: d6
+                bonus: null
+                custom:
+                  enabled: false
+                  formula: ''
+              base: false
+          includeBase: false
+          direct: false
+        description: ''
+        chatDisplay: false
+        actionType: action
+        cost: []
+        uses:
+          value: null
+          max: null
+          recovery: null
+          consumeOnSuccess: false
+        effects: []
+        save:
+          trait: null
+          difficulty: null
+          damageMod: none
+        originItem:
+          type: itemCollection
+        triggers: []
+        areas: []
+      rules:
+        attack:
+          roll:
+            trait: null
+      attribution:
+        source: Daggerheart SRD
+        page: 53
+        artist: ''
+      quantity: 1
+    effects:
+      - name: Paired
+        description: >-
+          Add this Secondary Weapon's tier + 1 to your primary weapon against
+          targets within Melee range
+        img: icons/skills/melee/weapons-crossed-swords-yellow-teal.webp
+        system:
+          rangeDependence:
+            enabled: true
+            range: melee
+            target: hostile
+            type: withinRange
+          changes:
+            - key: system.bonuses.damage.primaryWeapon.bonus
+              value: ITEM.@system.tier + 1
+              type: add
+              phase: initial
+          duration:
+            description: ''
+          stacking: null
+          targetDispositions: []
+        _id: 6tJmTBsumbPmEwkY
+        type: base
+        disabled: false
+        duration:
+          value: null
+          units: seconds
+          expiry: null
+          expired: false
+        origin: null
+        tint: '#ffffff'
+        transfer: true
+        statuses: []
+        sort: 0
+        flags: {}
+        _stats:
+          coreVersion: '14.360'
+          systemId: daggerheart
+          systemVersion: 2.2.1
+          createdTime: 1777642015495
+          modifiedTime: 1777642015495
+          lastModifiedBy: pQzNfYJpGL2Gy8DA
+          compendiumSource: null
+          duplicateSource: null
+          exportSource: null
+        start: null
+        showIcon: 1
+        folder: null
+        _key: >-
+          !actors.items.effects!2W77E8fvQ7s8w2GC.0thN0BpN05KT8Avx.6tJmTBsumbPmEwkY
+    flags: {}
+    _stats:
+      coreVersion: '14.360'
+      systemId: daggerheart
+      systemVersion: 2.2.1
+      createdTime: 1777642015495
+      modifiedTime: 1777642015495
+      lastModifiedBy: pQzNfYJpGL2Gy8DA
+      compendiumSource: null
+      duplicateSource: null
+      exportSource: null
+    folder: null
+    sort: 0
+    ownership:
+      default: 0
+    _key: '!actors.items!2W77E8fvQ7s8w2GC.0thN0BpN05KT8Avx'
+  - name: Advanced Longsword
+    type: weapon
+    _id: 9xkB3MWXahrsVP4N
+    img: icons/weapons/swords/sword-guard-purple.webp
+    system:
+      description: ''
+      actions: {}
+      attached: []
+      tier: 3
+      equipped: false
+      secondary: false
+      burden: twoHanded
+      weaponFeatures: []
+      attack:
+        name: Attack
+        img: icons/skills/melee/blood-slash-foam-red.webp
+        _id: tSwiEa50USNh6uEJ
+        baseAction: true
+        systemPath: attack
+        type: attack
+        range: melee
+        target:
+          type: any
+          amount: 1
+        roll:
+          trait: agility
+          type: attack
+          difficulty: null
+          bonus: null
+          advState: neutral
+          diceRolling:
+            multiplier: prof
+            flatMultiplier: 1
+            dice: d6
+            compare: null
+            treshold: null
+          useDefault: false
+        damage:
+          parts:
+            hitPoints:
+              value:
+                dice: d10
+                bonus: 9
+                multiplier: prof
+                flatMultiplier: 1
+                custom:
+                  enabled: false
+                  formula: ''
+              type:
+                - physical
+              applyTo: hitPoints
+              resultBased: false
+              valueAlt:
+                multiplier: prof
+                flatMultiplier: 1
+                dice: d6
+                bonus: null
+                custom:
+                  enabled: false
+                  formula: ''
+              base: false
+          includeBase: false
+          direct: false
+        description: ''
+        chatDisplay: false
+        actionType: action
+        cost: []
+        uses:
+          value: null
+          max: null
+          recovery: null
+          consumeOnSuccess: false
+        effects: []
+        save:
+          trait: null
+          difficulty: null
+          damageMod: none
+        originItem:
+          type: itemCollection
+        triggers: []
+        areas: []
+      rules:
+        attack:
+          roll:
+            trait: null
+      attribution:
+        source: Daggerheart SRD
+        page: 48
+        artist: ''
+      quantity: 1
+    effects: []
+    flags: {}
+    _stats:
+      coreVersion: '14.360'
+      systemId: daggerheart
+      systemVersion: 2.2.1
+      createdTime: 1777642015495
+      modifiedTime: 1777642015495
+      lastModifiedBy: pQzNfYJpGL2Gy8DA
+      compendiumSource: null
+      duplicateSource: null
+      exportSource: null
+    folder: null
+    sort: 0
+    ownership:
+      default: 0
+    _key: '!actors.items!2W77E8fvQ7s8w2GC.9xkB3MWXahrsVP4N'
 effects: []
 folder: null
-flags: {}
+flags:
+  daggerheart-sleek-ui:
+    collapsedCategories: []
+    quickAccess:
+      - Actor.2W77E8fvQ7s8w2GC.Item.nJx29rL3YrFaQwZU
+      - Actor.2W77E8fvQ7s8w2GC.Item.YykG5sCiIcTN2dqp
+  core:
+    sheetClass: daggerheart.CharacterSheet
 _stats:
   coreVersion: '14.360'
   systemId: daggerheart
   systemVersion: 2.2.1
-  createdTime: 1777621319805
-  modifiedTime: 1777621319811
+  createdTime: 1777642015495
+  modifiedTime: 1777642015495
   lastModifiedBy: pQzNfYJpGL2Gy8DA
   exportSource: null
   compendiumSource: null
   duplicateSource: null
 ownership:
   default: 0
-  pQzNfYJpGL2Gy8DA: 3
 sort: 0
 _key: '!actors!2W77E8fvQ7s8w2GC'
