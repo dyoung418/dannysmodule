@@ -37,9 +37,9 @@ git add src/packs/
 git commit -m "feat: describe what changed"
 ```
 
-### On a fresh install (rebuilding packs from source)
+### On a fresh install or after git pull (rebuilding packs from source)
 
-After cloning the repo, build the LevelDB packs that Foundry needs:
+After cloning the repo, or pulling new content, build the LevelDB packs that Foundry needs:
 
 ```bash
 npm install
