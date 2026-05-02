@@ -14,13 +14,13 @@ system:
       reduction: 0
   resources:
     hitPoints:
-      value: 0
+      value: 5
       max: null
     stress:
-      value: 0
+      value: 5
       max: null
     hope:
-      value: 2
+      value: 1
       max: null
   advantageSources: []
   disadvantageSources: []
@@ -666,8 +666,8 @@ items:
       coreVersion: '14.360'
       systemId: daggerheart
       systemVersion: 2.2.1
-      createdTime: 1777642015496
-      modifiedTime: 1777642015496
+      createdTime: 1777703634319
+      modifiedTime: 1777703634319
       lastModifiedBy: pQzNfYJpGL2Gy8DA
       exportSource: null
       compendiumSource: null
@@ -735,8 +735,8 @@ items:
       coreVersion: '14.360'
       systemId: daggerheart
       systemVersion: 2.2.1
-      createdTime: 1777642015497
-      modifiedTime: 1777642015497
+      createdTime: 1777703634320
+      modifiedTime: 1777703634320
       lastModifiedBy: pQzNfYJpGL2Gy8DA
       exportSource: null
       compendiumSource: null
@@ -778,8 +778,8 @@ items:
       coreVersion: '14.360'
       systemId: daggerheart
       systemVersion: 2.2.1
-      createdTime: 1777642015497
-      modifiedTime: 1777642015497
+      createdTime: 1777703634320
+      modifiedTime: 1777703634320
       lastModifiedBy: pQzNfYJpGL2Gy8DA
       exportSource: null
       compendiumSource: null
@@ -845,8 +845,8 @@ items:
       coreVersion: '14.360'
       systemId: daggerheart
       systemVersion: 2.2.1
-      createdTime: 1777642015497
-      modifiedTime: 1777642015497
+      createdTime: 1777703634320
+      modifiedTime: 1777703634320
       lastModifiedBy: pQzNfYJpGL2Gy8DA
       exportSource: null
       compendiumSource: null
@@ -888,8 +888,8 @@ items:
       coreVersion: '14.360'
       systemId: daggerheart
       systemVersion: 2.2.1
-      createdTime: 1777642015497
-      modifiedTime: 1777642015497
+      createdTime: 1777703634320
+      modifiedTime: 1777703634320
       lastModifiedBy: pQzNfYJpGL2Gy8DA
       exportSource: null
       compendiumSource: null
@@ -1004,8 +1004,8 @@ items:
           coreVersion: '14.360'
           systemId: daggerheart
           systemVersion: 2.2.1
-          createdTime: 1777642015498
-          modifiedTime: 1777642015498
+          createdTime: 1777703634320
+          modifiedTime: 1777703634320
           lastModifiedBy: pQzNfYJpGL2Gy8DA
           compendiumSource: null
           duplicateSource: null
@@ -1021,8 +1021,8 @@ items:
       coreVersion: '14.360'
       systemId: daggerheart
       systemVersion: 2.2.1
-      createdTime: 1777642015498
-      modifiedTime: 1777642015498
+      createdTime: 1777703634320
+      modifiedTime: 1777703634320
       lastModifiedBy: pQzNfYJpGL2Gy8DA
       exportSource: null
       compendiumSource: null
@@ -1091,8 +1091,8 @@ items:
       coreVersion: '14.360'
       systemId: daggerheart
       systemVersion: 2.2.1
-      createdTime: 1777642015498
-      modifiedTime: 1777642015498
+      createdTime: 1777703634320
+      modifiedTime: 1777703634320
       lastModifiedBy: pQzNfYJpGL2Gy8DA
       exportSource: null
       compendiumSource: null
@@ -1182,8 +1182,8 @@ items:
       coreVersion: '14.360'
       systemId: daggerheart
       systemVersion: 2.2.1
-      createdTime: 1777642015498
-      modifiedTime: 1777642015498
+      createdTime: 1777703634320
+      modifiedTime: 1777703634320
       lastModifiedBy: pQzNfYJpGL2Gy8DA
       exportSource: null
       compendiumSource: null
@@ -1288,8 +1288,8 @@ items:
           coreVersion: '14.360'
           systemId: daggerheart
           systemVersion: 2.2.1
-          createdTime: 1777642015499
-          modifiedTime: 1777642015499
+          createdTime: 1777703634321
+          modifiedTime: 1777703634321
           lastModifiedBy: pQzNfYJpGL2Gy8DA
           compendiumSource: null
           duplicateSource: null
@@ -1305,8 +1305,8 @@ items:
       coreVersion: '14.360'
       systemId: daggerheart
       systemVersion: 2.2.1
-      createdTime: 1777642015499
-      modifiedTime: 1777642015499
+      createdTime: 1777703634321
+      modifiedTime: 1777703634321
       lastModifiedBy: pQzNfYJpGL2Gy8DA
       exportSource: null
       compendiumSource: null
@@ -1341,8 +1341,8 @@ items:
       coreVersion: '14.360'
       systemId: daggerheart
       systemVersion: 2.2.1
-      createdTime: 1777642015499
-      modifiedTime: 1777642015499
+      createdTime: 1777703634321
+      modifiedTime: 1777703634321
       lastModifiedBy: pQzNfYJpGL2Gy8DA
       exportSource: null
       compendiumSource: null
@@ -1420,8 +1420,8 @@ items:
           coreVersion: '14.360'
           systemId: daggerheart
           systemVersion: 2.2.1
-          createdTime: 1777642015500
-          modifiedTime: 1777642015500
+          createdTime: 1777703634321
+          modifiedTime: 1777703634321
           lastModifiedBy: pQzNfYJpGL2Gy8DA
           compendiumSource: null
           duplicateSource: null
@@ -1443,8 +1443,8 @@ items:
       coreVersion: '14.360'
       systemId: daggerheart
       systemVersion: 2.2.1
-      createdTime: 1777642015499
-      modifiedTime: 1777642015499
+      createdTime: 1777703634321
+      modifiedTime: 1777703634321
       lastModifiedBy: pQzNfYJpGL2Gy8DA
       exportSource: null
       compendiumSource: null
@@ -1513,8 +1513,8 @@ items:
       coreVersion: '14.360'
       systemId: daggerheart
       systemVersion: 2.2.1
-      createdTime: 1777642015500
-      modifiedTime: 1777642015500
+      createdTime: 1777703634321
+      modifiedTime: 1777703634321
       lastModifiedBy: pQzNfYJpGL2Gy8DA
       exportSource: null
       compendiumSource: null
@@ -1553,8 +1553,8 @@ items:
       coreVersion: '14.360'
       systemId: daggerheart
       systemVersion: 2.2.1
-      createdTime: 1777642015500
-      modifiedTime: 1777642015500
+      createdTime: 1777703634321
+      modifiedTime: 1777703634321
       lastModifiedBy: pQzNfYJpGL2Gy8DA
       exportSource: null
       compendiumSource: null
@@ -1562,262 +1562,6 @@ items:
     ownership:
       default: 0
     _key: '!actors.items!2W77E8fvQ7s8w2GC.cbUt1CDZ9mg8bq0c'
-  - effects:
-      - name: Restrained
-        img: icons/magic/control/debuff-chains-shackle-movement-red.webp
-        origin: Compendium.daggerheart.domains.Item.qvpvTnkAoRn9vYO4
-        transfer: false
-        _id: Xh0wrgRUuYpwChBU
-        type: base
-        system:
-          rangeDependence:
-            enabled: false
-            type: withinRange
-            target: hostile
-            range: melee
-          changes: []
-          duration:
-            type: temporary
-            description: ''
-          stacking: null
-          targetDispositions: []
-        disabled: false
-        duration:
-          value: null
-          units: seconds
-          expiry: null
-          expired: false
-        description: ''
-        tint: '#ffffff'
-        statuses:
-          - restrained
-        sort: 0
-        flags: {}
-        _stats:
-          coreVersion: '14.360'
-          systemId: daggerheart
-          systemVersion: 2.2.1
-          createdTime: 1777642015501
-          modifiedTime: 1777642015501
-          lastModifiedBy: pQzNfYJpGL2Gy8DA
-          compendiumSource: null
-          duplicateSource: null
-          exportSource: null
-        start:
-          time: 0
-          combat: null
-          combatant: null
-          initiative: null
-          round: null
-          turn: null
-        showIcon: 1
-        folder: null
-        _key: >-
-          !actors.items.effects!2W77E8fvQ7s8w2GC.nJx29rL3YrFaQwZU.Xh0wrgRUuYpwChBU
-      - name: Restrained
-        img: icons/magic/control/debuff-chains-shackle-movement-red.webp
-        origin: Compendium.daggerheart.domains.Item.qvpvTnkAoRn9vYO4
-        transfer: false
-        _id: 2xzOqTaPJQzGqFJv
-        type: base
-        system:
-          rangeDependence:
-            enabled: false
-            type: withinRange
-            target: hostile
-            range: melee
-          changes: []
-          duration:
-            type: temporary
-            description: ''
-          stacking: null
-          targetDispositions: []
-        disabled: false
-        duration:
-          value: null
-          units: seconds
-          expiry: null
-          expired: false
-        description: ''
-        tint: '#ffffff'
-        statuses:
-          - restrained
-        sort: 0
-        flags: {}
-        _stats:
-          coreVersion: '14.360'
-          systemId: daggerheart
-          systemVersion: 2.2.1
-          createdTime: 1777642015501
-          modifiedTime: 1777642015501
-          lastModifiedBy: pQzNfYJpGL2Gy8DA
-          compendiumSource: null
-          duplicateSource: null
-          exportSource: null
-        start:
-          time: 0
-          combat: null
-          combatant: null
-          initiative: null
-          round: null
-          turn: null
-        showIcon: 1
-        folder: null
-        _key: >-
-          !actors.items.effects!2W77E8fvQ7s8w2GC.nJx29rL3YrFaQwZU.2xzOqTaPJQzGqFJv
-    _id: nJx29rL3YrFaQwZU
-    name: Vicious Entangle
-    type: domainCard
-    img: systems/daggerheart/assets/icons/domains/domain-card/sage.png
-    system:
-      description: >-
-        <p class="Body-Foundation">Make a <strong>Spellcast Roll</strong>
-        against a target within Far range. On a success, roots and vines reach
-        out from the ground, dealing <strong>1d8+1</strong> physical damage and
-        temporarily <em>Restraining</em> the target.</p><p
-        class="Body-Foundation">Additionally on a success, you can <strong>spend
-        a Hope</strong> to temporarily <em>Restrain</em> another adversary
-        within Very Close range of your target.</p>
-      domain: sage
-      recallCost: 1
-      level: 1
-      type: spell
-      actions:
-        lrA95PnD2vOwwmgN:
-          type: attack
-          _id: lrA95PnD2vOwwmgN
-          systemPath: actions
-          description: >-
-            <p>Make a <strong>Spellcast Roll</strong> against a target within
-            Far range. On a success, roots and vines reach out from the ground,
-            dealing <strong>1d8+1</strong> physical damage and temporarily
-            <em>Restraining</em> the target.</p>
-          chatDisplay: true
-          actionType: action
-          cost: []
-          uses:
-            value: null
-            max: ''
-            recovery: null
-            consumeOnSuccess: false
-          damage:
-            parts:
-              hitPoints:
-                resultBased: false
-                value:
-                  custom:
-                    enabled: false
-                    formula: ''
-                  multiplier: flat
-                  flatMultiplier: 1
-                  dice: d8
-                  bonus: 1
-                applyTo: hitPoints
-                type:
-                  - physical
-                base: false
-                valueAlt:
-                  multiplier: prof
-                  flatMultiplier: 1
-                  dice: d6
-                  bonus: null
-                  custom:
-                    enabled: false
-                    formula: ''
-            includeBase: false
-            direct: false
-          target:
-            type: any
-            amount: null
-          effects:
-            - _id: Xh0wrgRUuYpwChBU
-              onSave: false
-          roll:
-            type: spellcast
-            trait: null
-            difficulty: null
-            bonus: null
-            advState: neutral
-            diceRolling:
-              multiplier: prof
-              flatMultiplier: 1
-              dice: d6
-              compare: null
-              treshold: null
-            useDefault: false
-          save:
-            trait: null
-            difficulty: null
-            damageMod: none
-          name: Cast
-          img: icons/magic/nature/vines-thorned-curled-glow-teal.webp
-          range: ''
-          baseAction: false
-          originItem:
-            type: itemCollection
-          triggers: []
-          areas: []
-        vh1IKRvsU4w57lBt:
-          type: effect
-          _id: vh1IKRvsU4w57lBt
-          systemPath: actions
-          description: >-
-            <p class="Body-Foundation">Additionally on a success, you can
-            <strong>spend a Hope</strong> to temporarily <em>Restrain</em>
-            another adversary within Very Close range of your target.</p>
-          chatDisplay: true
-          actionType: action
-          cost:
-            - key: hope
-              value: 1
-              scalable: false
-              step: null
-              itemId: null
-              consumeOnSuccess: false
-          uses:
-            value: null
-            max: ''
-            recovery: null
-            consumeOnSuccess: false
-          effects:
-            - _id: 2xzOqTaPJQzGqFJv
-              onSave: false
-          target:
-            type: any
-            amount: null
-          name: Restrain Another
-          img: icons/commodities/gems/gem-faceted-octagon-yellow.webp
-          range: ''
-          baseAction: false
-          originItem:
-            type: itemCollection
-          triggers: []
-          areas: []
-      attribution:
-        source: Daggerheart SRD
-        page: 130
-        artist: ''
-      resource: null
-      inVault: true
-      vaultActive: false
-      loadoutIgnore: false
-      domainTouched: null
-    folder: EJoXzO85rG5EiZsh
-    sort: 100000
-    flags: {}
-    _stats:
-      coreVersion: '14.360'
-      systemId: daggerheart
-      systemVersion: 2.2.1
-      createdTime: 1777642015501
-      modifiedTime: 1777642015501
-      lastModifiedBy: pQzNfYJpGL2Gy8DA
-      exportSource: null
-      compendiumSource: null
-      duplicateSource: null
-    ownership:
-      default: 0
-    _key: '!actors.items!2W77E8fvQ7s8w2GC.nJx29rL3YrFaQwZU'
   - effects: []
     _id: YykG5sCiIcTN2dqp
     name: I See It Coming
@@ -1906,8 +1650,8 @@ items:
       coreVersion: '14.360'
       systemId: daggerheart
       systemVersion: 2.2.1
-      createdTime: 1777642015501
-      modifiedTime: 1777642015501
+      createdTime: 1777703634321
+      modifiedTime: 1777703634321
       lastModifiedBy: pQzNfYJpGL2Gy8DA
       exportSource: null
       compendiumSource: null
@@ -1945,8 +1689,8 @@ items:
       coreVersion: '14.360'
       systemId: daggerheart
       systemVersion: 2.2.1
-      createdTime: 1777642015502
-      modifiedTime: 1777642015502
+      createdTime: 1777703634322
+      modifiedTime: 1777703634322
       lastModifiedBy: pQzNfYJpGL2Gy8DA
       exportSource: null
       compendiumSource: null
@@ -2052,8 +1796,8 @@ items:
       coreVersion: '14.360'
       systemId: daggerheart
       systemVersion: 2.2.1
-      createdTime: 1777642015502
-      modifiedTime: 1777642015502
+      createdTime: 1777703634322
+      modifiedTime: 1777703634322
       lastModifiedBy: pQzNfYJpGL2Gy8DA
       exportSource: null
       compendiumSource: null
@@ -2078,8 +1822,8 @@ items:
       coreVersion: '14.360'
       systemId: daggerheart
       systemVersion: 2.2.1
-      createdTime: 1777642015502
-      modifiedTime: 1777642015502
+      createdTime: 1777703634322
+      modifiedTime: 1777703634322
       lastModifiedBy: pQzNfYJpGL2Gy8DA
       exportSource: null
       compendiumSource: null
@@ -2104,8 +1848,8 @@ items:
       coreVersion: '14.360'
       systemId: daggerheart
       systemVersion: 2.2.1
-      createdTime: 1777642015502
-      modifiedTime: 1777642015502
+      createdTime: 1777703634322
+      modifiedTime: 1777703634322
       lastModifiedBy: pQzNfYJpGL2Gy8DA
       exportSource: null
       compendiumSource: null
@@ -2130,8 +1874,8 @@ items:
       coreVersion: '14.360'
       systemId: daggerheart
       systemVersion: 2.2.1
-      createdTime: 1777642015511
-      modifiedTime: 1777642015511
+      createdTime: 1777703634322
+      modifiedTime: 1777703634322
       lastModifiedBy: pQzNfYJpGL2Gy8DA
       exportSource: null
       compendiumSource: null
@@ -2156,8 +1900,8 @@ items:
       coreVersion: '14.360'
       systemId: daggerheart
       systemVersion: 2.2.1
-      createdTime: 1777642015512
-      modifiedTime: 1777642015512
+      createdTime: 1777703634322
+      modifiedTime: 1777703634322
       lastModifiedBy: pQzNfYJpGL2Gy8DA
       exportSource: null
       compendiumSource: null
@@ -2413,8 +2157,8 @@ items:
           coreVersion: '14.360'
           systemId: daggerheart
           systemVersion: 2.2.1
-          createdTime: 1777642015512
-          modifiedTime: 1777642015512
+          createdTime: 1777703634322
+          modifiedTime: 1777703634322
           lastModifiedBy: pQzNfYJpGL2Gy8DA
           compendiumSource: null
           duplicateSource: null
@@ -2428,8 +2172,8 @@ items:
       coreVersion: '14.360'
       systemId: daggerheart
       systemVersion: 2.2.1
-      createdTime: 1777642015512
-      modifiedTime: 1777642015512
+      createdTime: 1777703634322
+      modifiedTime: 1777703634322
       lastModifiedBy: pQzNfYJpGL2Gy8DA
       compendiumSource: null
       duplicateSource: null
@@ -2502,8 +2246,8 @@ items:
           coreVersion: '14.360'
           systemId: daggerheart
           systemVersion: 2.2.1
-          createdTime: 1777642015513
-          modifiedTime: 1777642015513
+          createdTime: 1777703634323
+          modifiedTime: 1777703634323
           lastModifiedBy: pQzNfYJpGL2Gy8DA
           compendiumSource: null
           duplicateSource: null
@@ -2517,8 +2261,8 @@ items:
       coreVersion: '14.360'
       systemId: daggerheart
       systemVersion: 2.2.1
-      createdTime: 1777642015513
-      modifiedTime: 1777642015513
+      createdTime: 1777703634323
+      modifiedTime: 1777703634323
       lastModifiedBy: pQzNfYJpGL2Gy8DA
       compendiumSource: null
       duplicateSource: null
@@ -2593,8 +2337,8 @@ items:
           coreVersion: '14.360'
           systemId: daggerheart
           systemVersion: 2.2.1
-          createdTime: 1777642015513
-          modifiedTime: 1777642015513
+          createdTime: 1777703634323
+          modifiedTime: 1777703634323
           lastModifiedBy: pQzNfYJpGL2Gy8DA
           compendiumSource: null
           duplicateSource: null
@@ -2608,8 +2352,8 @@ items:
       coreVersion: '14.360'
       systemId: daggerheart
       systemVersion: 2.2.1
-      createdTime: 1777642015513
-      modifiedTime: 1777642015513
+      createdTime: 1777703634323
+      modifiedTime: 1777703634323
       lastModifiedBy: pQzNfYJpGL2Gy8DA
       compendiumSource: null
       duplicateSource: null
@@ -2812,8 +2556,8 @@ items:
           coreVersion: '14.360'
           systemId: daggerheart
           systemVersion: 2.2.1
-          createdTime: 1777642015514
-          modifiedTime: 1777642015514
+          createdTime: 1777703634324
+          modifiedTime: 1777703634324
           lastModifiedBy: pQzNfYJpGL2Gy8DA
           compendiumSource: null
           duplicateSource: null
@@ -2827,8 +2571,8 @@ items:
       coreVersion: '14.360'
       systemId: daggerheart
       systemVersion: 2.2.1
-      createdTime: 1777642015514
-      modifiedTime: 1777642015514
+      createdTime: 1777703634323
+      modifiedTime: 1777703634323
       lastModifiedBy: pQzNfYJpGL2Gy8DA
       compendiumSource: null
       duplicateSource: null
@@ -2868,8 +2612,8 @@ items:
       coreVersion: '14.360'
       systemId: daggerheart
       systemVersion: 2.2.1
-      createdTime: 1777642015514
-      modifiedTime: 1777642015514
+      createdTime: 1777703634324
+      modifiedTime: 1777703634324
       lastModifiedBy: pQzNfYJpGL2Gy8DA
       compendiumSource: null
       duplicateSource: null
@@ -2984,8 +2728,8 @@ items:
           coreVersion: '14.360'
           systemId: daggerheart
           systemVersion: 2.2.1
-          createdTime: 1777642015514
-          modifiedTime: 1777642015514
+          createdTime: 1777703634324
+          modifiedTime: 1777703634324
           lastModifiedBy: pQzNfYJpGL2Gy8DA
           compendiumSource: null
           duplicateSource: null
@@ -2999,8 +2743,8 @@ items:
       coreVersion: '14.360'
       systemId: daggerheart
       systemVersion: 2.2.1
-      createdTime: 1777642015514
-      modifiedTime: 1777642015514
+      createdTime: 1777703634324
+      modifiedTime: 1777703634324
       lastModifiedBy: pQzNfYJpGL2Gy8DA
       compendiumSource: null
       duplicateSource: null
@@ -3042,7 +2786,7 @@ items:
               consumeOnSuccess: false
               itemId: null
           uses:
-            value: null
+            value: 1
             max: '1'
             recovery: shortRest
             consumeOnSuccess: false
@@ -3108,8 +2852,8 @@ items:
           coreVersion: '14.360'
           systemId: daggerheart
           systemVersion: 2.2.1
-          createdTime: 1777642015515
-          modifiedTime: 1777642015515
+          createdTime: 1777703634324
+          modifiedTime: 1777703634324
           lastModifiedBy: pQzNfYJpGL2Gy8DA
           compendiumSource: null
           duplicateSource: null
@@ -3123,8 +2867,8 @@ items:
       coreVersion: '14.360'
       systemId: daggerheart
       systemVersion: 2.2.1
-      createdTime: 1777642015515
-      modifiedTime: 1777642015515
+      createdTime: 1777703634324
+      modifiedTime: 1777703634324
       lastModifiedBy: pQzNfYJpGL2Gy8DA
       compendiumSource: null
       duplicateSource: null
@@ -3205,7 +2949,7 @@ items:
         source: Daggerheart SRD
         page: 131
         artist: ''
-      inVault: true
+      inVault: false
       vaultActive: false
       loadoutIgnore: false
       domainTouched: null
@@ -3217,8 +2961,8 @@ items:
       coreVersion: '14.360'
       systemId: daggerheart
       systemVersion: 2.2.1
-      createdTime: 1777642015515
-      modifiedTime: 1777642015515
+      createdTime: 1777703634325
+      modifiedTime: 1777703634325
       lastModifiedBy: pQzNfYJpGL2Gy8DA
       compendiumSource: null
       duplicateSource: null
@@ -3324,8 +3068,8 @@ items:
           coreVersion: '14.360'
           systemId: daggerheart
           systemVersion: 2.2.1
-          createdTime: 1777642015515
-          modifiedTime: 1777642015515
+          createdTime: 1777703634325
+          modifiedTime: 1777703634325
           lastModifiedBy: pQzNfYJpGL2Gy8DA
           compendiumSource: null
           duplicateSource: null
@@ -3339,8 +3083,8 @@ items:
       coreVersion: '14.360'
       systemId: daggerheart
       systemVersion: 2.2.1
-      createdTime: 1777642015515
-      modifiedTime: 1777642015515
+      createdTime: 1777703634325
+      modifiedTime: 1777703634325
       lastModifiedBy: pQzNfYJpGL2Gy8DA
       compendiumSource: null
       duplicateSource: null
@@ -3422,7 +3166,7 @@ items:
         page: 123
         artist: ''
       resource: null
-      inVault: false
+      inVault: true
       vaultActive: false
       loadoutIgnore: false
       domainTouched: null
@@ -3434,8 +3178,8 @@ items:
       coreVersion: '14.360'
       systemId: daggerheart
       systemVersion: 2.2.1
-      createdTime: 1777642015515
-      modifiedTime: 1777642015515
+      createdTime: 1777703634325
+      modifiedTime: 1777703634325
       lastModifiedBy: pQzNfYJpGL2Gy8DA
       compendiumSource: null
       duplicateSource: null
@@ -3721,7 +3465,7 @@ items:
         page: 132
         artist: ''
       resource: null
-      inVault: false
+      inVault: true
       vaultActive: false
       loadoutIgnore: false
       domainTouched: null
@@ -3763,8 +3507,8 @@ items:
           coreVersion: '14.360'
           systemId: daggerheart
           systemVersion: 2.2.1
-          createdTime: 1777642015516
-          modifiedTime: 1777642015516
+          createdTime: 1777703634326
+          modifiedTime: 1777703634326
           lastModifiedBy: pQzNfYJpGL2Gy8DA
           compendiumSource: null
           duplicateSource: null
@@ -3817,8 +3561,8 @@ items:
           coreVersion: '14.360'
           systemId: daggerheart
           systemVersion: 2.2.1
-          createdTime: 1777642015516
-          modifiedTime: 1777642015516
+          createdTime: 1777703634326
+          modifiedTime: 1777703634326
           lastModifiedBy: pQzNfYJpGL2Gy8DA
           compendiumSource: null
           duplicateSource: null
@@ -3889,8 +3633,8 @@ items:
           coreVersion: '14.360'
           systemId: daggerheart
           systemVersion: 2.2.1
-          createdTime: 1777642015516
-          modifiedTime: 1777642015516
+          createdTime: 1777703634326
+          modifiedTime: 1777703634326
           lastModifiedBy: pQzNfYJpGL2Gy8DA
           compendiumSource: null
           duplicateSource: null
@@ -3904,8 +3648,8 @@ items:
       coreVersion: '14.360'
       systemId: daggerheart
       systemVersion: 2.2.1
-      createdTime: 1777642015516
-      modifiedTime: 1777642015516
+      createdTime: 1777703634326
+      modifiedTime: 1777703634326
       lastModifiedBy: pQzNfYJpGL2Gy8DA
       compendiumSource: null
       duplicateSource: null
@@ -4061,7 +3805,7 @@ items:
         page: 123
         artist: ''
       resource: null
-      inVault: false
+      inVault: true
       vaultActive: false
       loadoutIgnore: false
       domainTouched: null
@@ -4073,8 +3817,8 @@ items:
       coreVersion: '14.360'
       systemId: daggerheart
       systemVersion: 2.2.1
-      createdTime: 1777642015516
-      modifiedTime: 1777642015516
+      createdTime: 1777703634326
+      modifiedTime: 1777703634326
       lastModifiedBy: pQzNfYJpGL2Gy8DA
       compendiumSource: null
       duplicateSource: null
@@ -4088,7 +3832,7 @@ items:
     img: icons/equipment/chest/breastplate-layered-leather-blue.webp
     system:
       armor:
-        current: 0
+        current: 3
         max: 5
       description: ''
       actions: {}
@@ -4110,8 +3854,8 @@ items:
       coreVersion: '14.360'
       systemId: daggerheart
       systemVersion: 2.2.1
-      createdTime: 1777642015495
-      modifiedTime: 1777642015495
+      createdTime: 1777703634326
+      modifiedTime: 1777703634326
       lastModifiedBy: pQzNfYJpGL2Gy8DA
       compendiumSource: null
       duplicateSource: null
@@ -4217,8 +3961,8 @@ items:
       coreVersion: '14.360'
       systemId: daggerheart
       systemVersion: 2.2.1
-      createdTime: 1777642015495
-      modifiedTime: 1777642015495
+      createdTime: 1777703634326
+      modifiedTime: 1777703634326
       lastModifiedBy: pQzNfYJpGL2Gy8DA
       compendiumSource: null
       duplicateSource: null
@@ -4345,7 +4089,7 @@ items:
           targetDispositions: []
         _id: 6tJmTBsumbPmEwkY
         type: base
-        disabled: false
+        disabled: true
         duration:
           value: null
           units: seconds
@@ -4361,8 +4105,8 @@ items:
           coreVersion: '14.360'
           systemId: daggerheart
           systemVersion: 2.2.1
-          createdTime: 1777642015495
-          modifiedTime: 1777642015495
+          createdTime: 1777703634327
+          modifiedTime: 1777703634327
           lastModifiedBy: pQzNfYJpGL2Gy8DA
           compendiumSource: null
           duplicateSource: null
@@ -4377,8 +4121,8 @@ items:
       coreVersion: '14.360'
       systemId: daggerheart
       systemVersion: 2.2.1
-      createdTime: 1777642015495
-      modifiedTime: 1777642015495
+      createdTime: 1777703634327
+      modifiedTime: 1777703634327
       lastModifiedBy: pQzNfYJpGL2Gy8DA
       compendiumSource: null
       duplicateSource: null
@@ -4484,8 +4228,8 @@ items:
       coreVersion: '14.360'
       systemId: daggerheart
       systemVersion: 2.2.1
-      createdTime: 1777642015495
-      modifiedTime: 1777642015495
+      createdTime: 1777703634327
+      modifiedTime: 1777703634327
       lastModifiedBy: pQzNfYJpGL2Gy8DA
       compendiumSource: null
       duplicateSource: null
@@ -4495,22 +4239,289 @@ items:
     ownership:
       default: 0
     _key: '!actors.items!2W77E8fvQ7s8w2GC.9xkB3MWXahrsVP4N'
+  - name: Vicious Entangle
+    img: systems/daggerheart/assets/icons/domains/domain-card/sage.png
+    type: domainCard
+    system:
+      description: >-
+        <p class="Body-Foundation">Make a <strong>Spellcast Roll</strong>
+        against a target within Far range. On a success, roots and vines reach
+        out from the ground, dealing <strong>1d8+1</strong> physical damage and
+        temporarily <em>Restraining</em> the target.</p><p
+        class="Body-Foundation">Additionally on a success, you can <strong>spend
+        a Hope</strong> to temporarily <em>Restrain</em> another adversary
+        within Very Close range of your target.</p>
+      domain: sage
+      recallCost: 1
+      level: 1
+      type: spell
+      actions:
+        lrA95PnD2vOwwmgN:
+          type: attack
+          _id: lrA95PnD2vOwwmgN
+          systemPath: actions
+          description: >-
+            <p>Make a <strong>Spellcast Roll</strong> against a target within
+            Far range. On a success, roots and vines reach out from the ground,
+            dealing <strong>1d8+1</strong> physical damage and temporarily
+            <em>Restraining</em> the target.</p>
+          chatDisplay: true
+          actionType: action
+          cost: []
+          uses:
+            value: null
+            max: ''
+            recovery: null
+            consumeOnSuccess: false
+          damage:
+            parts:
+              hitPoints:
+                resultBased: false
+                value:
+                  custom:
+                    enabled: false
+                    formula: ''
+                  multiplier: flat
+                  flatMultiplier: 1
+                  dice: d8
+                  bonus: 1
+                applyTo: hitPoints
+                type:
+                  - physical
+                base: false
+                valueAlt:
+                  multiplier: prof
+                  flatMultiplier: 1
+                  dice: d6
+                  bonus: null
+                  custom:
+                    enabled: false
+                    formula: ''
+            includeBase: false
+            direct: false
+          target:
+            type: any
+            amount: null
+          effects:
+            - _id: Xh0wrgRUuYpwChBU
+              onSave: false
+          roll:
+            type: spellcast
+            trait: null
+            difficulty: null
+            bonus: null
+            advState: neutral
+            diceRolling:
+              multiplier: prof
+              flatMultiplier: 1
+              dice: d6
+              compare: null
+              treshold: null
+            useDefault: false
+          save:
+            trait: null
+            difficulty: null
+            damageMod: none
+          name: Cast
+          img: icons/magic/nature/vines-thorned-curled-glow-teal.webp
+          range: ''
+          baseAction: false
+          originItem:
+            type: itemCollection
+          triggers: []
+          areas: []
+        vh1IKRvsU4w57lBt:
+          type: effect
+          _id: vh1IKRvsU4w57lBt
+          systemPath: actions
+          description: >-
+            <p class="Body-Foundation">Additionally on a success, you can
+            <strong>spend a Hope</strong> to temporarily <em>Restrain</em>
+            another adversary within Very Close range of your target.</p>
+          chatDisplay: true
+          actionType: action
+          cost:
+            - key: hope
+              value: 1
+              scalable: false
+              step: null
+              itemId: null
+              consumeOnSuccess: false
+          uses:
+            value: null
+            max: ''
+            recovery: null
+            consumeOnSuccess: false
+          effects:
+            - _id: 2xzOqTaPJQzGqFJv
+              onSave: false
+          target:
+            type: any
+            amount: null
+          name: Restrain Another
+          img: icons/commodities/gems/gem-faceted-octagon-yellow.webp
+          range: ''
+          baseAction: false
+          originItem:
+            type: itemCollection
+          triggers: []
+          areas: []
+      attribution:
+        source: Daggerheart SRD
+        page: 130
+        artist: ''
+      resource: null
+      inVault: false
+      vaultActive: false
+      loadoutIgnore: false
+      domainTouched: null
+    flags: {}
+    _id: qvpvTnkAoRn9vYO4
+    effects:
+      - name: Restrained
+        img: icons/magic/control/debuff-chains-shackle-movement-red.webp
+        origin: Compendium.daggerheart.domains.Item.qvpvTnkAoRn9vYO4
+        transfer: false
+        _id: Xh0wrgRUuYpwChBU
+        type: base
+        system:
+          rangeDependence:
+            enabled: false
+            type: withinRange
+            target: hostile
+            range: melee
+          changes: []
+          duration:
+            type: temporary
+            description: ''
+          stacking: null
+          targetDispositions: []
+        disabled: false
+        duration:
+          value: null
+          units: seconds
+          expiry: null
+          expired: false
+        description: ''
+        tint: '#ffffff'
+        statuses:
+          - restrained
+        sort: 0
+        flags: {}
+        _stats:
+          coreVersion: '14.360'
+          systemId: daggerheart
+          systemVersion: 2.2.1
+          createdTime: 1777703634328
+          modifiedTime: 1777703634328
+          lastModifiedBy: pQzNfYJpGL2Gy8DA
+          compendiumSource: null
+          duplicateSource: null
+          exportSource: null
+        start:
+          time: 0
+          combat: null
+          combatant: null
+          initiative: null
+          round: null
+          turn: null
+        showIcon: 1
+        folder: null
+        _key: >-
+          !actors.items.effects!2W77E8fvQ7s8w2GC.qvpvTnkAoRn9vYO4.Xh0wrgRUuYpwChBU
+      - name: Restrained
+        img: icons/magic/control/debuff-chains-shackle-movement-red.webp
+        origin: Compendium.daggerheart.domains.Item.qvpvTnkAoRn9vYO4
+        transfer: false
+        _id: 2xzOqTaPJQzGqFJv
+        type: base
+        system:
+          rangeDependence:
+            enabled: false
+            type: withinRange
+            target: hostile
+            range: melee
+          changes: []
+          duration:
+            type: temporary
+            description: ''
+          stacking: null
+          targetDispositions: []
+        disabled: false
+        duration:
+          value: null
+          units: seconds
+          expiry: null
+          expired: false
+        description: ''
+        tint: '#ffffff'
+        statuses:
+          - restrained
+        sort: 0
+        flags: {}
+        _stats:
+          coreVersion: '14.360'
+          systemId: daggerheart
+          systemVersion: 2.2.1
+          createdTime: 1777703634328
+          modifiedTime: 1777703634328
+          lastModifiedBy: pQzNfYJpGL2Gy8DA
+          compendiumSource: null
+          duplicateSource: null
+          exportSource: null
+        start:
+          time: 0
+          combat: null
+          combatant: null
+          initiative: null
+          round: null
+          turn: null
+        showIcon: 1
+        folder: null
+        _key: >-
+          !actors.items.effects!2W77E8fvQ7s8w2GC.qvpvTnkAoRn9vYO4.2xzOqTaPJQzGqFJv
+    _stats:
+      coreVersion: '14.360'
+      systemId: daggerheart
+      systemVersion: 2.2.1
+      createdTime: 1777703634327
+      modifiedTime: 1777703634327
+      lastModifiedBy: pQzNfYJpGL2Gy8DA
+      compendiumSource: null
+      duplicateSource: null
+      exportSource: null
+    folder: null
+    sort: 0
+    ownership:
+      default: 0
+    _key: '!actors.items!2W77E8fvQ7s8w2GC.qvpvTnkAoRn9vYO4'
 effects: []
 folder: null
 flags:
   daggerheart-sleek-ui:
     collapsedCategories: []
     quickAccess:
+      - Actor.2W77E8fvQ7s8w2GC.Item.JpSlJvDR0X8VFDns
       - Actor.2W77E8fvQ7s8w2GC.Item.nJx29rL3YrFaQwZU
-      - Actor.2W77E8fvQ7s8w2GC.Item.YykG5sCiIcTN2dqp
+      - Actor.2W77E8fvQ7s8w2GC.Item.NhpZzdTUthptqMWZ
+      - Actor.2W77E8fvQ7s8w2GC.Item.5jIsuugWcbGdUXF9
+      - Actor.2W77E8fvQ7s8w2GC.Item.Lkq9mCVW5fKz4nzS
   core:
-    sheetClass: daggerheart.CharacterSheet
+    sheetClass: ''
+  dice-so-nice:
+    appearance:
+      global:
+        system: standard
+        colorset: alienrock
+        texture: none
+        material: auto
+        font: auto
 _stats:
   coreVersion: '14.360'
   systemId: daggerheart
   systemVersion: 2.2.1
-  createdTime: 1777642015495
-  modifiedTime: 1777642015495
+  createdTime: 1777703634319
+  modifiedTime: 1777703634319
   lastModifiedBy: pQzNfYJpGL2Gy8DA
   exportSource: null
   compendiumSource: null

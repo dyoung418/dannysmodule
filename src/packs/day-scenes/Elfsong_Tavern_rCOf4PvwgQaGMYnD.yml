@@ -3,7 +3,7 @@ name: Elfsong Tavern
 _id: rCOf4PvwgQaGMYnD
 navigation: false
 navOrder: 0
-thumb: worlds/daggerheart-test/assets/scenes/thumb-PGZYM8lQqsNHESBWRaFjDw.webp
+thumb: worlds/daggerheart-test/assets/scenes/thumb-sJ9GjQC0TgnFjz4dxlC0sw.webp
 width: 4000
 height: 3444
 padding: 0.25
@@ -3984,8 +3984,8 @@ regions:
           coreVersion: '14.360'
           systemId: daggerheart
           systemVersion: 2.2.1
-          createdTime: 1777619111922
-          modifiedTime: 1777619111922
+          createdTime: 1777697106178
+          modifiedTime: 1777697106178
           lastModifiedBy: pQzNfYJpGL2Gy8DA
           compendiumSource: null
           duplicateSource: null
@@ -4052,8 +4052,8 @@ regions:
           coreVersion: '14.360'
           systemId: daggerheart
           systemVersion: 2.2.1
-          createdTime: 1777619111923
-          modifiedTime: 1777619111923
+          createdTime: 1777697106178
+          modifiedTime: 1777697106178
           lastModifiedBy: pQzNfYJpGL2Gy8DA
           compendiumSource: null
           duplicateSource: null
@@ -8750,8 +8750,8 @@ _stats:
   coreVersion: '14.360'
   systemId: daggerheart
   systemVersion: 2.2.1
-  createdTime: 1777619111903
-  modifiedTime: 1777619111903
+  createdTime: 1777697106170
+  modifiedTime: 1777697106170
   lastModifiedBy: pQzNfYJpGL2Gy8DA
   exportSource: null
   compendiumSource: null
@@ -8761,5 +8761,5 @@ ownership:
   default: 0
 active: false
 sort: 0
-templates: []
 _key: '!scenes!rCOf4PvwgQaGMYnD'
+templates: []

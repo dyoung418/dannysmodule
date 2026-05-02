@@ -14,10 +14,10 @@ system:
       reduction: 0
   resources:
     hitPoints:
-      value: 0
+      value: 1
       max: 0
     stress:
-      value: 0
+      value: 1
       max: 6
     hope:
       value: 6
@@ -418,8 +418,8 @@ items:
       coreVersion: '14.360'
       systemId: daggerheart
       systemVersion: 2.2.1
-      createdTime: 1777642015482
-      modifiedTime: 1777642015482
+      createdTime: 1777703634311
+      modifiedTime: 1777703634311
       lastModifiedBy: pQzNfYJpGL2Gy8DA
       exportSource: null
       compendiumSource: null
@@ -493,8 +493,8 @@ items:
           systemId: daggerheart
           systemVersion: 2.2.1
           lastModifiedBy: pQzNfYJpGL2Gy8DA
-          createdTime: 1777642015483
-          modifiedTime: 1777642015483
+          createdTime: 1777703634311
+          modifiedTime: 1777703634311
           compendiumSource: null
           duplicateSource: null
           exportSource: null
@@ -515,8 +515,8 @@ items:
       coreVersion: '14.360'
       systemId: daggerheart
       systemVersion: 2.2.1
-      createdTime: 1777642015483
-      modifiedTime: 1777642015483
+      createdTime: 1777703634311
+      modifiedTime: 1777703634311
       lastModifiedBy: pQzNfYJpGL2Gy8DA
       exportSource: null
       compendiumSource: null
@@ -559,8 +559,8 @@ items:
       coreVersion: '14.360'
       systemId: daggerheart
       systemVersion: 2.2.1
-      createdTime: 1777642015483
-      modifiedTime: 1777642015483
+      createdTime: 1777703634312
+      modifiedTime: 1777703634312
       lastModifiedBy: pQzNfYJpGL2Gy8DA
       exportSource: null
       compendiumSource: null
@@ -620,8 +620,8 @@ items:
       coreVersion: '14.360'
       systemId: daggerheart
       systemVersion: 2.2.1
-      createdTime: 1777642015483
-      modifiedTime: 1777642015483
+      createdTime: 1777703634312
+      modifiedTime: 1777703634312
       lastModifiedBy: pQzNfYJpGL2Gy8DA
       exportSource: null
       compendiumSource: null
@@ -660,8 +660,8 @@ items:
       coreVersion: '14.360'
       systemId: daggerheart
       systemVersion: 2.2.1
-      createdTime: 1777642015484
-      modifiedTime: 1777642015484
+      createdTime: 1777703634312
+      modifiedTime: 1777703634312
       lastModifiedBy: pQzNfYJpGL2Gy8DA
       exportSource: null
       compendiumSource: null
@@ -760,8 +760,8 @@ items:
           systemId: daggerheart
           systemVersion: 2.2.1
           lastModifiedBy: pQzNfYJpGL2Gy8DA
-          createdTime: 1777642015484
-          modifiedTime: 1777642015484
+          createdTime: 1777703634312
+          modifiedTime: 1777703634312
           compendiumSource: null
           duplicateSource: null
           exportSource: null
@@ -775,8 +775,8 @@ items:
       coreVersion: '14.360'
       systemId: daggerheart
       systemVersion: 2.2.1
-      createdTime: 1777642015484
-      modifiedTime: 1777642015484
+      createdTime: 1777703634312
+      modifiedTime: 1777703634312
       lastModifiedBy: pQzNfYJpGL2Gy8DA
       exportSource: null
       compendiumSource: null
@@ -871,8 +871,8 @@ items:
           systemId: daggerheart
           systemVersion: 2.2.1
           lastModifiedBy: pQzNfYJpGL2Gy8DA
-          createdTime: 1777642015485
-          modifiedTime: 1777642015485
+          createdTime: 1777703634313
+          modifiedTime: 1777703634313
           compendiumSource: null
           duplicateSource: null
           exportSource: null
@@ -886,8 +886,8 @@ items:
       coreVersion: '14.360'
       systemId: daggerheart
       systemVersion: 2.2.1
-      createdTime: 1777642015485
-      modifiedTime: 1777642015485
+      createdTime: 1777703634312
+      modifiedTime: 1777703634312
       lastModifiedBy: pQzNfYJpGL2Gy8DA
       exportSource: null
       compendiumSource: null
@@ -982,8 +982,8 @@ items:
           systemId: daggerheart
           systemVersion: 2.2.1
           lastModifiedBy: pQzNfYJpGL2Gy8DA
-          createdTime: 1777642015485
-          modifiedTime: 1777642015485
+          createdTime: 1777703634313
+          modifiedTime: 1777703634313
           compendiumSource: null
           duplicateSource: null
           exportSource: null
@@ -997,8 +997,8 @@ items:
       coreVersion: '14.360'
       systemId: daggerheart
       systemVersion: 2.2.1
-      createdTime: 1777642015485
-      modifiedTime: 1777642015485
+      createdTime: 1777703634313
+      modifiedTime: 1777703634313
       lastModifiedBy: pQzNfYJpGL2Gy8DA
       exportSource: null
       compendiumSource: null
@@ -1079,8 +1079,8 @@ items:
       coreVersion: '14.360'
       systemId: daggerheart
       systemVersion: 2.2.1
-      createdTime: 1777642015486
-      modifiedTime: 1777642015486
+      createdTime: 1777703634313
+      modifiedTime: 1777703634313
       lastModifiedBy: pQzNfYJpGL2Gy8DA
       exportSource: null
       compendiumSource: null
@@ -1305,8 +1305,8 @@ items:
           systemId: daggerheart
           systemVersion: 2.2.1
           lastModifiedBy: pQzNfYJpGL2Gy8DA
-          createdTime: 1777642015486
-          modifiedTime: 1777642015486
+          createdTime: 1777703634313
+          modifiedTime: 1777703634313
           compendiumSource: null
           duplicateSource: null
           exportSource: null
@@ -1320,8 +1320,8 @@ items:
       coreVersion: '14.360'
       systemId: daggerheart
       systemVersion: 2.2.1
-      createdTime: 1777642015486
-      modifiedTime: 1777642015486
+      createdTime: 1777703634313
+      modifiedTime: 1777703634313
       lastModifiedBy: pQzNfYJpGL2Gy8DA
       exportSource: null
       compendiumSource: null
@@ -1353,8 +1353,8 @@ items:
       coreVersion: '14.360'
       systemId: daggerheart
       systemVersion: 2.2.1
-      createdTime: 1777642015487
-      modifiedTime: 1777642015487
+      createdTime: 1777703634314
+      modifiedTime: 1777703634314
       lastModifiedBy: pQzNfYJpGL2Gy8DA
       exportSource: null
       compendiumSource: null
@@ -1386,8 +1386,8 @@ items:
       coreVersion: '14.360'
       systemId: daggerheart
       systemVersion: 2.2.1
-      createdTime: 1777642015487
-      modifiedTime: 1777642015487
+      createdTime: 1777703634314
+      modifiedTime: 1777703634314
       lastModifiedBy: pQzNfYJpGL2Gy8DA
       exportSource: null
       compendiumSource: null
@@ -1420,8 +1420,8 @@ items:
       coreVersion: '14.360'
       systemId: daggerheart
       systemVersion: 2.2.1
-      createdTime: 1777642015487
-      modifiedTime: 1777642015487
+      createdTime: 1777703634314
+      modifiedTime: 1777703634314
       lastModifiedBy: pQzNfYJpGL2Gy8DA
       exportSource: null
       compendiumSource: null
@@ -1699,8 +1699,8 @@ items:
       coreVersion: '14.360'
       systemId: daggerheart
       systemVersion: 2.2.1
-      createdTime: 1777642015487
-      modifiedTime: 1777642015487
+      createdTime: 1777703634314
+      modifiedTime: 1777703634314
       lastModifiedBy: pQzNfYJpGL2Gy8DA
       exportSource: null
       compendiumSource: null
@@ -1749,8 +1749,8 @@ items:
           systemId: daggerheart
           systemVersion: 2.2.1
           lastModifiedBy: pQzNfYJpGL2Gy8DA
-          createdTime: 1777642015488
-          modifiedTime: 1777642015488
+          createdTime: 1777703634314
+          modifiedTime: 1777703634314
           compendiumSource: null
           duplicateSource: null
           exportSource: null
@@ -1950,8 +1950,8 @@ items:
       coreVersion: '14.360'
       systemId: daggerheart
       systemVersion: 2.2.1
-      createdTime: 1777642015488
-      modifiedTime: 1777642015488
+      createdTime: 1777703634314
+      modifiedTime: 1777703634314
       lastModifiedBy: pQzNfYJpGL2Gy8DA
       exportSource: null
       compendiumSource: null
@@ -1990,8 +1990,8 @@ items:
           systemId: daggerheart
           systemVersion: 2.2.1
           lastModifiedBy: pQzNfYJpGL2Gy8DA
-          createdTime: 1777642015489
-          modifiedTime: 1777642015489
+          createdTime: 1777703634315
+          modifiedTime: 1777703634315
           compendiumSource: null
           duplicateSource: null
           exportSource: null
@@ -2035,8 +2035,8 @@ items:
           systemId: daggerheart
           systemVersion: 2.2.1
           lastModifiedBy: pQzNfYJpGL2Gy8DA
-          createdTime: 1777642015489
-          modifiedTime: 1777642015489
+          createdTime: 1777703634315
+          modifiedTime: 1777703634315
           compendiumSource: null
           duplicateSource: null
           exportSource: null
@@ -2064,8 +2064,8 @@ items:
       coreVersion: '14.360'
       systemId: daggerheart
       systemVersion: 2.2.1
-      createdTime: 1777642015489
-      modifiedTime: 1777642015489
+      createdTime: 1777703634315
+      modifiedTime: 1777703634315
       lastModifiedBy: pQzNfYJpGL2Gy8DA
       exportSource: null
       compendiumSource: null
@@ -2090,8 +2090,8 @@ items:
       coreVersion: '14.360'
       systemId: daggerheart
       systemVersion: 2.2.1
-      createdTime: 1777642015489
-      modifiedTime: 1777642015489
+      createdTime: 1777703634315
+      modifiedTime: 1777703634315
       lastModifiedBy: pQzNfYJpGL2Gy8DA
       exportSource: null
       compendiumSource: null
@@ -2116,8 +2116,8 @@ items:
       coreVersion: '14.360'
       systemId: daggerheart
       systemVersion: 2.2.1
-      createdTime: 1777642015489
-      modifiedTime: 1777642015489
+      createdTime: 1777703634315
+      modifiedTime: 1777703634315
       lastModifiedBy: pQzNfYJpGL2Gy8DA
       exportSource: null
       compendiumSource: null
@@ -2148,7 +2148,7 @@ items:
         major: 7
         severe: 16
       armor:
-        current: 0
+        current: 2
         max: 4
       attribution: {}
       quantity: 1
@@ -2190,8 +2190,8 @@ items:
           systemId: daggerheart
           systemVersion: 2.2.1
           lastModifiedBy: pQzNfYJpGL2Gy8DA
-          createdTime: 1777642015490
-          modifiedTime: 1777642015490
+          createdTime: 1777703634316
+          modifiedTime: 1777703634316
           compendiumSource: null
           duplicateSource: null
           exportSource: null
@@ -2212,8 +2212,8 @@ items:
       coreVersion: '14.360'
       systemId: daggerheart
       systemVersion: 2.2.1
-      createdTime: 1777642015490
-      modifiedTime: 1777642015490
+      createdTime: 1777703634316
+      modifiedTime: 1777703634316
       lastModifiedBy: pQzNfYJpGL2Gy8DA
       exportSource: null
       compendiumSource: null
@@ -2302,8 +2302,8 @@ items:
       coreVersion: '14.360'
       systemId: daggerheart
       systemVersion: 2.2.1
-      createdTime: 1777642015490
-      modifiedTime: 1777642015490
+      createdTime: 1777703634316
+      modifiedTime: 1777703634316
       lastModifiedBy: pQzNfYJpGL2Gy8DA
       exportSource: null
       compendiumSource: null
@@ -2464,8 +2464,8 @@ items:
       coreVersion: '14.360'
       systemId: daggerheart
       systemVersion: 2.2.1
-      createdTime: 1777642015491
-      modifiedTime: 1777642015491
+      createdTime: 1777703634316
+      modifiedTime: 1777703634316
       lastModifiedBy: pQzNfYJpGL2Gy8DA
       exportSource: null
       compendiumSource: null
@@ -2508,8 +2508,8 @@ items:
           systemId: daggerheart
           systemVersion: 2.2.1
           lastModifiedBy: pQzNfYJpGL2Gy8DA
-          createdTime: 1777642015491
-          modifiedTime: 1777642015491
+          createdTime: 1777703634316
+          modifiedTime: 1777703634316
           compendiumSource: null
           duplicateSource: null
           exportSource: null
@@ -2553,8 +2553,8 @@ items:
           systemId: daggerheart
           systemVersion: 2.2.1
           lastModifiedBy: pQzNfYJpGL2Gy8DA
-          createdTime: 1777642015491
-          modifiedTime: 1777642015491
+          createdTime: 1777703634316
+          modifiedTime: 1777703634316
           compendiumSource: null
           duplicateSource: null
           exportSource: null
@@ -2661,8 +2661,8 @@ items:
       coreVersion: '14.360'
       systemId: daggerheart
       systemVersion: 2.2.1
-      createdTime: 1777642015491
-      modifiedTime: 1777642015491
+      createdTime: 1777703634317
+      modifiedTime: 1777703634317
       lastModifiedBy: pQzNfYJpGL2Gy8DA
       exportSource: null
       compendiumSource: null
@@ -2764,8 +2764,8 @@ items:
       coreVersion: '14.360'
       systemId: daggerheart
       systemVersion: 2.2.1
-      createdTime: 1777642015492
-      modifiedTime: 1777642015492
+      createdTime: 1777703634317
+      modifiedTime: 1777703634317
       lastModifiedBy: pQzNfYJpGL2Gy8DA
       exportSource: null
       compendiumSource: null
@@ -2873,8 +2873,8 @@ items:
       coreVersion: '14.360'
       systemId: daggerheart
       systemVersion: 2.2.1
-      createdTime: 1777642015492
-      modifiedTime: 1777642015492
+      createdTime: 1777703634317
+      modifiedTime: 1777703634317
       lastModifiedBy: pQzNfYJpGL2Gy8DA
       exportSource: null
       compendiumSource: null
@@ -2990,8 +2990,8 @@ items:
       coreVersion: '14.360'
       systemId: daggerheart
       systemVersion: 2.2.1
-      createdTime: 1777642015492
-      modifiedTime: 1777642015492
+      createdTime: 1777703634317
+      modifiedTime: 1777703634317
       lastModifiedBy: pQzNfYJpGL2Gy8DA
       exportSource: null
       compendiumSource: null
@@ -3087,8 +3087,8 @@ items:
           systemId: daggerheart
           systemVersion: 2.2.1
           lastModifiedBy: pQzNfYJpGL2Gy8DA
-          createdTime: 1777642015492
-          modifiedTime: 1777642015492
+          createdTime: 1777703634317
+          modifiedTime: 1777703634317
           compendiumSource: null
           duplicateSource: null
           exportSource: null
@@ -3138,8 +3138,8 @@ effects:
       coreVersion: '14.360'
       systemId: daggerheart
       systemVersion: 2.2.1
-      createdTime: 1777642015493
-      modifiedTime: 1777642015493
+      createdTime: 1777703634317
+      modifiedTime: 1777703634317
       lastModifiedBy: pQzNfYJpGL2Gy8DA
       compendiumSource: null
       duplicateSource: null
@@ -3160,8 +3160,8 @@ _stats:
   coreVersion: '14.360'
   systemId: daggerheart
   systemVersion: 2.2.1
-  createdTime: 1777642015481
-  modifiedTime: 1777642015481
+  createdTime: 1777703634310
+  modifiedTime: 1777703634310
   lastModifiedBy: pQzNfYJpGL2Gy8DA
   exportSource: null
   compendiumSource: null

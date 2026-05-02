@@ -3,7 +3,7 @@ name: Yawning Portal
 _id: myO51NQeBbx5MK8u
 navigation: false
 navOrder: 0
-thumb: worlds/daggerheart-test/assets/scenes/thumb-LaZPYNJ_WXlYhEh3V3DHtg.webp
+thumb: worlds/daggerheart-test/assets/scenes/thumb-9aWxctNn-jsIuKQKMNuxJQ.webp
 width: 6750
 height: 4950
 padding: 0.25
@@ -63,7 +63,188 @@ transition:
   duration: 1500
   activeOnly: false
 drawings: []
-tokens: []
+tokens:
+  - name: Wellen - Ranger
+    displayName: 0
+    actorLink: true
+    width: 1
+    height: 1
+    depth: 1
+    texture:
+      src: modules/dannysmodule/assets/tokens/Wellen%20token.webp
+      anchorX: 0.5
+      anchorY: 0.5
+      fit: contain
+      scaleX: 1
+      scaleY: 1
+      tint: '#ffffff'
+      alphaThreshold: 0.75
+    lockRotation: true
+    rotation: 0
+    alpha: 1
+    disposition: 1
+    displayBars: 30
+    bar1:
+      attribute: resources.hitPoints
+    bar2:
+      attribute: resources.stress
+    light:
+      negative: false
+      priority: 0
+      alpha: 0.5
+      angle: 360
+      bright: 0
+      color: null
+      coloration: 1
+      dim: 0
+      attenuation: 0.5
+      luminosity: 0.5
+      saturation: 0
+      contrast: 0
+      shadows: 0
+      animation:
+        type: null
+        speed: 5
+        intensity: 5
+        reverse: false
+      darkness:
+        min: 0
+        max: 1
+    sight:
+      enabled: true
+      range: 0
+      angle: 360
+      visionMode: basic
+      color: null
+      attenuation: 0.1
+      brightness: 0
+      saturation: 0
+      contrast: 0
+    detectionModes:
+      basicSight:
+        range: 60
+        enabled: true
+    occludable:
+      radius: 0
+    ring:
+      enabled: true
+      colors:
+        ring: null
+        background: null
+      effects: 1
+      subject:
+        scale: 1
+        texture: null
+    turnMarker:
+      mode: 1
+      animation: null
+      src: null
+      disposition: false
+    movementAction: null
+    flags: {}
+    actorId: 2W77E8fvQ7s8w2GC
+    hidden: false
+    sort: 0
+    shape: 4
+    level: defaultLevel0000
+    _id: mBVbQlPLwYSSC3NY
+    delta: null
+    x: 5550
+    'y': 3750
+    elevation: 0
+    locked: false
+    _movementHistory: []
+    _regions: []
+    _key: '!scenes.tokens!myO51NQeBbx5MK8u.mBVbQlPLwYSSC3NY'
+  - name: Memo
+    displayName: 0
+    actorLink: true
+    width: 1
+    height: 1
+    texture:
+      src: modules/dannysmodule/assets/tokens/memo%20token.webp
+      anchorX: 0.5
+      anchorY: 0.5
+      fit: contain
+      scaleX: 1
+      scaleY: 1
+      tint: '#ffffff'
+      alphaThreshold: 0.75
+    lockRotation: false
+    rotation: 0
+    alpha: 1
+    disposition: 1
+    displayBars: 0
+    bar1:
+      attribute: resources.hitPoints
+    bar2:
+      attribute: resources.stress
+    light:
+      negative: false
+      priority: 0
+      alpha: 0.5
+      angle: 360
+      bright: 0
+      color: null
+      coloration: 1
+      dim: 0
+      attenuation: 0.5
+      luminosity: 0.5
+      saturation: 0
+      contrast: 0
+      shadows: 0
+      animation:
+        type: null
+        speed: 5
+        intensity: 5
+        reverse: false
+      darkness:
+        min: 0
+        max: 1
+    sight:
+      enabled: true
+      range: 0
+      angle: 360
+      visionMode: basic
+      color: null
+      attenuation: 0.1
+      brightness: 0
+      saturation: 0
+      contrast: 0
+    detectionModes: {}
+    occludable:
+      radius: 0
+    ring:
+      enabled: true
+      colors:
+        ring: null
+        background: null
+      effects: 1
+      subject:
+        scale: 1
+        texture: null
+    turnMarker:
+      mode: 1
+      animation: null
+      src: null
+      disposition: false
+    movementAction: null
+    flags: {}
+    depth: 1
+    actorId: 2BwNDGjtOKVIEl7U
+    hidden: false
+    sort: 1
+    shape: 4
+    level: defaultLevel0000
+    _id: Zpji3JWxIxsI9mxc
+    delta: null
+    x: 5400
+    'y': 3750
+    elevation: 0
+    locked: false
+    _movementHistory: []
+    _regions: []
+    _key: '!scenes.tokens!myO51NQeBbx5MK8u.Zpji3JWxIxsI9mxc'
 levels:
   - _id: defaultLevel0000
     name: ground level
@@ -268,8 +449,8 @@ regions:
           coreVersion: '14.360'
           systemId: daggerheart
           systemVersion: 2.2.1
-          createdTime: 1777619111876
-          modifiedTime: 1777619111876
+          createdTime: 1777697106157
+          modifiedTime: 1777697106157
           lastModifiedBy: pQzNfYJpGL2Gy8DA
           compendiumSource: null
           duplicateSource: null
@@ -381,8 +562,8 @@ regions:
           coreVersion: '14.360'
           systemId: daggerheart
           systemVersion: 2.2.1
-          createdTime: 1777619111876
-          modifiedTime: 1777619111876
+          createdTime: 1777697106157
+          modifiedTime: 1777697106157
           lastModifiedBy: pQzNfYJpGL2Gy8DA
           compendiumSource: null
           duplicateSource: null
@@ -438,8 +619,8 @@ regions:
           coreVersion: '14.360'
           systemId: daggerheart
           systemVersion: 2.2.1
-          createdTime: 1777619111876
-          modifiedTime: 1777619111876
+          createdTime: 1777697106157
+          modifiedTime: 1777697106157
           lastModifiedBy: pQzNfYJpGL2Gy8DA
           compendiumSource: null
           duplicateSource: null
@@ -454,6 +635,174 @@ regions:
     ownership:
       default: 0
     _key: '!scenes.regions!myO51NQeBbx5MK8u.SK2jJMvBOUrzKL9E'
+  - color: '#7d28cc'
+    elevation:
+      bottom: 0
+      top: 60
+    levels:
+      - defaultLevel0000
+      - qRErgiuJXDwdmf9x
+      - TB3C1vrjlOvJNzz3
+    restriction:
+      enabled: false
+      type: move
+      priority: 0
+    attachment:
+      token: null
+    visibility: 4
+    highlightMode: shapes
+    displayMeasurements: false
+    hidden: false
+    name: Stairs - spiral central
+    _id: MZE7aMjfy5bVN03A
+    shapes:
+      - type: rectangle
+        x: 4200
+        'y': 4800
+        width: 300
+        height: 300
+        hole: false
+        anchorX: 0
+        anchorY: 0
+        rotation: 0
+        gridBased: false
+    behaviors:
+      - name: Change Level
+        type: changeLevel
+        _id: ndlppDTuUFfJnw8g
+        system: {}
+        disabled: false
+        flags: {}
+        _stats:
+          coreVersion: '14.360'
+          systemId: daggerheart
+          systemVersion: 2.2.1
+          createdTime: 1777697106156
+          modifiedTime: 1777697106156
+          lastModifiedBy: pQzNfYJpGL2Gy8DA
+          compendiumSource: null
+          duplicateSource: null
+          exportSource: null
+        _key: >-
+          !scenes.regions.behaviors!myO51NQeBbx5MK8u.MZE7aMjfy5bVN03A.ndlppDTuUFfJnw8g
+    locked: false
+    flags: {}
+    _shapeConstraints: null
+    ownership:
+      default: 0
+    _key: '!scenes.regions!myO51NQeBbx5MK8u.MZE7aMjfy5bVN03A'
+  - name: Stairs - back
+    _id: IODwsdnDUiD4U5Io
+    color: '#28ccb0'
+    shapes:
+      - type: rectangle
+        x: 2100
+        'y': 4200
+        width: 225
+        height: 450
+        hole: false
+        anchorX: 0
+        anchorY: 0
+        rotation: 0
+        gridBased: false
+    elevation:
+      bottom: 0
+      top: 60
+    levels:
+      - defaultLevel0000
+      - qRErgiuJXDwdmf9x
+      - TB3C1vrjlOvJNzz3
+    restriction:
+      enabled: false
+      type: move
+      priority: 0
+    attachment:
+      token: null
+    behaviors:
+      - name: Change Level
+        type: changeLevel
+        _id: Gcg49nOgSBXqkTaR
+        system: {}
+        disabled: false
+        flags: {}
+        _stats:
+          coreVersion: '14.360'
+          systemId: daggerheart
+          systemVersion: 2.2.1
+          createdTime: 1777697106156
+          modifiedTime: 1777697106156
+          lastModifiedBy: pQzNfYJpGL2Gy8DA
+          compendiumSource: null
+          duplicateSource: null
+          exportSource: null
+        _key: >-
+          !scenes.regions.behaviors!myO51NQeBbx5MK8u.IODwsdnDUiD4U5Io.Gcg49nOgSBXqkTaR
+    visibility: 4
+    highlightMode: shapes
+    displayMeasurements: false
+    hidden: false
+    locked: false
+    flags: {}
+    _shapeConstraints: null
+    ownership:
+      default: 0
+    _key: '!scenes.regions!myO51NQeBbx5MK8u.IODwsdnDUiD4U5Io'
+  - name: Stairs - spiral right
+    _id: UFC92R5A43dkMoE1
+    color: '#a8cc28'
+    shapes:
+      - type: rectangle
+        x: 7486.9582969734765
+        'y': 4207.448589715405
+        width: 293
+        height: 276
+        hole: false
+        anchorX: 0
+        anchorY: 0
+        rotation: 0
+        gridBased: false
+    elevation:
+      bottom: 0
+      top: 60
+    levels:
+      - defaultLevel0000
+      - qRErgiuJXDwdmf9x
+      - TB3C1vrjlOvJNzz3
+    restriction:
+      enabled: false
+      type: move
+      priority: 0
+    attachment:
+      token: null
+    behaviors:
+      - name: Change Level
+        type: changeLevel
+        _id: a9OKDeX50LCAMk8H
+        system: {}
+        disabled: false
+        flags: {}
+        _stats:
+          coreVersion: '14.360'
+          systemId: daggerheart
+          systemVersion: 2.2.1
+          createdTime: 1777697106156
+          modifiedTime: 1777697106156
+          lastModifiedBy: pQzNfYJpGL2Gy8DA
+          compendiumSource: null
+          duplicateSource: null
+          exportSource: null
+        _key: >-
+          !scenes.regions.behaviors!myO51NQeBbx5MK8u.UFC92R5A43dkMoE1.a9OKDeX50LCAMk8H
+    visibility: 4
+    highlightMode: shapes
+    displayMeasurements: false
+    hidden: false
+    locked: false
+    flags: {}
+    _shapeConstraints: null
+    ownership:
+      default: 0
+    _key: '!scenes.regions!myO51NQeBbx5MK8u.UFC92R5A43dkMoE1'
 tiles: []
 walls:
   - levels:
@@ -6922,8 +7271,8 @@ _stats:
   coreVersion: '14.360'
   systemId: daggerheart
   systemVersion: 2.2.1
-  createdTime: 1777619111875
-  modifiedTime: 1777619111875
+  createdTime: 1777697106156
+  modifiedTime: 1777697106156
   lastModifiedBy: pQzNfYJpGL2Gy8DA
   exportSource: null
   compendiumSource: null
@@ -6933,5 +7282,5 @@ ownership:
   default: 0
 active: false
 sort: 0
-templates: []
 _key: '!scenes!myO51NQeBbx5MK8u'
+templates: []
