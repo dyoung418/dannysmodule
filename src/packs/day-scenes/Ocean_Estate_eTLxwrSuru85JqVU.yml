@@ -2457,6 +2457,7 @@ regions:
     elevation:
       bottom: -20
       top: 0
+      topInclusive: true
     levels:
       - defaultLevel0000
       - yIRjNOqsHazWDZZK
@@ -2491,7 +2492,7 @@ regions:
         disabled: false
         flags: {}
         _stats:
-          coreVersion: '14.360'
+          coreVersion: '14.361'
           systemId: daggerheart
           systemVersion: 2.2.1
           createdTime: 1777697106194
@@ -2683,6 +2684,7 @@ regions:
     elevation:
       bottom: null
       top: null
+      topInclusive: false
     levels:
       - defaultLevel0000
       - yIRjNOqsHazWDZZK
@@ -2709,7 +2711,7 @@ regions:
         disabled: true
         flags: {}
         _stats:
-          coreVersion: '14.360'
+          coreVersion: '14.361'
           systemId: daggerheart
           systemVersion: 2.2.1
           createdTime: 1777697106194
@@ -2941,6 +2943,7 @@ regions:
     elevation:
       bottom: 20
       top: 40
+      topInclusive: false
     levels:
       - defaultLevel0000
       - yIRjNOqsHazWDZZK
@@ -2967,7 +2970,7 @@ regions:
         disabled: false
         flags: {}
         _stats:
-          coreVersion: '14.360'
+          coreVersion: '14.361'
           systemId: daggerheart
           systemVersion: 2.2.1
           createdTime: 1777697106194
@@ -2994,6 +2997,7 @@ regions:
     elevation:
       bottom: 0
       top: 40
+      topInclusive: true
     levels:
       - yIRjNOqsHazWDZZK
       - dViw9SJh4SPObgJi
@@ -3030,7 +3034,7 @@ regions:
         disabled: false
         flags: {}
         _stats:
-          coreVersion: '14.360'
+          coreVersion: '14.361'
           systemId: daggerheart
           systemVersion: 2.2.1
           createdTime: 1777697106195
@@ -3134,6 +3138,7 @@ regions:
     elevation:
       bottom: 40
       top: 60
+      topInclusive: false
     levels:
       - defaultLevel0000
       - yIRjNOqsHazWDZZK
@@ -3160,7 +3165,7 @@ regions:
         disabled: false
         flags: {}
         _stats:
-          coreVersion: '14.360'
+          coreVersion: '14.361'
           systemId: daggerheart
           systemVersion: 2.2.1
           createdTime: 1777697106195
@@ -3187,6 +3192,7 @@ regions:
     elevation:
       bottom: 20
       top: 60
+      topInclusive: true
     levels:
       - dViw9SJh4SPObgJi
       - uqztHiCaPi8alxLy
@@ -3221,7 +3227,7 @@ regions:
         disabled: false
         flags: {}
         _stats:
-          coreVersion: '14.360'
+          coreVersion: '14.361'
           systemId: daggerheart
           systemVersion: 2.2.1
           createdTime: 1777697106195
@@ -3257,6 +3263,7 @@ regions:
     elevation:
       bottom: 20
       top: 60
+      topInclusive: true
     levels:
       - dViw9SJh4SPObgJi
       - uqztHiCaPi8alxLy
@@ -3274,7 +3281,7 @@ regions:
         disabled: false
         flags: {}
         _stats:
-          coreVersion: '14.360'
+          coreVersion: '14.361'
           systemId: daggerheart
           systemVersion: 2.2.1
           createdTime: 1777697106195
@@ -3301,6 +3308,7 @@ regions:
     elevation:
       bottom: 20
       top: 60
+      topInclusive: true
     levels:
       - dViw9SJh4SPObgJi
       - uqztHiCaPi8alxLy
@@ -3335,7 +3343,7 @@ regions:
         disabled: false
         flags: {}
         _stats:
-          coreVersion: '14.360'
+          coreVersion: '14.361'
           systemId: daggerheart
           systemVersion: 2.2.1
           createdTime: 1777697106196
@@ -3375,6 +3383,7 @@ regions:
     elevation:
       bottom: 0
       top: 40
+      topInclusive: true
     levels:
       - yIRjNOqsHazWDZZK
       - dViw9SJh4SPObgJi
@@ -3392,7 +3401,7 @@ regions:
         disabled: false
         flags: {}
         _stats:
-          coreVersion: '14.360'
+          coreVersion: '14.361'
           systemId: daggerheart
           systemVersion: 2.2.1
           createdTime: 1777697106196
@@ -3419,6 +3428,7 @@ regions:
     elevation:
       bottom: 0
       top: 40
+      topInclusive: true
     levels:
       - yIRjNOqsHazWDZZK
       - dViw9SJh4SPObgJi
@@ -3457,7 +3467,7 @@ regions:
         disabled: false
         flags: {}
         _stats:
-          coreVersion: '14.360'
+          coreVersion: '14.361'
           systemId: daggerheart
           systemVersion: 2.2.1
           createdTime: 1777697106196
@@ -3499,6 +3509,7 @@ regions:
     elevation:
       bottom: 0
       top: 40
+      topInclusive: true
     levels:
       - yIRjNOqsHazWDZZK
       - dViw9SJh4SPObgJi
@@ -3516,7 +3527,7 @@ regions:
         disabled: false
         flags: {}
         _stats:
-          coreVersion: '14.360'
+          coreVersion: '14.361'
           systemId: daggerheart
           systemVersion: 2.2.1
           createdTime: 1777697106196
@@ -3556,6 +3567,7 @@ regions:
     elevation:
       bottom: 0
       top: 40
+      topInclusive: true
     levels:
       - yIRjNOqsHazWDZZK
       - dViw9SJh4SPObgJi
@@ -3573,7 +3585,7 @@ regions:
         disabled: false
         flags: {}
         _stats:
-          coreVersion: '14.360'
+          coreVersion: '14.361'
           systemId: daggerheart
           systemVersion: 2.2.1
           createdTime: 1777697106196
@@ -3613,6 +3625,7 @@ regions:
     elevation:
       bottom: 0
       top: 40
+      topInclusive: true
     levels:
       - yIRjNOqsHazWDZZK
       - dViw9SJh4SPObgJi
@@ -3630,7 +3643,7 @@ regions:
         disabled: false
         flags: {}
         _stats:
-          coreVersion: '14.360'
+          coreVersion: '14.361'
           systemId: daggerheart
           systemVersion: 2.2.1
           createdTime: 1777697106196
@@ -3657,6 +3670,7 @@ regions:
     elevation:
       bottom: 0
       top: 40
+      topInclusive: true
     levels:
       - yIRjNOqsHazWDZZK
       - dViw9SJh4SPObgJi
@@ -3691,7 +3705,7 @@ regions:
         disabled: false
         flags: {}
         _stats:
-          coreVersion: '14.360'
+          coreVersion: '14.361'
           systemId: daggerheart
           systemVersion: 2.2.1
           createdTime: 1777697106197
@@ -3714,6 +3728,7 @@ regions:
     elevation:
       bottom: -20
       top: 0
+      topInclusive: false
     levels:
       - defaultLevel0000
     restriction:
@@ -3783,7 +3798,7 @@ regions:
         disabled: false
         flags: {}
         _stats:
-          coreVersion: '14.360'
+          coreVersion: '14.361'
           systemId: daggerheart
           systemVersion: 2.2.1
           createdTime: 1777697106197
@@ -3806,6 +3821,7 @@ regions:
     elevation:
       bottom: -20
       top: 0
+      topInclusive: false
     levels:
       - defaultLevel0000
     restriction:
@@ -3871,7 +3887,7 @@ regions:
         disabled: false
         flags: {}
         _stats:
-          coreVersion: '14.360'
+          coreVersion: '14.361'
           systemId: daggerheart
           systemVersion: 2.2.1
           createdTime: 1777697106197
@@ -3913,6 +3929,7 @@ regions:
     elevation:
       bottom: 0
       top: 40
+      topInclusive: true
     levels:
       - yIRjNOqsHazWDZZK
       - dViw9SJh4SPObgJi
@@ -3930,7 +3947,7 @@ regions:
         disabled: false
         flags: {}
         _stats:
-          coreVersion: '14.360'
+          coreVersion: '14.361'
           systemId: daggerheart
           systemVersion: 2.2.1
           createdTime: 1777697106197
@@ -18613,7 +18630,7 @@ flags:
   world-explorer:
     schemaVersion: 2.1.0
 _stats:
-  coreVersion: '14.360'
+  coreVersion: '14.361'
   systemId: daggerheart
   systemVersion: 2.2.1
   createdTime: 1777697106188

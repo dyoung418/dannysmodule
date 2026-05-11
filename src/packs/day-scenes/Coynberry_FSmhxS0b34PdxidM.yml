@@ -13132,7 +13132,6 @@ grid:
   units: ft
 _id: FSmhxS0b34PdxidM
 navigation: false
-navOrder: 0
 thumb: worlds/kingmaker/assets/scenes/thumb-zmabsnwbtUlr91sTVr27lA.webp
 shiftX: 0
 shiftY: 0
@@ -13412,6 +13411,7 @@ regions:
     elevation:
       bottom: 20
       top: 40
+      topInclusive: false
     levels:
       - defaultLevel0000
       - gLkwyzMlFl75mT5o
@@ -13475,11 +13475,11 @@ regions:
         disabled: false
         flags: {}
         _stats:
-          coreVersion: '14.360'
+          coreVersion: '14.361'
           systemId: pf2e
-          systemVersion: 8.0.3
-          createdTime: 1777449269354
-          modifiedTime: 1777449269354
+          systemVersion: 8.1.2
+          createdTime: 1778475721940
+          modifiedTime: 1778475721940
           lastModifiedBy: txZjek5EOiCBHPoz
           compendiumSource: null
           duplicateSource: null
@@ -13498,6 +13498,7 @@ regions:
     elevation:
       bottom: 20
       top: 40
+      topInclusive: false
     levels:
       - defaultLevel0000
       - gLkwyzMlFl75mT5o
@@ -13539,11 +13540,11 @@ regions:
         disabled: false
         flags: {}
         _stats:
-          coreVersion: '14.360'
+          coreVersion: '14.361'
           systemId: pf2e
-          systemVersion: 8.0.3
-          createdTime: 1777449269354
-          modifiedTime: 1777449269354
+          systemVersion: 8.1.2
+          createdTime: 1778475721941
+          modifiedTime: 1778475721941
           lastModifiedBy: txZjek5EOiCBHPoz
           compendiumSource: null
           duplicateSource: null
@@ -13562,6 +13563,7 @@ regions:
     elevation:
       bottom: 20
       top: 40
+      topInclusive: false
     levels:
       - defaultLevel0000
       - gLkwyzMlFl75mT5o
@@ -13621,11 +13623,11 @@ regions:
         disabled: false
         flags: {}
         _stats:
-          coreVersion: '14.360'
+          coreVersion: '14.361'
           systemId: pf2e
-          systemVersion: 8.0.3
-          createdTime: 1777449269355
-          modifiedTime: 1777449269355
+          systemVersion: 8.1.2
+          createdTime: 1778475721941
+          modifiedTime: 1778475721941
           lastModifiedBy: txZjek5EOiCBHPoz
           compendiumSource: null
           duplicateSource: null
@@ -13644,6 +13646,7 @@ regions:
     elevation:
       bottom: 20
       top: 40
+      topInclusive: false
     levels:
       - defaultLevel0000
       - gLkwyzMlFl75mT5o
@@ -13691,11 +13694,11 @@ regions:
         disabled: false
         flags: {}
         _stats:
-          coreVersion: '14.360'
+          coreVersion: '14.361'
           systemId: pf2e
-          systemVersion: 8.0.3
-          createdTime: 1777449269355
-          modifiedTime: 1777449269355
+          systemVersion: 8.1.2
+          createdTime: 1778475721941
+          modifiedTime: 1778475721941
           lastModifiedBy: txZjek5EOiCBHPoz
           compendiumSource: null
           duplicateSource: null
@@ -13714,6 +13717,7 @@ regions:
     elevation:
       bottom: 20
       top: 40
+      topInclusive: false
     levels:
       - defaultLevel0000
       - gLkwyzMlFl75mT5o
@@ -13757,11 +13761,11 @@ regions:
         disabled: false
         flags: {}
         _stats:
-          coreVersion: '14.360'
+          coreVersion: '14.361'
           systemId: pf2e
-          systemVersion: 8.0.3
-          createdTime: 1777449269355
-          modifiedTime: 1777449269355
+          systemVersion: 8.1.2
+          createdTime: 1778475721941
+          modifiedTime: 1778475721941
           lastModifiedBy: txZjek5EOiCBHPoz
           compendiumSource: null
           duplicateSource: null
@@ -13780,6 +13784,7 @@ regions:
     elevation:
       bottom: 20
       top: 40
+      topInclusive: false
     levels:
       - defaultLevel0000
       - gLkwyzMlFl75mT5o
@@ -13857,11 +13862,11 @@ regions:
         disabled: false
         flags: {}
         _stats:
-          coreVersion: '14.360'
+          coreVersion: '14.361'
           systemId: pf2e
-          systemVersion: 8.0.3
-          createdTime: 1777449269355
-          modifiedTime: 1777449269355
+          systemVersion: 8.1.2
+          createdTime: 1778475721941
+          modifiedTime: 1778475721941
           lastModifiedBy: txZjek5EOiCBHPoz
           compendiumSource: null
           duplicateSource: null
@@ -13880,6 +13885,7 @@ regions:
     elevation:
       bottom: 20
       top: 40
+      topInclusive: false
     levels:
       - defaultLevel0000
       - gLkwyzMlFl75mT5o
@@ -13929,11 +13935,11 @@ regions:
         disabled: false
         flags: {}
         _stats:
-          coreVersion: '14.360'
+          coreVersion: '14.361'
           systemId: pf2e
-          systemVersion: 8.0.3
-          createdTime: 1777449269355
-          modifiedTime: 1777449269355
+          systemVersion: 8.1.2
+          createdTime: 1778475721942
+          modifiedTime: 1778475721942
           lastModifiedBy: txZjek5EOiCBHPoz
           compendiumSource: null
           duplicateSource: null
@@ -13975,6 +13981,7 @@ regions:
     elevation:
       bottom: 20
       top: 40
+      topInclusive: false
     levels:
       - defaultLevel0000
       - gLkwyzMlFl75mT5o
@@ -13999,11 +14006,11 @@ regions:
         disabled: false
         flags: {}
         _stats:
-          coreVersion: '14.360'
+          coreVersion: '14.361'
           systemId: pf2e
-          systemVersion: 8.0.3
-          createdTime: 1777449269356
-          modifiedTime: 1777449269356
+          systemVersion: 8.1.2
+          createdTime: 1778475721942
+          modifiedTime: 1778475721942
           lastModifiedBy: txZjek5EOiCBHPoz
           compendiumSource: null
           duplicateSource: null
@@ -14026,6 +14033,7 @@ regions:
     elevation:
       bottom: 20
       top: 40
+      topInclusive: false
     levels:
       - defaultLevel0000
       - gLkwyzMlFl75mT5o
@@ -14081,11 +14089,11 @@ regions:
         disabled: false
         flags: {}
         _stats:
-          coreVersion: '14.360'
+          coreVersion: '14.361'
           systemId: pf2e
-          systemVersion: 8.0.3
-          createdTime: 1777449269356
-          modifiedTime: 1777449269356
+          systemVersion: 8.1.2
+          createdTime: 1778475721942
+          modifiedTime: 1778475721942
           lastModifiedBy: txZjek5EOiCBHPoz
           compendiumSource: null
           duplicateSource: null
@@ -14104,6 +14112,7 @@ regions:
     elevation:
       bottom: 20
       top: 40
+      topInclusive: false
     levels:
       - defaultLevel0000
       - gLkwyzMlFl75mT5o
@@ -14145,11 +14154,11 @@ regions:
         disabled: false
         flags: {}
         _stats:
-          coreVersion: '14.360'
+          coreVersion: '14.361'
           systemId: pf2e
-          systemVersion: 8.0.3
-          createdTime: 1777449269356
-          modifiedTime: 1777449269356
+          systemVersion: 8.1.2
+          createdTime: 1778475721942
+          modifiedTime: 1778475721942
           lastModifiedBy: txZjek5EOiCBHPoz
           compendiumSource: null
           duplicateSource: null
@@ -14168,6 +14177,7 @@ regions:
     elevation:
       bottom: 20
       top: 40
+      topInclusive: false
     levels:
       - defaultLevel0000
       - gLkwyzMlFl75mT5o
@@ -14215,11 +14225,11 @@ regions:
         disabled: false
         flags: {}
         _stats:
-          coreVersion: '14.360'
+          coreVersion: '14.361'
           systemId: pf2e
-          systemVersion: 8.0.3
-          createdTime: 1777449269356
-          modifiedTime: 1777449269356
+          systemVersion: 8.1.2
+          createdTime: 1778475721942
+          modifiedTime: 1778475721942
           lastModifiedBy: txZjek5EOiCBHPoz
           compendiumSource: null
           duplicateSource: null
@@ -14238,6 +14248,7 @@ regions:
     elevation:
       bottom: 20
       top: 40
+      topInclusive: false
     levels:
       - defaultLevel0000
       - gLkwyzMlFl75mT5o
@@ -14279,11 +14290,11 @@ regions:
         disabled: false
         flags: {}
         _stats:
-          coreVersion: '14.360'
+          coreVersion: '14.361'
           systemId: pf2e
-          systemVersion: 8.0.3
-          createdTime: 1777449269357
-          modifiedTime: 1777449269357
+          systemVersion: 8.1.2
+          createdTime: 1778475721943
+          modifiedTime: 1778475721943
           lastModifiedBy: txZjek5EOiCBHPoz
           compendiumSource: null
           duplicateSource: null
@@ -14302,6 +14313,7 @@ regions:
     elevation:
       bottom: 20
       top: 40
+      topInclusive: false
     levels:
       - defaultLevel0000
       - gLkwyzMlFl75mT5o
@@ -14343,11 +14355,11 @@ regions:
         disabled: false
         flags: {}
         _stats:
-          coreVersion: '14.360'
+          coreVersion: '14.361'
           systemId: pf2e
-          systemVersion: 8.0.3
-          createdTime: 1777449269357
-          modifiedTime: 1777449269357
+          systemVersion: 8.1.2
+          createdTime: 1778475721943
+          modifiedTime: 1778475721943
           lastModifiedBy: txZjek5EOiCBHPoz
           compendiumSource: null
           duplicateSource: null
@@ -14389,19 +14401,20 @@ flags:
     environmentTypes: []
     syncDarkness: default
 _stats:
-  coreVersion: '14.360'
+  coreVersion: '14.361'
   systemId: pf2e
-  systemVersion: 8.0.3
-  createdTime: 1777449269330
-  modifiedTime: 1777449269330
+  systemVersion: 8.1.2
+  createdTime: 1778475721921
+  modifiedTime: 1778475721921
   lastModifiedBy: txZjek5EOiCBHPoz
   exportSource: null
   compendiumSource: null
   duplicateSource: null
 navName: ''
+navOrder: 0
 ownership:
   default: 0
 active: false
 sort: 0
-templates: []
 _key: '!scenes!FSmhxS0b34PdxidM'
+templates: []

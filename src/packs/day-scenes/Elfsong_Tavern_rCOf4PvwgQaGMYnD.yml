@@ -3936,6 +3936,7 @@ regions:
     elevation:
       bottom: 0
       top: 20
+      topInclusive: true
     levels:
       - defaultLevel0000
     restriction:
@@ -3981,7 +3982,7 @@ regions:
         disabled: false
         flags: {}
         _stats:
-          coreVersion: '14.360'
+          coreVersion: '14.361'
           systemId: daggerheart
           systemVersion: 2.2.1
           createdTime: 1777697106178
@@ -4004,6 +4005,7 @@ regions:
     elevation:
       bottom: 20
       top: 40
+      topInclusive: true
     levels:
       - Fpe0lmig7Xt4bUHW
     restriction:
@@ -4049,7 +4051,7 @@ regions:
         disabled: false
         flags: {}
         _stats:
-          coreVersion: '14.360'
+          coreVersion: '14.361'
           systemId: daggerheart
           systemVersion: 2.2.1
           createdTime: 1777697106178
@@ -8747,7 +8749,7 @@ flags:
     environmentTypes: []
     syncDarkness: default
 _stats:
-  coreVersion: '14.360'
+  coreVersion: '14.361'
   systemId: daggerheart
   systemVersion: 2.2.1
   createdTime: 1777697106170

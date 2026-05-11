@@ -550,6 +550,7 @@ regions:
     elevation:
       bottom: null
       top: null
+      topInclusive: false
     behaviors:
       - name: Adjust Darkness Level
         type: adjustDarknessLevel
@@ -562,7 +563,7 @@ regions:
         _stats:
           compendiumSource: null
           duplicateSource: null
-          coreVersion: '14.360'
+          coreVersion: '14.361'
           systemId: pf2e
           systemVersion: 8.0.3
           createdTime: 1777266016653
@@ -580,7 +581,7 @@ regions:
         _stats:
           compendiumSource: null
           duplicateSource: null
-          coreVersion: '14.360'
+          coreVersion: '14.361'
           systemId: pf2e
           systemVersion: 8.0.3
           createdTime: 1777266016653
@@ -711,6 +712,7 @@ regions:
     elevation:
       bottom: null
       top: null
+      topInclusive: false
     behaviors:
       - name: Suppress Weather
         type: suppressWeather
@@ -721,7 +723,7 @@ regions:
         _stats:
           compendiumSource: null
           duplicateSource: null
-          coreVersion: '14.360'
+          coreVersion: '14.361'
           systemId: pf2e
           systemVersion: 8.0.3
           createdTime: 1777266016654
@@ -6123,7 +6125,7 @@ flags:
 _stats:
   compendiumSource: null
   duplicateSource: null
-  coreVersion: '14.360'
+  coreVersion: '14.361'
   systemId: pf2e
   systemVersion: 8.0.3
   createdTime: 1777266016651
@@ -6173,5 +6175,5 @@ transition:
   type: null
   duration: 1500
   activeOnly: false
-templates: []
 _key: '!scenes!mrHatHS2KYowlpog'
+templates: []

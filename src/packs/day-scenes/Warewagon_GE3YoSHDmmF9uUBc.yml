@@ -245,6 +245,7 @@ regions:
     elevation:
       bottom: 0
       top: 20
+      topInclusive: false
     levels:
       - defaultLevel0000
       - MXDxnkaCRWfWL1g4
@@ -310,7 +311,7 @@ regions:
         disabled: false
         flags: {}
         _stats:
-          coreVersion: '14.360'
+          coreVersion: '14.361'
           systemId: daggerheart
           systemVersion: 2.2.1
           createdTime: 1777697106222
@@ -356,7 +357,7 @@ flags:
     environmentTypes: []
     syncDarkness: default
 _stats:
-  coreVersion: '14.360'
+  coreVersion: '14.361'
   systemId: daggerheart
   systemVersion: 2.2.1
   createdTime: 1777697106221

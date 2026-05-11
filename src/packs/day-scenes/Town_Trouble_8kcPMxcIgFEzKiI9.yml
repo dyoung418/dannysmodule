@@ -1,8 +1,7 @@
 folder: PzZSh8dtytkWOJL6
 name: Town Trouble
 _id: 8kcPMxcIgFEzKiI9
-navigation: true
-navOrder: 0
+navigation: false
 thumb: worlds/kingmaker/assets/scenes/thumb-TE1IsyWOvPT8rRv8pI0UpA.webp
 width: 12000
 height: 10000
@@ -220,6 +219,7 @@ regions:
     elevation:
       bottom: 20
       top: 40
+      topInclusive: false
     levels:
       - defaultLevel0000
       - eQCbahc8CsRne40D
@@ -244,11 +244,11 @@ regions:
         disabled: false
         flags: {}
         _stats:
-          coreVersion: '14.360'
+          coreVersion: '14.361'
           systemId: pf2e
-          systemVersion: 8.0.3
-          createdTime: 1777449269256
-          modifiedTime: 1777449269256
+          systemVersion: 8.1.2
+          createdTime: 1778475721863
+          modifiedTime: 1778475721863
           lastModifiedBy: txZjek5EOiCBHPoz
           compendiumSource: null
           duplicateSource: null
@@ -286,6 +286,7 @@ regions:
     elevation:
       bottom: 20
       top: 40
+      topInclusive: false
     levels:
       - defaultLevel0000
       - eQCbahc8CsRne40D
@@ -310,11 +311,11 @@ regions:
         disabled: false
         flags: {}
         _stats:
-          coreVersion: '14.360'
+          coreVersion: '14.361'
           systemId: pf2e
-          systemVersion: 8.0.3
-          createdTime: 1777449269257
-          modifiedTime: 1777449269257
+          systemVersion: 8.1.2
+          createdTime: 1778475721863
+          modifiedTime: 1778475721863
           lastModifiedBy: txZjek5EOiCBHPoz
           compendiumSource: null
           duplicateSource: null
@@ -360,6 +361,7 @@ regions:
     elevation:
       bottom: 20
       top: 40
+      topInclusive: false
     levels:
       - defaultLevel0000
       - eQCbahc8CsRne40D
@@ -384,11 +386,11 @@ regions:
         disabled: false
         flags: {}
         _stats:
-          coreVersion: '14.360'
+          coreVersion: '14.361'
           systemId: pf2e
-          systemVersion: 8.0.3
-          createdTime: 1777449269257
-          modifiedTime: 1777449269257
+          systemVersion: 8.1.2
+          createdTime: 1778475721863
+          modifiedTime: 1778475721863
           lastModifiedBy: txZjek5EOiCBHPoz
           compendiumSource: null
           duplicateSource: null
@@ -426,6 +428,7 @@ regions:
     elevation:
       bottom: 20
       top: 40
+      topInclusive: false
     levels:
       - defaultLevel0000
       - eQCbahc8CsRne40D
@@ -450,11 +453,11 @@ regions:
         disabled: false
         flags: {}
         _stats:
-          coreVersion: '14.360'
+          coreVersion: '14.361'
           systemId: pf2e
-          systemVersion: 8.0.3
-          createdTime: 1777449269257
-          modifiedTime: 1777449269257
+          systemVersion: 8.1.2
+          createdTime: 1778475721864
+          modifiedTime: 1778475721864
           lastModifiedBy: txZjek5EOiCBHPoz
           compendiumSource: null
           duplicateSource: null
@@ -492,6 +495,7 @@ regions:
     elevation:
       bottom: 20
       top: 40
+      topInclusive: false
     levels:
       - defaultLevel0000
       - eQCbahc8CsRne40D
@@ -516,11 +520,11 @@ regions:
         disabled: false
         flags: {}
         _stats:
-          coreVersion: '14.360'
+          coreVersion: '14.361'
           systemId: pf2e
-          systemVersion: 8.0.3
-          createdTime: 1777449269257
-          modifiedTime: 1777449269257
+          systemVersion: 8.1.2
+          createdTime: 1778475721864
+          modifiedTime: 1778475721864
           lastModifiedBy: txZjek5EOiCBHPoz
           compendiumSource: null
           duplicateSource: null
@@ -558,6 +562,7 @@ regions:
     elevation:
       bottom: 20
       top: 40
+      topInclusive: false
     levels:
       - defaultLevel0000
       - eQCbahc8CsRne40D
@@ -582,11 +587,11 @@ regions:
         disabled: false
         flags: {}
         _stats:
-          coreVersion: '14.360'
+          coreVersion: '14.361'
           systemId: pf2e
-          systemVersion: 8.0.3
-          createdTime: 1777449269258
-          modifiedTime: 1777449269258
+          systemVersion: 8.1.2
+          createdTime: 1778475721864
+          modifiedTime: 1778475721864
           lastModifiedBy: txZjek5EOiCBHPoz
           compendiumSource: null
           duplicateSource: null
@@ -632,6 +637,7 @@ regions:
     elevation:
       bottom: 20
       top: 40
+      topInclusive: false
     levels:
       - defaultLevel0000
       - eQCbahc8CsRne40D
@@ -656,11 +662,11 @@ regions:
         disabled: false
         flags: {}
         _stats:
-          coreVersion: '14.360'
+          coreVersion: '14.361'
           systemId: pf2e
-          systemVersion: 8.0.3
-          createdTime: 1777449269258
-          modifiedTime: 1777449269258
+          systemVersion: 8.1.2
+          createdTime: 1778475721864
+          modifiedTime: 1778475721864
           lastModifiedBy: txZjek5EOiCBHPoz
           compendiumSource: null
           duplicateSource: null
@@ -8864,19 +8870,20 @@ flags:
     environmentTypes: []
     syncDarkness: default
 _stats:
-  coreVersion: '14.360'
+  coreVersion: '14.361'
   systemId: pf2e
-  systemVersion: 8.0.3
-  createdTime: 1777449269255
-  modifiedTime: 1777449269255
+  systemVersion: 8.1.2
+  createdTime: 1778475721862
+  modifiedTime: 1778475721862
   lastModifiedBy: txZjek5EOiCBHPoz
   exportSource: null
   compendiumSource: null
   duplicateSource: null
 navName: ''
+navOrder: 0
 ownership:
   default: 0
 active: false
 sort: 0
-templates: []
 _key: '!scenes!8kcPMxcIgFEzKiI9'
+templates: []

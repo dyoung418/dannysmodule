@@ -9108,6 +9108,7 @@ regions:
     elevation:
       bottom: null
       top: null
+      topInclusive: false
     behaviors:
       - name: Modify Movement Cost
         type: modifyMovementCost
@@ -9126,7 +9127,7 @@ regions:
           compendiumSource: null
           duplicateSource: null
           exportSource: null
-          coreVersion: '14.360'
+          coreVersion: '14.361'
           systemId: pf2e
           systemVersion: 8.0.3
           lastModifiedBy: txZjek5EOiCBHPoz
@@ -9166,6 +9167,7 @@ regions:
     elevation:
       bottom: 0
       top: null
+      topInclusive: false
     restriction:
       enabled: false
       type: move
@@ -9209,6 +9211,7 @@ regions:
     elevation:
       bottom: 0
       top: null
+      topInclusive: false
     restriction:
       enabled: false
       type: move
@@ -9245,6 +9248,7 @@ regions:
     elevation:
       bottom: 0
       top: null
+      topInclusive: false
     restriction:
       enabled: false
       type: move
@@ -43008,7 +43012,7 @@ _stats:
   compendiumSource: null
   duplicateSource: null
   exportSource: null
-  coreVersion: '14.360'
+  coreVersion: '14.361'
   systemId: pf2e
   systemVersion: 8.0.3
   createdTime: 1777266018141
@@ -43058,5 +43062,5 @@ transition:
   type: null
   duration: 1500
   activeOnly: false
-templates: []
 _key: '!scenes!DgsUYWLNZuEA5aKI'
+templates: []
