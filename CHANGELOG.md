@@ -1,5 +1,13 @@
 
 
+## [v1.1.4] - 2026-05-11
+### :sparkles: New Features
+- [`b37bdc1`](https://github.com/dyoung418/dannysmodule/commit/b37bdc128b87aec7d432ae4fe47e98fcf161a6c3) - added daggerheart adventure compendium *(commit by [@dyoung418](https://github.com/dyoung418))*
+- [`3ca24f2`](https://github.com/dyoung418/dannysmodule/commit/3ca24f2291cde9790506ac1f79a505fffb870f28) - upgraded Wellen daggerheart actor to lvl 10 *(commit by [@dyoung418](https://github.com/dyoung418))*
+- [`368efbb`](https://github.com/dyoung418/dannysmodule/commit/368efbbeff4e5f851b40b7f84ff41e48c9ea07ee) - added Gareth wizard actor to daggerheart *(commit by [@dyoung418](https://github.com/dyoung418))*
+- [`adda78f`](https://github.com/dyoung418/dannysmodule/commit/adda78f4227d53caea6ffa493c27ea3999f6bb04) - added Meadwagon town - all levels added, but regions, doors and lights need to be finished. *(commit by [@dyoung418](https://github.com/dyoung418))*
+
+
 ## [v1.1.3] - 2026-05-01
 ### :sparkles: New Features
 - [`6c232e3`](https://github.com/dyoung418/dannysmodule/commit/6c232e38af570ce222a14de0b78a987494d72a4b) - added daggerheart-specific compendiums *(commit by [@dyoung418](https://github.com/dyoung418))*
@@ -142,3 +150,4 @@
 [v1.1.1]: https://github.com/dyoung418/dannysmodule/compare/v1.1.0...v1.1.1
 [v1.1.2]: https://github.com/dyoung418/dannysmodule/compare/v1.1.1...v1.1.2
 [v1.1.3]: https://github.com/dyoung418/dannysmodule/compare/v1.1.2...v1.1.3
+[v1.1.4]: https://github.com/dyoung418/dannysmodule/compare/v1.1.3...v1.1.4
