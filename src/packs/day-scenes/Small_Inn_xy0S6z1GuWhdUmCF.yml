@@ -1,7 +1,7 @@
 name: Small Inn
 _id: xy0S6z1GuWhdUmCF
 navigation: false
-thumb: worlds/daggerheart-test/assets/scenes/thumb-xY99QcVYqtOnCF4iWSYn0A.webp
+thumb: worlds/kingmaker/assets/scenes/thumb-xY99QcVYqtOnCF4iWSYn0A.webp
 width: 4000
 height: 3000
 padding: 0.25
@@ -1209,16 +1209,17 @@ regions:
       - name: Change Level
         type: changeLevel
         _id: XUGLEDfEPqMAzgUY
-        system: {}
+        system:
+          movementActions: []
         disabled: false
         flags: {}
         _stats:
           coreVersion: '14.361'
-          systemId: daggerheart
-          systemVersion: 2.2.1
-          createdTime: 1777697106234
-          modifiedTime: 1777697106234
-          lastModifiedBy: pQzNfYJpGL2Gy8DA
+          systemId: pf2e
+          systemVersion: 8.1.2
+          createdTime: 1778508816123
+          modifiedTime: 1778508816123
+          lastModifiedBy: txZjek5EOiCBHPoz
           compendiumSource: null
           duplicateSource: null
           exportSource: null
@@ -3084,11 +3085,11 @@ flags:
     syncDarkness: default
 _stats:
   coreVersion: '14.361'
-  systemId: daggerheart
-  systemVersion: 2.2.1
-  createdTime: 1777697106231
-  modifiedTime: 1777697106231
-  lastModifiedBy: pQzNfYJpGL2Gy8DA
+  systemId: pf2e
+  systemVersion: 8.1.2
+  createdTime: 1778508816120
+  modifiedTime: 1778508816120
+  lastModifiedBy: txZjek5EOiCBHPoz
   exportSource: null
   compendiumSource: null
   duplicateSource: null

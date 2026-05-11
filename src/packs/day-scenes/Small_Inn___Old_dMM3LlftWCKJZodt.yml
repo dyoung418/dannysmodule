@@ -3,7 +3,7 @@ name: Small Inn - Old
 _id: dMM3LlftWCKJZodt
 navigation: false
 navName: ''
-thumb: worlds/daggerheart-test/assets/scenes/thumb-EfGm8hJRETldJfQzedmMeQ.webp
+thumb: worlds/kingmaker/assets/scenes/thumb-EfGm8hJRETldJfQzedmMeQ.webp
 width: 1620
 height: 1620
 padding: 0.25
@@ -1241,7 +1241,7 @@ notes:
     flags: {}
     levels: []
     locked: false
-    author: pQzNfYJpGL2Gy8DA
+    author: txZjek5EOiCBHPoz
     _key: '!scenes.notes!dMM3LlftWCKJZodt.i7y6JnGiHDTXpFES'
 sounds:
   - path: modules/dannysmodule/assets/audio/audio-ambient/interior/fireplace.ogg
@@ -1357,11 +1357,11 @@ regions:
         flags: {}
         _stats:
           coreVersion: '14.361'
-          systemId: daggerheart
-          systemVersion: 2.2.1
-          createdTime: 1777697106226
-          modifiedTime: 1777697106226
-          lastModifiedBy: pQzNfYJpGL2Gy8DA
+          systemId: pf2e
+          systemVersion: 8.1.2
+          createdTime: 1778508816115
+          modifiedTime: 1778508816115
+          lastModifiedBy: txZjek5EOiCBHPoz
           compendiumSource: null
           duplicateSource: null
           exportSource: null
@@ -1425,11 +1425,11 @@ regions:
         flags: {}
         _stats:
           coreVersion: '14.361'
-          systemId: daggerheart
-          systemVersion: 2.2.1
-          createdTime: 1777697106226
-          modifiedTime: 1777697106226
-          lastModifiedBy: pQzNfYJpGL2Gy8DA
+          systemId: pf2e
+          systemVersion: 8.1.2
+          createdTime: 1778508816116
+          modifiedTime: 1778508816116
+          lastModifiedBy: txZjek5EOiCBHPoz
           compendiumSource: null
           duplicateSource: null
           exportSource: null
@@ -1501,11 +1501,11 @@ regions:
         flags: {}
         _stats:
           coreVersion: '14.361'
-          systemId: daggerheart
-          systemVersion: 2.2.1
-          createdTime: 1777697106227
-          modifiedTime: 1777697106227
-          lastModifiedBy: pQzNfYJpGL2Gy8DA
+          systemId: pf2e
+          systemVersion: 8.1.2
+          createdTime: 1778508816116
+          modifiedTime: 1778508816116
+          lastModifiedBy: txZjek5EOiCBHPoz
           compendiumSource: null
           duplicateSource: null
           exportSource: null
@@ -1521,11 +1521,11 @@ regions:
         flags: {}
         _stats:
           coreVersion: '14.361'
-          systemId: daggerheart
-          systemVersion: 2.2.1
-          createdTime: 1777697106227
-          modifiedTime: 1777697106227
-          lastModifiedBy: pQzNfYJpGL2Gy8DA
+          systemId: pf2e
+          systemVersion: 8.1.2
+          createdTime: 1778508816116
+          modifiedTime: 1778508816116
+          lastModifiedBy: txZjek5EOiCBHPoz
           compendiumSource: null
           duplicateSource: null
           exportSource: null
@@ -3338,11 +3338,11 @@ flags:
     opacityPlayer: 1
 _stats:
   coreVersion: '14.361'
-  systemId: daggerheart
-  systemVersion: 2.2.1
-  createdTime: 1777697106223
-  modifiedTime: 1777697106223
-  lastModifiedBy: pQzNfYJpGL2Gy8DA
+  systemId: pf2e
+  systemVersion: 8.1.2
+  createdTime: 1778508816111
+  modifiedTime: 1778508816111
+  lastModifiedBy: txZjek5EOiCBHPoz
   exportSource: null
   compendiumSource: null
   duplicateSource: null

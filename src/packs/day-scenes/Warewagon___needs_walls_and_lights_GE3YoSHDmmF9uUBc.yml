@@ -1,0 +1,507 @@
+folder: 1LOPSyo3SGiD9SB8
+name: Warewagon - needs walls and lights
+_id: GE3YoSHDmmF9uUBc
+navigation: false
+thumb: worlds/kingmaker/assets/scenes/thumb-X34cUgKWtP_Wix-izFy6Ow.webp
+width: 1426
+height: 1426
+padding: 0.25
+shiftX: 0
+shiftY: 0
+initial:
+  x: 1113
+  'y': 1113
+  scale: 0.55
+initialLevel: defaultLevel0000
+grid:
+  type: 1
+  size: 100
+  style: solidLines
+  thickness: 1
+  color: '#000000'
+  alpha: 0.2
+  distance: 5
+  units: ft
+tokenVision: true
+fog:
+  mode: 1
+  colors:
+    explored: null
+    unexplored: null
+environment:
+  darknessLevel: 0
+  darknessLock: false
+  globalLight:
+    enabled: false
+    alpha: 0.5
+    bright: false
+    color: null
+    coloration: 1
+    luminosity: 0
+    saturation: 0
+    contrast: 0
+    shadows: 0
+    darkness:
+      min: 0
+      max: 1
+  cycle: true
+  base:
+    hue: 0
+    intensity: 0
+    luminosity: 0
+    saturation: 0
+    shadows: 0
+  dark:
+    hue: 0.7138888888888889
+    intensity: 0
+    luminosity: -0.25
+    saturation: 0
+    shadows: 0
+transition:
+  type: null
+  duration: 1500
+  activeOnly: false
+drawings: []
+tokens: []
+levels:
+  - _id: defaultLevel0000
+    name: Ground level
+    elevation:
+      bottom: 0
+      top: 20
+    background:
+      color: '#999999'
+      src: modules/dannysmodule/assets/maps/Warewagon_ground.webp
+      tint: '#ffffff'
+      alphaThreshold: 0.75
+    foreground:
+      src: null
+      tint: '#ffffff'
+      alphaThreshold: 0.75
+    fog:
+      src: null
+      tint: '#ffffff'
+    textures:
+      anchorX: 0.5
+      anchorY: 0.5
+      offsetX: 0
+      offsetY: 0
+      fit: fill
+      scaleX: 1
+      scaleY: 1
+      rotation: 0
+    visibility:
+      levels:
+        - MXDxnkaCRWfWL1g4
+        - 00FcHtGi06KdfZke
+    sort: 0
+    flags: {}
+    _key: '!scenes.levels!GE3YoSHDmmF9uUBc.defaultLevel0000'
+  - name: Cellar
+    _id: MXDxnkaCRWfWL1g4
+    elevation:
+      bottom: -20
+      top: 0
+    background:
+      color: '#999999'
+      src: modules/dannysmodule/assets/maps/Warewagon_cellar.webp
+      tint: '#ffffff'
+      alphaThreshold: 0.75
+    foreground:
+      src: null
+      tint: '#ffffff'
+      alphaThreshold: 0.75
+    fog:
+      src: null
+      tint: '#ffffff'
+    textures:
+      anchorX: 0.5
+      anchorY: 0.5
+      offsetX: 0
+      offsetY: 0
+      fit: fill
+      scaleX: 1
+      scaleY: 1
+      rotation: 0
+    visibility:
+      levels:
+        - defaultLevel0000
+        - 00FcHtGi06KdfZke
+    sort: 0
+    flags: {}
+    _key: '!scenes.levels!GE3YoSHDmmF9uUBc.MXDxnkaCRWfWL1g4'
+  - name: 2nd Floor
+    _id: 00FcHtGi06KdfZke
+    elevation:
+      bottom: 20
+      top: 40
+    background:
+      color: '#999999'
+      src: modules/dannysmodule/assets/maps/Warewagon_2nd.webp
+      tint: '#ffffff'
+      alphaThreshold: 0.75
+    foreground:
+      src: null
+      tint: '#ffffff'
+      alphaThreshold: 0.75
+    fog:
+      src: null
+      tint: '#ffffff'
+    textures:
+      anchorX: 0.5
+      anchorY: 0.5
+      offsetX: 0
+      offsetY: 0
+      fit: fill
+      scaleX: 1
+      scaleY: 1
+      rotation: 0
+    visibility:
+      levels:
+        - MXDxnkaCRWfWL1g4
+        - defaultLevel0000
+    sort: 0
+    flags: {}
+    _key: '!scenes.levels!GE3YoSHDmmF9uUBc.00FcHtGi06KdfZke'
+lights: []
+notes: []
+sounds: []
+regions:
+  - color: '#6e28cc'
+    elevation:
+      bottom: 0
+      top: 20
+      topInclusive: false
+    levels:
+      - defaultLevel0000
+      - MXDxnkaCRWfWL1g4
+    restriction:
+      enabled: false
+      type: move
+      priority: 0
+    attachment:
+      token: null
+    visibility: 4
+    highlightMode: shapes
+    displayMeasurements: false
+    hidden: false
+    name: Ground region
+    _id: F1kDsDsr9a5Q3753
+    shapes:
+      - type: rectangle
+        x: 400
+        'y': 400
+        width: 1400
+        height: 1400
+        hole: false
+        anchorX: 0
+        anchorY: 0
+        rotation: 0
+        gridBased: false
+      - type: polygon
+        points:
+          - 1200
+          - 1350
+          - 1180.8430431743113
+          - 1346.210942189185
+          - 1177.2085865103436
+          - 1182.6603853751233
+          - 1396.4876197894846
+          - 1179.0259285570332
+          - 1395.2759863484084
+          - 1252.9265874964751
+          - 1475.2340329556991
+          - 1251.7150649188382
+          - 1474.0226213442534
+          - 1478.2629102180708
+          - 1323.7984865101298
+          - 1470.9939965818903
+          - 1322.5868530690536
+          - 1332.8846374944608
+          - 1189.323589943323
+          - 1329.2501806763705
+        hole: true
+        origin: null
+    behaviors:
+      - name: Define Surface
+        type: defineSurface
+        _id: aI2p78nGEef1xI7w
+        system:
+          placement: bottom
+          light: true
+          move: true
+          sight: true
+          sound: true
+          occlusion: true
+          exposure: false
+        disabled: false
+        flags: {}
+        _stats:
+          coreVersion: '14.361'
+          systemId: pf2e
+          systemVersion: 8.1.2
+          createdTime: 1778508816140
+          modifiedTime: 1778508816140
+          lastModifiedBy: txZjek5EOiCBHPoz
+          compendiumSource: null
+          duplicateSource: null
+          exportSource: null
+        _key: >-
+          !scenes.regions.behaviors!GE3YoSHDmmF9uUBc.F1kDsDsr9a5Q3753.aI2p78nGEef1xI7w
+    locked: false
+    flags:
+      pf2e:
+        areaShape: null
+    _shapeConstraints: null
+    ownership:
+      default: 0
+    _key: '!scenes.regions!GE3YoSHDmmF9uUBc.F1kDsDsr9a5Q3753'
+  - color: '#55cc28'
+    elevation:
+      bottom: 20
+      top: 40
+      topInclusive: false
+    levels:
+      - defaultLevel0000
+      - MXDxnkaCRWfWL1g4
+      - 00FcHtGi06KdfZke
+    restriction:
+      enabled: false
+      type: move
+      priority: 0
+    attachment:
+      token: null
+    visibility: 4
+    highlightMode: shapes
+    displayMeasurements: false
+    hidden: false
+    name: 2nd Floor Region
+    _id: 6IOdEHeRb3Bfa6ye
+    shapes:
+      - type: polygon
+        points:
+          - 408.3881278835511
+          - 1313.6734611787647
+          - 403.8786119020058
+          - 401.62385391123325
+          - 1817.2751415270668
+          - 408.38812788355114
+          - 1818.402520522453
+          - 826.6457351718752
+          - 1046.147908682825
+          - 825.5183561764889
+          - 1045.0205296874387
+          - 881.8873059458048
+          - 897.3338812918308
+          - 1039.7203652998894
+          - 899.5886392826036
+          - 1321.5651141464689
+        hole: false
+        origin: null
+    behaviors:
+      - name: Define Surface
+        type: defineSurface
+        _id: DdIP49ALDrqAWWlR
+        system:
+          placement: bottom
+          light: true
+          move: true
+          sight: true
+          sound: true
+          occlusion: true
+          exposure: false
+        disabled: false
+        flags: {}
+        _stats:
+          coreVersion: '14.361'
+          systemId: pf2e
+          systemVersion: 8.1.2
+          createdTime: 1778508816140
+          modifiedTime: 1778508816140
+          lastModifiedBy: txZjek5EOiCBHPoz
+          compendiumSource: null
+          duplicateSource: null
+          exportSource: null
+        _key: >-
+          !scenes.regions.behaviors!GE3YoSHDmmF9uUBc.6IOdEHeRb3Bfa6ye.DdIP49ALDrqAWWlR
+    locked: false
+    flags:
+      pf2e:
+        areaShape: null
+    _shapeConstraints: null
+    ownership:
+      default: 0
+    _key: '!scenes.regions!GE3YoSHDmmF9uUBc.6IOdEHeRb3Bfa6ye'
+  - name: Stairs - Ground to 2nd
+    _id: FOGcruAbfGAaFMiK
+    color: '#cc5828'
+    shapes:
+      - type: rectangle
+        x: 758.6662648593139
+        'y': 712.780456637857
+        width: 81
+        height: 103
+        hole: false
+        anchorX: 0
+        anchorY: 0
+        rotation: 0
+        gridBased: false
+      - type: rectangle
+        x: 1536.5577716758735
+        'y': 613.571105043861
+        width: 73
+        height: 152
+        hole: false
+        anchorX: 0
+        anchorY: 0
+        rotation: 0
+        gridBased: false
+    elevation:
+      bottom: 0
+      top: 40
+      topInclusive: false
+    levels:
+      - defaultLevel0000
+      - 00FcHtGi06KdfZke
+    restriction:
+      enabled: false
+      type: move
+      priority: 0
+    attachment:
+      token: null
+    behaviors:
+      - name: Change Level
+        type: changeLevel
+        _id: rdsDkNytxaINDCb0
+        system:
+          movementActions: []
+        disabled: false
+        flags: {}
+        _stats:
+          coreVersion: '14.361'
+          systemId: pf2e
+          systemVersion: 8.1.2
+          createdTime: 1778508816140
+          modifiedTime: 1778508816140
+          lastModifiedBy: txZjek5EOiCBHPoz
+          compendiumSource: null
+          duplicateSource: null
+          exportSource: null
+        _key: >-
+          !scenes.regions.behaviors!GE3YoSHDmmF9uUBc.FOGcruAbfGAaFMiK.rdsDkNytxaINDCb0
+    visibility: 4
+    highlightMode: shapes
+    displayMeasurements: false
+    hidden: false
+    locked: false
+    flags:
+      pf2e:
+        areaShape: null
+    _shapeConstraints: null
+    ownership:
+      default: 0
+    _key: '!scenes.regions!GE3YoSHDmmF9uUBc.FOGcruAbfGAaFMiK'
+  - color: '#cc286f'
+    elevation:
+      bottom: -20
+      top: 20
+      topInclusive: false
+    levels:
+      - defaultLevel0000
+      - MXDxnkaCRWfWL1g4
+    restriction:
+      enabled: false
+      type: move
+      priority: 0
+    attachment:
+      token: null
+    visibility: 4
+    highlightMode: shapes
+    displayMeasurements: false
+    hidden: false
+    name: Stairs - Ground to Cellar
+    _id: EadC8dQcuY0ndAIr
+    shapes:
+      - type: rectangle
+        x: 806.0161826655391
+        'y': 1333.9662830957184
+        width: 87
+        height: 149
+        hole: false
+        anchorX: 0
+        anchorY: 0
+        rotation: 0
+        gridBased: false
+    behaviors:
+      - name: Change Level
+        type: changeLevel
+        _id: 4hH6vfNYttwhnDWP
+        system:
+          movementActions: []
+        disabled: false
+        flags: {}
+        _stats:
+          coreVersion: '14.361'
+          systemId: pf2e
+          systemVersion: 8.1.2
+          createdTime: 1778508816140
+          modifiedTime: 1778508816140
+          lastModifiedBy: txZjek5EOiCBHPoz
+          compendiumSource: null
+          duplicateSource: null
+          exportSource: null
+        _key: >-
+          !scenes.regions.behaviors!GE3YoSHDmmF9uUBc.EadC8dQcuY0ndAIr.4hH6vfNYttwhnDWP
+    locked: false
+    flags:
+      pf2e:
+        areaShape: null
+    _shapeConstraints: null
+    ownership:
+      default: 0
+    _key: '!scenes.regions!GE3YoSHDmmF9uUBc.EadC8dQcuY0ndAIr'
+tiles: []
+walls: []
+playlist: null
+playlistSound: null
+journal: null
+journalEntryPage: null
+weather: ''
+flags:
+  world-explorer:
+    enabled: false
+    image: ''
+    color: '#000000'
+    position: behindDrawings
+    opacityGM: 0.7
+    opacityPlayer: 1
+    partialColor: ''
+    partialOpacityPlayer: 0.4
+    persistExploredAreas: false
+    revealRadius: 0
+    gridRevealRadius: 0
+    schemaVersion: 2.1.0
+  pf2e:
+    rulesBasedVision: null
+    hearingRange: null
+    environmentTypes: []
+    syncDarkness: default
+_stats:
+  coreVersion: '14.361'
+  systemId: pf2e
+  systemVersion: 8.1.2
+  createdTime: 1778508816140
+  modifiedTime: 1778508816141
+  lastModifiedBy: txZjek5EOiCBHPoz
+  exportSource: null
+  compendiumSource: null
+  duplicateSource: null
+navName: ''
+navOrder: 0
+ownership:
+  default: 0
+  txZjek5EOiCBHPoz: 3
+active: false
+sort: 0
+_key: '!scenes!GE3YoSHDmmF9uUBc'
+templates: []

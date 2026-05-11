@@ -3,7 +3,7 @@ name: Elfsong Tavern
 _id: rCOf4PvwgQaGMYnD
 navigation: false
 navOrder: 0
-thumb: worlds/daggerheart-test/assets/scenes/thumb-sJ9GjQC0TgnFjz4dxlC0sw.webp
+thumb: worlds/kingmaker/assets/scenes/thumb-sJ9GjQC0TgnFjz4dxlC0sw.webp
 width: 4000
 height: 3444
 padding: 0.25
@@ -3983,11 +3983,11 @@ regions:
         flags: {}
         _stats:
           coreVersion: '14.361'
-          systemId: daggerheart
-          systemVersion: 2.2.1
-          createdTime: 1777697106178
-          modifiedTime: 1777697106178
-          lastModifiedBy: pQzNfYJpGL2Gy8DA
+          systemId: pf2e
+          systemVersion: 8.1.2
+          createdTime: 1778508816047
+          modifiedTime: 1778508816047
+          lastModifiedBy: txZjek5EOiCBHPoz
           compendiumSource: null
           duplicateSource: null
           exportSource: null
@@ -4052,11 +4052,11 @@ regions:
         flags: {}
         _stats:
           coreVersion: '14.361'
-          systemId: daggerheart
-          systemVersion: 2.2.1
-          createdTime: 1777697106178
-          modifiedTime: 1777697106178
-          lastModifiedBy: pQzNfYJpGL2Gy8DA
+          systemId: pf2e
+          systemVersion: 8.1.2
+          createdTime: 1778508816047
+          modifiedTime: 1778508816047
+          lastModifiedBy: txZjek5EOiCBHPoz
           compendiumSource: null
           duplicateSource: null
           exportSource: null
@@ -8750,11 +8750,11 @@ flags:
     syncDarkness: default
 _stats:
   coreVersion: '14.361'
-  systemId: daggerheart
-  systemVersion: 2.2.1
-  createdTime: 1777697106170
-  modifiedTime: 1777697106170
-  lastModifiedBy: pQzNfYJpGL2Gy8DA
+  systemId: pf2e
+  systemVersion: 8.1.2
+  createdTime: 1778508816038
+  modifiedTime: 1778508816038
+  lastModifiedBy: txZjek5EOiCBHPoz
   exportSource: null
   compendiumSource: null
   duplicateSource: null

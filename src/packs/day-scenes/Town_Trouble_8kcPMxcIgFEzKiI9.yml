@@ -247,8 +247,8 @@ regions:
           coreVersion: '14.361'
           systemId: pf2e
           systemVersion: 8.1.2
-          createdTime: 1778475721863
-          modifiedTime: 1778475721863
+          createdTime: 1778508797234
+          modifiedTime: 1778508797234
           lastModifiedBy: txZjek5EOiCBHPoz
           compendiumSource: null
           duplicateSource: null
@@ -314,8 +314,8 @@ regions:
           coreVersion: '14.361'
           systemId: pf2e
           systemVersion: 8.1.2
-          createdTime: 1778475721863
-          modifiedTime: 1778475721863
+          createdTime: 1778508797235
+          modifiedTime: 1778508797235
           lastModifiedBy: txZjek5EOiCBHPoz
           compendiumSource: null
           duplicateSource: null
@@ -389,8 +389,8 @@ regions:
           coreVersion: '14.361'
           systemId: pf2e
           systemVersion: 8.1.2
-          createdTime: 1778475721863
-          modifiedTime: 1778475721863
+          createdTime: 1778508797235
+          modifiedTime: 1778508797235
           lastModifiedBy: txZjek5EOiCBHPoz
           compendiumSource: null
           duplicateSource: null
@@ -456,8 +456,8 @@ regions:
           coreVersion: '14.361'
           systemId: pf2e
           systemVersion: 8.1.2
-          createdTime: 1778475721864
-          modifiedTime: 1778475721864
+          createdTime: 1778508797235
+          modifiedTime: 1778508797235
           lastModifiedBy: txZjek5EOiCBHPoz
           compendiumSource: null
           duplicateSource: null
@@ -523,8 +523,8 @@ regions:
           coreVersion: '14.361'
           systemId: pf2e
           systemVersion: 8.1.2
-          createdTime: 1778475721864
-          modifiedTime: 1778475721864
+          createdTime: 1778508797235
+          modifiedTime: 1778508797235
           lastModifiedBy: txZjek5EOiCBHPoz
           compendiumSource: null
           duplicateSource: null
@@ -590,8 +590,8 @@ regions:
           coreVersion: '14.361'
           systemId: pf2e
           systemVersion: 8.1.2
-          createdTime: 1778475721864
-          modifiedTime: 1778475721864
+          createdTime: 1778508797235
+          modifiedTime: 1778508797235
           lastModifiedBy: txZjek5EOiCBHPoz
           compendiumSource: null
           duplicateSource: null
@@ -665,8 +665,8 @@ regions:
           coreVersion: '14.361'
           systemId: pf2e
           systemVersion: 8.1.2
-          createdTime: 1778475721864
-          modifiedTime: 1778475721864
+          createdTime: 1778508797236
+          modifiedTime: 1778508797236
           lastModifiedBy: txZjek5EOiCBHPoz
           compendiumSource: null
           duplicateSource: null
@@ -3571,7 +3571,7 @@ walls:
     flags: {}
     c:
       - 10150
-      - 8800
+      - 8963
       - 10163
       - 8488
     _id: zbvBzug8UWKYBgsv
@@ -8845,6 +8845,37 @@ walls:
       - 5963
     _id: I4bR7wSF5axINWax
     _key: '!scenes.walls!8kcPMxcIgFEzKiI9.I4bR7wSF5axINWax'
+  - levels:
+      - defaultLevel0000
+    light: 20
+    move: 20
+    sight: 20
+    sound: 20
+    dir: 0
+    door: 1
+    ds: 0
+    threshold:
+      light: null
+      sight: null
+      sound: null
+      attenuation: true
+    animation:
+      type: ''
+      texture: null
+      flip: false
+      double: false
+      direction: 1
+      duration: 750
+      strength: 1
+    flags: {}
+    c:
+      - 12000
+      - 8638
+      - 12125
+      - 8575
+    _id: usyPPCluMlUKL7Zu
+    doorSound: ''
+    _key: '!scenes.walls!8kcPMxcIgFEzKiI9.usyPPCluMlUKL7Zu'
 playlist: null
 playlistSound: null
 journal: null
@@ -8873,8 +8904,8 @@ _stats:
   coreVersion: '14.361'
   systemId: pf2e
   systemVersion: 8.1.2
-  createdTime: 1778475721862
-  modifiedTime: 1778475721862
+  createdTime: 1778508797233
+  modifiedTime: 1778508797233
   lastModifiedBy: txZjek5EOiCBHPoz
   exportSource: null
   compendiumSource: null
