@@ -3,7 +3,7 @@ name: Yawning Portal
 _id: myO51NQeBbx5MK8u
 navigation: false
 navOrder: 0
-thumb: worlds/kingmaker/assets/scenes/thumb-9aWxctNn-jsIuKQKMNuxJQ.webp
+thumb: worlds/kingmaker/assets/scenes/thumb-2Y_coW6vLPNPI4VFhiBk1w.webp
 width: 6750
 height: 4950
 padding: 0.25
@@ -444,14 +444,15 @@ regions:
           sound: true
           occlusion: true
           exposure: true
+          culling: false
         disabled: false
         flags: {}
         _stats:
-          coreVersion: '14.361'
+          coreVersion: '14.363'
           systemId: pf2e
           systemVersion: 8.1.2
-          createdTime: 1778508816095
-          modifiedTime: 1778508816095
+          createdTime: 1779696885024
+          modifiedTime: 1779696885024
           lastModifiedBy: txZjek5EOiCBHPoz
           compendiumSource: null
           duplicateSource: null
@@ -558,14 +559,15 @@ regions:
           sound: true
           occlusion: true
           exposure: true
+          culling: false
         disabled: false
         flags: {}
         _stats:
-          coreVersion: '14.361'
+          coreVersion: '14.363'
           systemId: pf2e
           systemVersion: 8.1.2
-          createdTime: 1778508816095
-          modifiedTime: 1778508816095
+          createdTime: 1779696885025
+          modifiedTime: 1779696885025
           lastModifiedBy: txZjek5EOiCBHPoz
           compendiumSource: null
           duplicateSource: null
@@ -620,11 +622,11 @@ regions:
         disabled: false
         flags: {}
         _stats:
-          coreVersion: '14.361'
+          coreVersion: '14.363'
           systemId: pf2e
           systemVersion: 8.1.2
-          createdTime: 1778508816095
-          modifiedTime: 1778508816095
+          createdTime: 1779696885025
+          modifiedTime: 1779696885025
           lastModifiedBy: txZjek5EOiCBHPoz
           compendiumSource: null
           duplicateSource: null
@@ -680,11 +682,11 @@ regions:
         disabled: false
         flags: {}
         _stats:
-          coreVersion: '14.361'
+          coreVersion: '14.363'
           systemId: pf2e
           systemVersion: 8.1.2
-          createdTime: 1778508816096
-          modifiedTime: 1778508816096
+          createdTime: 1779696885025
+          modifiedTime: 1779696885025
           lastModifiedBy: txZjek5EOiCBHPoz
           compendiumSource: null
           duplicateSource: null
@@ -736,11 +738,11 @@ regions:
         disabled: false
         flags: {}
         _stats:
-          coreVersion: '14.361'
+          coreVersion: '14.363'
           systemId: pf2e
           systemVersion: 8.1.2
-          createdTime: 1778508816096
-          modifiedTime: 1778508816096
+          createdTime: 1779696885026
+          modifiedTime: 1779696885026
           lastModifiedBy: txZjek5EOiCBHPoz
           compendiumSource: null
           duplicateSource: null
@@ -796,11 +798,11 @@ regions:
         disabled: false
         flags: {}
         _stats:
-          coreVersion: '14.361'
+          coreVersion: '14.363'
           systemId: pf2e
           systemVersion: 8.1.2
-          createdTime: 1778508816096
-          modifiedTime: 1778508816096
+          createdTime: 1779696885026
+          modifiedTime: 1779696885026
           lastModifiedBy: txZjek5EOiCBHPoz
           compendiumSource: null
           duplicateSource: null
@@ -7284,11 +7286,11 @@ flags:
       setting: default
     sceneEnvironments: []
 _stats:
-  coreVersion: '14.361'
+  coreVersion: '14.363'
   systemId: pf2e
   systemVersion: 8.1.2
-  createdTime: 1778508816093
-  modifiedTime: 1778508816093
+  createdTime: 1779696885023
+  modifiedTime: 1779696885023
   lastModifiedBy: txZjek5EOiCBHPoz
   exportSource: null
   compendiumSource: null

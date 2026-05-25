@@ -11471,7 +11471,7 @@ walls:
     move: 20
     sound: 20
     dir: 0
-    ds: 0
+    ds: 1
     animation: null
     flags: {}
     doorSound: woodBasic
@@ -11909,7 +11909,7 @@ walls:
     move: 20
     sound: 20
     dir: 0
-    ds: 0
+    ds: 1
     animation: null
     flags: {}
     doorSound: woodBasic
@@ -12378,7 +12378,7 @@ walls:
     move: 20
     sound: 20
     dir: 0
-    ds: 0
+    ds: 1
     animation: null
     flags: {}
     _key: '!scenes.walls!FSmhxS0b34PdxidM.g0OxsOilEiPwuGom'
@@ -12785,7 +12785,7 @@ walls:
     move: 20
     sound: 20
     dir: 0
-    ds: 0
+    ds: 1
     animation:
       type: swing
       double: true
@@ -13132,7 +13132,7 @@ grid:
   units: ft
 _id: FSmhxS0b34PdxidM
 navigation: false
-thumb: worlds/kingmaker/assets/scenes/thumb-zmabsnwbtUlr91sTVr27lA.webp
+thumb: worlds/kingmaker/assets/scenes/thumb-ycmfbyNRU_ezxQJDZ1BQ-A.webp
 shiftX: 0
 shiftY: 0
 initial:
@@ -13176,11 +13176,1105 @@ environment:
     saturation: 0
     shadows: 0
 transition:
-  type: null
+  type: hologram
   duration: 1500
   activeOnly: false
 drawings: []
 tokens:
+  - name: Jotund Troll
+    displayName: 0
+    actorLink: false
+    width: 3
+    height: 3
+    depth: 1
+    texture:
+      src: modules/pf2e-tokens-bestiaries/tokens/humanoid/troll/jotund-troll.webp
+      anchorX: 0.5
+      anchorY: 0.5
+      fit: contain
+      scaleX: 1
+      scaleY: 1
+      tint: '#ffffff'
+      alphaThreshold: 0.75
+    lockRotation: false
+    rotation: 0
+    alpha: 1
+    disposition: -1
+    displayBars: 0
+    bar1:
+      attribute: attributes.hp
+    bar2:
+      attribute: null
+    light:
+      negative: false
+      priority: 0
+      alpha: 0.5
+      angle: 360
+      bright: 0
+      color: null
+      coloration: 1
+      dim: 0
+      attenuation: 0.5
+      luminosity: 0.5
+      saturation: 0
+      contrast: 0
+      shadows: 0
+      animation:
+        type: null
+        speed: 5
+        intensity: 5
+        reverse: false
+      darkness:
+        min: 0
+        max: 1
+    sight:
+      enabled: false
+      range: 0
+      angle: 360
+      visionMode: basic
+      color: null
+      attenuation: 0.1
+      brightness: 0
+      saturation: 0
+      contrast: 0
+    detectionModes: {}
+    occludable:
+      radius: 0
+    ring:
+      enabled: true
+      colors:
+        ring: null
+        background: null
+      effects: 1
+      subject:
+        scale: 1
+        texture: >-
+          modules/pf2e-tokens-bestiaries/subjects/humanoid/troll/jotund-troll.webp
+    turnMarker:
+      mode: 1
+      animation: pulse
+      src: null
+      disposition: true
+    movementAction: null
+    flags:
+      pf2e:
+        linkToActorSize: true
+        autoscale: true
+      monks-combat-details:
+        targets:
+          - 2Ms39lg3rUCsevsA
+    actorId: ZIMw58wGp8BQeyGD
+    hidden: false
+    sort: 0
+    shape: 4
+    level: defaultLevel0000
+    _id: FA638E116GtEIlyN
+    delta:
+      _id: FA638E116GtEIlyN
+      name: Jotund Troll
+      system:
+        attributes:
+          hp:
+            value: 78
+          adjustment: elite
+      items:
+        - img: systems/pf2e/icons/conditions/immobilized.webp
+          name: Immobilized
+          system:
+            description:
+              value: >-
+                <p>You are incapable of movement. You can't use any actions that
+                have the move trait. If you're immobilized by something holding
+                you in place and an external force would move you out of your
+                space, the force must succeed at a check against either the DC
+                of the effect holding you in place or the relevant defense
+                (usually Fortitude DC) of the monster holding you in place.</p>
+              gm: ''
+            group: null
+            overrides: []
+            publication:
+              license: ORC
+              remaster: true
+              title: Pathfinder Player Core
+              authors: ''
+            references:
+              children: []
+              overriddenBy: []
+              overrides: []
+              parent: null
+            rules: []
+            traits:
+              value: []
+              otherTags: []
+            value:
+              isValued: false
+              value: null
+            slug: immobilized
+            _migration:
+              version: 0.959
+              previous: null
+            fromSpell: false
+            persistent: null
+          type: condition
+          _stats:
+            coreVersion: '14.363'
+            systemId: pf2e
+            systemVersion: 8.1.2
+            createdTime: null
+            modifiedTime: null
+            lastModifiedBy: null
+            exportSource: null
+            compendiumSource: null
+            duplicateSource: null
+          effects: []
+          folder: null
+          sort: 0
+          flags: {}
+          _id: pqe1UTFiPZekDiMH
+          ownership:
+            default: 0
+          _key: >-
+            !scenes.tokens.delta.items!FSmhxS0b34PdxidM.FA638E116GtEIlyN.FA638E116GtEIlyN.pqe1UTFiPZekDiMH
+      effects: []
+      flags: {}
+      type: null
+      img: null
+      ownership: null
+      _key: '!scenes.tokens.delta!FSmhxS0b34PdxidM.FA638E116GtEIlyN.FA638E116GtEIlyN'
+    x: 4400
+    'y': 4500
+    elevation: 0
+    locked: false
+    _movementHistory: []
+    _regions: []
+    _key: '!scenes.tokens!FSmhxS0b34PdxidM.FA638E116GtEIlyN'
+  - name: Jotund Troll
+    displayName: 0
+    actorLink: false
+    width: 3
+    height: 3
+    depth: 1
+    texture:
+      src: modules/pf2e-tokens-bestiaries/tokens/humanoid/troll/jotund-troll.webp
+      anchorX: 0.5
+      anchorY: 0.5
+      fit: contain
+      scaleX: 1
+      scaleY: 1
+      tint: '#ffffff'
+      alphaThreshold: 0.75
+    lockRotation: false
+    rotation: 0
+    alpha: 1
+    disposition: -1
+    displayBars: 0
+    bar1:
+      attribute: attributes.hp
+    bar2:
+      attribute: null
+    light:
+      negative: false
+      priority: 0
+      alpha: 0.5
+      angle: 360
+      bright: 0
+      color: null
+      coloration: 1
+      dim: 0
+      attenuation: 0.5
+      luminosity: 0.5
+      saturation: 0
+      contrast: 0
+      shadows: 0
+      animation:
+        type: null
+        speed: 5
+        intensity: 5
+        reverse: false
+      darkness:
+        min: 0
+        max: 1
+    sight:
+      enabled: false
+      range: 0
+      angle: 360
+      visionMode: basic
+      color: null
+      attenuation: 0.1
+      brightness: 0
+      saturation: 0
+      contrast: 0
+    detectionModes: {}
+    occludable:
+      radius: 0
+    ring:
+      enabled: true
+      colors:
+        ring: null
+        background: null
+      effects: 1
+      subject:
+        scale: 1
+        texture: >-
+          modules/pf2e-tokens-bestiaries/subjects/humanoid/troll/jotund-troll.webp
+    turnMarker:
+      mode: 1
+      animation: pulse
+      src: null
+      disposition: true
+    movementAction: null
+    flags:
+      pf2e:
+        linkToActorSize: true
+        autoscale: true
+      monks-combat-details:
+        targets: []
+    actorId: ZIMw58wGp8BQeyGD
+    hidden: false
+    sort: 3
+    shape: 4
+    level: defaultLevel0000
+    _id: KkyCbh8JHaNQYEft
+    delta:
+      _id: KkyCbh8JHaNQYEft
+      name: Jotund Troll
+      system: {}
+      items: []
+      effects: []
+      flags:
+        enhancedcombathud-pf2e:
+          lastSet:
+            active: '1'
+            primary: KGSAOEaIJhASbxs5
+            secondary: Jaiar1IfkM01YTnL
+      type: null
+      img: null
+      ownership: null
+      _key: '!scenes.tokens.delta!FSmhxS0b34PdxidM.KkyCbh8JHaNQYEft.KkyCbh8JHaNQYEft'
+    x: 7800
+    'y': 4100
+    elevation: 0
+    locked: false
+    _movementHistory: []
+    _regions: []
+    _key: '!scenes.tokens!FSmhxS0b34PdxidM.KkyCbh8JHaNQYEft'
+  - displayName: 20
+    displayBars: 20
+    flags:
+      pf2e:
+        autoscale: true
+        linkToActorSize: true
+      monks-combat-details:
+        targets:
+          - uBZYrxI0fH0cD3eK
+          - Gr9G1dnm2SgSyGSF
+          - 957ew0CYJ0VMuqbT
+          - kUS7DSczAZcwN94Y
+          - 2Ms39lg3rUCsevsA
+          - AjYSWzicstoMnd4u
+    sight:
+      enabled: false
+      color: null
+      range: 0
+      angle: 360
+      visionMode: basic
+      attenuation: 0.1
+      brightness: 0
+      saturation: 0
+      contrast: 0
+    detectionModes: {}
+    disposition: -1
+    name: The Horned Hunter
+    actorLink: false
+    texture:
+      src: >-
+        modules/pf2e-kingmaker/assets/actor-tokens/kingmaker/the-horned-hunter.webp
+      scaleX: 2
+      scaleY: 2
+      tint: '#ffffff'
+      anchorX: 0.5
+      anchorY: 0.5
+      fit: contain
+      alphaThreshold: 0.75
+    width: 1
+    height: 1
+    lockRotation: false
+    rotation: 0
+    alpha: 1
+    bar1:
+      attribute: attributes.hp
+    bar2:
+      attribute: null
+    light:
+      alpha: 0.5
+      angle: 360
+      bright: 0
+      coloration: 1
+      dim: 0
+      attenuation: 0.5
+      luminosity: 0.5
+      saturation: 0
+      contrast: 0
+      shadows: 0
+      animation:
+        type: null
+        speed: 5
+        intensity: 5
+        reverse: false
+      darkness:
+        min: 0
+        max: 1
+      color: null
+      negative: false
+      priority: 0
+    occludable:
+      radius: 0
+    ring:
+      enabled: false
+      colors:
+        ring: null
+        background: null
+      effects: 1
+      subject:
+        scale: 1
+        texture: null
+    turnMarker:
+      mode: 1
+      animation: pulse
+      src: null
+      disposition: true
+    movementAction: null
+    depth: 1
+    actorId: OhuPV1g5LfejhtAz
+    hidden: false
+    sort: 4
+    shape: 4
+    level: defaultLevel0000
+    _id: YrZpc3Wg25dKxZi8
+    delta:
+      flags:
+        enhancedcombathud-pf2e:
+          lastSet:
+            active: '1'
+            primary: Kok7cEEC0PeallmB
+            secondary: sHdlA1TMLwvXBRX0
+          toggleState:
+            spell:
+              txZjek5EOiCBHPoz:
+                '0': true
+                '4': true
+      _id: YrZpc3Wg25dKxZi8
+      name: null
+      type: null
+      img: null
+      system:
+        attributes:
+          hp:
+            value: 0
+      items:
+        - _id: ILS10PAagocQkyqT
+          img: systems/pf2e/icons/actions/OneAction.webp
+          name: Hunt Prey
+          sort: 2500000
+          system:
+            description:
+              gm: ''
+              value: >-
+                <p>The Horned Hunter designates a single creature he can see or
+                hear as his prey. He gains a +2 circumstance bonus to Perception
+                checks when he
+                @UUID[Compendium.pf2e.actionspf2e.Item.BlAOM2X92SI6HMtJ]{Seeks}
+                his prey and a +2 circumstance bonus to Survival when he
+                @UUID[Compendium.pf2e.actionspf2e.Item.EA5vuSgJfiHH7plD]{Tracks}
+                his prey, and he ignores the penalty for making ranged attacks
+                within his second range increment against his prey. He can have
+                only one creature designated as prey at a time. If he uses Hunt
+                Prey against a creature when he already has a creature
+                designated, the prior creature loses the designation and the new
+                prey gains the designation. Otherwise, a designation lasts until
+                his next daily preparations.</p>
+            rules:
+              - domain: all
+                key: RollOption
+                label: PF2E.SpecificRule.HuntPrey.TargetHuntedPrey
+                option: hunted-prey
+                toggleable: true
+                value: true
+              - key: FlatModifier
+                label: PF2E.SpecificRule.HuntPrey.SeekHuntedPrey
+                predicate:
+                  - action:seek
+                  - hunted-prey
+                selector: perception
+                type: circumstance
+                value: 2
+              - key: FlatModifier
+                label: PF2E.SpecificRule.HuntPrey.TrackHuntedPrey
+                predicate:
+                  - action:track
+                  - hunted-prey
+                selector: survival
+                type: circumstance
+                value: 2
+              - domain: ranged-attack-roll
+                key: RollOption
+                option: ignore-range-penalty:2
+                predicate:
+                  - hunted-prey
+            slug: null
+            _migration:
+              version: 0.959
+              previous:
+                schema: 0.955
+                foundry: '14.361'
+                system: 8.1.2
+            traits:
+              otherTags: []
+              value:
+                - concentrate
+            publication:
+              title: ''
+              authors: ''
+              license: OGL
+              remaster: false
+            actionType:
+              value: action
+            category: offensive
+            actions:
+              value: 1
+            deathNote: false
+          type: action
+          effects: []
+          folder: null
+          flags: {}
+          _stats:
+            systemId: pf2e
+            systemVersion: 8.1.2
+            coreVersion: '14.363'
+            createdTime: null
+            modifiedTime: null
+            lastModifiedBy: null
+            exportSource: null
+            compendiumSource: null
+            duplicateSource: null
+          ownership:
+            default: 0
+          _key: >-
+            !scenes.tokens.delta.items!FSmhxS0b34PdxidM.YrZpc3Wg25dKxZi8.YrZpc3Wg25dKxZi8.ILS10PAagocQkyqT
+        - img: systems/pf2e/icons/conditions/persistent-damage.webp
+          name: Persistent Damage
+          system:
+            description:
+              value: >-
+                <p>You are taking damage from an ongoing effect, such as from
+                being lit on fire. This appears as "X persistent [type] damage,"
+                where "X" is the amount of damage dealt and "[type]" is the
+                damage type. Like normal damage, it can be doubled or halved
+                based on the results of an attack roll or saving throw. Instead
+                of taking persistent damage immediately, you take it at the end
+                of each of your turns as long as you have the condition, rolling
+                any damage dice anew each time. After you take persistent
+                damage, roll a @Check[flat|showDC:all|dc:15] to see if you
+                recover from the persistent damage. If you succeed, the
+                condition ends.</p>
+              gm: ''
+            group: null
+            overrides: []
+            publication:
+              license: ORC
+              remaster: true
+              title: Pathfinder Player Core
+              authors: ''
+            references:
+              children: []
+              overriddenBy: []
+              overrides: []
+              parent: null
+            rules: []
+            traits:
+              value:
+                - incarnate
+                - magical
+              otherTags: []
+            value:
+              isValued: false
+              value: null
+            slug: persistent-damage
+            _migration:
+              version: 0.959
+              previous: null
+            fromSpell: false
+            persistent:
+              formula: 0.5 * 3d6
+              damageType: fire
+              dc: 15
+              criticalHit: false
+          type: condition
+          _stats:
+            coreVersion: '14.363'
+            systemId: pf2e
+            systemVersion: 8.1.2
+            createdTime: null
+            modifiedTime: null
+            lastModifiedBy: null
+            exportSource: null
+            compendiumSource: null
+            duplicateSource: null
+          effects: []
+          folder: null
+          sort: 0
+          flags: {}
+          _id: DMHFsj8hS6B1GzQL
+          ownership:
+            default: 0
+          _key: >-
+            !scenes.tokens.delta.items!FSmhxS0b34PdxidM.YrZpc3Wg25dKxZi8.YrZpc3Wg25dKxZi8.DMHFsj8hS6B1GzQL
+        - _id: DyM3gD8yU7egzdaR
+          flags:
+            core: {}
+          img: systems/pf2e/icons/spells/suggestion.webp
+          name: Suggestion
+          sort: 300000
+          system:
+            description:
+              gm: ''
+              value: >-
+                <p>Your honeyed words are difficult for creatures to resist. You
+                suggest a course of action to the target, which must be phrased
+                in such a way as to seem like a logical course of action to the
+                target and can't be self-destructive or obviously against the
+                target's self-interest. The target must attempt a Will save.</p>
+
+                <hr><strong>Critical Success</strong> The target is unaffected
+                and knows you tried to control it.
+
+                <p><strong>Success</strong> The target is unaffected and thinks
+                you were talking to them normally, not casting a spell on
+                them.</p>
+
+                <p><strong>Failure</strong> The target immediately follows your
+                suggestion. The spell has a duration of 1 minute, or until the
+                target has completed a finite suggestion or the suggestion
+                becomes self-destructive or has other obvious negative
+                effects.</p>
+
+                <p><strong>Critical Failure</strong> As failure, but the base
+                duration is 1 hour.</p>
+
+                <hr><strong>Heightened (8th)</strong> You can target up to 10
+                creatures.
+            rules: []
+            slug: suggestion
+            _migration:
+              version: 0.959
+              lastMigration: null
+              previous:
+                schema: 0.955
+                foundry: '14.361'
+                system: 8.1.2
+            traits:
+              otherTags: []
+              value:
+                - concentrate
+                - incapacitation
+                - linguistic
+                - manipulate
+                - mental
+              rarity: common
+              traditions:
+                - arcane
+                - occult
+            publication:
+              title: Pathfinder Core Rulebook
+              authors: ''
+              license: OGL
+              remaster: false
+            level:
+              value: 4
+            requirements: ''
+            target:
+              value: 1 creature
+            range:
+              value: 30 feet
+            area: null
+            time:
+              value: '2'
+            duration:
+              value: varies
+              sustained: false
+            damage: {}
+            defense:
+              save:
+                basic: false
+                statistic: will
+            cost:
+              value: ''
+            location:
+              value: GA9tSWJmy7KFgUjB
+              heightenedLevel: 8
+              uses:
+                value: 0
+            counteraction: false
+            heightening:
+              levels:
+                '8':
+                  target:
+                    value: 10 creatures
+              type: fixed
+          type: spell
+          effects: []
+          folder: null
+          _stats:
+            systemId: pf2e
+            systemVersion: 8.1.2
+            coreVersion: '14.363'
+            createdTime: null
+            modifiedTime: null
+            lastModifiedBy: null
+            exportSource: null
+            compendiumSource: null
+            duplicateSource: null
+          ownership:
+            default: 0
+          _key: >-
+            !scenes.tokens.delta.items!FSmhxS0b34PdxidM.YrZpc3Wg25dKxZi8.YrZpc3Wg25dKxZi8.DyM3gD8yU7egzdaR
+        - _id: GVVs2O1qVhoGNPgW
+          img: systems/pf2e/icons/spells/silence.webp
+          name: 'Spell Effect: Silence'
+          system:
+            description:
+              value: >-
+                <p>Granted by
+                @UUID[Compendium.pf2e.spells-srd.Item.gIdDLrbswTV3OBJy]{Silence}</p>
+
+                <p>You make no sound, preventing creatures from noticing you
+                using hearing alone.</p><hr><p><strong>Heightened (4th)</strong>
+                The spell creates an aura in a 10-foot emanation around you,
+                silencing all sound in or passing through it. While within the
+                aura, creatures are subject to the same effects as the
+                target.</p>
+              gm: ''
+            duration:
+              expiry: null
+              sustained: false
+              unit: unlimited
+              value: 1
+            level:
+              value: 2
+            publication:
+              license: ORC
+              remaster: true
+              title: Pathfinder Player Core
+              authors: ''
+            rules:
+              - key: ActiveEffectLike
+                mode: override
+                path: system.attributes.emitsSound
+                phase: beforeDerived
+                value: false
+              - effects:
+                  - includesSelf: false
+                    uuid: Compendium.pf2e.spell-effects.Item.mmJNE57hC7G3SPae
+                key: Aura
+                level: 2
+                predicate:
+                  - gte:
+                      - '{item|level}'
+                      - 4
+                radius: 10
+                traits:
+                  - illusion
+            start:
+              value: 23987894
+              initiative: 41
+            tokenIcon:
+              show: true
+            traits:
+              value:
+                - illusion
+              otherTags: []
+            slug: spell-effect-silence
+            _migration:
+              version: 0.959
+              previous: null
+            unidentified: false
+            badge: null
+            fromSpell: false
+            context:
+              target: null
+              origin:
+                actor: Actor.VMmyjUNJLXltJ5DV
+                token: Scene.FSmhxS0b34PdxidM.Token.Gr9G1dnm2SgSyGSF
+                item: null
+                spellcasting: null
+                rollOptions: []
+              roll: null
+          type: effect
+          _stats:
+            coreVersion: '14.363'
+            systemId: pf2e
+            systemVersion: 8.1.2
+            createdTime: null
+            modifiedTime: null
+            lastModifiedBy: null
+            exportSource: null
+            compendiumSource: null
+            duplicateSource: null
+          effects: []
+          folder: null
+          sort: 0
+          flags:
+            pf2e:
+              aura:
+                slug: spell-effect-silence
+                origin: Actor.VMmyjUNJLXltJ5DV
+                removeOnExit: true
+          ownership:
+            default: 0
+          _key: >-
+            !scenes.tokens.delta.items!FSmhxS0b34PdxidM.YrZpc3Wg25dKxZi8.YrZpc3Wg25dKxZi8.GVVs2O1qVhoGNPgW
+        - _id: KeXQ1TJP88KcatVv
+          flags:
+            core: {}
+          img: icons/magic/nature/root-vine-entangled-humanoid.webp
+          name: Tree Stride
+          sort: 200000
+          system:
+            description:
+              gm: ''
+              value: >-
+                <p>You step into a living tree with a trunk big enough for you
+                to fit inside it and instantly teleport to any tree of the same
+                species within 5 miles that also has a sufficiently large trunk.
+                Once you enter the first tree, you instantly know the rough
+                locations of other sufficiently large trees of the same species
+                within range and can exit from the original tree, if you prefer.
+                You can't carry extradimensional spaces with you; if you attempt
+                to do so, the spell fails.</p><hr><p><strong>Heightened
+                (6th)</strong> The tree you exit can be up to 50 miles
+                away.</p><p><strong>Heightened (8th)</strong> The tree you exit
+                can be up to 500 miles away.</p><p><strong>Heightened
+                (9th)</strong> The tree you exit can be anywhere on the same
+                planet.</p>
+            rules: []
+            slug: tree-stride
+            _migration:
+              version: 0.959
+              lastMigration: null
+              previous:
+                schema: 0.955
+                foundry: '14.361'
+                system: 8.1.2
+            traits:
+              otherTags: []
+              value:
+                - concentrate
+                - manipulate
+                - plant
+                - teleportation
+              rarity: uncommon
+              traditions:
+                - primal
+            publication:
+              title: Pathfinder Core Rulebook
+              authors: ''
+              license: OGL
+              remaster: false
+            level:
+              value: 5
+            requirements: ''
+            target:
+              value: ''
+            range:
+              value: ''
+            area: null
+            time:
+              value: 2 actions
+            duration:
+              value: ''
+              sustained: false
+            damage: {}
+            defense: null
+            cost:
+              value: ''
+            location:
+              value: GA9tSWJmy7KFgUjB
+              heightenedLevel: 8
+            counteraction: false
+          type: spell
+          effects: []
+          folder: null
+          _stats:
+            systemId: pf2e
+            systemVersion: 8.1.2
+            coreVersion: '14.363'
+            createdTime: null
+            modifiedTime: null
+            lastModifiedBy: null
+            exportSource: null
+            compendiumSource: null
+            duplicateSource: null
+          ownership:
+            default: 0
+          _key: >-
+            !scenes.tokens.delta.items!FSmhxS0b34PdxidM.YrZpc3Wg25dKxZi8.YrZpc3Wg25dKxZi8.KeXQ1TJP88KcatVv
+        - img: systems/pf2e/icons/conditions/persistent-damage.webp
+          name: Persistent Damage
+          system:
+            description:
+              value: >-
+                <p>You are taking damage from an ongoing effect, such as from
+                being lit on fire. This appears as "X persistent [type] damage,"
+                where "X" is the amount of damage dealt and "[type]" is the
+                damage type. Like normal damage, it can be doubled or halved
+                based on the results of an attack roll or saving throw. Instead
+                of taking persistent damage immediately, you take it at the end
+                of each of your turns as long as you have the condition, rolling
+                any damage dice anew each time. After you take persistent
+                damage, roll a @Check[flat|showDC:all|dc:15] to see if you
+                recover from the persistent damage. If you succeed, the
+                condition ends.</p>
+              gm: ''
+            group: null
+            overrides: []
+            publication:
+              license: ORC
+              remaster: true
+              title: Pathfinder Player Core
+              authors: ''
+            references:
+              children: []
+              overriddenBy: []
+              overrides: []
+              parent: null
+            rules: []
+            traits:
+              value:
+                - magical
+              otherTags: []
+            value:
+              isValued: false
+              value: null
+            slug: persistent-damage
+            _migration:
+              version: 0.959
+              previous: null
+            fromSpell: false
+            persistent:
+              formula: 2d10
+              damageType: fire
+              dc: 15
+              criticalHit: true
+          type: condition
+          _stats:
+            coreVersion: '14.363'
+            systemId: pf2e
+            systemVersion: 8.1.2
+            createdTime: null
+            modifiedTime: null
+            lastModifiedBy: null
+            exportSource: null
+            compendiumSource: null
+            duplicateSource: null
+          effects: []
+          folder: null
+          sort: 0
+          flags: {}
+          _id: ILgAsMRfuuTw6iwi
+          ownership:
+            default: 0
+          _key: >-
+            !scenes.tokens.delta.items!FSmhxS0b34PdxidM.YrZpc3Wg25dKxZi8.YrZpc3Wg25dKxZi8.ILgAsMRfuuTw6iwi
+        - img: systems/pf2e/icons/conditions/immobilized.webp
+          name: Immobilized
+          system:
+            description:
+              value: >-
+                <p>You are incapable of movement. You can't use any actions that
+                have the move trait. If you're immobilized by something holding
+                you in place and an external force would move you out of your
+                space, the force must succeed at a check against either the DC
+                of the effect holding you in place or the relevant defense
+                (usually Fortitude DC) of the monster holding you in place.</p>
+              gm: ''
+            group: null
+            overrides: []
+            publication:
+              license: ORC
+              remaster: true
+              title: Pathfinder Player Core
+              authors: ''
+            references:
+              children: []
+              overriddenBy: []
+              overrides: []
+              parent: null
+            rules: []
+            traits:
+              value: []
+              otherTags: []
+            value:
+              isValued: false
+              value: null
+            slug: immobilized
+            _migration:
+              version: 0.959
+              previous: null
+            fromSpell: false
+            persistent: null
+          type: condition
+          _stats:
+            coreVersion: '14.363'
+            systemId: pf2e
+            systemVersion: 8.1.2
+            createdTime: null
+            modifiedTime: null
+            lastModifiedBy: null
+            exportSource: null
+            compendiumSource: null
+            duplicateSource: null
+          effects: []
+          folder: null
+          sort: 0
+          flags: {}
+          _id: EBpEUTWqA96JGzfA
+          ownership:
+            default: 0
+          _key: >-
+            !scenes.tokens.delta.items!FSmhxS0b34PdxidM.YrZpc3Wg25dKxZi8.YrZpc3Wg25dKxZi8.EBpEUTWqA96JGzfA
+        - _id: UZkmL2WnxA4MOAUK
+          _tombstone: true
+          effects: []
+          _key: >-
+            !scenes.tokens.delta.items!FSmhxS0b34PdxidM.YrZpc3Wg25dKxZi8.YrZpc3Wg25dKxZi8.UZkmL2WnxA4MOAUK
+        - _id: sHdlA1TMLwvXBRX0
+          flags:
+            pf2e: {}
+          img: systems/pf2e/icons/default-icons/melee.svg
+          name: Composite Shortbow
+          sort: 1700000
+          system:
+            description:
+              gm: ''
+              value: ''
+            rules: []
+            slug: null
+            _migration:
+              version: 0.959
+              previous:
+                schema: 0.955
+                foundry: '14.361'
+                system: 8.1.2
+            traits:
+              otherTags: []
+              value:
+                - deadly-d10
+                - reload-0
+              config: {}
+            publication:
+              title: ''
+              authors: ''
+              license: OGL
+              remaster: false
+            damageRolls:
+              GEYKF1XIJxhguQn2:
+                damage: 3d6+16
+                damageType: piercing
+                category: null
+              Szwzb8lnydO7xr9A:
+                damage: 1d6
+                damageType: sonic
+                category: null
+            bonus:
+              value: 34
+            attackEffects:
+              value: []
+            range:
+              increment: 60
+              max: null
+            action: strike
+            area: null
+            subjectToMAP: true
+          type: melee
+          effects: []
+          folder: null
+          _stats:
+            systemId: pf2e
+            systemVersion: 8.1.2
+            coreVersion: '14.363'
+            createdTime: null
+            modifiedTime: null
+            lastModifiedBy: null
+            exportSource: null
+            compendiumSource: null
+            duplicateSource: null
+          ownership:
+            default: 0
+          _key: >-
+            !scenes.tokens.delta.items!FSmhxS0b34PdxidM.YrZpc3Wg25dKxZi8.YrZpc3Wg25dKxZi8.sHdlA1TMLwvXBRX0
+        - _id: AFXLJNAW0dhc0PkH
+          _tombstone: true
+          effects: []
+          _key: >-
+            !scenes.tokens.delta.items!FSmhxS0b34PdxidM.YrZpc3Wg25dKxZi8.YrZpc3Wg25dKxZi8.AFXLJNAW0dhc0PkH
+        - _id: 7N8Klhs5wpgJ6RvM
+          _tombstone: true
+          effects: []
+          _key: >-
+            !scenes.tokens.delta.items!FSmhxS0b34PdxidM.YrZpc3Wg25dKxZi8.YrZpc3Wg25dKxZi8.7N8Klhs5wpgJ6RvM
+      effects:
+        - name: Dead
+          img: systems/pf2e/icons/other/dead.svg
+          statuses:
+            - dead
+          showIcon: 2
+          _id: gFpIUcccw8lLdnk6
+          type: base
+          system:
+            changes: []
+          disabled: false
+          start:
+            time: 23987894
+            combat: ZCxsNf5SLjFWZbzZ
+            combatant: HRa4Z7xcoA7vz7oD
+            initiative: -1
+            round: 4
+            turn: 8
+          duration:
+            value: null
+            units: seconds
+            expiry: null
+            expired: false
+          description: ''
+          origin: null
+          tint: '#ffffff'
+          transfer: false
+          folder: null
+          sort: 0
+          flags:
+            core:
+              overlay: true
+          _stats:
+            coreVersion: '14.363'
+            systemId: pf2e
+            systemVersion: 8.1.2
+            createdTime: null
+            modifiedTime: null
+            lastModifiedBy: null
+            compendiumSource: null
+            duplicateSource: null
+            exportSource: null
+          _key: >-
+            !scenes.tokens.delta.effects!FSmhxS0b34PdxidM.YrZpc3Wg25dKxZi8.YrZpc3Wg25dKxZi8.gFpIUcccw8lLdnk6
+      ownership: null
+      _key: '!scenes.tokens.delta!FSmhxS0b34PdxidM.YrZpc3Wg25dKxZi8.YrZpc3Wg25dKxZi8'
+    x: 5500
+    'y': 4300
+    elevation: 0
+    locked: false
+    _movementHistory: []
+    _regions: []
+    _key: '!scenes.tokens!FSmhxS0b34PdxidM.YrZpc3Wg25dKxZi8'
   - displayName: 30
     displayBars: 20
     flags:
@@ -13283,18 +14377,134 @@ tokens:
     depth: 1
     actorId: BXJA0aPg162BfOxh
     hidden: false
-    sort: 0
+    sort: 5
     shape: 4
     level: defaultLevel0000
-    _id: YvVQwm1PtPJOUGiB
+    _id: kUS7DSczAZcwN94Y
     delta: null
-    x: 7000
-    'y': 4800
+    x: 5900
+    'y': 4900
     elevation: 0
     locked: false
     _movementHistory: []
     _regions: []
-    _key: '!scenes.tokens!FSmhxS0b34PdxidM.YvVQwm1PtPJOUGiB'
+    _key: '!scenes.tokens!FSmhxS0b34PdxidM.kUS7DSczAZcwN94Y'
+  - displayName: 30
+    displayBars: 40
+    flags:
+      monks-tokenbar:
+        include: default
+      healthEstimate:
+        dontMarkDead: false
+        hideHealthEstimate: false
+        hideName: false
+      pf2e:
+        linkToActorSize: true
+        autoscale: false
+      wall-height:
+        tokenHeight: 0
+      tagger: {}
+      core: {}
+      monks-combat-marker:
+        token-highlight-scale: 1.5
+        token-combat-animation: ''
+        token-highlight: ''
+      monks-bloodsplats:
+        bloodsplat-type: ''
+        bloodsplat-colour: ''
+        bloodsplat-index: 180
+    sight:
+      enabled: true
+      color: null
+      range: null
+      angle: 360
+      visionMode: basic
+      attenuation: 0
+      brightness: 0
+      saturation: 0
+      contrast: 0
+    detectionModes:
+      basicSight:
+        range: null
+        enabled: true
+      lightPerception:
+        range: null
+        enabled: true
+    bar2:
+      attribute: null
+    height: 1
+    width: 1
+    actorLink: true
+    name: Pavel
+    texture:
+      src: worlds/kingmaker/PCs/Pavel_head.webp
+      scaleX: 1.05
+      scaleY: 1.05
+      tint: '#ffffff'
+      anchorX: 0.5
+      anchorY: 0.5
+      fit: contain
+      alphaThreshold: 0.75
+    lockRotation: false
+    rotation: 0
+    alpha: 1
+    disposition: -1
+    bar1:
+      attribute: attributes.hp
+    light:
+      alpha: 0.5
+      angle: 360
+      bright: 0
+      coloration: 1
+      dim: 0
+      attenuation: 0.5
+      luminosity: 0.5
+      saturation: 0
+      contrast: 0
+      shadows: 0
+      animation:
+        type: flame
+        speed: 5
+        intensity: 5
+        reverse: false
+      darkness:
+        min: 0
+        max: 1
+      color: null
+      negative: false
+      priority: 0
+    occludable:
+      radius: 0
+    ring:
+      enabled: true
+      colors:
+        ring: null
+        background: null
+      effects: 1
+      subject:
+        scale: 1.04
+        texture: null
+    turnMarker:
+      mode: 1
+      animation: pulse
+      src: null
+      disposition: true
+    movementAction: null
+    depth: 1
+    actorId: VMmyjUNJLXltJ5DV
+    hidden: false
+    sort: 6
+    shape: 4
+    level: defaultLevel0000
+    _id: Gr9G1dnm2SgSyGSF
+    delta: null
+    x: 5400
+    'y': 4200
+    elevation: 0
+    locked: false
+    _movementHistory: []
+    _regions: []
+    _key: '!scenes.tokens!FSmhxS0b34PdxidM.Gr9G1dnm2SgSyGSF'
   - displayName: 30
     displayBars: 40
     flags:
@@ -13392,18 +14602,1739 @@ tokens:
     depth: 1
     actorId: gFxipV1xecFvG2ry
     hidden: false
-    sort: 1
+    sort: 7
     shape: 4
     level: defaultLevel0000
-    _id: d8Bktmj8Gm0odZMC
+    _id: KitARFumQPRn7uzG
     delta: null
-    x: 6900
+    x: 6100
+    'y': 4900
+    elevation: 0
+    locked: false
+    _movementHistory: []
+    _regions: []
+    _key: '!scenes.tokens!FSmhxS0b34PdxidM.KitARFumQPRn7uzG'
+  - displayName: 30
+    displayBars: 30
+    flags:
+      monks-tokenbar:
+        include: default
+      healthEstimate:
+        dontMarkDead: false
+        hideHealthEstimate: false
+        hideName: false
+      pf2e:
+        linkToActorSize: true
+        autoscale: false
+      monks-combat-marker:
+        token-highlight-scale: 1.5
+        token-combat-animation: ''
+        token-highlight: ''
+      monks-bloodsplats:
+        bloodsplat-colour: ''
+        glyph: f
+        bloodsplat-type: ''
+        bloodsplat-index: 109
+      tagger:
+        tags:
+          - lucas-oracle
+      core: {}
+      wall-height:
+        tokenHeight: 0
+    height: 1
+    width: 1
+    actorLink: true
+    sight:
+      enabled: true
+      range: 0
+      angle: 360
+      visionMode: basic
+      color: null
+      attenuation: 0.1
+      brightness: 0
+      saturation: 0
+      contrast: 0
+    name: Lucas Sato_
+    texture:
+      src: worlds/kingmaker/PCs/Lucas%20Sato%20head.webp
+      scaleX: 1.1
+      scaleY: 1.1
+      tint: '#ffffff'
+      anchorX: 0.5
+      anchorY: 0.5
+      fit: contain
+      alphaThreshold: 0.75
+    lockRotation: false
+    rotation: 0
+    alpha: 1
+    disposition: -1
+    bar1:
+      attribute: attributes.hp
+    bar2:
+      attribute: null
+    light:
+      alpha: 0.5
+      angle: 360
+      bright: 0
+      color: null
+      coloration: 1
+      dim: 0
+      attenuation: 0.5
+      luminosity: 0.5
+      saturation: 0
+      contrast: 0
+      shadows: 0
+      animation:
+        type: null
+        speed: 5
+        intensity: 5
+        reverse: false
+      darkness:
+        min: 0
+        max: 1
+      negative: false
+      priority: 0
+    detectionModes:
+      lightPerception:
+        range: null
+        enabled: true
+    occludable:
+      radius: 0
+    ring:
+      enabled: true
+      colors:
+        ring: null
+        background: null
+      effects: 1
+      subject:
+        scale: 1.1
+        texture: null
+    turnMarker:
+      mode: 1
+      animation: pulse
+      src: null
+      disposition: true
+    movementAction: null
+    depth: 1
+    actorId: tcIYyvoSIEPinWBT
+    hidden: false
+    sort: 8
+    shape: 4
+    level: defaultLevel0000
+    _id: uBZYrxI0fH0cD3eK
+    delta: null
+    x: 5800
+    'y': 4500
+    elevation: 0
+    locked: false
+    _movementHistory: []
+    _regions: []
+    _key: '!scenes.tokens!FSmhxS0b34PdxidM.uBZYrxI0fH0cD3eK'
+  - displayName: 30
+    displayBars: 20
+    flags:
+      monks-tokenbar:
+        include: default
+      healthEstimate:
+        dontMarkDead: false
+        hideHealthEstimate: false
+        hideName: false
+      pf2e:
+        linkToActorSize: true
+        autoscale: false
+      monks-combat-marker:
+        token-highlight-scale: 1.5
+        token-combat-animation: ''
+        token-highlight: ''
+      monks-bloodsplats:
+        bloodsplat-colour: ''
+        bloodsplat-type: ''
+      tagger:
+        tags:
+          - lee-swashbuckler
+      core: {}
+      wall-height:
+        tokenHeight: 0
+    height: 1
+    width: 1
+    actorLink: true
+    sight:
+      enabled: true
+      range: 0
+      angle: 360
+      visionMode: basic
+      color: null
+      attenuation: 0.1
+      brightness: 0
+      saturation: 0
+      contrast: 0
+    name: Lee
+    texture:
+      src: worlds/kingmaker/PCs/lee%20transparent.webp
+      scaleX: 1.2
+      scaleY: 1.2
+      tint: '#ffffff'
+      anchorX: 0.5
+      anchorY: 0.5
+      fit: contain
+      alphaThreshold: 0.75
+    lockRotation: false
+    rotation: 0
+    alpha: 1
+    disposition: -1
+    bar1:
+      attribute: attributes.hp
+    bar2:
+      attribute: null
+    light:
+      alpha: 0.5
+      angle: 360
+      bright: 0
+      color: null
+      coloration: 1
+      dim: 0
+      attenuation: 0.5
+      luminosity: 0.5
+      saturation: 0
+      contrast: 0
+      shadows: 0
+      animation:
+        type: null
+        speed: 5
+        intensity: 5
+        reverse: false
+      darkness:
+        min: 0
+        max: 1
+      negative: false
+      priority: 0
+    detectionModes:
+      lightPerception:
+        range: null
+        enabled: true
+    occludable:
+      radius: 0
+    ring:
+      enabled: true
+      colors:
+        ring: null
+        background: null
+      effects: 1
+      subject:
+        scale: 1.2
+        texture: null
+    turnMarker:
+      mode: 1
+      animation: pulse
+      src: null
+      disposition: true
+    movementAction: null
+    depth: 1
+    actorId: e5w3kUoIn16cJHW3
+    hidden: false
+    sort: 9
+    shape: 4
+    level: defaultLevel0000
+    _id: AjYSWzicstoMnd4u
+    delta: null
+    x: 5400
+    'y': 4300
+    elevation: 0
+    locked: false
+    _movementHistory: []
+    _regions: []
+    _key: '!scenes.tokens!FSmhxS0b34PdxidM.AjYSWzicstoMnd4u'
+  - actorLink: true
+    flags:
+      pf2e:
+        linkToActorSize: true
+        autoscale: true
+      healthEstimate:
+        dontMarkDead: false
+        hideHealthEstimate: false
+        hideName: false
+    height: 1
+    width: 1
+    sight:
+      enabled: true
+      range: 0
+      angle: 360
+      visionMode: basic
+      color: null
+      attenuation: 0.1
+      brightness: 0
+      saturation: 0
+      contrast: 0
+    name: Astor 2
+    displayName: 20
+    depth: 1
+    texture:
+      src: worlds/kingmaker/PCs/Astor2%20token.png
+      anchorX: 0.5
+      anchorY: 0.5
+      fit: cover
+      scaleX: 1
+      scaleY: 1
+      tint: '#ffffff'
+      alphaThreshold: 0.75
+    lockRotation: true
+    rotation: 0
+    alpha: 1
+    disposition: -1
+    displayBars: 20
+    bar1:
+      attribute: attributes.hp
+    bar2:
+      attribute: null
+    light:
+      negative: false
+      priority: 0
+      alpha: 0.5
+      angle: 360
+      bright: 0
+      color: null
+      coloration: 1
+      dim: 0
+      attenuation: 0.5
+      luminosity: 0.5
+      saturation: 0
+      contrast: 0
+      shadows: 0
+      animation:
+        type: null
+        speed: 5
+        intensity: 5
+        reverse: false
+      darkness:
+        min: 0
+        max: 1
+    detectionModes: {}
+    occludable:
+      radius: 0
+    ring:
+      enabled: true
+      colors:
+        ring: '#1820fb'
+        background: null
+      effects: 1
+      subject:
+        scale: 1
+        texture: null
+    turnMarker:
+      mode: 1
+      animation: pulse
+      src: null
+      disposition: true
+    movementAction: null
+    actorId: rzjKyPZKTcUoOGhK
+    hidden: false
+    sort: 10
+    shape: 4
+    level: defaultLevel0000
+    _id: 2Ms39lg3rUCsevsA
+    delta: null
+    x: 4700
     'y': 4600
     elevation: 0
     locked: false
     _movementHistory: []
     _regions: []
-    _key: '!scenes.tokens!FSmhxS0b34PdxidM.d8Bktmj8Gm0odZMC'
+    _key: '!scenes.tokens!FSmhxS0b34PdxidM.2Ms39lg3rUCsevsA'
+  - name: Physician
+    displayName: 0
+    actorLink: false
+    width: 1
+    height: 1
+    depth: 1
+    texture:
+      src: modules/pf2e-tokens-characters/assets/tokens/gmg-physician.webp
+      anchorX: 0.5
+      anchorY: 0.5
+      fit: contain
+      scaleX: 1
+      scaleY: 1
+      tint: '#ffffff'
+      alphaThreshold: 0.75
+    lockRotation: false
+    rotation: 0
+    alpha: 1
+    disposition: -1
+    displayBars: 0
+    bar1:
+      attribute: attributes.hp
+    bar2:
+      attribute: null
+    light:
+      negative: false
+      priority: 0
+      alpha: 0.5
+      angle: 360
+      bright: 0
+      color: null
+      coloration: 1
+      dim: 0
+      attenuation: 0.5
+      luminosity: 0.5
+      saturation: 0
+      contrast: 0
+      shadows: 0
+      animation:
+        type: null
+        speed: 5
+        intensity: 5
+        reverse: false
+      darkness:
+        min: 0
+        max: 1
+    sight:
+      enabled: false
+      range: 0
+      angle: 360
+      visionMode: basic
+      color: null
+      attenuation: 0.1
+      brightness: 0
+      saturation: 0
+      contrast: 0
+    detectionModes: {}
+    occludable:
+      radius: 0
+    ring:
+      enabled: true
+      colors:
+        ring: null
+        background: null
+      effects: 1
+      subject:
+        scale: 1
+        texture: modules/pf2e-tokens-characters/assets/subjects/gmg-physician.webp
+    turnMarker:
+      mode: 1
+      animation: pulse
+      src: null
+      disposition: true
+    movementAction: null
+    flags:
+      pf2e:
+        linkToActorSize: true
+        autoscale: true
+    actorId: m7dyMTXzR4nhNbfG
+    hidden: false
+    sort: 11
+    shape: 4
+    level: defaultLevel0000
+    _id: vQV7rgo3F0Yo29yC
+    delta:
+      _id: vQV7rgo3F0Yo29yC
+      name: null
+      type: null
+      img: null
+      system: {}
+      items:
+        - _id: BIreghuAVYAZ0WoG
+          _stats:
+            coreVersion: '14.363'
+            systemId: pf2e
+            systemVersion: 8.1.2
+            createdTime: null
+            modifiedTime: null
+            lastModifiedBy: null
+            exportSource: null
+            compendiumSource: null
+            duplicateSource: null
+          img: icons/sundries/books/book-backed-blue-gold.webp
+          name: Medical Textbook
+          sort: 300000
+          system:
+            baseItem: null
+            bulk:
+              value: 0
+            category: art-object
+            containerId: null
+            description:
+              value: ''
+              gm: ''
+            equipped:
+              carryType: held
+            hardness: 0
+            hp:
+              max: 0
+              value: 0
+            level:
+              value: 0
+            material:
+              grade: null
+              type: null
+            price:
+              value:
+                gp: 4
+              per: 1
+            publication:
+              license: ORC
+              remaster: true
+              title: Pathfinder GM Core
+              authors: ''
+            quantity: 1
+            rules: []
+            size: med
+            slug: illustrated-book
+            traits:
+              rarity: common
+              value: []
+              otherTags: []
+            _migration:
+              version: 0.959
+              previous: null
+            identification:
+              status: identified
+              unidentified: null
+            temporary: false
+          type: treasure
+          effects: []
+          folder: null
+          flags: {}
+          ownership:
+            default: 0
+          _key: >-
+            !scenes.tokens.delta.items!FSmhxS0b34PdxidM.vQV7rgo3F0Yo29yC.vQV7rgo3F0Yo29yC.BIreghuAVYAZ0WoG
+      effects: []
+      flags:
+        enhancedcombathud-pf2e:
+          lastSet:
+            active: '1'
+            primary: DV9NQLrI4FouRCpe
+            secondary: BIreghuAVYAZ0WoG
+      ownership: null
+      _key: '!scenes.tokens.delta!FSmhxS0b34PdxidM.vQV7rgo3F0Yo29yC.vQV7rgo3F0Yo29yC'
+    x: 6600
+    'y': 5600
+    elevation: 0
+    locked: false
+    _movementHistory: []
+    _regions: []
+    _key: '!scenes.tokens!FSmhxS0b34PdxidM.vQV7rgo3F0Yo29yC'
+  - name: Dynamo
+    displayName: 0
+    actorLink: false
+    width: 1
+    height: 1
+    depth: 1
+    texture:
+      src: modules/pf2e-tokens-npc-core/assets/tokens/dynamo.webp
+      anchorX: 0.5
+      anchorY: 0.5
+      fit: contain
+      scaleX: 2
+      scaleY: 2
+      tint: '#ffffff'
+      alphaThreshold: 0.75
+    lockRotation: false
+    rotation: 0
+    alpha: 1
+    disposition: -1
+    displayBars: 0
+    bar1:
+      attribute: attributes.hp
+    bar2:
+      attribute: null
+    light:
+      negative: false
+      priority: 0
+      alpha: 0.5
+      angle: 360
+      bright: 0
+      color: null
+      coloration: 1
+      dim: 0
+      attenuation: 0.5
+      luminosity: 0.5
+      saturation: 0
+      contrast: 0
+      shadows: 0
+      animation:
+        type: null
+        speed: 5
+        intensity: 5
+        reverse: false
+      darkness:
+        min: 0
+        max: 1
+    sight:
+      enabled: false
+      range: 0
+      angle: 360
+      visionMode: basic
+      color: null
+      attenuation: 0.1
+      brightness: 0
+      saturation: 0
+      contrast: 0
+    detectionModes: {}
+    occludable:
+      radius: 0
+    ring:
+      enabled: true
+      colors:
+        ring: null
+        background: null
+      effects: 1
+      subject:
+        scale: 2
+        texture: modules/pf2e-tokens-npc-core/assets/subjects/dynamo.webp
+    turnMarker:
+      mode: 1
+      animation: pulse
+      src: null
+      disposition: true
+    movementAction: null
+    flags:
+      pf2e:
+        linkToActorSize: true
+        autoscale: false
+    actorId: TYdZOJcExcNMzGw7
+    hidden: false
+    sort: 12
+    shape: 4
+    level: defaultLevel0000
+    _id: 5jzD0OUPI3cDCudb
+    delta:
+      _id: 5jzD0OUPI3cDCudb
+      name: null
+      type: null
+      img: null
+      system: {}
+      items:
+        - _id: BFUctTaDzabzdinw
+          _stats:
+            coreVersion: '14.363'
+            systemId: pf2e
+            systemVersion: 8.1.2
+            createdTime: null
+            modifiedTime: null
+            lastModifiedBy: null
+            exportSource: null
+            compendiumSource: null
+            duplicateSource: null
+          img: systems/pf2e/icons/equipment/shields/steel-shield.webp
+          name: Steel Shield (Modular Prostheses Only)
+          sort: 200000
+          system:
+            description:
+              gm: ''
+              value: >-
+                <p>The dynamo can alternatively transform a hand into a steel
+                shield with Hardness 8, HP 72, and BT 36.</p>
+            rules: []
+            slug: steel-shield
+            _migration:
+              version: 0.959
+              lastMigration: null
+              previous: null
+            traits:
+              otherTags: []
+              value: []
+              rarity: common
+              integrated: null
+            publication:
+              title: Pathfinder Player Core
+              authors: ''
+              license: ORC
+              remaster: true
+            level:
+              value: 0
+            quantity: 1
+            baseItem: steel-shield
+            bulk:
+              value: 1
+            hp:
+              value: 72
+              max: 72
+            hardness: 8
+            price:
+              value:
+                gp: 2
+            equipped:
+              carryType: worn
+              handsHeld: 0
+            containerId: null
+            size: med
+            material:
+              type: null
+              grade: null
+            identification:
+              status: identified
+              unidentified:
+                name: ''
+                img: ''
+                data:
+                  description:
+                    value: ''
+            acBonus: 2
+            grade: null
+            runes:
+              reinforcing: 0
+            specific: null
+            speedPenalty: 0
+            subitems: []
+          type: shield
+          effects: []
+          folder: null
+          flags: {}
+          ownership:
+            default: 0
+          _key: >-
+            !scenes.tokens.delta.items!FSmhxS0b34PdxidM.5jzD0OUPI3cDCudb.5jzD0OUPI3cDCudb.BFUctTaDzabzdinw
+      effects: []
+      flags:
+        enhancedcombathud-pf2e:
+          lastSet:
+            active: '1'
+            primary: wovFCCDRVmqjVIbB
+            secondary: nB3gtFHiAuMdnri5
+      ownership: null
+      _key: '!scenes.tokens.delta!FSmhxS0b34PdxidM.5jzD0OUPI3cDCudb.5jzD0OUPI3cDCudb'
+    x: 5600
+    'y': 5900
+    elevation: 0
+    locked: false
+    _movementHistory: []
+    _regions: []
+    _key: '!scenes.tokens!FSmhxS0b34PdxidM.5jzD0OUPI3cDCudb'
+  - name: Abbot of Abadar
+    displayName: 0
+    actorLink: false
+    width: 1
+    height: 1
+    depth: 1
+    texture:
+      src: modules/pf2e-tokens-npc-core/assets/tokens/abbot-of-abadar.webp
+      anchorX: 0.5
+      anchorY: 0.5
+      fit: contain
+      scaleX: 2
+      scaleY: 2
+      tint: '#ffffff'
+      alphaThreshold: 0.75
+    lockRotation: false
+    rotation: 0
+    alpha: 1
+    disposition: -1
+    displayBars: 0
+    bar1:
+      attribute: attributes.hp
+    bar2:
+      attribute: null
+    light:
+      negative: false
+      priority: 0
+      alpha: 0.5
+      angle: 360
+      bright: 0
+      color: null
+      coloration: 1
+      dim: 0
+      attenuation: 0.5
+      luminosity: 0.5
+      saturation: 0
+      contrast: 0
+      shadows: 0
+      animation:
+        type: null
+        speed: 5
+        intensity: 5
+        reverse: false
+      darkness:
+        min: 0
+        max: 1
+    sight:
+      enabled: false
+      range: 0
+      angle: 360
+      visionMode: basic
+      color: null
+      attenuation: 0.1
+      brightness: 0
+      saturation: 0
+      contrast: 0
+    detectionModes: {}
+    occludable:
+      radius: 0
+    ring:
+      enabled: true
+      colors:
+        ring: null
+        background: null
+      effects: 1
+      subject:
+        scale: 2
+        texture: modules/pf2e-tokens-npc-core/assets/subjects/abbot-of-abadar.webp
+    turnMarker:
+      mode: 1
+      animation: pulse
+      src: null
+      disposition: true
+    movementAction: null
+    flags:
+      pf2e:
+        linkToActorSize: true
+        autoscale: false
+    actorId: XuNIKKfM8lDLvj3K
+    hidden: false
+    sort: 13
+    shape: 4
+    level: defaultLevel0000
+    _id: IJSmiG916a5nxmCa
+    delta:
+      _id: IJSmiG916a5nxmCa
+      name: null
+      type: null
+      img: null
+      system: {}
+      items: []
+      effects: []
+      flags:
+        enhancedcombathud-pf2e:
+          lastSet:
+            active: '1'
+            primary: YS9jVkfYN5LbkJiC
+            secondary: zcqjDb78UZ7mmaG3
+      ownership: null
+      _key: '!scenes.tokens.delta!FSmhxS0b34PdxidM.IJSmiG916a5nxmCa.IJSmiG916a5nxmCa'
+    x: 9500
+    'y': 2900
+    elevation: 0
+    locked: false
+    _movementHistory: []
+    _regions: []
+    _key: '!scenes.tokens!FSmhxS0b34PdxidM.IJSmiG916a5nxmCa'
+  - name: Hobgoblin Spellbreaker
+    displayName: 0
+    actorLink: false
+    width: 1
+    height: 1
+    depth: 1
+    texture:
+      src: modules/pf2e-tokens-npc-core/assets/tokens/hobgoblin-spellbreaker.webp
+      anchorX: 0.5
+      anchorY: 0.5
+      fit: contain
+      scaleX: 2
+      scaleY: 2
+      tint: '#ffffff'
+      alphaThreshold: 0.75
+    lockRotation: false
+    rotation: 0
+    alpha: 1
+    disposition: -1
+    displayBars: 0
+    bar1:
+      attribute: attributes.hp
+    bar2:
+      attribute: null
+    light:
+      negative: false
+      priority: 0
+      alpha: 0.5
+      angle: 360
+      bright: 0
+      color: null
+      coloration: 1
+      dim: 0
+      attenuation: 0.5
+      luminosity: 0.5
+      saturation: 0
+      contrast: 0
+      shadows: 0
+      animation:
+        type: null
+        speed: 5
+        intensity: 5
+        reverse: false
+      darkness:
+        min: 0
+        max: 1
+    sight:
+      enabled: false
+      range: 0
+      angle: 360
+      visionMode: basic
+      color: null
+      attenuation: 0.1
+      brightness: 0
+      saturation: 0
+      contrast: 0
+    detectionModes: {}
+    occludable:
+      radius: 0
+    ring:
+      enabled: true
+      colors:
+        ring: null
+        background: null
+      effects: 1
+      subject:
+        scale: 2
+        texture: >-
+          modules/pf2e-tokens-npc-core/assets/subjects/hobgoblin-spellbreaker.webp
+    turnMarker:
+      mode: 1
+      animation: pulse
+      src: null
+      disposition: true
+    movementAction: null
+    flags:
+      pf2e:
+        linkToActorSize: true
+        autoscale: false
+    actorId: s4kRiaPyL6S7sjFq
+    hidden: false
+    sort: 14
+    shape: 4
+    level: defaultLevel0000
+    _id: OzJEQ6Y2DXK9PGWn
+    delta:
+      _id: OzJEQ6Y2DXK9PGWn
+      name: null
+      type: null
+      img: null
+      system: {}
+      items:
+        - _id: hTOuKHsZ2H3rBBoQ
+          _stats:
+            coreVersion: '14.363'
+            systemId: pf2e
+            systemVersion: 8.1.2
+            createdTime: null
+            modifiedTime: null
+            lastModifiedBy: null
+            exportSource: null
+            compendiumSource: null
+            duplicateSource: null
+          img: icons/weapons/polearms/spear-hooked-double.webp
+          name: Breaching Pike
+          sort: 100000
+          system:
+            description:
+              gm: ''
+              value: >-
+                <p>Forged with a heavy metal wedge effective at damaging enemy
+                shields, breaching pikes are often used by hobgoblin infantry
+                alongside a tower shield.</p>
+            rules: []
+            slug: breaching-pike
+            _migration:
+              version: 0.959
+              lastMigration: null
+              previous: null
+            traits:
+              otherTags: []
+              value:
+                - hobgoblin
+                - razing
+                - reach
+              rarity: uncommon
+            publication:
+              title: Pathfinder Player Core 2
+              authors: ''
+              license: ORC
+              remaster: true
+            level:
+              value: 0
+            quantity: 1
+            baseItem: breaching-pike
+            bulk:
+              value: 1
+            hp:
+              value: 0
+              max: 0
+            hardness: 0
+            price:
+              value:
+                gp: 8
+            equipped:
+              carryType: held
+              invested: null
+              handsHeld: 1
+            containerId: null
+            size: med
+            material:
+              type: null
+              grade: null
+            identification:
+              status: identified
+              unidentified:
+                name: ''
+                img: ''
+                data:
+                  description:
+                    value: ''
+            usage:
+              value: held-in-one-hand
+            category: martial
+            group: spear
+            bonus:
+              value: 0
+            damage:
+              dice: 1
+              die: d6
+              damageType: piercing
+              persistent: null
+            splashDamage:
+              value: 0
+            range: null
+            expend: null
+            ammo: null
+            reload:
+              value: null
+            grade: null
+            runes:
+              potency: 0
+              striking: 0
+              property: []
+            specific: null
+            subitems: []
+            bonusDamage:
+              value: 0
+          type: weapon
+          effects: []
+          folder: null
+          flags: {}
+          ownership:
+            default: 0
+          _key: >-
+            !scenes.tokens.delta.items!FSmhxS0b34PdxidM.OzJEQ6Y2DXK9PGWn.OzJEQ6Y2DXK9PGWn.hTOuKHsZ2H3rBBoQ
+        - _id: WGhS21JxTQctzYgv
+          _stats:
+            coreVersion: '14.363'
+            systemId: pf2e
+            systemVersion: 8.1.2
+            createdTime: null
+            modifiedTime: null
+            lastModifiedBy: null
+            exportSource: null
+            compendiumSource: null
+            duplicateSource: null
+          img: icons/weapons/swords/sword-guard-purple.webp
+          name: Shortsword
+          sort: 300000
+          system:
+            description:
+              gm: ''
+              value: >-
+                <p>These blades come in a variety of shapes and styles, but they
+                are typically 2 feet long.</p>
+            rules: []
+            slug: shortsword
+            _migration:
+              version: 0.959
+              lastMigration: null
+              previous: null
+            traits:
+              otherTags: []
+              value:
+                - agile
+                - finesse
+                - versatile-s
+              rarity: common
+            publication:
+              title: Pathfinder Player Core
+              authors: ''
+              license: ORC
+              remaster: true
+            level:
+              value: 0
+            quantity: 1
+            baseItem: shortsword
+            bulk:
+              value: 0.1
+            hp:
+              value: 0
+              max: 0
+            hardness: 0
+            price:
+              value:
+                sp: 9
+            equipped:
+              carryType: held
+              invested: null
+              handsHeld: 1
+            containerId: null
+            size: med
+            material:
+              type: null
+              grade: null
+            identification:
+              status: identified
+              unidentified:
+                name: ''
+                img: ''
+                data:
+                  description:
+                    value: ''
+            usage:
+              value: held-in-one-hand
+            category: martial
+            group: sword
+            bonus:
+              value: 0
+            damage:
+              dice: 1
+              die: d6
+              damageType: piercing
+              persistent: null
+            splashDamage:
+              value: 0
+            range: null
+            expend: null
+            ammo: null
+            reload:
+              value: null
+            grade: null
+            runes:
+              potency: 0
+              striking: 0
+              property: []
+            specific: null
+            subitems: []
+            bonusDamage:
+              value: 0
+          type: weapon
+          effects: []
+          folder: null
+          flags: {}
+          ownership:
+            default: 0
+          _key: >-
+            !scenes.tokens.delta.items!FSmhxS0b34PdxidM.OzJEQ6Y2DXK9PGWn.OzJEQ6Y2DXK9PGWn.WGhS21JxTQctzYgv
+      effects: []
+      flags:
+        enhancedcombathud-pf2e:
+          lastSet:
+            active: '1'
+            primary: hTOuKHsZ2H3rBBoQ
+            secondary: WGhS21JxTQctzYgv
+      ownership: null
+      _key: '!scenes.tokens.delta!FSmhxS0b34PdxidM.OzJEQ6Y2DXK9PGWn.OzJEQ6Y2DXK9PGWn'
+    x: 5700
+    'y': 3900
+    elevation: 0
+    locked: false
+    _movementHistory: []
+    _regions: []
+    _key: '!scenes.tokens!FSmhxS0b34PdxidM.OzJEQ6Y2DXK9PGWn'
+  - name: Hobgoblin Vanguard
+    displayName: 0
+    actorLink: false
+    width: 1
+    height: 1
+    depth: 1
+    texture:
+      src: modules/pf2e-tokens-npc-core/assets/tokens/hobgoblin-vanguard.webp
+      anchorX: 0.5
+      anchorY: 0.5
+      fit: contain
+      scaleX: 2
+      scaleY: 2
+      tint: '#ffffff'
+      alphaThreshold: 0.75
+    lockRotation: false
+    rotation: 0
+    alpha: 1
+    disposition: -1
+    displayBars: 0
+    bar1:
+      attribute: attributes.hp
+    bar2:
+      attribute: null
+    light:
+      negative: false
+      priority: 0
+      alpha: 0.5
+      angle: 360
+      bright: 0
+      color: null
+      coloration: 1
+      dim: 0
+      attenuation: 0.5
+      luminosity: 0.5
+      saturation: 0
+      contrast: 0
+      shadows: 0
+      animation:
+        type: null
+        speed: 5
+        intensity: 5
+        reverse: false
+      darkness:
+        min: 0
+        max: 1
+    sight:
+      enabled: true
+      range: 0
+      angle: 360
+      visionMode: basic
+      color: null
+      attenuation: 0.1
+      brightness: 0
+      saturation: 0
+      contrast: 0
+    detectionModes: {}
+    occludable:
+      radius: 0
+    ring:
+      enabled: true
+      colors:
+        ring: null
+        background: null
+      effects: 1
+      subject:
+        scale: 2
+        texture: modules/pf2e-tokens-npc-core/assets/subjects/hobgoblin-vanguard.webp
+    turnMarker:
+      mode: 1
+      animation: pulse
+      src: null
+      disposition: true
+    movementAction: null
+    flags:
+      pf2e:
+        linkToActorSize: true
+        autoscale: false
+      healthEstimate:
+        dontMarkDead: false
+        hideHealthEstimate: false
+        hideName: false
+    actorId: jFSAihOtnm9ffVXo
+    hidden: false
+    sort: 15
+    shape: 4
+    level: defaultLevel0000
+    _id: NDvlOaPY6q5JmKMT
+    delta:
+      flags:
+        enhancedcombathud-pf2e:
+          lastSet:
+            active: '1'
+            primary: 3aB39FmGFD8GlbJA
+            secondary: waGNTouGiOBtyXfw
+      _id: NDvlOaPY6q5JmKMT
+      name: null
+      type: null
+      img: null
+      system: {}
+      items:
+        - _id: 5ftsIGra3fsfDrR4
+          img: systems/pf2e/icons/spells/silence.webp
+          name: 'Spell Effect: Silence'
+          system:
+            description:
+              value: >-
+                <p>Granted by
+                @UUID[Compendium.pf2e.spells-srd.Item.gIdDLrbswTV3OBJy]{Silence}</p>
+
+                <p>You make no sound, preventing creatures from noticing you
+                using hearing alone.</p><hr><p><strong>Heightened (4th)</strong>
+                The spell creates an aura in a 10-foot emanation around you,
+                silencing all sound in or passing through it. While within the
+                aura, creatures are subject to the same effects as the
+                target.</p>
+              gm: ''
+            duration:
+              expiry: null
+              sustained: false
+              unit: unlimited
+              value: 1
+            level:
+              value: 2
+            publication:
+              license: ORC
+              remaster: true
+              title: Pathfinder Player Core
+              authors: ''
+            rules:
+              - key: ActiveEffectLike
+                mode: override
+                path: system.attributes.emitsSound
+                phase: beforeDerived
+                value: false
+              - effects:
+                  - includesSelf: false
+                    uuid: Compendium.pf2e.spell-effects.Item.mmJNE57hC7G3SPae
+                key: Aura
+                level: 2
+                predicate:
+                  - gte:
+                      - '{item|level}'
+                      - 4
+                radius: 10
+                traits:
+                  - illusion
+            start:
+              value: 23987894
+              initiative: 41
+            tokenIcon:
+              show: true
+            traits:
+              value:
+                - illusion
+              otherTags: []
+            slug: spell-effect-silence
+            _migration:
+              version: 0.959
+              previous: null
+            unidentified: false
+            badge: null
+            fromSpell: false
+            context:
+              target: null
+              origin:
+                actor: Actor.VMmyjUNJLXltJ5DV
+                token: Scene.FSmhxS0b34PdxidM.Token.Gr9G1dnm2SgSyGSF
+                item: null
+                spellcasting: null
+                rollOptions: []
+              roll: null
+          type: effect
+          _stats:
+            coreVersion: '14.363'
+            systemId: pf2e
+            systemVersion: 8.1.2
+            createdTime: null
+            modifiedTime: null
+            lastModifiedBy: null
+            exportSource: null
+            compendiumSource: null
+            duplicateSource: null
+          effects: []
+          folder: null
+          sort: 0
+          flags:
+            pf2e:
+              aura:
+                slug: spell-effect-silence
+                origin: Actor.VMmyjUNJLXltJ5DV
+                removeOnExit: true
+          ownership:
+            default: 0
+          _key: >-
+            !scenes.tokens.delta.items!FSmhxS0b34PdxidM.NDvlOaPY6q5JmKMT.NDvlOaPY6q5JmKMT.5ftsIGra3fsfDrR4
+      effects: []
+      ownership: null
+      _key: '!scenes.tokens.delta!FSmhxS0b34PdxidM.NDvlOaPY6q5JmKMT.NDvlOaPY6q5JmKMT'
+    x: 5600
+    'y': 4200
+    elevation: 0
+    locked: false
+    _movementHistory: []
+    _regions: []
+    _key: '!scenes.tokens!FSmhxS0b34PdxidM.NDvlOaPY6q5JmKMT'
+  - name: Kobold Earth Diver
+    displayName: 0
+    actorLink: false
+    width: 1
+    height: 1
+    depth: 1
+    texture:
+      src: modules/pf2e-tokens-npc-core/assets/tokens/kobold-earth-diver.webp
+      anchorX: 0.5
+      anchorY: 0.5
+      fit: contain
+      scaleX: 1.6
+      scaleY: 1.6
+      tint: '#ffffff'
+      alphaThreshold: 0.75
+    lockRotation: false
+    rotation: 0
+    alpha: 1
+    disposition: -1
+    displayBars: 0
+    bar1:
+      attribute: attributes.hp
+    bar2:
+      attribute: null
+    light:
+      negative: false
+      priority: 0
+      alpha: 0.5
+      angle: 360
+      bright: 0
+      color: null
+      coloration: 1
+      dim: 0
+      attenuation: 0.5
+      luminosity: 0.5
+      saturation: 0
+      contrast: 0
+      shadows: 0
+      animation:
+        type: null
+        speed: 5
+        intensity: 5
+        reverse: false
+      darkness:
+        min: 0
+        max: 1
+    sight:
+      enabled: false
+      range: 0
+      angle: 360
+      visionMode: basic
+      color: null
+      attenuation: 0.1
+      brightness: 0
+      saturation: 0
+      contrast: 0
+    detectionModes: {}
+    occludable:
+      radius: 0
+    ring:
+      enabled: true
+      colors:
+        ring: null
+        background: null
+      effects: 1
+      subject:
+        scale: 2
+        texture: modules/pf2e-tokens-npc-core/assets/subjects/kobold-earth-diver.webp
+    turnMarker:
+      mode: 1
+      animation: pulse
+      src: null
+      disposition: true
+    movementAction: null
+    flags:
+      pf2e:
+        linkToActorSize: true
+        autoscale: false
+    actorId: oOD1ehoXVCLYm9Uh
+    hidden: false
+    sort: 17
+    shape: 4
+    level: defaultLevel0000
+    _id: VTlJ8TpT9YqcInNe
+    delta: null
+    x: 5000
+    'y': 4400
+    elevation: 0
+    locked: false
+    _movementHistory: []
+    _regions: []
+    _key: '!scenes.tokens!FSmhxS0b34PdxidM.VTlJ8TpT9YqcInNe'
+  - displayName: 30
+    displayBars: 40
+    flags:
+      monks-tokenbar:
+        include: default
+      healthEstimate:
+        dontMarkDead: false
+        hideHealthEstimate: false
+        hideName: false
+      pf2e:
+        linkToActorSize: true
+        autoscale: false
+      core: {}
+      wall-height:
+        tokenHeight: 0
+      tagger: {}
+      monks-combat-marker:
+        token-highlight-scale: 1.5
+        token-combat-animation: ''
+        token-highlight: ''
+      monks-bloodsplats:
+        bloodsplat-colour: ''
+        bloodsplat-type: ''
+    sight:
+      enabled: true
+      color: null
+      range: 0
+      angle: 360
+      visionMode: basic
+      attenuation: 0.1
+      brightness: 0
+      saturation: 0
+      contrast: 0
+    detectionModes: {}
+    height: 1
+    width: 1
+    actorLink: true
+    name: Rindle X
+    texture:
+      src: worlds/kingmaker/PCs/rindle.webp
+      scaleX: 1.1
+      scaleY: 1.1
+      tint: '#ffffff'
+      anchorX: 0.5
+      anchorY: 0.5
+      fit: contain
+      alphaThreshold: 0.75
+    lockRotation: false
+    rotation: 0
+    alpha: 1
+    disposition: -1
+    bar1:
+      attribute: attributes.hp
+    bar2:
+      attribute: null
+    light:
+      alpha: 0.5
+      angle: 360
+      bright: 0
+      coloration: 1
+      dim: 0
+      attenuation: 0.5
+      luminosity: 0.5
+      saturation: 0
+      contrast: 0
+      shadows: 0
+      animation:
+        type: null
+        speed: 5
+        intensity: 5
+        reverse: false
+      darkness:
+        min: 0
+        max: 1
+      color: null
+      negative: false
+      priority: 0
+    occludable:
+      radius: 0
+    ring:
+      enabled: true
+      colors:
+        ring: null
+        background: null
+      effects: 1
+      subject:
+        scale: 1.1
+        texture: null
+    turnMarker:
+      mode: 1
+      animation: pulse
+      src: null
+      disposition: true
+    movementAction: null
+    depth: 1
+    actorId: hdDU3CMTO5xZeumu
+    hidden: false
+    sort: 19
+    shape: 4
+    level: defaultLevel0000
+    _id: 957ew0CYJ0VMuqbT
+    delta: null
+    x: 5600
+    'y': 4800
+    elevation: 0
+    locked: false
+    _movementHistory: []
+    _regions: []
+    _key: '!scenes.tokens!FSmhxS0b34PdxidM.957ew0CYJ0VMuqbT'
+  - displayName: 50
+    displayBars: 40
+    flags:
+      monks-tokenbar:
+        include: default
+      healthEstimate:
+        dontMarkDead: false
+        hideHealthEstimate: false
+        hideName: false
+      pf2e:
+        linkToActorSize: true
+        autoscale: false
+      wall-height:
+        tokenHeight: 0
+      tagger: {}
+      core: {}
+      monks-combat-marker:
+        token-highlight-scale: 1.5
+        token-combat-animation: ''
+        token-highlight: ''
+      monks-bloodsplats:
+        bloodsplat-colour: ''
+        bloodsplat-type: ''
+    sight:
+      enabled: true
+      color: null
+      range: 0
+      angle: 360
+      visionMode: basic
+      attenuation: 0.1
+      brightness: 0
+      saturation: 0
+      contrast: 0
+    detectionModes:
+      senseAll:
+        range: 30
+        enabled: true
+    height: 1
+    width: 1
+    actorLink: true
+    name: Cat
+    texture:
+      src: worlds/kingmaker/PCs/Panther3.webp
+      scaleX: 0.9
+      scaleY: 0.9
+      tint: '#ffffff'
+      anchorX: 0.5
+      anchorY: 0.5
+      fit: contain
+      alphaThreshold: 0.75
+    lockRotation: false
+    rotation: 0
+    alpha: 1
+    disposition: -1
+    bar1:
+      attribute: attributes.hp
+    bar2:
+      attribute: resources.heroPoints
+    light:
+      alpha: 0.5
+      angle: 360
+      bright: 0
+      coloration: 1
+      dim: 0
+      attenuation: 0.5
+      luminosity: 0.5
+      saturation: 0
+      contrast: 0
+      shadows: 0
+      animation:
+        type: null
+        speed: 5
+        intensity: 5
+        reverse: false
+      darkness:
+        min: 0
+        max: 1
+      color: null
+      negative: false
+      priority: 0
+    occludable:
+      radius: 0
+    ring:
+      enabled: true
+      colors:
+        ring: null
+        background: null
+      effects: 1
+      subject:
+        scale: 0.9
+        texture: null
+    turnMarker:
+      mode: 1
+      animation: pulse
+      src: null
+      disposition: true
+    movementAction: null
+    depth: 1
+    actorId: LLqJy26e7s2eawzi
+    hidden: false
+    sort: 20
+    shape: 4
+    level: defaultLevel0000
+    _id: nLQBxic529DMcDMn
+    delta: null
+    x: 5200
+    'y': 4500
+    elevation: 0
+    locked: false
+    _movementHistory: []
+    _regions: []
+    _key: '!scenes.tokens!FSmhxS0b34PdxidM.nLQBxic529DMcDMn'
+  - name: Deific Champion of Iomedae
+    displayName: 0
+    actorLink: false
+    width: 1
+    height: 1
+    depth: 1
+    texture:
+      src: >-
+        modules/pf2e-tokens-npc-core/assets/tokens/deific-champion-of-iomedae.webp
+      anchorX: 0.5
+      anchorY: 0.5
+      fit: contain
+      scaleX: 2
+      scaleY: 2
+      tint: '#ffffff'
+      alphaThreshold: 0.75
+    lockRotation: false
+    rotation: 0
+    alpha: 1
+    disposition: -1
+    displayBars: 0
+    bar1:
+      attribute: attributes.hp
+    bar2:
+      attribute: null
+    light:
+      negative: false
+      priority: 0
+      alpha: 0.5
+      angle: 360
+      bright: 0
+      color: null
+      coloration: 1
+      dim: 0
+      attenuation: 0.5
+      luminosity: 0.5
+      saturation: 0
+      contrast: 0
+      shadows: 0
+      animation:
+        type: null
+        speed: 5
+        intensity: 5
+        reverse: false
+      darkness:
+        min: 0
+        max: 1
+    sight:
+      enabled: false
+      range: 0
+      angle: 360
+      visionMode: basic
+      color: null
+      attenuation: 0.1
+      brightness: 0
+      saturation: 0
+      contrast: 0
+    detectionModes: {}
+    occludable:
+      radius: 0
+    ring:
+      enabled: true
+      colors:
+        ring: null
+        background: null
+      effects: 1
+      subject:
+        scale: 2
+        texture: >-
+          modules/pf2e-tokens-npc-core/assets/subjects/deific-champion-of-iomedae.webp
+    turnMarker:
+      mode: 1
+      animation: pulse
+      src: null
+      disposition: true
+    movementAction: null
+    flags:
+      pf2e:
+        linkToActorSize: true
+        autoscale: false
+    actorId: u65hzt6veh3aFrtM
+    hidden: false
+    sort: 21
+    shape: 4
+    level: defaultLevel0000
+    _id: WvsU9trhATnQ0c8o
+    delta: null
+    x: 8600
+    'y': 2100
+    elevation: 0
+    locked: false
+    _movementHistory: []
+    _regions: []
+    _key: '!scenes.tokens!FSmhxS0b34PdxidM.WvsU9trhATnQ0c8o'
 notes: []
 sounds: []
 regions:
@@ -13472,14 +16403,15 @@ regions:
           sound: true
           occlusion: true
           exposure: true
+          culling: false
         disabled: false
         flags: {}
         _stats:
-          coreVersion: '14.361'
+          coreVersion: '14.363'
           systemId: pf2e
           systemVersion: 8.1.2
-          createdTime: 1778508797313
-          modifiedTime: 1778508797313
+          createdTime: 1779696867959
+          modifiedTime: 1779696867959
           lastModifiedBy: txZjek5EOiCBHPoz
           compendiumSource: null
           duplicateSource: null
@@ -13537,14 +16469,15 @@ regions:
           sound: true
           occlusion: true
           exposure: true
+          culling: false
         disabled: false
         flags: {}
         _stats:
-          coreVersion: '14.361'
+          coreVersion: '14.363'
           systemId: pf2e
           systemVersion: 8.1.2
-          createdTime: 1778508797313
-          modifiedTime: 1778508797313
+          createdTime: 1779696867959
+          modifiedTime: 1779696867959
           lastModifiedBy: txZjek5EOiCBHPoz
           compendiumSource: null
           duplicateSource: null
@@ -13620,14 +16553,15 @@ regions:
           sound: true
           occlusion: true
           exposure: true
+          culling: false
         disabled: false
         flags: {}
         _stats:
-          coreVersion: '14.361'
+          coreVersion: '14.363'
           systemId: pf2e
           systemVersion: 8.1.2
-          createdTime: 1778508797314
-          modifiedTime: 1778508797314
+          createdTime: 1779696867959
+          modifiedTime: 1779696867959
           lastModifiedBy: txZjek5EOiCBHPoz
           compendiumSource: null
           duplicateSource: null
@@ -13691,14 +16625,15 @@ regions:
           sound: true
           occlusion: true
           exposure: true
+          culling: false
         disabled: false
         flags: {}
         _stats:
-          coreVersion: '14.361'
+          coreVersion: '14.363'
           systemId: pf2e
           systemVersion: 8.1.2
-          createdTime: 1778508797314
-          modifiedTime: 1778508797314
+          createdTime: 1779696867960
+          modifiedTime: 1779696867960
           lastModifiedBy: txZjek5EOiCBHPoz
           compendiumSource: null
           duplicateSource: null
@@ -13758,14 +16693,15 @@ regions:
           sound: true
           occlusion: true
           exposure: true
+          culling: false
         disabled: false
         flags: {}
         _stats:
-          coreVersion: '14.361'
+          coreVersion: '14.363'
           systemId: pf2e
           systemVersion: 8.1.2
-          createdTime: 1778508797314
-          modifiedTime: 1778508797314
+          createdTime: 1779696867960
+          modifiedTime: 1779696867960
           lastModifiedBy: txZjek5EOiCBHPoz
           compendiumSource: null
           duplicateSource: null
@@ -13859,14 +16795,15 @@ regions:
           sound: true
           occlusion: true
           exposure: true
+          culling: false
         disabled: false
         flags: {}
         _stats:
-          coreVersion: '14.361'
+          coreVersion: '14.363'
           systemId: pf2e
           systemVersion: 8.1.2
-          createdTime: 1778508797314
-          modifiedTime: 1778508797314
+          createdTime: 1779696867960
+          modifiedTime: 1779696867960
           lastModifiedBy: txZjek5EOiCBHPoz
           compendiumSource: null
           duplicateSource: null
@@ -13932,14 +16869,15 @@ regions:
           sound: true
           occlusion: true
           exposure: true
+          culling: false
         disabled: false
         flags: {}
         _stats:
-          coreVersion: '14.361'
+          coreVersion: '14.363'
           systemId: pf2e
           systemVersion: 8.1.2
-          createdTime: 1778508797314
-          modifiedTime: 1778508797314
+          createdTime: 1779696867961
+          modifiedTime: 1779696867961
           lastModifiedBy: txZjek5EOiCBHPoz
           compendiumSource: null
           duplicateSource: null
@@ -14003,14 +16941,15 @@ regions:
           sound: true
           occlusion: true
           exposure: true
+          culling: false
         disabled: false
         flags: {}
         _stats:
-          coreVersion: '14.361'
+          coreVersion: '14.363'
           systemId: pf2e
           systemVersion: 8.1.2
-          createdTime: 1778508797315
-          modifiedTime: 1778508797315
+          createdTime: 1779696867961
+          modifiedTime: 1779696867961
           lastModifiedBy: txZjek5EOiCBHPoz
           compendiumSource: null
           duplicateSource: null
@@ -14086,14 +17025,15 @@ regions:
           sound: true
           occlusion: true
           exposure: true
+          culling: false
         disabled: false
         flags: {}
         _stats:
-          coreVersion: '14.361'
+          coreVersion: '14.363'
           systemId: pf2e
           systemVersion: 8.1.2
-          createdTime: 1778508797315
-          modifiedTime: 1778508797315
+          createdTime: 1779696867961
+          modifiedTime: 1779696867961
           lastModifiedBy: txZjek5EOiCBHPoz
           compendiumSource: null
           duplicateSource: null
@@ -14151,14 +17091,15 @@ regions:
           sound: true
           occlusion: true
           exposure: true
+          culling: false
         disabled: false
         flags: {}
         _stats:
-          coreVersion: '14.361'
+          coreVersion: '14.363'
           systemId: pf2e
           systemVersion: 8.1.2
-          createdTime: 1778508797315
-          modifiedTime: 1778508797315
+          createdTime: 1779696867961
+          modifiedTime: 1779696867961
           lastModifiedBy: txZjek5EOiCBHPoz
           compendiumSource: null
           duplicateSource: null
@@ -14222,14 +17163,15 @@ regions:
           sound: true
           occlusion: true
           exposure: true
+          culling: false
         disabled: false
         flags: {}
         _stats:
-          coreVersion: '14.361'
+          coreVersion: '14.363'
           systemId: pf2e
           systemVersion: 8.1.2
-          createdTime: 1778508797315
-          modifiedTime: 1778508797315
+          createdTime: 1779696867962
+          modifiedTime: 1779696867962
           lastModifiedBy: txZjek5EOiCBHPoz
           compendiumSource: null
           duplicateSource: null
@@ -14287,14 +17229,15 @@ regions:
           sound: true
           occlusion: true
           exposure: true
+          culling: false
         disabled: false
         flags: {}
         _stats:
-          coreVersion: '14.361'
+          coreVersion: '14.363'
           systemId: pf2e
           systemVersion: 8.1.2
-          createdTime: 1778508797315
-          modifiedTime: 1778508797315
+          createdTime: 1779696867962
+          modifiedTime: 1779696867962
           lastModifiedBy: txZjek5EOiCBHPoz
           compendiumSource: null
           duplicateSource: null
@@ -14352,14 +17295,15 @@ regions:
           sound: true
           occlusion: true
           exposure: true
+          culling: false
         disabled: false
         flags: {}
         _stats:
-          coreVersion: '14.361'
+          coreVersion: '14.363'
           systemId: pf2e
           systemVersion: 8.1.2
-          createdTime: 1778508797315
-          modifiedTime: 1778508797315
+          createdTime: 1779696867962
+          modifiedTime: 1779696867962
           lastModifiedBy: txZjek5EOiCBHPoz
           compendiumSource: null
           duplicateSource: null
@@ -14401,11 +17345,11 @@ flags:
     environmentTypes: []
     syncDarkness: default
 _stats:
-  coreVersion: '14.361'
+  coreVersion: '14.363'
   systemId: pf2e
   systemVersion: 8.1.2
-  createdTime: 1778508797292
-  modifiedTime: 1778508797292
+  createdTime: 1779696867930
+  modifiedTime: 1779696867930
   lastModifiedBy: txZjek5EOiCBHPoz
   exportSource: null
   compendiumSource: null

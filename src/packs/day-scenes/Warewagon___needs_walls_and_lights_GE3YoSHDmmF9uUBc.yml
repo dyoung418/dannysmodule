@@ -2,7 +2,7 @@ folder: 1LOPSyo3SGiD9SB8
 name: Warewagon - needs walls and lights
 _id: GE3YoSHDmmF9uUBc
 navigation: false
-thumb: worlds/kingmaker/assets/scenes/thumb-X34cUgKWtP_Wix-izFy6Ow.webp
+thumb: worlds/kingmaker/assets/scenes/thumb-7A-SvJCQckpnA6sS5zWV9w.webp
 width: 1426
 height: 1426
 padding: 0.25
@@ -234,14 +234,15 @@ regions:
           sound: true
           occlusion: true
           exposure: false
+          culling: false
         disabled: false
         flags: {}
         _stats:
-          coreVersion: '14.361'
+          coreVersion: '14.363'
           systemId: pf2e
           systemVersion: 8.1.2
-          createdTime: 1778508816140
-          modifiedTime: 1778508816140
+          createdTime: 1779696884960
+          modifiedTime: 1779696884960
           lastModifiedBy: txZjek5EOiCBHPoz
           compendiumSource: null
           duplicateSource: null
@@ -310,14 +311,15 @@ regions:
           sound: true
           occlusion: true
           exposure: false
+          culling: false
         disabled: false
         flags: {}
         _stats:
-          coreVersion: '14.361'
+          coreVersion: '14.363'
           systemId: pf2e
           systemVersion: 8.1.2
-          createdTime: 1778508816140
-          modifiedTime: 1778508816140
+          createdTime: 1779696884960
+          modifiedTime: 1779696884960
           lastModifiedBy: txZjek5EOiCBHPoz
           compendiumSource: null
           duplicateSource: null
@@ -378,11 +380,11 @@ regions:
         disabled: false
         flags: {}
         _stats:
-          coreVersion: '14.361'
+          coreVersion: '14.363'
           systemId: pf2e
           systemVersion: 8.1.2
-          createdTime: 1778508816140
-          modifiedTime: 1778508816140
+          createdTime: 1779696884961
+          modifiedTime: 1779696884961
           lastModifiedBy: txZjek5EOiCBHPoz
           compendiumSource: null
           duplicateSource: null
@@ -441,11 +443,11 @@ regions:
         disabled: false
         flags: {}
         _stats:
-          coreVersion: '14.361'
+          coreVersion: '14.363'
           systemId: pf2e
           systemVersion: 8.1.2
-          createdTime: 1778508816140
-          modifiedTime: 1778508816140
+          createdTime: 1779696884961
+          modifiedTime: 1779696884961
           lastModifiedBy: txZjek5EOiCBHPoz
           compendiumSource: null
           duplicateSource: null
@@ -487,11 +489,11 @@ flags:
     environmentTypes: []
     syncDarkness: default
 _stats:
-  coreVersion: '14.361'
+  coreVersion: '14.363'
   systemId: pf2e
   systemVersion: 8.1.2
-  createdTime: 1778508816140
-  modifiedTime: 1778508816141
+  createdTime: 1779696884959
+  modifiedTime: 1779696884959
   lastModifiedBy: txZjek5EOiCBHPoz
   exportSource: null
   compendiumSource: null
@@ -500,7 +502,6 @@ navName: ''
 navOrder: 0
 ownership:
   default: 0
-  txZjek5EOiCBHPoz: 3
 active: false
 sort: 0
 _key: '!scenes!GE3YoSHDmmF9uUBc'

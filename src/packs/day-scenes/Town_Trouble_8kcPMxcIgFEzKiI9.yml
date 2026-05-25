@@ -2,7 +2,7 @@ folder: PzZSh8dtytkWOJL6
 name: Town Trouble
 _id: 8kcPMxcIgFEzKiI9
 navigation: false
-thumb: worlds/kingmaker/assets/scenes/thumb-TE1IsyWOvPT8rRv8pI0UpA.webp
+thumb: worlds/kingmaker/assets/scenes/thumb-ZS9-73KRItrbOjkRWgB1_g.webp
 width: 12000
 height: 10000
 padding: 0.25
@@ -241,14 +241,15 @@ regions:
           sound: true
           occlusion: true
           exposure: true
+          culling: false
         disabled: false
         flags: {}
         _stats:
-          coreVersion: '14.361'
+          coreVersion: '14.363'
           systemId: pf2e
           systemVersion: 8.1.2
-          createdTime: 1778508797234
-          modifiedTime: 1778508797234
+          createdTime: 1779696867819
+          modifiedTime: 1779696867819
           lastModifiedBy: txZjek5EOiCBHPoz
           compendiumSource: null
           duplicateSource: null
@@ -308,14 +309,15 @@ regions:
           sound: true
           occlusion: true
           exposure: true
+          culling: false
         disabled: false
         flags: {}
         _stats:
-          coreVersion: '14.361'
+          coreVersion: '14.363'
           systemId: pf2e
           systemVersion: 8.1.2
-          createdTime: 1778508797235
-          modifiedTime: 1778508797235
+          createdTime: 1779696867820
+          modifiedTime: 1779696867820
           lastModifiedBy: txZjek5EOiCBHPoz
           compendiumSource: null
           duplicateSource: null
@@ -383,14 +385,15 @@ regions:
           sound: true
           occlusion: true
           exposure: true
+          culling: false
         disabled: false
         flags: {}
         _stats:
-          coreVersion: '14.361'
+          coreVersion: '14.363'
           systemId: pf2e
           systemVersion: 8.1.2
-          createdTime: 1778508797235
-          modifiedTime: 1778508797235
+          createdTime: 1779696867820
+          modifiedTime: 1779696867820
           lastModifiedBy: txZjek5EOiCBHPoz
           compendiumSource: null
           duplicateSource: null
@@ -450,14 +453,15 @@ regions:
           sound: true
           occlusion: true
           exposure: true
+          culling: false
         disabled: false
         flags: {}
         _stats:
-          coreVersion: '14.361'
+          coreVersion: '14.363'
           systemId: pf2e
           systemVersion: 8.1.2
-          createdTime: 1778508797235
-          modifiedTime: 1778508797235
+          createdTime: 1779696867820
+          modifiedTime: 1779696867820
           lastModifiedBy: txZjek5EOiCBHPoz
           compendiumSource: null
           duplicateSource: null
@@ -517,14 +521,15 @@ regions:
           sound: true
           occlusion: true
           exposure: true
+          culling: false
         disabled: false
         flags: {}
         _stats:
-          coreVersion: '14.361'
+          coreVersion: '14.363'
           systemId: pf2e
           systemVersion: 8.1.2
-          createdTime: 1778508797235
-          modifiedTime: 1778508797235
+          createdTime: 1779696867820
+          modifiedTime: 1779696867820
           lastModifiedBy: txZjek5EOiCBHPoz
           compendiumSource: null
           duplicateSource: null
@@ -584,14 +589,15 @@ regions:
           sound: true
           occlusion: true
           exposure: true
+          culling: false
         disabled: false
         flags: {}
         _stats:
-          coreVersion: '14.361'
+          coreVersion: '14.363'
           systemId: pf2e
           systemVersion: 8.1.2
-          createdTime: 1778508797235
-          modifiedTime: 1778508797235
+          createdTime: 1779696867821
+          modifiedTime: 1779696867821
           lastModifiedBy: txZjek5EOiCBHPoz
           compendiumSource: null
           duplicateSource: null
@@ -659,14 +665,15 @@ regions:
           sound: true
           occlusion: true
           exposure: true
+          culling: false
         disabled: false
         flags: {}
         _stats:
-          coreVersion: '14.361'
+          coreVersion: '14.363'
           systemId: pf2e
           systemVersion: 8.1.2
-          createdTime: 1778508797236
-          modifiedTime: 1778508797236
+          createdTime: 1779696867821
+          modifiedTime: 1779696867821
           lastModifiedBy: txZjek5EOiCBHPoz
           compendiumSource: null
           duplicateSource: null
@@ -8901,11 +8908,11 @@ flags:
     environmentTypes: []
     syncDarkness: default
 _stats:
-  coreVersion: '14.361'
+  coreVersion: '14.363'
   systemId: pf2e
   systemVersion: 8.1.2
-  createdTime: 1778508797233
-  modifiedTime: 1778508797233
+  createdTime: 1779696867818
+  modifiedTime: 1779696867818
   lastModifiedBy: txZjek5EOiCBHPoz
   exportSource: null
   compendiumSource: null

@@ -1,18 +1,17 @@
 folder: fzBywiLU1ohCVIeR
-name: Yawning Portal Scene
-_id: YrazGmW6cje2pceU
+name: House at Edge of Space
+_id: O59u0uKgny8IdrTs
 navigation: false
-navOrder: 0
-thumb: worlds/kingmaker/assets/scenes/thumb-arYUnw1P2-eTbc-RrXI2Vg.webp
-width: 3501
-height: 2000
+thumb: worlds/kingmaker/assets/scenes/thumb-RamCIcuukorTXZcU8lePsA.webp
+width: 2528
+height: 1696
 padding: 0.25
 shiftX: 0
 shiftY: 0
 initial:
-  x: null
-  'y': null
-  scale: null
+  x: 2097
+  'y': 1292
+  scale: 0.572
 initialLevel: defaultLevel0000
 grid:
   type: 1
@@ -23,7 +22,7 @@ grid:
   alpha: 0.2
   distance: 5
   units: ft
-tokenVision: true
+tokenVision: false
 fog:
   mode: 1
   colors:
@@ -33,7 +32,7 @@ environment:
   darknessLevel: 0
   darknessLock: false
   globalLight:
-    enabled: false
+    enabled: true
     alpha: 0.5
     bright: false
     color: null
@@ -73,7 +72,7 @@ levels:
     background:
       color: '#999999'
       src: >-
-        modules/dannysmodule/assets/maps/YawningPortal/YawningPortalScene_ManonKrapf.webp
+        modules/dannysmodule/assets/maps/house%20at%20the%20edge%20of%20space.webp
       tint: '#ffffff'
       alphaThreshold: 0.75
     foreground:
@@ -96,7 +95,7 @@ levels:
       levels: []
     sort: 0
     flags: {}
-    _key: '!scenes.levels!YrazGmW6cje2pceU.defaultLevel0000'
+    _key: '!scenes.levels!O59u0uKgny8IdrTs.defaultLevel0000'
 lights: []
 notes: []
 sounds: []
@@ -131,8 +130,8 @@ _stats:
   coreVersion: '14.363'
   systemId: pf2e
   systemVersion: 8.1.2
-  createdTime: 1779696841501
-  modifiedTime: 1779696841501
+  createdTime: 1779696841526
+  modifiedTime: 1779696841527
   lastModifiedBy: txZjek5EOiCBHPoz
   exportSource: null
   compendiumSource: null
@@ -140,7 +139,9 @@ _stats:
 navName: ''
 ownership:
   default: 0
+  txZjek5EOiCBHPoz: 3
 active: false
+navOrder: 0
 sort: 0
-_key: '!scenes!YrazGmW6cje2pceU'
+_key: '!scenes!O59u0uKgny8IdrTs'
 templates: []

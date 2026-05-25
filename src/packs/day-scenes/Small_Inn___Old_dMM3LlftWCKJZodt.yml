@@ -3,7 +3,7 @@ name: Small Inn - Old
 _id: dMM3LlftWCKJZodt
 navigation: false
 navName: ''
-thumb: worlds/kingmaker/assets/scenes/thumb-EfGm8hJRETldJfQzedmMeQ.webp
+thumb: worlds/kingmaker/assets/scenes/thumb-nE5AvxshNW06Bp3s-lG8cw.webp
 width: 1620
 height: 1620
 padding: 0.25
@@ -1356,11 +1356,11 @@ regions:
         disabled: false
         flags: {}
         _stats:
-          coreVersion: '14.361'
+          coreVersion: '14.363'
           systemId: pf2e
           systemVersion: 8.1.2
-          createdTime: 1778508816115
-          modifiedTime: 1778508816115
+          createdTime: 1779696885046
+          modifiedTime: 1779696885046
           lastModifiedBy: txZjek5EOiCBHPoz
           compendiumSource: null
           duplicateSource: null
@@ -1424,11 +1424,11 @@ regions:
         disabled: false
         flags: {}
         _stats:
-          coreVersion: '14.361'
+          coreVersion: '14.363'
           systemId: pf2e
           systemVersion: 8.1.2
-          createdTime: 1778508816116
-          modifiedTime: 1778508816116
+          createdTime: 1779696885047
+          modifiedTime: 1779696885047
           lastModifiedBy: txZjek5EOiCBHPoz
           compendiumSource: null
           duplicateSource: null
@@ -1500,11 +1500,11 @@ regions:
         disabled: false
         flags: {}
         _stats:
-          coreVersion: '14.361'
+          coreVersion: '14.363'
           systemId: pf2e
           systemVersion: 8.1.2
-          createdTime: 1778508816116
-          modifiedTime: 1778508816116
+          createdTime: 1779696885047
+          modifiedTime: 1779696885047
           lastModifiedBy: txZjek5EOiCBHPoz
           compendiumSource: null
           duplicateSource: null
@@ -1520,11 +1520,11 @@ regions:
         disabled: false
         flags: {}
         _stats:
-          coreVersion: '14.361'
+          coreVersion: '14.363'
           systemId: pf2e
           systemVersion: 8.1.2
-          createdTime: 1778508816116
-          modifiedTime: 1778508816116
+          createdTime: 1779696885047
+          modifiedTime: 1779696885047
           lastModifiedBy: txZjek5EOiCBHPoz
           compendiumSource: null
           duplicateSource: null
@@ -3337,11 +3337,11 @@ flags:
     opacityGM: 0.7
     opacityPlayer: 1
 _stats:
-  coreVersion: '14.361'
+  coreVersion: '14.363'
   systemId: pf2e
   systemVersion: 8.1.2
-  createdTime: 1778508816111
-  modifiedTime: 1778508816111
+  createdTime: 1779696885042
+  modifiedTime: 1779696885042
   lastModifiedBy: txZjek5EOiCBHPoz
   exportSource: null
   compendiumSource: null
