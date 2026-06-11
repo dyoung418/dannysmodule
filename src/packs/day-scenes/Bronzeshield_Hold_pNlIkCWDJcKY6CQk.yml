@@ -941,7 +941,7 @@ flags:
 _stats:
   compendiumSource: null
   duplicateSource: null
-  coreVersion: '14.363'
+  coreVersion: '14.364'
   systemId: pf2e
   systemVersion: 8.1.2
   createdTime: 1779696841520
@@ -969,7 +969,6 @@ levels:
       alphaThreshold: 0.75
     fog:
       src: null
-      tint: '#ffffff'
     textures:
       anchorX: 0.5
       anchorY: 0.5

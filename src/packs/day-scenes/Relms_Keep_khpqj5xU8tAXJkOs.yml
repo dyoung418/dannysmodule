@@ -173,7 +173,6 @@ levels:
       alphaThreshold: 0.75
     fog:
       src: null
-      tint: '#ffffff'
     textures:
       anchorX: 0.5
       anchorY: 0.5
@@ -206,7 +205,6 @@ levels:
       alphaThreshold: 0.75
     fog:
       src: null
-      tint: '#ffffff'
     textures:
       anchorX: 0.5
       anchorY: 0.5
@@ -239,7 +237,6 @@ levels:
       alphaThreshold: 0.75
     fog:
       src: null
-      tint: '#ffffff'
     textures:
       anchorX: 0.5
       anchorY: 0.5
@@ -3986,14 +3983,15 @@ regions:
           sound: true
           occlusion: true
           exposure: false
+          culling: false
         disabled: false
         flags: {}
         _stats:
-          coreVersion: '14.361'
+          coreVersion: '14.364'
           systemId: pf2e
-          systemVersion: 8.0.3
-          createdTime: 1777266016799
-          modifiedTime: 1777266016799
+          systemVersion: 8.2.0
+          createdTime: 1781156777189
+          modifiedTime: 1781156777189
           lastModifiedBy: txZjek5EOiCBHPoz
           compendiumSource: null
           duplicateSource: null
@@ -4266,14 +4264,15 @@ regions:
           sound: true
           occlusion: true
           exposure: false
+          culling: false
         disabled: false
         flags: {}
         _stats:
-          coreVersion: '14.361'
+          coreVersion: '14.364'
           systemId: pf2e
-          systemVersion: 8.0.3
-          createdTime: 1777266016800
-          modifiedTime: 1777266016800
+          systemVersion: 8.2.0
+          createdTime: 1781156777190
+          modifiedTime: 1781156777190
           lastModifiedBy: txZjek5EOiCBHPoz
           compendiumSource: null
           duplicateSource: null
@@ -4319,15 +4318,16 @@ regions:
       - name: Change Level
         type: changeLevel
         _id: 34NhVL3WcmZAvJDH
-        system: {}
+        system:
+          movementActions: []
         disabled: false
         flags: {}
         _stats:
-          coreVersion: '14.361'
+          coreVersion: '14.364'
           systemId: pf2e
-          systemVersion: 8.0.3
-          createdTime: 1777266016800
-          modifiedTime: 1777266016800
+          systemVersion: 8.2.0
+          createdTime: 1781156777190
+          modifiedTime: 1781156777190
           lastModifiedBy: txZjek5EOiCBHPoz
           compendiumSource: null
           duplicateSource: null
@@ -4377,15 +4377,16 @@ regions:
       - name: Change Level
         type: changeLevel
         _id: 14UVg4NAg285TUOg
-        system: {}
+        system:
+          movementActions: []
         disabled: false
         flags: {}
         _stats:
-          coreVersion: '14.361'
+          coreVersion: '14.364'
           systemId: pf2e
-          systemVersion: 8.0.3
-          createdTime: 1777266016801
-          modifiedTime: 1777266016801
+          systemVersion: 8.2.0
+          createdTime: 1781156777190
+          modifiedTime: 1781156777190
           lastModifiedBy: txZjek5EOiCBHPoz
           compendiumSource: null
           duplicateSource: null
@@ -4439,15 +4440,16 @@ regions:
       - name: Change Level
         type: changeLevel
         _id: fNCnWhzJJ9pQJfGl
-        system: {}
+        system:
+          movementActions: []
         disabled: false
         flags: {}
         _stats:
-          coreVersion: '14.361'
+          coreVersion: '14.364'
           systemId: pf2e
-          systemVersion: 8.0.3
-          createdTime: 1777266016801
-          modifiedTime: 1777266016801
+          systemVersion: 8.2.0
+          createdTime: 1781156777190
+          modifiedTime: 1781156777190
           lastModifiedBy: txZjek5EOiCBHPoz
           compendiumSource: null
           duplicateSource: null
@@ -4493,15 +4495,16 @@ regions:
       - name: Change Level
         type: changeLevel
         _id: yMnhB813Ze29jh0E
-        system: {}
+        system:
+          movementActions: []
         disabled: false
         flags: {}
         _stats:
-          coreVersion: '14.361'
+          coreVersion: '14.364'
           systemId: pf2e
-          systemVersion: 8.0.3
-          createdTime: 1777266016801
-          modifiedTime: 1777266016801
+          systemVersion: 8.2.0
+          createdTime: 1781156777190
+          modifiedTime: 1781156777190
           lastModifiedBy: txZjek5EOiCBHPoz
           compendiumSource: null
           duplicateSource: null
@@ -4578,11 +4581,11 @@ regions:
         disabled: false
         flags: {}
         _stats:
-          coreVersion: '14.361'
+          coreVersion: '14.364'
           systemId: pf2e
-          systemVersion: 8.0.3
-          createdTime: 1777266016802
-          modifiedTime: 1777266016802
+          systemVersion: 8.2.0
+          createdTime: 1781156777191
+          modifiedTime: 1781156777191
           lastModifiedBy: txZjek5EOiCBHPoz
           compendiumSource: null
           duplicateSource: null
@@ -4659,11 +4662,11 @@ regions:
         disabled: false
         flags: {}
         _stats:
-          coreVersion: '14.361'
+          coreVersion: '14.364'
           systemId: pf2e
-          systemVersion: 8.0.3
-          createdTime: 1777266016802
-          modifiedTime: 1777266016802
+          systemVersion: 8.2.0
+          createdTime: 1781156777191
+          modifiedTime: 1781156777191
           lastModifiedBy: txZjek5EOiCBHPoz
           compendiumSource: null
           duplicateSource: null
@@ -4729,15 +4732,16 @@ regions:
       - name: Change Level
         type: changeLevel
         _id: hzlKSFoUzOEtluuU
-        system: {}
+        system:
+          movementActions: []
         disabled: false
         flags: {}
         _stats:
-          coreVersion: '14.361'
+          coreVersion: '14.364'
           systemId: pf2e
-          systemVersion: 8.0.3
-          createdTime: 1777266016802
-          modifiedTime: 1777266016802
+          systemVersion: 8.2.0
+          createdTime: 1781156777191
+          modifiedTime: 1781156777191
           lastModifiedBy: txZjek5EOiCBHPoz
           compendiumSource: null
           duplicateSource: null
@@ -4797,15 +4801,16 @@ regions:
       - name: Change Level
         type: changeLevel
         _id: vYk4N6HWRK4Y59vq
-        system: {}
+        system:
+          movementActions: []
         disabled: false
         flags: {}
         _stats:
-          coreVersion: '14.361'
+          coreVersion: '14.364'
           systemId: pf2e
-          systemVersion: 8.0.3
-          createdTime: 1777266016803
-          modifiedTime: 1777266016803
+          systemVersion: 8.2.0
+          createdTime: 1781156777191
+          modifiedTime: 1781156777191
           lastModifiedBy: txZjek5EOiCBHPoz
           compendiumSource: null
           duplicateSource: null
@@ -4855,15 +4860,16 @@ regions:
       - name: Change Level
         type: changeLevel
         _id: WyMZRkPGggCSOv2o
-        system: {}
+        system:
+          movementActions: []
         disabled: false
         flags: {}
         _stats:
-          coreVersion: '14.361'
+          coreVersion: '14.364'
           systemId: pf2e
-          systemVersion: 8.0.3
-          createdTime: 1777266016803
-          modifiedTime: 1777266016803
+          systemVersion: 8.2.0
+          createdTime: 1781156777191
+          modifiedTime: 1781156777191
           lastModifiedBy: txZjek5EOiCBHPoz
           compendiumSource: null
           duplicateSource: null
@@ -5101,11 +5107,11 @@ regions:
         disabled: false
         flags: {}
         _stats:
-          coreVersion: '14.361'
+          coreVersion: '14.364'
           systemId: pf2e
-          systemVersion: 8.0.3
-          createdTime: 1777266016804
-          modifiedTime: 1777266016804
+          systemVersion: 8.2.0
+          createdTime: 1781156777192
+          modifiedTime: 1781156777192
           lastModifiedBy: txZjek5EOiCBHPoz
           compendiumSource: null
           duplicateSource: null
@@ -5119,11 +5125,11 @@ regions:
         disabled: false
         flags: {}
         _stats:
-          coreVersion: '14.361'
+          coreVersion: '14.364'
           systemId: pf2e
-          systemVersion: 8.0.3
-          createdTime: 1777266016804
-          modifiedTime: 1777266016804
+          systemVersion: 8.2.0
+          createdTime: 1781156777192
+          modifiedTime: 1781156777192
           lastModifiedBy: txZjek5EOiCBHPoz
           compendiumSource: null
           duplicateSource: null
@@ -5184,11 +5190,11 @@ regions:
         disabled: false
         flags: {}
         _stats:
-          coreVersion: '14.361'
+          coreVersion: '14.364'
           systemId: pf2e
-          systemVersion: 8.0.3
-          createdTime: 1777266016804
-          modifiedTime: 1777266016804
+          systemVersion: 8.2.0
+          createdTime: 1781156777192
+          modifiedTime: 1781156777192
           lastModifiedBy: txZjek5EOiCBHPoz
           compendiumSource: null
           duplicateSource: null
@@ -5202,11 +5208,11 @@ regions:
         disabled: false
         flags: {}
         _stats:
-          coreVersion: '14.361'
+          coreVersion: '14.364'
           systemId: pf2e
-          systemVersion: 8.0.3
-          createdTime: 1777266016804
-          modifiedTime: 1777266016804
+          systemVersion: 8.2.0
+          createdTime: 1781156777192
+          modifiedTime: 1781156777192
           lastModifiedBy: txZjek5EOiCBHPoz
           compendiumSource: null
           duplicateSource: null
@@ -22773,11 +22779,11 @@ flags:
   world-explorer:
     schemaVersion: 2.1.0
 _stats:
-  coreVersion: '14.361'
+  coreVersion: '14.364'
   systemId: pf2e
-  systemVersion: 8.0.3
-  createdTime: 1777266016781
-  modifiedTime: 1777266016781
+  systemVersion: 8.2.0
+  createdTime: 1781156777180
+  modifiedTime: 1781156777180
   lastModifiedBy: txZjek5EOiCBHPoz
   exportSource: null
   compendiumSource: null
