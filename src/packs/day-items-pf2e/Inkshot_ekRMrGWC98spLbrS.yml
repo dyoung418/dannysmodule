@@ -17,19 +17,19 @@ system:
       cleansing (or magic such as a prestidigitation cantrip) can remove the ink
       before then.</p>
 
-      <hr />
+      <hr>
 
       <p><strong>Heightened (+1)</strong> Increase the base poison damage by
       2d6.</p>
   rules: []
   slug: inkshot
   _migration:
-    version: 0.94
+    version: 0.959
     lastMigration: null
     previous:
-      schema: 0.939
-      foundry: '13.345'
-      system: 7.2.0
+      schema: 0.94
+      foundry: '14.364'
+      system: 8.2.0
   traits:
     otherTags: []
     value:
@@ -88,15 +88,14 @@ effects: []
 folder: lVJfRR3nUB6MU7dI
 ownership:
   default: 3
-  txZjek5EOiCBHPoz: 3
 _stats:
-  compendiumSource: Compendium.pf2e.spells-srd.Item.MiTFNcqCI9f34A2V
+  compendiumSource: null
   duplicateSource: null
-  coreVersion: '13.346'
+  coreVersion: '14.364'
   systemId: pf2e
-  systemVersion: 7.2.3
-  createdTime: 1718606591261
-  modifiedTime: 1752208111692
+  systemVersion: 8.2.0
+  createdTime: 1782895593645
+  modifiedTime: 1782895593645
   lastModifiedBy: txZjek5EOiCBHPoz
   exportSource: null
 _id: ekRMrGWC98spLbrS

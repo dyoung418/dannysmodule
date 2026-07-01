@@ -19,23 +19,23 @@ system:
       @Check[engineering|dc:resolve(@kingdom.control.dc+2)] check. If you wish
       to reduce your <strong>Strife</strong>, you attempt an
       @Check[intrigue|dc:resolve(@kingdom.control.dc+2)] check. In all cases,
-      the DC is your Control DC + 2.</p><hr /><p><strong>Critical
-      Success</strong> You reduce the targeted Ruin by 2 and reduce its current
-      ruin penalty by 1 to a minimum of 0.</p><p><strong>Success</strong> You
-      reduce the targeted Ruin by 1.</p><p><strong>Failure</strong> You fail to
-      reduce the targeted Ruin. You cannot attempt to Repair Reputation on this
-      Ruin for 1 Kingdom turn.</p><p><strong>Critical Failure</strong> You fail
-      to reduce the targeted Ruin in a particularly public and embarrassing way.
-      Increase Unrest by 1d4, and you cannot attempt to Repair Reputation for 3
-      Kingdom turns.</p>
+      the DC is your Control DC + 2.</p><hr><p><strong>Critical Success</strong>
+      You reduce the targeted Ruin by 2 and reduce its current ruin penalty by 1
+      to a minimum of 0.</p><p><strong>Success</strong> You reduce the targeted
+      Ruin by 1.</p><p><strong>Failure</strong> You fail to reduce the targeted
+      Ruin. You cannot attempt to Repair Reputation on this Ruin for 1 Kingdom
+      turn.</p><p><strong>Critical Failure</strong> You fail to reduce the
+      targeted Ruin in a particularly public and embarrassing way. Increase
+      Unrest by 1d4, and you cannot attempt to Repair Reputation for 3 Kingdom
+      turns.</p>
   rules: []
   slug: repair-reputation-trained
   _migration:
-    version: 0.94
+    version: 0.959
     previous:
-      schema: 0.939
-      foundry: '13.345'
-      system: 7.2.0
+      schema: 0.94
+      foundry: '14.364'
+      system: 8.2.0
   traits:
     otherTags: []
     value:
@@ -59,13 +59,13 @@ system:
     value: 1
 type: campaignFeature
 _stats:
-  compendiumSource: Compendium.pf2e.kingmaker-features.Item.li7WowfuIbGmCxKo
+  compendiumSource: null
   duplicateSource: null
-  coreVersion: '13.346'
+  coreVersion: '14.364'
   systemId: pf2e
-  systemVersion: 7.2.3
-  createdTime: 1719728560488
-  modifiedTime: 1752208111692
+  systemVersion: 8.2.0
+  createdTime: 1782895593647
+  modifiedTime: 1782895593647
   lastModifiedBy: txZjek5EOiCBHPoz
   exportSource: null
 flags:
@@ -75,5 +75,4 @@ _id: RK47mQ4Oo4ZilGdk
 sort: 0
 ownership:
   default: 0
-  txZjek5EOiCBHPoz: 3
 _key: '!items!RK47mQ4Oo4ZilGdk'

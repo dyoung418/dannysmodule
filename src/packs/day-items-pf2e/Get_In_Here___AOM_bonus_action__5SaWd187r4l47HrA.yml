@@ -1,0 +1,48 @@
+folder: null
+name: Get In Here! (AOM bonus action)
+type: action
+effects: []
+system:
+  _migration:
+    version: 0.959
+    previous:
+      schema: 0.955
+      foundry: '14.361'
+      system: 8.1.2
+  description:
+    value: <p>The boss yells "Get In Here!" and a new minion enters the battle.</p>
+    gm: ''
+  publication:
+    title: ''
+    authors: MCDM AOM
+    license: OGL
+    remaster: false
+  rules: []
+  slug: null
+  traits:
+    otherTags: []
+    value: []
+  actionType:
+    value: action
+  actions:
+    value: 1
+  category: offensive
+  deathNote: false
+_id: 5SaWd187r4l47HrA
+img: systems/pf2e/icons/default-icons/action.svg
+flags: {}
+_stats:
+  coreVersion: '14.364'
+  systemId: pf2e
+  systemVersion: 8.2.0
+  createdTime: 1782895593656
+  modifiedTime: 1782895593657
+  lastModifiedBy: txZjek5EOiCBHPoz
+  exportSource: null
+  compendiumSource: null
+  duplicateSource: null
+ownership:
+  default: 0
+  txZjek5EOiCBHPoz: 3
+sort: 0
+_key: '!items!5SaWd187r4l47HrA'

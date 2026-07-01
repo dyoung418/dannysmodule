@@ -1,0 +1,68 @@
+folder: rCHMSc086SLXl7sc
+name: Frostbite
+type: effect
+effects: []
+system:
+  _migration:
+    version: 0.959
+    previous: null
+  description:
+    value: >-
+      <p>This is the final, duration-limited effect that you want the aura to
+      infect people with. it stay with the person who goes into the aura even
+      after they exit the aura, but will automatically go away when the duration
+      is done.</p><p>In this example, this effect gives the Slowed 1 condition
+      (conditions are different and simpler than effects so we need to wrap
+      slowed in this effect to give it a duration).</p>
+    gm: ''
+  publication:
+    title: ''
+    authors: ''
+    license: OGL
+    remaster: false
+  rules:
+    - key: GrantItem
+      comment: This is the UUID of the Slowed condition
+      uuid: Compendium.pf2e.conditionitems.Item.xYTAsEpcJE1Ccni3
+      alterations:
+        - mode: override
+          property: badge-value
+          value: 1
+  slug: null
+  traits:
+    otherTags: []
+    value: []
+  level:
+    value: 1
+  duration:
+    value: 1
+    unit: rounds
+    expiry: turn-end
+    sustained: false
+  tokenIcon:
+    show: true
+  unidentified: false
+  start:
+    value: 0
+    initiative: null
+  badge: null
+  fromSpell: false
+  context: null
+_id: mllothiwSTUksSfS
+img: systems/pf2e/icons/default-icons/effect.svg
+flags: {}
+_stats:
+  coreVersion: '14.364'
+  systemId: pf2e
+  systemVersion: 8.2.0
+  createdTime: 1782895593657
+  modifiedTime: 1782895593658
+  lastModifiedBy: txZjek5EOiCBHPoz
+  exportSource: null
+  compendiumSource: null
+  duplicateSource: null
+ownership:
+  default: 0
+  txZjek5EOiCBHPoz: 3
+sort: 0
+_key: '!items!mllothiwSTUksSfS'

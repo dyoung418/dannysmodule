@@ -1,0 +1,65 @@
+folder: rCHMSc086SLXl7sc
+name: Frost Aura Tracker middleman
+type: effect
+effects: []
+system:
+  _migration:
+    version: 0.959
+    previous: null
+  description:
+    value: ''
+    gm: ''
+  publication:
+    title: ''
+    authors: ''
+    license: OGL
+    remaster: false
+  rules:
+    - key: GrantItem
+      comment1: >-
+        This middleman is needed because the aura doesn't preserve duration of
+        the effect it gives
+      comment2: >-
+        Give the UUID of the final duration limited effect - Frostbite in this
+        case
+      uuid: Item.mllothiwSTUksSfS
+      onDeleteActions:
+        granter: cascade
+  slug: null
+  traits:
+    otherTags: []
+    value: []
+  level:
+    value: 1
+  duration:
+    value: -1
+    unit: unlimited
+    expiry: null
+    sustained: false
+  tokenIcon:
+    show: true
+  unidentified: false
+  start:
+    value: 0
+    initiative: null
+  badge: null
+  fromSpell: false
+  context: null
+_id: sPNjpKqTW1U5AsrS
+img: systems/pf2e/icons/default-icons/effect.svg
+flags: {}
+_stats:
+  coreVersion: '14.364'
+  systemId: pf2e
+  systemVersion: 8.2.0
+  createdTime: 1782895593656
+  modifiedTime: 1782895593658
+  lastModifiedBy: txZjek5EOiCBHPoz
+  exportSource: null
+  compendiumSource: null
+  duplicateSource: null
+ownership:
+  default: 0
+  txZjek5EOiCBHPoz: 3
+sort: 0
+_key: '!items!sPNjpKqTW1U5AsrS'

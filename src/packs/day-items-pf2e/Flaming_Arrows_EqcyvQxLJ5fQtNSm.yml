@@ -18,12 +18,12 @@ system:
         - item:ammo:slug:flaming-arrows
   slug: flaming-arrows
   _migration:
-    version: 0.94
+    version: 0.959
     lastMigration: null
     previous:
-      schema: 0.939
-      foundry: '13.345'
-      system: 7.2.0
+      schema: 0.94
+      foundry: '14.364'
+      system: 8.2.0
   traits:
     otherTags: []
     value: []
@@ -36,7 +36,7 @@ system:
   level:
     value: 0
   quantity: 10
-  baseItem: null
+  baseItem: arrows
   bulk:
     value: 0.1
   hp:
@@ -64,7 +64,7 @@ system:
         description:
           value: ''
     misidentified: {}
-  category: ammo
+  category: other
   uses:
     value: 1
     max: 1
@@ -72,8 +72,8 @@ system:
   damage: null
   usage:
     value: held-in-one-hand
-  stackGroup: arrows
   spell: null
+  craftableAs: null
 type: consumable
 flags:
   core: {}
@@ -81,15 +81,14 @@ effects: []
 folder: null
 ownership:
   default: 0
-  bNdAkTLPkoaPdhVE: 3
 _stats:
   compendiumSource: null
   duplicateSource: null
-  coreVersion: '13.346'
+  coreVersion: '14.364'
   systemId: pf2e
-  systemVersion: 7.2.3
-  createdTime: 1718289468334
-  modifiedTime: 1752208111692
+  systemVersion: 8.2.0
+  createdTime: 1782895593644
+  modifiedTime: 1782895593644
   lastModifiedBy: txZjek5EOiCBHPoz
   exportSource: null
 _id: EqcyvQxLJ5fQtNSm

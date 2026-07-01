@@ -5,7 +5,7 @@ effects: []
 system:
   description:
     gm: ''
-    value: "<p>A gladiatorial arena is a sprawling open-air field surrounded\_by seating and viewing areas. It also includes extensive\_underground barracks and training facilities for gladiators\_to use.<br /><strong>Lots </strong>4;\_<br /><strong>Cost\_</strong>58 RP, 10 Lumber, 30 Stone<br /><strong>Construction </strong>Warfare (master) DC 34<br /><strong>Upgrade </strong>From arena<br />Item Bonus +3 item bonus to Celebrate Holiday, to Hire<br />Adventurers, and to Warfare checks made in order to\_Quell Unrest\_</p>\n<p>Effects A gladiatorial arena allows a PC in the settlement\_to retrain combat-themed feats (at the GM’s discretion)\_more efficiently; doing so takes only 4 days rather than\_a week of downtime.</p>"
+    value: "<p>A gladiatorial arena is a sprawling open-air field surrounded\_by seating and viewing areas. It also includes extensive\_underground barracks and training facilities for gladiators\_to use.<br><strong>Lots </strong>4;\_<br><strong>Cost\_</strong>58 RP, 10 Lumber, 30 Stone<br><strong>Construction </strong>Warfare (master) DC 34<br><strong>Upgrade </strong>From arena<br>Item Bonus +3 item bonus to Celebrate Holiday, to Hire<br>Adventurers, and to Warfare checks made in order to\_Quell Unrest\_</p>\n<p>Effects A gladiatorial arena allows a PC in the settlement\_to retrain combat-themed feats (at the GM’s discretion)\_more efficiently; doing so takes only 4 days rather than\_a week of downtime.</p>"
   rules:
     - hideIfDisabled: true
       key: FlatModifier
@@ -24,11 +24,11 @@ system:
       value: 3
   slug: null
   _migration:
-    version: 0.94
+    version: 0.959
     previous:
-      schema: 0.939
-      foundry: '13.345'
-      system: 7.2.0
+      schema: 0.94
+      foundry: '14.364'
+      system: 8.2.0
   traits:
     otherTags: []
     value:
@@ -54,16 +54,15 @@ img: modules/pf2e-kingmaker/assets/maps-settlements/buildings/occult-shop.webp
 sort: 0
 ownership:
   default: 0
-  txZjek5EOiCBHPoz: 3
 flags: {}
 _stats:
   compendiumSource: null
   duplicateSource: null
-  coreVersion: '13.346'
+  coreVersion: '14.364'
   systemId: pf2e
-  systemVersion: 7.2.3
-  createdTime: 1718606591261
-  modifiedTime: 1752208111692
+  systemVersion: 8.2.0
+  createdTime: 1782895593650
+  modifiedTime: 1782895593650
   lastModifiedBy: txZjek5EOiCBHPoz
   exportSource: null
 _key: '!items!TWGknbT4G4mo1VWb'

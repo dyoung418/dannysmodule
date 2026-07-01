@@ -10,7 +10,7 @@ system:
       waking up from being
       @UUID[Compendium.pf2e.conditionitems.Item.fBnFDH2MTzgFijKf]{Unconscious}</p>
 
-      <hr />
+      <hr>
 
       <p>You refuse to yield the battle, even after you've been knocked off your
       feet and nearly killed. For you, such a brush with death is less something
@@ -21,11 +21,11 @@ system:
   rules: []
   slug: too-angry-to-die
   _migration:
-    version: 0.94
+    version: 0.959
     previous:
-      schema: 0.939
-      foundry: '13.345'
-      system: 7.2.0
+      schema: 0.94
+      foundry: '14.364'
+      system: 8.2.0
   traits:
     otherTags: []
     value:
@@ -64,15 +64,14 @@ folder: lVJfRR3nUB6MU7dI
 sort: 175000
 ownership:
   default: 0
-  txZjek5EOiCBHPoz: 3
 _stats:
-  compendiumSource: Compendium.pf2e.feats-srd.Item.oFcn7SDOH6W2QhJl
+  compendiumSource: null
   duplicateSource: null
-  coreVersion: '13.346'
+  coreVersion: '14.364'
   systemId: pf2e
-  systemVersion: 7.2.3
-  createdTime: 1718606591261
-  modifiedTime: 1752208111692
+  systemVersion: 8.2.0
+  createdTime: 1782895593646
+  modifiedTime: 1782895593646
   lastModifiedBy: txZjek5EOiCBHPoz
   exportSource: null
 _key: '!items!eeEhhv0FmuMhZo2i'

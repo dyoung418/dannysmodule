@@ -15,11 +15,11 @@ system:
   rules: []
   slug: the-harder-they-fall
   _migration:
-    version: 0.94
+    version: 0.959
     previous:
-      schema: 0.939
-      foundry: '13.345'
-      system: 7.2.0
+      schema: 0.94
+      foundry: '14.364'
+      system: 8.2.0
   traits:
     otherTags: []
     value:
@@ -56,15 +56,14 @@ folder: lVJfRR3nUB6MU7dI
 sort: 143750
 ownership:
   default: 0
-  txZjek5EOiCBHPoz: 3
 _stats:
-  compendiumSource: Compendium.pf2e.feats-srd.Item.k4QU2edqSoB23foo
+  compendiumSource: null
   duplicateSource: null
-  coreVersion: '13.346'
+  coreVersion: '14.364'
   systemId: pf2e
-  systemVersion: 7.2.3
-  createdTime: 1718606591261
-  modifiedTime: 1752208111692
+  systemVersion: 8.2.0
+  createdTime: 1782895593644
+  modifiedTime: 1782895593645
   lastModifiedBy: txZjek5EOiCBHPoz
   exportSource: null
 _key: '!items!Md2SCTjxDLryuHZw'

@@ -28,8 +28,7 @@ system:
       solid var(--color-border-light-primary);border-bottom:1px solid
       var(--color-border-light-highlight);color:rgb(25, 24,
       19);font-family:Roboto,
-      sans-serif;font-size:14px;font-style:normal;font-variant-ligatures:normal;font-variant-caps:normal;font-weight:400;letter-spacing:normal;orphans:2;text-align:start;text-indent:0px;text-transform:none;widows:2;word-spacing:0px;-webkit-text-stroke-width:0px;white-space:normal;text-decoration-thickness:initial;text-decoration-style:initial;text-decoration-color:initial"
-      /><p
+      sans-serif;font-size:14px;font-style:normal;font-variant-ligatures:normal;font-variant-caps:normal;font-weight:400;letter-spacing:normal;orphans:2;text-align:start;text-indent:0px;text-transform:none;widows:2;word-spacing:0px;-webkit-text-stroke-width:0px;white-space:normal;text-decoration-thickness:initial;text-decoration-style:initial;text-decoration-color:initial"><p
       style="box-sizing:border-box;user-select:text;scrollbar-width:initial;scrollbar-color:initial;margin:0.5em
       0px;color:rgb(25, 24, 19);font-family:Roboto,
       sans-serif;font-size:14px;font-style:normal;font-variant-ligatures:normal;font-variant-caps:normal;font-weight:400;letter-spacing:normal;orphans:2;text-indent:0px;text-transform:none;widows:2;word-spacing:0px;-webkit-text-stroke-width:0px;white-space:normal;text-decoration-thickness:initial;text-decoration-style:initial;text-decoration-color:initial;text-align:start"><span
@@ -99,11 +98,11 @@ system:
         - encounter
   slug: null
   _migration:
-    version: 0.94
+    version: 0.959
     previous:
-      schema: 0.939
-      foundry: '13.345'
-      system: 7.2.0
+      schema: 0.94
+      foundry: '14.364'
+      system: 8.2.0
   traits:
     otherTags: []
     value: []
@@ -130,6 +129,7 @@ system:
     max: 3
     labels: null
     loop: false
+    min: null
   context: null
   unidentified: false
   fromSpell: false
@@ -137,16 +137,15 @@ img: modules/pf2e-kingmaker/assets/actor-portraits/kingmaker/bloom-wyvern.webp
 folder: null
 ownership:
   default: 0
-  txZjek5EOiCBHPoz: 3
 flags: {}
 _stats:
   compendiumSource: null
   duplicateSource: null
-  coreVersion: '13.346'
+  coreVersion: '14.364'
   systemId: pf2e
-  systemVersion: 7.2.3
-  createdTime: 1718606584470
-  modifiedTime: 1752208111692
+  systemVersion: 8.2.0
+  createdTime: 1782895593644
+  modifiedTime: 1782895593644
   lastModifiedBy: txZjek5EOiCBHPoz
   exportSource: null
 _id: 08zmCz8bM0ifoOGY

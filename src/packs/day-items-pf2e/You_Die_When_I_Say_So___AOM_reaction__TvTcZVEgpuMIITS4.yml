@@ -1,0 +1,51 @@
+folder: null
+name: You Die When I Say So! (AOM reaction)
+type: action
+effects: []
+system:
+  _migration:
+    version: 0.959
+    previous:
+      schema: 0.955
+      foundry: '14.361'
+      system: 8.1.2
+  description:
+    value: >-
+      <p>Trigger: A minion is reduced to 0 hit points.</p><p>Reaction: The boss
+      yells "You die when I say so!" and the minion regains 1 hit point, but is
+      still prone.</p>
+    gm: ''
+  publication:
+    title: ''
+    authors: ''
+    license: OGL
+    remaster: false
+  rules: []
+  slug: null
+  traits:
+    otherTags: []
+    value: []
+  actionType:
+    value: reaction
+  actions:
+    value: null
+  category: defensive
+  deathNote: false
+_id: TvTcZVEgpuMIITS4
+img: systems/pf2e/icons/features/classes/iron-will.webp
+flags: {}
+_stats:
+  coreVersion: '14.364'
+  systemId: pf2e
+  systemVersion: 8.2.0
+  createdTime: 1782895593656
+  modifiedTime: 1782895593658
+  lastModifiedBy: txZjek5EOiCBHPoz
+  exportSource: null
+  compendiumSource: null
+  duplicateSource: null
+ownership:
+  default: 0
+  txZjek5EOiCBHPoz: 3
+sort: 0
+_key: '!items!TvTcZVEgpuMIITS4'

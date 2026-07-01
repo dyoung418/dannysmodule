@@ -28,11 +28,11 @@ system:
       type: circumstance
   slug: null
   _migration:
-    version: 0.94
+    version: 0.959
     previous:
-      schema: 0.939
-      foundry: '13.345'
-      system: 7.2.0
+      schema: 0.94
+      foundry: '14.364'
+      system: 8.2.0
   traits:
     otherTags: []
     value: []
@@ -60,20 +60,18 @@ system:
 effects: []
 ownership:
   default: 0
-  txZjek5EOiCBHPoz: 3
 flags:
   core: {}
   scene-packer:
     hash: 7c691340233b756573f82dfabf39a6e919ed2934
 _stats:
-  compendiumSource: >-
-    Compendium.pf2e-kingmaker-tools.kingmaker-tools-camping-effects.Item.ZKJlIqyFgbKDACnG
+  compendiumSource: null
   duplicateSource: null
-  coreVersion: '13.346'
+  coreVersion: '14.364'
   systemId: pf2e
-  systemVersion: 7.2.3
-  createdTime: 1718606591261
-  modifiedTime: 1752208111692
+  systemVersion: 8.2.0
+  createdTime: 1782895593645
+  modifiedTime: 1782895593645
   lastModifiedBy: txZjek5EOiCBHPoz
   exportSource: null
 folder: lVJfRR3nUB6MU7dI

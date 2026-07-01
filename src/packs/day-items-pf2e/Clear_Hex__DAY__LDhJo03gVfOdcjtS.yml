@@ -25,7 +25,7 @@ system:
       later incorporate these buildings (or repair ruined ones) into a
       Settlement you build here later (see page 542). Regardless of the skill
       used, <strong>increase the basic DC by 2 if the hex to be cleared is not
-      yet part of your kingdom.</strong></p><hr /><p><strong>Critical
+      yet part of your kingdom.</strong></p><hr><p><strong>Critical
       Success</strong> You successfully clear the hex. If you spent RP to
       attempt this activity, you're refunded half of the RP cost. If you were
       removing dangerous creatures (but not hazards) from the hex, your
@@ -37,11 +37,11 @@ system:
   rules: []
   slug: clear-hex
   _migration:
-    version: 0.94
+    version: 0.959
     previous:
-      schema: 0.939
-      foundry: '13.345'
-      system: 7.2.0
+      schema: 0.94
+      foundry: '14.364'
+      system: 8.2.0
   traits:
     otherTags: []
     value:
@@ -65,13 +65,13 @@ system:
     value: 1
 type: campaignFeature
 _stats:
-  compendiumSource: Compendium.pf2e.kingmaker-features.Item.JHLZPhd9APIqJHsA
+  compendiumSource: null
   duplicateSource: null
-  coreVersion: '13.346'
+  coreVersion: '14.364'
   systemId: pf2e
-  systemVersion: 7.2.3
-  createdTime: 1719728560488
-  modifiedTime: 1752208111692
+  systemVersion: 8.2.0
+  createdTime: 1782895593646
+  modifiedTime: 1782895593646
   lastModifiedBy: txZjek5EOiCBHPoz
   exportSource: null
 flags:
@@ -81,5 +81,4 @@ _id: LDhJo03gVfOdcjtS
 sort: 0
 ownership:
   default: 0
-  txZjek5EOiCBHPoz: 3
 _key: '!items!LDhJo03gVfOdcjtS'

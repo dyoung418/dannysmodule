@@ -15,7 +15,7 @@ system:
       @UUID[Compendium.dannysmodule.day-journals.JournalEntry.aI76gXcm5nen7azD.JournalEntryPage.dRu66xNqJ9Ihe1or#level-based-dcs]{DC
       by level}). If your army has already learned its maximum number of
       tactics, the newly learned tactic replaces a previously learned tactic of
-      your choice.</p><hr /><p><strong>Critical Success</strong> The army learns
+      your choice.</p><hr><p><strong>Critical Success</strong> The army learns
       the tactic and then becomes efficient.</p><p><strong>Success</strong> The
       army learns the tactic.</p><p><strong>Failure</strong> The army fails to
       learn the tactic.</p><p><strong>Critical Failure</strong> The army not
@@ -24,11 +24,11 @@ system:
   rules: []
   slug: train-army
   _migration:
-    version: 0.94
+    version: 0.959
     previous:
-      schema: 0.939
-      foundry: '13.345'
-      system: 7.2.0
+      schema: 0.94
+      foundry: '14.364'
+      system: 8.2.0
   traits:
     otherTags: []
     value:
@@ -52,13 +52,13 @@ system:
     value: 1
 type: campaignFeature
 _stats:
-  compendiumSource: Compendium.pf2e.kingmaker-features.Item.bc9JdbyJ8HWrpLLx
+  compendiumSource: null
   duplicateSource: null
-  coreVersion: '13.346'
+  coreVersion: '14.364'
   systemId: pf2e
-  systemVersion: 7.2.3
-  createdTime: 1719728560488
-  modifiedTime: 1752208111692
+  systemVersion: 8.2.0
+  createdTime: 1782895593648
+  modifiedTime: 1782895593648
   lastModifiedBy: txZjek5EOiCBHPoz
   exportSource: null
 flags:
@@ -68,5 +68,4 @@ _id: T7YEnIGgtkDbO83K
 sort: 0
 ownership:
   default: 0
-  txZjek5EOiCBHPoz: 3
 _key: '!items!T7YEnIGgtkDbO83K'

@@ -16,27 +16,27 @@ system:
       check's DC is either the
       @UUID[JournalEntry.ufhwExwde2g3iEa7.JournalEntryPage.eATwgXlHtXmEU16S]{group's
       Negotiation DC} (see sidebar) <strong>or your kingdom's Control DC,
-      whichever is higher.</strong></p><hr /><p><strong>Critical
-      Success</strong> You successfully establish a trade agreement with your
-      target, and your merchants return with gifts! Immediately roll 2 Resource
-      Dice, then gain RP equal to the result of
-      roll.</p><p><strong>Success</strong> You successfully establish a trade
-      agreement.</p><p><strong>Failure</strong> Your traders reach their
-      destination but need to sweeten the deal to secure the trade agreement.
-      Immediately roll 2 Resource Dice, and then spend RP equal to the result of
-      this roll. If you do so, you successfully establish a trade agreement,
-      otherwise the attempt fails.</p><p><strong>Critical Failure</strong> Your
-      trade agreement is a total loss and your traders do not return. Gain 1
-      Unrest, and until the end of the next Kingdom turn, take a –1 circumstance
-      penalty to all Economy-related checks.</p>
+      whichever is higher.</strong></p><hr><p><strong>Critical Success</strong>
+      You successfully establish a trade agreement with your target, and your
+      merchants return with gifts! Immediately roll 2 Resource Dice, then gain
+      RP equal to the result of roll.</p><p><strong>Success</strong> You
+      successfully establish a trade agreement.</p><p><strong>Failure</strong>
+      Your traders reach their destination but need to sweeten the deal to
+      secure the trade agreement. Immediately roll 2 Resource Dice, and then
+      spend RP equal to the result of this roll. If you do so, you successfully
+      establish a trade agreement, otherwise the attempt
+      fails.</p><p><strong>Critical Failure</strong> Your trade agreement is a
+      total loss and your traders do not return. Gain 1 Unrest, and until the
+      end of the next Kingdom turn, take a –1 circumstance penalty to all
+      Economy-related checks.</p>
   rules: []
   slug: establish-trade-agreement
   _migration:
-    version: 0.94
+    version: 0.959
     previous:
-      schema: 0.939
-      foundry: '13.345'
-      system: 7.2.0
+      schema: 0.94
+      foundry: '14.364'
+      system: 8.2.0
   traits:
     otherTags: []
     value:
@@ -60,13 +60,13 @@ system:
     value: 1
 type: campaignFeature
 _stats:
-  compendiumSource: Compendium.pf2e.kingmaker-features.Item.3qJcDEZNwJV6hpkg
+  compendiumSource: null
   duplicateSource: null
-  coreVersion: '13.346'
+  coreVersion: '14.364'
   systemId: pf2e
-  systemVersion: 7.2.3
-  createdTime: 1719728560488
-  modifiedTime: 1752208111692
+  systemVersion: 8.2.0
+  createdTime: 1782895593646
+  modifiedTime: 1782895593646
   lastModifiedBy: txZjek5EOiCBHPoz
   exportSource: null
 flags:
@@ -76,5 +76,4 @@ _id: y6HAWgQezqHokOis
 sort: 0
 ownership:
   default: 0
-  txZjek5EOiCBHPoz: 3
 _key: '!items!y6HAWgQezqHokOis'

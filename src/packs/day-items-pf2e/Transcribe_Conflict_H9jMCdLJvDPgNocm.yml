@@ -26,7 +26,7 @@ system:
       demon, the bonus would apply only to wrath demons, not to other demons.
       The GM decides if a foe who is disguised grants you this bonus.</p>
 
-      <hr />
+      <hr>
 
       <p><strong>Heightened (5th)</strong> The bonus to initiative increases to
       +2 and the duration increases to 8 hours.</p>
@@ -39,12 +39,12 @@ system:
   rules: []
   slug: transcribe-conflict
   _migration:
-    version: 0.94
+    version: 0.959
     lastMigration: null
     previous:
-      schema: 0.939
-      foundry: '13.345'
-      system: 7.2.0
+      schema: 0.94
+      foundry: '14.364'
+      system: 8.2.0
   traits:
     otherTags: []
     value:
@@ -88,15 +88,14 @@ effects: []
 folder: lVJfRR3nUB6MU7dI
 ownership:
   default: 3
-  txZjek5EOiCBHPoz: 3
 _stats:
-  compendiumSource: Compendium.pf2e.spells-srd.Item.YZnLggKDHkMY4cnw
+  compendiumSource: null
   duplicateSource: null
-  coreVersion: '13.346'
+  coreVersion: '14.364'
   systemId: pf2e
-  systemVersion: 7.2.3
-  createdTime: 1718606591261
-  modifiedTime: 1752208111692
+  systemVersion: 8.2.0
+  createdTime: 1782895593646
+  modifiedTime: 1782895593646
   lastModifiedBy: txZjek5EOiCBHPoz
   exportSource: null
 _id: H9jMCdLJvDPgNocm

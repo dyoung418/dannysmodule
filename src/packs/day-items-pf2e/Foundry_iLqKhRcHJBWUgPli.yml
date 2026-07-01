@@ -5,7 +5,7 @@ effects: []
 system:
   description:
     gm: ''
-    value: "<ul class=\"traits\">\n<li>BUILDING</li>\n</ul>\n<p>A foundry is a facility used to refine ore into finished metal</p>\n<hr />\n<p><strong>Lots</strong>\_2;\_<strong>Cost</strong>\_16 RP, 5 Lumber, 2 Ore, 3 Stone</p>\n<p><strong>Construction</strong>\_Industry (trained) DC 18</p>\n<p><strong>Item Bonus</strong>\_+1 item bonus to\_<a class=\"content-link\" draggable=\"true\" data-uuid=\"Compendium.pf2e.kingmaker-features.Item.8B6PmgtMH2TthBSX\" data-id=\"8B6PmgtMH2TthBSX\" data-type=\"Item\" data-pack=\"pf2e.kingmaker-features\" data-tooltip=\"Campaign Feature Item\">Establish Work Site</a>\_(mine)</p>\n<p><strong>Effects</strong> By processing ore in a foundry, your settlements grow more efficient at storing your kingdom’s Commodities. Each foundry in your kingdom increases your maximum Ore Commodity capacity by 1. A foundry cannot share a block with a Residential structure</p>"
+    value: "<ul class=\"traits\">\n<li>BUILDING</li>\n</ul>\n<p>A foundry is a facility used to refine ore into finished metal</p>\n<hr>\n<p><strong>Lots</strong>\_2;\_<strong>Cost</strong>\_16 RP, 5 Lumber, 2 Ore, 3 Stone</p>\n<p><strong>Construction</strong>\_Industry (trained) DC 18</p>\n<p><strong>Item Bonus</strong>\_+1 item bonus to\_<a class=\"content-link\" draggable=\"true\" data-uuid=\"Compendium.pf2e.kingmaker-features.Item.8B6PmgtMH2TthBSX\" data-id=\"8B6PmgtMH2TthBSX\" data-type=\"Item\" data-pack=\"pf2e.kingmaker-features\" data-tooltip=\"Campaign Feature Item\">Establish Work Site</a>\_(mine)</p>\n<p><strong>Effects</strong> By processing ore in a foundry, your settlements grow more efficient at storing your kingdom’s Commodities. Each foundry in your kingdom increases your maximum Ore Commodity capacity by 1. A foundry cannot share a block with a Residential structure</p>"
   rules:
     - hideIfDisabled: true
       key: FlatModifier
@@ -23,11 +23,11 @@ system:
         - action:establish-work-site
   slug: null
   _migration:
-    version: 0.94
+    version: 0.959
     previous:
-      schema: 0.939
-      foundry: '13.345'
-      system: 7.2.0
+      schema: 0.94
+      foundry: '14.364'
+      system: 8.2.0
   traits:
     otherTags: []
     value:
@@ -53,16 +53,15 @@ img: modules/pf2e-kingmaker/assets/maps-settlements/buildings/foundry.webp
 sort: 0
 ownership:
   default: 0
-  txZjek5EOiCBHPoz: 3
 flags: {}
 _stats:
   compendiumSource: null
   duplicateSource: null
-  coreVersion: '13.346'
+  coreVersion: '14.364'
   systemId: pf2e
-  systemVersion: 7.2.3
-  createdTime: 1718606591261
-  modifiedTime: 1752208111692
+  systemVersion: 8.2.0
+  createdTime: 1782895593649
+  modifiedTime: 1782895593649
   lastModifiedBy: txZjek5EOiCBHPoz
   exportSource: null
 _key: '!items!iLqKhRcHJBWUgPli'

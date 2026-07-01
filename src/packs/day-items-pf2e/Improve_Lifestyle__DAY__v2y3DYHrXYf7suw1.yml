@@ -8,7 +8,7 @@ system:
       <p>Attempt a basic @Check[politics|dc:resolve(@kingdom.control.dc)] check
       to draw upon your kingdom's treasury to enhance the quality of life for
       your citizens. This activity can be taken only during the Commerce phase
-      of a Kingdom turn.</p><hr /><p><strong>Critical Success</strong> Your push
+      of a Kingdom turn.</p><hr><p><strong>Critical Success</strong> Your push
       to Improve Lifestyles affords your citizens significant free time to
       pursue recreational activities. For the remainder of the Kingdom turn, you
       gain a +2 circumstance bonus to Culture-based checks. Pull
@@ -32,11 +32,11 @@ system:
   rules: []
   slug: improve-lifestyle
   _migration:
-    version: 0.94
+    version: 0.959
     previous:
-      schema: 0.939
-      foundry: '13.345'
-      system: 7.2.0
+      schema: 0.94
+      foundry: '14.364'
+      system: 8.2.0
   traits:
     otherTags: []
     value:
@@ -60,13 +60,13 @@ system:
     value: 1
 type: campaignFeature
 _stats:
-  compendiumSource: Compendium.pf2e.kingmaker-features.Item.nWAGfa4DoEODaKsq
+  compendiumSource: null
   duplicateSource: null
-  coreVersion: '13.346'
+  coreVersion: '14.364'
   systemId: pf2e
-  systemVersion: 7.2.3
-  createdTime: 1719728560488
-  modifiedTime: 1752208111692
+  systemVersion: 8.2.0
+  createdTime: 1782895593647
+  modifiedTime: 1782895593647
   lastModifiedBy: txZjek5EOiCBHPoz
   exportSource: null
 flags:
@@ -76,5 +76,4 @@ _id: v2y3DYHrXYf7suw1
 sort: 0
 ownership:
   default: 0
-  txZjek5EOiCBHPoz: 3
 _key: '!items!v2y3DYHrXYf7suw1'

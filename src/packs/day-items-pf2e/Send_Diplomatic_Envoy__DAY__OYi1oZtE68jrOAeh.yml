@@ -12,9 +12,9 @@ system:
       Diplomatic Envoy to a nation with which your kingdom is at war take a –4
       circumstance penalty to the check and have the result worsened one degree.
       At the GM's option, some wars might be so heated that this activity has no
-      chance of success.</p><hr /><p><strong>Critical Success</strong> Your
-      envoys are received quite warmly and make a good first impression. You
-      establish diplomatic relations with the group (see
+      chance of success.</p><hr><p><strong>Critical Success</strong> Your envoys
+      are received quite warmly and make a good first impression. You establish
+      diplomatic relations with the group (see
       @UUID[JournalEntry.ufhwExwde2g3iEa7.JournalEntryPage.C3Lquo9apWuxCXl3]{page
       534 for more information}) and gain a +2 circumstance bonus to all checks
       made with that group until the next Kingdom
@@ -36,11 +36,11 @@ system:
   rules: []
   slug: send-diplomatic-envoy
   _migration:
-    version: 0.94
+    version: 0.959
     previous:
-      schema: 0.939
-      foundry: '13.345'
-      system: 7.2.0
+      schema: 0.94
+      foundry: '14.364'
+      system: 8.2.0
   traits:
     otherTags: []
     value:
@@ -64,13 +64,13 @@ system:
     value: 1
 type: campaignFeature
 _stats:
-  compendiumSource: Compendium.pf2e.kingmaker-features.Item.FGQfcX6BelYrJatp
+  compendiumSource: null
   duplicateSource: null
-  coreVersion: '13.346'
+  coreVersion: '14.364'
   systemId: pf2e
-  systemVersion: 7.2.3
-  createdTime: 1719728560488
-  modifiedTime: 1752208111692
+  systemVersion: 8.2.0
+  createdTime: 1782895593648
+  modifiedTime: 1782895593648
   lastModifiedBy: txZjek5EOiCBHPoz
   exportSource: null
 flags:
@@ -80,5 +80,4 @@ _id: OYi1oZtE68jrOAeh
 sort: 0
 ownership:
   default: 0
-  txZjek5EOiCBHPoz: 3
 _key: '!items!OYi1oZtE68jrOAeh'

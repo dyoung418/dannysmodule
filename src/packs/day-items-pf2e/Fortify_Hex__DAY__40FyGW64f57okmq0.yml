@@ -13,7 +13,7 @@ system:
       @Check[defense|dc:resolve(@kingdom.control.dc)] check. A fortified hex
       grants an additional bonus in warfare (see Appendix 3), but also gives
       traveling PCs a place to rest that prevents wandering monsters from
-      interrupting their rest.</p><hr /><p><strong>Critical Success</strong> You
+      interrupting their rest.</p><hr><p><strong>Critical Success</strong> You
       find a defensible position for your fortification and finish construction
       efficiently. Gain a refund of half the RP you spent to build in the hex,
       then reduce Unrest by 1.</p><p><strong>Success</strong> You establish your
@@ -26,11 +26,11 @@ system:
   rules: []
   slug: fortify-hex
   _migration:
-    version: 0.94
+    version: 0.959
     previous:
-      schema: 0.939
-      foundry: '13.345'
-      system: 7.2.0
+      schema: 0.94
+      foundry: '14.364'
+      system: 8.2.0
   traits:
     otherTags: []
     value:
@@ -54,13 +54,13 @@ system:
     value: 1
 type: campaignFeature
 _stats:
-  compendiumSource: Compendium.pf2e.kingmaker-features.Item.ie9Wuohdx3JgzRbP
+  compendiumSource: null
   duplicateSource: null
-  coreVersion: '13.346'
+  coreVersion: '14.364'
   systemId: pf2e
-  systemVersion: 7.2.3
-  createdTime: 1719728560488
-  modifiedTime: 1752208111692
+  systemVersion: 8.2.0
+  createdTime: 1782895593647
+  modifiedTime: 1782895593647
   lastModifiedBy: txZjek5EOiCBHPoz
   exportSource: null
 flags:
@@ -70,5 +70,4 @@ _id: 40FyGW64f57okmq0
 sort: 0
 ownership:
   default: 0
-  txZjek5EOiCBHPoz: 3
 _key: '!items!40FyGW64f57okmq0'

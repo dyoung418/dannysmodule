@@ -1,0 +1,52 @@
+folder: null
+name: 'Battle Places! (AOM V1: Villian Round 1)'
+type: action
+effects: []
+system:
+  _migration:
+    version: 0.959
+    previous:
+      schema: 0.955
+      foundry: '14.361'
+      system: 8.1.2
+  description:
+    value: >-
+      <p>As a free action after any player's turn in the first round (outside of
+      its own turn), the boss can yell "Battle Places!" and all minions can take
+      one step and one stride action.  They use this to position themselves
+      optimally for battle (e.g. flanking, spreading out, etc.)</p>
+    gm: ''
+  publication:
+    title: ''
+    authors: ''
+    license: OGL
+    remaster: false
+  rules: []
+  slug: null
+  traits:
+    otherTags: []
+    value: []
+  actionType:
+    value: free
+  actions:
+    value: null
+  category: null
+  deathNote: false
+_id: vjNiNPynoNS1jfCT
+img: systems/pf2e/icons/default-icons/action.svg
+flags: {}
+_stats:
+  coreVersion: '14.364'
+  systemId: pf2e
+  systemVersion: 8.2.0
+  createdTime: 1782895593655
+  modifiedTime: 1782895593657
+  lastModifiedBy: txZjek5EOiCBHPoz
+  exportSource: null
+  compendiumSource: null
+  duplicateSource: null
+ownership:
+  default: 0
+  txZjek5EOiCBHPoz: 3
+sort: 0
+_key: '!items!vjNiNPynoNS1jfCT'

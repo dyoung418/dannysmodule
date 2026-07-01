@@ -1,0 +1,79 @@
+folder: rCHMSc086SLXl7sc
+name: Infecting Aura - Frostbite
+type: action
+effects: []
+system:
+  _migration:
+    version: 0.959
+    previous: null
+  description:
+    value: >-
+      <p>Aura's usually bestow some effect on others only when they are in the
+      aura and it goes away when they leave the aura.</p><p>This one is
+      different. This is an aura that "infects" a person with some effect that
+      stays with them even when they leave the aura. If the infection lasts
+      indefinitely, then you can do this rather simply by specifying
+      "removeOnExit": false in the "effects" portion of the rule elements of the
+      Aura. However, if you want the infection to be something that expires
+      automatically (like after 1 round), then you need to use the method in
+      this aura and the two companion effects (the aura gives the "aura tracker"
+      effect which is a middleman that gives the "frostbite" effect which has a
+      duration limit).</p><p>Note that this aura will give 2 effects, the
+      middleman and the final.  The final will expire automatically, but the
+      middleman will remain on the character and need to be manually removed (it
+      has no lasting effect, but it is unfortunate that I don't yet have a way
+      to make it go away after giving the person the final effect).</p>
+    gm: ''
+  publication:
+    title: ''
+    authors: ''
+    license: OGL
+    remaster: false
+  rules:
+    - key: Aura
+      slug: frostbite-aura
+      radius: 10
+      traits:
+        - cold
+      effects:
+        - comment1: This is the UUID of the middleman - the aura tracker
+          uuid: Item.sPNjpKqTW1U5AsrS
+          comment2: could could change affects to 'all', or 'enemies'
+          affects: all
+          includesSelf: false
+          removeOnExit: false
+      appearance:
+        border:
+          color: '#7fd4ff'
+        highlight:
+          color: '#7fd4ff'
+          alpha: 0.25
+  slug: null
+  traits:
+    otherTags: []
+    value:
+      - cold
+  actionType:
+    value: passive
+  actions:
+    value: null
+  category: null
+  deathNote: false
+_id: b764rytNPY1OGWkq
+img: icons/skills/targeting/crosshair-arrowhead-blue.webp
+flags: {}
+_stats:
+  coreVersion: '14.364'
+  systemId: pf2e
+  systemVersion: 8.2.0
+  createdTime: 1782895593657
+  modifiedTime: 1782895593658
+  lastModifiedBy: txZjek5EOiCBHPoz
+  exportSource: null
+  compendiumSource: null
+  duplicateSource: null
+ownership:
+  default: 0
+  txZjek5EOiCBHPoz: 3
+sort: 0
+_key: '!items!b764rytNPY1OGWkq'

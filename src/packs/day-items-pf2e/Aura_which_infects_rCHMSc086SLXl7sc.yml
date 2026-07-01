@@ -1,20 +1,20 @@
-name: Kingdom Feats
-sorting: a
-folder: ISFvhvQJpbdNXXsZ
 type: Item
-_id: Fv7CAYaryDD6fff5
+folder: null
+name: Aura which infects
+color: null
+sorting: a
+_id: rCHMSc086SLXl7sc
+description: ''
 sort: 0
-color: '#0e9a11'
 flags: {}
 _stats:
-  compendiumSource: null
-  duplicateSource: null
   coreVersion: '14.364'
   systemId: pf2e
   systemVersion: 8.2.0
   createdTime: 1782895593563
   modifiedTime: 1782895593563
   lastModifiedBy: txZjek5EOiCBHPoz
+  compendiumSource: null
+  duplicateSource: null
   exportSource: null
-description: ''
-_key: '!folders!Fv7CAYaryDD6fff5'
+_key: '!folders!rCHMSc086SLXl7sc'

@@ -10,7 +10,7 @@ system:
       @UUID[Compendium.pf2e.actionspf2e.Item.2u915NdUyQan6uKF]{Demoralize} you
       or Lie to you.</p>
 
-      <hr />
+      <hr>
 
       <p>The world is full of obnoxious weasels who think they can pull one over
       on you-put them in their place! When an adjacent creature attempts to Lie
@@ -22,11 +22,11 @@ system:
   rules: []
   slug: say-that-again
   _migration:
-    version: 0.94
+    version: 0.959
     previous:
-      schema: 0.939
-      foundry: '13.345'
-      system: 7.2.0
+      schema: 0.94
+      foundry: '14.364'
+      system: 8.2.0
   traits:
     otherTags: []
     value:
@@ -65,15 +65,14 @@ folder: lVJfRR3nUB6MU7dI
 sort: 137500
 ownership:
   default: 3
-  txZjek5EOiCBHPoz: 3
 _stats:
-  compendiumSource: Compendium.pf2e.feats-srd.Item.hAsaNx1dd3xvvAsE
+  compendiumSource: null
   duplicateSource: null
-  coreVersion: '13.346'
+  coreVersion: '14.364'
   systemId: pf2e
-  systemVersion: 7.2.3
-  createdTime: 1718606591261
-  modifiedTime: 1752208111692
+  systemVersion: 8.2.0
+  createdTime: 1782895593645
+  modifiedTime: 1782895593645
   lastModifiedBy: txZjek5EOiCBHPoz
   exportSource: null
 _key: '!items!LqdXeb6cfFMqEXJK'

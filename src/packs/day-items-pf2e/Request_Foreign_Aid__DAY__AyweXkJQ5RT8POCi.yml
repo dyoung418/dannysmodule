@@ -6,11 +6,11 @@ system:
     gm: ''
     value: >-
       <p><strong>Requirements</strong> You have diplomatic relations with the
-      group you are requesting aid from.</p><hr /><p>When disaster strikes, you
+      group you are requesting aid from.</p><hr><p>When disaster strikes, you
       send out a call for help to another nation with whom you have diplomatic
       relations. The DC of this check is equal to the other group's
       @UUID[JournalEntry.ufhwExwde2g3iEa7.JournalEntryPage.eATwgXlHtXmEU16S]{Negotiation
-      DC +2} (see the sidebar on page 519).</p><hr /><p><strong>Critical
+      DC +2} (see the sidebar on page 519).</p><hr><p><strong>Critical
       Success</strong> Your ally's aid grants a +4 circumstance bonus to any one
       Kingdom skill check attempted during the remainder of this Kingdom turn.
       You can choose to apply this bonus to any Kingdom skill check after the
@@ -32,11 +32,11 @@ system:
   rules: []
   slug: request-foreign-aid
   _migration:
-    version: 0.94
+    version: 0.959
     previous:
-      schema: 0.939
-      foundry: '13.345'
-      system: 7.2.0
+      schema: 0.94
+      foundry: '14.364'
+      system: 8.2.0
   traits:
     otherTags: []
     value:
@@ -60,13 +60,13 @@ system:
     value: 1
 type: campaignFeature
 _stats:
-  compendiumSource: Compendium.pf2e.kingmaker-features.Item.QKBoVicXa0GfKrYG
+  compendiumSource: null
   duplicateSource: null
-  coreVersion: '13.346'
+  coreVersion: '14.364'
   systemId: pf2e
-  systemVersion: 7.2.3
-  createdTime: 1719728560488
-  modifiedTime: 1752208111692
+  systemVersion: 8.2.0
+  createdTime: 1782895593648
+  modifiedTime: 1782895593648
   lastModifiedBy: txZjek5EOiCBHPoz
   exportSource: null
 flags:
@@ -76,5 +76,4 @@ _id: AyweXkJQ5RT8POCi
 sort: 0
 ownership:
   default: 0
-  txZjek5EOiCBHPoz: 3
 _key: '!items!AyweXkJQ5RT8POCi'

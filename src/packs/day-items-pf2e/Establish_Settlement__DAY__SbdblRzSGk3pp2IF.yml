@@ -7,7 +7,7 @@ system:
     value: >-
       <p><strong>Requirements</strong> The hex in which you're establishing the
       settlement has been Cleared and doesn't currently have a settlement
-      (including a Freehold) in it.</p><hr /><p>You draw up plans, gather
+      (including a Freehold) in it.</p><hr><p>You draw up plans, gather
       resources, entice citizens, and establish boundaries to found a brand new
       settlement in the hex. Attempt a basic
       @Check[engineering|dc:resolve(@kingdom.control.dc)],
@@ -17,22 +17,22 @@ system:
       pay the RP required by the result of this check, treat your result as a
       critical failure. A settlement always starts as a village. See
       @UUID[JournalEntry.BIu4C1T1RR17QNwl.JournalEntryPage.YzEamDkFcnQo557d]{page
-      540} for further details about building settlements.</p><hr
-      /><p><strong>Critical Success</strong> You establish the settlement
-      largely with the aid of enthusiastic volunteers. Spend [[/r 1d6 #RP]]{1d6
-      RP}.</p><p><strong>Success</strong> You establish the settlement. Spend
-      [[/r 3d6 #RP]]{3d6 RP}.</p><p><strong>Failure</strong> You establish the
-      settlement, but inefficiently and at great expense. Spend [[/r 6d6
-      #RP]]{6d6 RP}.</p><p><strong>Critical Failure</strong> You fail to
-      establish the settlement</p>
+      540} for further details about building
+      settlements.</p><hr><p><strong>Critical Success</strong> You establish the
+      settlement largely with the aid of enthusiastic volunteers. Spend [[/r 1d6
+      #RP]]{1d6 RP}.</p><p><strong>Success</strong> You establish the
+      settlement. Spend [[/r 3d6 #RP]]{3d6 RP}.</p><p><strong>Failure</strong>
+      You establish the settlement, but inefficiently and at great expense.
+      Spend [[/r 6d6 #RP]]{6d6 RP}.</p><p><strong>Critical Failure</strong> You
+      fail to establish the settlement</p>
   rules: []
   slug: establish-settlement
   _migration:
-    version: 0.94
+    version: 0.959
     previous:
-      schema: 0.939
-      foundry: '13.345'
-      system: 7.2.0
+      schema: 0.94
+      foundry: '14.364'
+      system: 8.2.0
   traits:
     otherTags: []
     value:
@@ -56,13 +56,13 @@ system:
     value: 1
 type: campaignFeature
 _stats:
-  compendiumSource: Compendium.pf2e.kingmaker-features.Item.RPUUcyuMbvud45TS
+  compendiumSource: null
   duplicateSource: null
-  coreVersion: '13.346'
+  coreVersion: '14.364'
   systemId: pf2e
-  systemVersion: 7.2.3
-  createdTime: 1719728560488
-  modifiedTime: 1752208111692
+  systemVersion: 8.2.0
+  createdTime: 1782895593646
+  modifiedTime: 1782895593646
   lastModifiedBy: txZjek5EOiCBHPoz
   exportSource: null
 flags:
@@ -72,5 +72,4 @@ _id: SbdblRzSGk3pp2IF
 sort: 0
 ownership:
   default: 0
-  txZjek5EOiCBHPoz: 3
 _key: '!items!SbdblRzSGk3pp2IF'

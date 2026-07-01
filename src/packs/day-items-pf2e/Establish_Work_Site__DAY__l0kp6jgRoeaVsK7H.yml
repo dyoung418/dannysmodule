@@ -13,24 +13,24 @@ system:
       @Check[engineering|dc:resolve(@kingdom.control.dc)] check. Lumber camps
       can be established in any hex that contains a significant amount of forest
       terrain. Mines and quarries can be established in any hex that contains a
-      significant amount of hill or mountain terrain.</p><hr
-      /><p><strong>Critical Success</strong> You establish a Work Site in the
-      hex and proceed to discover an unexpectedly rich supply of high quality
-      Commodities. All Commodity yields granted by this site are doubled until
-      the end of the next Kingdom turn.</p><p><strong>Success</strong> You
-      establish a Work Site in the hex.</p><p><strong>Failure</strong> You fail
-      to establish a Work Site in the hex.</p><p><strong>Critical
-      Failure</strong> Not only do you fail to establish a Work Site, but you
-      lose several workers to an accident, banditry, a vicious monster, or some
-      other unforeseen occurrence. Gain 1 Unrest.</p>
+      significant amount of hill or mountain terrain.</p><hr><p><strong>Critical
+      Success</strong> You establish a Work Site in the hex and proceed to
+      discover an unexpectedly rich supply of high quality Commodities. All
+      Commodity yields granted by this site are doubled until the end of the
+      next Kingdom turn.</p><p><strong>Success</strong> You establish a Work
+      Site in the hex.</p><p><strong>Failure</strong> You fail to establish a
+      Work Site in the hex.</p><p><strong>Critical Failure</strong> Not only do
+      you fail to establish a Work Site, but you lose several workers to an
+      accident, banditry, a vicious monster, or some other unforeseen
+      occurrence. Gain 1 Unrest.</p>
   rules: []
   slug: establish-work-site
   _migration:
-    version: 0.94
+    version: 0.959
     previous:
-      schema: 0.939
-      foundry: '13.345'
-      system: 7.2.0
+      schema: 0.94
+      foundry: '14.364'
+      system: 8.2.0
   traits:
     otherTags: []
     value:
@@ -54,13 +54,13 @@ system:
     value: 1
 type: campaignFeature
 _stats:
-  compendiumSource: Compendium.pf2e.kingmaker-features.Item.8B6PmgtMH2TthBSX
+  compendiumSource: null
   duplicateSource: null
-  coreVersion: '13.346'
+  coreVersion: '14.364'
   systemId: pf2e
-  systemVersion: 7.2.3
-  createdTime: 1719728560488
-  modifiedTime: 1752208111692
+  systemVersion: 8.2.0
+  createdTime: 1782895593646
+  modifiedTime: 1782895593646
   lastModifiedBy: txZjek5EOiCBHPoz
   exportSource: null
 flags:
@@ -70,5 +70,4 @@ _id: l0kp6jgRoeaVsK7H
 sort: 0
 ownership:
   default: 0
-  txZjek5EOiCBHPoz: 3
 _key: '!items!l0kp6jgRoeaVsK7H'

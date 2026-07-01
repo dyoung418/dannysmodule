@@ -6,7 +6,7 @@ system:
     gm: ''
     value: >-
       <p><strong>Requirements</strong> The hex in which you seek to build roads
-      must be claimed by your kingdom.</p><hr /><p>You order your kingdom's
+      must be claimed by your kingdom.</p><hr><p>You order your kingdom's
       engineers to construct a network of robust roads through the hex. Travel
       along roads uses a terrain type one step better than the surrounding
       terrain; for example, roads through forest hexes—normally difficult
@@ -18,11 +18,11 @@ system:
       RP cost to also build bridges; this adds the Bridge structure to that
       hex). Then attempt a basic
       @Check[engineering|dc:resolve(@kingdom.control.dc)] check. Work with the
-      GM to determine where your roads appear on the map.</p><hr
-      /><p><strong>Critical Success</strong> You build roads into the target hex
-      and one adjacent claimed hex that doesn't yet have roads and whose terrain
-      features are at least as hospitable as those of the target hex. If no
-      adjacent hex is appropriate, treat this result as a Success
+      GM to determine where your roads appear on the
+      map.</p><hr><p><strong>Critical Success</strong> You build roads into the
+      target hex and one adjacent claimed hex that doesn't yet have roads and
+      whose terrain features are at least as hospitable as those of the target
+      hex. If no adjacent hex is appropriate, treat this result as a Success
       instead.</p><p><strong>Success</strong> You build roads in the
       hex.</p><p><strong>Failure</strong> You fail to build roads in the
       hex.</p><p><strong>Critical Failure</strong> Your attempt to build roads
@@ -32,11 +32,11 @@ system:
   rules: []
   slug: build-roads
   _migration:
-    version: 0.94
+    version: 0.959
     previous:
-      schema: 0.939
-      foundry: '13.345'
-      system: 7.2.0
+      schema: 0.94
+      foundry: '14.364'
+      system: 8.2.0
   traits:
     otherTags: []
     value:
@@ -60,13 +60,13 @@ system:
     value: 1
 type: campaignFeature
 _stats:
-  compendiumSource: Compendium.pf2e.kingmaker-features.Item.EgUxcWpmUaVrHP3L
+  compendiumSource: null
   duplicateSource: null
-  coreVersion: '13.346'
+  coreVersion: '14.364'
   systemId: pf2e
-  systemVersion: 7.2.3
-  createdTime: 1719728560488
-  modifiedTime: 1752208111692
+  systemVersion: 8.2.0
+  createdTime: 1782895593646
+  modifiedTime: 1782895593646
   lastModifiedBy: txZjek5EOiCBHPoz
   exportSource: null
 flags:
@@ -76,5 +76,4 @@ _id: 795QZZv9sfc6JySs
 sort: 0
 ownership:
   default: 0
-  txZjek5EOiCBHPoz: 3
 _key: '!items!795QZZv9sfc6JySs'

@@ -11,14 +11,9 @@ system:
   rules:
     - key: FlatModifier
       selector: skill-check
-      value:
-        brackets:
-          - start: 1
-            end: 10
-            value: 1
-          - start: 11
-            end: 20
-            value: 2
+      value: >-
+        match(when(btwn(@actor.level, 1, 10), 1), when(btwn(@actor.level, 11,
+        20), 2))
       type: item
       predicate:
         - or:
@@ -28,11 +23,11 @@ system:
             - action:treat-disease
   slug: null
   _migration:
-    version: 0.94
+    version: 0.959
     previous:
-      schema: 0.939
-      foundry: '13.345'
-      system: 7.2.0
+      schema: 0.94
+      foundry: '14.364'
+      system: 8.2.0
   traits:
     otherTags: []
     value: []
@@ -60,20 +55,18 @@ system:
 effects: []
 ownership:
   default: 0
-  txZjek5EOiCBHPoz: 3
 flags:
   core: {}
   scene-packer:
     hash: 552eafda74e616071421de5bb6152c03121d0d1b
 _stats:
-  compendiumSource: >-
-    Compendium.pf2e-kingmaker-tools.kingmaker-tools-camping-effects.Item.v9i9W49PeJ9NkfXX
+  compendiumSource: null
   duplicateSource: null
-  coreVersion: '13.346'
+  coreVersion: '14.364'
   systemId: pf2e
-  systemVersion: 7.2.3
-  createdTime: 1718606591261
-  modifiedTime: 1752208111692
+  systemVersion: 8.2.0
+  createdTime: 1782895593646
+  modifiedTime: 1782895593646
   lastModifiedBy: txZjek5EOiCBHPoz
   exportSource: null
 folder: lVJfRR3nUB6MU7dI
