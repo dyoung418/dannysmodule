@@ -1,5 +1,13 @@
 
 
+## [v1.1.5] - 2026-07-03
+### :sparkles: New Features
+- [`2a2c73d`](https://github.com/dyoung418/dannysmodule/commit/2a2c73d0d5ca55befcf38b2e31ad54b17fb644b9) - added house at the edge of space setting scene *(commit by [@dyoung418](https://github.com/dyoung418))*
+
+### :bug: Bug Fixes
+- [`2710796`](https://github.com/dyoung418/dannysmodule/commit/2710796056f585b159cba8fbf9f586dc4d8a4ff0) - small changes to some walls. *(commit by [@dyoung418](https://github.com/dyoung418))*
+
+
 ## [v1.1.4] - 2026-05-11
 ### :sparkles: New Features
 - [`b37bdc1`](https://github.com/dyoung418/dannysmodule/commit/b37bdc128b87aec7d432ae4fe47e98fcf161a6c3) - added daggerheart adventure compendium *(commit by [@dyoung418](https://github.com/dyoung418))*
@@ -151,3 +159,4 @@
 [v1.1.2]: https://github.com/dyoung418/dannysmodule/compare/v1.1.1...v1.1.2
 [v1.1.3]: https://github.com/dyoung418/dannysmodule/compare/v1.1.2...v1.1.3
 [v1.1.4]: https://github.com/dyoung418/dannysmodule/compare/v1.1.3...v1.1.4
+[v1.1.5]: https://github.com/dyoung418/dannysmodule/compare/v1.1.4...v1.1.5
