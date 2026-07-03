@@ -1,9 +1,8 @@
-folder: 1LOPSyo3SGiD9SB8
+folder: null
 name: Warewagon
 _id: GE3YoSHDmmF9uUBc
 navigation: false
-navOrder: 0
-thumb: worlds/daggerheart-test/assets/scenes/thumb-wSvdWC5EJmKQpQNjzxkw4w.webp
+thumb: worlds/daggerheart-test/assets/scenes/thumb-D-UkVFQHkYH1HKTKhkHjuQ.webp
 width: 1426
 height: 1426
 padding: 0.25
@@ -189,7 +188,6 @@ levels:
       alphaThreshold: 0.75
     fog:
       src: null
-      tint: '#ffffff'
     textures:
       anchorX: 0.5
       anchorY: 0.5
@@ -221,7 +219,6 @@ levels:
       alphaThreshold: 0.75
     fog:
       src: null
-      tint: '#ffffff'
     textures:
       anchorX: 0.5
       anchorY: 0.5
@@ -308,14 +305,15 @@ regions:
           sound: true
           occlusion: true
           exposure: false
+          culling: false
         disabled: false
         flags: {}
         _stats:
-          coreVersion: '14.361'
+          coreVersion: '14.364'
           systemId: daggerheart
-          systemVersion: 2.2.1
-          createdTime: 1777697106222
-          modifiedTime: 1777697106222
+          systemVersion: 2.4.2
+          createdTime: 1783040896664
+          modifiedTime: 1783040896664
           lastModifiedBy: pQzNfYJpGL2Gy8DA
           compendiumSource: null
           duplicateSource: null
@@ -357,11 +355,11 @@ flags:
     environmentTypes: []
     syncDarkness: default
 _stats:
-  coreVersion: '14.361'
+  coreVersion: '14.364'
   systemId: daggerheart
-  systemVersion: 2.2.1
-  createdTime: 1777697106221
-  modifiedTime: 1777697106221
+  systemVersion: 2.4.2
+  createdTime: 1783040896664
+  modifiedTime: 1783040896665
   lastModifiedBy: pQzNfYJpGL2Gy8DA
   exportSource: null
   compendiumSource: null
@@ -369,7 +367,9 @@ _stats:
 navName: ''
 ownership:
   default: 0
+  pQzNfYJpGL2Gy8DA: 3
 active: false
+navOrder: 0
 sort: 0
 _key: '!scenes!GE3YoSHDmmF9uUBc'
 templates: []
