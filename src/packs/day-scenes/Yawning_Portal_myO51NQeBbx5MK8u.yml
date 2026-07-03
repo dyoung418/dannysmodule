@@ -1,9 +1,9 @@
-folder: null
+folder: 1LOPSyo3SGiD9SB8
 name: Yawning Portal
 _id: myO51NQeBbx5MK8u
 navigation: false
 navOrder: 0
-thumb: worlds/daggerheart-test/assets/scenes/thumb-2Y_coW6vLPNPI4VFhiBk1w.webp
+thumb: worlds/kingmaker/assets/scenes/thumb-2Y_coW6vLPNPI4VFhiBk1w.webp
 width: 6750
 height: 4950
 padding: 0.25
@@ -63,189 +63,7 @@ transition:
   duration: 1500
   activeOnly: false
 drawings: []
-tokens:
-  - name: Wellen - Ranger
-    displayName: 0
-    actorLink: true
-    width: 1
-    height: 1
-    depth: 1
-    texture:
-      src: modules/dannysmodule/assets/tokens/Wellen%20token.webp
-      anchorX: 0.5
-      anchorY: 0.5
-      fit: contain
-      scaleX: 1
-      scaleY: 1
-      tint: '#ffffff'
-      alphaThreshold: 0.75
-    lockRotation: true
-    rotation: 0
-    alpha: 1
-    disposition: 1
-    displayBars: 30
-    bar1:
-      attribute: resources.hitPoints
-    bar2:
-      attribute: resources.stress
-    light:
-      negative: false
-      priority: 0
-      alpha: 0.5
-      angle: 360
-      bright: 0
-      color: null
-      coloration: 1
-      dim: 0
-      attenuation: 0.5
-      luminosity: 0.5
-      saturation: 0
-      contrast: 0
-      shadows: 0
-      animation:
-        type: null
-        speed: 5
-        intensity: 5
-        reverse: false
-      darkness:
-        min: 0
-        max: 1
-    sight:
-      enabled: true
-      range: 0
-      angle: 360
-      visionMode: basic
-      color: null
-      attenuation: 0.1
-      brightness: 0
-      saturation: 0
-      contrast: 0
-    detectionModes:
-      basicSight:
-        range: 60
-        enabled: true
-    occludable:
-      radius: 0
-    ring:
-      enabled: true
-      colors:
-        ring: null
-        background: null
-      effects: 1
-      subject:
-        scale: 1
-        texture: null
-    turnMarker:
-      mode: 1
-      animation: null
-      src: null
-      disposition: false
-    movementAction: null
-    flags: {}
-    actorId: 2W77E8fvQ7s8w2GC
-    hidden: false
-    sort: 0
-    shape: 4
-    level: defaultLevel0000
-    _id: mBVbQlPLwYSSC3NY
-    delta: null
-    x: 5100
-    'y': 3750
-    elevation: 0
-    locked: false
-    _movementHistory: []
-    _regions: []
-    _key: '!scenes.tokens!myO51NQeBbx5MK8u.mBVbQlPLwYSSC3NY'
-  - name: Gareth - Wizard
-    displayName: 0
-    actorLink: true
-    width: 1
-    height: 1
-    depth: 1
-    texture:
-      src: modules/dannysmodule/assets/tokens/Gareth%20wizard%20token.webp
-      anchorX: 0.5
-      anchorY: 0.5
-      fit: contain
-      scaleX: 1.15
-      scaleY: 1.15
-      tint: '#ffffff'
-      alphaThreshold: 0.75
-    lockRotation: false
-    rotation: 0
-    alpha: 1
-    disposition: 1
-    displayBars: 0
-    bar1:
-      attribute: resources.hitPoints
-    bar2:
-      attribute: resources.stress
-    light:
-      negative: false
-      priority: 0
-      alpha: 0.5
-      angle: 360
-      bright: 0
-      color: null
-      coloration: 1
-      dim: 0
-      attenuation: 0.5
-      luminosity: 0.5
-      saturation: 0
-      contrast: 0
-      shadows: 0
-      animation:
-        type: null
-        speed: 5
-        intensity: 5
-        reverse: false
-      darkness:
-        min: 0
-        max: 1
-    sight:
-      enabled: true
-      range: 0
-      angle: 360
-      visionMode: basic
-      color: null
-      attenuation: 0.1
-      brightness: 0
-      saturation: 0
-      contrast: 0
-    detectionModes: {}
-    occludable:
-      radius: 0
-    ring:
-      enabled: true
-      colors:
-        ring: null
-        background: null
-      effects: 1
-      subject:
-        scale: 1
-        texture: null
-    turnMarker:
-      mode: 1
-      animation: null
-      src: null
-      disposition: false
-    movementAction: null
-    flags: {}
-    actorId: vJmiCUlaOEPgIt05
-    hidden: false
-    sort: 2
-    shape: 4
-    level: qRErgiuJXDwdmf9x
-    _id: oovPXELE6hOH0AJr
-    delta: null
-    x: 4800
-    'y': 3900
-    elevation: 20
-    locked: false
-    _movementHistory: []
-    _regions:
-      - FTJ51CLGapJH3Gl5
-    _key: '!scenes.tokens!myO51NQeBbx5MK8u.oovPXELE6hOH0AJr'
+tokens: []
 levels:
   - _id: defaultLevel0000
     name: ground level
@@ -447,11 +265,11 @@ regions:
         flags: {}
         _stats:
           coreVersion: '14.364'
-          systemId: daggerheart
-          systemVersion: 2.4.2
-          createdTime: 1783040896637
-          modifiedTime: 1783040896637
-          lastModifiedBy: pQzNfYJpGL2Gy8DA
+          systemId: pf2e
+          systemVersion: 8.2.0
+          createdTime: 1783042391732
+          modifiedTime: 1783042391732
+          lastModifiedBy: txZjek5EOiCBHPoz
           compendiumSource: null
           duplicateSource: null
           exportSource: null
@@ -562,11 +380,11 @@ regions:
         flags: {}
         _stats:
           coreVersion: '14.364'
-          systemId: daggerheart
-          systemVersion: 2.4.2
-          createdTime: 1783040896637
-          modifiedTime: 1783040896637
-          lastModifiedBy: pQzNfYJpGL2Gy8DA
+          systemId: pf2e
+          systemVersion: 8.2.0
+          createdTime: 1783042391733
+          modifiedTime: 1783042391733
+          lastModifiedBy: txZjek5EOiCBHPoz
           compendiumSource: null
           duplicateSource: null
           exportSource: null
@@ -621,11 +439,11 @@ regions:
         flags: {}
         _stats:
           coreVersion: '14.364'
-          systemId: daggerheart
-          systemVersion: 2.4.2
-          createdTime: 1783040896638
-          modifiedTime: 1783040896638
-          lastModifiedBy: pQzNfYJpGL2Gy8DA
+          systemId: pf2e
+          systemVersion: 8.2.0
+          createdTime: 1783042391733
+          modifiedTime: 1783042391733
+          lastModifiedBy: txZjek5EOiCBHPoz
           compendiumSource: null
           duplicateSource: null
           exportSource: null
@@ -681,11 +499,11 @@ regions:
         flags: {}
         _stats:
           coreVersion: '14.364'
-          systemId: daggerheart
-          systemVersion: 2.4.2
-          createdTime: 1783040896638
-          modifiedTime: 1783040896638
-          lastModifiedBy: pQzNfYJpGL2Gy8DA
+          systemId: pf2e
+          systemVersion: 8.2.0
+          createdTime: 1783042391733
+          modifiedTime: 1783042391733
+          lastModifiedBy: txZjek5EOiCBHPoz
           compendiumSource: null
           duplicateSource: null
           exportSource: null
@@ -737,11 +555,11 @@ regions:
         flags: {}
         _stats:
           coreVersion: '14.364'
-          systemId: daggerheart
-          systemVersion: 2.4.2
-          createdTime: 1783040896638
-          modifiedTime: 1783040896638
-          lastModifiedBy: pQzNfYJpGL2Gy8DA
+          systemId: pf2e
+          systemVersion: 8.2.0
+          createdTime: 1783042391733
+          modifiedTime: 1783042391733
+          lastModifiedBy: txZjek5EOiCBHPoz
           compendiumSource: null
           duplicateSource: null
           exportSource: null
@@ -797,11 +615,11 @@ regions:
         flags: {}
         _stats:
           coreVersion: '14.364'
-          systemId: daggerheart
-          systemVersion: 2.4.2
-          createdTime: 1783040896638
-          modifiedTime: 1783040896638
-          lastModifiedBy: pQzNfYJpGL2Gy8DA
+          systemId: pf2e
+          systemVersion: 8.2.0
+          createdTime: 1783042391734
+          modifiedTime: 1783042391734
+          lastModifiedBy: txZjek5EOiCBHPoz
           compendiumSource: null
           duplicateSource: null
           exportSource: null
@@ -7825,7 +7643,7 @@ flags:
     persistExploredAreas: false
     revealRadius: 0
     gridRevealRadius: 0
-    schemaVersion: 2.1.0
+    schemaVersion: 2.2.0
   pf2e:
     rulesBasedVision: null
     hearingRange: null
@@ -7837,11 +7655,11 @@ flags:
     sceneEnvironments: []
 _stats:
   coreVersion: '14.364'
-  systemId: daggerheart
-  systemVersion: 2.4.2
-  createdTime: 1783040896636
-  modifiedTime: 1783040896636
-  lastModifiedBy: pQzNfYJpGL2Gy8DA
+  systemId: pf2e
+  systemVersion: 8.2.0
+  createdTime: 1783042391732
+  modifiedTime: 1783042391732
+  lastModifiedBy: txZjek5EOiCBHPoz
   exportSource: null
   compendiumSource: null
   duplicateSource: null

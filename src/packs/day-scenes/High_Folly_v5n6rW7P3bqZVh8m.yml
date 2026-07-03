@@ -2,7 +2,7 @@ folder: wWLmoj0X0gW1STMN
 name: High Folly
 _id: v5n6rW7P3bqZVh8m
 navigation: false
-thumb: worlds/kingmaker/assets/scenes/thumb-47YveeR6x8xlVVHZntot8w.webp
+thumb: worlds/kingmaker/assets/scenes/thumb-DjbAqghMD72BeGQ4kUz1UQ.webp
 width: 4000
 height: 3000
 padding: 0.25
@@ -62,7 +62,3467 @@ transition:
   duration: 1500
   activeOnly: false
 drawings: []
-tokens: []
+tokens:
+  - flags:
+      pf2e:
+        linkToActorSize: true
+        autoscale: true
+      healthEstimate:
+        dontMarkDead: false
+        hideHealthEstimate: false
+        hideName: false
+      monks-combat-details:
+        targets:
+          - HjK34LHdJH7eOavG
+    height: 1
+    width: 1
+    name: The Charge Everlasting — Frozen Vanguard
+    displayName: 20
+    actorLink: false
+    depth: 1
+    texture:
+      src: worlds/kingmaker/NPCs/stone%20soldier%20token.webp
+      anchorX: 0.5
+      anchorY: 0.5
+      fit: contain
+      scaleX: 1
+      scaleY: 1
+      tint: '#ffffff'
+      alphaThreshold: 0.75
+    lockRotation: true
+    rotation: 0
+    alpha: 1
+    disposition: -1
+    displayBars: 20
+    bar1:
+      attribute: attributes.hp
+    bar2:
+      attribute: null
+    light:
+      negative: false
+      priority: 0
+      alpha: 0.5
+      angle: 360
+      bright: 0
+      color: null
+      coloration: 1
+      dim: 0
+      attenuation: 0.5
+      luminosity: 0.5
+      saturation: 0
+      contrast: 0
+      shadows: 0
+      animation:
+        type: null
+        speed: 5
+        intensity: 5
+        reverse: false
+      darkness:
+        min: 0
+        max: 1
+    sight:
+      enabled: false
+      range: 0
+      angle: 360
+      visionMode: basic
+      color: null
+      attenuation: 0.1
+      brightness: 0
+      saturation: 0
+      contrast: 0
+    detectionModes: {}
+    occludable:
+      radius: 0
+    ring:
+      enabled: true
+      colors:
+        ring: null
+        background: null
+      effects: 1
+      subject:
+        scale: 1.02
+        texture: null
+    turnMarker:
+      mode: 1
+      animation: pulse
+      src: null
+      disposition: true
+    movementAction: null
+    actorId: 60xRopuUSQ9HE8fZ
+    hidden: false
+    sort: 1
+    shape: 4
+    level: RBcOqfQLzeawpUHb
+    _id: ShNLhwoTcLQJFPDn
+    delta:
+      _id: ShNLhwoTcLQJFPDn
+      name: null
+      type: null
+      img: null
+      system:
+        attributes:
+          hp:
+            value: 0
+      items:
+        - img: systems/pf2e/icons/conditions/persistent-damage.webp
+          name: Persistent Damage
+          system:
+            description:
+              value: >-
+                <p>You are taking damage from an ongoing effect, such as from
+                being lit on fire. This appears as "X persistent [type] damage,"
+                where "X" is the amount of damage dealt and "[type]" is the
+                damage type. Like normal damage, it can be doubled or halved
+                based on the results of an attack roll or saving throw. Instead
+                of taking persistent damage immediately, you take it at the end
+                of each of your turns as long as you have the condition, rolling
+                any damage dice anew each time. After you take persistent
+                damage, roll a @Check[flat|showDC:all|dc:15] to see if you
+                recover from the persistent damage. If you succeed, the
+                condition ends.</p>
+              gm: ''
+            group: null
+            overrides: []
+            publication:
+              license: ORC
+              remaster: true
+              title: Pathfinder Player Core
+              authors: ''
+            references:
+              children: []
+              overriddenBy: []
+              overrides: []
+              parent: null
+            rules: []
+            traits:
+              value:
+                - magical
+              otherTags: []
+            value:
+              isValued: false
+              value: null
+            slug: persistent-damage
+            _migration:
+              version: 0.959
+              previous: null
+            fromSpell: false
+            persistent:
+              formula: 2d10
+              damageType: fire
+              dc: 15
+              criticalHit: true
+          type: condition
+          _stats:
+            coreVersion: '14.364'
+            systemId: pf2e
+            systemVersion: 8.2.0
+            createdTime: null
+            modifiedTime: null
+            lastModifiedBy: null
+            exportSource: null
+            compendiumSource: null
+            duplicateSource: null
+          effects: []
+          folder: null
+          sort: 0
+          flags: {}
+          _id: eku1tqWwE9hZd47P
+          ownership:
+            default: 0
+          _key: >-
+            !scenes.tokens.delta.items!v5n6rW7P3bqZVh8m.ShNLhwoTcLQJFPDn.ShNLhwoTcLQJFPDn.eku1tqWwE9hZd47P
+      effects:
+        - name: Dead
+          img: systems/pf2e/icons/other/dead.svg
+          statuses:
+            - dead
+          showIcon: 2
+          _id: hGDozqCixtazkLA1
+          type: base
+          system:
+            changes: []
+          disabled: false
+          start:
+            time: 23987984
+            combat: MtfRCWjiFVph0jJw
+            combatant: ZXuklOqIkdkWLWTg
+            initiative: 49
+            round: 6
+            turn: 0
+          duration:
+            value: null
+            units: seconds
+            expiry: null
+            expired: false
+          description: ''
+          origin: null
+          tint: '#ffffff'
+          transfer: false
+          folder: null
+          sort: 0
+          flags:
+            core:
+              overlay: true
+          _stats:
+            coreVersion: '14.364'
+            systemId: pf2e
+            systemVersion: 8.2.0
+            createdTime: null
+            modifiedTime: null
+            lastModifiedBy: null
+            compendiumSource: null
+            duplicateSource: null
+            exportSource: null
+          _key: >-
+            !scenes.tokens.delta.effects!v5n6rW7P3bqZVh8m.ShNLhwoTcLQJFPDn.ShNLhwoTcLQJFPDn.hGDozqCixtazkLA1
+      flags:
+        enhancedcombathud-pf2e:
+          lastSet:
+            active: '1'
+            primary: he6vxjpREUJOnDpa
+      ownership: null
+      _key: '!scenes.tokens.delta!v5n6rW7P3bqZVh8m.ShNLhwoTcLQJFPDn.ShNLhwoTcLQJFPDn'
+    x: 1700
+    'y': 3500
+    elevation: 20
+    locked: false
+    _movementHistory: []
+    _regions: []
+    _key: '!scenes.tokens!v5n6rW7P3bqZVh8m.ShNLhwoTcLQJFPDn'
+  - flags:
+      pf2e:
+        linkToActorSize: true
+        autoscale: true
+      healthEstimate:
+        dontMarkDead: false
+        hideHealthEstimate: false
+        hideName: false
+      monks-combat-details:
+        targets:
+          - KON94lpS0picAwtg
+    height: 1
+    width: 1
+    name: The Charge Everlasting — Frozen Vanguard
+    displayName: 20
+    actorLink: false
+    depth: 1
+    texture:
+      src: worlds/kingmaker/NPCs/stone%20soldier%20token.webp
+      anchorX: 0.5
+      anchorY: 0.5
+      fit: contain
+      scaleX: 1
+      scaleY: 1
+      tint: '#ffffff'
+      alphaThreshold: 0.75
+    lockRotation: true
+    rotation: 0
+    alpha: 1
+    disposition: -1
+    displayBars: 20
+    bar1:
+      attribute: attributes.hp
+    bar2:
+      attribute: null
+    light:
+      negative: false
+      priority: 0
+      alpha: 0.5
+      angle: 360
+      bright: 0
+      color: null
+      coloration: 1
+      dim: 0
+      attenuation: 0.5
+      luminosity: 0.5
+      saturation: 0
+      contrast: 0
+      shadows: 0
+      animation:
+        type: null
+        speed: 5
+        intensity: 5
+        reverse: false
+      darkness:
+        min: 0
+        max: 1
+    sight:
+      enabled: false
+      range: 0
+      angle: 360
+      visionMode: basic
+      color: null
+      attenuation: 0.1
+      brightness: 0
+      saturation: 0
+      contrast: 0
+    detectionModes: {}
+    occludable:
+      radius: 0
+    ring:
+      enabled: true
+      colors:
+        ring: null
+        background: null
+      effects: 1
+      subject:
+        scale: 1.02
+        texture: null
+    turnMarker:
+      mode: 1
+      animation: pulse
+      src: null
+      disposition: true
+    movementAction: null
+    actorId: 60xRopuUSQ9HE8fZ
+    hidden: false
+    sort: 2
+    shape: 4
+    level: RBcOqfQLzeawpUHb
+    _id: eP7sfZpixhRNbYPe
+    delta:
+      _id: eP7sfZpixhRNbYPe
+      name: null
+      type: null
+      img: null
+      system: {}
+      items: []
+      effects:
+        - name: Dead
+          img: systems/pf2e/icons/other/dead.svg
+          statuses:
+            - dead
+          showIcon: 2
+          _id: CGR2VC8OuDagslHb
+          type: base
+          system:
+            changes: []
+          disabled: false
+          start:
+            time: 23987984
+            combat: MtfRCWjiFVph0jJw
+            combatant: oOQn7HFdRnKZCm8r
+            initiative: 39
+            round: 6
+            turn: 4
+          duration:
+            value: null
+            units: seconds
+            expiry: null
+            expired: false
+          description: ''
+          origin: null
+          tint: '#ffffff'
+          transfer: false
+          folder: null
+          sort: 0
+          flags:
+            core:
+              overlay: true
+          _stats:
+            coreVersion: '14.364'
+            systemId: pf2e
+            systemVersion: 8.2.0
+            createdTime: null
+            modifiedTime: null
+            lastModifiedBy: null
+            compendiumSource: null
+            duplicateSource: null
+            exportSource: null
+          _key: >-
+            !scenes.tokens.delta.effects!v5n6rW7P3bqZVh8m.eP7sfZpixhRNbYPe.eP7sfZpixhRNbYPe.CGR2VC8OuDagslHb
+      flags:
+        enhancedcombathud-pf2e:
+          lastSet:
+            active: '1'
+            primary: he6vxjpREUJOnDpa
+      ownership: null
+      _key: '!scenes.tokens.delta!v5n6rW7P3bqZVh8m.eP7sfZpixhRNbYPe.eP7sfZpixhRNbYPe'
+    x: 1400
+    'y': 3500
+    elevation: 20
+    locked: false
+    _movementHistory: []
+    _regions: []
+    _key: '!scenes.tokens!v5n6rW7P3bqZVh8m.eP7sfZpixhRNbYPe'
+  - flags:
+      pf2e:
+        linkToActorSize: true
+        autoscale: true
+      healthEstimate:
+        dontMarkDead: false
+        hideHealthEstimate: false
+        hideName: false
+      monks-combat-details:
+        targets:
+          - b9LhqpzAAUOI9dXC
+    height: 1
+    width: 1
+    name: The Charge Everlasting — Frozen Vanguard
+    displayName: 20
+    actorLink: false
+    depth: 1
+    texture:
+      src: worlds/kingmaker/NPCs/stone%20soldier%20token.webp
+      anchorX: 0.5
+      anchorY: 0.5
+      fit: contain
+      scaleX: 1
+      scaleY: 1
+      tint: '#ffffff'
+      alphaThreshold: 0.75
+    lockRotation: true
+    rotation: 0
+    alpha: 1
+    disposition: -1
+    displayBars: 20
+    bar1:
+      attribute: attributes.hp
+    bar2:
+      attribute: null
+    light:
+      negative: false
+      priority: 0
+      alpha: 0.5
+      angle: 360
+      bright: 0
+      color: null
+      coloration: 1
+      dim: 0
+      attenuation: 0.5
+      luminosity: 0.5
+      saturation: 0
+      contrast: 0
+      shadows: 0
+      animation:
+        type: null
+        speed: 5
+        intensity: 5
+        reverse: false
+      darkness:
+        min: 0
+        max: 1
+    sight:
+      enabled: false
+      range: 0
+      angle: 360
+      visionMode: basic
+      color: null
+      attenuation: 0.1
+      brightness: 0
+      saturation: 0
+      contrast: 0
+    detectionModes: {}
+    occludable:
+      radius: 0
+    ring:
+      enabled: true
+      colors:
+        ring: null
+        background: null
+      effects: 1
+      subject:
+        scale: 1.02
+        texture: null
+    turnMarker:
+      mode: 1
+      animation: pulse
+      src: null
+      disposition: true
+    movementAction: null
+    actorId: 60xRopuUSQ9HE8fZ
+    hidden: false
+    sort: 3
+    shape: 4
+    level: RBcOqfQLzeawpUHb
+    _id: rrXXsKnvMMbxigvj
+    delta:
+      flags:
+        enhancedcombathud-pf2e:
+          lastSet:
+            active: '1'
+            primary: he6vxjpREUJOnDpa
+      _id: rrXXsKnvMMbxigvj
+      name: null
+      type: null
+      img: null
+      system:
+        attributes:
+          hp:
+            value: 172
+      items:
+        - img: systems/pf2e/icons/conditions/prone.webp
+          name: Prone
+          system:
+            description:
+              value: >-
+                <p>You're lying on the ground. You are
+                @UUID[Compendium.pf2e.conditionitems.Item.AJh5ex99aV6VTggg]{Off-Guard}
+                and take a –2 circumstance penalty to attack rolls. The only
+                move actions you can use while you're prone are
+                @UUID[Compendium.pf2e.actionspf2e.Item.Tj055UcNm6UEgtCg]{Crawl}
+                and
+                @UUID[Compendium.pf2e.actionspf2e.Item.OdIUybJ3ddfL7wzj]{Stand}.
+                Standing up ends the prone condition. You can
+                @UUID[Compendium.pf2e.actionspf2e.Item.ust1jJSCZQUhBZIz]{Take
+                Cover} while prone to hunker down and gain greater cover against
+                ranged attacks, even if you don't have an object to get behind,
+                which grants you a +4 circumstance bonus to AC against ranged
+                attacks (but you remain off-guard).</p>
+
+                <p>If you would be knocked prone while you're
+                @UUID[Compendium.pf2e.actionspf2e.Item.pprgrYQ1QnIDGZiy]{Climbing}
+                or
+                @UUID[Compendium.pf2e.actionspf2e.Item.cS9nfDRGD83bNU1p]{Flying},
+                you fall. You can't be knocked prone when
+                @UUID[Compendium.pf2e.actionspf2e.Item.c8TGiZ48ygoSPofx]{Swimming}.</p>
+              gm: ''
+            group: null
+            overrides: []
+            publication:
+              license: ORC
+              remaster: true
+              title: Pathfinder Player Core
+              authors: ''
+            references:
+              children: []
+              overriddenBy: []
+              overrides: []
+              parent: null
+            rules:
+              - key: FlatModifier
+                selector: attack-roll
+                slug: prone
+                type: circumstance
+                value: -2
+              - inMemoryOnly: true
+                key: GrantItem
+                uuid: Compendium.pf2e.conditionitems.Item.AJh5ex99aV6VTggg
+            traits:
+              value: []
+              otherTags: []
+            value:
+              isValued: false
+              value: null
+            slug: prone
+            _migration:
+              version: 0.959
+              previous: null
+            fromSpell: false
+            persistent: null
+          type: condition
+          _stats:
+            coreVersion: '14.364'
+            systemId: pf2e
+            systemVersion: 8.2.0
+            createdTime: null
+            modifiedTime: null
+            lastModifiedBy: null
+            exportSource: null
+            compendiumSource: null
+            duplicateSource: null
+          effects: []
+          folder: null
+          sort: 0
+          flags: {}
+          _id: aFwy4YNYHkw5Cxlq
+          ownership:
+            default: 0
+          _key: >-
+            !scenes.tokens.delta.items!v5n6rW7P3bqZVh8m.rrXXsKnvMMbxigvj.rrXXsKnvMMbxigvj.aFwy4YNYHkw5Cxlq
+      effects:
+        - name: Dead
+          img: systems/pf2e/icons/other/dead.svg
+          statuses:
+            - dead
+          showIcon: 2
+          _id: rDG6aebjMivPNXpx
+          type: base
+          system:
+            changes: []
+          disabled: false
+          start:
+            time: 23987984
+            combat: MtfRCWjiFVph0jJw
+            combatant: oOQn7HFdRnKZCm8r
+            initiative: 39
+            round: 6
+            turn: 4
+          duration:
+            value: null
+            units: seconds
+            expiry: null
+            expired: false
+          description: ''
+          origin: null
+          tint: '#ffffff'
+          transfer: false
+          folder: null
+          sort: 0
+          flags:
+            core:
+              overlay: true
+          _stats:
+            coreVersion: '14.364'
+            systemId: pf2e
+            systemVersion: 8.2.0
+            createdTime: null
+            modifiedTime: null
+            lastModifiedBy: null
+            compendiumSource: null
+            duplicateSource: null
+            exportSource: null
+          _key: >-
+            !scenes.tokens.delta.effects!v5n6rW7P3bqZVh8m.rrXXsKnvMMbxigvj.rrXXsKnvMMbxigvj.rDG6aebjMivPNXpx
+      ownership: null
+      _key: '!scenes.tokens.delta!v5n6rW7P3bqZVh8m.rrXXsKnvMMbxigvj.rrXXsKnvMMbxigvj'
+    x: 1200
+    'y': 2900
+    elevation: 20
+    locked: false
+    _movementHistory: []
+    _regions: []
+    _key: '!scenes.tokens!v5n6rW7P3bqZVh8m.rrXXsKnvMMbxigvj'
+  - flags:
+      pf2e:
+        linkToActorSize: true
+        autoscale: true
+      healthEstimate:
+        dontMarkDead: false
+        hideHealthEstimate: false
+        hideName: false
+    height: 1
+    width: 1
+    name: The Charge Everlasting — Frozen Vanguard
+    displayName: 20
+    actorLink: false
+    depth: 1
+    texture:
+      src: worlds/kingmaker/NPCs/stone%20soldier%20token.webp
+      anchorX: 0.5
+      anchorY: 0.5
+      fit: contain
+      scaleX: 1
+      scaleY: 1
+      tint: '#ffffff'
+      alphaThreshold: 0.75
+    lockRotation: true
+    rotation: 0
+    alpha: 1
+    disposition: -1
+    displayBars: 20
+    bar1:
+      attribute: attributes.hp
+    bar2:
+      attribute: null
+    light:
+      negative: false
+      priority: 0
+      alpha: 0.5
+      angle: 360
+      bright: 0
+      color: null
+      coloration: 1
+      dim: 0
+      attenuation: 0.5
+      luminosity: 0.5
+      saturation: 0
+      contrast: 0
+      shadows: 0
+      animation:
+        type: null
+        speed: 5
+        intensity: 5
+        reverse: false
+      darkness:
+        min: 0
+        max: 1
+    sight:
+      enabled: false
+      range: 0
+      angle: 360
+      visionMode: basic
+      color: null
+      attenuation: 0.1
+      brightness: 0
+      saturation: 0
+      contrast: 0
+    detectionModes: {}
+    occludable:
+      radius: 0
+    ring:
+      enabled: true
+      colors:
+        ring: null
+        background: null
+      effects: 1
+      subject:
+        scale: 1.02
+        texture: null
+    turnMarker:
+      mode: 1
+      animation: pulse
+      src: null
+      disposition: true
+    movementAction: null
+    actorId: 60xRopuUSQ9HE8fZ
+    hidden: false
+    sort: 4
+    shape: 4
+    level: RBcOqfQLzeawpUHb
+    _id: zYm1UG4DwIcLHnsa
+    delta:
+      _id: zYm1UG4DwIcLHnsa
+      name: null
+      type: null
+      img: null
+      system: {}
+      items: []
+      effects:
+        - name: Dead
+          img: systems/pf2e/icons/other/dead.svg
+          statuses:
+            - dead
+          showIcon: 2
+          _id: 8dHt8kBZQY7ROpiV
+          type: base
+          system:
+            changes: []
+          disabled: false
+          start:
+            time: 23987984
+            combat: MtfRCWjiFVph0jJw
+            combatant: oOQn7HFdRnKZCm8r
+            initiative: 39
+            round: 6
+            turn: 4
+          duration:
+            value: null
+            units: seconds
+            expiry: null
+            expired: false
+          description: ''
+          origin: null
+          tint: '#ffffff'
+          transfer: false
+          folder: null
+          sort: 0
+          flags:
+            core:
+              overlay: true
+          _stats:
+            coreVersion: '14.364'
+            systemId: pf2e
+            systemVersion: 8.2.0
+            createdTime: null
+            modifiedTime: null
+            lastModifiedBy: null
+            compendiumSource: null
+            duplicateSource: null
+            exportSource: null
+          _key: >-
+            !scenes.tokens.delta.effects!v5n6rW7P3bqZVh8m.zYm1UG4DwIcLHnsa.zYm1UG4DwIcLHnsa.8dHt8kBZQY7ROpiV
+      flags: {}
+      ownership: null
+      _key: '!scenes.tokens.delta!v5n6rW7P3bqZVh8m.zYm1UG4DwIcLHnsa.zYm1UG4DwIcLHnsa'
+    x: 1000
+    'y': 2000
+    elevation: 20
+    locked: false
+    _movementHistory: []
+    _regions: []
+    _key: '!scenes.tokens!v5n6rW7P3bqZVh8m.zYm1UG4DwIcLHnsa'
+  - flags:
+      pf2e:
+        linkToActorSize: true
+        autoscale: true
+      healthEstimate:
+        dontMarkDead: false
+        hideHealthEstimate: false
+        hideName: false
+    height: 1
+    width: 1
+    name: The Charge Everlasting — Frozen Vanguard
+    displayName: 20
+    actorLink: false
+    depth: 1
+    texture:
+      src: worlds/kingmaker/NPCs/stone%20soldier%20token.webp
+      anchorX: 0.5
+      anchorY: 0.5
+      fit: contain
+      scaleX: 1
+      scaleY: 1
+      tint: '#ffffff'
+      alphaThreshold: 0.75
+    lockRotation: true
+    rotation: 0
+    alpha: 1
+    disposition: -1
+    displayBars: 20
+    bar1:
+      attribute: attributes.hp
+    bar2:
+      attribute: null
+    light:
+      negative: false
+      priority: 0
+      alpha: 0.5
+      angle: 360
+      bright: 0
+      color: null
+      coloration: 1
+      dim: 0
+      attenuation: 0.5
+      luminosity: 0.5
+      saturation: 0
+      contrast: 0
+      shadows: 0
+      animation:
+        type: null
+        speed: 5
+        intensity: 5
+        reverse: false
+      darkness:
+        min: 0
+        max: 1
+    sight:
+      enabled: false
+      range: 0
+      angle: 360
+      visionMode: basic
+      color: null
+      attenuation: 0.1
+      brightness: 0
+      saturation: 0
+      contrast: 0
+    detectionModes: {}
+    occludable:
+      radius: 0
+    ring:
+      enabled: true
+      colors:
+        ring: null
+        background: null
+      effects: 1
+      subject:
+        scale: 1.02
+        texture: null
+    turnMarker:
+      mode: 1
+      animation: pulse
+      src: null
+      disposition: true
+    movementAction: null
+    actorId: 60xRopuUSQ9HE8fZ
+    hidden: false
+    sort: 5
+    shape: 4
+    level: RBcOqfQLzeawpUHb
+    _id: 6GVNAqxtNdLfFQup
+    delta:
+      _id: 6GVNAqxtNdLfFQup
+      name: null
+      type: null
+      img: null
+      system: {}
+      items: []
+      effects:
+        - name: Dead
+          img: systems/pf2e/icons/other/dead.svg
+          statuses:
+            - dead
+          showIcon: 2
+          _id: 4t0Sc5lJ0slFvsJi
+          type: base
+          system:
+            changes: []
+          disabled: false
+          start:
+            time: 23987984
+            combat: MtfRCWjiFVph0jJw
+            combatant: oOQn7HFdRnKZCm8r
+            initiative: 39
+            round: 6
+            turn: 4
+          duration:
+            value: null
+            units: seconds
+            expiry: null
+            expired: false
+          description: ''
+          origin: null
+          tint: '#ffffff'
+          transfer: false
+          folder: null
+          sort: 0
+          flags:
+            core:
+              overlay: true
+          _stats:
+            coreVersion: '14.364'
+            systemId: pf2e
+            systemVersion: 8.2.0
+            createdTime: null
+            modifiedTime: null
+            lastModifiedBy: null
+            compendiumSource: null
+            duplicateSource: null
+            exportSource: null
+          _key: >-
+            !scenes.tokens.delta.effects!v5n6rW7P3bqZVh8m.6GVNAqxtNdLfFQup.6GVNAqxtNdLfFQup.4t0Sc5lJ0slFvsJi
+      flags: {}
+      ownership: null
+      _key: '!scenes.tokens.delta!v5n6rW7P3bqZVh8m.6GVNAqxtNdLfFQup.6GVNAqxtNdLfFQup'
+    x: 1100
+    'y': 2100
+    elevation: 20
+    locked: false
+    _movementHistory: []
+    _regions: []
+    _key: '!scenes.tokens!v5n6rW7P3bqZVh8m.6GVNAqxtNdLfFQup'
+  - flags:
+      pf2e:
+        linkToActorSize: true
+        autoscale: true
+      healthEstimate:
+        dontMarkDead: false
+        hideHealthEstimate: false
+        hideName: false
+    height: 1
+    width: 1
+    name: The Charge Everlasting — Frozen Vanguard
+    displayName: 20
+    actorLink: false
+    depth: 1
+    texture:
+      src: worlds/kingmaker/NPCs/stone%20soldier%20token.webp
+      anchorX: 0.5
+      anchorY: 0.5
+      fit: contain
+      scaleX: 1
+      scaleY: 1
+      tint: '#ffffff'
+      alphaThreshold: 0.75
+    lockRotation: true
+    rotation: 0
+    alpha: 1
+    disposition: -1
+    displayBars: 20
+    bar1:
+      attribute: attributes.hp
+    bar2:
+      attribute: null
+    light:
+      negative: false
+      priority: 0
+      alpha: 0.5
+      angle: 360
+      bright: 0
+      color: null
+      coloration: 1
+      dim: 0
+      attenuation: 0.5
+      luminosity: 0.5
+      saturation: 0
+      contrast: 0
+      shadows: 0
+      animation:
+        type: null
+        speed: 5
+        intensity: 5
+        reverse: false
+      darkness:
+        min: 0
+        max: 1
+    sight:
+      enabled: false
+      range: 0
+      angle: 360
+      visionMode: basic
+      color: null
+      attenuation: 0.1
+      brightness: 0
+      saturation: 0
+      contrast: 0
+    detectionModes: {}
+    occludable:
+      radius: 0
+    ring:
+      enabled: true
+      colors:
+        ring: null
+        background: null
+      effects: 1
+      subject:
+        scale: 1.02
+        texture: null
+    turnMarker:
+      mode: 1
+      animation: pulse
+      src: null
+      disposition: true
+    movementAction: null
+    actorId: 60xRopuUSQ9HE8fZ
+    hidden: false
+    sort: 6
+    shape: 4
+    level: RBcOqfQLzeawpUHb
+    _id: RsvsTIAYo8uaZVHR
+    delta:
+      _id: RsvsTIAYo8uaZVHR
+      name: null
+      type: null
+      img: null
+      system: {}
+      items: []
+      effects:
+        - name: Dead
+          img: systems/pf2e/icons/other/dead.svg
+          statuses:
+            - dead
+          showIcon: 2
+          _id: pF3W3ohUPOF0wzSN
+          type: base
+          system:
+            changes: []
+          disabled: false
+          start:
+            time: 23987984
+            combat: MtfRCWjiFVph0jJw
+            combatant: oOQn7HFdRnKZCm8r
+            initiative: 39
+            round: 6
+            turn: 4
+          duration:
+            value: null
+            units: seconds
+            expiry: null
+            expired: false
+          description: ''
+          origin: null
+          tint: '#ffffff'
+          transfer: false
+          folder: null
+          sort: 0
+          flags:
+            core:
+              overlay: true
+          _stats:
+            coreVersion: '14.364'
+            systemId: pf2e
+            systemVersion: 8.2.0
+            createdTime: null
+            modifiedTime: null
+            lastModifiedBy: null
+            compendiumSource: null
+            duplicateSource: null
+            exportSource: null
+          _key: >-
+            !scenes.tokens.delta.effects!v5n6rW7P3bqZVh8m.RsvsTIAYo8uaZVHR.RsvsTIAYo8uaZVHR.pF3W3ohUPOF0wzSN
+      flags: {}
+      ownership: null
+      _key: '!scenes.tokens.delta!v5n6rW7P3bqZVh8m.RsvsTIAYo8uaZVHR.RsvsTIAYo8uaZVHR'
+    x: 1300
+    'y': 2100
+    elevation: 20
+    locked: false
+    _movementHistory: []
+    _regions: []
+    _key: '!scenes.tokens!v5n6rW7P3bqZVh8m.RsvsTIAYo8uaZVHR'
+  - flags:
+      pf2e:
+        linkToActorSize: true
+        autoscale: true
+      healthEstimate:
+        dontMarkDead: false
+        hideHealthEstimate: false
+        hideName: false
+      monks-combat-details:
+        targets:
+          - WDiqWO4se609CzFv
+    height: 1
+    width: 1
+    name: The Charge Everlasting — Frozen Vanguard
+    displayName: 20
+    actorLink: false
+    depth: 1
+    texture:
+      src: worlds/kingmaker/NPCs/stone%20soldier%20token.webp
+      anchorX: 0.5
+      anchorY: 0.5
+      fit: contain
+      scaleX: 1
+      scaleY: 1
+      tint: '#ffffff'
+      alphaThreshold: 0.75
+    lockRotation: true
+    rotation: 0
+    alpha: 1
+    disposition: -1
+    displayBars: 20
+    bar1:
+      attribute: attributes.hp
+    bar2:
+      attribute: null
+    light:
+      negative: false
+      priority: 0
+      alpha: 0.5
+      angle: 360
+      bright: 0
+      color: null
+      coloration: 1
+      dim: 0
+      attenuation: 0.5
+      luminosity: 0.5
+      saturation: 0
+      contrast: 0
+      shadows: 0
+      animation:
+        type: null
+        speed: 5
+        intensity: 5
+        reverse: false
+      darkness:
+        min: 0
+        max: 1
+    sight:
+      enabled: false
+      range: 0
+      angle: 360
+      visionMode: basic
+      color: null
+      attenuation: 0.1
+      brightness: 0
+      saturation: 0
+      contrast: 0
+    detectionModes: {}
+    occludable:
+      radius: 0
+    ring:
+      enabled: true
+      colors:
+        ring: null
+        background: null
+      effects: 1
+      subject:
+        scale: 1.02
+        texture: null
+    turnMarker:
+      mode: 1
+      animation: pulse
+      src: null
+      disposition: true
+    movementAction: null
+    actorId: 60xRopuUSQ9HE8fZ
+    hidden: false
+    sort: 7
+    shape: 4
+    level: RBcOqfQLzeawpUHb
+    _id: DCc2uYWc1uRPLHbL
+    delta:
+      system:
+        attributes:
+          hp:
+            value: 0
+      _id: DCc2uYWc1uRPLHbL
+      name: null
+      type: null
+      img: null
+      items: []
+      effects:
+        - name: Dead
+          img: systems/pf2e/icons/other/dead.svg
+          statuses:
+            - dead
+          showIcon: 2
+          _id: yniRVyI0cGJsK3Ov
+          type: base
+          system:
+            changes: []
+          disabled: false
+          start:
+            time: 23987972
+            combat: MtfRCWjiFVph0jJw
+            combatant: GfLoCnhWPF6tIPSt
+            initiative: 33
+            round: 4
+            turn: 6
+          duration:
+            value: null
+            units: seconds
+            expiry: null
+            expired: false
+          description: ''
+          origin: null
+          tint: '#ffffff'
+          transfer: false
+          folder: null
+          sort: 0
+          flags:
+            core:
+              overlay: true
+          _stats:
+            coreVersion: '14.364'
+            systemId: pf2e
+            systemVersion: 8.2.0
+            createdTime: null
+            modifiedTime: null
+            lastModifiedBy: null
+            compendiumSource: null
+            duplicateSource: null
+            exportSource: null
+          _key: >-
+            !scenes.tokens.delta.effects!v5n6rW7P3bqZVh8m.DCc2uYWc1uRPLHbL.DCc2uYWc1uRPLHbL.yniRVyI0cGJsK3Ov
+      flags:
+        enhancedcombathud-pf2e:
+          lastSet:
+            active: '1'
+            primary: he6vxjpREUJOnDpa
+      ownership: null
+      _key: '!scenes.tokens.delta!v5n6rW7P3bqZVh8m.DCc2uYWc1uRPLHbL.DCc2uYWc1uRPLHbL'
+    x: 1300
+    'y': 3100
+    elevation: 20
+    locked: false
+    _movementHistory: []
+    _regions: []
+    _key: '!scenes.tokens!v5n6rW7P3bqZVh8m.DCc2uYWc1uRPLHbL'
+  - flags:
+      pf2e:
+        linkToActorSize: true
+        autoscale: true
+      healthEstimate:
+        dontMarkDead: false
+        hideHealthEstimate: false
+        hideName: false
+      monks-combat-details:
+        targets:
+          - HjK34LHdJH7eOavG
+    height: 1
+    width: 1
+    name: The Charge Everlasting — Frozen Vanguard
+    displayName: 20
+    actorLink: false
+    depth: 1
+    texture:
+      src: worlds/kingmaker/NPCs/stone%20soldier%20token.webp
+      anchorX: 0.5
+      anchorY: 0.5
+      fit: contain
+      scaleX: 1
+      scaleY: 1
+      tint: '#ffffff'
+      alphaThreshold: 0.75
+    lockRotation: true
+    rotation: 0
+    alpha: 1
+    disposition: -1
+    displayBars: 20
+    bar1:
+      attribute: attributes.hp
+    bar2:
+      attribute: null
+    light:
+      negative: false
+      priority: 0
+      alpha: 0.5
+      angle: 360
+      bright: 0
+      color: null
+      coloration: 1
+      dim: 0
+      attenuation: 0.5
+      luminosity: 0.5
+      saturation: 0
+      contrast: 0
+      shadows: 0
+      animation:
+        type: null
+        speed: 5
+        intensity: 5
+        reverse: false
+      darkness:
+        min: 0
+        max: 1
+    sight:
+      enabled: false
+      range: 0
+      angle: 360
+      visionMode: basic
+      color: null
+      attenuation: 0.1
+      brightness: 0
+      saturation: 0
+      contrast: 0
+    detectionModes: {}
+    occludable:
+      radius: 0
+    ring:
+      enabled: true
+      colors:
+        ring: null
+        background: null
+      effects: 1
+      subject:
+        scale: 1.02
+        texture: null
+    turnMarker:
+      mode: 1
+      animation: pulse
+      src: null
+      disposition: true
+    movementAction: null
+    actorId: 60xRopuUSQ9HE8fZ
+    hidden: false
+    sort: 8
+    shape: 4
+    level: RBcOqfQLzeawpUHb
+    _id: R9fMUu0cqMb10gyd
+    delta:
+      _id: R9fMUu0cqMb10gyd
+      name: null
+      type: null
+      img: null
+      system:
+        attributes:
+          hp:
+            value: 0
+      items: []
+      effects:
+        - name: Dead
+          img: systems/pf2e/icons/other/dead.svg
+          statuses:
+            - dead
+          showIcon: 2
+          _id: OtZeSqSzudVomoTI
+          type: base
+          system:
+            changes: []
+          disabled: false
+          start:
+            time: 23987960
+            combat: MtfRCWjiFVph0jJw
+            combatant: TUhCIancGNc1Wg8Y
+            initiative: 25
+            round: 2
+            turn: 8
+          duration:
+            value: null
+            units: seconds
+            expiry: null
+            expired: false
+          description: ''
+          origin: null
+          tint: '#ffffff'
+          transfer: false
+          folder: null
+          sort: 0
+          flags:
+            core:
+              overlay: true
+          _stats:
+            coreVersion: '14.364'
+            systemId: pf2e
+            systemVersion: 8.2.0
+            createdTime: null
+            modifiedTime: null
+            lastModifiedBy: null
+            compendiumSource: null
+            duplicateSource: null
+            exportSource: null
+          _key: >-
+            !scenes.tokens.delta.effects!v5n6rW7P3bqZVh8m.R9fMUu0cqMb10gyd.R9fMUu0cqMb10gyd.OtZeSqSzudVomoTI
+      flags:
+        enhancedcombathud-pf2e:
+          lastSet:
+            active: '1'
+            primary: he6vxjpREUJOnDpa
+      ownership: null
+      _key: '!scenes.tokens.delta!v5n6rW7P3bqZVh8m.R9fMUu0cqMb10gyd.R9fMUu0cqMb10gyd'
+    x: 1600
+    'y': 3300
+    elevation: 20
+    locked: false
+    _movementHistory: []
+    _regions: []
+    _key: '!scenes.tokens!v5n6rW7P3bqZVh8m.R9fMUu0cqMb10gyd'
+  - flags:
+      pf2e:
+        linkToActorSize: true
+        autoscale: true
+      healthEstimate:
+        dontMarkDead: false
+        hideHealthEstimate: false
+        hideName: false
+      monks-combat-details:
+        targets:
+          - WDiqWO4se609CzFv
+    height: 1
+    width: 1
+    name: The Charge Everlasting — Frozen Vanguard
+    displayName: 20
+    actorLink: false
+    depth: 1
+    texture:
+      src: worlds/kingmaker/NPCs/stone%20soldier%20token.webp
+      anchorX: 0.5
+      anchorY: 0.5
+      fit: contain
+      scaleX: 1
+      scaleY: 1
+      tint: '#ffffff'
+      alphaThreshold: 0.75
+    lockRotation: true
+    rotation: 0
+    alpha: 1
+    disposition: -1
+    displayBars: 20
+    bar1:
+      attribute: attributes.hp
+    bar2:
+      attribute: null
+    light:
+      negative: false
+      priority: 0
+      alpha: 0.5
+      angle: 360
+      bright: 0
+      color: null
+      coloration: 1
+      dim: 0
+      attenuation: 0.5
+      luminosity: 0.5
+      saturation: 0
+      contrast: 0
+      shadows: 0
+      animation:
+        type: null
+        speed: 5
+        intensity: 5
+        reverse: false
+      darkness:
+        min: 0
+        max: 1
+    sight:
+      enabled: false
+      range: 0
+      angle: 360
+      visionMode: basic
+      color: null
+      attenuation: 0.1
+      brightness: 0
+      saturation: 0
+      contrast: 0
+    detectionModes: {}
+    occludable:
+      radius: 0
+    ring:
+      enabled: true
+      colors:
+        ring: null
+        background: null
+      effects: 1
+      subject:
+        scale: 1.02
+        texture: null
+    turnMarker:
+      mode: 1
+      animation: pulse
+      src: null
+      disposition: true
+    movementAction: null
+    actorId: 60xRopuUSQ9HE8fZ
+    hidden: false
+    sort: 9
+    shape: 4
+    level: RBcOqfQLzeawpUHb
+    _id: 2hFMnjfZ3LAAeMWy
+    delta:
+      _id: 2hFMnjfZ3LAAeMWy
+      name: null
+      type: null
+      img: null
+      system:
+        attributes:
+          hp:
+            value: 0
+      items:
+        - img: systems/pf2e/icons/conditions/off-guard.webp
+          name: Off-Guard
+          system:
+            description:
+              value: >-
+                <p>You're distracted or otherwise unable to focus your full
+                attention on defense. You take a –2 circumstance penalty to AC.
+                Some effects give you the off-guard condition only to certain
+                creatures or against certain attacks. Others—especially
+                conditions—can make you off-guard against everything. If a rule
+                doesn't specify that the condition applies only to certain
+                circumstances, it applies to all of them, such as "The target is
+                off-guard."</p>
+              gm: ''
+            group: null
+            overrides: []
+            publication:
+              license: ORC
+              remaster: true
+              title: Pathfinder Player Core
+              authors: ''
+            references:
+              children: []
+              overriddenBy: []
+              overrides: []
+              parent: null
+            rules:
+              - key: FlatModifier
+                selector: ac
+                slug: off-guard
+                type: circumstance
+                value: -2
+            traits:
+              value: []
+              otherTags: []
+            value:
+              isValued: false
+              value: null
+            slug: off-guard
+            _migration:
+              version: 0.959
+              previous: null
+            fromSpell: false
+            persistent: null
+          type: condition
+          _stats:
+            coreVersion: '14.364'
+            systemId: pf2e
+            systemVersion: 8.2.0
+            createdTime: null
+            modifiedTime: null
+            lastModifiedBy: null
+            exportSource: null
+            compendiumSource: null
+            duplicateSource: null
+          effects: []
+          folder: null
+          sort: 0
+          flags: {}
+          _id: tSS8MrSSg7YJLbxu
+          ownership:
+            default: 0
+          _key: >-
+            !scenes.tokens.delta.items!v5n6rW7P3bqZVh8m.2hFMnjfZ3LAAeMWy.2hFMnjfZ3LAAeMWy.tSS8MrSSg7YJLbxu
+        - img: systems/pf2e/icons/conditions/prone.webp
+          name: Prone
+          system:
+            description:
+              value: >-
+                <p>You're lying on the ground. You are
+                @UUID[Compendium.pf2e.conditionitems.Item.AJh5ex99aV6VTggg]{Off-Guard}
+                and take a –2 circumstance penalty to attack rolls. The only
+                move actions you can use while you're prone are
+                @UUID[Compendium.pf2e.actionspf2e.Item.Tj055UcNm6UEgtCg]{Crawl}
+                and
+                @UUID[Compendium.pf2e.actionspf2e.Item.OdIUybJ3ddfL7wzj]{Stand}.
+                Standing up ends the prone condition. You can
+                @UUID[Compendium.pf2e.actionspf2e.Item.ust1jJSCZQUhBZIz]{Take
+                Cover} while prone to hunker down and gain greater cover against
+                ranged attacks, even if you don't have an object to get behind,
+                which grants you a +4 circumstance bonus to AC against ranged
+                attacks (but you remain off-guard).</p>
+
+                <p>If you would be knocked prone while you're
+                @UUID[Compendium.pf2e.actionspf2e.Item.pprgrYQ1QnIDGZiy]{Climbing}
+                or
+                @UUID[Compendium.pf2e.actionspf2e.Item.cS9nfDRGD83bNU1p]{Flying},
+                you fall. You can't be knocked prone when
+                @UUID[Compendium.pf2e.actionspf2e.Item.c8TGiZ48ygoSPofx]{Swimming}.</p>
+              gm: ''
+            group: null
+            overrides: []
+            publication:
+              license: ORC
+              remaster: true
+              title: Pathfinder Player Core
+              authors: ''
+            references:
+              children: []
+              overriddenBy: []
+              overrides: []
+              parent: null
+            rules:
+              - key: FlatModifier
+                selector: attack-roll
+                slug: prone
+                type: circumstance
+                value: -2
+              - inMemoryOnly: true
+                key: GrantItem
+                uuid: Compendium.pf2e.conditionitems.Item.AJh5ex99aV6VTggg
+            traits:
+              value: []
+              otherTags: []
+            value:
+              isValued: false
+              value: null
+            slug: prone
+            _migration:
+              version: 0.959
+              previous: null
+            fromSpell: false
+            persistent: null
+          type: condition
+          _stats:
+            coreVersion: '14.364'
+            systemId: pf2e
+            systemVersion: 8.2.0
+            createdTime: null
+            modifiedTime: null
+            lastModifiedBy: null
+            exportSource: null
+            compendiumSource: null
+            duplicateSource: null
+          effects: []
+          folder: null
+          sort: 0
+          flags: {}
+          _id: ffQwbdFFtgEvycM2
+          ownership:
+            default: 0
+          _key: >-
+            !scenes.tokens.delta.items!v5n6rW7P3bqZVh8m.2hFMnjfZ3LAAeMWy.2hFMnjfZ3LAAeMWy.ffQwbdFFtgEvycM2
+      effects:
+        - name: Dead
+          img: systems/pf2e/icons/other/dead.svg
+          statuses:
+            - dead
+          showIcon: 2
+          _id: 1F524c2vJ6kgYSyy
+          type: base
+          system:
+            changes: []
+          disabled: false
+          start:
+            time: 23987978
+            combat: MtfRCWjiFVph0jJw
+            combatant: oOQn7HFdRnKZCm8r
+            initiative: 39
+            round: 5
+            turn: 4
+          duration:
+            value: null
+            units: seconds
+            expiry: null
+            expired: false
+          description: ''
+          origin: null
+          tint: '#ffffff'
+          transfer: false
+          folder: null
+          sort: 0
+          flags:
+            core:
+              overlay: true
+          _stats:
+            coreVersion: '14.364'
+            systemId: pf2e
+            systemVersion: 8.2.0
+            createdTime: null
+            modifiedTime: null
+            lastModifiedBy: null
+            compendiumSource: null
+            duplicateSource: null
+            exportSource: null
+          _key: >-
+            !scenes.tokens.delta.effects!v5n6rW7P3bqZVh8m.2hFMnjfZ3LAAeMWy.2hFMnjfZ3LAAeMWy.1F524c2vJ6kgYSyy
+      flags:
+        enhancedcombathud-pf2e:
+          lastSet:
+            active: '1'
+            primary: he6vxjpREUJOnDpa
+      ownership: null
+      _key: '!scenes.tokens.delta!v5n6rW7P3bqZVh8m.2hFMnjfZ3LAAeMWy.2hFMnjfZ3LAAeMWy'
+    x: 1100
+    'y': 3400
+    elevation: 20
+    locked: false
+    _movementHistory: []
+    _regions: []
+    _key: '!scenes.tokens!v5n6rW7P3bqZVh8m.2hFMnjfZ3LAAeMWy'
+  - flags:
+      pf2e:
+        linkToActorSize: true
+        autoscale: true
+      healthEstimate:
+        dontMarkDead: false
+        hideHealthEstimate: false
+        hideName: false
+    height: 1
+    width: 1
+    name: The Charge Everlasting — Frozen Vanguard
+    displayName: 20
+    actorLink: false
+    depth: 1
+    texture:
+      src: worlds/kingmaker/NPCs/stone%20soldier%20token.webp
+      anchorX: 0.5
+      anchorY: 0.5
+      fit: contain
+      scaleX: 1
+      scaleY: 1
+      tint: '#ffffff'
+      alphaThreshold: 0.75
+    lockRotation: true
+    rotation: 0
+    alpha: 1
+    disposition: -1
+    displayBars: 20
+    bar1:
+      attribute: attributes.hp
+    bar2:
+      attribute: null
+    light:
+      negative: false
+      priority: 0
+      alpha: 0.5
+      angle: 360
+      bright: 0
+      color: null
+      coloration: 1
+      dim: 0
+      attenuation: 0.5
+      luminosity: 0.5
+      saturation: 0
+      contrast: 0
+      shadows: 0
+      animation:
+        type: null
+        speed: 5
+        intensity: 5
+        reverse: false
+      darkness:
+        min: 0
+        max: 1
+    sight:
+      enabled: false
+      range: 0
+      angle: 360
+      visionMode: basic
+      color: null
+      attenuation: 0.1
+      brightness: 0
+      saturation: 0
+      contrast: 0
+    detectionModes: {}
+    occludable:
+      radius: 0
+    ring:
+      enabled: true
+      colors:
+        ring: null
+        background: null
+      effects: 1
+      subject:
+        scale: 1.02
+        texture: null
+    turnMarker:
+      mode: 1
+      animation: pulse
+      src: null
+      disposition: true
+    movementAction: null
+    actorId: 60xRopuUSQ9HE8fZ
+    hidden: true
+    sort: 10
+    shape: 4
+    level: RBcOqfQLzeawpUHb
+    _id: BccQFxJUBAN5VWE9
+    delta: null
+    x: 4700
+    'y': 3000
+    elevation: 20
+    locked: false
+    _movementHistory: []
+    _regions: []
+    _key: '!scenes.tokens!v5n6rW7P3bqZVh8m.BccQFxJUBAN5VWE9'
+  - flags:
+      pf2e:
+        linkToActorSize: true
+        autoscale: true
+      healthEstimate:
+        dontMarkDead: false
+        hideHealthEstimate: false
+        hideName: false
+    height: 1
+    width: 1
+    name: The Charge Everlasting — Frozen Vanguard
+    displayName: 20
+    actorLink: false
+    depth: 1
+    texture:
+      src: worlds/kingmaker/NPCs/stone%20soldier%20token.webp
+      anchorX: 0.5
+      anchorY: 0.5
+      fit: contain
+      scaleX: 1
+      scaleY: 1
+      tint: '#ffffff'
+      alphaThreshold: 0.75
+    lockRotation: true
+    rotation: 0
+    alpha: 1
+    disposition: -1
+    displayBars: 20
+    bar1:
+      attribute: attributes.hp
+    bar2:
+      attribute: null
+    light:
+      negative: false
+      priority: 0
+      alpha: 0.5
+      angle: 360
+      bright: 0
+      color: null
+      coloration: 1
+      dim: 0
+      attenuation: 0.5
+      luminosity: 0.5
+      saturation: 0
+      contrast: 0
+      shadows: 0
+      animation:
+        type: null
+        speed: 5
+        intensity: 5
+        reverse: false
+      darkness:
+        min: 0
+        max: 1
+    sight:
+      enabled: false
+      range: 0
+      angle: 360
+      visionMode: basic
+      color: null
+      attenuation: 0.1
+      brightness: 0
+      saturation: 0
+      contrast: 0
+    detectionModes: {}
+    occludable:
+      radius: 0
+    ring:
+      enabled: true
+      colors:
+        ring: null
+        background: null
+      effects: 1
+      subject:
+        scale: 1.02
+        texture: null
+    turnMarker:
+      mode: 1
+      animation: pulse
+      src: null
+      disposition: true
+    movementAction: null
+    actorId: 60xRopuUSQ9HE8fZ
+    hidden: true
+    sort: 11
+    shape: 4
+    level: RBcOqfQLzeawpUHb
+    _id: r9MMoyV2upNGcofV
+    delta: null
+    x: 4800
+    'y': 3000
+    elevation: 20
+    locked: false
+    _movementHistory: []
+    _regions: []
+    _key: '!scenes.tokens!v5n6rW7P3bqZVh8m.r9MMoyV2upNGcofV'
+  - flags:
+      pf2e:
+        linkToActorSize: true
+        autoscale: true
+      healthEstimate:
+        dontMarkDead: false
+        hideHealthEstimate: false
+        hideName: false
+    height: 1
+    width: 1
+    name: The Charge Everlasting — Frozen Vanguard
+    displayName: 20
+    actorLink: false
+    depth: 1
+    texture:
+      src: worlds/kingmaker/NPCs/stone%20soldier%20token.webp
+      anchorX: 0.5
+      anchorY: 0.5
+      fit: contain
+      scaleX: 1
+      scaleY: 1
+      tint: '#ffffff'
+      alphaThreshold: 0.75
+    lockRotation: true
+    rotation: 0
+    alpha: 1
+    disposition: -1
+    displayBars: 20
+    bar1:
+      attribute: attributes.hp
+    bar2:
+      attribute: null
+    light:
+      negative: false
+      priority: 0
+      alpha: 0.5
+      angle: 360
+      bright: 0
+      color: null
+      coloration: 1
+      dim: 0
+      attenuation: 0.5
+      luminosity: 0.5
+      saturation: 0
+      contrast: 0
+      shadows: 0
+      animation:
+        type: null
+        speed: 5
+        intensity: 5
+        reverse: false
+      darkness:
+        min: 0
+        max: 1
+    sight:
+      enabled: false
+      range: 0
+      angle: 360
+      visionMode: basic
+      color: null
+      attenuation: 0.1
+      brightness: 0
+      saturation: 0
+      contrast: 0
+    detectionModes: {}
+    occludable:
+      radius: 0
+    ring:
+      enabled: true
+      colors:
+        ring: null
+        background: null
+      effects: 1
+      subject:
+        scale: 1.02
+        texture: null
+    turnMarker:
+      mode: 1
+      animation: pulse
+      src: null
+      disposition: true
+    movementAction: null
+    actorId: 60xRopuUSQ9HE8fZ
+    hidden: true
+    sort: 12
+    shape: 4
+    level: RBcOqfQLzeawpUHb
+    _id: lLEY0TWBSrEbV2kR
+    delta: null
+    x: 4700
+    'y': 3100
+    elevation: 20
+    locked: false
+    _movementHistory: []
+    _regions: []
+    _key: '!scenes.tokens!v5n6rW7P3bqZVh8m.lLEY0TWBSrEbV2kR'
+  - actorLink: true
+    flags:
+      pf2e:
+        linkToActorSize: true
+        autoscale: true
+      healthEstimate:
+        dontMarkDead: false
+        hideHealthEstimate: false
+        hideName: false
+    height: 1
+    width: 1
+    sight:
+      enabled: true
+      range: 0
+      angle: 360
+      visionMode: basic
+      color: null
+      attenuation: 0.1
+      brightness: 0
+      saturation: 0
+      contrast: 0
+    name: Astor 2
+    displayName: 20
+    depth: 1
+    texture:
+      src: worlds/kingmaker/PCs/Astor2%20token.png
+      anchorX: 0.5
+      anchorY: 0.5
+      fit: cover
+      scaleX: 1
+      scaleY: 1
+      tint: '#ffffff'
+      alphaThreshold: 0.75
+    lockRotation: true
+    rotation: 0
+    alpha: 1
+    disposition: 1
+    displayBars: 20
+    bar1:
+      attribute: attributes.hp
+    bar2:
+      attribute: null
+    light:
+      negative: false
+      priority: 0
+      alpha: 0.5
+      angle: 360
+      bright: 0
+      color: null
+      coloration: 1
+      dim: 0
+      attenuation: 0.5
+      luminosity: 0.5
+      saturation: 0
+      contrast: 0
+      shadows: 0
+      animation:
+        type: null
+        speed: 5
+        intensity: 5
+        reverse: false
+      darkness:
+        min: 0
+        max: 1
+    detectionModes: {}
+    occludable:
+      radius: 0
+    ring:
+      enabled: true
+      colors:
+        ring: null
+        background: null
+      effects: 1
+      subject:
+        scale: 1
+        texture: null
+    turnMarker:
+      mode: 1
+      animation: pulse
+      src: null
+      disposition: true
+    movementAction: null
+    actorId: rzjKyPZKTcUoOGhK
+    hidden: false
+    sort: 13
+    shape: 4
+    level: RBcOqfQLzeawpUHb
+    _id: HjK34LHdJH7eOavG
+    delta: null
+    x: 1400
+    'y': 3300
+    elevation: 20
+    locked: false
+    _movementHistory: []
+    _regions: []
+    _key: '!scenes.tokens!v5n6rW7P3bqZVh8m.HjK34LHdJH7eOavG'
+  - displayName: 20
+    displayBars: 20
+    flags:
+      pf2e:
+        linkToActorSize: false
+        autoscale: false
+    sight:
+      enabled: false
+      color: null
+      range: 0
+      angle: 360
+      visionMode: basic
+      attenuation: 0.1
+      brightness: 0
+      saturation: 0
+      contrast: 0
+    detectionModes: {}
+    disposition: -1
+    height: 1
+    width: 1
+    actorLink: true
+    name: Ilthuliak's Hoard
+    texture:
+      src: icons/commodities/currency/coins-plain-stack-gold.webp
+      scaleX: 0.8
+      scaleY: 0.8
+      tint: '#ffffff'
+      anchorX: 0.5
+      anchorY: 0.5
+      fit: contain
+      alphaThreshold: 0.75
+    lockRotation: false
+    rotation: 0
+    alpha: 1
+    bar1:
+      attribute: attributes.hp
+    bar2:
+      attribute: null
+    light:
+      alpha: 0.5
+      angle: 360
+      bright: 0
+      coloration: 1
+      dim: 0
+      attenuation: 0.5
+      luminosity: 0.5
+      saturation: 0
+      contrast: 0
+      shadows: 0
+      animation:
+        type: null
+        speed: 5
+        intensity: 5
+        reverse: false
+      darkness:
+        min: 0
+        max: 1
+      color: null
+      negative: false
+      priority: 0
+    occludable:
+      radius: 0
+    ring:
+      enabled: false
+      colors:
+        ring: null
+        background: null
+      effects: 1
+      subject:
+        scale: 1
+        texture: null
+    turnMarker:
+      mode: 1
+      animation: pulse
+      src: null
+      disposition: true
+    movementAction: null
+    depth: 1
+    actorId: O1Jd6pN97AFJlmw9
+    hidden: false
+    sort: 19
+    shape: 4
+    level: RBcOqfQLzeawpUHb
+    _id: ZfhfJPYphfkGqm17
+    delta: null
+    x: 4100
+    'y': 1600
+    elevation: 20
+    locked: false
+    _movementHistory: []
+    _regions: []
+    _key: '!scenes.tokens!v5n6rW7P3bqZVh8m.ZfhfJPYphfkGqm17'
+  - displayName: 30
+    displayBars: 20
+    flags:
+      monks-tokenbar:
+        include: default
+      healthEstimate:
+        dontMarkDead: false
+        hideHealthEstimate: false
+        hideName: false
+      pf2e:
+        linkToActorSize: true
+        autoscale: false
+      monks-combat-marker:
+        token-highlight-scale: 1.5
+        token-combat-animation: ''
+        token-highlight: ''
+      monks-bloodsplats:
+        bloodsplat-colour: ''
+        bloodsplat-type: ''
+      tagger:
+        tags:
+          - lee-swashbuckler
+      core: {}
+      wall-height:
+        tokenHeight: 0
+    height: 1
+    width: 1
+    actorLink: true
+    sight:
+      enabled: true
+      range: 0
+      angle: 360
+      visionMode: basic
+      color: null
+      attenuation: 0.1
+      brightness: 0
+      saturation: 0
+      contrast: 0
+    name: Lee
+    texture:
+      src: worlds/kingmaker/PCs/lee%20transparent.webp
+      scaleX: 1.2
+      scaleY: 1.2
+      tint: '#ffffff'
+      anchorX: 0.5
+      anchorY: 0.5
+      fit: contain
+      alphaThreshold: 0.75
+    lockRotation: false
+    rotation: 0
+    alpha: 1
+    disposition: -1
+    bar1:
+      attribute: attributes.hp
+    bar2:
+      attribute: null
+    light:
+      alpha: 0.5
+      angle: 360
+      bright: 0
+      color: null
+      coloration: 1
+      dim: 0
+      attenuation: 0.5
+      luminosity: 0.5
+      saturation: 0
+      contrast: 0
+      shadows: 0
+      animation:
+        type: null
+        speed: 5
+        intensity: 5
+        reverse: false
+      darkness:
+        min: 0
+        max: 1
+      negative: false
+      priority: 0
+    detectionModes:
+      lightPerception:
+        range: null
+        enabled: true
+    occludable:
+      radius: 0
+    ring:
+      enabled: true
+      colors:
+        ring: null
+        background: null
+      effects: 1
+      subject:
+        scale: 1.2
+        texture: null
+    turnMarker:
+      mode: 1
+      animation: pulse
+      src: null
+      disposition: true
+    movementAction: null
+    depth: 1
+    actorId: e5w3kUoIn16cJHW3
+    hidden: false
+    sort: 20
+    shape: 4
+    level: RBcOqfQLzeawpUHb
+    _id: GI3pn7vfjVB5Y3T8
+    delta: null
+    x: 4200
+    'y': 1500
+    elevation: 20
+    locked: false
+    _movementHistory: []
+    _regions: []
+    _key: '!scenes.tokens!v5n6rW7P3bqZVh8m.GI3pn7vfjVB5Y3T8'
+  - displayName: 30
+    displayBars: 30
+    flags:
+      monks-tokenbar:
+        include: default
+      healthEstimate:
+        dontMarkDead: false
+        hideHealthEstimate: false
+        hideName: false
+      pf2e:
+        linkToActorSize: true
+        autoscale: false
+      monks-combat-marker:
+        token-highlight-scale: 1.5
+        token-combat-animation: ''
+        token-highlight: ''
+      monks-bloodsplats:
+        bloodsplat-colour: ''
+        glyph: f
+        bloodsplat-type: ''
+        bloodsplat-index: 109
+      tagger:
+        tags:
+          - lucas-oracle
+      core: {}
+      wall-height:
+        tokenHeight: 0
+    height: 1
+    width: 1
+    actorLink: true
+    sight:
+      enabled: true
+      range: 0
+      angle: 360
+      visionMode: basic
+      color: null
+      attenuation: 0.1
+      brightness: 0
+      saturation: 0
+      contrast: 0
+    name: Lucas Sato_
+    texture:
+      src: worlds/kingmaker/PCs/Lucas%20Sato%20head.webp
+      scaleX: 1.1
+      scaleY: 1.1
+      tint: '#ffffff'
+      anchorX: 0.5
+      anchorY: 0.5
+      fit: contain
+      alphaThreshold: 0.75
+    lockRotation: false
+    rotation: 0
+    alpha: 1
+    disposition: -1
+    bar1:
+      attribute: attributes.hp
+    bar2:
+      attribute: null
+    light:
+      alpha: 0.5
+      angle: 360
+      bright: 0
+      color: null
+      coloration: 1
+      dim: 0
+      attenuation: 0.5
+      luminosity: 0.5
+      saturation: 0
+      contrast: 0
+      shadows: 0
+      animation:
+        type: null
+        speed: 5
+        intensity: 5
+        reverse: false
+      darkness:
+        min: 0
+        max: 1
+      negative: false
+      priority: 0
+    detectionModes:
+      lightPerception:
+        range: null
+        enabled: true
+    occludable:
+      radius: 0
+    ring:
+      enabled: true
+      colors:
+        ring: null
+        background: null
+      effects: 1
+      subject:
+        scale: 1.1
+        texture: null
+    turnMarker:
+      mode: 1
+      animation: pulse
+      src: null
+      disposition: true
+    movementAction: null
+    depth: 1
+    actorId: tcIYyvoSIEPinWBT
+    hidden: false
+    sort: 21
+    shape: 4
+    level: RBcOqfQLzeawpUHb
+    _id: WDiqWO4se609CzFv
+    delta: null
+    x: 4000
+    'y': 1600
+    elevation: 20
+    locked: false
+    _movementHistory: []
+    _regions: []
+    _key: '!scenes.tokens!v5n6rW7P3bqZVh8m.WDiqWO4se609CzFv'
+  - displayName: 30
+    displayBars: 40
+    flags:
+      monks-tokenbar:
+        include: default
+      healthEstimate:
+        dontMarkDead: false
+        hideHealthEstimate: false
+        hideName: false
+      pf2e:
+        linkToActorSize: true
+        autoscale: false
+      monks-combat-marker:
+        token-highlight-scale: 1.5
+        token-combat-animation: ''
+        token-highlight: ''
+      monks-bloodsplats:
+        bloodsplat-colour: ''
+        bloodsplat-type: ''
+      core: {}
+      wall-height:
+        tokenHeight: 0
+      tagger: {}
+    sight:
+      enabled: true
+      color: null
+      range: 0
+      angle: 360
+      visionMode: basic
+      attenuation: 0.1
+      brightness: 0
+      saturation: 0
+      contrast: 0
+    detectionModes: {}
+    bar2:
+      attribute: resources.heroPoints
+    height: 1
+    width: 1
+    actorLink: true
+    name: Milo Tinkerfoot
+    texture:
+      src: worlds/kingmaker/PCs/bramble-character-p.webp
+      scaleX: 1.1
+      scaleY: 1.1
+      tint: '#ffffff'
+      anchorX: 0.5
+      anchorY: 0.5
+      fit: contain
+      alphaThreshold: 0.75
+    lockRotation: false
+    rotation: 0
+    alpha: 1
+    disposition: -1
+    bar1:
+      attribute: attributes.hp
+    light:
+      alpha: 0.5
+      angle: 360
+      bright: 0
+      coloration: 1
+      dim: 0
+      attenuation: 0.5
+      luminosity: 0.5
+      saturation: 0
+      contrast: 0
+      shadows: 0
+      animation:
+        type: null
+        speed: 5
+        intensity: 5
+        reverse: false
+      darkness:
+        min: 0
+        max: 1
+      color: null
+      negative: false
+      priority: 0
+    occludable:
+      radius: 0
+    ring:
+      enabled: true
+      colors:
+        ring: null
+        background: null
+      effects: 1
+      subject:
+        scale: 1.1
+        texture: null
+    turnMarker:
+      mode: 1
+      animation: pulse
+      src: null
+      disposition: true
+    movementAction: null
+    depth: 1
+    actorId: gFxipV1xecFvG2ry
+    hidden: false
+    sort: 22
+    shape: 4
+    level: RBcOqfQLzeawpUHb
+    _id: b9LhqpzAAUOI9dXC
+    delta: null
+    x: 1500
+    'y': 3400
+    elevation: 20
+    locked: false
+    _movementHistory: []
+    _regions: []
+    _key: '!scenes.tokens!v5n6rW7P3bqZVh8m.b9LhqpzAAUOI9dXC'
+  - displayName: 30
+    displayBars: 20
+    flags:
+      monks-tokenbar:
+        include: default
+      healthEstimate:
+        dontMarkDead: false
+        hideHealthEstimate: false
+        hideName: false
+      pf2e:
+        linkToActorSize: true
+        autoscale: false
+      monks-combat-marker:
+        token-highlight-scale: 1.5
+        token-combat-animation: ''
+        token-highlight: ''
+      monks-bloodsplats:
+        bloodsplat-colour: ''
+        bloodsplat-type: ''
+      tagger:
+        tags:
+          - riven-ranger
+      core: {}
+      wall-height:
+        tokenHeight: 0
+    height: 1
+    width: 1
+    actorLink: true
+    sight:
+      enabled: true
+      range: null
+      angle: 360
+      visionMode: basic
+      color: null
+      attenuation: 0.1
+      brightness: 0
+      saturation: 0
+      contrast: 0
+    name: Riven
+    texture:
+      src: worlds/kingmaker/PCs/riven-portrait-1-nobg.png
+      scaleX: 1.1
+      scaleY: 1.1
+      tint: '#ffffff'
+      anchorX: 0.5
+      anchorY: 0.5
+      fit: contain
+      alphaThreshold: 0.75
+    lockRotation: false
+    rotation: 0
+    alpha: 1
+    disposition: -1
+    bar1:
+      attribute: attributes.hp
+    bar2:
+      attribute: null
+    light:
+      alpha: 0.5
+      angle: 360
+      bright: 0
+      color: null
+      coloration: 1
+      dim: 0
+      attenuation: 0.5
+      luminosity: 0.5
+      saturation: 0
+      contrast: 0
+      shadows: 0
+      animation:
+        type: null
+        speed: 5
+        intensity: 5
+        reverse: false
+      darkness:
+        min: 0
+        max: 1
+      negative: false
+      priority: 0
+    detectionModes:
+      basicSight:
+        range: null
+        enabled: true
+    occludable:
+      radius: 0
+    ring:
+      enabled: true
+      colors:
+        ring: null
+        background: null
+      effects: 0
+      subject:
+        scale: 1
+        texture: null
+    turnMarker:
+      mode: 1
+      animation: pulse
+      src: null
+      disposition: true
+    movementAction: null
+    depth: 1
+    actorId: BXJA0aPg162BfOxh
+    hidden: false
+    sort: 25
+    shape: 4
+    level: RBcOqfQLzeawpUHb
+    _id: cKvrRbEJPUFEsWBh
+    delta: null
+    x: 1600
+    'y': 3000
+    elevation: 20
+    locked: false
+    _movementHistory: []
+    _regions: []
+    _key: '!scenes.tokens!v5n6rW7P3bqZVh8m.cKvrRbEJPUFEsWBh'
+  - displayName: 30
+    displayBars: 30
+    flags:
+      monks-tokenbar:
+        include: default
+      healthEstimate:
+        dontMarkDead: false
+        hideHealthEstimate: false
+        hideName: false
+      pf2e:
+        linkToActorSize: true
+        autoscale: false
+      wall-height:
+        tokenHeight: 0
+      tagger: {}
+      core: {}
+      monks-combat-marker:
+        token-highlight-scale: 1.5
+        token-combat-animation: ''
+        token-highlight: ''
+      monks-bloodsplats:
+        bloodsplat-type: ''
+        bloodsplat-colour: ''
+        bloodsplat-index: 180
+    sight:
+      enabled: true
+      color: null
+      range: null
+      angle: 360
+      visionMode: basic
+      attenuation: 0
+      brightness: 0
+      saturation: 0
+      contrast: 0
+    detectionModes:
+      basicSight:
+        range: null
+        enabled: true
+      lightPerception:
+        range: null
+        enabled: true
+    bar2:
+      attribute: null
+    height: 1
+    width: 1
+    actorLink: true
+    name: Pavel
+    texture:
+      src: worlds/kingmaker/PCs/Pavel-token-briar-final.webp
+      scaleX: 1
+      scaleY: 1
+      tint: '#ffffff'
+      anchorX: 0.5
+      anchorY: 0.5
+      fit: cover
+      alphaThreshold: 0.75
+    lockRotation: false
+    rotation: 0
+    alpha: 1
+    disposition: 1
+    bar1:
+      attribute: attributes.hp
+    light:
+      alpha: 0.5
+      angle: 360
+      bright: 0
+      coloration: 1
+      dim: 0
+      attenuation: 0.5
+      luminosity: 0.5
+      saturation: 0
+      contrast: 0
+      shadows: 0
+      animation:
+        type: flame
+        speed: 5
+        intensity: 5
+        reverse: false
+      darkness:
+        min: 0
+        max: 1
+      color: null
+      negative: false
+      priority: 0
+    occludable:
+      radius: 0
+    ring:
+      enabled: true
+      colors:
+        ring: null
+        background: '#242e1f'
+      effects: 1
+      subject:
+        scale: 1
+        texture: tokenizer/pc-images/Token.Pavel.webp?v=1781394222473
+    turnMarker:
+      mode: 1
+      animation: pulse
+      src: null
+      disposition: true
+    movementAction: null
+    depth: 1
+    actorId: VMmyjUNJLXltJ5DV
+    hidden: false
+    sort: 26
+    shape: 4
+    level: RBcOqfQLzeawpUHb
+    _id: eAAFMhfKwW7gpJv9
+    delta: null
+    x: 4000
+    'y': 1700
+    elevation: 20
+    locked: false
+    _movementHistory: []
+    _regions: []
+    _key: '!scenes.tokens!v5n6rW7P3bqZVh8m.eAAFMhfKwW7gpJv9'
+  - displayName: 30
+    displayBars: 40
+    flags:
+      monks-tokenbar:
+        include: default
+      healthEstimate:
+        dontMarkDead: false
+        hideHealthEstimate: false
+        hideName: false
+      pf2e:
+        linkToActorSize: true
+        autoscale: false
+      core: {}
+      wall-height:
+        tokenHeight: 0
+      tagger: {}
+      monks-combat-marker:
+        token-highlight-scale: 1.5
+        token-combat-animation: ''
+        token-highlight: ''
+      monks-bloodsplats:
+        bloodsplat-colour: ''
+        bloodsplat-type: ''
+    sight:
+      enabled: true
+      color: null
+      range: 0
+      angle: 360
+      visionMode: basic
+      attenuation: 0.1
+      brightness: 0
+      saturation: 0
+      contrast: 0
+    detectionModes: {}
+    height: 1
+    width: 1
+    actorLink: true
+    name: Rindle X
+    texture:
+      src: worlds/kingmaker/PCs/rindle.webp
+      scaleX: 1.1
+      scaleY: 1.1
+      tint: '#ffffff'
+      anchorX: 0.5
+      anchorY: 0.5
+      fit: contain
+      alphaThreshold: 0.75
+    lockRotation: false
+    rotation: 0
+    alpha: 1
+    disposition: -1
+    bar1:
+      attribute: attributes.hp
+    bar2:
+      attribute: null
+    light:
+      alpha: 0.5
+      angle: 360
+      bright: 0
+      coloration: 1
+      dim: 0
+      attenuation: 0.5
+      luminosity: 0.5
+      saturation: 0
+      contrast: 0
+      shadows: 0
+      animation:
+        type: null
+        speed: 5
+        intensity: 5
+        reverse: false
+      darkness:
+        min: 0
+        max: 1
+      color: null
+      negative: false
+      priority: 0
+    occludable:
+      radius: 0
+    ring:
+      enabled: true
+      colors:
+        ring: null
+        background: null
+      effects: 1
+      subject:
+        scale: 1.1
+        texture: null
+    turnMarker:
+      mode: 1
+      animation: pulse
+      src: null
+      disposition: true
+    movementAction: null
+    depth: 1
+    actorId: hdDU3CMTO5xZeumu
+    hidden: false
+    sort: 27
+    shape: 4
+    level: RBcOqfQLzeawpUHb
+    _id: KON94lpS0picAwtg
+    delta: null
+    x: 1600
+    'y': 3400
+    elevation: 20
+    locked: false
+    _movementHistory: []
+    _regions: []
+    _key: '!scenes.tokens!v5n6rW7P3bqZVh8m.KON94lpS0picAwtg'
+  - displayName: 50
+    displayBars: 40
+    flags:
+      monks-tokenbar:
+        include: default
+      healthEstimate:
+        dontMarkDead: false
+        hideHealthEstimate: false
+        hideName: false
+      pf2e:
+        linkToActorSize: true
+        autoscale: false
+      wall-height:
+        tokenHeight: 0
+      tagger: {}
+      core: {}
+      monks-combat-marker:
+        token-highlight-scale: 1.5
+        token-combat-animation: ''
+        token-highlight: ''
+      monks-bloodsplats:
+        bloodsplat-colour: ''
+        bloodsplat-type: ''
+    sight:
+      enabled: true
+      color: null
+      range: 0
+      angle: 360
+      visionMode: basic
+      attenuation: 0.1
+      brightness: 0
+      saturation: 0
+      contrast: 0
+    detectionModes:
+      senseAll:
+        range: 30
+        enabled: true
+    height: 1
+    width: 1
+    actorLink: true
+    name: Cat
+    texture:
+      src: worlds/kingmaker/PCs/Panther3.webp
+      scaleX: 0.9
+      scaleY: 0.9
+      tint: '#ffffff'
+      anchorX: 0.5
+      anchorY: 0.5
+      fit: contain
+      alphaThreshold: 0.75
+    lockRotation: false
+    rotation: 0
+    alpha: 1
+    disposition: -1
+    bar1:
+      attribute: attributes.hp
+    bar2:
+      attribute: resources.heroPoints
+    light:
+      alpha: 0.5
+      angle: 360
+      bright: 0
+      coloration: 1
+      dim: 0
+      attenuation: 0.5
+      luminosity: 0.5
+      saturation: 0
+      contrast: 0
+      shadows: 0
+      animation:
+        type: null
+        speed: 5
+        intensity: 5
+        reverse: false
+      darkness:
+        min: 0
+        max: 1
+      color: null
+      negative: false
+      priority: 0
+    occludable:
+      radius: 0
+    ring:
+      enabled: true
+      colors:
+        ring: null
+        background: null
+      effects: 1
+      subject:
+        scale: 0.9
+        texture: null
+    turnMarker:
+      mode: 1
+      animation: pulse
+      src: null
+      disposition: true
+    movementAction: null
+    depth: 1
+    actorId: LLqJy26e7s2eawzi
+    hidden: false
+    sort: 28
+    shape: 4
+    level: RBcOqfQLzeawpUHb
+    _id: P1slPJIJOx0FdfIL
+    delta: null
+    x: 1600
+    'y': 3500
+    elevation: 20
+    locked: false
+    _movementHistory: []
+    _regions: []
+    _key: '!scenes.tokens!v5n6rW7P3bqZVh8m.P1slPJIJOx0FdfIL'
+  - displayName: 20
+    displayBars: 20
+    flags:
+      pf2e:
+        autoscale: false
+        linkToActorSize: true
+      monks-combat-details:
+        targets: []
+    sight:
+      enabled: false
+      range: 0
+      angle: 360
+      visionMode: basic
+      attenuation: 0.1
+      brightness: 0
+      saturation: 0
+      contrast: 0
+      color: null
+    detectionModes: {}
+    disposition: -1
+    name: Ilthuliak
+    actorLink: false
+    texture:
+      src: modules/pf2e-kingmaker/assets/actor-tokens/kingmaker/ilthuliak.webp
+      scaleX: 2
+      scaleY: 2
+      anchorX: 0.5
+      anchorY: 0.5
+      fit: contain
+      tint: '#ffffff'
+      alphaThreshold: 0.75
+    width: 4
+    height: 4
+    lockRotation: false
+    rotation: 0
+    alpha: 1
+    bar1:
+      attribute: attributes.hp
+    bar2:
+      attribute: null
+    light:
+      alpha: 0.5
+      angle: 360
+      bright: 0
+      coloration: 1
+      dim: 0
+      attenuation: 0.5
+      luminosity: 0.5
+      saturation: 0
+      contrast: 0
+      shadows: 0
+      animation:
+        type: null
+        speed: 5
+        intensity: 5
+        reverse: false
+      darkness:
+        min: 0
+        max: 1
+      negative: false
+      priority: 0
+      color: null
+    occludable:
+      radius: 0
+    ring:
+      enabled: false
+      colors:
+        ring: null
+        background: null
+      effects: 1
+      subject:
+        scale: 1
+        texture: null
+    turnMarker:
+      mode: 1
+      animation: pulse
+      src: null
+      disposition: true
+    movementAction: null
+    depth: 1
+    actorId: cKg1hvcAIGijUjCA
+    hidden: false
+    sort: 0
+    shape: 4
+    level: PH24qWouiKrJgsfQ
+    _id: 16jnKZtBkJ1uTZIb
+    delta:
+      _id: 16jnKZtBkJ1uTZIb
+      name: Ilthuliak
+      system:
+        attributes:
+          hp:
+            value: 0
+      items:
+        - _id: e3mEtYHIO4f0NZZc
+          img: systems/pf2e/icons/default-icons/spellcastingEntry.svg
+          name: Arcane Prepared Spells
+          sort: 100000
+          system:
+            description:
+              gm: ''
+              value: ''
+            rules: []
+            slug: null
+            _migration:
+              version: 0.959
+              lastMigration: null
+              previous: null
+            traits:
+              otherTags: []
+            publication:
+              title: ''
+              authors: ''
+              license: OGL
+              remaster: false
+            ability:
+              value: cha
+            spelldc:
+              value: 32
+              dc: 44
+              mod: 0
+            tradition:
+              value: arcane
+            prepared:
+              value: prepared
+            showSlotlessLevels:
+              value: true
+            proficiency:
+              value: 0
+            slots:
+              slot0:
+                prepared:
+                  - id: PHbUj5fUdHqhCln0
+                  - id: 2NJFYDPX1o58TQyl
+                  - id: V1cMFSrH5O4LEd5R
+                  - id: ZW9jM76s0jLR3xb3
+                  - id: r0uulnCvyN0FvhXJ
+                value: 0
+                max: 5
+              slot1:
+                prepared:
+                  - id: nMMSsrZ8iF94tnyh
+                  - id: jhe4IWhZxEgVicFM
+                  - id: MzlfWkwDO8RervKn
+                value: 0
+                max: 3
+              slot2:
+                prepared:
+                  - id: zfOqLfiliOAuSXyP
+                  - id: ou25Z5zGUPvHeP3S
+                  - id: U1Y5cdqOAFROAOAA
+                value: 0
+                max: 3
+              slot3:
+                prepared:
+                  - id: 1Sg7lTv8QHUYf7qj
+                  - id: fgP1cLJ8ZFXaiT0R
+                  - id: 9goI4nxKHUyxDCOl
+                value: 0
+                max: 3
+              slot4:
+                prepared:
+                  - id: VgaJSgBmX85YeivQ
+                  - id: fivRuHqJhmK3Opf2
+                  - id: zX76FFnTQMcoKXrs
+                value: 0
+                max: 3
+              slot5:
+                prepared:
+                  - id: Ii8bSvWTjdeQhSC8
+                  - id: ygjXKWVx3Ef8Kipz
+                  - id: JvIlMshsbE05j3jB
+                value: 0
+                max: 3
+              slot6:
+                prepared:
+                  - id: keaFKUFTjWWnKaLf
+                    expended: false
+                  - id: 598GuXNWsl4Y5cop
+                    expended: true
+                  - id: xkAZvE53zNejZwjs
+                    expended: false
+                value: 0
+                max: 3
+              slot7:
+                prepared:
+                  - id: KSICEHiSmW8ohmFG
+                    expended: false
+                  - id: CFewCybbdlkN25DE
+                    expended: false
+                  - id: nSMV9oOkEmYM6AV1
+                    expended: true
+                value: 0
+                max: 3
+              slot8:
+                prepared:
+                  - id: jc6WLvl74wdjEstw
+                  - id: QKeSIum17eOTaHx2
+                  - expended: true
+                    id: wIXiyqpsbma2lWeo
+                value: 0
+                max: 3
+              slot9:
+                prepared:
+                  - id: gSkN68GlNywfmgW6
+                  - id: 8irZO9enRzZw3dXj
+                  - id: 78fbo3oSDLQLcQmO
+                value: 0
+                max: 3
+              slot10:
+                prepared:
+                  - id: 36EfFehKTZMKrxv1
+                value: 0
+                max: 1
+              slot11:
+                prepared: []
+                value: 0
+                max: 0
+            autoHeightenLevel:
+              value: 7
+            showUnpreparedSpells:
+              value: false
+            displayLevels: {}
+          type: spellcastingEntry
+          effects: []
+          folder: null
+          flags: {}
+          _stats:
+            systemId: pf2e
+            systemVersion: 8.2.0
+            coreVersion: '14.364'
+            createdTime: null
+            modifiedTime: null
+            lastModifiedBy: null
+            exportSource: null
+            compendiumSource: null
+            duplicateSource: null
+          ownership:
+            default: 0
+          _key: >-
+            !scenes.tokens.delta.items!v5n6rW7P3bqZVh8m.16jnKZtBkJ1uTZIb.16jnKZtBkJ1uTZIb.e3mEtYHIO4f0NZZc
+        - _id: SRv8Gjga6DHY4U8G
+          img: systems/pf2e/icons/actions/OneAction.webp
+          name: Corrupt Water
+          sort: 4600000
+          system:
+            description:
+              gm: ''
+              value: >-
+                <p><strong>Frequency</strong> Once per day</p>
+
+                <hr>
+
+                <p><strong>Effect</strong> The dragon permanently befouls 10
+                cubic feet of liquid within 90 feet. The liquid becomes
+                undrinkable and unable to support water-breathing life.</p>
+
+                <p>This destroys liquid magic or alchemical items if they're of
+                a lower level than the dragon (a creature can attempt a
+                @Check[will|dc:41] save to protect liquids in its possession).
+                This doesn't affect liquids in a creature's body.</p>
+            rules: []
+            slug: null
+            _migration:
+              version: 0.959
+              previous: null
+            traits:
+              otherTags: []
+              value:
+                - arcane
+                - concentrate
+            publication:
+              title: ''
+              authors: ''
+              license: OGL
+              remaster: false
+            actionType:
+              value: action
+            category: offensive
+            actions:
+              value: 1
+            deathNote: false
+            frequency:
+              max: 1
+              per: day
+              value: 0
+          type: action
+          effects: []
+          folder: null
+          flags: {}
+          _stats:
+            systemId: pf2e
+            systemVersion: 8.2.0
+            coreVersion: '14.364'
+            createdTime: null
+            modifiedTime: null
+            lastModifiedBy: null
+            exportSource: null
+            compendiumSource: null
+            duplicateSource: null
+          ownership:
+            default: 0
+          _key: >-
+            !scenes.tokens.delta.items!v5n6rW7P3bqZVh8m.16jnKZtBkJ1uTZIb.16jnKZtBkJ1uTZIb.SRv8Gjga6DHY4U8G
+        - img: systems/pf2e/icons/conditions/fatigued.webp
+          name: Fatigued
+          system:
+            description:
+              value: >-
+                <p>You're tired and can't summon much energy. You take a –1
+                status penalty to AC and saving throws. You can't use
+                exploration activities performed while traveling.</p>
+
+                <p>You recover from fatigue after a full night's rest.</p>
+              gm: ''
+            group: null
+            overrides: []
+            publication:
+              license: ORC
+              remaster: true
+              title: Pathfinder Player Core
+              authors: ''
+            references:
+              children: []
+              overriddenBy: []
+              overrides: []
+              parent: null
+            rules:
+              - key: FlatModifier
+                selector:
+                  - ac
+                  - saving-throw
+                slug: fatigued
+                type: status
+                value: -1
+            traits:
+              value: []
+              otherTags: []
+            value:
+              isValued: false
+              value: null
+            slug: fatigued
+            _migration:
+              version: 0.959
+              previous: null
+            fromSpell: false
+            persistent: null
+          type: condition
+          _stats:
+            coreVersion: '14.364'
+            systemId: pf2e
+            systemVersion: 8.2.0
+            createdTime: null
+            modifiedTime: null
+            lastModifiedBy: null
+            exportSource: null
+            compendiumSource: null
+            duplicateSource: null
+          effects: []
+          folder: null
+          sort: 0
+          flags: {}
+          _id: yZ1IuQwQrvHvhFn2
+          ownership:
+            default: 0
+          _key: >-
+            !scenes.tokens.delta.items!v5n6rW7P3bqZVh8m.16jnKZtBkJ1uTZIb.16jnKZtBkJ1uTZIb.yZ1IuQwQrvHvhFn2
+        - img: systems/pf2e/icons/conditions/persistent-damage.webp
+          name: Persistent Damage
+          system:
+            description:
+              value: >-
+                <p>You are taking damage from an ongoing effect, such as from
+                being lit on fire. This appears as "X persistent [type] damage,"
+                where "X" is the amount of damage dealt and "[type]" is the
+                damage type. Like normal damage, it can be doubled or halved
+                based on the results of an attack roll or saving throw. Instead
+                of taking persistent damage immediately, you take it at the end
+                of each of your turns as long as you have the condition, rolling
+                any damage dice anew each time. After you take persistent
+                damage, roll a @Check[flat|showDC:all|dc:15] to see if you
+                recover from the persistent damage. If you succeed, the
+                condition ends.</p>
+              gm: ''
+            group: null
+            overrides: []
+            publication:
+              license: ORC
+              remaster: true
+              title: Pathfinder Player Core
+              authors: ''
+            references:
+              children: []
+              overriddenBy: []
+              overrides: []
+              parent: null
+            rules: []
+            traits:
+              value:
+                - arcane
+                - magical
+                - morph
+              otherTags: []
+            value:
+              isValued: false
+              value: null
+            slug: persistent-damage
+            _migration:
+              version: 0.959
+              previous: null
+            fromSpell: false
+            persistent:
+              formula: '10'
+              damageType: bleed
+              dc: 15
+              criticalHit: false
+          type: condition
+          _stats:
+            coreVersion: '14.364'
+            systemId: pf2e
+            systemVersion: 8.2.0
+            createdTime: null
+            modifiedTime: null
+            lastModifiedBy: null
+            exportSource: null
+            compendiumSource: null
+            duplicateSource: null
+          effects: []
+          folder: null
+          sort: 0
+          flags: {}
+          _id: kVBulhOUXbwzfWHR
+          ownership:
+            default: 0
+          _key: >-
+            !scenes.tokens.delta.items!v5n6rW7P3bqZVh8m.16jnKZtBkJ1uTZIb.16jnKZtBkJ1uTZIb.kVBulhOUXbwzfWHR
+      effects:
+        - name: Dead
+          img: systems/pf2e/icons/other/dead.svg
+          statuses:
+            - dead
+          showIcon: 2
+          _id: PivT2itmzrRDsIJB
+          type: base
+          system:
+            changes: []
+          disabled: false
+          start:
+            time: 23987984
+            combat: MtfRCWjiFVph0jJw
+            combatant: oOQn7HFdRnKZCm8r
+            initiative: 39
+            round: 6
+            turn: 4
+          duration:
+            value: null
+            units: seconds
+            expiry: null
+            expired: false
+          description: ''
+          origin: null
+          tint: '#ffffff'
+          transfer: false
+          folder: null
+          sort: 0
+          flags:
+            core:
+              overlay: true
+          _stats:
+            coreVersion: '14.364'
+            systemId: pf2e
+            systemVersion: 8.2.0
+            createdTime: null
+            modifiedTime: null
+            lastModifiedBy: null
+            compendiumSource: null
+            duplicateSource: null
+            exportSource: null
+          _key: >-
+            !scenes.tokens.delta.effects!v5n6rW7P3bqZVh8m.16jnKZtBkJ1uTZIb.16jnKZtBkJ1uTZIb.PivT2itmzrRDsIJB
+      flags:
+        enhancedcombathud-pf2e:
+          lastSet:
+            active: '1'
+            primary: qeZfMzOwr8GL4Lbh
+            secondary: PAN3R11XOGsaiIbK
+          toggleState:
+            spell:
+              txZjek5EOiCBHPoz:
+                '0': true
+                '1': true
+                '7': true
+                '8': false
+                '9': false
+                F: true
+      type: null
+      img: null
+      ownership: null
+      _key: '!scenes.tokens.delta!v5n6rW7P3bqZVh8m.16jnKZtBkJ1uTZIb.16jnKZtBkJ1uTZIb'
+    x: 2500
+    'y': 1500
+    elevation: 45
+    locked: false
+    _movementHistory: []
+    _regions:
+      - eFtfKHEozZE65MZJ
+    _key: '!scenes.tokens!v5n6rW7P3bqZVh8m.16jnKZtBkJ1uTZIb'
 levels:
   - _id: defaultLevel0000
     name: 1 Cells
@@ -2104,7 +5564,37 @@ lights:
     flags: {}
     _id: o2I8020HAdmYkPyx
     _key: '!scenes.lights!v5n6rW7P3bqZVh8m.o2I8020HAdmYkPyx'
-notes: []
+notes:
+  - entryId: geHtEMsUzqsld8cx
+    pageId: C8iJTL8Fl1Vf7OxB
+    global: false
+    levels:
+      - PH24qWouiKrJgsfQ
+      - RBcOqfQLzeawpUHb
+    x: 3250
+    'y': 2150
+    elevation: 40
+    sort: 0
+    iconSize: 40
+    texture:
+      tint: '#ffffff'
+      src: icons/svg/book.svg
+      anchorX: 0.5
+      anchorY: 0.5
+      fit: contain
+      scaleX: 1
+      scaleY: 1
+      alphaThreshold: 0
+    text: High Folly
+    fontFamily: ''
+    fontSize: 32
+    textColor: '#ffffff'
+    textAnchor: 1
+    _id: aQInOmpZlDIS47JT
+    locked: false
+    flags: {}
+    author: txZjek5EOiCBHPoz
+    _key: '!scenes.notes!v5n6rW7P3bqZVh8m.aQInOmpZlDIS47JT'
 sounds: []
 regions:
   - color: '#a7cc28'
@@ -2199,8 +5689,8 @@ regions:
           coreVersion: '14.364'
           systemId: pf2e
           systemVersion: 8.2.0
-          createdTime: 1781214599155
-          modifiedTime: 1781214599155
+          createdTime: 1783042550000
+          modifiedTime: 1783042550000
           lastModifiedBy: txZjek5EOiCBHPoz
           compendiumSource: null
           duplicateSource: null
@@ -2281,8 +5771,8 @@ regions:
           coreVersion: '14.364'
           systemId: pf2e
           systemVersion: 8.2.0
-          createdTime: 1781214599155
-          modifiedTime: 1781214599155
+          createdTime: 1783042550000
+          modifiedTime: 1783042550000
           lastModifiedBy: txZjek5EOiCBHPoz
           compendiumSource: null
           duplicateSource: null
@@ -2345,8 +5835,8 @@ regions:
           coreVersion: '14.364'
           systemId: pf2e
           systemVersion: 8.2.0
-          createdTime: 1781214599155
-          modifiedTime: 1781214599155
+          createdTime: 1783042550001
+          modifiedTime: 1783042550001
           lastModifiedBy: txZjek5EOiCBHPoz
           compendiumSource: null
           duplicateSource: null
@@ -2445,8 +5935,8 @@ regions:
           coreVersion: '14.364'
           systemId: pf2e
           systemVersion: 8.2.0
-          createdTime: 1781214599155
-          modifiedTime: 1781214599155
+          createdTime: 1783042550001
+          modifiedTime: 1783042550001
           lastModifiedBy: txZjek5EOiCBHPoz
           compendiumSource: null
           duplicateSource: null
@@ -2531,8 +6021,8 @@ regions:
           coreVersion: '14.364'
           systemId: pf2e
           systemVersion: 8.2.0
-          createdTime: 1781214599155
-          modifiedTime: 1781214599155
+          createdTime: 1783042550001
+          modifiedTime: 1783042550001
           lastModifiedBy: txZjek5EOiCBHPoz
           compendiumSource: null
           duplicateSource: null
@@ -2594,8 +6084,8 @@ regions:
           coreVersion: '14.364'
           systemId: pf2e
           systemVersion: 8.2.0
-          createdTime: 1781214599156
-          modifiedTime: 1781214599156
+          createdTime: 1783042550001
+          modifiedTime: 1783042550001
           lastModifiedBy: txZjek5EOiCBHPoz
           compendiumSource: null
           duplicateSource: null
@@ -2653,8 +6143,8 @@ regions:
           coreVersion: '14.364'
           systemId: pf2e
           systemVersion: 8.2.0
-          createdTime: 1781214599156
-          modifiedTime: 1781214599156
+          createdTime: 1783042550002
+          modifiedTime: 1783042550002
           lastModifiedBy: txZjek5EOiCBHPoz
           compendiumSource: null
           duplicateSource: null
@@ -2716,8 +6206,8 @@ regions:
           coreVersion: '14.364'
           systemId: pf2e
           systemVersion: 8.2.0
-          createdTime: 1781214599156
-          modifiedTime: 1781214599156
+          createdTime: 1783042550002
+          modifiedTime: 1783042550002
           lastModifiedBy: txZjek5EOiCBHPoz
           compendiumSource: null
           duplicateSource: null
@@ -2829,10 +6319,10 @@ walls:
     _key: '!scenes.walls!v5n6rW7P3bqZVh8m.ZuSGSUPG0KtXAj7c'
   - levels:
       - RBcOqfQLzeawpUHb
-    light: 20
+    light: 0
     move: 20
-    sight: 20
-    sound: 20
+    sight: 0
+    sound: 0
     dir: 0
     door: 0
     ds: 0
@@ -2852,10 +6342,10 @@ walls:
     _key: '!scenes.walls!v5n6rW7P3bqZVh8m.RJTKElZzBjwdonlh'
   - levels:
       - RBcOqfQLzeawpUHb
-    light: 20
+    light: 0
     move: 20
-    sight: 20
-    sound: 20
+    sight: 0
+    sound: 0
     dir: 0
     door: 0
     ds: 0
@@ -2875,10 +6365,10 @@ walls:
     _key: '!scenes.walls!v5n6rW7P3bqZVh8m.Kbax9JkT9WcmGrBM'
   - levels:
       - RBcOqfQLzeawpUHb
-    light: 20
+    light: 0
     move: 20
-    sight: 20
-    sound: 20
+    sight: 0
+    sound: 0
     dir: 0
     door: 0
     ds: 0
@@ -2890,41 +6380,18 @@ walls:
     animation: null
     flags: {}
     c:
-      - 1725
-      - 2738
-      - 1719
-      - 2632
-    _id: 1o13WseGiWnLGZZq
-    _key: '!scenes.walls!v5n6rW7P3bqZVh8m.1o13WseGiWnLGZZq'
-  - levels:
-      - RBcOqfQLzeawpUHb
-    light: 20
-    move: 20
-    sight: 20
-    sound: 20
-    dir: 0
-    door: 0
-    ds: 0
-    threshold:
-      light: null
-      sight: null
-      sound: null
-      attenuation: false
-    animation: null
-    flags: {}
-    c:
-      - 1725
-      - 2588
+      - 1726
+      - 2740
       - 1722
       - 2187
     _id: rDUuzwNsBwWcBfNb
     _key: '!scenes.walls!v5n6rW7P3bqZVh8m.rDUuzwNsBwWcBfNb'
   - levels:
       - RBcOqfQLzeawpUHb
-    light: 20
+    light: 0
     move: 20
-    sight: 20
-    sound: 20
+    sight: 0
+    sound: 0
     dir: 0
     door: 0
     ds: 0
@@ -2936,18 +6403,18 @@ walls:
     animation: null
     flags: {}
     c:
-      - 1725
-      - 2150
+      - 1721
+      - 2190
       - 1724
       - 2040
     _id: Sr1IpXueUiIfMsiT
     _key: '!scenes.walls!v5n6rW7P3bqZVh8m.Sr1IpXueUiIfMsiT'
   - levels:
       - RBcOqfQLzeawpUHb
-    light: 20
+    light: 0
     move: 20
-    sight: 20
-    sound: 20
+    sight: 0
+    sound: 0
     dir: 0
     door: 0
     ds: 0
@@ -2967,10 +6434,10 @@ walls:
     _key: '!scenes.walls!v5n6rW7P3bqZVh8m.U8jifa8d7k7GUvaI'
   - levels:
       - RBcOqfQLzeawpUHb
-    light: 20
+    light: 0
     move: 20
-    sight: 20
-    sound: 20
+    sight: 0
+    sound: 0
     dir: 0
     door: 0
     ds: 0
@@ -2990,10 +6457,10 @@ walls:
     _key: '!scenes.walls!v5n6rW7P3bqZVh8m.Op9oD680tm3UCOxB'
   - levels:
       - RBcOqfQLzeawpUHb
-    light: 20
+    light: 0
     move: 20
-    sight: 20
-    sound: 20
+    sight: 0
+    sound: 0
     dir: 0
     door: 0
     ds: 0
@@ -3007,16 +6474,16 @@ walls:
     c:
       - 1725
       - 1675
-      - 1754
-      - 1648
+      - 2188
+      - 1238
     _id: sKtaUvAc9NGyO40U
     _key: '!scenes.walls!v5n6rW7P3bqZVh8m.sKtaUvAc9NGyO40U'
   - levels:
       - RBcOqfQLzeawpUHb
-    light: 20
+    light: 0
     move: 20
-    sight: 20
-    sound: 20
+    sight: 0
+    sound: 0
     dir: 0
     door: 0
     ds: 0
@@ -3028,156 +6495,18 @@ walls:
     animation: null
     flags: {}
     c:
-      - 1783
-      - 1618
-      - 1934
-      - 1474
-    _id: X62vDFBMrQDEAfuN
-    _key: '!scenes.walls!v5n6rW7P3bqZVh8m.X62vDFBMrQDEAfuN'
-  - levels:
-      - RBcOqfQLzeawpUHb
-    light: 20
-    move: 20
-    sight: 20
-    sound: 20
-    dir: 0
-    door: 0
-    ds: 0
-    threshold:
-      light: null
-      sight: null
-      sound: null
-      attenuation: false
-    animation: null
-    flags: {}
-    c:
-      - 1964
-      - 1441
-      - 2117
-      - 1296
-    _id: ff96nHvNJBUTLIRp
-    _key: '!scenes.walls!v5n6rW7P3bqZVh8m.ff96nHvNJBUTLIRp'
-  - levels:
-      - RBcOqfQLzeawpUHb
-    light: 20
-    move: 20
-    sight: 20
-    sound: 20
-    dir: 0
-    door: 0
-    ds: 0
-    threshold:
-      light: null
-      sight: null
-      sound: null
-      attenuation: false
-    animation: null
-    flags: {}
-    c:
-      - 2144
-      - 1267
-      - 2183
-      - 1237
-    _id: y9qttcGEzAVnPYKs
-    _key: '!scenes.walls!v5n6rW7P3bqZVh8m.y9qttcGEzAVnPYKs'
-  - levels:
-      - RBcOqfQLzeawpUHb
-    light: 20
-    move: 20
-    sight: 20
-    sound: 20
-    dir: 0
-    door: 0
-    ds: 0
-    threshold:
-      light: null
-      sight: null
-      sound: null
-      attenuation: false
-    animation: null
-    flags: {}
-    c:
-      - 2183
-      - 1237
-      - 2294
-      - 1235
+      - 2187
+      - 1238
+      - 2911
+      - 1238
     _id: exStRuYnkjutyt0G
     _key: '!scenes.walls!v5n6rW7P3bqZVh8m.exStRuYnkjutyt0G'
   - levels:
       - RBcOqfQLzeawpUHb
-    light: 20
+    light: 0
     move: 20
-    sight: 20
-    sound: 20
-    dir: 0
-    door: 0
-    ds: 0
-    threshold:
-      light: null
-      sight: null
-      sound: null
-      attenuation: false
-    animation: null
-    flags: {}
-    c:
-      - 2338
-      - 1232
-      - 2476
-      - 1234
-    _id: DF8FGiWYVcPqrIsz
-    _key: '!scenes.walls!v5n6rW7P3bqZVh8m.DF8FGiWYVcPqrIsz'
-  - levels:
-      - RBcOqfQLzeawpUHb
-    light: 20
-    move: 20
-    sight: 20
-    sound: 20
-    dir: 0
-    door: 0
-    ds: 0
-    threshold:
-      light: null
-      sight: null
-      sound: null
-      attenuation: false
-    animation: null
-    flags: {}
-    c:
-      - 2522
-      - 1233
-      - 2659
-      - 1233
-    _id: 6iFRqrvDRtzFrs6P
-    _key: '!scenes.walls!v5n6rW7P3bqZVh8m.6iFRqrvDRtzFrs6P'
-  - levels:
-      - RBcOqfQLzeawpUHb
-    light: 20
-    move: 20
-    sight: 20
-    sound: 20
-    dir: 0
-    door: 0
-    ds: 0
-    threshold:
-      light: null
-      sight: null
-      sound: null
-      attenuation: false
-    animation: null
-    flags: {}
-    c:
-      - 2703
-      - 1234
-      - 2910
-      - 1236
-    _id: tQpZj4SmDAosN0dN
-    _key: '!scenes.walls!v5n6rW7P3bqZVh8m.tQpZj4SmDAosN0dN'
-  - levels:
-      - RBcOqfQLzeawpUHb
-    light: 20
-    move: 20
-    sight: 20
-    sound: 20
+    sight: 0
+    sound: 0
     dir: 0
     door: 0
     ds: 0
@@ -3197,10 +6526,10 @@ walls:
     _key: '!scenes.walls!v5n6rW7P3bqZVh8m.5hyDMpJVon4jcB1z'
   - levels:
       - RBcOqfQLzeawpUHb
-    light: 20
+    light: 0
     move: 20
-    sight: 20
-    sound: 20
+    sight: 0
+    sound: 0
     dir: 0
     door: 0
     ds: 0
@@ -3220,10 +6549,10 @@ walls:
     _key: '!scenes.walls!v5n6rW7P3bqZVh8m.x77u1UyeaS2VRIzZ'
   - levels:
       - RBcOqfQLzeawpUHb
-    light: 20
+    light: 0
     move: 20
-    sight: 20
-    sound: 20
+    sight: 0
+    sound: 0
     dir: 0
     door: 0
     ds: 0
@@ -3243,10 +6572,10 @@ walls:
     _key: '!scenes.walls!v5n6rW7P3bqZVh8m.NkBgrS7lP6Wp9uOB'
   - levels:
       - RBcOqfQLzeawpUHb
-    light: 20
+    light: 0
     move: 20
-    sight: 20
-    sound: 20
+    sight: 0
+    sound: 0
     dir: 0
     door: 0
     ds: 0
@@ -3266,10 +6595,10 @@ walls:
     _key: '!scenes.walls!v5n6rW7P3bqZVh8m.aWsST0ocafWKuCue'
   - levels:
       - RBcOqfQLzeawpUHb
-    light: 20
+    light: 0
     move: 20
-    sight: 20
-    sound: 20
+    sight: 0
+    sound: 0
     dir: 0
     door: 0
     ds: 0
@@ -3289,10 +6618,10 @@ walls:
     _key: '!scenes.walls!v5n6rW7P3bqZVh8m.jREuuzNTIFtcYft4'
   - levels:
       - RBcOqfQLzeawpUHb
-    light: 20
+    light: 0
     move: 20
-    sight: 20
-    sound: 20
+    sight: 0
+    sound: 0
     dir: 0
     door: 0
     ds: 0
@@ -3312,10 +6641,10 @@ walls:
     _key: '!scenes.walls!v5n6rW7P3bqZVh8m.wy3kbfEw5BSuL0rZ'
   - levels:
       - RBcOqfQLzeawpUHb
-    light: 20
+    light: 0
     move: 20
-    sight: 20
-    sound: 20
+    sight: 0
+    sound: 0
     dir: 0
     door: 0
     ds: 0
@@ -3335,10 +6664,10 @@ walls:
     _key: '!scenes.walls!v5n6rW7P3bqZVh8m.oGL3FFEOus9mlmtL'
   - levels:
       - RBcOqfQLzeawpUHb
-    light: 20
+    light: 0
     move: 20
-    sight: 20
-    sound: 20
+    sight: 0
+    sound: 0
     dir: 0
     door: 0
     ds: 0
@@ -3358,10 +6687,10 @@ walls:
     _key: '!scenes.walls!v5n6rW7P3bqZVh8m.S1z1GAk6na5Nifm9'
   - levels:
       - RBcOqfQLzeawpUHb
-    light: 20
+    light: 0
     move: 20
-    sight: 20
-    sound: 20
+    sight: 0
+    sound: 0
     dir: 0
     door: 0
     ds: 0
@@ -3381,10 +6710,10 @@ walls:
     _key: '!scenes.walls!v5n6rW7P3bqZVh8m.UAr7q2fwaiTOoYpj'
   - levels:
       - RBcOqfQLzeawpUHb
-    light: 20
+    light: 0
     move: 20
-    sight: 20
-    sound: 20
+    sight: 0
+    sound: 0
     dir: 0
     door: 0
     ds: 0
@@ -3404,10 +6733,10 @@ walls:
     _key: '!scenes.walls!v5n6rW7P3bqZVh8m.v6oYm4jK7djptL2N'
   - levels:
       - RBcOqfQLzeawpUHb
-    light: 20
+    light: 0
     move: 20
-    sight: 20
-    sound: 20
+    sight: 0
+    sound: 0
     dir: 0
     door: 0
     ds: 0
@@ -3427,10 +6756,10 @@ walls:
     _key: '!scenes.walls!v5n6rW7P3bqZVh8m.Oc9ZLDE0WZVbPt6r'
   - levels:
       - RBcOqfQLzeawpUHb
-    light: 20
+    light: 0
     move: 20
-    sight: 20
-    sound: 20
+    sight: 0
+    sound: 0
     dir: 0
     door: 0
     ds: 0
@@ -3450,10 +6779,10 @@ walls:
     _key: '!scenes.walls!v5n6rW7P3bqZVh8m.dhDMKZdKHdCSc8rX'
   - levels:
       - RBcOqfQLzeawpUHb
-    light: 20
+    light: 0
     move: 20
-    sight: 20
-    sound: 20
+    sight: 0
+    sound: 0
     dir: 0
     door: 0
     ds: 0
@@ -3473,10 +6802,10 @@ walls:
     _key: '!scenes.walls!v5n6rW7P3bqZVh8m.MjhPYkFH4bBhsOqt'
   - levels:
       - RBcOqfQLzeawpUHb
-    light: 20
+    light: 0
     move: 20
-    sight: 20
-    sound: 20
+    sight: 0
+    sound: 0
     dir: 0
     door: 0
     ds: 0
@@ -3496,10 +6825,10 @@ walls:
     _key: '!scenes.walls!v5n6rW7P3bqZVh8m.ISdAXpn8WXbGmXYq'
   - levels:
       - RBcOqfQLzeawpUHb
-    light: 20
+    light: 0
     move: 20
-    sight: 20
-    sound: 20
+    sight: 0
+    sound: 0
     dir: 0
     door: 0
     ds: 0
@@ -3519,10 +6848,10 @@ walls:
     _key: '!scenes.walls!v5n6rW7P3bqZVh8m.OYdcRkS3sS6bp6iM'
   - levels:
       - RBcOqfQLzeawpUHb
-    light: 20
+    light: 0
     move: 20
-    sight: 20
-    sound: 20
+    sight: 0
+    sound: 0
     dir: 0
     door: 0
     ds: 0
@@ -3542,10 +6871,10 @@ walls:
     _key: '!scenes.walls!v5n6rW7P3bqZVh8m.FX4tMg8sfiXrSIlo'
   - levels:
       - RBcOqfQLzeawpUHb
-    light: 20
+    light: 0
     move: 20
-    sight: 20
-    sound: 20
+    sight: 0
+    sound: 0
     dir: 0
     door: 0
     ds: 0
@@ -3565,10 +6894,10 @@ walls:
     _key: '!scenes.walls!v5n6rW7P3bqZVh8m.7WG3RNYPUzxV9l2g'
   - levels:
       - RBcOqfQLzeawpUHb
-    light: 20
+    light: 0
     move: 20
-    sight: 20
-    sound: 20
+    sight: 0
+    sound: 0
     dir: 0
     door: 0
     ds: 0
@@ -3588,10 +6917,10 @@ walls:
     _key: '!scenes.walls!v5n6rW7P3bqZVh8m.lbbcJc7ZKJVBa1PB'
   - levels:
       - RBcOqfQLzeawpUHb
-    light: 20
+    light: 0
     move: 20
-    sight: 20
-    sound: 20
+    sight: 0
+    sound: 0
     dir: 0
     door: 0
     ds: 0
@@ -3611,10 +6940,10 @@ walls:
     _key: '!scenes.walls!v5n6rW7P3bqZVh8m.cUJDGZ3USJLuu86z'
   - levels:
       - RBcOqfQLzeawpUHb
-    light: 20
+    light: 0
     move: 20
-    sight: 20
-    sound: 20
+    sight: 0
+    sound: 0
     dir: 0
     door: 0
     ds: 0
@@ -3634,10 +6963,10 @@ walls:
     _key: '!scenes.walls!v5n6rW7P3bqZVh8m.0ghE0qmnZHS6s5rM'
   - levels:
       - RBcOqfQLzeawpUHb
-    light: 20
+    light: 0
     move: 20
-    sight: 20
-    sound: 20
+    sight: 0
+    sound: 0
     dir: 0
     door: 0
     ds: 0
@@ -3726,10 +7055,10 @@ walls:
     _key: '!scenes.walls!v5n6rW7P3bqZVh8m.EByrhfTE6rLd2dOB'
   - levels:
       - RBcOqfQLzeawpUHb
-    light: 20
+    light: 0
     move: 20
-    sight: 20
-    sound: 20
+    sight: 0
+    sound: 0
     dir: 0
     door: 0
     ds: 0
@@ -3743,8 +7072,8 @@ walls:
     c:
       - 2911
       - 1595
-      - 2909
-      - 1786
+      - 2907
+      - 1940
     _id: rs5uKUeJ9Z9VWLUb
     _key: '!scenes.walls!v5n6rW7P3bqZVh8m.rs5uKUeJ9Z9VWLUb'
   - levels:
@@ -4255,10 +7584,10 @@ walls:
     _key: '!scenes.walls!v5n6rW7P3bqZVh8m.BvzPA3MtqtCbULEg'
   - levels:
       - RBcOqfQLzeawpUHb
-    light: 20
+    light: 0
     move: 20
-    sight: 20
-    sound: 20
+    sight: 0
+    sound: 0
     dir: 0
     door: 0
     ds: 0
@@ -4278,10 +7607,10 @@ walls:
     _key: '!scenes.walls!v5n6rW7P3bqZVh8m.PCKWxvUWUdVQcMav'
   - levels:
       - RBcOqfQLzeawpUHb
-    light: 20
+    light: 0
     move: 20
-    sight: 20
-    sound: 20
+    sight: 0
+    sound: 0
     dir: 0
     door: 0
     ds: 0
@@ -4295,16 +7624,16 @@ walls:
     c:
       - 2638
       - 2741
-      - 2633
-      - 3117
+      - 2630
+      - 3161
     _id: 7yOC3unjfhhuFjWm
     _key: '!scenes.walls!v5n6rW7P3bqZVh8m.7yOC3unjfhhuFjWm'
   - levels:
       - RBcOqfQLzeawpUHb
-    light: 20
+    light: 0
     move: 20
-    sight: 20
-    sound: 20
+    sight: 0
+    sound: 0
     dir: 0
     door: 0
     ds: 0
@@ -4324,10 +7653,10 @@ walls:
     _key: '!scenes.walls!v5n6rW7P3bqZVh8m.h4yy4QnG0rvuCctR'
   - levels:
       - RBcOqfQLzeawpUHb
-    light: 20
+    light: 0
     move: 20
-    sight: 20
-    sound: 20
+    sight: 0
+    sound: 0
     dir: 0
     door: 0
     ds: 0
@@ -4347,10 +7676,10 @@ walls:
     _key: '!scenes.walls!v5n6rW7P3bqZVh8m.tQ6G458kOmlwduRb'
   - levels:
       - RBcOqfQLzeawpUHb
-    light: 20
+    light: 0
     move: 20
-    sight: 20
-    sound: 20
+    sight: 0
+    sound: 0
     dir: 0
     door: 0
     ds: 0
@@ -4362,41 +7691,18 @@ walls:
     animation: null
     flags: {}
     c:
-      - 2712
-      - 3264
-      - 2893
-      - 3272
-    _id: PZDsuPtnlMGxbySN
-    _key: '!scenes.walls!v5n6rW7P3bqZVh8m.PZDsuPtnlMGxbySN'
-  - levels:
-      - RBcOqfQLzeawpUHb
-    light: 20
-    move: 20
-    sight: 20
-    sound: 20
-    dir: 0
-    door: 0
-    ds: 0
-    threshold:
-      light: null
-      sight: null
-      sound: null
-      attenuation: false
-    animation: null
-    flags: {}
-    c:
-      - 3100
-      - 3275
+      - 2711
+      - 3266
       - 3277
       - 3268
     _id: 8Zg0k8iNF27mliWR
     _key: '!scenes.walls!v5n6rW7P3bqZVh8m.8Zg0k8iNF27mliWR'
   - levels:
       - RBcOqfQLzeawpUHb
-    light: 20
+    light: 0
     move: 20
-    sight: 20
-    sound: 20
+    sight: 0
+    sound: 0
     dir: 0
     door: 0
     ds: 0
@@ -4416,10 +7722,10 @@ walls:
     _key: '!scenes.walls!v5n6rW7P3bqZVh8m.jxYGG80tszbiNFOr'
   - levels:
       - RBcOqfQLzeawpUHb
-    light: 20
+    light: 0
     move: 20
-    sight: 20
-    sound: 20
+    sight: 0
+    sound: 0
     dir: 0
     door: 0
     ds: 0
@@ -4439,10 +7745,10 @@ walls:
     _key: '!scenes.walls!v5n6rW7P3bqZVh8m.UTr6Nrf8keUgqSEK'
   - levels:
       - RBcOqfQLzeawpUHb
-    light: 20
+    light: 0
     move: 20
-    sight: 20
-    sound: 20
+    sight: 0
+    sound: 0
     dir: 0
     door: 0
     ds: 0
@@ -4457,15 +7763,15 @@ walls:
       - 3366
       - 3198
       - 3368
-      - 3160
+      - 3117
     _id: APyWurSJxAPvyTcY
     _key: '!scenes.walls!v5n6rW7P3bqZVh8m.APyWurSJxAPvyTcY'
   - levels:
       - RBcOqfQLzeawpUHb
-    light: 20
+    light: 0
     move: 20
-    sight: 20
-    sound: 20
+    sight: 0
+    sound: 0
     dir: 0
     door: 0
     ds: 0
@@ -4485,10 +7791,10 @@ walls:
     _key: '!scenes.walls!v5n6rW7P3bqZVh8m.v9UnM4cHT6bZBGy5'
   - levels:
       - RBcOqfQLzeawpUHb
-    light: 20
+    light: 0
     move: 20
-    sight: 20
-    sound: 20
+    sight: 0
+    sound: 0
     dir: 0
     door: 0
     ds: 0
@@ -4500,87 +7806,18 @@ walls:
     animation: null
     flags: {}
     c:
-      - 3368
-      - 3009
-      - 3473
-      - 3010
-    _id: 0eI5oz1dB4yx1Pwc
-    _key: '!scenes.walls!v5n6rW7P3bqZVh8m.0eI5oz1dB4yx1Pwc'
-  - levels:
-      - RBcOqfQLzeawpUHb
-    light: 20
-    move: 20
-    sight: 20
-    sound: 20
-    dir: 0
-    door: 0
-    ds: 0
-    threshold:
-      light: null
-      sight: null
-      sound: null
-      attenuation: false
-    animation: null
-    flags: {}
-    c:
-      - 3518
-      - 3009
-      - 3654
-      - 3010
-    _id: Ftl1e8Kiq5UaqBi9
-    _key: '!scenes.walls!v5n6rW7P3bqZVh8m.Ftl1e8Kiq5UaqBi9'
-  - levels:
-      - RBcOqfQLzeawpUHb
-    light: 20
-    move: 20
-    sight: 20
-    sound: 20
-    dir: 0
-    door: 0
-    ds: 0
-    threshold:
-      light: null
-      sight: null
-      sound: null
-      attenuation: false
-    animation: null
-    flags: {}
-    c:
-      - 3705
-      - 3010
-      - 3841
-      - 3011
-    _id: zCyJ1LxdGtrVkdA3
-    _key: '!scenes.walls!v5n6rW7P3bqZVh8m.zCyJ1LxdGtrVkdA3'
-  - levels:
-      - RBcOqfQLzeawpUHb
-    light: 20
-    move: 20
-    sight: 20
-    sound: 20
-    dir: 0
-    door: 0
-    ds: 0
-    threshold:
-      light: null
-      sight: null
-      sound: null
-      attenuation: false
-    animation: null
-    flags: {}
-    c:
-      - 3883
-      - 3010
+      - 3367
+      - 3012
       - 3997
       - 3012
     _id: Y4WpQiNyGJbfQ4iA
     _key: '!scenes.walls!v5n6rW7P3bqZVh8m.Y4WpQiNyGJbfQ4iA'
   - levels:
       - RBcOqfQLzeawpUHb
-    light: 20
+    light: 0
     move: 20
-    sight: 20
-    sound: 20
+    sight: 0
+    sound: 0
     dir: 0
     door: 0
     ds: 0
@@ -4600,10 +7837,10 @@ walls:
     _key: '!scenes.walls!v5n6rW7P3bqZVh8m.WSt18KbskaEpRiby'
   - levels:
       - RBcOqfQLzeawpUHb
-    light: 20
+    light: 0
     move: 20
-    sight: 20
-    sound: 20
+    sight: 0
+    sound: 0
     dir: 0
     door: 0
     ds: 0
@@ -4623,10 +7860,10 @@ walls:
     _key: '!scenes.walls!v5n6rW7P3bqZVh8m.LwSi9d1U33PqqcdS'
   - levels:
       - RBcOqfQLzeawpUHb
-    light: 20
+    light: 0
     move: 20
-    sight: 20
-    sound: 20
+    sight: 0
+    sound: 0
     dir: 0
     door: 0
     ds: 0
@@ -4646,10 +7883,10 @@ walls:
     _key: '!scenes.walls!v5n6rW7P3bqZVh8m.JzqJgDWAKgJXkEMJ'
   - levels:
       - RBcOqfQLzeawpUHb
-    light: 20
+    light: 0
     move: 20
-    sight: 20
-    sound: 20
+    sight: 0
+    sound: 0
     dir: 0
     door: 0
     ds: 0
@@ -4669,10 +7906,10 @@ walls:
     _key: '!scenes.walls!v5n6rW7P3bqZVh8m.0xFyj5OZ9Oky6zsX'
   - levels:
       - RBcOqfQLzeawpUHb
-    light: 20
+    light: 0
     move: 20
-    sight: 20
-    sound: 20
+    sight: 0
+    sound: 0
     dir: 0
     door: 0
     ds: 0
@@ -4692,10 +7929,10 @@ walls:
     _key: '!scenes.walls!v5n6rW7P3bqZVh8m.U7dllmOmK5cYEzKG'
   - levels:
       - RBcOqfQLzeawpUHb
-    light: 20
+    light: 0
     move: 20
-    sight: 20
-    sound: 20
+    sight: 0
+    sound: 0
     dir: 0
     door: 0
     ds: 0
@@ -4715,10 +7952,10 @@ walls:
     _key: '!scenes.walls!v5n6rW7P3bqZVh8m.hQjkXQmGl0my93ss'
   - levels:
       - RBcOqfQLzeawpUHb
-    light: 20
+    light: 0
     move: 20
-    sight: 20
-    sound: 20
+    sight: 0
+    sound: 0
     dir: 0
     door: 0
     ds: 0
@@ -4738,10 +7975,10 @@ walls:
     _key: '!scenes.walls!v5n6rW7P3bqZVh8m.rlukeb2V0xBLeAIH'
   - levels:
       - RBcOqfQLzeawpUHb
-    light: 20
+    light: 0
     move: 20
-    sight: 20
-    sound: 20
+    sight: 0
+    sound: 0
     dir: 0
     door: 0
     ds: 0
@@ -4761,10 +7998,10 @@ walls:
     _key: '!scenes.walls!v5n6rW7P3bqZVh8m.eVHhE9jOJjiAC7WS'
   - levels:
       - RBcOqfQLzeawpUHb
-    light: 20
+    light: 0
     move: 20
-    sight: 20
-    sound: 20
+    sight: 0
+    sound: 0
     dir: 0
     door: 0
     ds: 0
@@ -4815,10 +8052,10 @@ walls:
     _key: '!scenes.walls!v5n6rW7P3bqZVh8m.YruQMKgSgYEFIFPz'
   - levels:
       - RBcOqfQLzeawpUHb
-    light: 20
+    light: 0
     move: 20
-    sight: 20
-    sound: 20
+    sight: 0
+    sound: 0
     dir: 0
     door: 0
     ds: 0
@@ -4838,10 +8075,10 @@ walls:
     _key: '!scenes.walls!v5n6rW7P3bqZVh8m.n0KkJc1NcMaoAHIF'
   - levels:
       - RBcOqfQLzeawpUHb
-    light: 20
+    light: 0
     move: 20
-    sight: 20
-    sound: 20
+    sight: 0
+    sound: 0
     dir: 0
     door: 0
     ds: 0
@@ -4861,10 +8098,10 @@ walls:
     _key: '!scenes.walls!v5n6rW7P3bqZVh8m.6kD0HcsiNbEbkQaU'
   - levels:
       - RBcOqfQLzeawpUHb
-    light: 20
+    light: 0
     move: 20
-    sight: 20
-    sound: 20
+    sight: 0
+    sound: 0
     dir: 0
     door: 0
     ds: 0
@@ -4884,10 +8121,10 @@ walls:
     _key: '!scenes.walls!v5n6rW7P3bqZVh8m.u1W5tFe4DE1IqXLU'
   - levels:
       - RBcOqfQLzeawpUHb
-    light: 20
+    light: 0
     move: 20
-    sight: 20
-    sound: 20
+    sight: 0
+    sound: 0
     dir: 0
     door: 0
     ds: 0
@@ -4907,10 +8144,10 @@ walls:
     _key: '!scenes.walls!v5n6rW7P3bqZVh8m.UyMEvGWgAhRZMUVw'
   - levels:
       - RBcOqfQLzeawpUHb
-    light: 20
+    light: 0
     move: 20
-    sight: 20
-    sound: 20
+    sight: 0
+    sound: 0
     dir: 0
     door: 0
     ds: 0
@@ -4930,10 +8167,10 @@ walls:
     _key: '!scenes.walls!v5n6rW7P3bqZVh8m.oAhveXme0zAqnHp0'
   - levels:
       - RBcOqfQLzeawpUHb
-    light: 20
+    light: 0
     move: 20
-    sight: 20
-    sound: 20
+    sight: 0
+    sound: 0
     dir: 0
     door: 0
     ds: 0
@@ -4953,10 +8190,10 @@ walls:
     _key: '!scenes.walls!v5n6rW7P3bqZVh8m.u2snmIDx1fuVLiQx'
   - levels:
       - RBcOqfQLzeawpUHb
-    light: 20
+    light: 0
     move: 20
-    sight: 20
-    sound: 20
+    sight: 0
+    sound: 0
     dir: 0
     door: 0
     ds: 0
@@ -4976,10 +8213,10 @@ walls:
     _key: '!scenes.walls!v5n6rW7P3bqZVh8m.ZhvfYtThB6iBzduC'
   - levels:
       - RBcOqfQLzeawpUHb
-    light: 20
+    light: 0
     move: 20
-    sight: 20
-    sound: 20
+    sight: 0
+    sound: 0
     dir: 0
     door: 0
     ds: 0
@@ -4999,10 +8236,10 @@ walls:
     _key: '!scenes.walls!v5n6rW7P3bqZVh8m.JMSLAK0iCJn06k00'
   - levels:
       - RBcOqfQLzeawpUHb
-    light: 20
+    light: 0
     move: 20
-    sight: 20
-    sound: 20
+    sight: 0
+    sound: 0
     dir: 0
     door: 0
     ds: 0
@@ -5022,10 +8259,10 @@ walls:
     _key: '!scenes.walls!v5n6rW7P3bqZVh8m.El3IVBsNIUKjMp2P'
   - levels:
       - RBcOqfQLzeawpUHb
-    light: 20
+    light: 0
     move: 20
-    sight: 20
-    sound: 20
+    sight: 0
+    sound: 0
     dir: 0
     door: 0
     ds: 0
@@ -5045,10 +8282,10 @@ walls:
     _key: '!scenes.walls!v5n6rW7P3bqZVh8m.SvMV6PVzxYZHwtrB'
   - levels:
       - RBcOqfQLzeawpUHb
-    light: 20
+    light: 0
     move: 20
-    sight: 20
-    sound: 20
+    sight: 0
+    sound: 0
     dir: 0
     door: 0
     ds: 0
@@ -5068,10 +8305,10 @@ walls:
     _key: '!scenes.walls!v5n6rW7P3bqZVh8m.viy0woZh8bN2kNdR'
   - levels:
       - RBcOqfQLzeawpUHb
-    light: 20
+    light: 0
     move: 20
-    sight: 20
-    sound: 20
+    sight: 0
+    sound: 0
     dir: 0
     door: 0
     ds: 0
@@ -5091,10 +8328,10 @@ walls:
     _key: '!scenes.walls!v5n6rW7P3bqZVh8m.k69GyEIL5VHMM8kV'
   - levels:
       - RBcOqfQLzeawpUHb
-    light: 20
+    light: 0
     move: 20
-    sight: 20
-    sound: 20
+    sight: 0
+    sound: 0
     dir: 0
     door: 0
     ds: 0
@@ -5114,10 +8351,10 @@ walls:
     _key: '!scenes.walls!v5n6rW7P3bqZVh8m.EyLVYX3yBtQCSD3s'
   - levels:
       - RBcOqfQLzeawpUHb
-    light: 20
+    light: 0
     move: 20
-    sight: 20
-    sound: 20
+    sight: 0
+    sound: 0
     dir: 0
     door: 0
     ds: 0
@@ -5137,10 +8374,10 @@ walls:
     _key: '!scenes.walls!v5n6rW7P3bqZVh8m.86Nylcif1NwL2iMg'
   - levels:
       - RBcOqfQLzeawpUHb
-    light: 20
+    light: 0
     move: 20
-    sight: 20
-    sound: 20
+    sight: 0
+    sound: 0
     dir: 0
     door: 0
     ds: 0
@@ -5160,10 +8397,10 @@ walls:
     _key: '!scenes.walls!v5n6rW7P3bqZVh8m.d9m5N1rGDbdI04it'
   - levels:
       - RBcOqfQLzeawpUHb
-    light: 20
+    light: 0
     move: 20
-    sight: 20
-    sound: 20
+    sight: 0
+    sound: 0
     dir: 0
     door: 0
     ds: 0
@@ -5183,10 +8420,10 @@ walls:
     _key: '!scenes.walls!v5n6rW7P3bqZVh8m.7DFL449hq50svVMK'
   - levels:
       - RBcOqfQLzeawpUHb
-    light: 20
+    light: 0
     move: 20
-    sight: 20
-    sound: 20
+    sight: 0
+    sound: 0
     dir: 0
     door: 0
     ds: 0
@@ -5206,10 +8443,10 @@ walls:
     _key: '!scenes.walls!v5n6rW7P3bqZVh8m.aycnFLEb0atSfFEB'
   - levels:
       - RBcOqfQLzeawpUHb
-    light: 20
+    light: 0
     move: 20
-    sight: 20
-    sound: 20
+    sight: 0
+    sound: 0
     dir: 0
     door: 0
     ds: 0
@@ -5229,10 +8466,10 @@ walls:
     _key: '!scenes.walls!v5n6rW7P3bqZVh8m.4QZrSwD4XDc4w10A'
   - levels:
       - RBcOqfQLzeawpUHb
-    light: 20
+    light: 0
     move: 20
-    sight: 20
-    sound: 20
+    sight: 0
+    sound: 0
     dir: 0
     door: 0
     ds: 0
@@ -5252,10 +8489,10 @@ walls:
     _key: '!scenes.walls!v5n6rW7P3bqZVh8m.gOrNnLNcSTQ30U9z'
   - levels:
       - RBcOqfQLzeawpUHb
-    light: 20
+    light: 0
     move: 20
-    sight: 20
-    sound: 20
+    sight: 0
+    sound: 0
     dir: 0
     door: 0
     ds: 0
@@ -5275,10 +8512,10 @@ walls:
     _key: '!scenes.walls!v5n6rW7P3bqZVh8m.2etUU70zVbneE1JY'
   - levels:
       - RBcOqfQLzeawpUHb
-    light: 20
+    light: 0
     move: 20
-    sight: 20
-    sound: 20
+    sight: 0
+    sound: 0
     dir: 0
     door: 0
     ds: 0
@@ -13377,6 +16614,77 @@ walls:
       - 1688
     _id: 3Bq2XJdbYgccz93D
     _key: '!scenes.walls!v5n6rW7P3bqZVh8m.3Bq2XJdbYgccz93D'
+  - levels:
+      - RBcOqfQLzeawpUHb
+      - PH24qWouiKrJgsfQ
+    light: 0
+    move: 20
+    sight: 0
+    sound: 0
+    dir: 0
+    door: 0
+    ds: 0
+    threshold:
+      light: null
+      sight: null
+      sound: null
+      attenuation: false
+    animation: null
+    flags: {}
+    c:
+      - 5000
+      - 3800
+      - 5000
+      - 800
+    _id: V5KHDwmAhAJvxF6Z
+    _key: '!scenes.walls!v5n6rW7P3bqZVh8m.V5KHDwmAhAJvxF6Z'
+  - levels:
+      - RBcOqfQLzeawpUHb
+      - PH24qWouiKrJgsfQ
+    light: 0
+    move: 20
+    sight: 0
+    sound: 0
+    dir: 0
+    door: 0
+    ds: 0
+    threshold:
+      light: null
+      sight: null
+      sound: null
+      attenuation: false
+    animation: null
+    flags: {}
+    c:
+      - 5000
+      - 800
+      - 1000
+      - 800
+    _id: rUBOOafgdz0S7Tx7
+    _key: '!scenes.walls!v5n6rW7P3bqZVh8m.rUBOOafgdz0S7Tx7'
+  - levels:
+      - RBcOqfQLzeawpUHb
+    light: 0
+    move: 20
+    sight: 0
+    sound: 0
+    dir: 0
+    door: 0
+    ds: 0
+    threshold:
+      light: null
+      sight: null
+      sound: null
+      attenuation: false
+    animation: null
+    flags: {}
+    c:
+      - 2525
+      - 1235
+      - 2525
+      - 1413
+    _id: KsIDdRDBM3zcCyGw
+    _key: '!scenes.walls!v5n6rW7P3bqZVh8m.KsIDdRDBM3zcCyGw'
 playlist: null
 playlistSound: null
 journal: null
@@ -13395,7 +16703,7 @@ flags:
     persistExploredAreas: false
     revealRadius: 0
     gridRevealRadius: 0
-    schemaVersion: 2.1.0
+    schemaVersion: 2.2.0
   pf2e:
     rulesBasedVision: null
     hearingRange: null
@@ -13405,8 +16713,8 @@ _stats:
   coreVersion: '14.364'
   systemId: pf2e
   systemVersion: 8.2.0
-  createdTime: 1781214599150
-  modifiedTime: 1781214599150
+  createdTime: 1783042549981
+  modifiedTime: 1783042549981
   lastModifiedBy: txZjek5EOiCBHPoz
   exportSource: null
   compendiumSource: null

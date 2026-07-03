@@ -235,11 +235,11 @@ regions:
         disabled: false
         flags: {}
         _stats:
-          coreVersion: '14.363'
+          coreVersion: '14.364'
           systemId: pf2e
-          systemVersion: 8.1.2
-          createdTime: 1779696884960
-          modifiedTime: 1779696884960
+          systemVersion: 8.2.0
+          createdTime: 1783042391730
+          modifiedTime: 1783042391730
           lastModifiedBy: txZjek5EOiCBHPoz
           compendiumSource: null
           duplicateSource: null
@@ -312,11 +312,11 @@ regions:
         disabled: false
         flags: {}
         _stats:
-          coreVersion: '14.363'
+          coreVersion: '14.364'
           systemId: pf2e
-          systemVersion: 8.1.2
-          createdTime: 1779696884960
-          modifiedTime: 1779696884960
+          systemVersion: 8.2.0
+          createdTime: 1783042391731
+          modifiedTime: 1783042391731
           lastModifiedBy: txZjek5EOiCBHPoz
           compendiumSource: null
           duplicateSource: null
@@ -377,11 +377,11 @@ regions:
         disabled: false
         flags: {}
         _stats:
-          coreVersion: '14.363'
+          coreVersion: '14.364'
           systemId: pf2e
-          systemVersion: 8.1.2
-          createdTime: 1779696884961
-          modifiedTime: 1779696884961
+          systemVersion: 8.2.0
+          createdTime: 1783042391731
+          modifiedTime: 1783042391731
           lastModifiedBy: txZjek5EOiCBHPoz
           compendiumSource: null
           duplicateSource: null
@@ -440,11 +440,11 @@ regions:
         disabled: false
         flags: {}
         _stats:
-          coreVersion: '14.363'
+          coreVersion: '14.364'
           systemId: pf2e
-          systemVersion: 8.1.2
-          createdTime: 1779696884961
-          modifiedTime: 1779696884961
+          systemVersion: 8.2.0
+          createdTime: 1783042391731
+          modifiedTime: 1783042391731
           lastModifiedBy: txZjek5EOiCBHPoz
           compendiumSource: null
           duplicateSource: null
@@ -479,7 +479,7 @@ flags:
     persistExploredAreas: false
     revealRadius: 0
     gridRevealRadius: 0
-    schemaVersion: 2.1.0
+    schemaVersion: 2.2.0
   pf2e:
     rulesBasedVision: null
     hearingRange: null
@@ -488,18 +488,18 @@ flags:
 _stats:
   coreVersion: '14.364'
   systemId: pf2e
-  systemVersion: 8.1.2
-  createdTime: 1779696884959
-  modifiedTime: 1779696884959
+  systemVersion: 8.2.0
+  createdTime: 1783042391729
+  modifiedTime: 1783042391729
   lastModifiedBy: txZjek5EOiCBHPoz
   exportSource: null
   compendiumSource: null
   duplicateSource: null
 navName: ''
-navOrder: 0
 ownership:
   default: 0
 active: false
+navOrder: 0
 sort: 0
 _key: '!scenes!GE3YoSHDmmF9uUBc'
 templates: []

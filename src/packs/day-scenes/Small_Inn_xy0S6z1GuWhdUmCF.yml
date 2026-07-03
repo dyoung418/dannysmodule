@@ -1,7 +1,7 @@
 name: Small Inn
 _id: xy0S6z1GuWhdUmCF
 navigation: false
-thumb: worlds/daggerheart-test/assets/scenes/thumb-hDtkfoGcIDwxerykrUF51A.webp
+thumb: worlds/kingmaker/assets/scenes/thumb-hDtkfoGcIDwxerykrUF51A.webp
 width: 4000
 height: 3000
 padding: 0.25
@@ -1213,11 +1213,11 @@ regions:
         flags: {}
         _stats:
           coreVersion: '14.364'
-          systemId: daggerheart
-          systemVersion: 2.4.2
-          createdTime: 1783040896619
-          modifiedTime: 1783040896619
-          lastModifiedBy: pQzNfYJpGL2Gy8DA
+          systemId: pf2e
+          systemVersion: 8.2.0
+          createdTime: 1783042391769
+          modifiedTime: 1783042391769
+          lastModifiedBy: txZjek5EOiCBHPoz
           compendiumSource: null
           duplicateSource: null
           exportSource: null
@@ -3074,7 +3074,7 @@ playlistSound: null
 journal: null
 journalEntryPage: null
 weather: ''
-folder: null
+folder: 1LOPSyo3SGiD9SB8
 flags:
   pf2e:
     rulesBasedVision: null
@@ -3083,11 +3083,11 @@ flags:
     syncDarkness: default
 _stats:
   coreVersion: '14.364'
-  systemId: daggerheart
-  systemVersion: 2.4.2
-  createdTime: 1783040896615
-  modifiedTime: 1783040896615
-  lastModifiedBy: pQzNfYJpGL2Gy8DA
+  systemId: pf2e
+  systemVersion: 8.2.0
+  createdTime: 1783042391766
+  modifiedTime: 1783042391766
+  lastModifiedBy: txZjek5EOiCBHPoz
   exportSource: null
   compendiumSource: null
   duplicateSource: null
