@@ -1,7 +1,7 @@
 name: Small Inn
 _id: xy0S6z1GuWhdUmCF
 navigation: false
-thumb: worlds/kingmaker/assets/scenes/thumb-hDtkfoGcIDwxerykrUF51A.webp
+thumb: worlds/kingmaker/assets/scenes/thumb-FXcLf9DW-_cDCHNkqy-JhA.webp
 width: 4000
 height: 3000
 padding: 0.25
@@ -61,369 +61,13 @@ transition:
   duration: 1500
   activeOnly: false
 drawings: []
-tokens:
-  - name: Akra
-    displayName: 20
-    actorLink: true
-    width: 1
-    height: 1
-    texture:
-      anchorX: 0.5
-      anchorY: 0.5
-      fit: contain
-      tint: '#ffffff'
-      alphaThreshold: 0.75
-      src: systems/dnd5e/tokens/heroes/ClericDragonborn.webp
-      scaleX: 1
-      scaleY: 1
-    lockRotation: false
-    rotation: 0
-    alpha: 1
-    disposition: 1
-    displayBars: 20
-    bar1:
-      attribute: attributes.hp
-    bar2:
-      attribute: .Item.pmh35HMXfhMp82m9
-    light:
-      negative: false
-      priority: 0
-      alpha: 0.5
-      angle: 360
-      bright: 0
-      color: null
-      coloration: 1
-      dim: 0
-      attenuation: 0.5
-      luminosity: 0.5
-      saturation: 0
-      contrast: 0
-      shadows: 0
-      animation:
-        type: null
-        speed: 5
-        intensity: 5
-        reverse: false
-      darkness:
-        min: 0
-        max: 1
-    sight:
-      enabled: true
-      range: 60
-      angle: 360
-      visionMode: darkvision
-      color: null
-      attenuation: 0
-      brightness: 0
-      saturation: -1
-      contrast: 0
-    detectionModes: {}
-    occludable:
-      radius: 0
-    ring:
-      enabled: false
-      colors:
-        ring: null
-        background: null
-      effects: 0
-      subject:
-        scale: 1
-        texture: null
-    turnMarker:
-      mode: 1
-      animation: null
-      src: null
-      disposition: false
-    movementAction: null
-    flags: {}
-    depth: 1
-    actorId: pfo57Hap76RrKbLJ
-    hidden: false
-    sort: 0
-    shape: 4
-    level: defaultLevel0000
-    _id: VviVmOdUC4Bzo2Sn
-    delta: null
-    x: 2300
-    'y': 2900
-    elevation: 0
-    locked: false
-    _movementHistory: []
-    _regions: []
-    _key: '!scenes.tokens!xy0S6z1GuWhdUmCF.VviVmOdUC4Bzo2Sn'
-  - name: Perrin
-    displayName: 20
-    actorLink: true
-    width: 1
-    height: 1
-    texture:
-      anchorX: 0.5
-      anchorY: 0.5
-      fit: contain
-      tint: '#ffffff'
-      alphaThreshold: 0.75
-      src: systems/dnd5e/tokens/heroes/MonkStaff.webp
-      scaleX: 0.8
-      scaleY: 0.8
-    lockRotation: false
-    rotation: 0
-    alpha: 1
-    disposition: 1
-    displayBars: 20
-    bar1:
-      attribute: attributes.hp
-    bar2:
-      attribute: .Item.Uvv9h5AlYPlE9o3Y
-    light:
-      negative: false
-      priority: 0
-      alpha: 0.5
-      angle: 360
-      bright: 0
-      color: null
-      coloration: 1
-      dim: 0
-      attenuation: 0.5
-      luminosity: 0.5
-      saturation: 0
-      contrast: 0
-      shadows: 0
-      animation:
-        type: null
-        speed: 5
-        intensity: 5
-        reverse: false
-      darkness:
-        min: 0
-        max: 1
-    sight:
-      enabled: true
-      range: 0
-      angle: 360
-      visionMode: basic
-      color: null
-      attenuation: 0.1
-      brightness: 0
-      saturation: 0
-      contrast: 0
-    detectionModes: {}
-    occludable:
-      radius: 0
-    ring:
-      enabled: false
-      colors:
-        ring: null
-        background: null
-      effects: 0
-      subject:
-        scale: 1
-        texture: null
-    turnMarker:
-      mode: 1
-      animation: null
-      src: null
-      disposition: false
-    movementAction: null
-    flags: {}
-    depth: 1
-    actorId: 4jQS5Krp1xaiLXXC
-    hidden: false
-    sort: 1
-    shape: 4
-    level: defaultLevel0000
-    _id: 1XWPpoF7WamIRa3k
-    delta: null
-    x: 2300
-    'y': 2800
-    elevation: 0
-    locked: false
-    _movementHistory: []
-    _regions: []
-    _key: '!scenes.tokens!xy0S6z1GuWhdUmCF.1XWPpoF7WamIRa3k'
-  - name: Sefris
-    displayName: 20
-    actorLink: true
-    width: 1
-    height: 1
-    texture:
-      anchorX: 0.5
-      anchorY: 0.5
-      fit: contain
-      tint: '#ffffff'
-      alphaThreshold: 0.75
-      src: systems/dnd5e/tokens/heroes/WarlockStaff.webp
-      scaleX: 1
-      scaleY: 1
-    lockRotation: false
-    rotation: 0
-    alpha: 1
-    disposition: 1
-    displayBars: 20
-    bar1:
-      attribute: attributes.hp
-    bar2:
-      attribute: spells.pact
-    light:
-      negative: false
-      priority: 0
-      alpha: 0.5
-      angle: 360
-      bright: 0
-      color: null
-      coloration: 1
-      dim: 0
-      attenuation: 0.5
-      luminosity: 0.5
-      saturation: 0
-      contrast: 0
-      shadows: 0
-      animation:
-        type: null
-        speed: 5
-        intensity: 5
-        reverse: false
-      darkness:
-        min: 0
-        max: 1
-    sight:
-      enabled: true
-      range: 120
-      angle: 360
-      visionMode: darkvision
-      color: null
-      attenuation: 0
-      brightness: 0
-      saturation: -1
-      contrast: 0
-    detectionModes: {}
-    occludable:
-      radius: 0
-    ring:
-      enabled: false
-      colors:
-        ring: null
-        background: null
-      effects: 0
-      subject:
-        scale: 1
-        texture: null
-    turnMarker:
-      mode: 1
-      animation: null
-      src: null
-      disposition: false
-    movementAction: null
-    flags: {}
-    depth: 1
-    actorId: FqEL1zVhr5JnzCOj
-    hidden: false
-    sort: 2
-    shape: 4
-    level: defaultLevel0000
-    _id: m9jM8F22LWLLBiKO
-    delta: null
-    x: 2500
-    'y': 2400
-    elevation: 0
-    locked: false
-    _movementHistory: []
-    _regions: []
-    _key: '!scenes.tokens!xy0S6z1GuWhdUmCF.m9jM8F22LWLLBiKO'
-  - name: Randal
-    displayName: 20
-    actorLink: true
-    width: 1
-    height: 1
-    texture:
-      anchorX: 0.5
-      anchorY: 0.5
-      fit: contain
-      tint: '#ffffff'
-      alphaThreshold: 0.75
-      src: systems/dnd5e/tokens/heroes/FighterShield.webp
-      scaleX: 1
-      scaleY: 1
-    lockRotation: false
-    rotation: 233.13010235415598
-    alpha: 1
-    disposition: 1
-    displayBars: 20
-    bar1:
-      attribute: attributes.hp
-    bar2:
-      attribute: .Item.oWaVsnk5p6pPAqtg
-    light:
-      negative: false
-      priority: 0
-      alpha: 0.5
-      angle: 360
-      bright: 0
-      color: null
-      coloration: 1
-      dim: 0
-      attenuation: 0.5
-      luminosity: 0.5
-      saturation: 0
-      contrast: 0
-      shadows: 0
-      animation:
-        type: null
-        speed: 5
-        intensity: 5
-        reverse: false
-      darkness:
-        min: 0
-        max: 1
-    sight:
-      enabled: true
-      range: 0
-      angle: 360
-      visionMode: basic
-      color: null
-      attenuation: 0.1
-      brightness: 0
-      saturation: 0
-      contrast: 0
-    detectionModes: {}
-    occludable:
-      radius: 0
-    ring:
-      enabled: false
-      colors:
-        ring: null
-        background: null
-      effects: 0
-      subject:
-        scale: 1
-        texture: null
-    turnMarker:
-      mode: 1
-      animation: null
-      src: null
-      disposition: false
-    movementAction: null
-    flags: {}
-    depth: 1
-    actorId: BocOGq2sKg9nGIgy
-    hidden: false
-    sort: 3
-    shape: 4
-    level: lfePHQWsgXC6uH71
-    _id: mGaSs5Rz55oj4EkI
-    delta: null
-    x: 2900
-    'y': 1600
-    elevation: 20
-    locked: false
-    _movementHistory: []
-    _regions: []
-    _key: '!scenes.tokens!xy0S6z1GuWhdUmCF.mGaSs5Rz55oj4EkI'
+tokens: []
 levels:
   - _id: defaultLevel0000
     name: Ground Floor
     elevation:
       bottom: 0
-      top: 20
+      top: 10
     background:
       color: '#999999'
       src: modules/dannysmodule/assets/maps/small_inn_groundfloor.webp
@@ -453,8 +97,8 @@ levels:
   - name: 2nd Floor
     _id: lfePHQWsgXC6uH71
     elevation:
-      bottom: 20
-      top: 40
+      bottom: 10
+      top: 20
     background:
       color: '#999999'
       src: modules/dannysmodule/assets/maps/small_inn_2ndfloor.webp
@@ -485,15 +129,16 @@ lights:
   - elevation: 0
     levels:
       - defaultLevel0000
+      - lfePHQWsgXC6uH71
     walls: true
     vision: false
     hidden: false
     config:
       negative: false
       priority: 0
-      alpha: 0.5
+      alpha: 0.25
       angle: 360
-      color: null
+      color: '#84692e'
       coloration: 1
       attenuation: 0.5
       luminosity: 0.5
@@ -508,28 +153,29 @@ lights:
       darkness:
         min: 0
         max: 1
-      bright: 5
-      dim: 10
+      bright: 12.5
+      dim: 25
     name: Ambient Light
-    _id: 9PuzIVdXfKMhhJiH
-    x: 2050
-    'y': 2400
+    _id: uzEIcn0EmX8DNjrx
+    x: 2800
+    'y': 2100
     rotation: 0
     locked: false
     flags: {}
-    _key: '!scenes.lights!xy0S6z1GuWhdUmCF.9PuzIVdXfKMhhJiH'
+    _key: '!scenes.lights!xy0S6z1GuWhdUmCF.uzEIcn0EmX8DNjrx'
   - elevation: 0
     levels:
       - defaultLevel0000
+      - lfePHQWsgXC6uH71
     walls: true
     vision: false
     hidden: false
     config:
       negative: false
       priority: 0
-      alpha: 0.5
+      alpha: 0.25
       angle: 360
-      color: null
+      color: '#84692e'
       coloration: 1
       attenuation: 0.5
       luminosity: 0.5
@@ -544,28 +190,29 @@ lights:
       darkness:
         min: 0
         max: 1
-      bright: 6.25
-      dim: 12.5
-    name: Ambient Light (2)
-    _id: 1H5mbiPwNADzyz4i
-    x: 1950
-    'y': 2400
+      bright: 12.5
+      dim: 25
+    name: Ambient Light
+    x: 3201
+    'y': 2107
     rotation: 0
     locked: false
     flags: {}
-    _key: '!scenes.lights!xy0S6z1GuWhdUmCF.1H5mbiPwNADzyz4i'
+    _id: 8H4Cf0CK1yIEJOmL
+    _key: '!scenes.lights!xy0S6z1GuWhdUmCF.8H4Cf0CK1yIEJOmL'
   - elevation: 0
     levels:
       - defaultLevel0000
+      - lfePHQWsgXC6uH71
     walls: true
     vision: false
     hidden: false
     config:
       negative: false
       priority: 0
-      alpha: 0.5
+      alpha: 0.25
       angle: 360
-      color: null
+      color: '#84692e'
       coloration: 1
       attenuation: 0.5
       luminosity: 0.5
@@ -580,28 +227,29 @@ lights:
       darkness:
         min: 0
         max: 1
-      bright: 22.5
-      dim: 45
-    name: Ambient Light (3)
-    _id: ysZHVuUTlJoX3Kvp
-    x: 4150
-    'y': 2550
+      bright: 12.5
+      dim: 25
+    name: Ambient Light
+    x: 3611
+    'y': 2105
     rotation: 0
     locked: false
     flags: {}
-    _key: '!scenes.lights!xy0S6z1GuWhdUmCF.ysZHVuUTlJoX3Kvp'
+    _id: Auq9BaBkgSnOI72j
+    _key: '!scenes.lights!xy0S6z1GuWhdUmCF.Auq9BaBkgSnOI72j'
   - elevation: 0
     levels:
       - defaultLevel0000
+      - lfePHQWsgXC6uH71
     walls: true
     vision: false
     hidden: false
     config:
       negative: false
       priority: 0
-      alpha: 0.5
+      alpha: 0.25
       angle: 360
-      color: null
+      color: '#84692e'
       coloration: 1
       attenuation: 0.5
       luminosity: 0.5
@@ -616,28 +264,29 @@ lights:
       darkness:
         min: 0
         max: 1
-      bright: 25
-      dim: 50
-    name: Ambient Light (4)
-    _id: c0jFJx3u9kJoKgK1
-    x: 2350
-    'y': 2550
+      bright: 12.5
+      dim: 25
+    name: Ambient Light
+    x: 4001
+    'y': 2114
     rotation: 0
     locked: false
     flags: {}
-    _key: '!scenes.lights!xy0S6z1GuWhdUmCF.c0jFJx3u9kJoKgK1'
+    _id: fiI4SWsXQ4gjhjTU
+    _key: '!scenes.lights!xy0S6z1GuWhdUmCF.fiI4SWsXQ4gjhjTU'
   - elevation: 0
     levels:
       - defaultLevel0000
+      - lfePHQWsgXC6uH71
     walls: true
     vision: false
     hidden: false
     config:
       negative: false
       priority: 0
-      alpha: 0.5
+      alpha: 0.25
       angle: 360
-      color: null
+      color: '#84692e'
       coloration: 1
       attenuation: 0.5
       luminosity: 0.5
@@ -652,28 +301,29 @@ lights:
       darkness:
         min: 0
         max: 1
-      bright: 30
-      dim: 60
-    name: Ambient Light (5)
-    _id: OWcCEpq7Pfzb1b7G
-    x: 3150
-    'y': 2550
+      bright: 12.5
+      dim: 25
+    name: Ambient Light
+    x: 1996
+    'y': 2385
     rotation: 0
     locked: false
     flags: {}
-    _key: '!scenes.lights!xy0S6z1GuWhdUmCF.OWcCEpq7Pfzb1b7G'
+    _id: 7tz2qtYk9qnoE9nm
+    _key: '!scenes.lights!xy0S6z1GuWhdUmCF.7tz2qtYk9qnoE9nm'
   - elevation: 0
     levels:
       - defaultLevel0000
+      - lfePHQWsgXC6uH71
     walls: true
     vision: false
     hidden: false
     config:
       negative: false
       priority: 0
-      alpha: 0.5
+      alpha: 0.25
       angle: 360
-      color: null
+      color: '#84692e'
       coloration: 1
       attenuation: 0.5
       luminosity: 0.5
@@ -688,28 +338,29 @@ lights:
       darkness:
         min: 0
         max: 1
-      bright: 22.5
-      dim: 45
-    name: Ambient Light (6)
-    _id: Qt2UZC9eFGK46hVj
-    x: 2200
-    'y': 1350
+      bright: 12.5
+      dim: 25
+    name: Ambient Light
+    x: 4106
+    'y': 2552
     rotation: 0
     locked: false
     flags: {}
-    _key: '!scenes.lights!xy0S6z1GuWhdUmCF.Qt2UZC9eFGK46hVj'
+    _id: oERSFs3A9DAg5WAK
+    _key: '!scenes.lights!xy0S6z1GuWhdUmCF.oERSFs3A9DAg5WAK'
   - elevation: 0
     levels:
       - defaultLevel0000
+      - lfePHQWsgXC6uH71
     walls: true
     vision: false
     hidden: false
     config:
       negative: false
       priority: 0
-      alpha: 0.5
+      alpha: 0.25
       angle: 360
-      color: null
+      color: '#84692e'
       coloration: 1
       attenuation: 0.5
       luminosity: 0.5
@@ -724,28 +375,29 @@ lights:
       darkness:
         min: 0
         max: 1
-      bright: 23.75
-      dim: 47.5
-    name: Ambient Light (7)
-    _id: UTc7PGdlYXIAI5Hm
-    x: 3600
-    'y': 1450
+      bright: 12.5
+      dim: 25
+    name: Ambient Light
+    x: 3810
+    'y': 2820
     rotation: 0
     locked: false
     flags: {}
-    _key: '!scenes.lights!xy0S6z1GuWhdUmCF.UTc7PGdlYXIAI5Hm'
+    _id: VOXFo3erlCVsjvqm
+    _key: '!scenes.lights!xy0S6z1GuWhdUmCF.VOXFo3erlCVsjvqm'
   - elevation: 0
     levels:
       - defaultLevel0000
+      - lfePHQWsgXC6uH71
     walls: true
     vision: false
     hidden: false
     config:
       negative: false
       priority: 0
-      alpha: 0.5
+      alpha: 0.25
       angle: 360
-      color: null
+      color: '#84692e'
       coloration: 1
       attenuation: 0.5
       luminosity: 0.5
@@ -760,16 +412,306 @@ lights:
       darkness:
         min: 0
         max: 1
-      bright: 25
-      dim: 50
-    name: Ambient Light (8)
-    _id: zuaCiUXpBfckvhSM
-    x: 3850
-    'y': 1800
+      bright: 12.5
+      dim: 25
+    name: Ambient Light
+    x: 3399
+    'y': 2806
     rotation: 0
     locked: false
     flags: {}
-    _key: '!scenes.lights!xy0S6z1GuWhdUmCF.zuaCiUXpBfckvhSM'
+    _id: 2SM6PpxXGKPQNj0F
+    _key: '!scenes.lights!xy0S6z1GuWhdUmCF.2SM6PpxXGKPQNj0F'
+  - elevation: 0
+    levels:
+      - defaultLevel0000
+      - lfePHQWsgXC6uH71
+    walls: true
+    vision: false
+    hidden: false
+    config:
+      negative: false
+      priority: 0
+      alpha: 0.25
+      angle: 360
+      color: '#84692e'
+      coloration: 1
+      attenuation: 0.5
+      luminosity: 0.5
+      saturation: 0
+      contrast: 0
+      shadows: 0
+      animation:
+        type: null
+        speed: 5
+        intensity: 5
+        reverse: false
+      darkness:
+        min: 0
+        max: 1
+      bright: 12.5
+      dim: 25
+    name: Ambient Light
+    x: 2607
+    'y': 2801
+    rotation: 0
+    locked: false
+    flags: {}
+    _id: EtmFqHcdj5ixa6fX
+    _key: '!scenes.lights!xy0S6z1GuWhdUmCF.EtmFqHcdj5ixa6fX'
+  - elevation: 0
+    levels:
+      - defaultLevel0000
+      - lfePHQWsgXC6uH71
+    walls: true
+    vision: false
+    hidden: false
+    config:
+      negative: false
+      priority: 0
+      alpha: 0.25
+      angle: 360
+      color: '#84692e'
+      coloration: 1
+      attenuation: 0.5
+      luminosity: 0.5
+      saturation: 0
+      contrast: 0
+      shadows: 0
+      animation:
+        type: null
+        speed: 5
+        intensity: 5
+        reverse: false
+      darkness:
+        min: 0
+        max: 1
+      bright: 12.5
+      dim: 25
+    name: Ambient Light
+    x: 1993
+    'y': 2798
+    rotation: 0
+    locked: false
+    flags: {}
+    _id: OkfKgXzpIDwtNij1
+    _key: '!scenes.lights!xy0S6z1GuWhdUmCF.OkfKgXzpIDwtNij1'
+  - elevation: 0
+    levels:
+      - defaultLevel0000
+    walls: true
+    vision: false
+    hidden: false
+    config:
+      negative: false
+      priority: 0
+      alpha: 0.25
+      angle: 360
+      color: '#84692e'
+      coloration: 1
+      attenuation: 0.5
+      luminosity: 0.5
+      saturation: 0
+      contrast: 0
+      shadows: 0
+      animation:
+        type: null
+        speed: 5
+        intensity: 5
+        reverse: false
+      darkness:
+        min: 0
+        max: 1
+      bright: 12.5
+      dim: 25
+    name: Ambient Light
+    x: 3204
+    'y': 1623
+    rotation: 0
+    locked: false
+    flags: {}
+    _id: 2sxuhL5oxUA2yjqx
+    _key: '!scenes.lights!xy0S6z1GuWhdUmCF.2sxuhL5oxUA2yjqx'
+  - elevation: 0
+    levels:
+      - defaultLevel0000
+    walls: true
+    vision: false
+    hidden: false
+    config:
+      negative: false
+      priority: 0
+      alpha: 0.25
+      angle: 360
+      color: '#84692e'
+      coloration: 1
+      attenuation: 0.5
+      luminosity: 0.5
+      saturation: 0
+      contrast: 0
+      shadows: 0
+      animation:
+        type: null
+        speed: 5
+        intensity: 5
+        reverse: false
+      darkness:
+        min: 0
+        max: 1
+      bright: 12.5
+      dim: 25
+    name: Ambient Light
+    x: 4208
+    'y': 1273
+    rotation: 0
+    locked: false
+    flags: {}
+    _id: fNyBwxAl9NsjrHIV
+    _key: '!scenes.lights!xy0S6z1GuWhdUmCF.fNyBwxAl9NsjrHIV'
+  - elevation: 0
+    levels:
+      - defaultLevel0000
+    walls: true
+    vision: false
+    hidden: false
+    config:
+      negative: false
+      priority: 0
+      alpha: 0.25
+      angle: 360
+      color: '#84692e'
+      coloration: 1
+      attenuation: 0.5
+      luminosity: 0.5
+      saturation: 0
+      contrast: 0
+      shadows: 0
+      animation:
+        type: null
+        speed: 5
+        intensity: 5
+        reverse: false
+      darkness:
+        min: 0
+        max: 1
+      bright: 12.5
+      dim: 25
+    name: Ambient Light
+    x: 3624
+    'y': 1072
+    rotation: 0
+    locked: false
+    flags: {}
+    _id: VedYJQhz62nOh8yK
+    _key: '!scenes.lights!xy0S6z1GuWhdUmCF.VedYJQhz62nOh8yK'
+  - elevation: 0
+    levels:
+      - defaultLevel0000
+    walls: true
+    vision: false
+    hidden: false
+    config:
+      negative: false
+      priority: 0
+      alpha: 0.25
+      angle: 360
+      color: '#84692e'
+      coloration: 1
+      attenuation: 0.5
+      luminosity: 0.5
+      saturation: 0
+      contrast: 0
+      shadows: 0
+      animation:
+        type: null
+        speed: 5
+        intensity: 5
+        reverse: false
+      darkness:
+        min: 0
+        max: 1
+      bright: 12.5
+      dim: 25
+    name: Ambient Light
+    x: 2873
+    'y': 1060
+    rotation: 0
+    locked: false
+    flags: {}
+    _id: wPm23e1dRNHcLb9L
+    _key: '!scenes.lights!xy0S6z1GuWhdUmCF.wPm23e1dRNHcLb9L'
+  - elevation: 0
+    levels:
+      - defaultLevel0000
+    walls: true
+    vision: false
+    hidden: false
+    config:
+      negative: false
+      priority: 0
+      alpha: 0.25
+      angle: 360
+      color: '#84692e'
+      coloration: 1
+      attenuation: 0.5
+      luminosity: 0.5
+      saturation: 0
+      contrast: 0
+      shadows: 0
+      animation:
+        type: null
+        speed: 5
+        intensity: 5
+        reverse: false
+      darkness:
+        min: 0
+        max: 1
+      bright: 12.5
+      dim: 25
+    name: Ambient Light
+    x: 1953
+    'y': 1209
+    rotation: 0
+    locked: false
+    flags: {}
+    _id: a7v9kP4iDyCjzPPK
+    _key: '!scenes.lights!xy0S6z1GuWhdUmCF.a7v9kP4iDyCjzPPK'
+  - elevation: 0
+    levels:
+      - defaultLevel0000
+    walls: true
+    vision: false
+    hidden: false
+    config:
+      negative: false
+      priority: 0
+      alpha: 0.25
+      angle: 360
+      color: '#84692e'
+      coloration: 1
+      attenuation: 0.5
+      luminosity: 0.5
+      saturation: 0
+      contrast: 0
+      shadows: 0
+      animation:
+        type: null
+        speed: 5
+        intensity: 5
+        reverse: false
+      darkness:
+        min: 0
+        max: 1
+      bright: 12.5
+      dim: 25
+    name: Ambient Light
+    x: 2368
+    'y': 1663
+    rotation: 0
+    locked: false
+    flags: {}
+    _id: 4FWieobz9NDJethp
+    _key: '!scenes.lights!xy0S6z1GuWhdUmCF.4FWieobz9NDJethp'
   - elevation: 10
     levels:
       - lfePHQWsgXC6uH71
@@ -781,7 +723,259 @@ lights:
       priority: 0
       alpha: 0.5
       angle: 360
-      color: null
+      color: '#84692e'
+      coloration: 1
+      attenuation: 0.5
+      luminosity: 0.5
+      saturation: 0
+      contrast: 0
+      shadows: 0
+      animation:
+        type: null
+        speed: 5
+        intensity: 5
+        reverse: false
+      darkness:
+        min: 0
+        max: 1
+      bright: 12.5
+      dim: 25
+    name: Ambient Light (2)
+    _id: RuFxmsoc8nH1ibN7
+    x: 2150
+    'y': 1700
+    rotation: 0
+    locked: false
+    flags: {}
+    _key: '!scenes.lights!xy0S6z1GuWhdUmCF.RuFxmsoc8nH1ibN7'
+  - elevation: 10
+    levels:
+      - lfePHQWsgXC6uH71
+    walls: true
+    vision: false
+    hidden: false
+    config:
+      negative: false
+      priority: 0
+      alpha: 0.5
+      angle: 360
+      color: '#84692e'
+      coloration: 1
+      attenuation: 0.5
+      luminosity: 0.5
+      saturation: 0
+      contrast: 0
+      shadows: 0
+      animation:
+        type: null
+        speed: 5
+        intensity: 5
+        reverse: false
+      darkness:
+        min: 0
+        max: 1
+      bright: 15
+      dim: 30
+    name: Ambient Light (3)
+    _id: ShPsoc7KQkGkoN2j
+    x: 3150
+    'y': 1750
+    rotation: 0
+    locked: false
+    flags: {}
+    _key: '!scenes.lights!xy0S6z1GuWhdUmCF.ShPsoc7KQkGkoN2j'
+  - elevation: 10
+    levels:
+      - lfePHQWsgXC6uH71
+    walls: true
+    vision: false
+    hidden: false
+    config:
+      negative: false
+      priority: 0
+      alpha: 0.5
+      angle: 360
+      color: '#84692e'
+      coloration: 1
+      attenuation: 0.5
+      luminosity: 0.5
+      saturation: 0
+      contrast: 0
+      shadows: 0
+      animation:
+        type: null
+        speed: 5
+        intensity: 5
+        reverse: false
+      darkness:
+        min: 0
+        max: 1
+      bright: 11.25
+      dim: 22.5
+    name: Ambient Light (4)
+    _id: iCkPYEhGIixOIaQY
+    x: 4000
+    'y': 1750
+    rotation: 0
+    locked: false
+    flags: {}
+    _key: '!scenes.lights!xy0S6z1GuWhdUmCF.iCkPYEhGIixOIaQY'
+  - elevation: 10
+    levels:
+      - lfePHQWsgXC6uH71
+    walls: true
+    vision: false
+    hidden: false
+    config:
+      negative: false
+      priority: 0
+      alpha: 0.5
+      angle: 360
+      color: '#84692e'
+      coloration: 1
+      attenuation: 0.5
+      luminosity: 0.5
+      saturation: 0
+      contrast: 0
+      shadows: 0
+      animation:
+        type: null
+        speed: 5
+        intensity: 5
+        reverse: false
+      darkness:
+        min: 0
+        max: 1
+      bright: 11.25
+      dim: 22.5
+    name: Ambient Light (5)
+    _id: f2ZcDErOpQjjPegU
+    x: 4200
+    'y': 1300
+    rotation: 0
+    locked: false
+    flags: {}
+    _key: '!scenes.lights!xy0S6z1GuWhdUmCF.f2ZcDErOpQjjPegU'
+  - elevation: 10
+    levels:
+      - lfePHQWsgXC6uH71
+    walls: true
+    vision: false
+    hidden: false
+    config:
+      negative: false
+      priority: 0
+      alpha: 0.5
+      angle: 360
+      color: '#84692e'
+      coloration: 1
+      attenuation: 0.5
+      luminosity: 0.5
+      saturation: 0
+      contrast: 0
+      shadows: 0
+      animation:
+        type: null
+        speed: 5
+        intensity: 5
+        reverse: false
+      darkness:
+        min: 0
+        max: 1
+      bright: 13.75
+      dim: 27.5
+    name: Ambient Light (6)
+    _id: R3xH20tTLdfXPNa6
+    x: 3600
+    'y': 1100
+    rotation: 0
+    locked: false
+    flags: {}
+    _key: '!scenes.lights!xy0S6z1GuWhdUmCF.R3xH20tTLdfXPNa6'
+  - elevation: 10
+    levels:
+      - lfePHQWsgXC6uH71
+    walls: true
+    vision: false
+    hidden: false
+    config:
+      negative: false
+      priority: 0
+      alpha: 0.5
+      angle: 360
+      color: '#84692e'
+      coloration: 1
+      attenuation: 0.5
+      luminosity: 0.5
+      saturation: 0
+      contrast: 0
+      shadows: 0
+      animation:
+        type: null
+        speed: 5
+        intensity: 5
+        reverse: false
+      darkness:
+        min: 0
+        max: 1
+      bright: 13.75
+      dim: 27.5
+    name: Ambient Light (7)
+    _id: WJFcweSu3Sb1BkxP
+    x: 3200
+    'y': 1050
+    rotation: 0
+    locked: false
+    flags: {}
+    _key: '!scenes.lights!xy0S6z1GuWhdUmCF.WJFcweSu3Sb1BkxP'
+  - elevation: 10
+    levels:
+      - lfePHQWsgXC6uH71
+    walls: true
+    vision: false
+    hidden: false
+    config:
+      negative: false
+      priority: 0
+      alpha: 0.5
+      angle: 360
+      color: '#84692e'
+      coloration: 1
+      attenuation: 0.5
+      luminosity: 0.5
+      saturation: 0
+      contrast: 0
+      shadows: 0
+      animation:
+        type: null
+        speed: 5
+        intensity: 5
+        reverse: false
+      darkness:
+        min: 0
+        max: 1
+      bright: 16.25
+      dim: 32.5
+    name: Ambient Light (8)
+    _id: FudiIY3hMFWXQEmp
+    x: 2800
+    'y': 1050
+    rotation: 0
+    locked: false
+    flags: {}
+    _key: '!scenes.lights!xy0S6z1GuWhdUmCF.FudiIY3hMFWXQEmp'
+  - elevation: 10
+    levels:
+      - lfePHQWsgXC6uH71
+    walls: true
+    vision: false
+    hidden: false
+    config:
+      negative: false
+      priority: 0
+      alpha: 0.5
+      angle: 360
+      color: '#84692e'
       coloration: 1
       attenuation: 0.5
       luminosity: 0.5
@@ -799,13 +993,13 @@ lights:
       bright: 12.5
       dim: 25
     name: Ambient Light (9)
-    _id: glAIIJUj8VJce6eN
-    x: 2000
+    _id: yWz38mkQGW33goug
+    x: 2400
     'y': 1100
     rotation: 0
     locked: false
     flags: {}
-    _key: '!scenes.lights!xy0S6z1GuWhdUmCF.glAIIJUj8VJce6eN'
+    _key: '!scenes.lights!xy0S6z1GuWhdUmCF.yWz38mkQGW33goug'
   - elevation: 10
     levels:
       - lfePHQWsgXC6uH71
@@ -817,7 +1011,7 @@ lights:
       priority: 0
       alpha: 0.5
       angle: 360
-      color: null
+      color: '#84692e'
       coloration: 1
       attenuation: 0.5
       luminosity: 0.5
@@ -835,352 +1029,24 @@ lights:
       bright: 13.75
       dim: 27.5
     name: Ambient Light (10)
-    _id: xGRSzpEv3koPgzXr
-    x: 2400
-    'y': 1100
-    rotation: 0
-    locked: false
-    flags: {}
-    _key: '!scenes.lights!xy0S6z1GuWhdUmCF.xGRSzpEv3koPgzXr'
-  - elevation: 10
-    levels:
-      - lfePHQWsgXC6uH71
-    walls: true
-    vision: false
-    hidden: false
-    config:
-      negative: false
-      priority: 0
-      alpha: 0.5
-      angle: 360
-      color: null
-      coloration: 1
-      attenuation: 0.5
-      luminosity: 0.5
-      saturation: 0
-      contrast: 0
-      shadows: 0
-      animation:
-        type: null
-        speed: 5
-        intensity: 5
-        reverse: false
-      darkness:
-        min: 0
-        max: 1
-      bright: 15
-      dim: 30
-    name: Ambient Light (11)
-    _id: luXiCBMgT0CPzp7B
-    x: 2800
-    'y': 1050
-    rotation: 0
-    locked: false
-    flags: {}
-    _key: '!scenes.lights!xy0S6z1GuWhdUmCF.luXiCBMgT0CPzp7B'
-  - elevation: 10
-    levels:
-      - lfePHQWsgXC6uH71
-    walls: true
-    vision: false
-    hidden: false
-    config:
-      negative: false
-      priority: 0
-      alpha: 0.5
-      angle: 360
-      color: null
-      coloration: 1
-      attenuation: 0.5
-      luminosity: 0.5
-      saturation: 0
-      contrast: 0
-      shadows: 0
-      animation:
-        type: null
-        speed: 5
-        intensity: 5
-        reverse: false
-      darkness:
-        min: 0
-        max: 1
-      bright: 15
-      dim: 30
-    name: Ambient Light (12)
-    _id: xFVTac0UtlIDzh1F
-    x: 3200
-    'y': 1050
-    rotation: 0
-    locked: false
-    flags: {}
-    _key: '!scenes.lights!xy0S6z1GuWhdUmCF.xFVTac0UtlIDzh1F'
-  - elevation: 10
-    levels:
-      - lfePHQWsgXC6uH71
-    walls: true
-    vision: false
-    hidden: false
-    config:
-      negative: false
-      priority: 0
-      alpha: 0.5
-      angle: 360
-      color: null
-      coloration: 1
-      attenuation: 0.5
-      luminosity: 0.5
-      saturation: 0
-      contrast: 0
-      shadows: 0
-      animation:
-        type: null
-        speed: 5
-        intensity: 5
-        reverse: false
-      darkness:
-        min: 0
-        max: 1
-      bright: 13.75
-      dim: 27.5
-    name: Ambient Light (13)
-    _id: MYxMCOj2cktBuxTR
-    x: 3600
-    'y': 1100
-    rotation: 0
-    locked: false
-    flags: {}
-    _key: '!scenes.lights!xy0S6z1GuWhdUmCF.MYxMCOj2cktBuxTR'
-  - elevation: 10
-    levels:
-      - lfePHQWsgXC6uH71
-    walls: true
-    vision: false
-    hidden: false
-    config:
-      negative: false
-      priority: 0
-      alpha: 0.5
-      angle: 360
-      color: null
-      coloration: 1
-      attenuation: 0.5
-      luminosity: 0.5
-      saturation: 0
-      contrast: 0
-      shadows: 0
-      animation:
-        type: null
-        speed: 5
-        intensity: 5
-        reverse: false
-      darkness:
-        min: 0
-        max: 1
-      bright: 16.25
-      dim: 32.5
-    name: Ambient Light (14)
-    _id: bJdKgiKm8ToAp7G1
-    x: 4150
-    'y': 1100
-    rotation: 0
-    locked: false
-    flags: {}
-    _key: '!scenes.lights!xy0S6z1GuWhdUmCF.bJdKgiKm8ToAp7G1'
-  - elevation: 20
-    levels:
-      - lfePHQWsgXC6uH71
-      - defaultLevel0000
-    walls: true
-    vision: false
-    hidden: false
-    config:
-      negative: false
-      priority: 0
-      alpha: 0.5
-      angle: 360
-      color: null
-      coloration: 1
-      attenuation: 0.5
-      luminosity: 0.5
-      saturation: 0
-      contrast: 0
-      shadows: 0
-      animation:
-        type: null
-        speed: 5
-        intensity: 5
-        reverse: false
-      darkness:
-        min: 0
-        max: 1
-      bright: 16.25
-      dim: 32.5
-    name: Ambient Light (15)
-    _id: t9Vqp54fUan8BZHw
-    x: 4000
-    'y': 2050
-    rotation: 0
-    locked: false
-    flags: {}
-    _key: '!scenes.lights!xy0S6z1GuWhdUmCF.t9Vqp54fUan8BZHw'
-  - elevation: 20
-    levels:
-      - lfePHQWsgXC6uH71
-      - defaultLevel0000
-    walls: true
-    vision: false
-    hidden: false
-    config:
-      negative: false
-      priority: 0
-      alpha: 0.5
-      angle: 360
-      color: null
-      coloration: 1
-      attenuation: 0.5
-      luminosity: 0.5
-      saturation: 0
-      contrast: 0
-      shadows: 0
-      animation:
-        type: null
-        speed: 5
-        intensity: 5
-        reverse: false
-      darkness:
-        min: 0
-        max: 1
-      bright: 22.5
-      dim: 45
-    name: Ambient Light (16)
-    _id: zmRmdKuGJA6TSFzd
-    x: 3600
-    'y': 2100
-    rotation: 0
-    locked: false
-    flags: {}
-    _key: '!scenes.lights!xy0S6z1GuWhdUmCF.zmRmdKuGJA6TSFzd'
-  - elevation: 20
-    levels:
-      - lfePHQWsgXC6uH71
-      - defaultLevel0000
-    walls: true
-    vision: false
-    hidden: false
-    config:
-      negative: false
-      priority: 0
-      alpha: 0.5
-      angle: 360
-      color: null
-      coloration: 1
-      attenuation: 0.5
-      luminosity: 0.5
-      saturation: 0
-      contrast: 0
-      shadows: 0
-      animation:
-        type: null
-        speed: 5
-        intensity: 5
-        reverse: false
-      darkness:
-        min: 0
-        max: 1
-      bright: 22.5
-      dim: 45
-    name: Ambient Light (17)
-    _id: yzlGv8jwUBrkunJG
-    x: 3200
-    'y': 2050
-    rotation: 0
-    locked: false
-    flags: {}
-    _key: '!scenes.lights!xy0S6z1GuWhdUmCF.yzlGv8jwUBrkunJG'
-  - elevation: 20
-    levels:
-      - lfePHQWsgXC6uH71
-      - defaultLevel0000
-    walls: true
-    vision: false
-    hidden: false
-    config:
-      negative: false
-      priority: 0
-      alpha: 0.5
-      angle: 360
-      color: null
-      coloration: 1
-      attenuation: 0.5
-      luminosity: 0.5
-      saturation: 0
-      contrast: 0
-      shadows: 0
-      animation:
-        type: null
-        speed: 5
-        intensity: 5
-        reverse: false
-      darkness:
-        min: 0
-        max: 1
-      bright: 28.75
-      dim: 57.5
-    name: Ambient Light (18)
-    _id: 4ZUaTEMOLDegQOwO
-    x: 2800
-    'y': 2050
-    rotation: 0
-    locked: false
-    flags: {}
-    _key: '!scenes.lights!xy0S6z1GuWhdUmCF.4ZUaTEMOLDegQOwO'
-  - elevation: 0
-    levels:
-      - defaultLevel0000
-    walls: true
-    vision: false
-    hidden: false
-    config:
-      negative: false
-      priority: 0
-      alpha: 0.5
-      angle: 360
-      color: null
-      coloration: 1
-      attenuation: 0.5
-      luminosity: 0.5
-      saturation: 0
-      contrast: 0
-      shadows: 0
-      animation:
-        type: null
-        speed: 5
-        intensity: 5
-        reverse: false
-      darkness:
-        min: 0
-        max: 1
-      bright: 8.75
-      dim: 17.5
-    name: Ambient Light (19)
-    _id: 1nmqofyFOFxBRnno
+    _id: dQ7wkQvhPD8sSzHa
     x: 2000
-    'y': 2800
+    'y': 1050
     rotation: 0
     locked: false
     flags: {}
-    _key: '!scenes.lights!xy0S6z1GuWhdUmCF.1nmqofyFOFxBRnno'
+    _key: '!scenes.lights!xy0S6z1GuWhdUmCF.dQ7wkQvhPD8sSzHa'
 notes: []
 sounds: []
 regions:
-  - color: '#28cca3'
+  - color: '#cc2857'
     elevation:
-      bottom: 0
+      bottom: 10
       top: 20
-      topInclusive: true
+      topInclusive: false
     levels:
-      - lfePHQWsgXC6uH71
       - defaultLevel0000
+      - lfePHQWsgXC6uH71
     restriction:
       enabled: false
       type: move
@@ -1188,25 +1054,102 @@ regions:
     attachment:
       token: null
     visibility: 4
-    highlightMode: coverage
+    highlightMode: shapes
     displayMeasurements: false
-    name: Stairs
-    _id: AQjABcajl74t8anJ
+    hidden: false
+    name: 2nd floor bottom surface
+    _id: oiULSEzHHy17Dgf6
     shapes:
-      - type: rectangle
-        x: 1800
-        'y': 2050
-        width: 200
-        height: 250
+      - type: polygon
+        points:
+          - 1737.5
+          - 962.5
+          - 1750
+          - 2037.5
+          - 4250
+          - 2025
+          - 4237.5
+          - 975
+          - 4000
+          - 975
         hole: false
-        anchorX: 0
-        anchorY: 0
-        rotation: 0
-        gridBased: false
+        origin: null
+    behaviors:
+      - name: Define Surface
+        type: defineSurface
+        _id: niabFn0mOn9yoPy2
+        system:
+          placement: bottom
+          light: true
+          move: true
+          sight: true
+          sound: true
+          occlusion: true
+          exposure: true
+          culling: false
+        disabled: false
+        flags: {}
+        _stats:
+          coreVersion: '14.364'
+          systemId: pf2e
+          systemVersion: 8.3.0
+          createdTime: 1783814990387
+          modifiedTime: 1783814990387
+          lastModifiedBy: txZjek5EOiCBHPoz
+          compendiumSource: null
+          duplicateSource: null
+          exportSource: null
+        _key: >-
+          !scenes.regions.behaviors!xy0S6z1GuWhdUmCF.oiULSEzHHy17Dgf6.niabFn0mOn9yoPy2
+    locked: false
+    flags:
+      pf2e:
+        areaShape: null
+    _shapeConstraints: null
+    ownership:
+      default: 0
+    _key: '!scenes.regions!xy0S6z1GuWhdUmCF.oiULSEzHHy17Dgf6'
+  - color: '#30cc28'
+    elevation:
+      bottom: 0
+      top: 20
+      topInclusive: false
+    levels:
+      - defaultLevel0000
+      - lfePHQWsgXC6uH71
+    restriction:
+      enabled: false
+      type: move
+      priority: 0
+    attachment:
+      token: null
+    visibility: 4
+    highlightMode: shapes
+    displayMeasurements: false
+    hidden: false
+    name: Stairs
+    _id: 6TzXDXHgVvZYutPY
+    shapes:
+      - type: polygon
+        points:
+          - 1787.5
+          - 1787.5
+          - 1987.5
+          - 1787.5
+          - 1987.5
+          - 2025
+          - 2250
+          - 2037.5
+          - 2237.5
+          - 2325
+          - 1775
+          - 2312.5
+        hole: false
+        origin: null
     behaviors:
       - name: Change Level
         type: changeLevel
-        _id: XUGLEDfEPqMAzgUY
+        _id: 7h624JhDUj4PGH7d
         system:
           movementActions: []
         disabled: false
@@ -1214,24 +1157,23 @@ regions:
         _stats:
           coreVersion: '14.364'
           systemId: pf2e
-          systemVersion: 8.2.0
-          createdTime: 1783042391769
-          modifiedTime: 1783042391769
+          systemVersion: 8.3.0
+          createdTime: 1783814990387
+          modifiedTime: 1783814990387
           lastModifiedBy: txZjek5EOiCBHPoz
           compendiumSource: null
           duplicateSource: null
           exportSource: null
         _key: >-
-          !scenes.regions.behaviors!xy0S6z1GuWhdUmCF.AQjABcajl74t8anJ.XUGLEDfEPqMAzgUY
+          !scenes.regions.behaviors!xy0S6z1GuWhdUmCF.6TzXDXHgVvZYutPY.7h624JhDUj4PGH7d
     locked: false
     flags:
       pf2e:
         areaShape: null
     _shapeConstraints: null
-    hidden: false
     ownership:
       default: 0
-    _key: '!scenes.regions!xy0S6z1GuWhdUmCF.AQjABcajl74t8anJ'
+    _key: '!scenes.regions!xy0S6z1GuWhdUmCF.6TzXDXHgVvZYutPY'
 tiles: []
 walls:
   - levels:
@@ -2109,7 +2051,7 @@ walls:
     sound: 20
     dir: 0
     door: 1
-    ds: 0
+    ds: 1
     threshold:
       light: null
       sight: null
@@ -3081,12 +3023,29 @@ flags:
     hearingRange: null
     environmentTypes: []
     syncDarkness: default
+  world-explorer:
+    schemaVersion: 2.2.0
+    enabled: false
+    image: ''
+    color: '#000000'
+    position: behindDrawings
+    opacityGM: 0.7
+    opacityPlayer: 1
+    partialColor: ''
+    partialOpacityPlayer: 0.4
+    persistExploredAreas: false
+    tokenReveal:
+      units: spaces
+      value: null
+    gridReveal:
+      units: spaces
+      value: 0
 _stats:
   coreVersion: '14.364'
   systemId: pf2e
-  systemVersion: 8.2.0
-  createdTime: 1783042391766
-  modifiedTime: 1783042391766
+  systemVersion: 8.3.0
+  createdTime: 1783814990384
+  modifiedTime: 1783814990384
   lastModifiedBy: txZjek5EOiCBHPoz
   exportSource: null
   compendiumSource: null

@@ -2,7 +2,7 @@ folder: 1LOPSyo3SGiD9SB8
 name: Warewagon - needs walls and lights
 _id: GE3YoSHDmmF9uUBc
 navigation: false
-thumb: worlds/kingmaker/assets/scenes/thumb-7A-SvJCQckpnA6sS5zWV9w.webp
+thumb: worlds/kingmaker/assets/scenes/thumb-igEvaHoMG7eTd9M_kdp9rA.webp
 width: 1426
 height: 1426
 padding: 0.25
@@ -15,7 +15,7 @@ initial:
 initialLevel: defaultLevel0000
 grid:
   type: 1
-  size: 100
+  size: 50
   style: solidLines
   thickness: 1
   color: '#000000'
@@ -29,7 +29,7 @@ fog:
     explored: null
     unexplored: null
 environment:
-  darknessLevel: 0
+  darknessLevel: 1
   darknessLock: false
   globalLight:
     enabled: false
@@ -68,7 +68,7 @@ levels:
     name: Ground level
     elevation:
       bottom: 0
-      top: 20
+      top: 10
     background:
       color: '#999999'
       src: modules/dannysmodule/assets/maps/Warewagon_ground.webp
@@ -93,13 +93,13 @@ levels:
       levels:
         - MXDxnkaCRWfWL1g4
         - 00FcHtGi06KdfZke
-    sort: 0
+    sort: 100000
     flags: {}
     _key: '!scenes.levels!GE3YoSHDmmF9uUBc.defaultLevel0000'
   - name: Cellar
     _id: MXDxnkaCRWfWL1g4
     elevation:
-      bottom: -20
+      bottom: -10
       top: 0
     background:
       color: '#999999'
@@ -124,15 +124,14 @@ levels:
     visibility:
       levels:
         - defaultLevel0000
-        - 00FcHtGi06KdfZke
     sort: 0
     flags: {}
     _key: '!scenes.levels!GE3YoSHDmmF9uUBc.MXDxnkaCRWfWL1g4'
   - name: 2nd Floor
     _id: 00FcHtGi06KdfZke
     elevation:
-      bottom: 20
-      top: 40
+      bottom: 10
+      top: 20
     background:
       color: '#999999'
       src: modules/dannysmodule/assets/maps/Warewagon_2nd.webp
@@ -155,23 +154,1909 @@ levels:
       rotation: 0
     visibility:
       levels:
-        - MXDxnkaCRWfWL1g4
         - defaultLevel0000
-    sort: 0
+        - MXDxnkaCRWfWL1g4
+    sort: 400000
     flags: {}
     _key: '!scenes.levels!GE3YoSHDmmF9uUBc.00FcHtGi06KdfZke'
-lights: []
+lights:
+  - elevation: -10
+    levels:
+      - MXDxnkaCRWfWL1g4
+      - defaultLevel0000
+    walls: true
+    vision: false
+    hidden: false
+    config:
+      negative: false
+      priority: 0
+      alpha: 0.3
+      angle: 360
+      color: '#45300d'
+      coloration: 1
+      attenuation: 0.5
+      luminosity: 0.5
+      saturation: 0
+      contrast: 0
+      shadows: 0
+      animation:
+        type: null
+        speed: 5
+        intensity: 5
+        reverse: false
+      darkness:
+        min: 0
+        max: 1
+      bright: 28.75
+      dim: 57.5
+    name: Ambient Light
+    _id: kQmC1wBqytrbAv4o
+    x: 1050
+    'y': 1075
+    rotation: 0
+    locked: false
+    flags: {}
+    _key: '!scenes.lights!GE3YoSHDmmF9uUBc.kQmC1wBqytrbAv4o'
+  - elevation: -10
+    levels:
+      - MXDxnkaCRWfWL1g4
+      - defaultLevel0000
+    walls: true
+    vision: false
+    hidden: false
+    config:
+      negative: false
+      priority: 0
+      alpha: 0.3
+      angle: 360
+      color: '#45300d'
+      coloration: 1
+      attenuation: 0.5
+      luminosity: 0.5
+      saturation: 0
+      contrast: 0
+      shadows: 0
+      animation:
+        type: null
+        speed: 5
+        intensity: 5
+        reverse: false
+      darkness:
+        min: 0
+        max: 1
+      bright: 31.25
+      dim: 62.5
+    name: Ambient Light (2)
+    _id: RJWDZyLnzWxrsyhL
+    x: 1600
+    'y': 1050
+    rotation: 0
+    locked: false
+    flags: {}
+    _key: '!scenes.lights!GE3YoSHDmmF9uUBc.RJWDZyLnzWxrsyhL'
+  - elevation: -10
+    levels:
+      - MXDxnkaCRWfWL1g4
+      - defaultLevel0000
+    walls: true
+    vision: false
+    hidden: false
+    config:
+      negative: false
+      priority: 0
+      alpha: 0.3
+      angle: 360
+      color: '#45300d'
+      coloration: 1
+      attenuation: 0.5
+      luminosity: 0.5
+      saturation: 0
+      contrast: 0
+      shadows: 0
+      animation:
+        type: null
+        speed: 5
+        intensity: 5
+        reverse: false
+      darkness:
+        min: 0
+        max: 1
+      bright: 30
+      dim: 60
+    name: Ambient Light (3)
+    _id: pFg8QqqE6iB5CJdz
+    x: 1575
+    'y': 1550
+    rotation: 0
+    locked: false
+    flags: {}
+    _key: '!scenes.lights!GE3YoSHDmmF9uUBc.pFg8QqqE6iB5CJdz'
+  - elevation: -10
+    levels:
+      - MXDxnkaCRWfWL1g4
+      - defaultLevel0000
+    walls: true
+    vision: false
+    hidden: false
+    config:
+      negative: false
+      priority: 0
+      alpha: 0.3
+      angle: 360
+      color: '#45300d'
+      coloration: 1
+      attenuation: 0.5
+      luminosity: 0.5
+      saturation: 0
+      contrast: 0
+      shadows: 0
+      animation:
+        type: null
+        speed: 5
+        intensity: 5
+        reverse: false
+      darkness:
+        min: 0
+        max: 1
+      bright: 30
+      dim: 60
+    name: Ambient Light (4)
+    _id: 67jxyRXpOHRaB4SR
+    x: 1050
+    'y': 1575
+    rotation: 0
+    locked: false
+    flags: {}
+    _key: '!scenes.lights!GE3YoSHDmmF9uUBc.67jxyRXpOHRaB4SR'
+  - elevation: -10
+    levels:
+      - MXDxnkaCRWfWL1g4
+      - defaultLevel0000
+    walls: true
+    vision: false
+    hidden: false
+    config:
+      negative: false
+      priority: 0
+      alpha: 0.5
+      angle: 360
+      color: null
+      coloration: 1
+      attenuation: 0.5
+      luminosity: 0.5
+      saturation: 0
+      contrast: 0
+      shadows: 0
+      animation:
+        type: null
+        speed: 5
+        intensity: 5
+        reverse: false
+      darkness:
+        min: 0
+        max: 1
+      bright: 10
+      dim: 20
+    name: Ambient Light (5)
+    _id: t2r0SYk85NaBnRRi
+    x: 850
+    'y': 1350
+    rotation: 0
+    locked: false
+    flags: {}
+    _key: '!scenes.lights!GE3YoSHDmmF9uUBc.t2r0SYk85NaBnRRi'
+  - elevation: 0
+    levels:
+      - defaultLevel0000
+      - 00FcHtGi06KdfZke
+    walls: true
+    vision: false
+    hidden: false
+    config:
+      negative: false
+      priority: 0
+      alpha: 0.5
+      angle: 360
+      color: null
+      coloration: 1
+      attenuation: 0.5
+      luminosity: 0.5
+      saturation: 0
+      contrast: 0
+      shadows: 0
+      animation:
+        type: null
+        speed: 5
+        intensity: 5
+        reverse: false
+      darkness:
+        min: 0
+        max: 1
+      bright: 26.25
+      dim: 52.5
+    name: Ambient Light (6)
+    _id: C7cfYjYBbDxaJiMH
+    x: 1125
+    'y': 1075
+    rotation: 0
+    locked: false
+    flags: {}
+    _key: '!scenes.lights!GE3YoSHDmmF9uUBc.C7cfYjYBbDxaJiMH'
+  - elevation: 0
+    levels:
+      - defaultLevel0000
+      - 00FcHtGi06KdfZke
+    walls: true
+    vision: false
+    hidden: false
+    config:
+      negative: false
+      priority: 0
+      alpha: 0.5
+      angle: 360
+      color: null
+      coloration: 1
+      attenuation: 0.5
+      luminosity: 0.5
+      saturation: 0
+      contrast: 0
+      shadows: 0
+      animation:
+        type: null
+        speed: 5
+        intensity: 5
+        reverse: false
+      darkness:
+        min: 0
+        max: 1
+      bright: 25
+      dim: 50
+    name: Ambient Light (7)
+    _id: gaTtoRXy4dfLdNat
+    x: 1525
+    'y': 1075
+    rotation: 0
+    locked: false
+    flags: {}
+    _key: '!scenes.lights!GE3YoSHDmmF9uUBc.gaTtoRXy4dfLdNat'
+  - elevation: 0
+    levels:
+      - defaultLevel0000
+      - 00FcHtGi06KdfZke
+    walls: true
+    vision: false
+    hidden: false
+    config:
+      negative: false
+      priority: 0
+      alpha: 0.5
+      angle: 360
+      color: null
+      coloration: 1
+      attenuation: 0.5
+      luminosity: 0.5
+      saturation: 0
+      contrast: 0
+      shadows: 0
+      animation:
+        type: null
+        speed: 5
+        intensity: 5
+        reverse: false
+      darkness:
+        min: 0
+        max: 1
+      bright: 27.5
+      dim: 55
+    name: Ambient Light (8)
+    _id: umT4ZumHsgRPLH1t
+    x: 1525
+    'y': 1525
+    rotation: 0
+    locked: false
+    flags: {}
+    _key: '!scenes.lights!GE3YoSHDmmF9uUBc.umT4ZumHsgRPLH1t'
+  - elevation: 0
+    levels:
+      - defaultLevel0000
+      - 00FcHtGi06KdfZke
+    walls: true
+    vision: false
+    hidden: false
+    config:
+      negative: false
+      priority: 0
+      alpha: 0.5
+      angle: 360
+      color: null
+      coloration: 1
+      attenuation: 0.5
+      luminosity: 0.5
+      saturation: 0
+      contrast: 0
+      shadows: 0
+      animation:
+        type: null
+        speed: 5
+        intensity: 5
+        reverse: false
+      darkness:
+        min: 0
+        max: 1
+      bright: 32.5
+      dim: 65
+    name: Ambient Light (9)
+    _id: 6Z20jfHK7F0OSLrI
+    x: 1100
+    'y': 1525
+    rotation: 0
+    locked: false
+    flags: {}
+    _key: '!scenes.lights!GE3YoSHDmmF9uUBc.6Z20jfHK7F0OSLrI'
+  - elevation: 0
+    levels:
+      - defaultLevel0000
+    walls: true
+    vision: false
+    hidden: false
+    config:
+      negative: false
+      priority: 0
+      alpha: 0.5
+      angle: 360
+      color: null
+      coloration: 1
+      attenuation: 0.5
+      luminosity: 0.5
+      saturation: 0
+      contrast: 0
+      shadows: 0
+      animation:
+        type: null
+        speed: 5
+        intensity: 5
+        reverse: false
+      darkness:
+        min: 0
+        max: 1
+      bright: 6.25
+      dim: 12.5
+    name: Ambient Light (10)
+    _id: ECUE86ggRCc4gsXF
+    x: 1750
+    'y': 1325
+    rotation: 0
+    locked: false
+    flags: {}
+    _key: '!scenes.lights!GE3YoSHDmmF9uUBc.ECUE86ggRCc4gsXF'
+  - elevation: 0
+    levels:
+      - defaultLevel0000
+    walls: true
+    vision: false
+    hidden: false
+    config:
+      negative: false
+      priority: 0
+      alpha: 0.5
+      angle: 360
+      color: null
+      coloration: 1
+      attenuation: 0.5
+      luminosity: 0.5
+      saturation: 0
+      contrast: 0
+      shadows: 0
+      animation:
+        type: null
+        speed: 5
+        intensity: 5
+        reverse: false
+      darkness:
+        min: 0
+        max: 1
+      bright: 6.25
+      dim: 12.5
+    name: Ambient Light (11)
+    _id: pFgAApiHlIibJIwS
+    x: 1750
+    'y': 1475
+    rotation: 0
+    locked: false
+    flags: {}
+    _key: '!scenes.lights!GE3YoSHDmmF9uUBc.pFgAApiHlIibJIwS'
+  - elevation: 0
+    levels:
+      - defaultLevel0000
+    walls: true
+    vision: false
+    hidden: false
+    config:
+      negative: false
+      priority: 0
+      alpha: 0.5
+      angle: 360
+      color: null
+      coloration: 1
+      attenuation: 0.5
+      luminosity: 0.5
+      saturation: 0
+      contrast: 0
+      shadows: 0
+      animation:
+        type: null
+        speed: 5
+        intensity: 5
+        reverse: false
+      darkness:
+        min: 0
+        max: 1
+      bright: 6.25
+      dim: 12.5
+    name: Ambient Light (12)
+    _id: WbBymn6PQHi6Jx9s
+    x: 1725
+    'y': 1625
+    rotation: 0
+    locked: false
+    flags: {}
+    _key: '!scenes.lights!GE3YoSHDmmF9uUBc.WbBymn6PQHi6Jx9s'
+  - elevation: 0
+    levels:
+      - defaultLevel0000
+    walls: true
+    vision: false
+    hidden: false
+    config:
+      negative: false
+      priority: 0
+      alpha: 0.5
+      angle: 360
+      color: null
+      coloration: 1
+      attenuation: 0.5
+      luminosity: 0.5
+      saturation: 0
+      contrast: 0
+      shadows: 0
+      animation:
+        type: null
+        speed: 5
+        intensity: 5
+        reverse: false
+      darkness:
+        min: 0
+        max: 1
+      bright: 6.25
+      dim: 12.5
+    name: Ambient Light (13)
+    _id: BAR22ele0dF21K9p
+    x: 1750
+    'y': 1750
+    rotation: 0
+    locked: false
+    flags: {}
+    _key: '!scenes.lights!GE3YoSHDmmF9uUBc.BAR22ele0dF21K9p'
+  - elevation: 10
+    levels:
+      - 00FcHtGi06KdfZke
+      - defaultLevel0000
+    walls: true
+    vision: false
+    hidden: false
+    config:
+      negative: false
+      priority: 0
+      alpha: 0.5
+      angle: 360
+      color: null
+      coloration: 1
+      attenuation: 0.5
+      luminosity: 0.5
+      saturation: 0
+      contrast: 0
+      shadows: 0
+      animation:
+        type: null
+        speed: 5
+        intensity: 5
+        reverse: false
+      darkness:
+        min: 0
+        max: 1
+      bright: 11.25
+      dim: 22.5
+    name: Ambient Light (14)
+    _id: WTvgMvLlsp1B17hg
+    x: 1425
+    'y': 700
+    rotation: 0
+    locked: false
+    flags: {}
+    _key: '!scenes.lights!GE3YoSHDmmF9uUBc.WTvgMvLlsp1B17hg'
+  - elevation: 10
+    levels:
+      - 00FcHtGi06KdfZke
+    walls: true
+    vision: false
+    hidden: false
+    config:
+      negative: false
+      priority: 0
+      alpha: 0.5
+      angle: 360
+      color: null
+      coloration: 1
+      attenuation: 0.5
+      luminosity: 0.5
+      saturation: 0
+      contrast: 0
+      shadows: 0
+      animation:
+        type: null
+        speed: 5
+        intensity: 5
+        reverse: false
+      darkness:
+        min: 0
+        max: 1
+      bright: 7.5
+      dim: 15
+    name: Ambient Light (15)
+    _id: hHOlPpiaEeGzuXXU
+    x: 1575
+    'y': 675
+    rotation: 0
+    locked: false
+    flags: {}
+    _key: '!scenes.lights!GE3YoSHDmmF9uUBc.hHOlPpiaEeGzuXXU'
+  - elevation: 10
+    levels:
+      - 00FcHtGi06KdfZke
+    walls: true
+    vision: false
+    hidden: false
+    config:
+      negative: false
+      priority: 0
+      alpha: 0.5
+      angle: 360
+      color: null
+      coloration: 1
+      attenuation: 0.5
+      luminosity: 0.5
+      saturation: 0
+      contrast: 0
+      shadows: 0
+      animation:
+        type: null
+        speed: 5
+        intensity: 5
+        reverse: false
+      darkness:
+        min: 0
+        max: 1
+      bright: 10
+      dim: 20
+    name: Ambient Light (16)
+    _id: 5tk9v6Dp9BigCveK
+    x: 1725
+    'y': 725
+    rotation: 0
+    locked: false
+    flags: {}
+    _key: '!scenes.lights!GE3YoSHDmmF9uUBc.5tk9v6Dp9BigCveK'
+  - elevation: 10
+    levels:
+      - 00FcHtGi06KdfZke
+    walls: true
+    vision: false
+    hidden: false
+    config:
+      negative: false
+      priority: 0
+      alpha: 0.5
+      angle: 360
+      color: null
+      coloration: 1
+      attenuation: 0.5
+      luminosity: 0.5
+      saturation: 0
+      contrast: 0
+      shadows: 0
+      animation:
+        type: null
+        speed: 5
+        intensity: 5
+        reverse: false
+      darkness:
+        min: 0
+        max: 1
+      bright: 10
+      dim: 20
+    name: Ambient Light (17)
+    _id: 1cApqQtjxRHJIyWk
+    x: 1700
+    'y': 500
+    rotation: 0
+    locked: false
+    flags: {}
+    _key: '!scenes.lights!GE3YoSHDmmF9uUBc.1cApqQtjxRHJIyWk'
+  - elevation: 10
+    levels:
+      - 00FcHtGi06KdfZke
+    walls: true
+    vision: false
+    hidden: false
+    config:
+      negative: false
+      priority: 0
+      alpha: 0.5
+      angle: 360
+      color: null
+      coloration: 1
+      attenuation: 0.5
+      luminosity: 0.5
+      saturation: 0
+      contrast: 0
+      shadows: 0
+      animation:
+        type: null
+        speed: 5
+        intensity: 5
+        reverse: false
+      darkness:
+        min: 0
+        max: 1
+      bright: 12.5
+      dim: 25
+    name: Ambient Light (18)
+    _id: hraXG9gxmkXvN3SH
+    x: 1475
+    'y': 500
+    rotation: 0
+    locked: false
+    flags: {}
+    _key: '!scenes.lights!GE3YoSHDmmF9uUBc.hraXG9gxmkXvN3SH'
+  - elevation: 10
+    levels:
+      - 00FcHtGi06KdfZke
+    walls: true
+    vision: false
+    hidden: false
+    config:
+      negative: false
+      priority: 0
+      alpha: 0.5
+      angle: 360
+      color: null
+      coloration: 1
+      attenuation: 0.5
+      luminosity: 0.5
+      saturation: 0
+      contrast: 0
+      shadows: 0
+      animation:
+        type: null
+        speed: 5
+        intensity: 5
+        reverse: false
+      darkness:
+        min: 0
+        max: 1
+      bright: 8.75
+      dim: 17.5
+    name: Ambient Light (19)
+    _id: QZJ83NJhbL6wDqUk
+    x: 1300
+    'y': 500
+    rotation: 0
+    locked: false
+    flags: {}
+    _key: '!scenes.lights!GE3YoSHDmmF9uUBc.QZJ83NJhbL6wDqUk'
+  - elevation: 10
+    levels:
+      - 00FcHtGi06KdfZke
+    walls: true
+    vision: false
+    hidden: false
+    config:
+      negative: false
+      priority: 0
+      alpha: 0.5
+      angle: 360
+      color: null
+      coloration: 1
+      attenuation: 0.5
+      luminosity: 0.5
+      saturation: 0
+      contrast: 0
+      shadows: 0
+      animation:
+        type: null
+        speed: 5
+        intensity: 5
+        reverse: false
+      darkness:
+        min: 0
+        max: 1
+      bright: 16.25
+      dim: 32.5
+    name: Ambient Light (20)
+    _id: gqEmgSYUgdUrQ9zY
+    x: 1050
+    'y': 500
+    rotation: 0
+    locked: false
+    flags: {}
+    _key: '!scenes.lights!GE3YoSHDmmF9uUBc.gqEmgSYUgdUrQ9zY'
+  - elevation: 10
+    levels:
+      - 00FcHtGi06KdfZke
+    walls: true
+    vision: false
+    hidden: false
+    config:
+      negative: false
+      priority: 0
+      alpha: 0.5
+      angle: 360
+      color: null
+      coloration: 1
+      attenuation: 0.5
+      luminosity: 0.5
+      saturation: 0
+      contrast: 0
+      shadows: 0
+      animation:
+        type: null
+        speed: 5
+        intensity: 5
+        reverse: false
+      darkness:
+        min: 0
+        max: 1
+      bright: 15
+      dim: 30
+    name: Ambient Light (21)
+    _id: HLSsmqB4gkgzb1yg
+    x: 825
+    'y': 500
+    rotation: 0
+    locked: false
+    flags: {}
+    _key: '!scenes.lights!GE3YoSHDmmF9uUBc.HLSsmqB4gkgzb1yg'
+  - elevation: 10
+    levels:
+      - 00FcHtGi06KdfZke
+    walls: true
+    vision: false
+    hidden: false
+    config:
+      negative: false
+      priority: 0
+      alpha: 0.5
+      angle: 360
+      color: null
+      coloration: 1
+      attenuation: 0.5
+      luminosity: 0.5
+      saturation: 0
+      contrast: 0
+      shadows: 0
+      animation:
+        type: null
+        speed: 5
+        intensity: 5
+        reverse: false
+      darkness:
+        min: 0
+        max: 1
+      bright: 15
+      dim: 30
+    name: Ambient Light (22)
+    _id: mlXEQKMD40Q9YkFn
+    x: 1050
+    'y': 650
+    rotation: 0
+    locked: false
+    flags: {}
+    _key: '!scenes.lights!GE3YoSHDmmF9uUBc.mlXEQKMD40Q9YkFn'
+  - elevation: 10
+    levels:
+      - 00FcHtGi06KdfZke
+    walls: true
+    vision: false
+    hidden: false
+    config:
+      negative: false
+      priority: 0
+      alpha: 0.5
+      angle: 360
+      color: null
+      coloration: 1
+      attenuation: 0.5
+      luminosity: 0.5
+      saturation: 0
+      contrast: 0
+      shadows: 0
+      animation:
+        type: null
+        speed: 5
+        intensity: 5
+        reverse: false
+      darkness:
+        min: 0
+        max: 1
+      bright: 5
+      dim: 10
+    name: Ambient Light (23)
+    _id: Rthd15n5CBw9ZeWc
+    x: 800
+    'y': 750
+    rotation: 0
+    locked: false
+    flags: {}
+    _key: '!scenes.lights!GE3YoSHDmmF9uUBc.Rthd15n5CBw9ZeWc'
+  - elevation: 10
+    levels:
+      - 00FcHtGi06KdfZke
+    walls: true
+    vision: false
+    hidden: false
+    config:
+      negative: false
+      priority: 0
+      alpha: 0.5
+      angle: 360
+      color: null
+      coloration: 1
+      attenuation: 0.5
+      luminosity: 0.5
+      saturation: 0
+      contrast: 0
+      shadows: 0
+      animation:
+        type: null
+        speed: 5
+        intensity: 5
+        reverse: false
+      darkness:
+        min: 0
+        max: 1
+      bright: 11.25
+      dim: 22.5
+    name: Ambient Light (24)
+    _id: CzCX9mqULJYEZT22
+    x: 550
+    'y': 475
+    rotation: 0
+    locked: false
+    flags: {}
+    _key: '!scenes.lights!GE3YoSHDmmF9uUBc.CzCX9mqULJYEZT22'
+  - elevation: 10
+    levels:
+      - 00FcHtGi06KdfZke
+    walls: true
+    vision: false
+    hidden: false
+    config:
+      negative: false
+      priority: 0
+      alpha: 0.5
+      angle: 360
+      color: null
+      coloration: 1
+      attenuation: 0.5
+      luminosity: 0.5
+      saturation: 0
+      contrast: 0
+      shadows: 0
+      animation:
+        type: null
+        speed: 5
+        intensity: 5
+        reverse: false
+      darkness:
+        min: 0
+        max: 1
+      bright: 11.25
+      dim: 22.5
+    name: Ambient Light (25)
+    _id: ZQUc5B0gHRUr3ZXW
+    x: 525
+    'y': 625
+    rotation: 0
+    locked: false
+    flags: {}
+    _key: '!scenes.lights!GE3YoSHDmmF9uUBc.ZQUc5B0gHRUr3ZXW'
+  - elevation: 10
+    levels:
+      - 00FcHtGi06KdfZke
+    walls: true
+    vision: false
+    hidden: false
+    config:
+      negative: false
+      priority: 0
+      alpha: 0.5
+      angle: 360
+      color: null
+      coloration: 1
+      attenuation: 0.5
+      luminosity: 0.5
+      saturation: 0
+      contrast: 0
+      shadows: 0
+      animation:
+        type: null
+        speed: 5
+        intensity: 5
+        reverse: false
+      darkness:
+        min: 0
+        max: 1
+      bright: 6.25
+      dim: 12.5
+    name: Ambient Light (26)
+    _id: TentoWYfhUlCdTjH
+    x: 700
+    'y': 775
+    rotation: 0
+    locked: false
+    flags: {}
+    _key: '!scenes.lights!GE3YoSHDmmF9uUBc.TentoWYfhUlCdTjH'
+  - elevation: 10
+    levels:
+      - 00FcHtGi06KdfZke
+    walls: true
+    vision: false
+    hidden: false
+    config:
+      negative: false
+      priority: 0
+      alpha: 0.5
+      angle: 360
+      color: null
+      coloration: 1
+      attenuation: 0.5
+      luminosity: 0.5
+      saturation: 0
+      contrast: 0
+      shadows: 0
+      animation:
+        type: null
+        speed: 5
+        intensity: 5
+        reverse: false
+      darkness:
+        min: 0
+        max: 1
+      bright: 12.5
+      dim: 25
+    name: Ambient Light (27)
+    _id: tL5hhFBriNlcF2KN
+    x: 500
+    'y': 800
+    rotation: 0
+    locked: false
+    flags: {}
+    _key: '!scenes.lights!GE3YoSHDmmF9uUBc.tL5hhFBriNlcF2KN'
+  - elevation: 10
+    levels:
+      - 00FcHtGi06KdfZke
+    walls: true
+    vision: false
+    hidden: false
+    config:
+      negative: false
+      priority: 0
+      alpha: 0.5
+      angle: 360
+      color: null
+      coloration: 1
+      attenuation: 0.5
+      luminosity: 0.5
+      saturation: 0
+      contrast: 0
+      shadows: 0
+      animation:
+        type: null
+        speed: 5
+        intensity: 5
+        reverse: false
+      darkness:
+        min: 0
+        max: 1
+      bright: 6.25
+      dim: 12.5
+    name: Ambient Light (28)
+    _id: CfP3CeLglXsbDCae
+    x: 500
+    'y': 975
+    rotation: 0
+    locked: false
+    flags: {}
+    _key: '!scenes.lights!GE3YoSHDmmF9uUBc.CfP3CeLglXsbDCae'
+  - elevation: 10
+    levels:
+      - 00FcHtGi06KdfZke
+      - defaultLevel0000
+    walls: true
+    vision: false
+    hidden: false
+    config:
+      negative: false
+      priority: 0
+      alpha: 0.5
+      angle: 360
+      color: null
+      coloration: 1
+      attenuation: 0.5
+      luminosity: 0.5
+      saturation: 0
+      contrast: 0
+      shadows: 0
+      animation:
+        type: null
+        speed: 5
+        intensity: 5
+        reverse: false
+      darkness:
+        min: 0
+        max: 1
+      bright: 12.5
+      dim: 25
+    name: Ambient Light (29)
+    _id: 8DCtuJEdPYFoLRxC
+    x: 575
+    'y': 1175
+    rotation: 0
+    locked: false
+    flags: {}
+    _key: '!scenes.lights!GE3YoSHDmmF9uUBc.8DCtuJEdPYFoLRxC'
+  - elevation: 10
+    levels:
+      - 00FcHtGi06KdfZke
+      - defaultLevel0000
+    walls: true
+    vision: false
+    hidden: false
+    config:
+      negative: false
+      priority: 0
+      alpha: 0.5
+      angle: 360
+      color: null
+      coloration: 1
+      attenuation: 0.5
+      luminosity: 0.5
+      saturation: 0
+      contrast: 0
+      shadows: 0
+      animation:
+        type: null
+        speed: 5
+        intensity: 5
+        reverse: false
+      darkness:
+        min: 0
+        max: 1
+      bright: 11.25
+      dim: 22.5
+    name: Ambient Light (30)
+    _id: K4bpkHFDV8jfbVCu
+    x: 750
+    'y': 1175
+    rotation: 0
+    locked: false
+    flags: {}
+    _key: '!scenes.lights!GE3YoSHDmmF9uUBc.K4bpkHFDV8jfbVCu'
+  - elevation: 10
+    levels:
+      - 00FcHtGi06KdfZke
+      - defaultLevel0000
+    walls: true
+    vision: false
+    hidden: false
+    config:
+      negative: false
+      priority: 0
+      alpha: 0.5
+      angle: 360
+      color: null
+      coloration: 1
+      attenuation: 0.5
+      luminosity: 0.5
+      saturation: 0
+      contrast: 0
+      shadows: 0
+      animation:
+        type: null
+        speed: 5
+        intensity: 5
+        reverse: false
+      darkness:
+        min: 0
+        max: 1
+      bright: 12.5
+      dim: 25
+    name: Ambient Light (31)
+    _id: mHNAVU33a4noVR3b
+    x: 800
+    'y': 925
+    rotation: 0
+    locked: false
+    flags: {}
+    _key: '!scenes.lights!GE3YoSHDmmF9uUBc.mHNAVU33a4noVR3b'
+  - elevation: 10
+    levels:
+      - 00FcHtGi06KdfZke
+    walls: true
+    vision: false
+    hidden: false
+    config:
+      negative: false
+      priority: 0
+      alpha: 0.5
+      angle: 360
+      color: null
+      coloration: 1
+      attenuation: 0.5
+      luminosity: 0.5
+      saturation: 0
+      contrast: 0
+      shadows: 0
+      animation:
+        type: null
+        speed: 5
+        intensity: 5
+        reverse: false
+      darkness:
+        min: 0
+        max: 1
+      bright: 20
+      dim: 40
+    name: Ambient Light (32)
+    _id: A8L5eTfEaTqzX0fP
+    x: 675
+    'y': 1525
+    rotation: 0
+    locked: false
+    flags: {}
+    _key: '!scenes.lights!GE3YoSHDmmF9uUBc.A8L5eTfEaTqzX0fP'
+  - elevation: 0
+    levels:
+      - defaultLevel0000
+    walls: true
+    vision: false
+    hidden: false
+    config:
+      negative: false
+      priority: 0
+      alpha: 0.5
+      angle: 360
+      color: null
+      coloration: 1
+      attenuation: 0.5
+      luminosity: 0.5
+      saturation: 0
+      contrast: 0
+      shadows: 0
+      animation:
+        type: null
+        speed: 5
+        intensity: 5
+        reverse: false
+      darkness:
+        min: 0
+        max: 1
+      bright: 20
+      dim: 40
+    name: Ambient Light (33)
+    _id: cKtHa3e4MKzOFCV2
+    x: 725
+    'y': 1575
+    rotation: 0
+    locked: false
+    flags: {}
+    _key: '!scenes.lights!GE3YoSHDmmF9uUBc.cKtHa3e4MKzOFCV2'
+  - elevation: 0
+    levels:
+      - defaultLevel0000
+    walls: true
+    vision: false
+    hidden: false
+    config:
+      negative: false
+      priority: 0
+      alpha: 0.5
+      angle: 360
+      color: null
+      coloration: 1
+      attenuation: 0.5
+      luminosity: 0.5
+      saturation: 0
+      contrast: 0
+      shadows: 0
+      animation:
+        type: null
+        speed: 5
+        intensity: 5
+        reverse: false
+      darkness:
+        min: 0
+        max: 1
+      bright: 12.5
+      dim: 25
+    name: Ambient Light (34)
+    _id: 43mhQ02d8bkPh3bV
+    x: 750
+    'y': 1225
+    rotation: 0
+    locked: false
+    flags: {}
+    _key: '!scenes.lights!GE3YoSHDmmF9uUBc.43mhQ02d8bkPh3bV'
+  - elevation: 0
+    levels:
+      - defaultLevel0000
+    walls: true
+    vision: false
+    hidden: false
+    config:
+      negative: false
+      priority: 0
+      alpha: 0.5
+      angle: 360
+      color: null
+      coloration: 1
+      attenuation: 0.5
+      luminosity: 0.5
+      saturation: 0
+      contrast: 0
+      shadows: 0
+      animation:
+        type: null
+        speed: 5
+        intensity: 5
+        reverse: false
+      darkness:
+        min: 0
+        max: 1
+      bright: 10
+      dim: 20
+    name: Ambient Light (35)
+    _id: VmH5bOTbqNmKPAlH
+    x: 500
+    'y': 1225
+    rotation: 0
+    locked: false
+    flags: {}
+    _key: '!scenes.lights!GE3YoSHDmmF9uUBc.VmH5bOTbqNmKPAlH'
+  - elevation: 0
+    levels:
+      - defaultLevel0000
+    walls: true
+    vision: false
+    hidden: false
+    config:
+      negative: false
+      priority: 0
+      alpha: 0.5
+      angle: 360
+      color: null
+      coloration: 1
+      attenuation: 0.5
+      luminosity: 0.5
+      saturation: 0
+      contrast: 0
+      shadows: 0
+      animation:
+        type: null
+        speed: 5
+        intensity: 5
+        reverse: false
+      darkness:
+        min: 0
+        max: 1
+      bright: 15
+      dim: 30
+    name: Ambient Light (36)
+    _id: 6AIuUBrJI9x7hKlV
+    x: 650
+    'y': 1075
+    rotation: 0
+    locked: false
+    flags: {}
+    _key: '!scenes.lights!GE3YoSHDmmF9uUBc.6AIuUBrJI9x7hKlV'
+  - elevation: 0
+    levels:
+      - defaultLevel0000
+    walls: true
+    vision: false
+    hidden: false
+    config:
+      negative: false
+      priority: 0
+      alpha: 0.5
+      angle: 360
+      color: null
+      coloration: 1
+      attenuation: 0.5
+      luminosity: 0.5
+      saturation: 0
+      contrast: 0
+      shadows: 0
+      animation:
+        type: null
+        speed: 5
+        intensity: 5
+        reverse: false
+      darkness:
+        min: 0
+        max: 1
+      bright: 12.5
+      dim: 25
+    name: Ambient Light (37)
+    _id: rNBTxCUJWjozBCXs
+    x: 550
+    'y': 925
+    rotation: 0
+    locked: false
+    flags: {}
+    _key: '!scenes.lights!GE3YoSHDmmF9uUBc.rNBTxCUJWjozBCXs'
+  - elevation: 0
+    levels:
+      - defaultLevel0000
+    walls: true
+    vision: false
+    hidden: false
+    config:
+      negative: false
+      priority: 0
+      alpha: 0.5
+      angle: 360
+      color: null
+      coloration: 1
+      attenuation: 0.5
+      luminosity: 0.5
+      saturation: 0
+      contrast: 0
+      shadows: 0
+      animation:
+        type: null
+        speed: 5
+        intensity: 5
+        reverse: false
+      darkness:
+        min: 0
+        max: 1
+      bright: 11.25
+      dim: 22.5
+    name: Ambient Light (38)
+    _id: gkpQ4tAaAse5DclQ
+    x: 550
+    'y': 725
+    rotation: 0
+    locked: false
+    flags: {}
+    _key: '!scenes.lights!GE3YoSHDmmF9uUBc.gkpQ4tAaAse5DclQ'
+  - elevation: 0
+    levels:
+      - defaultLevel0000
+    walls: true
+    vision: false
+    hidden: false
+    config:
+      negative: false
+      priority: 0
+      alpha: 0.5
+      angle: 360
+      color: null
+      coloration: 1
+      attenuation: 0.5
+      luminosity: 0.5
+      saturation: 0
+      contrast: 0
+      shadows: 0
+      animation:
+        type: null
+        speed: 5
+        intensity: 5
+        reverse: false
+      darkness:
+        min: 0
+        max: 1
+      bright: 8.75
+      dim: 17.5
+    name: Ambient Light (39)
+    _id: 4QDed3vRl1C0HPIm
+    x: 550
+    'y': 525
+    rotation: 0
+    locked: false
+    flags: {}
+    _key: '!scenes.lights!GE3YoSHDmmF9uUBc.4QDed3vRl1C0HPIm'
+  - elevation: 0
+    levels:
+      - defaultLevel0000
+    walls: true
+    vision: false
+    hidden: false
+    config:
+      negative: false
+      priority: 0
+      alpha: 0.5
+      angle: 360
+      color: null
+      coloration: 1
+      attenuation: 0.5
+      luminosity: 0.5
+      saturation: 0
+      contrast: 0
+      shadows: 0
+      animation:
+        type: null
+        speed: 5
+        intensity: 5
+        reverse: false
+      darkness:
+        min: 0
+        max: 1
+      bright: 15
+      dim: 30
+    name: Ambient Light (40)
+    _id: 7CAzTBVxtNkmSIre
+    x: 825
+    'y': 525
+    rotation: 0
+    locked: false
+    flags: {}
+    _key: '!scenes.lights!GE3YoSHDmmF9uUBc.7CAzTBVxtNkmSIre'
+  - elevation: 0
+    levels:
+      - defaultLevel0000
+    walls: true
+    vision: false
+    hidden: false
+    config:
+      negative: false
+      priority: 0
+      alpha: 0.5
+      angle: 360
+      color: null
+      coloration: 1
+      attenuation: 0.5
+      luminosity: 0.5
+      saturation: 0
+      contrast: 0
+      shadows: 0
+      animation:
+        type: null
+        speed: 5
+        intensity: 5
+        reverse: false
+      darkness:
+        min: 0
+        max: 1
+      bright: 16.25
+      dim: 32.5
+    name: Ambient Light (41)
+    _id: Fh1S2bD1YDdUV8nd
+    x: 1050
+    'y': 625
+    rotation: 0
+    locked: false
+    flags: {}
+    _key: '!scenes.lights!GE3YoSHDmmF9uUBc.Fh1S2bD1YDdUV8nd'
+  - elevation: 0
+    levels:
+      - defaultLevel0000
+    walls: true
+    vision: false
+    hidden: false
+    config:
+      negative: false
+      priority: 0
+      alpha: 0.5
+      angle: 360
+      color: null
+      coloration: 1
+      attenuation: 0.5
+      luminosity: 0.5
+      saturation: 0
+      contrast: 0
+      shadows: 0
+      animation:
+        type: null
+        speed: 5
+        intensity: 5
+        reverse: false
+      darkness:
+        min: 0
+        max: 1
+      bright: 11.25
+      dim: 22.5
+    name: Ambient Light (42)
+    _id: RJnCR8enezqukkZ9
+    x: 1525
+    'y': 600
+    rotation: 0
+    locked: false
+    flags: {}
+    _key: '!scenes.lights!GE3YoSHDmmF9uUBc.RJnCR8enezqukkZ9'
+  - elevation: 0
+    levels:
+      - defaultLevel0000
+    walls: true
+    vision: false
+    hidden: false
+    config:
+      negative: false
+      priority: 0
+      alpha: 0.5
+      angle: 360
+      color: null
+      coloration: 1
+      attenuation: 0.5
+      luminosity: 0.5
+      saturation: 0
+      contrast: 0
+      shadows: 0
+      animation:
+        type: null
+        speed: 5
+        intensity: 5
+        reverse: false
+      darkness:
+        min: 0
+        max: 1
+      bright: 5
+      dim: 10
+    name: Ambient Light (43)
+    _id: JDpIuaRkMgbjx3rD
+    x: 1575
+    'y': 700
+    rotation: 0
+    locked: false
+    flags: {}
+    _key: '!scenes.lights!GE3YoSHDmmF9uUBc.JDpIuaRkMgbjx3rD'
+  - elevation: 0
+    levels:
+      - defaultLevel0000
+    walls: true
+    vision: false
+    hidden: false
+    config:
+      negative: false
+      priority: 0
+      alpha: 0.5
+      angle: 360
+      color: null
+      coloration: 1
+      attenuation: 0.5
+      luminosity: 0.5
+      saturation: 0
+      contrast: 0
+      shadows: 0
+      animation:
+        type: null
+        speed: 5
+        intensity: 5
+        reverse: false
+      darkness:
+        min: 0
+        max: 1
+      bright: 2.5
+      dim: 5
+    name: Ambient Light (44)
+    _id: Wv9VJnJ2dPYqScBC
+    x: 850
+    'y': 1400
+    rotation: 0
+    locked: false
+    flags: {}
+    _key: '!scenes.lights!GE3YoSHDmmF9uUBc.Wv9VJnJ2dPYqScBC'
+  - elevation: 0
+    levels:
+      - defaultLevel0000
+    walls: true
+    vision: false
+    hidden: false
+    config:
+      negative: false
+      priority: 0
+      alpha: 0.5
+      angle: 360
+      color: null
+      coloration: 1
+      attenuation: 0.5
+      luminosity: 0.5
+      saturation: 0
+      contrast: 0
+      shadows: 0
+      animation:
+        type: null
+        speed: 5
+        intensity: 5
+        reverse: false
+      darkness:
+        min: 0
+        max: 1
+      bright: 7.5
+      dim: 15
+    name: Ambient Light (45)
+    _id: 47EnZftWwYQvNc2Y
+    x: 800
+    'y': 775
+    rotation: 0
+    locked: false
+    flags: {}
+    _key: '!scenes.lights!GE3YoSHDmmF9uUBc.47EnZftWwYQvNc2Y'
+  - elevation: 0
+    levels:
+      - defaultLevel0000
+    walls: true
+    vision: false
+    hidden: false
+    config:
+      negative: false
+      priority: 0
+      alpha: 0.5
+      angle: 360
+      color: null
+      coloration: 1
+      attenuation: 0.5
+      luminosity: 0.5
+      saturation: 0
+      contrast: 0
+      shadows: 0
+      animation:
+        type: null
+        speed: 5
+        intensity: 5
+        reverse: false
+      darkness:
+        min: 0
+        max: 1
+      bright: 10
+      dim: 20
+    name: Ambient Light (46)
+    _id: hKWOVw1VAQO2Y1kt
+    x: 750
+    'y': 950
+    rotation: 0
+    locked: false
+    flags: {}
+    _key: '!scenes.lights!GE3YoSHDmmF9uUBc.hKWOVw1VAQO2Y1kt'
+  - elevation: 0
+    levels:
+      - defaultLevel0000
+    walls: true
+    vision: false
+    hidden: false
+    config:
+      negative: false
+      priority: 0
+      alpha: 0.5
+      angle: 360
+      color: null
+      coloration: 1
+      attenuation: 0.5
+      luminosity: 0.5
+      saturation: 0
+      contrast: 0
+      shadows: 0
+      animation:
+        type: null
+        speed: 5
+        intensity: 5
+        reverse: false
+      darkness:
+        min: 0
+        max: 1
+      bright: 7.5
+      dim: 15
+    name: Ambient Light (47)
+    _id: rKRaa3RYkQNI1AMf
+    x: 1250
+    'y': 475
+    rotation: 0
+    locked: false
+    flags: {}
+    _key: '!scenes.lights!GE3YoSHDmmF9uUBc.rKRaa3RYkQNI1AMf'
+  - elevation: 0
+    levels:
+      - defaultLevel0000
+    walls: true
+    vision: false
+    hidden: false
+    config:
+      negative: false
+      priority: 0
+      alpha: 0.5
+      angle: 360
+      color: null
+      coloration: 1
+      attenuation: 0.5
+      luminosity: 0.5
+      saturation: 0
+      contrast: 0
+      shadows: 0
+      animation:
+        type: null
+        speed: 5
+        intensity: 5
+        reverse: false
+      darkness:
+        min: 0
+        max: 1
+      bright: 5
+      dim: 10
+    name: Ambient Light (48)
+    _id: ufsXs56JNaa92v5x
+    x: 1375
+    'y': 475
+    rotation: 0
+    locked: false
+    flags: {}
+    _key: '!scenes.lights!GE3YoSHDmmF9uUBc.ufsXs56JNaa92v5x'
+  - elevation: 0
+    levels:
+      - defaultLevel0000
+    walls: true
+    vision: false
+    hidden: false
+    config:
+      negative: false
+      priority: 0
+      alpha: 0.5
+      angle: 360
+      color: null
+      coloration: 1
+      attenuation: 0.5
+      luminosity: 0.5
+      saturation: 0
+      contrast: 0
+      shadows: 0
+      animation:
+        type: null
+        speed: 5
+        intensity: 5
+        reverse: false
+      darkness:
+        min: 0
+        max: 1
+      bright: 6.25
+      dim: 12.5
+    name: Ambient Light (49)
+    _id: 9Tbu1mMfXna9tLVB
+    x: 1550
+    'y': 475
+    rotation: 0
+    locked: false
+    flags: {}
+    _key: '!scenes.lights!GE3YoSHDmmF9uUBc.9Tbu1mMfXna9tLVB'
+  - elevation: 0
+    levels:
+      - defaultLevel0000
+    walls: true
+    vision: false
+    hidden: false
+    config:
+      negative: false
+      priority: 0
+      alpha: 0.5
+      angle: 360
+      color: null
+      coloration: 1
+      attenuation: 0.5
+      luminosity: 0.5
+      saturation: 0
+      contrast: 0
+      shadows: 0
+      animation:
+        type: null
+        speed: 5
+        intensity: 5
+        reverse: false
+      darkness:
+        min: 0
+        max: 1
+      bright: 6.25
+      dim: 12.5
+    name: Ambient Light (50)
+    _id: cpYyMQ9htEpfxqht
+    x: 1700
+    'y': 475
+    rotation: 0
+    locked: false
+    flags: {}
+    _key: '!scenes.lights!GE3YoSHDmmF9uUBc.cpYyMQ9htEpfxqht'
+  - elevation: 0
+    levels:
+      - defaultLevel0000
+    walls: true
+    vision: false
+    hidden: false
+    config:
+      negative: false
+      priority: 0
+      alpha: 0.5
+      angle: 360
+      color: null
+      coloration: 1
+      attenuation: 0.5
+      luminosity: 0.5
+      saturation: 0
+      contrast: 0
+      shadows: 0
+      animation:
+        type: null
+        speed: 5
+        intensity: 5
+        reverse: false
+      darkness:
+        min: 0
+        max: 1
+      bright: 11.25
+      dim: 22.5
+    name: Ambient Light (51)
+    _id: vvwVrWay1kLdJFjX
+    x: 1700
+    'y': 725
+    rotation: 0
+    locked: false
+    flags: {}
+    _key: '!scenes.lights!GE3YoSHDmmF9uUBc.vvwVrWay1kLdJFjX'
+  - elevation: 0
+    levels:
+      - defaultLevel0000
+    walls: true
+    vision: false
+    hidden: false
+    config:
+      negative: false
+      priority: 0
+      alpha: 0.5
+      angle: 360
+      color: null
+      coloration: 1
+      attenuation: 0.5
+      luminosity: 0.5
+      saturation: 0
+      contrast: 0
+      shadows: 0
+      animation:
+        type: null
+        speed: 5
+        intensity: 5
+        reverse: false
+      darkness:
+        min: 0
+        max: 1
+      bright: 13.75
+      dim: 27.5
+    name: Ambient Light (52)
+    _id: pReLv73lXNuqH7f6
+    x: 1400
+    'y': 725
+    rotation: 0
+    locked: false
+    flags: {}
+    _key: '!scenes.lights!GE3YoSHDmmF9uUBc.pReLv73lXNuqH7f6'
 notes: []
 sounds: []
 regions:
-  - color: '#6e28cc'
+  - color: '#285dcc'
     elevation:
       bottom: 0
-      top: 20
+      top: 10
       topInclusive: false
     levels:
       - defaultLevel0000
       - MXDxnkaCRWfWL1g4
+      - 00FcHtGi06KdfZke
     restriction:
       enabled: false
       type: move
@@ -182,14 +2067,14 @@ regions:
     highlightMode: shapes
     displayMeasurements: false
     hidden: false
-    name: Ground region
-    _id: F1kDsDsr9a5Q3753
+    name: Ground bottom surface
+    _id: tmI4kRcTzioHrW6D
     shapes:
       - type: rectangle
         x: 400
         'y': 400
-        width: 1400
-        height: 1400
+        width: 1425
+        height: 1425
         hole: false
         anchorX: 0
         anchorY: 0
@@ -197,32 +2082,24 @@ regions:
         gridBased: false
       - type: polygon
         points:
-          - 1200
-          - 1350
-          - 1180.8430431743113
-          - 1346.210942189185
-          - 1177.2085865103436
-          - 1182.6603853751233
-          - 1396.4876197894846
-          - 1179.0259285570332
-          - 1395.2759863484084
-          - 1252.9265874964751
-          - 1475.2340329556991
-          - 1251.7150649188382
-          - 1474.0226213442534
-          - 1478.2629102180708
-          - 1323.7984865101298
-          - 1470.9939965818903
-          - 1322.5868530690536
-          - 1332.8846374944608
-          - 1189.323589943323
-          - 1329.2501806763705
+          - 1175
+          - 1175
+          - 1400
+          - 1175
+          - 1400
+          - 1250
+          - 1475
+          - 1262.5
+          - 1487.5
+          - 1487.5
+          - 1175
+          - 1487.5
         hole: true
         origin: null
     behaviors:
       - name: Define Surface
         type: defineSurface
-        _id: aI2p78nGEef1xI7w
+        _id: lzzejkPXidFz0orB
         system:
           placement: bottom
           light: true
@@ -230,22 +2107,22 @@ regions:
           sight: true
           sound: true
           occlusion: true
-          exposure: false
+          exposure: true
           culling: false
         disabled: false
         flags: {}
         _stats:
           coreVersion: '14.364'
           systemId: pf2e
-          systemVersion: 8.2.0
-          createdTime: 1783042391730
-          modifiedTime: 1783042391730
+          systemVersion: 8.3.0
+          createdTime: 1783814990395
+          modifiedTime: 1783814990395
           lastModifiedBy: txZjek5EOiCBHPoz
           compendiumSource: null
           duplicateSource: null
           exportSource: null
         _key: >-
-          !scenes.regions.behaviors!GE3YoSHDmmF9uUBc.F1kDsDsr9a5Q3753.aI2p78nGEef1xI7w
+          !scenes.regions.behaviors!GE3YoSHDmmF9uUBc.tmI4kRcTzioHrW6D.lzzejkPXidFz0orB
     locked: false
     flags:
       pf2e:
@@ -253,15 +2130,73 @@ regions:
     _shapeConstraints: null
     ownership:
       default: 0
-    _key: '!scenes.regions!GE3YoSHDmmF9uUBc.F1kDsDsr9a5Q3753'
-  - color: '#55cc28'
+    _key: '!scenes.regions!GE3YoSHDmmF9uUBc.tmI4kRcTzioHrW6D'
+  - color: '#cc2f28'
     elevation:
-      bottom: 20
-      top: 40
+      bottom: -10
+      top: 10
       topInclusive: false
     levels:
       - defaultLevel0000
       - MXDxnkaCRWfWL1g4
+    restriction:
+      enabled: false
+      type: move
+      priority: 0
+    attachment:
+      token: null
+    visibility: 4
+    highlightMode: shapes
+    displayMeasurements: false
+    hidden: false
+    name: Cellar / Ground stairs
+    _id: 5JzxTXGDTSbOZYtG
+    shapes:
+      - type: rectangle
+        x: 800
+        'y': 1325
+        width: 100
+        height: 150
+        hole: false
+        anchorX: 0
+        anchorY: 0
+        rotation: 0
+        gridBased: false
+    behaviors:
+      - name: Change Level
+        type: changeLevel
+        _id: ABuHyuK9WSmjqV1L
+        system:
+          movementActions: []
+        disabled: false
+        flags: {}
+        _stats:
+          coreVersion: '14.364'
+          systemId: pf2e
+          systemVersion: 8.3.0
+          createdTime: 1783814990395
+          modifiedTime: 1783814990395
+          lastModifiedBy: txZjek5EOiCBHPoz
+          compendiumSource: null
+          duplicateSource: null
+          exportSource: null
+        _key: >-
+          !scenes.regions.behaviors!GE3YoSHDmmF9uUBc.5JzxTXGDTSbOZYtG.ABuHyuK9WSmjqV1L
+    locked: false
+    flags:
+      pf2e:
+        areaShape: null
+    _shapeConstraints: null
+    ownership:
+      default: 0
+    _key: '!scenes.regions!GE3YoSHDmmF9uUBc.5JzxTXGDTSbOZYtG'
+  - color: '#38cc28'
+    elevation:
+      bottom: 0
+      top: 20
+      topInclusive: false
+    levels:
+      - defaultLevel0000
       - 00FcHtGi06KdfZke
     restriction:
       enabled: false
@@ -273,33 +2208,102 @@ regions:
     highlightMode: shapes
     displayMeasurements: false
     hidden: false
-    name: 2nd Floor Region
-    _id: 6IOdEHeRb3Bfa6ye
+    name: 2nd / ground stairs
+    _id: gfQeESkcLrHHTSGh
+    shapes:
+      - type: rectangle
+        x: 750
+        'y': 700
+        width: 100
+        height: 125
+        hole: false
+        anchorX: 0
+        anchorY: 0
+        rotation: 0
+        gridBased: false
+      - type: rectangle
+        x: 1525
+        'y': 600
+        width: 100
+        height: 150
+        hole: false
+        anchorX: 0
+        anchorY: 0
+        rotation: 0
+        gridBased: false
+    behaviors:
+      - name: Change Level
+        type: changeLevel
+        _id: ONFEsmUsciq5QY3E
+        system:
+          movementActions: []
+        disabled: false
+        flags: {}
+        _stats:
+          coreVersion: '14.364'
+          systemId: pf2e
+          systemVersion: 8.3.0
+          createdTime: 1783814990396
+          modifiedTime: 1783814990396
+          lastModifiedBy: txZjek5EOiCBHPoz
+          compendiumSource: null
+          duplicateSource: null
+          exportSource: null
+        _key: >-
+          !scenes.regions.behaviors!GE3YoSHDmmF9uUBc.gfQeESkcLrHHTSGh.ONFEsmUsciq5QY3E
+    locked: false
+    flags:
+      pf2e:
+        areaShape: null
+    _shapeConstraints: null
+    ownership:
+      default: 0
+    _key: '!scenes.regions!GE3YoSHDmmF9uUBc.gfQeESkcLrHHTSGh'
+  - color: '#c2cc28'
+    elevation:
+      bottom: 10
+      top: 20
+      topInclusive: false
+    levels:
+      - defaultLevel0000
+      - 00FcHtGi06KdfZke
+    restriction:
+      enabled: false
+      type: move
+      priority: 0
+    attachment:
+      token: null
+    visibility: 4
+    highlightMode: shapes
+    displayMeasurements: false
+    hidden: false
+    name: 2nd floor bottom surface
+    _id: eoD9L93bFaWtEvrX
     shapes:
       - type: polygon
         points:
-          - 408.3881278835511
-          - 1313.6734611787647
-          - 403.8786119020058
-          - 401.62385391123325
-          - 1817.2751415270668
-          - 408.38812788355114
-          - 1818.402520522453
-          - 826.6457351718752
-          - 1046.147908682825
-          - 825.5183561764889
-          - 1045.0205296874387
-          - 881.8873059458048
-          - 897.3338812918308
-          - 1039.7203652998894
-          - 899.5886392826036
-          - 1321.5651141464689
+          - 400
+          - 400
+          - 400
+          - 1325
+          - 900
+          - 1325
+          - 900
+          - 1037.5
+          - 1050
+          - 887.5
+          - 1050
+          - 825
+          - 1825
+          - 825
+          - 1825
+          - 400
         hole: false
         origin: null
     behaviors:
       - name: Define Surface
         type: defineSurface
-        _id: DdIP49ALDrqAWWlR
+        _id: 7oIEIovksnPGgO5e
         system:
           placement: bottom
           light: true
@@ -307,22 +2311,22 @@ regions:
           sight: true
           sound: true
           occlusion: true
-          exposure: false
+          exposure: true
           culling: false
         disabled: false
         flags: {}
         _stats:
           coreVersion: '14.364'
           systemId: pf2e
-          systemVersion: 8.2.0
-          createdTime: 1783042391731
-          modifiedTime: 1783042391731
+          systemVersion: 8.3.0
+          createdTime: 1783814990396
+          modifiedTime: 1783814990396
           lastModifiedBy: txZjek5EOiCBHPoz
           compendiumSource: null
           duplicateSource: null
           exportSource: null
         _key: >-
-          !scenes.regions.behaviors!GE3YoSHDmmF9uUBc.6IOdEHeRb3Bfa6ye.DdIP49ALDrqAWWlR
+          !scenes.regions.behaviors!GE3YoSHDmmF9uUBc.eoD9L93bFaWtEvrX.7oIEIovksnPGgO5e
     locked: false
     flags:
       pf2e:
@@ -330,137 +2334,4940 @@ regions:
     _shapeConstraints: null
     ownership:
       default: 0
-    _key: '!scenes.regions!GE3YoSHDmmF9uUBc.6IOdEHeRb3Bfa6ye'
-  - name: Stairs - Ground to 2nd
-    _id: FOGcruAbfGAaFMiK
-    color: '#cc5828'
-    shapes:
-      - type: rectangle
-        x: 758.6662648593139
-        'y': 712.780456637857
-        width: 81
-        height: 103
-        hole: false
-        anchorX: 0
-        anchorY: 0
-        rotation: 0
-        gridBased: false
-      - type: rectangle
-        x: 1536.5577716758735
-        'y': 613.571105043861
-        width: 73
-        height: 152
-        hole: false
-        anchorX: 0
-        anchorY: 0
-        rotation: 0
-        gridBased: false
-    elevation:
-      bottom: 0
-      top: 40
-      topInclusive: false
-    levels:
-      - defaultLevel0000
-      - 00FcHtGi06KdfZke
-    restriction:
-      enabled: false
-      type: move
-      priority: 0
-    attachment:
-      token: null
-    behaviors:
-      - name: Change Level
-        type: changeLevel
-        _id: rdsDkNytxaINDCb0
-        system:
-          movementActions: []
-        disabled: false
-        flags: {}
-        _stats:
-          coreVersion: '14.364'
-          systemId: pf2e
-          systemVersion: 8.2.0
-          createdTime: 1783042391731
-          modifiedTime: 1783042391731
-          lastModifiedBy: txZjek5EOiCBHPoz
-          compendiumSource: null
-          duplicateSource: null
-          exportSource: null
-        _key: >-
-          !scenes.regions.behaviors!GE3YoSHDmmF9uUBc.FOGcruAbfGAaFMiK.rdsDkNytxaINDCb0
-    visibility: 4
-    highlightMode: shapes
-    displayMeasurements: false
-    hidden: false
-    locked: false
-    flags:
-      pf2e:
-        areaShape: null
-    _shapeConstraints: null
-    ownership:
-      default: 0
-    _key: '!scenes.regions!GE3YoSHDmmF9uUBc.FOGcruAbfGAaFMiK'
-  - color: '#cc286f'
-    elevation:
-      bottom: -20
-      top: 20
-      topInclusive: false
-    levels:
-      - defaultLevel0000
-      - MXDxnkaCRWfWL1g4
-    restriction:
-      enabled: false
-      type: move
-      priority: 0
-    attachment:
-      token: null
-    visibility: 4
-    highlightMode: shapes
-    displayMeasurements: false
-    hidden: false
-    name: Stairs - Ground to Cellar
-    _id: EadC8dQcuY0ndAIr
-    shapes:
-      - type: rectangle
-        x: 806.0161826655391
-        'y': 1333.9662830957184
-        width: 87
-        height: 149
-        hole: false
-        anchorX: 0
-        anchorY: 0
-        rotation: 0
-        gridBased: false
-    behaviors:
-      - name: Change Level
-        type: changeLevel
-        _id: 4hH6vfNYttwhnDWP
-        system:
-          movementActions: []
-        disabled: false
-        flags: {}
-        _stats:
-          coreVersion: '14.364'
-          systemId: pf2e
-          systemVersion: 8.2.0
-          createdTime: 1783042391731
-          modifiedTime: 1783042391731
-          lastModifiedBy: txZjek5EOiCBHPoz
-          compendiumSource: null
-          duplicateSource: null
-          exportSource: null
-        _key: >-
-          !scenes.regions.behaviors!GE3YoSHDmmF9uUBc.EadC8dQcuY0ndAIr.4hH6vfNYttwhnDWP
-    locked: false
-    flags:
-      pf2e:
-        areaShape: null
-    _shapeConstraints: null
-    ownership:
-      default: 0
-    _key: '!scenes.regions!GE3YoSHDmmF9uUBc.EadC8dQcuY0ndAIr'
+    _key: '!scenes.regions!GE3YoSHDmmF9uUBc.eoD9L93bFaWtEvrX'
 tiles: []
-walls: []
+walls:
+  - levels:
+      - MXDxnkaCRWfWL1g4
+    light: 20
+    move: 20
+    sight: 20
+    sound: 20
+    dir: 0
+    door: 0
+    ds: 0
+    threshold:
+      light: null
+      sight: null
+      sound: null
+      attenuation: false
+    animation: null
+    flags: {}
+    c:
+      - 800
+      - 1813
+      - 800
+      - 838
+    _id: WghZxIuLozCiPl5u
+    _key: '!scenes.walls!GE3YoSHDmmF9uUBc.WghZxIuLozCiPl5u'
+  - levels:
+      - MXDxnkaCRWfWL1g4
+    light: 20
+    move: 20
+    sight: 20
+    sound: 20
+    dir: 0
+    door: 0
+    ds: 0
+    threshold:
+      light: null
+      sight: null
+      sound: null
+      attenuation: false
+    animation: null
+    flags: {}
+    c:
+      - 800
+      - 838
+      - 1800
+      - 838
+    _id: xyuNY4B3NY1BW9Yz
+    _key: '!scenes.walls!GE3YoSHDmmF9uUBc.xyuNY4B3NY1BW9Yz'
+  - levels:
+      - MXDxnkaCRWfWL1g4
+    light: 20
+    move: 20
+    sight: 20
+    sound: 20
+    dir: 0
+    door: 0
+    ds: 0
+    threshold:
+      light: null
+      sight: null
+      sound: null
+      attenuation: false
+    animation: null
+    flags: {}
+    c:
+      - 1800
+      - 838
+      - 1813
+      - 1813
+    _id: PtMHYVgtizl6vpsY
+    _key: '!scenes.walls!GE3YoSHDmmF9uUBc.PtMHYVgtizl6vpsY'
+  - levels:
+      - MXDxnkaCRWfWL1g4
+    light: 20
+    move: 20
+    sight: 20
+    sound: 20
+    dir: 0
+    door: 0
+    ds: 0
+    threshold:
+      light: null
+      sight: null
+      sound: null
+      attenuation: false
+    animation: null
+    flags: {}
+    c:
+      - 1813
+      - 1813
+      - 800
+      - 1813
+    _id: w3cljfMxWMOpArpx
+    _key: '!scenes.walls!GE3YoSHDmmF9uUBc.w3cljfMxWMOpArpx'
+  - levels:
+      - MXDxnkaCRWfWL1g4
+    light: 20
+    move: 20
+    sight: 20
+    sound: 20
+    dir: 0
+    door: 0
+    ds: 0
+    threshold:
+      light: null
+      sight: null
+      sound: null
+      attenuation: false
+    animation: null
+    flags: {}
+    c:
+      - 900
+      - 1188
+      - 900
+      - 1475
+    _id: gpTX8n7CmTOdXyNN
+    _key: '!scenes.walls!GE3YoSHDmmF9uUBc.gpTX8n7CmTOdXyNN'
+  - levels:
+      - MXDxnkaCRWfWL1g4
+    light: 20
+    move: 20
+    sight: 20
+    sound: 20
+    dir: 0
+    door: 0
+    ds: 0
+    threshold:
+      light: null
+      sight: null
+      sound: null
+      attenuation: false
+    animation: null
+    flags: {}
+    c:
+      - 900
+      - 1475
+      - 800
+      - 1475
+    _id: 7rYcDXu3XwdlACZN
+    _key: '!scenes.walls!GE3YoSHDmmF9uUBc.7rYcDXu3XwdlACZN'
+  - levels:
+      - defaultLevel0000
+    light: 20
+    move: 20
+    sight: 20
+    sound: 20
+    dir: 0
+    door: 0
+    ds: 0
+    threshold:
+      light: null
+      sight: null
+      sound: null
+      attenuation: false
+    animation: null
+    flags: {}
+    c:
+      - 1825
+      - 413
+      - 1825
+      - 538
+    _id: nUFmnj0ZYFaPKYZF
+    _key: '!scenes.walls!GE3YoSHDmmF9uUBc.nUFmnj0ZYFaPKYZF'
+  - levels:
+      - defaultLevel0000
+    light: 20
+    move: 20
+    sight: 20
+    sound: 20
+    dir: 0
+    door: 0
+    ds: 0
+    threshold:
+      light: null
+      sight: null
+      sound: null
+      attenuation: false
+    animation: null
+    flags: {}
+    c:
+      - 1825
+      - 538
+      - 1825
+      - 625
+    _id: aCV5AwXZoLdMpQJp
+    _key: '!scenes.walls!GE3YoSHDmmF9uUBc.aCV5AwXZoLdMpQJp'
+  - levels:
+      - defaultLevel0000
+    light: 20
+    move: 20
+    sight: 20
+    sound: 20
+    dir: 0
+    door: 0
+    ds: 0
+    threshold:
+      light: null
+      sight: null
+      sound: null
+      attenuation: false
+    animation: null
+    flags: {}
+    c:
+      - 1825
+      - 625
+      - 1825
+      - 825
+    _id: jrviQVjEGniuUnYy
+    _key: '!scenes.walls!GE3YoSHDmmF9uUBc.jrviQVjEGniuUnYy'
+  - levels:
+      - defaultLevel0000
+    light: 20
+    move: 20
+    sight: 20
+    sound: 20
+    dir: 0
+    door: 0
+    ds: 0
+    threshold:
+      light: null
+      sight: null
+      sound: null
+      attenuation: false
+    animation: null
+    flags: {}
+    c:
+      - 1825
+      - 825
+      - 1825
+      - 1263
+    _id: AB8wnLRg6wlnQp7g
+    _key: '!scenes.walls!GE3YoSHDmmF9uUBc.AB8wnLRg6wlnQp7g'
+  - levels:
+      - defaultLevel0000
+    light: 20
+    move: 20
+    sight: 20
+    sound: 20
+    dir: 0
+    door: 0
+    ds: 0
+    threshold:
+      light: null
+      sight: null
+      sound: null
+      attenuation: false
+    animation: null
+    flags: {}
+    c:
+      - 1825
+      - 1263
+      - 1825
+      - 1400
+    _id: OGbXMVvTkBSt5fkx
+    _key: '!scenes.walls!GE3YoSHDmmF9uUBc.OGbXMVvTkBSt5fkx'
+  - levels:
+      - defaultLevel0000
+    light: 20
+    move: 20
+    sight: 20
+    sound: 20
+    dir: 0
+    door: 0
+    ds: 0
+    threshold:
+      light: null
+      sight: null
+      sound: null
+      attenuation: false
+    animation: null
+    flags: {}
+    c:
+      - 1825
+      - 1400
+      - 1825
+      - 1538
+    _id: LvoLMW0qUCQZNHXE
+    _key: '!scenes.walls!GE3YoSHDmmF9uUBc.LvoLMW0qUCQZNHXE'
+  - levels:
+      - defaultLevel0000
+    light: 20
+    move: 20
+    sight: 20
+    sound: 20
+    dir: 0
+    door: 0
+    ds: 0
+    threshold:
+      light: null
+      sight: null
+      sound: null
+      attenuation: false
+    animation: null
+    flags: {}
+    c:
+      - 1825
+      - 1538
+      - 1825
+      - 1675
+    _id: MRKC2ZaaYp9fzyji
+    _key: '!scenes.walls!GE3YoSHDmmF9uUBc.MRKC2ZaaYp9fzyji'
+  - levels:
+      - defaultLevel0000
+    light: 20
+    move: 20
+    sight: 20
+    sound: 20
+    dir: 0
+    door: 0
+    ds: 0
+    threshold:
+      light: null
+      sight: null
+      sound: null
+      attenuation: false
+    animation: null
+    flags: {}
+    c:
+      - 1825
+      - 1675
+      - 1825
+      - 1813
+    _id: kDxriFlUItRV3Ijv
+    _key: '!scenes.walls!GE3YoSHDmmF9uUBc.kDxriFlUItRV3Ijv'
+  - levels:
+      - defaultLevel0000
+    light: 20
+    move: 20
+    sight: 20
+    sound: 20
+    dir: 0
+    door: 0
+    ds: 0
+    threshold:
+      light: null
+      sight: null
+      sound: null
+      attenuation: false
+    animation: null
+    flags: {}
+    c:
+      - 1825
+      - 1813
+      - 1675
+      - 1813
+    _id: tbWcopxmBdMosdlk
+    _key: '!scenes.walls!GE3YoSHDmmF9uUBc.tbWcopxmBdMosdlk'
+  - levels:
+      - defaultLevel0000
+    light: 20
+    move: 20
+    sight: 20
+    sound: 20
+    dir: 0
+    door: 0
+    ds: 0
+    threshold:
+      light: null
+      sight: null
+      sound: null
+      attenuation: false
+    animation: null
+    flags: {}
+    c:
+      - 1675
+      - 1813
+      - 900
+      - 1813
+    _id: NolEFzrbwHtCt292
+    _key: '!scenes.walls!GE3YoSHDmmF9uUBc.NolEFzrbwHtCt292'
+  - levels:
+      - defaultLevel0000
+    light: 20
+    move: 20
+    sight: 20
+    sound: 20
+    dir: 0
+    door: 0
+    ds: 0
+    threshold:
+      light: null
+      sight: null
+      sound: null
+      attenuation: false
+    animation: null
+    flags: {}
+    c:
+      - 900
+      - 1813
+      - 400
+      - 1813
+    _id: fhBGivEt7da53mX9
+    _key: '!scenes.walls!GE3YoSHDmmF9uUBc.fhBGivEt7da53mX9'
+  - levels:
+      - defaultLevel0000
+    light: 20
+    move: 20
+    sight: 20
+    sound: 20
+    dir: 0
+    door: 0
+    ds: 0
+    threshold:
+      light: null
+      sight: null
+      sound: null
+      attenuation: false
+    animation: null
+    flags: {}
+    c:
+      - 400
+      - 1813
+      - 400
+      - 1313
+    _id: ftNtfJTumUUhsdz8
+    _key: '!scenes.walls!GE3YoSHDmmF9uUBc.ftNtfJTumUUhsdz8'
+  - levels:
+      - defaultLevel0000
+    light: 20
+    move: 20
+    sight: 20
+    sound: 20
+    dir: 0
+    door: 0
+    ds: 0
+    threshold:
+      light: null
+      sight: null
+      sound: null
+      attenuation: false
+    animation: null
+    flags: {}
+    c:
+      - 400
+      - 1313
+      - 400
+      - 1125
+    _id: n5KBpmlyVCZLri4v
+    _key: '!scenes.walls!GE3YoSHDmmF9uUBc.n5KBpmlyVCZLri4v'
+  - levels:
+      - defaultLevel0000
+    light: 20
+    move: 20
+    sight: 20
+    sound: 20
+    dir: 0
+    door: 0
+    ds: 0
+    threshold:
+      light: null
+      sight: null
+      sound: null
+      attenuation: false
+    animation: null
+    flags: {}
+    c:
+      - 400
+      - 1125
+      - 400
+      - 1038
+    _id: jaUd0oYKBHs5itQ6
+    _key: '!scenes.walls!GE3YoSHDmmF9uUBc.jaUd0oYKBHs5itQ6'
+  - levels:
+      - defaultLevel0000
+    light: 20
+    move: 20
+    sight: 20
+    sound: 20
+    dir: 0
+    door: 0
+    ds: 0
+    threshold:
+      light: null
+      sight: null
+      sound: null
+      attenuation: false
+    animation: null
+    flags: {}
+    c:
+      - 400
+      - 1038
+      - 400
+      - 625
+    _id: q7dePxxFgsGwgKQ7
+    _key: '!scenes.walls!GE3YoSHDmmF9uUBc.q7dePxxFgsGwgKQ7'
+  - levels:
+      - defaultLevel0000
+    light: 20
+    move: 20
+    sight: 20
+    sound: 20
+    dir: 0
+    door: 0
+    ds: 0
+    threshold:
+      light: null
+      sight: null
+      sound: null
+      attenuation: false
+    animation: null
+    flags: {}
+    c:
+      - 400
+      - 625
+      - 400
+      - 413
+    _id: fqg72y6VoMuM6wbr
+    _key: '!scenes.walls!GE3YoSHDmmF9uUBc.fqg72y6VoMuM6wbr'
+  - levels:
+      - defaultLevel0000
+    light: 20
+    move: 20
+    sight: 20
+    sound: 20
+    dir: 0
+    door: 0
+    ds: 0
+    threshold:
+      light: null
+      sight: null
+      sound: null
+      attenuation: false
+    animation: null
+    flags: {}
+    c:
+      - 400
+      - 413
+      - 413
+      - 413
+    _id: k5r4kRFuozEpwMb0
+    _key: '!scenes.walls!GE3YoSHDmmF9uUBc.k5r4kRFuozEpwMb0'
+  - levels:
+      - defaultLevel0000
+    light: 20
+    move: 20
+    sight: 20
+    sound: 20
+    dir: 0
+    door: 0
+    ds: 0
+    threshold:
+      light: null
+      sight: null
+      sound: null
+      attenuation: false
+    animation: null
+    flags: {}
+    c:
+      - 413
+      - 413
+      - 675
+      - 413
+    _id: Ajg1UbMKLAWdRp8i
+    _key: '!scenes.walls!GE3YoSHDmmF9uUBc.Ajg1UbMKLAWdRp8i'
+  - levels:
+      - defaultLevel0000
+    light: 20
+    move: 20
+    sight: 20
+    sound: 20
+    dir: 0
+    door: 0
+    ds: 0
+    threshold:
+      light: null
+      sight: null
+      sound: null
+      attenuation: false
+    animation: null
+    flags: {}
+    c:
+      - 675
+      - 413
+      - 1188
+      - 413
+    _id: XxYP31728J7upxxD
+    _key: '!scenes.walls!GE3YoSHDmmF9uUBc.XxYP31728J7upxxD'
+  - levels:
+      - defaultLevel0000
+    light: 20
+    move: 20
+    sight: 20
+    sound: 20
+    dir: 0
+    door: 0
+    ds: 0
+    threshold:
+      light: null
+      sight: null
+      sound: null
+      attenuation: false
+    animation: null
+    flags: {}
+    c:
+      - 1188
+      - 413
+      - 1325
+      - 413
+    _id: 1WAUvivsCSpc1Hfe
+    _key: '!scenes.walls!GE3YoSHDmmF9uUBc.1WAUvivsCSpc1Hfe'
+  - levels:
+      - defaultLevel0000
+    light: 20
+    move: 20
+    sight: 20
+    sound: 20
+    dir: 0
+    door: 0
+    ds: 0
+    threshold:
+      light: null
+      sight: null
+      sound: null
+      attenuation: false
+    animation: null
+    flags: {}
+    c:
+      - 1325
+      - 413
+      - 1475
+      - 413
+    _id: OszcY88TOda0s9mi
+    _key: '!scenes.walls!GE3YoSHDmmF9uUBc.OszcY88TOda0s9mi'
+  - levels:
+      - defaultLevel0000
+    light: 20
+    move: 20
+    sight: 20
+    sound: 20
+    dir: 0
+    door: 0
+    ds: 0
+    threshold:
+      light: null
+      sight: null
+      sound: null
+      attenuation: false
+    animation: null
+    flags: {}
+    c:
+      - 1475
+      - 413
+      - 1613
+      - 413
+    _id: Wx4xyJFevLlyh7ug
+    _key: '!scenes.walls!GE3YoSHDmmF9uUBc.Wx4xyJFevLlyh7ug'
+  - levels:
+      - defaultLevel0000
+    light: 20
+    move: 20
+    sight: 20
+    sound: 20
+    dir: 0
+    door: 0
+    ds: 0
+    threshold:
+      light: null
+      sight: null
+      sound: null
+      attenuation: false
+    animation: null
+    flags: {}
+    c:
+      - 1613
+      - 413
+      - 1825
+      - 413
+    _id: 3DcSHDaBxHczubQ8
+    _key: '!scenes.walls!GE3YoSHDmmF9uUBc.3DcSHDaBxHczubQ8'
+  - levels:
+      - defaultLevel0000
+    light: 20
+    move: 20
+    sight: 20
+    sound: 20
+    dir: 0
+    door: 0
+    ds: 0
+    threshold:
+      light: null
+      sight: null
+      sound: null
+      attenuation: false
+    animation: null
+    flags: {}
+    c:
+      - 1188
+      - 413
+      - 1188
+      - 538
+    _id: HcbToLu9UDow3mSH
+    _key: '!scenes.walls!GE3YoSHDmmF9uUBc.HcbToLu9UDow3mSH'
+  - levels:
+      - defaultLevel0000
+    light: 20
+    move: 20
+    sight: 20
+    sound: 20
+    dir: 0
+    door: 1
+    ds: 0
+    threshold:
+      light: null
+      sight: null
+      sound: null
+      attenuation: false
+    animation: null
+    flags: {}
+    c:
+      - 1188
+      - 538
+      - 1250
+      - 538
+    _id: oLD0EXKwwGXYoJXM
+    doorSound: woodBasic
+    _key: '!scenes.walls!GE3YoSHDmmF9uUBc.oLD0EXKwwGXYoJXM'
+  - levels:
+      - defaultLevel0000
+    light: 20
+    move: 20
+    sight: 20
+    sound: 20
+    dir: 0
+    door: 0
+    ds: 0
+    threshold:
+      light: null
+      sight: null
+      sound: null
+      attenuation: false
+    animation: null
+    flags: {}
+    c:
+      - 1250
+      - 538
+      - 1325
+      - 538
+    _id: Nnps2jAkfdDnMP74
+    _key: '!scenes.walls!GE3YoSHDmmF9uUBc.Nnps2jAkfdDnMP74'
+  - levels:
+      - defaultLevel0000
+    light: 20
+    move: 20
+    sight: 20
+    sound: 20
+    dir: 0
+    door: 1
+    ds: 0
+    threshold:
+      light: null
+      sight: null
+      sound: null
+      attenuation: false
+    animation: null
+    flags: {}
+    c:
+      - 1325
+      - 538
+      - 1388
+      - 538
+    _id: nAb3JgDStAZ8Mxyt
+    doorSound: woodBasic
+    _key: '!scenes.walls!GE3YoSHDmmF9uUBc.nAb3JgDStAZ8Mxyt'
+  - levels:
+      - defaultLevel0000
+    light: 20
+    move: 20
+    sight: 20
+    sound: 20
+    dir: 0
+    door: 0
+    ds: 0
+    threshold:
+      light: null
+      sight: null
+      sound: null
+      attenuation: false
+    animation: null
+    flags: {}
+    c:
+      - 1388
+      - 538
+      - 1463
+      - 538
+    _id: ieXdGL85qbOrjrrY
+    _key: '!scenes.walls!GE3YoSHDmmF9uUBc.ieXdGL85qbOrjrrY'
+  - levels:
+      - defaultLevel0000
+    light: 20
+    move: 20
+    sight: 20
+    sound: 20
+    dir: 0
+    door: 0
+    ds: 0
+    threshold:
+      light: null
+      sight: null
+      sound: null
+      attenuation: false
+    animation: null
+    flags: {}
+    c:
+      - 1463
+      - 538
+      - 1475
+      - 538
+    _id: GoVJB8DjkxrsCwah
+    _key: '!scenes.walls!GE3YoSHDmmF9uUBc.GoVJB8DjkxrsCwah'
+  - levels:
+      - defaultLevel0000
+    light: 20
+    move: 20
+    sight: 20
+    sound: 20
+    dir: 0
+    door: 1
+    ds: 0
+    threshold:
+      light: null
+      sight: null
+      sound: null
+      attenuation: false
+    animation: null
+    flags: {}
+    c:
+      - 1475
+      - 538
+      - 1538
+      - 538
+    _id: EiTE2KeBRJtZ65VF
+    doorSound: woodBasic
+    _key: '!scenes.walls!GE3YoSHDmmF9uUBc.EiTE2KeBRJtZ65VF'
+  - levels:
+      - defaultLevel0000
+    light: 20
+    move: 20
+    sight: 20
+    sound: 20
+    dir: 0
+    door: 0
+    ds: 0
+    threshold:
+      light: null
+      sight: null
+      sound: null
+      attenuation: false
+    animation: null
+    flags: {}
+    c:
+      - 1538
+      - 538
+      - 1613
+      - 538
+    _id: wQKymuqevBGbYHbM
+    _key: '!scenes.walls!GE3YoSHDmmF9uUBc.wQKymuqevBGbYHbM'
+  - levels:
+      - defaultLevel0000
+    light: 20
+    move: 20
+    sight: 20
+    sound: 20
+    dir: 0
+    door: 0
+    ds: 0
+    threshold:
+      light: null
+      sight: null
+      sound: null
+      attenuation: false
+    animation: null
+    flags: {}
+    c:
+      - 1613
+      - 538
+      - 1688
+      - 538
+    _id: 0Povq2GyUOf13sSh
+    _key: '!scenes.walls!GE3YoSHDmmF9uUBc.0Povq2GyUOf13sSh'
+  - levels:
+      - defaultLevel0000
+    light: 20
+    move: 20
+    sight: 20
+    sound: 20
+    dir: 0
+    door: 1
+    ds: 0
+    threshold:
+      light: null
+      sight: null
+      sound: null
+      attenuation: false
+    animation: null
+    flags: {}
+    c:
+      - 1688
+      - 538
+      - 1750
+      - 538
+    _id: LTyzPMHlFXG1sgpn
+    doorSound: woodBasic
+    _key: '!scenes.walls!GE3YoSHDmmF9uUBc.LTyzPMHlFXG1sgpn'
+  - levels:
+      - defaultLevel0000
+    light: 20
+    move: 20
+    sight: 20
+    sound: 20
+    dir: 0
+    door: 0
+    ds: 0
+    threshold:
+      light: null
+      sight: null
+      sound: null
+      attenuation: false
+    animation: null
+    flags: {}
+    c:
+      - 1750
+      - 538
+      - 1825
+      - 538
+    _id: BxRH7hgq49lNmaGS
+    _key: '!scenes.walls!GE3YoSHDmmF9uUBc.BxRH7hgq49lNmaGS'
+  - levels:
+      - defaultLevel0000
+    light: 20
+    move: 20
+    sight: 20
+    sound: 20
+    dir: 0
+    door: 0
+    ds: 0
+    threshold:
+      light: null
+      sight: null
+      sound: null
+      attenuation: false
+    animation: null
+    flags: {}
+    c:
+      - 1825
+      - 625
+      - 1750
+      - 625
+    _id: 5dTr6IecE54Jqdah
+    _key: '!scenes.walls!GE3YoSHDmmF9uUBc.5dTr6IecE54Jqdah'
+  - levels:
+      - defaultLevel0000
+    light: 20
+    move: 20
+    sight: 20
+    sound: 20
+    dir: 0
+    door: 1
+    ds: 0
+    threshold:
+      light: null
+      sight: null
+      sound: null
+      attenuation: false
+    animation: null
+    flags: {}
+    c:
+      - 1750
+      - 625
+      - 1688
+      - 625
+    _id: 0YFUMSBVWqzHTg9y
+    doorSound: woodBasic
+    _key: '!scenes.walls!GE3YoSHDmmF9uUBc.0YFUMSBVWqzHTg9y'
+  - levels:
+      - defaultLevel0000
+    light: 20
+    move: 20
+    sight: 20
+    sound: 20
+    dir: 0
+    door: 0
+    ds: 0
+    threshold:
+      light: null
+      sight: null
+      sound: null
+      attenuation: false
+    animation: null
+    flags: {}
+    c:
+      - 1688
+      - 625
+      - 1613
+      - 625
+    _id: aciIADo0nmuD2Pgx
+    _key: '!scenes.walls!GE3YoSHDmmF9uUBc.aciIADo0nmuD2Pgx'
+  - levels:
+      - defaultLevel0000
+    light: 20
+    move: 20
+    sight: 20
+    sound: 20
+    dir: 0
+    door: 0
+    ds: 0
+    threshold:
+      light: null
+      sight: null
+      sound: null
+      attenuation: false
+    animation: null
+    flags: {}
+    c:
+      - 1613
+      - 625
+      - 1613
+      - 763
+    _id: Vs9rRfHDRuZu6Wsz
+    _key: '!scenes.walls!GE3YoSHDmmF9uUBc.Vs9rRfHDRuZu6Wsz'
+  - levels:
+      - defaultLevel0000
+    light: 20
+    move: 20
+    sight: 20
+    sound: 20
+    dir: 0
+    door: 0
+    ds: 0
+    threshold:
+      light: null
+      sight: null
+      sound: null
+      attenuation: false
+    animation: null
+    flags: {}
+    c:
+      - 1613
+      - 763
+      - 1613
+      - 825
+    _id: 60hWwG3MZWA1aHju
+    _key: '!scenes.walls!GE3YoSHDmmF9uUBc.60hWwG3MZWA1aHju'
+  - levels:
+      - defaultLevel0000
+    light: 20
+    move: 20
+    sight: 20
+    sound: 20
+    dir: 0
+    door: 0
+    ds: 0
+    threshold:
+      light: null
+      sight: null
+      sound: null
+      attenuation: false
+    animation: null
+    flags: {}
+    c:
+      - 1613
+      - 825
+      - 1825
+      - 825
+    _id: vZbStDOApraa3XUe
+    _key: '!scenes.walls!GE3YoSHDmmF9uUBc.vZbStDOApraa3XUe'
+  - levels:
+      - defaultLevel0000
+    light: 0
+    move: 20
+    sight: 0
+    sound: 0
+    dir: 0
+    door: 0
+    ds: 0
+    threshold:
+      light: null
+      sight: null
+      sound: null
+      attenuation: false
+    animation: null
+    flags: {}
+    c:
+      - 1613
+      - 825
+      - 1263
+      - 825
+    _id: qds4o4EqT2yIQ5Ef
+    _key: '!scenes.walls!GE3YoSHDmmF9uUBc.qds4o4EqT2yIQ5Ef'
+  - levels:
+      - defaultLevel0000
+    light: 20
+    move: 20
+    sight: 20
+    sound: 20
+    dir: 0
+    door: 0
+    ds: 0
+    threshold:
+      light: null
+      sight: null
+      sound: null
+      attenuation: false
+    animation: null
+    flags: {}
+    c:
+      - 1263
+      - 825
+      - 1213
+      - 825
+    _id: 9S48v1e4wAnR3TCp
+    _key: '!scenes.walls!GE3YoSHDmmF9uUBc.9S48v1e4wAnR3TCp'
+  - levels:
+      - defaultLevel0000
+    light: 20
+    move: 20
+    sight: 20
+    sound: 20
+    dir: 0
+    door: 1
+    ds: 1
+    threshold:
+      light: null
+      sight: null
+      sound: null
+      attenuation: false
+    animation: null
+    flags: {}
+    c:
+      - 1213
+      - 825
+      - 1088
+      - 825
+    _id: 9l6CxGhFRmJSNyoR
+    doorSound: woodBasic
+    _key: '!scenes.walls!GE3YoSHDmmF9uUBc.9l6CxGhFRmJSNyoR'
+  - levels:
+      - defaultLevel0000
+    light: 20
+    move: 20
+    sight: 20
+    sound: 20
+    dir: 0
+    door: 0
+    ds: 0
+    threshold:
+      light: null
+      sight: null
+      sound: null
+      attenuation: false
+    animation: null
+    flags: {}
+    c:
+      - 1088
+      - 825
+      - 1050
+      - 825
+    _id: I3fdmpRSGWA7OOMW
+    _key: '!scenes.walls!GE3YoSHDmmF9uUBc.I3fdmpRSGWA7OOMW'
+  - levels:
+      - defaultLevel0000
+    light: 20
+    move: 20
+    sight: 20
+    sound: 20
+    dir: 0
+    door: 0
+    ds: 0
+    threshold:
+      light: null
+      sight: null
+      sound: null
+      attenuation: false
+    animation: null
+    flags: {}
+    c:
+      - 1050
+      - 825
+      - 1013
+      - 825
+    _id: ZtMW9RhkcMvZ37UA
+    _key: '!scenes.walls!GE3YoSHDmmF9uUBc.ZtMW9RhkcMvZ37UA'
+  - levels:
+      - defaultLevel0000
+    light: 20
+    move: 20
+    sight: 20
+    sound: 20
+    dir: 0
+    door: 0
+    ds: 0
+    threshold:
+      light: null
+      sight: null
+      sound: null
+      attenuation: false
+    animation: null
+    flags: {}
+    c:
+      - 1013
+      - 825
+      - 975
+      - 788
+    _id: 0dSwJz2wW5sG6hif
+    _key: '!scenes.walls!GE3YoSHDmmF9uUBc.0dSwJz2wW5sG6hif'
+  - levels:
+      - defaultLevel0000
+    light: 20
+    move: 20
+    sight: 20
+    sound: 20
+    dir: 0
+    door: 1
+    ds: 0
+    threshold:
+      light: null
+      sight: null
+      sound: null
+      attenuation: false
+    animation: null
+    flags: {}
+    c:
+      - 975
+      - 788
+      - 925
+      - 738
+    _id: oofIpRwNO2QZyCb4
+    doorSound: woodBasic
+    _key: '!scenes.walls!GE3YoSHDmmF9uUBc.oofIpRwNO2QZyCb4'
+  - levels:
+      - defaultLevel0000
+    light: 20
+    move: 20
+    sight: 20
+    sound: 20
+    dir: 0
+    door: 0
+    ds: 0
+    threshold:
+      light: null
+      sight: null
+      sound: null
+      attenuation: false
+    animation: null
+    flags: {}
+    c:
+      - 925
+      - 738
+      - 875
+      - 688
+    _id: sh8UByoYxTIuN1iR
+    _key: '!scenes.walls!GE3YoSHDmmF9uUBc.sh8UByoYxTIuN1iR'
+  - levels:
+      - defaultLevel0000
+    light: 20
+    move: 20
+    sight: 20
+    sound: 20
+    dir: 0
+    door: 0
+    ds: 0
+    threshold:
+      light: null
+      sight: null
+      sound: null
+      attenuation: false
+    animation: null
+    flags: {}
+    c:
+      - 875
+      - 688
+      - 825
+      - 688
+    _id: vEvnt8Zz0x0SSN9O
+    _key: '!scenes.walls!GE3YoSHDmmF9uUBc.vEvnt8Zz0x0SSN9O'
+  - levels:
+      - defaultLevel0000
+    light: 20
+    move: 20
+    sight: 20
+    sound: 20
+    dir: 0
+    door: 0
+    ds: 0
+    threshold:
+      light: null
+      sight: null
+      sound: null
+      attenuation: false
+    animation: null
+    flags: {}
+    c:
+      - 825
+      - 688
+      - 750
+      - 688
+    _id: 1lHQcxgPC9ur3DcA
+    _key: '!scenes.walls!GE3YoSHDmmF9uUBc.1lHQcxgPC9ur3DcA'
+  - levels:
+      - defaultLevel0000
+    light: 20
+    move: 20
+    sight: 20
+    sound: 20
+    dir: 0
+    door: 0
+    ds: 0
+    threshold:
+      light: null
+      sight: null
+      sound: null
+      attenuation: false
+    animation: null
+    flags: {}
+    c:
+      - 750
+      - 688
+      - 750
+      - 838
+    _id: BdElQNMOaBrGkivI
+    _key: '!scenes.walls!GE3YoSHDmmF9uUBc.BdElQNMOaBrGkivI'
+  - levels:
+      - defaultLevel0000
+    light: 20
+    move: 20
+    sight: 20
+    sound: 20
+    dir: 0
+    door: 0
+    ds: 0
+    threshold:
+      light: null
+      sight: null
+      sound: null
+      attenuation: false
+    animation: null
+    flags: {}
+    c:
+      - 825
+      - 688
+      - 825
+      - 1038
+    _id: pbdOw6yykbwQLupQ
+    _key: '!scenes.walls!GE3YoSHDmmF9uUBc.pbdOw6yykbwQLupQ'
+  - levels:
+      - defaultLevel0000
+    light: 20
+    move: 20
+    sight: 20
+    sound: 20
+    dir: 0
+    door: 0
+    ds: 0
+    threshold:
+      light: null
+      sight: null
+      sound: null
+      attenuation: false
+    animation: null
+    flags: {}
+    c:
+      - 825
+      - 1038
+      - 900
+      - 1038
+    _id: W3hQ3WeudrSdjLci
+    _key: '!scenes.walls!GE3YoSHDmmF9uUBc.W3hQ3WeudrSdjLci'
+  - levels:
+      - defaultLevel0000
+    light: 0
+    move: 20
+    sight: 0
+    sound: 0
+    dir: 0
+    door: 0
+    ds: 0
+    threshold:
+      light: null
+      sight: null
+      sound: null
+      attenuation: false
+    animation: null
+    flags: {}
+    c:
+      - 900
+      - 1038
+      - 1050
+      - 888
+    _id: 09MFj14sJGruAsBy
+    _key: '!scenes.walls!GE3YoSHDmmF9uUBc.09MFj14sJGruAsBy'
+  - levels:
+      - defaultLevel0000
+    light: 20
+    move: 20
+    sight: 20
+    sound: 20
+    dir: 0
+    door: 0
+    ds: 0
+    threshold:
+      light: null
+      sight: null
+      sound: null
+      attenuation: false
+    animation: null
+    flags: {}
+    c:
+      - 1050
+      - 888
+      - 1050
+      - 825
+    _id: ZVTcD2rZnZ7Bx8yq
+    _key: '!scenes.walls!GE3YoSHDmmF9uUBc.ZVTcD2rZnZ7Bx8yq'
+  - levels:
+      - defaultLevel0000
+    light: 20
+    move: 20
+    sight: 20
+    sound: 20
+    dir: 0
+    door: 0
+    ds: 0
+    threshold:
+      light: null
+      sight: null
+      sound: null
+      attenuation: false
+    animation: null
+    flags: {}
+    c:
+      - 1613
+      - 763
+      - 1538
+      - 763
+    _id: gFsd7cL0i6Uf0MFt
+    _key: '!scenes.walls!GE3YoSHDmmF9uUBc.gFsd7cL0i6Uf0MFt'
+  - levels:
+      - defaultLevel0000
+    light: 20
+    move: 20
+    sight: 20
+    sound: 20
+    dir: 0
+    door: 0
+    ds: 0
+    threshold:
+      light: null
+      sight: null
+      sound: null
+      attenuation: false
+    animation: null
+    flags: {}
+    c:
+      - 1538
+      - 763
+      - 1538
+      - 625
+    _id: mZJKzk2RhURBjotZ
+    _key: '!scenes.walls!GE3YoSHDmmF9uUBc.mZJKzk2RhURBjotZ'
+  - levels:
+      - defaultLevel0000
+    light: 20
+    move: 20
+    sight: 20
+    sound: 20
+    dir: 0
+    door: 0
+    ds: 0
+    threshold:
+      light: null
+      sight: null
+      sound: null
+      attenuation: false
+    animation: null
+    flags: {}
+    c:
+      - 1538
+      - 625
+      - 1463
+      - 625
+    _id: 4oW3aJWeeO7NCf4F
+    _key: '!scenes.walls!GE3YoSHDmmF9uUBc.4oW3aJWeeO7NCf4F'
+  - levels:
+      - defaultLevel0000
+    light: 20
+    move: 20
+    sight: 20
+    sound: 20
+    dir: 0
+    door: 1
+    ds: 1
+    threshold:
+      light: null
+      sight: null
+      sound: null
+      attenuation: false
+    animation: null
+    flags: {}
+    c:
+      - 1463
+      - 625
+      - 1400
+      - 625
+    _id: T97jrjIvjfXk6BWj
+    doorSound: woodBasic
+    _key: '!scenes.walls!GE3YoSHDmmF9uUBc.T97jrjIvjfXk6BWj'
+  - levels:
+      - defaultLevel0000
+    light: 20
+    move: 20
+    sight: 20
+    sound: 20
+    dir: 0
+    door: 0
+    ds: 0
+    threshold:
+      light: null
+      sight: null
+      sound: null
+      attenuation: false
+    animation: null
+    flags: {}
+    c:
+      - 1400
+      - 625
+      - 1263
+      - 625
+    _id: V6BCTz1XOOmtcG28
+    _key: '!scenes.walls!GE3YoSHDmmF9uUBc.V6BCTz1XOOmtcG28'
+  - levels:
+      - defaultLevel0000
+    light: 20
+    move: 20
+    sight: 20
+    sound: 20
+    dir: 0
+    door: 0
+    ds: 0
+    threshold:
+      light: null
+      sight: null
+      sound: null
+      attenuation: false
+    animation: null
+    flags: {}
+    c:
+      - 1263
+      - 625
+      - 1263
+      - 825
+    _id: M5RFFIpBGTTPg8HO
+    _key: '!scenes.walls!GE3YoSHDmmF9uUBc.M5RFFIpBGTTPg8HO'
+  - levels:
+      - defaultLevel0000
+    light: 20
+    move: 20
+    sight: 20
+    sound: 20
+    dir: 0
+    door: 0
+    ds: 0
+    threshold:
+      light: null
+      sight: null
+      sound: null
+      attenuation: false
+    animation: null
+    flags: {}
+    c:
+      - 675
+      - 413
+      - 675
+      - 475
+    _id: 8IJ1hbhYSGMhINMq
+    _key: '!scenes.walls!GE3YoSHDmmF9uUBc.8IJ1hbhYSGMhINMq'
+  - levels:
+      - defaultLevel0000
+    light: 20
+    move: 20
+    sight: 20
+    sound: 20
+    dir: 0
+    door: 1
+    ds: 0
+    threshold:
+      light: null
+      sight: null
+      sound: null
+      attenuation: false
+    animation: null
+    flags: {}
+    c:
+      - 675
+      - 475
+      - 675
+      - 538
+    _id: dp4wgr0Al0MELCCN
+    doorSound: woodBasic
+    _key: '!scenes.walls!GE3YoSHDmmF9uUBc.dp4wgr0Al0MELCCN'
+  - levels:
+      - defaultLevel0000
+    light: 20
+    move: 20
+    sight: 20
+    sound: 20
+    dir: 0
+    door: 0
+    ds: 0
+    threshold:
+      light: null
+      sight: null
+      sound: null
+      attenuation: false
+    animation: null
+    flags: {}
+    c:
+      - 675
+      - 538
+      - 675
+      - 625
+    _id: 2FUu5LuyfPuJ5XIc
+    _key: '!scenes.walls!GE3YoSHDmmF9uUBc.2FUu5LuyfPuJ5XIc'
+  - levels:
+      - defaultLevel0000
+    light: 20
+    move: 20
+    sight: 20
+    sound: 20
+    dir: 0
+    door: 0
+    ds: 0
+    threshold:
+      light: null
+      sight: null
+      sound: null
+      attenuation: false
+    animation: null
+    flags: {}
+    c:
+      - 675
+      - 625
+      - 675
+      - 1038
+    _id: CDW7R9MTggLtULXg
+    _key: '!scenes.walls!GE3YoSHDmmF9uUBc.CDW7R9MTggLtULXg'
+  - levels:
+      - defaultLevel0000
+    light: 20
+    move: 20
+    sight: 20
+    sound: 20
+    dir: 0
+    door: 0
+    ds: 0
+    threshold:
+      light: null
+      sight: null
+      sound: null
+      attenuation: false
+    animation: null
+    flags: {}
+    c:
+      - 675
+      - 1038
+      - 763
+      - 1038
+    _id: g94Yb88fjf2gLzMV
+    _key: '!scenes.walls!GE3YoSHDmmF9uUBc.g94Yb88fjf2gLzMV'
+  - levels:
+      - defaultLevel0000
+    light: 20
+    move: 20
+    sight: 20
+    sound: 20
+    dir: 0
+    door: 1
+    ds: 1
+    threshold:
+      light: null
+      sight: null
+      sound: null
+      attenuation: false
+    animation: null
+    flags: {}
+    c:
+      - 763
+      - 1038
+      - 825
+      - 1038
+    _id: by9nKflTVautvNLd
+    doorSound: woodBasic
+    _key: '!scenes.walls!GE3YoSHDmmF9uUBc.by9nKflTVautvNLd'
+  - levels:
+      - defaultLevel0000
+    light: 20
+    move: 20
+    sight: 20
+    sound: 20
+    dir: 0
+    door: 0
+    ds: 0
+    threshold:
+      light: null
+      sight: null
+      sound: null
+      attenuation: false
+    animation: null
+    flags: {}
+    c:
+      - 675
+      - 1038
+      - 538
+      - 1038
+    _id: ncd2lvYfl3VkLXOy
+    _key: '!scenes.walls!GE3YoSHDmmF9uUBc.ncd2lvYfl3VkLXOy'
+  - levels:
+      - defaultLevel0000
+    light: 20
+    move: 20
+    sight: 20
+    sound: 20
+    dir: 0
+    door: 0
+    ds: 0
+    threshold:
+      light: null
+      sight: null
+      sound: null
+      attenuation: false
+    animation: null
+    flags: {}
+    c:
+      - 488
+      - 1038
+      - 400
+      - 1038
+    _id: aCOmwhCx2Pf7DgwJ
+    _key: '!scenes.walls!GE3YoSHDmmF9uUBc.aCOmwhCx2Pf7DgwJ'
+  - levels:
+      - defaultLevel0000
+    light: 20
+    move: 20
+    sight: 20
+    sound: 20
+    dir: 0
+    door: 0
+    ds: 0
+    threshold:
+      light: null
+      sight: null
+      sound: null
+      attenuation: false
+    animation: null
+    flags: {}
+    c:
+      - 400
+      - 1125
+      - 488
+      - 1125
+    _id: ZszoZDxcGn4HMDEN
+    _key: '!scenes.walls!GE3YoSHDmmF9uUBc.ZszoZDxcGn4HMDEN'
+  - levels:
+      - defaultLevel0000
+    light: 20
+    move: 20
+    sight: 20
+    sound: 20
+    dir: 0
+    door: 1
+    ds: 0
+    threshold:
+      light: null
+      sight: null
+      sound: null
+      attenuation: false
+    animation: null
+    flags: {}
+    c:
+      - 488
+      - 1038
+      - 538
+      - 1038
+    _id: ZSYct7xXGFUID4Pq
+    doorSound: woodBasic
+    _key: '!scenes.walls!GE3YoSHDmmF9uUBc.ZSYct7xXGFUID4Pq'
+  - levels:
+      - defaultLevel0000
+    light: 20
+    move: 20
+    sight: 20
+    sound: 20
+    dir: 0
+    door: 1
+    ds: 0
+    threshold:
+      light: null
+      sight: null
+      sound: null
+      attenuation: false
+    animation: null
+    flags: {}
+    c:
+      - 488
+      - 1125
+      - 538
+      - 1125
+    _id: QW5oTebrfpsYxJD1
+    doorSound: woodBasic
+    _key: '!scenes.walls!GE3YoSHDmmF9uUBc.QW5oTebrfpsYxJD1'
+  - levels:
+      - defaultLevel0000
+    light: 20
+    move: 20
+    sight: 20
+    sound: 20
+    dir: 0
+    door: 0
+    ds: 0
+    threshold:
+      light: null
+      sight: null
+      sound: null
+      attenuation: false
+    animation: null
+    flags: {}
+    c:
+      - 538
+      - 1125
+      - 613
+      - 1125
+    _id: AGzEvsnFtJXBiNfV
+    _key: '!scenes.walls!GE3YoSHDmmF9uUBc.AGzEvsnFtJXBiNfV'
+  - levels:
+      - defaultLevel0000
+    light: 20
+    move: 20
+    sight: 20
+    sound: 20
+    dir: 0
+    door: 0
+    ds: 0
+    threshold:
+      light: null
+      sight: null
+      sound: null
+      attenuation: false
+    animation: null
+    flags: {}
+    c:
+      - 613
+      - 1125
+      - 763
+      - 1125
+    _id: 1CugBiYHviHzdo0H
+    _key: '!scenes.walls!GE3YoSHDmmF9uUBc.1CugBiYHviHzdo0H'
+  - levels:
+      - defaultLevel0000
+    light: 20
+    move: 20
+    sight: 20
+    sound: 20
+    dir: 0
+    door: 1
+    ds: 1
+    threshold:
+      light: null
+      sight: null
+      sound: null
+      attenuation: false
+    animation: null
+    flags: {}
+    c:
+      - 763
+      - 1125
+      - 825
+      - 1125
+    _id: tyRJI5rNUiPiaWc4
+    doorSound: woodBasic
+    _key: '!scenes.walls!GE3YoSHDmmF9uUBc.tyRJI5rNUiPiaWc4'
+  - levels:
+      - defaultLevel0000
+    light: 20
+    move: 20
+    sight: 20
+    sound: 20
+    dir: 0
+    door: 0
+    ds: 0
+    threshold:
+      light: null
+      sight: null
+      sound: null
+      attenuation: false
+    animation: null
+    flags: {}
+    c:
+      - 825
+      - 1125
+      - 900
+      - 1125
+    _id: YOnKdXeGQQsoJHAk
+    _key: '!scenes.walls!GE3YoSHDmmF9uUBc.YOnKdXeGQQsoJHAk'
+  - levels:
+      - defaultLevel0000
+    light: 20
+    move: 20
+    sight: 20
+    sound: 20
+    dir: 0
+    door: 0
+    ds: 0
+    threshold:
+      light: null
+      sight: null
+      sound: null
+      attenuation: false
+    animation: null
+    flags: {}
+    c:
+      - 900
+      - 1125
+      - 900
+      - 1113
+    _id: F34N0HSVncmbcWIX
+    _key: '!scenes.walls!GE3YoSHDmmF9uUBc.F34N0HSVncmbcWIX'
+  - levels:
+      - defaultLevel0000
+    light: 20
+    move: 20
+    sight: 20
+    sound: 20
+    dir: 0
+    door: 1
+    ds: 1
+    threshold:
+      light: null
+      sight: null
+      sound: null
+      attenuation: false
+    animation: null
+    flags: {}
+    c:
+      - 900
+      - 1113
+      - 900
+      - 1038
+    _id: eBPdV9ZUplBo0ARc
+    doorSound: woodBasic
+    _key: '!scenes.walls!GE3YoSHDmmF9uUBc.eBPdV9ZUplBo0ARc'
+  - levels:
+      - defaultLevel0000
+    light: 20
+    move: 20
+    sight: 20
+    sound: 20
+    dir: 0
+    door: 0
+    ds: 0
+    threshold:
+      light: null
+      sight: null
+      sound: null
+      attenuation: false
+    animation: null
+    flags: {}
+    c:
+      - 400
+      - 1313
+      - 475
+      - 1313
+    _id: le1nUfGko7hMBOPM
+    _key: '!scenes.walls!GE3YoSHDmmF9uUBc.le1nUfGko7hMBOPM'
+  - levels:
+      - defaultLevel0000
+    light: 20
+    move: 20
+    sight: 20
+    sound: 20
+    dir: 0
+    door: 0
+    ds: 0
+    threshold:
+      light: null
+      sight: null
+      sound: null
+      attenuation: false
+    animation: null
+    flags: {}
+    c:
+      - 475
+      - 1313
+      - 613
+      - 1313
+    _id: PVwEdJoDh4KwhdZC
+    _key: '!scenes.walls!GE3YoSHDmmF9uUBc.PVwEdJoDh4KwhdZC'
+  - levels:
+      - defaultLevel0000
+    light: 20
+    move: 20
+    sight: 20
+    sound: 20
+    dir: 0
+    door: 0
+    ds: 0
+    threshold:
+      light: null
+      sight: null
+      sound: null
+      attenuation: false
+    animation: null
+    flags: {}
+    c:
+      - 613
+      - 1313
+      - 825
+      - 1313
+    _id: WRWt07MGkPDwHEcL
+    _key: '!scenes.walls!GE3YoSHDmmF9uUBc.WRWt07MGkPDwHEcL'
+  - levels:
+      - defaultLevel0000
+    light: 20
+    move: 20
+    sight: 20
+    sound: 20
+    dir: 0
+    door: 0
+    ds: 0
+    threshold:
+      light: null
+      sight: null
+      sound: null
+      attenuation: false
+    animation: null
+    flags: {}
+    c:
+      - 825
+      - 1313
+      - 900
+      - 1313
+    _id: kP2VoA1ubfA1bUKm
+    _key: '!scenes.walls!GE3YoSHDmmF9uUBc.kP2VoA1ubfA1bUKm'
+  - levels:
+      - defaultLevel0000
+    light: 20
+    move: 20
+    sight: 20
+    sound: 20
+    dir: 0
+    door: 0
+    ds: 0
+    threshold:
+      light: null
+      sight: null
+      sound: null
+      attenuation: false
+    animation: null
+    flags: {}
+    c:
+      - 900
+      - 1313
+      - 900
+      - 1125
+    _id: vasv2zFYQT7Y09Qr
+    _key: '!scenes.walls!GE3YoSHDmmF9uUBc.vasv2zFYQT7Y09Qr'
+  - levels:
+      - defaultLevel0000
+    light: 20
+    move: 20
+    sight: 20
+    sound: 20
+    dir: 0
+    door: 0
+    ds: 0
+    threshold:
+      light: null
+      sight: null
+      sound: null
+      attenuation: false
+    animation: null
+    flags: {}
+    c:
+      - 613
+      - 1125
+      - 613
+      - 1313
+    _id: lJhEXcUOioehrnwb
+    _key: '!scenes.walls!GE3YoSHDmmF9uUBc.lJhEXcUOioehrnwb'
+  - levels:
+      - defaultLevel0000
+    light: 20
+    move: 20
+    sight: 20
+    sound: 20
+    dir: 0
+    door: 0
+    ds: 0
+    threshold:
+      light: null
+      sight: null
+      sound: null
+      attenuation: false
+    animation: null
+    flags: {}
+    c:
+      - 800
+      - 1463
+      - 800
+      - 1313
+    _id: IsZ3LfFuMSvdNbJv
+    _key: '!scenes.walls!GE3YoSHDmmF9uUBc.IsZ3LfFuMSvdNbJv'
+  - levels:
+      - defaultLevel0000
+    light: 20
+    move: 20
+    sight: 20
+    sound: 20
+    dir: 0
+    door: 0
+    ds: 0
+    threshold:
+      light: null
+      sight: null
+      sound: null
+      attenuation: false
+    animation: null
+    flags: {}
+    c:
+      - 900
+      - 1313
+      - 900
+      - 1550
+    _id: HjiGSk7Twz6rTNlp
+    _key: '!scenes.walls!GE3YoSHDmmF9uUBc.HjiGSk7Twz6rTNlp'
+  - levels:
+      - defaultLevel0000
+    light: 0
+    move: 20
+    sight: 0
+    sound: 0
+    dir: 0
+    door: 0
+    ds: 0
+    threshold:
+      light: null
+      sight: null
+      sound: null
+      attenuation: false
+    animation: null
+    flags: {}
+    c:
+      - 1175
+      - 1175
+      - 1400
+      - 1175
+    _id: BknHX3yhnJyFbqmj
+    _key: '!scenes.walls!GE3YoSHDmmF9uUBc.BknHX3yhnJyFbqmj'
+  - levels:
+      - defaultLevel0000
+    light: 0
+    move: 20
+    sight: 0
+    sound: 0
+    dir: 0
+    door: 0
+    ds: 0
+    threshold:
+      light: null
+      sight: null
+      sound: null
+      attenuation: false
+    animation: null
+    flags: {}
+    c:
+      - 1475
+      - 1250
+      - 1475
+      - 1475
+    _id: pc5AQKndP5etHZrY
+    _key: '!scenes.walls!GE3YoSHDmmF9uUBc.pc5AQKndP5etHZrY'
+  - levels:
+      - defaultLevel0000
+    light: 0
+    move: 20
+    sight: 0
+    sound: 0
+    dir: 0
+    door: 0
+    ds: 0
+    threshold:
+      light: null
+      sight: null
+      sound: null
+      attenuation: false
+    animation: null
+    flags: {}
+    c:
+      - 1475
+      - 1475
+      - 1338
+      - 1475
+    _id: UYAoZscackXRVCbZ
+    _key: '!scenes.walls!GE3YoSHDmmF9uUBc.UYAoZscackXRVCbZ'
+  - levels:
+      - defaultLevel0000
+    light: 20
+    move: 20
+    sight: 20
+    sound: 20
+    dir: 0
+    door: 0
+    ds: 0
+    threshold:
+      light: null
+      sight: null
+      sound: null
+      attenuation: false
+    animation: null
+    flags: {}
+    c:
+      - 1825
+      - 1263
+      - 1675
+      - 1263
+    _id: P8LVLvYIKzVQ8LkT
+    _key: '!scenes.walls!GE3YoSHDmmF9uUBc.P8LVLvYIKzVQ8LkT'
+  - levels:
+      - defaultLevel0000
+    light: 20
+    move: 20
+    sight: 20
+    sound: 20
+    dir: 0
+    door: 1
+    ds: 0
+    threshold:
+      light: null
+      sight: null
+      sound: null
+      attenuation: false
+    animation: null
+    flags: {}
+    c:
+      - 1675
+      - 1263
+      - 1675
+      - 1325
+    _id: PuZiqHOWoybfhEtn
+    doorSound: woodBasic
+    _key: '!scenes.walls!GE3YoSHDmmF9uUBc.PuZiqHOWoybfhEtn'
+  - levels:
+      - defaultLevel0000
+    light: 20
+    move: 20
+    sight: 20
+    sound: 20
+    dir: 0
+    door: 0
+    ds: 0
+    threshold:
+      light: null
+      sight: null
+      sound: null
+      attenuation: false
+    animation: null
+    flags: {}
+    c:
+      - 1675
+      - 1325
+      - 1675
+      - 1400
+    _id: uLjuw7w5ktt1PcOP
+    _key: '!scenes.walls!GE3YoSHDmmF9uUBc.uLjuw7w5ktt1PcOP'
+  - levels:
+      - defaultLevel0000
+    light: 20
+    move: 20
+    sight: 20
+    sound: 20
+    dir: 0
+    door: 0
+    ds: 0
+    threshold:
+      light: null
+      sight: null
+      sound: null
+      attenuation: false
+    animation: null
+    flags: {}
+    c:
+      - 1675
+      - 1400
+      - 1825
+      - 1400
+    _id: BtUPdlY7HrHCc5dG
+    _key: '!scenes.walls!GE3YoSHDmmF9uUBc.BtUPdlY7HrHCc5dG'
+  - levels:
+      - defaultLevel0000
+    light: 20
+    move: 20
+    sight: 20
+    sound: 20
+    dir: 0
+    door: 0
+    ds: 0
+    threshold:
+      light: null
+      sight: null
+      sound: null
+      attenuation: false
+    animation: null
+    flags: {}
+    c:
+      - 1825
+      - 1538
+      - 1675
+      - 1538
+    _id: yoddiEu0pNITkn5j
+    _key: '!scenes.walls!GE3YoSHDmmF9uUBc.yoddiEu0pNITkn5j'
+  - levels:
+      - defaultLevel0000
+    light: 20
+    move: 20
+    sight: 20
+    sound: 20
+    dir: 0
+    door: 0
+    ds: 0
+    threshold:
+      light: null
+      sight: null
+      sound: null
+      attenuation: false
+    animation: null
+    flags: {}
+    c:
+      - 1675
+      - 1538
+      - 1675
+      - 1475
+    _id: 4SFEAZAEWQz1E8WL
+    _key: '!scenes.walls!GE3YoSHDmmF9uUBc.4SFEAZAEWQz1E8WL'
+  - levels:
+      - defaultLevel0000
+    light: 20
+    move: 20
+    sight: 20
+    sound: 20
+    dir: 0
+    door: 1
+    ds: 0
+    threshold:
+      light: null
+      sight: null
+      sound: null
+      attenuation: false
+    animation: null
+    flags: {}
+    c:
+      - 1675
+      - 1475
+      - 1675
+      - 1400
+    _id: pQ4UHtfIptOsT3z8
+    doorSound: woodBasic
+    _key: '!scenes.walls!GE3YoSHDmmF9uUBc.pQ4UHtfIptOsT3z8'
+  - levels:
+      - defaultLevel0000
+    light: 20
+    move: 20
+    sight: 20
+    sound: 20
+    dir: 0
+    door: 1
+    ds: 0
+    threshold:
+      light: null
+      sight: null
+      sound: null
+      attenuation: false
+    animation: null
+    flags: {}
+    c:
+      - 1675
+      - 1538
+      - 1675
+      - 1613
+    _id: OsuosbR7gQPwleIy
+    doorSound: woodBasic
+    _key: '!scenes.walls!GE3YoSHDmmF9uUBc.OsuosbR7gQPwleIy'
+  - levels:
+      - defaultLevel0000
+    light: 20
+    move: 20
+    sight: 20
+    sound: 20
+    dir: 0
+    door: 0
+    ds: 0
+    threshold:
+      light: null
+      sight: null
+      sound: null
+      attenuation: false
+    animation: null
+    flags: {}
+    c:
+      - 1675
+      - 1613
+      - 1675
+      - 1675
+    _id: qnpXfyfu3fZ4nmI0
+    _key: '!scenes.walls!GE3YoSHDmmF9uUBc.qnpXfyfu3fZ4nmI0'
+  - levels:
+      - defaultLevel0000
+    light: 20
+    move: 20
+    sight: 20
+    sound: 20
+    dir: 0
+    door: 1
+    ds: 0
+    threshold:
+      light: null
+      sight: null
+      sound: null
+      attenuation: false
+    animation: null
+    flags: {}
+    c:
+      - 1675
+      - 1675
+      - 1675
+      - 1750
+    _id: M8VUYZfROD3LaUoa
+    doorSound: woodBasic
+    _key: '!scenes.walls!GE3YoSHDmmF9uUBc.M8VUYZfROD3LaUoa'
+  - levels:
+      - defaultLevel0000
+    light: 20
+    move: 20
+    sight: 20
+    sound: 20
+    dir: 0
+    door: 0
+    ds: 0
+    threshold:
+      light: null
+      sight: null
+      sound: null
+      attenuation: false
+    animation: null
+    flags: {}
+    c:
+      - 1675
+      - 1750
+      - 1675
+      - 1813
+    _id: neWTaZt8KkLoJKWh
+    _key: '!scenes.walls!GE3YoSHDmmF9uUBc.neWTaZt8KkLoJKWh'
+  - levels:
+      - defaultLevel0000
+    light: 20
+    move: 20
+    sight: 20
+    sound: 20
+    dir: 0
+    door: 0
+    ds: 0
+    threshold:
+      light: null
+      sight: null
+      sound: null
+      attenuation: false
+    animation: null
+    flags: {}
+    c:
+      - 1825
+      - 1675
+      - 1675
+      - 1675
+    _id: TXySANRLs3BWDXzg
+    _key: '!scenes.walls!GE3YoSHDmmF9uUBc.TXySANRLs3BWDXzg'
+  - levels:
+      - defaultLevel0000
+    light: 20
+    move: 20
+    sight: 20
+    sound: 20
+    dir: 0
+    door: 1
+    ds: 1
+    threshold:
+      light: null
+      sight: null
+      sound: null
+      attenuation: false
+    animation: null
+    flags: {}
+    c:
+      - 900
+      - 1550
+      - 900
+      - 1663
+    _id: LRKoxLVTygl7cZ4n
+    _key: '!scenes.walls!GE3YoSHDmmF9uUBc.LRKoxLVTygl7cZ4n'
+  - levels:
+      - defaultLevel0000
+    light: 20
+    move: 20
+    sight: 20
+    sound: 20
+    dir: 0
+    door: 0
+    ds: 0
+    threshold:
+      light: null
+      sight: null
+      sound: null
+      attenuation: false
+    animation: null
+    flags: {}
+    c:
+      - 900
+      - 1663
+      - 900
+      - 1813
+    _id: dohrLIWqjIbbSHjw
+    _key: '!scenes.walls!GE3YoSHDmmF9uUBc.dohrLIWqjIbbSHjw'
+  - levels:
+      - defaultLevel0000
+    light: 20
+    move: 20
+    sight: 0
+    sound: 0
+    dir: 0
+    door: 0
+    ds: 0
+    threshold:
+      light: null
+      sight: null
+      sound: null
+      attenuation: false
+    animation: null
+    flags: {}
+    c:
+      - 560
+      - 1369
+      - 530
+      - 1365
+    _id: LN0c0jLflKVkRvRj
+    _key: '!scenes.walls!GE3YoSHDmmF9uUBc.LN0c0jLflKVkRvRj'
+  - levels:
+      - defaultLevel0000
+    light: 20
+    move: 20
+    sight: 0
+    sound: 0
+    dir: 0
+    door: 0
+    ds: 0
+    threshold:
+      light: null
+      sight: null
+      sound: null
+      attenuation: false
+    animation: null
+    flags: {}
+    c:
+      - 530
+      - 1365
+      - 516
+      - 1358
+    _id: EzXKAcJxGnELVklj
+    _key: '!scenes.walls!GE3YoSHDmmF9uUBc.EzXKAcJxGnELVklj'
+  - levels:
+      - defaultLevel0000
+    light: 20
+    move: 20
+    sight: 0
+    sound: 0
+    dir: 0
+    door: 0
+    ds: 0
+    threshold:
+      light: null
+      sight: null
+      sound: null
+      attenuation: false
+    animation: null
+    flags: {}
+    c:
+      - 516
+      - 1358
+      - 502
+      - 1362
+    _id: 6EEjYxxcP2JMMvc2
+    _key: '!scenes.walls!GE3YoSHDmmF9uUBc.6EEjYxxcP2JMMvc2'
+  - levels:
+      - defaultLevel0000
+    light: 20
+    move: 20
+    sight: 0
+    sound: 0
+    dir: 0
+    door: 0
+    ds: 0
+    threshold:
+      light: null
+      sight: null
+      sound: null
+      attenuation: false
+    animation: null
+    flags: {}
+    c:
+      - 502
+      - 1362
+      - 490
+      - 1364
+    _id: m9I2Rwy6NbYTYmI7
+    _key: '!scenes.walls!GE3YoSHDmmF9uUBc.m9I2Rwy6NbYTYmI7'
+  - levels:
+      - defaultLevel0000
+    light: 20
+    move: 20
+    sight: 0
+    sound: 0
+    dir: 0
+    door: 0
+    ds: 0
+    threshold:
+      light: null
+      sight: null
+      sound: null
+      attenuation: false
+    animation: null
+    flags: {}
+    c:
+      - 490
+      - 1364
+      - 469
+      - 1359
+    _id: mM5hO5cS1q3GzuLr
+    _key: '!scenes.walls!GE3YoSHDmmF9uUBc.mM5hO5cS1q3GzuLr'
+  - levels:
+      - defaultLevel0000
+    light: 20
+    move: 20
+    sight: 0
+    sound: 0
+    dir: 0
+    door: 0
+    ds: 0
+    threshold:
+      light: null
+      sight: null
+      sound: null
+      attenuation: false
+    animation: null
+    flags: {}
+    c:
+      - 469
+      - 1359
+      - 456
+      - 1364
+    _id: g0hzP47IFdw83TBq
+    _key: '!scenes.walls!GE3YoSHDmmF9uUBc.g0hzP47IFdw83TBq'
+  - levels:
+      - defaultLevel0000
+    light: 20
+    move: 20
+    sight: 0
+    sound: 0
+    dir: 0
+    door: 0
+    ds: 0
+    threshold:
+      light: null
+      sight: null
+      sound: null
+      attenuation: false
+    animation: null
+    flags: {}
+    c:
+      - 456
+      - 1364
+      - 450
+      - 1373
+    _id: 8dcjWVMQEeBoIBUA
+    _key: '!scenes.walls!GE3YoSHDmmF9uUBc.8dcjWVMQEeBoIBUA'
+  - levels:
+      - defaultLevel0000
+    light: 20
+    move: 20
+    sight: 0
+    sound: 0
+    dir: 0
+    door: 0
+    ds: 0
+    threshold:
+      light: null
+      sight: null
+      sound: null
+      attenuation: false
+    animation: null
+    flags: {}
+    c:
+      - 450
+      - 1373
+      - 451
+      - 1383
+    _id: EMTI3gInJ1sHpz0i
+    _key: '!scenes.walls!GE3YoSHDmmF9uUBc.EMTI3gInJ1sHpz0i'
+  - levels:
+      - defaultLevel0000
+    light: 20
+    move: 20
+    sight: 0
+    sound: 0
+    dir: 0
+    door: 0
+    ds: 0
+    threshold:
+      light: null
+      sight: null
+      sound: null
+      attenuation: false
+    animation: null
+    flags: {}
+    c:
+      - 451
+      - 1383
+      - 453
+      - 1393
+    _id: 6VSCHjFlMkoNC54h
+    _key: '!scenes.walls!GE3YoSHDmmF9uUBc.6VSCHjFlMkoNC54h'
+  - levels:
+      - defaultLevel0000
+    light: 20
+    move: 20
+    sight: 0
+    sound: 0
+    dir: 0
+    door: 0
+    ds: 0
+    threshold:
+      light: null
+      sight: null
+      sound: null
+      attenuation: false
+    animation: null
+    flags: {}
+    c:
+      - 453
+      - 1393
+      - 453
+      - 1404
+    _id: JoA9BJu3ibEcNy3E
+    _key: '!scenes.walls!GE3YoSHDmmF9uUBc.JoA9BJu3ibEcNy3E'
+  - levels:
+      - defaultLevel0000
+    light: 20
+    move: 20
+    sight: 0
+    sound: 0
+    dir: 0
+    door: 0
+    ds: 0
+    threshold:
+      light: null
+      sight: null
+      sound: null
+      attenuation: false
+    animation: null
+    flags: {}
+    c:
+      - 453
+      - 1404
+      - 449
+      - 1424
+    _id: YZlOE4PohKHhR14Z
+    _key: '!scenes.walls!GE3YoSHDmmF9uUBc.YZlOE4PohKHhR14Z'
+  - levels:
+      - defaultLevel0000
+    light: 20
+    move: 20
+    sight: 0
+    sound: 0
+    dir: 0
+    door: 0
+    ds: 0
+    threshold:
+      light: null
+      sight: null
+      sound: null
+      attenuation: false
+    animation: null
+    flags: {}
+    c:
+      - 449
+      - 1424
+      - 457
+      - 1439
+    _id: J1uIVkAGfeo92e07
+    _key: '!scenes.walls!GE3YoSHDmmF9uUBc.J1uIVkAGfeo92e07'
+  - levels:
+      - defaultLevel0000
+    light: 20
+    move: 20
+    sight: 0
+    sound: 0
+    dir: 0
+    door: 0
+    ds: 0
+    threshold:
+      light: null
+      sight: null
+      sound: null
+      attenuation: false
+    animation: null
+    flags: {}
+    c:
+      - 457
+      - 1439
+      - 463
+      - 1470
+    _id: 9nImErKmKxGtYIEU
+    _key: '!scenes.walls!GE3YoSHDmmF9uUBc.9nImErKmKxGtYIEU'
+  - levels:
+      - defaultLevel0000
+    light: 20
+    move: 20
+    sight: 0
+    sound: 0
+    dir: 0
+    door: 0
+    ds: 0
+    threshold:
+      light: null
+      sight: null
+      sound: null
+      attenuation: false
+    animation: null
+    flags: {}
+    c:
+      - 460
+      - 1663
+      - 458
+      - 1686
+    _id: oDesSUUntSFogLOL
+    _key: '!scenes.walls!GE3YoSHDmmF9uUBc.oDesSUUntSFogLOL'
+  - levels:
+      - defaultLevel0000
+    light: 20
+    move: 20
+    sight: 0
+    sound: 0
+    dir: 0
+    door: 0
+    ds: 0
+    threshold:
+      light: null
+      sight: null
+      sound: null
+      attenuation: false
+    animation: null
+    flags: {}
+    c:
+      - 458
+      - 1686
+      - 455
+      - 1701
+    _id: 3WigkLThwZMbz9j6
+    _key: '!scenes.walls!GE3YoSHDmmF9uUBc.3WigkLThwZMbz9j6'
+  - levels:
+      - defaultLevel0000
+    light: 20
+    move: 20
+    sight: 0
+    sound: 0
+    dir: 0
+    door: 0
+    ds: 0
+    threshold:
+      light: null
+      sight: null
+      sound: null
+      attenuation: false
+    animation: null
+    flags: {}
+    c:
+      - 455
+      - 1701
+      - 449
+      - 1710
+    _id: f5499N72QeYRfbhz
+    _key: '!scenes.walls!GE3YoSHDmmF9uUBc.f5499N72QeYRfbhz'
+  - levels:
+      - defaultLevel0000
+    light: 20
+    move: 20
+    sight: 0
+    sound: 0
+    dir: 0
+    door: 0
+    ds: 0
+    threshold:
+      light: null
+      sight: null
+      sound: null
+      attenuation: false
+    animation: null
+    flags: {}
+    c:
+      - 449
+      - 1710
+      - 452
+      - 1724
+    _id: ySYUYhIwnyxQlBWi
+    _key: '!scenes.walls!GE3YoSHDmmF9uUBc.ySYUYhIwnyxQlBWi'
+  - levels:
+      - defaultLevel0000
+    light: 20
+    move: 20
+    sight: 0
+    sound: 0
+    dir: 0
+    door: 0
+    ds: 0
+    threshold:
+      light: null
+      sight: null
+      sound: null
+      attenuation: false
+    animation: null
+    flags: {}
+    c:
+      - 452
+      - 1724
+      - 455
+      - 1734
+    _id: Vc5RjzaDDWGGSet1
+    _key: '!scenes.walls!GE3YoSHDmmF9uUBc.Vc5RjzaDDWGGSet1'
+  - levels:
+      - defaultLevel0000
+    light: 20
+    move: 20
+    sight: 0
+    sound: 0
+    dir: 0
+    door: 0
+    ds: 0
+    threshold:
+      light: null
+      sight: null
+      sound: null
+      attenuation: false
+    animation: null
+    flags: {}
+    c:
+      - 455
+      - 1734
+      - 450
+      - 1758
+    _id: DVJmfQKkjG7QdISt
+    _key: '!scenes.walls!GE3YoSHDmmF9uUBc.DVJmfQKkjG7QdISt'
+  - levels:
+      - defaultLevel0000
+    light: 20
+    move: 20
+    sight: 0
+    sound: 0
+    dir: 0
+    door: 0
+    ds: 0
+    threshold:
+      light: null
+      sight: null
+      sound: null
+      attenuation: false
+    animation: null
+    flags: {}
+    c:
+      - 450
+      - 1758
+      - 455
+      - 1771
+    _id: h5QeINNfkhUu6lbg
+    _key: '!scenes.walls!GE3YoSHDmmF9uUBc.h5QeINNfkhUu6lbg'
+  - levels:
+      - defaultLevel0000
+    light: 20
+    move: 20
+    sight: 0
+    sound: 0
+    dir: 0
+    door: 0
+    ds: 0
+    threshold:
+      light: null
+      sight: null
+      sound: null
+      attenuation: false
+    animation: null
+    flags: {}
+    c:
+      - 455
+      - 1771
+      - 470
+      - 1778
+    _id: oDVvSOT3v373nTFU
+    _key: '!scenes.walls!GE3YoSHDmmF9uUBc.oDVvSOT3v373nTFU'
+  - levels:
+      - defaultLevel0000
+    light: 20
+    move: 20
+    sight: 0
+    sound: 0
+    dir: 0
+    door: 0
+    ds: 0
+    threshold:
+      light: null
+      sight: null
+      sound: null
+      attenuation: false
+    animation: null
+    flags: {}
+    c:
+      - 470
+      - 1778
+      - 486
+      - 1773
+    _id: GT0Dz9SJWbUKTcpV
+    _key: '!scenes.walls!GE3YoSHDmmF9uUBc.GT0Dz9SJWbUKTcpV'
+  - levels:
+      - defaultLevel0000
+    light: 20
+    move: 20
+    sight: 0
+    sound: 0
+    dir: 0
+    door: 0
+    ds: 0
+    threshold:
+      light: null
+      sight: null
+      sound: null
+      attenuation: false
+    animation: null
+    flags: {}
+    c:
+      - 486
+      - 1773
+      - 499
+      - 1774
+    _id: dgB0O5hB85JyDVyk
+    _key: '!scenes.walls!GE3YoSHDmmF9uUBc.dgB0O5hB85JyDVyk'
+  - levels:
+      - defaultLevel0000
+    light: 20
+    move: 20
+    sight: 0
+    sound: 0
+    dir: 0
+    door: 0
+    ds: 0
+    threshold:
+      light: null
+      sight: null
+      sound: null
+      attenuation: false
+    animation: null
+    flags: {}
+    c:
+      - 499
+      - 1774
+      - 512
+      - 1779
+    _id: E1yVC4zTTpeDuJQx
+    _key: '!scenes.walls!GE3YoSHDmmF9uUBc.E1yVC4zTTpeDuJQx'
+  - levels:
+      - defaultLevel0000
+    light: 20
+    move: 20
+    sight: 0
+    sound: 0
+    dir: 0
+    door: 0
+    ds: 0
+    threshold:
+      light: null
+      sight: null
+      sound: null
+      attenuation: false
+    animation: null
+    flags: {}
+    c:
+      - 512
+      - 1779
+      - 523
+      - 1774
+    _id: nwjGrHpS0Fw1qeM0
+    _key: '!scenes.walls!GE3YoSHDmmF9uUBc.nwjGrHpS0Fw1qeM0'
+  - levels:
+      - defaultLevel0000
+    light: 20
+    move: 20
+    sight: 0
+    sound: 0
+    dir: 0
+    door: 0
+    ds: 0
+    threshold:
+      light: null
+      sight: null
+      sound: null
+      attenuation: false
+    animation: null
+    flags: {}
+    c:
+      - 523
+      - 1774
+      - 531
+      - 1770
+    _id: gMwEeUQ2yX8ZGBXX
+    _key: '!scenes.walls!GE3YoSHDmmF9uUBc.gMwEeUQ2yX8ZGBXX'
+  - levels:
+      - defaultLevel0000
+    light: 20
+    move: 20
+    sight: 0
+    sound: 0
+    dir: 0
+    door: 0
+    ds: 0
+    threshold:
+      light: null
+      sight: null
+      sound: null
+      attenuation: false
+    animation: null
+    flags: {}
+    c:
+      - 531
+      - 1770
+      - 548
+      - 1768
+    _id: 68horKGRVv8vtP3I
+    _key: '!scenes.walls!GE3YoSHDmmF9uUBc.68horKGRVv8vtP3I'
+  - levels:
+      - defaultLevel0000
+    light: 20
+    move: 20
+    sight: 0
+    sound: 0
+    dir: 0
+    door: 0
+    ds: 0
+    threshold:
+      light: null
+      sight: null
+      sound: null
+      attenuation: false
+    animation: null
+    flags: {}
+    c:
+      - 548
+      - 1768
+      - 561
+      - 1766
+    _id: 81WkvzHJ76fTCThy
+    _key: '!scenes.walls!GE3YoSHDmmF9uUBc.81WkvzHJ76fTCThy'
+  - levels:
+      - 00FcHtGi06KdfZke
+    light: 0
+    move: 20
+    sight: 0
+    sound: 0
+    dir: 0
+    door: 0
+    ds: 0
+    threshold:
+      light: null
+      sight: null
+      sound: null
+      attenuation: false
+    animation: null
+    flags: {}
+    c:
+      - 475
+      - 1313
+      - 800
+      - 1313
+    _id: 0rKiHFePjR3sgWOf
+    _key: '!scenes.walls!GE3YoSHDmmF9uUBc.0rKiHFePjR3sgWOf'
+  - levels:
+      - 00FcHtGi06KdfZke
+    light: 0
+    move: 20
+    sight: 0
+    sound: 0
+    dir: 0
+    door: 0
+    ds: 0
+    threshold:
+      light: null
+      sight: null
+      sound: null
+      attenuation: false
+    animation: null
+    flags: {}
+    c:
+      - 800
+      - 1313
+      - 825
+      - 1313
+    _id: lL98kKAyiErjS5SS
+    _key: '!scenes.walls!GE3YoSHDmmF9uUBc.lL98kKAyiErjS5SS'
+  - levels:
+      - 00FcHtGi06KdfZke
+    light: 0
+    move: 20
+    sight: 0
+    sound: 0
+    dir: 0
+    door: 0
+    ds: 0
+    threshold:
+      light: null
+      sight: null
+      sound: null
+      attenuation: false
+    animation: null
+    flags: {}
+    c:
+      - 900
+      - 1038
+      - 1050
+      - 888
+    _id: fhB8Z0YvzMVkn2MU
+    _key: '!scenes.walls!GE3YoSHDmmF9uUBc.fhB8Z0YvzMVkn2MU'
+  - levels:
+      - 00FcHtGi06KdfZke
+    light: 0
+    move: 20
+    sight: 0
+    sound: 0
+    dir: 0
+    door: 0
+    ds: 0
+    threshold:
+      light: null
+      sight: null
+      sound: null
+      attenuation: false
+    animation: null
+    flags: {}
+    c:
+      - 1050
+      - 888
+      - 1050
+      - 825
+    _id: 9Sfi8xoDkycdmEE9
+    _key: '!scenes.walls!GE3YoSHDmmF9uUBc.9Sfi8xoDkycdmEE9'
+  - levels:
+      - 00FcHtGi06KdfZke
+    light: 0
+    move: 20
+    sight: 0
+    sound: 0
+    dir: 0
+    door: 0
+    ds: 0
+    threshold:
+      light: null
+      sight: null
+      sound: null
+      attenuation: false
+    animation: null
+    flags: {}
+    c:
+      - 1250
+      - 825
+      - 1613
+      - 825
+    _id: DqQZ5o88FL6hPmom
+    _key: '!scenes.walls!GE3YoSHDmmF9uUBc.DqQZ5o88FL6hPmom'
+  - levels:
+      - 00FcHtGi06KdfZke
+    light: 0
+    move: 20
+    sight: 0
+    sound: 0
+    dir: 0
+    door: 0
+    ds: 0
+    threshold:
+      light: null
+      sight: null
+      sound: null
+      attenuation: false
+    animation: null
+    flags: {}
+    c:
+      - 838
+      - 700
+      - 838
+      - 825
+    _id: J4eiB7XbSE7igHoT
+    _key: '!scenes.walls!GE3YoSHDmmF9uUBc.J4eiB7XbSE7igHoT'
+  - levels:
+      - 00FcHtGi06KdfZke
+    light: 20
+    move: 20
+    sight: 20
+    sound: 20
+    dir: 0
+    door: 0
+    ds: 0
+    threshold:
+      light: null
+      sight: null
+      sound: null
+      attenuation: false
+    animation: null
+    flags: {}
+    c:
+      - 475
+      - 1313
+      - 413
+      - 1313
+    _id: gEeFmOieY7l8q4Au
+    _key: '!scenes.walls!GE3YoSHDmmF9uUBc.gEeFmOieY7l8q4Au'
+  - levels:
+      - 00FcHtGi06KdfZke
+    light: 20
+    move: 20
+    sight: 20
+    sound: 20
+    dir: 0
+    door: 0
+    ds: 0
+    threshold:
+      light: null
+      sight: null
+      sound: null
+      attenuation: false
+    animation: null
+    flags: {}
+    c:
+      - 413
+      - 1313
+      - 413
+      - 1038
+    _id: mWS1i112RG4sJKcm
+    _key: '!scenes.walls!GE3YoSHDmmF9uUBc.mWS1i112RG4sJKcm'
+  - levels:
+      - 00FcHtGi06KdfZke
+    light: 20
+    move: 20
+    sight: 20
+    sound: 20
+    dir: 0
+    door: 0
+    ds: 0
+    threshold:
+      light: null
+      sight: null
+      sound: null
+      attenuation: false
+    animation: null
+    flags: {}
+    c:
+      - 413
+      - 1038
+      - 475
+      - 1038
+    _id: rmRfp0ATllsAaiBc
+    _key: '!scenes.walls!GE3YoSHDmmF9uUBc.rmRfp0ATllsAaiBc'
+  - levels:
+      - 00FcHtGi06KdfZke
+    light: 20
+    move: 20
+    sight: 20
+    sound: 20
+    dir: 0
+    door: 1
+    ds: 0
+    threshold:
+      light: null
+      sight: null
+      sound: null
+      attenuation: false
+    animation: null
+    flags: {}
+    c:
+      - 475
+      - 1038
+      - 538
+      - 1038
+    _id: y5wre8X498mN5QNB
+    doorSound: woodBasic
+    _key: '!scenes.walls!GE3YoSHDmmF9uUBc.y5wre8X498mN5QNB'
+  - levels:
+      - 00FcHtGi06KdfZke
+    light: 20
+    move: 20
+    sight: 20
+    sound: 20
+    dir: 0
+    door: 0
+    ds: 0
+    threshold:
+      light: null
+      sight: null
+      sound: null
+      attenuation: false
+    animation: null
+    flags: {}
+    c:
+      - 538
+      - 1038
+      - 613
+      - 1038
+    _id: 9rTPl4nFXukOeALb
+    _key: '!scenes.walls!GE3YoSHDmmF9uUBc.9rTPl4nFXukOeALb'
+  - levels:
+      - 00FcHtGi06KdfZke
+    light: 20
+    move: 20
+    sight: 20
+    sound: 20
+    dir: 0
+    door: 0
+    ds: 0
+    threshold:
+      light: null
+      sight: null
+      sound: null
+      attenuation: false
+    animation: null
+    flags: {}
+    c:
+      - 613
+      - 1038
+      - 763
+      - 1038
+    _id: lJV4QYrWT4VHYzhs
+    _key: '!scenes.walls!GE3YoSHDmmF9uUBc.lJV4QYrWT4VHYzhs'
+  - levels:
+      - 00FcHtGi06KdfZke
+    light: 20
+    move: 20
+    sight: 20
+    sound: 20
+    dir: 0
+    door: 1
+    ds: 1
+    threshold:
+      light: null
+      sight: null
+      sound: null
+      attenuation: false
+    animation: null
+    flags: {}
+    c:
+      - 763
+      - 1038
+      - 825
+      - 1038
+    _id: abVENGyZfqU3DkUu
+    doorSound: woodBasic
+    _key: '!scenes.walls!GE3YoSHDmmF9uUBc.abVENGyZfqU3DkUu'
+  - levels:
+      - 00FcHtGi06KdfZke
+    light: 20
+    move: 20
+    sight: 20
+    sound: 20
+    dir: 0
+    door: 0
+    ds: 0
+    threshold:
+      light: null
+      sight: null
+      sound: null
+      attenuation: false
+    animation: null
+    flags: {}
+    c:
+      - 825
+      - 1038
+      - 900
+      - 1038
+    _id: 6awKv7eQKSNgQJ11
+    _key: '!scenes.walls!GE3YoSHDmmF9uUBc.6awKv7eQKSNgQJ11'
+  - levels:
+      - 00FcHtGi06KdfZke
+    light: 20
+    move: 20
+    sight: 20
+    sound: 20
+    dir: 0
+    door: 0
+    ds: 0
+    threshold:
+      light: null
+      sight: null
+      sound: null
+      attenuation: false
+    animation: null
+    flags: {}
+    c:
+      - 900
+      - 1038
+      - 900
+      - 1313
+    _id: ergwdl1uhLlywiNd
+    _key: '!scenes.walls!GE3YoSHDmmF9uUBc.ergwdl1uhLlywiNd'
+  - levels:
+      - 00FcHtGi06KdfZke
+    light: 20
+    move: 20
+    sight: 20
+    sound: 20
+    dir: 0
+    door: 0
+    ds: 0
+    threshold:
+      light: null
+      sight: null
+      sound: null
+      attenuation: false
+    animation: null
+    flags: {}
+    c:
+      - 900
+      - 1313
+      - 825
+      - 1313
+    _id: VJSAX4n0djY331FV
+    _key: '!scenes.walls!GE3YoSHDmmF9uUBc.VJSAX4n0djY331FV'
+  - levels:
+      - 00FcHtGi06KdfZke
+    light: 20
+    move: 20
+    sight: 20
+    sound: 20
+    dir: 0
+    door: 0
+    ds: 0
+    threshold:
+      light: null
+      sight: null
+      sound: null
+      attenuation: false
+    animation: null
+    flags: {}
+    c:
+      - 413
+      - 1038
+      - 413
+      - 900
+    _id: aZ7FnfhjjbZlVhN7
+    _key: '!scenes.walls!GE3YoSHDmmF9uUBc.aZ7FnfhjjbZlVhN7'
+  - levels:
+      - 00FcHtGi06KdfZke
+    light: 20
+    move: 20
+    sight: 20
+    sound: 20
+    dir: 0
+    door: 0
+    ds: 0
+    threshold:
+      light: null
+      sight: null
+      sound: null
+      attenuation: false
+    animation: null
+    flags: {}
+    c:
+      - 413
+      - 900
+      - 413
+      - 713
+    _id: A9XtSdXna76tZHJk
+    _key: '!scenes.walls!GE3YoSHDmmF9uUBc.A9XtSdXna76tZHJk'
+  - levels:
+      - 00FcHtGi06KdfZke
+    light: 20
+    move: 20
+    sight: 20
+    sound: 20
+    dir: 0
+    door: 0
+    ds: 0
+    threshold:
+      light: null
+      sight: null
+      sound: null
+      attenuation: false
+    animation: null
+    flags: {}
+    c:
+      - 413
+      - 713
+      - 413
+      - 550
+    _id: TwBG5ofLQ7LGlF1i
+    _key: '!scenes.walls!GE3YoSHDmmF9uUBc.TwBG5ofLQ7LGlF1i'
+  - levels:
+      - 00FcHtGi06KdfZke
+    light: 20
+    move: 20
+    sight: 20
+    sound: 20
+    dir: 0
+    door: 0
+    ds: 0
+    threshold:
+      light: null
+      sight: null
+      sound: null
+      attenuation: false
+    animation: null
+    flags: {}
+    c:
+      - 413
+      - 550
+      - 413
+      - 413
+    _id: ZhWlTsQrxZ1hvvre
+    _key: '!scenes.walls!GE3YoSHDmmF9uUBc.ZhWlTsQrxZ1hvvre'
+  - levels:
+      - 00FcHtGi06KdfZke
+    light: 20
+    move: 20
+    sight: 20
+    sound: 20
+    dir: 0
+    door: 0
+    ds: 0
+    threshold:
+      light: null
+      sight: null
+      sound: null
+      attenuation: false
+    animation: null
+    flags: {}
+    c:
+      - 413
+      - 413
+      - 688
+      - 413
+    _id: WtDam7Jh2Wew45Tw
+    _key: '!scenes.walls!GE3YoSHDmmF9uUBc.WtDam7Jh2Wew45Tw'
+  - levels:
+      - 00FcHtGi06KdfZke
+    light: 20
+    move: 20
+    sight: 20
+    sound: 20
+    dir: 0
+    door: 0
+    ds: 0
+    threshold:
+      light: null
+      sight: null
+      sound: null
+      attenuation: false
+    animation: null
+    flags: {}
+    c:
+      - 688
+      - 413
+      - 1250
+      - 413
+    _id: 40ssjzrFl9YZmm1p
+    _key: '!scenes.walls!GE3YoSHDmmF9uUBc.40ssjzrFl9YZmm1p'
+  - levels:
+      - 00FcHtGi06KdfZke
+    light: 20
+    move: 20
+    sight: 20
+    sound: 20
+    dir: 0
+    door: 0
+    ds: 0
+    threshold:
+      light: null
+      sight: null
+      sound: null
+      attenuation: false
+    animation: null
+    flags: {}
+    c:
+      - 1250
+      - 413
+      - 1388
+      - 413
+    _id: SzJnyOHsfbwT9Bbx
+    _key: '!scenes.walls!GE3YoSHDmmF9uUBc.SzJnyOHsfbwT9Bbx'
+  - levels:
+      - 00FcHtGi06KdfZke
+    light: 20
+    move: 20
+    sight: 20
+    sound: 20
+    dir: 0
+    door: 0
+    ds: 0
+    threshold:
+      light: null
+      sight: null
+      sound: null
+      attenuation: false
+    animation: null
+    flags: {}
+    c:
+      - 1388
+      - 413
+      - 1613
+      - 413
+    _id: PE372m3jaq9FUmwd
+    _key: '!scenes.walls!GE3YoSHDmmF9uUBc.PE372m3jaq9FUmwd'
+  - levels:
+      - 00FcHtGi06KdfZke
+    light: 20
+    move: 20
+    sight: 20
+    sound: 20
+    dir: 0
+    door: 0
+    ds: 0
+    threshold:
+      light: null
+      sight: null
+      sound: null
+      attenuation: false
+    animation: null
+    flags: {}
+    c:
+      - 1613
+      - 413
+      - 1813
+      - 413
+    _id: ODTSSI7jmpVcgGKh
+    _key: '!scenes.walls!GE3YoSHDmmF9uUBc.ODTSSI7jmpVcgGKh'
+  - levels:
+      - 00FcHtGi06KdfZke
+    light: 20
+    move: 20
+    sight: 20
+    sound: 20
+    dir: 0
+    door: 0
+    ds: 0
+    threshold:
+      light: null
+      sight: null
+      sound: null
+      attenuation: false
+    animation: null
+    flags: {}
+    c:
+      - 1813
+      - 413
+      - 1813
+      - 613
+    _id: q8i0KHTy5UMs5WiR
+    _key: '!scenes.walls!GE3YoSHDmmF9uUBc.q8i0KHTy5UMs5WiR'
+  - levels:
+      - 00FcHtGi06KdfZke
+    light: 20
+    move: 20
+    sight: 20
+    sound: 20
+    dir: 0
+    door: 0
+    ds: 0
+    threshold:
+      light: null
+      sight: null
+      sound: null
+      attenuation: false
+    animation: null
+    flags: {}
+    c:
+      - 1813
+      - 613
+      - 1813
+      - 825
+    _id: 6fJ6IEB58lpU4zQq
+    _key: '!scenes.walls!GE3YoSHDmmF9uUBc.6fJ6IEB58lpU4zQq'
+  - levels:
+      - 00FcHtGi06KdfZke
+    light: 20
+    move: 20
+    sight: 20
+    sound: 20
+    dir: 0
+    door: 0
+    ds: 0
+    threshold:
+      light: null
+      sight: null
+      sound: null
+      attenuation: false
+    animation: null
+    flags: {}
+    c:
+      - 1813
+      - 825
+      - 1613
+      - 825
+    _id: OnviHt9RtJoHUQku
+    _key: '!scenes.walls!GE3YoSHDmmF9uUBc.OnviHt9RtJoHUQku'
+  - levels:
+      - 00FcHtGi06KdfZke
+    light: 20
+    move: 20
+    sight: 20
+    sound: 20
+    dir: 0
+    door: 0
+    ds: 0
+    threshold:
+      light: null
+      sight: null
+      sound: null
+      attenuation: false
+    animation: null
+    flags: {}
+    c:
+      - 1250
+      - 825
+      - 1050
+      - 825
+    _id: Im2jnPpZc1GLnaxA
+    _key: '!scenes.walls!GE3YoSHDmmF9uUBc.Im2jnPpZc1GLnaxA'
+  - levels:
+      - 00FcHtGi06KdfZke
+    light: 20
+    move: 20
+    sight: 20
+    sound: 20
+    dir: 0
+    door: 0
+    ds: 0
+    threshold:
+      light: null
+      sight: null
+      sound: null
+      attenuation: false
+    animation: null
+    flags: {}
+    c:
+      - 1050
+      - 825
+      - 975
+      - 825
+    _id: iP1M4CdBmuFA6Fj6
+    _key: '!scenes.walls!GE3YoSHDmmF9uUBc.iP1M4CdBmuFA6Fj6'
+  - levels:
+      - 00FcHtGi06KdfZke
+    light: 20
+    move: 20
+    sight: 20
+    sound: 20
+    dir: 0
+    door: 1
+    ds: 1
+    threshold:
+      light: null
+      sight: null
+      sound: null
+      attenuation: false
+    animation: null
+    flags: {}
+    c:
+      - 975
+      - 825
+      - 913
+      - 825
+    _id: 1VqhwCNvSH30iFLz
+    doorSound: woodBasic
+    _key: '!scenes.walls!GE3YoSHDmmF9uUBc.1VqhwCNvSH30iFLz'
+  - levels:
+      - 00FcHtGi06KdfZke
+    light: 20
+    move: 20
+    sight: 20
+    sound: 20
+    dir: 0
+    door: 0
+    ds: 0
+    threshold:
+      light: null
+      sight: null
+      sound: null
+      attenuation: false
+    animation: null
+    flags: {}
+    c:
+      - 913
+      - 825
+      - 838
+      - 825
+    _id: 6x89j0yw3844IjP9
+    _key: '!scenes.walls!GE3YoSHDmmF9uUBc.6x89j0yw3844IjP9'
+  - levels:
+      - 00FcHtGi06KdfZke
+    light: 20
+    move: 20
+    sight: 20
+    sound: 20
+    dir: 0
+    door: 0
+    ds: 0
+    threshold:
+      light: null
+      sight: null
+      sound: null
+      attenuation: false
+    animation: null
+    flags: {}
+    c:
+      - 838
+      - 825
+      - 750
+      - 825
+    _id: 27uJ0XuboAPPSOcu
+    _key: '!scenes.walls!GE3YoSHDmmF9uUBc.27uJ0XuboAPPSOcu'
+  - levels:
+      - 00FcHtGi06KdfZke
+    light: 20
+    move: 20
+    sight: 20
+    sound: 20
+    dir: 0
+    door: 0
+    ds: 0
+    threshold:
+      light: null
+      sight: null
+      sound: null
+      attenuation: false
+    animation: null
+    flags: {}
+    c:
+      - 750
+      - 825
+      - 713
+      - 825
+    _id: roUFfmdwQRZnPABE
+    _key: '!scenes.walls!GE3YoSHDmmF9uUBc.roUFfmdwQRZnPABE'
+  - levels:
+      - 00FcHtGi06KdfZke
+    light: 20
+    move: 20
+    sight: 20
+    sound: 20
+    dir: 0
+    door: 1
+    ds: 1
+    threshold:
+      light: null
+      sight: null
+      sound: null
+      attenuation: false
+    animation: null
+    flags: {}
+    c:
+      - 713
+      - 825
+      - 663
+      - 825
+    _id: hkyepOpqupIFvEdB
+    doorSound: woodBasic
+    _key: '!scenes.walls!GE3YoSHDmmF9uUBc.hkyepOpqupIFvEdB'
+  - levels:
+      - 00FcHtGi06KdfZke
+    light: 20
+    move: 20
+    sight: 20
+    sound: 20
+    dir: 0
+    door: 0
+    ds: 0
+    threshold:
+      light: null
+      sight: null
+      sound: null
+      attenuation: false
+    animation: null
+    flags: {}
+    c:
+      - 663
+      - 825
+      - 625
+      - 825
+    _id: 4A6NAbEWx1fuMBj6
+    _key: '!scenes.walls!GE3YoSHDmmF9uUBc.4A6NAbEWx1fuMBj6'
+  - levels:
+      - 00FcHtGi06KdfZke
+    light: 20
+    move: 20
+    sight: 20
+    sound: 20
+    dir: 0
+    door: 0
+    ds: 0
+    threshold:
+      light: null
+      sight: null
+      sound: null
+      attenuation: false
+    animation: null
+    flags: {}
+    c:
+      - 625
+      - 825
+      - 625
+      - 713
+    _id: GKCLHJS2pDWvf79g
+    _key: '!scenes.walls!GE3YoSHDmmF9uUBc.GKCLHJS2pDWvf79g'
+  - levels:
+      - 00FcHtGi06KdfZke
+    light: 20
+    move: 20
+    sight: 20
+    sound: 20
+    dir: 0
+    door: 0
+    ds: 0
+    threshold:
+      light: null
+      sight: null
+      sound: null
+      attenuation: false
+    animation: null
+    flags: {}
+    c:
+      - 625
+      - 713
+      - 413
+      - 713
+    _id: homnITg0wftHp3V3
+    _key: '!scenes.walls!GE3YoSHDmmF9uUBc.homnITg0wftHp3V3'
+  - levels:
+      - 00FcHtGi06KdfZke
+    light: 20
+    move: 20
+    sight: 20
+    sound: 20
+    dir: 0
+    door: 0
+    ds: 0
+    threshold:
+      light: null
+      sight: null
+      sound: null
+      attenuation: false
+    animation: null
+    flags: {}
+    c:
+      - 625
+      - 713
+      - 675
+      - 713
+    _id: mgz2jhTqG8hqQfwu
+    _key: '!scenes.walls!GE3YoSHDmmF9uUBc.mgz2jhTqG8hqQfwu'
+  - levels:
+      - 00FcHtGi06KdfZke
+    light: 20
+    move: 20
+    sight: 20
+    sound: 20
+    dir: 0
+    door: 0
+    ds: 0
+    threshold:
+      light: null
+      sight: null
+      sound: null
+      attenuation: false
+    animation: null
+    flags: {}
+    c:
+      - 675
+      - 713
+      - 675
+      - 650
+    _id: tsvSDScWqa9Z6xYG
+    _key: '!scenes.walls!GE3YoSHDmmF9uUBc.tsvSDScWqa9Z6xYG'
+  - levels:
+      - 00FcHtGi06KdfZke
+    light: 20
+    move: 20
+    sight: 20
+    sound: 20
+    dir: 0
+    door: 1
+    ds: 0
+    threshold:
+      light: null
+      sight: null
+      sound: null
+      attenuation: false
+    animation: null
+    flags: {}
+    c:
+      - 675
+      - 650
+      - 675
+      - 588
+    _id: RGdWeFVj70zF77UM
+    doorSound: woodBasic
+    _key: '!scenes.walls!GE3YoSHDmmF9uUBc.RGdWeFVj70zF77UM'
+  - levels:
+      - 00FcHtGi06KdfZke
+    light: 20
+    move: 20
+    sight: 20
+    sound: 20
+    dir: 0
+    door: 0
+    ds: 0
+    threshold:
+      light: null
+      sight: null
+      sound: null
+      attenuation: false
+    animation: null
+    flags: {}
+    c:
+      - 675
+      - 588
+      - 675
+      - 550
+    _id: wxE1AilZ06uQC8ze
+    _key: '!scenes.walls!GE3YoSHDmmF9uUBc.wxE1AilZ06uQC8ze'
+  - levels:
+      - 00FcHtGi06KdfZke
+    light: 20
+    move: 20
+    sight: 20
+    sound: 20
+    dir: 0
+    door: 0
+    ds: 0
+    threshold:
+      light: null
+      sight: null
+      sound: null
+      attenuation: false
+    animation: null
+    flags: {}
+    c:
+      - 675
+      - 550
+      - 650
+      - 550
+    _id: 3RQZmPXnU32b4KZQ
+    _key: '!scenes.walls!GE3YoSHDmmF9uUBc.3RQZmPXnU32b4KZQ'
+  - levels:
+      - 00FcHtGi06KdfZke
+    light: 20
+    move: 20
+    sight: 20
+    sound: 20
+    dir: 0
+    door: 1
+    ds: 0
+    threshold:
+      light: null
+      sight: null
+      sound: null
+      attenuation: false
+    animation: null
+    flags: {}
+    c:
+      - 650
+      - 550
+      - 588
+      - 550
+    _id: ovK5fSfnXDwOms0o
+    doorSound: woodBasic
+    _key: '!scenes.walls!GE3YoSHDmmF9uUBc.ovK5fSfnXDwOms0o'
+  - levels:
+      - 00FcHtGi06KdfZke
+    light: 20
+    move: 20
+    sight: 20
+    sound: 20
+    dir: 0
+    door: 0
+    ds: 0
+    threshold:
+      light: null
+      sight: null
+      sound: null
+      attenuation: false
+    animation: null
+    flags: {}
+    c:
+      - 588
+      - 550
+      - 413
+      - 550
+    _id: sPYXU6oKD95PSuak
+    _key: '!scenes.walls!GE3YoSHDmmF9uUBc.sPYXU6oKD95PSuak'
+  - levels:
+      - 00FcHtGi06KdfZke
+    light: 20
+    move: 20
+    sight: 20
+    sound: 20
+    dir: 0
+    door: 0
+    ds: 0
+    threshold:
+      light: null
+      sight: null
+      sound: null
+      attenuation: false
+    animation: null
+    flags: {}
+    c:
+      - 688
+      - 413
+      - 688
+      - 450
+    _id: 4fo6pDx1wHWUfS43
+    _key: '!scenes.walls!GE3YoSHDmmF9uUBc.4fo6pDx1wHWUfS43'
+  - levels:
+      - 00FcHtGi06KdfZke
+    light: 20
+    move: 20
+    sight: 20
+    sound: 20
+    dir: 0
+    door: 1
+    ds: 0
+    threshold:
+      light: null
+      sight: null
+      sound: null
+      attenuation: false
+    animation: null
+    flags: {}
+    c:
+      - 688
+      - 450
+      - 675
+      - 500
+    _id: Xc5G69SSN5zsD1TP
+    doorSound: woodBasic
+    _key: '!scenes.walls!GE3YoSHDmmF9uUBc.Xc5G69SSN5zsD1TP'
+  - levels:
+      - 00FcHtGi06KdfZke
+    light: 20
+    move: 20
+    sight: 20
+    sound: 20
+    dir: 0
+    door: 0
+    ds: 0
+    threshold:
+      light: null
+      sight: null
+      sound: null
+      attenuation: false
+    animation: null
+    flags: {}
+    c:
+      - 675
+      - 500
+      - 675
+      - 550
+    _id: KCiDRRMh1F6C0S1v
+    _key: '!scenes.walls!GE3YoSHDmmF9uUBc.KCiDRRMh1F6C0S1v'
+  - levels:
+      - 00FcHtGi06KdfZke
+    light: 20
+    move: 20
+    sight: 20
+    sound: 20
+    dir: 0
+    door: 0
+    ds: 0
+    threshold:
+      light: null
+      sight: null
+      sound: null
+      attenuation: false
+    animation: null
+    flags: {}
+    c:
+      - 675
+      - 713
+      - 750
+      - 713
+    _id: Kkhya69Hmg2oXm5g
+    _key: '!scenes.walls!GE3YoSHDmmF9uUBc.Kkhya69Hmg2oXm5g'
+  - levels:
+      - 00FcHtGi06KdfZke
+    light: 20
+    move: 20
+    sight: 20
+    sound: 20
+    dir: 0
+    door: 0
+    ds: 0
+    threshold:
+      light: null
+      sight: null
+      sound: null
+      attenuation: false
+    animation: null
+    flags: {}
+    c:
+      - 750
+      - 713
+      - 750
+      - 825
+    _id: yV2PZkHSrc2X2y7C
+    _key: '!scenes.walls!GE3YoSHDmmF9uUBc.yV2PZkHSrc2X2y7C'
+  - levels:
+      - 00FcHtGi06KdfZke
+    light: 20
+    move: 20
+    sight: 20
+    sound: 20
+    dir: 0
+    door: 0
+    ds: 0
+    threshold:
+      light: null
+      sight: null
+      sound: null
+      attenuation: false
+    animation: null
+    flags: {}
+    c:
+      - 625
+      - 825
+      - 625
+      - 900
+    _id: NCs4BoX37kDhpvky
+    _key: '!scenes.walls!GE3YoSHDmmF9uUBc.NCs4BoX37kDhpvky'
+  - levels:
+      - 00FcHtGi06KdfZke
+    light: 20
+    move: 20
+    sight: 20
+    sound: 20
+    dir: 0
+    door: 0
+    ds: 0
+    threshold:
+      light: null
+      sight: null
+      sound: null
+      attenuation: false
+    animation: null
+    flags: {}
+    c:
+      - 625
+      - 900
+      - 625
+      - 1038
+    _id: wcMeCcCEA0oEkxs1
+    _key: '!scenes.walls!GE3YoSHDmmF9uUBc.wcMeCcCEA0oEkxs1'
+  - levels:
+      - 00FcHtGi06KdfZke
+    light: 20
+    move: 20
+    sight: 20
+    sound: 20
+    dir: 0
+    door: 0
+    ds: 0
+    threshold:
+      light: null
+      sight: null
+      sound: null
+      attenuation: false
+    animation: null
+    flags: {}
+    c:
+      - 625
+      - 900
+      - 538
+      - 900
+    _id: G9oDEyB1llf4ABHp
+    _key: '!scenes.walls!GE3YoSHDmmF9uUBc.G9oDEyB1llf4ABHp'
+  - levels:
+      - 00FcHtGi06KdfZke
+    light: 20
+    move: 20
+    sight: 20
+    sound: 20
+    dir: 0
+    door: 1
+    ds: 0
+    threshold:
+      light: null
+      sight: null
+      sound: null
+      attenuation: false
+    animation: null
+    flags: {}
+    c:
+      - 538
+      - 900
+      - 475
+      - 900
+    _id: qVb1cups7qkep9Ou
+    doorSound: woodBasic
+    _key: '!scenes.walls!GE3YoSHDmmF9uUBc.qVb1cups7qkep9Ou'
+  - levels:
+      - 00FcHtGi06KdfZke
+    light: 20
+    move: 20
+    sight: 20
+    sound: 20
+    dir: 0
+    door: 0
+    ds: 0
+    threshold:
+      light: null
+      sight: null
+      sound: null
+      attenuation: false
+    animation: null
+    flags: {}
+    c:
+      - 475
+      - 900
+      - 413
+      - 900
+    _id: NxuvahKZnXziCRPo
+    _key: '!scenes.walls!GE3YoSHDmmF9uUBc.NxuvahKZnXziCRPo'
+  - levels:
+      - 00FcHtGi06KdfZke
+    light: 20
+    move: 20
+    sight: 20
+    sound: 20
+    dir: 0
+    door: 0
+    ds: 0
+    threshold:
+      light: null
+      sight: null
+      sound: null
+      attenuation: false
+    animation: null
+    flags: {}
+    c:
+      - 1250
+      - 413
+      - 1250
+      - 488
+    _id: a4Fn4dEUxYObLPFf
+    _key: '!scenes.walls!GE3YoSHDmmF9uUBc.a4Fn4dEUxYObLPFf'
+  - levels:
+      - 00FcHtGi06KdfZke
+    light: 20
+    move: 20
+    sight: 20
+    sound: 20
+    dir: 0
+    door: 1
+    ds: 0
+    threshold:
+      light: null
+      sight: null
+      sound: null
+      attenuation: false
+    animation: null
+    flags: {}
+    c:
+      - 1250
+      - 488
+      - 1250
+      - 538
+    _id: JBX7QRqJPT0zGmcG
+    doorSound: woodBasic
+    _key: '!scenes.walls!GE3YoSHDmmF9uUBc.JBX7QRqJPT0zGmcG'
+  - levels:
+      - 00FcHtGi06KdfZke
+    light: 20
+    move: 20
+    sight: 20
+    sound: 20
+    dir: 0
+    door: 0
+    ds: 0
+    threshold:
+      light: null
+      sight: null
+      sound: null
+      attenuation: false
+    animation: null
+    flags: {}
+    c:
+      - 1250
+      - 538
+      - 1250
+      - 613
+    _id: IsAdlFCtrrlBCSZI
+    _key: '!scenes.walls!GE3YoSHDmmF9uUBc.IsAdlFCtrrlBCSZI'
+  - levels:
+      - 00FcHtGi06KdfZke
+    light: 20
+    move: 20
+    sight: 20
+    sound: 20
+    dir: 0
+    door: 0
+    ds: 0
+    threshold:
+      light: null
+      sight: null
+      sound: null
+      attenuation: false
+    animation: null
+    flags: {}
+    c:
+      - 1250
+      - 613
+      - 1250
+      - 700
+    _id: K1X1dcm99C86JInh
+    _key: '!scenes.walls!GE3YoSHDmmF9uUBc.K1X1dcm99C86JInh'
+  - levels:
+      - 00FcHtGi06KdfZke
+    light: 20
+    move: 20
+    sight: 20
+    sound: 20
+    dir: 0
+    door: 1
+    ds: 1
+    threshold:
+      light: null
+      sight: null
+      sound: null
+      attenuation: false
+    animation: null
+    flags: {}
+    c:
+      - 1250
+      - 700
+      - 1250
+      - 750
+    _id: eUBYlQIZ10N7EHiB
+    doorSound: woodBasic
+    _key: '!scenes.walls!GE3YoSHDmmF9uUBc.eUBYlQIZ10N7EHiB'
+  - levels:
+      - 00FcHtGi06KdfZke
+    light: 20
+    move: 20
+    sight: 20
+    sound: 20
+    dir: 0
+    door: 0
+    ds: 0
+    threshold:
+      light: null
+      sight: null
+      sound: null
+      attenuation: false
+    animation: null
+    flags: {}
+    c:
+      - 1250
+      - 750
+      - 1250
+      - 825
+    _id: IiufltcR28nBlNDc
+    _key: '!scenes.walls!GE3YoSHDmmF9uUBc.IiufltcR28nBlNDc'
+  - levels:
+      - 00FcHtGi06KdfZke
+    light: 20
+    move: 20
+    sight: 20
+    sound: 20
+    dir: 0
+    door: 0
+    ds: 0
+    threshold:
+      light: null
+      sight: null
+      sound: null
+      attenuation: false
+    animation: null
+    flags: {}
+    c:
+      - 1250
+      - 613
+      - 1388
+      - 613
+    _id: GBJCqg57GHER0qQZ
+    _key: '!scenes.walls!GE3YoSHDmmF9uUBc.GBJCqg57GHER0qQZ'
+  - levels:
+      - 00FcHtGi06KdfZke
+    light: 20
+    move: 20
+    sight: 20
+    sound: 20
+    dir: 0
+    door: 0
+    ds: 0
+    threshold:
+      light: null
+      sight: null
+      sound: null
+      attenuation: false
+    animation: null
+    flags: {}
+    c:
+      - 1388
+      - 613
+      - 1400
+      - 613
+    _id: qjxVtgAbuRK7Iqtn
+    _key: '!scenes.walls!GE3YoSHDmmF9uUBc.qjxVtgAbuRK7Iqtn'
+  - levels:
+      - 00FcHtGi06KdfZke
+    light: 20
+    move: 20
+    sight: 20
+    sound: 20
+    dir: 0
+    door: 1
+    ds: 0
+    threshold:
+      light: null
+      sight: null
+      sound: null
+      attenuation: false
+    animation: null
+    flags: {}
+    c:
+      - 1400
+      - 613
+      - 1463
+      - 613
+    _id: DG4m94C74mwCZRO8
+    doorSound: woodBasic
+    _key: '!scenes.walls!GE3YoSHDmmF9uUBc.DG4m94C74mwCZRO8'
+  - levels:
+      - 00FcHtGi06KdfZke
+    light: 20
+    move: 20
+    sight: 20
+    sound: 20
+    dir: 0
+    door: 0
+    ds: 0
+    threshold:
+      light: null
+      sight: null
+      sound: null
+      attenuation: false
+    animation: null
+    flags: {}
+    c:
+      - 1463
+      - 613
+      - 1525
+      - 613
+    _id: FqLDa6Kst2xaNZwL
+    _key: '!scenes.walls!GE3YoSHDmmF9uUBc.FqLDa6Kst2xaNZwL'
+  - levels:
+      - 00FcHtGi06KdfZke
+    light: 20
+    move: 20
+    sight: 20
+    sound: 20
+    dir: 0
+    door: 0
+    ds: 0
+    threshold:
+      light: null
+      sight: null
+      sound: null
+      attenuation: false
+    animation: null
+    flags: {}
+    c:
+      - 1525
+      - 613
+      - 1613
+      - 613
+    _id: hLlfwWJ8tPqxjkYo
+    _key: '!scenes.walls!GE3YoSHDmmF9uUBc.hLlfwWJ8tPqxjkYo'
+  - levels:
+      - 00FcHtGi06KdfZke
+    light: 20
+    move: 20
+    sight: 20
+    sound: 20
+    dir: 0
+    door: 0
+    ds: 0
+    threshold:
+      light: null
+      sight: null
+      sound: null
+      attenuation: false
+    animation: null
+    flags: {}
+    c:
+      - 1613
+      - 613
+      - 1625
+      - 613
+    _id: Q7Sxk1XjcgkfMXdK
+    _key: '!scenes.walls!GE3YoSHDmmF9uUBc.Q7Sxk1XjcgkfMXdK'
+  - levels:
+      - 00FcHtGi06KdfZke
+    light: 20
+    move: 20
+    sight: 20
+    sound: 20
+    dir: 0
+    door: 1
+    ds: 0
+    threshold:
+      light: null
+      sight: null
+      sound: null
+      attenuation: false
+    animation: null
+    flags: {}
+    c:
+      - 1625
+      - 613
+      - 1688
+      - 613
+    _id: JpcGxfY4ZAMReaaR
+    doorSound: woodBasic
+    _key: '!scenes.walls!GE3YoSHDmmF9uUBc.JpcGxfY4ZAMReaaR'
+  - levels:
+      - 00FcHtGi06KdfZke
+    light: 20
+    move: 20
+    sight: 20
+    sound: 20
+    dir: 0
+    door: 0
+    ds: 0
+    threshold:
+      light: null
+      sight: null
+      sound: null
+      attenuation: false
+    animation: null
+    flags: {}
+    c:
+      - 1688
+      - 613
+      - 1813
+      - 613
+    _id: RlmK3Pg9cCvHoJ3j
+    _key: '!scenes.walls!GE3YoSHDmmF9uUBc.RlmK3Pg9cCvHoJ3j'
+  - levels:
+      - 00FcHtGi06KdfZke
+    light: 20
+    move: 20
+    sight: 20
+    sound: 20
+    dir: 0
+    door: 0
+    ds: 0
+    threshold:
+      light: null
+      sight: null
+      sound: null
+      attenuation: false
+    animation: null
+    flags: {}
+    c:
+      - 1613
+      - 613
+      - 1613
+      - 588
+    _id: t9qgmhmz5bGwY2QC
+    _key: '!scenes.walls!GE3YoSHDmmF9uUBc.t9qgmhmz5bGwY2QC'
+  - levels:
+      - 00FcHtGi06KdfZke
+    light: 20
+    move: 20
+    sight: 20
+    sound: 20
+    dir: 0
+    door: 1
+    ds: 0
+    threshold:
+      light: null
+      sight: null
+      sound: null
+      attenuation: false
+    animation: null
+    flags: {}
+    c:
+      - 1613
+      - 588
+      - 1613
+      - 525
+    _id: 0BYzp5aB3ctaszUH
+    doorSound: woodBasic
+    _key: '!scenes.walls!GE3YoSHDmmF9uUBc.0BYzp5aB3ctaszUH'
+  - levels:
+      - 00FcHtGi06KdfZke
+    light: 20
+    move: 20
+    sight: 20
+    sound: 20
+    dir: 0
+    door: 0
+    ds: 0
+    threshold:
+      light: null
+      sight: null
+      sound: null
+      attenuation: false
+    animation: null
+    flags: {}
+    c:
+      - 1613
+      - 525
+      - 1613
+      - 413
+    _id: I0PWFHdJP4hKHojl
+    _key: '!scenes.walls!GE3YoSHDmmF9uUBc.I0PWFHdJP4hKHojl'
+  - levels:
+      - 00FcHtGi06KdfZke
+    light: 20
+    move: 20
+    sight: 20
+    sound: 20
+    dir: 0
+    door: 0
+    ds: 0
+    threshold:
+      light: null
+      sight: null
+      sound: null
+      attenuation: false
+    animation: null
+    flags: {}
+    c:
+      - 1525
+      - 613
+      - 1525
+      - 763
+    _id: MMUIO6Vt5chsBY35
+    _key: '!scenes.walls!GE3YoSHDmmF9uUBc.MMUIO6Vt5chsBY35'
+  - levels:
+      - 00FcHtGi06KdfZke
+    light: 20
+    move: 20
+    sight: 20
+    sound: 20
+    dir: 0
+    door: 0
+    ds: 0
+    threshold:
+      light: null
+      sight: null
+      sound: null
+      attenuation: false
+    animation: null
+    flags: {}
+    c:
+      - 1613
+      - 613
+      - 1613
+      - 763
+    _id: 491k3mhB92koyTbB
+    _key: '!scenes.walls!GE3YoSHDmmF9uUBc.491k3mhB92koyTbB'
+  - levels:
+      - 00FcHtGi06KdfZke
+    light: 20
+    move: 20
+    sight: 20
+    sound: 20
+    dir: 0
+    door: 1
+    ds: 0
+    threshold:
+      light: null
+      sight: null
+      sound: null
+      attenuation: false
+    animation: null
+    flags: {}
+    c:
+      - 1613
+      - 763
+      - 1613
+      - 825
+    _id: wiY9VrW3nqHgycxP
+    doorSound: woodBasic
+    _key: '!scenes.walls!GE3YoSHDmmF9uUBc.wiY9VrW3nqHgycxP'
+  - levels:
+      - 00FcHtGi06KdfZke
+    light: 20
+    move: 20
+    sight: 20
+    sound: 20
+    dir: 0
+    door: 0
+    ds: 0
+    threshold:
+      light: null
+      sight: null
+      sound: null
+      attenuation: false
+    animation: null
+    flags: {}
+    c:
+      - 1388
+      - 613
+      - 1388
+      - 413
+    _id: 2WB4xiyeblC236QM
+    _key: '!scenes.walls!GE3YoSHDmmF9uUBc.2WB4xiyeblC236QM'
 playlist: null
 playlistSound: null
 journal: null
@@ -480,6 +7287,12 @@ flags:
     revealRadius: 0
     gridRevealRadius: 0
     schemaVersion: 2.2.0
+    tokenReveal:
+      units: spaces
+      value: null
+    gridReveal:
+      units: spaces
+      value: 0
   pf2e:
     rulesBasedVision: null
     hearingRange: null
@@ -488,9 +7301,9 @@ flags:
 _stats:
   coreVersion: '14.364'
   systemId: pf2e
-  systemVersion: 8.2.0
-  createdTime: 1783042391729
-  modifiedTime: 1783042391729
+  systemVersion: 8.3.0
+  createdTime: 1783814990391
+  modifiedTime: 1783814990391
   lastModifiedBy: txZjek5EOiCBHPoz
   exportSource: null
   compendiumSource: null

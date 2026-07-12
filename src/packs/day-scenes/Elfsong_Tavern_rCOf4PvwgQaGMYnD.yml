@@ -3,7 +3,7 @@ name: Elfsong Tavern
 _id: rCOf4PvwgQaGMYnD
 navigation: false
 navOrder: 0
-thumb: worlds/kingmaker/assets/scenes/thumb-CORg1IOgEwdBqFDe8BI5Xw.webp
+thumb: worlds/kingmaker/assets/scenes/thumb-PGZYM8lQqsNHESBWRaFjDw.webp
 width: 4000
 height: 3444
 padding: 0.25
@@ -3982,9 +3982,9 @@ regions:
         _stats:
           coreVersion: '14.364'
           systemId: pf2e
-          systemVersion: 8.2.0
-          createdTime: 1783042391754
-          modifiedTime: 1783042391754
+          systemVersion: 8.3.0
+          createdTime: 1783814990449
+          modifiedTime: 1783814990449
           lastModifiedBy: txZjek5EOiCBHPoz
           compendiumSource: null
           duplicateSource: null
@@ -4051,9 +4051,9 @@ regions:
         _stats:
           coreVersion: '14.364'
           systemId: pf2e
-          systemVersion: 8.2.0
-          createdTime: 1783042391755
-          modifiedTime: 1783042391755
+          systemVersion: 8.3.0
+          createdTime: 1783814990449
+          modifiedTime: 1783814990449
           lastModifiedBy: txZjek5EOiCBHPoz
           compendiumSource: null
           duplicateSource: null
@@ -8740,7 +8740,7 @@ flags:
     persistExploredAreas: false
     revealRadius: 0
     gridRevealRadius: 0
-    schemaVersion: 2.1.0
+    schemaVersion: 2.2.0
   pf2e:
     rulesBasedVision: null
     hearingRange: null
@@ -8749,9 +8749,9 @@ flags:
 _stats:
   coreVersion: '14.364'
   systemId: pf2e
-  systemVersion: 8.2.0
-  createdTime: 1783042391745
-  modifiedTime: 1783042391745
+  systemVersion: 8.3.0
+  createdTime: 1783814990441
+  modifiedTime: 1783814990441
   lastModifiedBy: txZjek5EOiCBHPoz
   exportSource: null
   compendiumSource: null
