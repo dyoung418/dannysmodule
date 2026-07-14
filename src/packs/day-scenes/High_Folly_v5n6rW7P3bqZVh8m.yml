@@ -2,7 +2,7 @@ folder: wWLmoj0X0gW1STMN
 name: High Folly
 _id: v5n6rW7P3bqZVh8m
 navigation: false
-thumb: worlds/kingmaker/assets/scenes/thumb-DjbAqghMD72BeGQ4kUz1UQ.webp
+thumb: worlds/kingmaker/assets/scenes/thumb-47YveeR6x8xlVVHZntot8w.webp
 width: 4000
 height: 3000
 padding: 0.25
@@ -29,7 +29,7 @@ fog:
     explored: null
     unexplored: null
 environment:
-  darknessLevel: 0
+  darknessLevel: 0.26245378738771274
   darknessLock: false
   globalLight:
     enabled: true
@@ -215,10 +215,10 @@ tokens:
           _stats:
             coreVersion: '14.364'
             systemId: pf2e
-            systemVersion: 8.2.0
-            createdTime: null
-            modifiedTime: null
-            lastModifiedBy: null
+            systemVersion: 8.3.0
+            createdTime: 1783987552296
+            modifiedTime: 1783987552296
+            lastModifiedBy: txZjek5EOiCBHPoz
             exportSource: null
             compendiumSource: null
             duplicateSource: null
@@ -266,10 +266,10 @@ tokens:
           _stats:
             coreVersion: '14.364'
             systemId: pf2e
-            systemVersion: 8.2.0
-            createdTime: null
-            modifiedTime: null
-            lastModifiedBy: null
+            systemVersion: 8.3.0
+            createdTime: 1783987552296
+            modifiedTime: 1783987552296
+            lastModifiedBy: txZjek5EOiCBHPoz
             compendiumSource: null
             duplicateSource: null
             exportSource: null
@@ -422,10 +422,10 @@ tokens:
           _stats:
             coreVersion: '14.364'
             systemId: pf2e
-            systemVersion: 8.2.0
-            createdTime: null
-            modifiedTime: null
-            lastModifiedBy: null
+            systemVersion: 8.3.0
+            createdTime: 1783987552297
+            modifiedTime: 1783987552297
+            lastModifiedBy: txZjek5EOiCBHPoz
             compendiumSource: null
             duplicateSource: null
             exportSource: null
@@ -614,10 +614,10 @@ tokens:
           _stats:
             coreVersion: '14.364'
             systemId: pf2e
-            systemVersion: 8.2.0
-            createdTime: null
-            modifiedTime: null
-            lastModifiedBy: null
+            systemVersion: 8.3.0
+            createdTime: 1783987552298
+            modifiedTime: 1783987552298
+            lastModifiedBy: txZjek5EOiCBHPoz
             exportSource: null
             compendiumSource: null
             duplicateSource: null
@@ -665,10 +665,10 @@ tokens:
           _stats:
             coreVersion: '14.364'
             systemId: pf2e
-            systemVersion: 8.2.0
-            createdTime: null
-            modifiedTime: null
-            lastModifiedBy: null
+            systemVersion: 8.3.0
+            createdTime: 1783987552298
+            modifiedTime: 1783987552298
+            lastModifiedBy: txZjek5EOiCBHPoz
             compendiumSource: null
             duplicateSource: null
             exportSource: null
@@ -813,10 +813,10 @@ tokens:
           _stats:
             coreVersion: '14.364'
             systemId: pf2e
-            systemVersion: 8.2.0
-            createdTime: null
-            modifiedTime: null
-            lastModifiedBy: null
+            systemVersion: 8.3.0
+            createdTime: 1783987552299
+            modifiedTime: 1783987552299
+            lastModifiedBy: txZjek5EOiCBHPoz
             compendiumSource: null
             duplicateSource: null
             exportSource: null
@@ -962,10 +962,10 @@ tokens:
           _stats:
             coreVersion: '14.364'
             systemId: pf2e
-            systemVersion: 8.2.0
-            createdTime: null
-            modifiedTime: null
-            lastModifiedBy: null
+            systemVersion: 8.3.0
+            createdTime: 1783987552300
+            modifiedTime: 1783987552300
+            lastModifiedBy: txZjek5EOiCBHPoz
             compendiumSource: null
             duplicateSource: null
             exportSource: null
@@ -1111,10 +1111,10 @@ tokens:
           _stats:
             coreVersion: '14.364'
             systemId: pf2e
-            systemVersion: 8.2.0
-            createdTime: null
-            modifiedTime: null
-            lastModifiedBy: null
+            systemVersion: 8.3.0
+            createdTime: 1783987552300
+            modifiedTime: 1783987552300
+            lastModifiedBy: txZjek5EOiCBHPoz
             compendiumSource: null
             duplicateSource: null
             exportSource: null
@@ -1266,10 +1266,10 @@ tokens:
           _stats:
             coreVersion: '14.364'
             systemId: pf2e
-            systemVersion: 8.2.0
-            createdTime: null
-            modifiedTime: null
-            lastModifiedBy: null
+            systemVersion: 8.3.0
+            createdTime: 1783987552301
+            modifiedTime: 1783987552301
+            lastModifiedBy: txZjek5EOiCBHPoz
             compendiumSource: null
             duplicateSource: null
             exportSource: null
@@ -1425,10 +1425,10 @@ tokens:
           _stats:
             coreVersion: '14.364'
             systemId: pf2e
-            systemVersion: 8.2.0
-            createdTime: null
-            modifiedTime: null
-            lastModifiedBy: null
+            systemVersion: 8.3.0
+            createdTime: 1783987552302
+            modifiedTime: 1783987552302
+            lastModifiedBy: txZjek5EOiCBHPoz
             compendiumSource: null
             duplicateSource: null
             exportSource: null
@@ -1597,10 +1597,10 @@ tokens:
           _stats:
             coreVersion: '14.364'
             systemId: pf2e
-            systemVersion: 8.2.0
-            createdTime: null
-            modifiedTime: null
-            lastModifiedBy: null
+            systemVersion: 8.3.0
+            createdTime: 1783987552303
+            modifiedTime: 1783987552303
+            lastModifiedBy: txZjek5EOiCBHPoz
             exportSource: null
             compendiumSource: null
             duplicateSource: null
@@ -1676,10 +1676,10 @@ tokens:
           _stats:
             coreVersion: '14.364'
             systemId: pf2e
-            systemVersion: 8.2.0
-            createdTime: null
-            modifiedTime: null
-            lastModifiedBy: null
+            systemVersion: 8.3.0
+            createdTime: 1783987552303
+            modifiedTime: 1783987552303
+            lastModifiedBy: txZjek5EOiCBHPoz
             exportSource: null
             compendiumSource: null
             duplicateSource: null
@@ -1727,10 +1727,10 @@ tokens:
           _stats:
             coreVersion: '14.364'
             systemId: pf2e
-            systemVersion: 8.2.0
-            createdTime: null
-            modifiedTime: null
-            lastModifiedBy: null
+            systemVersion: 8.3.0
+            createdTime: 1783987552303
+            modifiedTime: 1783987552303
+            lastModifiedBy: txZjek5EOiCBHPoz
             compendiumSource: null
             duplicateSource: null
             exportSource: null
@@ -2127,8 +2127,8 @@ tokens:
     level: RBcOqfQLzeawpUHb
     _id: HjK34LHdJH7eOavG
     delta: null
-    x: 1400
-    'y': 3300
+    x: 1500
+    'y': 3200
     elevation: 20
     locked: false
     _movementHistory: []
@@ -2333,8 +2333,8 @@ tokens:
     level: RBcOqfQLzeawpUHb
     _id: GI3pn7vfjVB5Y3T8
     delta: null
-    x: 4200
-    'y': 1500
+    x: 2500
+    'y': 1600
     elevation: 20
     locked: false
     _movementHistory: []
@@ -2449,8 +2449,8 @@ tokens:
     level: RBcOqfQLzeawpUHb
     _id: WDiqWO4se609CzFv
     delta: null
-    x: 4000
-    'y': 1600
+    x: 2300
+    'y': 1800
     elevation: 20
     locked: false
     _movementHistory: []
@@ -2558,8 +2558,8 @@ tokens:
     level: RBcOqfQLzeawpUHb
     _id: b9LhqpzAAUOI9dXC
     delta: null
-    x: 1500
-    'y': 3400
+    x: 2300
+    'y': 1600
     elevation: 20
     locked: false
     _movementHistory: []
@@ -2672,8 +2672,8 @@ tokens:
     level: RBcOqfQLzeawpUHb
     _id: cKvrRbEJPUFEsWBh
     delta: null
-    x: 1600
-    'y': 3000
+    x: 2200
+    'y': 1700
     elevation: 20
     locked: false
     _movementHistory: []
@@ -2788,8 +2788,8 @@ tokens:
     level: RBcOqfQLzeawpUHb
     _id: eAAFMhfKwW7gpJv9
     delta: null
-    x: 4000
-    'y': 1700
+    x: 2400
+    'y': 1800
     elevation: 20
     locked: false
     _movementHistory: []
@@ -2897,8 +2897,8 @@ tokens:
     level: RBcOqfQLzeawpUHb
     _id: KON94lpS0picAwtg
     delta: null
-    x: 1600
-    'y': 3400
+    x: 2400
+    'y': 1600
     elevation: 20
     locked: false
     _movementHistory: []
@@ -3009,8 +3009,8 @@ tokens:
     level: RBcOqfQLzeawpUHb
     _id: P1slPJIJOx0FdfIL
     delta: null
-    x: 1600
-    'y': 3500
+    x: 2600
+    'y': 1700
     elevation: 20
     locked: false
     _movementHistory: []
@@ -3245,11 +3245,11 @@ tokens:
           flags: {}
           _stats:
             systemId: pf2e
-            systemVersion: 8.2.0
+            systemVersion: 8.3.0
             coreVersion: '14.364'
-            createdTime: null
-            modifiedTime: null
-            lastModifiedBy: null
+            createdTime: 1783987552307
+            modifiedTime: 1783987552307
+            lastModifiedBy: txZjek5EOiCBHPoz
             exportSource: null
             compendiumSource: null
             duplicateSource: null
@@ -3308,11 +3308,11 @@ tokens:
           flags: {}
           _stats:
             systemId: pf2e
-            systemVersion: 8.2.0
+            systemVersion: 8.3.0
             coreVersion: '14.364'
-            createdTime: null
-            modifiedTime: null
-            lastModifiedBy: null
+            createdTime: 1783987552307
+            modifiedTime: 1783987552307
+            lastModifiedBy: txZjek5EOiCBHPoz
             exportSource: null
             compendiumSource: null
             duplicateSource: null
@@ -3367,10 +3367,10 @@ tokens:
           _stats:
             coreVersion: '14.364'
             systemId: pf2e
-            systemVersion: 8.2.0
-            createdTime: null
-            modifiedTime: null
-            lastModifiedBy: null
+            systemVersion: 8.3.0
+            createdTime: 1783987552307
+            modifiedTime: 1783987552307
+            lastModifiedBy: txZjek5EOiCBHPoz
             exportSource: null
             compendiumSource: null
             duplicateSource: null
@@ -3436,10 +3436,10 @@ tokens:
           _stats:
             coreVersion: '14.364'
             systemId: pf2e
-            systemVersion: 8.2.0
-            createdTime: null
-            modifiedTime: null
-            lastModifiedBy: null
+            systemVersion: 8.3.0
+            createdTime: 1783987552307
+            modifiedTime: 1783987552307
+            lastModifiedBy: txZjek5EOiCBHPoz
             exportSource: null
             compendiumSource: null
             duplicateSource: null
@@ -3487,10 +3487,10 @@ tokens:
           _stats:
             coreVersion: '14.364'
             systemId: pf2e
-            systemVersion: 8.2.0
-            createdTime: null
-            modifiedTime: null
-            lastModifiedBy: null
+            systemVersion: 8.3.0
+            createdTime: 1783987552308
+            modifiedTime: 1783987552308
+            lastModifiedBy: txZjek5EOiCBHPoz
             compendiumSource: null
             duplicateSource: null
             exportSource: null
@@ -3515,13 +3515,12 @@ tokens:
       img: null
       ownership: null
       _key: '!scenes.tokens.delta!v5n6rW7P3bqZVh8m.16jnKZtBkJ1uTZIb.16jnKZtBkJ1uTZIb'
-    x: 2500
-    'y': 1500
+    x: 3100
+    'y': 1800
     elevation: 45
     locked: false
     _movementHistory: []
-    _regions:
-      - eFtfKHEozZE65MZJ
+    _regions: []
     _key: '!scenes.tokens!v5n6rW7P3bqZVh8m.16jnKZtBkJ1uTZIb'
 levels:
   - _id: defaultLevel0000
@@ -5688,9 +5687,9 @@ regions:
         _stats:
           coreVersion: '14.364'
           systemId: pf2e
-          systemVersion: 8.2.0
-          createdTime: 1783042550000
-          modifiedTime: 1783042550000
+          systemVersion: 8.3.0
+          createdTime: 1783987552312
+          modifiedTime: 1783987552312
           lastModifiedBy: txZjek5EOiCBHPoz
           compendiumSource: null
           duplicateSource: null
@@ -5770,9 +5769,9 @@ regions:
         _stats:
           coreVersion: '14.364'
           systemId: pf2e
-          systemVersion: 8.2.0
-          createdTime: 1783042550000
-          modifiedTime: 1783042550000
+          systemVersion: 8.3.0
+          createdTime: 1783987552312
+          modifiedTime: 1783987552312
           lastModifiedBy: txZjek5EOiCBHPoz
           compendiumSource: null
           duplicateSource: null
@@ -5834,9 +5833,9 @@ regions:
         _stats:
           coreVersion: '14.364'
           systemId: pf2e
-          systemVersion: 8.2.0
-          createdTime: 1783042550001
-          modifiedTime: 1783042550001
+          systemVersion: 8.3.0
+          createdTime: 1783987552313
+          modifiedTime: 1783987552313
           lastModifiedBy: txZjek5EOiCBHPoz
           compendiumSource: null
           duplicateSource: null
@@ -5934,9 +5933,9 @@ regions:
         _stats:
           coreVersion: '14.364'
           systemId: pf2e
-          systemVersion: 8.2.0
-          createdTime: 1783042550001
-          modifiedTime: 1783042550001
+          systemVersion: 8.3.0
+          createdTime: 1783987552313
+          modifiedTime: 1783987552313
           lastModifiedBy: txZjek5EOiCBHPoz
           compendiumSource: null
           duplicateSource: null
@@ -6020,9 +6019,9 @@ regions:
         _stats:
           coreVersion: '14.364'
           systemId: pf2e
-          systemVersion: 8.2.0
-          createdTime: 1783042550001
-          modifiedTime: 1783042550001
+          systemVersion: 8.3.0
+          createdTime: 1783987552313
+          modifiedTime: 1783987552313
           lastModifiedBy: txZjek5EOiCBHPoz
           compendiumSource: null
           duplicateSource: null
@@ -6083,9 +6082,9 @@ regions:
         _stats:
           coreVersion: '14.364'
           systemId: pf2e
-          systemVersion: 8.2.0
-          createdTime: 1783042550001
-          modifiedTime: 1783042550001
+          systemVersion: 8.3.0
+          createdTime: 1783987552313
+          modifiedTime: 1783987552313
           lastModifiedBy: txZjek5EOiCBHPoz
           compendiumSource: null
           duplicateSource: null
@@ -6142,9 +6141,9 @@ regions:
         _stats:
           coreVersion: '14.364'
           systemId: pf2e
-          systemVersion: 8.2.0
-          createdTime: 1783042550002
-          modifiedTime: 1783042550002
+          systemVersion: 8.3.0
+          createdTime: 1783987552313
+          modifiedTime: 1783987552313
           lastModifiedBy: txZjek5EOiCBHPoz
           compendiumSource: null
           duplicateSource: null
@@ -6205,9 +6204,9 @@ regions:
         _stats:
           coreVersion: '14.364'
           systemId: pf2e
-          systemVersion: 8.2.0
-          createdTime: 1783042550002
-          modifiedTime: 1783042550002
+          systemVersion: 8.3.0
+          createdTime: 1783987552314
+          modifiedTime: 1783987552314
           lastModifiedBy: txZjek5EOiCBHPoz
           compendiumSource: null
           duplicateSource: null
@@ -6232,7 +6231,7 @@ walls:
     sound: 20
     dir: 0
     door: 1
-    ds: 0
+    ds: 1
     threshold:
       light: null
       sight: null
@@ -6263,7 +6262,7 @@ walls:
     sound: 20
     dir: 0
     door: 1
-    ds: 0
+    ds: 1
     threshold:
       light: null
       sight: null
@@ -6294,7 +6293,7 @@ walls:
     sound: 20
     dir: 0
     door: 1
-    ds: 0
+    ds: 1
     threshold:
       light: null
       sight: null
@@ -8027,7 +8026,7 @@ walls:
     sound: 20
     dir: 0
     door: 1
-    ds: 0
+    ds: 1
     threshold:
       light: null
       sight: null
@@ -16712,9 +16711,9 @@ flags:
 _stats:
   coreVersion: '14.364'
   systemId: pf2e
-  systemVersion: 8.2.0
-  createdTime: 1783042549981
-  modifiedTime: 1783042549981
+  systemVersion: 8.3.0
+  createdTime: 1783987552294
+  modifiedTime: 1783987552294
   lastModifiedBy: txZjek5EOiCBHPoz
   exportSource: null
   compendiumSource: null
@@ -16725,5 +16724,5 @@ ownership:
 active: false
 navOrder: 0
 sort: 0
-templates: []
 _key: '!scenes!v5n6rW7P3bqZVh8m'
+templates: []
