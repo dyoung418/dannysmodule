@@ -1,5 +1,10 @@
 
 
+## [v1.1.6] - 2026-07-16
+### :sparkles: New Features
+- [`8c1d97b`](https://github.com/dyoung418/dannysmodule/commit/8c1d97bb53b34a5296c80c12f712c895ad9271f4) - add walls to warehouse and tavern scenes *(commit by [@dyoung418](https://github.com/dyoung418))*
+
+
 ## [v1.1.5] - 2026-07-03
 ### :sparkles: New Features
 - [`2a2c73d`](https://github.com/dyoung418/dannysmodule/commit/2a2c73d0d5ca55befcf38b2e31ad54b17fb644b9) - added house at the edge of space setting scene *(commit by [@dyoung418](https://github.com/dyoung418))*
@@ -160,3 +165,4 @@
 [v1.1.3]: https://github.com/dyoung418/dannysmodule/compare/v1.1.2...v1.1.3
 [v1.1.4]: https://github.com/dyoung418/dannysmodule/compare/v1.1.3...v1.1.4
 [v1.1.5]: https://github.com/dyoung418/dannysmodule/compare/v1.1.4...v1.1.5
+[v1.1.6]: https://github.com/dyoung418/dannysmodule/compare/v1.1.5...v1.1.6
