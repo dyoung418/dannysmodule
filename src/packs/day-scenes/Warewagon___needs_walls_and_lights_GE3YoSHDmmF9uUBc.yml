@@ -2,7 +2,7 @@ folder: 1LOPSyo3SGiD9SB8
 name: Warewagon - needs walls and lights
 _id: GE3YoSHDmmF9uUBc
 navigation: false
-thumb: worlds/daggerheart-test/assets/scenes/thumb-igEvaHoMG7eTd9M_kdp9rA.webp
+thumb: worlds/kingmaker/assets/scenes/thumb-igEvaHoMG7eTd9M_kdp9rA.webp
 width: 1426
 height: 1426
 padding: 0.25
@@ -2113,11 +2113,11 @@ regions:
         flags: {}
         _stats:
           coreVersion: '14.364'
-          systemId: daggerheart
-          systemVersion: 2.5.2
-          createdTime: 1783959299039
-          modifiedTime: 1783959299039
-          lastModifiedBy: pQzNfYJpGL2Gy8DA
+          systemId: pf2e
+          systemVersion: 8.3.0
+          createdTime: 1784179257659
+          modifiedTime: 1784179257659
+          lastModifiedBy: txZjek5EOiCBHPoz
           compendiumSource: null
           duplicateSource: null
           exportSource: null
@@ -2172,11 +2172,11 @@ regions:
         flags: {}
         _stats:
           coreVersion: '14.364'
-          systemId: daggerheart
-          systemVersion: 2.5.2
-          createdTime: 1783959299039
-          modifiedTime: 1783959299039
-          lastModifiedBy: pQzNfYJpGL2Gy8DA
+          systemId: pf2e
+          systemVersion: 8.3.0
+          createdTime: 1784179257660
+          modifiedTime: 1784179257660
+          lastModifiedBy: txZjek5EOiCBHPoz
           compendiumSource: null
           duplicateSource: null
           exportSource: null
@@ -2241,11 +2241,11 @@ regions:
         flags: {}
         _stats:
           coreVersion: '14.364'
-          systemId: daggerheart
-          systemVersion: 2.5.2
-          createdTime: 1783959299039
-          modifiedTime: 1783959299039
-          lastModifiedBy: pQzNfYJpGL2Gy8DA
+          systemId: pf2e
+          systemVersion: 8.3.0
+          createdTime: 1784179257660
+          modifiedTime: 1784179257660
+          lastModifiedBy: txZjek5EOiCBHPoz
           compendiumSource: null
           duplicateSource: null
           exportSource: null
@@ -2317,11 +2317,11 @@ regions:
         flags: {}
         _stats:
           coreVersion: '14.364'
-          systemId: daggerheart
-          systemVersion: 2.5.2
-          createdTime: 1783959299040
-          modifiedTime: 1783959299040
-          lastModifiedBy: pQzNfYJpGL2Gy8DA
+          systemId: pf2e
+          systemVersion: 8.3.0
+          createdTime: 1784179257660
+          modifiedTime: 1784179257660
+          lastModifiedBy: txZjek5EOiCBHPoz
           compendiumSource: null
           duplicateSource: null
           exportSource: null
@@ -7300,11 +7300,11 @@ flags:
     syncDarkness: default
 _stats:
   coreVersion: '14.364'
-  systemId: daggerheart
-  systemVersion: 2.5.2
-  createdTime: 1783959299034
-  modifiedTime: 1783959299034
-  lastModifiedBy: pQzNfYJpGL2Gy8DA
+  systemId: pf2e
+  systemVersion: 8.3.0
+  createdTime: 1784179257654
+  modifiedTime: 1784179257654
+  lastModifiedBy: txZjek5EOiCBHPoz
   exportSource: null
   compendiumSource: null
   duplicateSource: null

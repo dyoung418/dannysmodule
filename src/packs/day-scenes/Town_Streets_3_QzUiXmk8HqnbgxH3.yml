@@ -2290,9 +2290,9 @@ _stats:
   exportSource: null
   coreVersion: '14.364'
   systemId: pf2e
-  systemVersion: 8.0.3
-  createdTime: 1777266016610
-  modifiedTime: 1777266016610
+  systemVersion: 8.3.0
+  createdTime: 1784179328562
+  modifiedTime: 1784179328562
   lastModifiedBy: txZjek5EOiCBHPoz
 active: false
 sort: 0
@@ -2336,5 +2336,5 @@ transition:
   type: null
   duration: 1500
   activeOnly: false
-templates: []
 _key: '!scenes!QzUiXmk8HqnbgxH3'
+templates: []

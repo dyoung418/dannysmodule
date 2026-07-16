@@ -3,8 +3,8 @@ name: Medeival City
 _id: iLwbTtIq9F1JBeu7
 navigation: false
 navOrder: 0
-navName: ''
-thumb: worlds/kingmaker/assets/scenes/thumb-6okiPKzwyKoUUoAxre0naQ.webp
+navName: Nightmarch
+thumb: worlds/kingmaker/assets/scenes/thumb-Q8mMAnXkiQjJiF4RUb7b_w.webp
 width: 2912
 height: 1632
 padding: 0.25
@@ -74,24 +74,28 @@ flags:
     rulesBasedVision: null
     hearingRange: null
     environmentTypes: []
+    syncDarkness: default
   world-explorer:
     enabled: false
     color: '#000000'
     image: ''
     persistExploredAreas: false
     position: behindDrawings
-    revealRadius: '0'
-    gridRevealRadius: '0'
+    revealRadius: 0
+    gridRevealRadius: 0
     opacityGM: 0.7
     opacityPlayer: 1
+    schemaVersion: 2.1.0
+    partialColor: ''
+    partialOpacityPlayer: 0.4
 _stats:
   compendiumSource: null
   duplicateSource: null
   coreVersion: '14.364'
   systemId: pf2e
-  systemVersion: 8.1.2
-  createdTime: 1779696841499
-  modifiedTime: 1779696841499
+  systemVersion: 8.3.0
+  createdTime: 1784179346917
+  modifiedTime: 1784179346917
   lastModifiedBy: txZjek5EOiCBHPoz
   exportSource: null
 active: false
@@ -133,8 +137,8 @@ shiftX: 0
 shiftY: 0
 initialLevel: defaultLevel0000
 transition:
-  type: null
+  type: crosshatch
   duration: 1500
   activeOnly: false
-templates: []
 _key: '!scenes!iLwbTtIq9F1JBeu7'
+templates: []

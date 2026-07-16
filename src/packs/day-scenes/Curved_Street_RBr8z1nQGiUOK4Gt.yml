@@ -973,15 +973,15 @@ tokens:
             persistent: null
           type: condition
           _stats:
-            coreVersion: '14.360'
+            coreVersion: '14.364'
             systemId: pf2e
-            systemVersion: 8.0.3
+            systemVersion: 8.3.0
             lastModifiedBy: txZjek5EOiCBHPoz
             compendiumSource: null
             duplicateSource: null
             exportSource: null
-            createdTime: 1777266017719
-            modifiedTime: 1777266017719
+            createdTime: 1784179329074
+            modifiedTime: 1784179329074
           effects: []
           folder: null
           sort: 0
@@ -1040,15 +1040,15 @@ tokens:
             persistent: null
           type: condition
           _stats:
-            coreVersion: '14.360'
+            coreVersion: '14.364'
             systemId: pf2e
-            systemVersion: 8.0.3
+            systemVersion: 8.3.0
             lastModifiedBy: txZjek5EOiCBHPoz
             compendiumSource: null
             duplicateSource: null
             exportSource: null
-            createdTime: 1777266017720
-            modifiedTime: 1777266017720
+            createdTime: 1784179329074
+            modifiedTime: 1784179329074
           effects: []
           folder: null
           sort: 0
@@ -1110,15 +1110,15 @@ tokens:
             fromSpell: false
           type: condition
           _stats:
-            coreVersion: '14.360'
+            coreVersion: '14.364'
             systemId: pf2e
-            systemVersion: 8.0.3
+            systemVersion: 8.3.0
             lastModifiedBy: txZjek5EOiCBHPoz
             compendiumSource: null
             duplicateSource: null
             exportSource: null
-            createdTime: 1777266017720
-            modifiedTime: 1777266017720
+            createdTime: 1784179329074
+            modifiedTime: 1784179329074
           effects: []
           folder: null
           sort: 0
@@ -1232,15 +1232,15 @@ tokens:
           effects: []
           folder: null
           _stats:
-            coreVersion: '14.360'
+            coreVersion: '14.364'
             systemId: pf2e
-            systemVersion: 8.0.3
+            systemVersion: 8.3.0
             lastModifiedBy: txZjek5EOiCBHPoz
             compendiumSource: null
             duplicateSource: null
             exportSource: null
-            createdTime: 1777266017720
-            modifiedTime: 1777266017720
+            createdTime: 1784179329074
+            modifiedTime: 1784179329074
           ownership:
             default: 0
           _key: >-
@@ -1326,15 +1326,15 @@ tokens:
           effects: []
           folder: null
           _stats:
-            coreVersion: '14.360'
+            coreVersion: '14.364'
             systemId: pf2e
-            systemVersion: 8.0.3
+            systemVersion: 8.3.0
             lastModifiedBy: txZjek5EOiCBHPoz
             compendiumSource: null
             duplicateSource: null
             exportSource: null
-            createdTime: 1777266017720
-            modifiedTime: 1777266017720
+            createdTime: 1784179329074
+            modifiedTime: 1784179329074
           ownership:
             default: 0
           _key: >-
@@ -1403,15 +1403,15 @@ tokens:
           folder: null
           flags: {}
           _stats:
-            coreVersion: '14.360'
+            coreVersion: '14.364'
             systemId: pf2e
-            systemVersion: 8.0.3
+            systemVersion: 8.3.0
             lastModifiedBy: txZjek5EOiCBHPoz
             compendiumSource: null
             duplicateSource: null
             exportSource: null
-            createdTime: 1777266017720
-            modifiedTime: 1777266017720
+            createdTime: 1784179329074
+            modifiedTime: 1784179329074
           ownership:
             default: 0
           _key: >-
@@ -1486,15 +1486,15 @@ tokens:
           folder: null
           flags: {}
           _stats:
-            coreVersion: '14.360'
+            coreVersion: '14.364'
             systemId: pf2e
-            systemVersion: 8.0.3
+            systemVersion: 8.3.0
             lastModifiedBy: txZjek5EOiCBHPoz
             compendiumSource: null
             duplicateSource: null
             exportSource: null
-            createdTime: 1777266017721
-            modifiedTime: 1777266017721
+            createdTime: 1784179329074
+            modifiedTime: 1784179329074
           ownership:
             default: 0
           _key: >-
@@ -1547,15 +1547,15 @@ tokens:
           effects: []
           folder: null
           _stats:
-            coreVersion: '14.360'
+            coreVersion: '14.364'
             systemId: pf2e
-            systemVersion: 8.0.3
+            systemVersion: 8.3.0
             lastModifiedBy: txZjek5EOiCBHPoz
             compendiumSource: null
             duplicateSource: null
             exportSource: null
-            createdTime: 1777266017721
-            modifiedTime: 1777266017721
+            createdTime: 1784179329075
+            modifiedTime: 1784179329075
           ownership:
             default: 0
           _key: >-
@@ -1605,15 +1605,15 @@ tokens:
           folder: null
           flags: {}
           _stats:
-            coreVersion: '14.360'
+            coreVersion: '14.364'
             systemId: pf2e
-            systemVersion: 8.0.3
+            systemVersion: 8.3.0
             lastModifiedBy: txZjek5EOiCBHPoz
             compendiumSource: null
             duplicateSource: null
             exportSource: null
-            createdTime: 1777266017721
-            modifiedTime: 1777266017721
+            createdTime: 1784179329075
+            modifiedTime: 1784179329075
           ownership:
             default: 0
           _key: >-
@@ -1665,15 +1665,15 @@ tokens:
           folder: null
           flags: {}
           _stats:
-            coreVersion: '14.360'
+            coreVersion: '14.364'
             systemId: pf2e
-            systemVersion: 8.0.3
+            systemVersion: 8.3.0
             lastModifiedBy: txZjek5EOiCBHPoz
             compendiumSource: null
             duplicateSource: null
             exportSource: null
-            createdTime: 1777266017721
-            modifiedTime: 1777266017721
+            createdTime: 1784179329075
+            modifiedTime: 1784179329075
           ownership:
             default: 0
           _key: >-
@@ -1714,15 +1714,15 @@ tokens:
           effects: []
           folder: null
           _stats:
-            coreVersion: '14.360'
+            coreVersion: '14.364'
             systemId: pf2e
-            systemVersion: 8.0.3
+            systemVersion: 8.3.0
             lastModifiedBy: txZjek5EOiCBHPoz
             compendiumSource: null
             duplicateSource: null
             exportSource: null
-            createdTime: 1777266017721
-            modifiedTime: 1777266017721
+            createdTime: 1784179329075
+            modifiedTime: 1784179329075
           ownership:
             default: 0
           _key: >-
@@ -1763,15 +1763,15 @@ tokens:
           effects: []
           folder: null
           _stats:
-            coreVersion: '14.360'
+            coreVersion: '14.364'
             systemId: pf2e
-            systemVersion: 8.0.3
+            systemVersion: 8.3.0
             lastModifiedBy: txZjek5EOiCBHPoz
             compendiumSource: null
             duplicateSource: null
             exportSource: null
-            createdTime: 1777266017721
-            modifiedTime: 1777266017721
+            createdTime: 1784179329075
+            modifiedTime: 1784179329075
           ownership:
             default: 0
           _key: >-
@@ -1812,15 +1812,15 @@ tokens:
           effects: []
           folder: null
           _stats:
-            coreVersion: '14.360'
+            coreVersion: '14.364'
             systemId: pf2e
-            systemVersion: 8.0.3
+            systemVersion: 8.3.0
             lastModifiedBy: txZjek5EOiCBHPoz
             compendiumSource: null
             duplicateSource: null
             exportSource: null
-            createdTime: 1777266017721
-            modifiedTime: 1777266017721
+            createdTime: 1784179329075
+            modifiedTime: 1784179329075
           ownership:
             default: 0
           _key: >-
@@ -1866,15 +1866,15 @@ tokens:
           folder: null
           flags: {}
           _stats:
-            coreVersion: '14.360'
+            coreVersion: '14.364'
             systemId: pf2e
-            systemVersion: 8.0.3
+            systemVersion: 8.3.0
             lastModifiedBy: txZjek5EOiCBHPoz
             compendiumSource: null
             duplicateSource: null
             exportSource: null
-            createdTime: 1777266017722
-            modifiedTime: 1777266017722
+            createdTime: 1784179329075
+            modifiedTime: 1784179329075
           ownership:
             default: 0
           _key: >-
@@ -4814,9 +4814,9 @@ _stats:
   duplicateSource: null
   coreVersion: '14.364'
   systemId: pf2e
-  systemVersion: 8.0.3
-  createdTime: 1777266017712
-  modifiedTime: 1777266017712
+  systemVersion: 8.3.0
+  createdTime: 1784179329070
+  modifiedTime: 1784179329070
   lastModifiedBy: txZjek5EOiCBHPoz
   exportSource: null
 active: false
@@ -4862,5 +4862,5 @@ transition:
   type: null
   duration: 1500
   activeOnly: false
-templates: []
 _key: '!scenes!RBr8z1nQGiUOK4Gt'
+templates: []

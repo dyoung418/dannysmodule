@@ -3,7 +3,7 @@ name: Yawning Portal
 _id: myO51NQeBbx5MK8u
 navigation: false
 navOrder: 0
-thumb: worlds/daggerheart-test/assets/scenes/thumb-LaZPYNJ_WXlYhEh3V3DHtg.webp
+thumb: worlds/kingmaker/assets/scenes/thumb-LaZPYNJ_WXlYhEh3V3DHtg.webp
 width: 6750
 height: 4950
 padding: 0.25
@@ -13293,78 +13293,6 @@ lights:
     flags: {}
     _id: ZF81GS1TNqYn2UVZ
     _key: '!scenes.lights!myO51NQeBbx5MK8u.ZF81GS1TNqYn2UVZ'
-  - elevation: 40
-    levels:
-      - TB3C1vrjlOvJNzz3
-    walls: true
-    vision: false
-    hidden: false
-    config:
-      negative: false
-      priority: 0
-      alpha: 0.2
-      angle: 360
-      color: '#65592f'
-      coloration: 1
-      attenuation: 0.5
-      luminosity: 0.3
-      saturation: 0
-      contrast: 0
-      shadows: 0
-      animation:
-        type: null
-        speed: 5
-        intensity: 5
-        reverse: false
-      darkness:
-        min: 0
-        max: 1
-      bright: 10
-      dim: 72.5
-    name: Ambient Light (4)
-    _id: Bd3z7TIeYCrGT6Gd
-    x: 6225
-    'y': 3825
-    rotation: 0
-    locked: false
-    flags: {}
-    _key: '!scenes.lights!myO51NQeBbx5MK8u.Bd3z7TIeYCrGT6Gd'
-  - elevation: 20
-    levels:
-      - qRErgiuJXDwdmf9x
-    walls: true
-    vision: false
-    hidden: false
-    config:
-      negative: false
-      priority: 0
-      alpha: 0.1
-      angle: 360
-      color: '#65592f'
-      coloration: 1
-      attenuation: 0.5
-      luminosity: 0.35
-      saturation: 0
-      contrast: 0
-      shadows: 0
-      animation:
-        type: null
-        speed: 5
-        intensity: 5
-        reverse: false
-      darkness:
-        min: 0
-        max: 1
-      bright: 10
-      dim: 75
-    name: Ambient Light (5)
-    _id: ECfVafhnb3pimjSH
-    x: 6150
-    'y': 3825
-    rotation: 0
-    locked: false
-    flags: {}
-    _key: '!scenes.lights!myO51NQeBbx5MK8u.ECfVafhnb3pimjSH'
 notes: []
 sounds: []
 regions:
@@ -13465,11 +13393,11 @@ regions:
         flags: {}
         _stats:
           coreVersion: '14.364'
-          systemId: daggerheart
-          systemVersion: 2.5.2
-          createdTime: 1783959299098
-          modifiedTime: 1783959299098
-          lastModifiedBy: pQzNfYJpGL2Gy8DA
+          systemId: pf2e
+          systemVersion: 8.3.0
+          createdTime: 1784179257711
+          modifiedTime: 1784179257711
+          lastModifiedBy: txZjek5EOiCBHPoz
           compendiumSource: null
           duplicateSource: null
           exportSource: null
@@ -13580,11 +13508,11 @@ regions:
         flags: {}
         _stats:
           coreVersion: '14.364'
-          systemId: daggerheart
-          systemVersion: 2.5.2
-          createdTime: 1783959299098
-          modifiedTime: 1783959299098
-          lastModifiedBy: pQzNfYJpGL2Gy8DA
+          systemId: pf2e
+          systemVersion: 8.3.0
+          createdTime: 1784179257711
+          modifiedTime: 1784179257711
+          lastModifiedBy: txZjek5EOiCBHPoz
           compendiumSource: null
           duplicateSource: null
           exportSource: null
@@ -13639,11 +13567,11 @@ regions:
         flags: {}
         _stats:
           coreVersion: '14.364'
-          systemId: daggerheart
-          systemVersion: 2.5.2
-          createdTime: 1783959299099
-          modifiedTime: 1783959299099
-          lastModifiedBy: pQzNfYJpGL2Gy8DA
+          systemId: pf2e
+          systemVersion: 8.3.0
+          createdTime: 1784179257712
+          modifiedTime: 1784179257712
+          lastModifiedBy: txZjek5EOiCBHPoz
           compendiumSource: null
           duplicateSource: null
           exportSource: null
@@ -13699,11 +13627,11 @@ regions:
         flags: {}
         _stats:
           coreVersion: '14.364'
-          systemId: daggerheart
-          systemVersion: 2.5.2
-          createdTime: 1783959299099
-          modifiedTime: 1783959299099
-          lastModifiedBy: pQzNfYJpGL2Gy8DA
+          systemId: pf2e
+          systemVersion: 8.3.0
+          createdTime: 1784179257712
+          modifiedTime: 1784179257712
+          lastModifiedBy: txZjek5EOiCBHPoz
           compendiumSource: null
           duplicateSource: null
           exportSource: null
@@ -13755,11 +13683,11 @@ regions:
         flags: {}
         _stats:
           coreVersion: '14.364'
-          systemId: daggerheart
-          systemVersion: 2.5.2
-          createdTime: 1783959299099
-          modifiedTime: 1783959299099
-          lastModifiedBy: pQzNfYJpGL2Gy8DA
+          systemId: pf2e
+          systemVersion: 8.3.0
+          createdTime: 1784179257712
+          modifiedTime: 1784179257712
+          lastModifiedBy: txZjek5EOiCBHPoz
           compendiumSource: null
           duplicateSource: null
           exportSource: null
@@ -13815,11 +13743,11 @@ regions:
         flags: {}
         _stats:
           coreVersion: '14.364'
-          systemId: daggerheart
-          systemVersion: 2.5.2
-          createdTime: 1783959299099
-          modifiedTime: 1783959299099
-          lastModifiedBy: pQzNfYJpGL2Gy8DA
+          systemId: pf2e
+          systemVersion: 8.3.0
+          createdTime: 1784179257712
+          modifiedTime: 1784179257712
+          lastModifiedBy: txZjek5EOiCBHPoz
           compendiumSource: null
           duplicateSource: null
           exportSource: null
@@ -33732,11 +33660,11 @@ flags:
     sceneEnvironments: []
 _stats:
   coreVersion: '14.364'
-  systemId: daggerheart
-  systemVersion: 2.5.2
-  createdTime: 1783959299067
-  modifiedTime: 1783959299067
-  lastModifiedBy: pQzNfYJpGL2Gy8DA
+  systemId: pf2e
+  systemVersion: 8.3.0
+  createdTime: 1784179257686
+  modifiedTime: 1784179257686
+  lastModifiedBy: txZjek5EOiCBHPoz
   exportSource: null
   compendiumSource: null
   duplicateSource: null

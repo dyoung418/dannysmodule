@@ -3,7 +3,7 @@ name: Yawning Portal Scene
 _id: YrazGmW6cje2pceU
 navigation: false
 navOrder: 0
-thumb: worlds/kingmaker/assets/scenes/thumb-arYUnw1P2-eTbc-RrXI2Vg.webp
+thumb: worlds/kingmaker/assets/scenes/thumb-AzcOUUh9bL1ay_gMFG5KvA.webp
 width: 3501
 height: 2000
 padding: 0.25
@@ -129,9 +129,9 @@ flags:
 _stats:
   coreVersion: '14.364'
   systemId: pf2e
-  systemVersion: 8.1.2
-  createdTime: 1779696841501
-  modifiedTime: 1779696841501
+  systemVersion: 8.3.0
+  createdTime: 1784179346918
+  modifiedTime: 1784179346918
   lastModifiedBy: txZjek5EOiCBHPoz
   exportSource: null
   compendiumSource: null
@@ -141,5 +141,5 @@ ownership:
   default: 0
 active: false
 sort: 0
-templates: []
 _key: '!scenes!YrazGmW6cje2pceU'
+templates: []

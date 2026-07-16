@@ -3219,822 +3219,6 @@ tokens:
     _movementHistory: []
     _regions: []
     _key: '!scenes.tokens!iHus9RKOg23pnoYS.ZCsy40UNM5gG9LQO'
-  - displayName: 20
-    displayBars: 20
-    flags:
-      pf2e:
-        linkToActorSize: true
-        autoscale: true
-    sight:
-      enabled: false
-      range: 0
-      angle: 360
-      visionMode: basic
-      attenuation: 0.1
-      brightness: 0
-      saturation: 0
-      contrast: 0
-      color: null
-    detectionModes: {}
-    disposition: -1
-    name: Ghostly Guard
-    actorLink: false
-    texture:
-      src: modules/pf2e-kingmaker/assets/actor-tokens/kingmaker/ghostly-guard.webp
-      scaleX: 1
-      scaleY: 1
-      anchorX: 0.5
-      anchorY: 0.5
-      fit: contain
-      tint: '#ffffff'
-      alphaThreshold: 0.75
-    width: 1
-    height: 1
-    lockRotation: false
-    rotation: 0
-    alpha: 1
-    bar1:
-      attribute: attributes.hp
-    bar2:
-      attribute: null
-    light:
-      alpha: 0.5
-      angle: 360
-      bright: 0
-      coloration: 1
-      dim: 0
-      attenuation: 0.5
-      luminosity: 0.5
-      saturation: 0
-      contrast: 0
-      shadows: 0
-      animation:
-        type: null
-        speed: 5
-        intensity: 5
-        reverse: false
-      darkness:
-        min: 0
-        max: 1
-      negative: false
-      priority: 0
-      color: null
-    occludable:
-      radius: 0
-    ring:
-      enabled: false
-      colors:
-        ring: null
-        background: null
-      effects: 1
-      subject:
-        scale: 1
-        texture: null
-    turnMarker:
-      mode: 1
-      animation: pulse
-      src: null
-      disposition: true
-    movementAction: null
-    depth: 1
-    actorId: Lvl5FJTR6n32qOw3
-    hidden: false
-    sort: 2
-    shape: 4
-    level: defaultLevel0000
-    _id: VxIyCBhonxk1msZo
-    delta:
-      _id: VxIyCBhonxk1msZo
-      name: Ghostly Guard
-      system: {}
-      items: []
-      effects: []
-      flags: {}
-      type: null
-      img: null
-      ownership: null
-      _key: '!scenes.tokens.delta!iHus9RKOg23pnoYS.VxIyCBhonxk1msZo.VxIyCBhonxk1msZo'
-    x: 9600
-    'y': 3600
-    elevation: 0
-    locked: false
-    _movementHistory: []
-    _regions: []
-    _key: '!scenes.tokens!iHus9RKOg23pnoYS.VxIyCBhonxk1msZo'
-  - displayName: 20
-    displayBars: 20
-    flags:
-      pf2e:
-        linkToActorSize: true
-        autoscale: true
-    sight:
-      enabled: false
-      range: 0
-      angle: 360
-      visionMode: basic
-      attenuation: 0.1
-      brightness: 0
-      saturation: 0
-      contrast: 0
-      color: null
-    detectionModes: {}
-    disposition: -1
-    name: Ghostly Guard
-    actorLink: false
-    texture:
-      src: modules/pf2e-kingmaker/assets/actor-tokens/kingmaker/ghostly-guard.webp
-      scaleX: 1
-      scaleY: 1
-      anchorX: 0.5
-      anchorY: 0.5
-      fit: contain
-      tint: '#ffffff'
-      alphaThreshold: 0.75
-    width: 1
-    height: 1
-    lockRotation: false
-    rotation: 0
-    alpha: 1
-    bar1:
-      attribute: attributes.hp
-    bar2:
-      attribute: null
-    light:
-      alpha: 0.5
-      angle: 360
-      bright: 0
-      coloration: 1
-      dim: 0
-      attenuation: 0.5
-      luminosity: 0.5
-      saturation: 0
-      contrast: 0
-      shadows: 0
-      animation:
-        type: null
-        speed: 5
-        intensity: 5
-        reverse: false
-      darkness:
-        min: 0
-        max: 1
-      negative: false
-      priority: 0
-      color: null
-    occludable:
-      radius: 0
-    ring:
-      enabled: false
-      colors:
-        ring: null
-        background: null
-      effects: 1
-      subject:
-        scale: 1
-        texture: null
-    turnMarker:
-      mode: 1
-      animation: pulse
-      src: null
-      disposition: true
-    movementAction: null
-    depth: 1
-    actorId: Lvl5FJTR6n32qOw3
-    hidden: false
-    sort: 3
-    shape: 4
-    level: defaultLevel0000
-    _id: Gjl5osdMSL45zBeE
-    delta:
-      _id: Gjl5osdMSL45zBeE
-      name: Ghostly Guard
-      system: {}
-      items: []
-      effects: []
-      flags: {}
-      type: null
-      img: null
-      ownership: null
-      _key: '!scenes.tokens.delta!iHus9RKOg23pnoYS.Gjl5osdMSL45zBeE.Gjl5osdMSL45zBeE'
-    x: 9450
-    'y': 3600
-    elevation: 0
-    locked: false
-    _movementHistory: []
-    _regions: []
-    _key: '!scenes.tokens!iHus9RKOg23pnoYS.Gjl5osdMSL45zBeE'
-  - displayName: 20
-    displayBars: 20
-    flags:
-      pf2e:
-        linkToActorSize: true
-        autoscale: true
-    sight:
-      enabled: false
-      range: 0
-      angle: 360
-      visionMode: basic
-      attenuation: 0.1
-      brightness: 0
-      saturation: 0
-      contrast: 0
-      color: null
-    detectionModes: {}
-    disposition: -1
-    name: Ghostly Guard
-    actorLink: false
-    texture:
-      src: modules/pf2e-kingmaker/assets/actor-tokens/kingmaker/ghostly-guard.webp
-      scaleX: 1
-      scaleY: 1
-      anchorX: 0.5
-      anchorY: 0.5
-      fit: contain
-      tint: '#ffffff'
-      alphaThreshold: 0.75
-    width: 1
-    height: 1
-    lockRotation: false
-    rotation: 0
-    alpha: 1
-    bar1:
-      attribute: attributes.hp
-    bar2:
-      attribute: null
-    light:
-      alpha: 0.5
-      angle: 360
-      bright: 0
-      coloration: 1
-      dim: 0
-      attenuation: 0.5
-      luminosity: 0.5
-      saturation: 0
-      contrast: 0
-      shadows: 0
-      animation:
-        type: null
-        speed: 5
-        intensity: 5
-        reverse: false
-      darkness:
-        min: 0
-        max: 1
-      negative: false
-      priority: 0
-      color: null
-    occludable:
-      radius: 0
-    ring:
-      enabled: false
-      colors:
-        ring: null
-        background: null
-      effects: 1
-      subject:
-        scale: 1
-        texture: null
-    turnMarker:
-      mode: 1
-      animation: pulse
-      src: null
-      disposition: true
-    movementAction: null
-    depth: 1
-    actorId: Lvl5FJTR6n32qOw3
-    hidden: false
-    sort: 4
-    shape: 4
-    level: defaultLevel0000
-    _id: 6hTQvDpvwafcHugm
-    delta:
-      _id: 6hTQvDpvwafcHugm
-      name: Ghostly Guard
-      system: {}
-      items: []
-      effects: []
-      flags: {}
-      type: null
-      img: null
-      ownership: null
-      _key: '!scenes.tokens.delta!iHus9RKOg23pnoYS.6hTQvDpvwafcHugm.6hTQvDpvwafcHugm'
-    x: 9300
-    'y': 3600
-    elevation: 0
-    locked: false
-    _movementHistory: []
-    _regions: []
-    _key: '!scenes.tokens!iHus9RKOg23pnoYS.6hTQvDpvwafcHugm'
-  - displayName: 20
-    displayBars: 20
-    flags:
-      pf2e:
-        linkToActorSize: true
-        autoscale: true
-    sight:
-      enabled: false
-      range: 0
-      angle: 360
-      visionMode: basic
-      attenuation: 0.1
-      brightness: 0
-      saturation: 0
-      contrast: 0
-      color: null
-    detectionModes: {}
-    disposition: -1
-    name: Ghostly Guard
-    actorLink: false
-    texture:
-      src: modules/pf2e-kingmaker/assets/actor-tokens/kingmaker/ghostly-guard.webp
-      scaleX: 1
-      scaleY: 1
-      anchorX: 0.5
-      anchorY: 0.5
-      fit: contain
-      tint: '#ffffff'
-      alphaThreshold: 0.75
-    width: 1
-    height: 1
-    lockRotation: false
-    rotation: 0
-    alpha: 1
-    bar1:
-      attribute: attributes.hp
-    bar2:
-      attribute: null
-    light:
-      alpha: 0.5
-      angle: 360
-      bright: 0
-      coloration: 1
-      dim: 0
-      attenuation: 0.5
-      luminosity: 0.5
-      saturation: 0
-      contrast: 0
-      shadows: 0
-      animation:
-        type: null
-        speed: 5
-        intensity: 5
-        reverse: false
-      darkness:
-        min: 0
-        max: 1
-      negative: false
-      priority: 0
-      color: null
-    occludable:
-      radius: 0
-    ring:
-      enabled: false
-      colors:
-        ring: null
-        background: null
-      effects: 1
-      subject:
-        scale: 1
-        texture: null
-    turnMarker:
-      mode: 1
-      animation: pulse
-      src: null
-      disposition: true
-    movementAction: null
-    depth: 1
-    actorId: Lvl5FJTR6n32qOw3
-    hidden: false
-    sort: 5
-    shape: 4
-    level: defaultLevel0000
-    _id: Xqi5MMNjpfES5fUy
-    delta:
-      _id: Xqi5MMNjpfES5fUy
-      name: Ghostly Guard
-      system: {}
-      items: []
-      effects: []
-      flags: {}
-      type: null
-      img: null
-      ownership: null
-      _key: '!scenes.tokens.delta!iHus9RKOg23pnoYS.Xqi5MMNjpfES5fUy.Xqi5MMNjpfES5fUy'
-    x: 9150
-    'y': 3600
-    elevation: 0
-    locked: false
-    _movementHistory: []
-    _regions: []
-    _key: '!scenes.tokens!iHus9RKOg23pnoYS.Xqi5MMNjpfES5fUy'
-  - displayName: 20
-    displayBars: 20
-    flags:
-      pf2e:
-        linkToActorSize: true
-        autoscale: true
-    sight:
-      enabled: false
-      range: 0
-      angle: 360
-      visionMode: basic
-      attenuation: 0.1
-      brightness: 0
-      saturation: 0
-      contrast: 0
-      color: null
-    detectionModes: {}
-    disposition: -1
-    name: Ghostly Guard
-    actorLink: false
-    texture:
-      src: modules/pf2e-kingmaker/assets/actor-tokens/kingmaker/ghostly-guard.webp
-      scaleX: 1
-      scaleY: 1
-      anchorX: 0.5
-      anchorY: 0.5
-      fit: contain
-      tint: '#ffffff'
-      alphaThreshold: 0.75
-    width: 1
-    height: 1
-    lockRotation: false
-    rotation: 0
-    alpha: 1
-    bar1:
-      attribute: attributes.hp
-    bar2:
-      attribute: null
-    light:
-      alpha: 0.5
-      angle: 360
-      bright: 0
-      coloration: 1
-      dim: 0
-      attenuation: 0.5
-      luminosity: 0.5
-      saturation: 0
-      contrast: 0
-      shadows: 0
-      animation:
-        type: null
-        speed: 5
-        intensity: 5
-        reverse: false
-      darkness:
-        min: 0
-        max: 1
-      negative: false
-      priority: 0
-      color: null
-    occludable:
-      radius: 0
-    ring:
-      enabled: false
-      colors:
-        ring: null
-        background: null
-      effects: 1
-      subject:
-        scale: 1
-        texture: null
-    turnMarker:
-      mode: 1
-      animation: pulse
-      src: null
-      disposition: true
-    movementAction: null
-    depth: 1
-    actorId: Lvl5FJTR6n32qOw3
-    hidden: false
-    sort: 6
-    shape: 4
-    level: defaultLevel0000
-    _id: QgPkD47XuGQchhar
-    delta:
-      _id: QgPkD47XuGQchhar
-      name: Ghostly Guard
-      system: {}
-      items: []
-      effects: []
-      flags: {}
-      type: null
-      img: null
-      ownership: null
-      _key: '!scenes.tokens.delta!iHus9RKOg23pnoYS.QgPkD47XuGQchhar.QgPkD47XuGQchhar'
-    x: 9600
-    'y': 3750
-    elevation: 0
-    locked: false
-    _movementHistory: []
-    _regions: []
-    _key: '!scenes.tokens!iHus9RKOg23pnoYS.QgPkD47XuGQchhar'
-  - displayName: 20
-    displayBars: 20
-    flags:
-      pf2e:
-        linkToActorSize: true
-        autoscale: true
-    sight:
-      enabled: false
-      range: 0
-      angle: 360
-      visionMode: basic
-      attenuation: 0.1
-      brightness: 0
-      saturation: 0
-      contrast: 0
-      color: null
-    detectionModes: {}
-    disposition: -1
-    name: Ghostly Guard
-    actorLink: false
-    texture:
-      src: modules/pf2e-kingmaker/assets/actor-tokens/kingmaker/ghostly-guard.webp
-      scaleX: 1
-      scaleY: 1
-      anchorX: 0.5
-      anchorY: 0.5
-      fit: contain
-      tint: '#ffffff'
-      alphaThreshold: 0.75
-    width: 1
-    height: 1
-    lockRotation: false
-    rotation: 0
-    alpha: 1
-    bar1:
-      attribute: attributes.hp
-    bar2:
-      attribute: null
-    light:
-      alpha: 0.5
-      angle: 360
-      bright: 0
-      coloration: 1
-      dim: 0
-      attenuation: 0.5
-      luminosity: 0.5
-      saturation: 0
-      contrast: 0
-      shadows: 0
-      animation:
-        type: null
-        speed: 5
-        intensity: 5
-        reverse: false
-      darkness:
-        min: 0
-        max: 1
-      negative: false
-      priority: 0
-      color: null
-    occludable:
-      radius: 0
-    ring:
-      enabled: false
-      colors:
-        ring: null
-        background: null
-      effects: 1
-      subject:
-        scale: 1
-        texture: null
-    turnMarker:
-      mode: 1
-      animation: pulse
-      src: null
-      disposition: true
-    movementAction: null
-    depth: 1
-    actorId: Lvl5FJTR6n32qOw3
-    hidden: false
-    sort: 7
-    shape: 4
-    level: defaultLevel0000
-    _id: 7lF23LX5IUbnfDPq
-    delta:
-      _id: 7lF23LX5IUbnfDPq
-      name: Ghostly Guard
-      system: {}
-      items: []
-      effects: []
-      flags: {}
-      type: null
-      img: null
-      ownership: null
-      _key: '!scenes.tokens.delta!iHus9RKOg23pnoYS.7lF23LX5IUbnfDPq.7lF23LX5IUbnfDPq'
-    x: 9450
-    'y': 3750
-    elevation: 0
-    locked: false
-    _movementHistory: []
-    _regions: []
-    _key: '!scenes.tokens!iHus9RKOg23pnoYS.7lF23LX5IUbnfDPq'
-  - displayName: 20
-    displayBars: 20
-    flags:
-      pf2e:
-        linkToActorSize: true
-        autoscale: true
-    sight:
-      enabled: false
-      range: 0
-      angle: 360
-      visionMode: basic
-      attenuation: 0.1
-      brightness: 0
-      saturation: 0
-      contrast: 0
-      color: null
-    detectionModes: {}
-    disposition: -1
-    name: Ghostly Guard
-    actorLink: false
-    texture:
-      src: modules/pf2e-kingmaker/assets/actor-tokens/kingmaker/ghostly-guard.webp
-      scaleX: 1
-      scaleY: 1
-      anchorX: 0.5
-      anchorY: 0.5
-      fit: contain
-      tint: '#ffffff'
-      alphaThreshold: 0.75
-    width: 1
-    height: 1
-    lockRotation: false
-    rotation: 0
-    alpha: 1
-    bar1:
-      attribute: attributes.hp
-    bar2:
-      attribute: null
-    light:
-      alpha: 0.5
-      angle: 360
-      bright: 0
-      coloration: 1
-      dim: 0
-      attenuation: 0.5
-      luminosity: 0.5
-      saturation: 0
-      contrast: 0
-      shadows: 0
-      animation:
-        type: null
-        speed: 5
-        intensity: 5
-        reverse: false
-      darkness:
-        min: 0
-        max: 1
-      negative: false
-      priority: 0
-      color: null
-    occludable:
-      radius: 0
-    ring:
-      enabled: false
-      colors:
-        ring: null
-        background: null
-      effects: 1
-      subject:
-        scale: 1
-        texture: null
-    turnMarker:
-      mode: 1
-      animation: pulse
-      src: null
-      disposition: true
-    movementAction: null
-    depth: 1
-    actorId: Lvl5FJTR6n32qOw3
-    hidden: false
-    sort: 8
-    shape: 4
-    level: defaultLevel0000
-    _id: kB1ZMGM5YY9jFydO
-    delta:
-      _id: kB1ZMGM5YY9jFydO
-      name: Ghostly Guard
-      system: {}
-      items: []
-      effects: []
-      flags: {}
-      type: null
-      img: null
-      ownership: null
-      _key: '!scenes.tokens.delta!iHus9RKOg23pnoYS.kB1ZMGM5YY9jFydO.kB1ZMGM5YY9jFydO'
-    x: 9300
-    'y': 3750
-    elevation: 0
-    locked: false
-    _movementHistory: []
-    _regions: []
-    _key: '!scenes.tokens!iHus9RKOg23pnoYS.kB1ZMGM5YY9jFydO'
-  - displayName: 20
-    displayBars: 20
-    flags:
-      pf2e:
-        linkToActorSize: true
-        autoscale: true
-    sight:
-      enabled: false
-      range: 0
-      angle: 360
-      visionMode: basic
-      attenuation: 0.1
-      brightness: 0
-      saturation: 0
-      contrast: 0
-      color: null
-    detectionModes: {}
-    disposition: -1
-    name: Ghostly Guard
-    actorLink: false
-    texture:
-      src: modules/pf2e-kingmaker/assets/actor-tokens/kingmaker/ghostly-guard.webp
-      scaleX: 1
-      scaleY: 1
-      anchorX: 0.5
-      anchorY: 0.5
-      fit: contain
-      tint: '#ffffff'
-      alphaThreshold: 0.75
-    width: 1
-    height: 1
-    lockRotation: false
-    rotation: 0
-    alpha: 1
-    bar1:
-      attribute: attributes.hp
-    bar2:
-      attribute: null
-    light:
-      alpha: 0.5
-      angle: 360
-      bright: 0
-      coloration: 1
-      dim: 0
-      attenuation: 0.5
-      luminosity: 0.5
-      saturation: 0
-      contrast: 0
-      shadows: 0
-      animation:
-        type: null
-        speed: 5
-        intensity: 5
-        reverse: false
-      darkness:
-        min: 0
-        max: 1
-      negative: false
-      priority: 0
-      color: null
-    occludable:
-      radius: 0
-    ring:
-      enabled: false
-      colors:
-        ring: null
-        background: null
-      effects: 1
-      subject:
-        scale: 1
-        texture: null
-    turnMarker:
-      mode: 1
-      animation: pulse
-      src: null
-      disposition: true
-    movementAction: null
-    depth: 1
-    actorId: Lvl5FJTR6n32qOw3
-    hidden: false
-    sort: 9
-    shape: 4
-    level: defaultLevel0000
-    _id: nh9qkouUrthx0kiT
-    delta:
-      _id: nh9qkouUrthx0kiT
-      name: Ghostly Guard
-      system: {}
-      items: []
-      effects: []
-      flags: {}
-      type: null
-      img: null
-      ownership: null
-      _key: '!scenes.tokens.delta!iHus9RKOg23pnoYS.nh9qkouUrthx0kiT.nh9qkouUrthx0kiT'
-    x: 9150
-    'y': 3750
-    elevation: 0
-    locked: false
-    _movementHistory: []
-    _regions: []
-    _key: '!scenes.tokens!iHus9RKOg23pnoYS.nh9qkouUrthx0kiT'
   - actorLink: true
     flags:
       pf2e:
@@ -4124,8 +3308,8 @@ tokens:
     level: defaultLevel0000
     _id: nYspEvX2N9w7gDxL
     delta: null
-    x: 9900
-    'y': 3600
+    x: 9450
+    'y': 3450
     elevation: 0
     locked: false
     _movementHistory: []
@@ -4238,8 +3422,8 @@ tokens:
     level: defaultLevel0000
     _id: 7XzhmgPcaooU7YlZ
     delta: null
-    x: 9900
-    'y': 3450
+    x: 9450
+    'y': 3750
     elevation: 0
     locked: false
     _movementHistory: []
@@ -4354,8 +3538,8 @@ tokens:
     level: defaultLevel0000
     _id: INrGYJwX3LoGcoo9
     delta: null
-    x: 9900
-    'y': 3300
+    x: 9300
+    'y': 3600
     elevation: 0
     locked: false
     _movementHistory: []
@@ -4470,8 +3654,8 @@ tokens:
     level: defaultLevel0000
     _id: V2hfCR57OyOtBx1P
     delta: null
-    x: 9900
-    'y': 3750
+    x: 9150
+    'y': 3600
     elevation: 0
     locked: false
     _movementHistory: []
@@ -4579,8 +3763,8 @@ tokens:
     level: defaultLevel0000
     _id: w5lWK3Mqsa9sJr4h
     delta: null
-    x: 9900
-    'y': 3900
+    x: 9000
+    'y': 3450
     elevation: 0
     locked: false
     _movementHistory: []
@@ -4693,9 +3877,9 @@ tokens:
     level: defaultLevel0000
     _id: Ex9qZ98CJ8UHjxNA
     delta: null
-    x: 9900
-    'y': 4050
-    elevation: 0
+    x: 8550
+    'y': 3900
+    elevation: 160
     locked: false
     _movementHistory: []
     _regions: []
@@ -4786,13 +3970,1605 @@ tokens:
     level: tqX0i1DdrItywCHc
     _id: ArdHUMGv10EzlNDa
     delta: null
-    x: 6450
-    'y': 4950
-    elevation: -20
+    x: 6600
+    'y': 5250
+    elevation: -10
     locked: false
     _movementHistory: []
     _regions: []
     _key: '!scenes.tokens!iHus9RKOg23pnoYS.ArdHUMGv10EzlNDa'
+  - displayName: 20
+    displayBars: 20
+    flags:
+      pf2e:
+        linkToActorSize: true
+        autoscale: true
+    sight:
+      enabled: false
+      range: 0
+      angle: 360
+      visionMode: basic
+      attenuation: 0.1
+      brightness: 0
+      saturation: 0
+      contrast: 0
+      color: null
+    detectionModes: {}
+    disposition: -1
+    name: Ghostly Guard
+    actorLink: false
+    texture:
+      src: modules/pf2e-kingmaker/assets/actor-tokens/kingmaker/ghostly-guard.webp
+      scaleX: 1
+      scaleY: 1
+      anchorX: 0.5
+      anchorY: 0.5
+      fit: contain
+      tint: '#ffffff'
+      alphaThreshold: 0.75
+    width: 1
+    height: 1
+    lockRotation: false
+    rotation: 0
+    alpha: 1
+    bar1:
+      attribute: attributes.hp
+    bar2:
+      attribute: null
+    light:
+      alpha: 0.5
+      angle: 360
+      bright: 0
+      coloration: 1
+      dim: 0
+      attenuation: 0.5
+      luminosity: 0.5
+      saturation: 0
+      contrast: 0
+      shadows: 0
+      animation:
+        type: null
+        speed: 5
+        intensity: 5
+        reverse: false
+      darkness:
+        min: 0
+        max: 1
+      negative: false
+      priority: 0
+      color: null
+    occludable:
+      radius: 0
+    ring:
+      enabled: false
+      colors:
+        ring: null
+        background: null
+      effects: 1
+      subject:
+        scale: 1
+        texture: null
+    turnMarker:
+      mode: 1
+      animation: pulse
+      src: null
+      disposition: true
+    movementAction: null
+    depth: 1
+    actorId: Lvl5FJTR6n32qOw3
+    hidden: false
+    sort: 19
+    shape: 4
+    level: defaultLevel0000
+    _id: L3iOF9cqGuMdL7Wp
+    delta:
+      _id: L3iOF9cqGuMdL7Wp
+      name: Ghostly Guard
+      system:
+        attributes:
+          hp:
+            value: 95
+      items:
+        - _id: lGRlzXnOSNGW7djU
+          img: systems/pf2e/icons/actions/Passive.webp
+          name: Shame
+          sort: 200000
+          system:
+            description:
+              gm: ''
+              value: >-
+                <p>A ghostly guard suffers from shame (-2 status penalty on
+                attack rolls and to all save DCs to resist their spells or
+                attacks) when it attacks a target that appears to be an elf or a
+                worshipper of Calistria. @UUID[Item.764EVGVADrDSbdqu]{Forgive
+                Foe} can be attempted against a ghostly guard with a
+                @Check[diplomacy|dc:39] check or @Check[society|dc:39] check. If
+                a ghostly guard is affected by a critical success from Forgive
+                Foe, it sighs in relief as it fades away, its soul released into
+                the afterlife.</p>
+            rules:
+              - key: RollOption
+                domain: all
+                option: shame
+                label: Shame
+                toggleable: true
+                value: true
+              - key: FlatModifier
+                selector:
+                  - attack
+                  - class-dc
+                  - spell-dc
+                  - inline-dc
+                type: status
+                value: -2
+                predicate:
+                  - shame
+            slug: null
+            _migration:
+              version: 0.959
+              previous: null
+            traits:
+              otherTags: []
+              value: []
+            publication:
+              title: ''
+              authors: ''
+              license: OGL
+              remaster: false
+            actionType:
+              value: passive
+            category: interaction
+            actions:
+              value: null
+            deathNote: false
+          type: action
+          effects: []
+          folder: null
+          flags: {}
+          _stats:
+            systemId: pf2e
+            systemVersion: 8.3.0
+            coreVersion: '14.364'
+            createdTime: null
+            modifiedTime: null
+            lastModifiedBy: null
+            exportSource: null
+            compendiumSource: null
+            duplicateSource: null
+          ownership:
+            default: 0
+          _key: >-
+            !scenes.tokens.delta.items!iHus9RKOg23pnoYS.L3iOF9cqGuMdL7Wp.L3iOF9cqGuMdL7Wp.lGRlzXnOSNGW7djU
+        - folder: eDXJ3K6EaXRdCgJa
+          img: icons/skills/social/diplomacy-handshake-yellow.webp
+          name: 'Effect: Forgive Foe'
+          system:
+            description:
+              value: >-
+                <p>Granted by
+                @UUID[Compendium.pf2e.adventure-specific-actions.Item.764EVGVADrDSbdqu]{Forgive
+                Foe}</p>
+
+                <p>The target suffers a -2 status penalty on all attacks, effect
+                DCs, and its Will DC against additional Forgive Foe attempts
+                until the end of your next turn.</p>
+              gm: ''
+            duration:
+              expiry: turn-end
+              sustained: false
+              unit: rounds
+              value: 1
+            level:
+              value: 0
+            publication:
+              license: OGL
+              remaster: false
+              title: Pathfinder Kingmaker
+              authors: ''
+            rules:
+              - key: FlatModifier
+                selector:
+                  - attack
+                  - inline-dc
+                  - spell-dc
+                type: status
+                value: -6
+              - key: FlatModifier
+                predicate:
+                  - item:slug:forgive-foe
+                selector: will-dc
+                type: status
+                value: -2
+            start:
+              value: 24097976
+              initiative: 33
+            tokenIcon:
+              show: true
+            traits:
+              value: []
+              otherTags: []
+            slug: effect-forgive-foe
+            _migration:
+              version: 0.959
+              previous: null
+            unidentified: false
+            badge: null
+            fromSpell: false
+            context: null
+          type: effect
+          _stats:
+            coreVersion: '14.364'
+            systemId: pf2e
+            systemVersion: 8.3.0
+            createdTime: null
+            modifiedTime: null
+            lastModifiedBy: null
+            exportSource: null
+            compendiumSource: null
+            duplicateSource: null
+          effects: []
+          sort: 0
+          flags: {}
+          _id: 6D7DqFXzSE0N3b9S
+          ownership:
+            default: 0
+          _key: >-
+            !scenes.tokens.delta.items!iHus9RKOg23pnoYS.L3iOF9cqGuMdL7Wp.L3iOF9cqGuMdL7Wp.6D7DqFXzSE0N3b9S
+      effects: []
+      flags: {}
+      type: null
+      img: null
+      ownership: null
+      _key: '!scenes.tokens.delta!iHus9RKOg23pnoYS.L3iOF9cqGuMdL7Wp.L3iOF9cqGuMdL7Wp'
+    x: 9750
+    'y': 3750
+    elevation: 0
+    locked: false
+    _movementHistory: []
+    _regions: []
+    _key: '!scenes.tokens!iHus9RKOg23pnoYS.L3iOF9cqGuMdL7Wp'
+  - displayName: 20
+    displayBars: 20
+    flags:
+      pf2e:
+        linkToActorSize: true
+        autoscale: true
+    sight:
+      enabled: false
+      range: 0
+      angle: 360
+      visionMode: basic
+      attenuation: 0.1
+      brightness: 0
+      saturation: 0
+      contrast: 0
+      color: null
+    detectionModes: {}
+    disposition: -1
+    name: Ghostly Guard
+    actorLink: false
+    texture:
+      src: modules/pf2e-kingmaker/assets/actor-tokens/kingmaker/ghostly-guard.webp
+      scaleX: 1
+      scaleY: 1
+      anchorX: 0.5
+      anchorY: 0.5
+      fit: contain
+      tint: '#ffffff'
+      alphaThreshold: 0.75
+    width: 1
+    height: 1
+    lockRotation: false
+    rotation: 0
+    alpha: 1
+    bar1:
+      attribute: attributes.hp
+    bar2:
+      attribute: null
+    light:
+      alpha: 0.5
+      angle: 360
+      bright: 0
+      coloration: 1
+      dim: 0
+      attenuation: 0.5
+      luminosity: 0.5
+      saturation: 0
+      contrast: 0
+      shadows: 0
+      animation:
+        type: null
+        speed: 5
+        intensity: 5
+        reverse: false
+      darkness:
+        min: 0
+        max: 1
+      negative: false
+      priority: 0
+      color: null
+    occludable:
+      radius: 0
+    ring:
+      enabled: false
+      colors:
+        ring: null
+        background: null
+      effects: 1
+      subject:
+        scale: 1
+        texture: null
+    turnMarker:
+      mode: 1
+      animation: pulse
+      src: null
+      disposition: true
+    movementAction: null
+    depth: 1
+    actorId: Lvl5FJTR6n32qOw3
+    hidden: false
+    sort: 20
+    shape: 4
+    level: defaultLevel0000
+    _id: nFY62JlitdGJXtVf
+    delta:
+      _id: nFY62JlitdGJXtVf
+      name: Ghostly Guard
+      system:
+        attributes:
+          hp:
+            value: 17
+          adjustment: null
+      items:
+        - _id: lGRlzXnOSNGW7djU
+          img: systems/pf2e/icons/actions/Passive.webp
+          name: Shame
+          sort: 200000
+          system:
+            description:
+              gm: ''
+              value: >-
+                <p>A ghostly guard suffers from shame (-2 status penalty on
+                attack rolls and to all save DCs to resist their spells or
+                attacks) when it attacks a target that appears to be an elf or a
+                worshipper of Calistria. @UUID[Item.764EVGVADrDSbdqu]{Forgive
+                Foe} can be attempted against a ghostly guard with a
+                @Check[diplomacy|dc:39] check or @Check[society|dc:39] check. If
+                a ghostly guard is affected by a critical success from Forgive
+                Foe, it sighs in relief as it fades away, its soul released into
+                the afterlife.</p>
+            rules:
+              - key: RollOption
+                domain: all
+                option: shame
+                label: Shame
+                toggleable: true
+                value: true
+              - key: FlatModifier
+                selector:
+                  - attack
+                  - class-dc
+                  - spell-dc
+                  - inline-dc
+                type: status
+                value: -2
+                predicate:
+                  - shame
+            slug: null
+            _migration:
+              version: 0.959
+              previous: null
+            traits:
+              otherTags: []
+              value: []
+            publication:
+              title: ''
+              authors: ''
+              license: OGL
+              remaster: false
+            actionType:
+              value: passive
+            category: interaction
+            actions:
+              value: null
+            deathNote: false
+          type: action
+          effects: []
+          folder: null
+          flags: {}
+          _stats:
+            systemId: pf2e
+            systemVersion: 8.3.0
+            coreVersion: '14.364'
+            createdTime: null
+            modifiedTime: null
+            lastModifiedBy: null
+            exportSource: null
+            compendiumSource: null
+            duplicateSource: null
+          ownership:
+            default: 0
+          _key: >-
+            !scenes.tokens.delta.items!iHus9RKOg23pnoYS.nFY62JlitdGJXtVf.nFY62JlitdGJXtVf.lGRlzXnOSNGW7djU
+        - img: systems/pf2e/icons/conditions/persistent-damage.webp
+          name: Persistent Damage
+          system:
+            description:
+              value: >-
+                <p>You are taking damage from an ongoing effect, such as from
+                being lit on fire. This appears as "X persistent [type] damage,"
+                where "X" is the amount of damage dealt and "[type]" is the
+                damage type. Like normal damage, it can be doubled or halved
+                based on the results of an attack roll or saving throw. Instead
+                of taking persistent damage immediately, you take it at the end
+                of each of your turns as long as you have the condition, rolling
+                any damage dice anew each time. After you take persistent
+                damage, roll a @Check[flat|showDC:all|dc:15] to see if you
+                recover from the persistent damage. If you succeed, the
+                condition ends.</p>
+              gm: ''
+            group: null
+            overrides: []
+            publication:
+              license: ORC
+              remaster: true
+              title: Pathfinder Player Core
+              authors: ''
+            references:
+              children: []
+              overriddenBy: []
+              overrides: []
+              parent: null
+            rules: []
+            traits:
+              value:
+                - magical
+              otherTags: []
+            value:
+              isValued: false
+              value: null
+            slug: persistent-damage
+            _migration:
+              version: 0.959
+              previous: null
+            fromSpell: false
+            persistent:
+              formula: 2d10
+              damageType: fire
+              dc: 15
+              criticalHit: true
+          type: condition
+          _stats:
+            coreVersion: '14.364'
+            systemId: pf2e
+            systemVersion: 8.3.0
+            createdTime: null
+            modifiedTime: null
+            lastModifiedBy: null
+            exportSource: null
+            compendiumSource: null
+            duplicateSource: null
+          effects: []
+          folder: null
+          sort: 0
+          flags: {}
+          _id: PtGvEROXYuTtUn7c
+          ownership:
+            default: 0
+          _key: >-
+            !scenes.tokens.delta.items!iHus9RKOg23pnoYS.nFY62JlitdGJXtVf.nFY62JlitdGJXtVf.PtGvEROXYuTtUn7c
+        - img: systems/pf2e/icons/conditions/immobilized.webp
+          name: Immobilized
+          system:
+            description:
+              value: >-
+                <p>You are incapable of movement. You can't use any actions that
+                have the move trait. If you're immobilized by something holding
+                you in place and an external force would move you out of your
+                space, the force must succeed at a check against either the DC
+                of the effect holding you in place or the relevant defense
+                (usually Fortitude DC) of the monster holding you in place.</p>
+              gm: ''
+            group: null
+            overrides: []
+            publication:
+              license: ORC
+              remaster: true
+              title: Pathfinder Player Core
+              authors: ''
+            references:
+              children: []
+              overriddenBy: []
+              overrides: []
+              parent: null
+            rules: []
+            traits:
+              value: []
+              otherTags: []
+            value:
+              isValued: false
+              value: null
+            slug: immobilized
+            _migration:
+              version: 0.959
+              previous: null
+            fromSpell: false
+            persistent: null
+          type: condition
+          _stats:
+            coreVersion: '14.364'
+            systemId: pf2e
+            systemVersion: 8.3.0
+            createdTime: null
+            modifiedTime: null
+            lastModifiedBy: null
+            exportSource: null
+            compendiumSource: null
+            duplicateSource: null
+          effects: []
+          folder: null
+          sort: 0
+          flags: {}
+          _id: OqFdb6feJLBVKkix
+          ownership:
+            default: 0
+          _key: >-
+            !scenes.tokens.delta.items!iHus9RKOg23pnoYS.nFY62JlitdGJXtVf.nFY62JlitdGJXtVf.OqFdb6feJLBVKkix
+      effects: []
+      flags: {}
+      type: null
+      img: null
+      ownership: null
+      _key: '!scenes.tokens.delta!iHus9RKOg23pnoYS.nFY62JlitdGJXtVf.nFY62JlitdGJXtVf'
+    x: 8550
+    'y': 3750
+    elevation: 0
+    locked: false
+    _movementHistory: []
+    _regions: []
+    _key: '!scenes.tokens!iHus9RKOg23pnoYS.nFY62JlitdGJXtVf'
+  - displayName: 20
+    displayBars: 20
+    flags:
+      pf2e:
+        linkToActorSize: true
+        autoscale: true
+    sight:
+      enabled: false
+      range: 0
+      angle: 360
+      visionMode: basic
+      attenuation: 0.1
+      brightness: 0
+      saturation: 0
+      contrast: 0
+      color: null
+    detectionModes: {}
+    disposition: -1
+    name: Ghostly Guard
+    actorLink: false
+    texture:
+      src: modules/pf2e-kingmaker/assets/actor-tokens/kingmaker/ghostly-guard.webp
+      scaleX: 1
+      scaleY: 1
+      anchorX: 0.5
+      anchorY: 0.5
+      fit: contain
+      tint: '#ffffff'
+      alphaThreshold: 0.75
+    width: 1
+    height: 1
+    lockRotation: false
+    rotation: 0
+    alpha: 1
+    bar1:
+      attribute: attributes.hp
+    bar2:
+      attribute: null
+    light:
+      alpha: 0.5
+      angle: 360
+      bright: 0
+      coloration: 1
+      dim: 0
+      attenuation: 0.5
+      luminosity: 0.5
+      saturation: 0
+      contrast: 0
+      shadows: 0
+      animation:
+        type: null
+        speed: 5
+        intensity: 5
+        reverse: false
+      darkness:
+        min: 0
+        max: 1
+      negative: false
+      priority: 0
+      color: null
+    occludable:
+      radius: 0
+    ring:
+      enabled: false
+      colors:
+        ring: null
+        background: null
+      effects: 1
+      subject:
+        scale: 1
+        texture: null
+    turnMarker:
+      mode: 1
+      animation: pulse
+      src: null
+      disposition: true
+    movementAction: null
+    depth: 1
+    actorId: Lvl5FJTR6n32qOw3
+    hidden: false
+    sort: 21
+    shape: 4
+    level: defaultLevel0000
+    _id: n8Xoo3aI5Sz2yk0e
+    delta:
+      _id: n8Xoo3aI5Sz2yk0e
+      name: Ghostly Guard
+      system:
+        attributes:
+          hp:
+            value: 97
+      items:
+        - img: systems/pf2e/icons/conditions/persistent-damage.webp
+          name: Persistent Damage
+          system:
+            description:
+              value: >-
+                <p>You are taking damage from an ongoing effect, such as from
+                being lit on fire. This appears as "X persistent [type] damage,"
+                where "X" is the amount of damage dealt and "[type]" is the
+                damage type. Like normal damage, it can be doubled or halved
+                based on the results of an attack roll or saving throw. Instead
+                of taking persistent damage immediately, you take it at the end
+                of each of your turns as long as you have the condition, rolling
+                any damage dice anew each time. After you take persistent
+                damage, roll a @Check[flat|showDC:all|dc:15] to see if you
+                recover from the persistent damage. If you succeed, the
+                condition ends.</p>
+              gm: ''
+            group: null
+            overrides: []
+            publication:
+              license: ORC
+              remaster: true
+              title: Pathfinder Player Core
+              authors: ''
+            references:
+              children: []
+              overriddenBy: []
+              overrides: []
+              parent: null
+            rules: []
+            traits:
+              value:
+                - artifact
+                - magical
+              otherTags: []
+            value:
+              isValued: false
+              value: null
+            slug: persistent-damage
+            _migration:
+              version: 0.959
+              previous: null
+            fromSpell: false
+            persistent:
+              formula: (2 * 1d6)
+              damageType: vitality
+              dc: 15
+              criticalHit: true
+          type: condition
+          _stats:
+            coreVersion: '14.364'
+            systemId: pf2e
+            systemVersion: 8.3.0
+            createdTime: null
+            modifiedTime: null
+            lastModifiedBy: null
+            exportSource: null
+            compendiumSource: null
+            duplicateSource: null
+          effects: []
+          folder: null
+          sort: 0
+          flags: {}
+          _id: j6YGUqY4HRjAgbLg
+          ownership:
+            default: 0
+          _key: >-
+            !scenes.tokens.delta.items!iHus9RKOg23pnoYS.n8Xoo3aI5Sz2yk0e.n8Xoo3aI5Sz2yk0e.j6YGUqY4HRjAgbLg
+        - img: systems/pf2e/icons/conditions/persistent-damage.webp
+          name: Persistent Damage
+          system:
+            description:
+              value: >-
+                <p>You are taking damage from an ongoing effect, such as from
+                being lit on fire. This appears as "X persistent [type] damage,"
+                where "X" is the amount of damage dealt and "[type]" is the
+                damage type. Like normal damage, it can be doubled or halved
+                based on the results of an attack roll or saving throw. Instead
+                of taking persistent damage immediately, you take it at the end
+                of each of your turns as long as you have the condition, rolling
+                any damage dice anew each time. After you take persistent
+                damage, roll a @Check[flat|showDC:all|dc:15] to see if you
+                recover from the persistent damage. If you succeed, the
+                condition ends.</p>
+              gm: ''
+            group: null
+            overrides: []
+            publication:
+              license: ORC
+              remaster: true
+              title: Pathfinder Player Core
+              authors: ''
+            references:
+              children: []
+              overriddenBy: []
+              overrides: []
+              parent: null
+            rules: []
+            traits:
+              value:
+                - artifact
+                - magical
+              otherTags: []
+            value:
+              isValued: false
+              value: null
+            slug: persistent-damage
+            _migration:
+              version: 0.959
+              previous: null
+            fromSpell: false
+            persistent:
+              formula: 1d6
+              damageType: vitality
+              dc: 15
+              criticalHit: false
+          type: condition
+          _stats:
+            coreVersion: '14.364'
+            systemId: pf2e
+            systemVersion: 8.3.0
+            createdTime: null
+            modifiedTime: null
+            lastModifiedBy: null
+            exportSource: null
+            compendiumSource: null
+            duplicateSource: null
+          effects: []
+          folder: null
+          sort: 0
+          flags: {}
+          _id: IG4wrfqyQD5F5IKN
+          ownership:
+            default: 0
+          _key: >-
+            !scenes.tokens.delta.items!iHus9RKOg23pnoYS.n8Xoo3aI5Sz2yk0e.n8Xoo3aI5Sz2yk0e.IG4wrfqyQD5F5IKN
+        - img: systems/pf2e/icons/conditions/enfeebled.webp
+          name: Enfeebled
+          system:
+            description:
+              value: >-
+                <p>You're physically weakened. Enfeebled always includes a
+                value. When you are enfeebled, you take a status penalty equal
+                to the condition value to Strength-based rolls and DCs,
+                including Strength-based melee attack rolls, Strength-based
+                damage rolls, and Athletics checks.</p>
+              gm: ''
+            group: abilities
+            overrides: []
+            publication:
+              license: ORC
+              remaster: true
+              title: Pathfinder Player Core
+              authors: ''
+            references:
+              children: []
+              overriddenBy: []
+              overrides: []
+              parent: null
+            rules:
+              - key: FlatModifier
+                selector:
+                  - str-based
+                  - str-damage
+                slug: enfeebled
+                type: status
+                value: '-@item.badge.value'
+            traits:
+              value: []
+              otherTags: []
+            value:
+              isValued: true
+              value: 1
+            slug: enfeebled
+            _migration:
+              version: 0.959
+              previous: null
+            fromSpell: false
+            persistent: null
+          type: condition
+          _stats:
+            coreVersion: '14.364'
+            systemId: pf2e
+            systemVersion: 8.3.0
+            createdTime: null
+            modifiedTime: null
+            lastModifiedBy: null
+            exportSource: null
+            compendiumSource: null
+            duplicateSource: null
+          effects: []
+          folder: null
+          sort: 0
+          flags: {}
+          _id: N1twPpUKtoxAYp2l
+          ownership:
+            default: 0
+          _key: >-
+            !scenes.tokens.delta.items!iHus9RKOg23pnoYS.n8Xoo3aI5Sz2yk0e.n8Xoo3aI5Sz2yk0e.N1twPpUKtoxAYp2l
+      effects: []
+      flags: {}
+      type: null
+      img: null
+      ownership: null
+      _key: '!scenes.tokens.delta!iHus9RKOg23pnoYS.n8Xoo3aI5Sz2yk0e.n8Xoo3aI5Sz2yk0e'
+    x: 9300
+    'y': 3750
+    elevation: 0
+    locked: false
+    _movementHistory: []
+    _regions: []
+    _key: '!scenes.tokens!iHus9RKOg23pnoYS.n8Xoo3aI5Sz2yk0e'
+  - displayName: 20
+    displayBars: 20
+    flags:
+      pf2e:
+        linkToActorSize: true
+        autoscale: true
+    sight:
+      enabled: false
+      range: 0
+      angle: 360
+      visionMode: basic
+      attenuation: 0.1
+      brightness: 0
+      saturation: 0
+      contrast: 0
+      color: null
+    detectionModes: {}
+    disposition: -1
+    name: Ghostly Guard
+    actorLink: false
+    texture:
+      src: modules/pf2e-kingmaker/assets/actor-tokens/kingmaker/ghostly-guard.webp
+      scaleX: 1
+      scaleY: 1
+      anchorX: 0.5
+      anchorY: 0.5
+      fit: contain
+      tint: '#ffffff'
+      alphaThreshold: 0.75
+    width: 1
+    height: 1
+    lockRotation: false
+    rotation: 0
+    alpha: 1
+    bar1:
+      attribute: attributes.hp
+    bar2:
+      attribute: null
+    light:
+      alpha: 0.5
+      angle: 360
+      bright: 0
+      coloration: 1
+      dim: 0
+      attenuation: 0.5
+      luminosity: 0.5
+      saturation: 0
+      contrast: 0
+      shadows: 0
+      animation:
+        type: null
+        speed: 5
+        intensity: 5
+        reverse: false
+      darkness:
+        min: 0
+        max: 1
+      negative: false
+      priority: 0
+      color: null
+    occludable:
+      radius: 0
+    ring:
+      enabled: false
+      colors:
+        ring: null
+        background: null
+      effects: 1
+      subject:
+        scale: 1
+        texture: null
+    turnMarker:
+      mode: 1
+      animation: pulse
+      src: null
+      disposition: true
+    movementAction: null
+    depth: 1
+    actorId: Lvl5FJTR6n32qOw3
+    hidden: false
+    sort: 22
+    shape: 4
+    level: defaultLevel0000
+    _id: C4JR4maK5yRDk1J8
+    delta:
+      _id: C4JR4maK5yRDk1J8
+      name: Ghostly Guard
+      system:
+        attributes:
+          hp:
+            value: 155
+      items:
+        - _id: lGRlzXnOSNGW7djU
+          img: systems/pf2e/icons/actions/Passive.webp
+          name: Shame
+          sort: 200000
+          system:
+            description:
+              gm: ''
+              value: >-
+                <p>A ghostly guard suffers from shame (-2 status penalty on
+                attack rolls and to all save DCs to resist their spells or
+                attacks) when it attacks a target that appears to be an elf or a
+                worshipper of Calistria. @UUID[Item.764EVGVADrDSbdqu]{Forgive
+                Foe} can be attempted against a ghostly guard with a
+                @Check[diplomacy|dc:39] check or @Check[society|dc:39] check. If
+                a ghostly guard is affected by a critical success from Forgive
+                Foe, it sighs in relief as it fades away, its soul released into
+                the afterlife.</p>
+            rules:
+              - key: RollOption
+                domain: all
+                option: shame
+                label: Shame
+                toggleable: true
+                value: true
+              - key: FlatModifier
+                selector:
+                  - attack
+                  - class-dc
+                  - spell-dc
+                  - inline-dc
+                type: status
+                value: -2
+                predicate:
+                  - shame
+            slug: null
+            _migration:
+              version: 0.959
+              previous: null
+            traits:
+              otherTags: []
+              value: []
+            publication:
+              title: ''
+              authors: ''
+              license: OGL
+              remaster: false
+            actionType:
+              value: passive
+            category: interaction
+            actions:
+              value: null
+            deathNote: false
+          type: action
+          effects: []
+          folder: null
+          flags: {}
+          _stats:
+            systemId: pf2e
+            systemVersion: 8.3.0
+            coreVersion: '14.364'
+            createdTime: null
+            modifiedTime: null
+            lastModifiedBy: null
+            exportSource: null
+            compendiumSource: null
+            duplicateSource: null
+          ownership:
+            default: 0
+          _key: >-
+            !scenes.tokens.delta.items!iHus9RKOg23pnoYS.C4JR4maK5yRDk1J8.C4JR4maK5yRDk1J8.lGRlzXnOSNGW7djU
+      effects: []
+      flags: {}
+      type: null
+      img: null
+      ownership: null
+      _key: '!scenes.tokens.delta!iHus9RKOg23pnoYS.C4JR4maK5yRDk1J8.C4JR4maK5yRDk1J8'
+    x: 9300
+    'y': 3450
+    elevation: 0
+    locked: false
+    _movementHistory: []
+    _regions: []
+    _key: '!scenes.tokens!iHus9RKOg23pnoYS.C4JR4maK5yRDk1J8'
+  - displayName: 20
+    displayBars: 20
+    flags:
+      pf2e:
+        linkToActorSize: true
+        autoscale: true
+    sight:
+      enabled: false
+      range: 0
+      angle: 360
+      visionMode: basic
+      attenuation: 0.1
+      brightness: 0
+      saturation: 0
+      contrast: 0
+      color: null
+    detectionModes: {}
+    disposition: -1
+    name: Ghostly Guard
+    actorLink: false
+    texture:
+      src: modules/pf2e-kingmaker/assets/actor-tokens/kingmaker/ghostly-guard.webp
+      scaleX: 1
+      scaleY: 1
+      anchorX: 0.5
+      anchorY: 0.5
+      fit: contain
+      tint: '#ffffff'
+      alphaThreshold: 0.75
+    width: 1
+    height: 1
+    lockRotation: false
+    rotation: 0
+    alpha: 1
+    bar1:
+      attribute: attributes.hp
+    bar2:
+      attribute: null
+    light:
+      alpha: 0.5
+      angle: 360
+      bright: 0
+      coloration: 1
+      dim: 0
+      attenuation: 0.5
+      luminosity: 0.5
+      saturation: 0
+      contrast: 0
+      shadows: 0
+      animation:
+        type: null
+        speed: 5
+        intensity: 5
+        reverse: false
+      darkness:
+        min: 0
+        max: 1
+      negative: false
+      priority: 0
+      color: null
+    occludable:
+      radius: 0
+    ring:
+      enabled: false
+      colors:
+        ring: null
+        background: null
+      effects: 1
+      subject:
+        scale: 1
+        texture: null
+    turnMarker:
+      mode: 1
+      animation: pulse
+      src: null
+      disposition: true
+    movementAction: null
+    depth: 1
+    actorId: Lvl5FJTR6n32qOw3
+    hidden: false
+    sort: 23
+    shape: 4
+    level: defaultLevel0000
+    _id: L4GtJS28kDkvw0Uy
+    delta:
+      _id: L4GtJS28kDkvw0Uy
+      name: Ghostly Guard
+      system:
+        attributes:
+          hp:
+            value: 111
+      items:
+        - img: systems/pf2e/icons/conditions/persistent-damage.webp
+          name: Persistent Damage
+          system:
+            description:
+              value: >-
+                <p>You are taking damage from an ongoing effect, such as from
+                being lit on fire. This appears as "X persistent [type] damage,"
+                where "X" is the amount of damage dealt and "[type]" is the
+                damage type. Like normal damage, it can be doubled or halved
+                based on the results of an attack roll or saving throw. Instead
+                of taking persistent damage immediately, you take it at the end
+                of each of your turns as long as you have the condition, rolling
+                any damage dice anew each time. After you take persistent
+                damage, roll a @Check[flat|showDC:all|dc:15] to see if you
+                recover from the persistent damage. If you succeed, the
+                condition ends.</p>
+              gm: ''
+            group: null
+            overrides: []
+            publication:
+              license: ORC
+              remaster: true
+              title: Pathfinder Player Core
+              authors: ''
+            references:
+              children: []
+              overriddenBy: []
+              overrides: []
+              parent: null
+            rules: []
+            traits:
+              value:
+                - magical
+              otherTags: []
+            value:
+              isValued: false
+              value: null
+            slug: persistent-damage
+            _migration:
+              version: 0.959
+              previous: null
+            fromSpell: false
+            persistent:
+              formula: 1d10
+              damageType: fire
+              dc: 15
+              criticalHit: true
+          type: condition
+          _stats:
+            coreVersion: '14.364'
+            systemId: pf2e
+            systemVersion: 8.3.0
+            createdTime: null
+            modifiedTime: null
+            lastModifiedBy: null
+            exportSource: null
+            compendiumSource: null
+            duplicateSource: null
+          effects: []
+          folder: null
+          sort: 0
+          flags: {}
+          _id: XxSYIVlmwWIYXLrj
+          ownership:
+            default: 0
+          _key: >-
+            !scenes.tokens.delta.items!iHus9RKOg23pnoYS.L4GtJS28kDkvw0Uy.L4GtJS28kDkvw0Uy.XxSYIVlmwWIYXLrj
+      effects: []
+      flags: {}
+      type: null
+      img: null
+      ownership: null
+      _key: '!scenes.tokens.delta!iHus9RKOg23pnoYS.L4GtJS28kDkvw0Uy.L4GtJS28kDkvw0Uy'
+    x: 9750
+    'y': 3450
+    elevation: 5
+    locked: false
+    _movementHistory: []
+    _regions: []
+    _key: '!scenes.tokens!iHus9RKOg23pnoYS.L4GtJS28kDkvw0Uy'
+  - displayName: 20
+    displayBars: 20
+    flags:
+      pf2e:
+        linkToActorSize: true
+        autoscale: true
+    sight:
+      enabled: false
+      range: 0
+      angle: 360
+      visionMode: basic
+      attenuation: 0.1
+      brightness: 0
+      saturation: 0
+      contrast: 0
+      color: null
+    detectionModes: {}
+    disposition: -1
+    name: Ghostly Guard
+    actorLink: false
+    texture:
+      src: modules/pf2e-kingmaker/assets/actor-tokens/kingmaker/ghostly-guard.webp
+      scaleX: 1
+      scaleY: 1
+      anchorX: 0.5
+      anchorY: 0.5
+      fit: contain
+      tint: '#ffffff'
+      alphaThreshold: 0.75
+    width: 1
+    height: 1
+    lockRotation: false
+    rotation: 0
+    alpha: 1
+    bar1:
+      attribute: attributes.hp
+    bar2:
+      attribute: null
+    light:
+      alpha: 0.5
+      angle: 360
+      bright: 0
+      coloration: 1
+      dim: 0
+      attenuation: 0.5
+      luminosity: 0.5
+      saturation: 0
+      contrast: 0
+      shadows: 0
+      animation:
+        type: null
+        speed: 5
+        intensity: 5
+        reverse: false
+      darkness:
+        min: 0
+        max: 1
+      negative: false
+      priority: 0
+      color: null
+    occludable:
+      radius: 0
+    ring:
+      enabled: false
+      colors:
+        ring: null
+        background: null
+      effects: 1
+      subject:
+        scale: 1
+        texture: null
+    turnMarker:
+      mode: 1
+      animation: pulse
+      src: null
+      disposition: true
+    movementAction: null
+    depth: 1
+    actorId: Lvl5FJTR6n32qOw3
+    hidden: false
+    sort: 24
+    shape: 4
+    level: defaultLevel0000
+    _id: 7wCXuOqNe8I4p6hV
+    delta:
+      _id: 7wCXuOqNe8I4p6hV
+      name: Ghostly Guard
+      system:
+        attributes:
+          hp:
+            value: 0
+      items:
+        - img: systems/pf2e/icons/conditions/persistent-damage.webp
+          name: Persistent Damage
+          system:
+            description:
+              value: >-
+                <p>You are taking damage from an ongoing effect, such as from
+                being lit on fire. This appears as "X persistent [type] damage,"
+                where "X" is the amount of damage dealt and "[type]" is the
+                damage type. Like normal damage, it can be doubled or halved
+                based on the results of an attack roll or saving throw. Instead
+                of taking persistent damage immediately, you take it at the end
+                of each of your turns as long as you have the condition, rolling
+                any damage dice anew each time. After you take persistent
+                damage, roll a @Check[flat|showDC:all|dc:15] to see if you
+                recover from the persistent damage. If you succeed, the
+                condition ends.</p>
+              gm: ''
+            group: null
+            overrides: []
+            publication:
+              license: ORC
+              remaster: true
+              title: Pathfinder Player Core
+              authors: ''
+            references:
+              children: []
+              overriddenBy: []
+              overrides: []
+              parent: null
+            rules: []
+            traits:
+              value:
+                - magical
+              otherTags: []
+            value:
+              isValued: false
+              value: null
+            slug: persistent-damage
+            _migration:
+              version: 0.959
+              previous: null
+            fromSpell: false
+            persistent:
+              formula: 2d10
+              damageType: fire
+              dc: 15
+              criticalHit: true
+          type: condition
+          _stats:
+            coreVersion: '14.364'
+            systemId: pf2e
+            systemVersion: 8.3.0
+            createdTime: null
+            modifiedTime: null
+            lastModifiedBy: null
+            exportSource: null
+            compendiumSource: null
+            duplicateSource: null
+          effects: []
+          folder: null
+          sort: 0
+          flags: {}
+          _id: TBMiJng4qEMvNt1x
+          ownership:
+            default: 0
+          _key: >-
+            !scenes.tokens.delta.items!iHus9RKOg23pnoYS.7wCXuOqNe8I4p6hV.7wCXuOqNe8I4p6hV.TBMiJng4qEMvNt1x
+        - img: systems/pf2e/icons/conditions/persistent-damage.webp
+          name: Persistent Damage
+          system:
+            description:
+              value: >-
+                <p>You are taking damage from an ongoing effect, such as from
+                being lit on fire. This appears as "X persistent [type] damage,"
+                where "X" is the amount of damage dealt and "[type]" is the
+                damage type. Like normal damage, it can be doubled or halved
+                based on the results of an attack roll or saving throw. Instead
+                of taking persistent damage immediately, you take it at the end
+                of each of your turns as long as you have the condition, rolling
+                any damage dice anew each time. After you take persistent
+                damage, roll a @Check[flat|showDC:all|dc:15] to see if you
+                recover from the persistent damage. If you succeed, the
+                condition ends.</p>
+              gm: ''
+            group: null
+            overrides: []
+            publication:
+              license: ORC
+              remaster: true
+              title: Pathfinder Player Core
+              authors: ''
+            references:
+              children: []
+              overriddenBy: []
+              overrides: []
+              parent: null
+            rules: []
+            traits:
+              value:
+                - magical
+              otherTags: []
+            value:
+              isValued: false
+              value: null
+            slug: persistent-damage
+            _migration:
+              version: 0.959
+              previous: null
+            fromSpell: false
+            persistent:
+              formula: 2d10
+              damageType: fire
+              dc: 15
+              criticalHit: true
+          type: condition
+          _stats:
+            coreVersion: '14.364'
+            systemId: pf2e
+            systemVersion: 8.3.0
+            createdTime: null
+            modifiedTime: null
+            lastModifiedBy: null
+            exportSource: null
+            compendiumSource: null
+            duplicateSource: null
+          effects: []
+          folder: null
+          sort: 0
+          flags: {}
+          _id: KFsb0Ls6eG0Cdowr
+          ownership:
+            default: 0
+          _key: >-
+            !scenes.tokens.delta.items!iHus9RKOg23pnoYS.7wCXuOqNe8I4p6hV.7wCXuOqNe8I4p6hV.KFsb0Ls6eG0Cdowr
+      effects:
+        - name: Dead
+          img: systems/pf2e/icons/other/dead.svg
+          statuses:
+            - dead
+          showIcon: 2
+          _id: i9Zzbq2nqS17a5gB
+          type: base
+          system:
+            changes: []
+          disabled: false
+          start:
+            time: 24097970
+            combat: c8jNKAnzQKKzDkuf
+            combatant: BHiMAwO5nYhUVAnn
+            initiative: 42
+            round: 8
+            turn: 5
+          duration:
+            value: null
+            units: seconds
+            expiry: null
+            expired: false
+          description: ''
+          origin: null
+          tint: '#ffffff'
+          transfer: false
+          folder: null
+          sort: 0
+          flags:
+            core:
+              overlay: true
+          _stats:
+            coreVersion: '14.364'
+            systemId: pf2e
+            systemVersion: 8.3.0
+            createdTime: null
+            modifiedTime: null
+            lastModifiedBy: null
+            compendiumSource: null
+            duplicateSource: null
+            exportSource: null
+          _key: >-
+            !scenes.tokens.delta.effects!iHus9RKOg23pnoYS.7wCXuOqNe8I4p6hV.7wCXuOqNe8I4p6hV.i9Zzbq2nqS17a5gB
+      flags: {}
+      type: null
+      img: null
+      ownership: null
+      _key: '!scenes.tokens.delta!iHus9RKOg23pnoYS.7wCXuOqNe8I4p6hV.7wCXuOqNe8I4p6hV'
+    x: 9150
+    'y': 3900
+    elevation: 200
+    locked: false
+    _movementHistory: []
+    _regions: []
+    _key: '!scenes.tokens!iHus9RKOg23pnoYS.7wCXuOqNe8I4p6hV'
+  - displayName: 30
+    displayBars: 40
+    flags:
+      monks-tokenbar:
+        include: default
+      healthEstimate:
+        dontMarkDead: false
+        hideHealthEstimate: false
+        hideName: false
+      pf2e:
+        linkToActorSize: true
+        autoscale: false
+      core: {}
+      wall-height:
+        tokenHeight: 0
+      tagger: {}
+      monks-combat-marker:
+        token-highlight-scale: 1.5
+        token-combat-animation: ''
+        token-highlight: ''
+      monks-bloodsplats:
+        bloodsplat-colour: ''
+        bloodsplat-type: ''
+    sight:
+      enabled: true
+      color: null
+      range: 0
+      angle: 360
+      visionMode: basic
+      attenuation: 0.1
+      brightness: 0
+      saturation: 0
+      contrast: 0
+    detectionModes: {}
+    height: 1
+    width: 1
+    actorLink: true
+    name: Rindle X
+    texture:
+      src: worlds/kingmaker/PCs/rindle.webp
+      scaleX: 1.1
+      scaleY: 1.1
+      tint: '#ffffff'
+      anchorX: 0.5
+      anchorY: 0.5
+      fit: contain
+      alphaThreshold: 0.75
+    lockRotation: false
+    rotation: 0
+    alpha: 1
+    disposition: -1
+    bar1:
+      attribute: attributes.hp
+    bar2:
+      attribute: null
+    light:
+      alpha: 0.5
+      angle: 360
+      bright: 0
+      coloration: 1
+      dim: 0
+      attenuation: 0.5
+      luminosity: 0.5
+      saturation: 0
+      contrast: 0
+      shadows: 0
+      animation:
+        type: null
+        speed: 5
+        intensity: 5
+        reverse: false
+      darkness:
+        min: 0
+        max: 1
+      color: null
+      negative: false
+      priority: 0
+    occludable:
+      radius: 0
+    ring:
+      enabled: true
+      colors:
+        ring: null
+        background: null
+      effects: 1
+      subject:
+        scale: 1.1
+        texture: null
+    turnMarker:
+      mode: 1
+      animation: null
+      src: null
+      disposition: false
+    movementAction: null
+    depth: 1
+    actorId: hdDU3CMTO5xZeumu
+    hidden: false
+    sort: 25
+    shape: 4
+    level: defaultLevel0000
+    _id: qJJv4fdy1DqwHyM0
+    delta: null
+    x: 9150
+    'y': 3450
+    elevation: 0
+    locked: false
+    _movementHistory: []
+    _regions: []
+    _key: '!scenes.tokens!iHus9RKOg23pnoYS.qJJv4fdy1DqwHyM0'
 lights:
   - _id: 22gIqBSN04Ht1HoC
     x: 4307
@@ -6054,7 +6830,7 @@ lights:
       - defaultLevel0000
     locked: false
     _key: '!scenes.lights!iHus9RKOg23pnoYS.rIZhat220m0bhjTs'
-  - elevation: -20
+  - elevation: -10
     levels:
       - tqX0i1DdrItywCHc
     walls: true
@@ -6090,7 +6866,7 @@ lights:
     locked: false
     flags: {}
     _key: '!scenes.lights!iHus9RKOg23pnoYS.yhu3CcPuA4QTjbqM'
-  - elevation: -20
+  - elevation: -10
     levels:
       - tqX0i1DdrItywCHc
     walls: true
@@ -6126,7 +6902,7 @@ lights:
     locked: false
     flags: {}
     _key: '!scenes.lights!iHus9RKOg23pnoYS.MhiO5lGgVnvOkKix'
-  - elevation: -20
+  - elevation: -10
     levels:
       - tqX0i1DdrItywCHc
     walls: true
@@ -6162,7 +6938,7 @@ lights:
     locked: false
     flags: {}
     _key: '!scenes.lights!iHus9RKOg23pnoYS.QoWFWwigqLs0keND'
-  - elevation: -20
+  - elevation: -10
     levels:
       - tqX0i1DdrItywCHc
     walls: true
@@ -6198,7 +6974,7 @@ lights:
     locked: false
     flags: {}
     _key: '!scenes.lights!iHus9RKOg23pnoYS.haDy2E74uLOfUt7k'
-  - elevation: -20
+  - elevation: -10
     levels:
       - tqX0i1DdrItywCHc
     walls: true
@@ -6234,7 +7010,7 @@ lights:
     locked: false
     flags: {}
     _key: '!scenes.lights!iHus9RKOg23pnoYS.esJ6CnVWDnXOhZiP'
-  - elevation: -20
+  - elevation: -10
     levels:
       - tqX0i1DdrItywCHc
     walls: true
@@ -6270,7 +7046,7 @@ lights:
     locked: false
     flags: {}
     _key: '!scenes.lights!iHus9RKOg23pnoYS.yTD0zmnfddjK4NXK'
-  - elevation: -20
+  - elevation: -10
     levels:
       - tqX0i1DdrItywCHc
     walls: true
@@ -6306,7 +7082,7 @@ lights:
     locked: false
     flags: {}
     _key: '!scenes.lights!iHus9RKOg23pnoYS.8W6xyuyMKglB8AFg'
-  - elevation: -20
+  - elevation: -10
     levels:
       - tqX0i1DdrItywCHc
     walls: true
@@ -6342,6 +7118,80 @@ lights:
     locked: false
     flags: {}
     _key: '!scenes.lights!iHus9RKOg23pnoYS.Iy6pfJBM1XUxPpfU'
+  - elevation: 20
+    levels:
+      - lrwn3CfR31j9XF0i
+      - defaultLevel0000
+    walls: true
+    vision: false
+    hidden: false
+    config:
+      negative: false
+      priority: 0
+      alpha: 0.3
+      angle: 360
+      color: '#65592f'
+      coloration: 1
+      attenuation: 0.5
+      luminosity: 0.5
+      saturation: 0
+      contrast: 0
+      shadows: 0
+      animation:
+        type: null
+        speed: 5
+        intensity: 5
+        reverse: false
+      darkness:
+        min: 0
+        max: 1
+      bright: 5
+      dim: 10
+    name: Ambient Light (9)
+    _id: oSjGX0N0rdNrFdgi
+    x: 9525
+    'y': 3375
+    rotation: 0
+    locked: false
+    flags: {}
+    _key: '!scenes.lights!iHus9RKOg23pnoYS.oSjGX0N0rdNrFdgi'
+  - elevation: 20
+    levels:
+      - lrwn3CfR31j9XF0i
+      - defaultLevel0000
+    walls: true
+    vision: false
+    hidden: false
+    config:
+      negative: false
+      priority: 0
+      alpha: 0.3
+      angle: 360
+      color: '#65592f'
+      coloration: 1
+      attenuation: 0.5
+      luminosity: 0.5
+      saturation: 0
+      contrast: 0
+      shadows: 0
+      animation:
+        type: null
+        speed: 5
+        intensity: 5
+        reverse: false
+      darkness:
+        min: 0
+        max: 1
+      bright: 5
+      dim: 10
+    name: Ambient Light (10)
+    _id: iyePCTbEHYMxd3y6
+    x: 9525
+    'y': 4125
+    rotation: 0
+    locked: false
+    flags: {}
+    _key: '!scenes.lights!iHus9RKOg23pnoYS.iyePCTbEHYMxd3y6'
 notes:
   - entryId: geHtEMsUzqsld8cx
     pageId: COhCF3Ki8BXn1jLz
@@ -7278,7 +8128,7 @@ notes:
       - tqX0i1DdrItywCHc
     x: 6600
     'y': 5100
-    elevation: -20
+    elevation: -10
     sort: 1
     iconSize: 40
     texture:
@@ -9247,7 +10097,7 @@ walls:
     _id: k0rnUYYhOz2GFbuj
     dir: 0
     door: 1
-    ds: 0
+    ds: 1
     threshold:
       light: null
       sight: null
@@ -13164,160 +14014,6 @@ walls:
     sound: 20
     move: 20
     c:
-      - 5850
-      - 6150
-      - 7050
-      - 6150
-    _id: 50cklUQMSkcg8msF
-    dir: 0
-    door: 0
-    ds: 0
-    threshold:
-      light: null
-      sight: null
-      sound: null
-      attenuation: false
-    flags: {}
-    animation: null
-    levels: []
-    _key: '!scenes.walls!iHus9RKOg23pnoYS.50cklUQMSkcg8msF'
-  - light: 20
-    sight: 20
-    sound: 20
-    move: 20
-    c:
-      - 7050
-      - 6150
-      - 7050
-      - 7350
-    _id: YQiyZdrx8A2qkZEL
-    dir: 0
-    door: 0
-    ds: 0
-    threshold:
-      light: null
-      sight: null
-      sound: null
-      attenuation: false
-    flags: {}
-    animation: null
-    levels: []
-    _key: '!scenes.walls!iHus9RKOg23pnoYS.YQiyZdrx8A2qkZEL'
-  - light: 20
-    sight: 20
-    sound: 20
-    move: 20
-    c:
-      - 7050
-      - 7350
-      - 5850
-      - 7350
-    _id: PuxxWZ33nUISCcER
-    dir: 0
-    door: 0
-    ds: 0
-    threshold:
-      light: null
-      sight: null
-      sound: null
-      attenuation: false
-    flags: {}
-    animation: null
-    levels: []
-    _key: '!scenes.walls!iHus9RKOg23pnoYS.PuxxWZ33nUISCcER'
-  - light: 20
-    sight: 20
-    sound: 20
-    move: 20
-    c:
-      - 5850
-      - 7350
-      - 5850
-      - 6150
-    _id: Ajc8updA9K2hZ4UC
-    dir: 0
-    door: 0
-    ds: 0
-    threshold:
-      light: null
-      sight: null
-      sound: null
-      attenuation: false
-    flags: {}
-    animation: null
-    levels: []
-    _key: '!scenes.walls!iHus9RKOg23pnoYS.Ajc8updA9K2hZ4UC'
-  - light: 20
-    sight: 20
-    sound: 20
-    move: 20
-    c:
-      - 6300
-      - 6600
-      - 5850
-      - 6600
-    _id: A3e0SWzIVC7JZwkz
-    dir: 0
-    door: 0
-    ds: 0
-    threshold:
-      light: null
-      sight: null
-      sound: null
-      attenuation: false
-    flags: {}
-    animation: null
-    levels: []
-    _key: '!scenes.walls!iHus9RKOg23pnoYS.A3e0SWzIVC7JZwkz'
-  - light: 20
-    sight: 20
-    sound: 20
-    move: 20
-    c:
-      - 6300
-      - 7200
-      - 6300
-      - 6450
-    _id: m6Se5hilvjJFEd53
-    dir: 0
-    door: 0
-    ds: 0
-    threshold:
-      light: null
-      sight: null
-      sound: null
-      attenuation: false
-    flags: {}
-    animation: null
-    levels: []
-    _key: '!scenes.walls!iHus9RKOg23pnoYS.m6Se5hilvjJFEd53'
-  - light: 20
-    sight: 20
-    sound: 20
-    move: 20
-    c:
-      - 6300
-      - 6300
-      - 6300
-      - 6150
-    _id: 7yfr3sV7rWHPhF9Y
-    dir: 0
-    door: 0
-    ds: 0
-    threshold:
-      light: null
-      sight: null
-      sound: null
-      attenuation: false
-    flags: {}
-    animation: null
-    levels: []
-    _key: '!scenes.walls!iHus9RKOg23pnoYS.7yfr3sV7rWHPhF9Y'
-  - light: 20
-    sight: 20
-    sound: 20
-    move: 20
-    c:
       - 3600
       - 2400
       - 3600
@@ -13486,7 +14182,7 @@ walls:
     _id: VGnmQ7cP9ngVowe1
     dir: 0
     door: 1
-    ds: 2
+    ds: 1
     threshold:
       light: null
       sight: null
@@ -16390,7 +17086,7 @@ walls:
     sound: 20
     dir: 0
     door: 1
-    ds: 0
+    ds: 1
     threshold:
       light: null
       sight: null
@@ -19200,14 +19896,21 @@ walls:
     sight: 20
     sound: 20
     dir: 0
-    door: 0
+    door: 2
     ds: 0
     threshold:
       light: null
       sight: null
       sound: null
       attenuation: false
-    animation: null
+    animation:
+      type: ''
+      texture: null
+      flip: false
+      double: false
+      direction: 1
+      duration: 750
+      strength: 1
     flags: {}
     c:
       - 5391
@@ -19215,6 +19918,7 @@ walls:
       - 5241
       - 3900
     _id: 51GGElMcdo30uD5S
+    doorSound: stoneBasic
     _key: '!scenes.walls!iHus9RKOg23pnoYS.51GGElMcdo30uD5S'
   - levels:
       - lrwn3CfR31j9XF0i
@@ -20341,7 +21045,7 @@ walls:
     sound: 20
     dir: 0
     door: 1
-    ds: 0
+    ds: 1
     threshold:
       light: null
       sight: null
@@ -20365,7 +21069,7 @@ walls:
     sound: 20
     dir: 0
     door: 1
-    ds: 0
+    ds: 1
     threshold:
       light: null
       sight: null
@@ -24510,6 +25214,328 @@ walls:
       - 2391
     _id: JytgVrEkSkWO6Xbf
     _key: '!scenes.walls!iHus9RKOg23pnoYS.JytgVrEkSkWO6Xbf'
+  - levels:
+      - diceCHZQ0XXaLD3P
+    light: 0
+    move: 20
+    sight: 0
+    sound: 0
+    dir: 0
+    door: 0
+    ds: 0
+    threshold:
+      light: null
+      sight: null
+      sound: null
+      attenuation: false
+    animation: null
+    flags: {}
+    c:
+      - 6441
+      - 2363
+      - 6459
+      - 2531
+    _id: kHeAD2m15WyOE5Qv
+    _key: '!scenes.walls!iHus9RKOg23pnoYS.kHeAD2m15WyOE5Qv'
+  - levels:
+      - diceCHZQ0XXaLD3P
+    light: 0
+    move: 20
+    sight: 0
+    sound: 0
+    dir: 0
+    door: 0
+    ds: 0
+    threshold:
+      light: null
+      sight: null
+      sound: null
+      attenuation: false
+    animation: null
+    flags: {}
+    c:
+      - 6459
+      - 2531
+      - 6553
+      - 2719
+    _id: B5LwGgdDUsqtfCBM
+    _key: '!scenes.walls!iHus9RKOg23pnoYS.B5LwGgdDUsqtfCBM'
+  - levels:
+      - diceCHZQ0XXaLD3P
+    light: 0
+    move: 20
+    sight: 0
+    sound: 0
+    dir: 0
+    door: 0
+    ds: 0
+    threshold:
+      light: null
+      sight: null
+      sound: null
+      attenuation: false
+    animation: null
+    flags: {}
+    c:
+      - 6553
+      - 2719
+      - 6713
+      - 2841
+    _id: d4Nd9eORpVSUzcny
+    _key: '!scenes.walls!iHus9RKOg23pnoYS.d4Nd9eORpVSUzcny'
+  - levels:
+      - diceCHZQ0XXaLD3P
+    light: 0
+    move: 20
+    sight: 0
+    sound: 0
+    dir: 0
+    door: 0
+    ds: 0
+    threshold:
+      light: null
+      sight: null
+      sound: null
+      attenuation: false
+    animation: null
+    flags: {}
+    c:
+      - 6713
+      - 2841
+      - 6900
+      - 2888
+    _id: zEk71cFzTO4XUU4E
+    _key: '!scenes.walls!iHus9RKOg23pnoYS.zEk71cFzTO4XUU4E'
+  - levels:
+      - diceCHZQ0XXaLD3P
+    light: 0
+    move: 20
+    sight: 0
+    sound: 0
+    dir: 0
+    door: 0
+    ds: 0
+    threshold:
+      light: null
+      sight: null
+      sound: null
+      attenuation: false
+    animation: null
+    flags: {}
+    c:
+      - 6900
+      - 2888
+      - 7106
+      - 2850
+    _id: ngrNf4hjy4UxOGPo
+    _key: '!scenes.walls!iHus9RKOg23pnoYS.ngrNf4hjy4UxOGPo'
+  - levels:
+      - diceCHZQ0XXaLD3P
+    light: 0
+    move: 20
+    sight: 0
+    sound: 0
+    dir: 0
+    door: 0
+    ds: 0
+    threshold:
+      light: null
+      sight: null
+      sound: null
+      attenuation: false
+    animation: null
+    flags: {}
+    c:
+      - 7106
+      - 2850
+      - 7284
+      - 2728
+    _id: UVTIS4G2hUlyvobF
+    _key: '!scenes.walls!iHus9RKOg23pnoYS.UVTIS4G2hUlyvobF'
+  - levels:
+      - diceCHZQ0XXaLD3P
+    light: 0
+    move: 20
+    sight: 0
+    sound: 0
+    dir: 0
+    door: 0
+    ds: 0
+    threshold:
+      light: null
+      sight: null
+      sound: null
+      attenuation: false
+    animation: null
+    flags: {}
+    c:
+      - 7284
+      - 2728
+      - 7388
+      - 2550
+    _id: a4CyM4JoEGmopTsZ
+    _key: '!scenes.walls!iHus9RKOg23pnoYS.a4CyM4JoEGmopTsZ'
+  - levels:
+      - diceCHZQ0XXaLD3P
+    light: 0
+    move: 20
+    sight: 0
+    sound: 0
+    dir: 0
+    door: 0
+    ds: 0
+    threshold:
+      light: null
+      sight: null
+      sound: null
+      attenuation: false
+    animation: null
+    flags: {}
+    c:
+      - 7388
+      - 2550
+      - 7406
+      - 2363
+    _id: JsC0qnHyrbKfwxK5
+    _key: '!scenes.walls!iHus9RKOg23pnoYS.JsC0qnHyrbKfwxK5'
+  - levels:
+      - diceCHZQ0XXaLD3P
+    light: 0
+    move: 20
+    sight: 0
+    sound: 0
+    dir: 0
+    door: 0
+    ds: 0
+    threshold:
+      light: null
+      sight: null
+      sound: null
+      attenuation: false
+    animation: null
+    flags: {}
+    c:
+      - 7406
+      - 2363
+      - 7341
+      - 2156
+    _id: PMFlfTOb6aAD62VX
+    _key: '!scenes.walls!iHus9RKOg23pnoYS.PMFlfTOb6aAD62VX'
+  - levels:
+      - diceCHZQ0XXaLD3P
+    light: 0
+    move: 20
+    sight: 0
+    sound: 0
+    dir: 0
+    door: 0
+    ds: 0
+    threshold:
+      light: null
+      sight: null
+      sound: null
+      attenuation: false
+    animation: null
+    flags: {}
+    c:
+      - 7341
+      - 2156
+      - 7191
+      - 2006
+    _id: tiJIgD8wxglzZXHF
+    _key: '!scenes.walls!iHus9RKOg23pnoYS.tiJIgD8wxglzZXHF'
+  - levels:
+      - diceCHZQ0XXaLD3P
+    light: 0
+    move: 20
+    sight: 0
+    sound: 0
+    dir: 0
+    door: 0
+    ds: 0
+    threshold:
+      light: null
+      sight: null
+      sound: null
+      attenuation: false
+    animation: null
+    flags: {}
+    c:
+      - 7191
+      - 2006
+      - 6975
+      - 1922
+    _id: lIIEOa6pMHXa64NZ
+    _key: '!scenes.walls!iHus9RKOg23pnoYS.lIIEOa6pMHXa64NZ'
+  - levels:
+      - diceCHZQ0XXaLD3P
+    light: 0
+    move: 20
+    sight: 0
+    sound: 0
+    dir: 0
+    door: 0
+    ds: 0
+    threshold:
+      light: null
+      sight: null
+      sound: null
+      attenuation: false
+    animation: null
+    flags: {}
+    c:
+      - 6975
+      - 1922
+      - 6722
+      - 1959
+    _id: xLMoP3o46in1uRJW
+    _key: '!scenes.walls!iHus9RKOg23pnoYS.xLMoP3o46in1uRJW'
+  - levels:
+      - diceCHZQ0XXaLD3P
+    light: 0
+    move: 20
+    sight: 0
+    sound: 0
+    dir: 0
+    door: 0
+    ds: 0
+    threshold:
+      light: null
+      sight: null
+      sound: null
+      attenuation: false
+    animation: null
+    flags: {}
+    c:
+      - 6722
+      - 1959
+      - 6506
+      - 2147
+    _id: FBcm0MX9gkhAU3lZ
+    _key: '!scenes.walls!iHus9RKOg23pnoYS.FBcm0MX9gkhAU3lZ'
+  - levels:
+      - diceCHZQ0XXaLD3P
+    light: 0
+    move: 20
+    sight: 0
+    sound: 0
+    dir: 0
+    door: 0
+    ds: 0
+    threshold:
+      light: null
+      sight: null
+      sound: null
+      attenuation: false
+    animation: null
+    flags: {}
+    c:
+      - 6506
+      - 2147
+      - 6441
+      - 2363
+    _id: FbvPhAtzgw6vh1eo
+    _key: '!scenes.walls!iHus9RKOg23pnoYS.FbvPhAtzgw6vh1eo'
 playlist: null
 playlistSound: null
 journal: null
@@ -24542,8 +25568,8 @@ _stats:
   systemId: pf2e
   systemVersion: 8.3.0
   coreVersion: '14.364'
-  createdTime: 1783987552681
-  modifiedTime: 1783987552681
+  createdTime: 1784180101659
+  modifiedTime: 1784180101659
   lastModifiedBy: txZjek5EOiCBHPoz
   exportSource: null
   compendiumSource: null
@@ -24552,7 +25578,7 @@ weather: ''
 regions:
   - color: '#cc2867'
     elevation:
-      bottom: -20
+      bottom: -10
       top: 20
       topInclusive: false
     levels:
@@ -24593,8 +25619,8 @@ regions:
           coreVersion: '14.364'
           systemId: pf2e
           systemVersion: 8.3.0
-          createdTime: 1783987552718
-          modifiedTime: 1783987552718
+          createdTime: 1784180101700
+          modifiedTime: 1784180101700
           lastModifiedBy: txZjek5EOiCBHPoz
           compendiumSource: null
           duplicateSource: null
@@ -24615,8 +25641,10 @@ regions:
       top: 40
       topInclusive: false
     levels:
-      - lrwn3CfR31j9XF0i
       - defaultLevel0000
+      - lrwn3CfR31j9XF0i
+      - eUoYzV8grzq6tdr2
+      - diceCHZQ0XXaLD3P
     restriction:
       enabled: false
       type: move
@@ -24705,8 +25733,8 @@ regions:
           coreVersion: '14.364'
           systemId: pf2e
           systemVersion: 8.3.0
-          createdTime: 1783987552719
-          modifiedTime: 1783987552719
+          createdTime: 1784180101701
+          modifiedTime: 1784180101701
           lastModifiedBy: txZjek5EOiCBHPoz
           compendiumSource: null
           duplicateSource: null
@@ -24818,8 +25846,8 @@ regions:
           coreVersion: '14.364'
           systemId: pf2e
           systemVersion: 8.3.0
-          createdTime: 1783987552719
-          modifiedTime: 1783987552719
+          createdTime: 1784180101701
+          modifiedTime: 1784180101701
           lastModifiedBy: txZjek5EOiCBHPoz
           compendiumSource: null
           duplicateSource: null
@@ -24986,46 +26014,38 @@ regions:
         origin: null
       - type: polygon
         points:
-          - 3046.875
+          - 3225
+          - 3253.125
+          - 3028.125
+          - 2353.125
+          - 3037.5
           - 1978.125
-          - 3543.75
-          - 1987.5
+          - 3571.875
+          - 1968.75
           - 3562.5
           - 2428.125
-          - 3693.75
-          - 2437.5
+          - 3721.875
+          - 2428.125
           - 3703.125
-          - 2578.125
-          - 3806.25
+          - 2587.5
+          - 3825
           - 2587.5
           - 3928.125
           - 3112.5
-          - 3215.625
-          - 3253.125
-          - 3028.125
-          - 2381.25
-          - 3037.5
-          - 2015.625
         hole: true
         origin: null
       - type: polygon
         points:
-          - 3309.375
-          - 3600
-          - 3975
-          - 3487.5
-          - 4003.125
-          - 3506.25
-          - 4143.75
-          - 4190.625
-          - 4059.375
-          - 4246.875
-          - 4021.875
-          - 4321.875
-          - 4021.875
-          - 4350
+          - 3318.75
+          - 3628.125
+          - 3984.375
           - 3478.125
-          - 4453.125
+          - 4134.375
+          - 4181.25
+          - 4031.25
+          - 4331.25
+          - 3478.125
+          - 4434.375
         hole: true
         origin: null
     elevation:
@@ -25033,8 +26053,10 @@ regions:
       top: 40
       topInclusive: false
     levels:
-      - lrwn3CfR31j9XF0i
       - defaultLevel0000
+      - lrwn3CfR31j9XF0i
+      - eUoYzV8grzq6tdr2
+      - diceCHZQ0XXaLD3P
     restriction:
       enabled: false
       type: move
@@ -25060,8 +26082,8 @@ regions:
           coreVersion: '14.364'
           systemId: pf2e
           systemVersion: 8.3.0
-          createdTime: 1783987552719
-          modifiedTime: 1783987552719
+          createdTime: 1784180101701
+          modifiedTime: 1784180101701
           lastModifiedBy: txZjek5EOiCBHPoz
           compendiumSource: null
           duplicateSource: null
@@ -25216,6 +26238,7 @@ regions:
       - defaultLevel0000
       - lrwn3CfR31j9XF0i
       - eUoYzV8grzq6tdr2
+      - diceCHZQ0XXaLD3P
     restriction:
       enabled: false
       type: move
@@ -25241,8 +26264,8 @@ regions:
           coreVersion: '14.364'
           systemId: pf2e
           systemVersion: 8.3.0
-          createdTime: 1783987552720
-          modifiedTime: 1783987552720
+          createdTime: 1784180101702
+          modifiedTime: 1784180101702
           lastModifiedBy: txZjek5EOiCBHPoz
           compendiumSource: null
           duplicateSource: null
@@ -25261,6 +26284,240 @@ regions:
     ownership:
       default: 0
     _key: '!scenes.regions!iHus9RKOg23pnoYS.u87slXjbZqEOPDy6'
+  - color: '#cc2858'
+    elevation:
+      bottom: 60
+      top: 80
+      topInclusive: false
+    levels:
+      - defaultLevel0000
+      - lrwn3CfR31j9XF0i
+      - eUoYzV8grzq6tdr2
+      - diceCHZQ0XXaLD3P
+    restriction:
+      enabled: false
+      type: move
+      priority: 0
+    attachment:
+      token: null
+    visibility: 4
+    highlightMode: shapes
+    displayMeasurements: false
+    hidden: false
+    name: L4 Tower floor surface
+    _id: 34MPIPZgnXubw3um
+    shapes:
+      - type: polygon
+        points:
+          - 6440.625
+          - 2512.5
+          - 6496.875
+          - 2671.875
+          - 6600
+          - 2775
+          - 6731.25
+          - 2859.375
+          - 6843.75
+          - 2896.875
+          - 7021.875
+          - 2896.875
+          - 7153.125
+          - 2840.625
+          - 7284.375
+          - 2756.25
+          - 7350
+          - 2643.75
+          - 7406.25
+          - 2512.5
+          - 7415.625
+          - 2390.625
+          - 7396.875
+          - 2268.75
+          - 7350
+          - 2128.125
+          - 7275
+          - 2025
+          - 7181.25
+          - 1959.375
+          - 7078.125
+          - 1903.125
+          - 6965.625
+          - 1884.375
+          - 6815.625
+          - 1884.375
+          - 6665.625
+          - 1950
+          - 6534.375
+          - 2053.125
+          - 6459.375
+          - 2212.5
+          - 6421.875
+          - 2371.875
+        hole: false
+        origin: null
+    behaviors:
+      - name: Define Surface
+        type: defineSurface
+        _id: yytsRg3z1iFdjaIY
+        system:
+          placement: bottom
+          light: true
+          move: true
+          sight: true
+          sound: true
+          occlusion: true
+          exposure: true
+          culling: false
+        disabled: false
+        flags: {}
+        _stats:
+          coreVersion: '14.364'
+          systemId: pf2e
+          systemVersion: 8.3.0
+          createdTime: 1784180101702
+          modifiedTime: 1784180101702
+          lastModifiedBy: txZjek5EOiCBHPoz
+          compendiumSource: null
+          duplicateSource: null
+          exportSource: null
+        _key: >-
+          !scenes.regions.behaviors!iHus9RKOg23pnoYS.34MPIPZgnXubw3um.yytsRg3z1iFdjaIY
+    locked: false
+    flags:
+      pf2e:
+        areaShape: null
+    _shapeConstraints: null
+    ownership:
+      default: 0
+    _key: '!scenes.regions!iHus9RKOg23pnoYS.34MPIPZgnXubw3um'
+  - color: '#54cc28'
+    elevation:
+      bottom: 20
+      top: 60
+      topInclusive: false
+    levels:
+      - lrwn3CfR31j9XF0i
+      - eUoYzV8grzq6tdr2
+    restriction:
+      enabled: false
+      type: move
+      priority: 0
+    attachment:
+      token: null
+    visibility: 4
+    highlightMode: shapes
+    displayMeasurements: false
+    hidden: false
+    name: Stairs L2/L3
+    _id: JQTNKCt6rq6IegHA
+    shapes:
+      - type: rectangle
+        x: 7050
+        'y': 1950
+        width: 300
+        height: 300
+        hole: false
+        anchorX: 0
+        anchorY: 0
+        rotation: 0
+        gridBased: false
+      - type: rectangle
+        x: 4800
+        'y': 2250
+        width: 300
+        height: 150
+        hole: false
+        anchorX: 0
+        anchorY: 0
+        rotation: 0
+        gridBased: false
+    behaviors:
+      - name: Change Level
+        type: changeLevel
+        _id: 9DdqQPN4bsKoa8vp
+        system:
+          movementActions: []
+        disabled: false
+        flags: {}
+        _stats:
+          coreVersion: '14.364'
+          systemId: pf2e
+          systemVersion: 8.3.0
+          createdTime: 1784180101702
+          modifiedTime: 1784180101702
+          lastModifiedBy: txZjek5EOiCBHPoz
+          compendiumSource: null
+          duplicateSource: null
+          exportSource: null
+        _key: >-
+          !scenes.regions.behaviors!iHus9RKOg23pnoYS.JQTNKCt6rq6IegHA.9DdqQPN4bsKoa8vp
+    locked: false
+    flags:
+      pf2e:
+        areaShape: null
+    _shapeConstraints: null
+    ownership:
+      default: 0
+    _key: '!scenes.regions!iHus9RKOg23pnoYS.JQTNKCt6rq6IegHA'
+  - color: '#cc28b3'
+    elevation:
+      bottom: 40
+      top: 80
+      topInclusive: false
+    levels:
+      - eUoYzV8grzq6tdr2
+      - diceCHZQ0XXaLD3P
+    restriction:
+      enabled: false
+      type: move
+      priority: 0
+    attachment:
+      token: null
+    visibility: 4
+    highlightMode: shapes
+    displayMeasurements: false
+    hidden: false
+    name: Stairs L3/L4
+    _id: aVZGwg6MWESFNJwr
+    shapes:
+      - type: rectangle
+        x: 6450
+        'y': 2100
+        width: 150
+        height: 150
+        hole: false
+        anchorX: 0
+        anchorY: 0
+        rotation: 0
+        gridBased: false
+    behaviors:
+      - name: Change Level
+        type: changeLevel
+        _id: cHUbTSt4VViGbaDb
+        system:
+          movementActions: []
+        disabled: false
+        flags: {}
+        _stats:
+          coreVersion: '14.364'
+          systemId: pf2e
+          systemVersion: 8.3.0
+          createdTime: 1784180101702
+          modifiedTime: 1784180101702
+          lastModifiedBy: txZjek5EOiCBHPoz
+          compendiumSource: null
+          duplicateSource: null
+          exportSource: null
+        _key: >-
+          !scenes.regions.behaviors!iHus9RKOg23pnoYS.aVZGwg6MWESFNJwr.cHUbTSt4VViGbaDb
+    locked: false
+    flags:
+      pf2e:
+        areaShape: null
+    _shapeConstraints: null
+    ownership:
+      default: 0
+    _key: '!scenes.regions!iHus9RKOg23pnoYS.aVZGwg6MWESFNJwr'
 environment:
   globalLight:
     luminosity: 0
@@ -25275,7 +26532,7 @@ environment:
     saturation: 0
     contrast: 0
     shadows: 0
-  darknessLevel: 0
+  darknessLevel: 0.3
   darknessLock: false
   cycle: true
   base:
@@ -25294,7 +26551,7 @@ fog:
   colors:
     explored: null
     unexplored: null
-  mode: 1
+  mode: 2
 levels:
   - _id: defaultLevel0000
     name: Floor 1
@@ -25327,13 +26584,14 @@ levels:
       levels:
         - lrwn3CfR31j9XF0i
         - eUoYzV8grzq6tdr2
+        - diceCHZQ0XXaLD3P
     sort: 350000
     flags: {}
     _key: '!scenes.levels!iHus9RKOg23pnoYS.defaultLevel0000'
   - name: L0 Cellar
     _id: tqX0i1DdrItywCHc
     elevation:
-      bottom: -20
+      bottom: -10
       top: 0
     background:
       color: '#000000'
@@ -25392,6 +26650,7 @@ levels:
       levels:
         - defaultLevel0000
         - eUoYzV8grzq6tdr2
+        - diceCHZQ0XXaLD3P
     sort: 400000
     flags: {}
     _key: '!scenes.levels!iHus9RKOg23pnoYS.lrwn3CfR31j9XF0i'
@@ -25426,9 +26685,45 @@ levels:
       levels:
         - defaultLevel0000
         - lrwn3CfR31j9XF0i
+        - diceCHZQ0XXaLD3P
     sort: 500000
     flags: {}
     _key: '!scenes.levels!iHus9RKOg23pnoYS.eUoYzV8grzq6tdr2'
+  - name: Floor 4 Tower
+    _id: diceCHZQ0XXaLD3P
+    elevation:
+      bottom: 60
+      top: 80
+    background:
+      color: '#000000'
+      src: >-
+        modules/dannysmodule/assets/maps/house-at-the-edge-of-time-4/L4Towerbackground.webp
+      tint: '#ffffff'
+      alphaThreshold: 0.75
+    foreground:
+      src: >-
+        modules/dannysmodule/assets/maps/house-at-the-edge-of-time-4/L4Towerforeground.webp
+      tint: '#ffffff'
+      alphaThreshold: 0.75
+    fog:
+      src: null
+    textures:
+      anchorX: 0.5
+      anchorY: 0.5
+      offsetX: 0
+      offsetY: 0
+      fit: fill
+      scaleX: 1
+      scaleY: 1
+      rotation: 0
+    visibility:
+      levels:
+        - defaultLevel0000
+        - lrwn3CfR31j9XF0i
+        - eUoYzV8grzq6tdr2
+    sort: 600000
+    flags: {}
+    _key: '!scenes.levels!iHus9RKOg23pnoYS.diceCHZQ0XXaLD3P'
 shiftX: 0
 shiftY: 0
 initialLevel: defaultLevel0000

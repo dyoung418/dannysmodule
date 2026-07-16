@@ -2,7 +2,7 @@ folder: fzBywiLU1ohCVIeR
 name: House at Edge of Space
 _id: O59u0uKgny8IdrTs
 navigation: false
-thumb: worlds/kingmaker/assets/scenes/thumb-RamCIcuukorTXZcU8lePsA.webp
+thumb: worlds/kingmaker/assets/scenes/thumb-NFzitI6_U_bySjSBd-k7dA.webp
 width: 2528
 height: 1696
 padding: 0.25
@@ -119,7 +119,7 @@ flags:
     persistExploredAreas: false
     revealRadius: 0
     gridRevealRadius: 0
-    schemaVersion: 2.1.0
+    schemaVersion: 2.2.0
   pf2e:
     rulesBasedVision: null
     hearingRange: null
@@ -128,9 +128,9 @@ flags:
 _stats:
   coreVersion: '14.364'
   systemId: pf2e
-  systemVersion: 8.1.2
-  createdTime: 1779696841526
-  modifiedTime: 1779696841527
+  systemVersion: 8.3.0
+  createdTime: 1784179346917
+  modifiedTime: 1784179346917
   lastModifiedBy: txZjek5EOiCBHPoz
   exportSource: null
   compendiumSource: null
@@ -138,9 +138,8 @@ _stats:
 navName: ''
 ownership:
   default: 0
-  txZjek5EOiCBHPoz: 3
 active: false
 navOrder: 0
 sort: 0
-templates: []
 _key: '!scenes!O59u0uKgny8IdrTs'
+templates: []
