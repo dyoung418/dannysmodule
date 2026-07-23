@@ -3,7 +3,7 @@ name: Elfsong Tavern
 _id: rCOf4PvwgQaGMYnD
 navigation: false
 navOrder: 0
-thumb: worlds/kingmaker/assets/scenes/thumb-PGZYM8lQqsNHESBWRaFjDw.webp
+thumb: worlds/kingmaker/assets/scenes/thumb-CORg1IOgEwdBqFDe8BI5Xw.webp
 width: 4000
 height: 3444
 padding: 0.25
@@ -3980,11 +3980,11 @@ regions:
         disabled: false
         flags: {}
         _stats:
-          coreVersion: '14.364'
+          coreVersion: '14.365'
           systemId: pf2e
           systemVersion: 8.3.0
-          createdTime: 1784179257676
-          modifiedTime: 1784179257676
+          createdTime: 1784740791481
+          modifiedTime: 1784740791481
           lastModifiedBy: txZjek5EOiCBHPoz
           compendiumSource: null
           duplicateSource: null
@@ -4049,11 +4049,11 @@ regions:
         disabled: false
         flags: {}
         _stats:
-          coreVersion: '14.364'
+          coreVersion: '14.365'
           systemId: pf2e
           systemVersion: 8.3.0
-          createdTime: 1784179257676
-          modifiedTime: 1784179257676
+          createdTime: 1784740791482
+          modifiedTime: 1784740791482
           lastModifiedBy: txZjek5EOiCBHPoz
           compendiumSource: null
           duplicateSource: null
@@ -8747,11 +8747,11 @@ flags:
     environmentTypes: []
     syncDarkness: default
 _stats:
-  coreVersion: '14.364'
+  coreVersion: '14.365'
   systemId: pf2e
   systemVersion: 8.3.0
-  createdTime: 1784179257668
-  modifiedTime: 1784179257668
+  createdTime: 1784740791469
+  modifiedTime: 1784740791469
   lastModifiedBy: txZjek5EOiCBHPoz
   exportSource: null
   compendiumSource: null

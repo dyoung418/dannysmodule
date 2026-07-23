@@ -1,7 +1,7 @@
 name: Small Inn
 _id: xy0S6z1GuWhdUmCF
 navigation: false
-thumb: worlds/kingmaker/assets/scenes/thumb-FXcLf9DW-_cDCHNkqy-JhA.webp
+thumb: worlds/kingmaker/assets/scenes/thumb-hDtkfoGcIDwxerykrUF51A.webp
 width: 4000
 height: 3000
 padding: 0.25
@@ -1090,11 +1090,11 @@ regions:
         disabled: false
         flags: {}
         _stats:
-          coreVersion: '14.364'
+          coreVersion: '14.365'
           systemId: pf2e
           systemVersion: 8.3.0
-          createdTime: 1784179257650
-          modifiedTime: 1784179257650
+          createdTime: 1784740791433
+          modifiedTime: 1784740791433
           lastModifiedBy: txZjek5EOiCBHPoz
           compendiumSource: null
           duplicateSource: null
@@ -1108,6 +1108,7 @@ regions:
     _shapeConstraints: null
     ownership:
       default: 0
+      txZjek5EOiCBHPoz: 3
     _key: '!scenes.regions!xy0S6z1GuWhdUmCF.oiULSEzHHy17Dgf6'
   - color: '#30cc28'
     elevation:
@@ -1155,11 +1156,11 @@ regions:
         disabled: false
         flags: {}
         _stats:
-          coreVersion: '14.364'
+          coreVersion: '14.365'
           systemId: pf2e
           systemVersion: 8.3.0
-          createdTime: 1784179257650
-          modifiedTime: 1784179257650
+          createdTime: 1784740791433
+          modifiedTime: 1784740791433
           lastModifiedBy: txZjek5EOiCBHPoz
           compendiumSource: null
           duplicateSource: null
@@ -1173,6 +1174,7 @@ regions:
     _shapeConstraints: null
     ownership:
       default: 0
+      txZjek5EOiCBHPoz: 3
     _key: '!scenes.regions!xy0S6z1GuWhdUmCF.6TzXDXHgVvZYutPY'
 tiles: []
 walls:
@@ -3041,11 +3043,11 @@ flags:
       units: spaces
       value: 0
 _stats:
-  coreVersion: '14.364'
+  coreVersion: '14.365'
   systemId: pf2e
   systemVersion: 8.3.0
-  createdTime: 1784179257647
-  modifiedTime: 1784179257647
+  createdTime: 1784740791429
+  modifiedTime: 1784740791429
   lastModifiedBy: txZjek5EOiCBHPoz
   exportSource: null
   compendiumSource: null

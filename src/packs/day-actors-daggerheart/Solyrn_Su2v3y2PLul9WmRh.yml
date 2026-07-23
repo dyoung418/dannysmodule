@@ -1,0 +1,2691 @@
+folder: null
+name: Solyrn
+type: character
+_id: Su2v3y2PLul9WmRh
+img: modules/dannysmodule/assets/tokens/Solyrn%20aetheris%20warlock.webp
+system:
+  resistance:
+    physical:
+      resistance: false
+      immunity: false
+      reduction: 0
+    magical:
+      resistance: false
+      immunity: false
+      reduction: 0
+  resources:
+    hitPoints:
+      value: 0
+      max: null
+    stress:
+      value: 0
+      max: null
+    hope:
+      value: 2
+      max: null
+  advantageSources: []
+  disadvantageSources: []
+  traits:
+    agility:
+      value: 1
+      tierMarked: false
+    strength:
+      value: -1
+      tierMarked: false
+    finesse:
+      value: 0
+      tierMarked: false
+    instinct:
+      value: 1
+      tierMarked: false
+    presence:
+      value: 2
+      tierMarked: false
+    knowledge:
+      value: 0
+      tierMarked: false
+  proficiency: 1
+  evasion: 0
+  damageThresholds:
+    major: 0
+    severe: 0
+  experiences:
+    MZkrDwvU0HGXWNPe:
+      name: Concentration
+      value: 2
+      core: true
+      description: Concentration
+    OipGBa2pvCCPerWn:
+      name: Discouraged Determination
+      value: 2
+      core: true
+      description: Discouraged Determination
+    3uZydzdIRYMzX1M6:
+      name: Devotion
+      value: 2
+      core: true
+  gold:
+    coins: 0
+    handfuls: 1
+    bags: 0
+    chests: 0
+  scars: 0
+  biography:
+    background: >-
+      <p><strong>What desperate situation led you to pledge your life to your
+      patron?</strong></p><br><p><strong>Your patron has given you one task you
+      must accomplish above all else. What is it, and why does it worry
+      you?</strong></p><br><p><strong>You and your patron are similar in a very
+      speciﬁc way.
+
+      What characteristic do you share, and how do you feel about
+      it?</strong></p>
+    connections: >-
+      <p><strong>I conﬁde in you about what my patron says and does.
+      Why?</strong></p><br><p><strong>You once saw me tithe to my patron and
+      it’s changed how you interact with me. What did you see and how has it
+      affected you?</strong></p><br><p><strong>I once did something very
+      foolish, and you have never let me live it down. What was it?</strong></p>
+    characteristics: {}
+  attack:
+    name: DAGGERHEART.GENERAL.unarmedAttack
+    img: icons/skills/melee/unarmed-punch-fist-yellow-red.webp
+    _id: ocLozPPmreJC2TSd
+    systemPath: attack
+    chatDisplay: false
+    type: attack
+    range: melee
+    target:
+      type: any
+      amount: 1
+    roll:
+      type: attack
+      trait: strength
+      difficulty: null
+      bonus: null
+      advState: neutral
+      diceRolling:
+        multiplier: prof
+        flatMultiplier: 1
+        dice: d6
+        compare: null
+        treshold: null
+      useDefault: false
+    damage:
+      parts:
+        hitPoints:
+          type:
+            - physical
+          applyTo: hitPoints
+          value:
+            custom:
+              enabled: true
+              formula: '@profd4'
+            multiplier: flat
+            flatMultiplier: 1
+            dice: d6
+            bonus: null
+          resultBased: false
+          valueAlt:
+            multiplier: flat
+            flatMultiplier: 1
+            dice: d6
+            bonus: null
+            custom:
+              enabled: false
+              formula: ''
+          base: false
+      includeBase: false
+      direct: false
+    baseAction: false
+    description: ''
+    originItem:
+      type: itemCollection
+    actionType: action
+    triggers: []
+    areas: []
+    cost: []
+    uses:
+      value: null
+      max: null
+      recovery: null
+      consumeOnSuccess: false
+    effects: []
+    save:
+      trait: null
+      difficulty: null
+      damageMod: none
+  levelData:
+    level:
+      current: 4
+      changed: 4
+      bonuses: {}
+    levelups:
+      '2':
+        achievements:
+          experiences:
+            3uZydzdIRYMzX1M6:
+              name: Devotion
+              modifier: 2
+          domainCards:
+            - uuid: >-
+                Compendium.daggerheart-voidborne.voidborne-items.Item.L0UOVVeiM6VIuU2H
+              itemUuid: Actor.Su2v3y2PLul9WmRh.Item.RGva4ChteXRpB4Kr
+          proficiency: 1
+        selections:
+          - tier: 2
+            minCost: 1
+            amount: null
+            value: 1
+            type: stress
+            data: []
+            secondaryData: {}
+            level: 2
+            optionKey: stress
+            checkboxNr: 1
+            itemUuid: null
+            features: []
+          - tier: 2
+            minCost: 1
+            amount: 2
+            value: null
+            type: trait
+            data:
+              - presence
+              - instinct
+            secondaryData: {}
+            level: 2
+            optionKey: trait
+            checkboxNr: 1
+            itemUuid: null
+            features: []
+      '3':
+        achievements:
+          experiences: {}
+          domainCards:
+            - uuid: Compendium.daggerheart.domains.Item.2ZeuCGVatQdPOVC6
+              itemUuid: Actor.Su2v3y2PLul9WmRh.Item.OE70HCF3teYq6eQo
+          proficiency: null
+        selections:
+          - tier: 2
+            minCost: 1
+            amount: null
+            value: 1
+            type: evasion
+            data: []
+            secondaryData: {}
+            level: 3
+            optionKey: evasion
+            checkboxNr: 1
+            itemUuid: null
+            features: []
+          - tier: 2
+            minCost: 1
+            amount: 1
+            value: null
+            type: domainCard
+            secondaryData:
+              limit: '4'
+            data:
+              - Compendium.daggerheart.domains.Item.KHkzA4Zrw8EWN1CH
+            level: 3
+            optionKey: domainCard
+            checkboxNr: 1
+            itemUuid: Actor.Su2v3y2PLul9WmRh.Item.PiMHWMlEy54HAgde
+            features: []
+      '4':
+        achievements:
+          experiences: {}
+          domainCards:
+            - uuid: Compendium.daggerheart.domains.Item.7b0mzV5QMPjVPT4o
+              itemUuid: Actor.Su2v3y2PLul9WmRh.Item.63x6x0svBG92my4K
+          proficiency: null
+        selections:
+          - tier: 2
+            minCost: 1
+            amount: null
+            value: 1
+            type: hitPoint
+            data: []
+            secondaryData: {}
+            level: 4
+            optionKey: hitPoint
+            checkboxNr: 1
+            itemUuid: null
+            features: []
+          - tier: 2
+            minCost: 1
+            amount: 2
+            value: null
+            type: trait
+            data:
+              - agility
+              - knowledge
+            secondaryData: {}
+            level: 4
+            optionKey: trait
+            checkboxNr: 2
+            itemUuid: null
+            features: []
+  bonuses:
+    roll:
+      attack:
+        bonus: 0
+        dice: []
+      spellcast:
+        bonus: 0
+        dice: []
+      trait:
+        bonus: 0
+        dice: []
+      action:
+        bonus: 0
+        dice: []
+      reaction:
+        bonus: 0
+        dice: []
+      primaryWeapon:
+        bonus: 0
+        dice: []
+      secondaryWeapon:
+        bonus: 0
+        dice: []
+    damage:
+      physical:
+        bonus: 0
+        dice: []
+      magical:
+        bonus: 0
+        dice: []
+      primaryWeapon:
+        bonus: 0
+        dice: []
+      secondaryWeapon:
+        bonus: 0
+        dice: []
+    healing:
+      bonus: 0
+      dice: []
+    range:
+      weapon: 0
+      spell: 0
+      other: 0
+    rally: []
+    rest:
+      shortRest:
+        shortMoves: 0
+        longMoves: 0
+      longRest:
+        shortMoves: 0
+        longMoves: 0
+    maxLoadout: 0
+  companion: null
+  rules:
+    conditionImmunities:
+      hidden: false
+      restrained: false
+      vulnerable: false
+    damageReduction:
+      thresholdImmunities:
+        minor: false
+      reduceSeverity:
+        magical: 0
+        physical: 0
+      magical: false
+      physical: false
+      maxArmorMarked:
+        value: 1
+        stressExtra: 0
+      stressDamageReduction:
+        severe: {}
+        major: {}
+        minor: {}
+        any: {}
+      increasePerArmorMark: 1
+      disabledArmor: false
+    attack:
+      damage:
+        hpDamageMultiplier: 1
+        hpDamageTakenMultiplier: 1
+        diceIndex: 0
+        bonus: 0
+      roll:
+        trait: null
+    dualityRoll:
+      defaultHopeDice: 12
+      defaultFearDice: 12
+    burden:
+      ignore: false
+    roll:
+      guaranteedCritical: false
+      defaultAdvantageDice: null
+      defaultDisadvantageDice: null
+prototypeToken:
+  name: Solyrn
+  displayName: 0
+  actorLink: true
+  width: 1
+  height: 1
+  depth: 1
+  texture:
+    src: modules/dannysmodule/assets/tokens/Solyrn%20aetheris%20warlock.webp
+    anchorX: 0.5
+    anchorY: 0.5
+    fit: contain
+    scaleX: 1
+    scaleY: 1
+    tint: '#ffffff'
+    alphaThreshold: 0.75
+  lockRotation: false
+  rotation: 0
+  alpha: 1
+  disposition: 1
+  displayBars: 0
+  bar1:
+    attribute: resources.hitPoints
+  bar2:
+    attribute: resources.stress
+  light:
+    negative: false
+    priority: 0
+    alpha: 0.5
+    angle: 360
+    bright: 0
+    color: null
+    coloration: 1
+    dim: 0
+    attenuation: 0.5
+    luminosity: 0.5
+    saturation: 0
+    contrast: 0
+    shadows: 0
+    animation:
+      type: null
+      speed: 5
+      intensity: 5
+      reverse: false
+    darkness:
+      min: 0
+      max: 1
+  sight:
+    enabled: true
+    range: 0
+    angle: 360
+    visionMode: basic
+    color: null
+    attenuation: 0.1
+    brightness: 0
+    saturation: 0
+    contrast: 0
+  detectionModes: {}
+  occludable:
+    radius: 0
+  ring:
+    enabled: true
+    colors:
+      ring: null
+      background: null
+    effects: 3
+    subject:
+      scale: 1.12
+      texture: modules/dannysmodule/assets/tokens/Solyrn%20token.webp
+  turnMarker:
+    mode: 1
+    animation: null
+    src: null
+    disposition: false
+  movementAction: null
+  flags: {}
+  randomImg: false
+  appendNumber: false
+  prependAdjective: false
+items:
+  - folder: SuvaVA46Gq211B5O
+    name: Patron's Boon
+    type: feature
+    _id: o9LkekzYz4BXUDcb
+    img: icons/magic/control/debuff-energy-hold-pink.webp
+    system:
+      attribution: {}
+      description: >-
+        <p>Spend 3 Hope to call out to your patron for help, gaining [[/r 1d4]]
+        Favor.</p>
+      resource: null
+      actions:
+        WHqwDZkSiT8gaTyD:
+          type: effect
+          _id: WHqwDZkSiT8gaTyD
+          systemPath: actions
+          baseAction: false
+          description: ''
+          chatDisplay: true
+          originItem:
+            type: itemCollection
+          actionType: action
+          triggers: []
+          cost:
+            - scalable: false
+              key: hope
+              value: 3
+              itemId: null
+              step: null
+              consumeOnSuccess: false
+          uses:
+            value: null
+            max: ''
+            recovery: null
+            consumeOnSuccess: false
+          effects: []
+          target:
+            type: any
+            amount: null
+          name: Spend 3 Hope
+          range: ''
+          areas: []
+      originItemType: class
+      multiclassOrigin: false
+      featureForm: action
+      identifier: hope
+    effects: []
+    sort: 3700000
+    ownership:
+      default: 0
+      IT21Xl7GPaE4IRAy: 3
+      pQzNfYJpGL2Gy8DA: 3
+    flags: {}
+    _stats:
+      coreVersion: '14.365'
+      systemId: daggerheart
+      systemVersion: 2.5.4
+      createdTime: 1784789896947
+      modifiedTime: 1784789896947
+      lastModifiedBy: pQzNfYJpGL2Gy8DA
+      compendiumSource: null
+      duplicateSource: null
+      exportSource: null
+    _key: '!actors.items!Su2v3y2PLul9WmRh.o9LkekzYz4BXUDcb'
+  - folder: SuvaVA46Gq211B5O
+    name: Warlock Patron
+    type: feature
+    _id: odpJkToCckRWJLJX
+    img: icons/magic/unholy/silhouette-light-fire-blue.webp
+    system:
+      attribution: {}
+      description: >-
+        <p>You have committed yourself to a patron (god, demon, fae, or other
+        supernatural entity) in exchange for power. Write their name
+        above.</p><p>Then choose their spheres of inﬂuence, at GM discretion
+        (Nature &amp; Mischief, Love &amp; War, Knowledge &amp; Shadow, etc.),
+        record them below, and set their values to +2. Anytime you increase your
+        tier, these spheres of inﬂuence gain a permanent +1 bonus. Before making
+        an action roll that relates to one of your patron’s spheres of inﬂuence,
+        you can spend a Favor to call on them and add its value to the roll.</p>
+      resource: null
+      actions: {}
+      originItemType: class
+      multiclassOrigin: false
+      featureForm: passive
+      identifier: class
+    effects: []
+    sort: 3800000
+    ownership:
+      default: 0
+      IT21Xl7GPaE4IRAy: 3
+      pQzNfYJpGL2Gy8DA: 3
+    flags: {}
+    _stats:
+      coreVersion: '14.365'
+      systemId: daggerheart
+      systemVersion: 2.5.4
+      createdTime: 1784789896947
+      modifiedTime: 1784789896947
+      lastModifiedBy: pQzNfYJpGL2Gy8DA
+      compendiumSource: null
+      duplicateSource: null
+      exportSource: null
+    _key: '!actors.items!Su2v3y2PLul9WmRh.odpJkToCckRWJLJX'
+  - folder: SuvaVA46Gq211B5O
+    name: Favor
+    type: feature
+    _id: bd4upGT9aShkOq9b
+    img: icons/magic/unholy/hands-cloud-light-pink.webp
+    system:
+      attribution: {}
+      description: >-
+        <p>Start with 3 Favor. During a rest, spend one of your downtime moves
+        to tithe to your patron. When you do, gain Favor equal to your Presence.
+        If you choose to forgo this offering, the GM instead gains a Fear.</p>
+      resource:
+        type: simple
+        value: 3
+        max: ''
+        recovery: null
+        progression: decreasing
+        dieFaces: d4
+        icon: ''
+        diceStates: {}
+      actions: {}
+      originItemType: class
+      multiclassOrigin: false
+      featureForm: passive
+      identifier: class
+    effects: []
+    sort: 4000000
+    ownership:
+      default: 0
+      IT21Xl7GPaE4IRAy: 3
+      pQzNfYJpGL2Gy8DA: 3
+    flags: {}
+    _stats:
+      coreVersion: '14.365'
+      systemId: daggerheart
+      systemVersion: 2.5.4
+      createdTime: 1784789896947
+      modifiedTime: 1784789896947
+      lastModifiedBy: pQzNfYJpGL2Gy8DA
+      compendiumSource: null
+      duplicateSource: null
+      exportSource: null
+    _key: '!actors.items!Su2v3y2PLul9WmRh.bd4upGT9aShkOq9b'
+  - folder: SuvaVA46Gq211B5O
+    name: Spheres of Influence
+    type: feature
+    _id: y6ky0uxVkxAYrRSi
+    img: icons/magic/unholy/projectiles-binary-pink.webp
+    system:
+      attribution: {}
+      description: >-
+        <p>You can either edit this feature to mark down your Spheres of
+        Influence, or add additional Experiences.</p>
+      resource: null
+      actions: {}
+      originItemType: class
+      multiclassOrigin: false
+      featureForm: passive
+      identifier: class
+    effects: []
+    sort: 3900000
+    ownership:
+      default: 0
+      IT21Xl7GPaE4IRAy: 3
+      pQzNfYJpGL2Gy8DA: 3
+    flags: {}
+    _stats:
+      coreVersion: '14.365'
+      systemId: daggerheart
+      systemVersion: 2.5.4
+      createdTime: 1784789896947
+      modifiedTime: 1784789896947
+      lastModifiedBy: pQzNfYJpGL2Gy8DA
+      compendiumSource: null
+      duplicateSource: null
+      exportSource: null
+    _key: '!actors.items!Su2v3y2PLul9WmRh.y6ky0uxVkxAYrRSi'
+  - effects: []
+    _id: MV78tGRSD8ZcdQu3
+    name: Warlock
+    type: class
+    img: icons/magic/unholy/silhouette-robe-evil-power.webp
+    system:
+      attribution: {}
+      description: ''
+      domains:
+        - dread
+        - grace
+      classItems: []
+      hitPoints: 5
+      evasion: 11
+      features:
+        - type: hope
+          item: >-
+            Compendium.daggerheart-voidborne.voidborne-items.Item.0TjBFn1G4n4LWn2C
+        - type: class
+          item: >-
+            Compendium.daggerheart-voidborne.voidborne-items.Item.1ax0L4mRk2Y5lv9E
+        - type: class
+          item: >-
+            Compendium.daggerheart-voidborne.voidborne-items.Item.7TbTKbs9f5uqM6AF
+        - type: class
+          item: >-
+            Compendium.daggerheart-voidborne.voidborne-items.Item.5V46g1NPKiTbVLSZ
+      inventory:
+        take:
+          - Compendium.daggerheart.classes.Item.hMST9iizQP1yz0MG
+          - Compendium.daggerheart.classes.Item.uoG5iq09mxJPXfmk
+          - Compendium.daggerheart.classes.Item.zqeXrJTd1geX73Pw
+        choiceA:
+          - Compendium.daggerheart.consumables.Item.tPfKtKRRjv8qdSqy
+          - Compendium.daggerheart.consumables.Item.b6vGSPFWOlzZZDLO
+        choiceB:
+          - >-
+            Compendium.daggerheart-voidborne.voidborne-items.Item.wgenNqA9WYgwfImK
+          - >-
+            Compendium.daggerheart-voidborne.voidborne-items.Item.IPe1xMXVRxHKcty3
+      characterGuide:
+        suggestedTraits:
+          agility: 1
+          strength: -1
+          finesse: 0
+          instinct: 1
+          presence: 2
+          knowledge: 0
+        suggestedPrimaryWeapon: Compendium.daggerheart.weapons.Item.GZh345N8fmuS4Jeh
+        suggestedSecondaryWeapon: null
+        suggestedArmor: Compendium.daggerheart.armors.Item.nibfdNtp2PtxvbVz
+      backgroundQuestions:
+        - What desperate situation led you to pledge your life to your patron?
+        - >-
+          Your patron has given you one task you must accomplish above all else.
+          What is it, and why does it worry you?
+        - |-
+          You and your patron are similar in a very speciﬁc way.
+          What characteristic do you share, and how do you feel about it?
+      connections:
+        - I conﬁde in you about what my patron says and does. Why?
+        - >-
+          You once saw me tithe to my patron and it’s changed how you interact
+          with me. What did you see and how has it affected you?
+        - >-
+          I once did something very foolish, and you have never let me live it
+          down. What was it?
+      isMulticlass: false
+    folder: lXmxaodRxdU6RGgH
+    sort: 0
+    ownership:
+      default: 0
+      IT21Xl7GPaE4IRAy: 3
+      pQzNfYJpGL2Gy8DA: 3
+    flags: {}
+    _stats:
+      coreVersion: '14.365'
+      systemId: daggerheart
+      systemVersion: 2.5.4
+      createdTime: 1784789896947
+      modifiedTime: 1784789896947
+      lastModifiedBy: pQzNfYJpGL2Gy8DA
+      compendiumSource: null
+      duplicateSource: null
+      exportSource: null
+    _key: '!actors.items!Su2v3y2PLul9WmRh.MV78tGRSD8ZcdQu3'
+  - folder: 4jlDsFnIKAbYbEwf
+    name: Hallowed Aura
+    type: feature
+    _id: v4iDe78zbLTJBv5B
+    img: icons/magic/holy/meditation-chi-focus-blue.webp
+    system:
+      attribution: {}
+      description: >-
+        <p>Once per rest, when an ally within Close range rolls with Fear, you
+        can make it a roll with Hope instead.</p>
+      resource:
+        type: simple
+        value: 1
+        max: '1'
+        recovery: shortRest
+        progression: decreasing
+        dieFaces: d4
+        icon: ''
+        diceStates: {}
+      actions: {}
+      originItemType: ancestry
+      multiclassOrigin: false
+      featureForm: reaction
+      identifier: primary
+    effects: []
+    sort: 0
+    ownership:
+      default: 0
+      IT21Xl7GPaE4IRAy: 3
+      pQzNfYJpGL2Gy8DA: 3
+    flags: {}
+    _stats:
+      coreVersion: '14.365'
+      systemId: daggerheart
+      systemVersion: 2.5.4
+      createdTime: 1784789896947
+      modifiedTime: 1784789896947
+      lastModifiedBy: pQzNfYJpGL2Gy8DA
+      compendiumSource: null
+      duplicateSource: null
+      exportSource: null
+    _key: '!actors.items!Su2v3y2PLul9WmRh.v4iDe78zbLTJBv5B'
+  - folder: 4jlDsFnIKAbYbEwf
+    name: Divine Countenance
+    type: feature
+    _id: 2KXLvRXWweIQbvtg
+    img: icons/magic/holy/saint-glass-portrait-halo.webp
+    system:
+      attribution: {}
+      description: <p>You have advantage on rolls to command or persuade.</p>
+      resource: null
+      actions: {}
+      originItemType: ancestry
+      multiclassOrigin: false
+      featureForm: passive
+      identifier: secondary
+    effects:
+      - name: Divine Countenance
+        type: base
+        system:
+          changes:
+            - key: system.disadvantageSources
+              type: add
+              value: ''
+              priority: null
+              phase: initial
+          duration:
+            description: ''
+            type: ''
+          rangeDependence: null
+          stacking: null
+          targetDispositions: []
+        _id: NB3wuBfYklQJXrXD
+        img: icons/magic/holy/saint-glass-portrait-halo.webp
+        disabled: false
+        start:
+          time: 0
+          combat: null
+          combatant: null
+          initiative: null
+          round: null
+          turn: null
+        duration:
+          value: null
+          units: seconds
+          expiry: null
+          expired: false
+        description: ''
+        origin: null
+        tint: '#ffffff'
+        transfer: true
+        statuses: []
+        showIcon: 1
+        folder: null
+        sort: 0
+        flags: {}
+        _stats:
+          coreVersion: '14.365'
+          systemId: daggerheart
+          systemVersion: 2.5.4
+          createdTime: 1784789896947
+          modifiedTime: 1784789896947
+          lastModifiedBy: pQzNfYJpGL2Gy8DA
+          compendiumSource: null
+          duplicateSource: null
+          exportSource: null
+        _key: >-
+          !actors.items.effects!Su2v3y2PLul9WmRh.2KXLvRXWweIQbvtg.NB3wuBfYklQJXrXD
+    sort: 0
+    ownership:
+      default: 0
+      IT21Xl7GPaE4IRAy: 3
+      pQzNfYJpGL2Gy8DA: 3
+    flags: {}
+    _stats:
+      coreVersion: '14.365'
+      systemId: daggerheart
+      systemVersion: 2.5.4
+      createdTime: 1784789896947
+      modifiedTime: 1784789896947
+      lastModifiedBy: pQzNfYJpGL2Gy8DA
+      compendiumSource: null
+      duplicateSource: null
+      exportSource: null
+    _key: '!actors.items!Su2v3y2PLul9WmRh.2KXLvRXWweIQbvtg'
+  - folder: fdF8MTKxjeomqMTV
+    name: Unbound
+    type: feature
+    _id: qKbHnHeJbjfqFIzI
+    img: icons/skills/social/intimidation-impressing.webp
+    system:
+      attribution: {}
+      description: >-
+        <p>Once per session, when you make an action roll with Fear, you can
+        change it to a roll with Hope instead.</p>
+      resource: null
+      actions: {}
+      originItemType: community
+      multiclassOrigin: false
+      featureForm: passive
+    effects: []
+    sort: 0
+    ownership:
+      default: 0
+      IT21Xl7GPaE4IRAy: 3
+      pQzNfYJpGL2Gy8DA: 3
+    flags: {}
+    _stats:
+      coreVersion: '14.365'
+      systemId: daggerheart
+      systemVersion: 2.5.4
+      createdTime: 1784789896947
+      modifiedTime: 1784789896947
+      lastModifiedBy: pQzNfYJpGL2Gy8DA
+      compendiumSource: null
+      duplicateSource: null
+      exportSource: null
+    _key: '!actors.items!Su2v3y2PLul9WmRh.qKbHnHeJbjfqFIzI'
+  - folder: SuvaVA46Gq211B5O
+    name: Patron's Mantle
+    type: feature
+    _id: 4UYYdWYmMFu4r1V8
+    img: icons/magic/unholy/silhouette-robe-evil-glow.webp
+    system:
+      attribution: {}
+      description: >-
+        <p>Mark a Stress to cloak yourself in a terrifying aspect of your Patron
+        that lasts until you take Severe damage or the scene
+        ends:</p><ul><li><p>When you would mark an Armor Slot, you can spend 2
+        Favor instead.</p></li><li><p>You gain a bonus equal to your tier on
+        action rolls to intimidate the target.</p></li></ul>
+      resource: null
+      actions:
+        tbSXqhmQWVgCh2Io:
+          type: effect
+          _id: tbSXqhmQWVgCh2Io
+          systemPath: actions
+          baseAction: false
+          description: ''
+          chatDisplay: true
+          originItem:
+            type: itemCollection
+          actionType: action
+          triggers: []
+          cost: []
+          uses:
+            value: null
+            max: ''
+            recovery: null
+            consumeOnSuccess: false
+          effects:
+            - _id: kvZsUrUls0PL7vmd
+              onSave: false
+          target:
+            type: any
+            amount: null
+          name: Mark a Stress
+          range: ''
+          areas: []
+      originItemType: subclass
+      multiclassOrigin: false
+      featureForm: action
+      identifier: foundation
+    effects:
+      - name: New Effect
+        disabled: false
+        img: icons/magic/life/heart-cross-blue.webp
+        description: ''
+        statuses: []
+        system:
+          rangeDependence: null
+          changes: []
+          duration:
+            description: ''
+          stacking: null
+          targetDispositions: []
+        _id: kvZsUrUls0PL7vmd
+        type: base
+        start: null
+        duration:
+          value: null
+          units: seconds
+          expiry: null
+          expired: false
+        origin: null
+        tint: '#ffffff'
+        transfer: true
+        showIcon: 1
+        folder: null
+        sort: 0
+        flags: {}
+        _stats:
+          coreVersion: '14.365'
+          systemId: daggerheart
+          systemVersion: 2.5.4
+          createdTime: 1784789896947
+          modifiedTime: 1784789896947
+          lastModifiedBy: pQzNfYJpGL2Gy8DA
+          compendiumSource: null
+          duplicateSource: null
+          exportSource: null
+        _key: >-
+          !actors.items.effects!Su2v3y2PLul9WmRh.4UYYdWYmMFu4r1V8.kvZsUrUls0PL7vmd
+    sort: 4100000
+    ownership:
+      default: 0
+      IT21Xl7GPaE4IRAy: 3
+      pQzNfYJpGL2Gy8DA: 3
+    flags: {}
+    _stats:
+      coreVersion: '14.365'
+      systemId: daggerheart
+      systemVersion: 2.5.4
+      createdTime: 1784789896947
+      modifiedTime: 1784789896947
+      lastModifiedBy: pQzNfYJpGL2Gy8DA
+      compendiumSource: null
+      duplicateSource: null
+      exportSource: null
+    _key: '!actors.items!Su2v3y2PLul9WmRh.4UYYdWYmMFu4r1V8'
+  - folder: SuvaVA46Gq211B5O
+    name: Deadly Devotion
+    type: feature
+    _id: 1BpMnj9Cxu3NYCc3
+    img: icons/magic/unholy/hands-praying-fire-green.webp
+    system:
+      attribution: {}
+      description: >-
+        <p>On a successful attack, you can spend a Favor to gain a +1 bonus to
+        your Evasion until you mark a Hit Point or take a rest.</p>
+      resource: null
+      actions: {}
+      originItemType: subclass
+      multiclassOrigin: false
+      featureForm: reaction
+      identifier: foundation
+    effects: []
+    sort: 4200000
+    ownership:
+      default: 0
+      IT21Xl7GPaE4IRAy: 3
+      pQzNfYJpGL2Gy8DA: 3
+    flags: {}
+    _stats:
+      coreVersion: '14.365'
+      systemId: daggerheart
+      systemVersion: 2.5.4
+      createdTime: 1784789896947
+      modifiedTime: 1784789896947
+      lastModifiedBy: pQzNfYJpGL2Gy8DA
+      compendiumSource: null
+      duplicateSource: null
+      exportSource: null
+    _key: '!actors.items!Su2v3y2PLul9WmRh.1BpMnj9Cxu3NYCc3'
+  - folder: SuvaVA46Gq211B5O
+    name: Draining Invocation
+    type: feature
+    _id: V2WmLSz6rEyvvGds
+    img: icons/magic/unholy/hand-claw-fire-green.webp
+    system:
+      attribution: {}
+      description: >-
+        <p>When an adversary attacks you or an ally within Very Close range, you
+        can spend a Favor to make them use a d12 instead of a d20 for the attack
+        roll. Additionally, the adversary must mark a Stress, and you can clear
+        a Stress.</p>
+      resource: null
+      actions: {}
+      originItemType: subclass
+      multiclassOrigin: false
+      featureForm: reaction
+      identifier: specialization
+    effects: []
+    sort: 4300000
+    ownership:
+      default: 0
+      IT21Xl7GPaE4IRAy: 3
+      pQzNfYJpGL2Gy8DA: 3
+    flags: {}
+    _stats:
+      coreVersion: '14.365'
+      systemId: daggerheart
+      systemVersion: 2.5.4
+      createdTime: 1784789896947
+      modifiedTime: 1784789896947
+      lastModifiedBy: pQzNfYJpGL2Gy8DA
+      compendiumSource: null
+      duplicateSource: null
+      exportSource: null
+    _key: '!actors.items!Su2v3y2PLul9WmRh.V2WmLSz6rEyvvGds'
+  - folder: SuvaVA46Gq211B5O
+    name: Draining Bane
+    type: feature
+    _id: Lh2Zu1uOwGftG5zF
+    img: icons/magic/unholy/hand-claw-fog-green.webp
+    system:
+      attribution: {}
+      description: >-
+        <p>When an adversary attacks you or an ally within Very Close range, you
+        can spend 2 Favor to temporarily Drain them. When you do, they must mark
+        a Stress and you can clear a Stress. A Drained creature uses a d12
+        instead of a d20 for attack rolls.</p>
+      resource: null
+      actions: {}
+      originItemType: subclass
+      multiclassOrigin: false
+      featureForm: passive
+      identifier: mastery
+    effects: []
+    sort: 4500000
+    ownership:
+      default: 0
+      IT21Xl7GPaE4IRAy: 3
+      pQzNfYJpGL2Gy8DA: 3
+    flags: {}
+    _stats:
+      coreVersion: '14.365'
+      systemId: daggerheart
+      systemVersion: 2.5.4
+      createdTime: 1784789896947
+      modifiedTime: 1784789896947
+      lastModifiedBy: pQzNfYJpGL2Gy8DA
+      compendiumSource: null
+      duplicateSource: null
+      exportSource: null
+    _key: '!actors.items!Su2v3y2PLul9WmRh.Lh2Zu1uOwGftG5zF'
+  - folder: SuvaVA46Gq211B5O
+    name: Dark Aegis
+    type: feature
+    _id: gTcldYOcOSwchObU
+    img: icons/magic/unholy/orb-stone-pink.webp
+    system:
+      attribution: {}
+      description: >-
+        <p>Once per long rest, when you would mark any number of Hit Points, you
+        can spend a Favor instead.</p>
+      resource: null
+      actions: {}
+      originItemType: subclass
+      multiclassOrigin: false
+      featureForm: passive
+      identifier: mastery
+    effects: []
+    sort: 4400000
+    ownership:
+      default: 0
+      IT21Xl7GPaE4IRAy: 3
+      pQzNfYJpGL2Gy8DA: 3
+    flags: {}
+    _stats:
+      coreVersion: '14.365'
+      systemId: daggerheart
+      systemVersion: 2.5.4
+      createdTime: 1784789896947
+      modifiedTime: 1784789896947
+      lastModifiedBy: pQzNfYJpGL2Gy8DA
+      compendiumSource: null
+      duplicateSource: null
+      exportSource: null
+    _key: '!actors.items!Su2v3y2PLul9WmRh.gTcldYOcOSwchObU'
+  - effects: []
+    _id: vNa16eqgH22hr8zc
+    name: Aetheris
+    type: ancestry
+    img: icons/magic/holy/angel-winged-humanoid-blue.webp
+    system:
+      attribution: {}
+      description: >-
+        <p>Aetheris are humanoids who possess radiant auras and glowing eyes.
+        They are the descendants of celestials from the Hallows Above.</p>
+      features:
+        - type: primary
+          item: >-
+            Compendium.daggerheart-voidborne.voidborne-items.Item.77cMrTI07TM4v59e
+        - type: secondary
+          item: >-
+            Compendium.daggerheart-voidborne.voidborne-items.Item.6aQRZ0njALjSIHe8
+    folder: OsCwbT7RXOK0lIgt
+    sort: 0
+    ownership:
+      default: 0
+      IT21Xl7GPaE4IRAy: 3
+      pQzNfYJpGL2Gy8DA: 3
+    flags: {}
+    _stats:
+      coreVersion: '14.365'
+      systemId: daggerheart
+      systemVersion: 2.5.4
+      createdTime: 1784789896947
+      modifiedTime: 1784789896947
+      lastModifiedBy: pQzNfYJpGL2Gy8DA
+      compendiumSource: null
+      duplicateSource: null
+      exportSource: null
+    _key: '!actors.items!Su2v3y2PLul9WmRh.vNa16eqgH22hr8zc'
+  - effects: []
+    _id: HPtPUIuTndiQm9ti
+    name: Freeborne
+    type: community
+    img: icons/environment/wilderness/wall-ruins.webp
+    system:
+      attribution: {}
+      description: >-
+        <p>Being part of a freeborne community means you're from a collective
+        that lived under tyrannical rule and is now liberated.</p>
+      features:
+        - Compendium.daggerheart-voidborne.voidborne-items.Item.cvjYkRgMtwQhvMVT
+    folder: SXD38oqjOsJnqlYh
+    sort: 0
+    ownership:
+      default: 0
+      IT21Xl7GPaE4IRAy: 3
+      pQzNfYJpGL2Gy8DA: 3
+    flags: {}
+    _stats:
+      coreVersion: '14.365'
+      systemId: daggerheart
+      systemVersion: 2.5.4
+      createdTime: 1784789896947
+      modifiedTime: 1784789896947
+      lastModifiedBy: pQzNfYJpGL2Gy8DA
+      compendiumSource: null
+      duplicateSource: null
+      exportSource: null
+    _key: '!actors.items!Su2v3y2PLul9WmRh.HPtPUIuTndiQm9ti'
+  - effects: []
+    _id: kX92lPrb2uaBhT0b
+    name: Blighting Strike
+    type: domainCard
+    img: modules/daggerheart-voidborne/icons/svg/dread_domain.svg
+    system:
+      attribution: {}
+      description: >-
+        <p>Make a Spellcast Roll against a target within Far range. On a
+        success, the target takes d6+1 magic damage using your Proficiency and
+        the next time the target deals damage to an ally, it is reduced by half.
+        If you succeed with Fear, the target instead takes d10+1 magic damage
+        using your Proficiency.</p>
+      resource: null
+      actions:
+        CVZp5jAHS0niVcIJ:
+          type: attack
+          _id: CVZp5jAHS0niVcIJ
+          systemPath: actions
+          baseAction: false
+          description: ''
+          chatDisplay: true
+          originItem:
+            type: itemCollection
+          actionType: action
+          triggers: []
+          cost: []
+          uses:
+            value: null
+            max: ''
+            recovery: null
+            consumeOnSuccess: false
+          damage:
+            parts:
+              hitPoints:
+                applyTo: hitPoints
+                resultBased: true
+                value:
+                  multiplier: prof
+                  flatMultiplier: 1
+                  dice: d6
+                  bonus: 1
+                  custom:
+                    enabled: false
+                    formula: ''
+                valueAlt:
+                  multiplier: prof
+                  flatMultiplier: 1
+                  dice: d10
+                  bonus: 1
+                  custom:
+                    enabled: false
+                    formula: ''
+                base: false
+                type:
+                  - magical
+            includeBase: false
+            direct: false
+          target:
+            type: any
+            amount: 1
+          effects: []
+          roll:
+            type: spellcast
+            trait: null
+            difficulty: null
+            bonus: null
+            advState: neutral
+            diceRolling:
+              multiplier: prof
+              flatMultiplier: 1
+              dice: d6
+              compare: null
+              treshold: null
+            useDefault: false
+          save:
+            trait: null
+            difficulty: null
+            damageMod: none
+          name: Spellcast Roll
+          range: far
+          areas: []
+      domain: dread
+      level: 1
+      recallCost: 1
+      type: spell
+      inVault: false
+      vaultActive: false
+      loadoutIgnore: false
+      domainTouched: null
+    folder: puG7NWx2mHDC6cWo
+    sort: 0
+    ownership:
+      default: 0
+      IT21Xl7GPaE4IRAy: 3
+      pQzNfYJpGL2Gy8DA: 3
+    flags: {}
+    _stats:
+      coreVersion: '14.365'
+      systemId: daggerheart
+      systemVersion: 2.5.4
+      createdTime: 1784789896947
+      modifiedTime: 1784789896947
+      lastModifiedBy: pQzNfYJpGL2Gy8DA
+      compendiumSource: null
+      duplicateSource: null
+      exportSource: null
+    _key: '!actors.items!Su2v3y2PLul9WmRh.kX92lPrb2uaBhT0b'
+  - effects: []
+    _id: XttzpN4I8lgbNQFc
+    name: Umbral Veil
+    type: domainCard
+    img: modules/daggerheart-voidborne/icons/svg/dread_domain.svg
+    system:
+      attribution: {}
+      description: >-
+        <p>Once per rest, when you roll with Fear, you can spend any number of
+        Hope to place an equal number of tokens on this card, encasing yourself
+        in a shadowy energy. After an attack roll is made against you, you can
+        spend any number of tokens to give the attack roll a -1 penalty per
+        token. On your next rest, remove all tokens from this card.</p>
+      resource:
+        type: simple
+        value: 0
+        max: '12'
+        recovery: shortRest
+        progression: increasing
+        dieFaces: d4
+        icon: ''
+        diceStates: {}
+      actions: {}
+      domain: dread
+      level: 1
+      recallCost: 1
+      type: spell
+      inVault: false
+      vaultActive: false
+      loadoutIgnore: false
+      domainTouched: null
+    folder: puG7NWx2mHDC6cWo
+    sort: 0
+    ownership:
+      default: 0
+      IT21Xl7GPaE4IRAy: 3
+      pQzNfYJpGL2Gy8DA: 3
+    flags: {}
+    _stats:
+      coreVersion: '14.365'
+      systemId: daggerheart
+      systemVersion: 2.5.4
+      createdTime: 1784789896947
+      modifiedTime: 1784789896947
+      lastModifiedBy: pQzNfYJpGL2Gy8DA
+      compendiumSource: null
+      duplicateSource: null
+      exportSource: null
+    _key: '!actors.items!Su2v3y2PLul9WmRh.XttzpN4I8lgbNQFc'
+  - effects: []
+    _id: sKoOmYNapvTRSJDD
+    name: Pact of the Endless
+    type: subclass
+    img: icons/creatures/tentacles/tentacles-suctioncups-pink.webp
+    system:
+      attribution: {}
+      description: ''
+      spellcastingTrait: presence
+      features:
+        - type: foundation
+          item: >-
+            Compendium.daggerheart-voidborne.voidborne-items.Item.KcCHUd9y73hP9Abd
+        - type: foundation
+          item: >-
+            Compendium.daggerheart-voidborne.voidborne-items.Item.n2TPzJB5a0WnuA5o
+        - type: specialization
+          item: >-
+            Compendium.daggerheart-voidborne.voidborne-items.Item.UXidCa1nTTEvv2Fv
+        - type: mastery
+          item: >-
+            Compendium.daggerheart-voidborne.voidborne-items.Item.XMRAzlf28epsuchk
+        - type: mastery
+          item: >-
+            Compendium.daggerheart-voidborne.voidborne-items.Item.H5x2ogLR7841vhwB
+      featureState: 1
+      isMulticlass: false
+      linkedClass: Compendium.daggerheart-voidborne.voidborne-items.Item.GMWI2afi4pXhXpVO
+    folder: rFyA17yLjpDew7on
+    sort: 0
+    ownership:
+      default: 0
+      IT21Xl7GPaE4IRAy: 3
+      pQzNfYJpGL2Gy8DA: 3
+    flags: {}
+    _stats:
+      coreVersion: '14.365'
+      systemId: daggerheart
+      systemVersion: 2.5.4
+      createdTime: 1784789896947
+      modifiedTime: 1784789896947
+      lastModifiedBy: pQzNfYJpGL2Gy8DA
+      compendiumSource: null
+      duplicateSource: null
+      exportSource: null
+    _key: '!actors.items!Su2v3y2PLul9WmRh.sKoOmYNapvTRSJDD'
+  - effects:
+      - name: Flexible
+        description: +1 to Evasion
+        img: icons/magic/movement/abstract-ribbons-red-orange.webp
+        _id: v1FNEsypRF5W6vVc
+        type: base
+        system:
+          changes:
+            - key: system.evasion
+              type: add
+              value: 1
+              phase: initial
+          duration:
+            description: ''
+          rangeDependence: null
+          stacking: null
+          targetDispositions: []
+        disabled: false
+        duration:
+          value: null
+          units: seconds
+          expiry: null
+          expired: false
+        origin: null
+        tint: '#ffffff'
+        transfer: true
+        statuses: []
+        sort: 0
+        flags: {}
+        _stats:
+          coreVersion: '14.365'
+          systemId: daggerheart
+          systemVersion: 2.5.4
+          createdTime: 1784789896947
+          modifiedTime: 1784789896947
+          lastModifiedBy: pQzNfYJpGL2Gy8DA
+          compendiumSource: null
+          duplicateSource: null
+          exportSource: null
+        start: null
+        showIcon: 1
+        folder: null
+        _key: >-
+          !actors.items.effects!Su2v3y2PLul9WmRh.pJJeswTLgfSgFNfV.v1FNEsypRF5W6vVc
+    _id: pJJeswTLgfSgFNfV
+    name: Gambeson Armor
+    type: armor
+    img: icons/equipment/chest/vest-leather-tattered-white.webp
+    system:
+      armor:
+        current: 0
+        max: 3
+      description: ''
+      actions: {}
+      attached: []
+      tier: 1
+      equipped: true
+      armorFeatures:
+        - value: flexible
+          effectIds:
+            - v1FNEsypRF5W6vVc
+          actionIds: []
+      baseThresholds:
+        major: 5
+        severe: 11
+      attribution:
+        source: Daggerheart SRD
+        page: 56
+        artist: ''
+      resource: null
+      quantity: 1
+    folder: h4QgrovjVZ1oee7O
+    sort: 0
+    ownership:
+      default: 0
+      FecEtPuoQh6MpjQ0: 3
+      pQzNfYJpGL2Gy8DA: 3
+    flags: {}
+    _stats:
+      coreVersion: '14.365'
+      systemId: daggerheart
+      systemVersion: 2.5.4
+      createdTime: 1784789896947
+      modifiedTime: 1784789896947
+      lastModifiedBy: pQzNfYJpGL2Gy8DA
+      compendiumSource: null
+      duplicateSource: null
+      exportSource: null
+    _key: '!actors.items!Su2v3y2PLul9WmRh.pJJeswTLgfSgFNfV'
+  - effects: []
+    _id: AaB3rpJW8FYsALD6
+    name: Ring
+    type: loot
+    img: icons/equipment/finger/ring-band-engraved-scrolls-grey.webp
+    system:
+      attribution: {}
+      description: <p>A ring you can't remove.</p>
+      quantity: 1
+      actions: {}
+    folder: gxgrwC5WxCffodnp
+    sort: 0
+    ownership:
+      default: 0
+      IT21Xl7GPaE4IRAy: 3
+      pQzNfYJpGL2Gy8DA: 3
+    flags: {}
+    _stats:
+      coreVersion: '14.365'
+      systemId: daggerheart
+      systemVersion: 2.5.4
+      createdTime: 1784789896947
+      modifiedTime: 1784789896947
+      lastModifiedBy: pQzNfYJpGL2Gy8DA
+      compendiumSource: null
+      duplicateSource: null
+      exportSource: null
+    _key: '!actors.items!Su2v3y2PLul9WmRh.AaB3rpJW8FYsALD6'
+  - effects: []
+    _id: lZatccnZtdAMlpF0
+    name: Minor Health Potion
+    type: consumable
+    img: icons/consumables/potions/potion-tube-corked-red.webp
+    system:
+      description: <p>Clear 1d4 HP.</p>
+      quantity: 1
+      actions:
+        9HVL2MPFX9VGiSsV:
+          type: healing
+          _id: 9HVL2MPFX9VGiSsV
+          systemPath: actions
+          description: <p>Clear 1d4 HP.</p>
+          chatDisplay: true
+          actionType: action
+          cost:
+            - scalable: false
+              key: quantity
+              value: 1
+              itemId: tPfKtKRRjv8qdSqy
+              step: null
+              consumeOnSuccess: false
+          uses:
+            value: null
+            max: ''
+            recovery: null
+            consumeOnSuccess: false
+          damage:
+            parts:
+              hitPoints:
+                value:
+                  custom:
+                    enabled: false
+                    formula: ''
+                  multiplier: flat
+                  flatMultiplier: 1
+                  dice: d4
+                  bonus: null
+                applyTo: hitPoints
+                base: false
+                resultBased: false
+                valueAlt:
+                  multiplier: prof
+                  flatMultiplier: 1
+                  dice: d6
+                  bonus: null
+                  custom:
+                    enabled: false
+                    formula: ''
+                type: []
+            includeBase: false
+            direct: false
+          target:
+            type: self
+            amount: null
+          effects: []
+          roll:
+            type: null
+            trait: null
+            difficulty: null
+            bonus: null
+            advState: neutral
+            diceRolling:
+              multiplier: prof
+              flatMultiplier: 1
+              dice: d6
+              compare: null
+              treshold: null
+            useDefault: false
+          name: Drink
+          img: icons/consumables/potions/potion-tube-corked-red.webp
+          range: ''
+          baseAction: false
+          originItem:
+            type: itemCollection
+          triggers: []
+          areas: []
+      consumeOnUse: true
+      attribution:
+        source: Daggerheart SRD
+        page: 60
+        artist: ''
+    folder: null
+    sort: 0
+    ownership:
+      default: 0
+      OFxauskoxcvVTVNA: 3
+      pQzNfYJpGL2Gy8DA: 3
+    flags: {}
+    _stats:
+      coreVersion: '14.365'
+      systemId: daggerheart
+      systemVersion: 2.5.4
+      createdTime: 1784789896947
+      modifiedTime: 1784789896947
+      lastModifiedBy: pQzNfYJpGL2Gy8DA
+      compendiumSource: null
+      duplicateSource: null
+      exportSource: null
+    _key: '!actors.items!Su2v3y2PLul9WmRh.lZatccnZtdAMlpF0'
+  - folder: rY8M3uLGRwuLhzk0
+    name: 50ft of Rope
+    type: loot
+    img: icons/sundries/survival/rope-coiled-tan.webp
+    _id: Gojmkc4GGsD2eEeQ
+    sort: 0
+    system:
+      attribution: {}
+      description: ''
+      quantity: 1
+      actions: {}
+    effects: []
+    flags: {}
+    _stats:
+      coreVersion: '14.365'
+      systemId: daggerheart
+      systemVersion: 2.5.4
+      createdTime: 1784789896947
+      modifiedTime: 1784789896947
+      lastModifiedBy: pQzNfYJpGL2Gy8DA
+      compendiumSource: null
+      duplicateSource: null
+      exportSource: null
+    ownership:
+      default: 0
+      pQzNfYJpGL2Gy8DA: 3
+    _key: '!actors.items!Su2v3y2PLul9WmRh.Gojmkc4GGsD2eEeQ'
+  - folder: rY8M3uLGRwuLhzk0
+    name: Basic Supplies
+    type: loot
+    img: icons/containers/bags/sack-leather-stitched-brown.webp
+    _id: LG52qPKMf9Qsl6L4
+    sort: 0
+    system:
+      attribution: {}
+      description: ''
+      quantity: 1
+      actions: {}
+    effects: []
+    flags: {}
+    _stats:
+      coreVersion: '14.365'
+      systemId: daggerheart
+      systemVersion: 2.5.4
+      createdTime: 1784789896947
+      modifiedTime: 1784789896947
+      lastModifiedBy: pQzNfYJpGL2Gy8DA
+      compendiumSource: null
+      duplicateSource: null
+      exportSource: null
+    ownership:
+      default: 0
+      pQzNfYJpGL2Gy8DA: 3
+    _key: '!actors.items!Su2v3y2PLul9WmRh.LG52qPKMf9Qsl6L4'
+  - folder: rY8M3uLGRwuLhzk0
+    name: Torch
+    type: loot
+    img: icons/sundries/lights/torch-brown-lit.webp
+    _id: BM78RLVcN9pTAzzB
+    sort: 0
+    system:
+      attribution: {}
+      description: ''
+      quantity: 1
+      actions: {}
+    effects: []
+    flags: {}
+    _stats:
+      coreVersion: '14.365'
+      systemId: daggerheart
+      systemVersion: 2.5.4
+      createdTime: 1784789896947
+      modifiedTime: 1784789896947
+      lastModifiedBy: pQzNfYJpGL2Gy8DA
+      compendiumSource: null
+      duplicateSource: null
+      exportSource: null
+    ownership:
+      default: 0
+      pQzNfYJpGL2Gy8DA: 3
+    _key: '!actors.items!Su2v3y2PLul9WmRh.BM78RLVcN9pTAzzB'
+  - folder: qqQA3P23d1Oc0wkG
+    name: Siphon Essence
+    type: domainCard
+    _id: RGva4ChteXRpB4Kr
+    img: modules/daggerheart-voidborne/icons/svg/dread_domain.svg
+    system:
+      attribution: {}
+      description: >-
+        <p>Make a Spellcast Roll against a target within Very Close range. On a
+        success, once per long rest, the target takes d20 magic damage using
+        your Proficiency. You clear a number of Hit Points equal t0 the number
+        of Hit Points the target marked from this attack. On a success with
+        Fear, you gain a +1 bonus to your Proficiency for this attack.</p>
+      resource: null
+      actions:
+        xiqX5BYH9F0JqmtN:
+          type: attack
+          _id: xiqX5BYH9F0JqmtN
+          systemPath: actions
+          baseAction: false
+          description: ''
+          chatDisplay: true
+          originItem:
+            type: itemCollection
+          actionType: action
+          triggers: []
+          cost: []
+          uses:
+            value: null
+            max: ''
+            recovery: null
+            consumeOnSuccess: false
+          damage:
+            parts:
+              hitPoints:
+                applyTo: hitPoints
+                resultBased: false
+                value:
+                  multiplier: prof
+                  flatMultiplier: 1
+                  dice: d20
+                  bonus: null
+                  custom:
+                    enabled: false
+                    formula: ''
+                valueAlt:
+                  multiplier: flat
+                  flatMultiplier: 1
+                  dice: d6
+                  bonus: null
+                  custom:
+                    enabled: false
+                    formula: ''
+                base: false
+                type:
+                  - magical
+            includeBase: false
+            direct: false
+          target:
+            type: any
+            amount: null
+          effects: []
+          roll:
+            type: spellcast
+            trait: null
+            difficulty: null
+            bonus: null
+            advState: neutral
+            diceRolling:
+              multiplier: prof
+              flatMultiplier: 1
+              dice: d6
+              compare: null
+              treshold: null
+            useDefault: false
+          save:
+            trait: null
+            difficulty: null
+            damageMod: none
+          name: Spellcast Roll
+          range: veryClose
+          areas: []
+      domain: dread
+      level: 2
+      recallCost: 1
+      type: spell
+      inVault: false
+      vaultActive: false
+      loadoutIgnore: false
+      domainTouched: null
+    effects: []
+    sort: 0
+    ownership:
+      default: 0
+      IT21Xl7GPaE4IRAy: 3
+      pQzNfYJpGL2Gy8DA: 3
+    flags: {}
+    _stats:
+      coreVersion: '14.365'
+      systemId: daggerheart
+      systemVersion: 2.5.4
+      createdTime: 1784789896947
+      modifiedTime: 1784789896947
+      lastModifiedBy: pQzNfYJpGL2Gy8DA
+      compendiumSource: null
+      duplicateSource: null
+      exportSource: null
+    _key: '!actors.items!Su2v3y2PLul9WmRh.RGva4ChteXRpB4Kr'
+  - name: Scepter
+    type: weapon
+    _id: GZh345N8fmuS4Jeh
+    img: icons/weapons/staves/staff-blue-jewel.webp
+    system:
+      description: ''
+      actions:
+        c7McXmzSWTNGOdHL:
+          type: attack
+          damage:
+            includeBase: false
+            parts:
+              hitPoints:
+                resultBased: false
+                value:
+                  custom:
+                    enabled: false
+                    formula: ''
+                  multiplier: prof
+                  dice: d8
+                  bonus: null
+                  flatMultiplier: 1
+                applyTo: hitPoints
+                type:
+                  - magical
+                base: false
+                valueAlt:
+                  multiplier: prof
+                  flatMultiplier: 1
+                  dice: d6
+                  bonus: null
+                  custom:
+                    enabled: false
+                    formula: ''
+            direct: false
+          range: melee
+          roll:
+            useDefault: true
+            type: attack
+            trait: presence
+            difficulty: null
+            bonus: null
+            advState: neutral
+            diceRolling:
+              multiplier: prof
+              flatMultiplier: 1
+              dice: d6
+              compare: null
+              treshold: null
+          _id: c7McXmzSWTNGOdHL
+          systemPath: actions
+          description: ''
+          chatDisplay: true
+          actionType: action
+          cost: []
+          uses:
+            value: null
+            max: ''
+            recovery: null
+            consumeOnSuccess: false
+          target:
+            type: any
+            amount: null
+          effects: []
+          save:
+            trait: null
+            difficulty: null
+            damageMod: none
+          name: Versatile Attack
+          img: icons/weapons/maces/shortmace-ornate-gold.webp
+          baseAction: false
+          originItem:
+            type: itemCollection
+          triggers: []
+          areas: []
+      attached: []
+      tier: 1
+      equipped: true
+      secondary: false
+      burden: twoHanded
+      weaponFeatures: []
+      attack:
+        name: Attack
+        img: icons/skills/melee/blood-slash-foam-red.webp
+        _id: ZSdAawliPNsoA7nP
+        baseAction: true
+        systemPath: attack
+        type: attack
+        range: far
+        target:
+          type: any
+          amount: 1
+        roll:
+          trait: presence
+          type: attack
+          difficulty: null
+          bonus: null
+          advState: neutral
+          diceRolling:
+            multiplier: prof
+            flatMultiplier: 1
+            dice: d6
+            compare: null
+            treshold: null
+          useDefault: false
+        damage:
+          parts:
+            hitPoints:
+              value:
+                dice: d6
+                bonus: null
+                multiplier: prof
+                flatMultiplier: 1
+                custom:
+                  enabled: false
+                  formula: ''
+              type:
+                - magical
+              applyTo: hitPoints
+              resultBased: false
+              valueAlt:
+                multiplier: prof
+                flatMultiplier: 1
+                dice: d6
+                bonus: null
+                custom:
+                  enabled: false
+                  formula: ''
+              base: false
+          includeBase: false
+          direct: false
+        description: ''
+        chatDisplay: false
+        actionType: action
+        cost: []
+        uses:
+          value: null
+          max: null
+          recovery: null
+          consumeOnSuccess: false
+        effects: []
+        save:
+          trait: null
+          difficulty: null
+          damageMod: none
+        originItem:
+          type: itemCollection
+        triggers: []
+        areas: []
+      rules:
+        attack:
+          roll:
+            trait: null
+      attribution:
+        source: Daggerheart SRD
+        page: 45
+        artist: ''
+      resource: null
+      quantity: 1
+    effects: []
+    flags: {}
+    _stats:
+      coreVersion: '14.365'
+      systemId: daggerheart
+      systemVersion: 2.5.4
+      createdTime: 1784789896947
+      modifiedTime: 1784789896947
+      lastModifiedBy: pQzNfYJpGL2Gy8DA
+      compendiumSource: null
+      duplicateSource: null
+      exportSource: null
+    ownership:
+      default: 0
+      pQzNfYJpGL2Gy8DA: 3
+    folder: null
+    sort: 0
+    _key: '!actors.items!Su2v3y2PLul9WmRh.GZh345N8fmuS4Jeh'
+  - name: Whip
+    type: weapon
+    _id: CmtWqw6DwoePnX7W
+    img: icons/weapons/misc/whip-red-yellow.webp
+    system:
+      description: ''
+      actions:
+        N0CCc4o6N1HseQTn:
+          type: effect
+          actionType: action
+          chatDisplay: true
+          name: Startle
+          description: >-
+            Mark a Stress to crack the whip and force all adversaries within
+            Melee range back to Close range.
+          img: icons/magic/control/fear-fright-mask-orange.webp
+          cost:
+            - key: stress
+              value: 1
+              scalable: false
+              step: null
+              itemId: null
+              consumeOnSuccess: false
+          _id: N0CCc4o6N1HseQTn
+          effects: []
+          systemPath: actions
+          uses:
+            value: null
+            max: null
+            recovery: null
+            consumeOnSuccess: false
+          target:
+            type: any
+            amount: null
+          baseAction: false
+          originItem:
+            type: itemCollection
+          triggers: []
+          areas: []
+      attached: []
+      tier: 1
+      equipped: false
+      secondary: true
+      burden: oneHanded
+      weaponFeatures:
+        - value: startling
+          effectIds: []
+          actionIds:
+            - N0CCc4o6N1HseQTn
+      attack:
+        name: Attack
+        img: icons/skills/melee/blood-slash-foam-red.webp
+        _id: AVjlF2Mv5AMDflgy
+        baseAction: true
+        systemPath: attack
+        type: attack
+        range: veryClose
+        target:
+          type: any
+          amount: 1
+        roll:
+          trait: presence
+          type: attack
+          difficulty: null
+          bonus: null
+          advState: neutral
+          diceRolling:
+            multiplier: prof
+            flatMultiplier: 1
+            dice: d6
+            compare: null
+            treshold: null
+          useDefault: false
+        damage:
+          parts:
+            hitPoints:
+              value:
+                dice: d6
+                bonus: null
+                multiplier: prof
+                flatMultiplier: 1
+                custom:
+                  enabled: false
+                  formula: ''
+              type:
+                - physical
+              applyTo: hitPoints
+              resultBased: false
+              valueAlt:
+                multiplier: prof
+                flatMultiplier: 1
+                dice: d6
+                bonus: null
+                custom:
+                  enabled: false
+                  formula: ''
+              base: false
+          includeBase: false
+          direct: false
+        description: ''
+        chatDisplay: false
+        actionType: action
+        cost: []
+        uses:
+          value: null
+          max: null
+          recovery: null
+          consumeOnSuccess: false
+        effects: []
+        save:
+          trait: null
+          difficulty: null
+          damageMod: none
+        originItem:
+          type: itemCollection
+        triggers: []
+        areas: []
+      rules:
+        attack:
+          roll:
+            trait: null
+      attribution:
+        source: Daggerheart SRD
+        page: 52
+        artist: ''
+      resource: null
+      quantity: 1
+    effects: []
+    flags: {}
+    _stats:
+      coreVersion: '14.365'
+      systemId: daggerheart
+      systemVersion: 2.5.4
+      createdTime: 1784789896947
+      modifiedTime: 1784789896947
+      lastModifiedBy: pQzNfYJpGL2Gy8DA
+      compendiumSource: null
+      duplicateSource: null
+      exportSource: null
+    ownership:
+      default: 0
+      pQzNfYJpGL2Gy8DA: 3
+    folder: null
+    sort: 0
+    _key: '!actors.items!Su2v3y2PLul9WmRh.CmtWqw6DwoePnX7W'
+  - name: Invisibility
+    img: systems/daggerheart/assets/icons/domains/domain-card/grace.png
+    type: domainCard
+    folder: GhLhMfmSgGqS9bwU
+    system:
+      description: >-
+        <p class="Body-Foundation">Make a <strong>Spellcast Roll (10)</strong>.
+        On a success, <strong>mark a Stress</strong> and choose yourself or an
+        ally within Melee range to become <em>Invisible</em>. An
+        <em>Invisible</em> creature can’t be seen except through magical means
+        and attack rolls against them are made with disadvantage. Place a number
+        of tokens on this card equal to your Spellcast trait. When the
+        <em>Invisible</em> creature takes an action, spend a token from this
+        card. After the action that spends the last token is resolved, the
+        effect ends.</p><p class="Body-Foundation">You can only hold
+        Invisibility on one creature at a time.</p>
+      domain: grace
+      recallCost: 1
+      level: 3
+      type: spell
+      actions:
+        aIERmFBWCRLVv184:
+          type: attack
+          _id: aIERmFBWCRLVv184
+          systemPath: actions
+          description: >-
+            <p class="Body-Foundation">Make a <strong>Spellcast Roll
+            (10)</strong>. On a success, <strong>mark a Stress</strong> and
+            choose yourself or an ally within Melee range to become
+            <em>Invisible</em>. An <em>Invisible</em> creature can’t be seen
+            except through magical means and attack rolls against them are made
+            with disadvantage. Place a number of tokens on this card equal to
+            your Spellcast trait. When the <em>Invisible</em> creature takes an
+            action, spend a token from this card. After the action that spends
+            the last token is resolved, the effect ends.</p><p
+            class="Body-Foundation">You can only hold Invisibility on one
+            creature at a time.</p>
+          chatDisplay: true
+          actionType: action
+          cost:
+            - consumeOnSuccess: true
+              scalable: false
+              key: stress
+              value: 1
+              step: null
+              itemId: null
+          uses:
+            value: null
+            max: ''
+            recovery: null
+            consumeOnSuccess: false
+          damage:
+            parts: {}
+            includeBase: false
+            direct: false
+          target:
+            type: any
+            amount: null
+          effects:
+            - _id: bRJy0MoIPQEQOMzZ
+              onSave: false
+          roll:
+            type: spellcast
+            trait: null
+            difficulty: 10
+            bonus: null
+            advState: neutral
+            diceRolling:
+              multiplier: prof
+              flatMultiplier: 1
+              dice: d6
+              compare: null
+              treshold: null
+            useDefault: false
+          save:
+            trait: null
+            difficulty: null
+            damageMod: none
+          name: Cast
+          img: icons/magic/unholy/hand-fire-skeleton-pink.webp
+          range: ''
+          baseAction: false
+          originItem:
+            type: itemCollection
+          triggers: []
+          areas: []
+      resource:
+        type: simple
+        value: 0
+        max: '@cast'
+        icon: ''
+        recovery: null
+        progression: increasing
+        diceStates: {}
+        dieFaces: d4
+      attribution:
+        source: Daggerheart SRD
+        page: 126
+        artist: ''
+      inVault: false
+      vaultActive: false
+      loadoutIgnore: false
+      domainTouched: null
+    flags: {}
+    _id: PiMHWMlEy54HAgde
+    sort: 3400000
+    effects:
+      - name: Invisible
+        img: icons/magic/unholy/hand-fire-skeleton-pink.webp
+        origin: Compendium.daggerheart.domains.Item.KHkzA4Zrw8EWN1CH
+        transfer: false
+        _id: bRJy0MoIPQEQOMzZ
+        type: base
+        system:
+          changes: []
+          duration:
+            description: ''
+          rangeDependence: null
+          stacking: null
+          targetDispositions: []
+        disabled: false
+        duration:
+          value: null
+          units: seconds
+          expiry: null
+          expired: false
+        description: >-
+          <p><span style="color:rgb(239, 230, 216);font-family:Montserrat,
+          sans-serif;font-size:14px;font-style:normal;font-variant-ligatures:normal;font-variant-caps:normal;font-weight:400;letter-spacing:normal;orphans:2;text-align:start;text-indent:0px;text-transform:none;widows:2;word-spacing:0px;-webkit-text-stroke-width:0px;white-space:normal;background-color:rgba(24,
+          22, 46,
+          0.376);text-decoration-thickness:initial;text-decoration-style:initial;text-decoration-color:initial;display:inline
+          !important;float:none">An </span><span
+          style="box-sizing:border-box;scrollbar-width:thin;scrollbar-color:rgb(93,
+          20, 43) rgba(0, 0, 0, 0);color:rgb(239, 230,
+          216);font-family:Montserrat,
+          sans-serif;font-size:14px;font-variant-ligatures:normal;font-variant-caps:normal;font-weight:400;letter-spacing:normal;orphans:2;text-align:start;text-indent:0px;text-transform:none;widows:2;word-spacing:0px;-webkit-text-stroke-width:0px;white-space:normal;background-color:rgba(24,
+          22, 46,
+          0.376);text-decoration-thickness:initial;text-decoration-style:initial;text-decoration-color:initial">Invisible</span><span
+          style="color:rgb(239, 230, 216);font-family:Montserrat,
+          sans-serif;font-size:14px;font-style:normal;font-variant-ligatures:normal;font-variant-caps:normal;font-weight:400;letter-spacing:normal;orphans:2;text-align:start;text-indent:0px;text-transform:none;widows:2;word-spacing:0px;-webkit-text-stroke-width:0px;white-space:normal;background-color:rgba(24,
+          22, 46,
+          0.376);text-decoration-thickness:initial;text-decoration-style:initial;text-decoration-color:initial;display:inline
+          !important;float:none"> creature can’t be seen except through magical
+          means and </span><span class="tooltip-convert"
+          style="box-sizing:border-box;scrollbar-width:thin;scrollbar-color:rgb(93,
+          20, 43) rgba(0, 0, 0, 0);color:rgb(239, 230,
+          216);font-family:Montserrat,
+          sans-serif;font-size:14px;font-style:normal;font-variant-ligatures:normal;font-variant-caps:normal;font-weight:400;letter-spacing:normal;orphans:2;text-align:start;text-indent:0px;text-transform:none;widows:2;word-spacing:0px;-webkit-text-stroke-width:0px;white-space:normal;background-color:rgba(24,
+          22, 46,
+          0.376);text-decoration-thickness:initial;text-decoration-style:initial;text-decoration-color:initial">attack
+          rolls</span><span style="color:rgb(239, 230,
+          216);font-family:Montserrat,
+          sans-serif;font-size:14px;font-style:normal;font-variant-ligatures:normal;font-variant-caps:normal;font-weight:400;letter-spacing:normal;orphans:2;text-align:start;text-indent:0px;text-transform:none;widows:2;word-spacing:0px;-webkit-text-stroke-width:0px;white-space:normal;background-color:rgba(24,
+          22, 46,
+          0.376);text-decoration-thickness:initial;text-decoration-style:initial;text-decoration-color:initial;display:inline
+          !important;float:none"> against them are made with </span><span
+          class="tooltip-convert"
+          style="box-sizing:border-box;scrollbar-width:thin;scrollbar-color:rgb(93,
+          20, 43) rgba(0, 0, 0, 0);color:rgb(239, 230,
+          216);font-family:Montserrat,
+          sans-serif;font-size:14px;font-style:normal;font-variant-ligatures:normal;font-variant-caps:normal;font-weight:400;letter-spacing:normal;orphans:2;text-align:start;text-indent:0px;text-transform:none;widows:2;word-spacing:0px;-webkit-text-stroke-width:0px;white-space:normal;background-color:rgba(24,
+          22, 46,
+          0.376);text-decoration-thickness:initial;text-decoration-style:initial;text-decoration-color:initial">disadvantage</span><span
+          style="color:rgb(239, 230, 216);font-family:Montserrat,
+          sans-serif;font-size:14px;font-style:normal;font-variant-ligatures:normal;font-variant-caps:normal;font-weight:400;letter-spacing:normal;orphans:2;text-align:start;text-indent:0px;text-transform:none;widows:2;word-spacing:0px;-webkit-text-stroke-width:0px;white-space:normal;background-color:rgba(24,
+          22, 46,
+          0.376);text-decoration-thickness:initial;text-decoration-style:initial;text-decoration-color:initial;display:inline
+          !important;float:none">. Place a number of tokens on this card equal
+          to your Spellcast trait. When the </span><span
+          style="box-sizing:border-box;scrollbar-width:thin;scrollbar-color:rgb(93,
+          20, 43) rgba(0, 0, 0, 0);color:rgb(239, 230,
+          216);font-family:Montserrat,
+          sans-serif;font-size:14px;font-variant-ligatures:normal;font-variant-caps:normal;font-weight:400;letter-spacing:normal;orphans:2;text-align:start;text-indent:0px;text-transform:none;widows:2;word-spacing:0px;-webkit-text-stroke-width:0px;white-space:normal;background-color:rgba(24,
+          22, 46,
+          0.376);text-decoration-thickness:initial;text-decoration-style:initial;text-decoration-color:initial">Invisible</span><span
+          style="color:rgb(239, 230, 216);font-family:Montserrat,
+          sans-serif;font-size:14px;font-style:normal;font-variant-ligatures:normal;font-variant-caps:normal;font-weight:400;letter-spacing:normal;orphans:2;text-align:start;text-indent:0px;text-transform:none;widows:2;word-spacing:0px;-webkit-text-stroke-width:0px;white-space:normal;background-color:rgba(24,
+          22, 46,
+          0.376);text-decoration-thickness:initial;text-decoration-style:initial;text-decoration-color:initial;display:inline
+          !important;float:none"> creature takes an action, spend a token from
+          this card. After the action that spends the last token is resolved,
+          the effect ends.</span></p>
+        tint: '#ffffff'
+        statuses: []
+        sort: 0
+        flags: {}
+        _stats:
+          coreVersion: '14.365'
+          systemId: daggerheart
+          systemVersion: 2.5.4
+          createdTime: 1784789896947
+          modifiedTime: 1784789896947
+          lastModifiedBy: pQzNfYJpGL2Gy8DA
+          compendiumSource: null
+          duplicateSource: null
+          exportSource: null
+        start: null
+        showIcon: 1
+        folder: null
+        _key: >-
+          !actors.items.effects!Su2v3y2PLul9WmRh.PiMHWMlEy54HAgde.bRJy0MoIPQEQOMzZ
+    ownership:
+      default: 0
+      pQzNfYJpGL2Gy8DA: 3
+    _stats:
+      coreVersion: '14.365'
+      systemId: daggerheart
+      systemVersion: 2.5.4
+      createdTime: 1784789896947
+      modifiedTime: 1784789896947
+      lastModifiedBy: pQzNfYJpGL2Gy8DA
+      compendiumSource: null
+      duplicateSource: null
+      exportSource: null
+    _key: '!actors.items!Su2v3y2PLul9WmRh.PiMHWMlEy54HAgde'
+  - name: Hypnotic Shimmer
+    img: systems/daggerheart/assets/icons/domains/domain-card/grace.png
+    type: domainCard
+    folder: GhLhMfmSgGqS9bwU
+    system:
+      description: >-
+        <p class="Body-Foundation">Make a <strong>Spellcast Roll</strong>
+        against all adversaries in front of you within Close range. Once per
+        rest on a success, create an illusion of flashing colors and lights that
+        temporarily <em>Stuns</em> targets you succeed against and forces them
+        to mark a Stress. While <em>Stunned</em>, they can’t use reactions and
+        can’t take any other actions until they clear this condition.</p>
+      domain: grace
+      recallCost: 1
+      level: 3
+      type: spell
+      actions:
+        kLMAuyZktmohOSXa:
+          type: attack
+          _id: kLMAuyZktmohOSXa
+          systemPath: actions
+          description: >-
+            <p>Make a <strong>Spellcast Roll</strong> against all adversaries in
+            front of you within Close range. Once per rest on a success, create
+            an illusion of flashing colors and lights that temporarily
+            <em>Stuns</em> targets you succeed against and forces them to mark a
+            Stress. While <em>Stunned</em>, they can’t use reactions and can’t
+            take any other actions until they clear this condition.</p>
+          chatDisplay: true
+          actionType: action
+          cost: []
+          uses:
+            value: null
+            max: '1'
+            recovery: shortRest
+            consumeOnSuccess: true
+          damage:
+            parts:
+              stress:
+                resultBased: false
+                value:
+                  custom:
+                    enabled: true
+                    formula: '1'
+                  multiplier: prof
+                  flatMultiplier: 1
+                  dice: d6
+                  bonus: null
+                applyTo: stress
+                type: []
+                base: false
+                valueAlt:
+                  multiplier: prof
+                  flatMultiplier: 1
+                  dice: d6
+                  bonus: null
+                  custom:
+                    enabled: false
+                    formula: ''
+            includeBase: false
+            direct: false
+          target:
+            type: any
+            amount: null
+          effects:
+            - _id: xAG75UWUz3aDZH3m
+              onSave: false
+          roll:
+            type: spellcast
+            trait: null
+            difficulty: null
+            bonus: null
+            advState: neutral
+            diceRolling:
+              multiplier: prof
+              flatMultiplier: 1
+              dice: d6
+              compare: null
+              treshold: null
+            useDefault: false
+          save:
+            trait: null
+            difficulty: null
+            damageMod: none
+          name: Cast
+          img: icons/magic/control/hypnosis-mesmerism-swirl.webp
+          range: close
+          areas:
+            - name: Hypnotic Shimmer
+              type: placed
+              shape: inFront
+              size: close
+              effects: []
+              hasHole: false
+          baseAction: false
+          originItem:
+            type: itemCollection
+          triggers: []
+      attribution:
+        source: Daggerheart SRD
+        page: 126
+        artist: ''
+      resource: null
+      inVault: false
+      vaultActive: false
+      loadoutIgnore: false
+      domainTouched: null
+    flags: {}
+    _id: OE70HCF3teYq6eQo
+    sort: 3400000
+    effects:
+      - name: Stunned
+        img: icons/magic/control/hypnosis-mesmerism-swirl.webp
+        origin: Compendium.daggerheart.domains.Item.2ZeuCGVatQdPOVC6
+        transfer: false
+        _id: xAG75UWUz3aDZH3m
+        type: base
+        system:
+          changes: []
+          duration:
+            type: temporary
+            description: ''
+          rangeDependence: null
+          stacking: null
+          targetDispositions: []
+        disabled: false
+        duration:
+          value: null
+          units: seconds
+          expiry: null
+          expired: false
+        description: >-
+          <p><span style="color:rgb(239, 230, 216);font-family:Montserrat,
+          sans-serif;font-size:14px;font-style:normal;font-variant-ligatures:normal;font-variant-caps:normal;font-weight:400;letter-spacing:normal;orphans:2;text-align:start;text-indent:0px;text-transform:none;widows:2;word-spacing:0px;-webkit-text-stroke-width:0px;white-space:normal;background-color:rgba(24,
+          22, 46,
+          0.376);text-decoration-thickness:initial;text-decoration-style:initial;text-decoration-color:initial;display:inline
+          !important;float:none">An illusion of flashing colors and lights that
+          temporarily </span><span
+          style="box-sizing:border-box;scrollbar-width:thin;scrollbar-color:rgb(93,
+          20, 43) rgba(0, 0, 0, 0);color:rgb(239, 230,
+          216);font-family:Montserrat,
+          sans-serif;font-size:14px;font-variant-ligatures:normal;font-variant-caps:normal;font-weight:400;letter-spacing:normal;orphans:2;text-align:start;text-indent:0px;text-transform:none;widows:2;word-spacing:0px;-webkit-text-stroke-width:0px;white-space:normal;background-color:rgba(24,
+          22, 46,
+          0.376);text-decoration-thickness:initial;text-decoration-style:initial;text-decoration-color:initial">Stuns</span><span
+          style="color:rgb(239, 230, 216);font-family:Montserrat,
+          sans-serif;font-size:14px;font-style:normal;font-variant-ligatures:normal;font-variant-caps:normal;font-weight:400;letter-spacing:normal;orphans:2;text-align:start;text-indent:0px;text-transform:none;widows:2;word-spacing:0px;-webkit-text-stroke-width:0px;white-space:normal;background-color:rgba(24,
+          22, 46,
+          0.376);text-decoration-thickness:initial;text-decoration-style:initial;text-decoration-color:initial;display:inline
+          !important;float:none"> targets. While </span><span
+          style="box-sizing:border-box;scrollbar-width:thin;scrollbar-color:rgb(93,
+          20, 43) rgba(0, 0, 0, 0);color:rgb(239, 230,
+          216);font-family:Montserrat,
+          sans-serif;font-size:14px;font-variant-ligatures:normal;font-variant-caps:normal;font-weight:400;letter-spacing:normal;orphans:2;text-align:start;text-indent:0px;text-transform:none;widows:2;word-spacing:0px;-webkit-text-stroke-width:0px;white-space:normal;background-color:rgba(24,
+          22, 46,
+          0.376);text-decoration-thickness:initial;text-decoration-style:initial;text-decoration-color:initial">Stunned</span><span
+          style="color:rgb(239, 230, 216);font-family:Montserrat,
+          sans-serif;font-size:14px;font-style:normal;font-variant-ligatures:normal;font-variant-caps:normal;font-weight:400;letter-spacing:normal;orphans:2;text-align:start;text-indent:0px;text-transform:none;widows:2;word-spacing:0px;-webkit-text-stroke-width:0px;white-space:normal;background-color:rgba(24,
+          22, 46,
+          0.376);text-decoration-thickness:initial;text-decoration-style:initial;text-decoration-color:initial;display:inline
+          !important;float:none">, they can’t use reactions and can’t take any
+          other actions until they clear this </span><span
+          style="box-sizing:border-box;scrollbar-width:thin;scrollbar-color:rgb(93,
+          20, 43) rgba(0, 0, 0, 0);color:rgb(239, 230,
+          216);font-family:Montserrat,
+          sans-serif;font-size:14px;font-style:normal;font-variant-ligatures:normal;font-variant-caps:normal;font-weight:400;letter-spacing:normal;orphans:2;text-align:start;text-indent:0px;text-transform:none;widows:2;word-spacing:0px;-webkit-text-stroke-width:0px;white-space:normal;background-color:rgba(24,
+          22, 46,
+          0.376);text-decoration-thickness:initial;text-decoration-style:initial;text-decoration-color:initial"
+          class="tooltip-convert">condition</span><span style="color:rgb(239,
+          230, 216);font-family:Montserrat,
+          sans-serif;font-size:14px;font-style:normal;font-variant-ligatures:normal;font-variant-caps:normal;font-weight:400;letter-spacing:normal;orphans:2;text-align:start;text-indent:0px;text-transform:none;widows:2;word-spacing:0px;-webkit-text-stroke-width:0px;white-space:normal;background-color:rgba(24,
+          22, 46,
+          0.376);text-decoration-thickness:initial;text-decoration-style:initial;text-decoration-color:initial;display:inline
+          !important;float:none">.</span></p>
+        tint: '#ffffff'
+        statuses:
+          - stun
+        sort: 0
+        flags: {}
+        _stats:
+          coreVersion: '14.365'
+          systemId: daggerheart
+          systemVersion: 2.5.4
+          createdTime: 1784789896947
+          modifiedTime: 1784789896947
+          lastModifiedBy: pQzNfYJpGL2Gy8DA
+          compendiumSource: null
+          duplicateSource: null
+          exportSource: null
+        start:
+          time: 0
+          combat: null
+          combatant: null
+          initiative: null
+          round: null
+          turn: null
+        showIcon: 1
+        folder: null
+        _key: >-
+          !actors.items.effects!Su2v3y2PLul9WmRh.OE70HCF3teYq6eQo.xAG75UWUz3aDZH3m
+    ownership:
+      default: 0
+      pQzNfYJpGL2Gy8DA: 3
+    _stats:
+      coreVersion: '14.365'
+      systemId: daggerheart
+      systemVersion: 2.5.4
+      createdTime: 1784789896947
+      modifiedTime: 1784789896947
+      lastModifiedBy: pQzNfYJpGL2Gy8DA
+      compendiumSource: null
+      duplicateSource: null
+      exportSource: null
+    _key: '!actors.items!Su2v3y2PLul9WmRh.OE70HCF3teYq6eQo'
+  - name: Through Your Eyes
+    img: systems/daggerheart/assets/icons/domains/domain-card/grace.png
+    type: domainCard
+    folder: thP6nUk0nkrNcpXY
+    system:
+      description: >-
+        <p class="Body-Foundation">Choose a target within Very Far range. You
+        can see through their eyes and hear through their ears. You can
+        transition between using your own senses or the target’s freely until
+        you cast another spell or until your next rest.</p>
+      domain: grace
+      recallCost: 1
+      level: 4
+      type: spell
+      actions:
+        8ACwa5tqAGyNZ0sR:
+          type: effect
+          _id: 8ACwa5tqAGyNZ0sR
+          systemPath: actions
+          description: >-
+            <p>Choose a target within Very Far range. You can see through their
+            eyes and hear through their ears. You can transition between using
+            your own senses or the target’s freely until you cast another spell
+            or until your next rest.</p>
+          chatDisplay: true
+          actionType: action
+          cost: []
+          uses:
+            value: null
+            max: ''
+            recovery: null
+            consumeOnSuccess: false
+          effects:
+            - _id: TCOHV7tWpunCZDxn
+              onSave: false
+          target:
+            type: any
+            amount: null
+          name: Cast
+          img: icons/magic/perception/eye-slit-pink.webp
+          range: veryFar
+          baseAction: false
+          originItem:
+            type: itemCollection
+          triggers: []
+          areas: []
+      attribution:
+        source: Daggerheart SRD
+        page: 127
+        artist: ''
+      resource: null
+      inVault: true
+      vaultActive: false
+      loadoutIgnore: false
+      domainTouched: null
+    flags: {}
+    _id: 63x6x0svBG92my4K
+    sort: 3400000
+    effects:
+      - name: Seeing, Hearing
+        img: icons/magic/perception/eye-slit-pink.webp
+        origin: Compendium.daggerheart.domains.Item.7b0mzV5QMPjVPT4o
+        transfer: false
+        _id: TCOHV7tWpunCZDxn
+        type: base
+        system:
+          changes: []
+          duration:
+            type: shortRest
+            description: ''
+          rangeDependence: null
+          stacking: null
+          targetDispositions: []
+        disabled: false
+        duration:
+          value: null
+          units: seconds
+          expiry: null
+          expired: false
+        description: >-
+          <p><span style="color:rgb(239, 230, 216);font-family:Montserrat,
+          sans-serif;font-size:14px;font-style:normal;font-variant-ligatures:normal;font-variant-caps:normal;font-weight:400;letter-spacing:normal;orphans:2;text-align:start;text-indent:0px;text-transform:none;widows:2;word-spacing:0px;-webkit-text-stroke-width:0px;white-space:normal;background-color:rgba(24,
+          22, 46,
+          0.376);text-decoration-thickness:initial;text-decoration-style:initial;text-decoration-color:initial;display:inline
+          !important;float:none">Can see through their eyes and hear through
+          their ears.</span></p>
+        tint: '#ffffff'
+        statuses: []
+        sort: 0
+        flags: {}
+        _stats:
+          coreVersion: '14.365'
+          systemId: daggerheart
+          systemVersion: 2.5.4
+          createdTime: 1784789896947
+          modifiedTime: 1784789896947
+          lastModifiedBy: pQzNfYJpGL2Gy8DA
+          compendiumSource: null
+          duplicateSource: null
+          exportSource: null
+        start:
+          time: 0
+          combat: null
+          combatant: null
+          initiative: null
+          round: null
+          turn: null
+        showIcon: 1
+        folder: null
+        _key: >-
+          !actors.items.effects!Su2v3y2PLul9WmRh.63x6x0svBG92my4K.TCOHV7tWpunCZDxn
+    ownership:
+      default: 0
+      pQzNfYJpGL2Gy8DA: 3
+    _stats:
+      coreVersion: '14.365'
+      systemId: daggerheart
+      systemVersion: 2.5.4
+      createdTime: 1784789896947
+      modifiedTime: 1784789896947
+      lastModifiedBy: pQzNfYJpGL2Gy8DA
+      compendiumSource: null
+      duplicateSource: null
+      exportSource: null
+    _key: '!actors.items!Su2v3y2PLul9WmRh.63x6x0svBG92my4K'
+effects: []
+ownership:
+  default: 0
+  pQzNfYJpGL2Gy8DA: 3
+flags:
+  core:
+    sheetClass: daggerheart.SleekCharacterSheet
+  daggerheart-sleek-ui:
+    quickAccess:
+      - Actor.Su2v3y2PLul9WmRh.Item.GZh345N8fmuS4Jeh
+      - Actor.Su2v3y2PLul9WmRh.Item.kX92lPrb2uaBhT0b
+      - Actor.Su2v3y2PLul9WmRh.Item.XttzpN4I8lgbNQFc
+      - Actor.Su2v3y2PLul9WmRh.Item.RGva4ChteXRpB4Kr
+      - Actor.Su2v3y2PLul9WmRh.Item.PiMHWMlEy54HAgde
+      - Actor.Su2v3y2PLul9WmRh.Item.OE70HCF3teYq6eQo
+      - Actor.Su2v3y2PLul9WmRh.Item.v4iDe78zbLTJBv5B
+      - Actor.Su2v3y2PLul9WmRh.Item.qKbHnHeJbjfqFIzI
+      - Actor.Su2v3y2PLul9WmRh.Item.o9LkekzYz4BXUDcb
+      - Actor.Su2v3y2PLul9WmRh.Item.4UYYdWYmMFu4r1V8
+      - Actor.Su2v3y2PLul9WmRh.Item.1BpMnj9Cxu3NYCc3
+_stats:
+  coreVersion: '14.365'
+  systemId: daggerheart
+  systemVersion: 2.5.4
+  createdTime: 1784789896947
+  modifiedTime: 1784789896949
+  lastModifiedBy: pQzNfYJpGL2Gy8DA
+  compendiumSource: null
+  duplicateSource: null
+  exportSource: null
+sort: 0
+_key: '!actors!Su2v3y2PLul9WmRh'

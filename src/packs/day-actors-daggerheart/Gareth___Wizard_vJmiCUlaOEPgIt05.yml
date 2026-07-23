@@ -615,11 +615,11 @@ prototypeToken:
     enabled: true
     colors:
       ring: null
-      background: null
-    effects: 1
+      background: '#581818'
+    effects: 7
     subject:
       scale: 1
-      texture: null
+      texture: modules/dannysmodule/assets/tokens/Gareth%20wizard%20token.webp
   turnMarker:
     mode: 1
     animation: null
@@ -683,17 +683,19 @@ items:
     sort: 0
     flags: {}
     _stats:
-      coreVersion: '14.360'
+      coreVersion: '14.365'
       systemId: daggerheart
-      systemVersion: 2.2.1
-      createdTime: 1777703634331
-      modifiedTime: 1777703634331
+      systemVersion: 2.5.4
+      createdTime: 1784789896932
+      modifiedTime: 1784789896932
       lastModifiedBy: pQzNfYJpGL2Gy8DA
       exportSource: null
       compendiumSource: null
       duplicateSource: null
     ownership:
       default: 0
+      IT21Xl7GPaE4IRAy: 3
+      pQzNfYJpGL2Gy8DA: 3
     _key: '!actors.items!vJmiCUlaOEPgIt05.EIotHPAbEuTKtvOw'
   - folder: 4jlDsFnIKAbYbEwf
     name: Eye of the Storm
@@ -752,11 +754,7 @@ items:
         description: ''
         statuses: []
         system:
-          rangeDependence:
-            enabled: false
-            type: withinRange
-            target: hostile
-            range: melee
+          rangeDependence: null
           changes:
             - key: system.evasion
               type: add
@@ -792,11 +790,11 @@ items:
         sort: 0
         flags: {}
         _stats:
-          coreVersion: '14.360'
+          coreVersion: '14.365'
           systemId: daggerheart
-          systemVersion: 2.2.1
-          createdTime: 1777703634331
-          modifiedTime: 1777703634331
+          systemVersion: 2.5.4
+          createdTime: 1784789896933
+          modifiedTime: 1784789896933
           lastModifiedBy: pQzNfYJpGL2Gy8DA
           compendiumSource: null
           duplicateSource: null
@@ -806,17 +804,19 @@ items:
     sort: 0
     flags: {}
     _stats:
-      coreVersion: '14.360'
+      coreVersion: '14.365'
       systemId: daggerheart
-      systemVersion: 2.2.1
-      createdTime: 1777703634331
-      modifiedTime: 1777703634331
+      systemVersion: 2.5.4
+      createdTime: 1784789896933
+      modifiedTime: 1784789896933
       lastModifiedBy: pQzNfYJpGL2Gy8DA
       exportSource: null
       compendiumSource: null
       duplicateSource: null
     ownership:
       default: 0
+      IT21Xl7GPaE4IRAy: 3
+      pQzNfYJpGL2Gy8DA: 3
     _key: '!actors.items!vJmiCUlaOEPgIt05.B9HbhBjrkWjV126p'
   - effects: []
     _id: Dibxy0zJnW3ndd8e
@@ -839,17 +839,19 @@ items:
     sort: 0
     flags: {}
     _stats:
-      coreVersion: '14.360'
+      coreVersion: '14.365'
       systemId: daggerheart
-      systemVersion: 2.2.1
-      createdTime: 1777703634331
-      modifiedTime: 1777703634331
+      systemVersion: 2.5.4
+      createdTime: 1784789896933
+      modifiedTime: 1784789896933
       lastModifiedBy: pQzNfYJpGL2Gy8DA
       exportSource: null
       compendiumSource: null
       duplicateSource: null
     ownership:
       default: 0
+      IT21Xl7GPaE4IRAy: 3
+      pQzNfYJpGL2Gy8DA: 3
     _key: '!actors.items!vJmiCUlaOEPgIt05.Dibxy0zJnW3ndd8e'
   - folder: KA1VSGslxkbvVeMp
     name: Know the Tide
@@ -928,17 +930,19 @@ items:
     flags: {}
     sort: 0
     _stats:
-      coreVersion: '14.360'
+      coreVersion: '14.365'
       systemId: daggerheart
-      systemVersion: 2.2.1
-      createdTime: 1777703634331
-      modifiedTime: 1777703634331
+      systemVersion: 2.5.4
+      createdTime: 1784789896933
+      modifiedTime: 1784789896933
       lastModifiedBy: pQzNfYJpGL2Gy8DA
       exportSource: null
       compendiumSource: null
       duplicateSource: null
     ownership:
       default: 0
+      Q9NoTaEarn3VMS6Z: 3
+      pQzNfYJpGL2Gy8DA: 3
     _key: '!actors.items!vJmiCUlaOEPgIt05.dH137YqGueidFKzY'
   - effects: []
     _id: qXuW5YKkUH1b84rK
@@ -975,17 +979,18 @@ items:
     sort: 3400000
     flags: {}
     _stats:
-      coreVersion: '14.360'
+      coreVersion: '14.365'
       systemId: daggerheart
-      systemVersion: 2.2.1
-      createdTime: 1777703634332
-      modifiedTime: 1777703634332
+      systemVersion: 2.5.4
+      createdTime: 1784789896933
+      modifiedTime: 1784789896933
       lastModifiedBy: pQzNfYJpGL2Gy8DA
       exportSource: null
       compendiumSource: null
       duplicateSource: null
     ownership:
       default: 0
+      pQzNfYJpGL2Gy8DA: 3
     _key: '!actors.items!vJmiCUlaOEPgIt05.qXuW5YKkUH1b84rK'
   - folder: SwEjiVLbnXT2x9Lz
     name: Not This Time
@@ -1043,17 +1048,19 @@ items:
     sort: 0
     flags: {}
     _stats:
-      coreVersion: '14.360'
+      coreVersion: '14.365'
       systemId: daggerheart
-      systemVersion: 2.2.1
-      createdTime: 1777703634332
-      modifiedTime: 1777703634332
+      systemVersion: 2.5.4
+      createdTime: 1784789896933
+      modifiedTime: 1784789896933
       lastModifiedBy: pQzNfYJpGL2Gy8DA
       exportSource: null
       compendiumSource: null
       duplicateSource: null
     ownership:
       default: 0
+      MQSznptE5yLT7kj8: 3
+      pQzNfYJpGL2Gy8DA: 3
     _key: '!actors.items!vJmiCUlaOEPgIt05.2rKGzLPmx0x4LgTe'
   - folder: SwEjiVLbnXT2x9Lz
     name: Prestidigitation
@@ -1080,17 +1087,19 @@ items:
     sort: 0
     flags: {}
     _stats:
-      coreVersion: '14.360'
+      coreVersion: '14.365'
       systemId: daggerheart
-      systemVersion: 2.2.1
-      createdTime: 1777703634332
-      modifiedTime: 1777703634332
+      systemVersion: 2.5.4
+      createdTime: 1784789896933
+      modifiedTime: 1784789896933
       lastModifiedBy: pQzNfYJpGL2Gy8DA
       exportSource: null
       compendiumSource: null
       duplicateSource: null
     ownership:
       default: 0
+      MQSznptE5yLT7kj8: 3
+      pQzNfYJpGL2Gy8DA: 3
     _key: '!actors.items!vJmiCUlaOEPgIt05.al4nUoguXNnuZvkn'
   - folder: SwEjiVLbnXT2x9Lz
     name: Strange Patterns
@@ -1274,17 +1283,19 @@ items:
     sort: 0
     flags: {}
     _stats:
-      coreVersion: '14.360'
+      coreVersion: '14.365'
       systemId: daggerheart
-      systemVersion: 2.2.1
-      createdTime: 1777703634332
-      modifiedTime: 1777703634332
+      systemVersion: 2.5.4
+      createdTime: 1784789896933
+      modifiedTime: 1784789896933
       lastModifiedBy: pQzNfYJpGL2Gy8DA
       exportSource: null
       compendiumSource: null
       duplicateSource: null
     ownership:
       default: 0
+      MQSznptE5yLT7kj8: 3
+      pQzNfYJpGL2Gy8DA: 3
     _key: '!actors.items!vJmiCUlaOEPgIt05.XjO3u3pK9FhLLom1'
   - effects: []
     _id: 9Th1sZR2L30hLaWi
@@ -1365,17 +1376,19 @@ items:
     sort: 800000
     flags: {}
     _stats:
-      coreVersion: '14.360'
+      coreVersion: '14.365'
       systemId: daggerheart
-      systemVersion: 2.2.1
-      createdTime: 1777703634332
-      modifiedTime: 1777703634332
+      systemVersion: 2.5.4
+      createdTime: 1784789896933
+      modifiedTime: 1784789896933
       lastModifiedBy: pQzNfYJpGL2Gy8DA
       exportSource: null
       compendiumSource: null
       duplicateSource: null
     ownership:
       default: 0
+      MQSznptE5yLT7kj8: 3
+      pQzNfYJpGL2Gy8DA: 3
     _key: '!actors.items!vJmiCUlaOEPgIt05.9Th1sZR2L30hLaWi'
   - folder: 8dyHGlppj08jYLIO
     name: Prepared
@@ -1400,17 +1413,19 @@ items:
     sort: 0
     flags: {}
     _stats:
-      coreVersion: '14.360'
+      coreVersion: '14.365'
       systemId: daggerheart
-      systemVersion: 2.2.1
-      createdTime: 1777703634332
-      modifiedTime: 1777703634332
+      systemVersion: 2.5.4
+      createdTime: 1784789896934
+      modifiedTime: 1784789896934
       lastModifiedBy: pQzNfYJpGL2Gy8DA
       exportSource: null
       compendiumSource: null
       duplicateSource: null
     ownership:
       default: 0
+      MQSznptE5yLT7kj8: 3
+      pQzNfYJpGL2Gy8DA: 3
     _key: '!actors.items!vJmiCUlaOEPgIt05.GU0n5o9FWv8KRws1'
   - folder: 8dyHGlppj08jYLIO
     name: Adept
@@ -1470,17 +1485,19 @@ items:
     sort: 0
     flags: {}
     _stats:
-      coreVersion: '14.360'
+      coreVersion: '14.365'
       systemId: daggerheart
-      systemVersion: 2.2.1
-      createdTime: 1777703634332
-      modifiedTime: 1777703634332
+      systemVersion: 2.5.4
+      createdTime: 1784789896934
+      modifiedTime: 1784789896934
       lastModifiedBy: pQzNfYJpGL2Gy8DA
       exportSource: null
       compendiumSource: null
       duplicateSource: null
     ownership:
       default: 0
+      MQSznptE5yLT7kj8: 3
+      pQzNfYJpGL2Gy8DA: 3
     _key: '!actors.items!vJmiCUlaOEPgIt05.7hvgmdgZWdnfehmf'
   - folder: IIW7boHWq1QoYwOQ
     name: Accomplished
@@ -1505,17 +1522,19 @@ items:
     sort: 0
     flags: {}
     _stats:
-      coreVersion: '14.360'
+      coreVersion: '14.365'
       systemId: daggerheart
-      systemVersion: 2.2.1
-      createdTime: 1777703634332
-      modifiedTime: 1777703634332
+      systemVersion: 2.5.4
+      createdTime: 1784789896934
+      modifiedTime: 1784789896934
       lastModifiedBy: pQzNfYJpGL2Gy8DA
       exportSource: null
       compendiumSource: null
       duplicateSource: null
     ownership:
       default: 0
+      MQSznptE5yLT7kj8: 3
+      pQzNfYJpGL2Gy8DA: 3
     _key: '!actors.items!vJmiCUlaOEPgIt05.mS1n4Zlyh7jUnPth'
   - folder: IIW7boHWq1QoYwOQ
     name: Perfect Recall
@@ -1567,17 +1586,19 @@ items:
     sort: 0
     flags: {}
     _stats:
-      coreVersion: '14.360'
+      coreVersion: '14.365'
       systemId: daggerheart
-      systemVersion: 2.2.1
-      createdTime: 1777703634332
-      modifiedTime: 1777703634332
+      systemVersion: 2.5.4
+      createdTime: 1784789896934
+      modifiedTime: 1784789896934
       lastModifiedBy: pQzNfYJpGL2Gy8DA
       exportSource: null
       compendiumSource: null
       duplicateSource: null
     ownership:
       default: 0
+      MQSznptE5yLT7kj8: 3
+      pQzNfYJpGL2Gy8DA: 3
     _key: '!actors.items!vJmiCUlaOEPgIt05.WbwZ64zv05lxq8wW'
   - folder: t8AkyVM60h7WuLOD
     name: Honed Expertise
@@ -1650,17 +1671,19 @@ items:
     sort: 200000
     flags: {}
     _stats:
-      coreVersion: '14.360'
+      coreVersion: '14.365'
       systemId: daggerheart
-      systemVersion: 2.2.1
-      createdTime: 1777703634332
-      modifiedTime: 1777703634332
+      systemVersion: 2.5.4
+      createdTime: 1784789896934
+      modifiedTime: 1784789896934
       lastModifiedBy: pQzNfYJpGL2Gy8DA
       exportSource: null
       compendiumSource: null
       duplicateSource: null
     ownership:
       default: 0
+      MQSznptE5yLT7kj8: 3
+      pQzNfYJpGL2Gy8DA: 3
     _key: '!actors.items!vJmiCUlaOEPgIt05.nahVzfIyT6IRGp5B'
   - folder: t8AkyVM60h7WuLOD
     name: Brilliant
@@ -1685,17 +1708,19 @@ items:
     sort: 100000
     flags: {}
     _stats:
-      coreVersion: '14.360'
+      coreVersion: '14.365'
       systemId: daggerheart
-      systemVersion: 2.2.1
-      createdTime: 1777703634333
-      modifiedTime: 1777703634333
+      systemVersion: 2.5.4
+      createdTime: 1784789896934
+      modifiedTime: 1784789896934
       lastModifiedBy: pQzNfYJpGL2Gy8DA
       exportSource: null
       compendiumSource: null
       duplicateSource: null
     ownership:
       default: 0
+      MQSznptE5yLT7kj8: 3
+      pQzNfYJpGL2Gy8DA: 3
     _key: '!actors.items!vJmiCUlaOEPgIt05.qUXQsoJWGicwfnRb'
   - effects: []
     _id: KFt12mCus3BW4EjA
@@ -1731,17 +1756,19 @@ items:
     sort: 0
     flags: {}
     _stats:
-      coreVersion: '14.360'
+      coreVersion: '14.365'
       systemId: daggerheart
-      systemVersion: 2.2.1
-      createdTime: 1777703634333
-      modifiedTime: 1777703634333
+      systemVersion: 2.5.4
+      createdTime: 1784789896935
+      modifiedTime: 1784789896935
       lastModifiedBy: pQzNfYJpGL2Gy8DA
       exportSource: null
       compendiumSource: null
       duplicateSource: null
     ownership:
       default: 0
+      MQSznptE5yLT7kj8: 3
+      pQzNfYJpGL2Gy8DA: 3
     _key: '!actors.items!vJmiCUlaOEPgIt05.KFt12mCus3BW4EjA'
   - effects:
       - name: Tava's Armor
@@ -1751,11 +1778,7 @@ items:
         _id: ptYT10JZ2WJHvFMd
         type: base
         system:
-          rangeDependence:
-            enabled: false
-            type: withinRange
-            target: hostile
-            range: melee
+          rangeDependence: null
           changes:
             - type: armor
               phase: initial
@@ -1784,11 +1807,11 @@ items:
         sort: 0
         flags: {}
         _stats:
-          coreVersion: '14.360'
+          coreVersion: '14.365'
           systemId: daggerheart
-          systemVersion: 2.2.1
-          createdTime: 1777703634333
-          modifiedTime: 1777703634333
+          systemVersion: 2.5.4
+          createdTime: 1784789896935
+          modifiedTime: 1784789896935
           lastModifiedBy: pQzNfYJpGL2Gy8DA
           compendiumSource: null
           duplicateSource: null
@@ -2064,7 +2087,7 @@ items:
         page: 124
         artist: ''
       resource: null
-      inVault: false
+      inVault: true
       vaultActive: false
       loadoutIgnore: false
       domainTouched: null
@@ -2072,17 +2095,18 @@ items:
     sort: 3400000
     flags: {}
     _stats:
-      coreVersion: '14.360'
+      coreVersion: '14.365'
       systemId: daggerheart
-      systemVersion: 2.2.1
-      createdTime: 1777703634333
-      modifiedTime: 1777703634333
+      systemVersion: 2.5.4
+      createdTime: 1784789896935
+      modifiedTime: 1784789896935
       lastModifiedBy: pQzNfYJpGL2Gy8DA
       exportSource: null
       compendiumSource: null
       duplicateSource: null
     ownership:
       default: 0
+      pQzNfYJpGL2Gy8DA: 3
     _key: '!actors.items!vJmiCUlaOEPgIt05.PHIq92RVN8RlxYGl'
   - effects: []
     _id: mCn1qbvCY6KrvC9m
@@ -2290,17 +2314,18 @@ items:
     sort: 3400000
     flags: {}
     _stats:
-      coreVersion: '14.360'
+      coreVersion: '14.365'
       systemId: daggerheart
-      systemVersion: 2.2.1
-      createdTime: 1777703634334
-      modifiedTime: 1777703634334
+      systemVersion: 2.5.4
+      createdTime: 1784789896936
+      modifiedTime: 1784789896936
       lastModifiedBy: pQzNfYJpGL2Gy8DA
       exportSource: null
       compendiumSource: null
       duplicateSource: null
     ownership:
       default: 0
+      pQzNfYJpGL2Gy8DA: 3
     _key: '!actors.items!vJmiCUlaOEPgIt05.mCn1qbvCY6KrvC9m'
   - effects: []
     _id: G5buoyXL4kVEt3FI
@@ -2325,21 +2350,24 @@ items:
         page: 56
         artist: ''
       quantity: 1
+      resource: null
     folder: h4QgrovjVZ1oee7O
     sort: 0
     flags: {}
     _stats:
-      coreVersion: '14.360'
+      coreVersion: '14.365'
       systemId: daggerheart
-      systemVersion: 2.2.1
-      createdTime: 1777703634334
-      modifiedTime: 1777703634334
+      systemVersion: 2.5.4
+      createdTime: 1784789896936
+      modifiedTime: 1784789896936
       lastModifiedBy: pQzNfYJpGL2Gy8DA
       exportSource: null
       compendiumSource: null
       duplicateSource: null
     ownership:
       default: 0
+      FecEtPuoQh6MpjQ0: 3
+      pQzNfYJpGL2Gy8DA: 3
     _key: '!actors.items!vJmiCUlaOEPgIt05.G5buoyXL4kVEt3FI'
   - effects: []
     _id: L21dKfJSa5AqXYwA
@@ -2432,21 +2460,24 @@ items:
         page: 45
         artist: ''
       quantity: 1
+      resource: null
     folder: cnmKLegyDD1xkSuI
     sort: 0
     flags: {}
     _stats:
-      coreVersion: '14.360'
+      coreVersion: '14.365'
       systemId: daggerheart
-      systemVersion: 2.2.1
-      createdTime: 1777703634334
-      modifiedTime: 1777703634334
+      systemVersion: 2.5.4
+      createdTime: 1784789896936
+      modifiedTime: 1784789896936
       lastModifiedBy: pQzNfYJpGL2Gy8DA
       exportSource: null
       compendiumSource: null
       duplicateSource: null
     ownership:
       default: 0
+      FecEtPuoQh6MpjQ0: 3
+      pQzNfYJpGL2Gy8DA: 3
     _key: '!actors.items!vJmiCUlaOEPgIt05.L21dKfJSa5AqXYwA'
   - effects:
       - name: Paired
@@ -2484,11 +2515,11 @@ items:
         sort: 0
         flags: {}
         _stats:
-          coreVersion: '14.360'
+          coreVersion: '14.365'
           systemId: daggerheart
-          systemVersion: 2.2.1
-          createdTime: 1777703634335
-          modifiedTime: 1777703634335
+          systemVersion: 2.5.4
+          createdTime: 1784789896936
+          modifiedTime: 1784789896936
           lastModifiedBy: pQzNfYJpGL2Gy8DA
           compendiumSource: null
           duplicateSource: null
@@ -2507,7 +2538,7 @@ items:
       actions: {}
       attached: []
       tier: 1
-      equipped: false
+      equipped: true
       secondary: true
       burden: oneHanded
       weaponFeatures:
@@ -2592,21 +2623,24 @@ items:
         page: 52
         artist: ''
       quantity: 1
+      resource: null
     folder: mV306wqqkeIDd9EE
     sort: 0
     flags: {}
     _stats:
-      coreVersion: '14.360'
+      coreVersion: '14.365'
       systemId: daggerheart
-      systemVersion: 2.2.1
-      createdTime: 1777703634335
-      modifiedTime: 1777703634335
+      systemVersion: 2.5.4
+      createdTime: 1784789896936
+      modifiedTime: 1784789896936
       lastModifiedBy: pQzNfYJpGL2Gy8DA
       exportSource: null
       compendiumSource: null
       duplicateSource: null
     ownership:
       default: 0
+      FecEtPuoQh6MpjQ0: 3
+      pQzNfYJpGL2Gy8DA: 3
     _key: '!actors.items!vJmiCUlaOEPgIt05.nMXosHAlIjUZNYQ9'
   - effects: []
     _id: KJZsVLnMX7GhfOfb
@@ -2695,17 +2729,19 @@ items:
     sort: 0
     flags: {}
     _stats:
-      coreVersion: '14.360'
+      coreVersion: '14.365'
       systemId: daggerheart
-      systemVersion: 2.2.1
-      createdTime: 1777703634335
-      modifiedTime: 1777703634335
+      systemVersion: 2.5.4
+      createdTime: 1784789896936
+      modifiedTime: 1784789896936
       lastModifiedBy: pQzNfYJpGL2Gy8DA
       exportSource: null
       compendiumSource: null
       duplicateSource: null
     ownership:
       default: 0
+      OFxauskoxcvVTVNA: 3
+      pQzNfYJpGL2Gy8DA: 3
     _key: '!actors.items!vJmiCUlaOEPgIt05.KJZsVLnMX7GhfOfb'
   - effects: []
     _id: 8DwW7r9QR7MMivn1
@@ -2721,17 +2757,19 @@ items:
     sort: 0
     flags: {}
     _stats:
-      coreVersion: '14.360'
+      coreVersion: '14.365'
       systemId: daggerheart
-      systemVersion: 2.2.1
-      createdTime: 1777703634335
-      modifiedTime: 1777703634335
+      systemVersion: 2.5.4
+      createdTime: 1784789896937
+      modifiedTime: 1784789896937
       lastModifiedBy: pQzNfYJpGL2Gy8DA
       exportSource: null
       compendiumSource: null
       duplicateSource: null
     ownership:
       default: 0
+      MQSznptE5yLT7kj8: 3
+      pQzNfYJpGL2Gy8DA: 3
     _key: '!actors.items!vJmiCUlaOEPgIt05.8DwW7r9QR7MMivn1'
   - effects: []
     _id: qiAHrvhMQ24RDHrg
@@ -2747,17 +2785,19 @@ items:
     sort: 0
     flags: {}
     _stats:
-      coreVersion: '14.360'
+      coreVersion: '14.365'
       systemId: daggerheart
-      systemVersion: 2.2.1
-      createdTime: 1777703634335
-      modifiedTime: 1777703634335
+      systemVersion: 2.5.4
+      createdTime: 1784789896937
+      modifiedTime: 1784789896937
       lastModifiedBy: pQzNfYJpGL2Gy8DA
       exportSource: null
       compendiumSource: null
       duplicateSource: null
     ownership:
       default: 0
+      LgnbNMLaxandgMQq: 3
+      pQzNfYJpGL2Gy8DA: 3
     _key: '!actors.items!vJmiCUlaOEPgIt05.qiAHrvhMQ24RDHrg'
   - effects: []
     _id: nH5HB3WaHZmZNo5g
@@ -2773,17 +2813,19 @@ items:
     sort: 0
     flags: {}
     _stats:
-      coreVersion: '14.360'
+      coreVersion: '14.365'
       systemId: daggerheart
-      systemVersion: 2.2.1
-      createdTime: 1777703634335
-      modifiedTime: 1777703634335
+      systemVersion: 2.5.4
+      createdTime: 1784789896937
+      modifiedTime: 1784789896937
       lastModifiedBy: pQzNfYJpGL2Gy8DA
       exportSource: null
       compendiumSource: null
       duplicateSource: null
     ownership:
       default: 0
+      LgnbNMLaxandgMQq: 3
+      pQzNfYJpGL2Gy8DA: 3
     _key: '!actors.items!vJmiCUlaOEPgIt05.nH5HB3WaHZmZNo5g'
   - effects: []
     _id: 0jxc3nMFhU3HX6xV
@@ -2799,17 +2841,19 @@ items:
     sort: 0
     flags: {}
     _stats:
-      coreVersion: '14.360'
+      coreVersion: '14.365'
       systemId: daggerheart
-      systemVersion: 2.2.1
-      createdTime: 1777703634335
-      modifiedTime: 1777703634335
+      systemVersion: 2.5.4
+      createdTime: 1784789896937
+      modifiedTime: 1784789896937
       lastModifiedBy: pQzNfYJpGL2Gy8DA
       exportSource: null
       compendiumSource: null
       duplicateSource: null
     ownership:
       default: 0
+      LgnbNMLaxandgMQq: 3
+      pQzNfYJpGL2Gy8DA: 3
     _key: '!actors.items!vJmiCUlaOEPgIt05.0jxc3nMFhU3HX6xV'
   - name: Reassurance (prepared)
     img: systems/daggerheart/assets/icons/domains/domain-card/splendor.png
@@ -2858,7 +2902,7 @@ items:
         page: 132
         artist: ''
       resource: null
-      inVault: true
+      inVault: false
       vaultActive: false
       loadoutIgnore: false
       domainTouched: null
@@ -2866,11 +2910,11 @@ items:
     _id: iYNVTB7uAD1FTCZu
     effects: []
     _stats:
-      coreVersion: '14.360'
+      coreVersion: '14.365'
       systemId: daggerheart
-      systemVersion: 2.2.1
-      createdTime: 1777703634335
-      modifiedTime: 1777703634335
+      systemVersion: 2.5.4
+      createdTime: 1784789896937
+      modifiedTime: 1784789896937
       lastModifiedBy: pQzNfYJpGL2Gy8DA
       exportSource: null
       compendiumSource: null
@@ -2879,6 +2923,7 @@ items:
     sort: 0
     ownership:
       default: 0
+      pQzNfYJpGL2Gy8DA: 3
     _key: '!actors.items!vJmiCUlaOEPgIt05.iYNVTB7uAD1FTCZu'
   - name: Book of Vagras
     img: systems/daggerheart/assets/icons/domains/domain-card/codex.png
@@ -3076,17 +3121,18 @@ items:
     sort: 3400000
     effects: []
     _stats:
-      coreVersion: '14.360'
+      coreVersion: '14.365'
       systemId: daggerheart
-      systemVersion: 2.2.1
-      createdTime: 1777703634335
-      modifiedTime: 1777703634335
+      systemVersion: 2.5.4
+      createdTime: 1784789896937
+      modifiedTime: 1784789896937
       lastModifiedBy: pQzNfYJpGL2Gy8DA
       exportSource: null
       compendiumSource: null
       duplicateSource: null
     ownership:
       default: 0
+      pQzNfYJpGL2Gy8DA: 3
     _key: '!actors.items!vJmiCUlaOEPgIt05.dOiVvUxr8VpI4Ypd'
   - name: Second Wind
     img: systems/daggerheart/assets/icons/domains/domain-card/splendor.png
@@ -3271,17 +3317,18 @@ items:
     sort: 3400000
     effects: []
     _stats:
-      coreVersion: '14.360'
+      coreVersion: '14.365'
       systemId: daggerheart
-      systemVersion: 2.2.1
-      createdTime: 1777703634335
-      modifiedTime: 1777703634335
+      systemVersion: 2.5.4
+      createdTime: 1784789896937
+      modifiedTime: 1784789896937
       lastModifiedBy: pQzNfYJpGL2Gy8DA
       exportSource: null
       compendiumSource: null
       duplicateSource: null
     ownership:
       default: 0
+      pQzNfYJpGL2Gy8DA: 3
     _key: '!actors.items!vJmiCUlaOEPgIt05.LSngsZbCmBjTm2tk'
   - name: Book of Norai
     img: systems/daggerheart/assets/icons/domains/domain-card/codex.png
@@ -3449,6 +3496,7 @@ items:
               shape: emanation
               size: veryClose
               effects: []
+              hasHole: false
           cost: []
           uses:
             value: null
@@ -3525,11 +3573,7 @@ items:
         _id: iPnT02apql16Zhjf
         type: base
         system:
-          rangeDependence:
-            enabled: false
-            type: withinRange
-            target: hostile
-            range: melee
+          rangeDependence: null
           changes: []
           duration:
             type: temporary
@@ -3549,11 +3593,11 @@ items:
         sort: 0
         flags: {}
         _stats:
-          coreVersion: '14.360'
+          coreVersion: '14.365'
           systemId: daggerheart
-          systemVersion: 2.2.1
-          createdTime: 1777703634336
-          modifiedTime: 1777703634336
+          systemVersion: 2.5.4
+          createdTime: 1784789896938
+          modifiedTime: 1784789896938
           lastModifiedBy: pQzNfYJpGL2Gy8DA
           compendiumSource: null
           duplicateSource: null
@@ -3570,17 +3614,18 @@ items:
         _key: >-
           !actors.items.effects!vJmiCUlaOEPgIt05.lHkaPY0IcJTTPfgq.iPnT02apql16Zhjf
     _stats:
-      coreVersion: '14.360'
+      coreVersion: '14.365'
       systemId: daggerheart
-      systemVersion: 2.2.1
-      createdTime: 1777703634336
-      modifiedTime: 1777703634336
+      systemVersion: 2.5.4
+      createdTime: 1784789896937
+      modifiedTime: 1784789896937
       lastModifiedBy: pQzNfYJpGL2Gy8DA
       exportSource: null
       compendiumSource: null
       duplicateSource: null
     ownership:
       default: 0
+      pQzNfYJpGL2Gy8DA: 3
     _key: '!actors.items!vJmiCUlaOEPgIt05.lHkaPY0IcJTTPfgq'
   - name: Book of Korvax
     img: systems/daggerheart/assets/icons/domains/domain-card/codex.png
@@ -3772,6 +3817,7 @@ items:
               shape: emanation
               size: melee
               effects: []
+              hasHole: false
           baseAction: false
           originItem:
             type: itemCollection
@@ -3790,17 +3836,18 @@ items:
     sort: 3400000
     effects: []
     _stats:
-      coreVersion: '14.360'
+      coreVersion: '14.365'
       systemId: daggerheart
-      systemVersion: 2.2.1
-      createdTime: 1777703634336
-      modifiedTime: 1777703634336
+      systemVersion: 2.5.4
+      createdTime: 1784789896938
+      modifiedTime: 1784789896938
       lastModifiedBy: pQzNfYJpGL2Gy8DA
       exportSource: null
       compendiumSource: null
       duplicateSource: null
     ownership:
       default: 0
+      pQzNfYJpGL2Gy8DA: 3
     _key: '!actors.items!vJmiCUlaOEPgIt05.kAVZa6aAv90VTpbQ'
   - name: Teleport
     img: systems/daggerheart/assets/icons/domains/domain-card/codex.png
@@ -3898,17 +3945,18 @@ items:
     sort: 3400000
     effects: []
     _stats:
-      coreVersion: '14.360'
+      coreVersion: '14.365'
       systemId: daggerheart
-      systemVersion: 2.2.1
-      createdTime: 1777703634336
-      modifiedTime: 1777703634336
+      systemVersion: 2.5.4
+      createdTime: 1784789896938
+      modifiedTime: 1784789896938
       lastModifiedBy: pQzNfYJpGL2Gy8DA
       exportSource: null
       compendiumSource: null
       duplicateSource: null
     ownership:
       default: 0
+      pQzNfYJpGL2Gy8DA: 3
     _key: '!actors.items!vJmiCUlaOEPgIt05.W2HDuOz1j9IMsnrp'
   - name: Sigil of Retribution
     img: systems/daggerheart/assets/icons/domains/domain-card/codex.png
@@ -3993,11 +4041,7 @@ items:
         _id: pJntjutNO7bYX6td
         type: base
         system:
-          rangeDependence:
-            enabled: false
-            type: withinRange
-            target: hostile
-            range: melee
+          rangeDependence: null
           changes: []
           duration:
             description: ''
@@ -4022,11 +4066,11 @@ items:
         sort: 0
         flags: {}
         _stats:
-          coreVersion: '14.360'
+          coreVersion: '14.365'
           systemId: daggerheart
-          systemVersion: 2.2.1
-          createdTime: 1777703634337
-          modifiedTime: 1777703634337
+          systemVersion: 2.5.4
+          createdTime: 1784789896938
+          modifiedTime: 1784789896938
           lastModifiedBy: pQzNfYJpGL2Gy8DA
           compendiumSource: null
           duplicateSource: null
@@ -4037,17 +4081,18 @@ items:
         _key: >-
           !actors.items.effects!vJmiCUlaOEPgIt05.bsrThtt5ex2UDL6P.pJntjutNO7bYX6td
     _stats:
-      coreVersion: '14.360'
+      coreVersion: '14.365'
       systemId: daggerheart
-      systemVersion: 2.2.1
-      createdTime: 1777703634336
-      modifiedTime: 1777703634336
+      systemVersion: 2.5.4
+      createdTime: 1784789896938
+      modifiedTime: 1784789896938
       lastModifiedBy: pQzNfYJpGL2Gy8DA
       exportSource: null
       compendiumSource: null
       duplicateSource: null
     ownership:
       default: 0
+      pQzNfYJpGL2Gy8DA: 3
     _key: '!actors.items!vJmiCUlaOEPgIt05.bsrThtt5ex2UDL6P'
   - name: Book of Homet
     img: systems/daggerheart/assets/icons/domains/domain-card/codex.png
@@ -4182,17 +4227,18 @@ items:
     sort: 3400000
     effects: []
     _stats:
-      coreVersion: '14.360'
+      coreVersion: '14.365'
       systemId: daggerheart
-      systemVersion: 2.2.1
-      createdTime: 1777703634337
-      modifiedTime: 1777703634337
+      systemVersion: 2.5.4
+      createdTime: 1784789896938
+      modifiedTime: 1784789896938
       lastModifiedBy: pQzNfYJpGL2Gy8DA
       exportSource: null
       compendiumSource: null
       duplicateSource: null
     ownership:
       default: 0
+      pQzNfYJpGL2Gy8DA: 3
     _key: '!actors.items!vJmiCUlaOEPgIt05.Ng89IMZDiFkHkOL0'
   - name: Codex-Touched
     img: systems/daggerheart/assets/icons/domains/domain-card/codex.png
@@ -4294,11 +4340,7 @@ items:
         _id: oWs00mBY3onxGjF9
         type: base
         system:
-          rangeDependence:
-            enabled: false
-            type: withinRange
-            target: hostile
-            range: melee
+          rangeDependence: null
           changes:
             - key: system.bonuses.roll.spellcast.bonus
               value: '@system.proficiency'
@@ -4321,11 +4363,11 @@ items:
         sort: 0
         flags: {}
         _stats:
-          coreVersion: '14.360'
+          coreVersion: '14.365'
           systemId: daggerheart
-          systemVersion: 2.2.1
-          createdTime: 1777703634337
-          modifiedTime: 1777703634337
+          systemVersion: 2.5.4
+          createdTime: 1784789896939
+          modifiedTime: 1784789896939
           lastModifiedBy: pQzNfYJpGL2Gy8DA
           compendiumSource: null
           duplicateSource: null
@@ -4336,17 +4378,18 @@ items:
         _key: >-
           !actors.items.effects!vJmiCUlaOEPgIt05.WFLkDYxHCqjCQEGa.oWs00mBY3onxGjF9
     _stats:
-      coreVersion: '14.360'
+      coreVersion: '14.365'
       systemId: daggerheart
-      systemVersion: 2.2.1
-      createdTime: 1777703634337
-      modifiedTime: 1777703634337
+      systemVersion: 2.5.4
+      createdTime: 1784789896939
+      modifiedTime: 1784789896939
       lastModifiedBy: pQzNfYJpGL2Gy8DA
       exportSource: null
       compendiumSource: null
       duplicateSource: null
     ownership:
       default: 0
+      pQzNfYJpGL2Gy8DA: 3
     _key: '!actors.items!vJmiCUlaOEPgIt05.WFLkDYxHCqjCQEGa'
   - name: Banish
     img: systems/daggerheart/assets/icons/domains/domain-card/codex.png
@@ -4445,17 +4488,18 @@ items:
     sort: 3400000
     effects: []
     _stats:
-      coreVersion: '14.360'
+      coreVersion: '14.365'
       systemId: daggerheart
-      systemVersion: 2.2.1
-      createdTime: 1777703634337
-      modifiedTime: 1777703634337
+      systemVersion: 2.5.4
+      createdTime: 1784789896939
+      modifiedTime: 1784789896939
       lastModifiedBy: pQzNfYJpGL2Gy8DA
       exportSource: null
       compendiumSource: null
       duplicateSource: null
     ownership:
       default: 0
+      pQzNfYJpGL2Gy8DA: 3
     _key: '!actors.items!vJmiCUlaOEPgIt05.VjCuzz8c6Zxwi2Jr'
   - name: Book of Ronin
     img: systems/daggerheart/assets/icons/domains/domain-card/codex.png
@@ -4600,11 +4644,7 @@ items:
         _id: ntQfpTcXyEL76vCK
         type: base
         system:
-          rangeDependence:
-            enabled: false
-            type: withinRange
-            target: hostile
-            range: melee
+          rangeDependence: null
           changes: []
           duration:
             description: ''
@@ -4625,11 +4665,11 @@ items:
         sort: 0
         flags: {}
         _stats:
-          coreVersion: '14.360'
+          coreVersion: '14.365'
           systemId: daggerheart
-          systemVersion: 2.2.1
-          createdTime: 1777703634338
-          modifiedTime: 1777703634338
+          systemVersion: 2.5.4
+          createdTime: 1784789896939
+          modifiedTime: 1784789896939
           lastModifiedBy: pQzNfYJpGL2Gy8DA
           compendiumSource: null
           duplicateSource: null
@@ -4646,11 +4686,7 @@ items:
         _id: y44r3c91m06WKSiq
         type: base
         system:
-          rangeDependence:
-            enabled: false
-            type: withinRange
-            target: hostile
-            range: melee
+          rangeDependence: null
           changes: []
           duration:
             description: ''
@@ -4671,11 +4707,11 @@ items:
         sort: 0
         flags: {}
         _stats:
-          coreVersion: '14.360'
+          coreVersion: '14.365'
           systemId: daggerheart
-          systemVersion: 2.2.1
-          createdTime: 1777703634338
-          modifiedTime: 1777703634338
+          systemVersion: 2.5.4
+          createdTime: 1784789896939
+          modifiedTime: 1784789896939
           lastModifiedBy: pQzNfYJpGL2Gy8DA
           compendiumSource: null
           duplicateSource: null
@@ -4686,17 +4722,18 @@ items:
         _key: >-
           !actors.items.effects!vJmiCUlaOEPgIt05.3IFaiNwwU7VqSCBa.y44r3c91m06WKSiq
     _stats:
-      coreVersion: '14.360'
+      coreVersion: '14.365'
       systemId: daggerheart
-      systemVersion: 2.2.1
-      createdTime: 1777703634338
-      modifiedTime: 1777703634338
+      systemVersion: 2.5.4
+      createdTime: 1784789896939
+      modifiedTime: 1784789896939
       lastModifiedBy: pQzNfYJpGL2Gy8DA
       exportSource: null
       compendiumSource: null
       duplicateSource: null
     ownership:
       default: 0
+      pQzNfYJpGL2Gy8DA: 3
     _key: '!actors.items!vJmiCUlaOEPgIt05.3IFaiNwwU7VqSCBa'
   - name: Book of Yarrow
     img: systems/daggerheart/assets/icons/domains/domain-card/codex.png
@@ -4768,6 +4805,7 @@ items:
               shape: emanation
               size: far
               effects: []
+              hasHole: false
           baseAction: false
           originItem:
             type: itemCollection
@@ -4827,11 +4865,7 @@ items:
         _id: HWJYhSegVLeAa3dE
         type: base
         system:
-          rangeDependence:
-            enabled: false
-            type: withinRange
-            target: hostile
-            range: melee
+          rangeDependence: null
           changes:
             - key: system.resistance.magical.immunity
               value: 1
@@ -4857,11 +4891,11 @@ items:
         sort: 0
         flags: {}
         _stats:
-          coreVersion: '14.360'
+          coreVersion: '14.365'
           systemId: daggerheart
-          systemVersion: 2.2.1
-          createdTime: 1777703634338
-          modifiedTime: 1777703634338
+          systemVersion: 2.5.4
+          createdTime: 1784789896940
+          modifiedTime: 1784789896940
           lastModifiedBy: pQzNfYJpGL2Gy8DA
           compendiumSource: null
           duplicateSource: null
@@ -4878,26 +4912,34 @@ items:
         _key: >-
           !actors.items.effects!vJmiCUlaOEPgIt05.meiU1Utvbcxqkj0v.HWJYhSegVLeAa3dE
     _stats:
-      coreVersion: '14.360'
+      coreVersion: '14.365'
       systemId: daggerheart
-      systemVersion: 2.2.1
-      createdTime: 1777703634338
-      modifiedTime: 1777703634338
+      systemVersion: 2.5.4
+      createdTime: 1784789896940
+      modifiedTime: 1784789896940
       lastModifiedBy: pQzNfYJpGL2Gy8DA
       exportSource: null
       compendiumSource: null
       duplicateSource: null
     ownership:
       default: 0
+      pQzNfYJpGL2Gy8DA: 3
     _key: '!actors.items!vJmiCUlaOEPgIt05.meiU1Utvbcxqkj0v'
 effects: []
-flags: {}
+flags:
+  daggerheart-sleek-ui:
+    quickAccess:
+      - Actor.vJmiCUlaOEPgIt05.Item.L21dKfJSa5AqXYwA
+      - Actor.vJmiCUlaOEPgIt05.Item.nMXosHAlIjUZNYQ9
+      - Actor.vJmiCUlaOEPgIt05.Item.PHIq92RVN8RlxYGl
+  core:
+    sheetClass: ''
 _stats:
-  coreVersion: '14.360'
+  coreVersion: '14.365'
   systemId: daggerheart
-  systemVersion: 2.2.1
-  createdTime: 1777703634330
-  modifiedTime: 1777703634330
+  systemVersion: 2.5.4
+  createdTime: 1784789896931
+  modifiedTime: 1784789896931
   lastModifiedBy: pQzNfYJpGL2Gy8DA
   exportSource: null
   compendiumSource: null

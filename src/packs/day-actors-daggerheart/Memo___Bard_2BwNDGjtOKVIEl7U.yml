@@ -415,11 +415,11 @@ items:
     sort: 0
     flags: {}
     _stats:
-      coreVersion: '14.360'
+      coreVersion: '14.365'
       systemId: daggerheart
-      systemVersion: 2.2.1
-      createdTime: 1777703634311
-      modifiedTime: 1777703634311
+      systemVersion: 2.5.4
+      createdTime: 1784789896912
+      modifiedTime: 1784789896912
       lastModifiedBy: pQzNfYJpGL2Gy8DA
       exportSource: null
       compendiumSource: null
@@ -449,11 +449,7 @@ items:
         _id: EEryWN2nE33ppGHi
         img: icons/magic/time/clock-stopwatch-white-blue.webp
         system:
-          rangeDependence:
-            enabled: false
-            type: withinRange
-            target: hostile
-            range: melee
+          rangeDependence: null
           changes:
             - key: system.bonuses.rest.shortRest.longMoves
               value: 1
@@ -489,12 +485,12 @@ items:
         sort: 0
         flags: {}
         _stats:
-          coreVersion: '14.360'
+          coreVersion: '14.365'
           systemId: daggerheart
-          systemVersion: 2.2.1
+          systemVersion: 2.5.4
           lastModifiedBy: pQzNfYJpGL2Gy8DA
-          createdTime: 1777703634311
-          modifiedTime: 1777703634311
+          createdTime: 1784789896913
+          modifiedTime: 1784789896913
           compendiumSource: null
           duplicateSource: null
           exportSource: null
@@ -512,11 +508,11 @@ items:
     sort: 0
     flags: {}
     _stats:
-      coreVersion: '14.360'
+      coreVersion: '14.365'
       systemId: daggerheart
-      systemVersion: 2.2.1
-      createdTime: 1777703634311
-      modifiedTime: 1777703634311
+      systemVersion: 2.5.4
+      createdTime: 1784789896912
+      modifiedTime: 1784789896912
       lastModifiedBy: pQzNfYJpGL2Gy8DA
       exportSource: null
       compendiumSource: null
@@ -556,11 +552,11 @@ items:
     sort: 3400000
     flags: {}
     _stats:
-      coreVersion: '14.360'
+      coreVersion: '14.365'
       systemId: daggerheart
-      systemVersion: 2.2.1
-      createdTime: 1777703634312
-      modifiedTime: 1777703634312
+      systemVersion: 2.5.4
+      createdTime: 1784789896913
+      modifiedTime: 1784789896913
       lastModifiedBy: pQzNfYJpGL2Gy8DA
       exportSource: null
       compendiumSource: null
@@ -617,11 +613,11 @@ items:
     effects: []
     flags: {}
     _stats:
-      coreVersion: '14.360'
+      coreVersion: '14.365'
       systemId: daggerheart
-      systemVersion: 2.2.1
-      createdTime: 1777703634312
-      modifiedTime: 1777703634312
+      systemVersion: 2.5.4
+      createdTime: 1784789896913
+      modifiedTime: 1784789896913
       lastModifiedBy: pQzNfYJpGL2Gy8DA
       exportSource: null
       compendiumSource: null
@@ -657,11 +653,11 @@ items:
     sort: 3400000
     flags: {}
     _stats:
-      coreVersion: '14.360'
+      coreVersion: '14.365'
       systemId: daggerheart
-      systemVersion: 2.2.1
-      createdTime: 1777703634312
-      modifiedTime: 1777703634312
+      systemVersion: 2.5.4
+      createdTime: 1784789896913
+      modifiedTime: 1784789896913
       lastModifiedBy: pQzNfYJpGL2Gy8DA
       exportSource: null
       compendiumSource: null
@@ -729,11 +725,7 @@ items:
         _id: 8G9zDv1gac6dEHmS
         type: base
         system:
-          rangeDependence:
-            enabled: false
-            type: withinRange
-            target: hostile
-            range: melee
+          rangeDependence: null
           changes:
             - key: system.difficulty
               value: -2
@@ -756,12 +748,12 @@ items:
         sort: 0
         flags: {}
         _stats:
-          coreVersion: '14.360'
+          coreVersion: '14.365'
           systemId: daggerheart
-          systemVersion: 2.2.1
+          systemVersion: 2.5.4
           lastModifiedBy: pQzNfYJpGL2Gy8DA
-          createdTime: 1777703634312
-          modifiedTime: 1777703634312
+          createdTime: 1784789896913
+          modifiedTime: 1784789896913
           compendiumSource: null
           duplicateSource: null
           exportSource: null
@@ -772,11 +764,11 @@ items:
           !actors.items.effects!2BwNDGjtOKVIEl7U.5FHnAMkZStKXmK8K.8G9zDv1gac6dEHmS
     flags: {}
     _stats:
-      coreVersion: '14.360'
+      coreVersion: '14.365'
       systemId: daggerheart
-      systemVersion: 2.2.1
-      createdTime: 1777703634312
-      modifiedTime: 1777703634312
+      systemVersion: 2.5.4
+      createdTime: 1784789896913
+      modifiedTime: 1784789896913
       lastModifiedBy: pQzNfYJpGL2Gy8DA
       exportSource: null
       compendiumSource: null
@@ -840,11 +832,7 @@ items:
         _id: FrSJH9vzDHkFGYQL
         type: base
         system:
-          rangeDependence:
-            enabled: false
-            type: withinRange
-            target: hostile
-            range: melee
+          rangeDependence: null
           changes:
             - key: system.bonuses.rally
               value: d6
@@ -867,12 +855,12 @@ items:
         sort: 0
         flags: {}
         _stats:
-          coreVersion: '14.360'
+          coreVersion: '14.365'
           systemId: daggerheart
-          systemVersion: 2.2.1
+          systemVersion: 2.5.4
           lastModifiedBy: pQzNfYJpGL2Gy8DA
-          createdTime: 1777703634313
-          modifiedTime: 1777703634313
+          createdTime: 1784789896914
+          modifiedTime: 1784789896914
           compendiumSource: null
           duplicateSource: null
           exportSource: null
@@ -883,11 +871,11 @@ items:
           !actors.items.effects!2BwNDGjtOKVIEl7U.gjdO5Fd2Mn9y7pTe.FrSJH9vzDHkFGYQL
     flags: {}
     _stats:
-      coreVersion: '14.360'
+      coreVersion: '14.365'
       systemId: daggerheart
-      systemVersion: 2.2.1
-      createdTime: 1777703634312
-      modifiedTime: 1777703634312
+      systemVersion: 2.5.4
+      createdTime: 1784789896914
+      modifiedTime: 1784789896914
       lastModifiedBy: pQzNfYJpGL2Gy8DA
       exportSource: null
       compendiumSource: null
@@ -951,11 +939,7 @@ items:
         _id: 8CFxYJV8zE6Wabwj
         type: base
         system:
-          rangeDependence:
-            enabled: false
-            type: withinRange
-            target: hostile
-            range: melee
+          rangeDependence: null
           changes:
             - key: system.bonuses.rally
               value: d8
@@ -978,12 +962,12 @@ items:
         sort: 0
         flags: {}
         _stats:
-          coreVersion: '14.360'
+          coreVersion: '14.365'
           systemId: daggerheart
-          systemVersion: 2.2.1
+          systemVersion: 2.5.4
           lastModifiedBy: pQzNfYJpGL2Gy8DA
-          createdTime: 1777703634313
-          modifiedTime: 1777703634313
+          createdTime: 1784789896914
+          modifiedTime: 1784789896914
           compendiumSource: null
           duplicateSource: null
           exportSource: null
@@ -994,11 +978,11 @@ items:
           !actors.items.effects!2BwNDGjtOKVIEl7U.te3tLGEoDTFGxvUc.8CFxYJV8zE6Wabwj
     flags: {}
     _stats:
-      coreVersion: '14.360'
+      coreVersion: '14.365'
       systemId: daggerheart
-      systemVersion: 2.2.1
-      createdTime: 1777703634313
-      modifiedTime: 1777703634313
+      systemVersion: 2.5.4
+      createdTime: 1784789896914
+      modifiedTime: 1784789896914
       lastModifiedBy: pQzNfYJpGL2Gy8DA
       exportSource: null
       compendiumSource: null
@@ -1076,11 +1060,11 @@ items:
     sort: 300000
     flags: {}
     _stats:
-      coreVersion: '14.360'
+      coreVersion: '14.365'
       systemId: daggerheart
-      systemVersion: 2.2.1
-      createdTime: 1777703634313
-      modifiedTime: 1777703634313
+      systemVersion: 2.5.4
+      createdTime: 1784789896914
+      modifiedTime: 1784789896914
       lastModifiedBy: pQzNfYJpGL2Gy8DA
       exportSource: null
       compendiumSource: null
@@ -1278,11 +1262,7 @@ items:
         _id: FK4IdbxluRErfYor
         type: base
         system:
-          rangeDependence:
-            enabled: false
-            type: withinRange
-            target: hostile
-            range: close
+          rangeDependence: null
           changes: []
           duration:
             description: ''
@@ -1301,12 +1281,12 @@ items:
         sort: 0
         flags: {}
         _stats:
-          coreVersion: '14.360'
+          coreVersion: '14.365'
           systemId: daggerheart
-          systemVersion: 2.2.1
+          systemVersion: 2.5.4
           lastModifiedBy: pQzNfYJpGL2Gy8DA
-          createdTime: 1777703634313
-          modifiedTime: 1777703634313
+          createdTime: 1784789896915
+          modifiedTime: 1784789896915
           compendiumSource: null
           duplicateSource: null
           exportSource: null
@@ -1317,11 +1297,11 @@ items:
           !actors.items.effects!2BwNDGjtOKVIEl7U.uu6xdHi6U85qYq8A.FK4IdbxluRErfYor
     flags: {}
     _stats:
-      coreVersion: '14.360'
+      coreVersion: '14.365'
       systemId: daggerheart
-      systemVersion: 2.2.1
-      createdTime: 1777703634313
-      modifiedTime: 1777703634313
+      systemVersion: 2.5.4
+      createdTime: 1784789896915
+      modifiedTime: 1784789896915
       lastModifiedBy: pQzNfYJpGL2Gy8DA
       exportSource: null
       compendiumSource: null
@@ -1350,11 +1330,11 @@ items:
     effects: []
     flags: {}
     _stats:
-      coreVersion: '14.360'
+      coreVersion: '14.365'
       systemId: daggerheart
-      systemVersion: 2.2.1
-      createdTime: 1777703634314
-      modifiedTime: 1777703634314
+      systemVersion: 2.5.4
+      createdTime: 1784789896915
+      modifiedTime: 1784789896915
       lastModifiedBy: pQzNfYJpGL2Gy8DA
       exportSource: null
       compendiumSource: null
@@ -1383,11 +1363,11 @@ items:
     effects: []
     flags: {}
     _stats:
-      coreVersion: '14.360'
+      coreVersion: '14.365'
       systemId: daggerheart
-      systemVersion: 2.2.1
-      createdTime: 1777703634314
-      modifiedTime: 1777703634314
+      systemVersion: 2.5.4
+      createdTime: 1784789896915
+      modifiedTime: 1784789896915
       lastModifiedBy: pQzNfYJpGL2Gy8DA
       exportSource: null
       compendiumSource: null
@@ -1417,11 +1397,11 @@ items:
     sort: 100000
     flags: {}
     _stats:
-      coreVersion: '14.360'
+      coreVersion: '14.365'
       systemId: daggerheart
-      systemVersion: 2.2.1
-      createdTime: 1777703634314
-      modifiedTime: 1777703634314
+      systemVersion: 2.5.4
+      createdTime: 1784789896915
+      modifiedTime: 1784789896915
       lastModifiedBy: pQzNfYJpGL2Gy8DA
       exportSource: null
       compendiumSource: null
@@ -1696,11 +1676,11 @@ items:
     sort: 3400000
     flags: {}
     _stats:
-      coreVersion: '14.360'
+      coreVersion: '14.365'
       systemId: daggerheart
-      systemVersion: 2.2.1
-      createdTime: 1777703634314
-      modifiedTime: 1777703634314
+      systemVersion: 2.5.4
+      createdTime: 1784789896915
+      modifiedTime: 1784789896915
       lastModifiedBy: pQzNfYJpGL2Gy8DA
       exportSource: null
       compendiumSource: null
@@ -1713,11 +1693,7 @@ items:
         _id: LdcT1nrkd5ORCU4n
         type: base
         system:
-          rangeDependence:
-            enabled: false
-            type: withinRange
-            target: hostile
-            range: melee
+          rangeDependence: null
           changes:
             - type: armor
               value:
@@ -1745,12 +1721,12 @@ items:
         sort: 0
         flags: {}
         _stats:
-          coreVersion: '14.360'
+          coreVersion: '14.365'
           systemId: daggerheart
-          systemVersion: 2.2.1
+          systemVersion: 2.5.4
           lastModifiedBy: pQzNfYJpGL2Gy8DA
-          createdTime: 1777703634314
-          modifiedTime: 1777703634314
+          createdTime: 1784789896915
+          modifiedTime: 1784789896915
           compendiumSource: null
           duplicateSource: null
           exportSource: null
@@ -1947,11 +1923,11 @@ items:
     sort: 3400000
     flags: {}
     _stats:
-      coreVersion: '14.360'
+      coreVersion: '14.365'
       systemId: daggerheart
-      systemVersion: 2.2.1
-      createdTime: 1777703634314
-      modifiedTime: 1777703634314
+      systemVersion: 2.5.4
+      createdTime: 1784789896916
+      modifiedTime: 1784789896916
       lastModifiedBy: pQzNfYJpGL2Gy8DA
       exportSource: null
       compendiumSource: null
@@ -1964,11 +1940,7 @@ items:
         _id: zAEaETYSOE2fmcyB
         type: base
         system:
-          rangeDependence:
-            enabled: false
-            type: withinRange
-            target: hostile
-            range: melee
+          rangeDependence: null
           changes: []
           duration:
             description: ''
@@ -1986,12 +1958,12 @@ items:
         sort: 0
         flags: {}
         _stats:
-          coreVersion: '14.360'
+          coreVersion: '14.365'
           systemId: daggerheart
-          systemVersion: 2.2.1
+          systemVersion: 2.5.4
           lastModifiedBy: pQzNfYJpGL2Gy8DA
-          createdTime: 1777703634315
-          modifiedTime: 1777703634315
+          createdTime: 1784789896916
+          modifiedTime: 1784789896916
           compendiumSource: null
           duplicateSource: null
           exportSource: null
@@ -2007,11 +1979,7 @@ items:
         _id: gfZTHSgwYSDKsePW
         type: base
         system:
-          rangeDependence:
-            enabled: false
-            type: withinRange
-            target: hostile
-            range: melee
+          rangeDependence: null
           changes: []
           duration:
             description: ''
@@ -2031,12 +1999,12 @@ items:
         sort: 0
         flags: {}
         _stats:
-          coreVersion: '14.360'
+          coreVersion: '14.365'
           systemId: daggerheart
-          systemVersion: 2.2.1
+          systemVersion: 2.5.4
           lastModifiedBy: pQzNfYJpGL2Gy8DA
-          createdTime: 1777703634315
-          modifiedTime: 1777703634315
+          createdTime: 1784789896917
+          modifiedTime: 1784789896917
           compendiumSource: null
           duplicateSource: null
           exportSource: null
@@ -2061,11 +2029,11 @@ items:
     sort: 0
     flags: {}
     _stats:
-      coreVersion: '14.360'
+      coreVersion: '14.365'
       systemId: daggerheart
-      systemVersion: 2.2.1
-      createdTime: 1777703634315
-      modifiedTime: 1777703634315
+      systemVersion: 2.5.4
+      createdTime: 1784789896917
+      modifiedTime: 1784789896917
       lastModifiedBy: pQzNfYJpGL2Gy8DA
       exportSource: null
       compendiumSource: null
@@ -2087,11 +2055,11 @@ items:
     sort: 0
     flags: {}
     _stats:
-      coreVersion: '14.360'
+      coreVersion: '14.365'
       systemId: daggerheart
-      systemVersion: 2.2.1
-      createdTime: 1777703634315
-      modifiedTime: 1777703634315
+      systemVersion: 2.5.4
+      createdTime: 1784789896917
+      modifiedTime: 1784789896917
       lastModifiedBy: pQzNfYJpGL2Gy8DA
       exportSource: null
       compendiumSource: null
@@ -2113,11 +2081,11 @@ items:
     sort: 0
     flags: {}
     _stats:
-      coreVersion: '14.360'
+      coreVersion: '14.365'
       systemId: daggerheart
-      systemVersion: 2.2.1
-      createdTime: 1777703634315
-      modifiedTime: 1777703634315
+      systemVersion: 2.5.4
+      createdTime: 1784789896917
+      modifiedTime: 1784789896917
       lastModifiedBy: pQzNfYJpGL2Gy8DA
       exportSource: null
       compendiumSource: null
@@ -2152,6 +2120,7 @@ items:
         max: 4
       attribution: {}
       quantity: 1
+      resource: null
     effects:
       - name: Flexible
         description: +1 to Evasion
@@ -2159,11 +2128,7 @@ items:
         _id: BFwU3ErPaajUSMUz
         type: base
         system:
-          rangeDependence:
-            enabled: false
-            type: withinRange
-            target: hostile
-            range: melee
+          rangeDependence: null
           changes:
             - key: system.evasion
               value: 1
@@ -2186,12 +2151,12 @@ items:
         sort: 0
         flags: {}
         _stats:
-          coreVersion: '14.360'
+          coreVersion: '14.365'
           systemId: daggerheart
-          systemVersion: 2.2.1
+          systemVersion: 2.5.4
           lastModifiedBy: pQzNfYJpGL2Gy8DA
-          createdTime: 1777703634316
-          modifiedTime: 1777703634316
+          createdTime: 1784789896918
+          modifiedTime: 1784789896918
           compendiumSource: null
           duplicateSource: null
           exportSource: null
@@ -2209,11 +2174,11 @@ items:
     sort: 0
     flags: {}
     _stats:
-      coreVersion: '14.360'
+      coreVersion: '14.365'
       systemId: daggerheart
-      systemVersion: 2.2.1
-      createdTime: 1777703634316
-      modifiedTime: 1777703634316
+      systemVersion: 2.5.4
+      createdTime: 1784789896918
+      modifiedTime: 1784789896918
       lastModifiedBy: pQzNfYJpGL2Gy8DA
       exportSource: null
       compendiumSource: null
@@ -2299,11 +2264,11 @@ items:
     sort: 0
     flags: {}
     _stats:
-      coreVersion: '14.360'
+      coreVersion: '14.365'
       systemId: daggerheart
-      systemVersion: 2.2.1
-      createdTime: 1777703634316
-      modifiedTime: 1777703634316
+      systemVersion: 2.5.4
+      createdTime: 1784789896918
+      modifiedTime: 1784789896918
       lastModifiedBy: pQzNfYJpGL2Gy8DA
       exportSource: null
       compendiumSource: null
@@ -2461,11 +2426,11 @@ items:
       domainTouched: null
     flags: {}
     _stats:
-      coreVersion: '14.360'
+      coreVersion: '14.365'
       systemId: daggerheart
-      systemVersion: 2.2.1
-      createdTime: 1777703634316
-      modifiedTime: 1777703634316
+      systemVersion: 2.5.4
+      createdTime: 1784789896918
+      modifiedTime: 1784789896918
       lastModifiedBy: pQzNfYJpGL2Gy8DA
       exportSource: null
       compendiumSource: null
@@ -2480,11 +2445,7 @@ items:
         _id: klUaU5KeQCu7KCBI
         type: base
         system:
-          rangeDependence:
-            enabled: false
-            type: withinRange
-            target: hostile
-            range: melee
+          rangeDependence: null
           changes: []
           duration:
             description: ''
@@ -2504,12 +2465,12 @@ items:
         sort: 0
         flags: {}
         _stats:
-          coreVersion: '14.360'
+          coreVersion: '14.365'
           systemId: daggerheart
-          systemVersion: 2.2.1
+          systemVersion: 2.5.4
           lastModifiedBy: pQzNfYJpGL2Gy8DA
-          createdTime: 1777703634316
-          modifiedTime: 1777703634316
+          createdTime: 1784789896918
+          modifiedTime: 1784789896918
           compendiumSource: null
           duplicateSource: null
           exportSource: null
@@ -2525,11 +2486,7 @@ items:
         _id: wnrHSvvB6pydTVcC
         type: base
         system:
-          rangeDependence:
-            enabled: false
-            type: withinRange
-            target: hostile
-            range: melee
+          rangeDependence: null
           changes: []
           duration:
             description: ''
@@ -2549,12 +2506,12 @@ items:
         sort: 0
         flags: {}
         _stats:
-          coreVersion: '14.360'
+          coreVersion: '14.365'
           systemId: daggerheart
-          systemVersion: 2.2.1
+          systemVersion: 2.5.4
           lastModifiedBy: pQzNfYJpGL2Gy8DA
-          createdTime: 1777703634316
-          modifiedTime: 1777703634316
+          createdTime: 1784789896918
+          modifiedTime: 1784789896918
           compendiumSource: null
           duplicateSource: null
           exportSource: null
@@ -2653,16 +2610,17 @@ items:
             trait: null
       attribution: {}
       quantity: 1
+      resource: null
     effects: []
     folder: null
     sort: 0
     flags: {}
     _stats:
-      coreVersion: '14.360'
+      coreVersion: '14.365'
       systemId: daggerheart
-      systemVersion: 2.2.1
-      createdTime: 1777703634317
-      modifiedTime: 1777703634317
+      systemVersion: 2.5.4
+      createdTime: 1784789896919
+      modifiedTime: 1784789896919
       lastModifiedBy: pQzNfYJpGL2Gy8DA
       exportSource: null
       compendiumSource: null
@@ -2756,16 +2714,17 @@ items:
             trait: null
       attribution: {}
       quantity: 1
+      resource: null
     effects: []
     folder: null
     sort: 0
     flags: {}
     _stats:
-      coreVersion: '14.360'
+      coreVersion: '14.365'
       systemId: daggerheart
-      systemVersion: 2.2.1
-      createdTime: 1777703634317
-      modifiedTime: 1777703634317
+      systemVersion: 2.5.4
+      createdTime: 1784789896919
+      modifiedTime: 1784789896919
       lastModifiedBy: pQzNfYJpGL2Gy8DA
       exportSource: null
       compendiumSource: null
@@ -2870,11 +2829,11 @@ items:
       domainTouched: null
     flags: {}
     _stats:
-      coreVersion: '14.360'
+      coreVersion: '14.365'
       systemId: daggerheart
-      systemVersion: 2.2.1
-      createdTime: 1777703634317
-      modifiedTime: 1777703634317
+      systemVersion: 2.5.4
+      createdTime: 1784789896919
+      modifiedTime: 1784789896919
       lastModifiedBy: pQzNfYJpGL2Gy8DA
       exportSource: null
       compendiumSource: null
@@ -2987,11 +2946,11 @@ items:
       domainTouched: null
     flags: {}
     _stats:
-      coreVersion: '14.360'
+      coreVersion: '14.365'
       systemId: daggerheart
-      systemVersion: 2.2.1
-      createdTime: 1777703634317
-      modifiedTime: 1777703634317
+      systemVersion: 2.5.4
+      createdTime: 1784789896919
+      modifiedTime: 1784789896919
       lastModifiedBy: pQzNfYJpGL2Gy8DA
       exportSource: null
       compendiumSource: null
@@ -3006,11 +2965,7 @@ items:
         _id: bRJy0MoIPQEQOMzZ
         type: base
         system:
-          rangeDependence:
-            enabled: false
-            type: withinRange
-            target: hostile
-            range: melee
+          rangeDependence: null
           changes: []
           duration:
             description: ''
@@ -3083,12 +3038,12 @@ items:
         sort: 0
         flags: {}
         _stats:
-          coreVersion: '14.360'
+          coreVersion: '14.365'
           systemId: daggerheart
-          systemVersion: 2.2.1
+          systemVersion: 2.5.4
           lastModifiedBy: pQzNfYJpGL2Gy8DA
-          createdTime: 1777703634317
-          modifiedTime: 1777703634317
+          createdTime: 1784789896919
+          modifiedTime: 1784789896919
           compendiumSource: null
           duplicateSource: null
           exportSource: null
@@ -3108,11 +3063,7 @@ effects:
     _id: XwkHeDRchiusw0uk
     type: base
     system:
-      rangeDependence:
-        enabled: false
-        type: withinRange
-        target: hostile
-        range: melee
+      rangeDependence: null
       changes:
         - key: system.bonuses.rally
           value: d6
@@ -3135,11 +3086,11 @@ effects:
     sort: 0
     flags: {}
     _stats:
-      coreVersion: '14.360'
+      coreVersion: '14.365'
       systemId: daggerheart
-      systemVersion: 2.2.1
-      createdTime: 1777703634317
-      modifiedTime: 1777703634317
+      systemVersion: 2.5.4
+      createdTime: 1784789896919
+      modifiedTime: 1784789896919
       lastModifiedBy: pQzNfYJpGL2Gy8DA
       compendiumSource: null
       duplicateSource: null
@@ -3157,11 +3108,11 @@ effects:
 folder: null
 flags: {}
 _stats:
-  coreVersion: '14.360'
+  coreVersion: '14.365'
   systemId: daggerheart
-  systemVersion: 2.2.1
-  createdTime: 1777703634310
-  modifiedTime: 1777703634310
+  systemVersion: 2.5.4
+  createdTime: 1784789896911
+  modifiedTime: 1784789896911
   lastModifiedBy: pQzNfYJpGL2Gy8DA
   exportSource: null
   compendiumSource: null

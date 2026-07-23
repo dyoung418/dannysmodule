@@ -3,7 +3,7 @@ name: Yawning Portal
 _id: myO51NQeBbx5MK8u
 navigation: false
 navOrder: 0
-thumb: worlds/kingmaker/assets/scenes/thumb-LaZPYNJ_WXlYhEh3V3DHtg.webp
+thumb: worlds/kingmaker/assets/scenes/thumb-2Y_coW6vLPNPI4VFhiBk1w.webp
 width: 6750
 height: 4950
 padding: 0.25
@@ -25,7 +25,7 @@ grid:
   units: ft
 tokenVision: true
 fog:
-  mode: 1
+  mode: 2
   colors:
     explored: null
     unexplored: null
@@ -13392,11 +13392,11 @@ regions:
         disabled: false
         flags: {}
         _stats:
-          coreVersion: '14.364'
+          coreVersion: '14.365'
           systemId: pf2e
           systemVersion: 8.3.0
-          createdTime: 1784179257711
-          modifiedTime: 1784179257711
+          createdTime: 1784740791533
+          modifiedTime: 1784740791533
           lastModifiedBy: txZjek5EOiCBHPoz
           compendiumSource: null
           duplicateSource: null
@@ -13507,11 +13507,11 @@ regions:
         disabled: false
         flags: {}
         _stats:
-          coreVersion: '14.364'
+          coreVersion: '14.365'
           systemId: pf2e
           systemVersion: 8.3.0
-          createdTime: 1784179257711
-          modifiedTime: 1784179257711
+          createdTime: 1784740791533
+          modifiedTime: 1784740791533
           lastModifiedBy: txZjek5EOiCBHPoz
           compendiumSource: null
           duplicateSource: null
@@ -13526,7 +13526,7 @@ regions:
     ownership:
       default: 0
     _key: '!scenes.regions!myO51NQeBbx5MK8u.FTJ51CLGapJH3Gl5'
-  - color: '#5b28cc'
+  - color: '#7d28cc'
     elevation:
       bottom: 0
       top: 40
@@ -13544,67 +13544,7 @@ regions:
     highlightMode: shapes
     displayMeasurements: false
     hidden: false
-    name: Stair outdoors to 2nd floor
-    _id: SK2jJMvBOUrzKL9E
-    shapes:
-      - type: rectangle
-        x: 7800
-        'y': 4725
-        width: 193
-        height: 226
-        hole: false
-        anchorX: 0
-        anchorY: 0
-        rotation: 0
-        gridBased: false
-    behaviors:
-      - name: Change Level
-        type: changeLevel
-        _id: gdHsOJQzShoUagom
-        system:
-          movementActions: []
-        disabled: false
-        flags: {}
-        _stats:
-          coreVersion: '14.364'
-          systemId: pf2e
-          systemVersion: 8.3.0
-          createdTime: 1784179257712
-          modifiedTime: 1784179257712
-          lastModifiedBy: txZjek5EOiCBHPoz
-          compendiumSource: null
-          duplicateSource: null
-          exportSource: null
-        _key: >-
-          !scenes.regions.behaviors!myO51NQeBbx5MK8u.SK2jJMvBOUrzKL9E.gdHsOJQzShoUagom
-    locked: false
-    flags:
-      pf2e:
-        areaShape: null
-    _shapeConstraints: null
-    ownership:
-      default: 0
-    _key: '!scenes.regions!myO51NQeBbx5MK8u.SK2jJMvBOUrzKL9E'
-  - color: '#7d28cc'
-    elevation:
-      bottom: 0
-      top: 60
-      topInclusive: true
-    levels:
-      - defaultLevel0000
-      - qRErgiuJXDwdmf9x
-      - TB3C1vrjlOvJNzz3
-    restriction:
-      enabled: false
-      type: move
-      priority: 0
-    attachment:
-      token: null
-    visibility: 4
-    highlightMode: shapes
-    displayMeasurements: false
-    hidden: false
-    name: Stairs - spiral central
+    name: Stairs - 1st to 2nd
     _id: MZE7aMjfy5bVN03A
     shapes:
       - type: rectangle
@@ -13612,6 +13552,46 @@ regions:
         'y': 4800
         width: 300
         height: 300
+        hole: false
+        anchorX: 0
+        anchorY: 0
+        rotation: 0
+        gridBased: false
+      - type: rectangle
+        x: 6600
+        'y': 5100
+        width: 300
+        height: 300
+        hole: false
+        anchorX: 0
+        anchorY: 0
+        rotation: 0
+        gridBased: false
+      - type: rectangle
+        x: 7800
+        'y': 4725
+        width: 225
+        height: 375
+        hole: false
+        anchorX: 0
+        anchorY: 0
+        rotation: 0
+        gridBased: false
+      - type: rectangle
+        x: 7500
+        'y': 4200
+        width: 300
+        height: 300
+        hole: false
+        anchorX: 0
+        anchorY: 0
+        rotation: 0
+        gridBased: false
+      - type: rectangle
+        x: 2100
+        'y': 4200
+        width: 225
+        height: 450
         hole: false
         anchorX: 0
         anchorY: 0
@@ -13626,11 +13606,11 @@ regions:
         disabled: false
         flags: {}
         _stats:
-          coreVersion: '14.364'
+          coreVersion: '14.365'
           systemId: pf2e
           systemVersion: 8.3.0
-          createdTime: 1784179257712
-          modifiedTime: 1784179257712
+          createdTime: 1784740791533
+          modifiedTime: 1784740791533
           lastModifiedBy: txZjek5EOiCBHPoz
           compendiumSource: null
           duplicateSource: null
@@ -13645,10 +13625,57 @@ regions:
     ownership:
       default: 0
     _key: '!scenes.regions!myO51NQeBbx5MK8u.MZE7aMjfy5bVN03A'
-  - name: Stairs - back
-    _id: IODwsdnDUiD4U5Io
-    color: '#28ccb0'
+  - color: '#2862cc'
+    elevation:
+      bottom: 20
+      top: 60
+      topInclusive: false
+    levels:
+      - qRErgiuJXDwdmf9x
+      - TB3C1vrjlOvJNzz3
+    restriction:
+      enabled: false
+      type: move
+      priority: 0
+    attachment:
+      token: null
+    visibility: 4
+    highlightMode: shapes
+    displayMeasurements: false
+    hidden: false
+    name: Stairs - 2nd to 3rd
+    _id: FUnKVF2UlWn1POd7
     shapes:
+      - type: rectangle
+        x: 4200
+        'y': 4800
+        width: 300
+        height: 300
+        hole: false
+        anchorX: 0
+        anchorY: 0
+        rotation: 0
+        gridBased: false
+      - type: rectangle
+        x: 6600
+        'y': 5100
+        width: 300
+        height: 300
+        hole: false
+        anchorX: 0
+        anchorY: 0
+        rotation: 0
+        gridBased: false
+      - type: rectangle
+        x: 7500
+        'y': 4200
+        width: 300
+        height: 300
+        hole: false
+        anchorX: 0
+        anchorY: 0
+        rotation: 0
+        gridBased: false
       - type: rectangle
         x: 2100
         'y': 4200
@@ -13659,112 +13686,35 @@ regions:
         anchorY: 0
         rotation: 0
         gridBased: false
-    elevation:
-      bottom: 0
-      top: 60
-      topInclusive: true
-    levels:
-      - defaultLevel0000
-      - qRErgiuJXDwdmf9x
-      - TB3C1vrjlOvJNzz3
-    restriction:
-      enabled: false
-      type: move
-      priority: 0
-    attachment:
-      token: null
     behaviors:
       - name: Change Level
         type: changeLevel
-        _id: Gcg49nOgSBXqkTaR
+        _id: iPT5Ep2oPA1Lrkv8
         system:
           movementActions: []
         disabled: false
         flags: {}
         _stats:
-          coreVersion: '14.364'
+          coreVersion: '14.365'
           systemId: pf2e
           systemVersion: 8.3.0
-          createdTime: 1784179257712
-          modifiedTime: 1784179257712
+          createdTime: 1784740791495
+          modifiedTime: 1784740791495
           lastModifiedBy: txZjek5EOiCBHPoz
           compendiumSource: null
           duplicateSource: null
           exportSource: null
         _key: >-
-          !scenes.regions.behaviors!myO51NQeBbx5MK8u.IODwsdnDUiD4U5Io.Gcg49nOgSBXqkTaR
-    visibility: 4
-    highlightMode: shapes
-    displayMeasurements: false
-    hidden: false
+          !scenes.regions.behaviors!myO51NQeBbx5MK8u.FUnKVF2UlWn1POd7.iPT5Ep2oPA1Lrkv8
     locked: false
+    ownership:
+      default: 0
+      txZjek5EOiCBHPoz: 3
     flags:
       pf2e:
         areaShape: null
     _shapeConstraints: null
-    ownership:
-      default: 0
-    _key: '!scenes.regions!myO51NQeBbx5MK8u.IODwsdnDUiD4U5Io'
-  - name: Stairs - spiral right
-    _id: UFC92R5A43dkMoE1
-    color: '#a8cc28'
-    shapes:
-      - type: rectangle
-        x: 7486.9582969734765
-        'y': 4207.448589715405
-        width: 293
-        height: 276
-        hole: false
-        anchorX: 0
-        anchorY: 0
-        rotation: 0
-        gridBased: false
-    elevation:
-      bottom: 0
-      top: 60
-      topInclusive: true
-    levels:
-      - defaultLevel0000
-      - qRErgiuJXDwdmf9x
-      - TB3C1vrjlOvJNzz3
-    restriction:
-      enabled: false
-      type: move
-      priority: 0
-    attachment:
-      token: null
-    behaviors:
-      - name: Change Level
-        type: changeLevel
-        _id: a9OKDeX50LCAMk8H
-        system:
-          movementActions: []
-        disabled: false
-        flags: {}
-        _stats:
-          coreVersion: '14.364'
-          systemId: pf2e
-          systemVersion: 8.3.0
-          createdTime: 1784179257712
-          modifiedTime: 1784179257712
-          lastModifiedBy: txZjek5EOiCBHPoz
-          compendiumSource: null
-          duplicateSource: null
-          exportSource: null
-        _key: >-
-          !scenes.regions.behaviors!myO51NQeBbx5MK8u.UFC92R5A43dkMoE1.a9OKDeX50LCAMk8H
-    visibility: 4
-    highlightMode: shapes
-    displayMeasurements: false
-    hidden: false
-    locked: false
-    flags:
-      pf2e:
-        areaShape: null
-    _shapeConstraints: null
-    ownership:
-      default: 0
-    _key: '!scenes.regions!myO51NQeBbx5MK8u.UFC92R5A43dkMoE1'
+    _key: '!scenes.regions!myO51NQeBbx5MK8u.FUnKVF2UlWn1POd7'
 tiles: []
 walls:
   - levels:
@@ -33649,6 +33599,12 @@ flags:
     revealRadius: 0
     gridRevealRadius: 0
     schemaVersion: 2.2.0
+    tokenReveal:
+      units: spaces
+      value: null
+    gridReveal:
+      units: spaces
+      value: 0
   pf2e:
     rulesBasedVision: null
     hearingRange: null
@@ -33659,11 +33615,11 @@ flags:
       setting: default
     sceneEnvironments: []
 _stats:
-  coreVersion: '14.364'
+  coreVersion: '14.365'
   systemId: pf2e
   systemVersion: 8.3.0
-  createdTime: 1784179257686
-  modifiedTime: 1784179257686
+  createdTime: 1784740791495
+  modifiedTime: 1784740791495
   lastModifiedBy: txZjek5EOiCBHPoz
   exportSource: null
   compendiumSource: null

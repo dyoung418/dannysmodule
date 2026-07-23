@@ -2,7 +2,7 @@ folder: 1LOPSyo3SGiD9SB8
 name: Warewagon - needs walls and lights
 _id: GE3YoSHDmmF9uUBc
 navigation: false
-thumb: worlds/kingmaker/assets/scenes/thumb-igEvaHoMG7eTd9M_kdp9rA.webp
+thumb: worlds/kingmaker/assets/scenes/thumb-7A-SvJCQckpnA6sS5zWV9w.webp
 width: 1426
 height: 1426
 padding: 0.25
@@ -2112,11 +2112,11 @@ regions:
         disabled: false
         flags: {}
         _stats:
-          coreVersion: '14.364'
+          coreVersion: '14.365'
           systemId: pf2e
           systemVersion: 8.3.0
-          createdTime: 1784179257659
-          modifiedTime: 1784179257659
+          createdTime: 1784740791456
+          modifiedTime: 1784740791456
           lastModifiedBy: txZjek5EOiCBHPoz
           compendiumSource: null
           duplicateSource: null
@@ -2130,6 +2130,7 @@ regions:
     _shapeConstraints: null
     ownership:
       default: 0
+      txZjek5EOiCBHPoz: 3
     _key: '!scenes.regions!GE3YoSHDmmF9uUBc.tmI4kRcTzioHrW6D'
   - color: '#cc2f28'
     elevation:
@@ -2171,11 +2172,11 @@ regions:
         disabled: false
         flags: {}
         _stats:
-          coreVersion: '14.364'
+          coreVersion: '14.365'
           systemId: pf2e
           systemVersion: 8.3.0
-          createdTime: 1784179257660
-          modifiedTime: 1784179257660
+          createdTime: 1784740791456
+          modifiedTime: 1784740791456
           lastModifiedBy: txZjek5EOiCBHPoz
           compendiumSource: null
           duplicateSource: null
@@ -2189,6 +2190,7 @@ regions:
     _shapeConstraints: null
     ownership:
       default: 0
+      txZjek5EOiCBHPoz: 3
     _key: '!scenes.regions!GE3YoSHDmmF9uUBc.5JzxTXGDTSbOZYtG'
   - color: '#38cc28'
     elevation:
@@ -2240,11 +2242,11 @@ regions:
         disabled: false
         flags: {}
         _stats:
-          coreVersion: '14.364'
+          coreVersion: '14.365'
           systemId: pf2e
           systemVersion: 8.3.0
-          createdTime: 1784179257660
-          modifiedTime: 1784179257660
+          createdTime: 1784740791456
+          modifiedTime: 1784740791456
           lastModifiedBy: txZjek5EOiCBHPoz
           compendiumSource: null
           duplicateSource: null
@@ -2258,6 +2260,7 @@ regions:
     _shapeConstraints: null
     ownership:
       default: 0
+      txZjek5EOiCBHPoz: 3
     _key: '!scenes.regions!GE3YoSHDmmF9uUBc.gfQeESkcLrHHTSGh'
   - color: '#c2cc28'
     elevation:
@@ -2316,11 +2319,11 @@ regions:
         disabled: false
         flags: {}
         _stats:
-          coreVersion: '14.364'
+          coreVersion: '14.365'
           systemId: pf2e
           systemVersion: 8.3.0
-          createdTime: 1784179257660
-          modifiedTime: 1784179257660
+          createdTime: 1784740791457
+          modifiedTime: 1784740791457
           lastModifiedBy: txZjek5EOiCBHPoz
           compendiumSource: null
           duplicateSource: null
@@ -2334,6 +2337,7 @@ regions:
     _shapeConstraints: null
     ownership:
       default: 0
+      txZjek5EOiCBHPoz: 3
     _key: '!scenes.regions!GE3YoSHDmmF9uUBc.eoD9L93bFaWtEvrX'
 tiles: []
 walls:
@@ -7299,11 +7303,11 @@ flags:
     environmentTypes: []
     syncDarkness: default
 _stats:
-  coreVersion: '14.364'
+  coreVersion: '14.365'
   systemId: pf2e
   systemVersion: 8.3.0
-  createdTime: 1784179257654
-  modifiedTime: 1784179257654
+  createdTime: 1784740791449
+  modifiedTime: 1784740791449
   lastModifiedBy: txZjek5EOiCBHPoz
   exportSource: null
   compendiumSource: null
